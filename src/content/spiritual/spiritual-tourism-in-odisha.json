@@ -1,0 +1,355 @@
+{
+ "slug": "spiritual-tourism-in-odisha",
+ "kind": "state",
+ "short": "Spiritual Odisha",
+ "title": "Spiritual Tourism in Odisha: Puri, Bhubaneswar and Konark",
+ "seoTitle": "Spiritual Places in Odisha: Puri, Bhubaneswar & Konark | Kudozz Club",
+ "metaDescription": "Plan a spiritual trip in Odisha: the Jagannath Temple and Rath Yatra in Puri, Bhubaneswar's temples, Konark, the Jain caves and the Buddhist Diamond Triangle.",
+ "description": "A guide to spiritual tourism in Odisha: the Jagannath Temple in Puri and its Rath Yatra and Mahaprasad, Bhubaneswar's Lingaraj and old temples, the Sun Temple at Konark, the Jain caves of Udayagiri and Khandagiri, Dhauli, the Buddhist sites of Ratnagiri, Udayagiri and Lalitgiri, Devi shrines such as Biraja and Tara Tarini, entry rules and a golden triangle route.",
+ "dek": "Odisha's golden triangle of Puri, Bhubaneswar and Konark holds one of the four dhams, a city of temples and a UNESCO sun temple.",
+ "primaryKeyword": "spiritual places in Odisha",
+ "secondaryKeywords": [
+  "religious places in Odisha",
+  "temples in Odisha",
+  "pilgrimage places in Odisha"
+ ],
+ "searchIntent": "State discovery/planning",
+ "activities": [
+  "temple visit",
+  "pilgrimage",
+  "festivals",
+  "heritage"
+ ],
+ "terrain": [
+  "temple town",
+  "coast"
+ ],
+ "regions": [
+  "Odisha",
+  "East India"
+ ],
+ "seasons": [
+  "winter",
+  "spring",
+  "monsoon"
+ ],
+ "travellers": [
+  "families",
+  "senior travellers",
+  "couples"
+ ],
+ "tags": [
+  "Odisha",
+  "Puri",
+  "Jagannath",
+  "Bhubaneswar"
+ ],
+ "hero": {
+  "src": "/images/spiritual/spiritual-odisha-lingaraj-bhubaneswar.webp",
+  "alt": "Spires of the Lingaraj Temple complex in Bhubaneswar, Odisha"
+ },
+ "parent": {
+  "label": "Spiritual Tourism",
+  "href": "/spiritual-tourism"
+ },
+ "about": {
+  "type": "TouristDestination",
+  "name": "Spiritual Odisha",
+  "containedIn": "Odisha"
+ },
+ "intro": [
+  "Puri's Jagannath Temple, one of the four dhams of India, is the heart of Odisha's religious life, and its annual Rath Yatra is one of the country's great festivals. An hour away, Bhubaneswar is known as a city of temples, with the Lingaraj and dozens of older shrines in the Kalinga style, and the Sun Temple at Konark is a UNESCO World Heritage Site.",
+  "Odisha also has important Jain and Buddhist heritage: the rock-cut caves of Udayagiri and Khandagiri, the Shanti Stupa at Dhauli near the site of the Kalinga war, and the monastic ruins of Ratnagiri, Udayagiri and Lalitgiri."
+ ],
+ "quickAnswer": "Odisha's main spiritual destinations are the Jagannath Temple in Puri (which admits only Hindus) with its Rath Yatra in June or July, the Lingaraj and other temples of Bhubaneswar, the Sun Temple at Konark, the Jain caves of Udayagiri and Khandagiri, Dhauli, and the Buddhist sites of Ratnagiri, Udayagiri and Lalitgiri. Puri, Konark and Bhubaneswar are within about 65 km of each other. October to March is the best time.",
+ "takeaways": [
+  "Puri, Bhubaneswar and Konark form a golden triangle within about 65 km of each other.",
+  "The Jagannath Temple and Lingaraj admit only Hindus; Lingaraj has a viewing platform outside.",
+  "The Rath Yatra falls in June or July each year.",
+  "Konark's Sun Temple is a UNESCO site and a monument, not an active temple.",
+  "Ratnagiri, Udayagiri and Lalitgiri are major Buddhist sites north of Bhubaneswar."
+ ],
+ "sections": [
+  {
+   "id": "places",
+   "heading": "Main spiritual places",
+   "table": {
+    "columns": [
+     "Place",
+     "Tradition",
+     "Known for",
+     "Our guide"
+    ],
+    "rows": [
+     [
+      "Puri",
+      "Hindu",
+      "Jagannath Temple, Rath Yatra, Mahaprasad",
+      "Puri guide"
+     ],
+     [
+      "Bhubaneswar",
+      "Hindu",
+      "Lingaraj, Mukteswar, Rajarani",
+      "Bhubaneswar guide"
+     ],
+     [
+      "Konark",
+      "Hindu heritage",
+      "13th-century Sun Temple (UNESCO)",
+      "Konark guide"
+     ],
+     [
+      "Udayagiri and Khandagiri",
+      "Jain",
+      "Rock-cut caves of the 2nd century BCE",
+      "Things to do in Bhubaneswar"
+     ],
+     [
+      "Dhauli",
+      "Buddhist",
+      "Shanti Stupa; Ashokan rock edicts",
+      "Covered here"
+     ],
+     [
+      "Ratnagiri, Udayagiri, Lalitgiri",
+      "Buddhist",
+      "Monastic ruins and stupas",
+      "Covered here"
+     ],
+     [
+      "Jajpur and Tara Tarini",
+      "Hindu",
+      "Biraja and Tara Tarini Devi shrines",
+      "Covered here"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "highlights",
+   "heading": "Highlights",
+   "items": [
+    {
+     "name": "Puri",
+     "body": [
+      "The Jagannath Temple, built in the 12th century, with its kitchen and Ananda Bazar, where Mahaprasad is sold. Non-Hindus can view the temple from outside."
+     ],
+     "links": [
+      {
+       "label": "Puri guide",
+       "href": "/blog/puri-travel-guide"
+      },
+      {
+       "label": "Things to do in Puri",
+       "href": "/blog/things-to-do-in-puri"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/odisha/puri/jagannath-temple-puri.webp",
+      "alt": "The Jagannath Temple in Puri, Odisha",
+      "caption": "Jagannath Temple, Puri"
+     }
+    },
+    {
+     "name": "Bhubaneswar",
+     "body": [
+      "The 11th-century Lingaraj and a trail of older temples, including Mukteswar and Rajarani."
+     ],
+     "links": [
+      {
+       "label": "Bhubaneswar guide",
+       "href": "/blog/bhubaneswar-travel-guide"
+      },
+      {
+       "label": "Things to do in Bhubaneswar",
+       "href": "/blog/things-to-do-in-bhubaneswar"
+      }
+     ]
+    },
+    {
+     "name": "Konark",
+     "body": [
+      "The Sun Temple, carved as a chariot with stone wheels, built in the 13th century."
+     ],
+     "links": [
+      {
+       "label": "Konark guide",
+       "href": "/blog/konark-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Rath Yatra",
+     "body": [
+      "Jagannath, Balabhadra and Subhadra ride on three chariots from the temple to the Gundicha temple in Ashadha (June or July)."
+     ],
+     "links": [
+      {
+       "label": "Spiritual festivals in India",
+       "href": "/blog/spiritual-festivals-in-india"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "more",
+   "heading": "More sacred places",
+   "list": [
+    "Sakshi Gopal, a Krishna temple between Bhubaneswar and Puri.",
+    "The Kalijai temple on an island in Chilika lake.",
+    "Biraja at Jajpur and Tara Tarini near Berhampur, both revered Devi shrines.",
+    "Ratnagiri, Udayagiri and Lalitgiri, about 100 km north-east of Bhubaneswar."
+   ]
+  },
+  {
+   "id": "route",
+   "heading": "Suggested routes",
+   "table": {
+    "columns": [
+     "Route",
+     "Days",
+     "Places"
+    ],
+    "rows": [
+     [
+      "Golden triangle",
+      "3 to 4",
+      "Bhubaneswar, Dhauli, Puri, Konark"
+     ],
+     [
+      "Buddhist Odisha",
+      "2",
+      "Ratnagiri, Udayagiri, Lalitgiri"
+     ],
+     [
+      "Rath Yatra trip",
+      "3",
+      "Puri during the festival (book months ahead)"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "stays",
+   "heading": "Stays and tips",
+   "list": [
+    "Puri has hotels along the sea front and near the temple; book very early for the Rath Yatra.",
+    "Bhubaneswar has the widest choice and is the best base for the temples and Buddhist sites.",
+    "Mobile phones, cameras and leather items are not allowed inside the Jagannath Temple; use the lockers.",
+    "The Mahaprasad from the temple kitchen is available in the Ananda Bazar inside the complex."
+   ]
+  },
+  {
+   "id": "festivals",
+   "heading": "Festivals",
+   "list": [
+    "Rath Yatra (June or July) in Puri, followed nine days later by the return journey (Bahuda Yatra).",
+    "Snana Purnima, the ritual bathing of the deities about two weeks before the Rath Yatra.",
+    "Maha Shivratri at the Lingaraj temple.",
+    "The Konark Dance Festival in December, held against the Sun Temple."
+   ]
+  }
+ ],
+ "safety": [
+  "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+  "Dress modestly and follow each place of worship's rules on dress, phones and photography.",
+  "The Rath Yatra crowds are immense; follow police arrangements and stay with your group.",
+  "The sea at Puri has strong currents; swim only where lifeguards are present."
+ ],
+ "packing": [
+  "Light cotton clothing",
+  "Rain gear in the monsoon",
+  "Slip-on footwear",
+  "ID and hotel bookings for festival dates"
+ ],
+ "faqs": [
+  {
+   "q": "Can non-Hindus enter the Jagannath Temple in Puri?",
+   "a": "No. The temple admits only Hindus; others can view it from outside."
+  },
+  {
+   "q": "When is the Rath Yatra in Puri?",
+   "a": "In the month of Ashadha, usually June or July; check the year's date."
+  },
+  {
+   "q": "How far is Konark from Puri?",
+   "a": "About 35 km along the coast."
+  },
+  {
+   "q": "Is the Konark Sun Temple an active temple?",
+   "a": "No. It is a protected monument and UNESCO World Heritage Site."
+  },
+  {
+   "q": "How many days do I need for Puri, Konark and Bhubaneswar?",
+   "a": "Three to four days covers the main temples comfortably."
+  },
+  {
+   "q": "What is Mahaprasad?",
+   "a": "Food offered to Jagannath and sold at the Ananda Bazar inside the temple complex."
+  }
+ ],
+ "nextSteps": [
+  {
+   "label": "Puri guide",
+   "href": "/blog/puri-travel-guide"
+  },
+  {
+   "label": "Things to do in Bhubaneswar",
+   "href": "/blog/things-to-do-in-bhubaneswar"
+  },
+  {
+   "label": "Odisha travel guide",
+   "href": "/blog/odisha-travel-guide"
+  },
+  {
+   "label": "Odisha tour packages",
+   "href": "/packages/odisha"
+  },
+  {
+   "label": "Spiritual tour packages",
+   "href": "/packages/spiritual-tours"
+  }
+ ],
+ "related": [
+  {
+   "name": "The Char Dham of India",
+   "href": "/blog/char-dham-of-india",
+   "note": "Puri and the four dhams"
+  },
+  {
+   "name": "Spiritual festivals in India",
+   "href": "/blog/spiritual-festivals-in-india",
+   "note": "the Rath Yatra"
+  },
+  {
+   "name": "Buddhist tourism in India",
+   "href": "/blog/buddhist-tourism-in-india",
+   "note": "Ratnagiri and more"
+  },
+  {
+   "name": "Heritage tourism in Odisha",
+   "href": "/blog/heritage-tourism-in-odisha",
+   "note": "forts, monuments and crafts"
+  }
+ ],
+ "places": [
+  "Puri",
+  "Bhubaneswar",
+  "Konark",
+  "Dhauli",
+  "Udayagiri",
+  "Khandagiri",
+  "Ratnagiri",
+  "Lalitgiri",
+  "Jajpur",
+  "Chilika"
+ ],
+ "styles": [
+  "spiritual-tours",
+  "family-holidays"
+ ],
+ "planDestination": "Odisha",
+ "updated": "2026-09-26"
+}

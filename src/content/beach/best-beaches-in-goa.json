@@ -1,0 +1,779 @@
+{
+ "slug": "best-beaches-in-goa",
+ "kind": "state",
+ "short": "Best beaches in Goa",
+ "title": "Best Beaches in Goa: North and South Goa Beach by Beach",
+ "seoTitle": "Best Beaches in Goa: North & South Goa, Beach by Beach | Kudozz Club",
+ "metaDescription": "The best beaches in Goa, from Arambol, Vagator and Baga in the north to Palolem, Agonda and Cola in the south, with what each is like, the season and safety rules.",
+ "description": "A beach-by-beach guide to Goa's coast: the lively beaches of north Goa (Calangute, Baga, Anjuna, Vagator, Arambol), the quieter beaches of south Goa (Palolem, Agonda, Colva, Benaulim, Cavelossim), hidden coves, turtle-nesting beaches, the best season, monsoon rules and how to choose a base.",
+ "dek": "Goa has more than thirty beaches along roughly 100 km of coast. North Goa is busy and social; south Goa is wider, calmer and slower. Here is how they compare.",
+ "primaryKeyword": "best beaches in Goa",
+ "secondaryKeywords": [
+  "beaches in Goa",
+  "Goa beaches",
+  "beach holiday Goa",
+  "beach travel in Goa",
+  "best beach in Goa for families",
+  "quiet beaches Goa"
+ ],
+ "searchIntent": "Choose beaches in Goa",
+ "activities": [
+  "beaches",
+  "water sports",
+  "nightlife",
+  "dolphin watching",
+  "kayaking",
+  "turtle nesting"
+ ],
+ "terrain": [
+  "beaches",
+  "coast",
+  "rivers"
+ ],
+ "regions": [
+  "Goa",
+  "West India",
+  "Konkan coast"
+ ],
+ "seasons": [
+  "winter",
+  "autumn",
+  "spring"
+ ],
+ "travellers": [
+  "couples",
+  "families",
+  "friends",
+  "solo"
+ ],
+ "tags": [
+  "Goa",
+  "Beaches",
+  "North Goa",
+  "South Goa"
+ ],
+ "hero": {
+  "src": "/images/beach/goa-beach-arambol-cliffs.webp",
+  "alt": "The bay at Vagator and Chapora, north Goa",
+  "caption": "Vagator"
+ },
+ "parent": {
+  "label": "Best Beach Destinations in India",
+  "href": "/blog/best-beach-destinations-in-india"
+ },
+ "about": {
+  "type": "TouristDestination",
+  "name": "Goa beaches",
+  "containedIn": "Goa"
+ },
+ "intro": [
+  "Goa, India's smallest state, lies on the Konkan coast of the Arabian Sea between Maharashtra and Karnataka. Its coastline runs for roughly 100 km, cut by the mouths of the Tiracol, Chapora, Mandovi, Zuari, Sal and Talpona rivers, and almost every stretch between them has a beach. The character changes a lot from one to the next, which is why choosing the right beach matters more in Goa than almost anywhere else in India.",
+  "The simplest split is north and south. North Goa, from Calangute up to Arambol, has the nightlife, most of the water sports and the busiest beaches. South Goa, from Colva down to Palolem and Polem, has longer, emptier sands and a slower pace. This guide compares the beaches one by one. For flights, stays, food and a full itinerary, see our Goa travel guide; for everything else to do in the state, see things to do in Goa."
+ ],
+ "quickAnswer": "The best beaches in Goa are Palolem, Agonda and Cola in south Goa for calm, scenic stays; Vagator and Anjuna for cliffs and sunsets; Arambol and Mandrem for a relaxed north Goa base; and Calangute, Baga and Candolim for water sports and nightlife. Visit from November to February. Swimming and water sports are stopped from June to September, when red flags go up across the coast.",
+ "takeaways": [
+  "North Goa (Calangute, Baga, Anjuna, Vagator, Arambol) is lively; south Goa (Colva to Palolem) is quieter.",
+  "Palolem and Agonda are the most popular south Goa beaches for couples and families who want calm water in season.",
+  "Morjim, Agonda and Galgibaga are olive ridley turtle nesting beaches, protected in the nesting season.",
+  "Beach water sports and sea swimming are suspended from June to September; lifeguards post red flags.",
+  "North to south Goa takes two hours or more by road, so choose one area as a base."
+ ],
+ "sections": [
+  {
+   "id": "compare",
+   "heading": "Goa beaches at a glance",
+   "table": {
+    "columns": [
+     "Beach",
+     "Area",
+     "Character",
+     "Best for"
+    ],
+    "rows": [
+     [
+      "Arambol",
+      "Far north",
+      "Bohemian, sunset drum circles, freshwater lake",
+      "Long stays, solo travellers"
+     ],
+     [
+      "Mandrem and Ashwem",
+      "North",
+      "Quiet, wide sands, yoga retreats",
+      "Couples, slow travel"
+     ],
+     [
+      "Morjim",
+      "North",
+      "Quiet, turtle nesting, river mouth",
+      "Nature lovers"
+     ],
+     [
+      "Vagator",
+      "North",
+      "Red cliffs, Chapora Fort, sunsets",
+      "Views, cafes"
+     ],
+     [
+      "Anjuna",
+      "North",
+      "Rocky shore, Wednesday flea market",
+      "Markets, cafes"
+     ],
+     [
+      "Baga",
+      "North",
+      "Busy, nightlife, water sports",
+      "Groups of friends"
+     ],
+     [
+      "Calangute",
+      "North",
+      "Goa's busiest beach, water sports",
+      "First-timers, families"
+     ],
+     [
+      "Candolim and Sinquerim",
+      "North",
+      "Calmer, Fort Aguada, dolphin trips",
+      "Families"
+     ],
+     [
+      "Miramar and Dona Paula",
+      "Central (Panaji)",
+      "City beach, viewpoint",
+      "Short visits"
+     ],
+     [
+      "Bogmalo",
+      "Central (near Dabolim)",
+      "Small bay, dive trips",
+      "Short stays near the airport"
+     ],
+     [
+      "Colva and Benaulim",
+      "South",
+      "Long, busy stretch near Margao",
+      "Families"
+     ],
+     [
+      "Varca, Cavelossim and Mobor",
+      "South",
+      "Wide, resort-lined, Sal river",
+      "Resort holidays"
+     ],
+     [
+      "Agonda",
+      "Far south",
+      "Long, quiet, turtle nesting",
+      "Couples, families"
+     ],
+     [
+      "Palolem and Patnem",
+      "Far south",
+      "Crescent bay, calm in season",
+      "Couples, families"
+     ],
+     [
+      "Cola and Butterfly",
+      "Far south",
+      "Hidden coves reached by track or boat",
+      "Day trips"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "north",
+   "heading": "North Goa beaches",
+   "items": [
+    {
+     "name": "Calangute",
+     "body": [
+      "Once called the queen of Goa's beaches, Calangute is now its busiest: a long, wide beach lined with shacks, water-sports counters and hotels. It is easy to reach and has lifeguards and facilities, which makes it a practical choice for first-timers and families, but expect crowds, especially on weekends and holidays."
+     ],
+     "facts": {
+      "Good for": "Water sports, first visits",
+      "Crowds": "Very busy"
+     },
+     "links": [
+      {
+       "label": "Calangute travel guide",
+       "href": "/blog/calangute-travel-guide"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/goa/calangute/calangute-beach.webp",
+      "alt": "Calangute beach, north Goa",
+      "caption": "Calangute"
+     }
+    },
+    {
+     "name": "Baga",
+     "body": [
+      "Just north of Calangute, Baga is the centre of Goa's nightlife, with Tito's Lane and beach clubs behind the sand and parasailing and jet skis on it. The Baga creek marks the northern end."
+     ],
+     "facts": {
+      "Good for": "Nightlife, groups",
+      "Crowds": "Very busy"
+     },
+     "links": [
+      {
+       "label": "Baga travel guide",
+       "href": "/blog/baga-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Candolim and Sinquerim",
+     "body": [
+      "South of Calangute, Candolim is calmer, with a long beach that ends at Sinquerim below Fort Aguada. Dolphin-spotting boats leave from here and nearby Coco Beach."
+     ],
+     "facts": {
+      "Good for": "Families, a calmer base near the action"
+     },
+     "links": [
+      {
+       "label": "Candolim travel guide",
+       "href": "/blog/candolim-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Anjuna",
+     "body": [
+      "A rocky, curving shoreline known for the Wednesday flea market and the cafes along the cliff. Swimming is limited by rocks at parts of the beach."
+     ],
+     "facts": {
+      "Good for": "Market day, cafes, sunsets"
+     },
+     "links": [
+      {
+       "label": "Anjuna travel guide",
+       "href": "/blog/anjuna-travel-guide"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/goa/goa/anjuna-beach-curlies-goa.webp",
+      "alt": "Anjuna beach, north Goa",
+      "caption": "Anjuna"
+     }
+    },
+    {
+     "name": "Vagator",
+     "body": [
+      "Red laterite cliffs frame Big Vagator and Little Vagator beaches, with the ruins of Chapora Fort on the headland above, a popular sunset viewpoint."
+     ],
+     "facts": {
+      "Good for": "Views, sunsets, photography"
+     },
+     "links": [
+      {
+       "label": "Vagator travel guide",
+       "href": "/blog/vagator-travel-guide"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/goa/vagator/chapora-fort-vagator-beach.webp",
+      "alt": "Chapora Fort above Vagator beach",
+      "caption": "Chapora Fort and Vagator"
+     }
+    },
+    {
+     "name": "Morjim",
+     "body": [
+      "A quiet beach at the mouth of the Chapora river and one of Goa's olive ridley turtle nesting sites. Parts of the beach are protected in the nesting season, roughly from November to March, with rules on lights and access."
+     ],
+     "facts": {
+      "Good for": "Quiet stays, birdwatching",
+      "Good to know": "Turtle nesting zone"
+     },
+     "links": [
+      {
+       "label": "Morjim travel guide",
+       "href": "/blog/morjim-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Mandrem and Ashwem",
+     "body": [
+      "Long, clean, uncrowded stretches with yoga retreats and simple beach huts, between Morjim and Arambol."
+     ],
+     "facts": {
+      "Good for": "Couples, yoga, slow travel"
+     },
+     "links": [
+      {
+       "label": "Mandrem travel guide",
+       "href": "/blog/mandrem-travel-guide"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/goa/mandrem/mandrem-beach.webp",
+      "alt": "Mandrem beach, north Goa",
+      "caption": "Mandrem"
+     }
+    },
+    {
+     "name": "Arambol",
+     "body": [
+      "Goa's most bohemian beach, with drum circles at sunset, a freshwater lake behind the northern headland and paragliding from the cliffs in winter. Keri (Querim) beach and Tiracol Fort lie further north."
+     ],
+     "facts": {
+      "Good for": "Solo travellers, long stays"
+     },
+     "links": [
+      {
+       "label": "Paragliding in India",
+       "href": "/blog/paragliding-in-india"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "central",
+   "heading": "Central Goa beaches",
+   "items": [
+    {
+     "name": "Miramar and Dona Paula",
+     "body": [
+      "Miramar is Panaji's city beach, at the mouth of the Mandovi. Dona Paula, on the headland between the Mandovi and Zuari, is a viewpoint rather than a swimming beach."
+     ],
+     "facts": {
+      "Good for": "An evening in Panaji"
+     },
+     "links": [
+      {
+       "label": "Panjim travel guide",
+       "href": "/blog/panjim-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Bogmalo",
+     "body": [
+      "A small bay close to Dabolim airport, used by dive schools for trips to Grande Island and nearby sites."
+     ],
+     "facts": {
+      "Good for": "A night near the airport, dive trips"
+     },
+     "links": [
+      {
+       "label": "Scuba diving in India",
+       "href": "/blog/scuba-diving-in-india"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "south",
+   "heading": "South Goa beaches",
+   "items": [
+    {
+     "name": "Colva, Benaulim and Majorda",
+     "body": [
+      "A long, continuous stretch of sand west of Margao. Colva is the busiest part, with shacks and water sports; Benaulim and Majorda are quieter."
+     ],
+     "facts": {
+      "Good for": "Families, easy access from Margao"
+     }
+    },
+    {
+     "name": "Varca, Cavelossim and Mobor",
+     "body": [
+      "Wide, clean beaches lined with larger resorts, ending at Mobor where the Sal river meets the sea. Kayak and boat trips run on the Sal backwaters."
+     ],
+     "facts": {
+      "Good for": "Resort holidays"
+     },
+     "links": [
+      {
+       "label": "Kayaking in India",
+       "href": "/blog/kayaking-in-india"
+      }
+     ]
+    },
+    {
+     "name": "Cabo de Rama, Cola and Butterfly",
+     "body": [
+      "Cabo de Rama is a clifftop fort with coves below. Cola beach has a freshwater lagoon behind the sand, reached by a rough track. Butterfly beach, north of Palolem, is reached by boat or a forest walk."
+     ],
+     "facts": {
+      "Good for": "Day trips, secluded coves",
+      "Good to know": "Rough access; check boat rules"
+     }
+    },
+    {
+     "name": "Agonda",
+     "body": [
+      "A long, quiet beach backed by palms and simple huts. Its northern end is an olive ridley nesting site protected by the forest department in season."
+     ],
+     "facts": {
+      "Good for": "Couples, families, quiet stays"
+     },
+     "links": [
+      {
+       "label": "Agonda travel guide",
+       "href": "/blog/agonda-travel-guide"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/goa/agonda/agonda-beach.webp",
+      "alt": "Agonda beach, south Goa",
+      "caption": "Agonda"
+     }
+    },
+    {
+     "name": "Palolem and Patnem",
+     "body": [
+      "Palolem is a curved bay framed by headlands, with calm water in season and kayaks and boat trips to Butterfly beach and dolphin spots. Neighbouring Patnem is smaller and quieter. Galgibaga and Polem, further south, are among Goa's emptiest beaches."
+     ],
+     "facts": {
+      "Good for": "Couples, families, kayaking"
+     },
+     "links": [
+      {
+       "label": "Palolem travel guide",
+       "href": "/blog/palolem-travel-guide"
+      },
+      {
+       "label": "Canacona travel guide",
+       "href": "/blog/canacona-travel-guide"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/goa/palolem/palolem-beach.webp",
+      "alt": "Palolem beach, south Goa",
+      "caption": "Palolem"
+     }
+    }
+   ]
+  },
+  {
+   "id": "choose",
+   "heading": "Which beach area suits you?",
+   "table": {
+    "columns": [
+     "You want",
+     "Base yourself at"
+    ],
+    "rows": [
+     [
+      "Nightlife and parties",
+      "Baga, Calangute, Anjuna, Vagator"
+     ],
+     [
+      "Water sports",
+      "Calangute, Baga, Candolim, Colva"
+     ],
+     [
+      "A quiet beach with good cafes",
+      "Mandrem, Ashwem, Morjim"
+     ],
+     [
+      "Family beach holiday",
+      "Candolim, Benaulim, Cavelossim, Palolem"
+     ],
+     [
+      "Romantic, scenic stay",
+      "Palolem, Agonda, Patnem"
+     ],
+     [
+      "Budget long stay",
+      "Arambol, Palolem, Anjuna"
+     ],
+     [
+      "Resorts and pools",
+      "Candolim, Sinquerim, Varca, Cavelossim, Mobor"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "where-to-stay",
+   "heading": "Where to stay",
+   "table": {
+    "columns": [
+     "Area",
+     "Suits"
+    ],
+    "rows": [
+     [
+      "Candolim, Calangute",
+      "First-timers and families wanting facilities"
+     ],
+     [
+      "Baga, Anjuna, Vagator",
+      "Nightlife and groups"
+     ],
+     [
+      "Mandrem, Ashwem, Morjim",
+      "Quiet, couples, yoga"
+     ],
+     [
+      "Arambol",
+      "Budget long stays"
+     ],
+     [
+      "Varca, Cavelossim, Mobor",
+      "Resort holidays"
+     ],
+     [
+      "Palolem, Patnem, Agonda",
+      "Couples and families wanting calm"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "itinerary",
+   "heading": "Suggested itinerary",
+   "table": {
+    "columns": [
+     "Day",
+     "Plan"
+    ],
+    "rows": [
+     [
+      "1",
+      "Arrive, settle into north Goa; sunset at Candolim or Sinquerim"
+     ],
+     [
+      "2",
+      "Morning dolphin trip; afternoon at Calangute or Baga for water sports"
+     ],
+     [
+      "3",
+      "Anjuna market (Wednesday) or cafes; sunset at Chapora Fort above Vagator"
+     ],
+     [
+      "4",
+      "Drive south via Panaji and Old Goa; evening at Palolem"
+     ],
+     [
+      "5",
+      "Kayak or boat to Butterfly beach; Agonda for sunset"
+     ],
+     [
+      "6",
+      "Cabo de Rama and Cola beach; depart"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "who-for",
+   "heading": "Who is it best for?",
+   "items": [
+    {
+     "name": "Couples",
+     "body": [
+      "Palolem, Agonda, Patnem, Mandrem and Ashwem for calm beaches and good cafes."
+     ]
+    },
+    {
+     "name": "Families",
+     "body": [
+      "Candolim, Benaulim and Cavelossim for gentler stretches, lifeguards and resorts."
+     ]
+    },
+    {
+     "name": "Groups of friends",
+     "body": [
+      "Baga, Anjuna and Vagator for nightlife and water sports."
+     ]
+    },
+    {
+     "name": "Solo travellers",
+     "body": [
+      "Arambol, Anjuna and Palolem, with hostels and a social scene."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "season",
+   "heading": "Best time to visit Goa's beaches",
+   "table": {
+    "columns": [
+     "Months",
+     "Beach conditions"
+    ],
+    "rows": [
+     [
+      "November to February",
+      "Peak season: calm sea, pleasant days, shacks and water sports open; busiest at Christmas and New Year"
+     ],
+     [
+      "March to May",
+      "Hot and humid; quieter; sea usually calm until the pre-monsoon"
+     ],
+     [
+      "June to September",
+      "Monsoon: rough sea; sea swimming and water sports prohibited; most shacks closed"
+     ],
+     [
+      "October",
+      "Season restarts; shacks reopen through the month"
+     ]
+    ]
+   },
+   "after": [
+    "Water sports usually restart after the monsoon, typically in September or October depending on sea conditions and permissions. Beach shacks are licensed for the season, roughly October to May."
+   ]
+  },
+  {
+   "id": "activities",
+   "heading": "Things to do on Goa's beaches",
+   "list": [
+    "Water sports: parasailing, jet skis, banana rides and speedboats at the busier beaches.",
+    "Dolphin-spotting boat trips from Sinquerim, Coco Beach and Palolem, usually in the morning.",
+    "Kayaking in the Sal backwaters and the mangroves around the Nerul and Chapora rivers.",
+    "Scuba try dives and snorkelling trips to Grande Island.",
+    "Sunset at Chapora Fort above Vagator, or Cabo de Rama in the south.",
+    "Flea markets at Anjuna (Wednesday) and night markets in the north in season."
+   ],
+   "after": [
+    "See adventure activities in Goa for water sports, kayaking, diving and treks, and things to do in Goa for forts, churches, markets and food."
+   ]
+  },
+  {
+   "id": "reach",
+   "heading": "Getting there and around",
+   "list": [
+    "Goa has two airports: Dabolim (GOI) near Vasco, closer to central and south Goa, and Manohar International at Mopa (GOX), in the north.",
+    "Madgaon (south) and Thivim (north) are the main stations on the Konkan Railway.",
+    "Getting between beaches is by taxi, app cab where available, rented scooter or car. Driving from Arambol to Palolem takes well over two hours.",
+    "Stay in one area and take day trips, rather than moving beaches every night."
+   ]
+  },
+  {
+   "id": "days",
+   "heading": "How many days?",
+   "paras": [
+    "Three to four days is enough for one area of Goa, for example north Goa's beaches and nightlife, or south Goa's quiet bays. Allow five to seven days to combine both, with a day for Old Goa, Panaji and the spice plantations."
+   ]
+  }
+ ],
+ "safety": [
+  "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+  "Goa's beach lifeguard service posts red flags on non-swimming zones and across the coast in the monsoon; red means no swimming.",
+  "Rip currents are common off long beaches such as Calangute, Baga and Colva; if caught, swim parallel to the shore.",
+  "Stay off rocks and cliff edges at Vagator, Anjuna and Dona Paula, especially in rough weather.",
+  "Goa fines drinking alcohol and cooking in the open on beaches; follow posted rules.",
+  "Respect turtle-nesting zones at Morjim, Agonda and Galgibaga: no lights, fires or digging near nests.",
+  "Use licensed water-sports operators and always wear a life jacket."
+ ],
+ "packing": [
+  "Swimwear and a light cover-up",
+  "High-SPF sunscreen and a hat",
+  "Flip-flops and a light scarf for churches and temples",
+  "Insect repellent for evenings",
+  "A reusable water bottle"
+ ],
+ "faqs": [
+  {
+   "q": "Which is the best beach in Goa?",
+   "a": "It depends on what you want: Palolem and Agonda for calm, scenic stays; Vagator for cliffs and sunsets; Calangute and Baga for water sports and nightlife; Mandrem and Ashwem for quiet."
+  },
+  {
+   "q": "Which is better for beaches, north Goa or south Goa?",
+   "a": "North Goa is livelier, with nightlife and more water sports. South Goa has wider, quieter beaches and suits couples and families wanting calm."
+  },
+  {
+   "q": "Can you swim in Goa in the monsoon?",
+   "a": "No. Sea swimming and water sports are prohibited from June to September, and lifeguards post red flags."
+  },
+  {
+   "q": "Which Goa beaches are best for families?",
+   "a": "Candolim, Benaulim, Cavelossim, Varca and Palolem, which have calmer stretches in season and good facilities."
+  },
+  {
+   "q": "Where are the turtle nesting beaches in Goa?",
+   "a": "Morjim in north Goa and Agonda and Galgibaga in south Goa are olive ridley nesting sites, protected in the nesting season."
+  },
+  {
+   "q": "How many days are enough for Goa's beaches?",
+   "a": "Three to four days for one area; five to seven days to see north and south Goa."
+  }
+ ],
+ "nextSteps": [
+  {
+   "label": "Goa travel guide",
+   "href": "/blog/goa-beaches-travel-guide"
+  },
+  {
+   "label": "Things to do in Goa",
+   "href": "/blog/things-to-do-in-goa"
+  },
+  {
+   "label": "Water sports and adventure in Goa",
+   "href": "/blog/adventure-activities-in-goa"
+  },
+  {
+   "label": "Goa 5-day itinerary",
+   "href": "/blog/goa-beaches-travel-guide#itinerary"
+  },
+  {
+   "label": "Goa tour packages",
+   "href": "/packages/goa"
+  }
+ ],
+ "related": [
+  {
+   "name": "Best beaches in Karnataka",
+   "href": "/blog/best-beaches-in-karnataka",
+   "note": "Gokarna, a short drive south"
+  },
+  {
+   "name": "Best beaches in Maharashtra",
+   "href": "/blog/best-beaches-in-maharashtra",
+   "note": "Tarkarli and the Konkan to the north"
+  },
+  {
+   "name": "Dolphin watching in India",
+   "href": "/blog/dolphin-watching-in-india",
+   "note": "boat trips from Goa and beyond"
+  },
+  {
+   "name": "Colonial-era heritage in India",
+   "href": "/blog/colonial-heritage-in-india",
+   "note": "Old Goa's churches"
+  }
+ ],
+ "places": [
+  "Arambol",
+  "Mandrem",
+  "Ashwem",
+  "Morjim",
+  "Vagator",
+  "Anjuna",
+  "Baga",
+  "Calangute",
+  "Candolim",
+  "Sinquerim",
+  "Miramar",
+  "Bogmalo",
+  "Colva",
+  "Benaulim",
+  "Varca",
+  "Cavelossim",
+  "Mobor",
+  "Cabo de Rama",
+  "Cola",
+  "Agonda",
+  "Palolem",
+  "Patnem",
+  "Galgibaga"
+ ],
+ "styles": [
+  "honeymoon",
+  "family-holidays",
+  "weekend-getaways"
+ ],
+ "planDestination": "Goa",
+ "updated": "2026-09-25"
+}

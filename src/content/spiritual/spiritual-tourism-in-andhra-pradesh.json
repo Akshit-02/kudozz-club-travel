@@ -1,0 +1,392 @@
+{
+  "slug": "spiritual-tourism-in-andhra-pradesh",
+  "kind": "state",
+  "short": "Spiritual Andhra Pradesh",
+  "title": "Spiritual Tourism in Andhra Pradesh: Tirupati, Srisailam and Srikalahasti",
+  "seoTitle": "Spiritual Places in Andhra Pradesh: Tirupati & Srisailam | Kudozz Club",
+  "metaDescription": "Plan a spiritual trip in Andhra Pradesh: Tirumala and Tirupati, Srisailam, Srikalahasti, Kanaka Durga, Simhachalam, Annavaram, Ahobilam and Amaravati, with routes.",
+  "description": "A guide to spiritual tourism in Andhra Pradesh: Tirumala and the temples of Tirupati, the footpaths up the hills, Srisailam's Jyotirlinga and Shakti Peetha, Srikalahasti, Kanaka Durga at Vijayawada, Simhachalam and Annavaram near Visakhapatnam, Ahobilam's Narasimha shrines, Lepakshi and the Buddhist site of Amaravati, with bookings, routes and seasons.",
+  "dek": "Andhra Pradesh is home to Tirumala, one of the most visited shrines in the world, and a string of major temples from the hills to the coast.",
+  "primaryKeyword": "spiritual places in Andhra Pradesh",
+  "secondaryKeywords": [
+    "religious places in Andhra Pradesh",
+    "temples in Andhra Pradesh",
+    "pilgrimage places in Andhra Pradesh"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "temple visit",
+    "darshan",
+    "pilgrimage",
+    "Buddhist heritage"
+  ],
+  "terrain": [
+    "hills",
+    "temple town",
+    "coast"
+  ],
+  "regions": [
+    "Andhra Pradesh",
+    "South India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "groups"
+  ],
+  "tags": [
+    "Andhra Pradesh",
+    "Tirupati",
+    "Srisailam",
+    "Temples"
+  ],
+  "hero": {
+    "src": "/images/spiritual/spiritual-ap-tirumala-hills.webp",
+    "alt": "The gopuram and entrance of the Tirumala Venkateswara Temple, Andhra Pradesh"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Spiritual Andhra Pradesh",
+    "containedIn": "Andhra Pradesh"
+  },
+  "intro": [
+    "For most pilgrims, Andhra Pradesh means Tirumala, the hill temple of Sri Venkateswara above Tirupati, run by Tirumala Tirupati Devasthanams (TTD). Darshan and accommodation are booked through TTD's official system, and many pilgrims climb to the temple on one of the stepped footpaths.",
+    "The state has much more: Srisailam, both a Jyotirlinga and a Shakti Peetha, Srikalahasti, Kanaka Durga on Indrakeeladri hill at Vijayawada, Simhachalam and Annavaram near Visakhapatnam, the nine Narasimha shrines of Ahobilam, Lepakshi's painted temple and the ancient Buddhist site of Amaravati."
+  ],
+  "quickAnswer": "Andhra Pradesh's main spiritual destinations are Tirumala (Sri Venkateswara) and the temples of Tirupati, Srikalahasti, Srisailam (Mallikarjuna Jyotirlinga and Bhramaramba), Kanaka Durga at Vijayawada, Simhachalam and Annavaram near Visakhapatnam, Ahobilam and Lepakshi. Tirumala darshan and rooms are booked on the official TTD website. October to March is the best time.",
+  "takeaways": [
+    "Book Tirumala darshan and rooms only on the official TTD website.",
+    "Pilgrims can walk up to Tirumala by the Alipiri or Srivari Mettu footpaths.",
+    "Srikalahasti is about 35 km from Tirupati and often combined with it.",
+    "Srisailam is both a Jyotirlinga and a Shakti Peetha.",
+    "Simhachalam and Annavaram are easy trips from Visakhapatnam."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Main spiritual places",
+      "table": {
+        "columns": [
+          "Place",
+          "Deity",
+          "Known for",
+          "Our guide"
+        ],
+        "rows": [
+          [
+            "Tirumala and Tirupati",
+            "Sri Venkateswara",
+            "One of India's most visited shrines",
+            "Tirupati guide"
+          ],
+          [
+            "Srikalahasti",
+            "Shiva (Vayu linga)",
+            "Rahu-Ketu rituals",
+            "Covered here"
+          ],
+          [
+            "Srisailam",
+            "Mallikarjuna and Bhramaramba",
+            "Jyotirlinga and Shakti Peetha",
+            "Srisailam guide"
+          ],
+          [
+            "Vijayawada",
+            "Kanaka Durga",
+            "Hill temple on the Krishna",
+            "Vijayawada guide"
+          ],
+          [
+            "Simhachalam",
+            "Varaha Lakshmi Narasimha",
+            "Chandanotsavam",
+            "Covered here"
+          ],
+          [
+            "Annavaram",
+            "Satyanarayana",
+            "Hill temple on the Pampa river",
+            "Covered here"
+          ],
+          [
+            "Ahobilam",
+            "Narasimha",
+            "Nine shrines in the Nallamala hills",
+            "Covered here"
+          ],
+          [
+            "Amaravati",
+            "Buddhist",
+            "Ancient stupa site",
+            "Amaravati guide"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "tirumala",
+      "heading": "Tirumala",
+      "items": [
+        {
+          "name": "Darshan",
+          "body": [
+            "TTD offers free and paid darshan categories and some special arrangements. Book online on the official TTD website as soon as your dates are known, and carry the ID used for booking."
+          ],
+          "links": [
+            {
+              "label": "Tirupati guide",
+              "href": "/blog/tirupati-travel-guide"
+            },
+            {
+              "label": "Things to do in Tirupati",
+              "href": "/blog/things-to-do-in-tirupati"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/andhra-pradesh/tirupati/tirumala-venkateswara-temple-gopuram-tirupati.webp",
+            "alt": "The gopuram of the Tirumala Venkateswara Temple",
+            "caption": "Tirumala"
+          }
+        },
+        {
+          "name": "Footpaths",
+          "body": [
+            "The Alipiri footpath (about 3,550 steps) and the shorter Srivari Mettu path (about 2,400 steps) lead up the hills; many pilgrims walk as part of a vow."
+          ],
+          "facts": {
+            "Tip": "Start early; carry water"
+          }
+        },
+        {
+          "name": "Around Tirupati",
+          "body": [
+            "Sri Padmavathi Ammavari temple at Tiruchanur, Govindaraja Swamy temple and Kapila Theertham."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More sacred places",
+      "items": [
+        {
+          "name": "Srisailam",
+          "body": [
+            "Mallikarjuna and Bhramaramba in the Nallamala forest, about 215 km from Hyderabad."
+          ],
+          "links": [
+            {
+              "label": "Srisailam guide",
+              "href": "/blog/srisailam-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Vijayawada",
+          "body": [
+            "Kanaka Durga temple on Indrakeeladri hill, and Mangalagiri nearby."
+          ],
+          "links": [
+            {
+              "label": "Vijayawada guide",
+              "href": "/blog/vijayawada-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Visakhapatnam",
+          "body": [
+            "Simhachalam, whose deity is covered in sandalwood paste except during the Chandanotsavam, and Annavaram's hill temple."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Vizag",
+              "href": "/blog/things-to-do-in-vizag"
+            }
+          ]
+        },
+        {
+          "name": "Lepakshi and Amaravati",
+          "body": [
+            "Lepakshi's Veerabhadra temple with its famous hanging pillar, and the Buddhist site of Amaravati."
+          ],
+          "links": [
+            {
+              "label": "Amaravati guide",
+              "href": "/blog/amaravati-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "Suggested routes",
+      "table": {
+        "columns": [
+          "Route",
+          "Days",
+          "Places"
+        ],
+        "rows": [
+          [
+            "Tirupati",
+            "2 to 3",
+            "Tirumala, Tiruchanur, Srikalahasti"
+          ],
+          [
+            "Srisailam",
+            "2",
+            "Srisailam (with Hyderabad)"
+          ],
+          [
+            "Coastal Andhra",
+            "3 to 4",
+            "Vijayawada, Mangalagiri, Amaravati, Annavaram, Simhachalam"
+          ],
+          [
+            "Rayalaseema",
+            "3",
+            "Ahobilam, Lepakshi"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stays",
+      "heading": "Stays and tips",
+      "list": [
+        "TTD runs accommodation at Tirumala and Tirupati; book on the official website.",
+        "Tirupati town has many hotels for those who cannot get rooms on the hill.",
+        "Dress codes apply at Tirumala: traditional attire is expected for darshan.",
+        "Brahmotsavam at Tirumala (usually September or October) and Vaikunta Ekadashi bring very large crowds."
+      ]
+    },
+    {
+      "id": "festivals",
+      "heading": "Festivals",
+      "list": [
+        "Brahmotsavam at Tirumala, a nine-day festival usually in September or October, with processions of the deity on decorated vahanas.",
+        "Vaikunta Ekadashi (December or January), when pilgrims pass through the Vaikunta Dwaram at Tirumala.",
+        "Maha Shivratri at Srisailam and Srikalahasti.",
+        "Dasara at the Kanaka Durga temple in Vijayawada.",
+        "The Chandanotsavam at Simhachalam, usually around Akshaya Tritiya (April or May)."
+      ],
+      "after": [
+        "Festival dates follow the lunar calendar; check TTD and the temple boards for the year's schedule."
+      ]
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Dress modestly and follow each temple's rules on dress, phones and photography.",
+    "Book darshan, aarti and accommodation only on official temple or government websites.",
+    "Walk the Tirumala footpaths in daylight and carry water."
+  ],
+  "packing": [
+    "Traditional clothing for darshan",
+    "Comfortable shoes and socks for the footpaths",
+    "ID used for bookings",
+    "Light cotton clothing"
+  ],
+  "faqs": [
+    {
+      "q": "How do I book Tirumala darshan?",
+      "a": "On the official TTD website, as early as possible; carry the ID used for booking."
+    },
+    {
+      "q": "Can I walk up to Tirumala?",
+      "a": "Yes, by the Alipiri footpath (about 3,550 steps) or the shorter Srivari Mettu path."
+    },
+    {
+      "q": "How far is Srikalahasti from Tirupati?",
+      "a": "About 35 km."
+    },
+    {
+      "q": "How far is Srisailam from Hyderabad?",
+      "a": "About 215 km, around five hours by road."
+    },
+    {
+      "q": "Is there a dress code at Tirumala?",
+      "a": "Yes. Traditional attire is expected for darshan: dhoti or kurta-pyjama for men and saree or salwar kameez with a dupatta for women."
+    },
+    {
+      "q": "What is Srikalahasti known for?",
+      "a": "It is one of the five elemental Shiva temples (the Vayu, or air, linga) and is known for Rahu-Ketu rituals."
+    },
+    {
+      "q": "How far is Srisailam from Tirupati?",
+      "a": "More than 300 km by road; most pilgrims reach Srisailam from Hyderabad or Kurnool instead."
+    },
+    {
+      "q": "What is special about Simhachalam?",
+      "a": "The deity is covered in sandalwood paste except during the annual Chandanotsavam."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Tirupati guide",
+      "href": "/blog/tirupati-travel-guide"
+    },
+    {
+      "label": "Things to do in Tirupati",
+      "href": "/blog/things-to-do-in-tirupati"
+    },
+    {
+      "label": "Andhra Pradesh travel guide",
+      "href": "/blog/andhra-pradesh-travel-guide"
+    },
+    {
+      "label": "Andhra Pradesh tour packages",
+      "href": "/packages/andhra-pradesh"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "The 12 Jyotirlingas",
+      "href": "/blog/12-jyotirlingas-in-india",
+      "note": "Srisailam and the others"
+    },
+    {
+      "name": "Shakti Peethas in India",
+      "href": "/blog/shakti-peethas-in-india",
+      "note": "Srisailam and more"
+    },
+    {
+      "name": "Famous temples in India",
+      "href": "/blog/famous-temples-in-india",
+      "note": "region by region"
+    }
+  ],
+  "places": [
+    "Tirumala",
+    "Tirupati",
+    "Srikalahasti",
+    "Srisailam",
+    "Vijayawada",
+    "Simhachalam",
+    "Annavaram",
+    "Ahobilam",
+    "Lepakshi",
+    "Amaravati"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Andhra Pradesh",
+  "updated": "2026-09-26"
+}

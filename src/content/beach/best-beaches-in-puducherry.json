@@ -1,0 +1,394 @@
+{
+ "slug": "best-beaches-in-puducherry",
+ "kind": "state",
+ "short": "Best beaches in Puducherry",
+ "title": "Best Beaches in Puducherry: Paradise, Serenity, Auroville and Rock Beach",
+ "seoTitle": "Best Beaches in Puducherry: Paradise, Serenity & More | Kudozz Club",
+ "metaDescription": "The best beaches around Puducherry: the Rock Beach promenade, Paradise Beach by boat, Serenity for surfing, Auroville and Eden beach, with swimming rules.",
+ "description": "A guide to Puducherry's beaches: the Promenade (Rock Beach) in the French Quarter, Paradise Beach reached by boat from Chunnambar, Serenity Beach for surf lessons, Auroville's beaches and Eden beach at Chinna Veerampattinam, with which are for swimming and which for walks, and the best season.",
+ "dek": "Puducherry's beaches range from a seafront promenade for evening walks to a sandbar you reach by boat. Here is what each is for.",
+ "primaryKeyword": "best beaches in Puducherry",
+ "secondaryKeywords": [
+  "beaches in Puducherry",
+  "Puducherry beaches",
+  "beach holiday Puducherry",
+  "beach travel in Puducherry",
+  "best beach in Puducherry for families",
+  "quiet beaches Puducherry"
+ ],
+ "searchIntent": "Choose beaches in Puducherry",
+ "activities": [
+  "beaches",
+  "surfing",
+  "boat trips",
+  "heritage"
+ ],
+ "terrain": [
+  "beaches",
+  "backwaters"
+ ],
+ "regions": [
+  "Puducherry",
+  "South India",
+  "Coromandel coast"
+ ],
+ "seasons": [
+  "winter",
+  "spring"
+ ],
+ "travellers": [
+  "couples",
+  "friends",
+  "families",
+  "solo"
+ ],
+ "tags": [
+  "Puducherry",
+  "Beaches",
+  "Serenity Beach",
+  "Paradise Beach"
+ ],
+ "hero": {
+  "src": "/images/beach/puducherry-beach-paradise.webp",
+  "alt": "The entrance to Paradise Beach, Puducherry",
+  "caption": "Paradise Beach"
+ },
+ "parent": {
+  "label": "Best Beach Destinations in India",
+  "href": "/blog/best-beach-destinations-in-india"
+ },
+ "about": {
+  "type": "TouristDestination",
+  "name": "Puducherry beaches",
+  "containedIn": "Puducherry"
+ },
+ "intro": [
+  "Puducherry (Pondicherry), the former French enclave on the Coromandel coast, has a sea wall rather than a sandy beach in its historic centre. For sand and swimming, visitors head a few kilometres out of town: south to Paradise Beach and Eden beach, or north to Serenity and the beaches near Auroville, which lie just across the border in Tamil Nadu.",
+  "This guide explains which beach suits what. For the French Quarter, cafes and Auroville, see things to do in Pondicherry."
+ ],
+ "quickAnswer": "The best beaches around Puducherry are Paradise Beach, a sandbar reached by boat from the Chunnambar boat house south of town; Serenity Beach in Kottakuppam for surf lessons; the beaches near Auroville for quiet; and Eden beach at Chinna Veerampattinam. The Promenade (Rock Beach) in the French Quarter is for evening walks, not swimming. Visit from about November to March.",
+ "takeaways": [
+  "Rock Beach (the Promenade) is a sea wall for walks; swimming is not allowed there.",
+  "Paradise Beach is reached by a short boat ride from the Chunnambar boat house; boats stop by late afternoon.",
+  "Serenity Beach, about 5 km north, has surf schools.",
+  "Auroville's beaches and Serenity are technically in Tamil Nadu, just outside Puducherry's boundary.",
+  "The north-east monsoon (about October to December) brings heavy rain and rough sea."
+ ],
+ "sections": [
+  {
+   "id": "compare",
+   "heading": "Puducherry's beaches at a glance",
+   "table": {
+    "columns": [
+     "Beach",
+     "Where",
+     "Best for",
+     "Swimming?"
+    ],
+    "rows": [
+     [
+      "Promenade (Rock Beach)",
+      "French Quarter",
+      "Evening walks, sunrise",
+      "No"
+     ],
+     [
+      "Paradise Beach",
+      "Chunnambar, about 8 km south",
+      "Sand, a boat trip",
+      "In calm conditions"
+     ],
+     [
+      "Eden beach",
+      "Chinna Veerampattinam, south",
+      "A clean, managed beach",
+      "In season"
+     ],
+     [
+      "Serenity Beach",
+      "Kottakuppam, about 5 km north",
+      "Surf lessons, cafes",
+      "With care"
+     ],
+     [
+      "Auroville beaches",
+      "Near Auroville, north",
+      "Quiet",
+      "With care"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "beaches",
+   "heading": "The beaches",
+   "items": [
+    {
+     "name": "The Promenade (Rock Beach)",
+     "body": [
+      "Goubert Avenue runs along the sea wall in the French Quarter, with the Gandhi statue, the old lighthouse and the war memorial. It is closed to traffic at certain hours, and crowds come for evening walks and sunrise. Swimming is not allowed: the shore is rocks and the water deepens suddenly."
+     ],
+     "facts": {
+      "Best for": "Walks, sunrise",
+      "Good to know": "No swimming"
+     },
+     "links": [
+      {
+       "label": "Things to do in Pondicherry",
+       "href": "/blog/things-to-do-in-pondicherry"
+      },
+      {
+       "label": "Puducherry travel guide",
+       "href": "/blog/puducherry-french-quarter-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Paradise Beach",
+     "body": [
+      "A sandbar between the Chunnambar backwater and the sea, reached by a short boat ride from the Chunnambar boat house, run by Puducherry tourism, at Nonankuppam about 8 km south of town. Boats run in the day and the last trips leave by late afternoon."
+     ],
+     "facts": {
+      "Best for": "A beach day, families",
+      "Good to know": "Check the last boat time"
+     }
+    },
+    {
+     "name": "Eden beach",
+     "body": [
+      "At Chinna Veerampattinam, south of the town, a managed beach that has held Blue Flag certification."
+     ],
+     "facts": {
+      "Best for": "A clean beach close to town"
+     }
+    },
+    {
+     "name": "Serenity Beach",
+     "body": [
+      "In Kottakuppam, about 5 km north of the French Quarter, Serenity has surf schools, cafes and a relaxed crowd."
+     ],
+     "facts": {
+      "Best for": "Surfing lessons"
+     },
+     "links": [
+      {
+       "label": "Surfing in India",
+       "href": "/blog/surfing-in-india"
+      }
+     ]
+    },
+    {
+     "name": "Auroville's beaches",
+     "body": [
+      "The beaches near Auroville, about 10 km north, are quiet stretches with a few cafes and guesthouses."
+     ],
+     "facts": {
+      "Best for": "Quiet, long stays"
+     }
+    }
+   ]
+  },
+  {
+   "id": "itinerary",
+   "heading": "Suggested itinerary",
+   "table": {
+    "columns": [
+     "Day",
+     "Plan"
+    ],
+    "rows": [
+     [
+      "1",
+      "French Quarter walk; sunset on the Promenade"
+     ],
+     [
+      "2",
+      "Morning boat to Paradise Beach; afternoon in the Tamil Quarter"
+     ],
+     [
+      "3",
+      "Surf lesson at Serenity; Auroville and its beaches"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "who-for",
+   "heading": "Who is it best for?",
+   "items": [
+    {
+     "name": "Couples",
+     "body": [
+      "The French Quarter with Paradise Beach and Auroville."
+     ]
+    },
+    {
+     "name": "Families",
+     "body": [
+      "Paradise Beach and Eden beach, with facilities."
+     ]
+    },
+    {
+     "name": "Solo travellers",
+     "body": [
+      "Serenity and Auroville, with surf schools and cafes."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "where-to-stay",
+   "heading": "Where to stay",
+   "table": {
+    "columns": [
+     "Area",
+     "Suits"
+    ],
+    "rows": [
+     [
+      "French Quarter",
+      "Heritage stays, walkable"
+     ],
+     [
+      "Serenity and Kottakuppam",
+      "Surfers, cafes"
+     ],
+     [
+      "Auroville",
+      "Quiet guesthouses"
+     ],
+     [
+      "Chunnambar and the south",
+      "Beach resorts"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "season",
+   "heading": "When to go",
+   "table": {
+    "columns": [
+     "Months",
+     "Conditions"
+    ],
+    "rows": [
+     [
+      "November to March",
+      "Best: pleasant and drier after the monsoon"
+     ],
+     [
+      "April to June",
+      "Hot and humid"
+     ],
+     [
+      "July to September",
+      "Variable; surf season on this coast"
+     ],
+     [
+      "October to December",
+      "North-east monsoon rain and cyclone risk"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "planning",
+   "heading": "Planning",
+   "list": [
+    "Puducherry is about three hours by road from Chennai along the East Coast Road, which also passes Mahabalipuram.",
+    "Rent a scooter or bicycle to get between the French Quarter, Serenity and Auroville.",
+    "Two to three days covers the town and beaches; add Mahabalipuram on the way from Chennai."
+   ]
+  }
+ ],
+ "safety": [
+  "Do not swim at the Promenade (Rock Beach).",
+  "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+  "The sea off this coast can be rough with strong currents; surf only with a school.",
+  "Check cyclone warnings from October to December.",
+  "Keep to the boat schedule at Paradise Beach; do not stay after the last boat."
+ ],
+ "packing": [
+  "Swimwear and a cover-up",
+  "Sunscreen and a hat",
+  "Light clothes and modest wear for temples and the Ashram"
+ ],
+ "faqs": [
+  {
+   "q": "Which is the best beach in Pondicherry?",
+   "a": "Paradise Beach for sand and a boat ride, and Serenity for surfing."
+  },
+  {
+   "q": "Can you swim at Rock Beach in Pondicherry?",
+   "a": "No. It is a rocky sea wall; swimming is not allowed."
+  },
+  {
+   "q": "How do you get to Paradise Beach?",
+   "a": "By a short boat ride from the Chunnambar boat house, about 8 km south of the town."
+  },
+  {
+   "q": "Where can I surf in Pondicherry?",
+   "a": "At Serenity Beach in Kottakuppam, with local surf schools."
+  },
+  {
+   "q": "When is the best time to visit Pondicherry's beaches?",
+   "a": "November to March."
+  }
+ ],
+ "nextSteps": [
+  {
+   "label": "Puducherry travel guide",
+   "href": "/blog/puducherry-french-quarter-travel-guide"
+  },
+  {
+   "label": "Things to do in Pondicherry",
+   "href": "/blog/things-to-do-in-pondicherry"
+  },
+  {
+   "label": "Puducherry itinerary",
+   "href": "/blog/puducherry-french-quarter-travel-guide#itinerary"
+  },
+  {
+   "label": "Puducherry tour packages",
+   "href": "/packages/puducherry"
+  }
+ ],
+ "related": [
+  {
+   "name": "Best beaches in Tamil Nadu",
+   "href": "/blog/best-beaches-in-tamil-nadu",
+   "note": "Mahabalipuram and Chennai"
+  },
+  {
+   "name": "Surfing in India",
+   "href": "/blog/surfing-in-india",
+   "note": "surf towns"
+  },
+  {
+   "name": "Beach trips in India",
+   "href": "/blog/beach-trips-in-india",
+   "note": "from Chennai and Bengaluru"
+  },
+  {
+   "name": "Colonial-era heritage in India",
+   "href": "/blog/colonial-heritage-in-india",
+   "note": "the French Quarter"
+  }
+ ],
+ "places": [
+  "Promenade (Rock Beach)",
+  "Paradise Beach",
+  "Chunnambar",
+  "Eden beach",
+  "Serenity Beach",
+  "Kottakuppam",
+  "Auroville"
+ ],
+ "styles": [
+  "weekend-getaways",
+  "honeymoon"
+ ],
+ "planDestination": "Puducherry",
+ "updated": "2026-09-25"
+}

@@ -1,0 +1,300 @@
+{
+  "slug": "jyotirlinga-yatra",
+  "kind": "planning",
+  "short": "Jyotirlinga Yatra",
+  "title": "Jyotirlinga Yatra: Routes, Itineraries and Planning",
+  "seoTitle": "Jyotirlinga Yatra: Route, Itinerary & Planning Guide | Kudozz Club",
+  "metaDescription": "Plan a Jyotirlinga Yatra: how to group the 12 temples into regional trips, a sample route for all twelve, how many days it takes and what to book early.",
+  "description": "A planning guide to the Jyotirlinga Yatra: the regional groups (Gujarat, Madhya Pradesh, Maharashtra, north, east and south), a sample order for all twelve, realistic durations, what drives the cost, transport, stays, darshan bookings, the Kedarnath season and advice for older pilgrims.",
+  "dek": "Visiting all twelve Jyotirlingas means crossing India. Grouping the temples by region makes the yatra far easier to plan.",
+  "primaryKeyword": "jyotirlinga yatra",
+  "secondaryKeywords": [
+    "12 jyotirlinga yatra route",
+    "jyotirlinga tour itinerary",
+    "jyotirlinga yatra cost",
+    "how many days for 12 jyotirlinga"
+  ],
+  "searchIntent": "Planning/itinerary",
+  "activities": [
+    "Jyotirlinga",
+    "Shiva temples",
+    "darshan",
+    "pilgrimage route"
+  ],
+  "terrain": [
+    "temple town",
+    "mountains",
+    "coast"
+  ],
+  "regions": [
+    "Gujarat",
+    "Maharashtra",
+    "Madhya Pradesh",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "Jharkhand",
+    "Andhra Pradesh",
+    "Tamil Nadu"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "groups"
+  ],
+  "tags": [
+    "Jyotirlinga Yatra",
+    "Itinerary",
+    "Pilgrimage Planning",
+    "Shiva"
+  ],
+  "hero": {
+    "src": "/images/spiritual/jyotirlinga-yatra-omkareshwar.webp",
+    "alt": "Omkareshwar town and temples above the Narmada river, Madhya Pradesh"
+  },
+  "parent": {
+    "label": "The 12 Jyotirlingas",
+    "href": "/blog/12-jyotirlingas-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Jyotirlinga Yatra"
+  },
+  "intro": [
+    "The twelve Jyotirlingas are spread over roughly 3,000 km, from Kedarnath in the Himalaya to Rameswaram near the southern tip. Most pilgrims complete the Jyotirlinga Yatra in stages over several years; others do it in one long journey of two to three weeks.",
+    "Either way, the key is to group temples that are close to each other and to fit Kedarnath into its short summer season. This guide suggests the groups, a full-route order, and what to plan for."
+  ],
+  "quickAnswer": "The easiest way to do a Jyotirlinga Yatra is in regional groups: Somnath and Nageshwar in Gujarat; Trimbakeshwar, Grishneshwar and Bhimashankar in Maharashtra; Mahakaleshwar and Omkareshwar in Madhya Pradesh; Kashi Vishwanath and Vaidyanath in the east; Mallikarjuna and Rameswaram in the south; and Kedarnath in summer. Covering all twelve in one trip takes about 15 to 20 days using trains and flights.",
+  "takeaways": [
+    "Group the temples by region; each group takes three to five days.",
+    "All twelve in one trip takes about 15 to 20 days with flights and overnight trains.",
+    "Fit Kedarnath into May to June or September to October.",
+    "Costs depend on transport class, stays and any special darshan or puja bookings.",
+    "Book darshan, aarti and Kedarnath helicopter slots only on official portals."
+  ],
+  "sections": [
+    {
+      "id": "groups",
+      "heading": "The regional groups",
+      "table": {
+        "columns": [
+          "Group",
+          "Temples",
+          "Base",
+          "Days"
+        ],
+        "rows": [
+          [
+            "Gujarat",
+            "Somnath, Nageshwar",
+            "Somnath, Dwarka",
+            "3 to 4"
+          ],
+          [
+            "Madhya Pradesh",
+            "Mahakaleshwar, Omkareshwar",
+            "Indore or Ujjain",
+            "2 to 3"
+          ],
+          [
+            "Maharashtra",
+            "Trimbakeshwar, Grishneshwar, Bhimashankar",
+            "Nashik, Chhatrapati Sambhajinagar, Pune",
+            "4 to 5"
+          ],
+          [
+            "East",
+            "Kashi Vishwanath, Vaidyanath",
+            "Varanasi, Deoghar",
+            "3 to 4"
+          ],
+          [
+            "South",
+            "Mallikarjuna, Ramanathaswamy",
+            "Srisailam (from Hyderabad), Rameswaram (from Madurai)",
+            "4 to 5"
+          ],
+          [
+            "Himalaya",
+            "Kedarnath",
+            "Haridwar or Rishikesh",
+            "4 to 5"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "full-route",
+      "heading": "A sample order for all twelve",
+      "list": [
+        "Start in Gujarat: Somnath, then Dwarka for Nageshwar (about 235 km apart).",
+        "Fly or take the train to Indore: Omkareshwar and Ujjain's Mahakaleshwar.",
+        "Continue to Maharashtra: Grishneshwar via Chhatrapati Sambhajinagar, Trimbakeshwar via Nashik and Bhimashankar via Pune.",
+        "Fly south: Hyderabad for Srisailam, then Madurai for Rameswaram.",
+        "Fly north-east: Varanasi for Kashi Vishwanath, then Deoghar for Vaidyanath.",
+        "Finish (or begin) with Kedarnath from Haridwar or Rishikesh, in season."
+      ],
+      "after": [
+        "The order can be reversed or split. If Kedarnath is closed, complete the other eleven and return in summer."
+      ]
+    },
+    {
+      "id": "durations",
+      "heading": "How many days?",
+      "items": [
+        {
+          "name": "All twelve in one trip",
+          "body": [
+            "About 15 to 20 days, including flights between regions and a buffer day for delays."
+          ],
+          "facts": {
+            "Best for": "Retired travellers and those with time"
+          }
+        },
+        {
+          "name": "Two or three trips",
+          "body": [
+            "Split west (Gujarat, Maharashtra, Madhya Pradesh), south and east, and the Himalaya."
+          ],
+          "facts": {
+            "Best for": "Working travellers"
+          }
+        },
+        {
+          "name": "IRCTC tourist trains",
+          "body": [
+            "IRCTC has run tourist trains covering several Jyotirlingas on a fixed schedule. Departures vary; check current offers on the official IRCTC site."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "heading": "What drives the cost",
+      "list": [
+        "Transport class: flights between regions save days; trains and road trips cost less but take longer.",
+        "Stays: dharamshalas and temple-trust guesthouses are simple and economical; hotels vary widely.",
+        "Special darshan, aarti and puja tickets, where temples offer them.",
+        "Kedarnath helicopter or pony and palki services.",
+        "Peak dates such as Maha Shivratri and Shravan, when prices rise."
+      ],
+      "after": [
+        "We do not quote prices, because fares and fees change often. Kudozz Club can price a route for your dates."
+      ]
+    },
+    {
+      "id": "bookings",
+      "heading": "Bookings to make early",
+      "list": [
+        "Char Dham registration (required for Kedarnath) on the Uttarakhand government portal.",
+        "Kedarnath helicopter seats only on IRCTC HeliYatra.",
+        "Mahakaleshwar Bhasma Aarti on the temple's official booking system.",
+        "Temple-trust accommodation at Somnath, Srisailam and elsewhere, where available."
+      ]
+    },
+    {
+      "id": "older",
+      "heading": "For older pilgrims",
+      "paras": [
+        "Most Jyotirlingas involve standing queues rather than climbs. Kedarnath is the exception, with a high-altitude trek; ponies, palkis and helicopters are available but still need fitness and a doctor's advice. Bhimashankar and Trimbakeshwar have steps and slopes. Choose slower routes with rest days, and ask temples about any facilities for elderly or differently-abled visitors."
+      ]
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Dress modestly (shoulders and knees covered) and follow each temple's rules on phones, bags and photography.",
+    "Do not book through unofficial darshan or helicopter websites.",
+    "Carry a basic medical kit and any prescription medicines."
+  ],
+  "packing": [
+    "Temple-appropriate clothing",
+    "Slip-on footwear and socks for hot temple floors",
+    "Photo ID for registration and bookings",
+    "Warm layers for Kedarnath"
+  ],
+  "faqs": [
+    {
+      "q": "How many days does it take to visit all 12 Jyotirlingas?",
+      "a": "About 15 to 20 days if you use flights and trains between regions."
+    },
+    {
+      "q": "What is the best order for a Jyotirlinga Yatra?",
+      "a": "Group them by region: Gujarat, Madhya Pradesh, Maharashtra, the south, the east, and Kedarnath in summer. The order can suit your starting city."
+    },
+    {
+      "q": "When should I visit Kedarnath on a Jyotirlinga Yatra?",
+      "a": "Between the opening in April or May and the closing around Diwali; May to June and September to October are the usual windows."
+    },
+    {
+      "q": "How much does a Jyotirlinga Yatra cost?",
+      "a": "It depends on transport, stays and bookings. Prices change often, so get a current quote for your route."
+    },
+    {
+      "q": "Is there a train for the Jyotirlinga Yatra?",
+      "a": "IRCTC has operated tourist trains covering several Jyotirlingas. Check the IRCTC website for current departures."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "The 12 Jyotirlingas",
+      "href": "/blog/12-jyotirlingas-in-india"
+    },
+    {
+      "label": "Jyotirlingas in Maharashtra",
+      "href": "/blog/jyotirlingas-in-maharashtra"
+    },
+    {
+      "label": "Char Dham Yatra guide",
+      "href": "/blog/char-dham-yatra-guide"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    },
+    {
+      "label": "How to plan a pilgrimage",
+      "href": "/blog/how-to-plan-a-pilgrimage-in-india"
+    }
+  ],
+  "related": [
+    {
+      "name": "Kedarnath and Badrinath Yatra",
+      "href": "/blog/kedarnath-badrinath-yatra",
+      "note": "the Himalayan leg"
+    },
+    {
+      "name": "Spiritual tourism in Madhya Pradesh",
+      "href": "/blog/spiritual-tourism-in-madhya-pradesh",
+      "note": "Ujjain and Omkareshwar"
+    },
+    {
+      "name": "Pilgrimage packing list",
+      "href": "/blog/pilgrimage-packing-list",
+      "note": "what to carry"
+    }
+  ],
+  "places": [
+    "Somnath",
+    "Dwarka",
+    "Indore",
+    "Ujjain",
+    "Omkareshwar",
+    "Nashik",
+    "Pune",
+    "Srisailam",
+    "Rameswaram",
+    "Varanasi",
+    "Deoghar",
+    "Kedarnath"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Jyotirlinga Yatra",
+  "updated": "2026-09-26"
+}

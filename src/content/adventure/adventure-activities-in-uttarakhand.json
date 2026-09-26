@@ -1,0 +1,529 @@
+{
+  "slug": "adventure-activities-in-uttarakhand",
+  "kind": "destination",
+  "short": "Adventure activities in Uttarakhand",
+  "title": "Adventure Activities in Uttarakhand: Rafting, Treks, Skiing and More",
+  "seoTitle": "Adventure Activities in Uttarakhand: Rafting & Treks | Kudozz Club",
+  "metaDescription": "Adventure activities in Uttarakhand: rafting and bungee in Rishikesh, snow treks like Kedarkantha, Auli skiing, the Valley of Flowers, Tehri Lake and more.",
+  "description": "A guide to adventure activities in Uttarakhand: rafting, bungee jumping and camping around Rishikesh, snow treks such as Kedarkantha and Brahmatal, summer treks from Har Ki Dun to the Valley of Flowers, skiing at Auli, water sports on Tehri Lake, paragliding near Bhimtal and mountaineering courses in Uttarkashi.",
+  "dek": "Uttarakhand has India's busiest rafting river, its most popular snow treks and a mountaineering institute in the heart of Garhwal. Here is how to plan adventure across the state.",
+  "primaryKeyword": "adventure activities in Uttarakhand",
+  "secondaryKeywords": [
+    "adventure sports in Uttarakhand",
+    "things to do in Uttarakhand for adventure",
+    "Rishikesh",
+    "Auli",
+    "Kedarkantha"
+  ],
+  "searchIntent": "Informational: what adventure to do in Uttarakhand",
+  "activities": [
+    "rafting",
+    "bungee jumping",
+    "trekking",
+    "skiing",
+    "camping",
+    "paragliding",
+    "kayaking",
+    "mountaineering"
+  ],
+  "terrain": [
+    "mountains",
+    "river",
+    "snow",
+    "lakes",
+    "forest"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "North India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer",
+    "monsoon",
+    "autumn"
+  ],
+  "travellers": [
+    "friends",
+    "beginners",
+    "families",
+    "groups"
+  ],
+  "tags": [
+    "Uttarakhand",
+    "Rishikesh",
+    "Trekking",
+    "Adventure"
+  ],
+  "hero": {
+    "src": "/images/adventure/uttarakhand-himalaya-adventure.webp",
+    "alt": "Trekkers on a snow-covered path to Tungnath",
+    "caption": "The path to Tungnath"
+  },
+  "parent": {
+    "label": "Best Adventure Destinations in India",
+    "href": "/blog/best-adventure-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Uttarakhand",
+    "containedIn": "Uttarakhand"
+  },
+  "intro": [
+    "Uttarakhand has two Himalayan regions, Garhwal in the west and Kumaon in the east, and a band of foothills along the plains. Rishikesh, where the Ganga leaves the hills, is the state's adventure gateway, with rafting, bungee jumping and riverside camps a few hours from Delhi. Higher up, Garhwal has many of India's most popular treks, from winter snow walks to the Valley of Flowers.",
+    "This guide covers adventure activities across the state. For temples, hill stations and sightseeing, see our Uttarakhand travel guide and the things-to-do guides for each town."
+  ],
+  "quickAnswer": "The best adventure activities in Uttarakhand are river rafting, bungee jumping and camping around Rishikesh, winter snow treks such as Kedarkantha, Brahmatal and Kuari Pass, summer and monsoon treks such as Har Ki Dun and the Valley of Flowers, skiing at Auli when snow allows, water sports on Tehri Lake and paragliding near Bhimtal. Rafting pauses in July and August; snow treks run from December to March.",
+  "takeaways": [
+    "Rishikesh has rafting from about September to June, an 83-metre bungee jump and riverside camps.",
+    "Kedarkantha, Brahmatal, Kuari Pass and Dayara Bugyal are the state's winter snow treks.",
+    "The Valley of Flowers blooms in July and August; the roads there are landslide-prone.",
+    "Auli has skiing when snow allows; its ropeway from Joshimath has been closed since 2023.",
+    "NIM in Uttarkashi runs mountaineering courses in Garhwal."
+  ],
+  "sections": [
+    {
+      "id": "rishikesh",
+      "heading": "Rishikesh and the Ganga",
+      "items": [
+        {
+          "name": "River rafting",
+          "body": [
+            "Stretches from Brahmpuri to Kaudiyala cover Grade I to IV rapids. Shivpuri is the usual first trip."
+          ],
+          "facts": {
+            "Season": "About September to June"
+          },
+          "links": [
+            {
+              "label": "River rafting in Rishikesh",
+              "href": "/blog/river-rafting-in-rishikesh"
+            }
+          ]
+        },
+        {
+          "name": "Bungee jumping and giant swing",
+          "body": [
+            "An 83-metre bungee jump from a fixed platform at Mohan Chatti, about 25 km from Rishikesh."
+          ],
+          "links": [
+            {
+              "label": "Bungee jumping in India",
+              "href": "/blog/bungee-jumping-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Camping and kayaking",
+          "body": [
+            "Riverside and forest camps near Shivpuri, and white-water kayaking courses on the Ganga."
+          ],
+          "links": [
+            {
+              "label": "Camping in India",
+              "href": "/blog/camping-in-india"
+            },
+            {
+              "label": "Kayaking in India",
+              "href": "/blog/kayaking-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treks",
+      "heading": "Treks",
+      "items": [
+        {
+          "name": "Winter snow treks",
+          "body": [
+            "Kedarkantha from Sankri, Brahmatal from Lohajung, Kuari Pass near Joshimath and Dayara Bugyal near Uttarkashi."
+          ],
+          "facts": {
+            "Season": "December to March"
+          },
+          "links": [
+            {
+              "label": "Winter treks in India",
+              "href": "/blog/winter-treks-in-india"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/dayara-bugyal/alpine-meadow-himalayan-view-dayara-bugyal.webp",
+            "alt": "Alpine meadow and Himalayan peaks at Dayara Bugyal",
+            "caption": "Dayara Bugyal"
+          }
+        },
+        {
+          "name": "Chopta, Tungnath and Chandrashila",
+          "body": [
+            "A short trek to the world's highest Shiva temple and a 4,000-metre summit, possible most of the year."
+          ],
+          "links": [
+            {
+              "label": "Chopta travel guide",
+              "href": "/blog/chopta-travel-guide"
+            },
+            {
+              "label": "Things to do in Chopta",
+              "href": "/blog/things-to-do-in-chopta"
+            }
+          ]
+        },
+        {
+          "name": "Har Ki Dun",
+          "body": [
+            "A long valley trek from Sankri to meadows beneath Swargarohini."
+          ],
+          "facts": {
+            "Season": "April to June, September to December"
+          },
+          "links": [
+            {
+              "label": "Trekking in India",
+              "href": "/blog/trekking-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Valley of Flowers and Hemkund Sahib",
+          "body": [
+            "A monsoon trek into a World Heritage flower valley and up to the Sikh shrine at Hemkund."
+          ],
+          "facts": {
+            "Season": "June to October; flowers July to August"
+          },
+          "links": [
+            {
+              "label": "Valley of Flowers guide",
+              "href": "/blog/valley-of-flowers-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kumaon treks",
+          "body": [
+            "Pindari Glacier, and walks from Munsiyari such as Khaliya Top, with views of the Panchachuli peaks."
+          ],
+          "facts": {
+            "Season": "April to June, September to November"
+          },
+          "links": [
+            {
+              "label": "Munsiyari travel guide",
+              "href": "/blog/munsiyari-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Nag Tibba",
+          "body": [
+            "A two-day trek near Mussoorie that works as a weekend from Delhi."
+          ],
+          "links": [
+            {
+              "label": "Beginner treks in India",
+              "href": "/blog/beginner-treks-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snow",
+      "heading": "Skiing at Auli",
+      "paras": [
+        "Auli, above Joshimath, has open slopes with views of Nanda Devi and has hosted ski courses and events. Snow has been unreliable in recent winters, and the Joshimath to Auli ropeway has been closed since January 2023 because of land subsidence in Joshimath; the road is the way up."
+      ],
+      "items": [
+        {
+          "name": "Skiing at Auli",
+          "body": [
+            "Beginner and intermediate skiing when snow allows, with rental equipment and instructors."
+          ],
+          "facts": {
+            "Season": "About January to March, snow permitting"
+          },
+          "links": [
+            {
+              "label": "Skiing in India",
+              "href": "/blog/skiing-in-india"
+            },
+            {
+              "label": "Things to do in Auli",
+              "href": "/blog/things-to-do-in-auli"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lakes",
+      "heading": "Lakes and air",
+      "items": [
+        {
+          "name": "Tehri Lake water sports",
+          "body": [
+            "Jet skis, kayaking, speedboats and other water sports on the reservoir behind the Tehri Dam."
+          ],
+          "links": [
+            {
+              "label": "Tehri Lake guide",
+              "href": "/blog/tehri-lake-travel-guide"
+            },
+            {
+              "label": "Water sports in India",
+              "href": "/blog/water-sports-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding near Bhimtal",
+          "body": [
+            "Tandem flights above Naukuchiatal lake in the Kumaon hills."
+          ],
+          "links": [
+            {
+              "label": "Paragliding in India",
+              "href": "/blog/paragliding-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Wildlife safaris at Corbett",
+          "body": [
+            "Jeep safaris in Jim Corbett National Park, India's oldest national park, in the zones open each season."
+          ],
+          "facts": {
+            "Season": "Most zones about mid-November to June"
+          },
+          "links": [
+            {
+              "label": "Things to do in Jim Corbett",
+              "href": "/blog/things-to-do-in-jim-corbett"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mountaineering",
+      "heading": "Mountaineering",
+      "paras": [
+        "The Nehru Institute of Mountaineering in Uttarkashi runs basic and advanced courses in the Garhwal Himalaya, and the Gangotri region is a base for expeditions to peaks such as Bhagirathi and Shivling."
+      ],
+      "items": [
+        {
+          "name": "Courses at NIM Uttarkashi",
+          "body": [
+            "Month-long basic and advanced mountaineering courses."
+          ],
+          "links": [
+            {
+              "label": "Mountaineering in India",
+              "href": "/blog/mountaineering-in-india"
+            },
+            {
+              "label": "Gangotri travel guide",
+              "href": "/blog/gangotri-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sample-trips",
+      "heading": "Sample adventure trips in Uttarakhand",
+      "items": [
+        {
+          "name": "A Rishikesh adventure weekend",
+          "body": [
+            "Day 1: rafting on the Shivpuri stretch and a night at a riverside camp. Day 2: bungee jumping or the giant swing at Mohan Chatti, and the evening aarti at Triveni Ghat or Parmarth Niketan."
+          ],
+          "facts": {
+            "Duration": "2 days",
+            "Best time": "September to June"
+          },
+          "links": [
+            {
+              "label": "Weekend adventure trips from Delhi",
+              "href": "/blog/weekend-adventure-trips-from-delhi"
+            }
+          ]
+        },
+        {
+          "name": "A winter snow trek week",
+          "body": [
+            "Travel from Dehradun to Sankri on day 1, trek Kedarkantha from days 2 to 6, and return to Dehradun on day 7. Organised groups handle permits, tents and food."
+          ],
+          "facts": {
+            "Duration": "7 days",
+            "Best time": "December to March"
+          }
+        },
+        {
+          "name": "A Chopta and Auli loop",
+          "body": [
+            "Rishikesh to Chopta, trek to Tungnath and Chandrashila, drive to Joshimath and Auli for the slopes and views, and return via Rudraprayag."
+          ],
+          "facts": {
+            "Duration": "5 to 6 days",
+            "Best time": "October to June, avoiding heavy snow days"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bases",
+      "heading": "Getting there and where to base yourself",
+      "list": [
+        "Dehradun's Jolly Grant airport is about 20 km from Rishikesh and the usual gateway to Garhwal; Pantnagar serves Kumaon.",
+        "Trains run from Delhi to Haridwar, Dehradun and Kathgodam.",
+        "Base yourself in Rishikesh for the Ganga, Sankri for Kedarkantha and Har Ki Dun, Joshimath for Auli and the Valley of Flowers, and Nainital or Bhimtal for Kumaon.",
+        "Mountain roads are slow and often under repair; plan no more than 150 to 200 km a day in the hills."
+      ]
+    },
+    {
+      "id": "calendar",
+      "heading": "Uttarakhand adventure calendar",
+      "table": {
+        "columns": [
+          "Months",
+          "Best adventures"
+        ],
+        "rows": [
+          [
+            "December to March",
+            "Snow treks, Auli skiing (snow permitting), Rishikesh rafting"
+          ],
+          [
+            "April to June",
+            "Rafting, Har Ki Dun, Kumaon treks, Chopta"
+          ],
+          [
+            "July to August",
+            "Valley of Flowers; rafting paused; landslide season"
+          ],
+          [
+            "September to November",
+            "Rafting reopens, Har Ki Dun, Kuari Pass, clear views"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Acclimatise before high treks and passes, and descend if altitude sickness symptoms worsen.",
+    "Uttarakhand's monsoon brings landslides and flash floods; check alerts and avoid driving at night.",
+    "Raft only with government-licensed operators and trained guides.",
+    "Follow forest department rules on camping in high meadows (bugyals), which have been restricted by court orders.",
+    "Register at checkposts where required, and carry ID on treks.",
+    "Carry warm layers for any trek above 3,000 metres, in every season."
+  ],
+  "packing": [
+    "Warm layers and a rain jacket",
+    "Trekking shoes",
+    "Quick-dry clothes for rafting",
+    "Sunscreen and sunglasses",
+    "ID and printed permits"
+  ],
+  "faqs": [
+    {
+      "q": "What are the best adventure activities in Uttarakhand?",
+      "a": "Rafting and bungee jumping in Rishikesh, snow treks such as Kedarkantha, the Valley of Flowers trek, skiing at Auli, Tehri Lake water sports and paragliding near Bhimtal."
+    },
+    {
+      "q": "When is rafting closed in Rishikesh?",
+      "a": "During the peak monsoon, usually July and August, on state government orders."
+    },
+    {
+      "q": "Which is the best winter trek in Uttarakhand?",
+      "a": "Kedarkantha is the most popular; Brahmatal, Kuari Pass and Dayara Bugyal are alternatives."
+    },
+    {
+      "q": "Is the Auli ropeway open?",
+      "a": "It has been closed since January 2023 because of land subsidence in Joshimath. Check current status before travelling."
+    },
+    {
+      "q": "Where can I learn mountaineering in Uttarakhand?",
+      "a": "At the Nehru Institute of Mountaineering in Uttarkashi."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Uttarakhand travel guide",
+      "href": "/blog/uttarakhand-travel-guide"
+    },
+    {
+      "label": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh"
+    },
+    {
+      "label": "Rishikesh 5-day itinerary",
+      "href": "/blog/rishikesh-adventure-travel-guide#itinerary"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "River rafting in Rishikesh",
+      "href": "/blog/river-rafting-in-rishikesh",
+      "note": "stretches and season"
+    },
+    {
+      "name": "Winter treks in India",
+      "href": "/blog/winter-treks-in-india",
+      "note": "Uttarakhand's snow treks"
+    },
+    {
+      "name": "Weekend adventure trips from Delhi",
+      "href": "/blog/weekend-adventure-trips-from-delhi",
+      "note": "short trips into Uttarakhand"
+    },
+    {
+      "name": "Wildlife tourism in Uttarakhand",
+      "href": "/blog/wildlife-tourism-in-uttarakhand",
+      "note": "Corbett and Rajaji"
+    },
+    {
+      "name": "Char Dham Yatra guide",
+      "href": "/blog/char-dham-yatra-guide",
+      "note": "the Himalayan pilgrimage"
+    }
+  ],
+  "places": [
+    "Rishikesh",
+    "Shivpuri",
+    "Mohan Chatti",
+    "Sankri",
+    "Kedarkantha",
+    "Brahmatal",
+    "Kuari Pass",
+    "Dayara Bugyal",
+    "Chopta",
+    "Tungnath",
+    "Har Ki Dun",
+    "Valley of Flowers",
+    "Munsiyari",
+    "Auli",
+    "Tehri Lake",
+    "Naukuchiatal",
+    "Jim Corbett National Park",
+    "Uttarkashi"
+  ],
+  "styles": [
+    "adventure-tours",
+    "weekend-getaways"
+  ],
+  "planDestination": "Uttarakhand",
+  "updated": "2026-09-25"
+}

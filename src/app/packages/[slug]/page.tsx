@@ -19,6 +19,58 @@ import {
 } from "@/lib/destination-profiles";
 import { posts, featuredPost } from "@/lib/blog-posts";
 import { thingsToDoForPackage } from "@/lib/things-to-do-links";
+import { adventureIndex, adventureForPackage } from "@/lib/adventure-links";
+import { beachForPackage, beachEntry } from "@/lib/beach-links";
+import { wildlifeIndex, wildlifeForPackage, wildlifeEntry } from "@/lib/wildlife-links";
+import { spiritualIndex, spiritualForPackage, spiritualEntry } from "@/lib/spiritual-links";
+import { heritageIndex, heritageForPackage, heritageEntry } from "@/lib/heritage-links";
+
+// Travel-style pages that get a "Beach ideas" block (Beach Travel cluster).
+const BEACH_FOR_STYLE: Record<string, string[]> = {
+  honeymoon: ["beach-honeymoon-destinations-in-india", "best-beaches-in-andaman", "best-beaches-in-lakshadweep", "best-beaches-in-goa", "best-beaches-in-kerala"],
+  "family-holidays": ["beach-holidays-in-india", "best-beaches-in-goa", "best-beaches-in-kerala", "beach-safety-in-india"],
+  "luxury-holidays": ["beach-holidays-in-india", "best-beaches-in-andaman", "best-beaches-in-goa", "best-beaches-in-kerala"],
+  "budget-holidays": ["beach-holidays-in-india", "offbeat-beaches-in-india", "best-beaches-in-karnataka"],
+  "weekend-getaways": ["beach-trips-in-india", "best-beaches-in-maharashtra", "best-beaches-in-puducherry"],
+};
+
+// Travel-style pages that get a "Pilgrimage ideas" block (Spiritual Tourism cluster).
+const SPIRITUAL_FOR_STYLE: Record<string, string[]> = {
+  "family-holidays": ["how-to-plan-a-pilgrimage-in-india", "ayodhya-varanasi-prayagraj-tour", "char-dham-yatra-guide", "spiritual-tourism-in-tamil-nadu"],
+  "budget-holidays": ["how-to-plan-a-pilgrimage-in-india", "pilgrimage-trips-from-delhi", "pilgrimage-trips-from-mumbai"],
+  "weekend-getaways": ["pilgrimage-trips-from-delhi", "pilgrimage-trips-from-mumbai", "trimbakeshwar-jyotirlinga"],
+  "group-tours": ["char-dham-yatra-guide", "jyotirlinga-yatra", "buddhist-circuit-in-india", "panj-takht-yatra"],
+  "luxury-holidays": ["yoga-and-meditation-retreats-in-india", "buddhist-circuit-in-india"],
+};
+
+// Combo packages that get a block of spiritual planning guides.
+const SPIRITUAL_FOR_COMBO: Record<string, string[]> = {
+  "char-dham-yatra": ["char-dham-yatra-guide", "kedarnath-badrinath-yatra", "hemkund-sahib-yatra", "pilgrimage-packing-list", "spiritual-tourism-in-uttarakhand"],
+  "buddhist-circuit": ["buddhist-circuit-in-india", "buddhist-tourism-in-india", "spiritual-tourism-in-bihar", "spiritual-tourism-in-uttar-pradesh"],
+};
+
+// Travel-style pages that get a "Heritage ideas" block (Heritage & Cultural Tourism cluster).
+const HERITAGE_FOR_STYLE: Record<string, string[]> = {
+  "family-holidays": ["how-to-plan-a-heritage-trip-in-india", "golden-triangle-itinerary", "mountain-railways-of-india", "best-museums-in-india"],
+  "luxury-holidays": ["palaces-in-india", "rajasthan-heritage-itinerary", "heritage-tourism-in-rajasthan"],
+  "group-tours": ["golden-triangle-itinerary", "cultural-festivals-in-india", "hornbill-festival", "south-india-heritage-itinerary"],
+  honeymoon: ["palaces-in-india", "heritage-tourism-in-kerala", "rajasthan-heritage-itinerary"],
+  "budget-holidays": ["historical-places-in-india", "madhya-pradesh-heritage-itinerary", "heritage-walks-in-india"],
+};
+
+// Combo packages that get a block of heritage planning guides.
+const HERITAGE_FOR_COMBO: Record<string, string[]> = {
+  "golden-triangle": ["golden-triangle-itinerary", "taj-mahal", "red-fort", "amber-fort", "mughal-monuments-in-india", "heritage-tourism-in-delhi"],
+  "buddhist-circuit": ["archaeological-sites-in-india", "unesco-world-heritage-sites-in-india"],
+};
+
+// Travel-style pages that get a "Wildlife ideas" block (Wildlife Tourism cluster).
+const WILDLIFE_FOR_STYLE: Record<string, string[]> = {
+  "family-holidays": ["how-to-plan-a-wildlife-safari-in-india", "best-wildlife-safaris-in-india", "pench-tiger-reserve", "wildlife-tourism-in-karnataka"],
+  honeymoon: ["satpura-tiger-reserve", "wildlife-tourism-in-kerala", "leopard-safari-in-india"],
+  "luxury-holidays": ["tiger-safari-in-india", "best-tiger-reserves-in-india", "leopard-safari-in-india"],
+  "weekend-getaways": ["sariska-tiger-reserve", "wildlife-tourism-in-uttarakhand"],
+};
 import { SITE_URL } from "@/lib/site";
 
 // ── Shared data ──────────────────────────────────────────────────────────────
@@ -356,6 +408,156 @@ function ThingsToDoLinks({ slug, name }: { slug: string; name: string }) {
   );
 }
 
+function BeachLinks({ slug, name }: { slug: string; name: string }) {
+  const items = beachForPackage(slug);
+  if (!items.length) return null;
+  return (
+    <section className="bg-white pb-16 md:pb-20">
+      <div className="container-site">
+        <SectionTitle
+          eyebrow="Beaches"
+          title={`Beaches in ${name}`}
+          intro="Beach-by-beach guides with the season, swimming conditions and which beach suits whom."
+        />
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {items.map((e) => (
+            <li key={e.slug}>
+              <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-3.5 py-1.5 font-sans text-sm text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                {e.short}
+              </Link>
+            </li>
+          ))}
+          <li>
+            <Link href="/beach-travel" className="inline-block rounded-full px-3.5 py-1.5 font-sans text-sm font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+              All beach travel →
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+function AdventureLinks({ slug, name }: { slug: string; name: string }) {
+  const items = adventureForPackage(slug);
+  if (!items.length) return null;
+  return (
+    <section className="bg-white pb-16 md:pb-20">
+      <div className="container-site">
+        <SectionTitle
+          eyebrow="Adventure"
+          title={`Adventure in ${name}`}
+          intro="Activity guides with seasons, difficulty and safety, to plan the active part of the trip."
+        />
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {items.map((e) => (
+            <li key={e.slug}>
+              <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-3.5 py-1.5 font-sans text-sm text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                {e.short}
+              </Link>
+            </li>
+          ))}
+          <li>
+            <Link href="/adventure-travel" className="inline-block rounded-full px-3.5 py-1.5 font-sans text-sm font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+              All adventure travel →
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+function WildlifeLinks({ slug, name }: { slug: string; name: string }) {
+  const items = wildlifeForPackage(slug);
+  if (!items.length) return null;
+  return (
+    <section className="bg-white pb-16 md:pb-20">
+      <div className="container-site">
+        <SectionTitle
+          eyebrow="Wildlife"
+          title={`Wildlife in ${name}`}
+          intro="National parks, tiger reserves and sanctuaries, with seasons, safaris and how to book."
+        />
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {items.map((e) => (
+            <li key={e.slug}>
+              <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-3.5 py-1.5 font-sans text-sm text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                {e.short}
+              </Link>
+            </li>
+          ))}
+          <li>
+            <Link href="/wildlife-tourism" className="inline-block rounded-full px-3.5 py-1.5 font-sans text-sm font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+              All wildlife tourism →
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+function SpiritualLinks({ slug, name }: { slug: string; name: string }) {
+  const items = spiritualForPackage(slug);
+  if (!items.length) return null;
+  return (
+    <section className="bg-white pb-16 md:pb-20">
+      <div className="container-site">
+        <SectionTitle
+          eyebrow="Spiritual travel"
+          title={`Spiritual places in ${name}`}
+          intro="Temples, shrines and pilgrim routes, with seasons, bookings and how to plan the visit."
+        />
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {items.map((e) => (
+            <li key={e.slug}>
+              <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-3.5 py-1.5 font-sans text-sm text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                {e.short}
+              </Link>
+            </li>
+          ))}
+          <li>
+            <Link href="/spiritual-tourism" className="inline-block rounded-full px-3.5 py-1.5 font-sans text-sm font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+              All spiritual tourism →
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+function HeritageLinks({ slug, name }: { slug: string; name: string }) {
+  const items = heritageForPackage(slug);
+  if (!items.length) return null;
+  return (
+    <section className="bg-white pb-16 md:pb-20">
+      <div className="container-site">
+        <SectionTitle
+          eyebrow="Heritage and culture"
+          title={`Heritage of ${name}`}
+          intro="Monuments, UNESCO sites, crafts and routes, with seasons and how to plan the visit."
+        />
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {items.map((e) => (
+            <li key={e.slug}>
+              <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-3.5 py-1.5 font-sans text-sm text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                {e.short}
+              </Link>
+            </li>
+          ))}
+          <li>
+            <Link href="/heritage-cultural-tourism" className="inline-block rounded-full px-3.5 py-1.5 font-sans text-sm font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+              All heritage &amp; culture →
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
 function StyleLinks({ name }: { name: string }) {
   return (
     <section className="bg-stone-50 py-16 md:py-20">
@@ -655,6 +857,11 @@ function StatePackageView({ state }: { state: StatePackage }) {
         )}
 
         <ThingsToDoLinks slug={state.slug} name={name} />
+        <BeachLinks slug={state.slug} name={name} />
+        <AdventureLinks slug={state.slug} name={name} />
+        <WildlifeLinks slug={state.slug} name={name} />
+        <SpiritualLinks slug={state.slug} name={name} />
+        <HeritageLinks slug={state.slug} name={name} />
 
         {profile && (
           <section className="bg-white pb-16 md:pb-20">
@@ -769,6 +976,49 @@ function ComboPackageView({ combo }: { combo: ComboPackage }) {
           title={`Places on the ${combo.name}`}
           intro="Read our guides to each stop before you decide what to include."
         />
+        {SPIRITUAL_FOR_COMBO[combo.slug] && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle eyebrow="Planning guides" title={`Plan the ${combo.name}`} intro="Route, season, registration and what to pack, before you book." />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {SPIRITUAL_FOR_COMBO[combo.slug]
+                  .map((slug) => spiritualEntry(slug))
+                  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          </section>
+        )}
+        {HERITAGE_FOR_COMBO[combo.slug] && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle eyebrow="Heritage guides" title={`The heritage of the ${combo.name}`} intro="Monument guides, closures and a day-by-day plan, before you book." />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {HERITAGE_FOR_COMBO[combo.slug]
+                  .map((slug) => heritageEntry(slug))
+                  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+                <li>
+                  <Link href="/heritage-cultural-tourism" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Heritage &amp; cultural tourism →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
         <NearbyGrid slugs={combo.relatedStates} title="Explore by state" />
         <Faqs faqs={faqs} title={`${combo.name} FAQs`} />
         <FinalCta
@@ -869,6 +1119,204 @@ function StylePackageView({ style }: { style: TravelStylePackage }) {
             </ul>
           </div>
         </section>
+        {BEACH_FOR_STYLE[style.slug] && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle eyebrow="Beach ideas" title={`Beaches for ${lower}`} intro="Beach guides to help choose the coast and the season." />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {BEACH_FOR_STYLE[style.slug]
+                  .map((slug) => beachEntry(slug))
+                  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+                <li>
+                  <Link href="/beach-travel" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Beach travel in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {HERITAGE_FOR_STYLE[style.slug] && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle eyebrow="Heritage ideas" title={`Heritage trips for ${lower}`} intro="Heritage and culture guides to help choose the places, the route and the pace." />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {HERITAGE_FOR_STYLE[style.slug]
+                  .map((slug) => heritageEntry(slug))
+                  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+                <li>
+                  <Link href="/heritage-cultural-tourism" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Heritage &amp; cultural tourism →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {style.slug === "heritage-tours" && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle
+                eyebrow="Heritage guides"
+                title="Choose your heritage trip"
+                intro="UNESCO sites, forts, cities, crafts, festivals, states and itineraries, to help you choose before you plan the trip."
+              />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {heritageIndex.map((e) => (
+                  <li key={e.slug}>
+                    <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                      {e.short}
+                    </Link>
+                  </li>
+                ))}
+                <li>
+                  <Link href="/heritage-cultural-tourism" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Heritage &amp; cultural tourism in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {SPIRITUAL_FOR_STYLE[style.slug] && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle eyebrow="Pilgrimage ideas" title={`Pilgrimages for ${lower}`} intro="Spiritual travel guides to help choose the route, the season and the pace." />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {SPIRITUAL_FOR_STYLE[style.slug]
+                  .map((slug) => spiritualEntry(slug))
+                  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+                <li>
+                  <Link href="/spiritual-tourism" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Spiritual tourism in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {style.slug === "spiritual-tours" && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle
+                eyebrow="Pilgrimage guides"
+                title="Choose your pilgrimage"
+                intro="Circuits, traditions, states and planning advice, to help you choose before you plan the trip."
+              />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {spiritualIndex.map((e) => (
+                  <li key={e.slug}>
+                    <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                      {e.short}
+                    </Link>
+                  </li>
+                ))}
+                <li>
+                  <Link href="/spiritual-tourism" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Spiritual tourism in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {WILDLIFE_FOR_STYLE[style.slug] && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle eyebrow="Wildlife ideas" title={`Wildlife trips for ${lower}`} intro="Wildlife guides to help choose the park, the season and the safari." />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {WILDLIFE_FOR_STYLE[style.slug]
+                  .map((slug) => wildlifeEntry(slug))
+                  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+                <li>
+                  <Link href="/wildlife-tourism" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Wildlife tourism in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {style.slug === "wildlife-tours" && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle
+                eyebrow="Wildlife guides"
+                title="Choose your wildlife trip"
+                intro="Parks, species, seasons and safari types, to help you choose before you plan the trip."
+              />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {wildlifeIndex.map((e) => (
+                  <li key={e.slug}>
+                    <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                      {e.short}
+                    </Link>
+                  </li>
+                ))}
+                <li>
+                  <Link href="/wildlife-tourism" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Wildlife tourism in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {style.slug === "adventure-tours" && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle
+                eyebrow="Adventure guides"
+                title="Choose your adventure"
+                intro="Seasons, difficulty, safety and where to go for each activity, before you plan the trip."
+              />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {adventureIndex
+                  .filter((e) => e.kind === "activity" || e.kind === "pillar")
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+                <li>
+                  <Link href="/adventure-travel" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Adventure travel in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
         <section className="bg-stone-50 py-16 md:py-20">
           <div className="container-site">
             <SectionTitle eyebrow="Other travel styles" title="Travel your way" />

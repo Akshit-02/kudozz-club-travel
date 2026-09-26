@@ -22,6 +22,12 @@ const footerLinks = {
   Explore: [
     { label: "All Destinations", href: "/destinations" },
     { label: "Travel Guides", href: "/blog" },
+    { label: "Adventure Travel", href: "/adventure-travel" },
+    { label: "Beach Travel", href: "/beach-travel" },
+    { label: "Wildlife Tourism", href: "/wildlife-tourism" },
+    { label: "Spiritual Tourism", href: "/spiritual-tourism" },
+    { label: "Heritage & Culture", href: "/heritage-cultural-tourism" },
+    { label: "Hill Stations", href: "/hill-station-travel" },
     { label: "Rajasthan Travel Guide", href: "/blog/rajasthan-travel-guide" },
     { label: "Kashmir Travel Guide", href: "/blog/jammu-kashmir-travel-guide" },
     { label: "Ladakh Road Trip Guide", href: "/blog/leh-ladakh-road-trip-travel-guide" },

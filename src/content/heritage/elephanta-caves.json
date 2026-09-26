@@ -1,0 +1,259 @@
+{
+  "slug": "elephanta-caves",
+  "kind": "destination",
+  "short": "Elephanta Caves",
+  "title": "Elephanta Caves: History, Ferry and Visiting Guide",
+  "seoTitle": "Elephanta Caves: History, Ferry & Visiting Guide | Kudozz Club",
+  "metaDescription": "Visit the Elephanta Caves from Mumbai: the rock-cut Shiva temple and the Sadashiva sculpture, ferry timings from the Gateway of India, the Monday closure and tips.",
+  "description": "A visitor's guide to the Elephanta Caves on Gharapuri island near Mumbai: rock-cut caves generally dated to the 5th to 6th centuries, Cave 1 and its great Sadashiva (Trimurti) sculpture, the Buddhist caves on the eastern hill, ferries from the Gateway of India, the Monday closure, the climb, and planning tips.",
+  "dek": "An hour's boat ride from Mumbai, the Elephanta Caves hold some of the finest rock-cut sculpture in India, centred on a great temple to Shiva.",
+  "primaryKeyword": "Elephanta Caves",
+  "secondaryKeywords": [
+    "Elephanta Caves ferry",
+    "Elephanta Island",
+    "Trimurti Elephanta"
+  ],
+  "searchIntent": "Monument visit planning",
+  "activities": [
+    "UNESCO sites",
+    "rock-cut caves",
+    "boat trip",
+    "photography"
+  ],
+  "terrain": [
+    "island",
+    "hills"
+  ],
+  "regions": [
+    "Maharashtra",
+    "West India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Elephanta Caves",
+    "Mumbai",
+    "Rock-cut",
+    "UNESCO"
+  ],
+  "hero": {
+    "src": "/images/heritage/elephanta-caves-trimurti.webp",
+    "alt": "Visitors at the entrance to the main cave on Elephanta Island"
+  },
+  "parent": {
+    "label": "UNESCO World Heritage Sites in India",
+    "href": "/blog/unesco-world-heritage-sites-in-india"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Elephanta Caves",
+    "containedIn": "Maharashtra"
+  },
+  "intro": [
+    "The Elephanta Caves are on Gharapuri island in Mumbai harbour. The main group of rock-cut caves, dedicated to Shiva, is generally dated to around the 5th to 6th centuries; historians differ on exactly when and under which dynasty they were made. The Portuguese named the island after a large stone elephant found there, now displayed in Mumbai.",
+    "Cave 1, the Great Cave, is the highlight, with a 7 m relief of Sadashiva, the three-faced form of Shiva, and panels of stories from Shaiva mythology. The caves were inscribed as a UNESCO World Heritage Site in 1987."
+  ],
+  "quickAnswer": "The Elephanta Caves are on Gharapuri island, about an hour by ferry from the Gateway of India in Mumbai. The caves and the ferries are closed on Mondays. Ferries leave from about 9 am, with the last return in the late afternoon; from the jetty it is a walk or short toy-train ride, then about 120 steps to the caves. Cave 1's Sadashiva sculpture is the highlight. Allow half a day.",
+  "takeaways": [
+    "Ferries leave from the Gateway of India; the crossing takes about an hour.",
+    "The caves and ferries are closed on Mondays.",
+    "Cave 1 holds the famous 7 m Sadashiva (Trimurti) relief.",
+    "There are around 120 steps from the jetty area to the caves.",
+    "Allow half a day, and take an early ferry in summer."
+  ],
+  "sections": [
+    {
+      "id": "caves",
+      "heading": "The caves",
+      "items": [
+        {
+          "name": "Cave 1, the Great Cave",
+          "body": [
+            "A pillared hall cut into the hill, with the Sadashiva at the back, a linga shrine, and panels showing Shiva as Nataraja, Ardhanarishvara, and the descent of the Ganga."
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/mumbai/elephanta-caves-mumbai.webp",
+            "alt": "Carved pillars and sculpture inside the Elephanta Caves, Mumbai",
+            "caption": "Elephanta Caves"
+          }
+        },
+        {
+          "name": "Caves 2 to 5",
+          "body": [
+            "Smaller Shaiva caves on the same western hill, some unfinished or damaged."
+          ]
+        },
+        {
+          "name": "The eastern hill",
+          "body": [
+            "Two Buddhist caves and remains of stupas on the Stupa Hill, older than the Shaiva caves."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-there",
+      "heading": "Getting there",
+      "list": [
+        "Ferries run from the Gateway of India jetty from about 9 am, roughly every half hour until early afternoon; the last boats return in the late afternoon. Check current timings at the jetty.",
+        "The crossing takes about an hour.",
+        "From the island jetty, walk or take the small toy train, then climb about 120 steps lined with stalls.",
+        "Dolis (carried chairs) have been available for those who cannot climb."
+      ]
+    },
+    {
+      "id": "visiting",
+      "heading": "Visiting practicalities",
+      "list": [
+        "Closed on Mondays, along with the ferries.",
+        "Tickets for the caves are sold by the ASI on the island and online; ferry tickets are separate.",
+        "Allow three to four hours from Mumbai to Mumbai, including the boat.",
+        "Monkeys are common; keep food out of sight.",
+        "The sea can be rough in the monsoon, when services may be suspended."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "History and interpretation",
+      "paras": [
+        "There are no dated inscriptions for the main caves. Most scholars place them in the mid-6th century, and link them to the Kalachuri dynasty, but other dates and patrons have been proposed. Some sculptures were damaged over the centuries; the Portuguese period in particular is associated with damage, though accounts differ on the details."
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Mumbai's heritage",
+      "items": [
+        {
+          "name": "The Gateway of India and Colaba",
+          "body": [
+            "The harbour front and the Taj Mahal Palace hotel."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mumbai",
+              "href": "/blog/things-to-do-in-mumbai"
+            }
+          ]
+        },
+        {
+          "name": "Chhatrapati Shivaji Terminus and the Fort area",
+          "body": [
+            "The UNESCO-listed railway station and the Victorian Gothic and Art Deco ensembles."
+          ],
+          "links": [
+            {
+              "label": "Colonial-era heritage in India",
+              "href": "/blog/colonial-heritage-in-india"
+            },
+            {
+              "label": "Mumbai guide",
+              "href": "/blog/mumbai-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for the visit",
+      "list": [
+        "Take one of the first ferries to see the caves before the crowds arrive.",
+        "Hire a guide at the site, or read up before you go; the panels make more sense with the stories behind them.",
+        "Keep your ferry ticket for the return; boats leave from the same jetty.",
+        "Combine it with the Gateway of India, Colaba and the Fort area for a full heritage day."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and ticket rules are set by the ASI, state archaeology departments or site trusts and change from time to time; check the official website before you go.",
+    "Do not climb on or touch carvings, and follow the site's rules on photography, drones and tripods.",
+    "Wear a life jacket if provided, and do not board overcrowded boats.",
+    "Carry water; the steps are tiring in heat and humidity."
+  ],
+  "packing": [
+    "Comfortable shoes for the steps",
+    "Hat and water",
+    "Photo ID",
+    "A light rain jacket in the monsoon"
+  ],
+  "faqs": [
+    {
+      "q": "How do I reach the Elephanta Caves?",
+      "a": "By ferry from the Gateway of India in Mumbai, about an hour each way."
+    },
+    {
+      "q": "Are the Elephanta Caves open on Monday?",
+      "a": "No. The caves and ferries are closed on Mondays."
+    },
+    {
+      "q": "How many steps are there at Elephanta?",
+      "a": "About 120 steps from the lower area to the caves."
+    },
+    {
+      "q": "How old are the Elephanta Caves?",
+      "a": "Most scholars date the main caves to around the mid-6th century, though dates are debated."
+    },
+    {
+      "q": "What is the Trimurti at Elephanta?",
+      "a": "A 7 m relief of Sadashiva, the three-faced form of Shiva, in Cave 1."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Mumbai",
+      "href": "/blog/things-to-do-in-mumbai"
+    },
+    {
+      "label": "Mumbai guide",
+      "href": "/blog/mumbai-travel-guide"
+    },
+    {
+      "label": "Ancient caves in India",
+      "href": "/blog/rock-cut-caves-in-india"
+    },
+    {
+      "label": "Maharashtra tour packages",
+      "href": "/packages/maharashtra"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Heritage tourism in Maharashtra",
+      "href": "/blog/heritage-tourism-in-maharashtra",
+      "note": "caves and forts"
+    },
+    {
+      "name": "UNESCO sites in India",
+      "href": "/blog/unesco-world-heritage-sites-in-india",
+      "note": "the full list"
+    },
+    {
+      "name": "Pilgrimage trips from Mumbai",
+      "href": "/blog/pilgrimage-trips-from-mumbai",
+      "note": "other trips from the city"
+    }
+  ],
+  "places": [
+    "Elephanta Island",
+    "Gharapuri",
+    "Gateway of India",
+    "Mumbai"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Mumbai",
+  "updated": "2026-09-26"
+}

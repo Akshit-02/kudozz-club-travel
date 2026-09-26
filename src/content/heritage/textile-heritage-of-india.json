@@ -1,0 +1,440 @@
+{
+  "slug": "textile-heritage-of-india",
+  "kind": "pillar",
+  "short": "Textile heritage of India",
+  "title": "Textile Heritage of India: Handlooms, Sarees and Weaving Towns",
+  "seoTitle": "Textile Heritage of India: Weaves by Region | Kudozz Club",
+  "metaDescription": "India's textile heritage by region: Banarasi and Kanchipuram silk, Patola, Pochampally and Sambalpuri ikat, Chanderi, Paithani, chikankari and Ajrakh.",
+  "description": "A traveller's guide to India's textile heritage: silk weaves from Varanasi and Kanchipuram, the double ikat Patola of Patan, Pochampally and Sambalpuri ikat, Chanderi and Maheshwari, Paithani, Baluchari, Muga silk of Assam, chikankari, kantha and phulkari embroidery, Ajrakh and Kalamkari prints, and Kashmir's pashmina, with weaving towns to visit and how to buy genuine handloom.",
+  "dek": "Almost every region of India has its own weave, print or embroidery. Visiting the towns where they are made is a way into their history and their future.",
+  "primaryKeyword": "textile heritage of India",
+  "secondaryKeywords": [
+    "handloom tourism India",
+    "traditional sarees of India",
+    "weaving villages India"
+  ],
+  "searchIntent": "Discovery/experience",
+  "activities": [
+    "textiles",
+    "crafts",
+    "shopping",
+    "village visits"
+  ],
+  "terrain": [
+    "village",
+    "city"
+  ],
+  "regions": [
+    "Uttar Pradesh",
+    "Tamil Nadu",
+    "Gujarat",
+    "Telangana",
+    "Odisha",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "West Bengal",
+    "Assam",
+    "Jammu and Kashmir"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "shoppers",
+    "textile lovers"
+  ],
+  "tags": [
+    "Textiles",
+    "Handloom",
+    "Silk",
+    "Saris",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/heritage/textiles-handloom-weaver-india.webp",
+    "alt": "A handloom weaving silk in Salem, Tamil Nadu"
+  },
+  "parent": {
+    "label": "Handicrafts of India",
+    "href": "/blog/handicrafts-of-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Textile heritage of India"
+  },
+  "intro": [
+    "India's textiles have been traded across the world for thousands of years, from cotton found at Harappan sites to the chintz, muslin and silks that drew European trading companies. Today millions of weavers and artisans still work on handlooms and by hand, in towns and villages known for a single weave.",
+    "This guide covers the major weaves, prints and embroideries by region, and the places where travellers can see them made. National Handloom Day is marked on 7 August."
+  ],
+  "quickAnswer": "India's famous textiles include Banarasi silk from Varanasi, Kanchipuram silk from Tamil Nadu, the double ikat Patola of Patan, Pochampally ikat from Telangana, Sambalpuri ikat from Odisha, Chanderi and Maheshwari from Madhya Pradesh, Paithani from Maharashtra, Muga silk from Assam, chikankari from Lucknow, Ajrakh from Kutch, Kalamkari from Andhra Pradesh and pashmina from Kashmir.",
+  "takeaways": [
+    "Many weaves are named after the towns where they are made.",
+    "Patan's Patola is a double ikat, with both warp and weft dyed before weaving.",
+    "The Silk Mark and Handloom Mark help identify genuine silk and handloom.",
+    "Weaving towns such as Varanasi, Kanchipuram, Patan, Pochampally, Chanderi and Maheshwar welcome visitors.",
+    "Handloom weaving is under pressure from power looms; buying genuine handloom supports weavers."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Weaves, prints and embroidery",
+      "table": {
+        "columns": [
+          "Textile",
+          "Where",
+          "Type"
+        ],
+        "rows": [
+          [
+            "Banarasi silk",
+            "Varanasi, Uttar Pradesh",
+            "Silk brocade with zari"
+          ],
+          [
+            "Kanchipuram silk",
+            "Kanchipuram, Tamil Nadu",
+            "Heavy silk with contrast borders"
+          ],
+          [
+            "Patola",
+            "Patan, Gujarat",
+            "Double ikat silk"
+          ],
+          [
+            "Pochampally ikat",
+            "Telangana",
+            "Geometric ikat"
+          ],
+          [
+            "Sambalpuri",
+            "Western Odisha",
+            "Ikat cotton and silk"
+          ],
+          [
+            "Chanderi and Maheshwari",
+            "Madhya Pradesh",
+            "Light silk-cotton weaves"
+          ],
+          [
+            "Paithani",
+            "Paithan and Yeola, Maharashtra",
+            "Silk with peacock and lotus borders"
+          ],
+          [
+            "Baluchari",
+            "Bishnupur, West Bengal",
+            "Silk with woven narrative scenes"
+          ],
+          [
+            "Muga silk",
+            "Assam",
+            "Golden wild silk"
+          ],
+          [
+            "Chikankari",
+            "Lucknow",
+            "White-on-white embroidery"
+          ],
+          [
+            "Kantha and phulkari",
+            "Bengal; Punjab",
+            "Running-stitch and darned embroidery"
+          ],
+          [
+            "Ajrakh and Kalamkari",
+            "Kutch; Andhra Pradesh",
+            "Block printing; hand-painted and printed cloth"
+          ],
+          [
+            "Pashmina",
+            "Kashmir",
+            "Fine cashmere shawls"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "silk",
+      "heading": "Silk towns",
+      "items": [
+        {
+          "name": "Varanasi",
+          "body": [
+            "Banarasi saris are woven in workshops around the city, often by families working on pit looms."
+          ],
+          "links": [
+            {
+              "label": "Varanasi guide",
+              "href": "/blog/varanasi-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/varanasi/banarasi-silk-saree-handloom-weaving-varanasi.webp",
+            "alt": "A Banarasi silk sari being woven on a handloom, Varanasi",
+            "caption": "Banarasi weaving, Varanasi"
+          }
+        },
+        {
+          "name": "Kanchipuram",
+          "body": [
+            "Temple town and silk centre, with weavers' cooperatives and shops near the temples."
+          ],
+          "links": [
+            {
+              "label": "Kanchipuram guide",
+              "href": "/blog/kanchipuram-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/kanchipuram/silk-weaving-kanchipuram.webp",
+            "alt": "Silk weaving on a loom in Kanchipuram",
+            "caption": "Silk weaving, Kanchipuram"
+          }
+        },
+        {
+          "name": "Patan",
+          "body": [
+            "Home of the Patola, woven by a small number of families; a Patola museum in the town explains the process."
+          ],
+          "links": [
+            {
+              "label": "Patan guide",
+              "href": "/blog/patan-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ikat",
+      "heading": "Ikat and light weaves",
+      "items": [
+        {
+          "name": "Pochampally and Sambalpur",
+          "body": [
+            "Two great ikat traditions, in Telangana and western Odisha."
+          ],
+          "image": {
+            "src": "/images/blogs/odisha/sambalpur/sambalpuri-ikat-weaving.webp",
+            "alt": "Sambalpuri ikat being woven, Odisha",
+            "caption": "Sambalpuri ikat"
+          }
+        },
+        {
+          "name": "Chanderi and Maheshwar",
+          "body": [
+            "Chanderi's sheer weaves and Maheshwar's weaving by the Narmada, revived in the 1970s by a trust set up by the former Holkar family."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "embroidery",
+      "heading": "Embroidery and prints",
+      "items": [
+        {
+          "name": "Lucknow's chikankari",
+          "body": [
+            "Fine white embroidery on light cotton, done largely by women working from home."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Lucknow",
+              "href": "/blog/things-to-do-in-lucknow"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/lucknow/chikankari-embroidery-lucknow.webp",
+            "alt": "Chikankari embroidery in progress, Lucknow",
+            "caption": "Chikankari, Lucknow"
+          }
+        },
+        {
+          "name": "Kutch",
+          "body": [
+            "Ajrakh block printing, bandhani and a wide range of embroidery styles."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kutch",
+              "href": "/blog/things-to-do-in-kutch"
+            }
+          ]
+        },
+        {
+          "name": "Bengal",
+          "body": [
+            "Kantha embroidery and Baluchari silk at Bishnupur."
+          ],
+          "links": [
+            {
+              "label": "Bishnupur guide",
+              "href": "/blog/bishnupur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "museums",
+      "heading": "Where to learn more",
+      "list": [
+        "The Calico Museum of Textiles in Ahmedabad (guided visits by prior booking).",
+        "Weavers' service centres and state handloom emporia in major cities.",
+        "Craft fairs such as Surajkund and Dilli Haat, where weavers sell directly."
+      ],
+      "items": [
+        {
+          "name": "Museums",
+          "body": [
+            "Textile collections."
+          ],
+          "links": [
+            {
+              "label": "Best museums in India",
+              "href": "/blog/best-museums-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buying",
+      "heading": "Buying genuine handloom",
+      "list": [
+        "Look for the Silk Mark on silk, and the Handloom Mark or GI tags where they apply.",
+        "Handloom has small irregularities; the reverse of a woven motif shows loose threads, unlike a print.",
+        "Buy from cooperatives, weavers or reputable shops; avoid touts who offer 'factory visits'.",
+        "Prices reflect weeks of work on fine saris; very cheap 'silk' is often not silk."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "Cotton textiles have been found at Harappan sites, and Indian cloth was traded to Rome, Southeast Asia and East Africa in ancient times. From the 17th century, European companies built much of their trade on Indian chintz and muslin. Under colonial rule, cheap machine-made imports and trade policies badly damaged Indian handloom, which is why Gandhi made hand-spun khadi a symbol of the freedom movement. Today handloom survives alongside power looms, supported by cooperatives, designers and buyers."
+      ]
+    },
+    {
+      "id": "north-east",
+      "heading": "North-east and the Himalaya",
+      "paras": [
+        "Assam's Muga silk has a natural golden sheen, and Eri and Pat silks are also woven there. Nagaland, Manipur, Mizoram and Arunachal Pradesh each have their own backstrap and loin-loom weaving, with patterns tied to specific communities. In the Himalaya, Kullu shawls and Kinnauri shawls have bold geometric borders, and Ladakh and Kashmir are known for pashmina."
+      ],
+      "items": [
+        {
+          "name": "Guides",
+          "body": [
+            "The north-east."
+          ],
+          "links": [
+            {
+              "label": "Majuli guide",
+              "href": "/blog/majuli-travel-guide"
+            },
+            {
+              "label": "Hornbill Festival",
+              "href": "/blog/hornbill-festival"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety": [
+    "Be wary of touts and commission-driven shop visits.",
+    "Get receipts, and check whether the seller can ship."
+  ],
+  "packing": [
+    "Space in your bag",
+    "A cloth bag to protect fine textiles",
+    "Cash and cards",
+    "Photos of what you want, to compare"
+  ],
+  "faqs": [
+    {
+      "q": "What are the famous textiles of India?",
+      "a": "Banarasi and Kanchipuram silk, Patola, Pochampally and Sambalpuri ikat, Chanderi, Paithani, Muga silk, chikankari and pashmina are among the best known."
+    },
+    {
+      "q": "What is double ikat?",
+      "a": "A technique where both warp and weft threads are tie-dyed before weaving, as in Patan's Patola."
+    },
+    {
+      "q": "How can I tell genuine handloom?",
+      "a": "Look for small irregularities, the Handloom Mark, and buy from cooperatives or weavers."
+    },
+    {
+      "q": "What is the Silk Mark?",
+      "a": "A label from the Silk Mark Organisation of India certifying natural silk."
+    },
+    {
+      "q": "When is National Handloom Day?",
+      "a": "7 August."
+    },
+    {
+      "q": "Can I visit a weaver's workshop?",
+      "a": "Yes, in towns such as Varanasi, Kanchipuram, Patan, Pochampally and Maheshwar; go through a cooperative, a trust or a trusted local guide rather than a tout."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Handicrafts of India",
+      "href": "/blog/handicrafts-of-india"
+    },
+    {
+      "label": "Heritage tourism in Gujarat",
+      "href": "/blog/heritage-tourism-in-gujarat"
+    },
+    {
+      "label": "Heritage tourism in Uttar Pradesh",
+      "href": "/blog/heritage-tourism-in-uttar-pradesh"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best museums in India",
+      "href": "/blog/best-museums-in-india",
+      "note": "textile collections"
+    },
+    {
+      "name": "Heritage cities in India",
+      "href": "/blog/heritage-cities-in-india",
+      "note": "weaving towns"
+    },
+    {
+      "name": "Tribal tourism in India",
+      "href": "/blog/tribal-tourism-in-india",
+      "note": "tribal textiles"
+    }
+  ],
+  "places": [
+    "Varanasi",
+    "Kanchipuram",
+    "Patan",
+    "Pochampally",
+    "Sambalpur",
+    "Chanderi",
+    "Maheshwar",
+    "Paithan",
+    "Bishnupur",
+    "Lucknow",
+    "Kutch",
+    "Srinagar"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

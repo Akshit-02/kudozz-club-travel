@@ -62,6 +62,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     { url: `${BASE_URL}/packages`, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE_URL}/adventure-travel`, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/beach-travel`, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/wildlife-tourism`, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/spiritual-tourism`, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/heritage-cultural-tourism`, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/hill-station-travel`, changeFrequency: "weekly", priority: 0.8 },
     {
       url: `${BASE_URL}/plan-your-trip`,
       changeFrequency: "monthly",

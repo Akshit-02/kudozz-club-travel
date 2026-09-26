@@ -1,0 +1,291 @@
+{
+  "slug": "kumbh-mela",
+  "kind": "pillar",
+  "short": "Kumbh Mela",
+  "title": "Kumbh Mela: The Four Sites, the Cycle and the Next Melas",
+  "seoTitle": "Kumbh Mela: Sites, Cycle & the Next Kumbh Dates | Kudozz Club",
+  "metaDescription": "The Kumbh Mela explained: the four sites, the 12-year cycle and Ardh Kumbh, Amrit Snan days, and the next melas at Haridwar, Nashik (both 2027) and Ujjain (2028).",
+  "description": "A guide to the Kumbh Mela: the legend behind it, the four sites at Prayagraj, Haridwar, Ujjain and Nashik-Trimbakeshwar, how the cycle and the Ardh Kumbh work, the akharas and Amrit Snan days, the announced dates for Haridwar 2027, Nashik-Trimbakeshwar 2027 and Ujjain 2028, and how to plan a visit safely.",
+  "dek": "The Kumbh Mela is among the largest religious gatherings on earth, held in turn at four river towns.",
+  "primaryKeyword": "Kumbh Mela",
+  "secondaryKeywords": [
+    "next Kumbh Mela",
+    "Nashik Kumbh 2027",
+    "Ujjain Simhastha 2028",
+    "Haridwar Ardh Kumbh 2027"
+  ],
+  "searchIntent": "Informational/planning",
+  "activities": [
+    "festivals",
+    "holy dip",
+    "pilgrimage"
+  ],
+  "terrain": [
+    "river",
+    "temple town"
+  ],
+  "regions": [
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "Madhya Pradesh",
+    "Maharashtra"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer",
+    "monsoon"
+  ],
+  "travellers": [
+    "groups",
+    "photographers",
+    "families"
+  ],
+  "tags": [
+    "Kumbh Mela",
+    "Simhastha",
+    "Prayagraj",
+    "Haridwar"
+  ],
+  "hero": {
+    "src": "/images/spiritual/kumbh-mela-prayagraj-sangam.webp",
+    "alt": "Pilgrims bathing at the Sangam during the 2019 Kumbh Mela at Prayagraj"
+  },
+  "parent": {
+    "label": "Spiritual Festivals in India",
+    "href": "/blog/spiritual-festivals-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Kumbh Mela"
+  },
+  "intro": [
+    "According to Hindu tradition, drops of amrit (the nectar of immortality) fell at four places during the churning of the ocean: Prayagraj, Haridwar, Ujjain and Nashik. A Kumbh Mela is held at each of these in turn, at dates fixed by the positions of Jupiter, the Sun and the Moon, when bathing in the river is believed to be especially meritorious.",
+    "Millions of pilgrims, sadhus of the akharas (monastic orders) and visitors gather for weeks in temporary tent cities. UNESCO added the Kumbh Mela to its list of the Intangible Cultural Heritage of Humanity in 2017."
+  ],
+  "quickAnswer": "The Kumbh Mela is held in rotation at Prayagraj (Ganga, Yamuna and the mythical Saraswati), Haridwar (Ganga), Ujjain (Shipra) and Nashik-Trimbakeshwar (Godavari). The last Maha Kumbh was at Prayagraj in January and February 2025. Announced next dates are the Haridwar Ardh Kumbh (14 January to 20 April 2027), the Nashik-Trimbakeshwar Simhastha (main bathing in August and September 2027) and the Ujjain Simhastha (27 March to 27 May 2028).",
+  "takeaways": [
+    "The four Kumbh sites are Prayagraj, Haridwar, Ujjain and Nashik-Trimbakeshwar.",
+    "Each site hosts a Kumbh about every 12 years; Prayagraj and Haridwar also host an Ardh (half) Kumbh.",
+    "The main bathing days, now called Amrit Snan, feature processions of the akharas.",
+    "Next: Haridwar 2027, Nashik-Trimbakeshwar 2027 and Ujjain 2028.",
+    "Book stays early and plan for very large crowds."
+  ],
+  "sections": [
+    {
+      "id": "sites",
+      "heading": "The four sites",
+      "table": {
+        "columns": [
+          "Site",
+          "River",
+          "Name of the mela",
+          "Our guide"
+        ],
+        "rows": [
+          [
+            "Prayagraj",
+            "Confluence of the Ganga and Yamuna (Triveni Sangam)",
+            "Kumbh, Ardh Kumbh and Maha Kumbh",
+            "Prayagraj guide"
+          ],
+          [
+            "Haridwar",
+            "Ganga",
+            "Kumbh and Ardh Kumbh",
+            "Haridwar guide"
+          ],
+          [
+            "Ujjain",
+            "Shipra",
+            "Simhastha",
+            "Ujjain guide"
+          ],
+          [
+            "Nashik and Trimbakeshwar",
+            "Godavari",
+            "Simhastha",
+            "Trimbakeshwar Jyotirlinga"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "next",
+      "heading": "The next Kumbh gatherings",
+      "table": {
+        "columns": [
+          "Mela",
+          "Dates announced",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Haridwar Ardh Kumbh",
+            "14 January to 20 April 2027",
+            "Ten official bathing dates announced by the Uttarakhand government"
+          ],
+          [
+            "Nashik-Trimbakeshwar Simhastha",
+            "Flag hoisting 31 October 2026; Amrit Snan on 2 August, 31 August and 11 to 12 September 2027; closes 24 July 2028",
+            "The last Amrit Snan is at Trimbakeshwar on 12 September 2027"
+          ],
+          [
+            "Ujjain Simhastha",
+            "27 March to 27 May 2028",
+            "Shahi or Amrit Snan dates announced for April and May 2028"
+          ]
+        ],
+        "caption": "Dates are as officially announced at the time of writing; confirm with the state government before booking."
+      }
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How the cycle works",
+      "paras": [
+        "Each site hosts a full Kumbh roughly every twelve years, following Jupiter's cycle. Prayagraj and Haridwar also hold an Ardh (half) Kumbh about six years after the full Kumbh. At Ujjain and Nashik the mela is called Simhastha because it falls when Jupiter is in Simha (Leo). Prayagraj also holds the Magh Mela every year in January and February.",
+        "The most important days are the Amrit Snan (formerly called Shahi Snan) days, when the akharas, led by the Naga sadhus, bathe in procession before the public."
+      ],
+      "items": [
+        {
+          "name": "Prayagraj",
+          "body": [
+            "The Sangam and the Kumbh grounds."
+          ],
+          "links": [
+            {
+              "label": "Prayagraj guide",
+              "href": "/blog/prayagraj-travel-guide"
+            },
+            {
+              "label": "Things to do in Prayagraj",
+              "href": "/blog/things-to-do-in-prayagraj"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/prayagraj/triveni-sangam-boats-prayagraj.webp",
+            "alt": "Boats at the Triveni Sangam in Prayagraj",
+            "caption": "The Sangam, Prayagraj"
+          }
+        }
+      ]
+    },
+    {
+      "id": "visit-plan",
+      "heading": "Planning a visit",
+      "list": [
+        "Decide whether you want the main bathing days (spiritually central but hugely crowded) or quieter days in between.",
+        "Book tent camps or hotels as soon as they open; official and private camps are set up for each mela.",
+        "Expect vehicle restrictions and long walks; wear comfortable shoes.",
+        "Carry ID; follow official apps and announcements for routes and bathing ghats.",
+        "Travel light and keep children and older relatives close."
+      ]
+    },
+    {
+      "id": "etiquette",
+      "heading": "Etiquette",
+      "list": [
+        "Ask before photographing sadhus, and respect a refusal.",
+        "Bathe only at designated ghats and follow lifeguard instructions.",
+        "Dress modestly and avoid alcohol and meat in the mela area.",
+        "Do not leave litter in the river."
+      ]
+    }
+  ],
+  "safety": [
+    "Crowds at Kumbh bathing days are among the largest anywhere; follow police and volunteer instructions and use designated routes.",
+    "Agree a meeting point with your group in case you are separated.",
+    "Stay hydrated and carry basic medicines.",
+    "Use only official information for dates, routes and camp bookings."
+  ],
+  "packing": [
+    "Comfortable walking shoes",
+    "Light layers and warm clothes for winter melas",
+    "ID and bookings",
+    "Water bottle, snacks and a quick-dry towel",
+    "A change of clothes for the holy dip",
+    "A small torch for early-morning bathing"
+  ],
+  "faqs": [
+    {
+      "q": "Where is the Kumbh Mela held?",
+      "a": "In rotation at Prayagraj, Haridwar, Ujjain and Nashik-Trimbakeshwar."
+    },
+    {
+      "q": "When is the next Kumbh Mela?",
+      "a": "The Haridwar Ardh Kumbh runs from 14 January to 20 April 2027, the Nashik-Trimbakeshwar Simhastha has its main bathing dates in August and September 2027, and the Ujjain Simhastha runs from 27 March to 27 May 2028."
+    },
+    {
+      "q": "How often is the Kumbh Mela held?",
+      "a": "Each site holds a full Kumbh about every 12 years; Prayagraj and Haridwar also hold an Ardh Kumbh about every six years."
+    },
+    {
+      "q": "What is the Amrit Snan?",
+      "a": "The main bathing days of a Kumbh, when the akharas bathe in procession; formerly called Shahi Snan."
+    },
+    {
+      "q": "Where can visitors stay during the Kumbh?",
+      "a": "In official and private tent camps set up for each mela, or in hotels in the host city and nearby towns; book as early as possible."
+    },
+    {
+      "q": "What is the Magh Mela?",
+      "a": "An annual gathering at Prayagraj's Sangam in January and February, smaller than the Kumbh."
+    },
+    {
+      "q": "Is the Kumbh Mela a UNESCO heritage?",
+      "a": "Yes. UNESCO inscribed it on the list of Intangible Cultural Heritage of Humanity in 2017."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Spiritual festivals in India",
+      "href": "/blog/spiritual-festivals-in-india"
+    },
+    {
+      "label": "Haridwar guide: Kumbh Mela",
+      "href": "/blog/haridwar-travel-guide#kumbh-mela"
+    },
+    {
+      "label": "Trimbakeshwar Jyotirlinga",
+      "href": "/blog/trimbakeshwar-jyotirlinga"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    },
+    {
+      "label": "Ujjain guide",
+      "href": "/blog/ujjain-travel-guide"
+    }
+  ],
+  "related": [
+    {
+      "name": "Spiritual tourism in Madhya Pradesh",
+      "href": "/blog/spiritual-tourism-in-madhya-pradesh",
+      "note": "Ujjain Simhastha 2028"
+    },
+    {
+      "name": "Spiritual tourism in Uttarakhand",
+      "href": "/blog/spiritual-tourism-in-uttarakhand",
+      "note": "Haridwar Ardh Kumbh 2027"
+    },
+    {
+      "name": "How to plan a pilgrimage",
+      "href": "/blog/how-to-plan-a-pilgrimage-in-india",
+      "note": "planning tips"
+    }
+  ],
+  "places": [
+    "Prayagraj",
+    "Haridwar",
+    "Ujjain",
+    "Nashik",
+    "Trimbakeshwar"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "group-tours"
+  ],
+  "planDestination": "Kumbh Mela",
+  "updated": "2026-09-26"
+}

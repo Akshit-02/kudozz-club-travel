@@ -1,0 +1,405 @@
+{
+  "slug": "pilgrimage-trips-from-mumbai",
+  "kind": "weekend",
+  "short": "Pilgrimage trips from Mumbai",
+  "title": "Pilgrimage Trips from Mumbai: Temples and Shrines Within Reach",
+  "seoTitle": "Pilgrimage Trips from Mumbai: Temples & Shrines Nearby | Kudozz Club",
+  "metaDescription": "Pilgrimage trips from Mumbai: Shirdi, Trimbakeshwar, Nashik, Bhimashankar, the Ashtavinayak, Pandharpur and Kolhapur, plus the city's own shrines, with distances.",
+  "description": "A guide to pilgrimage trips from Mumbai: the city's shrines (Siddhivinayak, Mahalakshmi, Haji Ali, Mount Mary and the Global Vipassana Pagoda), and trips to Shirdi, Trimbakeshwar and Nashik, Bhimashankar, the Ashtavinayak temples, Vajreshwari, Igatpuri, Pandharpur, Kolhapur and Ganpatipule, with distances, travel options and days needed.",
+  "dek": "From Mumbai, many of Maharashtra's most important shrines are a day's drive or a short train ride away.",
+  "primaryKeyword": "religious places near Mumbai",
+  "secondaryKeywords": [
+    "pilgrimage places near Mumbai",
+    "Shirdi from Mumbai",
+    "Trimbakeshwar from Mumbai"
+  ],
+  "searchIntent": "Weekend planning",
+  "activities": [
+    "pilgrimage",
+    "weekend trip",
+    "temple visit",
+    "Jyotirlinga"
+  ],
+  "terrain": [
+    "hills",
+    "coast",
+    "temple town"
+  ],
+  "regions": [
+    "Maharashtra",
+    "West India"
+  ],
+  "seasons": [
+    "winter",
+    "monsoon",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "couples"
+  ],
+  "tags": [
+    "Mumbai",
+    "Weekend Pilgrimage",
+    "Shirdi",
+    "Trimbakeshwar"
+  ],
+  "hero": {
+    "src": "/images/spiritual/pilgrimage-mumbai-siddhivinayak.webp",
+    "alt": "Shree Siddhivinayak Temple in Prabhadevi, Mumbai"
+  },
+  "parent": {
+    "label": "Best Pilgrimage Places in India",
+    "href": "/blog/best-pilgrimage-places-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Pilgrimage trips from Mumbai"
+  },
+  "intro": [
+    "Mumbai sits within easy reach of Maharashtra's pilgrim heartland. Trimbakeshwar and Nashik are about three to four hours away, Shirdi five to six, and Bhimashankar about five. Pune, the base for the Ashtavinayak temples, is under three hours by the expressway.",
+    "The city itself has some of the most visited shrines in western India, from Siddhivinayak to Haji Ali and Mount Mary, and the Global Vipassana Pagoda at Gorai."
+  ],
+  "quickAnswer": "Popular pilgrimage trips from Mumbai include Trimbakeshwar and Nashik (about 180 km), Shirdi (about 240 km), Bhimashankar (about 210 km), the Ashtavinayak temples around Pune, Vajreshwari (about 75 km) and Igatpuri's Vipassana centre. Pandharpur, Kolhapur and Ganpatipule make longer trips. Within the city are Siddhivinayak, Mahalakshmi, Haji Ali and Mount Mary.",
+  "takeaways": [
+    "Trimbakeshwar and Nashik make a one or two-day trip.",
+    "Shirdi is about five to six hours by road, or by train to Sainagar Shirdi.",
+    "Bhimashankar is best reached via Pune or by trekking from the Karjat side.",
+    "The Ashtavinayak circuit takes two to three days from Pune.",
+    "The monsoon is beautiful but slows ghat roads."
+  ],
+  "sections": [
+    {
+      "id": "trips",
+      "heading": "Trips by distance",
+      "table": {
+        "columns": [
+          "Destination",
+          "Distance from Mumbai (about)",
+          "Days",
+          "Our guide"
+        ],
+        "rows": [
+          [
+            "Vajreshwari",
+            "75 km",
+            "1",
+            "Covered here"
+          ],
+          [
+            "Igatpuri (Dhamma Giri)",
+            "130 km",
+            "Course-based",
+            "Covered here"
+          ],
+          [
+            "Nashik and Trimbakeshwar",
+            "170 to 180 km",
+            "1 to 2",
+            "Trimbakeshwar Jyotirlinga"
+          ],
+          [
+            "Bhimashankar",
+            "210 km",
+            "1 to 2",
+            "Bhimashankar Jyotirlinga"
+          ],
+          [
+            "Shirdi",
+            "240 km",
+            "2",
+            "Shirdi guide"
+          ],
+          [
+            "Ashtavinayak (from Pune)",
+            "150 km to Pune",
+            "2 to 3",
+            "Covered here"
+          ],
+          [
+            "Ganpatipule",
+            "330 km",
+            "2",
+            "Ganpatipule guide"
+          ],
+          [
+            "Pandharpur",
+            "360 km",
+            "2 to 3",
+            "Covered here"
+          ],
+          [
+            "Kolhapur",
+            "380 km",
+            "2 to 3",
+            "Kolhapur guide"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "short",
+      "heading": "Short trips",
+      "items": [
+        {
+          "name": "Trimbakeshwar and Nashik",
+          "body": [
+            "The Jyotirlinga at Trimbak and Nashik's Panchavati and Ram Kund."
+          ],
+          "links": [
+            {
+              "label": "Trimbakeshwar Jyotirlinga",
+              "href": "/blog/trimbakeshwar-jyotirlinga"
+            },
+            {
+              "label": "Things to do in Nashik",
+              "href": "/blog/things-to-do-in-nashik"
+            }
+          ]
+        },
+        {
+          "name": "Shirdi",
+          "body": [
+            "Sai Baba's Samadhi Mandir; combine with Shani Shingnapur, about 70 km away."
+          ],
+          "links": [
+            {
+              "label": "Shirdi guide",
+              "href": "/blog/shirdi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Bhimashankar",
+          "body": [
+            "The Jyotirlinga in the Sahyadri forest, green and misty in the monsoon."
+          ],
+          "links": [
+            {
+              "label": "Bhimashankar Jyotirlinga",
+              "href": "/blog/bhimashankar-jyotirlinga"
+            }
+          ]
+        },
+        {
+          "name": "Vajreshwari and Igatpuri",
+          "body": [
+            "The Vajreshwari temple and hot springs near Bhiwandi, and the Dhamma Giri Vipassana centre at Igatpuri (courses by application)."
+          ],
+          "links": [
+            {
+              "label": "Yoga and meditation retreats",
+              "href": "/blog/yoga-and-meditation-retreats-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "longer",
+      "heading": "Longer trips",
+      "list": [
+        "The Ashtavinayak: eight Ganesh temples around Pune, in two to three days.",
+        "Pandharpur: the Vithoba temple, especially during the Ashadhi Wari.",
+        "Kolhapur: the Mahalaxmi temple, with Tuljapur on the same route.",
+        "Ganpatipule: a seaside Ganesh temple on the Konkan coast.",
+        "A Maharashtra Jyotirlinga route over five to seven days."
+      ],
+      "items": [
+        {
+          "name": "Plan longer trips",
+          "body": [
+            "Routes across the state."
+          ],
+          "links": [
+            {
+              "label": "Jyotirlingas in Maharashtra",
+              "href": "/blog/jyotirlingas-in-maharashtra"
+            },
+            {
+              "label": "Spiritual tourism in Maharashtra",
+              "href": "/blog/spiritual-tourism-in-maharashtra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-mumbai",
+      "heading": "Shrines within Mumbai",
+      "list": [
+        "Siddhivinayak temple in Prabhadevi.",
+        "Mahalakshmi temple on the sea front.",
+        "Haji Ali dargah, reached by a causeway at low tide.",
+        "Mount Mary Basilica in Bandra, with its feast in September.",
+        "Mumba Devi temple and the Global Vipassana Pagoda at Gorai."
+      ],
+      "items": [
+        {
+          "name": "Things to do in Mumbai",
+          "body": [
+            "Plan a day around the city's shrines."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mumbai",
+              "href": "/blog/things-to-do-in-mumbai"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/pune/dagdusheth-halwai-ganpati-temple-pune.webp",
+            "alt": "The Dagdusheth Halwai Ganpati temple in Pune",
+            "caption": "Dagdusheth Ganpati, Pune"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Leave early to avoid city traffic, especially on weekends.",
+        "Check ghat road conditions in the monsoon, and avoid night driving.",
+        "Book Shirdi darshan and aarti passes on the Sansthan's official website.",
+        "Ganesh Chaturthi (August or September) makes Mumbai's own temples extremely busy."
+      ]
+    },
+    {
+      "id": "sample-weekends",
+      "heading": "Sample weekends",
+      "table": {
+        "columns": [
+          "Weekend",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "Nashik",
+            "Day 1: Trimbakeshwar; Day 2: Panchavati and Ram Kund"
+          ],
+          [
+            "Shirdi",
+            "Day 1: Shirdi darshan and aarti; Day 2: Shani Shingnapur, then back"
+          ],
+          [
+            "Pune temples",
+            "Day 1: Bhimashankar; Day 2: Dagdusheth Ganpati and two Ashtavinayak temples"
+          ],
+          [
+            "Konkan",
+            "Day 1: drive to Ganpatipule; Day 2: temple and beach, then back"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Drive carefully on ghat roads, especially in fog and rain.",
+    "Check tide times before walking to Haji Ali.",
+    "Book darshan and aarti only on official sites."
+  ],
+  "packing": [
+    "Light cotton clothing",
+    "Rain jacket in the monsoon",
+    "Slip-on footwear",
+    "ID"
+  ],
+  "faqs": [
+    {
+      "q": "Which pilgrimage places can I visit from Mumbai on a weekend?",
+      "a": "Trimbakeshwar and Nashik, Shirdi, Bhimashankar, Vajreshwari and the Ashtavinayak temples via Pune."
+    },
+    {
+      "q": "How far is Shirdi from Mumbai?",
+      "a": "About 240 km, around five to six hours by road; trains run to Sainagar Shirdi."
+    },
+    {
+      "q": "Is Haji Ali open all day?",
+      "a": "The dargah is open through the day, but the causeway is covered at high tide; check tide times before you go."
+    },
+    {
+      "q": "Can I visit Trimbakeshwar and Shirdi together?",
+      "a": "Yes. They are about 120 km apart and make a two-day trip from Mumbai."
+    },
+    {
+      "q": "How far is Trimbakeshwar from Mumbai?",
+      "a": "About 180 km, around four to five hours by road."
+    },
+    {
+      "q": "How do I reach Bhimashankar from Mumbai?",
+      "a": "By road via Pune or Rajgurunagar, about five hours, or by trekking up from Khandas near Karjat."
+    },
+    {
+      "q": "What is the best time for pilgrimage trips from Mumbai?",
+      "a": "October to February; the monsoon is beautiful but slower on ghat roads."
+    },
+    {
+      "q": "Can I do the Ashtavinayak from Mumbai?",
+      "a": "Yes. Drive to Pune and allow two to three days for all eight temples."
+    },
+    {
+      "q": "Which shrines are there in Mumbai itself?",
+      "a": "Siddhivinayak, Mahalakshmi, Haji Ali, Mount Mary and Mumba Devi, among others."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Mumbai",
+      "href": "/blog/things-to-do-in-mumbai"
+    },
+    {
+      "label": "Shirdi guide",
+      "href": "/blog/shirdi-travel-guide"
+    },
+    {
+      "label": "Weekend getaways",
+      "href": "/packages/weekend-getaways"
+    },
+    {
+      "label": "Maharashtra tour packages",
+      "href": "/packages/maharashtra"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best pilgrimage places in India",
+      "href": "/blog/best-pilgrimage-places-in-india",
+      "note": "holy sites of every faith"
+    },
+    {
+      "name": "Jyotirlingas in Maharashtra",
+      "href": "/blog/jyotirlingas-in-maharashtra",
+      "note": "a temple road trip"
+    },
+    {
+      "name": "Weekend adventure trips from Mumbai",
+      "href": "/blog/weekend-adventure-trips-from-mumbai",
+      "note": "other weekend ideas"
+    }
+  ],
+  "places": [
+    "Mumbai",
+    "Vajreshwari",
+    "Igatpuri",
+    "Nashik",
+    "Trimbakeshwar",
+    "Bhimashankar",
+    "Shirdi",
+    "Pune",
+    "Ganpatipule",
+    "Pandharpur",
+    "Kolhapur"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "weekend-getaways"
+  ],
+  "planDestination": "Mumbai",
+  "updated": "2026-09-26"
+}

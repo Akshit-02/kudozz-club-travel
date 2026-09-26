@@ -1,0 +1,362 @@
+{
+  "slug": "spiritual-tourism-in-bihar",
+  "kind": "state",
+  "short": "Spiritual Bihar",
+  "title": "Spiritual Tourism in Bihar: Bodh Gaya, Gaya, Patna Sahib and Pawapuri",
+  "seoTitle": "Spiritual Places in Bihar: Bodh Gaya, Gaya & Patna Sahib | Kudozz Club",
+  "metaDescription": "Plan a spiritual trip in Bihar: Bodh Gaya, Rajgir and Nalanda, Gaya's Vishnupad temple and Pind Daan, Patna Sahib, Pawapuri, Vaishali and Sitamarhi, with routes.",
+  "description": "A guide to spiritual tourism in Bihar, where four faiths have key sites: Bodh Gaya, Rajgir, Nalanda and Vaishali for Buddhists; Gaya's Vishnupad temple and the Pind Daan rituals, Sitamarhi and Mundeshwari for Hindus; Takht Sri Patna Sahib for Sikhs; and Pawapuri and Rajgir for Jains, with Chhath, routes and seasons.",
+  "dek": "Bihar may have more sacred sites of more faiths in a small area than any other state.",
+  "primaryKeyword": "spiritual places in Bihar",
+  "secondaryKeywords": [
+    "religious places in Bihar",
+    "temples in Bihar",
+    "pilgrimage places in Bihar"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "pilgrimage",
+    "Buddhist circuit",
+    "temple visit",
+    "gurdwaras"
+  ],
+  "terrain": [
+    "plains",
+    "hills",
+    "river"
+  ],
+  "regions": [
+    "Bihar",
+    "East India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "groups"
+  ],
+  "tags": [
+    "Bihar",
+    "Bodh Gaya",
+    "Gaya",
+    "Patna Sahib"
+  ],
+  "hero": {
+    "src": "/images/spiritual/spiritual-bihar-nalanda-ruins.webp",
+    "alt": "The shikhara of the Vishnupad Temple in Gaya, Bihar"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Spiritual Bihar",
+    "containedIn": "Bihar"
+  },
+  "intro": [
+    "Bihar holds Bodh Gaya, where the Buddha attained enlightenment, and many other places central to Buddhism: Rajgir, the ruins of Nalanda and Vaishali. It is equally important to Jains, as Mahavira attained nirvana at Pawapuri, and to Sikhs, as Patna is the birthplace of Guru Gobind Singh.",
+    "For Hindus, Gaya is one of the most important places to perform Pind Daan, the rites for ancestors, especially during Pitru Paksha. Chhath, dedicated to the Sun, is the state's most distinctive festival."
+  ],
+  "quickAnswer": "Bihar's main spiritual destinations are Bodh Gaya (the Mahabodhi Temple), Rajgir and Nalanda, Vaishali, Gaya (the Vishnupad temple and Pind Daan), Takht Sri Patna Sahib in Patna, and Pawapuri for Jains. Bodh Gaya, Gaya, Rajgir, Nalanda and Pawapuri lie within about 100 km of each other. October to March is the best time; Pitru Paksha at Gaya falls in September or October.",
+  "takeaways": [
+    "Bodh Gaya, Rajgir, Nalanda and Vaishali are key Buddhist sites.",
+    "Gaya is a major centre for Pind Daan, especially during Pitru Paksha.",
+    "Takht Sri Patna Sahib marks the birthplace of Guru Gobind Singh.",
+    "Pawapuri is where Jains believe Mahavira attained nirvana.",
+    "Chhath (October or November) is celebrated on the ghats of Patna and across Bihar."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Main spiritual places",
+      "table": {
+        "columns": [
+          "Place",
+          "Tradition",
+          "Known for",
+          "Our guide"
+        ],
+        "rows": [
+          [
+            "Bodh Gaya",
+            "Buddhist",
+            "Mahabodhi Temple (UNESCO)",
+            "Bodh Gaya guide"
+          ],
+          [
+            "Gaya",
+            "Hindu",
+            "Vishnupad temple; Pind Daan",
+            "Gaya guide"
+          ],
+          [
+            "Rajgir",
+            "Buddhist, Jain",
+            "Vulture's Peak, Shanti Stupa, Jain temples",
+            "Rajgir guide"
+          ],
+          [
+            "Nalanda",
+            "Buddhist",
+            "Ruins of the ancient university (UNESCO)",
+            "Nalanda guide"
+          ],
+          [
+            "Pawapuri",
+            "Jain",
+            "Jal Mandir, Mahavira's nirvana",
+            "Pawapuri guide"
+          ],
+          [
+            "Patna",
+            "Sikh",
+            "Takht Sri Patna Sahib",
+            "Patna guide"
+          ],
+          [
+            "Vaishali",
+            "Buddhist, Jain",
+            "Relic stupa, Ashokan pillar",
+            "Vaishali guide"
+          ],
+          [
+            "Sitamarhi",
+            "Hindu",
+            "Traditionally Sita's birthplace",
+            "Covered here"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "highlights",
+      "heading": "Highlights",
+      "items": [
+        {
+          "name": "Bodh Gaya",
+          "body": [
+            "The Mahabodhi Temple and the Bodhi tree, with monasteries of many Buddhist countries."
+          ],
+          "links": [
+            {
+              "label": "Bodh Gaya guide",
+              "href": "/blog/bodh-gaya-travel-guide"
+            },
+            {
+              "label": "Buddhist Circuit",
+              "href": "/blog/buddhist-circuit-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Gaya",
+          "body": [
+            "The Vishnupad temple on the Falgu river, where Pind Daan is performed; Pitru Paksha (September or October) draws very large numbers."
+          ],
+          "links": [
+            {
+              "label": "Gaya guide",
+              "href": "/blog/gaya-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/bihar/gaya/vishnupad-temple-gaya-2.webp",
+            "alt": "The Vishnupad temple in Gaya, Bihar",
+            "caption": "Vishnupad temple, Gaya"
+          }
+        },
+        {
+          "name": "Rajgir and Nalanda",
+          "body": [
+            "Vulture's Peak, the Vishwa Shanti Stupa, Jain temples on the hills, and Nalanda's excavated monasteries."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Rajgir",
+              "href": "/blog/things-to-do-in-rajgir"
+            },
+            {
+              "label": "Nalanda guide",
+              "href": "/blog/nalanda-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Patna Sahib",
+          "body": [
+            "Takht Sri Patna Sahib in the old city, and the Bihar Museum."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Patna",
+              "href": "/blog/things-to-do-in-patna"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More sacred places",
+      "list": [
+        "Pawapuri's Jal Mandir, a white temple in a lotus pond.",
+        "Vaishali, with its Ashokan pillar and relic stupa; Jain tradition places Mahavira's birth nearby.",
+        "Kesariya, one of the largest excavated Buddhist stupas in India.",
+        "Sitamarhi, traditionally the birthplace of Sita.",
+        "Mundeshwari in Kaimur district, said to be among the oldest temples in continuous worship.",
+        "Sonepur, where a great fair is held around Kartik Purnima."
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "Suggested routes",
+      "table": {
+        "columns": [
+          "Route",
+          "Days",
+          "Places"
+        ],
+        "rows": [
+          [
+            "Gaya and Bodh Gaya",
+            "2",
+            "Vishnupad, Mahabodhi, monasteries"
+          ],
+          [
+            "Buddhist Bihar",
+            "4 to 5",
+            "Bodh Gaya, Rajgir, Nalanda, Vaishali, Kesariya"
+          ],
+          [
+            "Four faiths",
+            "5 to 6",
+            "Bodh Gaya, Gaya, Rajgir, Nalanda, Pawapuri, Patna"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stays",
+      "heading": "Stays and tips",
+      "list": [
+        "Bodh Gaya has hotels and monastery guesthouses; book early for December and January.",
+        "Gaya's hotels fill up during Pitru Paksha; priests (pandas) arrange Pind Daan rituals, so agree details beforehand.",
+        "Rajgir is a good base for Nalanda and Pawapuri.",
+        "Patna has the widest choice of hotels and the main airport."
+      ]
+    },
+    {
+      "id": "festivals",
+      "heading": "Festivals",
+      "list": [
+        "Chhath (October or November): offerings to the setting and rising sun on the ghats of the Ganga and other rivers.",
+        "Pitru Paksha (September or October): the fortnight for ancestral rites, when Gaya is at its busiest.",
+        "Buddha Purnima (April or May) at Bodh Gaya, and the winter season of teachings and prayer gatherings.",
+        "Guru Gobind Singh's Gurpurab at Patna Sahib (December or January).",
+        "The Sonepur fair around Kartik Purnima (November)."
+      ]
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Dress modestly and follow each place of worship's rules on dress, phones and photography.",
+    "Agree the ritual and fees in advance for Pind Daan at Gaya.",
+    "Winter mornings can be foggy; allow extra time on the roads."
+  ],
+  "packing": [
+    "Light layers and a warm jacket for winter",
+    "Modest clothing and a head covering for gurdwaras",
+    "Slip-on footwear",
+    "ID"
+  ],
+  "faqs": [
+    {
+      "q": "What is Gaya famous for?",
+      "a": "The Vishnupad temple and Pind Daan, the rites for ancestors, especially during Pitru Paksha."
+    },
+    {
+      "q": "How far is Bodh Gaya from Gaya?",
+      "a": "About 15 km."
+    },
+    {
+      "q": "Which Takht is in Bihar?",
+      "a": "Takht Sri Patna Sahib, the birthplace of Guru Gobind Singh."
+    },
+    {
+      "q": "What is Pawapuri known for?",
+      "a": "Jains believe Mahavira attained nirvana there; the Jal Mandir stands in a lotus pond."
+    },
+    {
+      "q": "How do I reach Bodh Gaya?",
+      "a": "Gaya airport is about 12 km away; Gaya Junction railway station is about 15 km away."
+    },
+    {
+      "q": "Is Nalanda a UNESCO site?",
+      "a": "Yes. The excavated remains of Nalanda Mahavihara were inscribed in 2016."
+    },
+    {
+      "q": "When is Chhath celebrated?",
+      "a": "In October or November, a few days after Diwali, on river ghats across Bihar."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Bodh Gaya guide",
+      "href": "/blog/bodh-gaya-travel-guide"
+    },
+    {
+      "label": "Things to do in Bodh Gaya",
+      "href": "/blog/things-to-do-in-bodh-gaya"
+    },
+    {
+      "label": "Bihar travel guide",
+      "href": "/blog/bihar-travel-guide"
+    },
+    {
+      "label": "Bihar tour packages",
+      "href": "/packages/bihar"
+    },
+    {
+      "label": "Buddhist Circuit packages",
+      "href": "/packages/buddhist-circuit"
+    }
+  ],
+  "related": [
+    {
+      "name": "Buddhist Circuit in India",
+      "href": "/blog/buddhist-circuit-in-india",
+      "note": "the full route"
+    },
+    {
+      "name": "Panj Takht Yatra",
+      "href": "/blog/panj-takht-yatra",
+      "note": "Patna Sahib and the other Takhts"
+    },
+    {
+      "name": "Jain pilgrimage in India",
+      "href": "/blog/jain-pilgrimage-in-india",
+      "note": "Pawapuri and more"
+    }
+  ],
+  "places": [
+    "Bodh Gaya",
+    "Gaya",
+    "Rajgir",
+    "Nalanda",
+    "Pawapuri",
+    "Patna",
+    "Vaishali",
+    "Kesariya",
+    "Sitamarhi"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Bihar",
+  "updated": "2026-09-26"
+}

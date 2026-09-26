@@ -1,0 +1,404 @@
+{
+  "slug": "heritage-walks-in-india",
+  "kind": "pillar",
+  "short": "Heritage walks in India",
+  "title": "Heritage Walks in India: Old City Walks Worth Taking",
+  "seoTitle": "Heritage Walks in India: The Best Old-City Walks | Kudozz Club",
+  "metaDescription": "The best heritage walks in India: Ahmedabad's pols, Old Delhi, Mehrauli, Jaipur's walled city, Varanasi's ghats, Kolkata, Mumbai's Fort, Fort Kochi and Puducherry.",
+  "description": "A guide to the best heritage walks in India, with what each covers and how to do it: Ahmedabad's old-city walk through the pols, Old Delhi and Chandni Chowk, Mehrauli Archaeological Park, Jaipur's walled city, Varanasi's ghats, Lucknow, Hyderabad's old city, Kolkata's Dalhousie Square and north Kolkata, Mumbai's Fort precinct, Fort Kochi, Puducherry and Hampi, with tips on timing, guides and etiquette.",
+  "dek": "The best way to understand an Indian city is on foot, early in the morning, with someone who knows its stories. These are the walks worth waking up for.",
+  "primaryKeyword": "heritage walks in India",
+  "secondaryKeywords": [
+    "heritage walk Delhi",
+    "Ahmedabad heritage walk",
+    "old city walks India"
+  ],
+  "searchIntent": "Discovery/experience",
+  "activities": [
+    "heritage walks",
+    "food walks",
+    "markets",
+    "photography"
+  ],
+  "terrain": [
+    "city"
+  ],
+  "regions": [
+    "Gujarat",
+    "Delhi",
+    "Rajasthan",
+    "Uttar Pradesh",
+    "Telangana",
+    "West Bengal",
+    "Maharashtra",
+    "Kerala",
+    "Puducherry"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "solo travellers",
+    "families",
+    "photographers"
+  ],
+  "tags": [
+    "Heritage Walks",
+    "Old City",
+    "Walking Tours",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/heritage/heritage-walks-chandni-chowk.webp",
+    "alt": "A busy street in Chandni Chowk, Old Delhi"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Heritage walks in India"
+  },
+  "intro": [
+    "Heritage walks take you through the parts of a city that cars cannot reach: gated neighbourhoods, bazaars, courtyards, small shrines and workshops. Many are run by municipal corporations, heritage trusts, museums or independent local guides, usually in the early morning.",
+    "This guide lists the classic walks in each city and what they cover. Operators and timings change, so check current details locally or ask us when you plan your trip."
+  ],
+  "quickAnswer": "The best heritage walks in India include Ahmedabad's old-city walk through the pols, Old Delhi's Chandni Chowk and Jama Masjid, Mehrauli Archaeological Park, Jaipur's walled city, the ghats of Varanasi, Lucknow's old city, Hyderabad around Charminar, Kolkata's Dalhousie Square and north Kolkata, Mumbai's Fort precinct, Fort Kochi and Puducherry's French Quarter. Most start early in the morning and take two to three hours.",
+  "takeaways": [
+    "Most heritage walks start between 7 and 8 am and last two to three hours.",
+    "Ahmedabad's municipal heritage walk is one of India's best-known city walks.",
+    "Food walks are a good evening companion to a morning heritage walk.",
+    "Wear comfortable shoes and dress modestly for places of worship.",
+    "Book ahead in winter, when walks fill up."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "The classic walks",
+      "table": {
+        "columns": [
+          "City",
+          "Walk",
+          "What you see"
+        ],
+        "rows": [
+          [
+            "Ahmedabad",
+            "Old city walk",
+            "Pols, carved havelis, temples, the Jama Masjid"
+          ],
+          [
+            "Delhi",
+            "Chandni Chowk and Jama Masjid",
+            "Havelis, spice market, Mughal mosque"
+          ],
+          [
+            "Delhi",
+            "Mehrauli Archaeological Park",
+            "Tombs, stepwell and mosques across 800 years"
+          ],
+          [
+            "Jaipur",
+            "Walled city",
+            "Bazaars, havelis, temples, the Hawa Mahal"
+          ],
+          [
+            "Varanasi",
+            "Ghats at dawn",
+            "Ghats, temples, lanes, a boat ride"
+          ],
+          [
+            "Lucknow",
+            "Old city",
+            "Imambaras, Chowk, chikankari workshops"
+          ],
+          [
+            "Hyderabad",
+            "Charminar area",
+            "Mecca Masjid, Laad Bazaar, Chowmahalla"
+          ],
+          [
+            "Kolkata",
+            "Dalhousie Square; north Kolkata",
+            "Colonial offices; Bengali mansions, Kumartuli"
+          ],
+          [
+            "Mumbai",
+            "Fort precinct and Kala Ghoda",
+            "Victorian Gothic and Art Deco buildings (UNESCO)"
+          ],
+          [
+            "Kochi",
+            "Fort Kochi and Mattancherry",
+            "Churches, fishing nets, Jew Town, spice warehouses"
+          ],
+          [
+            "Puducherry",
+            "French Quarter",
+            "Villas, churches, the seafront"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "west-north",
+      "heading": "Ahmedabad, Delhi and Jaipur",
+      "items": [
+        {
+          "name": "Ahmedabad",
+          "body": [
+            "The municipal corporation's morning walk through the pols is a long-running favourite; it passes carved wooden houses, bird feeders (chabutros), temples and secret passages."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Ahmedabad",
+              "href": "/blog/things-to-do-in-ahmedabad"
+            }
+          ]
+        },
+        {
+          "name": "Old Delhi and Mehrauli",
+          "body": [
+            "A morning in Chandni Chowk, Khari Baoli and the Jama Masjid; or a walk through Mehrauli's ruins, from the Qutub complex to Jamali Kamali and Rajon ki Baoli."
+          ],
+          "links": [
+            {
+              "label": "Old Delhi guide",
+              "href": "/blog/old-delhi-travel-guide"
+            },
+            {
+              "label": "Mehrauli guide",
+              "href": "/blog/mehrauli-delhi-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/delhi/chandni-chowk/khari-baoli-spice-market-stalls-old-delhi.webp",
+            "alt": "Spice stalls at Khari Baoli, Old Delhi",
+            "caption": "Khari Baoli spice market, Old Delhi"
+          }
+        },
+        {
+          "name": "Jaipur",
+          "body": [
+            "The walled city's bazaars, each once given to a trade, with temples and havelis between them."
+          ],
+          "links": [
+            {
+              "label": "Jaipur guide",
+              "href": "/blog/jaipur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east-south",
+      "heading": "Varanasi, Kolkata, Mumbai and the south",
+      "items": [
+        {
+          "name": "Varanasi",
+          "body": [
+            "Walk the ghats from Assi to Dashashwamedh at dawn, then take a boat back."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Varanasi",
+              "href": "/blog/things-to-do-in-varanasi"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/varanasi/assi-ghat-varanasi-steps-river.webp",
+            "alt": "The steps of Assi Ghat on the Ganga, Varanasi",
+            "caption": "Assi Ghat, Varanasi"
+          }
+        },
+        {
+          "name": "Kolkata",
+          "body": [
+            "Dalhousie Square's colonial offices, and north Kolkata's mansions, Kumartuli's idol-makers and College Street's book market."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kolkata",
+              "href": "/blog/things-to-do-in-kolkata"
+            }
+          ]
+        },
+        {
+          "name": "Mumbai",
+          "body": [
+            "The Fort precinct and Kala Ghoda, then the Art Deco buildings facing the Oval Maidan."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mumbai",
+              "href": "/blog/things-to-do-in-mumbai"
+            }
+          ]
+        },
+        {
+          "name": "Fort Kochi and Puducherry",
+          "body": [
+            "Two relaxed walks by the sea."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kochi",
+              "href": "/blog/things-to-do-in-kochi"
+            },
+            {
+              "label": "Things to do in Pondicherry",
+              "href": "/blog/things-to-do-in-pondicherry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-walks",
+      "heading": "Food walks",
+      "paras": [
+        "Many cities pair heritage with food: Old Delhi's parathas and jalebis, Lucknow's kebabs, Amritsar's kulchas, Hyderabad's haleem during Ramzan, and Kolkata's sweets. A food walk in the evening is a good way to see the same neighbourhood in a different light."
+      ],
+      "items": [
+        {
+          "name": "Food heritage",
+          "body": [
+            "Regional cuisines and where to taste them."
+          ],
+          "links": [
+            {
+              "label": "Food heritage of India",
+              "href": "/blog/food-heritage-of-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Start early; lanes are quieter and cooler before 9 am.",
+        "Choose licensed guides or walks run by municipal bodies, trusts or museums.",
+        "Wear shoes you can slip off at temples and mosques.",
+        "Carry small change for tea, offerings and tips.",
+        "Ask before photographing people, homes and places of worship."
+      ]
+    },
+    {
+      "id": "self-guided",
+      "heading": "Self-guided walks",
+      "paras": [
+        "If you prefer to walk alone, pick a compact area and a clear route: the Fort Kochi seafront to Mattancherry, the French Quarter in Puducherry, or Mumbai's Oval Maidan to Kala Ghoda. Download an offline map, go early, and use site signage and our city guides for context. In dense old cities such as Old Delhi, Varanasi and Ahmedabad, a guide helps a great deal, both for the stories and for finding your way."
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "When to walk",
+      "list": [
+        "October to March is the best season across most of India.",
+        "In summer, start at dawn and finish by 9 am.",
+        "In the monsoon, walks in Mumbai, Kochi and Goa can be beautiful between showers, but lanes flood in heavy rain.",
+        "Festivals transform old cities, but make walks slower and more crowded."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and prices change; check official sources before you go.",
+    "Watch for two-wheelers in narrow lanes.",
+    "Keep bags in front of you in crowded markets."
+  ],
+  "packing": [
+    "Comfortable slip-on shoes",
+    "Scarf for places of worship",
+    "Water",
+    "Small change"
+  ],
+  "faqs": [
+    {
+      "q": "What is a heritage walk?",
+      "a": "A guided walk through a historic neighbourhood, usually in the early morning, covering its buildings, stories and daily life."
+    },
+    {
+      "q": "Which city has the best heritage walk in India?",
+      "a": "Ahmedabad's old-city walk is one of the best known; Old Delhi, Kolkata and Mumbai are also excellent."
+    },
+    {
+      "q": "How long does a heritage walk take?",
+      "a": "Usually two to three hours."
+    },
+    {
+      "q": "Do I need to book?",
+      "a": "It is best to book ahead, especially in winter; some walks limit numbers."
+    },
+    {
+      "q": "Are heritage walks suitable for children?",
+      "a": "Yes, for older children; carry water and keep walks short for younger ones."
+    },
+    {
+      "q": "Can I do a heritage walk in the evening?",
+      "a": "Some cities offer evening walks and food walks, especially in winter; mornings are cooler and quieter for the old lanes."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage cities in India",
+      "href": "/blog/heritage-cities-in-india"
+    },
+    {
+      "label": "Food heritage of India",
+      "href": "/blog/food-heritage-of-india"
+    },
+    {
+      "label": "Heritage tourism in Delhi",
+      "href": "/blog/heritage-tourism-in-delhi"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Colonial-era heritage",
+      "href": "/blog/colonial-heritage-in-india",
+      "note": "Mumbai, Kolkata and Kochi"
+    },
+    {
+      "name": "Things to do in Delhi",
+      "href": "/blog/things-to-do-in-delhi",
+      "note": "the city"
+    },
+    {
+      "name": "Mehrauli guide",
+      "href": "/blog/mehrauli-delhi-travel-guide",
+      "note": "Delhi's oldest layers"
+    }
+  ],
+  "places": [
+    "Ahmedabad",
+    "Old Delhi",
+    "Mehrauli",
+    "Jaipur",
+    "Varanasi",
+    "Lucknow",
+    "Hyderabad",
+    "Kolkata",
+    "Mumbai",
+    "Fort Kochi",
+    "Puducherry"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

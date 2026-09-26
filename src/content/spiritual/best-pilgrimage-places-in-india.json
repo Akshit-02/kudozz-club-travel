@@ -1,0 +1,444 @@
+{
+  "slug": "best-pilgrimage-places-in-india",
+  "kind": "pillar",
+  "short": "Best pilgrimage places",
+  "title": "Best Pilgrimage Places in India: Holy Sites of Every Faith",
+  "seoTitle": "Best Pilgrimage Places in India, Across Every Faith | Kudozz Club",
+  "metaDescription": "India's most important pilgrimage places across faiths: Varanasi, Tirumala, the Golden Temple, Bodh Gaya, Ajmer, Vaishno Devi, the Char Dham, Velankanni and more.",
+  "description": "A guide to India's most important pilgrimage places across faiths: Hindu sites such as Varanasi, Tirumala, Vaishno Devi, the Char Dham and Jyotirlingas; the Golden Temple and Hemkund Sahib; Bodh Gaya and Sarnath; Palitana and Sammed Shikharji; Ajmer and Nizamuddin; Velankanni and Old Goa, with seasons, booking notes and how to choose.",
+  "dek": "India's holy places span every major faith. This guide picks the sites most pilgrims plan their journeys around, and explains how to plan each.",
+  "primaryKeyword": "best pilgrimage places in India",
+  "secondaryKeywords": [
+    "holy places in India",
+    "religious places in India",
+    "famous pilgrimage sites India",
+    "spiritual destinations India"
+  ],
+  "searchIntent": "Informational/discovery listicle",
+  "activities": [
+    "pilgrimage",
+    "temple visit",
+    "darshan",
+    "heritage"
+  ],
+  "terrain": [
+    "temple town",
+    "mountains",
+    "coast",
+    "river"
+  ],
+  "regions": [
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "Andhra Pradesh",
+    "Punjab",
+    "Jammu and Kashmir",
+    "Bihar",
+    "Rajasthan",
+    "Odisha",
+    "Tamil Nadu",
+    "Gujarat",
+    "Maharashtra",
+    "Kerala"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "groups"
+  ],
+  "tags": [
+    "Pilgrimage",
+    "Holy Places",
+    "Temples",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/spiritual/pilgrimage-places-golden-temple.webp",
+    "alt": "The Golden Temple (Harmandir Sahib) in Amritsar, seen across its sarovar"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Pilgrimage places in India"
+  },
+  "intro": [
+    "Pilgrimage is one of the main reasons Indians travel, and many of the country's busiest destinations are holy places: river towns such as Varanasi and Haridwar, hill shrines such as Tirumala and Vaishno Devi, the Golden Temple in Amritsar, Bodh Gaya, and the great Sufi dargahs.",
+    "This guide lists the places most pilgrims plan around, grouped by tradition, with the season and the booking or registration each one needs. It is a starting point; every site links to our detailed guide."
+  ],
+  "quickAnswer": "Among India's most important pilgrimage places are Varanasi, Haridwar and Prayagraj on the Ganga; Tirumala (Tirupati), Vaishno Devi and the Char Dham; the twelve Jyotirlingas; Puri and Rameswaram; the Golden Temple in Amritsar; Bodh Gaya and Sarnath; Palitana and Sammed Shikharji; Ajmer Sharif; and Velankanni and the churches of Old Goa. Many need advance darshan booking or registration.",
+  "takeaways": [
+    "Most pilgrims plan around a tradition: Hindu, Sikh, Buddhist, Jain, Sufi or Christian.",
+    "Tirumala, Vaishno Devi, the Char Dham and Amarnath need advance booking or registration on official portals.",
+    "Himalayan shrines open only in summer; the plains are best from October to March.",
+    "Festivals are spiritually special but bring the largest crowds.",
+    "Every temple, gurdwara, dargah and church has its own rules on dress and entry."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Major pilgrimage places at a glance",
+      "table": {
+        "columns": [
+          "Place",
+          "Tradition",
+          "State",
+          "Good to know"
+        ],
+        "rows": [
+          [
+            "Varanasi",
+            "Hindu",
+            "Uttar Pradesh",
+            "Ghats, Ganga Aarti, Kashi Vishwanath"
+          ],
+          [
+            "Haridwar and Rishikesh",
+            "Hindu",
+            "Uttarakhand",
+            "Har ki Pauri aarti; gateway to the Char Dham"
+          ],
+          [
+            "Char Dham (Uttarakhand)",
+            "Hindu",
+            "Uttarakhand",
+            "Summer only; registration mandatory"
+          ],
+          [
+            "Tirumala (Tirupati)",
+            "Hindu",
+            "Andhra Pradesh",
+            "Book darshan on the official TTD site"
+          ],
+          [
+            "Vaishno Devi",
+            "Hindu",
+            "Jammu and Kashmir",
+            "Trek from Katra; yatra registration (RFID card)"
+          ],
+          [
+            "Amarnath",
+            "Hindu",
+            "Jammu and Kashmir",
+            "Summer yatra only; registration via the Shrine Board"
+          ],
+          [
+            "Puri",
+            "Hindu",
+            "Odisha",
+            "Rath Yatra; temple admits Hindus only"
+          ],
+          [
+            "Rameswaram and Madurai",
+            "Hindu",
+            "Tamil Nadu",
+            "Jyotirlinga and the Meenakshi Temple"
+          ],
+          [
+            "Golden Temple, Amritsar",
+            "Sikh",
+            "Punjab",
+            "Open to all; langar"
+          ],
+          [
+            "Bodh Gaya",
+            "Buddhist",
+            "Bihar",
+            "Mahabodhi Temple (UNESCO)"
+          ],
+          [
+            "Palitana",
+            "Jain",
+            "Gujarat",
+            "About 3,500 steps to the temple hill"
+          ],
+          [
+            "Ajmer Sharif",
+            "Sufi",
+            "Rajasthan",
+            "Urs in the month of Rajab"
+          ],
+          [
+            "Velankanni",
+            "Christian",
+            "Tamil Nadu",
+            "Basilica; annual feast from late August"
+          ],
+          [
+            "Old Goa",
+            "Christian",
+            "Goa",
+            "Basilica of Bom Jesus (UNESCO)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "hindu",
+      "heading": "Hindu pilgrimage",
+      "items": [
+        {
+          "name": "The sacred rivers",
+          "body": [
+            "Varanasi, Haridwar, Rishikesh and Prayagraj, where pilgrims bathe, perform rituals and watch the evening aartis."
+          ],
+          "links": [
+            {
+              "label": "Varanasi guide",
+              "href": "/blog/varanasi-travel-guide"
+            },
+            {
+              "label": "Haridwar guide",
+              "href": "/blog/haridwar-travel-guide"
+            },
+            {
+              "label": "Prayagraj guide",
+              "href": "/blog/prayagraj-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/uttar-pradesh/ganga-aarti-dashashwamedh-ghat-varanasi.webp",
+            "alt": "Evening Ganga Aarti at Dashashwamedh Ghat, Varanasi",
+            "caption": "Ganga Aarti, Varanasi"
+          }
+        },
+        {
+          "name": "Circuits",
+          "body": [
+            "The Char Dham of Uttarakhand, the four dhams of India, the twelve Jyotirlingas and the Shakti Peethas."
+          ],
+          "links": [
+            {
+              "label": "Char Dham Yatra guide",
+              "href": "/blog/char-dham-yatra-guide"
+            },
+            {
+              "label": "The 12 Jyotirlingas",
+              "href": "/blog/12-jyotirlingas-in-india"
+            },
+            {
+              "label": "Shakti Peethas",
+              "href": "/blog/shakti-peethas-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Hill shrines",
+          "body": [
+            "Tirumala in Andhra Pradesh and Vaishno Devi near Katra draw some of the largest crowds of any shrine in India."
+          ],
+          "links": [
+            {
+              "label": "Tirupati guide",
+              "href": "/blog/tirupati-travel-guide"
+            },
+            {
+              "label": "Katra and Vaishno Devi guide",
+              "href": "/blog/katra-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Krishna and Rama",
+          "body": [
+            "Mathura, Vrindavan, Dwarka, Puri and Guruvayur; and Ayodhya's Ram Mandir."
+          ],
+          "links": [
+            {
+              "label": "Ayodhya guide",
+              "href": "/blog/ayodhya-travel-guide"
+            },
+            {
+              "label": "Vrindavan guide",
+              "href": "/blog/vrindavan-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other-faiths",
+      "heading": "Other faiths",
+      "items": [
+        {
+          "name": "Sikh",
+          "body": [
+            "The Golden Temple, the five Takhts and Hemkund Sahib."
+          ],
+          "links": [
+            {
+              "label": "Sikh pilgrimage in India",
+              "href": "/blog/sikh-pilgrimage-in-india"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/punjab/punjab/golden-temple-amritsar-punjab.webp",
+            "alt": "The Golden Temple reflected in its sarovar, Amritsar",
+            "caption": "The Golden Temple, Amritsar"
+          }
+        },
+        {
+          "name": "Buddhist",
+          "body": [
+            "Bodh Gaya, Sarnath, Kushinagar and the monasteries of the Himalaya."
+          ],
+          "links": [
+            {
+              "label": "Buddhist Circuit",
+              "href": "/blog/buddhist-circuit-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Jain",
+          "body": [
+            "Palitana, Sammed Shikharji, Ranakpur, Dilwara and Shravanabelagola."
+          ],
+          "links": [
+            {
+              "label": "Jain pilgrimage in India",
+              "href": "/blog/jain-pilgrimage-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Sufi",
+          "body": [
+            "Ajmer Sharif, Nizamuddin in Delhi and Fatehpur Sikri."
+          ],
+          "links": [
+            {
+              "label": "Sufi shrines in India",
+              "href": "/blog/sufi-shrines-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Christian",
+          "body": [
+            "The Basilica of Our Lady of Good Health at Velankanni and the Basilica of Bom Jesus in Old Goa, part of the UNESCO-listed churches and convents of Goa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choose",
+      "heading": "How to choose",
+      "list": [
+        "Start with your tradition and any vow or ritual you want to complete.",
+        "Check the season: Himalayan shrines are summer-only; the south and the plains suit winter.",
+        "Check whether darshan booking or registration is needed, and book on the official site.",
+        "Allow buffer time: queues, weather and crowds make schedules unpredictable.",
+        "For older travellers, pick sites with road access or good assistance, and pace the trip."
+      ],
+      "after": [
+        "Our pilgrimage planning guide goes through each step."
+      ]
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Book darshan, registration and helicopters only on official portals; fake sites are common.",
+    "Festivals and holidays bring the largest crowds; follow police and volunteer instructions.",
+    "High-altitude shrines need acclimatisation and medical advice for older pilgrims."
+  ],
+  "packing": [
+    "Modest clothing, and a head covering for gurdwaras and dargahs",
+    "Slip-on footwear and socks",
+    "Photo ID and booking printouts",
+    "Basic medicines and a water bottle"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the most important pilgrimage place in India?",
+      "a": "It depends on the tradition: Varanasi and the Char Dham for many Hindus, the Golden Temple for Sikhs, Bodh Gaya for Buddhists, and Palitana and Sammed Shikharji for Jains."
+    },
+    {
+      "q": "Which pilgrimage places need advance booking?",
+      "a": "Tirumala darshan, Vaishno Devi and Amarnath registration, the Char Dham registration, and Kedarnath helicopters, among others."
+    },
+    {
+      "q": "When is the best time for pilgrimage in India?",
+      "a": "October to March for most of the plains and the south; May to June and September to October for Himalayan shrines."
+    },
+    {
+      "q": "Can people of other faiths visit these places?",
+      "a": "Most welcome all visitors who follow their rules, though some temples admit only Hindus; check before visiting."
+    },
+    {
+      "q": "Where should I go on my first pilgrimage?",
+      "a": "Varanasi, Haridwar and Rishikesh make an easy first trip from north India; Tirumala, Madurai and Rameswaram from the south."
+    },
+    {
+      "q": "What are the four dhams of India?",
+      "a": "Badrinath, Dwarka, Puri and Rameswaram."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "How to plan a pilgrimage",
+      "href": "/blog/how-to-plan-a-pilgrimage-in-india"
+    },
+    {
+      "label": "Famous temples in India",
+      "href": "/blog/famous-temples-in-india"
+    },
+    {
+      "label": "Pilgrimage trips from Delhi",
+      "href": "/blog/pilgrimage-trips-from-delhi"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    },
+    {
+      "label": "The Char Dham of India",
+      "href": "/blog/char-dham-of-india"
+    }
+  ],
+  "related": [
+    {
+      "name": "The 12 Jyotirlingas",
+      "href": "/blog/12-jyotirlingas-in-india",
+      "note": "the Shiva shrines"
+    },
+    {
+      "name": "Spiritual festivals in India",
+      "href": "/blog/spiritual-festivals-in-india",
+      "note": "when to go"
+    },
+    {
+      "name": "Pilgrimage packing list",
+      "href": "/blog/pilgrimage-packing-list",
+      "note": "what to wear and carry"
+    }
+  ],
+  "places": [
+    "Varanasi",
+    "Haridwar",
+    "Tirumala",
+    "Vaishno Devi",
+    "Amarnath",
+    "Puri",
+    "Rameswaram",
+    "Amritsar",
+    "Bodh Gaya",
+    "Palitana",
+    "Ajmer",
+    "Velankanni",
+    "Old Goa"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

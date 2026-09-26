@@ -20131,6 +20131,2764 @@
       "attribution": "Photo by Georgeluvpotato, CC0, via Wikimedia Commons",
       "location": "Tam Dil lake near Saitual, Mizoram",
       "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/adventure-travel-india-himalaya-trekkers.webp",
+      "usedIn": [
+        "/adventure-travel (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Reflection_of_himalaya_on_deoria_tal.jpg",
+      "originalFile": "Reflection of himalaya on deoria tal.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rajborah123",
+      "attribution": "Photo by Rajborah123, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Snow peaks reflected in Deoria Tal, Uttarakhand",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/ladakh-mountain-road-adventure.webp",
+      "usedIn": [
+        "/blog/best-adventure-destinations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ladakh_motorcycling.jpg",
+      "originalFile": "Ladakh motorcycling.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Ville Hyvönen",
+      "attribution": "Photo by Ville Hyvönen, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "Motorcyclists on a desert road in Ladakh",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/rishikesh-ganga-rafting-adventure.webp",
+      "usedIn": [
+        "/blog/adventure-sports-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_rafting_camp_on_the_banks_of_Ganga.JPG",
+      "originalFile": "A rafting camp on the banks of Ganga.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Vvnataraj",
+      "attribution": "Photo by Vvnataraj, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "A raft on the Ganga beside a riverside camp near Rishikesh",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/himalayan-trek-trail-india.webp",
+      "usedIn": [
+        "/blog/trekking-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kedarkantha_Peak.jpg",
+      "originalFile": "Kedarkantha Peak.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kanthi Kiran",
+      "attribution": "Photo by Kanthi Kiran, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Kedarkantha peak above autumn forest in Uttarakhand",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/triund-trek-ridge.webp",
+      "usedIn": [
+        "/blog/beginner-treks-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Triund_(16100162457).jpg",
+      "originalFile": "Triund (16100162457).jpg",
+      "license": "CC BY 2.0",
+      "author": "Ashish Gupta from Noida, India",
+      "attribution": "Photo by Ashish Gupta from Noida, India, CC BY 2.0, via Wikimedia Commons",
+      "location": "Snow on the Dhauladhar range seen from the Triund trail",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/kedarkantha-winter-trek-snow.webp",
+      "usedIn": [
+        "/blog/winter-treks-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Juda_ka_Talab.jpg",
+      "originalFile": "Juda ka Talab.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kanthi Kiran",
+      "attribution": "Photo by Kanthi Kiran, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Frozen Juda ka Talab lake in snow on the Kedarkantha trek",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/sahyadri-monsoon-trek.webp",
+      "usedIn": [
+        "/blog/monsoon-treks-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Valley_of_Flowers_(VoF).jpg",
+      "originalFile": "Valley of Flowers (VoF).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Arun Singh Suryavanshi",
+      "attribution": "Photo by Arun Singh Suryavanshi, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Green slopes of the Valley of Flowers in the monsoon",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/white-water-rafting-india-river.webp",
+      "usedIn": [
+        "/blog/river-rafting-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Zanskar_rafting_(babasteve).jpg",
+      "originalFile": "Zanskar rafting (babasteve).jpg",
+      "license": "CC BY 2.0",
+      "author": "babasteve (Steve Evans)",
+      "attribution": "Photo by babasteve (Steve Evans), CC BY 2.0, via Wikimedia Commons",
+      "location": "Rafts on the Zanskar river in Ladakh",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/rishikesh-rafting-ganga-rapids.webp",
+      "usedIn": [
+        "/blog/river-rafting-in-rishikesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:River_rafting_at_Rishikesh_Photographed_By_Sumita_Roy.jpg",
+      "originalFile": "River rafting at Rishikesh Photographed By Sumita Roy.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sumita Roy Dutta",
+      "attribution": "Photo by Sumita Roy Dutta, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A raft on the green Ganga below rocky cliffs at Rishikesh",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/paragliding-himalaya-india.webp",
+      "usedIn": [
+        "/blog/paragliding-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pilots_on_a_paragliding_takeoff_at_Bir-Billing_(01).JPG",
+      "originalFile": "Pilots on a paragliding takeoff at Bir-Billing (01).JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Okorok",
+      "attribution": "Photo by Okorok, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Paragliding pilots at the Billing take-off with the Dhauladhar range behind",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/scuba-diver-coral-reef-india.webp",
+      "usedIn": [
+        "/blog/scuba-diving-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Floaters_@_Andaman.jpg",
+      "originalFile": "Floaters @ Andaman.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Subro89",
+      "attribution": "Photo by Subro89, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Scuba divers in blue water in the Andaman Islands",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/scuba-diving-havelock-andaman.webp",
+      "usedIn": [
+        "/blog/scuba-diving-in-andaman (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Barracudas_Havelock_Andaman.jpg",
+      "originalFile": "Barracudas Havelock Andaman.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vardhanjp",
+      "attribution": "Photo by Vardhanjp, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A school of barracuda over the reef off Havelock Island",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/snorkelling-reef-andaman.webp",
+      "usedIn": [
+        "/blog/snorkeling-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snorkeling_at_Elephant_beach,_Havelock_Island,Andaman.jpg",
+      "originalFile": "Snorkeling at Elephant beach, Havelock Island,Andaman.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jayashree Subramanian",
+      "attribution": "Photo by Jayashree Subramanian, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Branching coral and reef fish at Elephant Beach, Havelock Island",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/skiing-gulmarg-slopes.webp",
+      "usedIn": [
+        "/blog/skiing-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Iism_gulmarg.JPG",
+      "originalFile": "Iism gulmarg.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Sanjay Kodain Mountaineer",
+      "attribution": "Photo by Sanjay Kodain Mountaineer, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Ski students on the snow slopes at Gulmarg",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/bungee-jump-india.webp",
+      "usedIn": [
+        "/blog/bungee-jumping-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mayem_Lake.jpg",
+      "originalFile": "Mayem Lake.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bssasidhar",
+      "attribution": "Photo by Bssasidhar, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The bungee tower over Mayem Lake in north Goa",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/skydiving-tandem-freefall.webp",
+      "usedIn": [
+        "/blog/skydiving-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Antonov_An-2_Skydive.jpg",
+      "originalFile": "Antonov An-2 Skydive.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Krzysztof Wilk",
+      "attribution": "Photo by Krzysztof Wilk, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Tandem skydivers in free fall just after leaving the aircraft",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/hot-air-balloon-rajasthan.webp",
+      "usedIn": [
+        "/blog/hot-air-balloon-rides-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hot_Air_Balloon_Ride_by_Sky_Waltz.jpg",
+      "originalFile": "Hot Air Balloon Ride by Sky Waltz.jpg",
+      "license": "Public domain",
+      "author": "Meeta",
+      "attribution": "Photo by Meeta, Public domain, via Wikimedia Commons",
+      "location": "A hot air balloon over Pushkar, Rajasthan",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/mountain-biking-himalaya-india.webp",
+      "usedIn": [
+        "/blog/mountain-biking-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Two_Mountain_Roads_in_Ladakh.jpg",
+      "originalFile": "Two Mountain Roads in Ladakh.jpg",
+      "license": "CC BY 2.0",
+      "author": "Karunakar Rayker from India (krayker)",
+      "attribution": "Photo by Karunakar Rayker from India (krayker), CC BY 2.0, via Wikimedia Commons",
+      "location": "Paved and dirt roads snaking up the mountainside on the Khardung La road, Ladakh",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/motorcycle-himalayan-road-ladakh.webp",
+      "usedIn": [
+        "/blog/best-motorcycle-trips-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pangong_Tso_2011_A_lonely_rider_(6890791353).jpg",
+      "originalFile": "Pangong Tso 2011 A lonely rider (6890791353).jpg",
+      "license": "CC BY 2.0",
+      "author": "Saad Faruque from Bangalore, India",
+      "attribution": "Photo by Saad Faruque from Bangalore, India, CC BY 2.0, via Wikimedia Commons",
+      "location": "A motorcyclist on the road beside Pangong Tso, Ladakh",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/spiti-valley-road-kaza.webp",
+      "usedIn": [
+        "/blog/spiti-valley-bike-trip (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Camino_a_Spiti_valley,_Himachal_Pradesh_(8512879095).jpg",
+      "originalFile": "Camino a Spiti valley, Himachal Pradesh (8512879095).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Carlos Adampol Galindo from DF, México",
+      "attribution": "Photo by Carlos Adampol Galindo from DF, México, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "A road cut into sheer cliffs on the way to Spiti Valley",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/rock-climbing-hampi-boulders.webp",
+      "usedIn": [
+        "/blog/rock-climbing-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hampi_bouldering_-_06.jpg",
+      "originalFile": "Hampi bouldering - 06.jpg",
+      "license": "CC BY 2.0",
+      "author": "ryguywy",
+      "attribution": "Photo by ryguywy, CC BY 2.0, via Wikimedia Commons",
+      "location": "A climber bouldering on a granite boulder at Hampi",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/mountaineers-himalayan-glacier.webp",
+      "usedIn": [
+        "/blog/mountaineering-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Himalayan_Mountaineering_Institute,_Darjeeling_in_2011.jpg",
+      "originalFile": "Himalayan Mountaineering Institute, Darjeeling in 2011.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "User:Ppyoonus",
+      "attribution": "Photo by User:Ppyoonus, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Climber sculpture and emblem at the Himalayan Mountaineering Institute, Darjeeling",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/camping-tents-himalaya.webp",
+      "usedIn": [
+        "/blog/camping-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:India_-_Ladakh_-_Trekking_-_060_-Rajung_Karu_looking_towards_Kyamuri_La_pass_(3906550322).jpg",
+      "originalFile": "India - Ladakh - Trekking - 060 -Rajung Karu looking towards Kyamuri La pass (3906550322).jpg",
+      "license": "CC BY 2.0",
+      "author": "McKay Savage from London, UK",
+      "attribution": "Photo by McKay Savage from London, UK, CC BY 2.0, via Wikimedia Commons",
+      "location": "Nomad camp tents in a high valley at Rajung Karu, Ladakh",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/kayaking-river-india.webp",
+      "usedIn": [
+        "/blog/kayaking-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kayaking_Kotepally.jpg",
+      "originalFile": "Kayaking Kotepally.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kotpally",
+      "attribution": "Photo by Kotpally, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A kayaker paddling on Kotpally reservoir, Telangana",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/water-sports-beach-india.webp",
+      "usedIn": [
+        "/blog/water-sports-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Parasailing_on_the_Calangute_beach,_Goa.jpg",
+      "originalFile": "Parasailing on the Calangute beach, Goa.jpg",
+      "license": "CC BY 2.0",
+      "author": "Praveen from Bangalore, India",
+      "attribution": "Photo by Praveen from Bangalore, India, CC BY 2.0, via Wikimedia Commons",
+      "location": "Parasailing over Calangute beach, Goa",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/thar-desert-dunes-jaisalmer.webp",
+      "usedIn": [
+        "/blog/desert-adventures-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sam_dunes_(Jaisalmer).jpg",
+      "originalFile": "Sam dunes (Jaisalmer).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Roshanrajverma",
+      "attribution": "Photo by Roshanrajverma, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Rippled sand dunes at Sam near Jaisalmer",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/solang-valley-manali-snow.webp",
+      "usedIn": [
+        "/blog/adventure-activities-in-manali (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Paragliding_in_Solang_valley.jpg",
+      "originalFile": "Paragliding in Solang valley.jpg",
+      "license": "Public domain",
+      "author": "Anil1956 at English Wikipedia",
+      "attribution": "Photo by Anil1956 at English Wikipedia, Public domain, via Wikimedia Commons",
+      "location": "A paraglider over pine forest in Solang Valley, Manali",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/ladakh-adventure-landscape.webp",
+      "usedIn": [
+        "/blog/adventure-activities-in-ladakh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Zanskar_River_in_Ladakh.jpg",
+      "originalFile": "Zanskar River in Ladakh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The turquoise Zanskar river winding through a Ladakh gorge",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/himachal-mountains-adventure.webp",
+      "usedIn": [
+        "/blog/adventure-activities-in-himachal-pradesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Way_to_hampta_pass.jpg",
+      "originalFile": "Way to hampta pass.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kunalsvnit",
+      "attribution": "Photo by Kunalsvnit, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A trekker in the valley on the way to Hampta Pass",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/uttarakhand-himalaya-adventure.webp",
+      "usedIn": [
+        "/blog/adventure-activities-in-uttarakhand (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_covered_path_to_Tungnath.JPG",
+      "originalFile": "Snow covered path to Tungnath.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Vvnataraj",
+      "attribution": "Photo by Vvnataraj, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Trekkers on a snow-covered path to Tungnath",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/goa-beach-water-sports.webp",
+      "usedIn": [
+        "/blog/adventure-activities-in-goa (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goa-_beach.jpg",
+      "originalFile": "Goa- beach.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bobby9030",
+      "attribution": "Photo by Bobby9030, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A parasail over a busy beach in Goa",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/andaman-sea-adventure.webp",
+      "usedIn": [
+        "/blog/adventure-activities-in-andaman (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snorkeling_at_Elephant_Beach_on_Havelock_island_of_Andaman_and_Nicobar_Archipelago.JPG",
+      "originalFile": "Snorkeling at Elephant Beach on Havelock island of Andaman and Nicobar Archipelago.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Rudolph.A.furtado",
+      "attribution": "Photo by Rudolph.A.furtado, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A snorkeller underwater at Elephant Beach, Havelock Island",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/sikkim-himalaya-trek.webp",
+      "usedIn": [
+        "/blog/adventure-activities-in-sikkim (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kangchenjunga_from_Thangshing.jpg",
+      "originalFile": "Kangchenjunga from Thangshing.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Carsten.nebel",
+      "attribution": "Photo by Carsten.nebel, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Kangchenjunga seen from Thangshing on the Goecha La trek",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/meghalaya-root-bridge-trek.webp",
+      "usedIn": [
+        "/blog/adventure-activities-in-meghalaya (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Living_root_bridges,_Nongriat_village,_Meghalaya2.jpg",
+      "originalFile": "Living root bridges, Nongriat village, Meghalaya2.jpg",
+      "license": "CC BY 2.0",
+      "author": "Arshiya Urveeja Bose",
+      "attribution": "Photo by Arshiya Urveeja Bose, CC BY 2.0, via Wikimedia Commons",
+      "location": "The double-decker living root bridge at Nongriat, Meghalaya",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/rishikesh-ganga-weekend.webp",
+      "usedIn": [
+        "/blog/weekend-adventure-trips-from-delhi (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ganges_at_Rishikesh_from_Lakshman_Jhula.jpg",
+      "originalFile": "Ganges at Rishikesh from Lakshman Jhula.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sudhanshu",
+      "attribution": "Photo by Sudhanshu, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Ganga flowing between green hills at Rishikesh",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/sahyadri-fort-trek-weekend.webp",
+      "usedIn": [
+        "/blog/weekend-adventure-trips-from-mumbai (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:RajmachiView_from_Rajmachi_Village.JPG",
+      "originalFile": "RajmachiView from Rajmachi Village.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Rhushiraj Patil (rishanimates)",
+      "attribution": "Photo by Rhushiraj Patil (rishanimates), CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Rajmachi fort hill in the monsoon near Lonavala",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/savandurga-monolith-karnataka.webp",
+      "usedIn": [
+        "/blog/weekend-adventure-trips-from-bengaluru (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Savandurga_monolith.jpg",
+      "originalFile": "Savandurga monolith.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Palash Ray",
+      "attribution": "Photo by Palash Ray, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The granite monolith of Savandurga near Bengaluru",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/himalayan-trail-planning.webp",
+      "usedIn": [
+        "/blog/how-to-plan-an-adventure-trip-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Triund_Camps.jpg",
+      "originalFile": "Triund Camps.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sheena Chaudhary",
+      "attribution": "Photo by Sheena Chaudhary, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Tents pitched on the ridge at Triund, Himachal Pradesh",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/trekking-gear-backpack-mountains.webp",
+      "usedIn": [
+        "/blog/adventure-travel-packing-list-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rupin_Pass_-_View_towards_Sangla_Valley.jpg",
+      "originalFile": "Rupin Pass - View towards Sangla Valley.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Engti",
+      "attribution": "Photo by Engti, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Snowfields on the Rupin Pass trek looking towards Sangla Valley",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/himalaya-season-landscape.webp",
+      "usedIn": [
+        "/blog/best-time-for-adventure-travel-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Himalayan_view_from_Chandrashila.JPG",
+      "originalFile": "Himalayan view from Chandrashila.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Abhishek Roy",
+      "attribution": "Photo by Abhishek Roy, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Himalayan peaks above a sea of cloud from Chandrashila",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/beginner-adventure-india.webp",
+      "usedIn": [
+        "/blog/adventure-travel-for-beginners-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kheerganga.JPG",
+      "originalFile": "Kheerganga.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Slopetrotter",
+      "attribution": "Photo by Slopetrotter, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Meadow and trail at Kheerganga in the Parvati Valley",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "adventure/surfing-india-coast.webp",
+      "usedIn": [
+        "/blog/surfing-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Covelong_Beach_(5139350148).jpg",
+      "originalFile": "Covelong Beach (5139350148).jpg",
+      "license": "CC BY 2.0",
+      "author": "Prateek Rungta from Delhi, India",
+      "attribution": "Photo by Prateek Rungta from Delhi, India, CC BY 2.0, via Wikimedia Commons",
+      "location": "Waves breaking on Covelong beach near Chennai, with a fishing boat on the sand",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/beach-travel-india-coast.webp",
+      "usedIn": [
+        "/beach-travel (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:PXL_20260103_101009613_People_and_Beach_Om_Beach_Gokarna,_Karnataka_01.jpg",
+      "originalFile": "PXL 20260103 101009613 People and Beach Om Beach Gokarna, Karnataka 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sourabh.biswas003",
+      "attribution": "Photo by Sourabh.biswas003, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "People on Om Beach, Gokarna, Karnataka",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/beach-destinations-india-havelock.webp",
+      "usedIn": [
+        "/blog/best-beach-destinations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Havelock_Island,_Ethereal_mangrove_tree,_Andaman_Islands.jpg",
+      "originalFile": "Havelock Island, Ethereal mangrove tree, Andaman Islands.jpg",
+      "license": "CC BY 4.0",
+      "author": "Vyacheslav Argenberg",
+      "attribution": "Photo by Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons",
+      "location": "A mangrove tree on a white-sand beach, Havelock Island, Andamans",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/best-beaches-india-radhanagar.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Radhanagar_Beach_in_the_Andaman_Islands.jpg",
+      "originalFile": "Radhanagar Beach in the Andaman Islands.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "La Vacanza Travel Private Limited",
+      "attribution": "Photo by La Vacanza Travel Private Limited, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Driftwood on Radhanagar Beach, Havelock Island, Andamans",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/beach-holiday-india-kovalam.webp",
+      "usedIn": [
+        "/blog/beach-holidays-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kovalam_lighthouse.JPG",
+      "originalFile": "Kovalam lighthouse.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "BishkekRocks",
+      "attribution": "Photo by BishkekRocks, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The lighthouse above Lighthouse beach, Kovalam, Kerala",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/beach-trip-alibaug-konkan.webp",
+      "usedIn": [
+        "/blog/beach-trips-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunset_at_kashid_beach.jpg",
+      "originalFile": "Sunset at kashid beach.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sakshimandhane",
+      "attribution": "Photo by Sakshimandhane, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Sunset at Kashid beach, Raigad, Maharashtra",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/blue-flag-beach-shivrajpur.webp",
+      "usedIn": [
+        "/blog/beach-tourism-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shivrajpur_Beach_Daytime.jpg",
+      "originalFile": "Shivrajpur Beach Daytime.jpg",
+      "license": "CC0",
+      "author": "Mi2023",
+      "attribution": "Photo by Mi2023, CC0, via Wikimedia Commons",
+      "location": "Shivrajpur beach near Dwarka, Gujarat",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/coastal-india-chinese-fishing-nets.webp",
+      "usedIn": [
+        "/blog/coastal-tourism-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:India_-_Fishing_nets_-_0819.jpg",
+      "originalFile": "India - Fishing nets - 0819.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Jorge Royan",
+      "attribution": "Photo by Jorge Royan, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Chinese fishing nets in the water at Fort Kochi, Kerala",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/dolphins-chilika-boat.webp",
+      "usedIn": [
+        "/blog/dolphin-watching-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chilka_lake_dolphin.jpg",
+      "originalFile": "Chilka lake dolphin.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Tarunsamanta",
+      "attribution": "Photo by Tarunsamanta, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A dolphin-watching boat on Chilika Lake, Odisha",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/honeymoon-beach-neil-island.webp",
+      "usedIn": [
+        "/blog/beach-honeymoon-destinations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Neil_Island,_Andaman.jpg",
+      "originalFile": "Neil Island, Andaman.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rajat29",
+      "attribution": "Photo by Rajat29, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Boats in clear water off Neil Island (Shaheed Dweep), Andamans",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/offbeat-beach-india-quiet.webp",
+      "usedIn": [
+        "/blog/offbeat-beaches-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kudle_beach_gokarna.jpg",
+      "originalFile": "Kudle beach gokarna.jpg",
+      "license": "CC BY 2.5",
+      "author": "Happyshopper",
+      "attribution": "Photo by Happyshopper, CC BY 2.5, via Wikimedia Commons",
+      "location": "Kudle beach seen from the headland, Gokarna",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/beach-season-india-palolem.webp",
+      "usedIn": [
+        "/blog/best-time-for-beach-holidays-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Palolem_beach_-_panoramio.jpg",
+      "originalFile": "Palolem beach - panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author": "Tuderna",
+      "attribution": "Photo by Tuderna, CC BY 3.0, via Wikimedia Commons",
+      "location": "Palolem beach, south Goa",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/beach-lifeguard-india.webp",
+      "usedIn": [
+        "/blog/beach-safety-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Life_guards_in_goa_beaches.jpg",
+      "originalFile": "Life guards in goa beaches.jpg",
+      "license": "Public domain",
+      "author": "നിരക്ഷരൻ at Malayalam Wikipedia .",
+      "attribution": "Photo by നിരക്ഷരൻ at Malayalam Wikipedia ., Public domain, via Wikimedia Commons",
+      "location": "Lifeguards and their patrol vehicle on a Goa beach",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/goa-beach-arambol-cliffs.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-goa (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vagator-Chapora_Beach,_Goa,_India.jpg",
+      "originalFile": "Vagator-Chapora Beach, Goa, India.jpg",
+      "license": "CC BY 4.0",
+      "author": "Vyacheslav Argenberg",
+      "attribution": "Photo by Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons",
+      "location": "The bay at Vagator and Chapora, north Goa",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/andaman-beach-kalapathar.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-andaman (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kalapathar_Beach_(50667938).jpeg",
+      "originalFile": "Kalapathar Beach (50667938).jpeg",
+      "license": "CC BY 3.0",
+      "author": "Manu Manjunath",
+      "attribution": "Photo by Manu Manjunath, CC BY 3.0, via Wikimedia Commons",
+      "location": "Boats off Kalapathar beach, Havelock Island",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/lakshadweep-lagoon-beach.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-lakshadweep (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bangaram_Island,_Lakshadweep_20160325-_DSC1780.jpg",
+      "originalFile": "Bangaram Island, Lakshadweep 20160325- DSC1780.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "The.chhayachitrakar",
+      "attribution": "Photo by The.chhayachitrakar, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Thatched huts under palms on Bangaram Island, Lakshadweep",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/kerala-beach-varkala-cliff.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-kerala (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Varkala_beach_from_above.jpg",
+      "originalFile": "Varkala beach from above.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kondephy",
+      "attribution": "Photo by Kondephy, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Varkala beach seen from the cliff, Kerala",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/karnataka-beach-murudeshwar.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-karnataka (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Murudeshwar_Beach_in_India.jpg",
+      "originalFile": "Murudeshwar Beach in India.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "RNM at en.wikipedia",
+      "attribution": "Photo by RNM at en.wikipedia, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Waves on Murudeshwar beach, Karnataka",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/maharashtra-beach-ganpatipule.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-maharashtra (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ganpatipule_-_panoramio.jpg",
+      "originalFile": "Ganpatipule - panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Neil Satyam",
+      "attribution": "Photo by Neil Satyam, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The temple on Ganpatipule beach, Ratnagiri",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/tamil-nadu-beach-dhanushkodi.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-tamil-nadu (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beach_near_Dhanushkodi_02.jpg",
+      "originalFile": "Beach near Dhanushkodi 02.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "M.Mutta",
+      "attribution": "Photo by M.Mutta, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Beach near Dhanushkodi, Rameswaram island, Tamil Nadu",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/odisha-beach-gopalpur.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-odisha (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gopalpur_%27s_beach,_the_ocean.JPG",
+      "originalFile": "Gopalpur 's beach, the ocean.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Jagadhatri",
+      "attribution": "Photo by Jagadhatri, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The sea at Gopalpur beach, Odisha",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/gujarat-beach-mandvi.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-gujarat (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Enjoying_Camel_Ride,_Mandvi_Beach,_Kachchh_-_panoramio.jpg",
+      "originalFile": "Enjoying Camel Ride, Mandvi Beach, Kachchh - panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author": "Raman Patel",
+      "attribution": "Photo by Raman Patel, CC BY 3.0, via Wikimedia Commons",
+      "location": "Camel ride at sunset on Mandvi beach, Kutch",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/andhra-beach-rushikonda.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-andhra-pradesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rocks_at_Rushikonda_beach_01.JPG",
+      "originalFile": "Rocks at Rushikonda beach 01.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Adityamadhav83",
+      "attribution": "Photo by Adityamadhav83, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Rocks and surf at Rushikonda beach, Visakhapatnam",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/west-bengal-beach-tajpur.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-west-bengal (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tajpur_beach,_West_Bengal_03.jpg",
+      "originalFile": "Tajpur beach, West Bengal 03.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pinakpani",
+      "attribution": "Photo by Pinakpani, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Tajpur beach and its casuarina trees, West Bengal",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "beach/puducherry-beach-paradise.webp",
+      "usedIn": [
+        "/blog/best-beaches-in-puducherry (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Paradise_beach.jpg",
+      "originalFile": "Paradise beach.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Vtbijoy",
+      "attribution": "Photo by Vtbijoy, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The entrance to Paradise Beach, Puducherry",
+      "accessed": "2026-09-25"
+    },
+    {
+      "path": "wildlife/wildlife-tourism-india-tiger.webp",
+      "usedIn": [
+        "/wildlife-tourism (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Reclining_Tiger,_Ranthambore_National_Park.JPG",
+      "originalFile": "Reclining Tiger, Ranthambore National Park.JPG",
+      "license": "CC BY 3.0",
+      "author": "LuisVilla",
+      "attribution": "Photo by LuisVilla, CC BY 3.0, via Wikimedia Commons",
+      "location": "A Bengal tiger resting in dry grass in Ranthambore National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/wildlife-destinations-kaziranga-rhino.webp",
+      "usedIn": [
+        "/blog/best-wildlife-destinations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_rhinoceros_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_08.jpg",
+      "originalFile": "Indian rhinoceros in Kaziranga National Park March 2025 by Tisha Mukherjee 08.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Tisha Mukherjee",
+      "attribution": "Photo by Tisha Mukherjee, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A greater one-horned rhinoceros walking across grassland in Kaziranga National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/national-parks-kanha-meadow.webp",
+      "usedIn": [
+        "/blog/best-national-parks-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Barasingha_and_chital.JPG",
+      "originalFile": "Barasingha and chital.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "T. R. Shankar Raman",
+      "attribution": "Photo by T. R. Shankar Raman, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Barasingha and chital deer in golden grass in Kanha National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/sanctuary-periyar-lake.webp",
+      "usedIn": [
+        "/blog/best-wildlife-sanctuaries-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gaur_(Indian_Bison)_at_Periyar_National_Park_%26_Wildlife_Sanctuary.jpg",
+      "originalFile": "Gaur (Indian Bison) at Periyar National Park & Wildlife Sanctuary.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Anand2202",
+      "attribution": "Photo by Anand2202, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A herd of gaur grazing on the grassy lakeshore in Periyar, Kerala",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/safari-jeep-tadoba.webp",
+      "usedIn": [
+        "/blog/best-wildlife-safaris-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jungle_safari_-_Kanha_National_Park.jpg",
+      "originalFile": "Jungle safari - Kanha National Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ashishmahaur",
+      "attribution": "Photo by Ashishmahaur, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A tiger walking along a forest track ahead of a safari jeep in Kanha National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/tiger-safari-tadoba.webp",
+      "usedIn": [
+        "/blog/tiger-safari-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Maya,_the_tiger_(Tadoba_Andhari_Tiger_Reserve)_2014.jpg",
+      "originalFile": "Maya, the tiger (Tadoba Andhari Tiger Reserve) 2014.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Stephenekka",
+      "attribution": "Photo by Stephenekka, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A tiger walking through dry forest in Tadoba Andhari Tiger Reserve",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/tiger-reserve-bandhavgarh.webp",
+      "usedIn": [
+        "/blog/best-tiger-reserves-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris),_Bandhavgarh_National_Park.jpg",
+      "originalFile": "Bengal tiger (Panthera tigris tigris), Bandhavgarh National Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Thomas Fuhrmann",
+      "attribution": "Photo by Thomas Fuhrmann, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A Bengal tiger standing in dry forest in Bandhavgarh National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/tiger-safari-kanha-tiger.webp",
+      "usedIn": [
+        "/blog/how-to-plan-a-tiger-safari-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiger_-_Kanha_National_Park.jpg",
+      "originalFile": "Tiger - Kanha National Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ashishmahaur",
+      "attribution": "Photo by Ashishmahaur, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A tiger walking down a forest safari track in Kanha National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/pench-tiger-reserve-forest.webp",
+      "usedIn": [
+        "/blog/pench-tiger-reserve (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karmazari_Pench_National_Park_13.jpg",
+      "originalFile": "Karmazari Pench National Park 13.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Fitindia",
+      "attribution": "Photo by Fitindia, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A tiger sitting in a grassy clearing in the Karmajhiri area of Pench",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/satpura-tiger-reserve-landscape.webp",
+      "usedIn": [
+        "/blog/satpura-tiger-reserve (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gaur_in_Satpura_National_Park_01.jpg",
+      "originalFile": "Gaur in Satpura National Park 01.jpg",
+      "license": "CC BY 4.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY 4.0, via Wikimedia Commons",
+      "location": "A gaur (Indian bison) grazing in grassland in Satpura National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/sariska-tiger-reserve.webp",
+      "usedIn": [
+        "/blog/sariska-tiger-reserve (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Deer_in_Sariska_Reserve.jpg",
+      "originalFile": "Deer in Sariska Reserve.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Dan Lundberg",
+      "attribution": "Photo by Dan Lundberg, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "A chital stag crossing a forest road in Sariska Tiger Reserve",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/wildlife-india-elephants.webp",
+      "usedIn": [
+        "/blog/where-to-see-wildlife-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Herd_of_Elephants_in_Corbett_National_Park.jpg",
+      "originalFile": "Herd of Elephants in Corbett National Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "PRAB1988",
+      "attribution": "Photo by PRAB1988, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A herd of wild elephants crossing a shallow river in Jim Corbett National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/leopard-jawai-rajasthan.webp",
+      "usedIn": [
+        "/blog/leopard-safari-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_leopard_in_Jawai_Bandh_April_2025_by_Tisha_Mukherjee_02.jpg",
+      "originalFile": "Indian leopard in Jawai Bandh April 2025 by Tisha Mukherjee 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Tisha Mukherjee",
+      "attribution": "Photo by Tisha Mukherjee, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A leopard resting on a granite boulder at Jawai, Rajasthan",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/rhino-kaziranga-grassland.webp",
+      "usedIn": [
+        "/blog/where-to-see-rhinos-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_baby_Indian_Rhinoceros_with_its_mother_at_Kaziranga_National_Park_(%E0%A6%AE%E0%A6%BE%E0%A6%95%E0%A7%B0_%E0%A6%B8%E0%A7%88%E0%A6%A4%E0%A7%87_%E0%A6%95%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A7%B0%E0%A6%99%E0%A6%BE_%E0%A7%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A7%B0%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%A4_%E0%A6%8F%E0%A6%9F%E0%A6%BF_%E0%A6%97%E0%A6%81%E0%A6%A1%E0%A6%BC_%E0%A6%AA%E0%A7%8B%E0%A7%B1%E0%A6%BE%E0%A6%B2%E0%A6%BF).jpg",
+      "originalFile": "A baby Indian Rhinoceros with its mother at Kaziranga National Park (মাকৰ সৈতে কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যানত এটি গঁড় পোৱালি).jpg",
+      "license": "CC BY 4.0",
+      "author": "কুমুদ ঘোষ",
+      "attribution": "Photo by কুমুদ ঘোষ, CC BY 4.0, via Wikimedia Commons",
+      "location": "A one-horned rhino mother and calf grazing on grassland in Kaziranga National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/birdwatching-keoladeo.webp",
+      "usedIn": [
+        "/blog/birdwatching-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:013_White-throated_kingfisher_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg",
+      "originalFile": "013 White-throated kingfisher in Keoladeo National Park Photo by Giles Laurent.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Giles Laurent",
+      "attribution": "Photo by Giles Laurent, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A white-throated kingfisher perched on a branch in Keoladeo National Park, Bharatpur",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/rajasthan-wildlife-ranthambore-lake.webp",
+      "usedIn": [
+        "/blog/wildlife-tourism-in-rajasthan (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Machli_(tigress).jpg",
+      "originalFile": "Machli (tigress).jpg",
+      "license": "CC BY 2.0",
+      "author": "bhavik Thaker",
+      "attribution": "Photo by bhavik Thaker, CC BY 2.0, via Wikimedia Commons",
+      "location": "The tigress known as Machli resting on open ground in Ranthambore National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/mp-wildlife-barasingha-kanha.webp",
+      "usedIn": [
+        "/blog/wildlife-tourism-in-madhya-pradesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Roads_in_Kanha_National_Park_(India,_2012).jpg",
+      "originalFile": "Roads in Kanha National Park (India, 2012).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Indrani911basu",
+      "attribution": "Photo by Indrani911basu, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Safari tracks forking through sal forest in Kanha National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/uttarakhand-wildlife-corbett.webp",
+      "usedIn": [
+        "/blog/wildlife-tourism-in-uttarakhand (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tuskercorbett.jpg",
+      "originalFile": "Tuskercorbett.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Prateek0711",
+      "attribution": "Photo by Prateek0711, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A tusker elephant by the Ramganga reservoir in Jim Corbett National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/maharashtra-wildlife-tadoba-lake.webp",
+      "usedIn": [
+        "/blog/wildlife-tourism-in-maharashtra (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tigress_Maya_and_Cubs_Tadoba_Adhari_Tiger_Reserve.jpg",
+      "originalFile": "Tigress Maya and Cubs Tadoba Adhari Tiger Reserve.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Parag.naik",
+      "attribution": "Photo by Parag.naik, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A tigress and her cubs crossing a lake in Tadoba Andhari Tiger Reserve",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/karnataka-wildlife-nagarhole.webp",
+      "usedIn": [
+        "/blog/wildlife-tourism-in-karnataka (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephant_in_Nagarhole_National_Park.jpg",
+      "originalFile": "Elephant in Nagarhole National Park.jpg",
+      "license": "CC BY 2.0",
+      "author": "Dhruvaraj S",
+      "attribution": "Photo by Dhruvaraj S, CC BY 2.0, via Wikimedia Commons",
+      "location": "An elephant spraying water while bathing in a river in Nagarhole National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/kerala-wildlife-wayanad-sanctuary.webp",
+      "usedIn": [
+        "/blog/wildlife-tourism-in-kerala (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snap_during_safari_in_Wayanad_Wildlife_Sanctuary_9830.JPG",
+      "originalFile": "Snap during safari in Wayanad Wildlife Sanctuary 9830.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Rameshng",
+      "attribution": "Photo by Rameshng, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "A safari jeep on a forest track in Wayanad Wildlife Sanctuary",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/assam-wildlife-manas.webp",
+      "usedIn": [
+        "/blog/wildlife-tourism-in-assam (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Capped_Langur,_Manas_National_Park.jpg",
+      "originalFile": "A Capped Langur, Manas National Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Lonav Bharali",
+      "attribution": "Photo by Lonav Bharali, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A capped langur sitting among leaves in Manas National Park, Assam",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/gujarat-wildlife-gir-lion.webp",
+      "usedIn": [
+        "/blog/wildlife-tourism-in-gujarat (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panthera_leo_persica(Asiatic_Lion)_Gir.jpg",
+      "originalFile": "Panthera leo persica(Asiatic Lion) Gir.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Tanmay Haldar",
+      "attribution": "Photo by Tanmay Haldar, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A male Asiatic lion yawning in dry grassland in Gir, Gujarat",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/west-bengal-wildlife-sundarbans.webp",
+      "usedIn": [
+        "/blog/wildlife-tourism-in-west-bengal (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sundarban_Tiger_Reserve_forest_and_adjacent_rivers_03.jpg",
+      "originalFile": "Sundarban Tiger Reserve forest and adjacent rivers 03.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pinakpani",
+      "attribution": "Photo by Pinakpani, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Mangrove forest on a muddy riverbank in Sundarban Tiger Reserve",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/odisha-wildlife-bhitarkanika.webp",
+      "usedIn": [
+        "/blog/wildlife-tourism-in-odisha (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Saltwater_Crocodile_at_Bhitarkanika_National_Park,_Odisha,_India.jpg",
+      "originalFile": "Saltwater Crocodile at Bhitarkanika National Park, Odisha, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bodhan nayek",
+      "attribution": "Photo by Bodhan nayek, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A saltwater crocodile basking on a mud bank in Bhitarkanika National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/tamil-nadu-wildlife-mudumalai.webp",
+      "usedIn": [
+        "/blog/wildlife-tourism-in-tamil-nadu (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mudumalai_Tiger_reserve,_Tamil_Nadu,_India.JPG",
+      "originalFile": "Mudumalai Tiger reserve, Tamil Nadu, India.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "आशीष भटनागर",
+      "attribution": "Photo by आशीष भटनागर, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The entrance gate of Mudumalai Tiger Reserve in the Nilgiris",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/safari-planning-kanha-gate.webp",
+      "usedIn": [
+        "/blog/how-to-plan-a-wildlife-safari-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jeep_Safari_in_Bandhavgarh.jpg",
+      "originalFile": "Jeep Safari in Bandhavgarh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vijay Kabra",
+      "attribution": "Photo by Vijay Kabra, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A safari jeep driving along a dusty forest track in Bandhavgarh National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/safari-packing-binoculars.webp",
+      "usedIn": [
+        "/blog/wildlife-safari-packing-list (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Birdwatchers_in_keoladeo_national_park_JEG2564.jpg",
+      "originalFile": "Birdwatchers in keoladeo national park JEG2564.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "PJeganathan",
+      "attribution": "Photo by PJeganathan, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Birdwatchers with binoculars and cycle-rickshaws on a path in Keoladeo National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/safari-season-sal-forest.webp",
+      "usedIn": [
+        "/blog/best-time-for-wildlife-safari-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kanha_Medows.jpg",
+      "originalFile": "Kanha Medows.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Imrozbaig",
+      "attribution": "Photo by Imrozbaig, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Green meadow and sal forest in Kanha National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/wildlife-photography-india.webp",
+      "usedIn": [
+        "/blog/wildlife-photography-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ranthambore_Tiger_1B.jpg",
+      "originalFile": "Ranthambore Tiger 1B.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Drsouvikpaul",
+      "attribution": "Photo by Drsouvikpaul, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A tiger drinking at a forest pool, reflected in the water, in Ranthambore National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "wildlife/responsible-wildlife-sign-forest.webp",
+      "usedIn": [
+        "/blog/responsible-wildlife-tourism-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sambar_deer_(Ranthambore_National_Park,_India,_2015).jpg",
+      "originalFile": "Sambar deer (Ranthambore National Park, India, 2015).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pralee",
+      "attribution": "Photo by Pralee, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A sambar stag with large antlers in Ranthambore National Park",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-tourism-india-varanasi-aarti.webp",
+      "usedIn": [
+        "/spiritual-tourism (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ganga_Aarti_in_evening_at_Dashashwamedh_ghat,_Varanasi.jpg",
+      "originalFile": "Ganga Aarti in evening at Dashashwamedh ghat, Varanasi.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sujay25",
+      "attribution": "Photo by Sujay25, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Priests performing the evening Ganga Aarti at Dashashwamedh Ghat, Varanasi",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/pilgrimage-places-golden-temple.webp",
+      "usedIn": [
+        "/blog/best-pilgrimage-places-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Golden_Temple,_Amritsar,_Punjab_UNAG.jpg",
+      "originalFile": "Golden Temple, Amritsar, Punjab UNAG.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Utpal Nag",
+      "attribution": "Photo by Utpal Nag, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Golden Temple (Harmandir Sahib) in Amritsar, seen across its sarovar",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/famous-temples-meenakshi-madurai.webp",
+      "usedIn": [
+        "/blog/famous-temples-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Meenakshi_amman_temple.jpg",
+      "originalFile": "Meenakshi amman temple.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Supgiri",
+      "attribution": "Photo by Supgiri, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "A painted gopuram of the Meenakshi Amman Temple in Madurai, Tamil Nadu",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/jyotirlingas-somnath-temple.webp",
+      "usedIn": [
+        "/blog/12-jyotirlingas-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Somnath_temple_(16681942532).jpg",
+      "originalFile": "Somnath temple (16681942532).jpg",
+      "license": "CC BY 2.0",
+      "author": "Nagarjun Kandukuru from Bangalore, India",
+      "attribution": "Photo by Nagarjun Kandukuru from Bangalore, India, CC BY 2.0, via Wikimedia Commons",
+      "location": "The shikhara of Somnath Temple at Prabhas Patan, Gujarat",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/jyotirlinga-yatra-omkareshwar.webp",
+      "usedIn": [
+        "/blog/jyotirlinga-yatra (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Omkareshwar.JPG",
+      "originalFile": "Omkareshwar.JPG",
+      "license": "Public domain",
+      "author": "Ssriram mt at English Wikipedia",
+      "attribution": "Photo by Ssriram mt at English Wikipedia, Public domain, via Wikimedia Commons",
+      "location": "Omkareshwar town and temples above the Narmada river, Madhya Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/maharashtra-jyotirlinga-trimbak-hills.webp",
+      "usedIn": [
+        "/blog/jyotirlingas-in-maharashtra (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Trimbakeshwar_Shiva_Temple,_Trimbak,_Nashik_district.jpg",
+      "originalFile": "Trimbakeshwar Shiva Temple, Trimbak, Nashik district.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "World8115",
+      "attribution": "Photo by World8115, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The black-stone Trimbakeshwar Shiva Temple at Trimbak, Nashik district",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/trimbakeshwar-temple-nashik.webp",
+      "usedIn": [
+        "/blog/trimbakeshwar-jyotirlinga (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Trimbakeshwar_nj.jpg",
+      "originalFile": "Trimbakeshwar nj.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Niraj Suryawanshi",
+      "attribution": "Photo by Niraj Suryawanshi, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Trimbakeshwar Temple with the Brahmagiri hills behind, Maharashtra",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/bhimashankar-temple-pune.webp",
+      "usedIn": [
+        "/blog/bhimashankar-jyotirlinga (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bhimashankar_temple,_Maharashtra.JPG",
+      "originalFile": "Bhimashankar temple, Maharashtra.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "ସୁରଥ କୁମାର ପାଢ଼ୀ",
+      "attribution": "Photo by ସୁରଥ କୁମାର ପାଢ଼ୀ, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The stone shikhara of Bhimashankar Temple in the Sahyadri hills, Pune district",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/grishneshwar-temple-ellora.webp",
+      "usedIn": [
+        "/blog/grishneshwar-jyotirlinga (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grishneshwar_temple_in_Aurangabad_district.jpg",
+      "originalFile": "Grishneshwar temple in Aurangabad district.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Rashmi.parab",
+      "attribution": "Photo by Rashmi.parab, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The red-stone Grishneshwar Temple at Verul, near Ellora, Maharashtra",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/nageshwar-temple-dwarka.webp",
+      "usedIn": [
+        "/blog/nageshwar-jyotirlinga (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nageshwar_Front.JPG",
+      "originalFile": "Nageshwar Front.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Bkjit",
+      "attribution": "Photo by Bkjit, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The front of Nageshwar Jyotirlinga temple near Dwarka, Gujarat",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/char-dham-yamunotri-temple.webp",
+      "usedIn": [
+        "/blog/char-dham-yatra-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yamunotri_temple_under_the_glacier.jpg",
+      "originalFile": "Yamunotri temple under the glacier.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Anurag.vq",
+      "attribution": "Photo by Anurag.vq, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Yamunotri temple below snow-covered peaks in the Garhwal Himalaya",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/char-dham-dwarkadhish-temple.webp",
+      "usedIn": [
+        "/blog/char-dham-of-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dwarkadhish_Temple,_Dwarka,_Gujarat.JPG",
+      "originalFile": "Dwarkadhish Temple, Dwarka, Gujarat.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Kunalmehra7",
+      "attribution": "Photo by Kunalmehra7, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The carved shikhara of Dwarkadhish Temple in Dwarka, Gujarat",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/kedarnath-badrinath-badrinath-temple.webp",
+      "usedIn": [
+        "/blog/kedarnath-badrinath-yatra (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Badrinath_Temple_(front_view).JPG",
+      "originalFile": "Badrinath Temple (front view).JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Neilsatyam",
+      "attribution": "Photo by Neilsatyam, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The colourful facade of Badrinath Temple with pilgrims on the steps, Uttarakhand",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/shakti-peethas-kamakhya-temple.webp",
+      "usedIn": [
+        "/blog/shakti-peethas-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kamakhya_temple_(30).jpg",
+      "originalFile": "Kamakhya temple (30).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vijayakumarblathur",
+      "attribution": "Photo by Vijayakumarblathur, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Domes of the Kamakhya Temple complex on Nilachal hill, Guwahati",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/buddhist-circuit-mahabodhi-temple.webp",
+      "usedIn": [
+        "/blog/buddhist-circuit-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mahabodhi_temple_complex,_Bodhgaya_23.jpg",
+      "originalFile": "Mahabodhi temple complex, Bodhgaya 23.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rohit Sharma",
+      "attribution": "Photo by Rohit Sharma, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Mahabodhi Temple and its gardens at Bodh Gaya, Bihar",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/buddhist-tourism-thiksey-monastery.webp",
+      "usedIn": [
+        "/blog/buddhist-tourism-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Thiksey_Monastery_Ladakh.jpg",
+      "originalFile": "Thiksey Monastery Ladakh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jyoti dasila",
+      "attribution": "Photo by Jyoti dasila, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Whitewashed and red buildings of Thiksey Monastery, Ladakh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/sikh-pilgrimage-anandpur-sahib.webp",
+      "usedIn": [
+        "/blog/sikh-pilgrimage-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Takht_Sri_Kesgarh_Sahib_-_Anandpur_Sahib.jpg",
+      "originalFile": "Takht Sri Kesgarh Sahib - Anandpur Sahib.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Navpuneet",
+      "attribution": "Photo by Navpuneet, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Takht Sri Kesgarh Sahib at Anandpur Sahib, Punjab",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/panj-takht-patna-sahib.webp",
+      "usedIn": [
+        "/blog/panj-takht-yatra (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Takht_Sri_Patna_Sahib.jpg",
+      "originalFile": "Takht Sri Patna Sahib.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shivamsetu",
+      "attribution": "Photo by Shivamsetu, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The white domes of Takht Sri Patna Sahib, Patna, Bihar",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/hemkund-sahib-gurdwara-lake.webp",
+      "usedIn": [
+        "/blog/hemkund-sahib-yatra (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sri_Hemkund_Sahib_3.jpg",
+      "originalFile": "Sri Hemkund Sahib 3.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kp.vasant",
+      "attribution": "Photo by Kp.vasant, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Gurdwara Hemkund Sahib beside the glacial lake in mist, Uttarakhand",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/jain-pilgrimage-palitana-temples.webp",
+      "usedIn": [
+        "/blog/jain-pilgrimage-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Palitana_temples.jpg",
+      "originalFile": "Palitana temples.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Pratap Tur",
+      "attribution": "Photo by Pratap Tur, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Jain temples crowning Shatrunjaya hill at Palitana, Gujarat",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/ranakpur-jain-temple-rajasthan.webp",
+      "usedIn": [
+        "/blog/ranakpur-jain-temple (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jain_Temple_Ranakpur.jpg",
+      "originalFile": "Jain Temple Ranakpur.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Ingo Mehling",
+      "attribution": "Photo by Ingo Mehling, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The marble Ranakpur Jain Temple in the Aravalli hills, Rajasthan",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/shravanabelagola-vindhyagiri-hill.webp",
+      "usedIn": [
+        "/blog/shravanabelagola-gommateshwara (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Akkana_Basadi_from_northeastern_side_at_Shravanabelagola.jpg",
+      "originalFile": "View of Akkana Basadi from northeastern side at Shravanabelagola.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "HoysalaPhotos",
+      "attribution": "Photo by HoysalaPhotos, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The 12th-century Akkana Basadi, a Jain temple in Shravanabelagola, Karnataka",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/sufi-shrines-nizamuddin-dargah.webp",
+      "usedIn": [
+        "/blog/sufi-shrines-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nizamuddin_Dargah_Complex_(Delhi,_India).jpg",
+      "originalFile": "Nizamuddin Dargah Complex (Delhi, India).jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Divya Gupta",
+      "attribution": "Photo by Divya Gupta, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The dome of the Hazrat Nizamuddin Auliya dargah at dusk, Delhi",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-up-varanasi-ghats.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-uttar-pradesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanasi_Munshi_Ghat3.jpg",
+      "originalFile": "Varanasi Munshi Ghat3.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Marcin Białek",
+      "attribution": "Photo by Marcin Białek, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Munshi Ghat and the riverfront of Varanasi on the Ganga",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-uttarakhand-kedarnath.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-uttarakhand (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_kedarnath_temple_and_himalyas_.jpg",
+      "originalFile": "The kedarnath temple and himalyas .jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Mohit_devli",
+      "attribution": "Photo by Mohit_devli, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Kedarnath Temple below snow-covered Himalayan peaks",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-gujarat-ambaji.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-gujarat (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ambaji_-_Gujarat,_India_(4587163815).jpg",
+      "originalFile": "Ambaji - Gujarat, India (4587163815).jpg",
+      "license": "CC BY 2.0",
+      "author": "Emmanuel DYAN from Paris, France",
+      "attribution": "Photo by Emmanuel DYAN from Paris, France, CC BY 2.0, via Wikimedia Commons",
+      "location": "Gabbar hill at Ambaji with its ropeway and a carved gateway, Gujarat",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-rajasthan-pushkar-ghats.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-rajasthan (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Temples_on_Pushkar_Lake_Ghats,_Rajasthan.jpg",
+      "originalFile": "Temples on Pushkar Lake Ghats, Rajasthan.jpg",
+      "license": "CC BY 2.0",
+      "author": "https://www.flickr.com/photos/amanderson/",
+      "attribution": "Photo by https://www.flickr.com/photos/amanderson/, CC BY 2.0, via Wikimedia Commons",
+      "location": "White temples and ghats on the shore of Pushkar Lake, Rajasthan",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-maharashtra-pandharpur.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-maharashtra (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pandharpur_2013_Aashad_-_panoramio_(40).jpg",
+      "originalFile": "Pandharpur 2013 Aashad - panoramio (40).jpg",
+      "license": "CC BY 3.0",
+      "author": "Udaykumar PR",
+      "attribution": "Photo by Udaykumar PR, CC BY 3.0, via Wikimedia Commons",
+      "location": "Pilgrims outside the Vithoba temple at Pandharpur during Ashadhi",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-mp-ujjain-ghats.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-madhya-pradesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shri_Ram_Ghat_03.jpg",
+      "originalFile": "Shri Ram Ghat 03.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "A temple and bathers at Shri Ram Ghat on the Shipra river, Ujjain",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-tn-srirangam-gopuram.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-tamil-nadu (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ranganathaswamy_Temple,_Srirangam,_Trichy_Vaishnavism_India.jpg",
+      "originalFile": "Ranganathaswamy Temple, Srirangam, Trichy Vaishnavism India.jpg",
+      "license": "CC BY 2.0",
+      "author": "simianwolverine",
+      "attribution": "Photo by simianwolverine, CC BY 2.0, via Wikimedia Commons",
+      "location": "Gopurams of the Ranganathaswamy Temple at Srirangam, Tamil Nadu",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-karnataka-udupi-krishna.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-karnataka (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Udupi_Sri_Krishna_Matha_Temple.jpg",
+      "originalFile": "Udupi Sri Krishna Matha Temple.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Ashok Prabhakaran from Chennai, India",
+      "attribution": "Photo by Ashok Prabhakaran from Chennai, India, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "The ornate entrance of the Sri Krishna Matha at Udupi, Karnataka",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-kerala-guruvayur.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-kerala (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Guruvayur_Temple_top_view.JPG",
+      "originalFile": "Guruvayur Temple top view.JPG",
+      "license": "CC BY 3.0",
+      "author": "RanjithSiji",
+      "attribution": "Photo by RanjithSiji, CC BY 3.0, via Wikimedia Commons",
+      "location": "Rooftops of the Guruvayur temple complex, Kerala",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-ap-tirumala-hills.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-andhra-pradesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tirumala_Venkateswara_temple_entrance_09062015.JPG",
+      "originalFile": "Tirumala Venkateswara temple entrance 09062015.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Nikhilb239",
+      "attribution": "Photo by Nikhilb239, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The gopuram and entrance of the Tirumala Venkateswara Temple, Andhra Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-odisha-lingaraj-bhubaneswar.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-odisha (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lingaraj_Temple_Complex_-_Odisha_-_IV.jpg",
+      "originalFile": "Lingaraj Temple Complex - Odisha - IV.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rajashree Talukdar",
+      "attribution": "Photo by Rajashree Talukdar, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Spires of the Lingaraj Temple complex in Bhubaneswar, Odisha",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-wb-dakshineswar.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-west-bengal (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dakshineswar_Kali_Temple,_Dakshineswar,_West_Bengal,_India_(2007).jpg",
+      "originalFile": "Dakshineswar Kali Temple, Dakshineswar, West Bengal, India (2007).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "The original uploader was Nikkul at English Wikipedia .",
+      "attribution": "Photo by The original uploader was Nikkul at English Wikipedia ., CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "Dakshineswar Kali Temple seen across the water, near Kolkata",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-bihar-nalanda-ruins.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-bihar (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vishnupad_Temple.JPG",
+      "originalFile": "Vishnupad Temple.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Keymaker31",
+      "attribution": "Photo by Keymaker31, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The shikhara of the Vishnupad Temple in Gaya, Bihar",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-himachal-namgyal-dharamshala.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-himachal-pradesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Prayer_Wheels_at_Tsuglagkhang_Temple,_McLeod_Ganj.jpg",
+      "originalFile": "Prayer Wheels at Tsuglagkhang Temple, McLeod Ganj.jpg",
+      "license": "CC BY 2.0",
+      "author": "Liz Highleyman",
+      "attribution": "Photo by Liz Highleyman, CC BY 2.0, via Wikimedia Commons",
+      "location": "A monk turning prayer wheels at the Tsuglagkhang complex, McLeod Ganj",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-jk-hazratbal-srinagar.webp",
+      "usedIn": [
+        "/blog/spiritual-tourism-in-jammu-and-kashmir (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hazratbal_Shrine.jpg",
+      "originalFile": "Hazratbal Shrine.jpg",
+      "license": "CC BY 2.0",
+      "author": "Basharat Shah",
+      "attribution": "Photo by Basharat Shah, CC BY 2.0, via Wikimedia Commons",
+      "location": "The white-domed Hazratbal Shrine below the Zabarwan hills, Srinagar",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/plan-pilgrimage-har-ki-pauri.webp",
+      "usedIn": [
+        "/blog/how-to-plan-a-pilgrimage-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Clock_Tower,_at_Har-ki-Pauri,_Haridwar.jpg",
+      "originalFile": "Clock Tower, at Har-ki-Pauri, Haridwar.jpg",
+      "license": "CC BY 2.0",
+      "author": "mckaysavage",
+      "attribution": "Photo by mckaysavage, CC BY 2.0, via Wikimedia Commons",
+      "location": "Pilgrims at Har ki Pauri with its clock tower on the Ganga, Haridwar",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/pilgrimage-packing-kedarnath-trek.webp",
+      "usedIn": [
+        "/blog/pilgrimage-packing-list (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mules_are_waiting_at_a_transit_point_on_the_Kedarnath_trek_route.jpg",
+      "originalFile": "Mules are waiting at a transit point on the Kedarnath trek route.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Gul-Wiki",
+      "attribution": "Photo by Gul-Wiki, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Mules waiting at a transit point on the Kedarnath trek route",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/yoga-retreats-ashram-rishikesh.webp",
+      "usedIn": [
+        "/blog/yoga-and-meditation-retreats-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Morning_Yoga_class_at_Parmarth_Niketan,_Muni_Ki_Reti,_Rishikesh.jpg",
+      "originalFile": "Morning Yoga class at Parmarth Niketan, Muni Ki Reti, Rishikesh.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Ken Wieland from Philadelphia, USA",
+      "attribution": "Photo by Ken Wieland from Philadelphia, USA, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "A morning yoga class at Parmarth Niketan ashram, Rishikesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/yoga-rishikesh-lakshman-jhula.webp",
+      "usedIn": [
+        "/blog/yoga-in-rishikesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rishikesh,_Lakshman_Jhula.jpg",
+      "originalFile": "Rishikesh, Lakshman Jhula.jpg",
+      "license": "CC BY 2.0",
+      "author": "McKay Savage from London, UK",
+      "attribution": "Photo by McKay Savage from London, UK, CC BY 2.0, via Wikimedia Commons",
+      "location": "The tiered Tera Manzil temple beside Lakshman Jhula in Rishikesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/spiritual-festivals-rath-yatra-puri.webp",
+      "usedIn": [
+        "/blog/spiritual-festivals-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Puri_Ratha_Yatra.jpg",
+      "originalFile": "Puri Ratha Yatra.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Krupasindhu Muduli",
+      "attribution": "Photo by Krupasindhu Muduli, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The three chariots of the Rath Yatra in Puri, Odisha",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/kumbh-mela-prayagraj-sangam.webp",
+      "usedIn": [
+        "/blog/kumbh-mela (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kumbh_Mela_2019,_India_(46354099625).jpg",
+      "originalFile": "Kumbh Mela 2019, India (46354099625).jpg",
+      "license": "CC BY 2.0",
+      "author": "Ninara from Helsinki, Finland",
+      "attribution": "Photo by Ninara from Helsinki, Finland, CC BY 2.0, via Wikimedia Commons",
+      "location": "Pilgrims bathing at the Sangam during the 2019 Kumbh Mela at Prayagraj",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/ayodhya-saryu-ghats.webp",
+      "usedIn": [
+        "/blog/ayodhya-varanasi-prayagraj-tour (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sarayu_River_night_view,_Ayodhya_001.jpg",
+      "originalFile": "Sarayu River night view, Ayodhya 001.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "रूही",
+      "attribution": "Photo by रूही, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The illuminated ghats of Ram ki Paidi on the Saryu at night, Ayodhya",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/pilgrimage-delhi-vrindavan-prem-mandir.webp",
+      "usedIn": [
+        "/blog/pilgrimage-trips-from-delhi (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Prem_mandir_Vrindavan.JPG",
+      "originalFile": "Prem mandir Vrindavan.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "आशीष भटनागर",
+      "attribution": "Photo by आशीष भटनागर, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The white marble Prem Mandir in Vrindavan, Uttar Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "spiritual/pilgrimage-mumbai-siddhivinayak.webp",
+      "usedIn": [
+        "/blog/pilgrimage-trips-from-mumbai (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shree_Siddhivinayak_Mandir.jpg",
+      "originalFile": "Shree Siddhivinayak Mandir.jpg",
+      "license": "Public domain",
+      "author": "User:L1CENSET0K1LL",
+      "attribution": "Photo by User:L1CENSET0K1LL, Public domain, via Wikimedia Commons",
+      "location": "Shree Siddhivinayak Temple in Prabhadevi, Mumbai",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-cultural-tourism-india-hampi.webp",
+      "usedIn": [
+        "/heritage-cultural-tourism (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2_Stone_Chariot_Lord_Vishnu_Hindu_temple_Vitthala_Vittala_Hampi_Karnataka_India_April_2014.jpg",
+      "originalFile": "2 Stone Chariot Lord Vishnu Hindu temple Vitthala Vittala Hampi Karnataka India April 2014.jpg",
+      "license": "CC BY 2.0",
+      "author": "Jean-Pierre Dalbéra",
+      "attribution": "Photo by Jean-Pierre Dalbéra, CC BY 2.0, via Wikimedia Commons",
+      "location": "The stone chariot of the Vittala temple at Hampi, with boulder hills behind",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/historical-places-india-fatehpur-sikri.webp",
+      "usedIn": [
+        "/blog/historical-places-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Buland_Darwaza,Fatehpur_Sikri,_Agra.jpg",
+      "originalFile": "Buland Darwaza,Fatehpur Sikri, Agra.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kuntal Guharaja",
+      "attribution": "Photo by Kuntal Guharaja, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Buland Darwaza, the great gateway of Fatehpur Sikri",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-trip-khajuraho-temples.webp",
+      "usedIn": [
+        "/blog/how-to-plan-a-heritage-trip-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_Group_of_Temples_-_Khajuraho_02.jpg",
+      "originalFile": "Western Group of Temples - Khajuraho 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Deepa Chandran2014",
+      "attribution": "Photo by Deepa Chandran2014, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Temples of the Western Group at Khajuraho, seen across the gardens",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/unesco-sites-india-konark-sun-temple.webp",
+      "usedIn": [
+        "/blog/unesco-world-heritage-sites-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Stone_wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa,_India.jpg",
+      "originalFile": "Stone wheel engraved in the 13th century built Konark Sun Temple in Orissa, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Subhrajyoti07",
+      "attribution": "Photo by Subhrajyoti07, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A carved stone wheel of the Sun Temple at Konark, Odisha",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/taj-mahal-agra.webp",
+      "usedIn": [
+        "/blog/taj-mahal (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Taj_Mahal,_Agra,_India.jpg",
+      "originalFile": "Taj Mahal, Agra, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Yann ( talk )",
+      "attribution": "Photo by Yann ( talk ), CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Taj Mahal seen from the gardens along the central water channel",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/red-fort-delhi-lahori-gate.webp",
+      "usedIn": [
+        "/blog/red-fort (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20191203_Naubat_Khana,_Red_Fort,_Delhi_0453_6340_DxO.jpg",
+      "originalFile": "20191203 Naubat Khana, Red Fort, Delhi 0453 6340 DxO.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jakub Hałun",
+      "attribution": "Photo by Jakub Hałun, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Naubat Khana, the drum house inside the Red Fort, Delhi",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/qutub-minar-delhi.webp",
+      "usedIn": [
+        "/blog/qutub-minar (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Potrait_view_of_Qutub_Minar.jpg",
+      "originalFile": "A Potrait view of Qutub Minar.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "IM3847",
+      "attribution": "Photo by IM3847, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Qutub Minar rising above the ruins of the Qutub complex, Delhi",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/humayuns-tomb-delhi.webp",
+      "usedIn": [
+        "/blog/humayuns-tomb (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Humayun%27s_Tomb_Monument.jpg",
+      "originalFile": "Humayun's Tomb Monument.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Himeshrahi",
+      "attribution": "Photo by Himeshrahi, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Humayun's Tomb in red sandstone and white marble, Delhi",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/amber-fort-jaipur.webp",
+      "usedIn": [
+        "/blog/amber-fort (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Amber_Fort-Jaipur-India0010.JPG",
+      "originalFile": "Amber Fort-Jaipur-India0010.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Diego Delso",
+      "attribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The garden courtyard and Jai Mandir palace inside Amber Fort, near Jaipur",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/mehrangarh-fort-jodhpur.webp",
+      "usedIn": [
+        "/blog/mehrangarh-fort (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mehrangarh_Fort.jpg",
+      "originalFile": "Mehrangarh Fort.jpg",
+      "license": "Public domain",
+      "author": "Knowledge Seeker",
+      "attribution": "Photo by Knowledge Seeker, Public domain, via Wikimedia Commons",
+      "location": "Mehrangarh Fort on its rocky hill above Jodhpur",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/elephanta-caves-trimurti.webp",
+      "usedIn": [
+        "/blog/elephanta-caves (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephanta_Caves_in_Maharashtra.JPG",
+      "originalFile": "Elephanta Caves in Maharashtra.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Sahil Ahuja",
+      "attribution": "Photo by Sahil Ahuja, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Visitors at the entrance to the main cave on Elephanta Island",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/champaner-jami-masjid.webp",
+      "usedIn": [
+        "/blog/champaner-pavagadh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jama_masjid_in_Champaner.JPG",
+      "originalFile": "Jama masjid in Champaner.JPG",
+      "license": "CC BY 3.0",
+      "author": "Phso2",
+      "attribution": "Photo by Phso2, CC BY 3.0, via Wikimedia Commons",
+      "location": "The Jami Masjid at Champaner, with its twin minarets",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/lothal-harappan-site.webp",
+      "usedIn": [
+        "/blog/lothal (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_drainage_system_at_Lothal_2.JPG",
+      "originalFile": "The drainage system at Lothal 2.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Abhilashdvbk",
+      "attribution": "Photo by Abhilashdvbk, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Excavated brick foundations at the Harappan site of Lothal, Gujarat",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/hoysala-chennakeshava-temple-belur.webp",
+      "usedIn": [
+        "/blog/belur-halebidu-hoysala-temples (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chennakeshava_Temple_at_Belur.jpg",
+      "originalFile": "Chennakeshava Temple at Belur.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Dineshkannambadi ( talk )",
+      "attribution": "Photo by Dineshkannambadi ( talk ), CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The Chennakeshava temple at Belur, Karnataka",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/famous-forts-india-chittorgarh.webp",
+      "usedIn": [
+        "/blog/famous-forts-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chittorgarh_fort.JPG",
+      "originalFile": "Chittorgarh fort.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Ssjoshi111",
+      "attribution": "Photo by Ssjoshi111, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Chittorgarh Fort on its plateau, with the Vijay Stambh rising above the walls",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/forts-rajasthan-kumbhalgarh-walls.webp",
+      "usedIn": [
+        "/blog/forts-of-rajasthan (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wall_restoration_in_Kumbhalgarh_Fort.jpg",
+      "originalFile": "Wall restoration in Kumbhalgarh Fort.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Sujay25",
+      "attribution": "Photo by Sujay25, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Kumbhalgarh Fort and its walls in the Aravalli hills, Rajasthan",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/forts-maharashtra-raigad.webp",
+      "usedIn": [
+        "/blog/forts-in-maharashtra (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Raigad_fort_towers.jpg",
+      "originalFile": "Raigad fort towers.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "rohit gowaikar",
+      "attribution": "Photo by rohit gowaikar, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "Ruined towers at Raigad Fort, Maharashtra",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/palaces-india-mysore-palace.webp",
+      "usedIn": [
+        "/blog/palaces-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mysore_Palace_-_Amba_Vilas_Palace.jpg",
+      "originalFile": "Mysore Palace - Amba Vilas Palace.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Whistleraja",
+      "attribution": "Photo by Whistleraja, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Mysore Palace, Mysuru, Karnataka",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/archaeological-sites-dholavira.webp",
+      "usedIn": [
+        "/blog/archaeological-sites-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DHOLAVIRA_SITE_(24).jpg",
+      "originalFile": "DHOLAVIRA SITE (24).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Lalit Gajjer",
+      "attribution": "Photo by Lalit Gajjer, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Excavated stone reservoirs and walls at Dholavira, Kutch",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/rock-cut-caves-ajanta.webp",
+      "usedIn": [
+        "/blog/rock-cut-caves-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cave_26,_Ajanta.jpg",
+      "originalFile": "Cave 26, Ajanta.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Dey.sandip",
+      "attribution": "Photo by Dey.sandip, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The rock-cut prayer hall of Cave 26 at Ajanta, with its stupa",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/temple-architecture-brihadeeswarar.webp",
+      "usedIn": [
+        "/blog/temple-architecture-of-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Brihadeeswarar_Temple_03.jpg",
+      "originalFile": "Brihadeeswarar Temple 03.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The Brihadeeswarar temple at Thanjavur, a classic Dravida temple",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/mughal-monuments-agra-fort.webp",
+      "usedIn": [
+        "/blog/mughal-monuments-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gates_and_Walls-Red_Fort-Agra-India5347.JPG",
+      "originalFile": "Gates and Walls-Red Fort-Agra-India5347.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Diego Delso",
+      "attribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Bastions of the red sandstone walls of Agra Fort",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/colonial-heritage-csmt-mumbai.webp",
+      "usedIn": [
+        "/blog/colonial-heritage-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chhatrapati_Shivaji_Terminus_(Victoria_Terminus).jpg",
+      "originalFile": "Chhatrapati Shivaji Terminus (Victoria Terminus).jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Joe Ravi",
+      "attribution": "Photo by Joe Ravi, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Chhatrapati Shivaji Maharaj Terminus in Mumbai",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/deccan-gol-gumbaz-vijayapura.webp",
+      "usedIn": [
+        "/blog/deccan-sultanate-heritage (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gol_Gumbaz_-4,_Bijapur,_Karnataka.jpg",
+      "originalFile": "Gol Gumbaz -4, Bijapur, Karnataka.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Mukul Banerjee",
+      "attribution": "Photo by Mukul Banerjee, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Gol Gumbaz, the tomb of Muhammad Adil Shah, at Vijayapura",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-cities-ahmedabad-pol.webp",
+      "usedIn": [
+        "/blog/heritage-cities-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Desai_ni_Pol_Ahmedabad_(55).jpg",
+      "originalFile": "Desai ni Pol Ahmedabad (55).jpg",
+      "license": "CC0",
+      "author": "Riyas16",
+      "attribution": "Photo by Riyas16, CC0, via Wikimedia Commons",
+      "location": "A lane of carved wooden houses in Desai ni Pol, old Ahmedabad",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-walks-chandni-chowk.webp",
+      "usedIn": [
+        "/blog/heritage-walks-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandni_Chowk,_2008_(02).JPG",
+      "originalFile": "Chandni Chowk, 2008 (02).JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Bahnfrend",
+      "attribution": "Photo by Bahnfrend, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "A busy street in Chandni Chowk, Old Delhi",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/museums-india-victoria-memorial.webp",
+      "usedIn": [
+        "/blog/best-museums-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Victoria_Memorial,_Kolkata_-_West_facade_02.jpg",
+      "originalFile": "Victoria Memorial, Kolkata - West facade 02.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The Victoria Memorial museum in Kolkata",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/handicrafts-jaipur-blue-pottery.webp",
+      "usedIn": [
+        "/blog/handicrafts-of-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Blue_pottery_from_Jaipur_2.jpg",
+      "originalFile": "Blue pottery from Jaipur 2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Atcelsius",
+      "attribution": "Photo by Atcelsius, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Shelves of Jaipur blue pottery in a craft shop",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/textiles-handloom-weaver-india.webp",
+      "usedIn": [
+        "/blog/textile-heritage-of-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Silk_Handloom_Salem_TN_-_2.jpg",
+      "originalFile": "Silk Handloom Salem TN - 2.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Selvaganesh17",
+      "attribution": "Photo by Selvaganesh17, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "A handloom weaving silk in Salem, Tamil Nadu",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/classical-dance-kathakali.webp",
+      "usedIn": [
+        "/blog/classical-dance-and-music-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kathakali_performance_at_Thekkady.jpg",
+      "originalFile": "Kathakali performance at Thekkady.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Appaiah",
+      "attribution": "Photo by Appaiah, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "A Kathakali performance in Kerala",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/cultural-festivals-pushkar-fair.webp",
+      "usedIn": [
+        "/blog/cultural-festivals-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pushkar_Fair_Sunset_(8223006945).jpg",
+      "originalFile": "Pushkar Fair Sunset (8223006945).jpg",
+      "license": "CC BY 2.0",
+      "author": "Koshy Koshy from Faridabad, Haryana, India",
+      "attribution": "Photo by Koshy Koshy from Faridabad, Haryana, India, CC BY 2.0, via Wikimedia Commons",
+      "location": "A musician and camels at sunset at the Pushkar Fair, Rajasthan",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/hornbill-festival-kisama.webp",
+      "usedIn": [
+        "/blog/hornbill-festival (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hornbill_Festival,_Pix_by_Vikramjit_Kakati.jpg",
+      "originalFile": "Hornbill Festival, Pix by Vikramjit Kakati.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vikramjit Kakati",
+      "attribution": "Photo by Vikramjit Kakati, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Naga dancers leaping during the Hornbill Festival at Kisama, Nagaland",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/rann-utsav-white-rann.webp",
+      "usedIn": [
+        "/blog/rann-utsav (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:White_desert-_tentcity.JPG",
+      "originalFile": "White desert- tentcity.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Bhargavinf",
+      "attribution": "Photo by Bhargavinf, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The tent city of the Rann Utsav at Dhordo, Kutch",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/tribal-culture-warli-painting.webp",
+      "usedIn": [
+        "/blog/tribal-tourism-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Warli_Paintings_SGNP_by_Raju_Kasambe_DSCF0200_(1)_02.jpg",
+      "originalFile": "Warli Paintings SGNP by Raju Kasambe DSCF0200 (1) 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Dr. Raju Kasambe",
+      "attribution": "Photo by Dr. Raju Kasambe, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A Warli painting in white on a red wall, at Sanjay Gandhi National Park, Mumbai",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/food-heritage-thali.webp",
+      "usedIn": [
+        "/blog/food-heritage-of-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_vegetarian_thali,.jpg",
+      "originalFile": "Indian vegetarian thali,.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shuchi999",
+      "attribution": "Photo by Shuchi999, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "An Indian vegetarian thali with breads, dal and vegetables",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/mountain-railways-darjeeling-toy-train.webp",
+      "usedIn": [
+        "/blog/mountain-railways-of-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Darjeeling_railway_station_03.jpg",
+      "originalFile": "Darjeeling railway station 03.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A steam locomotive of the Darjeeling Himalayan Railway",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/golden-triangle-jaipur-hawa-mahal.webp",
+      "usedIn": [
+        "/blog/golden-triangle-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hawa_Mahal_2011.jpg",
+      "originalFile": "Hawa Mahal 2011.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Marcin Białek",
+      "attribution": "Photo by Marcin Białek, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Hawa Mahal facing the street in Jaipur",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/rajasthan-heritage-jaisalmer-fort.webp",
+      "usedIn": [
+        "/blog/rajasthan-heritage-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jaisalmer_Fort_front_view.jpg",
+      "originalFile": "Jaisalmer Fort front view.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Lucentmind",
+      "attribution": "Photo by Lucentmind, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The gateway and walls of Jaisalmer Fort",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/south-india-mahabalipuram-shore-temple.webp",
+      "usedIn": [
+        "/blog/south-india-heritage-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shore_Temple_01.jpg",
+      "originalFile": "Shore Temple 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The Shore Temple at Mahabalipuram, Tamil Nadu",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/gujarat-heritage-rani-ki-vav.webp",
+      "usedIn": [
+        "/blog/gujarat-heritage-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rani_ki_vav_01.jpg",
+      "originalFile": "Rani ki vav 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The terraced stepwell of Rani ki Vav at Patan, Gujarat",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/mp-heritage-orchha-chhatris.webp",
+      "usedIn": [
+        "/blog/madhya-pradesh-heritage-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cenotaphs_in_Orchha.JPG",
+      "originalFile": "Cenotaphs in Orchha.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Anders Bjurnemark",
+      "attribution": "Photo by Anders Bjurnemark, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The royal chhatris (cenotaphs) of Orchha, Madhya Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-rajasthan-jaipur-city-palace.webp",
+      "usedIn": [
+        "/blog/heritage-tourism-in-rajasthan (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Riddhi-Siddhi_Pol,_City_Palace_Jaipur.jpg",
+      "originalFile": "Riddhi-Siddhi Pol, City Palace Jaipur.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Chainwit.",
+      "attribution": "Photo by Chainwit., CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Chandra Mahal courtyard at the City Palace, Jaipur",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-gujarat-adalaj-stepwell.webp",
+      "usedIn": [
+        "/blog/heritage-tourism-in-gujarat (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Adalaj_Stepwell_Sketching_time_2.jpg",
+      "originalFile": "Adalaj Stepwell Sketching time 2.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Hari Om Prakash",
+      "attribution": "Photo by Hari Om Prakash, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Carved pillars and galleries of the Adalaj stepwell near Ahmedabad",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-mp-gwalior-fort.webp",
+      "usedIn": [
+        "/blog/heritage-tourism-in-madhya-pradesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gwalior_fort_swarna.jpg",
+      "originalFile": "Gwalior fort swarna.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Swarnrekha97",
+      "attribution": "Photo by Swarnrekha97, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Man Singh palace on the walls of Gwalior Fort",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-maharashtra-ellora-kailasa.webp",
+      "usedIn": [
+        "/blog/heritage-tourism-in-maharashtra (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kailasa_temple_overview,_Ellora.jpg",
+      "originalFile": "Kailasa temple overview, Ellora.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ms Sarah Welch",
+      "attribution": "Photo by Ms Sarah Welch, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Kailasa temple (Cave 16) at Ellora, carved from the hillside",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-karnataka-pattadakal.webp",
+      "usedIn": [
+        "/blog/heritage-tourism-in-karnataka (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A-temple-at-pattadakal-badami.jpg",
+      "originalFile": "A-temple-at-pattadakal-badami.jpg",
+      "license": "CC BY 3.0",
+      "author": "rajeshodayanchal",
+      "attribution": "Photo by rajeshodayanchal, CC BY 3.0, via Wikimedia Commons",
+      "location": "Temples of the Pattadakal group, Karnataka",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-tn-chettinad-mansion.webp",
+      "usedIn": [
+        "/blog/heritage-tourism-in-tamil-nadu (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kanadukathan-WUS04151.jpg",
+      "originalFile": "Kanadukathan-WUS04151.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rainer Halama",
+      "attribution": "Photo by Rainer Halama, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A Chettinad mansion in Kanadukathan, Tamil Nadu",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-up-bara-imambara-lucknow.webp",
+      "usedIn": [
+        "/blog/heritage-tourism-in-uttar-pradesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Imambara_of_Asaf-ud-daula_entrance.JPG",
+      "originalFile": "Imambara of Asaf-ud-daula entrance.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Kedar Kulkarni",
+      "attribution": "Photo by Kedar Kulkarni, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The Bara Imambara of Asaf-ud-Daula in Lucknow",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-delhi-purana-qila.webp",
+      "usedIn": [
+        "/blog/heritage-tourism-in-delhi (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Purana_Qila,_Delhi_3.jpg",
+      "originalFile": "Purana Qila, Delhi 3.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Slyronit",
+      "attribution": "Photo by Slyronit, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Qila-i-Kuhna mosque inside the Purana Qila, Delhi",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-odisha-mukteswar-temple.webp",
+      "usedIn": [
+        "/blog/heritage-tourism-in-odisha (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Muktesvara_deula.jpg",
+      "originalFile": "Muktesvara deula.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Subhashish Panigrahi",
+      "attribution": "Photo by Subhashish Panigrahi, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The Mukteswar temple in Bhubaneswar, Odisha",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-wb-bishnupur-terracotta.webp",
+      "usedIn": [
+        "/blog/heritage-tourism-in-west-bengal (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jor_Mandir_01.jpg",
+      "originalFile": "Jor Mandir 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vikas Singh",
+      "attribution": "Photo by Vikas Singh, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Jor Mandir terracotta temples at Bishnupur, West Bengal",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-telangana-charminar.webp",
+      "usedIn": [
+        "/blog/heritage-tourism-in-telangana (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Charminar_on_a_cloudy_day.jpg",
+      "originalFile": "The Charminar on a cloudy day.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Santosh Kumar Velamala",
+      "attribution": "Photo by Santosh Kumar Velamala, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Charminar, Hyderabad",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "heritage/heritage-kerala-mattancherry-palace.webp",
+      "usedIn": [
+        "/blog/heritage-tourism-in-kerala (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mattancherry_Palace_DSC_0894.JPG",
+      "originalFile": "Mattancherry Palace DSC 0894.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Ranjith Siji",
+      "attribution": "Photo by Ranjith Siji, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Mattancherry Palace (Dutch Palace) in Kochi, Kerala",
+      "accessed": "2026-09-26"
     }
   ]
 }

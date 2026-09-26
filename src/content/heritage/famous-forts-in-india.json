@@ -1,0 +1,421 @@
+{
+  "slug": "famous-forts-in-india",
+  "kind": "pillar",
+  "short": "Famous forts in India",
+  "title": "Famous Forts in India: A Region-by-Region Guide",
+  "seoTitle": "Famous Forts in India: A Region-by-Region Guide | Kudozz Club",
+  "metaDescription": "India's most famous forts by region: Rajasthan's hill forts, Delhi and Agra, the Maratha forts, Gwalior, Golconda, Daulatabad, Gingee and sea forts, with tips.",
+  "description": "A region-by-region guide to famous forts in India: Rajasthan's UNESCO hill forts and Mehrangarh, the Red Fort and Agra Fort, Gwalior, Orchha and Mandu in Madhya Pradesh, the Maratha forts of Maharashtra, Daulatabad and Janjira, Golconda, Bidar and Chitradurga in the Deccan, Gingee and Vellore in Tamil Nadu, Bekal in Kerala, and the sea forts of Diu and Sindhudurg, with visiting tips.",
+  "dek": "India's forts range from desert citadels and hilltop strongholds to island sea forts. These are the ones most worth the climb.",
+  "primaryKeyword": "famous forts in India",
+  "secondaryKeywords": [
+    "forts in India",
+    "historical forts in India",
+    "best forts to visit in India"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "forts",
+    "UNESCO sites",
+    "trekking",
+    "photography"
+  ],
+  "terrain": [
+    "hills",
+    "desert",
+    "coast"
+  ],
+  "regions": [
+    "Rajasthan",
+    "Delhi",
+    "Uttar Pradesh",
+    "Maharashtra",
+    "Madhya Pradesh",
+    "Telangana",
+    "Karnataka",
+    "Tamil Nadu",
+    "Kerala"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "monsoon"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Forts",
+    "Heritage",
+    "Rajasthan",
+    "Maharashtra"
+  ],
+  "hero": {
+    "src": "/images/heritage/famous-forts-india-chittorgarh.webp",
+    "alt": "Chittorgarh Fort on its plateau, with the Vijay Stambh rising above the walls"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Forts of India"
+  },
+  "intro": [
+    "Forts were built across India by Rajput, Mughal, Maratha, Deccan, Vijayanagara and colonial powers, each adapted to its landscape: hilltops in Rajasthan and the Sahyadri, riverbanks in Agra and Delhi, and islands off the Konkan coast.",
+    "Two groups of forts are UNESCO World Heritage Sites: the six Hill Forts of Rajasthan (2013) and the twelve forts of the Maratha Military Landscapes of India (2025). The Red Fort and Agra Fort are listed on their own."
+  ],
+  "quickAnswer": "India's most famous forts include the Red Fort in Delhi and Agra Fort; Rajasthan's Amber, Chittorgarh, Kumbhalgarh, Jaisalmer and Mehrangarh; Gwalior in Madhya Pradesh; Golconda in Hyderabad; Raigad, Sinhagad and the sea fort of Sindhudurg in Maharashtra; Daulatabad; and Gingee in Tamil Nadu. The Hill Forts of Rajasthan and the Maratha Military Landscapes are UNESCO-listed groups.",
+  "takeaways": [
+    "Two fort groups are UNESCO sites: the Hill Forts of Rajasthan and the Maratha Military Landscapes.",
+    "Rajasthan has the most visitor-friendly forts, several with museums.",
+    "Maharashtra's forts are best explored as treks, especially after the monsoon.",
+    "Sea forts such as Sindhudurg and Janjira are reached by boat, weather permitting.",
+    "Visit early in the day and carry water; forts are exposed and involve climbs."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Famous forts at a glance",
+      "table": {
+        "columns": [
+          "Fort",
+          "State",
+          "Known for"
+        ],
+        "rows": [
+          [
+            "Red Fort",
+            "Delhi",
+            "Mughal palace-fortress (UNESCO)"
+          ],
+          [
+            "Agra Fort",
+            "Uttar Pradesh",
+            "Mughal fort-palace on the Yamuna (UNESCO)"
+          ],
+          [
+            "Amber Fort",
+            "Rajasthan",
+            "Palace-fort above Maota Lake (UNESCO hill fort)"
+          ],
+          [
+            "Chittorgarh",
+            "Rajasthan",
+            "Vast hill fort with towers of victory and fame (UNESCO)"
+          ],
+          [
+            "Kumbhalgarh",
+            "Rajasthan",
+            "Long fortified wall in the Aravallis (UNESCO)"
+          ],
+          [
+            "Jaisalmer",
+            "Rajasthan",
+            "Living sandstone fort (UNESCO)"
+          ],
+          [
+            "Mehrangarh",
+            "Rajasthan",
+            "Clifftop fort and museum in Jodhpur"
+          ],
+          [
+            "Gwalior",
+            "Madhya Pradesh",
+            "Hilltop fort with the Man Singh palace"
+          ],
+          [
+            "Golconda",
+            "Telangana",
+            "Qutb Shahi citadel with acoustic gateway"
+          ],
+          [
+            "Raigad",
+            "Maharashtra",
+            "Shivaji's capital (UNESCO Maratha site)"
+          ],
+          [
+            "Daulatabad",
+            "Maharashtra",
+            "Hill fortress of Devagiri"
+          ],
+          [
+            "Sindhudurg",
+            "Maharashtra",
+            "Island sea fort off Malvan (UNESCO Maratha site)"
+          ],
+          [
+            "Gingee",
+            "Tamil Nadu",
+            "Hill forts on three hills (UNESCO Maratha site)"
+          ],
+          [
+            "Bekal",
+            "Kerala",
+            "Coastal fort on the Malabar coast"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "rajasthan",
+      "heading": "Rajasthan",
+      "items": [
+        {
+          "name": "The hill forts",
+          "body": [
+            "Amber, Chittorgarh, Kumbhalgarh, Ranthambore, Gagron and Jaisalmer form the UNESCO Hill Forts of Rajasthan; Mehrangarh, Junagarh and Taragarh are other great forts."
+          ],
+          "links": [
+            {
+              "label": "Forts of Rajasthan",
+              "href": "/blog/forts-of-rajasthan"
+            },
+            {
+              "label": "Chittorgarh guide",
+              "href": "/blog/chittorgarh-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/rajasthan/rajasthan/vijay-stambh-victory-tower-chittorgarh-fort.webp",
+            "alt": "The Vijay Stambh, tower of victory, inside Chittorgarh Fort",
+            "caption": "Chittorgarh Fort"
+          }
+        }
+      ]
+    },
+    {
+      "id": "north-central",
+      "heading": "North and central India",
+      "items": [
+        {
+          "name": "Delhi and Agra",
+          "body": [
+            "The Red Fort, Agra Fort, and the older Purana Qila and Tughlaqabad in Delhi."
+          ],
+          "links": [
+            {
+              "label": "Red Fort",
+              "href": "/blog/red-fort"
+            },
+            {
+              "label": "Heritage tourism in Delhi",
+              "href": "/blog/heritage-tourism-in-delhi"
+            }
+          ]
+        },
+        {
+          "name": "Madhya Pradesh",
+          "body": [
+            "Gwalior's hilltop fort, Orchha's riverside palaces, Mandu's plateau fort and Asirgarh."
+          ],
+          "links": [
+            {
+              "label": "Gwalior guide",
+              "href": "/blog/gwalior-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/madhya-pradesh/gwalior-fort-hilltop-fortress-madhya-pradesh.webp",
+            "alt": "Gwalior Fort on its hilltop, Madhya Pradesh",
+            "caption": "Gwalior Fort"
+          }
+        },
+        {
+          "name": "Uttar Pradesh",
+          "body": [
+            "Jhansi's fort, linked with Rani Lakshmibai, Kalinjar and Chunar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "west-south",
+      "heading": "Maharashtra and the Deccan",
+      "items": [
+        {
+          "name": "The Maratha forts",
+          "body": [
+            "Raigad, Shivneri, Pratapgad, Rajgad and the sea forts, many reached on treks."
+          ],
+          "links": [
+            {
+              "label": "Forts in Maharashtra",
+              "href": "/blog/forts-in-maharashtra"
+            }
+          ]
+        },
+        {
+          "name": "The Deccan",
+          "body": [
+            "Golconda near Hyderabad, Bidar, the citadel of Bijapur and Chitradurga in Karnataka."
+          ],
+          "links": [
+            {
+              "label": "Golconda Fort guide",
+              "href": "/blog/golconda-fort-travel-guide"
+            },
+            {
+              "label": "Deccan heritage",
+              "href": "/blog/deccan-sultanate-heritage"
+            }
+          ]
+        },
+        {
+          "name": "The south",
+          "body": [
+            "Gingee on its three hills and Vellore's moated fort in Tamil Nadu; Bekal on the Kerala coast."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sea-forts",
+      "heading": "Sea forts",
+      "list": [
+        "Sindhudurg, off Malvan, built by Shivaji in the 1660s; boats run in fair weather.",
+        "Murud-Janjira, a Siddi island fortress, reached by sailboat from Rajapuri.",
+        "Diu Fort, a Portuguese fort on the sea.",
+        "Vijaydurg and Suvarnadurg on the Konkan coast."
+      ],
+      "items": [
+        {
+          "name": "Diu Fort",
+          "body": [
+            "A Portuguese sea fort."
+          ],
+          "links": [
+            {
+              "label": "Diu Fort guide",
+              "href": "/blog/diu-fort-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for fort visits",
+      "list": [
+        "Start early; most forts involve long walks and steps with little shade.",
+        "Wear shoes with grip for uneven stone and ramparts.",
+        "Monsoon treks to Maharashtra's forts are beautiful but slippery; go with experienced groups.",
+        "Sea-fort boats stop in rough weather and during the monsoon."
+      ]
+    },
+    {
+      "id": "how-built",
+      "heading": "How Indian forts were built",
+      "paras": [
+        "Indian texts and builders classified forts by their natural defence: hill forts (giri durga), water forts surrounded by rivers or sea (jala durga), desert forts (dhanva durga) and forest forts (vana durga). You can see each type on the ground: Kumbhalgarh and Raigad on hilltops, Gagron and Sindhudurg protected by water, Jaisalmer in the Thar, and Ranthambore inside forest. Walls, bastions, zigzag gateways against elephant charges, and stepwells or tanks for sieges are features to look out for."
+      ]
+    },
+    {
+      "id": "with-kids",
+      "heading": "Forts with children",
+      "list": [
+        "Mehrangarh and Amber are the most family-friendly, with lifts or easy ramps in parts and museums.",
+        "Golconda's sound-and-light show and the clapping at the Fateh Darwaza entrance usually delight children.",
+        "Keep children close on ramparts; many edges have no railings."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and tickets are set by the ASI, state departments or trusts and change from time to time; check official sources before you go.",
+    "Do not climb on ramparts or carvings, and follow the rules on photography and drones.",
+    "Carry water and a hat; forts are exposed and Indian summers are hot.",
+    "Keep away from unfenced rampart edges, especially with children."
+  ],
+  "packing": [
+    "Shoes with good grip",
+    "Water and a hat",
+    "Rain gear in the monsoon",
+    "Photo ID"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the most famous fort in India?",
+      "a": "The Red Fort in Delhi is the best known; Amber, Mehrangarh, Chittorgarh and Golconda are also famous."
+    },
+    {
+      "q": "Which forts in India are UNESCO sites?",
+      "a": "The Red Fort, Agra Fort, the six Hill Forts of Rajasthan and the twelve forts of the Maratha Military Landscapes."
+    },
+    {
+      "q": "Which state has the most forts?",
+      "a": "Maharashtra has hundreds of forts; Rajasthan has the most visitor-friendly ones."
+    },
+    {
+      "q": "What is a living fort?",
+      "a": "A fort where people still live inside, such as Jaisalmer."
+    },
+    {
+      "q": "When is the best time to visit forts?",
+      "a": "October to March; Maharashtra's forts are also popular just after the monsoon."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Forts of Rajasthan",
+      "href": "/blog/forts-of-rajasthan"
+    },
+    {
+      "label": "Forts in Maharashtra",
+      "href": "/blog/forts-in-maharashtra"
+    },
+    {
+      "label": "Rajasthan heritage itinerary",
+      "href": "/blog/rajasthan-heritage-itinerary"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    },
+    {
+      "label": "Rajasthan tour packages",
+      "href": "/packages/rajasthan"
+    }
+  ],
+  "related": [
+    {
+      "name": "Palaces in India",
+      "href": "/blog/palaces-in-india",
+      "note": "royal heritage"
+    },
+    {
+      "name": "Historical places in India",
+      "href": "/blog/historical-places-in-india",
+      "note": "region by region"
+    },
+    {
+      "name": "Adventure activities in India",
+      "href": "/blog/trekking-in-india",
+      "note": "fort treks"
+    }
+  ],
+  "places": [
+    "Red Fort",
+    "Agra Fort",
+    "Amber",
+    "Chittorgarh",
+    "Kumbhalgarh",
+    "Jaisalmer",
+    "Mehrangarh",
+    "Gwalior",
+    "Golconda",
+    "Raigad",
+    "Daulatabad",
+    "Sindhudurg",
+    "Gingee",
+    "Bekal"
+  ],
+  "styles": [
+    "heritage-tours",
+    "adventure-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

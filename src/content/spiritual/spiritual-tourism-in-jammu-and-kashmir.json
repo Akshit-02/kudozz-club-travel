@@ -1,0 +1,336 @@
+{
+  "slug": "spiritual-tourism-in-jammu-and-kashmir",
+  "kind": "state",
+  "short": "Spiritual Jammu and Kashmir",
+  "title": "Spiritual Tourism in Jammu and Kashmir: Vaishno Devi, Amarnath and Hazratbal",
+  "seoTitle": "Spiritual Places in Jammu & Kashmir: Vaishno Devi & More | Kudozz Club",
+  "metaDescription": "Plan a spiritual trip in Jammu and Kashmir: Vaishno Devi, the Amarnath Yatra, Shiv Khori, Raghunath temple, Kheer Bhawani, Shankaracharya temple and Hazratbal.",
+  "description": "A guide to spiritual tourism in Jammu and Kashmir: the Vaishno Devi yatra from Katra, the summer Amarnath Yatra and its registration, Shiv Khori and Jammu's Raghunath temple, Kheer Bhawani and the Shankaracharya temple in Kashmir, the Hazratbal Shrine, Makhdoom Sahib and Charar-e-Sharif, with bookings, seasons and safety.",
+  "dek": "Jammu and Kashmir holds two of north India's biggest yatras, Vaishno Devi and Amarnath, alongside revered Hindu, Muslim and Sufi shrines in the Kashmir valley.",
+  "primaryKeyword": "spiritual places in Jammu and Kashmir",
+  "secondaryKeywords": [
+    "religious places in Jammu and Kashmir",
+    "temples in Jammu and Kashmir",
+    "pilgrimage places in Jammu and Kashmir"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "pilgrimage",
+    "trekking",
+    "temple visit",
+    "Sufi shrines"
+  ],
+  "terrain": [
+    "mountains",
+    "temple town",
+    "lake"
+  ],
+  "regions": [
+    "Jammu and Kashmir",
+    "North India"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "families",
+    "groups",
+    "senior travellers"
+  ],
+  "tags": [
+    "Jammu and Kashmir",
+    "Vaishno Devi",
+    "Amarnath",
+    "Hazratbal"
+  ],
+  "hero": {
+    "src": "/images/spiritual/spiritual-jk-hazratbal-srinagar.webp",
+    "alt": "The white-domed Hazratbal Shrine below the Zabarwan hills, Srinagar"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Spiritual Jammu and Kashmir",
+    "containedIn": "Jammu and Kashmir"
+  },
+  "intro": [
+    "Vaishno Devi, a cave shrine of the Goddess above Katra, draws pilgrims all year and is one of the most visited shrines in India. The Amarnath Yatra, to an ice lingam in a Himalayan cave, runs only for a few weeks in summer and needs registration with the Shri Amarnathji Shrine Board.",
+    "Jammu city has the Raghunath temple complex, and the Kashmir valley holds Kheer Bhawani, the Shankaracharya temple, the Hazratbal Shrine, and Sufi and Rishi shrines such as Makhdoom Sahib and Charar-e-Sharif. Ladakh is a separate Union Territory; its monasteries are covered in our Buddhist tourism guide."
+  ],
+  "quickAnswer": "Jammu and Kashmir's main spiritual destinations are Vaishno Devi (a trek of about 13 km from Katra, with mandatory yatra registration), the Amarnath Yatra (summer only, registration with the Shri Amarnathji Shrine Board), Shiv Khori and Raghunath temple in Jammu, and Kheer Bhawani, the Shankaracharya temple and the Hazratbal Shrine in Kashmir. Vaishno Devi is open all year; Amarnath usually runs in July and August.",
+  "takeaways": [
+    "Vaishno Devi is about 13 km from Katra on foot; helicopters and ponies are available.",
+    "Vaishno Devi pilgrims need a yatra registration card; book through the Shrine Board.",
+    "The Amarnath Yatra runs only in summer and needs Shrine Board registration and a health certificate.",
+    "Hazratbal houses a relic revered as a hair of the Prophet Muhammad.",
+    "Ladakh is a separate Union Territory."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Main spiritual places",
+      "table": {
+        "columns": [
+          "Place",
+          "Tradition",
+          "Known for",
+          "Our guide"
+        ],
+        "rows": [
+          [
+            "Vaishno Devi",
+            "Hindu",
+            "Cave shrine above Katra",
+            "Katra and Vaishno Devi guide"
+          ],
+          [
+            "Amarnath",
+            "Hindu",
+            "Ice lingam in a Himalayan cave (summer yatra)",
+            "Covered here"
+          ],
+          [
+            "Shiv Khori",
+            "Hindu",
+            "Cave shrine in Reasi district",
+            "Covered here"
+          ],
+          [
+            "Raghunath temple",
+            "Hindu",
+            "Temple complex in Jammu city",
+            "Jammu guide"
+          ],
+          [
+            "Kheer Bhawani",
+            "Hindu",
+            "Spring temple at Tulmul",
+            "Covered here"
+          ],
+          [
+            "Shankaracharya temple",
+            "Hindu",
+            "Hilltop temple above Srinagar",
+            "Covered here"
+          ],
+          [
+            "Hazratbal Shrine",
+            "Islam",
+            "Shrine housing a revered relic",
+            "Srinagar guide"
+          ],
+          [
+            "Makhdoom Sahib and Charar-e-Sharif",
+            "Sufi and Rishi",
+            "Revered shrines in the valley",
+            "Covered here"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "vaishno",
+      "heading": "Vaishno Devi",
+      "items": [
+        {
+          "name": "The yatra",
+          "body": [
+            "From Banganga near Katra, a paved path of about 13 km leads to the Bhawan. Helicopters fly from Katra to Sanjichhat, and ponies, palkis and battery cars cover parts of the route. A ropeway links the Bhawan with the Bhairon temple."
+          ],
+          "facts": {
+            "Registration": "Mandatory yatra card via the Shrine Board"
+          },
+          "links": [
+            {
+              "label": "Katra and Vaishno Devi guide",
+              "href": "/blog/katra-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/katra/vaishno-devi-shrine-mountain-valley.webp",
+            "alt": "The Vaishno Devi shrine complex on a mountainside above Katra",
+            "caption": "Vaishno Devi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "amarnath",
+      "heading": "The Amarnath Yatra",
+      "paras": [
+        "The Amarnath cave, at around 3,900 m, is reached on foot by the longer Pahalgam route via Chandanwari or the shorter, steeper Baltal route; helicopters fly part of the way. The yatra usually runs from early July to Raksha Bandhan in August.",
+        "Registration with the Shri Amarnathji Shrine Board is mandatory and needs a compulsory health certificate from an authorised doctor. Security arrangements are extensive, and the yatra can be suspended in bad weather; follow official advisories."
+      ]
+    },
+    {
+      "id": "kashmir",
+      "heading": "The Kashmir valley",
+      "items": [
+        {
+          "name": "Hazratbal",
+          "body": [
+            "A white marble shrine on the Dal Lake shore in Srinagar, housing a relic revered as a hair of the Prophet Muhammad, displayed on special occasions."
+          ],
+          "links": [
+            {
+              "label": "Srinagar guide",
+              "href": "/blog/srinagar-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kheer Bhawani and Shankaracharya",
+          "body": [
+            "The spring temple at Tulmul, with a large mela on Jyeshtha Ashtami, and the Shiva temple on a hill above Srinagar."
+          ]
+        },
+        {
+          "name": "Makhdoom Sahib and Charar-e-Sharif",
+          "body": [
+            "The shrine of Hazrat Sultan-ul-Arifeen on Hari Parbat, and the shrine of the Rishi saint Sheikh Nooruddin Noorani."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "Suggested routes",
+      "table": {
+        "columns": [
+          "Route",
+          "Days",
+          "Places"
+        ],
+        "rows": [
+          [
+            "Vaishno Devi",
+            "2 to 3",
+            "Jammu, Katra, Bhawan, Bhairon"
+          ],
+          [
+            "Jammu temples",
+            "2",
+            "Raghunath temple, Shiv Khori"
+          ],
+          [
+            "Amarnath (summer)",
+            "4 to 6",
+            "Srinagar or Pahalgam, then the yatra"
+          ],
+          [
+            "Srinagar shrines",
+            "2",
+            "Hazratbal, Shankaracharya, Makhdoom Sahib, Kheer Bhawani"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stays",
+      "heading": "Stays and tips",
+      "list": [
+        "Katra has many hotels and Shrine Board accommodation; book ahead for Navratri and summer holidays.",
+        "For Amarnath, pilgrims base themselves in Pahalgam, Baltal or Srinagar; tents are set up along the routes.",
+        "Srinagar houseboats and hotels are a good base for the valley's shrines.",
+        "Carry cash; mobile connectivity and card payments can be limited in some areas."
+      ]
+    }
+  ],
+  "safety": [
+    "Vaishno Devi and Amarnath need registration through the official shrine boards only.",
+    "The Amarnath Yatra reaches high altitude; the health certificate is mandatory, and pilgrims should acclimatise.",
+    "Follow government travel advisories and security instructions in the region.",
+    "Weather can suspend helicopters and yatras; keep buffer days."
+  ],
+  "packing": [
+    "Warm and waterproof layers",
+    "Good walking shoes",
+    "Registration papers and ID",
+    "Personal medicines"
+  ],
+  "faqs": [
+    {
+      "q": "How long is the Vaishno Devi trek?",
+      "a": "About 13 km from Banganga near Katra to the Bhawan."
+    },
+    {
+      "q": "When is the Amarnath Yatra?",
+      "a": "Usually from early July to Raksha Bandhan in August; dates are announced by the Shri Amarnathji Shrine Board."
+    },
+    {
+      "q": "Is registration required for Amarnath?",
+      "a": "Yes, with the Shrine Board, along with a compulsory health certificate."
+    },
+    {
+      "q": "What is kept at Hazratbal?",
+      "a": "A relic revered as a hair of the Prophet Muhammad, displayed on special occasions."
+    },
+    {
+      "q": "Is Vaishno Devi open all year?",
+      "a": "Yes, though winter brings snow on the upper route and the busiest times are Navratri and summer holidays."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Katra and Vaishno Devi guide",
+      "href": "/blog/katra-travel-guide"
+    },
+    {
+      "label": "Things to do in Jammu",
+      "href": "/blog/things-to-do-in-jammu"
+    },
+    {
+      "label": "Srinagar guide",
+      "href": "/blog/srinagar-travel-guide"
+    },
+    {
+      "label": "Kashmir tour packages",
+      "href": "/packages/kashmir"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Shakti Peethas in India",
+      "href": "/blog/shakti-peethas-in-india",
+      "note": "Vaishno Devi and the Devi shrines"
+    },
+    {
+      "name": "Sufi shrines in India",
+      "href": "/blog/sufi-shrines-in-india",
+      "note": "dargahs across India"
+    },
+    {
+      "name": "Pilgrimage packing list",
+      "href": "/blog/pilgrimage-packing-list",
+      "note": "high-altitude yatras"
+    }
+  ],
+  "places": [
+    "Katra",
+    "Vaishno Devi",
+    "Amarnath",
+    "Pahalgam",
+    "Baltal",
+    "Jammu",
+    "Shiv Khori",
+    "Srinagar",
+    "Hazratbal",
+    "Tulmul"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Jammu and Kashmir",
+  "updated": "2026-09-26"
+}

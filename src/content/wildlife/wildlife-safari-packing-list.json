@@ -1,0 +1,324 @@
+{
+  "slug": "wildlife-safari-packing-list",
+  "kind": "planning",
+  "short": "Safari packing list",
+  "title": "Wildlife Safari Packing List and What to Wear",
+  "seoTitle": "Wildlife Safari Packing List & What to Wear in India | Kudozz Club",
+  "metaDescription": "What to pack and wear for a wildlife safari in India, season by season: neutral clothes, layers for cold jeeps, sun protection, binoculars and camera gear.",
+  "description": "A practical packing list for a wildlife safari in India: what colours to wear and avoid, layers for cold winter drives, summer sun protection, monsoon gear, binoculars and camera kit, documents, health items, and a season-by-season checklist.",
+  "dek": "Open jeeps are cold at dawn in winter and hot by noon in summer. Here is what to pack so you can enjoy every drive.",
+  "primaryKeyword": "wildlife safari packing list",
+  "secondaryKeywords": [
+    "what to wear on a safari",
+    "safari clothes colours",
+    "binoculars for safari",
+    "safari packing winter"
+  ],
+  "searchIntent": "Pack for a safari",
+  "activities": [
+    "jeep safari",
+    "birdwatching",
+    "photography"
+  ],
+  "terrain": [
+    "forest",
+    "grassland"
+  ],
+  "regions": [
+    "Central India",
+    "North India",
+    "South India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Packing List",
+    "Safari",
+    "What to Wear",
+    "Wildlife"
+  ],
+  "hero": {
+    "src": "/images/wildlife/safari-packing-binoculars.webp",
+    "alt": "Birdwatchers with binoculars and cycle-rickshaws on a path in Keoladeo National Park"
+  },
+  "parent": {
+    "label": "How to Plan a Wildlife Safari in India",
+    "href": "/blog/how-to-plan-a-wildlife-safari-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Wildlife safari packing list"
+  },
+  "intro": [
+    "Safari jeeps in India are open to the air. At dawn in December or January the temperature in central and north India can be close to freezing, while a May afternoon drive can be over 40°C. The right clothes make a bigger difference to comfort than anything else.",
+    "Colours matter too. Muted greens, browns, khaki and beige blend with the forest; bright colours and white stand out, and some parks discourage them."
+  ],
+  "quickAnswer": "For a wildlife safari in India, pack clothes in neutral colours such as khaki, olive, beige and brown, with layers you can remove as the day warms: a warm jacket, cap and gloves for winter mornings, and a hat, sunscreen and a light scarf for summer dust. Carry binoculars, a camera with a zoom lens, water, the ID used for booking, and insect repellent.",
+  "takeaways": [
+    "Wear neutral colours; avoid bright colours, white and camouflage patterns.",
+    "Layer up: winter dawn drives in open jeeps are very cold.",
+    "A scarf or buff protects against dust on dry-season drives.",
+    "Binoculars are the most useful item after your ID.",
+    "Carry the same ID you used to book; it is checked at the gate."
+  ],
+  "sections": [
+    {
+      "id": "wear",
+      "heading": "What to wear",
+      "table": {
+        "columns": [
+          "Item",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Neutral cotton or quick-dry shirts, full sleeves",
+            "Blend in; protect from sun and insects"
+          ],
+          [
+            "Trousers in khaki, olive or brown",
+            "Comfort and protection"
+          ],
+          [
+            "Fleece or down jacket (winter)",
+            "Dawn drives can be near freezing"
+          ],
+          [
+            "Woollen cap and gloves (winter)",
+            "Wind chill in open jeeps"
+          ],
+          [
+            "Wide-brimmed hat",
+            "Sun on summer drives"
+          ],
+          [
+            "Scarf or buff",
+            "Dust and sun"
+          ],
+          [
+            "Closed shoes",
+            "Comfort and safety at stops"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "avoid",
+      "heading": "What to leave behind",
+      "list": [
+        "Bright colours, white and strong perfumes.",
+        "Camouflage prints, which are restricted in some places.",
+        "Plastic bags and single-use plastic; many parks ban them.",
+        "Drones, which are not allowed in protected areas without permission.",
+        "Loud speakers or music."
+      ]
+    },
+    {
+      "id": "gear",
+      "heading": "Gear",
+      "items": [
+        {
+          "name": "Binoculars",
+          "body": [
+            "8x42 or 10x42 binoculars suit most safaris and birding. One pair per person saves passing them around."
+          ]
+        },
+        {
+          "name": "Camera",
+          "body": [
+            "A zoom lens of 100 to 400 mm or more, spare batteries and cards. A beanbag helps steady the lens on the jeep."
+          ],
+          "links": [
+            {
+              "label": "Wildlife photography in India",
+              "href": "/blog/wildlife-photography-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Phone and power",
+          "body": [
+            "A power bank; many lodges have limited charging."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Season by season",
+      "table": {
+        "columns": [
+          "Season",
+          "Add to your bag"
+        ],
+        "rows": [
+          [
+            "November to February",
+            "Thermal layer, down jacket, cap, gloves, warm socks"
+          ],
+          [
+            "March to June",
+            "Light full-sleeve shirts, hat, sunscreen, electrolytes, extra water"
+          ],
+          [
+            "July to September (open parks)",
+            "Rain jacket, quick-dry clothes, leech socks in the Western Ghats"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "documents",
+      "heading": "Documents and health",
+      "list": [
+        "The ID used for booking, and printed or saved permits.",
+        "Any medicines you need, plus basic first aid.",
+        "Insect repellent and antihistamines.",
+        "Motion-sickness tablets if bumpy roads bother you.",
+        "Travel insurance details."
+      ]
+    },
+    {
+      "id": "day-bag",
+      "heading": "Your safari day bag",
+      "list": [
+        "Water bottle, one litre or more in summer.",
+        "A light snack for long morning drives (eat it only where allowed, and take the wrappers back).",
+        "Binoculars, camera and spare battery.",
+        "Sunscreen, lip balm and sunglasses.",
+        "A small towel or wet wipes for dust.",
+        "A light rain jacket in the shoulder seasons."
+      ]
+    },
+    {
+      "id": "by-trip",
+      "heading": "Extra items by trip type",
+      "table": {
+        "columns": [
+          "Trip",
+          "Add"
+        ],
+        "rows": [
+          [
+            "Boat safaris (Sundarbans, Bhitarkanika, Chilika)",
+            "Waterproof bag, hat with a strap, sandals with grip"
+          ],
+          [
+            "Walking safaris (Satpura, Periyar)",
+            "Comfortable dark shoes, leech socks in the wet season"
+          ],
+          [
+            "Snow leopard trips (Ladakh)",
+            "Down jacket, thermal layers, insulated boots, hand warmers"
+          ],
+          [
+            "Birding trips",
+            "Field guide, notebook, a lighter pair of binoculars for long walks"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Drink plenty of water in summer; heat exhaustion is a real risk.",
+    "Wear a seat belt where fitted and hold on during drives.",
+    "No operator can promise a sighting; be wary of anyone who does.",
+    "Keep your bags closed; monkeys may snatch food at stops."
+  ],
+  "packing": [
+    "Neutral clothes and warm layers",
+    "Hat, sunscreen and scarf",
+    "Binoculars and camera",
+    "Water bottle",
+    "ID and permits",
+    "Power bank and charging cables",
+    "Small torch for lodge paths at night",
+    "Reusable cloth bag for rubbish"
+  ],
+  "faqs": [
+    {
+      "q": "What colours should I wear on safari in India?",
+      "a": "Khaki, olive, beige and brown. Avoid bright colours and white."
+    },
+    {
+      "q": "Is it cold on a winter safari?",
+      "a": "Yes. Early morning drives in December and January can be near freezing in central and north India."
+    },
+    {
+      "q": "Can I wear camouflage on safari?",
+      "a": "It is best avoided; some places restrict camouflage clothing."
+    },
+    {
+      "q": "Do I need binoculars?",
+      "a": "They make a big difference, especially for birds and distant animals."
+    },
+    {
+      "q": "What shoes should I wear on safari?",
+      "a": "Comfortable closed shoes in a dark colour. You will mostly sit in the jeep, but may walk at stops and lodges."
+    },
+    {
+      "q": "Do I need a warm jacket in April?",
+      "a": "Usually not in central India, where April is hot. A light layer helps for early starts in the hills or the north-east."
+    },
+    {
+      "q": "Should I carry cash?",
+      "a": "Yes, some small cash for tips and remote places where cards or UPI may not work."
+    },
+    {
+      "q": "Can I fly a drone in a national park?",
+      "a": "No, not without permission from the authorities."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "How to plan a wildlife safari",
+      "href": "/blog/how-to-plan-a-wildlife-safari-in-india"
+    },
+    {
+      "label": "Best time for wildlife safari",
+      "href": "/blog/best-time-for-wildlife-safari-in-india"
+    },
+    {
+      "label": "Tiger safari in India",
+      "href": "/blog/tiger-safari-in-india"
+    },
+    {
+      "label": "Wildlife trips",
+      "href": "/packages/wildlife-tours"
+    },
+    {
+      "label": "Best wildlife destinations",
+      "href": "/blog/best-wildlife-destinations-in-india"
+    }
+  ],
+  "related": [
+    {
+      "name": "Wildlife photography in India",
+      "href": "/blog/wildlife-photography-in-india",
+      "note": "camera gear"
+    },
+    {
+      "name": "Responsible wildlife tourism",
+      "href": "/blog/responsible-wildlife-tourism-in-india",
+      "note": "safari etiquette"
+    },
+    {
+      "name": "Adventure packing list",
+      "href": "/blog/adventure-travel-packing-list-india",
+      "note": "for treks and outdoor trips"
+    }
+  ],
+  "styles": [
+    "wildlife-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-25"
+}

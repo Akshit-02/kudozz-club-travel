@@ -1,0 +1,406 @@
+{
+ "agra-travel-guide": {
+  "slug": "taj-mahal",
+  "label": "visiting the Taj Mahal"
+ },
+ "fatehpur-sikri-travel-guide": {
+  "slug": "mughal-monuments-in-india",
+  "label": "Mughal monuments in India"
+ },
+ "old-delhi-travel-guide": {
+  "slug": "red-fort",
+  "label": "visiting the Red Fort"
+ },
+ "chandni-chowk-delhi-travel-guide": {
+  "slug": "red-fort",
+  "label": "visiting the Red Fort"
+ },
+ "mehrauli-delhi-travel-guide": {
+  "slug": "qutub-minar",
+  "label": "visiting the Qutub Minar"
+ },
+ "nizamuddin-delhi-travel-guide": {
+  "slug": "humayuns-tomb",
+  "label": "visiting Humayun's Tomb"
+ },
+ "lodhi-garden-delhi-travel-guide": {
+  "slug": "heritage-tourism-in-delhi",
+  "label": "heritage in Delhi"
+ },
+ "tughlaqabad-delhi-travel-guide": {
+  "slug": "heritage-tourism-in-delhi",
+  "label": "heritage in Delhi"
+ },
+ "hauz-khas-delhi-travel-guide": {
+  "slug": "heritage-tourism-in-delhi",
+  "label": "heritage in Delhi"
+ },
+ "new-delhi-travel-guide": {
+  "slug": "heritage-tourism-in-delhi",
+  "label": "heritage in Delhi"
+ },
+ "delhi-travel-guide": {
+  "slug": "heritage-tourism-in-delhi",
+  "label": "heritage in Delhi"
+ },
+ "jaipur-travel-guide": {
+  "slug": "amber-fort",
+  "label": "visiting Amber Fort"
+ },
+ "jodhpur-travel-guide": {
+  "slug": "mehrangarh-fort",
+  "label": "visiting Mehrangarh Fort"
+ },
+ "mumbai-travel-guide": {
+  "slug": "elephanta-caves",
+  "label": "the Elephanta Caves"
+ },
+ "patan-travel-guide": {
+  "slug": "gujarat-heritage-itinerary",
+  "label": "a Gujarat heritage itinerary"
+ },
+ "ahmedabad-travel-guide": {
+  "slug": "heritage-cities-in-india",
+  "label": "India's heritage cities"
+ },
+ "vadodara-travel-guide": {
+  "slug": "champaner-pavagadh",
+  "label": "Champaner-Pavagadh"
+ },
+ "dholavira-travel-guide": {
+  "slug": "archaeological-sites-in-india",
+  "label": "archaeological sites in India"
+ },
+ "bhimbetka-travel-guide": {
+  "slug": "archaeological-sites-in-india",
+  "label": "archaeological sites in India"
+ },
+ "sanchi-travel-guide": {
+  "slug": "archaeological-sites-in-india",
+  "label": "archaeological sites in India"
+ },
+ "nalanda-travel-guide": {
+  "slug": "archaeological-sites-in-india",
+  "label": "archaeological sites in India"
+ },
+ "barabar-caves-travel-guide": {
+  "slug": "rock-cut-caves-in-india",
+  "label": "rock-cut caves in India"
+ },
+ "ajanta-ellora-travel-guide": {
+  "slug": "rock-cut-caves-in-india",
+  "label": "rock-cut caves in India"
+ },
+ "belum-caves-travel-guide": {
+  "slug": "rock-cut-caves-in-india",
+  "label": "India's caves, carved and natural"
+ },
+ "borra-caves-travel-guide": {
+  "slug": "rock-cut-caves-in-india",
+  "label": "India's caves, carved and natural"
+ },
+ "naida-caves-travel-guide": {
+  "slug": "rock-cut-caves-in-india",
+  "label": "rock-cut caves in India"
+ },
+ "hampi-travel-guide": {
+  "slug": "heritage-tourism-in-karnataka",
+  "label": "heritage in Karnataka"
+ },
+ "badami-aihole-pattadakal-travel-guide": {
+  "slug": "temple-architecture-of-india",
+  "label": "temple architecture of India"
+ },
+ "mysuru-travel-guide": {
+  "slug": "palaces-in-india",
+  "label": "palaces in India"
+ },
+ "karnataka-travel-guide": {
+  "slug": "heritage-tourism-in-karnataka",
+  "label": "heritage in Karnataka"
+ },
+ "mahabalipuram-travel-guide": {
+  "slug": "south-india-heritage-itinerary",
+  "label": "a South India heritage itinerary"
+ },
+ "thanjavur-travel-guide": {
+  "slug": "temple-architecture-of-india",
+  "label": "temple architecture of India"
+ },
+ "madurai-travel-guide": {
+  "slug": "heritage-tourism-in-tamil-nadu",
+  "label": "heritage in Tamil Nadu"
+ },
+ "kanchipuram-travel-guide": {
+  "slug": "textile-heritage-of-india",
+  "label": "India's textile heritage"
+ },
+ "chettinad-travel-guide": {
+  "slug": "heritage-tourism-in-tamil-nadu",
+  "label": "heritage in Tamil Nadu"
+ },
+ "chennai-travel-guide": {
+  "slug": "colonial-heritage-in-india",
+  "label": "colonial-era heritage in India"
+ },
+ "tamil-nadu-travel-guide": {
+  "slug": "heritage-tourism-in-tamil-nadu",
+  "label": "heritage in Tamil Nadu"
+ },
+ "khajuraho-travel-guide": {
+  "slug": "madhya-pradesh-heritage-itinerary",
+  "label": "a Madhya Pradesh heritage itinerary"
+ },
+ "orchha-travel-guide": {
+  "slug": "madhya-pradesh-heritage-itinerary",
+  "label": "a Madhya Pradesh heritage itinerary"
+ },
+ "mandu-travel-guide": {
+  "slug": "heritage-tourism-in-madhya-pradesh",
+  "label": "heritage in Madhya Pradesh"
+ },
+ "gwalior-travel-guide": {
+  "slug": "famous-forts-in-india",
+  "label": "famous forts in India"
+ },
+ "bhopal-travel-guide": {
+  "slug": "best-museums-in-india",
+  "label": "the best museums in India"
+ },
+ "madhya-pradesh-travel-guide": {
+  "slug": "heritage-tourism-in-madhya-pradesh",
+  "label": "heritage in Madhya Pradesh"
+ },
+ "konark-travel-guide": {
+  "slug": "heritage-tourism-in-odisha",
+  "label": "heritage in Odisha"
+ },
+ "bhubaneswar-travel-guide": {
+  "slug": "temple-architecture-of-india",
+  "label": "temple architecture of India"
+ },
+ "cuttack-travel-guide": {
+  "slug": "heritage-tourism-in-odisha",
+  "label": "heritage in Odisha"
+ },
+ "odisha-travel-guide": {
+  "slug": "heritage-tourism-in-odisha",
+  "label": "heritage in Odisha"
+ },
+ "kolkata-travel-guide": {
+  "slug": "heritage-tourism-in-west-bengal",
+  "label": "heritage in West Bengal"
+ },
+ "bishnupur-travel-guide": {
+  "slug": "heritage-tourism-in-west-bengal",
+  "label": "heritage in West Bengal"
+ },
+ "murshidabad-travel-guide": {
+  "slug": "heritage-tourism-in-west-bengal",
+  "label": "heritage in West Bengal"
+ },
+ "santiniketan-travel-guide": {
+  "slug": "heritage-tourism-in-west-bengal",
+  "label": "heritage in West Bengal"
+ },
+ "cooch-behar-travel-guide": {
+  "slug": "palaces-in-india",
+  "label": "palaces in India"
+ },
+ "west-bengal-travel-guide": {
+  "slug": "heritage-tourism-in-west-bengal",
+  "label": "heritage in West Bengal"
+ },
+ "darjeeling-travel-guide": {
+  "slug": "mountain-railways-of-india",
+  "label": "the mountain railways of India"
+ },
+ "shimla-travel-guide": {
+  "slug": "mountain-railways-of-india",
+  "label": "the mountain railways of India"
+ },
+ "ooty-travel-guide": {
+  "slug": "mountain-railways-of-india",
+  "label": "the mountain railways of India"
+ },
+ "matheran-travel-guide": {
+  "slug": "mountain-railways-of-india",
+  "label": "the mountain railways of India"
+ },
+ "hyderabad-travel-guide": {
+  "slug": "heritage-tourism-in-telangana",
+  "label": "heritage in Telangana"
+ },
+ "golconda-fort-travel-guide": {
+  "slug": "deccan-sultanate-heritage",
+  "label": "Deccan sultanate heritage"
+ },
+ "warangal-travel-guide": {
+  "slug": "heritage-tourism-in-telangana",
+  "label": "heritage in Telangana"
+ },
+ "telangana-travel-guide": {
+  "slug": "heritage-tourism-in-telangana",
+  "label": "heritage in Telangana"
+ },
+ "kochi-travel-guide": {
+  "slug": "heritage-tourism-in-kerala",
+  "label": "heritage in Kerala"
+ },
+ "bekal-travel-guide": {
+  "slug": "heritage-tourism-in-kerala",
+  "label": "heritage in Kerala"
+ },
+ "kannur-travel-guide": {
+  "slug": "heritage-tourism-in-kerala",
+  "label": "heritage in Kerala"
+ },
+ "old-goa-travel-guide": {
+  "slug": "colonial-heritage-in-india",
+  "label": "colonial-era heritage in India"
+ },
+ "puducherry-french-quarter-travel-guide": {
+  "slug": "colonial-heritage-in-india",
+  "label": "colonial-era heritage in India"
+ },
+ "diu-fort-travel-guide": {
+  "slug": "colonial-heritage-in-india",
+  "label": "colonial-era heritage in India"
+ },
+ "moti-daman-fort-travel-guide": {
+  "slug": "colonial-heritage-in-india",
+  "label": "colonial-era heritage in India"
+ },
+ "cellular-jail-andaman-travel-guide": {
+  "slug": "colonial-heritage-in-india",
+  "label": "colonial-era heritage in India"
+ },
+ "lucknow-travel-guide": {
+  "slug": "heritage-tourism-in-uttar-pradesh",
+  "label": "heritage in Uttar Pradesh"
+ },
+ "varanasi-travel-guide": {
+  "slug": "heritage-tourism-in-uttar-pradesh",
+  "label": "heritage in Uttar Pradesh"
+ },
+ "jhansi-travel-guide": {
+  "slug": "heritage-tourism-in-uttar-pradesh",
+  "label": "heritage in Uttar Pradesh"
+ },
+ "uttar-pradesh-travel-guide": {
+  "slug": "heritage-tourism-in-uttar-pradesh",
+  "label": "heritage in Uttar Pradesh"
+ },
+ "chittorgarh-travel-guide": {
+  "slug": "forts-of-rajasthan",
+  "label": "the forts of Rajasthan"
+ },
+ "kumbhalgarh-travel-guide": {
+  "slug": "forts-of-rajasthan",
+  "label": "the forts of Rajasthan"
+ },
+ "bundi-travel-guide": {
+  "slug": "rajasthan-heritage-itinerary",
+  "label": "a Rajasthan heritage itinerary"
+ },
+ "bikaner-travel-guide": {
+  "slug": "forts-of-rajasthan",
+  "label": "the forts of Rajasthan"
+ },
+ "udaipur-city-of-lakes-travel-guide": {
+  "slug": "palaces-in-india",
+  "label": "palaces in India"
+ },
+ "rajasthan-travel-guide": {
+  "slug": "heritage-tourism-in-rajasthan",
+  "label": "heritage in Rajasthan"
+ },
+ "pushkar-travel-guide": {
+  "slug": "cultural-festivals-in-india",
+  "label": "cultural festivals in India"
+ },
+ "gujarat-travel-guide": {
+  "slug": "heritage-tourism-in-gujarat",
+  "label": "heritage in Gujarat"
+ },
+ "rann-of-kutch-travel-guide": {
+  "slug": "rann-utsav",
+  "label": "the Rann Utsav"
+ },
+ "maharashtra-travel-guide": {
+  "slug": "heritage-tourism-in-maharashtra",
+  "label": "heritage in Maharashtra"
+ },
+ "chhatrapati-sambhajinagar-travel-guide": {
+  "slug": "rock-cut-caves-in-india",
+  "label": "rock-cut caves in India"
+ },
+ "pune-travel-guide": {
+  "slug": "forts-in-maharashtra",
+  "label": "forts in Maharashtra"
+ },
+ "mahabaleshwar-travel-guide": {
+  "slug": "forts-in-maharashtra",
+  "label": "forts in Maharashtra"
+ },
+ "tarkarli-travel-guide": {
+  "slug": "forts-in-maharashtra",
+  "label": "forts in Maharashtra"
+ },
+ "kohima-travel-guide": {
+  "slug": "hornbill-festival",
+  "label": "the Hornbill Festival"
+ },
+ "khonoma-travel-guide": {
+  "slug": "tribal-tourism-in-india",
+  "label": "responsible tribal tourism"
+ },
+ "ziro-valley-arunachal-travel-guide": {
+  "slug": "tribal-tourism-in-india",
+  "label": "responsible tribal tourism"
+ },
+ "bastar-travel-guide": {
+  "slug": "tribal-tourism-in-india",
+  "label": "responsible tribal tourism"
+ },
+ "jagdalpur-travel-guide": {
+  "slug": "tribal-tourism-in-india",
+  "label": "responsible tribal tourism"
+ },
+ "koraput-travel-guide": {
+  "slug": "tribal-tourism-in-india",
+  "label": "responsible tribal tourism"
+ },
+ "mawlynnong-travel-guide": {
+  "slug": "tribal-tourism-in-india",
+  "label": "responsible tribal tourism"
+ },
+ "sivasagar-travel-guide": {
+  "slug": "historical-places-in-india",
+  "label": "historical places in India"
+ },
+ "unakoti-travel-guide": {
+  "slug": "historical-places-in-india",
+  "label": "historical places in India"
+ },
+ "ujjayanta-palace-travel-guide": {
+  "slug": "palaces-in-india",
+  "label": "palaces in India"
+ },
+ "amritsar-travel-guide": {
+  "slug": "heritage-cities-in-india",
+  "label": "India's heritage cities"
+ },
+ "patna-travel-guide": {
+  "slug": "best-museums-in-india",
+  "label": "the best museums in India"
+ },
+ "capitol-complex-chandigarh-travel-guide": {
+  "slug": "unesco-world-heritage-sites-in-india",
+  "label": "UNESCO World Heritage Sites in India"
+ },
+ "sarnath-travel-guide": {
+  "slug": "unesco-world-heritage-sites-in-india",
+  "label": "UNESCO World Heritage Sites in India"
+ }
+}

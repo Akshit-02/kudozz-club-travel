@@ -1,0 +1,334 @@
+{
+  "slug": "skydiving-in-india",
+  "kind": "activity",
+  "short": "Skydiving in India",
+  "title": "Skydiving in India: Drop Zones, Jump Types and Seasons",
+  "seoTitle": "Skydiving in India: Drop Zones, Jump Types & Seasons | Kudozz Club",
+  "metaDescription": "Where to go skydiving in India: Mysuru, Deesa, Aamby Valley, Dhana and Narnaul, with tandem, static-line and AFF jumps explained, seasons and safety.",
+  "description": "A guide to skydiving in India: the drop zones and skydiving camps at Mysuru, Deesa, Aamby Valley, Dhana and Narnaul, how tandem, static-line and accelerated free fall jumps differ, when camps run and how to choose a safe operator.",
+  "dek": "Skydiving in India happens at a few airfields, often in scheduled camps rather than every day. Here is how it works and where to jump.",
+  "primaryKeyword": "skydiving in India",
+  "secondaryKeywords": [
+    "skydiving in Mysore",
+    "Deesa skydiving",
+    "Aamby Valley skydiving",
+    "tandem skydiving India",
+    "static line jump"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "skydiving"
+  ],
+  "terrain": [
+    "plains",
+    "air"
+  ],
+  "regions": [
+    "Karnataka",
+    "Gujarat",
+    "Maharashtra",
+    "Madhya Pradesh",
+    "Haryana"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "solo",
+    "friends",
+    "couples"
+  ],
+  "tags": [
+    "Skydiving",
+    "Air Adventure",
+    "Mysuru",
+    "Deesa"
+  ],
+  "hero": {
+    "src": "/images/adventure/skydiving-tandem-freefall.webp",
+    "alt": "Tandem skydivers in free fall just after leaving the aircraft",
+    "caption": "Tandem skydive"
+  },
+  "parent": {
+    "label": "Adventure Sports in India",
+    "href": "/blog/adventure-sports-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Skydiving in India"
+  },
+  "intro": [
+    "Unlike paragliding, skydiving in India is not available at a hill in every state. Jumps take place from a handful of airfields and airstrips, and at several of them skydiving runs as scheduled camps over a few days or weeks rather than year-round. That makes planning and booking ahead essential.",
+    "The places most often used are Mysuru airport in Karnataka, Deesa airfield in Gujarat, Aamby Valley in Maharashtra, the Dhana airstrip near Sagar in Madhya Pradesh and the Bachhod airstrip near Narnaul in Haryana, about two hours from Delhi. This guide explains the jump types, the drop zones and what to check."
+  ],
+  "quickAnswer": "Skydiving in India is offered at a few airfields, including Mysuru in Karnataka, Deesa in Gujarat, Aamby Valley in Maharashtra, Dhana in Madhya Pradesh and Narnaul in Haryana. First-timers usually do a tandem jump from about 10,000 feet, strapped to an instructor, or a static-line jump after a day's training. Many sites run in scheduled camps, mostly in the cooler, drier months, so book ahead.",
+  "takeaways": [
+    "Tandem jumps need no experience and involve about 30 to 60 seconds of free fall from around 10,000 feet.",
+    "Static-line jumps are solo jumps where the parachute opens automatically, after a day of ground training.",
+    "Accelerated Free Fall (AFF) is the course to become a licensed skydiver and takes several days.",
+    "Many Indian drop zones run camps on set dates rather than daily operations.",
+    "Weather decides everything; build spare days into a skydiving trip."
+  ],
+  "sections": [
+    {
+      "id": "types",
+      "heading": "Types of jump",
+      "table": {
+        "columns": [
+          "Jump",
+          "How it works",
+          "Training",
+          "Suits"
+        ],
+        "rows": [
+          [
+            "Tandem",
+            "You are harnessed to an instructor who controls the free fall and the parachute",
+            "A short briefing",
+            "First-timers"
+          ],
+          [
+            "Static line",
+            "You jump alone from a lower height; a line attached to the aircraft opens your parachute",
+            "About a day of ground training",
+            "People who want a solo jump"
+          ],
+          [
+            "Accelerated Free Fall (AFF)",
+            "Solo free fall with instructors holding on at first, progressing through levels",
+            "A multi-day course",
+            "People aiming for a skydiving licence"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "where",
+      "heading": "Where to go skydiving in India",
+      "items": [
+        {
+          "name": "Mysuru, Karnataka",
+          "body": [
+            "Skydiving camps have been held at Mysuru airport, with tandem and AFF jumps over the city, the Chamundi Hills and farmland. Camps usually run in the drier months, roughly October to February."
+          ],
+          "facts": {
+            "Jumps": "Tandem, AFF",
+            "Season": "Camps, roughly October to February"
+          },
+          "links": [
+            {
+              "label": "Things to do in Mysuru",
+              "href": "/blog/things-to-do-in-mysore"
+            }
+          ]
+        },
+        {
+          "name": "Deesa, Gujarat",
+          "body": [
+            "The airfield at Deesa in Banaskantha district is one of the longest-running skydiving locations in India and hosts camps for tandem, static-line and AFF jumps."
+          ],
+          "facts": {
+            "Jumps": "Tandem, static line, AFF",
+            "Season": "Camps; check dates"
+          }
+        },
+        {
+          "name": "Aamby Valley, Maharashtra",
+          "body": [
+            "Aamby Valley, near Lonavala, has run tandem skydiving from about 10,000 feet over the Sahyadri hills and lake. Availability has varied over the years; confirm whether jumps are running before planning."
+          ],
+          "facts": {
+            "Jumps": "Tandem",
+            "Good for": "Mumbai and Pune travellers"
+          },
+          "links": [
+            {
+              "label": "Weekend adventure trips from Mumbai",
+              "href": "/blog/weekend-adventure-trips-from-mumbai"
+            }
+          ]
+        },
+        {
+          "name": "Dhana, Madhya Pradesh",
+          "body": [
+            "The Dhana airstrip in Sagar district hosted some of India's early civilian skydiving camps and is still used for tandem and static-line jumps over the countryside."
+          ],
+          "facts": {
+            "Jumps": "Tandem, static line",
+            "Season": "Camps"
+          }
+        },
+        {
+          "name": "Narnaul, Haryana",
+          "body": [
+            "The Bachhod airstrip near Narnaul, about two hours' drive from Delhi, is used by a skydiving company for tandem and static-line jumps. It is the most convenient option for travellers from Delhi NCR."
+          ],
+          "facts": {
+            "Jumps": "Tandem, static line",
+            "Good for": "Delhi NCR"
+          },
+          "links": [
+            {
+              "label": "Weekend adventure trips from Delhi",
+              "href": "/blog/weekend-adventure-trips-from-delhi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tandem",
+      "heading": "What a tandem jump is like",
+      "list": [
+        "You arrive at the airfield early for paperwork, a weight check and a briefing on the body position (arched, head back, legs bent).",
+        "You are fitted with a harness and board a small aircraft with your instructor.",
+        "At around 10,000 feet, the instructor attaches your harness to theirs and you move to the door together.",
+        "Free fall lasts roughly 30 to 60 seconds, depending on the exit height, at speeds of around 200 km/h.",
+        "The instructor opens the parachute and you glide down for several minutes before landing, legs raised, on the drop zone."
+      ]
+    },
+    {
+      "id": "rules",
+      "heading": "Eligibility and rules",
+      "paras": [
+        "Operators set minimum ages (typically 18, or younger with guardian consent at some operators), maximum weights and health requirements. You will sign a medical declaration; heart conditions, uncontrolled blood pressure, epilepsy, recent surgery, back problems and pregnancy usually rule you out.",
+        "Civil aviation rules govern skydiving in India, and drop zones need permissions to operate from airfields. Choose operators whose instructors hold ratings from recognised international skydiving bodies and ask to see them."
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Skydiving, paragliding or bungee?",
+      "table": {
+        "columns": [
+          "",
+          "Skydiving (tandem)",
+          "Paragliding (tandem)",
+          "Bungee jumping"
+        ],
+        "rows": [
+          [
+            "Free fall",
+            "About 30 to 60 seconds",
+            "None",
+            "A few seconds"
+          ],
+          [
+            "Time in the air",
+            "Around 5 to 7 minutes",
+            "5 to 30 minutes or more",
+            "Under a minute"
+          ],
+          [
+            "Where in India",
+            "A few airfields, often in camps",
+            "Many hill sites",
+            "Rishikesh, Goa, Lonavala"
+          ],
+          [
+            "Physical demand",
+            "Low; arch position and raised legs for landing",
+            "Low; a short run at take-off",
+            "Low; the jump itself"
+          ],
+          [
+            "Relative cost",
+            "Highest",
+            "Lowest",
+            "In between"
+          ]
+        ]
+      },
+      "after": [
+        "If you are not sure how you will react to heights, a tandem paraglide is the gentlest start, and a bungee jump is the shortest commitment. Skydiving is the biggest step, in cost and in sensation."
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning a skydive",
+      "list": [
+        "Check the operator's current dates; many drop zones run camps rather than daily jumps.",
+        "Choose the drier, calmer months (roughly October to March in most of these locations).",
+        "Keep one or two spare days; jumps are postponed for wind, cloud or rain.",
+        "Allow a full day at the drop zone, even for a tandem jump.",
+        "Do not scuba dive in the 24 hours before a skydive, and eat a light meal beforehand."
+      ]
+    }
+  ],
+  "safety": [
+    "Jump only with operators whose instructors hold recognised tandem and AFF ratings, and whose equipment is regularly inspected.",
+    "Declare medical conditions and your correct weight.",
+    "Follow the body-position briefing; it makes the free fall stable and the landing safe.",
+    "Accept weather delays; a cancelled jump is always better than one in poor conditions.",
+    "Wear comfortable closed shoes without hooks, and remove loose items from pockets."
+  ],
+  "faqs": [
+    {
+      "q": "Where can I do skydiving in India?",
+      "a": "At a few airfields, including Mysuru (Karnataka), Deesa (Gujarat), Aamby Valley (Maharashtra), Dhana (Madhya Pradesh) and Narnaul (Haryana)."
+    },
+    {
+      "q": "What is the minimum age for skydiving in India?",
+      "a": "Operators set their own limits; many require jumpers to be 18, or allow younger jumpers with guardian consent. Check when booking."
+    },
+    {
+      "q": "How high is a tandem skydive?",
+      "a": "Usually around 10,000 feet, giving roughly 30 to 60 seconds of free fall."
+    },
+    {
+      "q": "Is skydiving in India available all year?",
+      "a": "Not at most sites. Many run camps on set dates in the cooler, drier months. Check the operator's schedule."
+    },
+    {
+      "q": "What is a static-line jump?",
+      "a": "A solo jump from a lower height after a day of training, where a line attached to the aircraft opens your parachute automatically."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Mysuru",
+      "href": "/blog/things-to-do-in-mysore"
+    },
+    {
+      "label": "Mysuru travel guide",
+      "href": "/blog/mysuru-travel-guide"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Paragliding in India",
+      "href": "/blog/paragliding-in-india",
+      "note": "flying without the aircraft"
+    },
+    {
+      "name": "Bungee jumping in India",
+      "href": "/blog/bungee-jumping-in-india",
+      "note": "a shorter free fall"
+    },
+    {
+      "name": "Hot air balloon rides in India",
+      "href": "/blog/hot-air-balloon-rides-in-india",
+      "note": "the gentle way up"
+    }
+  ],
+  "places": [
+    "Mysuru",
+    "Deesa",
+    "Aamby Valley",
+    "Dhana",
+    "Narnaul"
+  ],
+  "styles": [
+    "adventure-tours"
+  ],
+  "updated": "2026-09-25"
+}

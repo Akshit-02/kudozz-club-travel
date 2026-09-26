@@ -23,6 +23,17 @@ const ttdSlugs = new Set(
   fs.existsSync(ttdDir) ? fs.readdirSync(ttdDir).filter((f) => f.endsWith(".json")).map((f) => f.slice(0, -5)) : [],
 );
 
+// Adventure Travel articles are JSON content rendered by /blog/[slug].
+const advDir = path.join(root, "src", "content", "adventure");
+const advSlugs = new Set(
+  fs.existsSync(advDir) ? fs.readdirSync(advDir).filter((f) => f.endsWith(".json")).map((f) => f.slice(0, -5)) : [],
+);
+// Beach Travel, Wildlife Tourism and Spiritual Tourism articles (same system).
+for (const cluster of ["beach", "wildlife", "spiritual", "heritage", "hills"]) {
+  const dir = path.join(root, "src", "content", cluster);
+  for (const f of fs.existsSync(dir) ? fs.readdirSync(dir) : []) if (f.endsWith(".json")) advSlugs.add(f.slice(0, -5));
+}
+
 function read(f) {
   return fs.readFileSync(f, "utf8");
 }
@@ -67,6 +78,11 @@ for (const f of files) {
     checked++;
     if (!ttdSlugs.has(m[1])) errors.push(`${rel}: unknown things-to-do article ${m[1]}`);
   }
+  // Any literal /blog/<slug> must be a guide, things-to-do or adventure article.
+  for (const m of t.matchAll(/["'`]\/blog\/([a-z0-9-]+)["'`#?]/g)) {
+    checked++;
+    if (!blogSlugs.has(m[1]) && !ttdSlugs.has(m[1]) && !advSlugs.has(m[1])) errors.push(`${rel}: unknown blog article ${m[1]}`);
+  }
   for (const m of t.matchAll(/["'`]\/packages\/([a-z0-9-]+)["'`#?]/g)) {
     checked++;
     if (!pkgSlugs.has(m[1])) errors.push(`${rel}: unknown package /packages/${m[1]}`);
@@ -94,7 +110,7 @@ for (const f of ["destination-profiles.ts", "travel-styles-data.ts", "combo-pack
   }
 }
 
-console.log(`Checked ${checked} references across ${files.length} files (${blogSlugs.size} guides, ${ttdSlugs.size} things-to-do articles, ${pkgSlugs.size} package pages).`);
+console.log(`Checked ${checked} references across ${files.length} files (${blogSlugs.size} guides, ${ttdSlugs.size} things-to-do articles, ${advSlugs.size} adventure, beach, wildlife, spiritual, heritage and hill-station articles, ${pkgSlugs.size} package pages).`);
 if (errors.length) {
   console.error(`\n${errors.length} broken reference(s):`);
   for (const e of [...new Set(errors)]) console.error("  " + e);

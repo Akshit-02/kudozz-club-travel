@@ -1,0 +1,396 @@
+{
+  "slug": "handicrafts-of-india",
+  "kind": "pillar",
+  "short": "Handicrafts of India",
+  "title": "Handicrafts of India: Crafts, Artisan Villages and Where to Buy",
+  "seoTitle": "Handicrafts of India: Crafts by Region | Kudozz Club",
+  "metaDescription": "India's handicrafts by region, and where to see them made: blue pottery, block printing, Bidriware, dhokra, Pattachitra, Madhubani, Channapatna toys and more.",
+  "description": "A traveller's guide to the handicrafts of India, region by region: Jaipur blue pottery and Sanganer block printing, Kutch embroidery and bandhani, Kashmiri papier-mache, Bidriware, Channapatna toys, dhokra metal casting, Pattachitra at Raghurajpur, Madhubani painting, Bankura terracotta and more, with craft villages to visit, fairs, and how to buy ethically.",
+  "dek": "Indian crafts are made by families and communities who have passed their skills down for generations. Seeing them at work is one of the best parts of a heritage trip.",
+  "primaryKeyword": "handicrafts of India",
+  "secondaryKeywords": [
+    "traditional handicrafts of India",
+    "artisan villages India",
+    "handicraft tourism"
+  ],
+  "searchIntent": "Discovery/experience",
+  "activities": [
+    "crafts",
+    "shopping",
+    "village visits",
+    "workshops"
+  ],
+  "terrain": [
+    "village",
+    "city"
+  ],
+  "regions": [
+    "Rajasthan",
+    "Gujarat",
+    "Odisha",
+    "Bihar",
+    "Karnataka",
+    "Jammu and Kashmir",
+    "West Bengal",
+    "Chhattisgarh",
+    "Uttar Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "shoppers"
+  ],
+  "tags": [
+    "Handicrafts",
+    "Crafts",
+    "Artisans",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/heritage/handicrafts-jaipur-blue-pottery.webp",
+    "alt": "Shelves of Jaipur blue pottery in a craft shop"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Handicrafts of India"
+  },
+  "intro": [
+    "India has an extraordinary range of crafts: pottery, metalwork, painting, woodwork, stone carving, embroidery and more, often tied to a single town or community. Many have a Geographical Indication (GI) tag, which protects the name for products made in that place.",
+    "The best way to understand a craft is to see it being made, in a craft village, a workshop or a fair, and to buy directly from the people who make it. This guide covers crafts by region; textiles have their own guide."
+  ],
+  "quickAnswer": "India's best-known handicrafts include Jaipur blue pottery, block printing at Sanganer and Bagru, Kutch embroidery, Bidriware from Bidar, Channapatna wooden toys, dhokra metal casting from Bastar and Bengal, Pattachitra painting at Raghurajpur in Odisha, Madhubani painting from Bihar, Kashmiri papier-mache, and Bankura's terracotta horses. Craft villages and fairs such as Surajkund are the best places to see them made.",
+  "takeaways": [
+    "Many crafts are tied to one town and protected by GI tags.",
+    "Raghurajpur (Odisha) and the villages around Bhuj (Kutch) are among the best craft villages to visit.",
+    "Craft fairs such as Surajkund near Delhi bring artisans from across India.",
+    "Buying directly from artisans or cooperatives supports them most.",
+    "Textiles, such as silk and handloom saris, are covered in our textile guide."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Crafts by region",
+      "table": {
+        "columns": [
+          "Craft",
+          "Where",
+          "What it is"
+        ],
+        "rows": [
+          [
+            "Blue pottery",
+            "Jaipur, Rajasthan",
+            "Quartz-based glazed pottery in blue and white"
+          ],
+          [
+            "Block printing",
+            "Sanganer and Bagru, Rajasthan; Kutch",
+            "Hand-carved wooden blocks printed on cloth"
+          ],
+          [
+            "Bidriware",
+            "Bidar, Karnataka",
+            "Blackened alloy inlaid with silver"
+          ],
+          [
+            "Channapatna toys",
+            "Karnataka",
+            "Lacquered wooden toys"
+          ],
+          [
+            "Dhokra",
+            "Bastar (Chhattisgarh), Bengal, Odisha",
+            "Lost-wax metal casting"
+          ],
+          [
+            "Pattachitra",
+            "Raghurajpur, Odisha",
+            "Cloth scroll painting"
+          ],
+          [
+            "Madhubani (Mithila) painting",
+            "Bihar",
+            "Line-and-colour painting, once done on walls"
+          ],
+          [
+            "Papier-mache",
+            "Kashmir",
+            "Painted lacquered boxes and objects"
+          ],
+          [
+            "Terracotta",
+            "Bankura, West Bengal",
+            "The Bankura horse"
+          ],
+          [
+            "Stone carving",
+            "Mahabalipuram, Tamil Nadu",
+            "Granite sculpture in the Pallava tradition"
+          ],
+          [
+            "Kondapalli toys",
+            "Andhra Pradesh",
+            "Light softwood toys"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "west",
+      "heading": "Rajasthan and Gujarat",
+      "items": [
+        {
+          "name": "Jaipur and around",
+          "body": [
+            "Blue pottery workshops, block printers at Sanganer and Bagru, and gem cutting and enamelling in the walled city."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Jaipur",
+              "href": "/blog/things-to-do-in-jaipur"
+            }
+          ]
+        },
+        {
+          "name": "Kutch",
+          "body": [
+            "Villages around Bhuj are known for embroidery, bandhani (tie-dye), Ajrakh printing, rogan painting and bell making."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kutch",
+              "href": "/blog/things-to-do-in-kutch"
+            },
+            {
+              "label": "Rann Utsav",
+              "href": "/blog/rann-utsav"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "heading": "East India",
+      "items": [
+        {
+          "name": "Raghurajpur, Odisha",
+          "body": [
+            "A village near Puri where almost every house paints Pattachitra and palm-leaf engravings. It is also known for the Gotipua dance tradition."
+          ],
+          "image": {
+            "src": "/images/blogs/odisha/odisha/pattachitra-paintings-raghurajpur-village.webp",
+            "alt": "Pattachitra paintings on display at Raghurajpur, Odisha",
+            "caption": "Pattachitra at Raghurajpur"
+          }
+        },
+        {
+          "name": "Madhubani, Bihar",
+          "body": [
+            "Mithila painting, traditionally done by women on walls and floors for festivals and weddings."
+          ],
+          "image": {
+            "src": "/images/blogs/bihar/madhubani/madhubani.webp",
+            "alt": "Madhubani, the home of Mithila painting, Bihar",
+            "caption": "Madhubani, Bihar"
+          }
+        },
+        {
+          "name": "Bengal",
+          "body": [
+            "Bankura's terracotta horses, dhokra casting and Bishnupur's crafts, and Kolkata's Kumartuli idol-makers."
+          ],
+          "links": [
+            {
+              "label": "Bishnupur guide",
+              "href": "/blog/bishnupur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south",
+      "heading": "South India",
+      "items": [
+        {
+          "name": "Karnataka and Tamil Nadu",
+          "body": [
+            "Channapatna toys on the Bengaluru to Mysuru road, Bidriware in Bidar, stone carving in Mahabalipuram, bronze casting at Swamimalai near Kumbakonam."
+          ],
+          "links": [
+            {
+              "label": "Mahabalipuram guide",
+              "href": "/blog/mahabalipuram-travel-guide"
+            },
+            {
+              "label": "Deccan sultanate heritage",
+              "href": "/blog/deccan-sultanate-heritage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fairs",
+      "heading": "Craft fairs and markets",
+      "list": [
+        "Surajkund International Crafts Mela, near Delhi, usually in February.",
+        "Dilli Haat in Delhi, with rotating stalls from across India.",
+        "Shilpgram near Udaipur, with a crafts fair around late December.",
+        "State emporia in Delhi's Baba Kharak Singh Marg and in state capitals."
+      ],
+      "items": [
+        {
+          "name": "Surajkund",
+          "body": [
+            "The best-known crafts fair in India."
+          ],
+          "image": {
+            "src": "/images/blogs/haryana/haryana/surajkund-crafts-mela-faridabad.webp",
+            "alt": "Stalls at the Surajkund crafts mela, Faridabad",
+            "caption": "Surajkund crafts mela"
+          }
+        }
+      ]
+    },
+    {
+      "id": "buying",
+      "heading": "Buying ethically",
+      "list": [
+        "Buy from government emporia, cooperatives, certified sellers or artisans directly; look for GI tags, Silk Mark or Handloom Mark where they apply, and be wary of 'factory visits' arranged by touts.",
+        "Ask who made a piece and where; good sellers will tell you.",
+        "Hand-made pieces vary slightly; perfect uniformity often means machine production.",
+        "Bargain politely in markets, but not with artisans at fair-price cooperatives."
+      ]
+    },
+    {
+      "id": "north",
+      "heading": "Kashmir and Uttar Pradesh",
+      "paras": [
+        "Srinagar's old city is known for papier-mache, walnut-wood carving, hand-knotted carpets and crewel embroidery, and you can visit workshops in the lanes around the Jhelum. In Uttar Pradesh, Moradabad is known for brassware, Khurja for pottery, Agra for marble inlay work in the tradition of the Taj Mahal, and Varanasi for wooden toys as well as its silk."
+      ],
+      "items": [
+        {
+          "name": "Srinagar",
+          "body": [
+            "The craft quarters of the old city."
+          ],
+          "links": [
+            {
+              "label": "Srinagar guide",
+              "href": "/blog/srinagar-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "workshops",
+      "heading": "Hands-on workshops",
+      "list": [
+        "Block-printing sessions in and around Jaipur.",
+        "Pottery and blue-pottery classes in Jaipur.",
+        "Pattachitra demonstrations at Raghurajpur.",
+        "Short weaving and embroidery visits in Kutch villages, arranged through local organisations."
+      ]
+    }
+  ],
+  "safety": [
+    "Buy from government emporia, cooperatives, certified sellers or artisans directly; look for GI tags, Silk Mark or Handloom Mark where they apply, and be wary of 'factory visits' arranged by touts.",
+    "Get receipts for expensive items, and ask about shipping and export rules for antiques; objects over 100 years old cannot be exported."
+  ],
+  "packing": [
+    "Space in your luggage",
+    "Bubble wrap or soft clothes for pottery",
+    "A tote bag for markets",
+    "Cash for small artisans"
+  ],
+  "faqs": [
+    {
+      "q": "What are the famous handicrafts of India?",
+      "a": "Blue pottery, block printing, Bidriware, dhokra, Pattachitra, Madhubani painting, Channapatna toys and Kashmiri papier-mache are among the best known."
+    },
+    {
+      "q": "What is a GI tag?",
+      "a": "A Geographical Indication that protects a product's name for goods made in a particular place, such as Channapatna toys."
+    },
+    {
+      "q": "Where can I see craftspeople at work?",
+      "a": "In craft villages such as Raghurajpur and the villages around Bhuj, and at fairs like Surajkund."
+    },
+    {
+      "q": "Which is the best craft fair in India?",
+      "a": "The Surajkund International Crafts Mela near Delhi is the best known."
+    },
+    {
+      "q": "Can I export antiques from India?",
+      "a": "Objects over 100 years old are antiquities and cannot be exported without permission."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Textile heritage of India",
+      "href": "/blog/textile-heritage-of-india"
+    },
+    {
+      "label": "Tribal tourism in India",
+      "href": "/blog/tribal-tourism-in-india"
+    },
+    {
+      "label": "Heritage tourism in Gujarat",
+      "href": "/blog/heritage-tourism-in-gujarat"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Heritage cities in India",
+      "href": "/blog/heritage-cities-in-india",
+      "note": "craft quarters"
+    },
+    {
+      "name": "Best museums in India",
+      "href": "/blog/best-museums-in-india",
+      "note": "craft collections"
+    },
+    {
+      "name": "Cultural festivals in India",
+      "href": "/blog/cultural-festivals-in-india",
+      "note": "fairs and festivals"
+    }
+  ],
+  "places": [
+    "Jaipur",
+    "Sanganer",
+    "Bagru",
+    "Bhuj",
+    "Bidar",
+    "Channapatna",
+    "Raghurajpur",
+    "Madhubani",
+    "Bankura",
+    "Mahabalipuram",
+    "Surajkund"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

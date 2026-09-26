@@ -1,0 +1,283 @@
+{
+  "slug": "wildlife-photography-in-india",
+  "kind": "planning",
+  "short": "Wildlife photography",
+  "title": "Wildlife Photography in India: Where to Go and How to Shoot Responsibly",
+  "seoTitle": "Wildlife Photography in India: Where & How to Shoot | Kudozz Club",
+  "metaDescription": "Wildlife photography in India: the best parks and seasons for photographers, camera and lens choices, settings for safari light, and ethical rules.",
+  "description": "A guide to wildlife photography in India: the parks and seasons that suit photographers, from Ranthambore and Tadoba to Kaziranga, Keoladeo, Jawai and Hemis; lenses, camera settings and support in open jeeps; working with guides; and the ethics and park rules on baiting, flash, drones and distance.",
+  "dek": "India offers some of the world's best big-cat and bird photography. Here is where to go, what to carry and how to shoot responsibly.",
+  "primaryKeyword": "wildlife photography in India",
+  "secondaryKeywords": [
+    "wildlife photography tours India",
+    "best places for wildlife photography",
+    "safari camera settings",
+    "wildlife photography ethics",
+    "bird photography India"
+  ],
+  "searchIntent": "Photography trips and ethics",
+  "activities": [
+    "photography",
+    "jeep safari",
+    "birdwatching"
+  ],
+  "terrain": [
+    "forest",
+    "grassland",
+    "wetland",
+    "mountains"
+  ],
+  "regions": [
+    "Central India",
+    "North India",
+    "North East India",
+    "West India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "photographers"
+  ],
+  "tags": [
+    "Wildlife Photography",
+    "Safari",
+    "Birds",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/wildlife/wildlife-photography-india.webp",
+    "alt": "A tiger drinking at a forest pool, reflected in the water, in Ranthambore National Park"
+  },
+  "parent": {
+    "label": "How to Plan a Wildlife Safari in India",
+    "href": "/blog/how-to-plan-a-wildlife-safari-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Wildlife photography in India"
+  },
+  "intro": [
+    "Photographing wildlife in India usually means shooting from an open jeep on a fixed route, in limited time, often in low morning light. The best images come from spending more drives in fewer places, understanding the light and working well with your guide and driver.",
+    "Photography also comes with responsibilities. Parks have strict rules, and the welfare of the animal always comes before the picture."
+  ],
+  "quickAnswer": "For wildlife photography in India, popular choices are Ranthambore, Tadoba and Bandhavgarh for tigers, Kabini and Jawai for leopards, Kaziranga for rhinos and elephants, Keoladeo and Chilika for birds, and Hemis for snow leopards in winter. A 100 to 400 mm or longer zoom lens, a beanbag for jeep support and fast shutter speeds suit most situations. Never bait, chase or use flash on animals.",
+  "takeaways": [
+    "Book several drives in one park, and a private jeep if you can.",
+    "A 100 to 400 mm zoom or longer covers most safari subjects.",
+    "A beanbag on the jeep rail steadies long lenses.",
+    "March to May gives open forest and animals at water.",
+    "Baiting, chasing, flash and drones are not allowed."
+  ],
+  "sections": [
+    {
+      "id": "where",
+      "heading": "Where to go",
+      "table": {
+        "columns": [
+          "Subject",
+          "Places",
+          "Season"
+        ],
+        "rows": [
+          [
+            "Tigers",
+            "Ranthambore, Tadoba, Bandhavgarh, Corbett",
+            "March to June"
+          ],
+          [
+            "Leopards",
+            "Jawai, Kabini, Jhalana",
+            "October to June"
+          ],
+          [
+            "Rhinos and elephants",
+            "Kaziranga, Kabini",
+            "November to April; March to June for Kabini"
+          ],
+          [
+            "Birds",
+            "Keoladeo, Chilika, Mangalajodi, Thattekad",
+            "November to March"
+          ],
+          [
+            "Snow leopards",
+            "Hemis, Ulley, Kibber",
+            "January to March"
+          ],
+          [
+            "Lions",
+            "Gir",
+            "December to May"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gear",
+      "heading": "Camera gear",
+      "items": [
+        {
+          "name": "Lenses",
+          "body": [
+            "A 100 to 400 mm or 150 to 600 mm zoom is the most flexible choice from a jeep. A wide lens helps for habitat shots and landscapes."
+          ]
+        },
+        {
+          "name": "Support",
+          "body": [
+            "A beanbag on the jeep's rail or door is more practical than a tripod, which is often impractical in shared vehicles."
+          ]
+        },
+        {
+          "name": "Extras",
+          "body": [
+            "Spare batteries and cards, a rain cover, a dust blower and a cloth for dusty tracks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "settings",
+      "heading": "Settings and technique",
+      "list": [
+        "Use a fast shutter speed (1/1000 s or faster) for moving animals and birds in flight.",
+        "Raise ISO in the dim first hour rather than losing sharpness.",
+        "Focus on the eye; use continuous autofocus.",
+        "Ask the driver to switch off the engine to cut vibration.",
+        "Include habitat in some frames; context tells a story."
+      ]
+    },
+    {
+      "id": "ethics",
+      "heading": "Ethics and park rules",
+      "list": [
+        "Never bait animals or play calls to attract them.",
+        "Do not ask drivers to leave the route or chase animals.",
+        "Keep noise down and give animals space, especially mothers with young.",
+        "No flash on animals, and no drones without permission.",
+        "Share locations of sensitive species, such as nesting birds, with care."
+      ],
+      "after": [
+        "See responsible wildlife tourism in India for more on safari etiquette."
+      ]
+    },
+    {
+      "id": "guides",
+      "heading": "Working with guides",
+      "paras": [
+        "Guides and drivers read alarm calls and pugmarks and know animals' movements. Tell them you are photographing, ask about light direction at each stop, and be patient: waiting quietly at a waterhole often pays off more than driving around."
+      ]
+    },
+    {
+      "id": "light",
+      "heading": "Working with Indian light",
+      "paras": [
+        "The best light is in the first and last hour of each drive, which is when animals are also most active. Morning drives often start in dim light under the canopy, so a lens with a wide aperture and a camera that handles high ISO help.",
+        "By mid-morning in summer, light becomes harsh and hazy. Use it for close portraits in shade, or put the camera down and watch. Dust hanging in the air on dry tracks can add atmosphere to backlit shots at sunset."
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning a photography trip",
+      "list": [
+        "Book a private jeep so you can wait at a sighting.",
+        "Choose four to six drives in one park rather than a few in many.",
+        "Visit in March to May for open forest, or November to February for birds.",
+        "Tell your lodge in advance that you are photographing; many assign experienced naturalists."
+      ]
+    }
+  ],
+  "safety": [
+    "Keep hands and lenses inside the vehicle when animals are close.",
+    "Stay seated; standing up can startle animals.",
+    "No operator can promise a sighting; be wary of anyone who does.",
+    "Protect gear from dust and heat."
+  ],
+  "packing": [
+    "Zoom lens and wide lens",
+    "Beanbag",
+    "Spare batteries and cards",
+    "Rain cover and dust blower",
+    "Neutral clothes"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best park for wildlife photography in India?",
+      "a": "Ranthambore, Tadoba and Bandhavgarh are popular for tigers; Keoladeo for birds; Kabini and Jawai for leopards."
+    },
+    {
+      "q": "What lens do I need for a safari in India?",
+      "a": "A 100 to 400 mm zoom or longer suits most situations from a jeep."
+    },
+    {
+      "q": "Can I use a tripod on safari?",
+      "a": "Usually a beanbag is more practical in an open jeep."
+    },
+    {
+      "q": "Is flash photography allowed?",
+      "a": "Flash on animals should be avoided and is prohibited in many parks."
+    },
+    {
+      "q": "Do I need a special permit for photography?",
+      "a": "Some parks charge camera fees for professional equipment; check the current rules."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Tiger safari in India",
+      "href": "/blog/tiger-safari-in-india"
+    },
+    {
+      "label": "Birdwatching in India",
+      "href": "/blog/birdwatching-in-india"
+    },
+    {
+      "label": "Wildlife safari packing list",
+      "href": "/blog/wildlife-safari-packing-list"
+    },
+    {
+      "label": "Wildlife trips",
+      "href": "/packages/wildlife-tours"
+    },
+    {
+      "label": "Best wildlife destinations",
+      "href": "/blog/best-wildlife-destinations-in-india"
+    }
+  ],
+  "related": [
+    {
+      "name": "Leopard safari in India",
+      "href": "/blog/leopard-safari-in-india",
+      "note": "Jawai and Kabini"
+    },
+    {
+      "name": "Snow leopard tours",
+      "href": "/blog/snow-leopard-tours-in-india",
+      "note": "winter in Ladakh"
+    },
+    {
+      "name": "Responsible wildlife tourism",
+      "href": "/blog/responsible-wildlife-tourism-in-india",
+      "note": "ethics"
+    }
+  ],
+  "places": [
+    "Ranthambore",
+    "Tadoba",
+    "Bandhavgarh",
+    "Kabini",
+    "Jawai",
+    "Kaziranga",
+    "Keoladeo",
+    "Hemis",
+    "Gir"
+  ],
+  "styles": [
+    "wildlife-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-25"
+}

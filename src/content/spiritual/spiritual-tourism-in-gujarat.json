@@ -1,0 +1,405 @@
+{
+ "slug": "spiritual-tourism-in-gujarat",
+ "kind": "state",
+ "short": "Spiritual Gujarat",
+ "title": "Spiritual Tourism in Gujarat: Somnath, Dwarka, Ambaji and Jain Tirthas",
+ "seoTitle": "Spiritual Places in Gujarat: Somnath, Dwarka & More | Kudozz Club",
+ "metaDescription": "Plan a spiritual trip in Gujarat: Somnath, Dwarka and Nageshwar, Ambaji and Pavagadh, Dakor, Palitana and Girnar, with a Saurashtra temple route and seasons.",
+ "description": "A guide to spiritual tourism in Gujarat: the Jyotirlingas of Somnath and Nageshwar, Dwarkadhish and Bet Dwarka, the Shakti shrines of Ambaji and Pavagadh, Dakor and Akshardham, the Jain hills of Palitana and Girnar, Sabarmati Ashram, festivals such as Navratri, a Saurashtra temple route and seasons.",
+ "dek": "Gujarat combines two Jyotirlingas, one of the four dhams, major Shakti shrines and the holiest Jain hills.",
+ "primaryKeyword": "spiritual places in Gujarat",
+ "secondaryKeywords": [
+  "religious places in Gujarat",
+  "temples in Gujarat",
+  "pilgrimage places in Gujarat"
+ ],
+ "searchIntent": "State discovery/planning",
+ "activities": [
+  "pilgrimage",
+  "temple visit",
+  "Jyotirlinga",
+  "Jain temples"
+ ],
+ "terrain": [
+  "coast",
+  "hills",
+  "temple town"
+ ],
+ "regions": [
+  "Gujarat",
+  "West India"
+ ],
+ "seasons": [
+  "winter",
+  "spring"
+ ],
+ "travellers": [
+  "families",
+  "senior travellers",
+  "groups"
+ ],
+ "tags": [
+  "Gujarat",
+  "Somnath",
+  "Dwarka",
+  "Palitana"
+ ],
+ "hero": {
+  "src": "/images/spiritual/spiritual-gujarat-ambaji.webp",
+  "alt": "Gabbar hill at Ambaji with its ropeway and a carved gateway, Gujarat"
+ },
+ "parent": {
+  "label": "Spiritual Tourism",
+  "href": "/spiritual-tourism"
+ },
+ "about": {
+  "type": "TouristDestination",
+  "name": "Spiritual Gujarat",
+  "containedIn": "Gujarat"
+ },
+ "intro": [
+  "Gujarat's Saurashtra coast holds Somnath, the first of the twelve Jyotirlingas, and Dwarka, one of the four dhams and the city of Krishna, with the Nageshwar Jyotirlinga nearby. Inland are two of Gujarat's most visited Devi shrines, Ambaji and Pavagadh, and the Krishna temple at Dakor.",
+  "The state is also central to Jainism, with the temple hills of Shatrunjaya at Palitana and Girnar above Junagadh. Most sites are linked by good roads, making a temple road trip easy to plan."
+ ],
+ "quickAnswer": "Gujarat's main spiritual destinations are Somnath and Nageshwar (Jyotirlingas), Dwarkadhish Temple and Bet Dwarka, the Devi shrines of Ambaji and Pavagadh, Dakor, and the Jain hills of Palitana and Girnar. A Saurashtra temple route from Ahmedabad covering Dwarka, Somnath, Junagadh and Palitana takes about seven to eight days. October to March is the best time.",
+ "takeaways": [
+  "Somnath and Nageshwar are Jyotirlingas; Dwarka is one of the four dhams.",
+  "Ambaji and Pavagadh are major Devi shrines, both with ropeways.",
+  "Palitana and Girnar are among the most important Jain tirthas.",
+  "A Saurashtra temple route takes about a week by road.",
+  "Navratri, celebrated with garba across the state, is the biggest festival."
+ ],
+ "sections": [
+  {
+   "id": "places",
+   "heading": "Main spiritual places",
+   "table": {
+    "columns": [
+     "Place",
+     "Tradition",
+     "Known for",
+     "Our guide"
+    ],
+    "rows": [
+     [
+      "Somnath",
+      "Hindu",
+      "First Jyotirlinga, on the sea",
+      "Somnath guide"
+     ],
+     [
+      "Dwarka and Bet Dwarka",
+      "Hindu",
+      "Dwarkadhish, one of the four dhams",
+      "Dwarka guide"
+     ],
+     [
+      "Nageshwar",
+      "Hindu",
+      "Jyotirlinga near Dwarka",
+      "Nageshwar Jyotirlinga"
+     ],
+     [
+      "Ambaji",
+      "Hindu",
+      "Devi shrine; Gabbar hill",
+      "Covered here"
+     ],
+     [
+      "Pavagadh",
+      "Hindu",
+      "Kalika Mata temple above Champaner (UNESCO)",
+      "Covered here"
+     ],
+     [
+      "Dakor",
+      "Hindu",
+      "Ranchhodraiji (Krishna) temple",
+      "Covered here"
+     ],
+     [
+      "Palitana",
+      "Jain",
+      "Temple hill of Shatrunjaya",
+      "Palitana guide"
+     ],
+     [
+      "Girnar",
+      "Jain and Hindu",
+      "Hilltop temples above Junagadh",
+      "Junagadh and Girnar guide"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "highlights",
+   "heading": "Highlights",
+   "items": [
+    {
+     "name": "Somnath",
+     "body": [
+      "The temple on the Arabian Sea at Prabhas Patan, with an evening light and sound show."
+     ],
+     "links": [
+      {
+       "label": "Somnath guide",
+       "href": "/blog/somnath-travel-guide"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/gujarat/gujarat/somnath-temple-arabian-sea-coast.webp",
+      "alt": "Somnath temple on the Arabian Sea coast, Gujarat",
+      "caption": "Somnath"
+     }
+    },
+    {
+     "name": "Dwarka",
+     "body": [
+      "Dwarkadhish Temple above the Gomti Ghat, Bet Dwarka across the Sudarshan Setu, and Nageshwar."
+     ],
+     "links": [
+      {
+       "label": "Dwarka guide",
+       "href": "/blog/dwarka-travel-guide"
+      },
+      {
+       "label": "Nageshwar Jyotirlinga",
+       "href": "/blog/nageshwar-jyotirlinga"
+      }
+     ]
+    },
+    {
+     "name": "Ambaji and Pavagadh",
+     "body": [
+      "Ambaji, near the Rajasthan border, and the Kalika Mata temple on Pavagadh hill near Vadodara; both have ropeways."
+     ],
+     "links": [
+      {
+       "label": "Things to do in Vadodara",
+       "href": "/blog/things-to-do-in-vadodara"
+      }
+     ]
+    },
+    {
+     "name": "Palitana and Girnar",
+     "body": [
+      "The Jain temple cities on Shatrunjaya and Girnar hills."
+     ],
+     "links": [
+      {
+       "label": "Palitana guide",
+       "href": "/blog/palitana-travel-guide"
+      },
+      {
+       "label": "Junagadh and Girnar guide",
+       "href": "/blog/junagadh-girnar-travel-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "more",
+   "heading": "More to see",
+   "list": [
+    "Akshardham in Gandhinagar, a large Swaminarayan temple complex.",
+    "Sabarmati Ashram in Ahmedabad, Gandhi's home from 1917 to 1930.",
+    "The Modhera Sun Temple, an 11th-century monument.",
+    "Bahucharaji, a Devi shrine in Mehsana district."
+   ],
+   "items": [
+    {
+     "name": "Ahmedabad",
+     "body": [
+      "Heritage walks and Sabarmati Ashram."
+     ],
+     "links": [
+      {
+       "label": "Things to do in Ahmedabad",
+       "href": "/blog/things-to-do-in-ahmedabad"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "route",
+   "heading": "A Saurashtra temple route",
+   "table": {
+    "columns": [
+     "Day",
+     "Plan"
+    ],
+    "rows": [
+     [
+      "1",
+      "Ahmedabad; Sabarmati Ashram"
+     ],
+     [
+      "2",
+      "Drive to Dwarka (about 440 km) or break the journey at Rajkot"
+     ],
+     [
+      "3",
+      "Dwarkadhish, Nageshwar and Bet Dwarka"
+     ],
+     [
+      "4",
+      "Along the coast via Porbandar to Somnath"
+     ],
+     [
+      "5",
+      "Somnath; evening aarti and show"
+     ],
+     [
+      "6",
+      "Junagadh and Girnar"
+     ],
+     [
+      "7",
+      "Palitana climb"
+     ],
+     [
+      "8",
+      "Return to Ahmedabad"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "stays",
+   "heading": "Where to stay",
+   "list": [
+    "Dwarka and Somnath: hotels, temple-trust guesthouses and dharamshalas close to the temples.",
+    "Palitana: dharamshalas run by Jain trusts and simple hotels near the foot of the hill.",
+    "Junagadh: hotels in the old city for Girnar.",
+    "Ahmedabad: the widest choice, and a good base for Dakor, Ambaji and Pavagadh."
+   ]
+  },
+  {
+   "id": "tips",
+   "heading": "Tips",
+   "list": [
+    "Start early each day; Saurashtra afternoons are hot for much of the year.",
+    "Dress codes are relaxed at most temples, but modest clothing is expected.",
+    "Book trains to Dwarka and Somnath early for Diwali and Janmashtami.",
+    "Gujarat is a dry state; alcohol is not served in most hotels."
+   ]
+  },
+  {
+   "id": "when",
+   "heading": "When to go",
+   "list": [
+    "October to March: pleasant weather for temple visits and climbs.",
+    "Navratri (September or October): garba across the state and crowds at Ambaji and Pavagadh.",
+    "Janmashtami: large celebrations at Dwarka and Dakor.",
+    "April to June: very hot in Saurashtra; climb Palitana and Girnar at dawn."
+   ]
+  }
+ ],
+ "safety": [
+  "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+  "Dress modestly and follow each place of worship's rules on dress, phones and photography.",
+  "Start the Palitana and Girnar climbs early and carry water.",
+  "Check ropeway status before planning Ambaji, Pavagadh and Girnar visits."
+ ],
+ "packing": [
+  "Light cotton clothing",
+  "Hat and sunscreen",
+  "Non-leather items for Jain temples",
+  "Slip-on footwear"
+ ],
+ "faqs": [
+  {
+   "q": "Which Jyotirlingas are in Gujarat?",
+   "a": "Somnath and Nageshwar (near Dwarka)."
+  },
+  {
+   "q": "How many days are needed for a Gujarat temple tour?",
+   "a": "About seven to eight days for Dwarka, Somnath, Junagadh and Palitana."
+  },
+  {
+   "q": "Is Ambaji a Shakti Peetha?",
+   "a": "Ambaji is widely revered as a Shakti Peetha, though counts and lists differ between traditions."
+  },
+  {
+   "q": "What is the best time to visit Gujarat's temples?",
+   "a": "October to March."
+  },
+  {
+   "q": "Where can I see Navratri garba in Gujarat?",
+   "a": "Across the state, with large public events in Ahmedabad and Vadodara; Ambaji and Pavagadh draw big crowds of pilgrims."
+  },
+  {
+   "q": "How do I get to Palitana?",
+   "a": "By road from Bhavnagar (about 50 km) or Ahmedabad (about 215 km)."
+  },
+  {
+   "q": "Can I combine a Gir safari with Somnath?",
+   "a": "Yes. Sasan Gir is about 45 km from Somnath."
+  }
+ ],
+ "nextSteps": [
+  {
+   "label": "Somnath guide",
+   "href": "/blog/somnath-travel-guide"
+  },
+  {
+   "label": "Dwarka guide",
+   "href": "/blog/dwarka-travel-guide"
+  },
+  {
+   "label": "Gujarat travel guide",
+   "href": "/blog/gujarat-travel-guide"
+  },
+  {
+   "label": "Gujarat tour packages",
+   "href": "/packages/gujarat"
+  },
+  {
+   "label": "Spiritual tour packages",
+   "href": "/packages/spiritual-tours"
+  }
+ ],
+ "related": [
+  {
+   "name": "The 12 Jyotirlingas",
+   "href": "/blog/12-jyotirlingas-in-india",
+   "note": "Somnath and Nageshwar"
+  },
+  {
+   "name": "Jain pilgrimage in India",
+   "href": "/blog/jain-pilgrimage-in-india",
+   "note": "Palitana and Girnar"
+  },
+  {
+   "name": "The Char Dham of India",
+   "href": "/blog/char-dham-of-india",
+   "note": "Dwarka and the four dhams"
+  },
+  {
+   "name": "Heritage tourism in Gujarat",
+   "href": "/blog/heritage-tourism-in-gujarat",
+   "note": "forts, monuments and crafts"
+  }
+ ],
+ "places": [
+  "Somnath",
+  "Dwarka",
+  "Bet Dwarka",
+  "Nageshwar",
+  "Ambaji",
+  "Pavagadh",
+  "Dakor",
+  "Palitana",
+  "Girnar",
+  "Ahmedabad"
+ ],
+ "styles": [
+  "spiritual-tours",
+  "family-holidays"
+ ],
+ "planDestination": "Gujarat",
+ "updated": "2026-09-26"
+}

@@ -1,0 +1,408 @@
+{
+  "slug": "birdwatching-in-india",
+  "kind": "pillar",
+  "short": "Birdwatching in India",
+  "title": "Birdwatching in India: Best Destinations and Seasons for Birding",
+  "seoTitle": "Birdwatching in India: Best Birding Places & Seasons | Kudozz Club",
+  "metaDescription": "Where and when to go birding in India: Keoladeo, Chilika and Mangalajodi, the Rann, Sultanpur, Eaglenest, Thattekad, Pangot and more, with seasons and tips.",
+  "description": "A guide to birdwatching in India: winter wetlands such as Keoladeo, Chilika, Mangalajodi, Sultanpur and the Rann of Kutch; Himalayan birding at Pangot, Sattal and Eaglenest; Western Ghats endemics at Thattekad and Valparai; desert birds in Rajasthan; seasons, tips, ethics and how to plan a birding trip.",
+  "dek": "India has more than 1,300 bird species, from Himalayan pheasants to Western Ghats endemics and huge flocks of winter visitors. Here is where and when to go.",
+  "primaryKeyword": "birdwatching in India",
+  "secondaryKeywords": [
+    "best birdwatching places in India",
+    "bird sanctuaries India",
+    "migratory birds India",
+    "winter birdwatching",
+    "bird photography India",
+    "birding tours India"
+  ],
+  "searchIntent": "Plan birdwatching trips",
+  "activities": [
+    "birdwatching",
+    "walking safari",
+    "boat safari"
+  ],
+  "terrain": [
+    "wetland",
+    "forest",
+    "mountains",
+    "desert"
+  ],
+  "regions": [
+    "North India",
+    "North East India",
+    "South India",
+    "West India",
+    "East India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "photographers",
+    "couples",
+    "families"
+  ],
+  "tags": [
+    "Birdwatching",
+    "Birding",
+    "Wetlands",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/wildlife/birdwatching-keoladeo.webp",
+    "alt": "A white-throated kingfisher perched on a branch in Keoladeo National Park, Bharatpur"
+  },
+  "parent": {
+    "label": "Wildlife Tourism",
+    "href": "/wildlife-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Birdwatching in India"
+  },
+  "intro": [
+    "India's bird list runs to more than 1,300 species. The mix changes sharply with landscape: pheasants and laughingthrushes in the Himalaya, hornbills and endemics in the Western Ghats and the north-east, bustards and sandgrouse in the western deserts, and vast numbers of ducks, waders, cranes and flamingos on wetlands each winter.",
+    "Winter, roughly November to February, is the main season, when migrants from Central Asia, Siberia and the Himalaya arrive. Spring is good in the hills, when resident birds breed and sing. This guide lists the leading birding destinations by region."
+  ],
+  "quickAnswer": "The best-known birding destinations in India include Keoladeo National Park (Bharatpur) and Sultanpur for winter waterbirds; Chilika lake and Mangalajodi in Odisha; the Rann of Kutch for flamingos and cranes; Pangot and Sattal in Uttarakhand and Eaglenest in Arunachal for Himalayan birds; and Thattekad in Kerala for Western Ghats species. November to February is the main season for wetlands; March to May suits the hills.",
+  "takeaways": [
+    "India has more than 1,300 bird species.",
+    "November to February is the peak for wetlands and migrant birds.",
+    "Keoladeo, a UNESCO site, is explored on foot, by bicycle or cycle-rickshaw.",
+    "Mangalajodi on Chilika is a community-run birding site, where former hunters now guide visitors.",
+    "March to May is good for Himalayan birding at Pangot, Sattal and Eaglenest."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Leading birding destinations",
+      "table": {
+        "columns": [
+          "Place",
+          "State",
+          "Known for",
+          "Best months"
+        ],
+        "rows": [
+          [
+            "Keoladeo National Park",
+            "Rajasthan",
+            "Wintering waterbirds, raptors",
+            "November to February"
+          ],
+          [
+            "Sultanpur National Park",
+            "Haryana",
+            "Winter waterbirds near Delhi",
+            "November to March"
+          ],
+          [
+            "Chilika and Mangalajodi",
+            "Odisha",
+            "Ducks, waders, flamingos",
+            "December to February"
+          ],
+          [
+            "Little and Great Rann of Kutch",
+            "Gujarat",
+            "Flamingos, cranes, larks, raptors",
+            "November to March"
+          ],
+          [
+            "Khichan",
+            "Rajasthan",
+            "Demoiselle cranes in the village",
+            "September to March"
+          ],
+          [
+            "Desert National Park",
+            "Rajasthan",
+            "Great Indian bustard, sandgrouse",
+            "October to March"
+          ],
+          [
+            "Pangot and Sattal",
+            "Uttarakhand",
+            "Himalayan birds",
+            "October to May"
+          ],
+          [
+            "Eaglenest Wildlife Sanctuary",
+            "Arunachal Pradesh",
+            "Bugun liocichla, pheasants",
+            "March to May"
+          ],
+          [
+            "Thattekad Bird Sanctuary",
+            "Kerala",
+            "Western Ghats endemics",
+            "November to April"
+          ],
+          [
+            "Valparai",
+            "Tamil Nadu",
+            "Great hornbills, endemics",
+            "Most of the year, outside heavy monsoon"
+          ]
+        ],
+        "caption": "Seasons vary with the weather and water levels; check before you go."
+      }
+    },
+    {
+      "id": "wetlands",
+      "heading": "Winter wetlands",
+      "items": [
+        {
+          "name": "Keoladeo, Bharatpur",
+          "body": [
+            "A UNESCO World Heritage Site where painted storks nest in the monsoon and ducks, geese and raptors arrive in winter. Paths are explored on foot, by bicycle or by cycle-rickshaw with trained pullers."
+          ],
+          "facts": {
+            "From Delhi": "About four hours"
+          },
+          "links": [
+            {
+              "label": "Bharatpur guide",
+              "href": "/blog/bharatpur-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Chilika and Mangalajodi",
+          "body": [
+            "Asia's largest brackish-water lagoon, with Nalabana Bird Sanctuary at its centre. Mangalajodi, on its northern edge, is explored by small boats run by the local community."
+          ],
+          "links": [
+            {
+              "label": "Chilika Lake guide",
+              "href": "/blog/chilika-lake-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/odisha/chilika-lake/nalabana-bird-sanctuary-chilika-lake.webp",
+            "alt": "Birds over the waters of Nalabana Bird Sanctuary on Chilika Lake",
+            "caption": "Nalabana, Chilika Lake, Odisha"
+          }
+        },
+        {
+          "name": "Sultanpur",
+          "body": [
+            "A small national park in Haryana, an easy morning trip from Delhi or Gurugram."
+          ],
+          "links": [
+            {
+              "label": "Sultanpur guide",
+              "href": "/blog/sultanpur-national-park-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "The Rann of Kutch",
+          "body": [
+            "Flamingos breed in the Great Rann in good years; the Little Rann has cranes, larks and birds of prey in winter."
+          ],
+          "links": [
+            {
+              "label": "Rann of Kutch guide",
+              "href": "/blog/rann-of-kutch-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hills",
+      "heading": "Himalayan and north-eastern birding",
+      "items": [
+        {
+          "name": "Pangot and Sattal",
+          "body": [
+            "Oak forest and lakes near Nainital, with laughingthrushes, woodpeckers, forktails and cheer pheasant on steep slopes."
+          ],
+          "links": [
+            {
+              "label": "Nainital guide",
+              "href": "/blog/nainital-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Eaglenest",
+          "body": [
+            "A sanctuary in western Arunachal Pradesh, famous for the Bugun liocichla, described in 2006, and for its range of altitudes."
+          ],
+          "facts": {
+            "Permits": "Inner Line Permit required"
+          }
+        },
+        {
+          "name": "Kaziranga, Nameri and Manas",
+          "body": [
+            "Grassland and forest birds, including Bengal florican and hornbills, alongside the big mammals."
+          ],
+          "links": [
+            {
+              "label": "Nameri guide",
+              "href": "/blog/nameri-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south",
+      "heading": "Western Ghats and the south",
+      "items": [
+        {
+          "name": "Thattekad",
+          "body": [
+            "Also called the Salim Ali Bird Sanctuary, with Sri Lanka frogmouth, Malabar trogon and many endemics."
+          ],
+          "facts": {
+            "State": "Kerala"
+          }
+        },
+        {
+          "name": "Valparai",
+          "body": [
+            "Rainforest fragments in the Anamalai hills, with great hornbills and lion-tailed macaques."
+          ],
+          "links": [
+            {
+              "label": "Valparai guide",
+              "href": "/blog/valparai-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kumarakom and the backwaters",
+          "body": [
+            "A bird sanctuary on Vembanad lake, with herons, cormorants and kingfishers."
+          ],
+          "image": {
+            "src": "/images/blogs/kerala/kumarakom/kumarakom-bird-sanctuary-2.webp",
+            "alt": "Waterbirds among trees at Kumarakom Bird Sanctuary on Vembanad lake",
+            "caption": "Kumarakom Bird Sanctuary, Kerala"
+          }
+        },
+        {
+          "name": "Ranganathittu and Vedanthangal",
+          "body": [
+            "Nesting colonies of storks, ibises and pelicans near Mysuru and Chennai."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for birding in India",
+      "list": [
+        "Go out at dawn; the first two or three hours are the most active.",
+        "Hire local bird guides; they know calls, nests and seasonal spots.",
+        "Carry a field guide or a birding app, and binoculars for each person.",
+        "Keep your distance from nests and roosts, and never use playback near breeding birds.",
+        "Log your sightings on eBird to help citizen science."
+      ]
+    }
+  ],
+  "safety": [
+    "Keep a safe distance from wild mammals in parks that also have tigers or elephants.",
+    "Carry water and sun protection on open wetlands.",
+    "Get the required permits, including Inner Line Permits in Arunachal.",
+    "Wear neutral colours and move quietly."
+  ],
+  "packing": [
+    "Binoculars (8x42 or 10x42 suits most birding)",
+    "A field guide or app",
+    "Neutral clothes",
+    "A hat, sunscreen and water",
+    "A notebook or phone for logging"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best place for birdwatching in India?",
+      "a": "Keoladeo in Bharatpur is the best known; Chilika, the Rann of Kutch, Eaglenest and Thattekad are also excellent, depending on season."
+    },
+    {
+      "q": "When is the best time for birdwatching in India?",
+      "a": "November to February for wetlands and migrants; March to May for Himalayan birds."
+    },
+    {
+      "q": "How many bird species are there in India?",
+      "a": "More than 1,300."
+    },
+    {
+      "q": "Where can I go birding near Delhi?",
+      "a": "Sultanpur National Park near Gurugram, Keoladeo in Bharatpur, and the Okhla Bird Sanctuary."
+    },
+    {
+      "q": "Do I need a guide for birding?",
+      "a": "Not always, but a local bird guide greatly improves what you see and helps with identification, especially in forests and the hills."
+    },
+    {
+      "q": "Is Bharatpur a bird sanctuary?",
+      "a": "It was once; Keoladeo is now a national park and a UNESCO World Heritage Site."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Bharatpur guide",
+      "href": "/blog/bharatpur-travel-guide"
+    },
+    {
+      "label": "Best wildlife sanctuaries",
+      "href": "/blog/best-wildlife-sanctuaries-in-india"
+    },
+    {
+      "label": "Best time for wildlife safari",
+      "href": "/blog/best-time-for-wildlife-safari-in-india"
+    },
+    {
+      "label": "How to plan a wildlife safari",
+      "href": "/blog/how-to-plan-a-wildlife-safari-in-india"
+    },
+    {
+      "label": "Wildlife trips",
+      "href": "/packages/wildlife-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Wildlife tourism in Odisha",
+      "href": "/blog/wildlife-tourism-in-odisha",
+      "note": "Chilika and Bhitarkanika"
+    },
+    {
+      "name": "Wildlife tourism in Gujarat",
+      "href": "/blog/wildlife-tourism-in-gujarat",
+      "note": "the Rann and Nal Sarovar"
+    },
+    {
+      "name": "Wildlife photography in India",
+      "href": "/blog/wildlife-photography-in-india",
+      "note": "photographing birds"
+    }
+  ],
+  "places": [
+    "Keoladeo",
+    "Sultanpur",
+    "Chilika",
+    "Mangalajodi",
+    "Rann of Kutch",
+    "Khichan",
+    "Desert National Park",
+    "Pangot",
+    "Sattal",
+    "Eaglenest",
+    "Thattekad",
+    "Valparai",
+    "Kumarakom"
+  ],
+  "styles": [
+    "wildlife-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-25"
+}

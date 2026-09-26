@@ -1,0 +1,468 @@
+{
+  "slug": "heritage-cities-in-india",
+  "kind": "pillar",
+  "short": "Heritage cities in India",
+  "title": "Heritage Cities in India: Old Cities Worth Exploring",
+  "seoTitle": "Heritage Cities in India: Old Cities Worth Exploring | Kudozz Club",
+  "metaDescription": "India's great heritage cities: Ahmedabad and Jaipur (UNESCO), Varanasi, Old Delhi, Lucknow, Hyderabad, Kolkata, Udaipur, Jodhpur, Jaisalmer, Kochi, Madurai and more.",
+  "description": "A guide to India's heritage cities, where old quarters, markets, crafts and food are part of daily life: Ahmedabad and Jaipur (the two UNESCO World Heritage Cities), Varanasi, Old Delhi, Lucknow, Hyderabad, Kolkata, Udaipur, Jodhpur, Jaisalmer, Kochi, Madurai, Puducherry, Mysuru, Amritsar and smaller towns such as Orchha and Bundi, with how to explore them.",
+  "dek": "In India's old cities, heritage is not behind a ticket counter. It is in the lanes, markets, homes and kitchens. These are the cities that reward slow exploring.",
+  "primaryKeyword": "heritage cities in India",
+  "secondaryKeywords": [
+    "historic cities India",
+    "UNESCO heritage cities India",
+    "cultural cities India"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "heritage walks",
+    "markets",
+    "food",
+    "architecture"
+  ],
+  "terrain": [
+    "city",
+    "heritage town"
+  ],
+  "regions": [
+    "Gujarat",
+    "Rajasthan",
+    "Uttar Pradesh",
+    "Delhi",
+    "Telangana",
+    "West Bengal",
+    "Kerala",
+    "Tamil Nadu",
+    "Punjab"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "photographers",
+    "food lovers"
+  ],
+  "tags": [
+    "Heritage Cities",
+    "Old City",
+    "Ahmedabad",
+    "Jaipur",
+    "Varanasi"
+  ],
+  "hero": {
+    "src": "/images/heritage/heritage-cities-ahmedabad-pol.webp",
+    "alt": "A lane of carved wooden houses in Desai ni Pol, old Ahmedabad"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Heritage cities of India"
+  },
+  "intro": [
+    "India's heritage cities are living places. Their old quarters were laid out centuries ago and are still full of homes, workshops, temples, mosques and markets. Two, Ahmedabad (2017) and Jaipur (2019), are inscribed as UNESCO World Heritage Cities; many others have historic cores just as rich.",
+    "This guide picks the cities where the old town itself is the attraction, and suggests how to explore each. For the major monuments in these cities, see our monument and state guides."
+  ],
+  "quickAnswer": "India's best heritage cities include Ahmedabad and Jaipur, both UNESCO World Heritage Cities, and Varanasi, Old Delhi, Lucknow, Hyderabad, Kolkata, Udaipur, Jodhpur, Jaisalmer, Kochi, Madurai, Puducherry, Mysuru and Amritsar. Smaller towns such as Orchha, Bundi and Chettinad are rewarding too. Explore them on a morning heritage walk, then return for food and markets in the evening.",
+  "takeaways": [
+    "Ahmedabad and Jaipur are India's two UNESCO World Heritage Cities.",
+    "Morning walks are the best way into any old city, before traffic and heat build up.",
+    "Each city's crafts and food are as much a part of its heritage as its buildings.",
+    "Smaller towns such as Orchha, Bundi and Chettinad are quieter alternatives.",
+    "Dress modestly and ask before photographing people in residential lanes."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Heritage cities at a glance",
+      "table": {
+        "columns": [
+          "City",
+          "Known for",
+          "Our guide"
+        ],
+        "rows": [
+          [
+            "Ahmedabad",
+            "Pols (gated neighbourhoods), stepwells, Indo-Islamic mosques (UNESCO city)",
+            "Ahmedabad"
+          ],
+          [
+            "Jaipur",
+            "Planned 18th-century walled city, bazaars, City Palace (UNESCO city)",
+            "Jaipur"
+          ],
+          [
+            "Varanasi",
+            "Ghats, lanes and temples on the Ganga",
+            "Varanasi"
+          ],
+          [
+            "Old Delhi",
+            "Shahjahanabad: Chandni Chowk, Jama Masjid, havelis",
+            "Old Delhi"
+          ],
+          [
+            "Lucknow",
+            "Nawabi imambaras, chikankari, kebabs",
+            "Lucknow"
+          ],
+          [
+            "Hyderabad",
+            "Charminar, Laad Bazaar, Qutb Shahi and Nizam heritage",
+            "Hyderabad"
+          ],
+          [
+            "Kolkata",
+            "Colonial and Bengali architecture, North Kolkata's old mansions",
+            "Kolkata"
+          ],
+          [
+            "Udaipur and Jodhpur",
+            "Lake palaces; the blue old city below Mehrangarh",
+            "Udaipur, Jodhpur"
+          ],
+          [
+            "Kochi",
+            "Fort Kochi and Mattancherry: layers of Kerala, Jewish, Portuguese and Dutch heritage",
+            "Kochi"
+          ],
+          [
+            "Madurai",
+            "A temple city built around the Meenakshi Amman temple",
+            "Madurai"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "unesco-cities",
+      "heading": "The two UNESCO World Heritage Cities",
+      "items": [
+        {
+          "name": "Ahmedabad",
+          "body": [
+            "Founded by Sultan Ahmad Shah in 1411. Its walled city is made of pols, gated neighbourhoods of carved wooden houses, alongside fine mosques such as the Sidi Saiyyed Mosque with its stone lattice windows."
+          ],
+          "links": [
+            {
+              "label": "Ahmedabad guide",
+              "href": "/blog/ahmedabad-travel-guide"
+            },
+            {
+              "label": "Things to do in Ahmedabad",
+              "href": "/blog/things-to-do-in-ahmedabad"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/ahmedabad/sidi-saiyyed-mosque-ahmedabad-2.webp",
+            "alt": "The Sidi Saiyyed Mosque, Ahmedabad",
+            "caption": "Sidi Saiyyed Mosque, Ahmedabad"
+          }
+        },
+        {
+          "name": "Jaipur",
+          "body": [
+            "Founded in 1727 by Sawai Jai Singh II and laid out on a grid, with bazaars planned by trade. The Hawa Mahal, City Palace and Jantar Mantar stand in the walled city."
+          ],
+          "links": [
+            {
+              "label": "Jaipur guide",
+              "href": "/blog/jaipur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "north",
+      "heading": "North India",
+      "items": [
+        {
+          "name": "Varanasi",
+          "body": [
+            "Among the world's oldest continuously inhabited cities, according to long tradition, with ghats, lanes and temples along the Ganga."
+          ],
+          "links": [
+            {
+              "label": "Varanasi guide",
+              "href": "/blog/varanasi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Old Delhi and Lucknow",
+          "body": [
+            "Shah Jahan's walled city, and the Nawabi capital of Awadh with its imambaras and food."
+          ],
+          "links": [
+            {
+              "label": "Old Delhi guide",
+              "href": "/blog/old-delhi-travel-guide"
+            },
+            {
+              "label": "Lucknow guide",
+              "href": "/blog/lucknow-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/lucknow/rumi-darwaza-gateway-lucknow.webp",
+            "alt": "The Rumi Darwaza gateway, Lucknow",
+            "caption": "Rumi Darwaza, Lucknow"
+          }
+        },
+        {
+          "name": "Amritsar",
+          "body": [
+            "The Golden Temple and the old walled city, with the Partition Museum in the Town Hall."
+          ],
+          "links": [
+            {
+              "label": "Amritsar guide",
+              "href": "/blog/amritsar-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "west",
+      "heading": "Rajasthan's old cities",
+      "items": [
+        {
+          "name": "Udaipur, Jodhpur, Jaisalmer and Bundi",
+          "body": [
+            "Lake palaces, the blue houses below Mehrangarh, a living fort, and a small town of stepwells and murals."
+          ],
+          "links": [
+            {
+              "label": "Udaipur guide",
+              "href": "/blog/udaipur-city-of-lakes-travel-guide"
+            },
+            {
+              "label": "Jodhpur guide",
+              "href": "/blog/jodhpur-travel-guide"
+            },
+            {
+              "label": "Things to do in Jaisalmer",
+              "href": "/blog/things-to-do-in-jaisalmer"
+            },
+            {
+              "label": "Bundi guide",
+              "href": "/blog/bundi-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-east",
+      "heading": "South and east",
+      "items": [
+        {
+          "name": "Hyderabad",
+          "body": [
+            "The old city around Charminar, with the Mecca Masjid, Laad Bazaar and Chowmahalla Palace."
+          ],
+          "links": [
+            {
+              "label": "Hyderabad guide",
+              "href": "/blog/hyderabad-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kolkata",
+          "body": [
+            "The former British capital, with Bengali mansions in the north of the city and craft quarters such as Kumartuli."
+          ],
+          "links": [
+            {
+              "label": "Kolkata guide",
+              "href": "/blog/kolkata-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/kolkata/kolkata-heritage-tram-street.webp",
+            "alt": "A heritage tram on a Kolkata street",
+            "caption": "Kolkata"
+          }
+        },
+        {
+          "name": "Kochi, Madurai, Puducherry and Mysuru",
+          "body": [
+            "Four very different southern cities: a spice port, a temple city, a French town and a palace city."
+          ],
+          "links": [
+            {
+              "label": "Kochi guide",
+              "href": "/blog/kochi-travel-guide"
+            },
+            {
+              "label": "Madurai guide",
+              "href": "/blog/madurai-travel-guide"
+            },
+            {
+              "label": "Puducherry French Quarter",
+              "href": "/blog/puducherry-french-quarter-travel-guide"
+            },
+            {
+              "label": "Mysuru guide",
+              "href": "/blog/mysuru-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smaller",
+      "heading": "Smaller heritage towns",
+      "list": [
+        "Orchha, Madhya Pradesh: Bundela palaces and cenotaphs on the Betwa river.",
+        "Chettinad, Tamil Nadu: grand mansions of the Nattukottai Chettiar merchant community.",
+        "Mandawa and the Shekhawati towns, Rajasthan: painted havelis.",
+        "Maheshwar, Madhya Pradesh: ghats on the Narmada and handloom weaving.",
+        "Bishnupur, West Bengal: terracotta temples."
+      ],
+      "items": [
+        {
+          "name": "Guides",
+          "body": [
+            "Quieter heritage towns."
+          ],
+          "links": [
+            {
+              "label": "Orchha guide",
+              "href": "/blog/orchha-travel-guide"
+            },
+            {
+              "label": "Chettinad guide",
+              "href": "/blog/chettinad-travel-guide"
+            },
+            {
+              "label": "Bishnupur guide",
+              "href": "/blog/bishnupur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to",
+      "heading": "How to explore an old city",
+      "list": [
+        "Start with a morning heritage walk; many cities have guided walks run by municipal bodies, trusts or local guides.",
+        "Return in the evening for markets and food.",
+        "Stay inside or near the old city, in a heritage haveli or guesthouse, to feel its rhythm.",
+        "Wear comfortable shoes and carry little; lanes are narrow and busy."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Staying in the old city",
+      "paras": [
+        "A night inside or near the old quarter changes the experience. Heritage havelis in Jaipur, Jodhpur and Ahmedabad, guesthouses by the ghats in Varanasi, and colonial bungalows in Fort Kochi and Puducherry let you walk out at dawn, before the crowds. Rooms can be small and access is often on foot; ask about luggage before you book."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and prices change; check official sources before you go.",
+    "Old-city lanes are crowded; keep valuables secure and watch for two-wheelers.",
+    "Dress modestly near places of worship, and ask before photographing people and homes."
+  ],
+  "packing": [
+    "Comfortable walking shoes",
+    "Scarf or shawl for places of worship",
+    "Small day bag",
+    "Water bottle"
+  ],
+  "faqs": [
+    {
+      "q": "Which Indian cities are UNESCO World Heritage Cities?",
+      "a": "Ahmedabad (2017) and Jaipur (2019)."
+    },
+    {
+      "q": "Which is the best heritage city in India?",
+      "a": "It depends on your interests: Jaipur and Udaipur for palaces, Varanasi for living tradition, Ahmedabad for its pols, Kolkata for colonial and Bengali heritage."
+    },
+    {
+      "q": "What is a pol in Ahmedabad?",
+      "a": "A gated residential neighbourhood of the old city, with carved wooden houses around lanes and courtyards."
+    },
+    {
+      "q": "How many days do I need in a heritage city?",
+      "a": "Two to three days lets you walk the old city, see the main monuments and enjoy the food."
+    },
+    {
+      "q": "When should I visit?",
+      "a": "October to March, and early in the day."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage walks in India",
+      "href": "/blog/heritage-walks-in-india"
+    },
+    {
+      "label": "Food heritage of India",
+      "href": "/blog/food-heritage-of-india"
+    },
+    {
+      "label": "Handicrafts of India",
+      "href": "/blog/handicrafts-of-india"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Historical places in India",
+      "href": "/blog/historical-places-in-india",
+      "note": "region by region"
+    },
+    {
+      "name": "Colonial-era heritage",
+      "href": "/blog/colonial-heritage-in-india",
+      "note": "Kolkata, Mumbai, Kochi and more"
+    },
+    {
+      "name": "Palaces in India",
+      "href": "/blog/palaces-in-india",
+      "note": "palace cities"
+    }
+  ],
+  "places": [
+    "Ahmedabad",
+    "Jaipur",
+    "Varanasi",
+    "Old Delhi",
+    "Lucknow",
+    "Hyderabad",
+    "Kolkata",
+    "Udaipur",
+    "Jodhpur",
+    "Jaisalmer",
+    "Kochi",
+    "Madurai",
+    "Puducherry",
+    "Mysuru",
+    "Amritsar"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,521 @@
+{
+  "slug": "adventure-activities-in-himachal-pradesh",
+  "kind": "destination",
+  "short": "Adventure activities in Himachal",
+  "title": "Adventure Activities in Himachal Pradesh, Region by Region",
+  "seoTitle": "Adventure Activities in Himachal Pradesh by Region | Kudozz Club",
+  "metaDescription": "Adventure activities in Himachal Pradesh, region by region: paragliding at Bir Billing, Manali's snow and treks, Parvati Valley, Tirthan, Spiti rides and more.",
+  "description": "A region-by-region guide to adventure activities in Himachal Pradesh: paragliding and treks in Kangra, skiing, rafting and passes around Manali, treks in the Parvati Valley, trails in Tirthan and the Great Himalayan National Park, snow near Shimla, and rides and treks in Spiti and Kinnaur.",
+  "dek": "Himachal Pradesh packs world-class paragliding, dozens of treks, snow, rafting and some of India's best mountain roads into one state. Here is where to go for each.",
+  "primaryKeyword": "adventure activities in Himachal Pradesh",
+  "secondaryKeywords": [
+    "adventure sports in Himachal Pradesh",
+    "things to do in Himachal Pradesh for adventure",
+    "Bir",
+    "Solang",
+    "Spiti"
+  ],
+  "searchIntent": "Informational: what adventure to do in Himachal Pradesh",
+  "activities": [
+    "paragliding",
+    "trekking",
+    "skiing",
+    "rafting",
+    "motorcycling",
+    "camping",
+    "mountain biking"
+  ],
+  "terrain": [
+    "mountains",
+    "snow",
+    "river",
+    "forest",
+    "high desert"
+  ],
+  "regions": [
+    "Himachal Pradesh",
+    "North India"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "friends",
+    "couples",
+    "families",
+    "solo"
+  ],
+  "tags": [
+    "Himachal Pradesh",
+    "Adventure",
+    "Bir Billing",
+    "Spiti"
+  ],
+  "hero": {
+    "src": "/images/adventure/himachal-mountains-adventure.webp",
+    "alt": "A trekker in the valley on the way to Hampta Pass",
+    "caption": "Hampta Pass trail"
+  },
+  "parent": {
+    "label": "Best Adventure Destinations in India",
+    "href": "/blog/best-adventure-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Himachal Pradesh",
+    "containedIn": "Himachal Pradesh"
+  },
+  "intro": [
+    "Himachal Pradesh runs from the foothills near Chandigarh to the high, dry valleys of Lahaul and Spiti on the Tibetan side of the Himalaya. In between are the Dhauladhar and Pir Panjal ranges, the Kullu, Kangra and Parvati valleys, and forests that make the state one of the most varied adventure destinations in India.",
+    "The best approach is to pick a region. Kangra is for paragliding and easy treks, Kullu and Manali for snow, rafting and high passes, the Parvati and Tirthan valleys for forest treks, and Spiti and Kinnaur for road trips and cold-desert trekking. This guide covers adventure activities in each."
+  ],
+  "quickAnswer": "The best adventure activities in Himachal Pradesh are paragliding at Bir Billing, skiing and paragliding at Solang near Manali, Beas rafting near Kullu, treks such as Triund, Hampta Pass, Kheerganga and Bhrigu Lake, trails in Tirthan Valley and the Great Himalayan National Park, and the Spiti circuit by motorcycle. Most activities run from spring to autumn; paragliding and rafting pause in the monsoon.",
+  "takeaways": [
+    "Bir Billing in Kangra is India's top paragliding site; flying is banned from 15 July to 15 September.",
+    "Manali and Solang cover skiing in winter, and paragliding, rafting and treks in summer.",
+    "The Parvati Valley has easy treks to Kheerganga and harder ones such as Pin Parvati Pass.",
+    "Tirthan Valley is the gateway to the Great Himalayan National Park, a UNESCO World Heritage Site.",
+    "Spiti and Kinnaur are for road trips, high villages and cold-desert treks from June to October."
+  ],
+  "sections": [
+    {
+      "id": "kangra",
+      "heading": "Kangra: Bir Billing and Dharamshala",
+      "items": [
+        {
+          "name": "Paragliding at Bir Billing",
+          "body": [
+            "Tandem flights launch from Billing at about 2,400 metres and land in Bir, with the best conditions from October to November and March to May."
+          ],
+          "facts": {
+            "Season": "Mid-September to June",
+            "Closed": "15 July to 15 September"
+          },
+          "links": [
+            {
+              "label": "Paragliding in India",
+              "href": "/blog/paragliding-in-india"
+            },
+            {
+              "label": "Bir Billing travel guide",
+              "href": "/blog/bir-billing-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/bir-billing/bir-billing-paragliding-valley.webp",
+            "alt": "Paragliders over the valley at Bir Billing",
+            "caption": "Bir Billing"
+          }
+        },
+        {
+          "name": "Treks above Dharamshala",
+          "body": [
+            "Triund is the classic short trek; experienced trekkers continue over Indrahar Pass towards Chamba."
+          ],
+          "facts": {
+            "Season": "March to June, September to December"
+          },
+          "links": [
+            {
+              "label": "Beginner treks in India",
+              "href": "/blog/beginner-treks-in-india"
+            },
+            {
+              "label": "Things to do in Dharamshala",
+              "href": "/blog/things-to-do-in-dharamshala"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kullu-manali",
+      "heading": "Kullu and Manali",
+      "items": [
+        {
+          "name": "Snow, skiing and passes",
+          "body": [
+            "Solang Valley has winter skiing and snow play, and the Atal Tunnel leads to snow at Sissu. In summer, roads climb to Rohtang and on towards Lahaul, Spiti and Ladakh."
+          ],
+          "links": [
+            {
+              "label": "Adventure activities in Manali",
+              "href": "/blog/adventure-activities-in-manali"
+            },
+            {
+              "label": "Skiing in India",
+              "href": "/blog/skiing-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Beas rafting",
+          "body": [
+            "Grade II to III rafting near Kullu in spring and autumn."
+          ],
+          "facts": {
+            "Season": "About March to June, September to November"
+          },
+          "links": [
+            {
+              "label": "Kullu travel guide",
+              "href": "/blog/kullu-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "High treks",
+          "body": [
+            "Hampta Pass, Bhrigu Lake and Beas Kund start near Manali, and Friendship Peak is a first climbing objective."
+          ],
+          "facts": {
+            "Season": "June to October"
+          },
+          "links": [
+            {
+              "label": "Trekking in India",
+              "href": "/blog/trekking-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parvati",
+      "heading": "Parvati Valley",
+      "items": [
+        {
+          "name": "Kheerganga and Tosh",
+          "body": [
+            "The forest trek to the hot spring meadows of Kheerganga starts at Barshaini near Kasol; walks from Tosh and Pulga lead into side valleys."
+          ],
+          "facts": {
+            "Season": "April to June, September to November"
+          },
+          "links": [
+            {
+              "label": "Things to do in Kasol",
+              "href": "/blog/things-to-do-in-kasol"
+            },
+            {
+              "label": "Kasol and Kheerganga guide",
+              "href": "/blog/kasol-kheerganga-trek-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Pin Parvati Pass",
+          "body": [
+            "A demanding glaciated crossing above 5,000 metres from the Parvati valley to Spiti's Pin Valley, for experienced trekkers."
+          ],
+          "facts": {
+            "Season": "July to September"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tirthan",
+      "heading": "Tirthan Valley and the Great Himalayan National Park",
+      "items": [
+        {
+          "name": "Great Himalayan National Park",
+          "body": [
+            "A UNESCO World Heritage Site of forests, meadows and high ridges. Treks into the park need permits and registered guides, and the valleys are quiet compared with Manali."
+          ],
+          "facts": {
+            "Season": "April to June, September to November"
+          },
+          "links": [
+            {
+              "label": "Tirthan Valley guide",
+              "href": "/blog/tirthan-valley-travel-guide"
+            },
+            {
+              "label": "Things to do in Tirthan Valley",
+              "href": "/blog/things-to-do-in-tirthan-valley"
+            }
+          ]
+        },
+        {
+          "name": "Jalori Pass and Serolsar Lake",
+          "body": [
+            "A road pass at about 3,100 metres above Shoja, with an easy forest walk to Serolsar lake and a steeper one to Raghupur Fort."
+          ],
+          "facts": {
+            "Season": "April to November; snow in winter"
+          }
+        },
+        {
+          "name": "Trout fishing",
+          "body": [
+            "The Tirthan river is known for trout; angling needs a licence from the fisheries department."
+          ],
+          "facts": {
+            "Good to know": "Licence required"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shimla",
+      "heading": "Shimla, Narkanda and Chamba",
+      "items": [
+        {
+          "name": "Snow near Shimla",
+          "body": [
+            "Narkanda and Kufri get snow in good winters, with small slopes used for beginner skiing."
+          ],
+          "facts": {
+            "Season": "January to February"
+          },
+          "links": [
+            {
+              "label": "Things to do in Shimla",
+              "href": "/blog/things-to-do-in-shimla"
+            }
+          ]
+        },
+        {
+          "name": "Dalhousie and Khajjiar",
+          "body": [
+            "Khajjiar's meadow near Dalhousie has short adventure rides such as zorbing and horse rides, and forest walks around Dalhousie."
+          ],
+          "links": [
+            {
+              "label": "Khajjiar travel guide",
+              "href": "/blog/khajjiar-travel-guide"
+            },
+            {
+              "label": "Things to do in Dalhousie",
+              "href": "/blog/things-to-do-in-dalhousie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spiti",
+      "heading": "Spiti and Kinnaur",
+      "items": [
+        {
+          "name": "The Spiti circuit",
+          "body": [
+            "One of India's best motorcycle and road trips, through Kinnaur to Kaza and out over Kunzum Pass."
+          ],
+          "facts": {
+            "Season": "About June to October"
+          },
+          "links": [
+            {
+              "label": "Spiti Valley bike trip",
+              "href": "/blog/spiti-valley-bike-trip"
+            }
+          ]
+        },
+        {
+          "name": "Treks and high villages",
+          "body": [
+            "Short walks between high villages such as Kibber, Langza and Komic, treks in the Pin Valley, and camping near Chandratal."
+          ],
+          "facts": {
+            "Season": "June to September"
+          },
+          "links": [
+            {
+              "label": "Things to do in Spiti Valley",
+              "href": "/blog/things-to-do-in-spiti-valley"
+            },
+            {
+              "label": "Chitkul travel guide",
+              "href": "/blog/chitkul-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "week-plan",
+      "heading": "A week of adventure in Himachal",
+      "paras": [
+        "This sample plan suits spring or autumn, when paragliding, rafting and treks all run. Adjust it around your dates and travel from Delhi or Chandigarh."
+      ],
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Overnight bus or drive from Delhi to Bir; rest and walk to the monasteries"
+          ],
+          [
+            "2",
+            "Tandem paragliding at Bir Billing in the morning; evening in Bir"
+          ],
+          [
+            "3",
+            "Drive to Manali via Mandi (about 5 to 6 hours)"
+          ],
+          [
+            "4",
+            "Solang Valley: paragliding or the ropeway; walk to Jogini Falls"
+          ],
+          [
+            "5",
+            "Beas rafting near Kullu; evening in Old Manali"
+          ],
+          [
+            "6",
+            "Day trip through the Atal Tunnel to Sissu, or a day hike towards Bhrigu Lake"
+          ],
+          [
+            "7",
+            "Return to Delhi by overnight bus, or fly from Bhuntar (Kullu)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "bases",
+      "heading": "Getting there and where to base yourself",
+      "list": [
+        "Delhi to Manali and Dharamshala is an overnight bus ride; Volvo buses are the usual choice.",
+        "Airports at Kangra (Gaggal) for Dharamshala and Bir, Bhuntar for Kullu and Manali, and Shimla serve small planes; flights are weather-dependent.",
+        "Base yourself in Bir for paragliding, Manali or Old Manali for Solang and treks, Kasol for the Parvati Valley, and Kaza for Spiti.",
+        "Allow extra time for road travel; distances are short but mountain roads are slow."
+      ]
+    },
+    {
+      "id": "calendar",
+      "heading": "Himachal adventure calendar",
+      "table": {
+        "columns": [
+          "Months",
+          "Best adventures"
+        ],
+        "rows": [
+          [
+            "December to February",
+            "Skiing and snow at Solang, Sissu, Narkanda; winter Triund"
+          ],
+          [
+            "March to June",
+            "Paragliding at Bir, rafting on the Beas, lower treks, Parvati valley"
+          ],
+          [
+            "July to August",
+            "Lahaul, Spiti and Hampta Pass; paragliding and rafting paused"
+          ],
+          [
+            "September to November",
+            "Paragliding season at Bir, high treks, Spiti until Kunzum closes"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Acclimatise before high treks and passes, and descend if altitude sickness symptoms worsen.",
+    "Paragliding and rafting in Himachal pause during the monsoon; do not fly or raft with anyone offering otherwise.",
+    "The monsoon brings landslides and flash floods, as in 2023; check road and weather alerts before travelling.",
+    "Hire registered guides for treks in the Great Himalayan National Park and other protected areas.",
+    "Carry warm layers year-round above about 2,500 metres.",
+    "Drive only in daylight on mountain roads."
+  ],
+  "packing": [
+    "Layered clothing and a rain jacket",
+    "Trekking shoes with good grip",
+    "Sunglasses and sunscreen",
+    "Cash for smaller valleys",
+    "Printed permits for protected areas"
+  ],
+  "faqs": [
+    {
+      "q": "What are the best adventure activities in Himachal Pradesh?",
+      "a": "Paragliding at Bir Billing, skiing and snow at Solang, rafting on the Beas, treks such as Triund, Hampta Pass and Kheerganga, trails in the Great Himalayan National Park and the Spiti circuit by road."
+    },
+    {
+      "q": "When is paragliding closed in Himachal?",
+      "a": "Every monsoon, from 15 July to 15 September at Bir Billing, on district orders."
+    },
+    {
+      "q": "Which place in Himachal is best for adventure?",
+      "a": "Manali for variety, Bir Billing for paragliding, the Parvati and Tirthan valleys for forest treks, and Spiti for road trips."
+    },
+    {
+      "q": "Can I visit Himachal for adventure in the monsoon?",
+      "a": "Lahaul, Spiti and treks such as Hampta Pass work in July and August, but most of the state has landslide risks, and paragliding and rafting are paused."
+    },
+    {
+      "q": "Is the Great Himalayan National Park open to trekkers?",
+      "a": "Yes, with permits and registered guides. Tirthan Valley and Sainj are the main gateways."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Himachal Pradesh travel guide",
+      "href": "/blog/himachal-pradesh-travel-guide"
+    },
+    {
+      "label": "Things to do in Manali",
+      "href": "/blog/things-to-do-in-manali"
+    },
+    {
+      "label": "Manali itinerary",
+      "href": "/blog/manali-travel-guide#itinerary"
+    },
+    {
+      "label": "Himachal Pradesh tour packages",
+      "href": "/packages/himachal-pradesh"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Adventure activities in Manali",
+      "href": "/blog/adventure-activities-in-manali",
+      "note": "the busiest base"
+    },
+    {
+      "name": "Things to do in Bir Billing",
+      "href": "/blog/things-to-do-in-bir-billing",
+      "note": "beyond paragliding"
+    },
+    {
+      "name": "Adventure activities in Uttarakhand",
+      "href": "/blog/adventure-activities-in-uttarakhand",
+      "note": "the neighbouring state"
+    }
+  ],
+  "places": [
+    "Bir Billing",
+    "Dharamshala",
+    "Triund",
+    "Manali",
+    "Solang Valley",
+    "Kullu",
+    "Kasol",
+    "Kheerganga",
+    "Tirthan Valley",
+    "Great Himalayan National Park",
+    "Jalori Pass",
+    "Narkanda",
+    "Khajjiar",
+    "Spiti",
+    "Kinnaur"
+  ],
+  "styles": [
+    "adventure-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Himachal Pradesh",
+  "updated": "2026-09-25"
+}

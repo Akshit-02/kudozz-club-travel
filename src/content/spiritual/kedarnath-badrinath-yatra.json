@@ -1,0 +1,301 @@
+{
+  "slug": "kedarnath-badrinath-yatra",
+  "kind": "planning",
+  "short": "Kedarnath and Badrinath Yatra",
+  "title": "Kedarnath and Badrinath Yatra (Do Dham): Route and Itinerary",
+  "seoTitle": "Kedarnath Badrinath Yatra (Do Dham): Route & Itinerary | Kudozz Club",
+  "metaDescription": "Plan a Kedarnath and Badrinath (Do Dham) yatra: a 7-day itinerary from Haridwar, the Kedarnath trek or helicopter, registration and the best months.",
+  "description": "An itinerary guide to the Do Dham Yatra of Kedarnath and Badrinath: registration, the route from Haridwar or Rishikesh via the Devprayag and Rudraprayag confluences, the Kedarnath trek and helicopter options, the drive to Badrinath via Chopta or Chamoli, Mana village, a 6 to 7 day plan, seasons and advice for older pilgrims.",
+  "dek": "For travellers short on time, the two best-known Himalayan shrines make a week-long yatra of their own.",
+  "primaryKeyword": "kedarnath badrinath yatra",
+  "secondaryKeywords": [
+    "do dham yatra",
+    "kedarnath badrinath itinerary",
+    "kedarnath badrinath tour"
+  ],
+  "searchIntent": "Itinerary",
+  "activities": [
+    "Char Dham",
+    "trekking",
+    "darshan",
+    "pilgrimage route"
+  ],
+  "terrain": [
+    "mountains",
+    "river"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "North India"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "groups"
+  ],
+  "tags": [
+    "Kedarnath",
+    "Badrinath",
+    "Do Dham",
+    "Uttarakhand"
+  ],
+  "hero": {
+    "src": "/images/spiritual/kedarnath-badrinath-badrinath-temple.webp",
+    "alt": "The colourful facade of Badrinath Temple with pilgrims on the steps, Uttarakhand"
+  },
+  "parent": {
+    "label": "Char Dham Yatra Guide",
+    "href": "/blog/char-dham-yatra-guide"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Kedarnath and Badrinath",
+    "containedIn": "Uttarakhand"
+  },
+  "intro": [
+    "Kedarnath, one of the twelve Jyotirlingas, and Badrinath, one of the four dhams of India, are the two most visited shrines in Uttarakhand. Many pilgrims visit just these two, a trip often called the Do Dham Yatra, in six or seven days from Haridwar or Rishikesh.",
+    "The same rules apply as for the full Char Dham: mandatory registration, a short summer and autumn season, altitude and mountain roads that can close in bad weather."
+  ],
+  "quickAnswer": "A Kedarnath and Badrinath yatra takes about six to seven days from Haridwar or Rishikesh. Drive to Guptkashi or Sonprayag, trek about 16 km from Gaurikund to Kedarnath (or fly by helicopter from Phata, Sersi or Guptkashi), then continue to Badrinath via Chamoli and Joshimath. Registration on the Uttarakhand portal is mandatory. May to June and September to October are the best windows.",
+  "takeaways": [
+    "Six to seven days from Haridwar or Rishikesh is comfortable.",
+    "Kedarnath needs a 16 km trek from Gaurikund, or a helicopter booked only on IRCTC HeliYatra.",
+    "Staying a night at Kedarnath reduces rush and helps with the altitude.",
+    "Badrinath is reached by road; Mana village is 3 km beyond.",
+    "Registration on the Uttarakhand government portal is mandatory."
+  ],
+  "sections": [
+    {
+      "id": "itinerary",
+      "heading": "A 7-day itinerary",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Haridwar or Rishikesh; evening Ganga Aarti"
+          ],
+          [
+            "2",
+            "Drive to Guptkashi or Sitapur via Devprayag and Rudraprayag (about 8 to 9 hours)"
+          ],
+          [
+            "3",
+            "Shuttle to Gaurikund; trek to Kedarnath; evening aarti; overnight"
+          ],
+          [
+            "4",
+            "Morning darshan; trek down; night at Guptkashi"
+          ],
+          [
+            "5",
+            "Drive to Badrinath via Ukhimath and Chopta or via Rudraprayag; evening darshan"
+          ],
+          [
+            "6",
+            "Tapt Kund, Mana village, Vasudhara falls trail; drive to Pipalkoti or Joshimath"
+          ],
+          [
+            "7",
+            "Drive back to Rishikesh or Haridwar"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "kedarnath",
+      "heading": "Kedarnath: trek or helicopter",
+      "items": [
+        {
+          "name": "The trek",
+          "body": [
+            "About 16 km from Gaurikund on a paved path, rebuilt after the 2013 floods; five to eight hours up for most walkers. Ponies, palkis and porters are available."
+          ],
+          "facts": {
+            "Start": "Gaurikund (shuttle from Sonprayag)"
+          },
+          "links": [
+            {
+              "label": "Kedarnath guide",
+              "href": "/blog/kedarnath-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/kedarnath/kedarnath-temple-hillside-mountain-view.webp",
+            "alt": "Kedarnath temple below snow-covered Himalayan peaks, Uttarakhand",
+            "caption": "Kedarnath"
+          }
+        },
+        {
+          "name": "The helicopter",
+          "body": [
+            "Shuttle flights from Phata, Sersi and Guptkashi, sold only on IRCTC HeliYatra and linked to your registration. Flights depend on weather."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "badrinath",
+      "heading": "Badrinath and Mana",
+      "items": [
+        {
+          "name": "Badrinath",
+          "body": [
+            "The temple on the Alaknanda, with the Tapt Kund hot springs below it. Queues can be long in the morning."
+          ],
+          "links": [
+            {
+              "label": "Badrinath guide",
+              "href": "/blog/badrinath-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Mana",
+          "body": [
+            "A village 3 km beyond Badrinath near the Tibet border, with Vyas Gufa, Bhim Pul and the start of the trail to Vasudhara falls."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "on-the-way",
+      "heading": "On the way",
+      "list": [
+        "Devprayag: the confluence of the Bhagirathi and Alaknanda, where the Ganga takes its name.",
+        "Rudraprayag: the confluence of the Alaknanda and Mandakini.",
+        "Ukhimath: the winter seat of Kedarnath's deity.",
+        "Chopta and Tungnath: a detour for the highest Shiva temple, on a short trek.",
+        "Joshimath: gateway to Auli and the winter seat of Badrinath's deity."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "list": [
+        "Guptkashi, Phata and Sitapur: the usual bases for Kedarnath, with hotels and GMVN rest houses.",
+        "Kedarnath: GMVN huts, tents and dharamshalas near the temple; book early.",
+        "Badrinath: hotels, dharamshalas and GMVN properties close to the temple.",
+        "Pipalkoti and Joshimath: quieter stops on the way back."
+      ],
+      "after": [
+        "In May and June, book rooms along the whole route before you set off."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "May and June: busiest; book stays and helicopters early.",
+        "July and August: monsoon landslides; avoid if possible.",
+        "September and October: clearer and quieter; cold nights."
+      ]
+    }
+  ],
+  "safety": [
+    "The shrines are at 3,000 m or more; climb gradually, drink water, and descend if you have signs of altitude sickness. Take medical advice before the trip, especially if you are older or have heart or lung conditions.",
+    "Check road and weather advisories each morning during the yatra.",
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Start the Kedarnath trek early to finish before afternoon weather."
+  ],
+  "packing": [
+    "Warm jacket, gloves and cap",
+    "Rain jacket",
+    "Walking shoes with grip",
+    "Torch and power bank",
+    "Registration printout and ID"
+  ],
+  "faqs": [
+    {
+      "q": "How many days are needed for Kedarnath and Badrinath?",
+      "a": "About six to seven days from Haridwar or Rishikesh."
+    },
+    {
+      "q": "Can I add Hemkund Sahib to this yatra?",
+      "a": "Yes. Govindghat, the start of the Hemkund trek, is on the road to Badrinath; add two to three days."
+    },
+    {
+      "q": "Which should I visit first, Kedarnath or Badrinath?",
+      "a": "Kedarnath first is the usual order, following the traditional west-to-east route."
+    },
+    {
+      "q": "How long is the Kedarnath trek?",
+      "a": "About 16 km from Gaurikund, five to eight hours up for most people."
+    },
+    {
+      "q": "How do I book a Kedarnath helicopter?",
+      "a": "Only on IRCTC HeliYatra, after completing the Uttarakhand yatra registration."
+    },
+    {
+      "q": "Can older pilgrims do the Kedarnath trek?",
+      "a": "Many do, using ponies, palkis or the helicopter, but the altitude is demanding. Take medical advice before the trip and allow rest days."
+    },
+    {
+      "q": "Is registration needed for the Do Dham Yatra?",
+      "a": "Yes, the same mandatory registration as for the Char Dham Yatra."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Char Dham Yatra guide",
+      "href": "/blog/char-dham-yatra-guide"
+    },
+    {
+      "label": "Kedarnath guide",
+      "href": "/blog/kedarnath-travel-guide"
+    },
+    {
+      "label": "Things to do in Haridwar",
+      "href": "/blog/things-to-do-in-haridwar"
+    },
+    {
+      "label": "Char Dham Yatra packages",
+      "href": "/packages/char-dham-yatra"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hemkund Sahib Yatra",
+      "href": "/blog/hemkund-sahib-yatra",
+      "note": "near Badrinath via Govindghat"
+    },
+    {
+      "name": "The 12 Jyotirlingas",
+      "href": "/blog/12-jyotirlingas-in-india",
+      "note": "Kedarnath and the others"
+    },
+    {
+      "name": "Pilgrimage packing list",
+      "href": "/blog/pilgrimage-packing-list",
+      "note": "what to carry"
+    }
+  ],
+  "places": [
+    "Kedarnath",
+    "Badrinath",
+    "Gaurikund",
+    "Guptkashi",
+    "Devprayag",
+    "Rudraprayag",
+    "Mana",
+    "Joshimath"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Kedarnath and Badrinath",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,363 @@
+{
+  "slug": "spiritual-tourism-in-himachal-pradesh",
+  "kind": "state",
+  "short": "Spiritual Himachal",
+  "title": "Spiritual Tourism in Himachal Pradesh: Shakti Temples and Tibetan Monasteries",
+  "seoTitle": "Spiritual Places in Himachal: Temples & Monasteries | Kudozz Club",
+  "metaDescription": "Plan a spiritual trip in Himachal: the Devi temples of Jwalamukhi, Chintpurni and Naina Devi, Manikaran Sahib, and the monasteries of Dharamshala and Spiti.",
+  "description": "A guide to spiritual tourism in Himachal Pradesh: the Devi temples of Kangra, Una and Bilaspur (Jwalamukhi, Chintpurni, Naina Devi, Brajeshwari, Chamunda), Baijnath and Bhimakali, Manikaran Sahib and Paonta Sahib, Rewalsar, the Tibetan Buddhist centres of McLeod Ganj and Spiti, Kullu Dussehra, routes and seasons.",
+  "dek": "Himachal's hills hold a circuit of revered Devi temples, historic gurdwaras and the Tibetan Buddhist heartland of Dharamshala and Spiti.",
+  "primaryKeyword": "spiritual places in Himachal Pradesh",
+  "secondaryKeywords": [
+    "religious places in Himachal Pradesh",
+    "temples in Himachal Pradesh",
+    "pilgrimage places in Himachal Pradesh"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "temple visit",
+    "monasteries",
+    "pilgrimage",
+    "festivals"
+  ],
+  "terrain": [
+    "mountains",
+    "temple town"
+  ],
+  "regions": [
+    "Himachal Pradesh",
+    "North India"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "groups"
+  ],
+  "tags": [
+    "Himachal Pradesh",
+    "Jwalamukhi",
+    "McLeod Ganj",
+    "Devi Temples"
+  ],
+  "hero": {
+    "src": "/images/spiritual/spiritual-himachal-namgyal-dharamshala.webp",
+    "alt": "A monk turning prayer wheels at the Tsuglagkhang complex, McLeod Ganj"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Spiritual Himachal Pradesh",
+    "containedIn": "Himachal Pradesh"
+  },
+  "intro": [
+    "Himachal Pradesh is often called Dev Bhoomi too, with temples in nearly every village. Pilgrims from north India visit a circuit of Devi temples in the lower hills: Jwalamukhi, where natural flames are worshipped, Chintpurni, Naina Devi, Brajeshwari in Kangra and Chamunda near Palampur.",
+    "Higher up are old stone temples such as Baijnath and Bhimakali, the gurdwaras of Manikaran Sahib and Paonta Sahib, and the Tibetan Buddhist centres of McLeod Ganj, home of the Dalai Lama's temple complex, and the monasteries of Spiti."
+  ],
+  "quickAnswer": "Himachal Pradesh's main spiritual destinations are the Devi temples of Jwalamukhi, Chintpurni, Naina Devi, Brajeshwari and Chamunda, the Baijnath and Bhimakali temples, Manikaran Sahib and Paonta Sahib gurdwaras, Rewalsar, and the Buddhist centres of McLeod Ganj (Tsuglagkhang) and Spiti (Key and Tabo). The Devi temples can be visited most of the year; Spiti is best from June to October.",
+  "takeaways": [
+    "Jwalamukhi, Chintpurni, Naina Devi, Brajeshwari and Chamunda form a popular Devi circuit.",
+    "McLeod Ganj's Tsuglagkhang is the Dalai Lama's temple complex.",
+    "Manikaran Sahib is sacred to both Sikhs and Hindus, with hot springs.",
+    "Spiti's monasteries are reached only when the roads are open, usually June to October.",
+    "Kullu Dussehra begins on Vijayadashami and lasts a week."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Main spiritual places",
+      "table": {
+        "columns": [
+          "Place",
+          "Tradition",
+          "Known for",
+          "Region"
+        ],
+        "rows": [
+          [
+            "Jwalamukhi",
+            "Hindu",
+            "Natural flames worshipped as the Goddess",
+            "Kangra"
+          ],
+          [
+            "Chintpurni",
+            "Hindu",
+            "Devi temple",
+            "Una"
+          ],
+          [
+            "Naina Devi",
+            "Hindu",
+            "Hilltop Devi temple with a ropeway",
+            "Bilaspur"
+          ],
+          [
+            "Brajeshwari and Chamunda",
+            "Hindu",
+            "Devi temples",
+            "Kangra"
+          ],
+          [
+            "Baijnath",
+            "Hindu",
+            "13th-century Shiva temple",
+            "Kangra"
+          ],
+          [
+            "Bhimakali, Sarahan",
+            "Hindu",
+            "Temple in the Kinnauri style",
+            "Shimla district"
+          ],
+          [
+            "Manikaran Sahib and Paonta Sahib",
+            "Sikh and Hindu",
+            "Gurdwaras; hot springs at Manikaran",
+            "Kullu; Sirmaur"
+          ],
+          [
+            "McLeod Ganj and Spiti",
+            "Buddhist",
+            "Tsuglagkhang; Key and Tabo monasteries",
+            "Kangra; Lahaul and Spiti"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "highlights",
+      "heading": "Highlights",
+      "items": [
+        {
+          "name": "The Devi circuit",
+          "body": [
+            "Jwalamukhi, Chintpurni, Naina Devi, Brajeshwari and Chamunda, often visited in four to five days from Punjab or Delhi."
+          ],
+          "links": [
+            {
+              "label": "Shakti Peethas in India",
+              "href": "/blog/shakti-peethas-in-india"
+            }
+          ]
+        },
+        {
+          "name": "McLeod Ganj",
+          "body": [
+            "The Tsuglagkhang complex, Namgyal Monastery and the Tibetan Museum above Dharamshala."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Dharamshala",
+              "href": "/blog/things-to-do-in-dharamshala"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/dharamshala/tsuglagkhang-complex-dharamshala.webp",
+            "alt": "The Tsuglagkhang complex in McLeod Ganj, Dharamshala",
+            "caption": "Tsuglagkhang, McLeod Ganj"
+          }
+        },
+        {
+          "name": "Spiti",
+          "body": [
+            "Key monastery above the Spiti river and Tabo, founded in 996 CE, with old murals."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Spiti Valley",
+              "href": "/blog/things-to-do-in-spiti-valley"
+            }
+          ]
+        },
+        {
+          "name": "Manikaran Sahib",
+          "body": [
+            "A gurdwara and Hindu temples beside hot springs in the Parvati valley."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kasol",
+              "href": "/blog/things-to-do-in-kasol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More sacred places",
+      "list": [
+        "Rewalsar (Tso Pema) near Mandi, a lake sacred to Hindus, Buddhists and Sikhs.",
+        "Hadimba Devi temple in Manali's cedar forest.",
+        "Paonta Sahib on the Yamuna, linked with Guru Gobind Singh.",
+        "Jakhoo temple in Shimla, dedicated to Hanuman.",
+        "Kullu's Raghunath temple, at the centre of Kullu Dussehra."
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "Suggested routes",
+      "table": {
+        "columns": [
+          "Route",
+          "Days",
+          "Places"
+        ],
+        "rows": [
+          [
+            "Devi circuit",
+            "4 to 5",
+            "Naina Devi, Chintpurni, Jwalamukhi, Brajeshwari, Chamunda"
+          ],
+          [
+            "Kangra and McLeod Ganj",
+            "3 to 4",
+            "Dharamshala, McLeod Ganj, Baijnath, Chamunda"
+          ],
+          [
+            "Spiti monasteries",
+            "7 to 8",
+            "Shimla, Sarahan, Tabo, Key, Kaza"
+          ],
+          [
+            "Kullu and Parvati",
+            "3",
+            "Kullu, Manikaran, Manali's Hadimba"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stays",
+      "heading": "Stays and seasons",
+      "list": [
+        "Dharamshala and McLeod Ganj have the widest choice for the Kangra temples.",
+        "Navratri brings very large crowds to the Devi temples twice a year; book ahead.",
+        "Spiti is reachable from about June to October via Manali, and year-round via Kinnaur when snow allows.",
+        "Winters are cold in the hills; many high roads close."
+      ]
+    },
+    {
+      "id": "festivals",
+      "heading": "Festivals",
+      "list": [
+        "Navratri in spring and autumn at the Devi temples, with very large crowds at Jwalamukhi, Chintpurni and Naina Devi.",
+        "Kullu Dussehra, beginning on Vijayadashami, when village deities are carried to Kullu.",
+        "Losar, the Tibetan New Year, and teachings at the Tsuglagkhang when announced.",
+        "Shivratri at Mandi, where a week-long fair gathers local deities."
+      ],
+      "after": [
+        "Festival dates follow the lunar calendar; check them for the year before planning."
+      ]
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Dress modestly and follow each place of worship's rules on dress, phones and photography.",
+    "Mountain roads can close in snow and monsoon landslides; check conditions daily.",
+    "Spiti is at high altitude; acclimatise before visiting the monasteries."
+  ],
+  "packing": [
+    "Warm layers for all seasons in the hills",
+    "Rain jacket",
+    "Head covering for gurdwaras",
+    "Sun protection for Spiti"
+  ],
+  "faqs": [
+    {
+      "q": "Which are the famous Devi temples in Himachal?",
+      "a": "Jwalamukhi, Chintpurni, Naina Devi, Brajeshwari and Chamunda."
+    },
+    {
+      "q": "What is special about Jwalamukhi?",
+      "a": "The Goddess is worshipped in natural flames that emerge from the rock, with no idol."
+    },
+    {
+      "q": "Where does the Dalai Lama live?",
+      "a": "In McLeod Ganj, above Dharamshala; his temple complex is the Tsuglagkhang."
+    },
+    {
+      "q": "When can I visit Spiti's monasteries?",
+      "a": "Usually June to October, when roads are open."
+    },
+    {
+      "q": "How far is Jwalamukhi from Dharamshala?",
+      "a": "About 55 km, around one and a half to two hours by road."
+    },
+    {
+      "q": "Can visitors attend teachings in McLeod Ganj?",
+      "a": "Public teachings are announced on the official website of the Dalai Lama's office; registration is usually required."
+    },
+    {
+      "q": "What is Kullu Dussehra?",
+      "a": "A week-long festival in Kullu that begins on Vijayadashami, when deities from surrounding villages gather."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Dharamshala",
+      "href": "/blog/things-to-do-in-dharamshala"
+    },
+    {
+      "label": "Dharamshala guide",
+      "href": "/blog/dharamshala-travel-guide"
+    },
+    {
+      "label": "Himachal Pradesh travel guide",
+      "href": "/blog/himachal-pradesh-travel-guide"
+    },
+    {
+      "label": "Himachal Pradesh tour packages",
+      "href": "/packages/himachal-pradesh"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Buddhist tourism in India",
+      "href": "/blog/buddhist-tourism-in-india",
+      "note": "Himalayan monasteries"
+    },
+    {
+      "name": "Shakti Peethas in India",
+      "href": "/blog/shakti-peethas-in-india",
+      "note": "the Devi shrines"
+    },
+    {
+      "name": "Sikh pilgrimage in India",
+      "href": "/blog/sikh-pilgrimage-in-india",
+      "note": "Manikaran and Paonta Sahib"
+    }
+  ],
+  "places": [
+    "Jwalamukhi",
+    "Chintpurni",
+    "Naina Devi",
+    "Kangra",
+    "Chamunda",
+    "Baijnath",
+    "Sarahan",
+    "Manikaran",
+    "Paonta Sahib",
+    "McLeod Ganj",
+    "Tabo",
+    "Key"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Himachal Pradesh",
+  "updated": "2026-09-26"
+}

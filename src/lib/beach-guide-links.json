@@ -1,0 +1,270 @@
+{
+ "goa-beaches-travel-guide": {
+  "slug": "best-beaches-in-goa",
+  "label": "the best beaches in Goa"
+ },
+ "baga-travel-guide": {
+  "slug": "best-beaches-in-goa",
+  "label": "the best beaches in Goa"
+ },
+ "calangute-travel-guide": {
+  "slug": "best-beaches-in-goa",
+  "label": "the best beaches in Goa"
+ },
+ "candolim-travel-guide": {
+  "slug": "best-beaches-in-goa",
+  "label": "the best beaches in Goa"
+ },
+ "anjuna-travel-guide": {
+  "slug": "best-beaches-in-goa",
+  "label": "the best beaches in Goa"
+ },
+ "vagator-travel-guide": {
+  "slug": "best-beaches-in-goa",
+  "label": "the best beaches in Goa"
+ },
+ "morjim-travel-guide": {
+  "slug": "best-beaches-in-goa",
+  "label": "the best beaches in Goa"
+ },
+ "mandrem-travel-guide": {
+  "slug": "best-beaches-in-goa",
+  "label": "the best beaches in Goa"
+ },
+ "palolem-travel-guide": {
+  "slug": "best-beaches-in-goa",
+  "label": "the best beaches in Goa"
+ },
+ "agonda-travel-guide": {
+  "slug": "best-beaches-in-goa",
+  "label": "the best beaches in Goa"
+ },
+ "canacona-travel-guide": {
+  "slug": "best-beaches-in-goa",
+  "label": "the best beaches in Goa"
+ },
+ "panjim-travel-guide": {
+  "slug": "best-beaches-in-goa",
+  "label": "the best beaches in Goa"
+ },
+ "andaman-islands-travel-guide": {
+  "slug": "best-beaches-in-andaman",
+  "label": "the best beaches in the Andamans"
+ },
+ "havelock-island-andaman-travel-guide": {
+  "slug": "best-beaches-in-andaman",
+  "label": "the best beaches in the Andamans"
+ },
+ "neil-island-andaman-travel-guide": {
+  "slug": "best-beaches-in-andaman",
+  "label": "the best beaches in the Andamans"
+ },
+ "radhanagar-beach-andaman-travel-guide": {
+  "slug": "best-beaches-in-andaman",
+  "label": "the best beaches in the Andamans"
+ },
+ "port-blair-andaman-travel-guide": {
+  "slug": "best-beaches-in-andaman",
+  "label": "the best beaches in the Andamans"
+ },
+ "chidiya-tapu-andaman-travel-guide": {
+  "slug": "best-beaches-in-andaman",
+  "label": "the best beaches in the Andamans"
+ },
+ "long-island-andaman-travel-guide": {
+  "slug": "offbeat-beaches-in-india",
+  "label": "offbeat beaches in India"
+ },
+ "kalipur-andaman-travel-guide": {
+  "slug": "offbeat-beaches-in-india",
+  "label": "offbeat beaches in India"
+ },
+ "lakshadweep-island-travel-guide": {
+  "slug": "best-beaches-in-lakshadweep",
+  "label": "the best beaches in Lakshadweep"
+ },
+ "agatti-island-travel-guide": {
+  "slug": "best-beaches-in-lakshadweep",
+  "label": "the best beaches in Lakshadweep"
+ },
+ "kavaratti-island-travel-guide": {
+  "slug": "best-beaches-in-lakshadweep",
+  "label": "the best beaches in Lakshadweep"
+ },
+ "varkala-travel-guide": {
+  "slug": "best-beaches-in-kerala",
+  "label": "the best beaches in Kerala"
+ },
+ "kovalam-travel-guide": {
+  "slug": "best-beaches-in-kerala",
+  "label": "the best beaches in Kerala"
+ },
+ "bekal-travel-guide": {
+  "slug": "best-beaches-in-kerala",
+  "label": "the best beaches in Kerala"
+ },
+ "kannur-travel-guide": {
+  "slug": "best-beaches-in-kerala",
+  "label": "the best beaches in Kerala"
+ },
+ "alappuzha-travel-guide": {
+  "slug": "best-beaches-in-kerala",
+  "label": "the best beaches in Kerala"
+ },
+ "kochi-travel-guide": {
+  "slug": "coastal-tourism-in-india",
+  "label": "coastal tourism in India"
+ },
+ "kerala-backwaters-travel-guide": {
+  "slug": "coastal-tourism-in-india",
+  "label": "coastal tourism in India"
+ },
+ "munroe-island-travel-guide": {
+  "slug": "coastal-tourism-in-india",
+  "label": "coastal tourism in India"
+ },
+ "gokarna-beaches-travel-guide": {
+  "slug": "best-beaches-in-karnataka",
+  "label": "the best beaches in Karnataka"
+ },
+ "udupi-travel-guide": {
+  "slug": "best-beaches-in-karnataka",
+  "label": "the best beaches in Karnataka"
+ },
+ "mangaluru-travel-guide": {
+  "slug": "best-beaches-in-karnataka",
+  "label": "the best beaches in Karnataka"
+ },
+ "alibaug-travel-guide": {
+  "slug": "best-beaches-in-maharashtra",
+  "label": "the best beaches in Maharashtra"
+ },
+ "ganpatipule-travel-guide": {
+  "slug": "best-beaches-in-maharashtra",
+  "label": "the best beaches in Maharashtra"
+ },
+ "tarkarli-travel-guide": {
+  "slug": "best-beaches-in-maharashtra",
+  "label": "the best beaches in Maharashtra"
+ },
+ "maharashtra-travel-guide": {
+  "slug": "best-beaches-in-maharashtra",
+  "label": "the best beaches in Maharashtra"
+ },
+ "mumbai-travel-guide": {
+  "slug": "beach-trips-in-india",
+  "label": "beach trips from Mumbai"
+ },
+ "chennai-travel-guide": {
+  "slug": "best-beaches-in-tamil-nadu",
+  "label": "the best beaches in Tamil Nadu"
+ },
+ "mahabalipuram-travel-guide": {
+  "slug": "best-beaches-in-tamil-nadu",
+  "label": "the best beaches in Tamil Nadu"
+ },
+ "kanyakumari-travel-guide": {
+  "slug": "best-beaches-in-tamil-nadu",
+  "label": "the best beaches in Tamil Nadu"
+ },
+ "rameswaram-travel-guide": {
+  "slug": "best-beaches-in-tamil-nadu",
+  "label": "the best beaches in Tamil Nadu"
+ },
+ "tamil-nadu-travel-guide": {
+  "slug": "best-beaches-in-tamil-nadu",
+  "label": "the best beaches in Tamil Nadu"
+ },
+ "puducherry-french-quarter-travel-guide": {
+  "slug": "best-beaches-in-puducherry",
+  "label": "the best beaches in Puducherry"
+ },
+ "puducherry-district-travel-guide": {
+  "slug": "best-beaches-in-puducherry",
+  "label": "the best beaches in Puducherry"
+ },
+ "puri-travel-guide": {
+  "slug": "best-beaches-in-odisha",
+  "label": "the best beaches in Odisha"
+ },
+ "konark-travel-guide": {
+  "slug": "best-beaches-in-odisha",
+  "label": "the best beaches in Odisha"
+ },
+ "chandipur-travel-guide": {
+  "slug": "best-beaches-in-odisha",
+  "label": "the best beaches in Odisha"
+ },
+ "odisha-travel-guide": {
+  "slug": "best-beaches-in-odisha",
+  "label": "the best beaches in Odisha"
+ },
+ "chilika-lake-travel-guide": {
+  "slug": "dolphin-watching-in-india",
+  "label": "dolphin watching in India"
+ },
+ "visakhapatnam-travel-guide": {
+  "slug": "best-beaches-in-andhra-pradesh",
+  "label": "the best beaches in Andhra Pradesh"
+ },
+ "andhra-pradesh-travel-guide": {
+  "slug": "best-beaches-in-andhra-pradesh",
+  "label": "the best beaches in Andhra Pradesh"
+ },
+ "digha-travel-guide": {
+  "slug": "best-beaches-in-west-bengal",
+  "label": "the best beaches in West Bengal"
+ },
+ "mandarmani-travel-guide": {
+  "slug": "best-beaches-in-west-bengal",
+  "label": "the best beaches in West Bengal"
+ },
+ "gangasagar-travel-guide": {
+  "slug": "best-beaches-in-west-bengal",
+  "label": "the best beaches in West Bengal"
+ },
+ "mandvi-travel-guide": {
+  "slug": "best-beaches-in-gujarat",
+  "label": "the best beaches in Gujarat"
+ },
+ "dwarka-travel-guide": {
+  "slug": "best-beaches-in-gujarat",
+  "label": "the best beaches in Gujarat"
+ },
+ "somnath-travel-guide": {
+  "slug": "best-beaches-in-gujarat",
+  "label": "the best beaches in Gujarat"
+ },
+ "gujarat-travel-guide": {
+  "slug": "best-beaches-in-gujarat",
+  "label": "the best beaches in Gujarat"
+ },
+ "surat-travel-guide": {
+  "slug": "best-beaches-in-gujarat",
+  "label": "the best beaches in Gujarat"
+ },
+ "diu-travel-guide": {
+  "slug": "best-beaches-in-gujarat",
+  "label": "beaches in Gujarat, Diu and Daman"
+ },
+ "nagoa-beach-travel-guide": {
+  "slug": "best-beaches-in-gujarat",
+  "label": "beaches in Gujarat, Diu and Daman"
+ },
+ "ghoghla-beach-travel-guide": {
+  "slug": "beach-tourism-in-india",
+  "label": "Blue Flag beaches and beach tourism in India"
+ },
+ "daman-travel-guide": {
+  "slug": "best-beaches-in-gujarat",
+  "label": "beaches in Gujarat, Diu and Daman"
+ },
+ "devka-beach-travel-guide": {
+  "slug": "best-beaches-in-gujarat",
+  "label": "beaches in Gujarat, Diu and Daman"
+ },
+ "jampore-beach-travel-guide": {
+  "slug": "best-beaches-in-gujarat",
+  "label": "beaches in Gujarat, Diu and Daman"
+ }
+}

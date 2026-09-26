@@ -1,0 +1,363 @@
+{
+ "slug": "spiritual-tourism-in-madhya-pradesh",
+ "kind": "state",
+ "short": "Spiritual Madhya Pradesh",
+ "title": "Spiritual Tourism in Madhya Pradesh: Ujjain, Omkareshwar, Orchha and Sanchi",
+ "seoTitle": "Spiritual Places in Madhya Pradesh: Ujjain & Omkareshwar | Kudozz Club",
+ "metaDescription": "Plan a spiritual trip in Madhya Pradesh: Ujjain and Omkareshwar, Maheshwar, Orchha, Chitrakoot, Amarkantak, Maihar, Sanchi and Jain tirthas, with routes and seasons.",
+ "description": "A guide to spiritual tourism in Madhya Pradesh: the Jyotirlingas of Mahakaleshwar at Ujjain and Omkareshwar, Maheshwar's ghats, Ram Raja at Orchha, Chitrakoot, Amarkantak at the source of the Narmada, Maihar and Datia, the Buddhist stupas of Sanchi, the Jain hills of Sonagiri and Kundalpur, the 2028 Ujjain Simhastha, routes and seasons.",
+ "dek": "Madhya Pradesh has two Jyotirlingas, a Kumbh city, the source of the Narmada and India's best-preserved Buddhist stupas.",
+ "primaryKeyword": "spiritual places in Madhya Pradesh",
+ "secondaryKeywords": [
+  "religious places in Madhya Pradesh",
+  "temples in Madhya Pradesh",
+  "pilgrimage places in Madhya Pradesh"
+ ],
+ "searchIntent": "State discovery/planning",
+ "activities": [
+  "pilgrimage",
+  "Jyotirlinga",
+  "temple visit",
+  "Buddhist heritage"
+ ],
+ "terrain": [
+  "river",
+  "temple town",
+  "hills"
+ ],
+ "regions": [
+  "Madhya Pradesh",
+  "Central India"
+ ],
+ "seasons": [
+  "winter",
+  "monsoon",
+  "spring"
+ ],
+ "travellers": [
+  "families",
+  "senior travellers",
+  "groups"
+ ],
+ "tags": [
+  "Madhya Pradesh",
+  "Ujjain",
+  "Omkareshwar",
+  "Orchha"
+ ],
+ "hero": {
+  "src": "/images/spiritual/spiritual-mp-ujjain-ghats.webp",
+  "alt": "A temple and bathers at Shri Ram Ghat on the Shipra river, Ujjain"
+ },
+ "parent": {
+  "label": "Spiritual Tourism",
+  "href": "/spiritual-tourism"
+ },
+ "about": {
+  "type": "TouristDestination",
+  "name": "Spiritual Madhya Pradesh",
+  "containedIn": "Madhya Pradesh"
+ },
+ "intro": [
+  "Madhya Pradesh sits at the centre of several pilgrim traditions. Ujjain, on the Shipra, is home to the Mahakaleshwar Jyotirlinga and hosts the Simhastha Kumbh; Omkareshwar, on an island in the Narmada, is another Jyotirlinga. The Narmada itself is sacred along its length, from its source at Amarkantak to the ghats of Maheshwar.",
+  "The state also holds Orchha, where Rama is worshipped as a king, Chitrakoot on the border with Uttar Pradesh, the Buddhist stupas of Sanchi and Jain tirthas at Sonagiri and Kundalpur. Indore and Bhopal are the main gateways."
+ ],
+ "quickAnswer": "Madhya Pradesh's main spiritual destinations are Ujjain (Mahakaleshwar Jyotirlinga, Harsiddhi and Kal Bhairav), Omkareshwar (Jyotirlinga on the Narmada), Maheshwar, Orchha's Ram Raja temple, Chitrakoot, Amarkantak and Maihar. Sanchi is a major Buddhist site, and Sonagiri and Kundalpur are Jain tirthas. Ujjain and Omkareshwar are 140 km apart and easily combined from Indore. The Ujjain Simhastha runs from 27 March to 27 May 2028.",
+ "takeaways": [
+  "Ujjain and Omkareshwar are Jyotirlingas, both about two hours from Indore.",
+  "Mahakaleshwar's Bhasma Aarti must be booked in advance through the temple's official system.",
+  "The Narmada is sacred from Amarkantak to Maheshwar and Omkareshwar.",
+  "Orchha's Ram Raja temple worships Rama as a king.",
+  "Ujjain hosts the Simhastha Kumbh from 27 March to 27 May 2028."
+ ],
+ "sections": [
+  {
+   "id": "places",
+   "heading": "Main spiritual places",
+   "table": {
+    "columns": [
+     "Place",
+     "Tradition",
+     "Known for",
+     "Our guide"
+    ],
+    "rows": [
+     [
+      "Ujjain",
+      "Hindu",
+      "Mahakaleshwar, Harsiddhi, Kal Bhairav, Ram Ghat",
+      "Ujjain guide"
+     ],
+     [
+      "Omkareshwar",
+      "Hindu",
+      "Jyotirlinga on Mandhata island; Ekatma Dham",
+      "Omkareshwar guide"
+     ],
+     [
+      "Maheshwar",
+      "Hindu",
+      "Ahilyabai Holkar's ghats and temples",
+      "Covered here"
+     ],
+     [
+      "Orchha",
+      "Hindu",
+      "Ram Raja temple",
+      "Things to do in Orchha"
+     ],
+     [
+      "Chitrakoot",
+      "Hindu",
+      "Ramghat and the Kamadgiri parikrama",
+      "Covered here"
+     ],
+     [
+      "Amarkantak",
+      "Hindu",
+      "Source of the Narmada",
+      "Covered here"
+     ],
+     [
+      "Sanchi",
+      "Buddhist",
+      "The Great Stupa (UNESCO)",
+      "Sanchi guide"
+     ],
+     [
+      "Sonagiri and Kundalpur",
+      "Jain",
+      "Hill and temple tirthas",
+      "Covered here"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "highlights",
+   "heading": "Highlights",
+   "items": [
+    {
+     "name": "Ujjain",
+     "body": [
+      "Mahakaleshwar with its dawn Bhasma Aarti and the Mahakal Lok corridor, Harsiddhi temple, Kal Bhairav and the evening aarti at Ram Ghat."
+     ],
+     "links": [
+      {
+       "label": "Ujjain guide",
+       "href": "/blog/ujjain-travel-guide"
+      },
+      {
+       "label": "Things to do in Ujjain",
+       "href": "/blog/things-to-do-in-ujjain"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/madhya-pradesh/madhya-pradesh/mahakaleshwar-jyotirlinga-temple-ujjain.webp",
+      "alt": "Mahakaleshwar Jyotirlinga temple in Ujjain",
+      "caption": "Mahakaleshwar, Ujjain"
+     }
+    },
+    {
+     "name": "Omkareshwar",
+     "body": [
+      "The Jyotirlinga on Mandhata island, Mamleshwar on the south bank, and the Ekatma Dham with its large statue of Adi Shankaracharya."
+     ],
+     "links": [
+      {
+       "label": "Omkareshwar guide",
+       "href": "/blog/omkareshwar-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Orchha",
+     "body": [
+      "Rama is worshipped here as a king at the Ram Raja temple, beside the Bundela palaces and riverside chhatris."
+     ],
+     "links": [
+      {
+       "label": "Things to do in Orchha",
+       "href": "/blog/things-to-do-in-orchha"
+      }
+     ]
+    },
+    {
+     "name": "Sanchi",
+     "body": [
+      "The Great Stupa and its carved gateways, begun under Ashoka, near Bhopal."
+     ],
+     "links": [
+      {
+       "label": "Sanchi guide",
+       "href": "/blog/sanchi-travel-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "more",
+   "heading": "More sacred places",
+   "list": [
+    "Maheshwar: ghats and temples on the Narmada, restored under Ahilyabai Holkar; about 65 km from Omkareshwar.",
+    "Chitrakoot: Ramghat on the Mandakini and the parikrama of Kamadgiri hill.",
+    "Amarkantak: the Narmada Udgam temple at the river's source.",
+    "Maihar: the Sharda Devi temple on a hill, reached by steps or ropeway.",
+    "Datia: the Pitambara Peeth.",
+    "Bhojpur: an unfinished 11th-century Shiva temple with a huge linga, near Bhopal."
+   ]
+  },
+  {
+   "id": "route",
+   "heading": "Suggested routes",
+   "table": {
+    "columns": [
+     "Route",
+     "Days",
+     "Places"
+    ],
+    "rows": [
+     [
+      "Ujjain and Omkareshwar",
+      "3 to 4",
+      "Indore, Ujjain, Omkareshwar, Maheshwar"
+     ],
+     [
+      "Bundelkhand",
+      "3 to 4",
+      "Orchha, Datia, Khajuraho"
+     ],
+     [
+      "Bhopal region",
+      "2",
+      "Sanchi, Bhojpur"
+     ],
+     [
+      "Narmada and Vindhyas",
+      "4 to 5",
+      "Amarkantak, Maihar, Chitrakoot"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "stays",
+   "heading": "Where to stay and when to go",
+   "list": [
+    "Indore: the best base for Ujjain and Omkareshwar, with the most hotels.",
+    "Ujjain and Omkareshwar: hotels and dharamshalas near the temples; very busy around Maha Shivratri and Shravan.",
+    "October to March is best; the monsoon is lovely along the Narmada but hot and humid before it.",
+    "The Ujjain Simhastha (27 March to 27 May 2028) will bring very large crowds and high demand for rooms."
+   ]
+  }
+ ],
+ "safety": [
+  "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+  "Dress modestly and follow each temple's rules on dress, phones and photography.",
+  "Book darshan, aarti and accommodation only on official temple or government websites.",
+  "Take care on the ghats and follow river-safety notices on the Narmada and Shipra."
+ ],
+ "packing": [
+  "Light cotton clothing",
+  "Traditional clothes if attending the Bhasma Aarti (check the temple's dress rules)",
+  "Slip-on footwear",
+  "ID for bookings"
+ ],
+ "faqs": [
+  {
+   "q": "What is special about Amarkantak?",
+   "a": "It is the source of the Narmada river, marked by the Narmada Udgam temple."
+  },
+  {
+   "q": "How far is Omkareshwar from Ujjain?",
+   "a": "About 140 km, around three hours by road."
+  },
+  {
+   "q": "How do I book the Bhasma Aarti at Ujjain?",
+   "a": "Through the Mahakaleshwar temple's official booking system, in advance."
+  },
+  {
+   "q": "Which is the nearest airport for Ujjain and Omkareshwar?",
+   "a": "Indore, about 55 km from Ujjain and 80 km from Omkareshwar."
+  },
+  {
+   "q": "When is the Ujjain Simhastha?",
+   "a": "From 27 March to 27 May 2028, as announced."
+  },
+  {
+   "q": "What is the Ekatma Dham at Omkareshwar?",
+   "a": "A complex with a large statue of Adi Shankaracharya, opened in 2023."
+  },
+  {
+   "q": "Can I visit Sanchi and Ujjain on one trip?",
+   "a": "Yes. Sanchi is near Bhopal, about three hours from Ujjain by road."
+  },
+  {
+   "q": "What is special about Orchha's Ram Raja temple?",
+   "a": "Rama is worshipped there as a king, with a daily guard of honour."
+  }
+ ],
+ "nextSteps": [
+  {
+   "label": "Ujjain guide",
+   "href": "/blog/ujjain-travel-guide"
+  },
+  {
+   "label": "Omkareshwar guide",
+   "href": "/blog/omkareshwar-travel-guide"
+  },
+  {
+   "label": "Madhya Pradesh travel guide",
+   "href": "/blog/madhya-pradesh-travel-guide"
+  },
+  {
+   "label": "Madhya Pradesh tour packages",
+   "href": "/packages/madhya-pradesh"
+  },
+  {
+   "label": "Spiritual tour packages",
+   "href": "/packages/spiritual-tours"
+  }
+ ],
+ "related": [
+  {
+   "name": "The 12 Jyotirlingas",
+   "href": "/blog/12-jyotirlingas-in-india",
+   "note": "Mahakaleshwar and Omkareshwar"
+  },
+  {
+   "name": "Kumbh Mela",
+   "href": "/blog/kumbh-mela",
+   "note": "the 2028 Simhastha"
+  },
+  {
+   "name": "Buddhist tourism in India",
+   "href": "/blog/buddhist-tourism-in-india",
+   "note": "Sanchi and more"
+  },
+  {
+   "name": "Heritage tourism in Madhya Pradesh",
+   "href": "/blog/heritage-tourism-in-madhya-pradesh",
+   "note": "forts, monuments and crafts"
+  }
+ ],
+ "places": [
+  "Ujjain",
+  "Omkareshwar",
+  "Maheshwar",
+  "Orchha",
+  "Chitrakoot",
+  "Amarkantak",
+  "Maihar",
+  "Sanchi",
+  "Sonagiri",
+  "Indore"
+ ],
+ "styles": [
+  "spiritual-tours",
+  "family-holidays"
+ ],
+ "planDestination": "Madhya Pradesh",
+ "updated": "2026-09-26"
+}

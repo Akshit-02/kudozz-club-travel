@@ -1,0 +1,333 @@
+{
+  "slug": "nageshwar-jyotirlinga",
+  "kind": "destination",
+  "short": "Nageshwar",
+  "title": "Nageshwar Jyotirlinga: Temple Guide near Dwarka",
+  "seoTitle": "Nageshwar Jyotirlinga near Dwarka: Temple Guide & Tips | Kudozz Club",
+  "metaDescription": "Visit Nageshwar Jyotirlinga near Dwarka: the temple, how to reach it, a day plan with Bet Dwarka, and the other temples that also claim the name.",
+  "description": "A visitor's guide to Nageshwar Jyotirlinga in Devbhumi Dwarka district, Gujarat: the temple and its large seated Shiva statue, darshan tips, the drive from Dwarka on the Okha road, combining it with Dwarkadhish, Bet Dwarka and Gopi Talav, the best time, and Aundha Nagnath and Jageshwar, which also claim the name.",
+  "dek": "Nageshwar is the Jyotirlinga of the Saurashtra coast, a short drive from Dwarka and usually visited on the same day as Bet Dwarka.",
+  "primaryKeyword": "Nageshwar jyotirlinga",
+  "secondaryKeywords": [
+    "Nageshwar temple Dwarka",
+    "Dwarka to Nageshwar",
+    "Aundha Nagnath"
+  ],
+  "searchIntent": "Destination planning",
+  "activities": [
+    "Jyotirlinga",
+    "Shiva temples",
+    "darshan",
+    "temple visit"
+  ],
+  "terrain": [
+    "temple town",
+    "coast"
+  ],
+  "regions": [
+    "Gujarat",
+    "West India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "couples"
+  ],
+  "tags": [
+    "Nageshwar",
+    "Jyotirlinga",
+    "Dwarka",
+    "Gujarat"
+  ],
+  "hero": {
+    "src": "/images/spiritual/nageshwar-temple-dwarka.webp",
+    "alt": "The front of Nageshwar Jyotirlinga temple near Dwarka, Gujarat"
+  },
+  "parent": {
+    "label": "The 12 Jyotirlingas",
+    "href": "/blog/12-jyotirlingas-in-india"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Nageshwar Jyotirlinga Temple",
+    "containedIn": "Gujarat"
+  },
+  "intro": [
+    "Nageshwar Jyotirlinga stands between Dwarka and Okha in Devbhumi Dwarka district, about 17 km from Dwarka town. Gujarat Tourism describes it as the Nageshwar Jyotirlinga, and for most pilgrims it is the natural stop between Dwarkadhish Temple and Bet Dwarka.",
+    "The temple is modern in appearance, and a large seated statue of Shiva in the grounds is visible from the road. Inside, the linga is in an underground sanctum. Other temples also claim the Nageshwar name; this guide notes them below."
+  ],
+  "quickAnswer": "Nageshwar Jyotirlinga is about 17 km from Dwarka on the road to Okha and Bet Dwarka, around 25 to 30 minutes by car or auto. Most visitors combine it with Dwarkadhish Temple, Gopi Talav and Bet Dwarka in one day. Aundha Nagnath in Maharashtra and Jageshwar in Uttarakhand also claim the Nageshwar name. October to March is the best time to visit.",
+  "takeaways": [
+    "Nageshwar is about 17 km from Dwarka on the road to Okha and Bet Dwarka.",
+    "A large seated Shiva statue stands in the temple grounds.",
+    "Combine it with Dwarkadhish, Gopi Talav and Bet Dwarka in one day.",
+    "Bet Dwarka is reached by the Sudarshan Setu bridge from Okha, opened in 2024.",
+    "Aundha Nagnath and Jageshwar also claim to be the Nageshwar Jyotirlinga."
+  ],
+  "sections": [
+    {
+      "id": "temple",
+      "heading": "The temple",
+      "paras": [
+        "The sanctum is below ground level, reached by steps. Devotees usually take darshan from a short distance, and on some occasions may enter the sanctum. The grounds hold the large Shiva statue, a popular photo stop."
+      ],
+      "items": [
+        {
+          "name": "At a glance",
+          "body": [
+            "Key facts for visitors."
+          ],
+          "facts": {
+            "Location": "Dwarka to Okha road, Devbhumi Dwarka district",
+            "Distance from Dwarka": "About 17 km",
+            "Best time": "October to March",
+            "Nearby": "Gopi Talav, Bet Dwarka"
+          }
+        }
+      ]
+    },
+    {
+      "id": "claims",
+      "heading": "Other temples that claim the name",
+      "paras": [
+        "Nageshwar is one of three Jyotirlingas whose location is disputed. Aundha Nagnath in Hingoli district, Maharashtra, and Jageshwar in Almora district, Uttarakhand, are also revered as the Nageshwar Jyotirlinga by many devotees. The temple near Dwarka is the identification followed by Gujarat Tourism and most pilgrims to Saurashtra."
+      ],
+      "items": [
+        {
+          "name": "Jageshwar",
+          "body": [
+            "A cluster of stone temples in the Kumaon hills."
+          ],
+          "links": [
+            {
+              "label": "Jageshwar guide",
+              "href": "/blog/jageshwar-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day",
+      "heading": "A day from Dwarka",
+      "table": {
+        "columns": [
+          "Time",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "Morning",
+            "Dwarkadhish Temple darshan and Gomti Ghat"
+          ],
+          [
+            "Late morning",
+            "Nageshwar Jyotirlinga (about 17 km)"
+          ],
+          [
+            "Midday",
+            "Gopi Talav"
+          ],
+          [
+            "Afternoon",
+            "Okha and Bet Dwarka via Sudarshan Setu"
+          ],
+          [
+            "Evening",
+            "Return to Dwarka; aarti at Dwarkadhish"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "nearby",
+      "heading": "Around Dwarka",
+      "items": [
+        {
+          "name": "Dwarkadhish Temple",
+          "body": [
+            "One of the four dhams of the national Char Dham, on the Gomti river."
+          ],
+          "links": [
+            {
+              "label": "Dwarka guide",
+              "href": "/blog/dwarka-travel-guide"
+            },
+            {
+              "label": "Char Dham of India",
+              "href": "/blog/char-dham-of-india"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/gujarat/dwarkadhish-temple-dwarka-gomti-ghat.webp",
+            "alt": "Dwarkadhish Temple above the Gomti Ghat in Dwarka, Gujarat",
+            "caption": "Dwarkadhish Temple, Dwarka"
+          }
+        },
+        {
+          "name": "Bet Dwarka",
+          "body": [
+            "An island temple town linked to the mainland at Okha by the Sudarshan Setu bridge."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Dwarka",
+              "href": "/blog/things-to-do-in-dwarka"
+            }
+          ]
+        },
+        {
+          "name": "Shivrajpur Beach",
+          "body": [
+            "A Blue Flag beach about 12 km north of Dwarka."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Gujarat",
+              "href": "/blog/best-beaches-in-gujarat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reach",
+      "heading": "How to reach",
+      "list": [
+        "From Dwarka: about 17 km by taxi or shared auto, 25 to 30 minutes.",
+        "Dwarka railway station is on the line from Ahmedabad and Rajkot to Okha.",
+        "Nearest airports: Jamnagar and Porbandar, each a two to three hour drive.",
+        "Somnath, the first Jyotirlinga, is about 235 km away along the coast."
+      ]
+    },
+    {
+      "id": "dwarka-temple-route",
+      "heading": "The Saurashtra temple route",
+      "paras": [
+        "Nageshwar sits on one of Gujarat's best-known pilgrim routes. Many families travel from Ahmedabad or Rajkot to Dwarka for Dwarkadhish and Nageshwar, then follow the coast to Porbandar (Gandhi's birthplace) and Somnath, the first Jyotirlinga. Allow at least four days for Dwarka, Nageshwar, Bet Dwarka and Somnath, and more if you add Junagadh and Girnar or a lion safari in Gir."
+      ],
+      "items": [
+        {
+          "name": "Plan the route",
+          "body": [
+            "Our Gujarat spiritual guide lays out the full circuit."
+          ],
+          "links": [
+            {
+              "label": "Spiritual tourism in Gujarat",
+              "href": "/blog/spiritual-tourism-in-gujarat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for the visit",
+      "list": [
+        "Visit Nageshwar in the morning on your way to Bet Dwarka, before the midday heat.",
+        "Shared autos and taxis wait outside Dwarkadhish Temple; agree the fare for the round trip, including waiting time.",
+        "Bags and phones may have to be deposited; carry only what you need.",
+        "Maha Shivratri and Shravan Mondays bring large crowds from across Saurashtra."
+      ]
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Dress modestly (shoulders and knees covered) and follow the temple's rules on phones, bags and photography.",
+    "Carry water and sun protection; Saurashtra is hot for much of the year."
+  ],
+  "packing": [
+    "Light, modest clothing",
+    "Hat and sunscreen",
+    "Slip-on footwear",
+    "Water"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Nageshwar Jyotirlinga from Dwarka?",
+      "a": "About 17 km, around 25 to 30 minutes by road."
+    },
+    {
+      "q": "Is Nageshwar the real Jyotirlinga?",
+      "a": "The temple near Dwarka is the most widely followed identification. Aundha Nagnath (Maharashtra) and Jageshwar (Uttarakhand) also claim the name."
+    },
+    {
+      "q": "Can I visit Nageshwar and Bet Dwarka on the same day?",
+      "a": "Yes. Nageshwar lies on the road from Dwarka to Okha, where the bridge to Bet Dwarka starts."
+    },
+    {
+      "q": "How do I travel between Somnath and Nageshwar?",
+      "a": "By road along the coast, about 235 km, or by train via Rajkot."
+    },
+    {
+      "q": "How much time do I need at Nageshwar?",
+      "a": "About an hour for darshan and the grounds on a normal day; longer on Mondays and festivals."
+    },
+    {
+      "q": "Is there a dress code at Nageshwar?",
+      "a": "Modest clothing is expected; cover shoulders and knees and follow the notices at the entrance."
+    },
+    {
+      "q": "What is the best time to visit Nageshwar?",
+      "a": "October to March, when Saurashtra is cooler."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Dwarka guide",
+      "href": "/blog/dwarka-travel-guide"
+    },
+    {
+      "label": "Things to do in Dwarka",
+      "href": "/blog/things-to-do-in-dwarka"
+    },
+    {
+      "label": "Somnath guide",
+      "href": "/blog/somnath-travel-guide"
+    },
+    {
+      "label": "Gujarat tour packages",
+      "href": "/packages/gujarat"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "The 12 Jyotirlingas",
+      "href": "/blog/12-jyotirlingas-in-india",
+      "note": "the full list"
+    },
+    {
+      "name": "Spiritual tourism in Gujarat",
+      "href": "/blog/spiritual-tourism-in-gujarat",
+      "note": "the Saurashtra temple route"
+    },
+    {
+      "name": "The Char Dham of India",
+      "href": "/blog/char-dham-of-india",
+      "note": "Dwarka and the four dhams"
+    }
+  ],
+  "places": [
+    "Nageshwar",
+    "Dwarka",
+    "Gopi Talav",
+    "Okha",
+    "Bet Dwarka",
+    "Shivrajpur"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Dwarka and Nageshwar",
+  "updated": "2026-09-26"
+}

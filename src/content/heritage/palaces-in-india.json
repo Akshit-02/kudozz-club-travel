@@ -1,0 +1,415 @@
+{
+  "slug": "palaces-in-india",
+  "kind": "pillar",
+  "short": "Palaces in India",
+  "title": "Palaces in India: Royal Heritage and How to Visit",
+  "seoTitle": "Palaces in India: Royal Heritage & How to Visit | Kudozz Club",
+  "metaDescription": "India's great palaces: Jaipur's City Palace and Hawa Mahal, Udaipur, Umaid Bhawan, Mysore Palace, Laxmi Vilas, Chowmahalla and Kerala's wooden palaces, with tips.",
+  "description": "A guide to India's royal palaces for visitors: Rajasthan's City Palaces in Jaipur and Udaipur, the Hawa Mahal and Umaid Bhawan; Mysore Palace and its illuminations; Laxmi Vilas in Vadodara; Chowmahalla and Falaknuma in Hyderabad; Padmanabhapuram and Mattancherry in Kerala; Hazarduari, Cooch Behar and the palaces of central India, with visiting tips and a note on palace hotels.",
+  "dek": "India's palaces range from Mughal and Rajput halls to Indo-Saracenic mansions, and many are still home to former royal families.",
+  "primaryKeyword": "palaces in India",
+  "secondaryKeywords": [
+    "royal palaces India",
+    "palace tourism India",
+    "famous palaces of India"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "palaces",
+    "museums",
+    "heritage walks",
+    "photography"
+  ],
+  "terrain": [
+    "heritage town",
+    "lake"
+  ],
+  "regions": [
+    "Rajasthan",
+    "Karnataka",
+    "Gujarat",
+    "Telangana",
+    "Kerala",
+    "West Bengal",
+    "Madhya Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "photographers"
+  ],
+  "tags": [
+    "Palaces",
+    "Royal Heritage",
+    "Rajasthan",
+    "Mysore"
+  ],
+  "hero": {
+    "src": "/images/heritage/palaces-india-mysore-palace.webp",
+    "alt": "Mysore Palace, Mysuru, Karnataka"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Palaces of India"
+  },
+  "intro": [
+    "Before 1947 India had hundreds of princely states, and their rulers built palaces that mixed Rajput, Mughal, Deccan, European and Indo-Saracenic styles. Many are now museums, some are hotels, and a few are still partly lived in by the former royal families.",
+    "This guide covers palaces you can visit as heritage sites. Where a palace is also a hotel, we note it, but staying in one is a different kind of trip; our luxury holidays page covers that."
+  ],
+  "quickAnswer": "India's best-known palaces include the City Palace and Hawa Mahal in Jaipur, the City Palace in Udaipur, Umaid Bhawan in Jodhpur, Mysore Palace, Laxmi Vilas Palace in Vadodara, Chowmahalla Palace in Hyderabad, and the Padmanabhapuram and Mattancherry palaces in the south. Many have museums; some are partly hotels or royal residences, so only certain areas are open to visitors.",
+  "takeaways": [
+    "Rajasthan has the greatest number of visitable palaces.",
+    "Mysore Palace is illuminated on Sunday and public-holiday evenings and during Dasara; check timings.",
+    "Several palaces are still partly royal residences, so only some areas are open.",
+    "Palace hotels (such as Udaipur's Lake Palace and Hyderabad's Falaknuma) usually restrict entry to guests.",
+    "Photography rules vary; some museums charge a camera fee or ban photography inside."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Palaces to visit",
+      "table": {
+        "columns": [
+          "Palace",
+          "City",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "City Palace",
+            "Jaipur",
+            "Museum and part royal residence (Chandra Mahal)"
+          ],
+          [
+            "Hawa Mahal",
+            "Jaipur",
+            "1799 screen facade for royal women to watch the street"
+          ],
+          [
+            "City Palace",
+            "Udaipur",
+            "Museum on Lake Pichola"
+          ],
+          [
+            "Umaid Bhawan",
+            "Jodhpur",
+            "20th-century palace: museum, hotel and royal residence"
+          ],
+          [
+            "Mysore Palace",
+            "Mysuru",
+            "Rebuilt after an 1897 fire; illuminated on set evenings"
+          ],
+          [
+            "Laxmi Vilas Palace",
+            "Vadodara",
+            "Indo-Saracenic palace of the Gaekwads, still a residence"
+          ],
+          [
+            "Chowmahalla Palace",
+            "Hyderabad",
+            "Palace of the Nizams, open as a museum"
+          ],
+          [
+            "Padmanabhapuram Palace",
+            "Near Nagercoil (managed by Kerala)",
+            "Wooden palace of the Travancore rulers"
+          ],
+          [
+            "Mattancherry Palace",
+            "Kochi",
+            "Known for its murals"
+          ],
+          [
+            "Hazarduari Palace",
+            "Murshidabad",
+            "Museum in a 19th-century palace"
+          ],
+          [
+            "Jai Vilas Palace",
+            "Gwalior",
+            "Scindia museum"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "rajasthan",
+      "heading": "Rajasthan",
+      "items": [
+        {
+          "name": "Jaipur",
+          "body": [
+            "The City Palace, the Hawa Mahal and the Jal Mahal, a palace in Man Sagar lake seen from the shore."
+          ],
+          "links": [
+            {
+              "label": "Jaipur guide",
+              "href": "/blog/jaipur-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/rajasthan/rajasthan/hawa-mahal-facade-jaipur.webp",
+            "alt": "The honeycomb facade of the Hawa Mahal, Jaipur",
+            "caption": "Hawa Mahal, Jaipur"
+          }
+        },
+        {
+          "name": "Udaipur",
+          "body": [
+            "The City Palace museum, with the Lake Palace (a hotel) and Jag Mandir on Lake Pichola."
+          ],
+          "links": [
+            {
+              "label": "Udaipur guide",
+              "href": "/blog/udaipur-city-of-lakes-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/rajasthan/udaipur/udaipur-city-palace-lake-pichola.webp",
+            "alt": "The City Palace on the shore of Lake Pichola, Udaipur",
+            "caption": "City Palace, Udaipur"
+          }
+        },
+        {
+          "name": "Jodhpur and Bikaner",
+          "body": [
+            "Umaid Bhawan's museum wing, and Junagarh's palace rooms."
+          ],
+          "links": [
+            {
+              "label": "Jodhpur guide",
+              "href": "/blog/jodhpur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-west",
+      "heading": "The south and west",
+      "items": [
+        {
+          "name": "Mysore Palace",
+          "body": [
+            "The home of the Wadiyars, rebuilt after a fire in 1897 and completed in 1912; lit with thousands of bulbs on set evenings and throughout Dasara."
+          ],
+          "links": [
+            {
+              "label": "Mysuru guide",
+              "href": "/blog/mysuru-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/mysuru/mysore-palace-mysuru.webp",
+            "alt": "Mysore Palace, Mysuru, Karnataka",
+            "caption": "Mysore Palace"
+          }
+        },
+        {
+          "name": "Laxmi Vilas, Vadodara",
+          "body": [
+            "A vast Indo-Saracenic palace of the Gaekwads of Baroda, completed in 1890."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Vadodara",
+              "href": "/blog/things-to-do-in-vadodara"
+            }
+          ]
+        },
+        {
+          "name": "Hyderabad",
+          "body": [
+            "Chowmahalla Palace, open as a museum; Falaknuma, now a hotel."
+          ],
+          "links": [
+            {
+              "label": "Hyderabad guide",
+              "href": "/blog/hyderabad-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kerala and Tamil Nadu",
+          "body": [
+            "Padmanabhapuram's timber halls, Mattancherry's murals, and Madurai's Thirumalai Nayak Palace."
+          ],
+          "links": [
+            {
+              "label": "Kochi guide",
+              "href": "/blog/kochi-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east-central",
+      "heading": "East and central India",
+      "list": [
+        "Hazarduari Palace, Murshidabad: a museum of the Nawabs of Bengal.",
+        "Cooch Behar Palace, West Bengal.",
+        "Ujjayanta Palace, Agartala: now the Tripura State Museum.",
+        "Jai Vilas Palace, Gwalior, and the Jahangir Mahal at Orchha.",
+        "Jahaz Mahal, Mandu: a pavilion between two lakes."
+      ],
+      "items": [
+        {
+          "name": "Guides",
+          "body": [
+            "Palaces in the east and centre."
+          ],
+          "links": [
+            {
+              "label": "Murshidabad guide",
+              "href": "/blog/murshidabad-travel-guide"
+            },
+            {
+              "label": "Ujjayanta Palace guide",
+              "href": "/blog/ujjayanta-palace-travel-guide"
+            },
+            {
+              "label": "Things to do in Orchha",
+              "href": "/blog/things-to-do-in-orchha"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hotels",
+      "heading": "A note on palace hotels",
+      "paras": [
+        "Several palaces now operate as hotels, including the Lake Palace and parts of Umaid Bhawan and Falaknuma. These are accommodation choices rather than heritage sites open to the public, and entry is usually limited to guests or restaurant bookings. For palace stays, see our luxury holidays packages."
+      ],
+      "items": [
+        {
+          "name": "Luxury holidays",
+          "body": [
+            "Palace stays and heritage hotels."
+          ],
+          "links": [
+            {
+              "label": "Luxury holidays",
+              "href": "/packages/luxury-holidays"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "styles",
+      "heading": "Palace styles",
+      "paras": [
+        "Rajput palaces such as Amber and Udaipur's City Palace combine courtyards, screened windows (jharokhas) and mirror work. Mughal palaces in the Red Fort and Agra Fort use marble pavilions and gardens. The 19th- and early 20th-century palaces of Mysuru, Vadodara, Jodhpur and Gwalior mix Indian and European ideas in the Indo-Saracenic style, while Kerala's palaces are built in timber with sloping tiled roofs suited to heavy rain."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Buy composite tickets where they exist, such as Jaipur's combined monument ticket.",
+        "Take the audio guide at Mehrangarh and the City Palaces; they add a great deal.",
+        "Many palace museums close by 5 pm; start with them and keep the evening for lakes and markets."
+      ]
+    }
+  ],
+  "safety": [
+    "Follow museum rules on photography and bags; some charge camera fees.",
+    "Palaces that are royal residences keep some areas closed; respect the barriers.",
+    "Timings, closures and tickets are set by the ASI, state departments or trusts and change from time to time; check official sources before you go."
+  ],
+  "packing": [
+    "Comfortable shoes",
+    "Camera (check fees)",
+    "Photo ID",
+    "Light layers"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the most famous palace in India?",
+      "a": "Mysore Palace and the City Palaces of Jaipur and Udaipur are among the best known."
+    },
+    {
+      "q": "When is Mysore Palace illuminated?",
+      "a": "On Sunday and public-holiday evenings and throughout Dasara, for a short period; check current timings."
+    },
+    {
+      "q": "Can I visit the Lake Palace in Udaipur?",
+      "a": "It is a hotel, so entry is usually limited to guests and restaurant bookings; you can see it from the lake and the City Palace."
+    },
+    {
+      "q": "Are Indian palaces still lived in?",
+      "a": "Some are, in part, including Jaipur's City Palace, Umaid Bhawan and Laxmi Vilas."
+    },
+    {
+      "q": "Which palaces are in Hyderabad?",
+      "a": "Chowmahalla Palace, open as a museum, and Falaknuma, now a hotel."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage tourism in Rajasthan",
+      "href": "/blog/heritage-tourism-in-rajasthan"
+    },
+    {
+      "label": "Things to do in Mysore",
+      "href": "/blog/things-to-do-in-mysore"
+    },
+    {
+      "label": "Rajasthan heritage itinerary",
+      "href": "/blog/rajasthan-heritage-itinerary"
+    },
+    {
+      "label": "Luxury holidays",
+      "href": "/packages/luxury-holidays"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Famous forts in India",
+      "href": "/blog/famous-forts-in-india",
+      "note": "the forts"
+    },
+    {
+      "name": "Best museums in India",
+      "href": "/blog/best-museums-in-india",
+      "note": "palace museums and more"
+    },
+    {
+      "name": "Heritage cities in India",
+      "href": "/blog/heritage-cities-in-india",
+      "note": "palace cities"
+    }
+  ],
+  "places": [
+    "Jaipur",
+    "Udaipur",
+    "Jodhpur",
+    "Mysuru",
+    "Vadodara",
+    "Hyderabad",
+    "Kochi",
+    "Murshidabad",
+    "Gwalior"
+  ],
+  "styles": [
+    "heritage-tours",
+    "luxury-holidays"
+  ],
+  "planDestination": "palaces of India",
+  "updated": "2026-09-26"
+}

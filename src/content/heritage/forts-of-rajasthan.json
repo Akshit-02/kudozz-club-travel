@@ -1,0 +1,368 @@
+{
+  "slug": "forts-of-rajasthan",
+  "kind": "pillar",
+  "short": "Forts of Rajasthan",
+  "title": "Forts of Rajasthan: The UNESCO Hill Forts and Beyond",
+  "seoTitle": "Forts of Rajasthan: The UNESCO Hill Forts & Beyond | Kudozz Club",
+  "metaDescription": "Rajasthan's great forts: the six UNESCO hill forts (Amber, Chittorgarh, Kumbhalgarh, Ranthambore, Gagron, Jaisalmer), plus Mehrangarh, Junagarh and Bundi.",
+  "description": "A guide to the forts of Rajasthan: the six Hill Forts of Rajasthan inscribed by UNESCO in 2013 (Amber, Chittorgarh, Kumbhalgarh, Ranthambore, Gagron and Jaisalmer), other great forts including Mehrangarh, Junagarh, Taragarh, Nahargarh, Jaigarh and Lohagarh, what makes each distinct, and a route to see several in one trip.",
+  "dek": "Rajput kingdoms built some of India's most spectacular forts in Rajasthan's hills and deserts. Six of them are a single UNESCO World Heritage Site.",
+  "primaryKeyword": "forts of Rajasthan",
+  "secondaryKeywords": [
+    "hill forts of Rajasthan",
+    "Rajasthan forts list",
+    "Rajput forts"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "forts",
+    "palaces",
+    "UNESCO sites",
+    "photography"
+  ],
+  "terrain": [
+    "hills",
+    "desert"
+  ],
+  "regions": [
+    "Rajasthan",
+    "North India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Rajasthan",
+    "Forts",
+    "Rajput",
+    "UNESCO"
+  ],
+  "hero": {
+    "src": "/images/heritage/forts-rajasthan-kumbhalgarh-walls.webp",
+    "alt": "Kumbhalgarh Fort and its walls in the Aravalli hills, Rajasthan"
+  },
+  "parent": {
+    "label": "Famous Forts in India",
+    "href": "/blog/famous-forts-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Forts of Rajasthan",
+    "containedIn": "Rajasthan"
+  },
+  "intro": [
+    "Rajasthan's forts were built and rebuilt by Rajput dynasties over many centuries, adapting to hills, deserts, rivers and forests. Six of them, chosen to show that range, were inscribed by UNESCO in 2013 as the Hill Forts of Rajasthan: Amber, Chittorgarh, Kumbhalgarh, Ranthambore, Gagron and Jaisalmer.",
+    "Many others are just as rewarding: Mehrangarh in Jodhpur, Junagarh in Bikaner, Taragarh above Bundi, and Jaipur's Nahargarh and Jaigarh. Several have museums, audio guides and evening shows."
+  ],
+  "quickAnswer": "The forts of Rajasthan include the six UNESCO Hill Forts of Rajasthan (Amber near Jaipur, Chittorgarh, Kumbhalgarh, Ranthambore, Gagron near Jhalawar and Jaisalmer, a living fort) and other great forts such as Mehrangarh in Jodhpur, Junagarh in Bikaner and Taragarh in Bundi. A 10 to 14 day road trip can take in most of them. October to March is the best time.",
+  "takeaways": [
+    "The six UNESCO hill forts were inscribed together in 2013.",
+    "Jaisalmer is a living fort, with homes, shops and hotels inside.",
+    "Kumbhalgarh's walls run for about 36 km across the Aravallis.",
+    "Ranthambore fort stands inside the tiger reserve.",
+    "Mehrangarh and Junagarh are not UNESCO-listed but have excellent museums."
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "heading": "The six UNESCO hill forts",
+      "table": {
+        "columns": [
+          "Fort",
+          "Near",
+          "Known for"
+        ],
+        "rows": [
+          [
+            "Amber",
+            "Jaipur",
+            "Palace-fort with the Sheesh Mahal"
+          ],
+          [
+            "Chittorgarh",
+            "Chittorgarh",
+            "Towers of victory and fame; long history of sieges"
+          ],
+          [
+            "Kumbhalgarh",
+            "Udaipur",
+            "Walls of about 36 km; birthplace of Maharana Pratap"
+          ],
+          [
+            "Ranthambore",
+            "Sawai Madhopur",
+            "Fort within the tiger reserve"
+          ],
+          [
+            "Gagron",
+            "Jhalawar",
+            "Water fort at a river confluence"
+          ],
+          [
+            "Jaisalmer",
+            "Jaisalmer",
+            "Living golden sandstone fort"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "highlights",
+      "heading": "Highlights",
+      "items": [
+        {
+          "name": "Chittorgarh",
+          "body": [
+            "A vast hill fort with the Vijay Stambh and Kirti Stambh towers, palaces and temples, and a history of sieges remembered in local tradition."
+          ],
+          "links": [
+            {
+              "label": "Chittorgarh guide",
+              "href": "/blog/chittorgarh-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kumbhalgarh",
+          "body": [
+            "Built under Rana Kumbha in the 15th century, with a long wall walk and views over the Aravallis."
+          ],
+          "links": [
+            {
+              "label": "Kumbhalgarh guide",
+              "href": "/blog/kumbhalgarh-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/rajasthan/kumbhalgarh/kumbhalgarh-fort-2.webp",
+            "alt": "The walls of Kumbhalgarh Fort in the Aravalli hills",
+            "caption": "Kumbhalgarh Fort"
+          }
+        },
+        {
+          "name": "Jaisalmer",
+          "body": [
+            "A 12th-century fort in golden sandstone, still lived in, with Jain temples and havelis nearby."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Jaisalmer",
+              "href": "/blog/things-to-do-in-jaisalmer"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/rajasthan/rajasthan/jaisalmer-fort-sunrise-golden-city.webp",
+            "alt": "Jaisalmer Fort glowing gold at sunrise",
+            "caption": "Jaisalmer Fort"
+          }
+        },
+        {
+          "name": "Amber and Mehrangarh",
+          "body": [
+            "Rajasthan's best-presented palace-forts, near Jaipur and in Jodhpur."
+          ],
+          "links": [
+            {
+              "label": "Amber Fort",
+              "href": "/blog/amber-fort"
+            },
+            {
+              "label": "Mehrangarh Fort",
+              "href": "/blog/mehrangarh-fort"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "More great forts",
+      "list": [
+        "Junagarh, Bikaner: built in the late 16th century on the plain, not a hill, with richly decorated palaces.",
+        "Taragarh and the Garh Palace, Bundi: known for murals.",
+        "Nahargarh and Jaigarh, Jaipur: ridge forts with city views and a giant cannon at Jaigarh.",
+        "Lohagarh, Bharatpur: a mud-walled fort.",
+        "Bhangarh: a ruined town and fort, famous in local legend."
+      ],
+      "items": [
+        {
+          "name": "Bikaner and Bundi",
+          "body": [
+            "Two quieter fort towns."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Bikaner",
+              "href": "/blog/things-to-do-in-bikaner"
+            },
+            {
+              "label": "Things to do in Bundi",
+              "href": "/blog/things-to-do-in-bundi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "A fort route",
+      "table": {
+        "columns": [
+          "Days",
+          "Route"
+        ],
+        "rows": [
+          [
+            "1 to 2",
+            "Jaipur: Amber, Jaigarh, Nahargarh"
+          ],
+          [
+            "3",
+            "Ranthambore fort (with a safari if you wish)"
+          ],
+          [
+            "4 to 5",
+            "Bundi and Chittorgarh"
+          ],
+          [
+            "6 to 7",
+            "Udaipur, with a day at Kumbhalgarh"
+          ],
+          [
+            "8 to 9",
+            "Jodhpur: Mehrangarh"
+          ],
+          [
+            "10 to 11",
+            "Jaisalmer fort"
+          ]
+        ]
+      },
+      "after": [
+        "See our Rajasthan heritage itinerary for a day-by-day plan."
+      ]
+    },
+    {
+      "id": "why-unesco",
+      "heading": "Why these six were chosen",
+      "paras": [
+        "UNESCO inscribed the six forts as one site because together they show how Rajput military architecture adapted to different landscapes: Chittorgarh and Kumbhalgarh on hilltops, Gagron surrounded by rivers, Ranthambore in forest, Amber above a lake, and Jaisalmer in the desert. Each fort also held palaces, temples, markets and water systems, so they worked as fortified towns rather than garrisons alone."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Hire a licensed guide at Chittorgarh; the fort is large and its stories need context.",
+        "Stay a night near Kumbhalgarh to see the walls lit in the evening and walk them early.",
+        "Jaisalmer's fort is lived in; be respectful of homes and consider staying outside the walls to reduce strain on the old drainage.",
+        "Gagron, near Jhalawar, is quiet and rarely visited; combine it with Bundi."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "Most of these forts grew over many centuries. Chittorgarh was the Mewar capital until 1568, when Akbar's siege led the court to move to Udaipur. Kumbhalgarh was built largely under Rana Kumbha in the 15th century. Jaisalmer was founded by Rawal Jaisal in the 12th century on Trikuta hill. Amber became the Kachhwaha stronghold before Jaipur was founded in 1727. The sieges and sacrifices told in bardic ballads are part of local memory; historians treat some details as tradition rather than record."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and tickets are set by the ASI, state departments or trusts and change from time to time; check official sources before you go.",
+    "Do not climb on ramparts or carvings, and follow the rules on photography and drones.",
+    "Carry water and a hat; forts are exposed and Indian summers are hot.",
+    "Kumbhalgarh's wall walk is exposed and uneven; take care on the steps."
+  ],
+  "packing": [
+    "Walking shoes",
+    "Hat and sunscreen",
+    "Warm layers for desert nights in winter",
+    "Photo ID"
+  ],
+  "faqs": [
+    {
+      "q": "Which forts of Rajasthan are UNESCO World Heritage Sites?",
+      "a": "Amber, Chittorgarh, Kumbhalgarh, Ranthambore, Gagron and Jaisalmer, inscribed together in 2013."
+    },
+    {
+      "q": "Which is the biggest fort in Rajasthan?",
+      "a": "Chittorgarh is among the largest forts in India by area; Kumbhalgarh has the longest walls."
+    },
+    {
+      "q": "Is Mehrangarh a UNESCO site?",
+      "a": "No, but it is one of the best-presented forts in Rajasthan."
+    },
+    {
+      "q": "What is a living fort?",
+      "a": "One where people still live inside; Jaisalmer is the best-known example."
+    },
+    {
+      "q": "How many days do I need to see Rajasthan's forts?",
+      "a": "About 10 to 14 days for a road trip covering most of them."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Rajasthan heritage itinerary",
+      "href": "/blog/rajasthan-heritage-itinerary"
+    },
+    {
+      "label": "Heritage tourism in Rajasthan",
+      "href": "/blog/heritage-tourism-in-rajasthan"
+    },
+    {
+      "label": "Rajasthan travel guide",
+      "href": "/blog/rajasthan-travel-guide"
+    },
+    {
+      "label": "Rajasthan tour packages",
+      "href": "/packages/rajasthan"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Famous forts in India",
+      "href": "/blog/famous-forts-in-india",
+      "note": "across the country"
+    },
+    {
+      "name": "Palaces in India",
+      "href": "/blog/palaces-in-india",
+      "note": "Rajasthan's royal palaces"
+    },
+    {
+      "name": "Tiger safari in India",
+      "href": "/blog/tiger-safari-in-india",
+      "note": "Ranthambore's tigers"
+    }
+  ],
+  "places": [
+    "Amber",
+    "Chittorgarh",
+    "Kumbhalgarh",
+    "Ranthambore",
+    "Gagron",
+    "Jaisalmer",
+    "Mehrangarh",
+    "Junagarh",
+    "Taragarh",
+    "Nahargarh",
+    "Jaigarh"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Rajasthan",
+  "updated": "2026-09-26"
+}

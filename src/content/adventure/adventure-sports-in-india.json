@@ -1,0 +1,705 @@
+{
+  "slug": "adventure-sports-in-india",
+  "kind": "pillar",
+  "short": "Adventure sports in India",
+  "title": "Adventure Sports in India: Land, Water and Air Activities",
+  "seoTitle": "Adventure Sports in India: Land, Water & Air Activities | Kudozz Club",
+  "metaDescription": "Adventure sports in India on land, water and air: trekking, rafting, paragliding, diving, skiing, bungee, skydiving and ziplining, with where and when.",
+  "description": "A complete guide to adventure sports in India: land activities from trekking and mountaineering to caving, ziplining and ATV rides; water sports from rafting and kayaking to diving and surfing; and air sports from paragliding and bungee jumping to skydiving and ballooning, with where to try each, the season, difficulty and safety rules.",
+  "dek": "Every adventure sport available in India, what it involves, where to try it and when. Use it to choose, then follow the links for the full guide to each.",
+  "primaryKeyword": "adventure sports in India",
+  "secondaryKeywords": [
+    "adventure activities in India",
+    "types of adventure sports in India",
+    "ziplining in India",
+    "ATV rides in India",
+    "list of adventure sports"
+  ],
+  "searchIntent": "Informational list: which adventure activities exist in India and where to do them",
+  "activities": [
+    "trekking",
+    "mountaineering",
+    "rock climbing",
+    "skiing",
+    "mountain biking",
+    "motorcycling",
+    "camping",
+    "caving",
+    "ziplining",
+    "rafting",
+    "kayaking",
+    "scuba diving",
+    "snorkelling",
+    "surfing",
+    "paragliding",
+    "bungee jumping",
+    "skydiving",
+    "hot air ballooning"
+  ],
+  "terrain": [
+    "mountains",
+    "river",
+    "sea",
+    "desert",
+    "snow",
+    "air"
+  ],
+  "regions": [
+    "India"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "monsoon",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "beginners",
+    "friends",
+    "couples",
+    "families",
+    "solo"
+  ],
+  "tags": [
+    "Adventure Sports",
+    "India",
+    "Land Water Air",
+    "Activities"
+  ],
+  "hero": {
+    "src": "/images/adventure/rishikesh-ganga-rafting-adventure.webp",
+    "alt": "A raft on the Ganga beside a riverside camp near Rishikesh",
+    "caption": "The Ganga near Rishikesh"
+  },
+  "parent": {
+    "label": "Adventure Travel",
+    "href": "/adventure-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Adventure sports in India"
+  },
+  "intro": [
+    "Adventure sports in India are often grouped the way the Ministry of Tourism groups them: land, water and air. Land sports range from a day hike to a Himalayan expedition; water sports from a calm kayak paddle to Grade IV rapids and scuba diving; air sports from a tandem paraglide to a skydive at 10,000 feet.",
+    "The list below covers every major adventure sport available in India, with a short explanation, the best places and seasons, and a link to our detailed guide where there is one. The comparison table at the end helps you choose by difficulty and season."
+  ],
+  "quickAnswer": "Popular adventure sports in India include trekking, mountaineering, rock climbing, skiing, mountain biking and camping on land; river rafting, kayaking, scuba diving, snorkelling and surfing on water; and paragliding, bungee jumping, skydiving and hot air ballooning in the air. Top places include Rishikesh for rafting, Bir Billing for paragliding, Gulmarg for skiing, the Andamans for diving and Ladakh and Uttarakhand for trekking.",
+  "takeaways": [
+    "Land: trekking, mountaineering, climbing, skiing, biking, camping, caving, ziplining and desert safaris.",
+    "Water: rafting, kayaking, diving, snorkelling, surfing and beach water sports.",
+    "Air: paragliding, bungee jumping, skydiving, parasailing and hot air ballooning.",
+    "Most activities have a clear season, and several pause during the monsoon.",
+    "Choose licensed operators; the Ministry of Tourism publishes safety guidelines for adventure activities."
+  ],
+  "sections": [
+    {
+      "id": "land",
+      "heading": "Land adventure sports",
+      "items": [
+        {
+          "name": "Trekking",
+          "body": [
+            "From one-day hill walks to high passes above 5,000 metres, across the Himalaya, the Western Ghats and the North East."
+          ],
+          "facts": {
+            "Best places": "Uttarakhand, Himachal, Kashmir, Ladakh, Sikkim",
+            "Season": "Year-round, by region"
+          },
+          "links": [
+            {
+              "label": "Trekking in India",
+              "href": "/blog/trekking-in-india"
+            },
+            {
+              "label": "Beginner treks in India",
+              "href": "/blog/beginner-treks-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Mountaineering",
+          "body": [
+            "Learned through month-long courses at government institutes, then trekking peaks and expeditions."
+          ],
+          "facts": {
+            "Best places": "Uttarkashi, Darjeeling, Manali, Pahalgam, Dirang",
+            "Season": "Spring to autumn"
+          },
+          "links": [
+            {
+              "label": "Mountaineering in India",
+              "href": "/blog/mountaineering-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Rock climbing and bouldering",
+          "body": [
+            "Granite bouldering at Hampi, sandstone at Badami and city crags near Bengaluru, Delhi and Pune."
+          ],
+          "facts": {
+            "Best places": "Hampi, Badami, Ramanagara",
+            "Season": "October to March"
+          },
+          "links": [
+            {
+              "label": "Rock climbing in India",
+              "href": "/blog/rock-climbing-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Skiing and snowboarding",
+          "body": [
+            "Gulmarg is India's main resort; Auli and Solang suit beginners when snow allows."
+          ],
+          "facts": {
+            "Best places": "Gulmarg, Auli, Solang",
+            "Season": "January to March"
+          },
+          "links": [
+            {
+              "label": "Skiing in India",
+              "href": "/blog/skiing-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Mountain biking and cycle touring",
+          "body": [
+            "Supported rides from Manali to Leh, downhill from Khardung La, and trail rides in the Western Ghats."
+          ],
+          "facts": {
+            "Best places": "Ladakh, Spiti, Coorg",
+            "Season": "By region"
+          },
+          "links": [
+            {
+              "label": "Mountain biking in India",
+              "href": "/blog/mountain-biking-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Motorcycle trips",
+          "body": [
+            "High Himalayan rides in summer and coastal, ghat and desert rides in winter."
+          ],
+          "facts": {
+            "Best places": "Ladakh, Spiti, Tawang, Konkan, Kutch",
+            "Season": "By route"
+          },
+          "links": [
+            {
+              "label": "Best motorcycle trips in India",
+              "href": "/blog/best-motorcycle-trips-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Camping",
+          "body": [
+            "Fixed tent camps by rivers, lakes and dunes, and wild camps on treks."
+          ],
+          "facts": {
+            "Best places": "Rishikesh, Jaisalmer, Pangong, Chopta",
+            "Season": "By region"
+          },
+          "links": [
+            {
+              "label": "Camping in India",
+              "href": "/blog/camping-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Caving",
+          "body": [
+            "Meghalaya has many of India's longest caves; show caves such as Belum and Borra in Andhra Pradesh are easier introductions."
+          ],
+          "facts": {
+            "Best places": "Meghalaya, Andhra Pradesh, Baratang",
+            "Season": "October to April"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Meghalaya",
+              "href": "/blog/adventure-activities-in-meghalaya"
+            },
+            {
+              "label": "Belum Caves guide",
+              "href": "/blog/belum-caves-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Ziplining and flying fox",
+          "body": [
+            "Harnessed rides along cables over valleys, forts and rivers, run at sites such as Neemrana Fort, Mohan Chatti near Rishikesh and Mawkdok valley in Meghalaya. Short and suitable for most ages within operators' limits."
+          ],
+          "facts": {
+            "Best places": "Neemrana, Rishikesh, Mawkdok",
+            "Season": "Mostly October to May"
+          },
+          "links": [
+            {
+              "label": "Weekend adventure trips from Delhi",
+              "href": "/blog/weekend-adventure-trips-from-delhi"
+            }
+          ]
+        },
+        {
+          "name": "ATV rides",
+          "body": [
+            "Quad bike rides are offered on the dunes near Jaisalmer, in snow areas such as Solang and Gulmarg, and at some adventure parks. Rides are short; wear a helmet and ride only on marked tracks."
+          ],
+          "facts": {
+            "Best places": "Sam dunes, Solang, adventure parks",
+            "Season": "By location"
+          }
+        },
+        {
+          "name": "Desert safaris",
+          "body": [
+            "Camel and jeep safaris and dune camps in the Thar, the salt desert of Kutch and the cold desert of Nubra."
+          ],
+          "facts": {
+            "Best places": "Jaisalmer, Rann of Kutch, Nubra",
+            "Season": "October to March (Thar, Kutch); May to September (Nubra)"
+          },
+          "links": [
+            {
+              "label": "Desert adventures in India",
+              "href": "/blog/desert-adventures-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "heading": "Water adventure sports",
+      "items": [
+        {
+          "name": "White-water rafting",
+          "body": [
+            "Grade I to IV rafting on Himalayan and Western Ghats rivers."
+          ],
+          "facts": {
+            "Best places": "Rishikesh, Zanskar, Coorg, Kolad, Dandeli",
+            "Season": "By river"
+          },
+          "links": [
+            {
+              "label": "River rafting in India",
+              "href": "/blog/river-rafting-in-india"
+            },
+            {
+              "label": "River rafting in Rishikesh",
+              "href": "/blog/river-rafting-in-rishikesh"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/rishikesh/rishikesh-white-water-rafting-ganga.webp",
+            "alt": "White-water rafting on the Ganga at Rishikesh",
+            "caption": "Rafting at Rishikesh"
+          }
+        },
+        {
+          "name": "Kayaking and stand-up paddling",
+          "body": [
+            "Calm-water trips in mangroves, backwaters and lakes, and white-water courses at Rishikesh."
+          ],
+          "facts": {
+            "Best places": "Andamans, Goa, Kerala, Meghalaya",
+            "Season": "October to May"
+          },
+          "links": [
+            {
+              "label": "Kayaking in India",
+              "href": "/blog/kayaking-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Scuba diving",
+          "body": [
+            "Try dives and certification courses around India's islands and west coast."
+          ],
+          "facts": {
+            "Best places": "Andamans, Lakshadweep, Netrani",
+            "Season": "October to May"
+          },
+          "links": [
+            {
+              "label": "Scuba diving in India",
+              "href": "/blog/scuba-diving-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Snorkelling and sea walks",
+          "body": [
+            "Reef viewing from the surface, or walking on the seabed with an air-supplied helmet."
+          ],
+          "facts": {
+            "Best places": "Havelock, North Bay, Lakshadweep, Malvan",
+            "Season": "October to May"
+          },
+          "links": [
+            {
+              "label": "Snorkelling in India",
+              "href": "/blog/snorkeling-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Surfing",
+          "body": [
+            "Beginner-friendly surf towns on both coasts."
+          ],
+          "facts": {
+            "Best places": "Mulki, Kovalam, Varkala, Puducherry",
+            "Season": "By coast"
+          },
+          "links": [
+            {
+              "label": "Surfing in India",
+              "href": "/blog/surfing-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Beach water sports",
+          "body": [
+            "Parasailing, jet skis and banana rides at beaches and lakes."
+          ],
+          "facts": {
+            "Best places": "Goa, Andamans, Tarkarli, Tehri Lake",
+            "Season": "October to May"
+          },
+          "links": [
+            {
+              "label": "Water sports in India",
+              "href": "/blog/water-sports-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "air",
+      "heading": "Air adventure sports",
+      "items": [
+        {
+          "name": "Paragliding",
+          "body": [
+            "Tandem flights with licensed pilots, and courses for solo flying."
+          ],
+          "facts": {
+            "Best places": "Bir Billing, Kamshet, Solang",
+            "Season": "October to May; Himachal closed mid-July to mid-September"
+          },
+          "links": [
+            {
+              "label": "Paragliding in India",
+              "href": "/blog/paragliding-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Bungee jumping",
+          "body": [
+            "Fixed-platform jumps, the highest at about 83 metres near Rishikesh."
+          ],
+          "facts": {
+            "Best places": "Rishikesh, Goa, Lonavala",
+            "Season": "Outside the peak monsoon"
+          },
+          "links": [
+            {
+              "label": "Bungee jumping in India",
+              "href": "/blog/bungee-jumping-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Skydiving",
+          "body": [
+            "Tandem, static-line and AFF jumps at a few airfields, often in scheduled camps."
+          ],
+          "facts": {
+            "Best places": "Mysuru, Deesa, Narnaul, Dhana",
+            "Season": "Cooler months, by camp"
+          },
+          "links": [
+            {
+              "label": "Skydiving in India",
+              "href": "/blog/skydiving-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Hot air ballooning",
+          "body": [
+            "Sunrise flights over Rajasthan and at festivals."
+          ],
+          "facts": {
+            "Best places": "Jaipur, Pushkar",
+            "Season": "October to March"
+          },
+          "links": [
+            {
+              "label": "Hot air balloon rides in India",
+              "href": "/blog/hot-air-balloon-rides-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Adventure sports compared",
+      "table": {
+        "columns": [
+          "Sport",
+          "Beginner-friendly?",
+          "Physical demand",
+          "Best season"
+        ],
+        "rows": [
+          [
+            "Tandem paragliding",
+            "Yes",
+            "Low",
+            "October to May"
+          ],
+          [
+            "Short rafting stretch",
+            "Yes",
+            "Low to moderate",
+            "By river"
+          ],
+          [
+            "Snorkelling, sea walk",
+            "Yes",
+            "Low",
+            "October to May"
+          ],
+          [
+            "Try dive",
+            "Yes",
+            "Low",
+            "October to May"
+          ],
+          [
+            "Calm-water kayaking",
+            "Yes",
+            "Low",
+            "October to May"
+          ],
+          [
+            "Easy trek (1 to 3 days)",
+            "Yes",
+            "Moderate",
+            "Spring, autumn"
+          ],
+          [
+            "Bungee jumping",
+            "Yes, within health limits",
+            "Low",
+            "Outside the monsoon"
+          ],
+          [
+            "Tandem skydive",
+            "Yes, within health limits",
+            "Low",
+            "Cooler months"
+          ],
+          [
+            "Skiing",
+            "With lessons",
+            "Moderate",
+            "January to March"
+          ],
+          [
+            "High-altitude trek",
+            "Needs experience",
+            "High",
+            "By region"
+          ],
+          [
+            "Mountaineering",
+            "Needs a course",
+            "Very high",
+            "Spring to autumn"
+          ],
+          [
+            "White-water kayaking",
+            "Needs a course",
+            "Moderate to high",
+            "By river"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "regions",
+      "heading": "Adventure sports by region",
+      "table": {
+        "columns": [
+          "Region",
+          "Main adventure sports"
+        ],
+        "rows": [
+          [
+            "Ladakh",
+            "Rafting, high treks, trekking peaks, motorcycle trips, mountain biking"
+          ],
+          [
+            "Himachal Pradesh",
+            "Paragliding, skiing, rafting, treks, road trips"
+          ],
+          [
+            "Uttarakhand",
+            "Rafting, bungee, snow treks, skiing, mountaineering courses"
+          ],
+          [
+            "Jammu and Kashmir",
+            "Skiing, lake treks, paragliding at Sanasar"
+          ],
+          [
+            "Sikkim and Darjeeling",
+            "Treks, Teesta rafting, paragliding, mountaineering courses"
+          ],
+          [
+            "Meghalaya",
+            "Caving, root-bridge treks, kayaking, ziplining"
+          ],
+          [
+            "Rajasthan and Gujarat",
+            "Desert safaris, ballooning, ziplining, salt-desert trips"
+          ],
+          [
+            "Maharashtra and Goa",
+            "Paragliding, fort treks, rafting, water sports, bungee"
+          ],
+          [
+            "Karnataka and Kerala",
+            "Bouldering, rafting, surfing, diving, hill treks"
+          ],
+          [
+            "Andaman and Lakshadweep",
+            "Scuba, snorkelling, sea walks, kayaking"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "choose",
+      "heading": "How to choose an adventure sport",
+      "list": [
+        "Start from your dates: some sports have short seasons, such as skiing (January to March) and Ladakh rafting (June to August).",
+        "Be honest about fitness and fears; tandem and guided options let you try something without mastering it.",
+        "Think about who is coming: families need activities with clear age limits; groups do well with rafting and camping.",
+        "Combine a big activity with easy ones, such as a paraglide plus a village walk, so the trip is not all adrenaline.",
+        "Try one new sport per trip and learn it properly, rather than ticking off many quickly."
+      ]
+    },
+    {
+      "id": "rules",
+      "heading": "Safety rules and regulation",
+      "paras": [
+        "Adventure sports in India are regulated by a mix of central guidelines, state rules and local orders. The Ministry of Tourism has published safety guidelines for adventure activities; states such as Uttarakhand and Himachal Pradesh license rafting and paragliding operators and suspend them during the monsoon; and district authorities close waterfalls, rivers and trails in dangerous conditions.",
+        "For travellers, the practical rules are simple: book licensed or registered operators, use certified guides and pilots, wear the safety equipment provided, respect seasonal closures, and be honest about your health."
+      ]
+    }
+  ],
+  "safety": [
+    "Choose licensed operators and trained, certified guides, instructors and pilots.",
+    "Wear helmets, life jackets and harnesses as instructed, for the entire activity.",
+    "Respect official seasonal closures, especially in the monsoon.",
+    "Declare medical conditions; many activities have health, age and weight limits.",
+    "Buy insurance that covers adventure sports and the altitude you will reach."
+  ],
+  "faqs": [
+    {
+      "q": "What are the most popular adventure sports in India?",
+      "a": "Trekking, river rafting, paragliding, scuba diving, skiing, bungee jumping and camping."
+    },
+    {
+      "q": "Where can I do adventure sports in India?",
+      "a": "Rishikesh for rafting and bungee, Bir Billing for paragliding, Gulmarg for skiing, the Andamans for diving, and Ladakh and Uttarakhand for treks and expeditions."
+    },
+    {
+      "q": "Which adventure sports can beginners try in India?",
+      "a": "Tandem paragliding, short rafting stretches, snorkelling, sea walks, try dives, calm-water kayaking, easy treks and ziplining."
+    },
+    {
+      "q": "Are adventure sports in India regulated?",
+      "a": "Yes. The Ministry of Tourism has published safety guidelines, several states license operators, and local authorities impose seasonal closures."
+    },
+    {
+      "q": "What adventure sports are there in India in winter?",
+      "a": "Skiing, snow treks, desert safaris, diving, snorkelling and surfing on the coasts, and hot air ballooning in Rajasthan."
+    },
+    {
+      "q": "Where can I try ziplining in India?",
+      "a": "At sites such as Neemrana Fort in Rajasthan, Mohan Chatti near Rishikesh and Mawkdok valley in Meghalaya."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    },
+    {
+      "label": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh"
+    },
+    {
+      "label": "Rishikesh travel guide",
+      "href": "/blog/rishikesh-adventure-travel-guide"
+    },
+    {
+      "label": "How to plan an adventure trip",
+      "href": "/blog/how-to-plan-an-adventure-trip-in-india"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best adventure destinations in India",
+      "href": "/blog/best-adventure-destinations-in-india",
+      "note": "where to go"
+    },
+    {
+      "name": "Adventure travel for beginners",
+      "href": "/blog/adventure-travel-for-beginners-in-india",
+      "note": "first steps"
+    },
+    {
+      "name": "Best time for adventure travel in India",
+      "href": "/blog/best-time-for-adventure-travel-in-india",
+      "note": "the season for each sport"
+    }
+  ],
+  "places": [
+    "Rishikesh",
+    "Bir Billing",
+    "Gulmarg",
+    "Andaman Islands",
+    "Ladakh",
+    "Uttarakhand",
+    "Hampi",
+    "Meghalaya",
+    "Jaisalmer",
+    "Goa",
+    "Mysuru",
+    "Jaipur"
+  ],
+  "styles": [
+    "adventure-tours"
+  ],
+  "updated": "2026-09-25"
+}

@@ -1091,7 +1091,7 @@ function shortTitle(fullTitle: string): string {
 const handAuthoredSlugs = new Set(allDestinations.map((d) => d.slug));
 
 const derivedDestinations = blogPosts
-  .filter((post) => !handAuthoredSlugs.has(post.slug) && post.category !== "Things to Do")
+  .filter((post) => !handAuthoredSlugs.has(post.slug) && post.category !== "Things to Do" && post.category !== "Adventure Travel" && post.category !== "Beach Travel" && post.category !== "Wildlife Tourism" && post.category !== "Spiritual Tourism" && post.category !== "Heritage & Culture" && post.category !== "Hill Stations")
   .map((post) => ({
     slug: post.slug,
     title: shortTitle(post.title),

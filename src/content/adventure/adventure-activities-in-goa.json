@@ -1,0 +1,441 @@
+{
+  "slug": "adventure-activities-in-goa",
+  "kind": "destination",
+  "short": "Adventure activities in Goa",
+  "title": "Adventure Activities in Goa: Water Sports, Kayaking and Treks",
+  "seoTitle": "Adventure Activities in Goa: Water Sports & Treks | Kudozz Club",
+  "metaDescription": "Adventure activities in Goa: parasailing and jet skis, kayaking in the mangroves, scuba at Grande Island, the Mayem Lake bungee, Dudhsagar and monsoon treks.",
+  "description": "A guide to adventure activities in Goa: water sports on the north Goa beaches, kayaking and paddleboarding in the mangroves and backwaters, scuba diving and snorkelling at Grande Island, dolphin trips, bungee jumping at Mayem Lake, paragliding at Arambol, surfing lessons and treks in the Western Ghats to Dudhsagar and beyond.",
+  "dek": "Goa's adventures go well beyond a parasail over Calangute: mangrove kayaking, diving, a lake bungee and forest treks in the Western Ghats. Here is what to try and when.",
+  "primaryKeyword": "adventure activities in Goa",
+  "secondaryKeywords": [
+    "adventure sports in Goa",
+    "things to do in Goa for adventure",
+    "water sports",
+    "kayaking",
+    "diving"
+  ],
+  "searchIntent": "Informational: what adventure to do in Goa",
+  "activities": [
+    "parasailing",
+    "jet skiing",
+    "kayaking",
+    "scuba diving",
+    "snorkelling",
+    "bungee jumping",
+    "paragliding",
+    "surfing",
+    "trekking"
+  ],
+  "terrain": [
+    "beaches",
+    "sea",
+    "backwaters",
+    "forest",
+    "waterfalls"
+  ],
+  "regions": [
+    "Goa",
+    "West India"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring",
+    "monsoon"
+  ],
+  "travellers": [
+    "friends",
+    "couples",
+    "families",
+    "beginners"
+  ],
+  "tags": [
+    "Goa",
+    "Water Sports",
+    "Kayaking",
+    "Adventure"
+  ],
+  "hero": {
+    "src": "/images/adventure/goa-beach-water-sports.webp",
+    "alt": "A parasail over a busy beach in Goa",
+    "caption": "A Goa beach"
+  },
+  "parent": {
+    "label": "Best Adventure Destinations in India",
+    "href": "/blog/best-adventure-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Goa",
+    "containedIn": "Goa"
+  },
+  "intro": [
+    "Goa is best known for beaches, and most visitors' adventure is a quick parasail or jet ski ride at Calangute or Baga. But the state also has calm rivers lined with mangroves, islands offshore for diving and snorkelling, and a long stretch of the Western Ghats with forests, waterfalls and wildlife sanctuaries along its eastern border.",
+    "This guide covers adventure activities across Goa. For beaches, food, forts and nightlife, see our Goa travel guide and the guide to things to do in Goa."
+  ],
+  "quickAnswer": "The best adventure activities in Goa are parasailing, jet skis and banana rides at Calangute, Baga and Candolim, kayaking in the mangroves and on the Sal river, scuba diving and snorkelling at Grande Island, dolphin trips, bungee jumping at Mayem Lake, paragliding at Arambol, surfing lessons in north Goa, and treks in the Western Ghats including Dudhsagar. The beach season runs from about October to May.",
+  "takeaways": [
+    "Water sports on the beaches are licensed and run from about October to May; they are suspended in the monsoon.",
+    "Kayak trips in the mangroves of north Goa and on the Sal river in south Goa suit beginners.",
+    "Grande Island is the main spot for try dives and snorkelling.",
+    "Mayem Lake has a bungee jump of about 55 metres.",
+    "The Western Ghats offer treks to Dudhsagar Falls and in the wildlife sanctuaries, subject to forest department rules."
+  ],
+  "sections": [
+    {
+      "id": "beach",
+      "heading": "Beach water sports",
+      "items": [
+        {
+          "name": "Parasailing, jet skis and banana rides",
+          "body": [
+            "Operators at Calangute, Baga and Candolim, and at some south Goa beaches, run parasailing, jet ski rides, banana and bumper rides and speedboats. Operators must be licensed by the state, and prices are usually displayed or fixed by package."
+          ],
+          "facts": {
+            "Where": "Calangute, Baga, Candolim",
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Water sports in India",
+              "href": "/blog/water-sports-in-india"
+            },
+            {
+              "label": "Calangute travel guide",
+              "href": "/blog/calangute-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Dolphin trips",
+          "body": [
+            "Boats from Sinquerim, Coco Beach and Palolem take visitors out to see Indo-Pacific humpback dolphins, most often in the calm morning hours."
+          ],
+          "facts": {
+            "Season": "October to May",
+            "Good for": "Families"
+          },
+          "links": [
+            {
+              "label": "Palolem travel guide",
+              "href": "/blog/palolem-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paddle",
+      "heading": "Kayaking and paddling",
+      "items": [
+        {
+          "name": "Mangrove kayaking in north Goa",
+          "body": [
+            "Guided trips paddle through the mangroves of the Nerul river and around Chorao Island, often at sunrise for birdwatching."
+          ],
+          "facts": {
+            "Season": "October to May",
+            "Good for": "Beginners, birdwatchers"
+          },
+          "links": [
+            {
+              "label": "Kayaking in India",
+              "href": "/blog/kayaking-in-india"
+            }
+          ]
+        },
+        {
+          "name": "The Sal river and backwaters in south Goa",
+          "body": [
+            "Calm-water kayak and paddleboard trips run on the Sal river near Cavelossim and in backwaters near Betul."
+          ],
+          "facts": {
+            "Season": "October to May"
+          }
+        },
+        {
+          "name": "Surfing and paddleboarding",
+          "body": [
+            "Surf schools and paddleboard rentals operate at north Goa beaches such as Arambol, Ashwem and Morjim when conditions allow."
+          ],
+          "links": [
+            {
+              "label": "Surfing in India",
+              "href": "/blog/surfing-in-india"
+            },
+            {
+              "label": "Morjim travel guide",
+              "href": "/blog/morjim-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "underwater",
+      "heading": "Diving and snorkelling",
+      "paras": [
+        "Dive schools in Goa run boat trips to Grande Island and nearby sites for try dives, courses and fun dives, with snorkelling for non-divers. Visibility is lower than in the Andamans or Lakshadweep, but it is an easy introduction on a Goa holiday."
+      ],
+      "items": [
+        {
+          "name": "Grande Island",
+          "body": [
+            "Shallow reefs for try dives and snorkelling, and wreck sites for certified divers."
+          ],
+          "facts": {
+            "Season": "About October to April"
+          },
+          "links": [
+            {
+              "label": "Scuba diving in India",
+              "href": "/blog/scuba-diving-in-india"
+            },
+            {
+              "label": "Snorkelling in India",
+              "href": "/blog/snorkeling-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "air",
+      "heading": "Air and bungee",
+      "items": [
+        {
+          "name": "Bungee jumping at Mayem Lake",
+          "body": [
+            "A jump of about 55 metres from a tower over Mayem Lake in north Goa."
+          ],
+          "facts": {
+            "Season": "Mainly the dry season"
+          },
+          "links": [
+            {
+              "label": "Bungee jumping in India",
+              "href": "/blog/bungee-jumping-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding at Arambol",
+          "body": [
+            "Coastal paragliding along the cliffs near Arambol and Sweet Water Lake in the winter sea breeze."
+          ],
+          "facts": {
+            "Season": "About December to February"
+          },
+          "links": [
+            {
+              "label": "Paragliding in India",
+              "href": "/blog/paragliding-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ghats",
+      "heading": "Treks and forests in the Western Ghats",
+      "items": [
+        {
+          "name": "Dudhsagar Falls",
+          "body": [
+            "A tall, tiered waterfall on the Mandovi in Bhagwan Mahavir Wildlife Sanctuary, on the Goa and Karnataka border. Outside the monsoon, the usual way in is by jeep safari from Collem followed by a short walk; access in the monsoon is restricted by the forest department, and walking on the railway line is not allowed."
+          ],
+          "facts": {
+            "Season": "October to May for jeep access; check monsoon rules"
+          },
+          "links": [
+            {
+              "label": "Dudhsagar Falls guide",
+              "href": "/blog/dudhsagar-falls-travel-guide"
+            },
+            {
+              "label": "Mollem travel guide",
+              "href": "/blog/mollem-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Wildlife sanctuaries",
+          "body": [
+            "Bhagwan Mahavir, Netravali and Cotigao sanctuaries have forest trails, waterfalls and viewpoints. Walks usually need forest department permission or a registered guide."
+          ],
+          "facts": {
+            "Season": "October to May"
+          }
+        },
+        {
+          "name": "Monsoon rafting and walks",
+          "body": [
+            "Goa's rivers fill up in the monsoon, and rafting has been offered on the Mhadei near Valpoi in some years. Monsoon walks to waterfalls are popular but have been restricted after accidents; follow local orders."
+          ],
+          "facts": {
+            "Season": "June to September, when permitted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sample",
+      "heading": "An active long weekend in Goa",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Sunrise mangrove kayaking near Nerul or Chorao; afternoon water sports at Candolim or Calangute"
+          ],
+          [
+            "2",
+            "Boat trip to Grande Island for a try dive or snorkelling, with dolphin spotting on the way"
+          ],
+          [
+            "3",
+            "Drive to Collem for the Dudhsagar jeep safari, or a bungee jump at Mayem Lake and paragliding at Arambol"
+          ]
+        ]
+      },
+      "after": [
+        "Base yourself in north Goa for water sports and nightlife, or split the trip with a quieter south Goa stay near Palolem or Cavelossim for kayaking and dolphin trips. Goa's airports at Dabolim and Mopa, and Madgaon and Thivim railway stations, make it an easy long weekend from Mumbai, Pune and Bengaluru."
+      ]
+    },
+    {
+      "id": "calendar",
+      "heading": "Goa adventure calendar",
+      "table": {
+        "columns": [
+          "Months",
+          "Best adventures"
+        ],
+        "rows": [
+          [
+            "October to December",
+            "Water sports resume, kayaking, diving, dolphin trips, Dudhsagar by jeep"
+          ],
+          [
+            "January to March",
+            "Calm seas for diving and snorkelling, paragliding at Arambol"
+          ],
+          [
+            "April to May",
+            "Hot; early-morning kayaking and diving before the monsoon"
+          ],
+          [
+            "June to September",
+            "Beach water sports suspended; forest walks and monsoon rafting only where permitted"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Book water sports only with licensed operators, and wear the life jacket for every ride.",
+    "Swim only at beaches with lifeguards and flags; rip currents are strong, especially in the monsoon.",
+    "Do not swim or do water sports after drinking.",
+    "Follow forest department and district orders on waterfalls and monsoon treks.",
+    "Keep valuables in a waterproof pouch or leave them at your stay."
+  ],
+  "packing": [
+    "Swimwear and a rash guard",
+    "Waterproof sunscreen",
+    "Sandals with straps for kayaking",
+    "A light rain jacket in the shoulder months",
+    "Trekking shoes for the Ghats"
+  ],
+  "faqs": [
+    {
+      "q": "What are the best adventure activities in Goa?",
+      "a": "Parasailing and jet skis at Calangute and Baga, mangrove kayaking, diving and snorkelling at Grande Island, bungee jumping at Mayem Lake, paragliding at Arambol and treks to Dudhsagar."
+    },
+    {
+      "q": "When are water sports open in Goa?",
+      "a": "From about October to May. They are suspended during the monsoon."
+    },
+    {
+      "q": "Can I do scuba diving in Goa?",
+      "a": "Yes, with dive schools that run trips to Grande Island and nearby sites, from about October to April."
+    },
+    {
+      "q": "How do I visit Dudhsagar Falls?",
+      "a": "Outside the monsoon, by jeep safari from Collem followed by a short walk. Monsoon access is restricted; check forest department rules."
+    },
+    {
+      "q": "Is there bungee jumping in Goa?",
+      "a": "Yes, at Mayem Lake in north Goa, from a height of about 55 metres."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Goa travel guide",
+      "href": "/blog/goa-beaches-travel-guide"
+    },
+    {
+      "label": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa"
+    },
+    {
+      "label": "Goa 5-day itinerary",
+      "href": "/blog/goa-beaches-travel-guide#itinerary"
+    },
+    {
+      "label": "Goa tour packages",
+      "href": "/packages/goa"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Water sports in India",
+      "href": "/blog/water-sports-in-india",
+      "note": "the rest of India's coast"
+    },
+    {
+      "name": "Kayaking in India",
+      "href": "/blog/kayaking-in-india",
+      "note": "more paddling"
+    },
+    {
+      "name": "Weekend adventure trips from Mumbai",
+      "href": "/blog/weekend-adventure-trips-from-mumbai",
+      "note": "closer to Mumbai"
+    },
+    {
+      "name": "Best beaches in Goa",
+      "href": "/blog/best-beaches-in-goa",
+      "note": "choosing a Goa beach"
+    }
+  ],
+  "places": [
+    "Calangute",
+    "Baga",
+    "Candolim",
+    "Sinquerim",
+    "Palolem",
+    "Nerul",
+    "Chorao Island",
+    "Sal river",
+    "Grande Island",
+    "Mayem Lake",
+    "Arambol",
+    "Dudhsagar Falls",
+    "Bhagwan Mahavir Wildlife Sanctuary",
+    "Netravali",
+    "Cotigao"
+  ],
+  "styles": [
+    "adventure-tours",
+    "honeymoon"
+  ],
+  "planDestination": "Goa",
+  "updated": "2026-09-25"
+}

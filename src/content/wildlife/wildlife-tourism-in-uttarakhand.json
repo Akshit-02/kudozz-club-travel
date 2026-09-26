@@ -1,0 +1,350 @@
+{
+  "slug": "wildlife-tourism-in-uttarakhand",
+  "kind": "state",
+  "short": "Wildlife in Uttarakhand",
+  "title": "Wildlife Tourism in Uttarakhand: Corbett, Rajaji and the High Himalaya",
+  "seoTitle": "Wildlife Tourism in Uttarakhand: Corbett, Rajaji & More | Kudozz Club",
+  "metaDescription": "Plan a wildlife trip in Uttarakhand: Jim Corbett's zones and Dhikala, Rajaji Tiger Reserve, birding at Pangot and Sattal, musk deer, snow leopards and seasons.",
+  "description": "A guide to wildlife tourism in Uttarakhand: Jim Corbett National Park and its zones, including Dhikala, Rajaji Tiger Reserve near Haridwar and Rishikesh, Himalayan birding around Nainital, the Kedarnath and Askot sanctuaries, Binsar, the Gangotri and Nanda Devi landscapes, seasons and sample plans.",
+  "dek": "Uttarakhand runs from the terai forests of Corbett to high Himalayan valleys. Here is where to go for tigers, elephants, birds and mountain wildlife.",
+  "primaryKeyword": "wildlife tourism in Uttarakhand",
+  "secondaryKeywords": [
+    "wildlife sanctuaries in Uttarakhand",
+    "national parks in Uttarakhand",
+    "Uttarakhand safari",
+    "wildlife in Uttarakhand"
+  ],
+  "searchIntent": "State-level wildlife planning",
+  "activities": [
+    "tiger safari",
+    "jeep safari",
+    "birdwatching",
+    "trekking"
+  ],
+  "terrain": [
+    "forest",
+    "grassland",
+    "mountains",
+    "river"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "North India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Uttarakhand",
+    "Jim Corbett",
+    "Rajaji",
+    "Himalayan Birds"
+  ],
+  "hero": {
+    "src": "/images/wildlife/uttarakhand-wildlife-corbett.webp",
+    "alt": "A tusker elephant by the Ramganga reservoir in Jim Corbett National Park"
+  },
+  "parent": {
+    "label": "Wildlife Tourism",
+    "href": "/wildlife-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Wildlife of Uttarakhand",
+    "containedIn": "Uttarakhand"
+  },
+  "intro": [
+    "Uttarakhand had an estimated 560 tigers in the 2022 assessment, the third highest of any state, most of them in and around Jim Corbett National Park and Rajaji Tiger Reserve. Both lie in the foothills, within a day's drive of Delhi.",
+    "Higher up, the state's forests and alpine meadows hold Himalayan birds, musk deer, Himalayan tahr, black bears and, in the far north, snow leopards. The Nanda Devi and Valley of Flowers national parks form a UNESCO World Heritage Site."
+  ],
+  "quickAnswer": "Uttarakhand's main wildlife destination is Jim Corbett National Park, with tigers, elephants and zones such as Dhikala, Bijrani, Jhirna and Dhela. Rajaji Tiger Reserve near Haridwar has elephants and tigers. Pangot and Sattal near Nainital are known for Himalayan birds. Corbett's Dhikala zone opens from 15 November to 15 June, while Jhirna and Dhela stay open all year.",
+  "takeaways": [
+    "Uttarakhand had an estimated 560 tigers in 2022.",
+    "Corbett, set up in 1936, is India's first national park.",
+    "Dhikala zone is open from 15 November to 15 June; Jhirna and Dhela all year.",
+    "Rajaji Tiger Reserve is a short drive from Haridwar and Rishikesh.",
+    "Pangot, Sattal and Binsar are among India's best Himalayan birding spots."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Wildlife places in Uttarakhand",
+      "table": {
+        "columns": [
+          "Place",
+          "Status",
+          "Known for",
+          "Gateway"
+        ],
+        "rows": [
+          [
+            "Jim Corbett",
+            "National park and tiger reserve",
+            "Tigers, elephants, rivers",
+            "Ramnagar"
+          ],
+          [
+            "Rajaji",
+            "Tiger reserve",
+            "Elephants, tigers",
+            "Haridwar, Rishikesh, Dehradun"
+          ],
+          [
+            "Pangot and Sattal",
+            "Forest and lakes near Nainital",
+            "Himalayan birds",
+            "Nainital"
+          ],
+          [
+            "Binsar",
+            "Wildlife sanctuary",
+            "Oak forest, birds, Himalayan views",
+            "Almora"
+          ],
+          [
+            "Kedarnath Wildlife Sanctuary",
+            "Sanctuary",
+            "Musk deer, alpine birds",
+            "Chopta"
+          ],
+          [
+            "Valley of Flowers",
+            "National park, UNESCO site",
+            "Alpine flowers, butterflies",
+            "Govindghat"
+          ],
+          [
+            "Asan Conservation Reserve",
+            "Conservation reserve, Ramsar site",
+            "Winter waterbirds",
+            "Dehradun"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "corbett",
+      "heading": "Jim Corbett",
+      "items": [
+        {
+          "name": "Zones",
+          "body": [
+            "Corbett is divided into zones including Dhikala, Bijrani, Jhirna, Dhela, Durga Devi and Garjia. Dhikala, reached through the Dhangarhi gate, is the only zone with overnight forest stays and is open from 15 November to 15 June. Jhirna and Dhela are open all year, subject to weather."
+          ],
+          "links": [
+            {
+              "label": "Jim Corbett guide",
+              "href": "/blog/jim-corbett-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/jim-corbett/forest-safari-track-sal-trees-jim-corbett.webp",
+            "alt": "A safari track through tall sal trees in Jim Corbett National Park",
+            "caption": "Sal forest in Corbett"
+          }
+        },
+        {
+          "name": "Wildlife",
+          "body": [
+            "Tigers, leopards, Asian elephants, sambar, hog deer, gharials and muggers in the Ramganga, and more than 500 bird species recorded."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond Corbett",
+      "items": [
+        {
+          "name": "Rajaji",
+          "body": [
+            "Forest along the Ganga between Haridwar and Dehradun, with elephants, tigers and leopards, and safaris from the Chilla and Motichur ranges."
+          ],
+          "facts": {
+            "Good for": "A short trip from Rishikesh"
+          }
+        },
+        {
+          "name": "Birding around Nainital",
+          "body": [
+            "Pangot and Sattal for laughingthrushes, woodpeckers, forktails and pheasants, best from October to May."
+          ],
+          "links": [
+            {
+              "label": "Nainital guide",
+              "href": "/blog/nainital-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "The high Himalaya",
+          "body": [
+            "Musk deer in the Kedarnath sanctuary, alpine birds around Chopta, and snow leopards recorded in the Gangotri landscape."
+          ],
+          "links": [
+            {
+              "label": "Chopta guide",
+              "href": "/blog/chopta-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "heading": "Where to stay",
+      "list": [
+        "Dhikala forest lodge, inside Corbett: basic but unique, booked through the official Corbett portal and quickly sold out.",
+        "Ramnagar and the Kosi river road: most resorts, close to Bijrani and Jhirna gates.",
+        "Rajaji: stays in Rishikesh, Haridwar or near the Chilla gate.",
+        "Pangot and Sattal: small lodges and homestays in the forest near Nainital."
+      ]
+    },
+    {
+      "id": "how-many-days",
+      "heading": "How many days to spend",
+      "paras": [
+        "Two nights in Corbett allow three or four drives in different zones; a night inside Dhikala adds a lot to any trip. Add two nights for birding around Nainital, or a day at Rajaji if you are travelling via Rishikesh. From Delhi, a long weekend works for Corbett alone."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Book Dhikala permits and the forest lodge the day bookings open.",
+        "Take drives in more than one zone; each has different terrain.",
+        "Carry your ID for checks at every gate."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "table": {
+        "columns": [
+          "Months",
+          "What to expect"
+        ],
+        "rows": [
+          [
+            "November to February",
+            "Cool; Dhikala opens mid-November; good birding"
+          ],
+          [
+            "March to June",
+            "Warm to hot; best for tiger and elephant sightings"
+          ],
+          [
+            "July to September",
+            "Most zones closed; Jhirna and Dhela may run"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Sightings are never guaranteed; plan several drives and enjoy the forest itself.",
+    "Stay in the vehicle on safaris and follow your guide.",
+    "Book permits only through official forest department portals or trusted operators.",
+    "Never feed animals or leave litter in a park.",
+    "Keep a safe distance from elephants, especially mothers with calves."
+  ],
+  "packing": [
+    "Warm layers for winter mornings",
+    "Binoculars",
+    "Neutral clothes",
+    "Rain jacket for pre-monsoon showers"
+  ],
+  "faqs": [
+    {
+      "q": "Which zone is best in Jim Corbett?",
+      "a": "Dhikala is the most famous for grassland and wildlife; Bijrani and Jhirna are popular day-safari zones."
+    },
+    {
+      "q": "Is Jim Corbett open all year?",
+      "a": "Jhirna and Dhela zones are open all year; Dhikala from 15 November to 15 June; other zones close in the monsoon."
+    },
+    {
+      "q": "How far is Corbett from Delhi?",
+      "a": "About 250 km, or five to six hours by road to Ramnagar."
+    },
+    {
+      "q": "Where can I go birdwatching in Uttarakhand?",
+      "a": "Pangot, Sattal, Binsar, Chopta and Corbett."
+    },
+    {
+      "q": "Can I stay inside Jim Corbett?",
+      "a": "Yes, at the forest lodge in Dhikala and some other forest rest houses, booked through the official Corbett portal."
+    },
+    {
+      "q": "Are there tigers in Rajaji?",
+      "a": "Yes, Rajaji Tiger Reserve has tigers, though elephants are more often seen."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Jim Corbett",
+      "href": "/blog/things-to-do-in-jim-corbett"
+    },
+    {
+      "label": "Uttarakhand travel guide",
+      "href": "/blog/uttarakhand-travel-guide"
+    },
+    {
+      "label": "Things to do in Nainital",
+      "href": "/blog/things-to-do-in-nainital"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    },
+    {
+      "label": "Wildlife trips",
+      "href": "/packages/wildlife-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Tiger safari in India",
+      "href": "/blog/tiger-safari-in-india",
+      "note": "compare the reserves"
+    },
+    {
+      "name": "Birdwatching in India",
+      "href": "/blog/birdwatching-in-india",
+      "note": "Himalayan birding"
+    },
+    {
+      "name": "Adventure activities in Uttarakhand",
+      "href": "/blog/adventure-activities-in-uttarakhand",
+      "note": "rafting and treks"
+    },
+    {
+      "name": "Spiritual tourism in Uttarakhand",
+      "href": "/blog/spiritual-tourism-in-uttarakhand",
+      "note": "Haridwar, Rishikesh and the Char Dham"
+    }
+  ],
+  "places": [
+    "Jim Corbett",
+    "Dhikala",
+    "Rajaji",
+    "Pangot",
+    "Sattal",
+    "Binsar",
+    "Kedarnath Wildlife Sanctuary",
+    "Valley of Flowers"
+  ],
+  "styles": [
+    "wildlife-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Jim Corbett",
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,359 @@
+{
+  "slug": "skiing-in-india",
+  "kind": "activity",
+  "short": "Skiing in India",
+  "title": "Skiing in India: Gulmarg, Auli, Solang and the Ski Season",
+  "seoTitle": "Skiing in India: Gulmarg, Auli, Solang & Ski Season | Kudozz Club",
+  "metaDescription": "Skiing in India explained: Gulmarg's gondola slopes, Auli, Solang near Manali and Narkanda, with the ski season, courses for beginners and snow safety.",
+  "description": "A guide to skiing in India: Gulmarg in Kashmir with its two-stage gondola, Auli in Uttarakhand, Solang Valley near Manali and smaller slopes in Himachal, when the snow is reliable, how beginner courses work and how to stay safe on the mountain.",
+  "dek": "India has one serious ski resort, Gulmarg, and a handful of smaller slopes. Here is what each offers, when to go and how to learn.",
+  "primaryKeyword": "skiing in India",
+  "secondaryKeywords": [
+    "best places for skiing in India",
+    "skiing in Gulmarg",
+    "skiing in Auli",
+    "ski courses India",
+    "snowboarding India"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "skiing",
+    "snowboarding"
+  ],
+  "terrain": [
+    "snow",
+    "mountains"
+  ],
+  "regions": [
+    "Jammu and Kashmir",
+    "Uttarakhand",
+    "Himachal Pradesh"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "travellers": [
+    "beginners",
+    "families",
+    "friends",
+    "couples"
+  ],
+  "tags": [
+    "Skiing",
+    "Gulmarg",
+    "Auli",
+    "Winter"
+  ],
+  "hero": {
+    "src": "/images/adventure/skiing-gulmarg-slopes.webp",
+    "alt": "Ski students on the snow slopes at Gulmarg",
+    "caption": "Skiing at Gulmarg"
+  },
+  "parent": {
+    "label": "Adventure Sports in India",
+    "href": "/blog/adventure-sports-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Skiing in India"
+  },
+  "intro": [
+    "Skiing in India happens on a small number of slopes in the western Himalaya, and the season is short: roughly from late December, once enough snow has fallen, to March. Gulmarg in Kashmir is the country's main ski resort and has a reputation among international skiers for deep powder on the upper slopes of Mount Apharwat. Auli in Uttarakhand and Solang Valley near Manali are smaller and better suited to beginners.",
+    "Most Indian skiers learn on short courses run by government institutes and tourism departments, or with private instructors hired on the slopes. Equipment can be rented at all the main sites. This guide explains what each place offers and how to plan a first ski trip."
+  ],
+  "quickAnswer": "The main places for skiing in India are Gulmarg in Jammu and Kashmir, Auli in Uttarakhand and Solang Valley near Manali, with smaller slopes around Narkanda near Shimla. The ski season runs roughly from late December to March and depends on snowfall. Gulmarg has a two-stage gondola and suits every level; Auli and Solang suit beginners. Learn with a certified instructor or an institute course.",
+  "takeaways": [
+    "Gulmarg is India's main ski resort, with beginner slopes near the village and high terrain served by the gondola.",
+    "Skiing depends on snow; the reliable window is usually January to March.",
+    "The Joshimath to Auli ropeway has been shut since 2023 because of land subsidence in Joshimath, so Auli is reached by road.",
+    "Beginners can take multi-day courses at institutes in Gulmarg, Manali and Auli, or hire instructors on the slopes.",
+    "Off-piste skiing on Apharwat carries real avalanche risk; go only with a qualified guide and avalanche equipment."
+  ],
+  "sections": [
+    {
+      "id": "where",
+      "heading": "Where to ski in India",
+      "items": [
+        {
+          "name": "Gulmarg, Jammu and Kashmir",
+          "body": [
+            "Gulmarg is a meadow town at about 2,650 metres in Baramulla district, about two hours by road from Srinagar. Its gondola runs in two stages: Phase 1 from Gulmarg to Kongdori at about 3,080 metres, and Phase 2 on to the shoulder of Mount Apharwat at close to 4,000 metres. Beginners learn on gentle slopes near the village, served by surface lifts and a chairlift. Intermediates use the runs around Kongdori, and advanced skiers and snowboarders head up to Apharwat for long descents and off-piste powder."
+          ],
+          "facts": {
+            "Season": "About late December to March",
+            "Altitude": "About 2,650 m to close to 4,000 m",
+            "Good for": "All levels; experts on the upper mountain"
+          },
+          "links": [
+            {
+              "label": "Gulmarg travel guide",
+              "href": "/blog/gulmarg-travel-guide"
+            },
+            {
+              "label": "Things to do in Gulmarg",
+              "href": "/blog/things-to-do-in-gulmarg"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/gulmarg/gulmarg-gondola-snow-covered-station.webp",
+            "alt": "Gulmarg gondola station in deep winter snow",
+            "caption": "Gulmarg gondola"
+          }
+        },
+        {
+          "name": "Auli, Uttarakhand",
+          "body": [
+            "Auli, above Joshimath in Chamoli district, has open slopes at roughly 2,500 to 3,000 metres with views of Nanda Devi and other Garhwal peaks. The state tourism corporation has run ski courses here, and there is a chairlift and ski lift on the slopes. Snow has been less dependable in recent winters, and the Joshimath to Auli ropeway has been closed since January 2023 because of land subsidence in Joshimath; the road from Joshimath is the way up."
+          ],
+          "facts": {
+            "Season": "About January to March, snow permitting",
+            "Good for": "Beginners and courses",
+            "Good to know": "Ropeway closed; check snow before travelling"
+          },
+          "links": [
+            {
+              "label": "Auli travel guide",
+              "href": "/blog/auli-travel-guide"
+            },
+            {
+              "label": "Things to do in Auli",
+              "href": "/blog/things-to-do-in-auli"
+            }
+          ]
+        },
+        {
+          "name": "Solang Valley, Manali, Himachal Pradesh",
+          "body": [
+            "Solang Valley, about 14 km from Manali, has short beginner slopes where instructors teach the basics when there is enough snow, usually in January and February. The Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports in Manali runs structured skiing courses."
+          ],
+          "facts": {
+            "Season": "About January to February",
+            "Good for": "Beginners, families on a Manali holiday"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Manali",
+              "href": "/blog/adventure-activities-in-manali"
+            },
+            {
+              "label": "Things to do in Manali",
+              "href": "/blog/things-to-do-in-manali"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/manali/solang-valley-manali.webp",
+            "alt": "Snow slopes and mountains at Solang Valley near Manali",
+            "caption": "Solang Valley"
+          }
+        },
+        {
+          "name": "Narkanda and Kufri, near Shimla",
+          "body": [
+            "Narkanda, about 60 km beyond Shimla, has small slopes that have been used for beginner ski courses when there is snow, and Kufri once had skiing too. Snow here is irregular, so treat skiing as a bonus rather than the reason to go."
+          ],
+          "facts": {
+            "Season": "January to February in good snow years",
+            "Good for": "A taste of snow near Shimla"
+          },
+          "links": [
+            {
+              "label": "Things to do in Shimla",
+              "href": "/blog/things-to-do-in-shimla"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Ski areas compared",
+      "table": {
+        "columns": [
+          "Place",
+          "Lifts",
+          "Level",
+          "Access",
+          "Best months"
+        ],
+        "rows": [
+          [
+            "Gulmarg",
+            "Two-stage gondola, chairlift, surface lifts",
+            "Beginner to expert",
+            "Fly to Srinagar, then road",
+            "January to March"
+          ],
+          [
+            "Auli",
+            "Chairlift and ski lift (ropeway from Joshimath closed)",
+            "Beginner to intermediate",
+            "Rishikesh or Dehradun, then a long road trip",
+            "January to March, snow permitting"
+          ],
+          [
+            "Solang Valley",
+            "Short lifts when operating",
+            "Beginner",
+            "Fly to Kullu or road to Manali",
+            "January to February"
+          ],
+          [
+            "Narkanda",
+            "Very limited",
+            "Beginner",
+            "Road from Shimla",
+            "January to February in good years"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "season",
+      "heading": "When to ski",
+      "paras": [
+        "The ski season depends entirely on snowfall, which varies a lot from year to year. In most winters Gulmarg has skiable snow from late December or January to March, and the upper slopes can hold snow into April. Auli and Solang need a good snowfall to open properly, usually in January and February.",
+        "January and February are the coldest months, with temperatures well below freezing on the upper slopes. Heavy snowfall can close roads to Gulmarg and Manali for a day or more, so keep your plans flexible and check the forecast before travelling."
+      ]
+    },
+    {
+      "id": "learn",
+      "heading": "Learning to ski",
+      "items": [
+        {
+          "name": "Institute courses",
+          "body": [
+            "The Indian Institute of Skiing and Mountaineering in Gulmarg and the Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports in Manali run multi-day skiing courses, including basic courses for complete beginners. Courses usually include equipment and accommodation, and places fill up; apply early."
+          ],
+          "facts": {
+            "Duration": "Usually one to two weeks",
+            "Good for": "Serious beginners"
+          },
+          "links": [
+            {
+              "label": "Mountaineering in India",
+              "href": "/blog/mountaineering-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Private instructors",
+          "body": [
+            "At Gulmarg, Auli and Solang, instructors can be hired by the hour or day on the slopes. Ask for instructors certified by the tourism department or an institute, agree the price and duration in advance, and make sure the equipment fits."
+          ],
+          "facts": {
+            "Duration": "A few hours to several days",
+            "Good for": "Short trips"
+          }
+        },
+        {
+          "name": "Snowboarding",
+          "body": [
+            "Snowboarding lessons are available in Gulmarg, which has the best conditions for it in India. Beginners usually find the first day harder than skiing, and learn faster from the second day."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backcountry",
+      "heading": "Off-piste and backcountry skiing",
+      "paras": [
+        "Gulmarg is known internationally for off-piste skiing from the top of the gondola, but the terrain is avalanche-prone. The J&K authorities issue avalanche warnings in heavy snow, and parts of the mountain can be closed. Ski off-piste only with a qualified local guide, carry an avalanche transceiver, probe and shovel, and know how to use them.",
+        "Heli-skiing has operated in Gulmarg in some seasons. Treat any such offer as expert-only and check the operator's credentials and insurance carefully."
+      ]
+    }
+  ],
+  "safety": [
+    "Take lessons before going onto intermediate slopes; most ski injuries are to beginners on terrain above their level.",
+    "Wear a helmet; it is worth renting one even if others on the slope do not.",
+    "Check avalanche warnings in Gulmarg and never ski off-piste without a guide and avalanche gear.",
+    "Stay hydrated and give yourself a day to adjust to altitude before skiing at Apharwat.",
+    "Protect against cold and sun: goggles, sunscreen and layered clothing are essential.",
+    "Check travel advisories for Jammu and Kashmir before booking, and carry ID at all times."
+  ],
+  "packing": [
+    "Thermal base layers (top and bottom)",
+    "A fleece or down mid-layer",
+    "A waterproof ski jacket and trousers (can often be rented)",
+    "Waterproof gloves, a warm hat and a neck gaiter",
+    "Ski goggles and high-SPF sunscreen",
+    "Woollen socks; ski boots are rented with skis"
+  ],
+  "faqs": [
+    {
+      "q": "Where is the best place for skiing in India?",
+      "a": "Gulmarg in Jammu and Kashmir, with a two-stage gondola, slopes for every level and some of the best powder in Asia."
+    },
+    {
+      "q": "When is the ski season in India?",
+      "a": "Roughly from late December to March, depending on snowfall. January and February are the most reliable months."
+    },
+    {
+      "q": "Can beginners ski in Gulmarg?",
+      "a": "Yes. There are gentle beginner slopes near the village with instructors and rental equipment, and institute courses."
+    },
+    {
+      "q": "Is the Auli ropeway working?",
+      "a": "The Joshimath to Auli ropeway has been closed since January 2023 because of land subsidence in Joshimath. Auli is reached by road; check the current status before planning."
+    },
+    {
+      "q": "Where can I learn skiing in India?",
+      "a": "At the Indian Institute of Skiing and Mountaineering in Gulmarg, at the Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports in Manali, or with instructors at Gulmarg, Auli and Solang."
+    },
+    {
+      "q": "Is skiing in India expensive?",
+      "a": "Compared with skiing abroad it is usually cheaper, but costs depend on lift passes, rentals, instructors and hotels. Compare current rates before you go."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Gulmarg travel guide",
+      "href": "/blog/gulmarg-travel-guide"
+    },
+    {
+      "label": "Things to do in Gulmarg",
+      "href": "/blog/things-to-do-in-gulmarg"
+    },
+    {
+      "label": "Gulmarg 2-day itinerary",
+      "href": "/blog/gulmarg-travel-guide#itinerary"
+    },
+    {
+      "label": "Kashmir tour packages",
+      "href": "/packages/kashmir"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Winter treks in India",
+      "href": "/blog/winter-treks-in-india",
+      "note": "snow on foot"
+    },
+    {
+      "name": "Adventure activities in Manali",
+      "href": "/blog/adventure-activities-in-manali",
+      "note": "Solang and beyond"
+    },
+    {
+      "name": "Adventure activities in Uttarakhand",
+      "href": "/blog/adventure-activities-in-uttarakhand",
+      "note": "Auli and more"
+    }
+  ],
+  "places": [
+    "Gulmarg",
+    "Kongdori",
+    "Apharwat",
+    "Auli",
+    "Solang Valley",
+    "Narkanda"
+  ],
+  "styles": [
+    "adventure-tours"
+  ],
+  "planDestination": "Gulmarg",
+  "updated": "2026-09-25"
+}

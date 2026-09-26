@@ -1,0 +1,300 @@
+{
+  "slug": "red-fort",
+  "kind": "destination",
+  "short": "Red Fort",
+  "title": "Red Fort, Delhi: History and Visiting Guide",
+  "seoTitle": "Red Fort, Delhi: History, What to See & Visiting Tips | Kudozz Club",
+  "metaDescription": "Visit the Red Fort (Lal Qila) in Delhi: its history as Shah Jahan's palace-fortress, what to see inside, the Monday closure, tickets and the nearest metro.",
+  "description": "A visitor's guide to the Red Fort (Lal Qila) in Delhi: built by Shah Jahan as the palace-fortress of Shahjahanabad, its role in 1857 and on Independence Day, what to see from Lahori Gate and Chhatta Chowk to the Diwan-i-Aam and Diwan-i-Khas, the museums, the Monday closure, tickets, the metro, and nearby Old Delhi.",
+  "dek": "The Red Fort was the palace-fortress of the Mughal emperors in Delhi, and it is where India's Prime Minister raises the flag every Independence Day.",
+  "primaryKeyword": "Red Fort",
+  "secondaryKeywords": [
+    "Lal Qila",
+    "Red Fort timings",
+    "Red Fort history"
+  ],
+  "searchIntent": "Monument visit planning",
+  "activities": [
+    "UNESCO sites",
+    "Mughal monuments",
+    "museums"
+  ],
+  "terrain": [
+    "heritage town"
+  ],
+  "regions": [
+    "Delhi",
+    "North India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Red Fort",
+    "Lal Qila",
+    "Delhi",
+    "Mughal"
+  ],
+  "hero": {
+    "src": "/images/heritage/red-fort-delhi-lahori-gate.webp",
+    "alt": "The Naubat Khana, the drum house inside the Red Fort, Delhi"
+  },
+  "parent": {
+    "label": "UNESCO World Heritage Sites in India",
+    "href": "/blog/unesco-world-heritage-sites-in-india"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Red Fort",
+    "containedIn": "Delhi"
+  },
+  "intro": [
+    "Shah Jahan moved the Mughal capital from Agra to Delhi and built a new city, Shahjahanabad, with the Red Fort as its palace-fortress. Construction ran from 1639 to 1648, in red sandstone walls around palaces of marble.",
+    "The fort was the seat of the Mughal emperors until 1857, when the last emperor, Bahadur Shah Zafar, was tried and exiled by the British, who then occupied it. Since 1947 the Prime Minister has addressed the nation from its ramparts on Independence Day. The Red Fort Complex, which includes the older Salimgarh Fort, was inscribed by UNESCO in 2007."
+  ],
+  "quickAnswer": "The Red Fort (Lal Qila) in Old Delhi was built by Shah Jahan between 1639 and 1648 and is a UNESCO World Heritage Site. It is closed on Mondays and open on other days from morning to late afternoon; tickets are sold by the ASI, including online. The nearest metro station is Lal Qila on the Violet Line. Allow two to three hours, and combine it with Chandni Chowk and the Jama Masjid.",
+  "takeaways": [
+    "Built by Shah Jahan between 1639 and 1648 as the palace of Shahjahanabad.",
+    "Closed on Mondays; check current hours with the ASI.",
+    "Enter through Lahori Gate and the covered Chhatta Chowk bazaar.",
+    "Lal Qila metro station (Violet Line) is closest; Chandni Chowk (Yellow Line) is a short walk.",
+    "Combine it with Chandni Chowk, the Jama Masjid and an Old Delhi heritage walk."
+  ],
+  "sections": [
+    {
+      "id": "what-to-see",
+      "heading": "What to see",
+      "items": [
+        {
+          "name": "Lahori Gate and Chhatta Chowk",
+          "body": [
+            "The main gate, facing Chandni Chowk, leads into a covered bazaar that still sells crafts and souvenirs."
+          ],
+          "image": {
+            "src": "/images/blogs/delhi/delhi/red-fort-delhi.webp",
+            "alt": "The red sandstone walls and Lahori Gate of the Red Fort, Delhi",
+            "caption": "The Red Fort, Delhi"
+          }
+        },
+        {
+          "name": "Diwan-i-Aam",
+          "body": [
+            "The Hall of Public Audience, with the emperor's marble throne canopy."
+          ]
+        },
+        {
+          "name": "Diwan-i-Khas",
+          "body": [
+            "The Hall of Private Audience in white marble, once home to the Peacock Throne, which was taken to Persia in 1739."
+          ]
+        },
+        {
+          "name": "Rang Mahal and the palace pavilions",
+          "body": [
+            "Marble pavilions linked by the Nahr-i-Bihisht, the 'stream of paradise' water channel."
+          ]
+        },
+        {
+          "name": "Moti Masjid",
+          "body": [
+            "A small marble mosque added by Aurangzeb."
+          ]
+        },
+        {
+          "name": "Museums",
+          "body": [
+            "Several museums inside the fort cover the Mughal period, the freedom struggle and 1857; check which galleries are open."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "After Nadir Shah's raid in 1739 and the decline of Mughal power, the fort remained the emperor's residence. Following the uprising of 1857, the British demolished many of its buildings and garrisoned it. It stayed a military cantonment for much of the 20th century, and the Indian Army handed it over for heritage use in 2003."
+      ]
+    },
+    {
+      "id": "visiting",
+      "heading": "Visiting practicalities",
+      "list": [
+        "Closed on Mondays; open other days from morning to late afternoon.",
+        "Tickets from the ASI, at counters or online; carry ID.",
+        "Security checks at the entrance; carry only a small bag.",
+        "A sound and light show has been held in the evenings; check current timings.",
+        "Allow two to three hours, more for the museums."
+      ]
+    },
+    {
+      "id": "reach",
+      "heading": "How to reach",
+      "list": [
+        "Metro: Lal Qila station (Violet Line) is closest; Chandni Chowk (Yellow Line) is about a 15-minute walk.",
+        "By road: parking is limited; use the metro or a cab drop-off.",
+        "From New Delhi Railway Station: about 3 km."
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Nearby",
+      "items": [
+        {
+          "name": "Old Delhi",
+          "body": [
+            "Chandni Chowk, the Jama Masjid, Gurdwara Sis Ganj Sahib and the old lanes."
+          ],
+          "links": [
+            {
+              "label": "Old Delhi guide",
+              "href": "/blog/old-delhi-travel-guide"
+            },
+            {
+              "label": "Things to do in Old Delhi",
+              "href": "/blog/things-to-do-in-old-delhi"
+            }
+          ]
+        },
+        {
+          "name": "Heritage walks",
+          "body": [
+            "Guided walks through Shahjahanabad's bazaars and havelis."
+          ],
+          "links": [
+            {
+              "label": "Heritage walks in India",
+              "href": "/blog/heritage-walks-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "half-day",
+      "heading": "A half-day in Old Delhi",
+      "table": {
+        "columns": [
+          "Time",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "9:30 am",
+            "Red Fort, entering by Lahori Gate"
+          ],
+          [
+            "12 noon",
+            "Walk or ride a cycle-rickshaw down Chandni Chowk"
+          ],
+          [
+            "1 pm",
+            "Lunch in the old city"
+          ],
+          [
+            "2:30 pm",
+            "Jama Masjid (outside prayer times), then the spice market at Khari Baoli"
+          ]
+        ]
+      },
+      "after": [
+        "On Mondays, when the fort is closed, do Chandni Chowk and the Jama Masjid, and visit the fort another day."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and ticket rules are set by the Archaeological Survey of India (ASI) or the site authority and change from time to time; check the official website before you go, and buy tickets only on official portals.",
+    "Do not climb on or touch carvings, and follow the site's rules on photography, drones and tripods.",
+    "Weekends and holidays are crowded; arrive at opening time for the calmest visit.",
+    "Keep valuables secure in Chandni Chowk's crowded lanes."
+  ],
+  "packing": [
+    "Comfortable shoes",
+    "Water and a hat",
+    "Photo ID",
+    "Small bag"
+  ],
+  "faqs": [
+    {
+      "q": "Is the Red Fort open on Monday?",
+      "a": "No. The Red Fort is closed on Mondays."
+    },
+    {
+      "q": "Who built the Red Fort?",
+      "a": "The Mughal emperor Shah Jahan, between 1639 and 1648."
+    },
+    {
+      "q": "Which metro station is nearest to the Red Fort?",
+      "a": "Lal Qila on the Violet Line; Chandni Chowk on the Yellow Line is also close."
+    },
+    {
+      "q": "How long does it take to see the Red Fort?",
+      "a": "About two to three hours."
+    },
+    {
+      "q": "What happens at the Red Fort on Independence Day?",
+      "a": "The Prime Minister raises the national flag and addresses the nation from the ramparts; the fort is closed to visitors around the day."
+    },
+    {
+      "q": "Is the Red Fort a UNESCO site?",
+      "a": "Yes. The Red Fort Complex was inscribed in 2007."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Old Delhi guide",
+      "href": "/blog/old-delhi-travel-guide"
+    },
+    {
+      "label": "Heritage tourism in Delhi",
+      "href": "/blog/heritage-tourism-in-delhi"
+    },
+    {
+      "label": "Golden Triangle itinerary",
+      "href": "/blog/golden-triangle-itinerary"
+    },
+    {
+      "label": "Delhi tour packages",
+      "href": "/packages/delhi"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Mughal monuments in India",
+      "href": "/blog/mughal-monuments-in-india",
+      "note": "the wider Mughal trail"
+    },
+    {
+      "name": "Humayun's Tomb",
+      "href": "/blog/humayuns-tomb",
+      "note": "an earlier Mughal masterpiece"
+    },
+    {
+      "name": "Qutub Minar",
+      "href": "/blog/qutub-minar",
+      "note": "Delhi's Sultanate monuments"
+    }
+  ],
+  "places": [
+    "Red Fort",
+    "Lahori Gate",
+    "Chandni Chowk",
+    "Jama Masjid",
+    "Salimgarh"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Delhi",
+  "updated": "2026-09-26"
+}

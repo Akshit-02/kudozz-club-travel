@@ -1,0 +1,356 @@
+{
+  "slug": "golden-triangle-itinerary",
+  "kind": "planning",
+  "short": "Golden Triangle itinerary",
+  "title": "Golden Triangle Itinerary: Delhi, Agra and Jaipur in 5 Days",
+  "seoTitle": "Golden Triangle Itinerary: Delhi, Agra and Jaipur | Kudozz Club",
+  "metaDescription": "A day-by-day Golden Triangle itinerary for Delhi, Agra and Jaipur, with closures to plan around, travel times, Fatehpur Sikri on the way, and extensions.",
+  "description": "A day-by-day Golden Triangle itinerary covering Delhi, Agra and Jaipur in six days: Old and New Delhi, Humayun's Tomb and the Qutub Minar, the Taj Mahal at sunrise, Agra Fort, Fatehpur Sikri on the drive to Jaipur, Amber Fort and Jaipur's walled city, with weekly closures to plan around, travel times by road and rail, and extensions to Ranthambore, Udaipur or Varanasi.",
+  "dek": "Delhi, Agra and Jaipur hold some of India's most famous monuments within a few hours of each other. Here is a practical six-day plan.",
+  "primaryKeyword": "Golden Triangle itinerary",
+  "secondaryKeywords": [
+    "Golden Triangle 3 days",
+    "Golden Triangle 5 days",
+    "Delhi Agra Jaipur tour"
+  ],
+  "searchIntent": "Itinerary",
+  "activities": [
+    "monuments",
+    "UNESCO sites",
+    "markets",
+    "food"
+  ],
+  "terrain": [
+    "plains",
+    "city"
+  ],
+  "regions": [
+    "Delhi",
+    "Uttar Pradesh",
+    "Rajasthan"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn"
+  ],
+  "travellers": [
+    "first-time visitors",
+    "families",
+    "couples"
+  ],
+  "tags": [
+    "Golden Triangle",
+    "Delhi",
+    "Agra",
+    "Jaipur",
+    "Itinerary"
+  ],
+  "hero": {
+    "src": "/images/heritage/golden-triangle-jaipur-hawa-mahal.webp",
+    "alt": "The Hawa Mahal facing the street in Jaipur"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Golden Triangle (Delhi, Agra, Jaipur)",
+    "containedIn": "North India"
+  },
+  "intro": [
+    "The Golden Triangle links Delhi, Agra and Jaipur, three cities between about 200 and 280 km apart by road. Between them they hold nine UNESCO World Heritage Sites: the Taj Mahal, Agra Fort and Fatehpur Sikri; the Red Fort, Humayun's Tomb and the Qutub Minar in Delhi; and in Jaipur, the Jantar Mantar, the walled city and Amber Fort, part of the Hill Forts of Rajasthan.",
+    "Six days is a comfortable minimum. The key to a smooth trip is planning around weekly closures, especially the Taj Mahal on Fridays and the Red Fort on Mondays."
+  ],
+  "quickAnswer": "A six-day Golden Triangle itinerary spends two days in Delhi (Old Delhi, the Red Fort, Humayun's Tomb, the Qutub Minar), two in Agra (the Taj Mahal at sunrise, Agra Fort, Itmad-ud-Daulah, Fatehpur Sikri on the way out) and two in Jaipur (Amber Fort, the City Palace, Jantar Mantar and the bazaars). Avoid Agra on a Friday, when the Taj is closed, and the Red Fort on a Monday.",
+  "takeaways": [
+    "Six days is a comfortable minimum; seven or eight gives more breathing space.",
+    "Plan around closures: the Taj Mahal on Fridays, the Red Fort on Mondays.",
+    "The Gatimaan Express and Shatabdi trains are quick options between Delhi and Agra.",
+    "Visit Fatehpur Sikri on the drive from Agra to Jaipur.",
+    "Extend to Ranthambore, Udaipur or Varanasi if you have more time."
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Route at a glance",
+      "table": {
+        "columns": [
+          "Day",
+          "Base",
+          "Highlights"
+        ],
+        "rows": [
+          [
+            "1",
+            "Delhi",
+            "Old Delhi, Red Fort (not Monday), Jama Masjid, Chandni Chowk"
+          ],
+          [
+            "2",
+            "Delhi",
+            "Humayun's Tomb, Qutub Minar, Lodhi Garden, New Delhi"
+          ],
+          [
+            "3",
+            "Agra",
+            "Travel to Agra; Agra Fort, Itmad-ud-Daulah, Mehtab Bagh at sunset"
+          ],
+          [
+            "4",
+            "Jaipur",
+            "Taj Mahal at sunrise (not Friday); Fatehpur Sikri; drive to Jaipur"
+          ],
+          [
+            "5",
+            "Jaipur",
+            "Amber Fort, Jaigarh or Nahargarh, Jal Mahal from the road"
+          ],
+          [
+            "6",
+            "Jaipur or Delhi",
+            "City Palace, Jantar Mantar, Hawa Mahal, bazaars; return to Delhi"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "delhi",
+      "heading": "Days 1 and 2: Delhi",
+      "items": [
+        {
+          "name": "Old and New Delhi",
+          "body": [
+            "Start with the Red Fort and the Jama Masjid, then walk or ride a cycle-rickshaw through Chandni Chowk. On day two, see Humayun's Tomb in the morning light, the Qutub Minar, and Lodhi Garden before an evening at Connaught Place or India Gate."
+          ],
+          "links": [
+            {
+              "label": "Red Fort",
+              "href": "/blog/red-fort"
+            },
+            {
+              "label": "Humayun's Tomb",
+              "href": "/blog/humayuns-tomb"
+            },
+            {
+              "label": "Qutub Minar",
+              "href": "/blog/qutub-minar"
+            },
+            {
+              "label": "Things to do in Delhi",
+              "href": "/blog/things-to-do-in-delhi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agra",
+      "heading": "Days 3 and 4: Agra and Fatehpur Sikri",
+      "items": [
+        {
+          "name": "Agra",
+          "body": [
+            "Take a morning train or drive (about 3.5 to 4 hours on the Yamuna Expressway). See Agra Fort and the Baby Taj, then watch sunset over the Taj from Mehtab Bagh across the river. Next morning, enter the Taj Mahal at opening time."
+          ],
+          "links": [
+            {
+              "label": "Taj Mahal",
+              "href": "/blog/taj-mahal"
+            },
+            {
+              "label": "Things to do in Agra",
+              "href": "/blog/things-to-do-in-agra"
+            }
+          ]
+        },
+        {
+          "name": "Fatehpur Sikri",
+          "body": [
+            "About 40 km from Agra, on the way to Jaipur. Allow two to three hours for the palaces, the Jama Masjid and the Buland Darwaza."
+          ],
+          "links": [
+            {
+              "label": "Fatehpur Sikri guide",
+              "href": "/blog/fatehpur-sikri-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/fatehpur-sikri/panch-mahal-fatehpur-sikri-3.webp",
+            "alt": "The Panch Mahal at Fatehpur Sikri",
+            "caption": "Panch Mahal, Fatehpur Sikri"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jaipur",
+      "heading": "Days 5 and 6: Jaipur",
+      "items": [
+        {
+          "name": "Jaipur",
+          "body": [
+            "Go to Amber Fort early, before the heat and crowds. Spend the next day in the walled city: the City Palace, Jantar Mantar, the Hawa Mahal and the bazaars. Jaipur's composite ticket covers several monuments."
+          ],
+          "links": [
+            {
+              "label": "Amber Fort",
+              "href": "/blog/amber-fort"
+            },
+            {
+              "label": "Things to do in Jaipur",
+              "href": "/blog/things-to-do-in-jaipur"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-around",
+      "heading": "Getting around",
+      "list": [
+        "Delhi to Agra: about 230 km; Gatimaan Express or Shatabdi trains take under two to about two and a half hours; by road, about 3.5 to 4 hours.",
+        "Agra to Jaipur: about 240 km; about five hours by road including a stop at Fatehpur Sikri.",
+        "Jaipur to Delhi: about 280 km; five to six hours by road, or by train.",
+        "A car and driver for the whole circuit is the most flexible option."
+      ]
+    },
+    {
+      "id": "extensions",
+      "heading": "Extensions",
+      "list": [
+        "Ranthambore (two nights) for tiger safaris and its UNESCO hill fort.",
+        "Udaipur (two or three nights) for lakes and palaces.",
+        "Varanasi (two nights), by overnight train or a flight from Delhi.",
+        "Pushkar or Jodhpur for more of Rajasthan."
+      ],
+      "items": [
+        {
+          "name": "Guides",
+          "body": [
+            "Add a leg."
+          ],
+          "links": [
+            {
+              "label": "Ranthambore guide",
+              "href": "/blog/ranthambore-travel-guide"
+            },
+            {
+              "label": "Rajasthan heritage itinerary",
+              "href": "/blog/rajasthan-heritage-itinerary"
+            },
+            {
+              "label": "Varanasi guide",
+              "href": "/blog/varanasi-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "heading": "Where to stay",
+      "list": [
+        "Delhi: central areas such as Connaught Place, Karol Bagh or South Delhi keep travel times short; Old Delhi has a few heritage havelis.",
+        "Agra: stay near the Taj's east or south gates to walk in at sunrise.",
+        "Jaipur: a heritage haveli in or near the walled city, or a hotel near MI Road."
+      ],
+      "after": [
+        "Heritage hotels in converted havelis and palaces are a highlight of Rajasthan; book early in winter."
+      ]
+    },
+    {
+      "id": "variations",
+      "heading": "Shorter and longer versions",
+      "paras": [
+        "With only four or five days, drop the second Delhi day and keep Agra and Jaipur. With eight days, add a slower Jaipur day for the craft villages of Sanganer and Bagru, or two nights in Ranthambore between Agra and Jaipur. For travellers with limited mobility, the Taj Mahal, Humayun's Tomb and the City Palace are more accessible than Amber Fort and the Qutub complex, which involve ramps, slopes and uneven ground."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures, tickets and train schedules change; check the ASI, state tourism and IRCTC before you go.",
+    "Driving times are approximate and depend on traffic and road works; allow extra time, and avoid long drives after dark.",
+    "Delhi and Agra can have poor air quality in November and December; check the forecast."
+  ],
+  "packing": [
+    "Comfortable shoes",
+    "Scarf for the Jama Masjid",
+    "Light layers; winter mornings are cold",
+    "Photo ID"
+  ],
+  "faqs": [
+    {
+      "q": "How many days do I need for the Golden Triangle?",
+      "a": "Six days is a comfortable minimum; seven or eight is more relaxed."
+    },
+    {
+      "q": "Which day is the Taj Mahal closed?",
+      "a": "Friday."
+    },
+    {
+      "q": "What is the best order for the Golden Triangle?",
+      "a": "Delhi, Agra, then Jaipur, returning to Delhi; plan Agra so you are not there on a Friday."
+    },
+    {
+      "q": "Can I do the Golden Triangle by train?",
+      "a": "Yes, trains link all three cities, though a car is more flexible for Fatehpur Sikri and Amber."
+    },
+    {
+      "q": "When is the best time to go?",
+      "a": "October to March."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Golden Triangle tour",
+      "href": "/packages/golden-triangle"
+    },
+    {
+      "label": "Mughal monuments in India",
+      "href": "/blog/mughal-monuments-in-india"
+    },
+    {
+      "label": "Heritage tourism in Delhi",
+      "href": "/blog/heritage-tourism-in-delhi"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Taj Mahal",
+      "href": "/blog/taj-mahal",
+      "note": "planning your visit"
+    },
+    {
+      "name": "Amber Fort",
+      "href": "/blog/amber-fort",
+      "note": "Jaipur's hill fort"
+    },
+    {
+      "name": "How to plan a heritage trip",
+      "href": "/blog/how-to-plan-a-heritage-trip-in-india",
+      "note": "practical tips"
+    }
+  ],
+  "places": [
+    "Delhi",
+    "Agra",
+    "Fatehpur Sikri",
+    "Jaipur",
+    "Amber"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Delhi, Agra and Jaipur",
+  "updated": "2026-09-26"
+}

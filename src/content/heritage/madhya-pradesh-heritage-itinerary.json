@@ -1,0 +1,384 @@
+{
+  "slug": "madhya-pradesh-heritage-itinerary",
+  "kind": "planning",
+  "short": "Madhya Pradesh heritage itinerary",
+  "title": "Madhya Pradesh Heritage Itinerary: Gwalior, Orchha, Khajuraho, Sanchi and Mandu",
+  "seoTitle": "Madhya Pradesh Heritage Itinerary: Gwalior to Mandu | Kudozz Club",
+  "metaDescription": "An 11-day Madhya Pradesh heritage itinerary: Gwalior, Orchha, Khajuraho, Bhopal with Sanchi and Bhimbetka, then Indore, Mandu and Maheshwar, with travel times.",
+  "description": "An 11-day Madhya Pradesh heritage itinerary: Gwalior's hilltop fort, Orchha's palaces and cenotaphs, the temples of Khajuraho, Bhopal with day trips to Sanchi, Udayagiri and Bhimbetka, and the Malwa plateau's Mandu and Maheshwar, reached from Indore, with travel times and seasonal tips.",
+  "dek": "Madhya Pradesh has three UNESCO sites and some of India's most beautiful, uncrowded heritage towns. This route runs from Gwalior in the north to Mandu and Maheshwar in the west.",
+  "primaryKeyword": "Madhya Pradesh heritage tour",
+  "secondaryKeywords": [
+    "MP heritage circuit",
+    "Khajuraho Orchha itinerary",
+    "Madhya Pradesh 10 days"
+  ],
+  "searchIntent": "Itinerary",
+  "activities": [
+    "forts",
+    "temples",
+    "UNESCO sites",
+    "heritage towns"
+  ],
+  "terrain": [
+    "plateau",
+    "river"
+  ],
+  "regions": [
+    "Madhya Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "monsoon"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "photographers"
+  ],
+  "tags": [
+    "Madhya Pradesh",
+    "Itinerary",
+    "Khajuraho",
+    "Orchha",
+    "Mandu"
+  ],
+  "hero": {
+    "src": "/images/heritage/mp-heritage-orchha-chhatris.webp",
+    "alt": "The royal chhatris (cenotaphs) of Orchha, Madhya Pradesh"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Madhya Pradesh heritage route",
+    "containedIn": "Madhya Pradesh"
+  },
+  "intro": [
+    "Madhya Pradesh sits at the heart of India and holds three UNESCO cultural sites: the Khajuraho temples, the Buddhist monuments of Sanchi and the Bhimbetka rock shelters. Around them are towns such as Orchha, Gwalior, Mandu and Maheshwar that are much quieter than their Rajasthani counterparts.",
+    "This 11-day route follows a north-to-west line, with trains and flights for the long legs. Mandu is especially beautiful in the monsoon, when its lakes fill and its plateau turns green."
+  ],
+  "quickAnswer": "An 11-day Madhya Pradesh heritage itinerary: Gwalior (1 night), Orchha (2), Khajuraho (2), Bhopal (3, with Sanchi, Udayagiri and Bhimbetka), then Indore, Mandu (2) and Maheshwar (1). Use the train from Delhi to Gwalior, road to Orchha and Khajuraho, a flight or long drive to Bhopal, and road for Malwa. October to March is best; Mandu is also lovely in the monsoon.",
+  "takeaways": [
+    "The route covers MP's three UNESCO cultural sites.",
+    "Orchha is about 16 km from Jhansi, which has good train links.",
+    "Sanchi, Udayagiri and Bhimbetka are day trips from Bhopal.",
+    "Mandu is at its best in the monsoon.",
+    "Maheshwar is known for its ghats and handloom weaving."
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Route at a glance",
+      "table": {
+        "columns": [
+          "Days",
+          "Base",
+          "Highlights"
+        ],
+        "rows": [
+          [
+            "1",
+            "Gwalior",
+            "Gwalior Fort, Man Singh Palace, Jai Vilas Palace"
+          ],
+          [
+            "2 to 3",
+            "Orchha",
+            "Raja Mahal, Jahangir Mahal, cenotaphs on the Betwa"
+          ],
+          [
+            "4 to 5",
+            "Khajuraho",
+            "Western, Eastern and Southern temple groups"
+          ],
+          [
+            "6 to 8",
+            "Bhopal",
+            "Sanchi, Udayagiri caves, Bhimbetka, Bhopal's museums"
+          ],
+          [
+            "9 to 10",
+            "Mandu",
+            "Jahaz Mahal, Hoshang Shah's tomb, Rupmati's pavilion"
+          ],
+          [
+            "11",
+            "Maheshwar",
+            "Ahilya Fort, ghats, handloom"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "north",
+      "heading": "Gwalior, Orchha and Khajuraho",
+      "items": [
+        {
+          "name": "Gwalior",
+          "body": [
+            "A hilltop fort with the tiled Man Singh Palace and Jain rock sculptures."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Gwalior",
+              "href": "/blog/things-to-do-in-gwalior"
+            }
+          ]
+        },
+        {
+          "name": "Orchha",
+          "body": [
+            "Bundela palaces and royal chhatris by the Betwa, and the Ram Raja temple."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Orchha",
+              "href": "/blog/things-to-do-in-orchha"
+            }
+          ]
+        },
+        {
+          "name": "Khajuraho",
+          "body": [
+            "Chandela temples from about 950 to 1050 CE, with the Kandariya Mahadeva as the highlight; Panna National Park is nearby."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Khajuraho",
+              "href": "/blog/things-to-do-in-khajuraho"
+            },
+            {
+              "label": "Panna guide",
+              "href": "/blog/panna-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/madhya-pradesh/khajuraho-devi-jagadambi-temple-madhya-pradesh.webp",
+            "alt": "The Devi Jagadambi temple at Khajuraho",
+            "caption": "Khajuraho"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bhopal",
+      "heading": "Bhopal and its day trips",
+      "items": [
+        {
+          "name": "Sanchi, Udayagiri and Bhimbetka",
+          "body": [
+            "The Great Stupa at Sanchi (about 46 km), the Gupta-era Udayagiri caves near Vidisha, and the rock shelters of Bhimbetka (about 45 km in the other direction)."
+          ],
+          "links": [
+            {
+              "label": "Sanchi guide",
+              "href": "/blog/sanchi-travel-guide"
+            },
+            {
+              "label": "Bhimbetka guide",
+              "href": "/blog/bhimbetka-travel-guide"
+            },
+            {
+              "label": "Things to do in Bhopal",
+              "href": "/blog/things-to-do-in-bhopal"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/madhya-pradesh/great-stupa-sanchi-buddhist-monument.webp",
+            "alt": "The Great Stupa at Sanchi",
+            "caption": "Great Stupa, Sanchi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "malwa",
+      "heading": "Mandu and Maheshwar",
+      "items": [
+        {
+          "name": "Mandu",
+          "body": [
+            "A plateau fort-city of the Malwa sultans, with the Jahaz Mahal between two lakes and Hoshang Shah's tomb, one of the earliest marble monuments of its kind in India."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mandu",
+              "href": "/blog/things-to-do-in-mandu"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/mandu/jahaz-mahal-mandu.webp",
+            "alt": "The Jahaz Mahal between its lakes at Mandu",
+            "caption": "Jahaz Mahal, Mandu"
+          }
+        },
+        {
+          "name": "Maheshwar",
+          "body": [
+            "Ahilyabai Holkar's riverside fort and ghats on the Narmada, and the Maheshwari handloom."
+          ],
+          "links": [
+            {
+              "label": "Indore guide",
+              "href": "/blog/indore-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "heading": "Getting around",
+      "list": [
+        "Delhi to Gwalior: fast trains take about three to four hours.",
+        "Gwalior to Orchha: about 120 km by road; Jhansi is the nearest big station.",
+        "Orchha to Khajuraho: about 175 km, around four hours by road.",
+        "Khajuraho to Bhopal: a long drive; flights via other cities or trains from nearby stations may be quicker.",
+        "Bhopal to Indore: about 190 km; Indore to Mandu about 95 km."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "MP Tourism runs well-located hotels in many heritage towns, including Orchha, Khajuraho, Mandu and Maheshwar, which are often among the best-placed stays. Orchha and Maheshwar also have heritage properties in old palaces and forts. In Bhopal, stay near the Upper Lake for easy access to the museums and day trips."
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Culture and festivals",
+      "list": [
+        "The Khajuraho Dance Festival, usually in February.",
+        "The Tansen Samaroh music festival in Gwalior, usually in December.",
+        "The sound-and-light shows at Gwalior Fort, Orchha and Khajuraho.",
+        "Chanderi and Maheshwari weaving in their home towns."
+      ]
+    },
+    {
+      "id": "shorter",
+      "heading": "Shorter versions",
+      "table": {
+        "columns": [
+          "Time",
+          "Route"
+        ],
+        "rows": [
+          [
+            "5 days",
+            "Gwalior, Orchha, Khajuraho"
+          ],
+          [
+            "6 days",
+            "Bhopal with Sanchi and Bhimbetka, Indore, Mandu, Maheshwar"
+          ],
+          [
+            "11 days",
+            "The full route"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Hire a guide at Khajuraho; the sculpture makes much more sense with the stories.",
+        "Start Bhimbetka early; the shelters are spread along forest paths.",
+        "In the monsoon, check road conditions to Mandu and Maheshwar.",
+        "Carry cash for small towns, where cards may not work."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and train schedules change; check the ASI, state tourism and IRCTC before you go.",
+    "Driving times are approximate; allow extra time, and avoid long drives after dark.",
+    "Some rural roads are slow; do not plan long drives after dark."
+  ],
+  "packing": [
+    "Walking shoes",
+    "Sun protection",
+    "Rain gear for a monsoon trip to Mandu",
+    "Modest clothing for temples"
+  ],
+  "faqs": [
+    {
+      "q": "How many days do I need for Madhya Pradesh?",
+      "a": "About ten to twelve days for this full route; five days covers Gwalior, Orchha and Khajuraho."
+    },
+    {
+      "q": "What are Madhya Pradesh's UNESCO sites?",
+      "a": "The Khajuraho temples, the Buddhist monuments at Sanchi and the Bhimbetka rock shelters."
+    },
+    {
+      "q": "When is the best time to visit?",
+      "a": "October to March; Mandu is also beautiful in the monsoon."
+    },
+    {
+      "q": "How do I reach Orchha?",
+      "a": "Via Jhansi, about 16 km away."
+    },
+    {
+      "q": "What is special about Hoshang Shah's tomb?",
+      "a": "It is often described as one of the earliest marble monuments of its kind in India; local tradition links it to the builders of the Taj Mahal."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage tourism in Madhya Pradesh",
+      "href": "/blog/heritage-tourism-in-madhya-pradesh"
+    },
+    {
+      "label": "Temple architecture of India",
+      "href": "/blog/temple-architecture-of-india"
+    },
+    {
+      "label": "Archaeological sites in India",
+      "href": "/blog/archaeological-sites-in-india"
+    },
+    {
+      "label": "Madhya Pradesh tour packages",
+      "href": "/packages/madhya-pradesh"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Khajuraho guide",
+      "href": "/blog/khajuraho-travel-guide",
+      "note": "the temples"
+    },
+    {
+      "name": "Orchha guide",
+      "href": "/blog/orchha-travel-guide",
+      "note": "Bundela heritage"
+    },
+    {
+      "name": "Textile heritage of India",
+      "href": "/blog/textile-heritage-of-india",
+      "note": "Chanderi and Maheshwari"
+    }
+  ],
+  "places": [
+    "Gwalior",
+    "Orchha",
+    "Khajuraho",
+    "Bhopal",
+    "Sanchi",
+    "Udayagiri",
+    "Bhimbetka",
+    "Indore",
+    "Mandu",
+    "Maheshwar"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "Madhya Pradesh",
+  "updated": "2026-09-26"
+}

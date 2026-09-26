@@ -1,0 +1,1900 @@
+[
+ {
+  "slug": "best-adventure-destinations-in-india",
+  "title": "Best Adventure Destinations in India, by Activity and Season",
+  "short": "Best adventure destinations",
+  "kind": "pillar",
+  "excerpt": "A guide to the best adventure destinations in India, from Ladakh, Spiti and Gulmarg in the Himalaya to Rishikesh, Bir Billing and Manali, the Andaman Islands, Goa, Meghalaya, Sikkim, Jaisalmer, Hampi and the Sahyadris, with what each is best for, when to go and who it suits.",
+  "image": "/images/adventure/ladakh-mountain-road-adventure.webp",
+  "imageAlt": "Motorcyclists on a desert road in Ladakh",
+  "tags": [
+   "Adventure Destinations",
+   "India",
+   "Himalaya",
+   "Islands"
+  ],
+  "readTime": "6 min",
+  "activities": [
+   "trekking",
+   "rafting",
+   "paragliding",
+   "scuba diving",
+   "skiing",
+   "motorcycling",
+   "camping",
+   "rock climbing",
+   "caving"
+  ],
+  "terrain": [
+   "mountains",
+   "river",
+   "sea",
+   "desert",
+   "snow",
+   "forest"
+  ],
+  "regions": [
+   "India"
+  ],
+  "seasons": [
+   "spring",
+   "summer",
+   "monsoon",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "friends",
+   "couples",
+   "families",
+   "solo",
+   "groups"
+  ],
+  "parent": "/adventure-travel"
+ },
+ {
+  "slug": "adventure-sports-in-india",
+  "title": "Adventure Sports in India: Land, Water and Air Activities",
+  "short": "Adventure sports in India",
+  "kind": "pillar",
+  "excerpt": "A complete guide to adventure sports in India: land activities from trekking and mountaineering to caving, ziplining and ATV rides; water sports from rafting and kayaking to diving and surfing; and air sports from paragliding and bungee jumping to skydiving and ballooning, with where to try each, the season, difficulty and safety rules.",
+  "image": "/images/adventure/rishikesh-ganga-rafting-adventure.webp",
+  "imageAlt": "A raft on the Ganga beside a riverside camp near Rishikesh",
+  "tags": [
+   "Adventure Sports",
+   "India",
+   "Land Water Air",
+   "Activities"
+  ],
+  "readTime": "6 min",
+  "activities": [
+   "trekking",
+   "mountaineering",
+   "rock climbing",
+   "skiing",
+   "mountain biking",
+   "motorcycling",
+   "camping",
+   "caving",
+   "ziplining",
+   "rafting",
+   "kayaking",
+   "scuba diving",
+   "snorkelling",
+   "surfing",
+   "paragliding",
+   "bungee jumping",
+   "skydiving",
+   "hot air ballooning"
+  ],
+  "terrain": [
+   "mountains",
+   "river",
+   "sea",
+   "desert",
+   "snow",
+   "air"
+  ],
+  "regions": [
+   "India"
+  ],
+  "seasons": [
+   "spring",
+   "summer",
+   "monsoon",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "beginners",
+   "friends",
+   "couples",
+   "families",
+   "solo"
+  ],
+  "parent": "/adventure-travel"
+ },
+ {
+  "slug": "trekking-in-india",
+  "title": "Trekking in India: Best Treks by Region, Season and Difficulty",
+  "short": "Trekking in India",
+  "kind": "activity",
+  "excerpt": "A guide to trekking in India: the best treks in Uttarakhand, Himachal Pradesh, Kashmir, Ladakh, Sikkim and the Western Ghats, grouped by difficulty and season, with advice on altitude, permits, guides and how to pick your first trek.",
+  "image": "/images/adventure/himalayan-trek-trail-india.webp",
+  "imageAlt": "Kedarkantha peak above autumn forest in Uttarakhand",
+  "tags": [
+   "Trekking",
+   "Himalaya",
+   "Uttarakhand",
+   "Himachal"
+  ],
+  "readTime": "7 min",
+  "activities": [
+   "trekking",
+   "camping"
+  ],
+  "terrain": [
+   "mountains",
+   "forest",
+   "meadows",
+   "snow"
+  ],
+  "regions": [
+   "Uttarakhand",
+   "Himachal Pradesh",
+   "Jammu and Kashmir",
+   "Ladakh",
+   "Sikkim",
+   "West Bengal",
+   "Maharashtra",
+   "Karnataka",
+   "Kerala",
+   "Nagaland"
+  ],
+  "seasons": [
+   "spring",
+   "summer",
+   "monsoon",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "beginners",
+   "friends",
+   "solo",
+   "groups"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "beginner-treks-in-india",
+  "title": "Beginner Treks in India: Easy Himalayan and Hill Treks",
+  "short": "Beginner treks in India",
+  "kind": "activity",
+  "excerpt": "The best beginner treks in India, from overnight walks such as Triund, Nag Tibba and Prashar Lake to first multi-day Himalayan treks such as Kedarkantha and Dayara Bugyal, with difficulty, season, days needed and how to get fit for them.",
+  "image": "/images/adventure/triund-trek-ridge.webp",
+  "imageAlt": "Snow on the Dhauladhar range seen from the Triund trail",
+  "tags": [
+   "Beginner Treks",
+   "Trekking",
+   "Himachal",
+   "Uttarakhand"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "trekking",
+   "camping"
+  ],
+  "terrain": [
+   "mountains",
+   "forest",
+   "meadows"
+  ],
+  "regions": [
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "Maharashtra",
+   "Karnataka"
+  ],
+  "seasons": [
+   "spring",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "beginners",
+   "families",
+   "friends",
+   "solo"
+  ],
+  "parent": "/blog/trekking-in-india"
+ },
+ {
+  "slug": "winter-treks-in-india",
+  "title": "Winter Treks in India: Snow Treks from December to March",
+  "short": "Winter treks in India",
+  "kind": "activity",
+  "excerpt": "A guide to winter treks in India from December to March: Kedarkantha, Brahmatal, Kuari Pass, Dayara Bugyal, Chopta and Chandrashila, Sandakphu and the Chadar trek, with what snow trekking involves, gear for sub-zero nights and winter safety.",
+  "image": "/images/adventure/kedarkantha-winter-trek-snow.webp",
+  "imageAlt": "Frozen Juda ka Talab lake in snow on the Kedarkantha trek",
+  "tags": [
+   "Winter Treks",
+   "Snow",
+   "Kedarkantha",
+   "Uttarakhand"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "trekking",
+   "camping",
+   "snow"
+  ],
+  "terrain": [
+   "snow",
+   "mountains",
+   "forest"
+  ],
+  "regions": [
+   "Uttarakhand",
+   "Himachal Pradesh",
+   "West Bengal",
+   "Ladakh"
+  ],
+  "seasons": [
+   "winter"
+  ],
+  "travellers": [
+   "beginners",
+   "friends",
+   "groups",
+   "solo"
+  ],
+  "parent": "/blog/trekking-in-india"
+ },
+ {
+  "slug": "monsoon-treks-in-india",
+  "title": "Monsoon Treks in India: Rain-Shadow Himalaya and Sahyadri Trails",
+  "short": "Monsoon treks in India",
+  "kind": "activity",
+  "excerpt": "A guide to monsoon treks in India from June to September: rain-shadow treks in Ladakh, Kashmir and Lahaul, flower treks such as the Valley of Flowers, and green Sahyadri treks near Mumbai and Pune, with landslide, river and leech safety.",
+  "image": "/images/adventure/sahyadri-monsoon-trek.webp",
+  "imageAlt": "Green slopes of the Valley of Flowers in the monsoon",
+  "tags": [
+   "Monsoon Treks",
+   "Valley of Flowers",
+   "Sahyadri",
+   "Ladakh"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "trekking"
+  ],
+  "terrain": [
+   "mountains",
+   "meadows",
+   "forest",
+   "waterfalls"
+  ],
+  "regions": [
+   "Ladakh",
+   "Jammu and Kashmir",
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "Maharashtra",
+   "Nagaland",
+   "Meghalaya"
+  ],
+  "seasons": [
+   "monsoon"
+  ],
+  "travellers": [
+   "friends",
+   "groups",
+   "solo"
+  ],
+  "parent": "/blog/trekking-in-india"
+ },
+ {
+  "slug": "river-rafting-in-india",
+  "title": "River Rafting in India: Rivers, Grades and Seasons",
+  "short": "River rafting in India",
+  "kind": "activity",
+  "excerpt": "A guide to white-water rafting across India: the main rafting rivers from the Ganga at Rishikesh to the Zanskar in Ladakh and the Barapole in Coorg, which suit beginners, when each river runs, and how to raft safely.",
+  "image": "/images/adventure/white-water-rafting-india-river.webp",
+  "imageAlt": "Rafts on the Zanskar river in Ladakh",
+  "tags": [
+   "River Rafting",
+   "Adventure Sports",
+   "India",
+   "White Water"
+  ],
+  "readTime": "7 min",
+  "activities": [
+   "rafting",
+   "kayaking"
+  ],
+  "terrain": [
+   "river",
+   "mountains"
+  ],
+  "regions": [
+   "Uttarakhand",
+   "Ladakh",
+   "Himachal Pradesh",
+   "Karnataka",
+   "Maharashtra",
+   "Sikkim",
+   "Arunachal Pradesh"
+  ],
+  "seasons": [
+   "spring",
+   "summer",
+   "monsoon",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "beginners",
+   "friends",
+   "groups"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "river-rafting-in-rishikesh",
+  "title": "River Rafting in Rishikesh: Stretches, Rapids, Season and Safety",
+  "short": "River rafting in Rishikesh",
+  "kind": "activity",
+  "excerpt": "A practical guide to white-water rafting on the Ganga at Rishikesh: the four main stretches and their rapids, which one suits beginners, the rafting season and monsoon closure, what happens on the day, and safety checks before you book.",
+  "image": "/images/adventure/rishikesh-rafting-ganga-rapids.webp",
+  "imageAlt": "A raft on the green Ganga below rocky cliffs at Rishikesh",
+  "tags": [
+   "River Rafting",
+   "Rishikesh",
+   "Uttarakhand",
+   "Ganga"
+  ],
+  "readTime": "7 min",
+  "activities": [
+   "rafting",
+   "camping",
+   "cliff jumping"
+  ],
+  "terrain": [
+   "river",
+   "mountains"
+  ],
+  "regions": [
+   "Uttarakhand",
+   "North India"
+  ],
+  "seasons": [
+   "autumn",
+   "winter",
+   "spring",
+   "summer"
+  ],
+  "travellers": [
+   "beginners",
+   "friends",
+   "groups",
+   "couples"
+  ],
+  "parent": "/blog/river-rafting-in-india"
+ },
+ {
+  "slug": "paragliding-in-india",
+  "title": "Paragliding in India: Best Sites, Seasons and What to Expect",
+  "short": "Paragliding in India",
+  "kind": "activity",
+  "excerpt": "A guide to paragliding in India: the main flying sites from Bir Billing in Himachal to Kamshet near Pune, when each site flies, what a tandem flight involves, the monsoon ban and how to choose a registered pilot.",
+  "image": "/images/adventure/paragliding-himalaya-india.webp",
+  "imageAlt": "Paragliding pilots at the Billing take-off with the Dhauladhar range behind",
+  "tags": [
+   "Paragliding",
+   "Adventure Sports",
+   "Bir Billing",
+   "Kamshet"
+  ],
+  "readTime": "6 min",
+  "activities": [
+   "paragliding"
+  ],
+  "terrain": [
+   "mountains",
+   "hills"
+  ],
+  "regions": [
+   "Himachal Pradesh",
+   "Maharashtra",
+   "West Bengal",
+   "Sikkim",
+   "Kerala",
+   "Uttarakhand",
+   "Jammu and Kashmir",
+   "Goa"
+  ],
+  "seasons": [
+   "autumn",
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "beginners",
+   "couples",
+   "solo",
+   "friends"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "scuba-diving-in-india",
+  "title": "Scuba Diving in India: Best Dive Sites and Seasons",
+  "short": "Scuba diving in India",
+  "kind": "activity",
+  "excerpt": "A guide to scuba diving in India: the Andaman Islands, Lakshadweep, Netrani Island off Karnataka, Grande Island in Goa, Tarkarli in Maharashtra and Puducherry, when to dive, how try dives and certification courses work, and dive safety.",
+  "image": "/images/adventure/scuba-diver-coral-reef-india.webp",
+  "imageAlt": "Scuba divers in blue water in the Andaman Islands",
+  "tags": [
+   "Scuba Diving",
+   "Andaman",
+   "Lakshadweep",
+   "Water Sports"
+  ],
+  "readTime": "6 min",
+  "activities": [
+   "scuba diving",
+   "snorkelling"
+  ],
+  "terrain": [
+   "sea",
+   "islands"
+  ],
+  "regions": [
+   "Andaman and Nicobar Islands",
+   "Lakshadweep",
+   "Karnataka",
+   "Goa",
+   "Maharashtra",
+   "Puducherry"
+  ],
+  "seasons": [
+   "autumn",
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "beginners",
+   "couples",
+   "solo",
+   "families"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "scuba-diving-in-andaman",
+  "title": "Scuba Diving in the Andaman Islands: Sites, Courses and Season",
+  "short": "Scuba diving in the Andamans",
+  "kind": "activity",
+  "excerpt": "A guide to scuba diving in the Andaman Islands: where to dive around Swaraj Dweep (Havelock), Shaheed Dweep (Neil) and Port Blair, how try dives and Open Water courses work, the diving season, how to plan the trip and dive safely.",
+  "image": "/images/adventure/scuba-diving-havelock-andaman.webp",
+  "imageAlt": "A school of barracuda over the reef off Havelock Island",
+  "tags": [
+   "Scuba Diving",
+   "Andaman",
+   "Havelock",
+   "Neil Island"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "scuba diving",
+   "snorkelling"
+  ],
+  "terrain": [
+   "sea",
+   "islands"
+  ],
+  "regions": [
+   "Andaman and Nicobar Islands"
+  ],
+  "seasons": [
+   "autumn",
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "beginners",
+   "couples",
+   "solo",
+   "families"
+  ],
+  "parent": "/blog/scuba-diving-in-india"
+ },
+ {
+  "slug": "snorkeling-in-india",
+  "title": "Snorkelling in India: Best Reefs and Lagoons",
+  "short": "Snorkelling in India",
+  "kind": "activity",
+  "excerpt": "Where to go snorkelling in India, from Andaman reefs such as Elephant Beach, North Bay and Jolly Buoy to the lagoons of Lakshadweep and the Konkan and Karnataka coasts, with the best months, how guided snorkelling works and how to protect the reef.",
+  "image": "/images/adventure/snorkelling-reef-andaman.webp",
+  "imageAlt": "Branching coral and reef fish at Elephant Beach, Havelock Island",
+  "tags": [
+   "Snorkelling",
+   "Andaman",
+   "Lakshadweep",
+   "Water Sports"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "snorkelling"
+  ],
+  "terrain": [
+   "sea",
+   "islands",
+   "beaches"
+  ],
+  "regions": [
+   "Andaman and Nicobar Islands",
+   "Lakshadweep",
+   "Maharashtra",
+   "Karnataka",
+   "Goa"
+  ],
+  "seasons": [
+   "autumn",
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "beginners",
+   "couples"
+  ],
+  "parent": "/blog/scuba-diving-in-india"
+ },
+ {
+  "slug": "skiing-in-india",
+  "title": "Skiing in India: Gulmarg, Auli, Solang and the Ski Season",
+  "short": "Skiing in India",
+  "kind": "activity",
+  "excerpt": "A guide to skiing in India: Gulmarg in Kashmir with its two-stage gondola, Auli in Uttarakhand, Solang Valley near Manali and smaller slopes in Himachal, when the snow is reliable, how beginner courses work and how to stay safe on the mountain.",
+  "image": "/images/adventure/skiing-gulmarg-slopes.webp",
+  "imageAlt": "Ski students on the snow slopes at Gulmarg",
+  "tags": [
+   "Skiing",
+   "Gulmarg",
+   "Auli",
+   "Winter"
+  ],
+  "readTime": "6 min",
+  "activities": [
+   "skiing",
+   "snowboarding"
+  ],
+  "terrain": [
+   "snow",
+   "mountains"
+  ],
+  "regions": [
+   "Jammu and Kashmir",
+   "Uttarakhand",
+   "Himachal Pradesh"
+  ],
+  "seasons": [
+   "winter"
+  ],
+  "travellers": [
+   "beginners",
+   "families",
+   "friends",
+   "couples"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "bungee-jumping-in-india",
+  "title": "Bungee Jumping in India: Where to Jump and What to Know",
+  "short": "Bungee jumping in India",
+  "kind": "activity",
+  "excerpt": "A guide to bungee jumping in India: the 83-metre fixed-platform jump at Mohan Chatti near Rishikesh, the jump over Mayem Lake in Goa, Lonavala and city crane jumps, plus eligibility rules, seasons, what happens on the day and how to judge safety.",
+  "image": "/images/adventure/bungee-jump-india.webp",
+  "imageAlt": "The bungee tower over Mayem Lake in north Goa",
+  "tags": [
+   "Bungee Jumping",
+   "Rishikesh",
+   "Goa",
+   "Air Adventure"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "bungee jumping",
+   "giant swing"
+  ],
+  "terrain": [
+   "gorge",
+   "lake"
+  ],
+  "regions": [
+   "Uttarakhand",
+   "Goa",
+   "Maharashtra"
+  ],
+  "seasons": [
+   "autumn",
+   "winter",
+   "spring",
+   "summer"
+  ],
+  "travellers": [
+   "friends",
+   "solo",
+   "couples"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "skydiving-in-india",
+  "title": "Skydiving in India: Drop Zones, Jump Types and Seasons",
+  "short": "Skydiving in India",
+  "kind": "activity",
+  "excerpt": "A guide to skydiving in India: the drop zones and skydiving camps at Mysuru, Deesa, Aamby Valley, Dhana and Narnaul, how tandem, static-line and accelerated free fall jumps differ, when camps run and how to choose a safe operator.",
+  "image": "/images/adventure/skydiving-tandem-freefall.webp",
+  "imageAlt": "Tandem skydivers in free fall just after leaving the aircraft",
+  "tags": [
+   "Skydiving",
+   "Air Adventure",
+   "Mysuru",
+   "Deesa"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "skydiving"
+  ],
+  "terrain": [
+   "plains",
+   "air"
+  ],
+  "regions": [
+   "Karnataka",
+   "Gujarat",
+   "Maharashtra",
+   "Madhya Pradesh",
+   "Haryana"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring"
+  ],
+  "travellers": [
+   "solo",
+   "friends",
+   "couples"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "hot-air-balloon-rides-in-india",
+  "title": "Hot Air Balloon Rides in India: Where and When to Fly",
+  "short": "Hot air balloon rides in India",
+  "kind": "activity",
+  "excerpt": "A guide to hot air balloon rides in India: sunrise flights over the forts and villages around Jaipur, over Pushkar during the camel fair, Hampi's boulders and the hills near Lonavala, plus balloon festivals, the flying season and how to judge an operator.",
+  "image": "/images/adventure/hot-air-balloon-rajasthan.webp",
+  "imageAlt": "A hot air balloon over Pushkar, Rajasthan",
+  "tags": [
+   "Hot Air Balloon",
+   "Jaipur",
+   "Pushkar",
+   "Air Adventure"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "hot air ballooning"
+  ],
+  "terrain": [
+   "desert",
+   "plains",
+   "hills",
+   "air"
+  ],
+  "regions": [
+   "Rajasthan",
+   "Karnataka",
+   "Maharashtra",
+   "Andhra Pradesh"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "solo"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "mountain-biking-in-india",
+  "title": "Mountain Biking in India: Trails, Routes and Seasons",
+  "short": "Mountain biking in India",
+  "kind": "activity",
+  "excerpt": "A guide to mountain biking and cycle touring in India: the Manali to Leh highway, the Khardung La downhill, Spiti and Kinnaur, forest and estate trails in Coorg and Chikmagalur, the Sahyadris near Pune, and how to plan, hire bikes and ride safely.",
+  "image": "/images/adventure/mountain-biking-himalaya-india.webp",
+  "imageAlt": "Paved and dirt roads snaking up the mountainside on the Khardung La road, Ladakh",
+  "tags": [
+   "Mountain Biking",
+   "Cycling",
+   "Ladakh",
+   "Western Ghats"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "mountain biking",
+   "cycling"
+  ],
+  "terrain": [
+   "mountains",
+   "high desert",
+   "forest",
+   "hills"
+  ],
+  "regions": [
+   "Ladakh",
+   "Himachal Pradesh",
+   "Karnataka",
+   "Maharashtra",
+   "Kerala",
+   "Uttarakhand"
+  ],
+  "seasons": [
+   "summer",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "friends",
+   "solo",
+   "groups"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "best-motorcycle-trips-in-india",
+  "title": "Best Motorcycle Trips in India: Routes for Every Season",
+  "short": "Best motorcycle trips in India",
+  "kind": "activity",
+  "excerpt": "A guide to the best motorcycle trips in India, from the Manali to Leh and Srinagar to Leh highways and the Spiti circuit to the Tawang road, North Sikkim, the Konkan coast, the Western Ghats and the Rann of Kutch, with the best season for each, permits and riding advice.",
+  "image": "/images/adventure/motorcycle-himalayan-road-ladakh.webp",
+  "imageAlt": "A motorcyclist on the road beside Pangong Tso, Ladakh",
+  "tags": [
+   "Motorcycle Trips",
+   "Ladakh",
+   "Spiti",
+   "Road Trip"
+  ],
+  "readTime": "6 min",
+  "activities": [
+   "motorcycling",
+   "road trips"
+  ],
+  "terrain": [
+   "mountains",
+   "high desert",
+   "coast",
+   "desert"
+  ],
+  "regions": [
+   "Ladakh",
+   "Himachal Pradesh",
+   "Arunachal Pradesh",
+   "Sikkim",
+   "Maharashtra",
+   "Goa",
+   "Gujarat",
+   "Tamil Nadu",
+   "Rajasthan"
+  ],
+  "seasons": [
+   "summer",
+   "autumn",
+   "winter",
+   "monsoon"
+  ],
+  "travellers": [
+   "friends",
+   "solo",
+   "couples",
+   "groups"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "spiti-valley-bike-trip",
+  "title": "Spiti Valley Bike Trip: Route, Season and Riding Tips",
+  "short": "Spiti Valley bike trip",
+  "kind": "activity",
+  "excerpt": "A route guide to riding the Spiti Valley circuit by motorcycle: in from Shimla through Kinnaur, out over Kunzum Pass and the Atal Tunnel to Manali, with a day-by-day plan, the riding season, road conditions, fuel stops, permits for foreigners and altitude advice.",
+  "image": "/images/adventure/spiti-valley-road-kaza.webp",
+  "imageAlt": "A road cut into sheer cliffs on the way to Spiti Valley",
+  "tags": [
+   "Spiti Valley",
+   "Motorcycle Trips",
+   "Himachal Pradesh",
+   "Kunzum Pass"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "motorcycling",
+   "road trips"
+  ],
+  "terrain": [
+   "high desert",
+   "mountains"
+  ],
+  "regions": [
+   "Himachal Pradesh"
+  ],
+  "seasons": [
+   "summer",
+   "autumn"
+  ],
+  "travellers": [
+   "friends",
+   "solo",
+   "groups"
+  ],
+  "parent": "/blog/best-motorcycle-trips-in-india"
+ },
+ {
+  "slug": "rock-climbing-in-india",
+  "title": "Rock Climbing in India: Crags, Bouldering and Courses",
+  "short": "Rock climbing in India",
+  "kind": "activity",
+  "excerpt": "A guide to rock climbing in India: Hampi's world-famous bouldering, sandstone routes at Badami, granite crags around Bengaluru, the Aravalli crags near Delhi, Sahyadri pinnacles near Pune and Manali's boulders, with seasons, courses and safety.",
+  "image": "/images/adventure/rock-climbing-hampi-boulders.webp",
+  "imageAlt": "A climber bouldering on a granite boulder at Hampi",
+  "tags": [
+   "Rock Climbing",
+   "Hampi",
+   "Bouldering",
+   "Adventure Sports"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "rock climbing",
+   "bouldering",
+   "rappelling"
+  ],
+  "terrain": [
+   "rock",
+   "hills"
+  ],
+  "regions": [
+   "Karnataka",
+   "Delhi NCR",
+   "Haryana",
+   "Maharashtra",
+   "Himachal Pradesh",
+   "Rajasthan"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring"
+  ],
+  "travellers": [
+   "friends",
+   "solo",
+   "beginners"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "mountaineering-in-india",
+  "title": "Mountaineering in India: Courses, Institutes and First Peaks",
+  "short": "Mountaineering in India",
+  "kind": "activity",
+  "excerpt": "A guide to mountaineering in India: the government mountaineering institutes and their basic and advanced courses, who can apply, trekking peaks for a first climb such as Friendship Peak and Kang Yatse, expedition permits from the Indian Mountaineering Foundation, and how to prepare.",
+  "image": "/images/adventure/mountaineers-himalayan-glacier.webp",
+  "imageAlt": "Climber sculpture and emblem at the Himalayan Mountaineering Institute, Darjeeling",
+  "tags": [
+   "Mountaineering",
+   "Himalaya",
+   "Courses",
+   "Adventure Sports"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "mountaineering",
+   "trekking",
+   "rock climbing"
+  ],
+  "terrain": [
+   "mountains",
+   "snow",
+   "glacier"
+  ],
+  "regions": [
+   "Uttarakhand",
+   "West Bengal",
+   "Himachal Pradesh",
+   "Jammu and Kashmir",
+   "Arunachal Pradesh",
+   "Ladakh"
+  ],
+  "seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "travellers": [
+   "solo",
+   "friends"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "camping-in-india",
+  "title": "Camping in India: Best Places and How to Camp Well",
+  "short": "Camping in India",
+  "kind": "activity",
+  "excerpt": "A guide to camping in India: riverside camps near Rishikesh, desert camps at Sam and Khuri, the Rann Utsav tent city, high-altitude camps at Pangong and Chandratal, meadow camps at Chopta and Sonamarg, lakeside camping at Pawna and Bhandardara, and the rules and etiquette to follow.",
+  "image": "/images/adventure/camping-tents-himalaya.webp",
+  "imageAlt": "Nomad camp tents in a high valley at Rajung Karu, Ladakh",
+  "tags": [
+   "Camping",
+   "Rishikesh",
+   "Jaisalmer",
+   "Ladakh"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "camping",
+   "trekking",
+   "stargazing"
+  ],
+  "terrain": [
+   "river",
+   "desert",
+   "mountains",
+   "lakes",
+   "meadows"
+  ],
+  "regions": [
+   "Uttarakhand",
+   "Rajasthan",
+   "Gujarat",
+   "Ladakh",
+   "Himachal Pradesh",
+   "Maharashtra",
+   "Karnataka",
+   "Meghalaya"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "travellers": [
+   "families",
+   "friends",
+   "couples",
+   "beginners"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "kayaking-in-india",
+  "title": "Kayaking in India: Rivers, Lakes, Backwaters and Mangroves",
+  "short": "Kayaking in India",
+  "kind": "activity",
+  "excerpt": "A guide to kayaking in India: calm-water paddling in the Andaman mangroves, Goa's backwaters and Kerala's canals, lake kayaking at Tehri and Umiam, clear-water trips on the Umngot in Meghalaya, and white-water kayaking courses on the Ganga at Rishikesh.",
+  "image": "/images/adventure/kayaking-river-india.webp",
+  "imageAlt": "A kayaker paddling on Kotpally reservoir, Telangana",
+  "tags": [
+   "Kayaking",
+   "Andaman",
+   "Goa",
+   "Kerala"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "kayaking",
+   "canoeing"
+  ],
+  "terrain": [
+   "river",
+   "lakes",
+   "backwaters",
+   "sea",
+   "mangroves"
+  ],
+  "regions": [
+   "Andaman and Nicobar Islands",
+   "Goa",
+   "Kerala",
+   "Uttarakhand",
+   "Meghalaya",
+   "Karnataka"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring"
+  ],
+  "travellers": [
+   "beginners",
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/water-sports-in-india"
+ },
+ {
+  "slug": "surfing-in-india",
+  "title": "Surfing in India: Surf Towns, Schools and Seasons",
+  "short": "Surfing in India",
+  "kind": "activity",
+  "excerpt": "A guide to surfing in India: the surf towns of Mulki in Karnataka, Kovalam and Mahabalipuram near Chennai, Puducherry, Varkala and Kovalam in Kerala, Gokarna and north Goa, with the surf season on each coast, how beginner lessons work and how to stay safe in the waves.",
+  "image": "/images/adventure/surfing-india-coast.webp",
+  "imageAlt": "Waves breaking on Covelong beach near Chennai, with a fishing boat on the sand",
+  "tags": [
+   "Surfing",
+   "Karnataka",
+   "Kerala",
+   "Tamil Nadu"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "surfing",
+   "stand-up paddling"
+  ],
+  "terrain": [
+   "sea",
+   "beaches"
+  ],
+  "regions": [
+   "Karnataka",
+   "Tamil Nadu",
+   "Puducherry",
+   "Kerala",
+   "Goa"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring",
+   "summer"
+  ],
+  "travellers": [
+   "beginners",
+   "friends",
+   "solo",
+   "couples"
+  ],
+  "parent": "/blog/water-sports-in-india"
+ },
+ {
+  "slug": "water-sports-in-india",
+  "title": "Water Sports in India: Where to Try What",
+  "short": "Water sports in India",
+  "kind": "activity",
+  "excerpt": "A guide to water sports in India: parasailing, jet skiing and banana rides on Goa's beaches, sea walks and glass-bottom boats in the Andamans, Tarkarli and Malvan's water sports, lake sports at Tehri and Umiam, plus kayaking, surfing, snorkelling and diving, with seasons and safety checks.",
+  "image": "/images/adventure/water-sports-beach-india.webp",
+  "imageAlt": "Parasailing over Calangute beach, Goa",
+  "tags": [
+   "Water Sports",
+   "Goa",
+   "Andaman",
+   "Beaches"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "parasailing",
+   "jet skiing",
+   "sea walk",
+   "banana boat",
+   "kayaking",
+   "snorkelling",
+   "scuba diving",
+   "surfing"
+  ],
+  "terrain": [
+   "sea",
+   "beaches",
+   "lakes"
+  ],
+  "regions": [
+   "Goa",
+   "Andaman and Nicobar Islands",
+   "Maharashtra",
+   "Karnataka",
+   "Uttarakhand",
+   "Meghalaya",
+   "Kerala",
+   "Lakshadweep",
+   "Dadra and Nagar Haveli and Daman and Diu"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "friends",
+   "couples",
+   "beginners"
+  ],
+  "parent": "/blog/adventure-sports-in-india"
+ },
+ {
+  "slug": "desert-adventures-in-india",
+  "title": "Desert Adventures in India: Thar, Rann and Cold Deserts",
+  "short": "Desert adventures in India",
+  "kind": "activity",
+  "excerpt": "A guide to desert adventures in India: camel safaris, jeep rides and dune camps in the Thar around Jaisalmer, Bikaner and Osian, the white salt desert and Rann Utsav in Kutch, wild ass safaris in the Little Rann, and the cold deserts of Nubra and Spiti.",
+  "image": "/images/adventure/thar-desert-dunes-jaisalmer.webp",
+  "imageAlt": "Rippled sand dunes at Sam near Jaisalmer",
+  "tags": [
+   "Desert",
+   "Camel Safari",
+   "Jaisalmer",
+   "Rann of Kutch"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "camel safari",
+   "jeep safari",
+   "desert camping",
+   "stargazing"
+  ],
+  "terrain": [
+   "desert",
+   "salt flats",
+   "high desert"
+  ],
+  "regions": [
+   "Rajasthan",
+   "Gujarat",
+   "Ladakh",
+   "Himachal Pradesh"
+  ],
+  "seasons": [
+   "winter",
+   "summer"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/best-adventure-destinations-in-india"
+ },
+ {
+  "slug": "adventure-activities-in-manali",
+  "title": "Adventure Activities in Manali: Paragliding, Skiing, Rafting and Treks",
+  "short": "Adventure activities in Manali",
+  "kind": "destination",
+  "excerpt": "The best adventure activities in and around Manali: paragliding, skiing and the ropeway at Solang Valley, river rafting on the Beas near Kullu, treks to Hampta Pass, Bhrigu Lake and Beas Kund, snow trips via the Atal Tunnel, mountain biking and climbing, with seasons and safety.",
+  "image": "/images/adventure/solang-valley-manali-snow.webp",
+  "imageAlt": "A paraglider over pine forest in Solang Valley, Manali",
+  "tags": [
+   "Manali",
+   "Himachal Pradesh",
+   "Solang Valley",
+   "Adventure"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "paragliding",
+   "skiing",
+   "rafting",
+   "trekking",
+   "mountain biking",
+   "rock climbing",
+   "camping"
+  ],
+  "terrain": [
+   "mountains",
+   "snow",
+   "river",
+   "forest"
+  ],
+  "regions": [
+   "Himachal Pradesh",
+   "North India"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "travellers": [
+   "friends",
+   "families",
+   "couples",
+   "beginners"
+  ],
+  "parent": "/blog/best-adventure-destinations-in-india"
+ },
+ {
+  "slug": "adventure-activities-in-ladakh",
+  "title": "Adventure Activities in Ladakh: Rafting, Treks, Rides and Peaks",
+  "short": "Adventure activities in Ladakh",
+  "kind": "destination",
+  "excerpt": "The best adventure activities in Ladakh: white-water rafting on the Zanskar and Indus, treks from the easy Sham Valley to Markha Valley and the Chadar, trekking peaks, motorcycle loops over Khardung La and Chang La, cycling descents, Bactrian camel rides in Nubra, lake camping and winter wildlife trips.",
+  "image": "/images/adventure/ladakh-adventure-landscape.webp",
+  "imageAlt": "The turquoise Zanskar river winding through a Ladakh gorge",
+  "tags": [
+   "Ladakh",
+   "Leh",
+   "Adventure",
+   "High Altitude"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "rafting",
+   "trekking",
+   "motorcycling",
+   "mountain biking",
+   "camping",
+   "mountaineering",
+   "wildlife"
+  ],
+  "terrain": [
+   "high desert",
+   "mountains",
+   "river",
+   "lakes",
+   "snow"
+  ],
+  "regions": [
+   "Ladakh"
+  ],
+  "seasons": [
+   "summer",
+   "winter"
+  ],
+  "travellers": [
+   "friends",
+   "solo",
+   "couples",
+   "groups"
+  ],
+  "parent": "/blog/best-adventure-destinations-in-india"
+ },
+ {
+  "slug": "adventure-activities-in-himachal-pradesh",
+  "title": "Adventure Activities in Himachal Pradesh, Region by Region",
+  "short": "Adventure activities in Himachal",
+  "kind": "destination",
+  "excerpt": "A region-by-region guide to adventure activities in Himachal Pradesh: paragliding and treks in Kangra, skiing, rafting and passes around Manali, treks in the Parvati Valley, trails in Tirthan and the Great Himalayan National Park, snow near Shimla, and rides and treks in Spiti and Kinnaur.",
+  "image": "/images/adventure/himachal-mountains-adventure.webp",
+  "imageAlt": "A trekker in the valley on the way to Hampta Pass",
+  "tags": [
+   "Himachal Pradesh",
+   "Adventure",
+   "Bir Billing",
+   "Spiti"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "paragliding",
+   "trekking",
+   "skiing",
+   "rafting",
+   "motorcycling",
+   "camping",
+   "mountain biking"
+  ],
+  "terrain": [
+   "mountains",
+   "snow",
+   "river",
+   "forest",
+   "high desert"
+  ],
+  "regions": [
+   "Himachal Pradesh",
+   "North India"
+  ],
+  "seasons": [
+   "spring",
+   "summer",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "friends",
+   "couples",
+   "families",
+   "solo"
+  ],
+  "parent": "/blog/best-adventure-destinations-in-india"
+ },
+ {
+  "slug": "adventure-activities-in-uttarakhand",
+  "title": "Adventure Activities in Uttarakhand: Rafting, Treks, Skiing and More",
+  "short": "Adventure activities in Uttarakhand",
+  "kind": "destination",
+  "excerpt": "A guide to adventure activities in Uttarakhand: rafting, bungee jumping and camping around Rishikesh, snow treks such as Kedarkantha and Brahmatal, summer treks from Har Ki Dun to the Valley of Flowers, skiing at Auli, water sports on Tehri Lake, paragliding near Bhimtal and mountaineering courses in Uttarkashi.",
+  "image": "/images/adventure/uttarakhand-himalaya-adventure.webp",
+  "imageAlt": "Trekkers on a snow-covered path to Tungnath",
+  "tags": [
+   "Uttarakhand",
+   "Rishikesh",
+   "Trekking",
+   "Adventure"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "rafting",
+   "bungee jumping",
+   "trekking",
+   "skiing",
+   "camping",
+   "paragliding",
+   "kayaking",
+   "mountaineering"
+  ],
+  "terrain": [
+   "mountains",
+   "river",
+   "snow",
+   "lakes",
+   "forest"
+  ],
+  "regions": [
+   "Uttarakhand",
+   "North India"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "summer",
+   "monsoon",
+   "autumn"
+  ],
+  "travellers": [
+   "friends",
+   "beginners",
+   "families",
+   "groups"
+  ],
+  "parent": "/blog/best-adventure-destinations-in-india"
+ },
+ {
+  "slug": "adventure-activities-in-goa",
+  "title": "Adventure Activities in Goa: Water Sports, Kayaking and Treks",
+  "short": "Adventure activities in Goa",
+  "kind": "destination",
+  "excerpt": "A guide to adventure activities in Goa: water sports on the north Goa beaches, kayaking and paddleboarding in the mangroves and backwaters, scuba diving and snorkelling at Grande Island, dolphin trips, bungee jumping at Mayem Lake, paragliding at Arambol, surfing lessons and treks in the Western Ghats to Dudhsagar and beyond.",
+  "image": "/images/adventure/goa-beach-water-sports.webp",
+  "imageAlt": "A parasail over a busy beach in Goa",
+  "tags": [
+   "Goa",
+   "Water Sports",
+   "Kayaking",
+   "Adventure"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "parasailing",
+   "jet skiing",
+   "kayaking",
+   "scuba diving",
+   "snorkelling",
+   "bungee jumping",
+   "paragliding",
+   "surfing",
+   "trekking"
+  ],
+  "terrain": [
+   "beaches",
+   "sea",
+   "backwaters",
+   "forest",
+   "waterfalls"
+  ],
+  "regions": [
+   "Goa",
+   "West India"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring",
+   "monsoon"
+  ],
+  "travellers": [
+   "friends",
+   "couples",
+   "families",
+   "beginners"
+  ],
+  "parent": "/blog/best-adventure-destinations-in-india"
+ },
+ {
+  "slug": "adventure-activities-in-andaman",
+  "title": "Adventure Activities in the Andaman Islands",
+  "short": "Adventure activities in the Andamans",
+  "kind": "destination",
+  "excerpt": "A guide to adventure activities in the Andaman Islands: scuba diving and snorkelling on Havelock and Neil, sea walks at North Bay and Elephant Beach, mangrove and night kayaking, jungle treks to Mount Harriet and Saddle Peak, the Baratang limestone caves and surf at Little Andaman, with seasons and safety.",
+  "image": "/images/adventure/andaman-sea-adventure.webp",
+  "imageAlt": "A snorkeller underwater at Elephant Beach, Havelock Island",
+  "tags": [
+   "Andaman",
+   "Scuba Diving",
+   "Island Adventure",
+   "Kayaking"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "scuba diving",
+   "snorkelling",
+   "sea walk",
+   "kayaking",
+   "trekking",
+   "surfing"
+  ],
+  "terrain": [
+   "sea",
+   "islands",
+   "mangroves",
+   "forest",
+   "beaches"
+  ],
+  "regions": [
+   "Andaman and Nicobar Islands"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "friends",
+   "beginners"
+  ],
+  "parent": "/blog/best-adventure-destinations-in-india"
+ },
+ {
+  "slug": "adventure-activities-in-sikkim",
+  "title": "Adventure Activities in Sikkim: Treks, Rafting and Paragliding",
+  "short": "Adventure activities in Sikkim",
+  "kind": "destination",
+  "excerpt": "A guide to adventure activities in Sikkim: treks to Goecha La, Dzongri and the Singalila ridge, white-water rafting on the Teesta and Rangit, tandem paragliding near Gangtok, high-altitude road trips to Tsomgo, Nathula, Zuluk and North Sikkim, mountaineering training and the permits each needs.",
+  "image": "/images/adventure/sikkim-himalaya-trek.webp",
+  "imageAlt": "Kangchenjunga seen from Thangshing on the Goecha La trek",
+  "tags": [
+   "Sikkim",
+   "Goecha La",
+   "Teesta",
+   "Adventure"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "trekking",
+   "rafting",
+   "paragliding",
+   "road trips",
+   "mountaineering"
+  ],
+  "terrain": [
+   "mountains",
+   "river",
+   "lakes",
+   "forest"
+  ],
+  "regions": [
+   "Sikkim",
+   "Northeast India"
+  ],
+  "seasons": [
+   "spring",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "friends",
+   "couples",
+   "families",
+   "solo"
+  ],
+  "parent": "/blog/best-adventure-destinations-in-india"
+ },
+ {
+  "slug": "adventure-activities-in-meghalaya",
+  "title": "Adventure Activities in Meghalaya: Caves, Root Bridges and Rivers",
+  "short": "Adventure activities in Meghalaya",
+  "kind": "destination",
+  "excerpt": "A guide to adventure activities in Meghalaya: the trek to the double-decker living root bridge at Nongriat, the David Scott Trail, caving in the Khasi, Jaintia and Garo hills, kayaking, snorkelling and cliff jumping on the Umngot, ziplining at Mawkdok, canyon viewpoints and when to go.",
+  "image": "/images/adventure/meghalaya-root-bridge-trek.webp",
+  "imageAlt": "The double-decker living root bridge at Nongriat, Meghalaya",
+  "tags": [
+   "Meghalaya",
+   "Caving",
+   "Living Root Bridges",
+   "Adventure"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "trekking",
+   "caving",
+   "kayaking",
+   "ziplining",
+   "camping",
+   "snorkelling"
+  ],
+  "terrain": [
+   "hills",
+   "forest",
+   "caves",
+   "river",
+   "waterfalls"
+  ],
+  "regions": [
+   "Meghalaya",
+   "Northeast India"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring",
+   "monsoon"
+  ],
+  "travellers": [
+   "friends",
+   "couples",
+   "solo",
+   "families"
+  ],
+  "parent": "/blog/best-adventure-destinations-in-india"
+ },
+ {
+  "slug": "weekend-adventure-trips-from-delhi",
+  "title": "Weekend Adventure Trips from Delhi",
+  "short": "Weekend adventure from Delhi",
+  "kind": "weekend",
+  "excerpt": "The best weekend adventure trips from Delhi NCR: rafting, bungee jumping and camping in Rishikesh, the Nag Tibba trek, paragliding near Bhimtal, ziplining at Neemrana, rock climbing at Dhauj and Damdama, skydiving at Narnaul, and longer weekends at Bir Billing and Triund.",
+  "image": "/images/adventure/rishikesh-ganga-weekend.webp",
+  "imageAlt": "The Ganga flowing between green hills at Rishikesh",
+  "tags": [
+   "Weekend Trips",
+   "Delhi",
+   "Rishikesh",
+   "Adventure"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "rafting",
+   "bungee jumping",
+   "trekking",
+   "camping",
+   "ziplining",
+   "rock climbing",
+   "skydiving",
+   "paragliding"
+  ],
+  "terrain": [
+   "river",
+   "mountains",
+   "hills"
+  ],
+  "regions": [
+   "Delhi NCR",
+   "Uttarakhand",
+   "Rajasthan",
+   "Haryana",
+   "Himachal Pradesh"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "autumn"
+  ],
+  "travellers": [
+   "friends",
+   "couples",
+   "groups",
+   "beginners"
+  ],
+  "parent": "/adventure-travel"
+ },
+ {
+  "slug": "weekend-adventure-trips-from-mumbai",
+  "title": "Weekend Adventure Trips from Mumbai and Pune",
+  "short": "Weekend adventure from Mumbai and Pune",
+  "kind": "weekend",
+  "excerpt": "The best weekend adventure trips from Mumbai and Pune: rafting on the Kundalika at Kolad, paragliding at Kamshet and Panchgani, Sahyadri treks such as Rajmachi, Harishchandragad and Kalsubai, lakeside camping at Pawna and Bhandardara, the Lonavala bungee, and water sports at Alibaug and Tarkarli.",
+  "image": "/images/adventure/sahyadri-fort-trek-weekend.webp",
+  "imageAlt": "Rajmachi fort hill in the monsoon near Lonavala",
+  "tags": [
+   "Weekend Trips",
+   "Mumbai",
+   "Pune",
+   "Sahyadri"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "rafting",
+   "paragliding",
+   "trekking",
+   "camping",
+   "bungee jumping",
+   "water sports",
+   "scuba diving"
+  ],
+  "terrain": [
+   "hills",
+   "river",
+   "lakes",
+   "sea"
+  ],
+  "regions": [
+   "Maharashtra",
+   "West India"
+  ],
+  "seasons": [
+   "monsoon",
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "friends",
+   "couples",
+   "groups",
+   "beginners"
+  ],
+  "parent": "/adventure-travel"
+ },
+ {
+  "slug": "weekend-adventure-trips-from-bengaluru",
+  "title": "Weekend Adventure Trips from Bengaluru",
+  "short": "Weekend adventure from Bengaluru",
+  "kind": "weekend",
+  "excerpt": "The best weekend adventure trips from Bengaluru: rock climbing at Ramanagara, hill climbs at Savandurga, Skandagiri and Kunti Betta, cycling at Nandi Hills, rafting at Barapole in Coorg and on the Kali at Dandeli, treks at Chikmagalur and Kudremukh, bouldering at Hampi, and diving at Netrani.",
+  "image": "/images/adventure/savandurga-monolith-karnataka.webp",
+  "imageAlt": "The granite monolith of Savandurga near Bengaluru",
+  "tags": [
+   "Weekend Trips",
+   "Bengaluru",
+   "Karnataka",
+   "Adventure"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "rock climbing",
+   "trekking",
+   "rafting",
+   "kayaking",
+   "scuba diving",
+   "cycling",
+   "camping"
+  ],
+  "terrain": [
+   "hills",
+   "rock",
+   "river",
+   "forest",
+   "sea"
+  ],
+  "regions": [
+   "Karnataka",
+   "South India",
+   "Tamil Nadu"
+  ],
+  "seasons": [
+   "winter",
+   "monsoon",
+   "autumn"
+  ],
+  "travellers": [
+   "friends",
+   "couples",
+   "groups",
+   "beginners"
+  ],
+  "parent": "/adventure-travel"
+ },
+ {
+  "slug": "how-to-plan-an-adventure-trip-in-india",
+  "title": "How to Plan an Adventure Trip in India",
+  "short": "How to plan an adventure trip",
+  "kind": "planning",
+  "excerpt": "A step-by-step guide to planning an adventure trip in India: choosing an activity and difficulty level, matching it to the season and region, choosing a safe operator, insurance, fitness and acclimatisation, permits, what drives the cost, and advice for families, couples, solo travellers and groups.",
+  "image": "/images/adventure/himalayan-trail-planning.webp",
+  "imageAlt": "Tents pitched on the ridge at Triund, Himachal Pradesh",
+  "tags": [
+   "Trip Planning",
+   "Adventure Travel",
+   "India",
+   "Safety"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "trekking",
+   "rafting",
+   "paragliding",
+   "scuba diving",
+   "skiing",
+   "camping"
+  ],
+  "terrain": [
+   "mountains",
+   "river",
+   "sea",
+   "desert"
+  ],
+  "regions": [
+   "India"
+  ],
+  "seasons": [
+   "spring",
+   "summer",
+   "monsoon",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "solo",
+   "groups",
+   "beginners"
+  ],
+  "parent": "/adventure-travel"
+ },
+ {
+  "slug": "adventure-travel-packing-list-india",
+  "title": "Adventure Travel Packing List for India",
+  "short": "Adventure travel packing list",
+  "kind": "planning",
+  "excerpt": "A practical packing list for adventure travel in India: the layering system for mountain trips, footwear, and checklists for treks, snow trips, rafting and water sports, desert trips and high-altitude road trips, with a first-aid kit, documents and what you can rent instead of buying.",
+  "image": "/images/adventure/trekking-gear-backpack-mountains.webp",
+  "imageAlt": "Snowfields on the Rupin Pass trek looking towards Sangla Valley",
+  "tags": [
+   "Packing List",
+   "Trekking Gear",
+   "Adventure Travel",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "trekking",
+   "rafting",
+   "skiing",
+   "camping",
+   "motorcycling",
+   "scuba diving"
+  ],
+  "terrain": [
+   "mountains",
+   "snow",
+   "river",
+   "sea",
+   "desert"
+  ],
+  "regions": [
+   "India"
+  ],
+  "seasons": [
+   "spring",
+   "summer",
+   "monsoon",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "beginners",
+   "solo",
+   "friends",
+   "families"
+  ],
+  "parent": "/blog/how-to-plan-an-adventure-trip-in-india"
+ },
+ {
+  "slug": "best-time-for-adventure-travel-in-india",
+  "title": "Best Time for Adventure Travel in India, Month by Month",
+  "short": "Best time for adventure travel",
+  "kind": "planning",
+  "excerpt": "A month-by-month calendar for adventure travel in India, with the season for each activity: rafting, trekking, paragliding, skiing, scuba diving, surfing, desert trips and road trips, and which activities are closed or restricted in the monsoon.",
+  "image": "/images/adventure/himalaya-season-landscape.webp",
+  "imageAlt": "Himalayan peaks above a sea of cloud from Chandrashila",
+  "tags": [
+   "Best Time",
+   "Seasons",
+   "Adventure Travel",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "trekking",
+   "rafting",
+   "paragliding",
+   "skiing",
+   "scuba diving",
+   "surfing",
+   "motorcycling",
+   "camping"
+  ],
+  "terrain": [
+   "mountains",
+   "river",
+   "sea",
+   "snow",
+   "desert"
+  ],
+  "regions": [
+   "India"
+  ],
+  "seasons": [
+   "spring",
+   "summer",
+   "monsoon",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "beginners",
+   "friends",
+   "families",
+   "couples"
+  ],
+  "parent": "/blog/how-to-plan-an-adventure-trip-in-india"
+ },
+ {
+  "slug": "adventure-travel-for-beginners-in-india",
+  "title": "Adventure Travel for Beginners in India",
+  "short": "Adventure travel for beginners",
+  "kind": "planning",
+  "excerpt": "A guide to adventure travel for beginners in India: the easiest activities to start with, including short rafting stretches, tandem paragliding, try dives, snorkelling and sea walks, calm-water kayaking, easy treks, ziplines and desert camps, the best places for a first adventure trip, and how to manage nerves and fitness.",
+  "image": "/images/adventure/beginner-adventure-india.webp",
+  "imageAlt": "Meadow and trail at Kheerganga in the Parvati Valley",
+  "tags": [
+   "Beginners",
+   "Adventure Travel",
+   "First Trip",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "rafting",
+   "paragliding",
+   "snorkelling",
+   "scuba diving",
+   "kayaking",
+   "trekking",
+   "ziplining",
+   "camping"
+  ],
+  "terrain": [
+   "river",
+   "mountains",
+   "sea",
+   "desert"
+  ],
+  "regions": [
+   "India"
+  ],
+  "seasons": [
+   "spring",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "beginners",
+   "families",
+   "couples",
+   "solo"
+  ],
+  "parent": "/blog/how-to-plan-an-adventure-trip-in-india"
+ }
+]

@@ -1,0 +1,317 @@
+{
+  "slug": "how-to-plan-a-pilgrimage-in-india",
+  "kind": "planning",
+  "short": "Plan a pilgrimage",
+  "title": "How to Plan a Pilgrimage in India: Routes, Stays and Darshan",
+  "seoTitle": "How to Plan a Pilgrimage in India: Stays & Darshan | Kudozz Club",
+  "metaDescription": "Plan a pilgrimage in India step by step: choosing sites and seasons, darshan and registration bookings, stays, transport, costs, and advice for seniors and families.",
+  "description": "A step-by-step guide to planning a pilgrimage in India: choosing sites and routes, seasons by region, official darshan bookings and registrations, dharamshalas and temple-trust stays, trains, tourist trains and flights, cost drivers, avoiding fake booking sites, and advice for senior citizens, families, budget travellers and visitors with limited mobility.",
+  "dek": "A good pilgrimage leaves time for prayer as well as travel. Planning the bookings, pace and stays in advance makes that possible.",
+  "primaryKeyword": "how to plan a pilgrimage trip",
+  "secondaryKeywords": [
+    "pilgrimage travel tips",
+    "senior citizen pilgrimage India",
+    "family pilgrimage trip",
+    "budget pilgrimage India"
+  ],
+  "searchIntent": "Planning",
+  "activities": [
+    "pilgrimage",
+    "darshan",
+    "pilgrimage route",
+    "temple visit"
+  ],
+  "terrain": [
+    "temple town",
+    "mountains",
+    "plains"
+  ],
+  "regions": [
+    "India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "senior travellers",
+    "families",
+    "budget travellers",
+    "groups"
+  ],
+  "tags": [
+    "Pilgrimage Planning",
+    "Darshan",
+    "Senior Travel",
+    "Tips"
+  ],
+  "hero": {
+    "src": "/images/spiritual/plan-pilgrimage-har-ki-pauri.webp",
+    "alt": "Pilgrims at Har ki Pauri with its clock tower on the Ganga, Haridwar"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Planning a pilgrimage in India"
+  },
+  "intro": [
+    "Pilgrimages in India range from a day trip to a local temple to month-long journeys across states. The common challenges are the same: crowds and queues, seasons and weather, bookings and registrations, long travel days and, for many families, older relatives who need a gentler pace.",
+    "This guide walks through the planning in order. Each of our destination and circuit guides adds the specific details for its site."
+  ],
+  "quickAnswer": "To plan a pilgrimage in India, choose your sites and check their seasons, then book darshan, aarti or yatra registration only on the official temple or government websites as soon as bookings open. Book trains or flights and stays near the temple, leaving a buffer day for queues and weather. Pace the route for the oldest traveller, carry ID and medicines, and avoid the busiest festival dates unless the festival is your purpose.",
+  "takeaways": [
+    "Check each site's season and closures before fixing dates.",
+    "Book darshan, registration and helicopter seats only on official portals.",
+    "Stay close to the temple to make early darshan easier.",
+    "Plan the pace around the oldest or least fit traveller, with rest days.",
+    "Festivals are special but bring the biggest crowds and highest prices."
+  ],
+  "sections": [
+    {
+      "id": "steps",
+      "heading": "Step by step",
+      "list": [
+        "Choose the sites: one temple town, a circuit such as the Char Dham or Buddhist Circuit, or a regional temple route.",
+        "Check seasons and closures, especially for Himalayan shrines.",
+        "Check booking and registration rules for each site.",
+        "Book transport: trains and flights between regions, a car or coach for local travel.",
+        "Book stays near the temples, including temple-trust guesthouses where available.",
+        "Plan daily timings around darshan, aarti and rest.",
+        "Carry documents, bookings and medicines."
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Seasons by region",
+      "table": {
+        "columns": [
+          "Region",
+          "Best time",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Himalayan shrines (Char Dham, Hemkund, Amarnath)",
+            "May to June, September to October",
+            "Summer only; avoid monsoon landslides"
+          ],
+          [
+            "North Indian plains (Varanasi, Ayodhya, Braj)",
+            "October to March",
+            "Winter fog can delay trains; summers are very hot"
+          ],
+          [
+            "West (Gujarat, Maharashtra, Rajasthan)",
+            "October to March",
+            "Monsoon is scenic in the Sahyadri"
+          ],
+          [
+            "South (Tamil Nadu, Kerala, Andhra Pradesh)",
+            "October to March",
+            "Sabarimala season is mid-November to January"
+          ],
+          [
+            "East (Odisha, Bengal, Bihar)",
+            "October to March",
+            "Rath Yatra in June or July; Durga Puja in autumn"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "bookings",
+      "heading": "Bookings and registrations",
+      "list": [
+        "Char Dham and Hemkund Sahib: mandatory registration on the Uttarakhand government portal.",
+        "Kedarnath and Hemkund helicopters: IRCTC HeliYatra only.",
+        "Tirumala: darshan and accommodation on the official TTD website.",
+        "Vaishno Devi and Amarnath: registration through the respective shrine boards.",
+        "Special aartis, such as the Bhasma Aarti at Ujjain: the temple's official booking system."
+      ],
+      "after": [
+        "Many unofficial websites imitate these portals. Check the web address carefully and never pay agents for 'guaranteed' darshan."
+      ]
+    },
+    {
+      "id": "stays-transport",
+      "heading": "Stays and transport",
+      "items": [
+        {
+          "name": "Stays",
+          "body": [
+            "Temple trusts and shrine boards run guesthouses and dharamshalas at many sites (Tirumala, Shirdi, Somnath and others), usually simple and good value. Hotels near the temple save early starts; book early for festivals."
+          ],
+          "facts": {
+            "Tip": "Check-in times rarely match darshan timings; plan luggage storage"
+          }
+        },
+        {
+          "name": "Trains and flights",
+          "body": [
+            "Overnight trains suit long distances between regions. IRCTC runs Bharat Gaurav and other tourist trains on themes such as the Jyotirlingas and the Buddhist Circuit on selected dates."
+          ],
+          "links": [
+            {
+              "label": "Jyotirlinga Yatra",
+              "href": "/blog/jyotirlinga-yatra"
+            }
+          ]
+        },
+        {
+          "name": "Local travel",
+          "body": [
+            "A hired car or coach is easiest for circuits; many temple towns restrict vehicles near the shrine, so expect to walk or use e-rickshaws."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travellers",
+      "heading": "Advice by traveller",
+      "items": [
+        {
+          "name": "Senior citizens",
+          "body": [
+            "Choose routes with road access or good assistance, and add rest days. Some temple boards have offered separate darshan arrangements for senior citizens and visitors with disabilities; check the current rules with the board. For high-altitude shrines, take medical advice before booking."
+          ],
+          "links": [
+            {
+              "label": "Spiritual tour packages",
+              "href": "/packages/spiritual-tours"
+            }
+          ]
+        },
+        {
+          "name": "Families with children",
+          "body": [
+            "Keep daily travel short, plan meals around darshan timings and carry snacks and water for queues."
+          ],
+          "links": [
+            {
+              "label": "Family holidays",
+              "href": "/packages/family-holidays"
+            }
+          ]
+        },
+        {
+          "name": "Budget travellers",
+          "body": [
+            "Use trains, dharamshalas and temple-trust stays, and travel outside festival peaks."
+          ],
+          "links": [
+            {
+              "label": "Budget holidays",
+              "href": "/packages/budget-holidays"
+            }
+          ]
+        },
+        {
+          "name": "Visitors with limited mobility",
+          "body": [
+            "Ask temples in advance about wheelchairs, ramps and assisted darshan; ponies, palkis and dolis are available at hill shrines but need careful handling."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "heading": "What drives the cost",
+      "list": [
+        "Transport mode and distance between sites.",
+        "Stays near the temple versus farther away.",
+        "Special darshan, puja and aarti tickets where offered.",
+        "Ponies, palkis and helicopters at hill shrines.",
+        "Festival and holiday dates, when prices rise."
+      ],
+      "after": [
+        "We do not quote prices because they change often; Kudozz Club can cost a route for your dates."
+      ]
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Book only on official portals and ignore touts offering quick darshan for money.",
+    "Follow police and volunteer instructions in crowds, and agree a meeting point with your group.",
+    "Take medical advice before high-altitude pilgrimages, especially for older travellers.",
+    "Keep documents, cash and phones secure in crowded areas."
+  ],
+  "packing": [
+    "Photo ID and printed bookings",
+    "Modest clothing and slip-on footwear",
+    "Basic medicines and prescriptions",
+    "Water bottle and snacks for queues"
+  ],
+  "faqs": [
+    {
+      "q": "How do I plan a pilgrimage trip in India?",
+      "a": "Choose sites, check seasons, book darshan and registrations on official portals, then book transport and stays near the temples with buffer time."
+    },
+    {
+      "q": "Is advance booking needed for darshan?",
+      "a": "At many major shrines, yes, including Tirumala, Vaishno Devi, Amarnath and the Char Dham. Others work on queues."
+    },
+    {
+      "q": "What is the best time for a pilgrimage in India?",
+      "a": "October to March for most regions; May to June and September to October for Himalayan shrines."
+    },
+    {
+      "q": "How can senior citizens plan a comfortable pilgrimage?",
+      "a": "Choose accessible sites, add rest days, check for senior darshan arrangements and take medical advice before high-altitude trips."
+    },
+    {
+      "q": "How do I avoid darshan booking scams?",
+      "a": "Use only the official temple or government portal, check the web address, and never pay agents for guaranteed darshan."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Pilgrimage packing list",
+      "href": "/blog/pilgrimage-packing-list"
+    },
+    {
+      "label": "Best pilgrimage places in India",
+      "href": "/blog/best-pilgrimage-places-in-india"
+    },
+    {
+      "label": "Char Dham Yatra guide",
+      "href": "/blog/char-dham-yatra-guide"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    },
+    {
+      "label": "Spiritual festivals in India",
+      "href": "/blog/spiritual-festivals-in-india"
+    }
+  ],
+  "related": [
+    {
+      "name": "Jyotirlinga Yatra",
+      "href": "/blog/jyotirlinga-yatra",
+      "note": "a long-distance route"
+    },
+    {
+      "name": "Pilgrimage trips from Delhi",
+      "href": "/blog/pilgrimage-trips-from-delhi",
+      "note": "short trips"
+    },
+    {
+      "name": "Kumbh Mela",
+      "href": "/blog/kumbh-mela",
+      "note": "the biggest gathering"
+    }
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays",
+    "budget-holidays"
+  ],
+  "planDestination": "pilgrimage",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,322 @@
+{
+  "slug": "ayodhya-varanasi-prayagraj-tour",
+  "kind": "planning",
+  "short": "Ayodhya, Varanasi and Prayagraj",
+  "title": "Ayodhya, Varanasi and Prayagraj: A Pilgrimage Itinerary",
+  "seoTitle": "Ayodhya Varanasi Prayagraj Tour: Itinerary & Route | Kudozz Club",
+  "metaDescription": "Plan an Ayodhya, Varanasi and Prayagraj pilgrimage: a 6-day itinerary, distances, trains and flights from Delhi, stays, add-ons and the best time to go.",
+  "description": "An itinerary guide to the Ayodhya, Varanasi and Prayagraj pilgrimage: the order and distances, a six-day plan, getting there from Delhi and other cities by train or flight, stays, what to see in each city, optional stops at Sarnath, Vindhyachal and Chitrakoot, seasons and festivals.",
+  "dek": "Kashi, Prayag and Ayodhya are three of Hinduism's most sacred cities, and they fit neatly into one week-long journey in Uttar Pradesh.",
+  "primaryKeyword": "Ayodhya Varanasi Prayagraj tour",
+  "secondaryKeywords": [
+    "Kashi Ayodhya Prayagraj itinerary",
+    "Varanasi Ayodhya tour",
+    "Ayodhya Varanasi tour from Delhi"
+  ],
+  "searchIntent": "Itinerary",
+  "activities": [
+    "pilgrimage",
+    "ghats",
+    "temple visit",
+    "pilgrimage route"
+  ],
+  "terrain": [
+    "river",
+    "temple town"
+  ],
+  "regions": [
+    "Uttar Pradesh",
+    "North India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "groups"
+  ],
+  "tags": [
+    "Ayodhya",
+    "Varanasi",
+    "Prayagraj",
+    "Itinerary"
+  ],
+  "hero": {
+    "src": "/images/spiritual/ayodhya-saryu-ghats.webp",
+    "alt": "The illuminated ghats of Ram ki Paidi on the Saryu at night, Ayodhya"
+  },
+  "parent": {
+    "label": "Spiritual Tourism in Uttar Pradesh",
+    "href": "/blog/spiritual-tourism-in-uttar-pradesh"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Ayodhya, Varanasi and Prayagraj",
+    "containedIn": "Uttar Pradesh"
+  },
+  "intro": [
+    "Varanasi (Kashi), Prayagraj (Prayag) and Ayodhya lie in a rough triangle in eastern Uttar Pradesh, each three to five hours from the others by road. Together they cover the Ganga ghats and Kashi Vishwanath, the Triveni Sangam, and Ayodhya's Ram Mandir and Saryu ghats.",
+    "All three have airports and good rail links, so the trip can start or end in any of them. Allow five to six days for a comfortable pace, more if you add Sarnath, Vindhyachal or Chitrakoot."
+  ],
+  "quickAnswer": "An Ayodhya, Varanasi and Prayagraj pilgrimage takes about five to six days. A common order is Varanasi (two days), Prayagraj (one day, about 120 km away) and Ayodhya (two days, about 165 km from Prayagraj). All three cities have airports and rail links, including trains from Delhi. October to March is the best time; Dev Deepawali, Ram Navami and the Magh Mela are special but crowded.",
+  "takeaways": [
+    "Varanasi to Prayagraj is about 120 km; Prayagraj to Ayodhya about 165 km; Ayodhya to Varanasi about 200 km.",
+    "Five to six days is comfortable for all three.",
+    "All three cities have airports; trains connect them with Delhi and each other.",
+    "Add Sarnath from Varanasi and Vindhyachal between Varanasi and Prayagraj.",
+    "October to March is best; festival days are very crowded."
+  ],
+  "sections": [
+    {
+      "id": "itinerary",
+      "heading": "A 6-day itinerary",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Arrive in Varanasi; evening Ganga Aarti at Dashashwamedh Ghat"
+          ],
+          [
+            "2",
+            "Dawn boat ride; Kashi Vishwanath; old city lanes; Sarnath in the afternoon"
+          ],
+          [
+            "3",
+            "Drive to Prayagraj (about 120 km), stopping at Vindhyachal if you wish; evening at the Sangam"
+          ],
+          [
+            "4",
+            "Morning boat to the Triveni Sangam; drive to Ayodhya (about 165 km)"
+          ],
+          [
+            "5",
+            "Ayodhya: Ram Mandir, Hanuman Garhi, Kanak Bhawan; evening aarti at Ram ki Paidi"
+          ],
+          [
+            "6",
+            "Morning darshan; depart from Ayodhya"
+          ]
+        ]
+      },
+      "after": [
+        "The route also works in reverse, starting from Ayodhya."
+      ]
+    },
+    {
+      "id": "cities",
+      "heading": "What to see",
+      "items": [
+        {
+          "name": "Varanasi",
+          "body": [
+            "The ghats, the evening Ganga Aarti, a dawn boat ride and Kashi Vishwanath through the corridor."
+          ],
+          "links": [
+            {
+              "label": "Varanasi guide",
+              "href": "/blog/varanasi-travel-guide"
+            },
+            {
+              "label": "Things to do in Varanasi",
+              "href": "/blog/things-to-do-in-varanasi"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/varanasi/sunrise-boat-ride-ganga-varanasi-ghats.webp",
+            "alt": "A sunrise boat ride past the ghats of Varanasi",
+            "caption": "Dawn on the Ganga, Varanasi"
+          }
+        },
+        {
+          "name": "Prayagraj",
+          "body": [
+            "A boat to the Triveni Sangam, the Hanuman temple near the fort and Anand Bhawan."
+          ],
+          "links": [
+            {
+              "label": "Prayagraj guide",
+              "href": "/blog/prayagraj-travel-guide"
+            },
+            {
+              "label": "Things to do in Prayagraj",
+              "href": "/blog/things-to-do-in-prayagraj"
+            }
+          ]
+        },
+        {
+          "name": "Ayodhya",
+          "body": [
+            "The Ram Mandir, Hanuman Garhi, Kanak Bhawan and the Saryu ghats at Ram ki Paidi."
+          ],
+          "links": [
+            {
+              "label": "Ayodhya guide",
+              "href": "/blog/ayodhya-travel-guide"
+            },
+            {
+              "label": "Things to do in Ayodhya",
+              "href": "/blog/things-to-do-in-ayodhya"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/uttar-pradesh/ram-mandir-temple-ayodhya.webp",
+            "alt": "The Ram Mandir in Ayodhya, Uttar Pradesh",
+            "caption": "Ram Mandir, Ayodhya"
+          }
+        }
+      ]
+    },
+    {
+      "id": "getting-there",
+      "heading": "Getting there",
+      "list": [
+        "From Delhi: flights to Varanasi, Prayagraj and Ayodhya, and trains including overnight and Vande Bharat services; check current schedules.",
+        "Between the cities: by road with a hired car (three to five hours each leg) or by train.",
+        "Lucknow airport is about 135 km from Ayodhya and useful for wider flight choices.",
+        "Gorakhpur is a further option if you add Kushinagar."
+      ]
+    },
+    {
+      "id": "add-ons",
+      "heading": "Add-ons",
+      "list": [
+        "Sarnath: 10 km from Varanasi, the site of the Buddha's first sermon.",
+        "Vindhyachal: the Vindhyavasini Devi temple near Mirzapur, between Varanasi and Prayagraj.",
+        "Chitrakoot: about 130 km from Prayagraj, linked with Rama's exile.",
+        "Naimisharanya: near Sitapur, on the way to Lucknow."
+      ],
+      "items": [
+        {
+          "name": "Sarnath",
+          "body": [
+            "The first sermon site."
+          ],
+          "links": [
+            {
+              "label": "Sarnath guide",
+              "href": "/blog/sarnath-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Stays and seasons",
+      "list": [
+        "Varanasi: ghat-side guesthouses or hotels in Cantonment.",
+        "Prayagraj: hotels in Civil Lines; tent camps during the Magh Mela.",
+        "Ayodhya: new hotels and dharamshalas near the temple; book early for festivals.",
+        "October to March is best; December and January can be foggy, delaying trains and flights.",
+        "Dev Deepawali (Varanasi), the Magh Mela (Prayagraj), and Ram Navami and Deepotsav (Ayodhya) are the busiest times."
+      ]
+    },
+    {
+      "id": "pacing",
+      "heading": "Pacing and tips",
+      "list": [
+        "Start each day early: temple queues are shortest after opening, and the ghats are calm at dawn.",
+        "Keep one evening free in Varanasi for the aarti and one in Ayodhya for Ram ki Paidi.",
+        "Phones, bags and footwear usually have to be deposited at the Ram Mandir and Kashi Vishwanath; carry only essentials.",
+        "Older travellers can use e-rickshaws and battery cars near the temples; ask your hotel about the current arrangements.",
+        "Allow a buffer half-day in winter for fog delays."
+      ]
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Use registered boats and wear life jackets on the Ganga.",
+    "Keep valuables secure in crowded lanes and ghats.",
+    "Book temple services only through official channels."
+  ],
+  "packing": [
+    "Modest clothing and a warm layer for winter",
+    "Slip-on footwear",
+    "ID for temple security checks",
+    "Small bag (phones and bags may need to be deposited)"
+  ],
+  "faqs": [
+    {
+      "q": "How many days are needed for Ayodhya, Varanasi and Prayagraj?",
+      "a": "About five to six days."
+    },
+    {
+      "q": "What is the distance between Varanasi and Ayodhya?",
+      "a": "About 200 km by road, around four to five hours."
+    },
+    {
+      "q": "Which order is best?",
+      "a": "Varanasi, Prayagraj, Ayodhya works well, but the route can be reversed to suit flights."
+    },
+    {
+      "q": "How do I get there from Delhi?",
+      "a": "By air to any of the three cities, or by train; check current schedules."
+    },
+    {
+      "q": "Can I add Kushinagar or Bodh Gaya?",
+      "a": "Yes. Kushinagar is about 170 km from Ayodhya via Gorakhpur, and Bodh Gaya about 250 km from Varanasi."
+    },
+    {
+      "q": "What is the best time for this trip?",
+      "a": "October to March."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Spiritual tourism in Uttar Pradesh",
+      "href": "/blog/spiritual-tourism-in-uttar-pradesh"
+    },
+    {
+      "label": "Things to do in Ayodhya",
+      "href": "/blog/things-to-do-in-ayodhya"
+    },
+    {
+      "label": "Varanasi guide",
+      "href": "/blog/varanasi-travel-guide"
+    },
+    {
+      "label": "Uttar Pradesh tour packages",
+      "href": "/packages/uttar-pradesh"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Kumbh Mela",
+      "href": "/blog/kumbh-mela",
+      "note": "Prayagraj and the other sites"
+    },
+    {
+      "name": "Buddhist Circuit in India",
+      "href": "/blog/buddhist-circuit-in-india",
+      "note": "Sarnath and beyond"
+    },
+    {
+      "name": "Spiritual festivals in India",
+      "href": "/blog/spiritual-festivals-in-india",
+      "note": "Dev Deepawali and more"
+    }
+  ],
+  "places": [
+    "Varanasi",
+    "Sarnath",
+    "Vindhyachal",
+    "Prayagraj",
+    "Ayodhya"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Ayodhya, Varanasi and Prayagraj",
+  "updated": "2026-09-26"
+}

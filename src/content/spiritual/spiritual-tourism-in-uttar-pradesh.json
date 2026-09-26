@@ -1,0 +1,399 @@
+{
+ "slug": "spiritual-tourism-in-uttar-pradesh",
+ "kind": "state",
+ "short": "Spiritual Uttar Pradesh",
+ "title": "Spiritual Tourism in Uttar Pradesh: Varanasi, Ayodhya, Prayagraj and Braj",
+ "seoTitle": "Spiritual Places in Uttar Pradesh: Kashi, Ayodhya & Braj | Kudozz Club",
+ "metaDescription": "Plan a spiritual trip in Uttar Pradesh: Varanasi, Ayodhya, Prayagraj, Mathura and Vrindavan, Chitrakoot and the Buddhist sites, with routes and seasons.",
+ "description": "A guide to spiritual tourism in Uttar Pradesh: Varanasi's ghats and Kashi Vishwanath, Ayodhya's Ram Mandir, Prayagraj's Sangam, the Braj towns of Mathura, Vrindavan, Govardhan and Barsana, Naimisharanya, Chitrakoot and Vindhyachal, the Buddhist sites of Sarnath, Kushinagar and Shravasti, the Sufi shrines, festivals, routes and seasons.",
+ "dek": "Uttar Pradesh holds more of Hinduism's most sacred cities than any other state, along with key Buddhist and Sufi sites.",
+ "primaryKeyword": "spiritual places in Uttar Pradesh",
+ "secondaryKeywords": [
+  "religious places in Uttar Pradesh",
+  "temples in Uttar Pradesh",
+  "pilgrimage places in Uttar Pradesh"
+ ],
+ "searchIntent": "State discovery/planning",
+ "activities": [
+  "pilgrimage",
+  "ghats",
+  "temple visit",
+  "Buddhist circuit"
+ ],
+ "terrain": [
+  "river",
+  "temple town",
+  "plains"
+ ],
+ "regions": [
+  "Uttar Pradesh",
+  "North India"
+ ],
+ "seasons": [
+  "winter",
+  "spring"
+ ],
+ "travellers": [
+  "families",
+  "senior travellers",
+  "groups"
+ ],
+ "tags": [
+  "Uttar Pradesh",
+  "Varanasi",
+  "Ayodhya",
+  "Braj"
+ ],
+ "hero": {
+  "src": "/images/spiritual/spiritual-up-varanasi-ghats.webp",
+  "alt": "Munshi Ghat and the riverfront of Varanasi on the Ganga"
+ },
+ "parent": {
+  "label": "Spiritual Tourism",
+  "href": "/spiritual-tourism"
+ },
+ "about": {
+  "type": "TouristDestination",
+  "name": "Spiritual Uttar Pradesh",
+  "containedIn": "Uttar Pradesh"
+ },
+ "intro": [
+  "Uttar Pradesh is the heartland of many Hindu pilgrimages: Varanasi (Kashi) on the Ganga, Ayodhya on the Saryu, Prayagraj at the confluence of the Ganga and Yamuna, and the Braj region around Mathura and Vrindavan, linked with Krishna. It also holds three of the great Buddhist sites, Sarnath, Kushinagar and Shravasti, and much-visited Sufi shrines.",
+  "The main towns are well connected by rail, road and air. Ayodhya's airport opened in December 2023, and Varanasi, Prayagraj, Lucknow, Gorakhpur and Agra also have airports."
+ ],
+ "quickAnswer": "Uttar Pradesh's main spiritual destinations are Varanasi (the ghats, Ganga Aarti and Kashi Vishwanath), Ayodhya (the Ram Mandir and Hanuman Garhi), Prayagraj (the Triveni Sangam), and Mathura, Vrindavan, Govardhan and Barsana in Braj. Sarnath, Kushinagar and Shravasti are major Buddhist sites. October to March is the best time; Holi in Braj and Dev Deepawali in Varanasi are special but crowded.",
+ "takeaways": [
+  "Varanasi, Ayodhya and Prayagraj form a popular pilgrimage triangle.",
+  "Mathura, Vrindavan, Govardhan and Barsana make up the Braj circuit, a short drive from Delhi and Agra.",
+  "Sarnath, Kushinagar and Shravasti are three of the great Buddhist sites.",
+  "October to March is best; summers are very hot.",
+  "Holi in Braj, Dev Deepawali in Varanasi and the Magh Mela at Prayagraj are highlights."
+ ],
+ "sections": [
+  {
+   "id": "places",
+   "heading": "Main spiritual places",
+   "table": {
+    "columns": [
+     "Place",
+     "Tradition",
+     "Known for",
+     "Our guide"
+    ],
+    "rows": [
+     [
+      "Varanasi",
+      "Hindu",
+      "Ghats, Ganga Aarti, Kashi Vishwanath",
+      "Varanasi guide"
+     ],
+     [
+      "Ayodhya",
+      "Hindu",
+      "Ram Mandir, Hanuman Garhi, Saryu ghats",
+      "Ayodhya guide"
+     ],
+     [
+      "Prayagraj",
+      "Hindu",
+      "Triveni Sangam, Magh Mela, Kumbh",
+      "Prayagraj guide"
+     ],
+     [
+      "Mathura and Vrindavan",
+      "Hindu",
+      "Krishna Janmabhoomi, Banke Bihari, ISKCON",
+      "Mathura and Vrindavan guides"
+     ],
+     [
+      "Govardhan and Barsana",
+      "Hindu",
+      "Govardhan parikrama; Radha Rani temple",
+      "Govardhan guide"
+     ],
+     [
+      "Naimisharanya",
+      "Hindu",
+      "Sacred forest linked with the Puranas",
+      "Naimisharanya guide"
+     ],
+     [
+      "Sarnath",
+      "Buddhist",
+      "Site of the first sermon",
+      "Sarnath guide"
+     ],
+     [
+      "Kushinagar and Shravasti",
+      "Buddhist",
+      "Parinirvana; Jetavana",
+      "Kushinagar and Shravasti guides"
+     ],
+     [
+      "Fatehpur Sikri and Deva Sharif",
+      "Sufi",
+      "Salim Chishti's tomb; Haji Waris Ali Shah",
+      "Fatehpur Sikri guide"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "highlights",
+   "heading": "Highlights",
+   "items": [
+    {
+     "name": "Varanasi",
+     "body": [
+      "Boat rides at dawn, the evening Ganga Aarti at Dashashwamedh, and Kashi Vishwanath through the new corridor."
+     ],
+     "links": [
+      {
+       "label": "Varanasi guide",
+       "href": "/blog/varanasi-travel-guide"
+      },
+      {
+       "label": "Things to do in Varanasi",
+       "href": "/blog/things-to-do-in-varanasi"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/uttar-pradesh/varanasi/kashi-vishwanath-corridor-gateway-varanasi.webp",
+      "alt": "The gateway of the Kashi Vishwanath Dham corridor in Varanasi",
+      "caption": "Kashi Vishwanath corridor, Varanasi"
+     }
+    },
+    {
+     "name": "Ayodhya",
+     "body": [
+      "The Ram Mandir, consecrated in January 2024, Hanuman Garhi and the Saryu ghats at Ram ki Paidi."
+     ],
+     "links": [
+      {
+       "label": "Ayodhya guide",
+       "href": "/blog/ayodhya-travel-guide"
+      },
+      {
+       "label": "Things to do in Ayodhya",
+       "href": "/blog/things-to-do-in-ayodhya"
+      }
+     ]
+    },
+    {
+     "name": "Prayagraj",
+     "body": [
+      "Boat rides to the Sangam, and the Magh Mela every January and February."
+     ],
+     "links": [
+      {
+       "label": "Prayagraj guide",
+       "href": "/blog/prayagraj-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Braj",
+     "body": [
+      "Mathura's Krishna Janmabhoomi, Vrindavan's temples and parikrama, the Govardhan parikrama and Barsana's hilltop Radha Rani temple."
+     ],
+     "links": [
+      {
+       "label": "Vrindavan guide",
+       "href": "/blog/vrindavan-travel-guide"
+      },
+      {
+       "label": "Mathura guide",
+       "href": "/blog/mathura-travel-guide"
+      },
+      {
+       "label": "Govardhan guide",
+       "href": "/blog/govardhan-travel-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "more",
+   "heading": "More sacred places",
+   "list": [
+    "Chitrakoot, on the border with Madhya Pradesh: Ramghat on the Mandakini and the Kamadgiri parikrama.",
+    "Vindhyachal near Mirzapur: the Vindhyavasini Devi temple.",
+    "Naimisharanya near Sitapur: a forest associated with the telling of the Puranas.",
+    "Deva Sharif near Barabanki: the dargah of Haji Waris Ali Shah."
+   ],
+   "items": [
+    {
+     "name": "Mirzapur",
+     "body": [
+      "Temples, fort and waterfalls."
+     ],
+     "links": [
+      {
+       "label": "Mirzapur guide",
+       "href": "/blog/mirzapur-travel-guide"
+      },
+      {
+       "label": "Naimisharanya guide",
+       "href": "/blog/naimisharanya-travel-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "route",
+   "heading": "Suggested routes",
+   "table": {
+    "columns": [
+     "Route",
+     "Days",
+     "Places"
+    ],
+    "rows": [
+     [
+      "Kashi, Prayag and Ayodhya",
+      "5 to 6",
+      "Varanasi, Prayagraj, Ayodhya"
+     ],
+     [
+      "Braj",
+      "2 to 3",
+      "Mathura, Vrindavan, Govardhan, Barsana"
+     ],
+     [
+      "Buddhist UP",
+      "4 to 5",
+      "Sarnath, Kushinagar, Shravasti"
+     ],
+     [
+      "Varanasi and Bodh Gaya",
+      "5",
+      "Varanasi, Sarnath, Bodh Gaya (Bihar)"
+     ]
+    ]
+   },
+   "after": [
+    "See our Ayodhya, Varanasi and Prayagraj itinerary for day-by-day plans."
+   ]
+  },
+  {
+   "id": "stays",
+   "heading": "Where to stay",
+   "list": [
+    "Varanasi: guesthouses on the ghats for atmosphere, or hotels in Cantonment for easier road access.",
+    "Ayodhya: new hotels and dharamshalas near the Ram Mandir and Ram ki Paidi; book early for festivals.",
+    "Prayagraj: hotels in Civil Lines; tent camps during the Magh Mela and Kumbh.",
+    "Braj: ashrams and guesthouses in Vrindavan, hotels in Mathura."
+   ]
+  },
+  {
+   "id": "when",
+   "heading": "When to go",
+   "list": [
+    "October to March: the main season; December and January can be foggy, delaying trains.",
+    "Holi in Braj (February or March) and Dev Deepawali in Varanasi (November) are special but very crowded.",
+    "The Magh Mela at Prayagraj runs in January and February each year.",
+    "April to June is very hot; start darshan early."
+   ]
+  }
+ ],
+ "safety": [
+  "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+  "Dress modestly and follow each place of worship's rules on dress, phones and photography.",
+  "Book darshan, aarti and registrations only on official temple or government websites.",
+  "Use registered boats at the ghats and wear life jackets where offered."
+ ],
+ "packing": [
+  "Modest cotton clothing",
+  "Warm layers and a shawl for winter mornings",
+  "Slip-on footwear",
+  "ID for temple security checks"
+ ],
+ "faqs": [
+  {
+   "q": "Which are the main spiritual places in Uttar Pradesh?",
+   "a": "Varanasi, Ayodhya, Prayagraj, Mathura and Vrindavan, plus Sarnath, Kushinagar and Shravasti for Buddhists."
+  },
+  {
+   "q": "How many days do I need for Varanasi, Prayagraj and Ayodhya?",
+   "a": "About five to six days."
+  },
+  {
+   "q": "How do I reach Ayodhya?",
+   "a": "By air to Ayodhya's airport, by train to Ayodhya Dham Junction, or by road from Lucknow (about 135 km)."
+  },
+  {
+   "q": "When is the best time to visit Varanasi?",
+   "a": "October to March; Dev Deepawali in November is special but crowded."
+  },
+  {
+   "q": "Can I visit Mathura and Vrindavan from Delhi?",
+   "a": "Yes. They are about three to four hours by road, and many people visit on a weekend."
+  }
+ ],
+ "nextSteps": [
+  {
+   "label": "Ayodhya, Varanasi and Prayagraj itinerary",
+   "href": "/blog/ayodhya-varanasi-prayagraj-tour"
+  },
+  {
+   "label": "Things to do in Varanasi",
+   "href": "/blog/things-to-do-in-varanasi"
+  },
+  {
+   "label": "Uttar Pradesh travel guide",
+   "href": "/blog/uttar-pradesh-travel-guide"
+  },
+  {
+   "label": "Uttar Pradesh tour packages",
+   "href": "/packages/uttar-pradesh"
+  },
+  {
+   "label": "Spiritual tour packages",
+   "href": "/packages/spiritual-tours"
+  }
+ ],
+ "related": [
+  {
+   "name": "Buddhist Circuit in India",
+   "href": "/blog/buddhist-circuit-in-india",
+   "note": "Sarnath, Kushinagar and Shravasti"
+  },
+  {
+   "name": "Kumbh Mela",
+   "href": "/blog/kumbh-mela",
+   "note": "Prayagraj and the other sites"
+  },
+  {
+   "name": "Pilgrimage trips from Delhi",
+   "href": "/blog/pilgrimage-trips-from-delhi",
+   "note": "Braj and more"
+  },
+  {
+   "name": "Heritage tourism in Uttar Pradesh",
+   "href": "/blog/heritage-tourism-in-uttar-pradesh",
+   "note": "forts, monuments and crafts"
+  }
+ ],
+ "places": [
+  "Varanasi",
+  "Ayodhya",
+  "Prayagraj",
+  "Mathura",
+  "Vrindavan",
+  "Govardhan",
+  "Barsana",
+  "Naimisharanya",
+  "Chitrakoot",
+  "Sarnath",
+  "Kushinagar",
+  "Shravasti"
+ ],
+ "styles": [
+  "spiritual-tours",
+  "family-holidays"
+ ],
+ "planDestination": "Uttar Pradesh",
+ "updated": "2026-09-26"
+}

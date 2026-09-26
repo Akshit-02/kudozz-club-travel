@@ -1,0 +1,326 @@
+{
+ "somnath-travel-guide": {
+  "slug": "12-jyotirlingas-in-india",
+  "label": "the 12 Jyotirlingas"
+ },
+ "srisailam-travel-guide": {
+  "slug": "12-jyotirlingas-in-india",
+  "label": "the 12 Jyotirlingas"
+ },
+ "ujjain-travel-guide": {
+  "slug": "12-jyotirlingas-in-india",
+  "label": "the 12 Jyotirlingas"
+ },
+ "omkareshwar-travel-guide": {
+  "slug": "jyotirlinga-yatra",
+  "label": "planning a Jyotirlinga Yatra"
+ },
+ "deoghar-travel-guide": {
+  "slug": "12-jyotirlingas-in-india",
+  "label": "the 12 Jyotirlingas"
+ },
+ "rameswaram-travel-guide": {
+  "slug": "char-dham-of-india",
+  "label": "the four dhams of India"
+ },
+ "nashik-travel-guide": {
+  "slug": "trimbakeshwar-jyotirlinga",
+  "label": "Trimbakeshwar Jyotirlinga"
+ },
+ "ajanta-ellora-travel-guide": {
+  "slug": "grishneshwar-jyotirlinga",
+  "label": "Grishneshwar Jyotirlinga near Ellora"
+ },
+ "dwarka-travel-guide": {
+  "slug": "nageshwar-jyotirlinga",
+  "label": "Nageshwar Jyotirlinga"
+ },
+ "jageshwar-travel-guide": {
+  "slug": "12-jyotirlingas-in-india",
+  "label": "the 12 Jyotirlingas and the Nageshwar claims"
+ },
+ "kedarnath-travel-guide": {
+  "slug": "kedarnath-badrinath-yatra",
+  "label": "the Kedarnath and Badrinath Yatra"
+ },
+ "badrinath-travel-guide": {
+  "slug": "char-dham-yatra-guide",
+  "label": "the Char Dham Yatra"
+ },
+ "yamunotri-travel-guide": {
+  "slug": "char-dham-yatra-guide",
+  "label": "the Char Dham Yatra"
+ },
+ "gangotri-travel-guide": {
+  "slug": "char-dham-yatra-guide",
+  "label": "the Char Dham Yatra"
+ },
+ "haridwar-travel-guide": {
+  "slug": "spiritual-tourism-in-uttarakhand",
+  "label": "spiritual places in Uttarakhand"
+ },
+ "uttarakhand-travel-guide": {
+  "slug": "spiritual-tourism-in-uttarakhand",
+  "label": "spiritual places in Uttarakhand"
+ },
+ "rishikesh-adventure-travel-guide": {
+  "slug": "yoga-in-rishikesh",
+  "label": "yoga in Rishikesh"
+ },
+ "puri-travel-guide": {
+  "slug": "spiritual-tourism-in-odisha",
+  "label": "spiritual places in Odisha"
+ },
+ "konark-travel-guide": {
+  "slug": "spiritual-tourism-in-odisha",
+  "label": "spiritual places in Odisha"
+ },
+ "bhubaneswar-travel-guide": {
+  "slug": "spiritual-tourism-in-odisha",
+  "label": "spiritual places in Odisha"
+ },
+ "kamakhya-travel-guide": {
+  "slug": "shakti-peethas-in-india",
+  "label": "the Shakti Peethas"
+ },
+ "tarapith-travel-guide": {
+  "slug": "shakti-peethas-in-india",
+  "label": "the Shakti Peethas"
+ },
+ "tripura-sundari-temple-travel-guide": {
+  "slug": "shakti-peethas-in-india",
+  "label": "the Shakti Peethas"
+ },
+ "katra-travel-guide": {
+  "slug": "spiritual-tourism-in-jammu-and-kashmir",
+  "label": "spiritual places in Jammu and Kashmir"
+ },
+ "kolhapur-travel-guide": {
+  "slug": "spiritual-tourism-in-maharashtra",
+  "label": "spiritual places in Maharashtra"
+ },
+ "shirdi-travel-guide": {
+  "slug": "pilgrimage-trips-from-mumbai",
+  "label": "pilgrimage trips from Mumbai"
+ },
+ "maharashtra-travel-guide": {
+  "slug": "spiritual-tourism-in-maharashtra",
+  "label": "spiritual places in Maharashtra"
+ },
+ "bodh-gaya-travel-guide": {
+  "slug": "buddhist-circuit-in-india",
+  "label": "the Buddhist Circuit"
+ },
+ "sarnath-travel-guide": {
+  "slug": "buddhist-circuit-in-india",
+  "label": "the Buddhist Circuit"
+ },
+ "kushinagar-travel-guide": {
+  "slug": "buddhist-circuit-in-india",
+  "label": "the Buddhist Circuit"
+ },
+ "rajgir-travel-guide": {
+  "slug": "buddhist-circuit-in-india",
+  "label": "the Buddhist Circuit"
+ },
+ "nalanda-travel-guide": {
+  "slug": "buddhist-circuit-in-india",
+  "label": "the Buddhist Circuit"
+ },
+ "vaishali-travel-guide": {
+  "slug": "buddhist-circuit-in-india",
+  "label": "the Buddhist Circuit"
+ },
+ "shravasti-travel-guide": {
+  "slug": "buddhist-circuit-in-india",
+  "label": "the Buddhist Circuit"
+ },
+ "sanchi-travel-guide": {
+  "slug": "buddhist-tourism-in-india",
+  "label": "Buddhist sites in India"
+ },
+ "thiksey-travel-guide": {
+  "slug": "buddhist-tourism-in-india",
+  "label": "Buddhist sites in India"
+ },
+ "tawang-travel-guide": {
+  "slug": "buddhist-tourism-in-india",
+  "label": "Buddhist sites in India"
+ },
+ "dharamshala-travel-guide": {
+  "slug": "spiritual-tourism-in-himachal-pradesh",
+  "label": "spiritual places in Himachal Pradesh"
+ },
+ "gaya-travel-guide": {
+  "slug": "spiritual-tourism-in-bihar",
+  "label": "spiritual places in Bihar"
+ },
+ "bihar-travel-guide": {
+  "slug": "spiritual-tourism-in-bihar",
+  "label": "spiritual places in Bihar"
+ },
+ "patna-travel-guide": {
+  "slug": "panj-takht-yatra",
+  "label": "the Panj Takht Yatra"
+ },
+ "golden-temple-travel-guide": {
+  "slug": "sikh-pilgrimage-in-india",
+  "label": "Sikh pilgrimage in India"
+ },
+ "amritsar-travel-guide": {
+  "slug": "sikh-pilgrimage-in-india",
+  "label": "Sikh pilgrimage in India"
+ },
+ "anandpur-sahib-travel-guide": {
+  "slug": "panj-takht-yatra",
+  "label": "the Panj Takht Yatra"
+ },
+ "fatehgarh-sahib-travel-guide": {
+  "slug": "sikh-pilgrimage-in-india",
+  "label": "Sikh pilgrimage in India"
+ },
+ "tarn-taran-travel-guide": {
+  "slug": "sikh-pilgrimage-in-india",
+  "label": "Sikh pilgrimage in India"
+ },
+ "sultanpur-lodhi-travel-guide": {
+  "slug": "sikh-pilgrimage-in-india",
+  "label": "Sikh pilgrimage in India"
+ },
+ "punjab-travel-guide": {
+  "slug": "sikh-pilgrimage-in-india",
+  "label": "Sikh pilgrimage in India"
+ },
+ "valley-of-flowers-travel-guide": {
+  "slug": "hemkund-sahib-yatra",
+  "label": "the Hemkund Sahib Yatra"
+ },
+ "palitana-travel-guide": {
+  "slug": "jain-pilgrimage-in-india",
+  "label": "Jain pilgrimage in India"
+ },
+ "parasnath-travel-guide": {
+  "slug": "jain-pilgrimage-in-india",
+  "label": "Jain pilgrimage in India"
+ },
+ "pawapuri-travel-guide": {
+  "slug": "jain-pilgrimage-in-india",
+  "label": "Jain pilgrimage in India"
+ },
+ "junagadh-girnar-travel-guide": {
+  "slug": "jain-pilgrimage-in-india",
+  "label": "Jain pilgrimage in India"
+ },
+ "mount-abu-travel-guide": {
+  "slug": "ranakpur-jain-temple",
+  "label": "the Ranakpur Jain Temple"
+ },
+ "ajmer-travel-guide": {
+  "slug": "sufi-shrines-in-india",
+  "label": "Sufi shrines in India"
+ },
+ "nizamuddin-delhi-travel-guide": {
+  "slug": "sufi-shrines-in-india",
+  "label": "Sufi shrines in India"
+ },
+ "fatehpur-sikri-travel-guide": {
+  "slug": "sufi-shrines-in-india",
+  "label": "Sufi shrines in India"
+ },
+ "varanasi-travel-guide": {
+  "slug": "ayodhya-varanasi-prayagraj-tour",
+  "label": "the Ayodhya, Varanasi and Prayagraj itinerary"
+ },
+ "ayodhya-travel-guide": {
+  "slug": "ayodhya-varanasi-prayagraj-tour",
+  "label": "the Ayodhya, Varanasi and Prayagraj itinerary"
+ },
+ "prayagraj-travel-guide": {
+  "slug": "kumbh-mela",
+  "label": "the Kumbh Mela"
+ },
+ "mathura-travel-guide": {
+  "slug": "pilgrimage-trips-from-delhi",
+  "label": "pilgrimage trips from Delhi"
+ },
+ "vrindavan-travel-guide": {
+  "slug": "pilgrimage-trips-from-delhi",
+  "label": "pilgrimage trips from Delhi"
+ },
+ "govardhan-travel-guide": {
+  "slug": "spiritual-tourism-in-uttar-pradesh",
+  "label": "spiritual places in Uttar Pradesh"
+ },
+ "uttar-pradesh-travel-guide": {
+  "slug": "spiritual-tourism-in-uttar-pradesh",
+  "label": "spiritual places in Uttar Pradesh"
+ },
+ "pushkar-travel-guide": {
+  "slug": "spiritual-tourism-in-rajasthan",
+  "label": "spiritual places in Rajasthan"
+ },
+ "khatu-shyam-ji-travel-guide": {
+  "slug": "spiritual-tourism-in-rajasthan",
+  "label": "spiritual places in Rajasthan"
+ },
+ "tirupati-travel-guide": {
+  "slug": "spiritual-tourism-in-andhra-pradesh",
+  "label": "spiritual places in Andhra Pradesh"
+ },
+ "madurai-travel-guide": {
+  "slug": "spiritual-tourism-in-tamil-nadu",
+  "label": "spiritual places in Tamil Nadu"
+ },
+ "thanjavur-travel-guide": {
+  "slug": "famous-temples-in-india",
+  "label": "famous temples in India"
+ },
+ "chidambaram-travel-guide": {
+  "slug": "spiritual-tourism-in-tamil-nadu",
+  "label": "spiritual places in Tamil Nadu"
+ },
+ "kanchipuram-travel-guide": {
+  "slug": "spiritual-tourism-in-tamil-nadu",
+  "label": "spiritual places in Tamil Nadu"
+ },
+ "tiruvannamalai-travel-guide": {
+  "slug": "spiritual-tourism-in-tamil-nadu",
+  "label": "spiritual places in Tamil Nadu"
+ },
+ "tamil-nadu-travel-guide": {
+  "slug": "spiritual-tourism-in-tamil-nadu",
+  "label": "spiritual places in Tamil Nadu"
+ },
+ "guruvayur-travel-guide": {
+  "slug": "spiritual-tourism-in-kerala",
+  "label": "spiritual places in Kerala"
+ },
+ "udupi-travel-guide": {
+  "slug": "spiritual-tourism-in-karnataka",
+  "label": "spiritual places in Karnataka"
+ },
+ "gujarat-travel-guide": {
+  "slug": "spiritual-tourism-in-gujarat",
+  "label": "spiritual places in Gujarat"
+ },
+ "khajuraho-travel-guide": {
+  "slug": "famous-temples-in-india",
+  "label": "famous temples in India"
+ },
+ "madhya-pradesh-travel-guide": {
+  "slug": "spiritual-tourism-in-madhya-pradesh",
+  "label": "spiritual places in Madhya Pradesh"
+ },
+ "mayapur-travel-guide": {
+  "slug": "spiritual-tourism-in-west-bengal",
+  "label": "spiritual places in West Bengal"
+ },
+ "gangasagar-travel-guide": {
+  "slug": "spiritual-festivals-in-india",
+  "label": "spiritual festivals in India"
+ },
+ "odisha-travel-guide": {
+  "slug": "spiritual-tourism-in-odisha",
+  "label": "spiritual places in Odisha"
+ }
+}

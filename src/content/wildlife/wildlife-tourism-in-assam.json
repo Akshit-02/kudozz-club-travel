@@ -1,0 +1,381 @@
+{
+  "slug": "wildlife-tourism-in-assam",
+  "kind": "state",
+  "short": "Wildlife in Assam",
+  "title": "Wildlife Tourism in Assam: Kaziranga, Manas, Pobitora and More",
+  "seoTitle": "Wildlife Tourism in Assam: Kaziranga, Manas & Pobitora | Kudozz Club",
+  "metaDescription": "Plan a wildlife trip in Assam: Kaziranga's rhinos and ranges, Manas, Pobitora, Nameri, Orang, Dibru-Saikhowa and the Hollongapar gibbons, with seasons and routes.",
+  "description": "A guide to wildlife tourism in Assam: Kaziranga National Park and its ranges, Manas on the Bhutan border, Pobitora near Guwahati, Nameri, Orang, Dibru-Saikhowa's feral horses and river dolphins, and Hollongapar Gibbon Sanctuary, with rhinos, elephants, tigers, primates and birds, seasons, safaris and routes.",
+  "dek": "Assam holds most of the world's one-horned rhinos and some of India's richest grasslands and forests. Here is how to plan a wildlife trip.",
+  "primaryKeyword": "wildlife tourism in Assam",
+  "secondaryKeywords": [
+    "wildlife sanctuaries in Assam",
+    "national parks in Assam",
+    "Assam safari",
+    "wildlife in Assam"
+  ],
+  "searchIntent": "State-level wildlife planning",
+  "activities": [
+    "jeep safari",
+    "elephant safari",
+    "boat safari",
+    "birdwatching"
+  ],
+  "terrain": [
+    "grassland",
+    "wetland",
+    "forest",
+    "river"
+  ],
+  "regions": [
+    "Assam",
+    "North East India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Assam",
+    "Kaziranga",
+    "Manas",
+    "Rhinos"
+  ],
+  "hero": {
+    "src": "/images/wildlife/assam-wildlife-manas.webp",
+    "alt": "A capped langur sitting among leaves in Manas National Park, Assam"
+  },
+  "parent": {
+    "label": "Wildlife Tourism",
+    "href": "/wildlife-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Wildlife of Assam",
+    "containedIn": "Assam"
+  },
+  "intro": [
+    "Assam's floodplains along the Brahmaputra hold India's largest populations of the greater one-horned rhinoceros, wild water buffalo and swamp deer, along with tigers, elephants and more than 450 bird species in Kaziranga alone. Kaziranga and Manas are both UNESCO World Heritage Sites.",
+    "The state has four tiger reserves: Kaziranga, Manas, Nameri and Orang. It also has forests with hoolock gibbons and golden langurs, and river islands where Gangetic dolphins surface."
+  ],
+  "quickAnswer": "Assam's leading wildlife destination is Kaziranga National Park, with 2,613 rhinos in the 2022 count, plus elephants, wild buffalo and tigers. Manas, on the Bhutan border, has golden langurs and rhinos; Pobitora near Guwahati has a dense rhino population; Nameri suits birders; and Hollongapar Gibbon Sanctuary has hoolock gibbons. Parks are usually open from November to April.",
+  "takeaways": [
+    "Kaziranga holds most of the world's greater one-horned rhinos.",
+    "Kaziranga and Manas are UNESCO World Heritage Sites.",
+    "Assam has four tiger reserves: Kaziranga, Manas, Nameri and Orang.",
+    "Parks usually open in November and close by May for the monsoon.",
+    "Hollongapar near Jorhat is India's best-known place to see hoolock gibbons."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Wildlife places in Assam",
+      "table": {
+        "columns": [
+          "Place",
+          "Status",
+          "Known for",
+          "Gateway"
+        ],
+        "rows": [
+          [
+            "Kaziranga",
+            "National park, tiger reserve, UNESCO site",
+            "Rhinos, buffalo, elephants, tigers",
+            "Jorhat, Guwahati"
+          ],
+          [
+            "Manas",
+            "National park, tiger reserve, UNESCO site",
+            "Golden langur, rhinos, grassland birds",
+            "Guwahati, Barpeta Road"
+          ],
+          [
+            "Pobitora",
+            "Wildlife sanctuary",
+            "Dense rhino population",
+            "Guwahati"
+          ],
+          [
+            "Nameri",
+            "National park, tiger reserve",
+            "Birds, river rafting on the Jia Bhoroli",
+            "Tezpur"
+          ],
+          [
+            "Orang",
+            "National park, tiger reserve",
+            "Rhinos, fewer visitors",
+            "Tezpur"
+          ],
+          [
+            "Dibru-Saikhowa",
+            "National park",
+            "Feral horses, river dolphins, birds",
+            "Tinsukia"
+          ],
+          [
+            "Hollongapar",
+            "Gibbon sanctuary",
+            "Hoolock gibbons",
+            "Jorhat"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "kaziranga",
+      "heading": "Kaziranga",
+      "items": [
+        {
+          "name": "Ranges and safaris",
+          "body": [
+            "Jeep safaris run in the Kohora (central), Bagori (western), Agaratoli (eastern) and Burapahar ranges; elephant rides start from Kohora and Bagori. Agaratoli is good for waterbirds; Bagori for rhinos in open grassland."
+          ],
+          "facts": {
+            "Season": "Usually November to April"
+          },
+          "links": [
+            {
+              "label": "Kaziranga guide",
+              "href": "/blog/kaziranga-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/assam/assam/elephant-safari-rhino-kaziranga.webp",
+            "alt": "Visitors on elephants watching a one-horned rhino in the grassland of Kaziranga",
+            "caption": "Rhino viewing in Kaziranga"
+          }
+        },
+        {
+          "name": "Floods and the highway",
+          "body": [
+            "Each monsoon, floods push animals across the highway to the Karbi Anglong hills. Speed limits apply on the road through the park all year."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond Kaziranga",
+      "items": [
+        {
+          "name": "Manas",
+          "body": [
+            "Forest and grassland running into Bhutan's Royal Manas National Park, with golden langurs, capped langurs, rhinos, and rare birds such as the Bengal florican."
+          ],
+          "links": [
+            {
+              "label": "Manas guide",
+              "href": "/blog/manas-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Pobitora",
+          "body": [
+            "About an hour or so from Guwahati, with rhinos in a small area; a good day trip."
+          ],
+          "links": [
+            {
+              "label": "Pobitora guide",
+              "href": "/blog/pobitora-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Nameri",
+          "body": [
+            "Forest along the Jia Bhoroli river, known for the white-winged wood duck and walks with forest guards."
+          ],
+          "links": [
+            {
+              "label": "Nameri guide",
+              "href": "/blog/nameri-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Hollongapar",
+          "body": [
+            "A small forest near Jorhat with hoolock gibbons, India's only ape, often heard before they are seen."
+          ],
+          "links": [
+            {
+              "label": "Jorhat guide",
+              "href": "/blog/jorhat-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "heading": "Where to stay and how long",
+      "paras": [
+        "Kaziranga's lodges and resorts cluster around Kohora, close to the central range, with more near Bagori and Agaratoli. Manas has a few lodges near the Bansbari gate, and Nameri has an eco-camp by the river. Guwahati works as a base for Pobitora.",
+        "Three nights in Kaziranga allow drives in each of the main ranges and an elephant ride. Add two nights for Manas, or a night each for Hollongapar and Majuli, to build a week-long trip."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for Kaziranga",
+      "list": [
+        "Book elephant rides and morning jeep safaris a day or two ahead through your lodge or the official counters.",
+        "Visit in February or March for shorter grass and better views.",
+        "Carry binoculars for waterbirds and raptors on the wetlands.",
+        "Respect the speed limits on the highway through the park."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "table": {
+        "columns": [
+          "Months",
+          "What to expect"
+        ],
+        "rows": [
+          [
+            "November to February",
+            "Cool, dry; tall grass burned from winter, improving views"
+          ],
+          [
+            "March to April",
+            "Warmer; good sightings; parks close by May"
+          ],
+          [
+            "May to October",
+            "Monsoon floods; most parks closed"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "route",
+      "heading": "A sample route",
+      "table": {
+        "columns": [
+          "Days",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Guwahati; afternoon at Pobitora"
+          ],
+          [
+            "2 to 4",
+            "Kaziranga: jeep safaris in three ranges, one elephant ride"
+          ],
+          [
+            "5",
+            "Hollongapar gibbons, then Jorhat or Majuli"
+          ],
+          [
+            "Alternative",
+            "Manas for two nights from Guwahati"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Sightings are never guaranteed; plan several drives and enjoy the forest itself.",
+    "Stay in the vehicle on safaris and follow your guide.",
+    "Book permits only through official forest department portals or trusted operators.",
+    "Never feed animals or leave litter in a park.",
+    "Rhinos and wild buffalo can charge; stay in the vehicle at all times."
+  ],
+  "packing": [
+    "Warm jacket for winter mornings",
+    "Neutral clothes",
+    "Binoculars",
+    "Insect repellent"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best national park in Assam?",
+      "a": "Kaziranga for rhinos and variety; Manas for scenery and rare species."
+    },
+    {
+      "q": "When is Kaziranga open?",
+      "a": "Usually from November to April; it closes for the monsoon."
+    },
+    {
+      "q": "Can I see tigers in Kaziranga?",
+      "a": "Kaziranga has a high density of tigers, but tall grass makes them harder to see than rhinos."
+    },
+    {
+      "q": "Where can I see gibbons in Assam?",
+      "a": "At Hollongapar Gibbon Sanctuary near Jorhat."
+    },
+    {
+      "q": "How many days do I need for Kaziranga?",
+      "a": "Three nights allows safaris in the main ranges and an elephant ride."
+    },
+    {
+      "q": "How do I reach Kaziranga?",
+      "a": "Jorhat airport is about two hours away and Guwahati about five hours by road."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Kaziranga",
+      "href": "/blog/things-to-do-in-kaziranga"
+    },
+    {
+      "label": "Assam travel guide",
+      "href": "/blog/assam-travel-guide"
+    },
+    {
+      "label": "Things to do in Guwahati",
+      "href": "/blog/things-to-do-in-guwahati"
+    },
+    {
+      "label": "Assam tour packages",
+      "href": "/packages/assam"
+    },
+    {
+      "label": "Wildlife trips",
+      "href": "/packages/wildlife-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Where to see rhinos",
+      "href": "/blog/where-to-see-rhinos-in-india",
+      "note": "Assam and West Bengal"
+    },
+    {
+      "name": "Best national parks in India",
+      "href": "/blog/best-national-parks-in-india",
+      "note": "Kaziranga and Manas"
+    },
+    {
+      "name": "Birdwatching in India",
+      "href": "/blog/birdwatching-in-india",
+      "note": "north-eastern birding"
+    }
+  ],
+  "places": [
+    "Kaziranga",
+    "Manas",
+    "Pobitora",
+    "Nameri",
+    "Orang",
+    "Dibru-Saikhowa",
+    "Hollongapar"
+  ],
+  "styles": [
+    "wildlife-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Assam",
+  "updated": "2026-09-25"
+}

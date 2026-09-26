@@ -1,0 +1,395 @@
+{
+ "slug": "buddhist-circuit-in-india",
+ "kind": "pillar",
+ "short": "Buddhist Circuit",
+ "title": "The Buddhist Circuit in India: Sites, Route and Itinerary",
+ "seoTitle": "Buddhist Circuit in India: Sites, Route & Itinerary | Kudozz Club",
+ "metaDescription": "Plan the Buddhist Circuit: Bodh Gaya, Rajgir, Nalanda, Vaishali, Kushinagar, Lumbini, Shravasti and Sarnath, with a route, a 9-day itinerary and travel tips.",
+ "description": "A planning guide to the Buddhist Circuit in Bihar, Uttar Pradesh and Nepal: the places linked to the Buddha's life (Lumbini, Bodh Gaya, Sarnath, Kushinagar) and the other great pilgrimage sites (Rajgir, Vaishali, Shravasti, Sankassa), plus Nalanda, a route, a nine-day itinerary, airports and trains, the best season and crossing into Nepal.",
+ "dek": "The Buddhist Circuit follows the Buddha's life, from his birthplace to the places of his enlightenment, first sermon and passing.",
+ "primaryKeyword": "buddhist circuit",
+ "secondaryKeywords": [
+  "buddhist circuit India itinerary",
+  "buddhist circuit route",
+  "buddhist pilgrimage tour India"
+ ],
+ "searchIntent": "Planning/informational",
+ "activities": [
+  "Buddhist circuit",
+  "monasteries",
+  "meditation",
+  "heritage"
+ ],
+ "terrain": [
+  "plains",
+  "temple town"
+ ],
+ "regions": [
+  "Bihar",
+  "Uttar Pradesh",
+  "East India"
+ ],
+ "seasons": [
+  "winter",
+  "spring"
+ ],
+ "travellers": [
+  "families",
+  "senior travellers",
+  "groups"
+ ],
+ "tags": [
+  "Buddhist Circuit",
+  "Bodh Gaya",
+  "Sarnath",
+  "Kushinagar"
+ ],
+ "hero": {
+  "src": "/images/spiritual/buddhist-circuit-mahabodhi-temple.webp",
+  "alt": "The Mahabodhi Temple and its gardens at Bodh Gaya, Bihar"
+ },
+ "parent": {
+  "label": "Spiritual Tourism",
+  "href": "/spiritual-tourism"
+ },
+ "about": {
+  "type": "Thing",
+  "name": "Buddhist Circuit"
+ },
+ "intro": [
+  "Buddhist tradition names four places tied to the Buddha's life: Lumbini, where he was born (now in Nepal), Bodh Gaya, where he attained enlightenment, Sarnath, where he gave his first sermon, and Kushinagar, where he passed into parinirvana. Four more, Rajgir, Vaishali, Shravasti and Sankassa, complete the traditional eight great places of pilgrimage.",
+  "Most of them lie in Bihar and eastern Uttar Pradesh, within a loop of about 1,500 km. Pilgrims from across Asia travel it every winter, often with Nalanda, the ruined monastic university, added on the way."
+ ],
+ "quickAnswer": "The Buddhist Circuit links the places of the Buddha's life: Bodh Gaya (enlightenment), Sarnath (first sermon) and Kushinagar (parinirvana) in India, and Lumbini (birth) in Nepal, with Rajgir, Vaishali, Shravasti and Nalanda. A typical route runs Bodh Gaya, Rajgir, Nalanda, Vaishali, Kushinagar, Lumbini, Shravasti and Sarnath in about nine to ten days. October to March is the best season.",
+ "takeaways": [
+  "The four main sites are Lumbini, Bodh Gaya, Sarnath and Kushinagar.",
+  "Rajgir, Vaishali, Shravasti and Sankassa complete the eight great places.",
+  "A full loop takes about nine to ten days by road.",
+  "Gaya, Patna, Varanasi and Gorakhpur are the practical airports; Kushinagar has had no scheduled flights since late 2023.",
+  "Lumbini is in Nepal; carry valid ID, and foreign visitors need a Nepal visa."
+ ],
+ "sections": [
+  {
+   "id": "sites",
+   "heading": "The sites",
+   "table": {
+    "columns": [
+     "Site",
+     "Association",
+     "State",
+     "Our guide"
+    ],
+    "rows": [
+     [
+      "Lumbini",
+      "Birth of the Buddha",
+      "Nepal (near the Sonauli border)",
+      "Covered here"
+     ],
+     [
+      "Bodh Gaya",
+      "Enlightenment; Mahabodhi Temple (UNESCO)",
+      "Bihar",
+      "Bodh Gaya guide"
+     ],
+     [
+      "Sarnath",
+      "First sermon (UNESCO, 2026)",
+      "Uttar Pradesh",
+      "Sarnath guide"
+     ],
+     [
+      "Kushinagar",
+      "Parinirvana",
+      "Uttar Pradesh",
+      "Kushinagar guide"
+     ],
+     [
+      "Rajgir",
+      "Vulture's Peak and many sermons",
+      "Bihar",
+      "Rajgir guide"
+     ],
+     [
+      "Vaishali",
+      "Last sermon; relic stupa and Ashokan pillar",
+      "Bihar",
+      "Vaishali guide"
+     ],
+     [
+      "Shravasti",
+      "Jetavana monastery; many rains retreats",
+      "Uttar Pradesh",
+      "Shravasti guide"
+     ],
+     [
+      "Sankassa",
+      "Descent from heaven (tradition)",
+      "Uttar Pradesh",
+      "Covered here"
+     ],
+     [
+      "Nalanda",
+      "Ancient monastic university (UNESCO)",
+      "Bihar",
+      "Nalanda guide"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "highlights",
+   "heading": "Highlights",
+   "items": [
+    {
+     "name": "Bodh Gaya",
+     "body": [
+      "The Mahabodhi Temple and the Bodhi tree, with monasteries built by Buddhist countries around the town."
+     ],
+     "links": [
+      {
+       "label": "Bodh Gaya guide",
+       "href": "/blog/bodh-gaya-travel-guide"
+      },
+      {
+       "label": "Things to do in Bodh Gaya",
+       "href": "/blog/things-to-do-in-bodh-gaya"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/bihar/bodh-gaya/the-bodhi-tree-bodh-gaya.webp",
+      "alt": "The Bodhi tree beside the Mahabodhi Temple in Bodh Gaya",
+      "caption": "The Bodhi tree, Bodh Gaya"
+     }
+    },
+    {
+     "name": "Rajgir and Nalanda",
+     "body": [
+      "Vulture's Peak, the Vishwa Shanti Stupa (by ropeway) and the excavated ruins of Nalanda Mahavihara, 15 km apart."
+     ],
+     "links": [
+      {
+       "label": "Rajgir guide",
+       "href": "/blog/rajgir-travel-guide"
+      },
+      {
+       "label": "Nalanda guide",
+       "href": "/blog/nalanda-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Kushinagar",
+     "body": [
+      "The Mahaparinirvana Temple with its reclining Buddha, and the Ramabhar Stupa, the traditional cremation site."
+     ],
+     "links": [
+      {
+       "label": "Kushinagar guide",
+       "href": "/blog/kushinagar-travel-guide"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/uttar-pradesh/kushinagar/ramabhar-stupa-kushinagar.webp",
+      "alt": "The brick Ramabhar Stupa at Kushinagar, Uttar Pradesh",
+      "caption": "Ramabhar Stupa, Kushinagar"
+     }
+    },
+    {
+     "name": "Sarnath",
+     "body": [
+      "The Dhamek Stupa and the deer park where the first sermon was given, 10 km from Varanasi; inscribed as a UNESCO World Heritage Site in July 2026."
+     ],
+     "links": [
+      {
+       "label": "Sarnath guide",
+       "href": "/blog/sarnath-travel-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "itinerary",
+   "heading": "A 9-day route",
+   "table": {
+    "columns": [
+     "Day",
+     "Plan"
+    ],
+    "rows": [
+     [
+      "1",
+      "Arrive in Gaya; Bodh Gaya"
+     ],
+     [
+      "2",
+      "Bodh Gaya: Mahabodhi Temple and monasteries"
+     ],
+     [
+      "3",
+      "Rajgir and Nalanda"
+     ],
+     [
+      "4",
+      "Via Patna to Vaishali; overnight Vaishali or Kesariya"
+     ],
+     [
+      "5",
+      "Kesariya stupa; drive to Kushinagar"
+     ],
+     [
+      "6",
+      "Kushinagar; cross to Lumbini (Nepal)"
+     ],
+     [
+      "7",
+      "Lumbini; return and drive towards Shravasti"
+     ],
+     [
+      "8",
+      "Shravasti (Jetavana)"
+     ],
+     [
+      "9",
+      "Drive to Lucknow or on to Varanasi for Sarnath"
+     ]
+    ]
+   },
+   "after": [
+    "Reverse the order if you arrive in Varanasi. Add a day for Sarnath and Varanasi's ghats."
+   ]
+  },
+  {
+   "id": "getting-around",
+   "heading": "Getting there and around",
+   "list": [
+    "Airports: Gaya (with seasonal international flights), Patna, Varanasi, Gorakhpur and Lucknow.",
+    "Kushinagar International Airport has had no scheduled flights since November 2023; check before planning around it.",
+    "Most pilgrims travel the circuit by road with a hired car or coach.",
+    "IRCTC runs a Buddhist Circuit tourist train on selected departures; check the official site for dates.",
+    "Lumbini: cross at Sonauli. Indian citizens need valid ID; other nationalities need a Nepal visa."
+   ]
+  },
+  {
+   "id": "stays",
+   "heading": "Where to stay",
+   "list": [
+    "Bodh Gaya: hotels, monastery guesthouses run by Buddhist communities, and simple lodges near the Mahabodhi Temple.",
+    "Rajgir: hotels and state tourism properties, convenient for Nalanda too.",
+    "Kushinagar: hotels and monastery guesthouses near the Mahaparinirvana Temple.",
+    "Lumbini: hotels and monastery lodges in Nepal; carry Nepali or Indian currency as advised.",
+    "Shravasti and Sarnath: small hotels; Varanasi has far more choice for Sarnath."
+   ],
+   "after": [
+    "Book Bodh Gaya early for December and January, when pilgrims from across Asia arrive."
+   ]
+  },
+  {
+   "id": "when",
+   "heading": "When to go",
+   "list": [
+    "October to March: the main season, cool and dry.",
+    "December and January: busiest at Bodh Gaya, with large gatherings of monks and pilgrims; book early.",
+    "Buddha Purnima (April or May): important celebrations, but hot.",
+    "April to September: hot, then monsoon; fewer visitors."
+   ]
+  }
+ ],
+ "safety": [
+  "These are active places of worship: dress modestly, keep your voice low, and ask before photographing people at prayer.",
+  "Walk clockwise around stupas and temples.",
+  "Carry passports or valid ID for the Nepal crossing.",
+  "Long road days are tiring; plan rest stops."
+ ],
+ "packing": [
+  "Modest, light clothing and a warm layer for winter",
+  "Slip-on footwear",
+  "Passport or ID for Nepal",
+  "Water and snacks for road days"
+ ],
+ "faqs": [
+  {
+   "q": "What is the Buddhist Circuit in India?",
+   "a": "A pilgrimage route linking the places of the Buddha's life, mainly in Bihar and Uttar Pradesh, with Lumbini in Nepal."
+  },
+  {
+   "q": "Which places are in the Buddhist Circuit?",
+   "a": "Bodh Gaya, Sarnath, Kushinagar and Lumbini, plus Rajgir, Vaishali, Shravasti, Sankassa and Nalanda."
+  },
+  {
+   "q": "How many days does the Buddhist Circuit take?",
+   "a": "About nine to ten days by road for the full loop."
+  },
+  {
+   "q": "What is the best time for the Buddhist Circuit?",
+   "a": "October to March."
+  },
+  {
+   "q": "Do I need a visa for Lumbini?",
+   "a": "Indian citizens need valid ID. Other nationalities need a Nepal visa; check current rules before travelling."
+  }
+ ],
+ "nextSteps": [
+  {
+   "label": "Bodh Gaya guide",
+   "href": "/blog/bodh-gaya-travel-guide"
+  },
+  {
+   "label": "Things to do in Rajgir",
+   "href": "/blog/things-to-do-in-rajgir"
+  },
+  {
+   "label": "Spiritual tourism in Bihar",
+   "href": "/blog/spiritual-tourism-in-bihar"
+  },
+  {
+   "label": "Buddhist Circuit packages",
+   "href": "/packages/buddhist-circuit"
+  },
+  {
+   "label": "Bihar tour packages",
+   "href": "/packages/bihar"
+  }
+ ],
+ "related": [
+  {
+   "name": "Buddhist tourism in India",
+   "href": "/blog/buddhist-tourism-in-india",
+   "note": "monasteries and other sites"
+  },
+  {
+   "name": "Spiritual tourism in Uttar Pradesh",
+   "href": "/blog/spiritual-tourism-in-uttar-pradesh",
+   "note": "Sarnath and Kushinagar"
+  },
+  {
+   "name": "Yoga and meditation retreats",
+   "href": "/blog/yoga-and-meditation-retreats-in-india",
+   "note": "meditation courses"
+  },
+  {
+   "name": "Archaeological sites in India",
+   "href": "/blog/archaeological-sites-in-india",
+   "note": "Sanchi, Nalanda and more"
+  }
+ ],
+ "places": [
+  "Bodh Gaya",
+  "Rajgir",
+  "Nalanda",
+  "Vaishali",
+  "Kesariya",
+  "Kushinagar",
+  "Lumbini",
+  "Shravasti",
+  "Sarnath",
+  "Sankassa"
+ ],
+ "styles": [
+  "spiritual-tours",
+  "group-tours"
+ ],
+ "planDestination": "Buddhist Circuit",
+ "updated": "2026-09-26"
+}

@@ -1,0 +1,545 @@
+{
+  "slug": "best-beaches-in-maharashtra",
+  "kind": "state",
+  "short": "Best beaches in Maharashtra",
+  "title": "Best Beaches in Maharashtra: Konkan Coast from Alibaug to Tarkarli",
+  "seoTitle": "Best Beaches in Maharashtra: Alibaug to Tarkarli | Kudozz Club",
+  "metaDescription": "The best beaches on Maharashtra's Konkan coast: Alibaug, Kashid, Shrivardhan, Guhagar, Ganpatipule, Tarkarli and Malvan, with sea forts and turtles.",
+  "description": "A guide to the best beaches on Maharashtra's Konkan coast, from Alibaug, Nagaon and Kashid near Mumbai to Murud-Janjira, Diveagar, Shrivardhan and Harihareshwar, the Blue Flag beaches of Guhagar and Ladghar, Velas and its turtles, Ganpatipule, and Tarkarli, Devbagh and Malvan in Sindhudurg, with seasons, access and safety.",
+  "dek": "The Konkan coast mixes beaches with sea forts, temples and seafood towns. Here are the best beaches in Maharashtra, from weekend escapes near Mumbai to Sindhudurg's clear water.",
+  "primaryKeyword": "best beaches in Maharashtra",
+  "secondaryKeywords": [
+    "beaches in Maharashtra",
+    "Maharashtra beaches",
+    "beach holiday Maharashtra",
+    "beach travel in Maharashtra",
+    "best beach in Maharashtra for families",
+    "quiet beaches Maharashtra"
+  ],
+  "searchIntent": "Choose beaches in Maharashtra",
+  "activities": [
+    "beaches",
+    "sea forts",
+    "water sports",
+    "scuba diving",
+    "turtle watching",
+    "dolphin watching"
+  ],
+  "terrain": [
+    "beaches",
+    "coast",
+    "forts"
+  ],
+  "regions": [
+    "Maharashtra",
+    "West India",
+    "Konkan coast"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "friends",
+    "couples"
+  ],
+  "tags": [
+    "Maharashtra",
+    "Konkan",
+    "Beaches",
+    "Alibaug"
+  ],
+  "hero": {
+    "src": "/images/beach/maharashtra-beach-ganpatipule.webp",
+    "alt": "The temple on Ganpatipule beach, Ratnagiri",
+    "caption": "Ganpatipule"
+  },
+  "parent": {
+    "label": "Best Beach Destinations in India",
+    "href": "/blog/best-beach-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Konkan coast of Maharashtra",
+    "containedIn": "Maharashtra"
+  },
+  "intro": [
+    "Maharashtra's coast, the northern Konkan, runs for about 720 km from Palghar near Gujarat to the Goa border. It is a coast of small beaches between rocky headlands and river mouths, many of them guarded by sea forts built or rebuilt under the Marathas. Beaches closer to Mumbai, such as Alibaug and Kashid, are busy weekend escapes; further south, in Ratnagiri and Sindhudurg districts, they get quieter and the water clearer.",
+    "In 2025, five Maharashtra beaches, Shrivardhan, Nagaon, Parnaka, Guhagar and Ladghar, received Blue Flag certification. This guide goes from north to south."
+  ],
+  "quickAnswer": "The best beaches in Maharashtra are Alibaug, Nagaon and Kashid near Mumbai, Diveagar, Shrivardhan and Harihareshwar in Raigad, Guhagar, Ganpatipule and the turtle beach at Velas in Ratnagiri, and Tarkarli, Devbagh and Malvan in Sindhudurg, the best for snorkelling and try dives. Visit from October to March. Swimming is unsafe in the monsoon, when many Konkan beaches are closed to bathing.",
+  "takeaways": [
+    "Alibaug, Nagaon and Kashid are the easiest beach weekends from Mumbai, partly by ferry.",
+    "Shrivardhan, Nagaon, Parnaka, Guhagar and Ladghar received Blue Flag certification in 2025.",
+    "Tarkarli and Malvan in Sindhudurg have the clearest water, with snorkelling and scuba try dives.",
+    "Velas in Ratnagiri is known for olive ridley turtle hatchlings, mostly from about February to April.",
+    "Konkan beaches are rough and closed to swimming in the monsoon (June to September)."
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "heading": "Maharashtra beaches at a glance",
+      "table": {
+        "columns": [
+          "Beach",
+          "District",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Juhu and Girgaon Chowpatty",
+            "Mumbai",
+            "Evening walks and street food (not swimming)"
+          ],
+          [
+            "Parnaka",
+            "Palghar",
+            "Blue Flag beach near Dahanu"
+          ],
+          [
+            "Alibaug, Nagaon, Kihim",
+            "Raigad",
+            "Weekends from Mumbai; Kolaba Fort"
+          ],
+          [
+            "Kashid",
+            "Raigad",
+            "White sand, water sports"
+          ],
+          [
+            "Murud and Janjira",
+            "Raigad",
+            "Sea fort by boat"
+          ],
+          [
+            "Diveagar, Shrivardhan, Harihareshwar",
+            "Raigad",
+            "Quiet beaches, temples"
+          ],
+          [
+            "Velas",
+            "Ratnagiri",
+            "Turtle hatchlings in season"
+          ],
+          [
+            "Ladghar, Karde, Murud (Dapoli)",
+            "Ratnagiri",
+            "Quiet beaches, dolphin trips"
+          ],
+          [
+            "Guhagar",
+            "Ratnagiri",
+            "Long, clean Blue Flag beach"
+          ],
+          [
+            "Ganpatipule",
+            "Ratnagiri",
+            "Temple beach, Aare-Ware coast road"
+          ],
+          [
+            "Tarkarli and Devbagh",
+            "Sindhudurg",
+            "Clear water, snorkelling, backwaters"
+          ],
+          [
+            "Malvan",
+            "Sindhudurg",
+            "Sindhudurg Fort, seafood"
+          ],
+          [
+            "Vengurla and Shiroda",
+            "Sindhudurg",
+            "Quiet beaches near Goa"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "mumbai-raigad",
+      "heading": "Mumbai and Raigad",
+      "items": [
+        {
+          "name": "Mumbai's city beaches",
+          "body": [
+            "Juhu and Girgaon Chowpatty are for evening walks, sunsets and street food, not swimming; the water is not clean and currents are strong."
+          ],
+          "facts": {
+            "Good to know": "Swimming not advised"
+          },
+          "links": [
+            {
+              "label": "Things to do in Mumbai",
+              "href": "/blog/things-to-do-in-mumbai"
+            }
+          ]
+        },
+        {
+          "name": "Alibaug, Nagaon and Kihim",
+          "body": [
+            "Across the harbour from Mumbai, reached by ferry from the Gateway of India area to Mandwa plus a short drive, or by road. Kolaba Fort sits offshore from Alibaug beach and can be reached on foot at low tide. Nagaon has water sports and Blue Flag certification."
+          ],
+          "facts": {
+            "From Mumbai": "About 2 to 3 hours by ferry and road",
+            "Best for": "Weekends, families"
+          },
+          "links": [
+            {
+              "label": "Alibaug travel guide",
+              "href": "/blog/alibaug-travel-guide"
+            },
+            {
+              "label": "Things to do in Alibaug",
+              "href": "/blog/things-to-do-in-alibaug"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/alibaug/kashid-beach-alibaug-2.webp",
+            "alt": "Kashid beach near Alibaug",
+            "caption": "Kashid"
+          }
+        },
+        {
+          "name": "Kashid",
+          "body": [
+            "About 30 km south of Alibaug, Kashid has pale sand, casuarina trees and water sports, and gets crowded on weekends."
+          ],
+          "facts": {
+            "Best for": "Water sports, day trips"
+          }
+        },
+        {
+          "name": "Murud and Janjira",
+          "body": [
+            "From Rajpuri jetty near Murud, sailboats cross to Murud-Janjira, an island fort that was never captured. Murud itself has a quiet beach."
+          ],
+          "facts": {
+            "Best for": "History and beach"
+          }
+        },
+        {
+          "name": "Diveagar, Shrivardhan and Harihareshwar",
+          "body": [
+            "Three quieter beaches further south in Raigad: Diveagar with casuarina groves, Shrivardhan with Blue Flag certification, and Harihareshwar, a temple town on a rocky headland."
+          ],
+          "facts": {
+            "Best for": "Quiet weekends"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ratnagiri",
+      "heading": "Ratnagiri",
+      "items": [
+        {
+          "name": "Velas",
+          "body": [
+            "A small village beach where a local conservation effort protects olive ridley turtle nests. Hatchlings are released on the beach mostly from about February to April, and the village holds a turtle festival with homestays. Sightings depend entirely on nature; there are no guaranteed dates."
+          ],
+          "facts": {
+            "Best for": "Nature lovers, families",
+            "Good to know": "Early mornings and evenings; follow volunteers' rules"
+          },
+          "links": [
+            {
+              "label": "Dolphin watching in India",
+              "href": "/blog/dolphin-watching-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Dapoli coast",
+          "body": [
+            "Ladghar (Blue Flag), Karde and Murud near Dapoli are quiet beaches, with dolphin-spotting boat trips from Karde and Ladghar in the calm season."
+          ],
+          "facts": {
+            "Best for": "Quiet stays, dolphin trips"
+          }
+        },
+        {
+          "name": "Guhagar",
+          "body": [
+            "A long, clean beach backed by a small temple town, with Blue Flag certification."
+          ],
+          "facts": {
+            "Best for": "Long walks, a calm stay"
+          }
+        },
+        {
+          "name": "Ganpatipule",
+          "body": [
+            "A temple town whose Swayambhu Ganapati temple stands right by the beach. The coast road north to Aare-Ware has some of the Konkan's best views."
+          ],
+          "facts": {
+            "Best for": "Families, pilgrims"
+          },
+          "links": [
+            {
+              "label": "Ganpatipule travel guide",
+              "href": "/blog/ganpatipule-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/ganpatipule/ganpatipule-beach.webp",
+            "alt": "Ganpatipule beach",
+            "caption": "Ganpatipule"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sindhudurg",
+      "heading": "Sindhudurg",
+      "items": [
+        {
+          "name": "Tarkarli and Devbagh",
+          "body": [
+            "Tarkarli has a long beach with clear water in season and backwaters along the Karli river behind it. Devbagh sits on the spit where river and sea meet. Snorkelling trips, scuba try dives and houseboat rides are offered, and the Maharashtra Tourism Development Corporation runs a scuba institute here."
+          ],
+          "facts": {
+            "Best for": "Snorkelling, try dives, backwaters",
+            "Season": "October to May"
+          },
+          "links": [
+            {
+              "label": "Tarkarli travel guide",
+              "href": "/blog/tarkarli-travel-guide"
+            },
+            {
+              "label": "Scuba diving in India",
+              "href": "/blog/scuba-diving-in-india"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/tarkarli/tarkarli-beach-2.webp",
+            "alt": "Tarkarli beach, Sindhudurg",
+            "caption": "Tarkarli"
+          }
+        },
+        {
+          "name": "Malvan",
+          "body": [
+            "A fishing town known for Malvani seafood, and the jetty for boats to Sindhudurg Fort, built by Shivaji in the 17th century on an island just offshore."
+          ],
+          "facts": {
+            "Best for": "Heritage, food"
+          },
+          "image": {
+            "src": "/images/blogs/maharashtra/maharashtra/sindhudurg-fort-island-malvan-coast.webp",
+            "alt": "Sindhudurg Fort off the Malvan coast",
+            "caption": "Sindhudurg Fort"
+          }
+        },
+        {
+          "name": "Vengurla and Shiroda",
+          "body": [
+            "Quiet beaches close to the Goa border, good for combining with north Goa."
+          ],
+          "facts": {
+            "Best for": "Quiet stays"
+          }
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "heading": "Suggested itinerary",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Mumbai to Alibaug by ferry and road; Alibaug and Kolaba Fort at low tide"
+          ],
+          [
+            "2",
+            "Kashid and Murud-Janjira sea fort"
+          ],
+          [
+            "3",
+            "Diveagar and Shrivardhan"
+          ],
+          [
+            "4",
+            "Drive to Guhagar or Ganpatipule"
+          ],
+          [
+            "5",
+            "Aare-Ware coast road; drive south to Tarkarli"
+          ],
+          [
+            "6",
+            "Snorkelling or a try dive; Sindhudurg Fort from Malvan"
+          ],
+          [
+            "7",
+            "Depart via Kudal or Goa"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "who-for",
+      "heading": "Who is it best for?",
+      "items": [
+        {
+          "name": "Families",
+          "body": [
+            "Kashid, Nagaon, Ganpatipule and Tarkarli, with water sports and simple resorts."
+          ]
+        },
+        {
+          "name": "Couples",
+          "body": [
+            "Guhagar, Diveagar and Devbagh for quiet."
+          ]
+        },
+        {
+          "name": "Nature lovers",
+          "body": [
+            "Velas for turtles and Dapoli for dolphin trips."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "table": {
+        "columns": [
+          "Months",
+          "Conditions"
+        ],
+        "rows": [
+          [
+            "October to February",
+            "Best: calm sea, pleasant weather; water sports and boats run"
+          ],
+          [
+            "March to May",
+            "Hot; still fine for early mornings and evenings; turtle season at Velas"
+          ],
+          [
+            "June to September",
+            "Monsoon: rough sea, swimming unsafe, boats stop; the Konkan is green and waterfalls flow"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "getting-there",
+      "heading": "Getting there",
+      "list": [
+        "Ferries from the Gateway of India area to Mandwa (with onward transport to Alibaug) are the quickest route to Alibaug; they do not run in the monsoon.",
+        "The Konkan Railway serves Ratnagiri, Kudal and Sindhudurg for the southern beaches.",
+        "The Mumbai to Goa highway (NH66) runs inland; coastal roads and river crossings reach the beaches.",
+        "Sindhudurg airport near Chipi and Goa's airports serve Tarkarli and Malvan."
+      ]
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Many Konkan beaches have strong currents and steep shelves; swim only where locals and lifeguards say it is safe.",
+    "Walking to Kolaba Fort at low tide is only safe with enough time before the tide returns; check tide times.",
+    "Do not swim in the monsoon; drownings happen every year.",
+    "At Velas, follow volunteers' rules: no torches, flash or crowding near hatchlings."
+  ],
+  "packing": [
+    "Swimwear and sunscreen",
+    "A light jacket for ferry rides",
+    "Cash for village homestays",
+    "Water shoes for rocky beaches"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best beach in Maharashtra?",
+      "a": "Tarkarli in Sindhudurg for clear water and snorkelling; Kashid and Alibaug for weekends from Mumbai; Guhagar and Ganpatipule for quieter stays."
+    },
+    {
+      "q": "Which Maharashtra beaches have Blue Flag certification?",
+      "a": "Shrivardhan, Nagaon, Parnaka, Guhagar and Ladghar, certified in 2025."
+    },
+    {
+      "q": "When can I see turtles at Velas?",
+      "a": "Hatchlings are released mostly from about February to April; timings depend on nature."
+    },
+    {
+      "q": "Can I swim at Juhu or Chowpatty?",
+      "a": "It is not advisable; the water is polluted and currents are strong."
+    },
+    {
+      "q": "How do I reach Alibaug from Mumbai?",
+      "a": "By ferry from the Gateway of India area to Mandwa and then road, or by road via the Mumbai to Goa highway."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Maharashtra travel guide",
+      "href": "/blog/maharashtra-travel-guide"
+    },
+    {
+      "label": "Things to do in Alibaug",
+      "href": "/blog/things-to-do-in-alibaug"
+    },
+    {
+      "label": "Tarkarli travel guide",
+      "href": "/blog/tarkarli-travel-guide"
+    },
+    {
+      "label": "Maharashtra tour packages",
+      "href": "/packages/maharashtra"
+    },
+    {
+      "label": "Weekend getaways",
+      "href": "/packages/weekend-getaways"
+    }
+  ],
+  "related": [
+    {
+      "name": "Beach trips in India",
+      "href": "/blog/beach-trips-in-india",
+      "note": "beach weekends from Mumbai and Pune"
+    },
+    {
+      "name": "Best beaches in Goa",
+      "href": "/blog/best-beaches-in-goa",
+      "note": "across the border"
+    },
+    {
+      "name": "Weekend adventure trips from Mumbai",
+      "href": "/blog/weekend-adventure-trips-from-mumbai",
+      "note": "hills and rivers nearby"
+    }
+  ],
+  "places": [
+    "Juhu",
+    "Girgaon Chowpatty",
+    "Parnaka",
+    "Alibaug",
+    "Nagaon",
+    "Kashid",
+    "Murud-Janjira",
+    "Diveagar",
+    "Shrivardhan",
+    "Harihareshwar",
+    "Velas",
+    "Ladghar",
+    "Guhagar",
+    "Ganpatipule",
+    "Tarkarli",
+    "Devbagh",
+    "Malvan",
+    "Vengurla"
+  ],
+  "styles": [
+    "weekend-getaways",
+    "family-holidays"
+  ],
+  "planDestination": "Konkan coast",
+  "updated": "2026-09-25"
+}

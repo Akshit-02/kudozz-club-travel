@@ -1,0 +1,395 @@
+{
+  "slug": "winter-treks-in-india",
+  "kind": "activity",
+  "short": "Winter treks in India",
+  "title": "Winter Treks in India: Snow Treks from December to March",
+  "seoTitle": "Winter Treks in India: Best Snow Treks & Gear | Kudozz Club",
+  "metaDescription": "The best winter treks in India: Kedarkantha, Brahmatal, Kuari Pass, Dayara Bugyal and Chandrashila, with snow conditions, cold-weather gear and winter safety.",
+  "description": "A guide to winter treks in India from December to March: Kedarkantha, Brahmatal, Kuari Pass, Dayara Bugyal, Chopta and Chandrashila, Sandakphu and the Chadar trek, with what snow trekking involves, gear for sub-zero nights and winter safety.",
+  "dek": "Snow treks are the easiest way to see the Himalaya under snow without climbing gear. Here are the best winter treks in India and how to stay warm and safe on them.",
+  "primaryKeyword": "winter treks in India",
+  "secondaryKeywords": [
+    "snow treks in India",
+    "December treks",
+    "January treks in India",
+    "Kedarkantha trek",
+    "Chadar trek"
+  ],
+  "searchIntent": "Informational/seasonal",
+  "activities": [
+    "trekking",
+    "camping",
+    "snow"
+  ],
+  "terrain": [
+    "snow",
+    "mountains",
+    "forest"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "Himachal Pradesh",
+    "West Bengal",
+    "Ladakh"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "travellers": [
+    "beginners",
+    "friends",
+    "groups",
+    "solo"
+  ],
+  "tags": [
+    "Winter Treks",
+    "Snow",
+    "Kedarkantha",
+    "Uttarakhand"
+  ],
+  "hero": {
+    "src": "/images/adventure/kedarkantha-winter-trek-snow.webp",
+    "alt": "Frozen Juda ka Talab lake in snow on the Kedarkantha trek",
+    "caption": "Juda ka Talab, Kedarkantha trek"
+  },
+  "parent": {
+    "label": "Trekking in India",
+    "href": "/blog/trekking-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Winter trekking in India"
+  },
+  "intro": [
+    "From December to March, the high passes of the Himalaya are closed by snow, but a group of lower treks, mostly in Uttarakhand, become snow treks. Summits between about 3,300 and 4,000 metres, forests of oak and pine, and frozen lakes make them the most popular treks in India in winter.",
+    "Winter trekking is not much harder in terms of fitness, but it is colder and slower: nights fall to well below freezing, days are short and snow hides the trail. With the right gear and an experienced team, these treks suit fit beginners."
+  ],
+  "quickAnswer": "The best winter treks in India are Kedarkantha, Brahmatal, Kuari Pass and Dayara Bugyal in Uttarakhand, the Chopta to Chandrashila trail, and Sandakphu in West Bengal. They run from about December to March, with summits between roughly 3,300 and 4,000 metres. Expect nights well below freezing and carry proper layers, microspikes and gaiters. The Chadar trek in Ladakh depends on the river freezing.",
+  "takeaways": [
+    "Kedarkantha is the most popular first snow trek; Brahmatal and Kuari Pass are close alternatives.",
+    "December to March is the season; January and February have the most snow and coldest nights.",
+    "Night temperatures often drop well below zero at camps; a warm sleeping bag and down jacket are essential.",
+    "Microspikes and gaiters make walking on packed snow much safer.",
+    "The Chadar trek on the frozen Zanskar river was suspended in 2026 because the river did not freeze properly."
+  ],
+  "sections": [
+    {
+      "id": "treks",
+      "heading": "Best winter treks",
+      "items": [
+        {
+          "name": "Kedarkantha, Uttarakhand",
+          "body": [
+            "From Sankri in Uttarkashi district, trails climb through pine forest to snowy clearings such as Juda ka Talab and a summit at about 3,800 metres, with a view across the Garhwal peaks. It is well organised and suits fit beginners."
+          ],
+          "facts": {
+            "Difficulty": "Easy to moderate",
+            "Duration": "5 to 6 days",
+            "Summit": "About 3,800 m",
+            "Best time": "December to April"
+          },
+          "links": [
+            {
+              "label": "Beginner treks in India",
+              "href": "/blog/beginner-treks-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Brahmatal, Uttarakhand",
+          "body": [
+            "From Lohajung in Chamoli district, the trek crosses ridges with views of Trishul and Nanda Ghunti and passes frozen Bekaltal and Brahmatal lakes."
+          ],
+          "facts": {
+            "Difficulty": "Moderate",
+            "Duration": "6 days",
+            "Best time": "December to March"
+          }
+        },
+        {
+          "name": "Kuari Pass, Uttarakhand",
+          "body": [
+            "A ridge walk near Joshimath and Auli with some of the best views of Nanda Devi, Dronagiri and other peaks in Garhwal. In winter, groups often turn around below the pass if snow is deep."
+          ],
+          "facts": {
+            "Difficulty": "Easy to moderate",
+            "Duration": "5 to 6 days",
+            "Best time": "December to March; also spring"
+          },
+          "links": [
+            {
+              "label": "Auli travel guide",
+              "href": "/blog/auli-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Dayara Bugyal, Uttarakhand",
+          "body": [
+            "Wide meadows turn into snowfields in winter, good for a gentle snow trek with open views of Bandarpoonch."
+          ],
+          "facts": {
+            "Difficulty": "Easy to moderate",
+            "Duration": "4 to 5 days",
+            "Best time": "December to March for snow"
+          },
+          "links": [
+            {
+              "label": "Dayara Bugyal guide",
+              "href": "/blog/dayara-bugyal-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/dayara-bugyal/dayara-bugyal-view.webp",
+            "alt": "Meadows and forest at Dayara Bugyal",
+            "caption": "Dayara Bugyal"
+          }
+        },
+        {
+          "name": "Chopta, Tungnath and Chandrashila, Uttarakhand",
+          "body": [
+            "In winter, the paved path to Tungnath is often under snow. The temple closes for winter and the deity moves to Makkumath, but the walk to the temple and Chandrashila summit remains possible in good conditions."
+          ],
+          "facts": {
+            "Difficulty": "Easy to moderate",
+            "Duration": "2 to 3 days",
+            "Best time": "December to March, weather permitting"
+          },
+          "links": [
+            {
+              "label": "Chopta travel guide",
+              "href": "/blog/chopta-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Sandakphu, West Bengal",
+          "body": [
+            "The Singalila ridge can get snow in winter, and the cold, clear air brings the best views of Kanchenjunga and Everest. Very cold at night."
+          ],
+          "facts": {
+            "Difficulty": "Moderate",
+            "Duration": "5 to 7 days",
+            "Best time": "December to February for snow, October to November for clear views"
+          },
+          "links": [
+            {
+              "label": "Sandakphu travel guide",
+              "href": "/blog/sandakphu-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Chadar trek, Ladakh",
+          "body": [
+            "The walk on the frozen Zanskar river is run by registered operators with a mandatory medical check in Leh, insurance and permits. It depends on the river freezing solidly, and it was suspended in January 2026 when it did not. Treat it as a trek for experienced winter trekkers and have a backup plan."
+          ],
+          "facts": {
+            "Difficulty": "Difficult (cold, not altitude)",
+            "Duration": "About 8 days including acclimatisation",
+            "Best time": "January to February, conditions permitting"
+          },
+          "links": [
+            {
+              "label": "Zanskar Valley guide",
+              "href": "/blog/zanskar-valley-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/ladakh/zanskar-valley/chadar-trek-trekkers-frozen-river-ice.webp",
+            "alt": "Trekkers walking on the frozen Zanskar river on the Chadar trek",
+            "caption": "Chadar trek"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Winter treks compared",
+      "table": {
+        "columns": [
+          "Trek",
+          "Highest point",
+          "Days",
+          "Difficulty"
+        ],
+        "rows": [
+          [
+            "Chopta to Chandrashila",
+            "About 4,000 m",
+            "2 to 3",
+            "Easy to moderate"
+          ],
+          [
+            "Dayara Bugyal",
+            "About 3,700 m",
+            "4 to 5",
+            "Easy to moderate"
+          ],
+          [
+            "Kedarkantha",
+            "About 3,800 m",
+            "5 to 6",
+            "Easy to moderate"
+          ],
+          [
+            "Kuari Pass",
+            "About 3,800 m",
+            "5 to 6",
+            "Easy to moderate"
+          ],
+          [
+            "Brahmatal",
+            "About 3,700 m",
+            "6",
+            "Moderate"
+          ],
+          [
+            "Sandakphu",
+            "About 3,636 m",
+            "5 to 7",
+            "Moderate"
+          ],
+          [
+            "Chadar",
+            "About 3,400 m",
+            "About 8",
+            "Difficult"
+          ]
+        ],
+        "caption": "Heights are approximate."
+      }
+    },
+    {
+      "id": "conditions",
+      "heading": "What snow trekking is like",
+      "paras": [
+        "Snow changes the trek. Fresh snow is soft and tiring; morning snow is hard and slippery; afternoon snow can be slushy. Trails that are obvious in summer disappear, so guides break the trail and fix routes. Days are short, so groups start early and reach camp by mid-afternoon.",
+        "At camp, temperatures often fall to between about minus 5 and minus 15 degrees Celsius at night on the higher treks, with wind making it feel colder. Water freezes in bottles left outside. Good teams provide warm tents, sleeping bags rated for sub-zero temperatures and hot food."
+      ]
+    },
+    {
+      "id": "gear",
+      "heading": "Winter gear checklist",
+      "list": [
+        "A down jacket (or a thick synthetic one) and two fleece or wool mid-layers",
+        "Thermal base layers, top and bottom, and a spare set to sleep in",
+        "Waterproof trekking shoes with good grip, and gaiters",
+        "Microspikes, often provided by the trek operator",
+        "Waterproof gloves plus thin inner gloves, a warm cap and a neck warmer",
+        "Woollen socks (three or four pairs)",
+        "Sunglasses with UV protection; snow blindness is a real risk",
+        "Insulated or wide-mouth bottles; keep them in the tent at night"
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Winter trekking tips",
+      "list": [
+        "Book early for December and January weekends and holidays, which fill up fast.",
+        "Build in a buffer day: snowfall can close roads to Sankri, Lohajung or Chopta.",
+        "Eat and drink more than usual; cold burns energy and dehydrates.",
+        "Change into dry clothes as soon as you reach camp.",
+        "Keep phone batteries and power banks warm inside your sleeping bag."
+      ]
+    }
+  ],
+  "safety": [
+    "Above about 2,500 metres, climb gradually and watch for altitude sickness (headache, nausea, dizziness, breathlessness at rest). If symptoms get worse, descend.",
+    "Frostbite risk rises with wet gloves and socks; keep spares dry in a plastic bag.",
+    "Watch for hypothermia signs (shivering, confusion, clumsiness) in yourself and others.",
+    "Follow the guide on steep snow slopes, and do not wander off the broken trail.",
+    "Turn back if heavy snowfall or whiteout sets in; summits can wait.",
+    "Check road status before driving to trailheads after snowfall."
+  ],
+  "packing": [
+    "Down jacket and thermal layers",
+    "Waterproof shoes, gaiters and microspikes",
+    "Waterproof and inner gloves, cap, neck warmer",
+    "UV sunglasses and high-SPF sunscreen",
+    "Insulated water bottles and a thermos",
+    "Headlamp with spare batteries"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best winter trek in India?",
+      "a": "Kedarkantha is the most popular. Brahmatal, Kuari Pass and Dayara Bugyal are good alternatives."
+    },
+    {
+      "q": "When is the best time for snow treks in India?",
+      "a": "January and February usually have the most snow; December and March are often more pleasant, with less snow."
+    },
+    {
+      "q": "Are winter treks safe for beginners?",
+      "a": "Easy winter treks such as Kedarkantha, Dayara Bugyal and Chandrashila suit fit beginners with an experienced team and proper gear."
+    },
+    {
+      "q": "How cold does it get on Kedarkantha?",
+      "a": "Night temperatures at the higher camps often fall well below zero, commonly between about minus 5 and minus 10 degrees Celsius, and lower in cold spells."
+    },
+    {
+      "q": "Is the Chadar trek open?",
+      "a": "It depends on the Zanskar river freezing. The trek was suspended in January 2026 because the ice did not form properly. Check with the Leh authorities and operators each winter."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Uttarakhand travel guide",
+      "href": "/blog/uttarakhand-travel-guide"
+    },
+    {
+      "label": "Things to do in Chopta",
+      "href": "/blog/things-to-do-in-chopta"
+    },
+    {
+      "label": "Chopta visit plan",
+      "href": "/blog/chopta-travel-guide#visit-plan"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Trekking in India",
+      "href": "/blog/trekking-in-india",
+      "note": "treks in every season"
+    },
+    {
+      "name": "Skiing in India",
+      "href": "/blog/skiing-in-india",
+      "note": "another way to enjoy the snow"
+    },
+    {
+      "name": "Adventure travel packing list",
+      "href": "/blog/adventure-travel-packing-list-india",
+      "note": "full gear list"
+    },
+    {
+      "name": "Snow leopard tours",
+      "href": "/blog/snow-leopard-tours-in-india",
+      "note": "winter wildlife in Ladakh"
+    }
+  ],
+  "places": [
+    "Kedarkantha",
+    "Sankri",
+    "Brahmatal",
+    "Kuari Pass",
+    "Dayara Bugyal",
+    "Chopta",
+    "Chandrashila",
+    "Sandakphu",
+    "Zanskar river"
+  ],
+  "styles": [
+    "adventure-tours"
+  ],
+  "planDestination": "Uttarakhand",
+  "updated": "2026-09-25"
+}

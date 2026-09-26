@@ -1,0 +1,299 @@
+{
+  "slug": "taj-mahal",
+  "kind": "destination",
+  "short": "Taj Mahal",
+  "title": "Taj Mahal: History, Visiting Guide and Tips",
+  "seoTitle": "Taj Mahal: History, Visiting Guide & Tips | Kudozz Club",
+  "metaDescription": "Plan a visit to the Taj Mahal: its history, what to see, the Friday closure, full-moon night viewing, gates and tickets, and how to reach Agra.",
+  "description": "A visitor's guide to the Taj Mahal in Agra: its history as Shah Jahan's tomb for Mumtaz Mahal, the complex from the great gate to the riverside terrace, the Friday closure, full-moon night viewing, gates, tickets and rules, the best times of day and year, how to reach Agra from Delhi, and nearby Mughal sites.",
+  "dek": "The Taj Mahal is India's best-known monument, a white marble tomb on the Yamuna built for Mumtaz Mahal. A little planning makes the visit far calmer.",
+  "primaryKeyword": "Taj Mahal",
+  "secondaryKeywords": [
+    "Taj Mahal timings",
+    "Taj Mahal night viewing",
+    "Taj Mahal history"
+  ],
+  "searchIntent": "Monument visit planning",
+  "activities": [
+    "UNESCO sites",
+    "Mughal monuments",
+    "photography"
+  ],
+  "terrain": [
+    "heritage town",
+    "river"
+  ],
+  "regions": [
+    "Uttar Pradesh",
+    "North India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Taj Mahal",
+    "Agra",
+    "Mughal",
+    "UNESCO"
+  ],
+  "hero": {
+    "src": "/images/heritage/taj-mahal-agra.webp",
+    "alt": "The Taj Mahal seen from the gardens along the central water channel"
+  },
+  "parent": {
+    "label": "UNESCO World Heritage Sites in India",
+    "href": "/blog/unesco-world-heritage-sites-in-india"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Taj Mahal",
+    "containedIn": "Uttar Pradesh"
+  },
+  "intro": [
+    "The Taj Mahal was built by the Mughal emperor Shah Jahan as a tomb for his wife Mumtaz Mahal, who died in 1631. The main mausoleum was completed around 1648, and the surrounding complex some years later. It stands on the south bank of the Yamuna in Agra, and was inscribed as a UNESCO World Heritage Site in 1983.",
+    "The complex is more than the famous dome: a monumental gateway, a formal charbagh garden, a mosque and its mirror-image guest hall, and the riverside terrace. Shah Jahan himself was later buried beside Mumtaz Mahal in the crypt."
+  ],
+  "quickAnswer": "The Taj Mahal in Agra is open from sunrise to sunset every day except Friday, when it is closed to visitors. Night viewing is offered on the full-moon night and two nights on either side, except Fridays and during Ramzan, with limited tickets. Tickets are sold by the ASI, including online. Agra is about 230 km from Delhi, around three and a half hours by the Yamuna Expressway or under two hours by fast train.",
+  "takeaways": [
+    "Closed on Fridays; open sunrise to sunset on other days.",
+    "Night viewing runs on five nights around each full moon, except Fridays and Ramzan, in small batches; tickets are sold a day ahead and in limited numbers.",
+    "Buy tickets only through official ASI channels; entry to the main tomb has a separate ticket component.",
+    "Petrol and diesel vehicles cannot approach the monument; battery vehicles run from the parking areas.",
+    "Sunrise, or the late afternoon, is the calmest and best-lit time to visit."
+  ],
+  "sections": [
+    {
+      "id": "history",
+      "heading": "History",
+      "paras": [
+        "Mumtaz Mahal died in 1631 during the birth of her fourteenth child, and Shah Jahan began the tomb soon afterwards. Thousands of artisans worked on it, using white marble from Makrana in Rajasthan and inlay of semi-precious stones (pietra dura). The architect is generally identified as Ustad Ahmad Lahori.",
+        "Shah Jahan was deposed by his son Aurangzeb in 1658 and spent his last years in Agra Fort, from where the Taj is visible. On his death in 1666 he was buried beside Mumtaz Mahal."
+      ]
+    },
+    {
+      "id": "what-to-see",
+      "heading": "What to see",
+      "items": [
+        {
+          "name": "The great gate (Darwaza-i-Rauza)",
+          "body": [
+            "A red sandstone gateway inscribed with Quranic verses, framing the first view of the tomb."
+          ]
+        },
+        {
+          "name": "The garden",
+          "body": [
+            "A charbagh divided by water channels, designed as an image of paradise."
+          ]
+        },
+        {
+          "name": "The mausoleum",
+          "body": [
+            "The white marble tomb on its raised platform, with four minarets, inlaid flowers and calligraphy. The cenotaphs are replicas; the actual graves are in the crypt below."
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp",
+            "alt": "The Taj Mahal reflected in the Yamuna, Agra",
+            "caption": "The Taj Mahal from the river"
+          }
+        },
+        {
+          "name": "The mosque and the jawab",
+          "body": [
+            "Red sandstone buildings on either side of the tomb; the mosque is used for Friday prayers."
+          ]
+        },
+        {
+          "name": "The riverside terrace",
+          "body": [
+            "Views across the Yamuna to Mehtab Bagh, the garden on the opposite bank."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visiting",
+      "heading": "Visiting practicalities",
+      "list": [
+        "Open sunrise to sunset; closed on Fridays.",
+        "Enter from the East, West or South gate; the East and West gates have ticket counters and parking areas with battery vehicles.",
+        "Tickets are sold by the ASI at counters and online; entry to the main mausoleum is an add-on to the basic ticket.",
+        "Food, tobacco, tripods and many other items are not allowed; carry only a small bag.",
+        "Shoe covers are provided for the marble platform; footwear may also be removed.",
+        "Night viewing is booked separately, for a limited number of visitors per batch."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "Best time to visit",
+      "table": {
+        "columns": [
+          "When",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Sunrise",
+            "Soft light and the smallest crowds"
+          ],
+          [
+            "Late afternoon",
+            "Warm light on the marble"
+          ],
+          [
+            "October to March",
+            "Cool weather; winter mornings can be foggy"
+          ],
+          [
+            "April to June",
+            "Very hot; visit early"
+          ],
+          [
+            "Full moon",
+            "Night viewing, if you can get tickets"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "reach",
+      "heading": "How to reach",
+      "list": [
+        "From Delhi: about 230 km by the Yamuna Expressway, around three and a half hours.",
+        "By train: fast trains such as the Gatimaan Express and Vande Bharat services reach Agra Cantonment in under two hours from Delhi; check current schedules.",
+        "Agra has an airport with limited flights; most visitors come by road or rail.",
+        "From Jaipur: about four hours by road on the Golden Triangle route."
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Nearby Mughal sites",
+      "items": [
+        {
+          "name": "Agra Fort",
+          "body": [
+            "The Mughal fort and palace on the Yamuna, also a UNESCO site."
+          ],
+          "links": [
+            {
+              "label": "Agra guide",
+              "href": "/blog/agra-travel-guide"
+            },
+            {
+              "label": "Things to do in Agra",
+              "href": "/blog/things-to-do-in-agra"
+            }
+          ]
+        },
+        {
+          "name": "Itimad-ud-Daulah, Mehtab Bagh and Fatehpur Sikri",
+          "body": [
+            "The 'Baby Taj', the moonlight garden opposite the Taj, and Akbar's city about 40 km away."
+          ],
+          "links": [
+            {
+              "label": "Fatehpur Sikri guide",
+              "href": "/blog/fatehpur-sikri-travel-guide"
+            },
+            {
+              "label": "Mughal monuments in India",
+              "href": "/blog/mughal-monuments-in-india"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and ticket rules are set by the Archaeological Survey of India (ASI) or the site authority and change from time to time; check the official website before you go, and buy tickets only on official portals.",
+    "Do not climb on or touch carvings, and follow the site's rules on photography, drones and tripods.",
+    "Ignore touts offering 'skip the line' entry; use official counters or the ASI website.",
+    "Carry water in summer; the white marble reflects heat."
+  ],
+  "packing": [
+    "Small bag only",
+    "Hat and sunscreen",
+    "A warm layer for winter mornings",
+    "Photo ID"
+  ],
+  "faqs": [
+    {
+      "q": "Is the Taj Mahal open on Friday?",
+      "a": "No. It is closed to visitors on Fridays."
+    },
+    {
+      "q": "Can I see the Taj Mahal at night?",
+      "a": "Yes, on the full-moon night and two nights either side, except Fridays and Ramzan. Tickets are limited and are sold by the ASI a day in advance; check the official Taj Mahal website for the current process."
+    },
+    {
+      "q": "How long do I need at the Taj Mahal?",
+      "a": "Two to three hours is enough for most visitors; longer if you are photographing."
+    },
+    {
+      "q": "Who built the Taj Mahal?",
+      "a": "The Mughal emperor Shah Jahan, as a tomb for his wife Mumtaz Mahal; the architect is generally identified as Ustad Ahmad Lahori."
+    },
+    {
+      "q": "When is the best time to visit the Taj Mahal?",
+      "a": "At sunrise, between October and March."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Agra guide",
+      "href": "/blog/agra-travel-guide"
+    },
+    {
+      "label": "Things to do in Agra",
+      "href": "/blog/things-to-do-in-agra"
+    },
+    {
+      "label": "Golden Triangle itinerary",
+      "href": "/blog/golden-triangle-itinerary"
+    },
+    {
+      "label": "Golden Triangle packages",
+      "href": "/packages/golden-triangle"
+    },
+    {
+      "label": "Uttar Pradesh tour packages",
+      "href": "/packages/uttar-pradesh"
+    }
+  ],
+  "related": [
+    {
+      "name": "Mughal monuments in India",
+      "href": "/blog/mughal-monuments-in-india",
+      "note": "the wider Mughal trail"
+    },
+    {
+      "name": "UNESCO sites in India",
+      "href": "/blog/unesco-world-heritage-sites-in-india",
+      "note": "the full list"
+    },
+    {
+      "name": "Heritage tourism in Uttar Pradesh",
+      "href": "/blog/heritage-tourism-in-uttar-pradesh",
+      "note": "Agra, Lucknow and more"
+    }
+  ],
+  "places": [
+    "Taj Mahal",
+    "Agra Fort",
+    "Mehtab Bagh",
+    "Itimad-ud-Daulah",
+    "Fatehpur Sikri"
+  ],
+  "styles": [
+    "heritage-tours",
+    "honeymoon"
+  ],
+  "planDestination": "Agra",
+  "updated": "2026-09-26"
+}

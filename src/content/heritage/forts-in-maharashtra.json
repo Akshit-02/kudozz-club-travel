@@ -1,0 +1,402 @@
+{
+  "slug": "forts-in-maharashtra",
+  "kind": "pillar",
+  "short": "Forts in Maharashtra",
+  "title": "Forts in Maharashtra: The Maratha Military Landscapes and More",
+  "seoTitle": "Forts in Maharashtra: Maratha Military Landscapes & More | Kudozz Club",
+  "metaDescription": "Forts in Maharashtra: the twelve UNESCO Maratha forts (Raigad, Shivneri, Pratapgad, Sindhudurg and more), plus Sinhagad, Daulatabad and Janjira, and fort treks.",
+  "description": "A guide to the forts of Maharashtra: the Maratha Military Landscapes of India inscribed by UNESCO in 2025 (Salher, Shivneri, Lohagad, Khanderi, Raigad, Rajgad, Pratapgad, Suvarnadurg, Panhala, Vijaydurg, Sindhudurg, and Gingee in Tamil Nadu), other famous forts such as Sinhagad, Daulatabad and Murud-Janjira, how to visit, fort treks, seasons and safety.",
+  "dek": "Maharashtra's Sahyadri hills and Konkan coast are lined with forts, and twelve of the Maratha forts became a UNESCO World Heritage Site in 2025.",
+  "primaryKeyword": "forts in Maharashtra",
+  "secondaryKeywords": [
+    "Maratha Military Landscapes",
+    "Shivaji forts",
+    "Raigad fort"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "forts",
+    "trekking",
+    "UNESCO sites",
+    "sea forts"
+  ],
+  "terrain": [
+    "hills",
+    "coast"
+  ],
+  "regions": [
+    "Maharashtra",
+    "Tamil Nadu",
+    "West India"
+  ],
+  "seasons": [
+    "monsoon",
+    "winter",
+    "autumn"
+  ],
+  "travellers": [
+    "groups",
+    "couples",
+    "families"
+  ],
+  "tags": [
+    "Maharashtra",
+    "Forts",
+    "Maratha",
+    "UNESCO"
+  ],
+  "hero": {
+    "src": "/images/heritage/forts-maharashtra-raigad.webp",
+    "alt": "Ruined towers at Raigad Fort, Maharashtra"
+  },
+  "parent": {
+    "label": "Famous Forts in India",
+    "href": "/blog/famous-forts-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Forts of Maharashtra",
+    "containedIn": "Maharashtra"
+  },
+  "intro": [
+    "The Western Ghats (Sahyadri) of Maharashtra are dotted with hundreds of forts, many built or strengthened by the Marathas under Chhatrapati Shivaji Maharaj and his successors in the 17th and 18th centuries. Hill forts guarded passes and trade routes; sea forts protected the Konkan coast.",
+    "In July 2025 UNESCO inscribed the Maratha Military Landscapes of India, twelve forts that together show this defensive system: eleven in Maharashtra and Gingee in Tamil Nadu. Many other forts, such as Sinhagad, Daulatabad and Murud-Janjira, are just as popular with visitors."
+  ],
+  "quickAnswer": "The Maratha Military Landscapes of India, inscribed by UNESCO in 2025, are twelve forts: Salher, Shivneri, Lohagad, Khanderi, Raigad, Rajgad, Pratapgad, Suvarnadurg, Panhala, Vijaydurg and Sindhudurg in Maharashtra, and Gingee in Tamil Nadu. Raigad (with a ropeway), Shivneri, Sinhagad and Lohagad are easy to reach from Pune or Mumbai. Many are visited as treks, best from July to February.",
+  "takeaways": [
+    "Twelve Maratha forts were inscribed together by UNESCO in July 2025.",
+    "Raigad was Shivaji Maharaj's capital, where he was crowned in 1674; a ropeway runs to the top.",
+    "Shivneri, near Junnar, is Shivaji Maharaj's birthplace.",
+    "Sindhudurg and other sea forts are reached by boat in fair weather.",
+    "Monsoon treks are popular but slippery; go with experienced groups."
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "heading": "The twelve UNESCO forts",
+      "table": {
+        "columns": [
+          "Fort",
+          "Type",
+          "Near"
+        ],
+        "rows": [
+          [
+            "Salher",
+            "Hill fort",
+            "Nashik district"
+          ],
+          [
+            "Shivneri",
+            "Hill fort",
+            "Junnar, Pune district"
+          ],
+          [
+            "Lohagad",
+            "Hill fort",
+            "Lonavala"
+          ],
+          [
+            "Khanderi",
+            "Island fort",
+            "Off Alibaug"
+          ],
+          [
+            "Raigad",
+            "Hill fort",
+            "Mahad, Raigad district"
+          ],
+          [
+            "Rajgad",
+            "Hill fort",
+            "Pune district"
+          ],
+          [
+            "Pratapgad",
+            "Hill fort",
+            "Mahabaleshwar"
+          ],
+          [
+            "Suvarnadurg",
+            "Island fort",
+            "Harnai, Dapoli"
+          ],
+          [
+            "Panhala",
+            "Hill fort",
+            "Kolhapur"
+          ],
+          [
+            "Vijaydurg",
+            "Coastal fort",
+            "Sindhudurg district"
+          ],
+          [
+            "Sindhudurg",
+            "Island fort",
+            "Malvan"
+          ],
+          [
+            "Gingee",
+            "Hill forts",
+            "Villupuram district, Tamil Nadu"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "highlights",
+      "heading": "Highlights",
+      "items": [
+        {
+          "name": "Raigad",
+          "body": [
+            "Shivaji Maharaj's capital, where he was crowned in 1674; the ruins of the royal court, market street and his samadhi. A ropeway reaches the top."
+          ],
+          "facts": {
+            "Near": "Mahad; about 130 km from Pune"
+          }
+        },
+        {
+          "name": "Shivneri",
+          "body": [
+            "The fort where Shivaji Maharaj was born in 1630, above Junnar, with a shrine to the goddess Shivai."
+          ]
+        },
+        {
+          "name": "Pratapgad",
+          "body": [
+            "Near Mahabaleshwar, where Shivaji Maharaj met and killed Afzal Khan in 1659."
+          ],
+          "links": [
+            {
+              "label": "Mahabaleshwar guide",
+              "href": "/blog/mahabaleshwar-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Sindhudurg",
+          "body": [
+            "An island fort off Malvan, built in the 1660s, reached by boat from the Malvan jetty."
+          ],
+          "links": [
+            {
+              "label": "Sindhudurg fort, Tarkarli",
+              "href": "/blog/tarkarli-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/maharashtra/sindhudurg-fort-island-malvan-coast.webp",
+            "alt": "Sindhudurg sea fort on its island off the Malvan coast",
+            "caption": "Sindhudurg Fort"
+          }
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "Other famous forts",
+      "list": [
+        "Sinhagad near Pune, known for the battle of 1670 and a popular short climb.",
+        "Daulatabad (Devagiri) near Chhatrapati Sambhajinagar, with its tall Chand Minar and defensive maze.",
+        "Murud-Janjira, the island fortress of the Siddis, reached by sailboat from Rajapuri.",
+        "Harishchandragad and Rajmachi, favourite trekking forts."
+      ],
+      "items": [
+        {
+          "name": "Daulatabad and Sinhagad",
+          "body": [
+            "Two easy-to-reach forts."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Aurangabad",
+              "href": "/blog/things-to-do-in-aurangabad"
+            },
+            {
+              "label": "Pune guide",
+              "href": "/blog/pune-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/maharashtra/daulatabad-fort-maharashtra.webp",
+            "alt": "Daulatabad Fort on its conical hill, Maharashtra",
+            "caption": "Daulatabad Fort"
+          }
+        }
+      ]
+    },
+    {
+      "id": "easy-forts",
+      "heading": "Easy forts from Pune and Mumbai",
+      "table": {
+        "columns": [
+          "Fort",
+          "From",
+          "Effort"
+        ],
+        "rows": [
+          [
+            "Sinhagad",
+            "Pune (about 35 km)",
+            "Road to near the top; short walk"
+          ],
+          [
+            "Lohagad",
+            "Lonavala",
+            "Steps; about an hour's climb"
+          ],
+          [
+            "Raigad",
+            "Pune or Mumbai",
+            "Ropeway or a long flight of steps"
+          ],
+          [
+            "Shivneri",
+            "Pune (about 95 km)",
+            "Steps with several gateways"
+          ],
+          [
+            "Pratapgad",
+            "Mahabaleshwar",
+            "Road to the base; short climb"
+          ]
+        ]
+      },
+      "after": [
+        "Longer treks such as Salher, Rajgad and Harishchandragad need a full day and some fitness."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "The Maratha defence system",
+      "paras": [
+        "The Maratha forts worked as a network. Hill forts on the Sahyadri watched over passes and trade routes, while coastal and island forts such as Sindhudurg, Vijaydurg, Suvarnadurg and Khanderi supported a navy that controlled much of the Konkan coast in the 17th and 18th centuries. Many forts predate the Marathas and were captured, rebuilt and extended, which is why you see layers of construction."
+      ]
+    },
+    {
+      "id": "sea-forts-visit",
+      "heading": "Visiting the sea forts",
+      "list": [
+        "Sindhudurg: boats from the Malvan jetty in fair weather; the fort has a small temple and freshwater wells.",
+        "Murud-Janjira: sailboats from Rajapuri jetty; not a UNESCO site but one of the best-preserved island forts.",
+        "Suvarnadurg: seen from Harnai beach; boat access depends on the tide and weather.",
+        "Khanderi: off Alibaug; access is limited, so check locally before planning."
+      ]
+    },
+    {
+      "id": "festivals",
+      "heading": "Fort festivals",
+      "paras": [
+        "Shivaji Jayanti (officially 19 February, with some groups following the Hindu calendar date) and the anniversary of the coronation at Raigad draw large crowds to the forts. These are moving to see, but trails and parking get very busy; go on another day if you want quiet."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "July to September: the Sahyadri are green and misty; trails are slippery and some are closed after heavy rain.",
+        "October to February: clear views and comfortable trekking.",
+        "March to May: hot; start climbs at dawn.",
+        "Sea forts: boats generally do not run in the monsoon."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and tickets are set by the ASI, state departments or trusts and change from time to time; check official sources before you go.",
+    "Trek with experienced groups in the monsoon and check trail advisories; several forts restrict access after heavy rain.",
+    "Carry water and start early.",
+    "Respect these as sites of historical and cultural importance."
+  ],
+  "packing": [
+    "Trekking shoes with grip",
+    "Rain jacket in the monsoon",
+    "Water and snacks",
+    "Torch for early starts"
+  ],
+  "faqs": [
+    {
+      "q": "Which forts are in the Maratha Military Landscapes?",
+      "a": "Salher, Shivneri, Lohagad, Khanderi, Raigad, Rajgad, Pratapgad, Suvarnadurg, Panhala, Vijaydurg, Sindhudurg and Gingee."
+    },
+    {
+      "q": "When were the Maratha forts inscribed by UNESCO?",
+      "a": "In July 2025, as India's 44th World Heritage Site."
+    },
+    {
+      "q": "Where was Shivaji Maharaj born?",
+      "a": "At Shivneri Fort, near Junnar, in 1630."
+    },
+    {
+      "q": "Is there a ropeway at Raigad?",
+      "a": "Yes, a ropeway runs to the top of Raigad."
+    },
+    {
+      "q": "When is the best time to visit Maharashtra's forts?",
+      "a": "October to February for clear weather; the monsoon is beautiful but slippery."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage tourism in Maharashtra",
+      "href": "/blog/heritage-tourism-in-maharashtra"
+    },
+    {
+      "label": "Monsoon treks in India",
+      "href": "/blog/monsoon-treks-in-india"
+    },
+    {
+      "label": "Weekend adventure trips from Mumbai",
+      "href": "/blog/weekend-adventure-trips-from-mumbai"
+    },
+    {
+      "label": "Maharashtra tour packages",
+      "href": "/packages/maharashtra"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Famous forts in India",
+      "href": "/blog/famous-forts-in-india",
+      "note": "across the country"
+    },
+    {
+      "name": "UNESCO sites in India",
+      "href": "/blog/unesco-world-heritage-sites-in-india",
+      "note": "the full list"
+    },
+    {
+      "name": "Ancient caves in India",
+      "href": "/blog/rock-cut-caves-in-india",
+      "note": "Maharashtra's caves"
+    }
+  ],
+  "places": [
+    "Raigad",
+    "Shivneri",
+    "Pratapgad",
+    "Rajgad",
+    "Lohagad",
+    "Salher",
+    "Panhala",
+    "Sindhudurg",
+    "Vijaydurg",
+    "Suvarnadurg",
+    "Khanderi",
+    "Gingee",
+    "Sinhagad",
+    "Daulatabad",
+    "Murud-Janjira"
+  ],
+  "styles": [
+    "heritage-tours",
+    "adventure-tours"
+  ],
+  "planDestination": "Maharashtra",
+  "updated": "2026-09-26"
+}

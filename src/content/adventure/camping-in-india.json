@@ -1,0 +1,430 @@
+{
+  "slug": "camping-in-india",
+  "kind": "activity",
+  "short": "Camping in India",
+  "title": "Camping in India: Best Places and How to Camp Well",
+  "seoTitle": "Camping in India: Best Places & How to Camp Well | Kudozz Club",
+  "metaDescription": "The best places for camping in India, from Rishikesh riverside camps and Jaisalmer desert camps to Pangong, Chandratal, Chopta and Pawna Lake, plus rules and tips.",
+  "description": "A guide to camping in India: riverside camps near Rishikesh, desert camps at Sam and Khuri, the Rann Utsav tent city, high-altitude camps at Pangong and Chandratal, meadow camps at Chopta and Sonamarg, lakeside camping at Pawna and Bhandardara, and the rules and etiquette to follow.",
+  "dek": "Camping in India ranges from comfortable tent resorts in the desert to wild camps on Himalayan treks. Here is where to go and how to camp responsibly.",
+  "primaryKeyword": "camping in India",
+  "secondaryKeywords": [
+    "best camping destinations in India",
+    "camping in Rishikesh",
+    "desert camping Jaisalmer",
+    "lakeside camping",
+    "Pawna Lake camping"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "camping",
+    "trekking",
+    "stargazing"
+  ],
+  "terrain": [
+    "river",
+    "desert",
+    "mountains",
+    "lakes",
+    "meadows"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "Rajasthan",
+    "Gujarat",
+    "Ladakh",
+    "Himachal Pradesh",
+    "Maharashtra",
+    "Karnataka",
+    "Meghalaya"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "friends",
+    "couples",
+    "beginners"
+  ],
+  "tags": [
+    "Camping",
+    "Rishikesh",
+    "Jaisalmer",
+    "Ladakh"
+  ],
+  "hero": {
+    "src": "/images/adventure/camping-tents-himalaya.webp",
+    "alt": "Nomad camp tents in a high valley at Rajung Karu, Ladakh",
+    "caption": "Rajung Karu, Ladakh"
+  },
+  "parent": {
+    "label": "Adventure Sports in India",
+    "href": "/blog/adventure-sports-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Camping in India"
+  },
+  "intro": [
+    "Most camping in India is not wild camping but staying in fixed tent camps: rows of Swiss-style tents with beds, attached bathrooms and a dining tent, set up by a river, lake, dune or meadow. They are an easy way to spend a night outdoors with a bonfire and stars, and they suit families and first-timers.",
+    "True wild camping happens mostly on treks, where operators pitch dome tents at campsites along the route. In between are simple lakeside and forest camps near the big cities. This guide covers the best places for each and the rules that apply, since camping has been restricted in some sensitive areas."
+  ],
+  "quickAnswer": "The best places for camping in India include riverside camps near Rishikesh, desert camps at Sam and Khuri near Jaisalmer, the Rann Utsav tent city in Kutch, lakeside camps at Pangong Tso and near Chandratal, meadow camps at Chopta, Sonamarg and Kasol, and lakeside camping at Pawna Lake and Bhandardara in Maharashtra. Choose licensed camps, check local rules and carry warm layers for mountain nights.",
+  "takeaways": [
+    "Most camps in India are fixed tent camps with beds and bathrooms; wild camping is mostly on treks.",
+    "Desert camps near Jaisalmer and the Rann Utsav in Kutch are winter experiences.",
+    "High camps at Pangong and Chandratal are summer only, and very cold at night.",
+    "Camping on river beaches, alpine meadows and near some lakes has been restricted by courts and authorities.",
+    "Leave no trace: carry out rubbish, avoid plastic and keep noise down."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Best places for camping in India",
+      "items": [
+        {
+          "name": "Rishikesh, Uttarakhand",
+          "body": [
+            "Camps in the forest and on land above the Ganga between Shivpuri and Kaudiyala combine a night outdoors with river rafting, a bonfire and short walks. Choose licensed camps; camping on the river beaches themselves has been restricted."
+          ],
+          "facts": {
+            "Season": "September to June",
+            "Good for": "Friends, first-timers, rafting trips"
+          },
+          "links": [
+            {
+              "label": "River rafting in Rishikesh",
+              "href": "/blog/river-rafting-in-rishikesh"
+            },
+            {
+              "label": "Things to do in Rishikesh",
+              "href": "/blog/things-to-do-in-rishikesh"
+            }
+          ]
+        },
+        {
+          "name": "Sam and Khuri, Jaisalmer, Rajasthan",
+          "body": [
+            "Tent camps near the dunes at Sam and quieter Khuri, about 40 km from Jaisalmer, offer camel rides, folk music and dinners under desert skies. Some camps are sold as luxury tents, others are simple."
+          ],
+          "facts": {
+            "Season": "October to March",
+            "Good for": "Families, couples"
+          },
+          "links": [
+            {
+              "label": "Desert adventures in India",
+              "href": "/blog/desert-adventures-in-india"
+            },
+            {
+              "label": "Things to do in Jaisalmer",
+              "href": "/blog/things-to-do-in-jaisalmer"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/jaisalmer/sam-sand-dunes-camel-safari.webp",
+            "alt": "Camel safari on the Sam sand dunes near Jaisalmer",
+            "caption": "Sam dunes, Jaisalmer"
+          }
+        },
+        {
+          "name": "Rann Utsav tent city, Kutch, Gujarat",
+          "body": [
+            "During the Rann Utsav, a tent city is set up at Dhordo on the edge of the white salt desert, with cultural programmes and full-moon nights on the Rann."
+          ],
+          "facts": {
+            "Season": "About November to February",
+            "Good for": "Families"
+          },
+          "links": [
+            {
+              "label": "Rann of Kutch guide",
+              "href": "/blog/rann-of-kutch-travel-guide"
+            },
+            {
+              "label": "Things to do in Kutch",
+              "href": "/blog/things-to-do-in-kutch"
+            }
+          ]
+        },
+        {
+          "name": "Pangong Tso and Tso Moriri, Ladakh",
+          "body": [
+            "Tent camps along the shores of Pangong at villages such as Spangmik, and near Tso Moriri at Korzok, give sunrise on high-altitude lakes. Nights are freezing even in summer, and the altitude is over 4,200 metres, so acclimatise in Leh first."
+          ],
+          "facts": {
+            "Season": "About May to September",
+            "Good for": "Road trippers"
+          },
+          "links": [
+            {
+              "label": "Pangong Lake guide",
+              "href": "/blog/pangong-lake-travel-guide"
+            },
+            {
+              "label": "Tso Moriri guide",
+              "href": "/blog/tso-moriri-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/ladakh/pangong-lake/pangong-lake-tent-camps-shore.webp",
+            "alt": "Tent camps on the shore of Pangong Tso",
+            "caption": "Pangong Tso"
+          }
+        },
+        {
+          "name": "Chandratal, Himachal Pradesh",
+          "body": [
+            "Camps near the crescent-shaped lake on the Spiti side of Kunzum Pass have been moved back from the shore to protect it; you walk the last stretch. Open only when the road over Kunzum is open."
+          ],
+          "facts": {
+            "Season": "About June to September"
+          },
+          "links": [
+            {
+              "label": "Spiti Valley bike trip",
+              "href": "/blog/spiti-valley-bike-trip"
+            }
+          ]
+        },
+        {
+          "name": "Chopta, Uttarakhand",
+          "body": [
+            "Tents on the edge of the Chopta meadows are the base for the Tungnath and Chandrashila walk, with views of the Chaukhamba massif."
+          ],
+          "facts": {
+            "Season": "Most of the year; snow in winter"
+          },
+          "links": [
+            {
+              "label": "Chopta travel guide",
+              "href": "/blog/chopta-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/chopta/chopta-meadow-camping-himalayan-view.webp",
+            "alt": "Tents on the meadow at Chopta with Himalayan peaks behind",
+            "caption": "Chopta"
+          }
+        },
+        {
+          "name": "Parvati Valley and Kasol, Himachal Pradesh",
+          "body": [
+            "Riverside and forest camps around Kasol and on the Kheerganga trek are popular with young travellers. Check that camps are licensed and avoid unregulated sites."
+          ],
+          "facts": {
+            "Season": "April to June, September to November"
+          },
+          "links": [
+            {
+              "label": "Things to do in Kasol",
+              "href": "/blog/things-to-do-in-kasol"
+            }
+          ]
+        },
+        {
+          "name": "Pawna Lake and Bhandardara, Maharashtra",
+          "body": [
+            "Lakeside camps near Lonavala at Pawna, and at Bhandardara near Igatpuri, are easy overnight trips from Mumbai and Pune. Bhandardara is known for fireflies before the monsoon."
+          ],
+          "facts": {
+            "Season": "October to May",
+            "Good for": "Weekends from Mumbai and Pune"
+          },
+          "links": [
+            {
+              "label": "Weekend adventure trips from Mumbai",
+              "href": "/blog/weekend-adventure-trips-from-mumbai"
+            },
+            {
+              "label": "Bhandardara travel guide",
+              "href": "/blog/bhandardara-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Shnongpdeng, Meghalaya",
+          "body": [
+            "Riverside camping on the clear Umngot river near Dawki, with kayaking, snorkelling in the clear water and cliff jumping nearby."
+          ],
+          "facts": {
+            "Season": "November to April"
+          },
+          "links": [
+            {
+              "label": "Shnongpdeng guide",
+              "href": "/blog/shnongpdeng-travel-guide"
+            },
+            {
+              "label": "Adventure activities in Meghalaya",
+              "href": "/blog/adventure-activities-in-meghalaya"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "types",
+      "heading": "Types of camping",
+      "table": {
+        "columns": [
+          "Type",
+          "What you get",
+          "Where"
+        ],
+        "rows": [
+          [
+            "Fixed tent camps",
+            "Beds, attached bathroom, meals",
+            "Rishikesh, Jaisalmer, Rann of Kutch, Pangong"
+          ],
+          [
+            "Glamping",
+            "Large furnished tents, sometimes with heating",
+            "Desert camps, some Himalayan resorts"
+          ],
+          [
+            "Trek camps",
+            "Dome tents, sleeping bags, kitchen tent",
+            "Himalayan treks"
+          ],
+          [
+            "Lakeside or forest camps",
+            "Simple tents, shared toilets",
+            "Pawna, Bhandardara, Kasol"
+          ],
+          [
+            "Wild camping",
+            "Your own gear, no facilities",
+            "Only where permitted"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "rules",
+      "heading": "Rules and restrictions",
+      "paras": [
+        "Camping rules in India are set by state governments, forest departments and courts, and they change. Camping on the Ganga's river beaches near Rishikesh has been restricted; overnight camping in some high-altitude meadows (bugyals) in Uttarakhand has been limited by court orders; and camps near lakes such as Chandratal and Pangong have been moved back from the shore.",
+        "Inside national parks and wildlife sanctuaries, camping is allowed only at designated sites with permits. Wild camping on private or village land needs permission. When in doubt, stay at a licensed camp."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Camping tips",
+      "list": [
+        "Check what is included: meals, bathrooms, blankets or sleeping bags, and activities.",
+        "In the mountains, nights can be near or below freezing even in summer; carry warm layers and a cap.",
+        "Carry a headlamp or torch; camps are dark away from the dining area.",
+        "Keep food sealed and inside tents to avoid attracting animals.",
+        "Keep music low; sound carries far in the outdoors.",
+        "Carry all rubbish back with you, including cigarette butts and wrappers."
+      ]
+    }
+  ],
+  "safety": [
+    "Book licensed camps with proper toilets, lighting and emergency plans.",
+    "Avoid camping on riverbeds and near streams in the monsoon; water levels can rise suddenly.",
+    "Check wildlife advice in forest areas and follow the camp's rules after dark.",
+    "At high altitude, acclimatise before sleeping above about 3,500 metres.",
+    "Keep bonfires small and in designated spots, and put them out completely."
+  ],
+  "packing": [
+    "Warm layers and a cap for the night",
+    "Headlamp with spare batteries",
+    "Insect repellent",
+    "Power bank",
+    "Reusable water bottle",
+    "A small bag for your rubbish"
+  ],
+  "faqs": [
+    {
+      "q": "Where is the best camping in India?",
+      "a": "Rishikesh, Jaisalmer, the Rann of Kutch, Pangong Tso, Chandratal, Chopta, Kasol and Pawna Lake are among the most popular places."
+    },
+    {
+      "q": "Is wild camping allowed in India?",
+      "a": "Only in some places. Camping is restricted in many river, meadow and protected areas, and on private land you need permission. Licensed camps are the safest option."
+    },
+    {
+      "q": "When is the best time for desert camping in Rajasthan?",
+      "a": "October to March, when the desert is cool."
+    },
+    {
+      "q": "Can I camp near Mumbai?",
+      "a": "Yes. Pawna Lake near Lonavala and Bhandardara are popular lakeside camping spots."
+    },
+    {
+      "q": "Is camping at Pangong Lake open all year?",
+      "a": "No. Camps operate roughly from May to September, when roads are open and nights are cold but bearable."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh"
+    },
+    {
+      "label": "Rishikesh travel guide",
+      "href": "/blog/rishikesh-adventure-travel-guide"
+    },
+    {
+      "label": "Things to do in Jaisalmer",
+      "href": "/blog/things-to-do-in-jaisalmer"
+    },
+    {
+      "label": "Rajasthan tour packages",
+      "href": "/packages/rajasthan"
+    },
+    {
+      "label": "Family holidays",
+      "href": "/packages/family-holidays"
+    }
+  ],
+  "related": [
+    {
+      "name": "Desert adventures in India",
+      "href": "/blog/desert-adventures-in-india",
+      "note": "dunes, camels and camps"
+    },
+    {
+      "name": "Trekking in India",
+      "href": "/blog/trekking-in-india",
+      "note": "camping on the trail"
+    },
+    {
+      "name": "Adventure travel packing list",
+      "href": "/blog/adventure-travel-packing-list-india",
+      "note": "what to carry"
+    },
+    {
+      "name": "Offbeat beaches in India",
+      "href": "/blog/offbeat-beaches-in-india",
+      "note": "quiet coastal stays"
+    }
+  ],
+  "places": [
+    "Rishikesh",
+    "Shivpuri",
+    "Sam",
+    "Khuri",
+    "Dhordo",
+    "Pangong Tso",
+    "Tso Moriri",
+    "Chandratal",
+    "Chopta",
+    "Kasol",
+    "Pawna Lake",
+    "Bhandardara",
+    "Shnongpdeng"
+  ],
+  "styles": [
+    "adventure-tours",
+    "family-holidays"
+  ],
+  "updated": "2026-09-25"
+}

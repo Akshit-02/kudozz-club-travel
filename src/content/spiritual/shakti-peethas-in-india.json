@@ -1,0 +1,415 @@
+{
+  "slug": "shakti-peethas-in-india",
+  "kind": "pillar",
+  "short": "Shakti Peethas",
+  "title": "Shakti Peethas in India: The 18 and 51 Lists, and How to Visit",
+  "seoTitle": "Shakti Peethas in India: 18 and 51 Lists & How to Visit | Kudozz Club",
+  "metaDescription": "The Shakti Peethas explained: why lists give 18, 51 or more, the 18 Maha Shakti Peethas and where they are, well-known Devi shrines and regional routes.",
+  "description": "A guide to the Shakti Peethas, the shrines of the Goddess linked to the legend of Sati: why different texts count 18, 51, 52 or 108, the 18 Maha Shakti Peethas of the Ashtadasha Shakti Peetha Stotram, well-known Devi shrines such as Kamakhya, Kalighat and Tarapith, and practical regional routes in India.",
+  "dek": "The Shakti Peethas are the most sacred shrines of the Goddess. Traditions disagree on how many there are, but the major ones are clear pilgrim favourites.",
+  "primaryKeyword": "shakti peethas in India",
+  "secondaryKeywords": [
+    "51 shakti peeth list",
+    "18 maha shakti peethas",
+    "shakti peeth yatra"
+  ],
+  "searchIntent": "Informational/planning",
+  "activities": [
+    "Shakti Peetha",
+    "Devi temples",
+    "darshan",
+    "temple visit"
+  ],
+  "terrain": [
+    "temple town",
+    "hills"
+  ],
+  "regions": [
+    "Assam",
+    "West Bengal",
+    "Himachal Pradesh",
+    "Andhra Pradesh",
+    "Tamil Nadu",
+    "Maharashtra",
+    "Gujarat",
+    "Uttar Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "couples"
+  ],
+  "tags": [
+    "Shakti Peetha",
+    "Devi",
+    "Pilgrimage",
+    "Temples"
+  ],
+  "hero": {
+    "src": "/images/spiritual/shakti-peethas-kamakhya-temple.webp",
+    "alt": "Domes of the Kamakhya Temple complex on Nilachal hill, Guwahati"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Shakti Peethas"
+  },
+  "intro": [
+    "According to Puranic legend, when Sati gave up her life at her father Daksha's sacrifice, a grieving Shiva carried her body across the universe, and parts of it fell at different places. Each place became a Shakti Peetha, a seat of the Goddess, usually worshipped together with a form of Shiva as Bhairava.",
+    "There is no single official list. The 18 Maha Shakti Peethas come from the Ashtadasha Shakti Peetha Stotram, attributed to Adi Shankaracharya; the widely used list of 51 comes mainly from the Tantra Chudamani; some traditions count 52, 64 or 108. Several peethas lie outside India, in Pakistan, Bangladesh, Nepal, Sri Lanka and Tibet."
+  ],
+  "quickAnswer": "Shakti Peethas are shrines of the Goddess where, according to legend, parts of Sati's body fell. Different texts give different counts: 18 Maha Shakti Peethas in the Ashtadasha Shakti Peetha Stotram, 51 in the Tantra Chudamani, and 52, 64 or 108 in other traditions. Well-known Shakti Peethas in India include Kamakhya in Guwahati, Kalighat in Kolkata, Vishalakshi in Varanasi and Jwalamukhi in Himachal.",
+  "takeaways": [
+    "The legend of Sati and Daksha's sacrifice explains the Shakti Peethas.",
+    "Counts differ by text: 18, 51, 52, 64 or 108.",
+    "The 18 Maha Shakti Peethas come from a hymn attributed to Adi Shankaracharya.",
+    "Some peethas are outside India, including Hinglaj in Pakistan and Guhyeshwari in Nepal.",
+    "Regional routes (Himachal, Bengal, the south) are the practical way to visit several."
+  ],
+  "sections": [
+    {
+      "id": "eighteen",
+      "heading": "The 18 Maha Shakti Peethas",
+      "table": {
+        "columns": [
+          "Shakti Peetha",
+          "Place",
+          "Region"
+        ],
+        "rows": [
+          [
+            "Shankari",
+            "Trincomalee",
+            "Sri Lanka"
+          ],
+          [
+            "Kamakshi",
+            "Kanchipuram",
+            "Tamil Nadu"
+          ],
+          [
+            "Shrinkhala",
+            "Location debated (often placed in West Bengal)",
+            "India"
+          ],
+          [
+            "Chamundeshwari",
+            "Mysuru",
+            "Karnataka"
+          ],
+          [
+            "Jogulamba",
+            "Alampur",
+            "Telangana"
+          ],
+          [
+            "Bhramaramba",
+            "Srisailam",
+            "Andhra Pradesh"
+          ],
+          [
+            "Mahalakshmi",
+            "Kolhapur",
+            "Maharashtra"
+          ],
+          [
+            "Ekaveera",
+            "Mahur",
+            "Maharashtra"
+          ],
+          [
+            "Mahakali",
+            "Ujjain",
+            "Madhya Pradesh"
+          ],
+          [
+            "Puruhutika",
+            "Pithapuram",
+            "Andhra Pradesh"
+          ],
+          [
+            "Girija (Biraja)",
+            "Jajpur",
+            "Odisha"
+          ],
+          [
+            "Manikyamba",
+            "Draksharamam",
+            "Andhra Pradesh"
+          ],
+          [
+            "Kamakhya",
+            "Guwahati",
+            "Assam"
+          ],
+          [
+            "Madhaveshwari",
+            "Prayagraj",
+            "Uttar Pradesh"
+          ],
+          [
+            "Vaishnavi (Jwala Devi)",
+            "Jwalamukhi",
+            "Himachal Pradesh"
+          ],
+          [
+            "Mangala Gauri",
+            "Gaya",
+            "Bihar"
+          ],
+          [
+            "Vishalakshi",
+            "Varanasi",
+            "Uttar Pradesh"
+          ],
+          [
+            "Saraswati (Sharada)",
+            "Sharada Peeth",
+            "Kashmir (across the Line of Control)"
+          ]
+        ],
+        "caption": "Identifications of some sites vary between traditions; this table follows common readings of the stotram."
+      }
+    },
+    {
+      "id": "popular",
+      "heading": "Much-visited Devi shrines",
+      "items": [
+        {
+          "name": "Kamakhya, Guwahati",
+          "body": [
+            "On Nilachal hill, one of the most important Shakta shrines, with the Ambubachi Mela in June."
+          ],
+          "links": [
+            {
+              "label": "Kamakhya guide",
+              "href": "/blog/kamakhya-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/assam/assam/kamakhya-temple-shikhara-guwahati.webp",
+            "alt": "The beehive-shaped shikhara of Kamakhya Temple, Guwahati",
+            "caption": "Kamakhya Temple, Assam"
+          }
+        },
+        {
+          "name": "Kalighat and Tarapith, West Bengal",
+          "body": [
+            "Kalighat in Kolkata and Tarapith in Birbhum district are counted among the 51 in Bengali tradition."
+          ],
+          "links": [
+            {
+              "label": "Tarapith guide",
+              "href": "/blog/tarapith-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Himachal's Devi temples",
+          "body": [
+            "Jwalamukhi, Chintpurni, Naina Devi and Brajeshwari (Kangra) make a popular circuit."
+          ],
+          "links": [
+            {
+              "label": "Spiritual tourism in Himachal",
+              "href": "/blog/spiritual-tourism-in-himachal-pradesh"
+            }
+          ]
+        },
+        {
+          "name": "Tripura Sundari",
+          "body": [
+            "At Udaipur in Tripura, a revered peetha in the north-east."
+          ],
+          "links": [
+            {
+              "label": "Tripura Sundari guide",
+              "href": "/blog/tripura-sundari-temple-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "The south",
+          "body": [
+            "Kamakshi (Kanchipuram), Chamundeshwari (Mysuru), Bhramaramba (Srisailam) and Jogulamba (Alampur)."
+          ],
+          "links": [
+            {
+              "label": "Kanchipuram guide",
+              "href": "/blog/kanchipuram-travel-guide"
+            },
+            {
+              "label": "Srisailam guide",
+              "href": "/blog/srisailam-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "routes",
+      "heading": "Regional routes",
+      "table": {
+        "columns": [
+          "Route",
+          "Shrines",
+          "Days"
+        ],
+        "rows": [
+          [
+            "Himachal",
+            "Jwalamukhi, Chintpurni, Brajeshwari, Chamunda, Naina Devi",
+            "4 to 5"
+          ],
+          [
+            "Bengal and Assam",
+            "Kalighat, Tarapith, Kamakhya",
+            "4 to 5"
+          ],
+          [
+            "Andhra and Telangana",
+            "Srisailam, Alampur, Draksharamam, Pithapuram",
+            "5 to 6"
+          ],
+          [
+            "Tamil Nadu and Karnataka",
+            "Kanchipuram, Mysuru (with Madurai's Meenakshi)",
+            "4 to 5"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "vaishno",
+      "heading": "What about Vaishno Devi?",
+      "paras": [
+        "Vaishno Devi near Katra is one of India's most visited Devi shrines. It is regarded by many devotees as a Shakti Peetha, though it does not appear in every traditional list. We include it here because it is central to Devi pilgrimage in north India."
+      ],
+      "items": [
+        {
+          "name": "Katra and Vaishno Devi",
+          "body": [
+            "Route, registration and the trek."
+          ],
+          "links": [
+            {
+              "label": "Katra and Vaishno Devi guide",
+              "href": "/blog/katra-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "heading": "How worship works at Shakti Peethas",
+      "paras": [
+        "At most Shakti Peethas the Goddess is worshipped together with a form of Shiva as Bhairava, whose shrine is often nearby; many pilgrims visit both. Some shrines have no idol at all: at Kamakhya the object of worship is a natural stone fissure fed by a spring, and at Jwalamukhi it is a set of natural flames.",
+        "Navratri, held twice a year (in spring and in autumn), is the most important festival at Devi shrines, followed by regional festivals such as the Ambubachi Mela at Kamakhya and Durga Puja in Bengal. These are spiritually special times but bring the largest crowds, so book stays early and expect long queues."
+      ]
+    }
+  ],
+  "safety": [
+    "Navratri and major festivals bring very large crowds; plan early.",
+    "Follow each temple's rules on offerings, photography and dress.",
+    "Several shrines involve hill climbs or ropeways; check access if you have mobility needs.",
+    "Some peethas lie in restricted or cross-border areas; follow official travel advice."
+  ],
+  "packing": [
+    "Modest clothes, with a dupatta or scarf",
+    "Slip-on footwear",
+    "Warm layers for Himachal and Kashmir",
+    "Small bag"
+  ],
+  "faqs": [
+    {
+      "q": "How many Shakti Peethas are there?",
+      "a": "It depends on the text: 18 in the Ashtadasha Shakti Peetha Stotram, 51 in the Tantra Chudamani, and 52, 64 or 108 in other traditions."
+    },
+    {
+      "q": "Which is the most famous Shakti Peetha?",
+      "a": "Kamakhya in Guwahati is among the best known; Kalighat, Vishalakshi and Jwalamukhi are also widely visited."
+    },
+    {
+      "q": "Are all Shakti Peethas in India?",
+      "a": "No. Some are in Pakistan (Hinglaj), Bangladesh, Nepal, Sri Lanka and Tibet."
+    },
+    {
+      "q": "Is Vaishno Devi a Shakti Peetha?",
+      "a": "Many devotees regard it as one, though it is not in every traditional list."
+    },
+    {
+      "q": "What is the legend of the Shakti Peethas?",
+      "a": "Puranic legend says that parts of Sati's body fell at these places as Shiva carried her after Daksha's sacrifice, and each became a seat of the Goddess."
+    },
+    {
+      "q": "When is the best time to visit Shakti Peethas?",
+      "a": "October to March is comfortable. Navratri is spiritually important but very crowded."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Kamakhya guide",
+      "href": "/blog/kamakhya-travel-guide"
+    },
+    {
+      "label": "Katra and Vaishno Devi guide",
+      "href": "/blog/katra-travel-guide"
+    },
+    {
+      "label": "Things to do in Guwahati",
+      "href": "/blog/things-to-do-in-guwahati"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    },
+    {
+      "label": "Spiritual festivals in India",
+      "href": "/blog/spiritual-festivals-in-india"
+    }
+  ],
+  "related": [
+    {
+      "name": "The 12 Jyotirlingas",
+      "href": "/blog/12-jyotirlingas-in-india",
+      "note": "the Shiva shrines"
+    },
+    {
+      "name": "Spiritual tourism in West Bengal",
+      "href": "/blog/spiritual-tourism-in-west-bengal",
+      "note": "Kalighat and Tarapith"
+    },
+    {
+      "name": "Famous temples in India",
+      "href": "/blog/famous-temples-in-india",
+      "note": "region by region"
+    }
+  ],
+  "places": [
+    "Kamakhya",
+    "Kalighat",
+    "Tarapith",
+    "Jwalamukhi",
+    "Kanchipuram",
+    "Srisailam",
+    "Kolhapur",
+    "Ujjain",
+    "Varanasi",
+    "Gaya"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Shakti Peethas",
+  "updated": "2026-09-26"
+}

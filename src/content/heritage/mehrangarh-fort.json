@@ -1,0 +1,288 @@
+{
+  "slug": "mehrangarh-fort",
+  "kind": "destination",
+  "short": "Mehrangarh Fort",
+  "title": "Mehrangarh Fort, Jodhpur: History and Visiting Guide",
+  "seoTitle": "Mehrangarh Fort, Jodhpur: History & Visiting Guide | Kudozz Club",
+  "metaDescription": "Visit Mehrangarh Fort in Jodhpur: founded by Rao Jodha in 1459, its gates and palace museum, views over the blue city, Jaswant Thada, the rock park and festivals.",
+  "description": "A visitor's guide to Mehrangarh Fort in Jodhpur: founded by Rao Jodha in 1459, its seven gates, the palace rooms and museum collections run by the Mehrangarh Museum Trust, views over the blue city, Jaswant Thada and the Rao Jodha Desert Rock Park, the Rajasthan International Folk Festival, and practical tips.",
+  "dek": "Mehrangarh rises straight out of a rocky hill above Jodhpur's blue old city, and its palaces now house one of Rajasthan's best museums.",
+  "primaryKeyword": "Mehrangarh Fort",
+  "secondaryKeywords": [
+    "Mehrangarh museum",
+    "Jodhpur fort",
+    "Jaswant Thada"
+  ],
+  "searchIntent": "Monument visit planning",
+  "activities": [
+    "forts",
+    "palaces",
+    "museums",
+    "photography"
+  ],
+  "terrain": [
+    "hills",
+    "heritage town"
+  ],
+  "regions": [
+    "Rajasthan",
+    "North India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Mehrangarh",
+    "Jodhpur",
+    "Rajput",
+    "Museum"
+  ],
+  "hero": {
+    "src": "/images/heritage/mehrangarh-fort-jodhpur.webp",
+    "alt": "Mehrangarh Fort on its rocky hill above Jodhpur"
+  },
+  "parent": {
+    "label": "Forts of Rajasthan",
+    "href": "/blog/forts-of-rajasthan"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Mehrangarh Fort",
+    "containedIn": "Rajasthan"
+  },
+  "intro": [
+    "Rao Jodha, a Rathore ruler, founded Jodhpur and began Mehrangarh on a hill called Bhaurcheeria in 1459. Later Rathore rulers added palaces, gates and walls over the following centuries, creating one of the largest forts in Rajasthan, with walls rising sheer from the rock.",
+    "The fort is managed by the Mehrangarh Museum Trust, set up by the former royal family, which runs the museum inside the palaces. It is not on the UNESCO list, but is among the best-preserved and best-presented forts in India."
+  ],
+  "quickAnswer": "Mehrangarh Fort, founded by Rao Jodha in 1459, stands above Jodhpur's old city and is run by the Mehrangarh Museum Trust. Inside are palace rooms such as the Phool Mahal and Sheesh Mahal, and museum galleries of palanquins, howdahs, arms and paintings. Allow three hours, add Jaswant Thada and the Rao Jodha Desert Rock Park, and visit from October to March.",
+  "takeaways": [
+    "Founded by Rao Jodha in 1459; expanded by later Rathore rulers.",
+    "Managed by the Mehrangarh Museum Trust, with a well-run museum and audio guide.",
+    "A lift helps visitors avoid the steepest climb.",
+    "Jaswant Thada and the Rao Jodha Desert Rock Park are next door.",
+    "The Rajasthan International Folk Festival is held at the fort each October."
+  ],
+  "sections": [
+    {
+      "id": "what-to-see",
+      "heading": "What to see",
+      "items": [
+        {
+          "name": "The gates",
+          "body": [
+            "Seven gates line the climb, including Jai Pol and Loha Pol, where handprints recall royal women who committed sati; the site marks this history rather than celebrating it."
+          ],
+          "image": {
+            "src": "/images/heritage/mehrangarh-fort-jodhpur.webp",
+            "alt": "Mehrangarh Fort rising above the rocks of Jodhpur",
+            "caption": "Mehrangarh Fort"
+          }
+        },
+        {
+          "name": "Palace rooms",
+          "body": [
+            "The Phool Mahal, Sheesh Mahal and Moti Mahal, with painted ceilings, mirror work and stained glass."
+          ]
+        },
+        {
+          "name": "Museum galleries",
+          "body": [
+            "Palanquins, elephant howdahs, arms, textiles and Marwar miniature paintings."
+          ]
+        },
+        {
+          "name": "The ramparts",
+          "body": [
+            "Old cannons and views over the blue houses of the old city."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visiting",
+      "heading": "Visiting practicalities",
+      "list": [
+        "Open daily; check current hours with the Mehrangarh Museum Trust.",
+        "Tickets are sold by the trust; the audio guide is well worth it.",
+        "A lift runs part of the way up; otherwise the ramp is steep.",
+        "Allow about three hours for the fort and museum.",
+        "A zipline has operated over the fort's walls and lakes; check if it is running."
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Nearby",
+      "items": [
+        {
+          "name": "Jaswant Thada",
+          "body": [
+            "A white marble memorial (cenotaph) built in 1899 for Maharaja Jaswant Singh II, a short drive or walk from the fort."
+          ]
+        },
+        {
+          "name": "Rao Jodha Desert Rock Park",
+          "body": [
+            "A restored landscape of native desert plants below the fort walls, with walking trails."
+          ]
+        },
+        {
+          "name": "The old city",
+          "body": [
+            "The clock tower and Sardar Market, the stepwell at Toorji ka Jhalra, and Umaid Bhawan Palace."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Jodhpur",
+              "href": "/blog/things-to-do-in-jodhpur"
+            },
+            {
+              "label": "Jodhpur guide",
+              "href": "/blog/jodhpur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "festivals",
+      "heading": "Festivals",
+      "paras": [
+        "The Rajasthan International Folk Festival (RIFF) brings folk musicians from Rajasthan and beyond to the fort each October, around the full moon of Sharad Purnima. The World Sacred Spirit Festival has also been held at the fort and at Nagaur. Check dates each year."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "Mehrangarh was the seat of the Rathores of Marwar. Rao Jodha moved his capital from Mandore to the rocky hill in 1459, and the fort was enlarged over five centuries; parts of the walls still bear marks of cannon fire from 19th-century sieges. After Independence the former royal family set up the Mehrangarh Museum Trust, which restored the palaces and opened the museum."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "Best time and a suggested day",
+      "table": {
+        "columns": [
+          "Time",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "9 am",
+            "Mehrangarh Fort and museum"
+          ],
+          [
+            "12:30 pm",
+            "Jaswant Thada"
+          ],
+          [
+            "Afternoon",
+            "Rao Jodha Desert Rock Park, or rest"
+          ],
+          [
+            "Evening",
+            "Clock tower market and dinner with a fort view"
+          ]
+        ]
+      },
+      "after": [
+        "October to March is best; summers in Jodhpur are extremely hot."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and ticket rules are set by the ASI, state archaeology departments or site trusts and change from time to time; check the official website before you go.",
+    "Do not climb on or touch carvings, and follow the site's rules on photography, drones and tripods.",
+    "Carry water and a hat; many sites have little shade, and Indian summers are hot.",
+    "Take care on the steep ramp and uneven stone floors."
+  ],
+  "packing": [
+    "Comfortable shoes",
+    "Hat, sunscreen and water",
+    "Photo ID",
+    "Headphones for the audio guide",
+    "A light jacket for winter evenings"
+  ],
+  "faqs": [
+    {
+      "q": "Who built Mehrangarh Fort?",
+      "a": "Rao Jodha began the fort in 1459; later Rathore rulers expanded it."
+    },
+    {
+      "q": "How long do I need at Mehrangarh Fort?",
+      "a": "About three hours for the fort and museum."
+    },
+    {
+      "q": "What is inside the Mehrangarh museum?",
+      "a": "Palanquins, elephant howdahs, arms, textiles and Marwar miniature paintings, in restored palace rooms."
+    },
+    {
+      "q": "Is there a lift at Mehrangarh?",
+      "a": "Yes, a lift runs part of the way up, which helps older visitors."
+    },
+    {
+      "q": "Is Mehrangarh a UNESCO site?",
+      "a": "No. It is managed by the Mehrangarh Museum Trust and is not on the UNESCO list."
+    },
+    {
+      "q": "When is the Rajasthan International Folk Festival?",
+      "a": "Each October at the fort, around Sharad Purnima; check dates for the year."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Jodhpur guide",
+      "href": "/blog/jodhpur-travel-guide"
+    },
+    {
+      "label": "Things to do in Jodhpur",
+      "href": "/blog/things-to-do-in-jodhpur"
+    },
+    {
+      "label": "Rajasthan heritage itinerary",
+      "href": "/blog/rajasthan-heritage-itinerary"
+    },
+    {
+      "label": "Rajasthan tour packages",
+      "href": "/packages/rajasthan"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Forts of Rajasthan",
+      "href": "/blog/forts-of-rajasthan",
+      "note": "Rajasthan's great forts"
+    },
+    {
+      "name": "Amber Fort",
+      "href": "/blog/amber-fort",
+      "note": "Jaipur's palace-fort"
+    },
+    {
+      "name": "Best museums in India",
+      "href": "/blog/best-museums-in-india",
+      "note": "more great collections"
+    }
+  ],
+  "places": [
+    "Mehrangarh Fort",
+    "Jaswant Thada",
+    "Rao Jodha Desert Rock Park",
+    "Jodhpur"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Jodhpur",
+  "updated": "2026-09-26"
+}

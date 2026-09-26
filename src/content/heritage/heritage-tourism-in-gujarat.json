@@ -1,0 +1,352 @@
+{
+  "slug": "heritage-tourism-in-gujarat",
+  "kind": "state",
+  "short": "Heritage tourism in Gujarat",
+  "title": "Heritage Tourism in Gujarat: Stepwells, Harappan Cities and Old Ahmedabad",
+  "seoTitle": "Heritage Tourism in Gujarat: UNESCO Sites & Crafts | Kudozz Club",
+  "metaDescription": "Gujarat's heritage for travellers: Ahmedabad's old city, Rani ki Vav, Champaner-Pavagadh, Dholavira, Lothal, Modhera, Junagadh, Kutch's crafts and the Rann Utsav.",
+  "description": "A guide to heritage tourism in Gujarat: its four UNESCO cultural sites (Champaner-Pavagadh, Rani ki Vav, the Historic City of Ahmedabad and Dholavira), Harappan Lothal, the Modhera Sun Temple and Adalaj stepwell, Junagadh and Girnar, Vadodara's palaces, the crafts and textiles of Kutch and Patan, festivals, and how to plan a route.",
+  "dek": "Gujarat's heritage runs from Harappan cities to sultanate mosques, carved stepwells and some of India's richest living crafts.",
+  "primaryKeyword": "heritage places in Gujarat",
+  "secondaryKeywords": [
+    "historical places in Gujarat",
+    "monuments in Gujarat",
+    "Gujarat heritage tour"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "monuments",
+    "UNESCO sites",
+    "crafts",
+    "heritage walks"
+  ],
+  "terrain": [
+    "varied"
+  ],
+  "regions": [
+    "Gujarat"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "history lovers"
+  ],
+  "tags": [
+    "Gujarat",
+    "Heritage",
+    "Stepwells",
+    "Kutch"
+  ],
+  "hero": {
+    "src": "/images/heritage/heritage-gujarat-adalaj-stepwell.webp",
+    "alt": "Carved pillars and galleries of the Adalaj stepwell near Ahmedabad"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Heritage of Gujarat",
+    "containedIn": "Gujarat"
+  },
+  "intro": [
+    "Gujarat has one of the longest recorded histories in India. Harappan towns flourished at Dholavira and Lothal; the Solanki kings built temples and stepwells; the Gujarat Sultanate founded Ahmedabad and Champaner; and its ports traded across the Arabian Sea for centuries.",
+    "Four of Gujarat's cultural sites are on the UNESCO World Heritage List: Champaner-Pavagadh (2004), Rani ki Vav (2014), the Historic City of Ahmedabad (2017) and Dholavira (2021). Its crafts, textiles, food and festivals, especially Navratri, are just as central to its heritage."
+  ],
+  "quickAnswer": "Gujarat's heritage highlights are its four UNESCO sites (Champaner-Pavagadh, Rani ki Vav at Patan, the Historic City of Ahmedabad and Dholavira), the Harappan town of Lothal, the Modhera Sun Temple, the Adalaj stepwell, Junagadh and Girnar, Vadodara's Laxmi Vilas Palace, and the crafts of Kutch and Patan. Travel between November and February; ten days covers most of it.",
+  "takeaways": [
+    "Gujarat has four UNESCO cultural sites.",
+    "Its stepwells, at Patan, Adalaj and Ahmedabad, are among India's finest.",
+    "Dholavira and Lothal are the best places in India to see Harappan cities.",
+    "Kutch is one of India's great craft regions.",
+    "November to February is the best season."
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "heading": "UNESCO World Heritage Sites",
+      "table": {
+        "columns": [
+          "Site",
+          "Year",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Champaner-Pavagadh",
+            "2004",
+            "15th-century sultanate capital"
+          ],
+          [
+            "Rani ki Vav, Patan",
+            "2014",
+            "11th-century stepwell with sculpture"
+          ],
+          [
+            "Historic City of Ahmedabad",
+            "2017",
+            "Pols, mosques, temples"
+          ],
+          [
+            "Dholavira",
+            "2021",
+            "Harappan city in Kutch"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "highlights",
+      "heading": "Highlights",
+      "items": [
+        {
+          "name": "Ahmedabad and Adalaj",
+          "body": [
+            "The old city's pols and mosques, Sabarmati Ashram, and the Adalaj stepwell."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Ahmedabad",
+              "href": "/blog/things-to-do-in-ahmedabad"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/ahmedabad/jama-masjid-ahmedabad-2.webp",
+            "alt": "The Jama Masjid, Ahmedabad",
+            "caption": "Jama Masjid, Ahmedabad"
+          }
+        },
+        {
+          "name": "Patan and Modhera",
+          "body": [
+            "Rani ki Vav and the Patola weavers of Patan, and the Sun Temple at Modhera."
+          ],
+          "links": [
+            {
+              "label": "Patan guide",
+              "href": "/blog/patan-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Lothal and Dholavira",
+          "body": [
+            "The two best-presented Harappan sites in India."
+          ],
+          "links": [
+            {
+              "label": "Lothal",
+              "href": "/blog/lothal"
+            },
+            {
+              "label": "Dholavira guide",
+              "href": "/blog/dholavira-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Champaner-Pavagadh and Vadodara",
+          "body": [
+            "A sultanate capital below a sacred hill, and the Gaekwads' Laxmi Vilas Palace."
+          ],
+          "links": [
+            {
+              "label": "Champaner-Pavagadh",
+              "href": "/blog/champaner-pavagadh"
+            },
+            {
+              "label": "Things to do in Vadodara",
+              "href": "/blog/things-to-do-in-vadodara"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saurashtra",
+      "heading": "Saurashtra",
+      "list": [
+        "Junagadh: the Uparkot fort, Buddhist caves, and an Ashokan rock edict at the foot of Girnar.",
+        "Girnar: a sacred hill with Jain and Hindu temples, now with a ropeway.",
+        "Palitana: the Jain temple city on Shatrunjaya hill.",
+        "Somnath and Dwarka: major pilgrimage towns on the coast."
+      ],
+      "items": [
+        {
+          "name": "Pilgrimage",
+          "body": [
+            "The spiritual side of Gujarat."
+          ],
+          "links": [
+            {
+              "label": "Spiritual tourism in Gujarat",
+              "href": "/blog/spiritual-tourism-in-gujarat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crafts",
+      "heading": "Crafts and festivals",
+      "list": [
+        "Kutch: embroidery, bandhani, Ajrakh, rogan painting, bell metal and pottery.",
+        "Patan: Patola double ikat.",
+        "Navratri: nine nights of garba across the state (UNESCO intangible heritage, 2023).",
+        "Uttarayan: the kite festival in mid-January, especially in Ahmedabad.",
+        "The Rann Utsav: the winter festival on the white Rann."
+      ],
+      "items": [
+        {
+          "name": "Kutch",
+          "body": [
+            "Crafts and the Rann."
+          ],
+          "links": [
+            {
+              "label": "Rann Utsav",
+              "href": "/blog/rann-utsav"
+            },
+            {
+              "label": "Things to do in Kutch",
+              "href": "/blog/things-to-do-in-kutch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "Gujarat's Harappan towns date to the third millennium BCE. Ashoka's edicts were carved at Junagadh, and the Maitraka, Chaulukya (Solanki) and Vaghela dynasties later ruled from Vallabhi and Anhilwad Patan, building temples and stepwells. From 1407 the Gujarat Sultanate ruled from Ahmedabad and Champaner, until the Mughals took over in the 1570s. The Marathas and then the British followed, while princely states such as Baroda kept their own rulers until 1947. Merchants, Jain and Hindu, Bohra and Khoja Muslim, and Parsi communities shaped the state's towns."
+      ]
+    },
+    {
+      "id": "getting-around",
+      "heading": "Getting around",
+      "paras": [
+        "Ahmedabad is the main airport and rail hub, with further airports at Vadodara, Bhuj and Rajkot. Most heritage sites are best reached by car; Kutch is a long way from Ahmedabad, so fly or take the train to Bhuj if you are short of time."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "November to February: the best season, and the Rann Utsav period.",
+        "September to October: Navratri, with nine nights of garba.",
+        "March to June: very hot, especially in Kutch."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "Ahmedabad has heritage houses in the old city as well as modern hotels. In Kutch, choose between Bhuj, village homestays in round bhunga huts, and the Rann Utsav tent city in season. Dholavira and Champaner have limited options, so Vadodara and Bhuj are useful bases. Gujarat has prohibition; hotels can explain the permit system for visitors."
+      ]
+    },
+    {
+      "id": "lesser-known",
+      "heading": "Lesser-known heritage",
+      "list": [
+        "Vadnagar, an old town in north Gujarat with long archaeological layers.",
+        "Siddhpur's colourful Bohra mansions.",
+        "The Sun Temple and stepwell at Modhera, best in early light.",
+        "Mandvi's shipbuilding yards, where wooden dhows are still built by hand."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, weekly closures and tickets change; check the ASI, state tourism or the site before you go.",
+    "Living temples, mosques and shrines set their own rules on dress, entry and photography; follow what is posted."
+  ],
+  "packing": [
+    "Comfortable walking shoes",
+    "Scarf or shawl for places of worship",
+    "Hat, sunscreen and water",
+    "Photo ID for tickets"
+  ],
+  "faqs": [
+    {
+      "q": "What are the UNESCO sites in Gujarat?",
+      "a": "Champaner-Pavagadh, Rani ki Vav, the Historic City of Ahmedabad and Dholavira."
+    },
+    {
+      "q": "What is Rani ki Vav?",
+      "a": "An 11th-century stepwell at Patan, carved with hundreds of sculptures, and a UNESCO site since 2014."
+    },
+    {
+      "q": "Where can I see Harappan sites in Gujarat?",
+      "a": "At Dholavira in Kutch and Lothal near Ahmedabad."
+    },
+    {
+      "q": "When is the best time to visit Gujarat?",
+      "a": "November to February."
+    },
+    {
+      "q": "How many days do I need?",
+      "a": "About ten days for the main heritage sites including Kutch."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Gujarat heritage itinerary",
+      "href": "/blog/gujarat-heritage-itinerary"
+    },
+    {
+      "label": "Rann Utsav",
+      "href": "/blog/rann-utsav"
+    },
+    {
+      "label": "Gujarat travel guide",
+      "href": "/blog/gujarat-travel-guide"
+    },
+    {
+      "label": "Gujarat tour packages",
+      "href": "/packages/gujarat"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Spiritual tourism in Gujarat",
+      "href": "/blog/spiritual-tourism-in-gujarat",
+      "note": "Somnath, Dwarka and Palitana"
+    },
+    {
+      "name": "Textile heritage of India",
+      "href": "/blog/textile-heritage-of-india",
+      "note": "Patola and Ajrakh"
+    },
+    {
+      "name": "Archaeological sites in India",
+      "href": "/blog/archaeological-sites-in-india",
+      "note": "Harappan sites"
+    }
+  ],
+  "places": [
+    "Ahmedabad",
+    "Adalaj",
+    "Patan",
+    "Modhera",
+    "Lothal",
+    "Dholavira",
+    "Bhuj",
+    "Champaner",
+    "Vadodara",
+    "Junagadh"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "Gujarat",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,422 @@
+{
+  "slug": "rock-cut-caves-in-india",
+  "kind": "pillar",
+  "short": "Rock-cut caves in India",
+  "title": "Ancient Caves in India: Rock-Cut Temples and Monasteries",
+  "seoTitle": "Rock-Cut Caves in India: Ajanta, Ellora & More | Kudozz Club",
+  "metaDescription": "India's rock-cut caves: Ajanta, Ellora, Elephanta, Karla and Bhaja, Kanheri, Badami, Udayagiri-Khandagiri, Barabar and Mahabalipuram, with closures and tips.",
+  "description": "A guide to India's rock-cut caves and cave temples: the Mauryan Barabar caves, the Buddhist caves of Ajanta, Karla, Bhaja and Kanheri, Ellora's Buddhist, Hindu and Jain caves and the Kailasa temple, Elephanta, the Badami cave temples, Udayagiri and Khandagiri in Odisha, Udayagiri near Vidisha, and the Pallava monuments of Mahabalipuram, with how rock-cut caves differ from natural caves.",
+  "dek": "For more than a thousand years, Indian builders carved monasteries and temples straight out of the rock. Here is where to see the finest.",
+  "primaryKeyword": "ancient caves in India",
+  "secondaryKeywords": [
+    "rock-cut caves India",
+    "Buddhist caves India",
+    "cave temples India"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "caves",
+    "UNESCO sites",
+    "photography",
+    "archaeology"
+  ],
+  "terrain": [
+    "hills",
+    "cliffs"
+  ],
+  "regions": [
+    "Maharashtra",
+    "Karnataka",
+    "Odisha",
+    "Bihar",
+    "Madhya Pradesh",
+    "Tamil Nadu"
+  ],
+  "seasons": [
+    "winter",
+    "monsoon",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Caves",
+    "Ajanta",
+    "Ellora",
+    "Rock-Cut Architecture"
+  ],
+  "hero": {
+    "src": "/images/heritage/rock-cut-caves-ajanta.webp",
+    "alt": "The rock-cut prayer hall of Cave 26 at Ajanta, with its stupa"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Rock-cut caves of India"
+  },
+  "intro": [
+    "India has more than a thousand rock-cut caves: monasteries (viharas), prayer halls (chaityas) and temples carved into cliffs by Buddhist, Hindu and Jain communities from about the 3rd century BCE to around the 10th century CE. Maharashtra's Deccan basalt holds the largest number, including Ajanta, Ellora and Elephanta.",
+    "These are different from natural caves such as Belum or Borra, which are geological formations. This guide covers the carved ones, and points to the natural caves at the end."
+  ],
+  "quickAnswer": "The finest rock-cut caves in India are Ajanta (Buddhist paintings) and Ellora (Buddhist, Hindu and Jain caves, including the Kailasa temple) near Chhatrapati Sambhajinagar, Elephanta near Mumbai, Karla, Bhaja and Kanheri in Maharashtra, the Badami cave temples in Karnataka, Udayagiri and Khandagiri in Odisha, the Barabar caves in Bihar and the Pallava monuments at Mahabalipuram.",
+  "takeaways": [
+    "Maharashtra has the most rock-cut caves in India.",
+    "Ajanta is best for paintings; Ellora for scale and the Kailasa temple.",
+    "The Barabar caves are among the earliest, from the Mauryan period.",
+    "Ajanta and Ellora close on different weekdays; check before planning.",
+    "Rock-cut caves were carved from living rock; natural caves are geological."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Caves at a glance",
+      "table": {
+        "columns": [
+          "Caves",
+          "State",
+          "Tradition",
+          "Known for"
+        ],
+        "rows": [
+          [
+            "Ajanta",
+            "Maharashtra",
+            "Buddhist",
+            "Paintings and chaitya halls (UNESCO)"
+          ],
+          [
+            "Ellora",
+            "Maharashtra",
+            "Buddhist, Hindu, Jain",
+            "Kailasa temple (UNESCO)"
+          ],
+          [
+            "Elephanta",
+            "Maharashtra",
+            "Hindu (Shaiva)",
+            "Sadashiva sculpture (UNESCO)"
+          ],
+          [
+            "Karla and Bhaja",
+            "Maharashtra",
+            "Buddhist",
+            "Early chaitya halls near Lonavala"
+          ],
+          [
+            "Kanheri",
+            "Maharashtra",
+            "Buddhist",
+            "Over 100 caves in Sanjay Gandhi National Park"
+          ],
+          [
+            "Badami",
+            "Karnataka",
+            "Hindu, Jain",
+            "6th-century Chalukya cave temples"
+          ],
+          [
+            "Udayagiri and Khandagiri",
+            "Odisha",
+            "Jain",
+            "Hathigumpha inscription of Kharavela"
+          ],
+          [
+            "Udayagiri (Vidisha)",
+            "Madhya Pradesh",
+            "Hindu",
+            "Gupta-era Varaha panel"
+          ],
+          [
+            "Barabar",
+            "Bihar",
+            "Ajivika",
+            "Mauryan caves with polished interiors"
+          ],
+          [
+            "Mahabalipuram",
+            "Tamil Nadu",
+            "Hindu",
+            "Pallava cave temples and monolithic rathas (UNESCO)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "maharashtra",
+      "heading": "Maharashtra",
+      "items": [
+        {
+          "name": "Ajanta",
+          "body": [
+            "About 30 caves in a horseshoe gorge of the Waghur river, made in two phases from around the 2nd century BCE to the 5th century CE, famous for their paintings of Jataka stories."
+          ],
+          "links": [
+            {
+              "label": "Ajanta and Ellora guide",
+              "href": "/blog/ajanta-ellora-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/maharashtra/ajanta-caves-rock-cut-facade-maharashtra.webp",
+            "alt": "Carved facades of the Ajanta caves above the Waghur river",
+            "caption": "Ajanta Caves"
+          }
+        },
+        {
+          "name": "Ellora",
+          "body": [
+            "Thirty-four caves carved roughly between the 6th and 10th centuries, with Buddhist, Hindu and Jain groups side by side. Cave 16, the Kailasa temple, was cut downwards from the hillside as a complete temple."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Aurangabad",
+              "href": "/blog/things-to-do-in-aurangabad"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/maharashtra/ellora-caves-maharashtra.webp",
+            "alt": "The Kailasa temple and caves at Ellora",
+            "caption": "Ellora"
+          }
+        },
+        {
+          "name": "Elephanta, Kanheri, Karla and Bhaja",
+          "body": [
+            "Elephanta's Shiva caves by ferry from Mumbai; Kanheri's Buddhist caves inside the city's national park; and the early chaitya halls at Karla and Bhaja near Lonavala."
+          ],
+          "links": [
+            {
+              "label": "Elephanta Caves",
+              "href": "/blog/elephanta-caves"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elsewhere",
+      "heading": "Beyond Maharashtra",
+      "items": [
+        {
+          "name": "Badami",
+          "body": [
+            "Four 6th-century cave temples cut into red sandstone above Agastya Lake, three Hindu and one Jain."
+          ],
+          "links": [
+            {
+              "label": "Badami, Aihole and Pattadakal",
+              "href": "/blog/badami-aihole-pattadakal-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Udayagiri and Khandagiri",
+          "body": [
+            "Jain caves on two hills near Bhubaneswar. The Hathigumpha inscription records King Kharavela of Kalinga, around the 1st century BCE."
+          ],
+          "links": [
+            {
+              "label": "Bhubaneswar guide",
+              "href": "/blog/bhubaneswar-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/odisha/bhubaneswar/udayagiri-and-khandagiri-caves-bhubaneswar.webp",
+            "alt": "Rock-cut Jain caves at Udayagiri, Bhubaneswar",
+            "caption": "Udayagiri and Khandagiri caves"
+          }
+        },
+        {
+          "name": "Barabar",
+          "body": [
+            "Granite caves from the Mauryan period, dedicated to the Ajivika sect, with mirror-polished walls and the carved doorway of Lomas Rishi."
+          ],
+          "links": [
+            {
+              "label": "Barabar Caves guide",
+              "href": "/blog/barabar-caves-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Mahabalipuram",
+          "body": [
+            "Pallava cave temples, the monolithic Pancha Rathas and the open-air relief known as Arjuna's Penance."
+          ],
+          "links": [
+            {
+              "label": "Mahabalipuram guide",
+              "href": "/blog/mahabalipuram-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "natural",
+      "heading": "Natural caves are different",
+      "paras": [
+        "Belum Caves in Andhra Pradesh and Borra Caves in the Araku valley are limestone caves formed over a very long time by water. They make good trips, but they belong to geology rather than architecture."
+      ],
+      "items": [
+        {
+          "name": "Natural caves",
+          "body": [
+            "Two worth a visit."
+          ],
+          "links": [
+            {
+              "label": "Belum Caves",
+              "href": "/blog/belum-caves-travel-guide"
+            },
+            {
+              "label": "Borra Caves",
+              "href": "/blog/borra-caves-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Ajanta is usually closed on Mondays and Ellora on Tuesdays; confirm before you go.",
+        "Allow a full day each for Ajanta and Ellora; they are about 100 km apart.",
+        "Paintings are fragile; flash photography is not allowed.",
+        "Carry a torch for dim interiors where permitted."
+      ]
+    },
+    {
+      "id": "how-made",
+      "heading": "How the caves were made",
+      "paras": [
+        "Carvers worked from the top down, cutting away rock and leaving pillars, beams and sculptures in place, so there was no room for mistakes. Early Buddhist chaitya halls, such as Karla and Bhaja, copy wooden architecture in stone, down to the curved ribs of the roof. Later caves at Ellora and Elephanta became full temples with shrines, courtyards and sculpted panels. Paintings, as at Ajanta, were applied on a prepared plaster surface over the rock."
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "A cave route in Maharashtra",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Mumbai: Elephanta by morning ferry; Kanheri another day"
+          ],
+          [
+            "2",
+            "Lonavala: Karla and Bhaja caves"
+          ],
+          [
+            "3",
+            "Chhatrapati Sambhajinagar: Ellora (not on Tuesdays)"
+          ],
+          [
+            "4",
+            "Ajanta (not on Mondays), then Aurangabad caves and Bibi ka Maqbara"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Timings, weekly closures and tickets are set by the ASI or state departments and change; check official sources before you go.",
+    "Do not touch paintings or carvings, and follow rules on flash photography and drones.",
+    "Steps at Ajanta and Kanheri can be slippery in the monsoon."
+  ],
+  "packing": [
+    "Comfortable shoes you can slip off where needed",
+    "Water",
+    "Small torch",
+    "Hat for the approach walks"
+  ],
+  "faqs": [
+    {
+      "q": "Which are the most famous caves in India?",
+      "a": "Ajanta, Ellora and Elephanta in Maharashtra are the best known."
+    },
+    {
+      "q": "What is the difference between Ajanta and Ellora?",
+      "a": "Ajanta is Buddhist and known for paintings; Ellora mixes Buddhist, Hindu and Jain caves and is known for its sculpture and the Kailasa temple."
+    },
+    {
+      "q": "Which are the oldest rock-cut caves in India?",
+      "a": "The Barabar caves in Bihar, from the Mauryan period in the 3rd century BCE, are among the earliest."
+    },
+    {
+      "q": "Which days are Ajanta and Ellora closed?",
+      "a": "Ajanta is usually closed on Mondays and Ellora on Tuesdays; check the ASI before you go."
+    },
+    {
+      "q": "Are Belum and Borra rock-cut caves?",
+      "a": "No, they are natural limestone caves."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage tourism in Maharashtra",
+      "href": "/blog/heritage-tourism-in-maharashtra"
+    },
+    {
+      "label": "Archaeological sites in India",
+      "href": "/blog/archaeological-sites-in-india"
+    },
+    {
+      "label": "Temple architecture of India",
+      "href": "/blog/temple-architecture-of-india"
+    },
+    {
+      "label": "Maharashtra tour packages",
+      "href": "/packages/maharashtra"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Elephanta Caves",
+      "href": "/blog/elephanta-caves",
+      "note": "by ferry from Mumbai"
+    },
+    {
+      "name": "Buddhist tourism in India",
+      "href": "/blog/buddhist-tourism-in-india",
+      "note": "monasteries and caves"
+    },
+    {
+      "name": "UNESCO sites in India",
+      "href": "/blog/unesco-world-heritage-sites-in-india",
+      "note": "the full list"
+    }
+  ],
+  "places": [
+    "Ajanta",
+    "Ellora",
+    "Elephanta",
+    "Karla",
+    "Bhaja",
+    "Kanheri",
+    "Badami",
+    "Udayagiri",
+    "Khandagiri",
+    "Barabar",
+    "Mahabalipuram"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

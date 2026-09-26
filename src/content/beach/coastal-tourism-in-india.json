@@ -1,0 +1,418 @@
+{
+  "slug": "coastal-tourism-in-india",
+  "kind": "pillar",
+  "short": "Coastal tourism in India",
+  "title": "Coastal Tourism in India: Backwaters, Lighthouses, Forts and Fishing Villages",
+  "seoTitle": "Coastal Tourism in India: Backwaters, Forts & More | Kudozz Club",
+  "metaDescription": "Coastal India beyond the beach: backwaters, sea forts, lighthouses, mangroves, fishing villages, coastal drives, cruises and seafood, with where to find each.",
+  "description": "A guide to coastal tourism in India beyond the beach: Kerala's backwaters, sea forts from Janjira to Sindhudurg and Bekal, lighthouses opened to visitors, mangrove forests such as the Sundarbans, Bhitarkanika and Pichavaram, fishing harbours and villages, coastal road trips, cruises, coastal cuisine and seasonal festivals.",
+  "dek": "India's coast is more than sand and sea. Here is how to explore its backwaters, forts, lighthouses, mangroves, harbours and food.",
+  "primaryKeyword": "coastal tourism in India",
+  "secondaryKeywords": [
+    "coastal destinations India",
+    "coastal road trips India",
+    "lighthouse tourism India",
+    "backwaters India",
+    "fishing villages India",
+    "coastal cruises India"
+  ],
+  "searchIntent": "Coastal experiences beyond the beach",
+  "activities": [
+    "backwaters",
+    "heritage",
+    "mangroves",
+    "lighthouses",
+    "cruises",
+    "food",
+    "dolphin watching"
+  ],
+  "terrain": [
+    "coast",
+    "backwaters",
+    "mangroves",
+    "forts"
+  ],
+  "regions": [
+    "India",
+    "West coast",
+    "East coast",
+    "Islands"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring",
+    "monsoon"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "solo",
+    "friends"
+  ],
+  "tags": [
+    "Coastal Tourism",
+    "Backwaters",
+    "Sea Forts",
+    "Lighthouses"
+  ],
+  "hero": {
+    "src": "/images/beach/coastal-india-chinese-fishing-nets.webp",
+    "alt": "Chinese fishing nets in the water at Fort Kochi, Kerala",
+    "caption": "Fort Kochi"
+  },
+  "parent": {
+    "label": "Beach Travel",
+    "href": "/beach-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Coastal tourism in India"
+  },
+  "intro": [
+    "Coastal tourism covers everything along the shore, not only the beach: lagoons and backwaters, estuaries and mangroves, sea forts and lighthouses, fishing harbours, coastal roads and ports. In India, these experiences are often more memorable than a day on the sand, and many of them are at their best in seasons when swimming is off the menu.",
+    "This guide covers the main types of coastal experience and where to find them. For beaches themselves, see best beaches in India and the state beach guides."
+  ],
+  "quickAnswer": "Coastal tourism in India includes Kerala's backwaters, sea forts such as Murud-Janjira, Sindhudurg, Aguada and Bekal, lighthouses opened to visitors, mangrove forests in the Sundarbans, Bhitarkanika and Pichavaram, fishing harbours and the Chinese nets of Kochi, coastal drives on the Konkan, Malabar and East Coast Road, cruises to Goa and Lakshadweep, and coastal food. Many of these are good in the monsoon, when beaches are closed to swimming.",
+  "takeaways": [
+    "Kerala's backwaters, explored by houseboat or canoe, are India's best-known coastal experience after the beaches.",
+    "Sea forts at Janjira, Sindhudurg, Aguada, Diu and Bekal combine history with sea views.",
+    "Many lighthouses have been opened to visitors with viewing galleries and museums.",
+    "Mangroves in the Sundarbans, Bhitarkanika and Pichavaram are explored by boat.",
+    "Coastal drives such as the Konkan coast and the East Coast Road make excellent road trips."
+  ],
+  "sections": [
+    {
+      "id": "backwaters",
+      "heading": "Backwaters, lagoons and estuaries",
+      "items": [
+        {
+          "name": "Kerala's backwaters",
+          "body": [
+            "A network of lakes, canals and rivers behind the coast, explored by houseboat around Alappuzha and Kumarakom, or by canoe through narrow canals at Munroe Island."
+          ],
+          "links": [
+            {
+              "label": "Kerala backwaters guide",
+              "href": "/blog/kerala-backwaters-travel-guide"
+            },
+            {
+              "label": "Things to do in Alleppey",
+              "href": "/blog/things-to-do-in-alleppey"
+            }
+          ]
+        },
+        {
+          "name": "Chilika Lake, Odisha",
+          "body": [
+            "Asia's largest brackish-water lagoon, with Irrawaddy dolphins near Satapada and migratory birds in winter."
+          ],
+          "links": [
+            {
+              "label": "Chilika Lake guide",
+              "href": "/blog/chilika-lake-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Goa's rivers and the Konkan creeks",
+          "body": [
+            "The Mandovi, Zuari and Sal rivers in Goa and the creeks of Sindhudurg are explored by boat and kayak."
+          ],
+          "links": [
+            {
+              "label": "Kayaking in India",
+              "href": "/blog/kayaking-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forts",
+      "heading": "Sea forts",
+      "table": {
+        "columns": [
+          "Fort",
+          "Where",
+          "How to visit"
+        ],
+        "rows": [
+          [
+            "Murud-Janjira",
+            "Raigad, Maharashtra",
+            "Sailboat from Rajpuri"
+          ],
+          [
+            "Kolaba",
+            "Alibaug, Maharashtra",
+            "Walk at low tide"
+          ],
+          [
+            "Sindhudurg",
+            "Malvan, Maharashtra",
+            "Boat from Malvan jetty"
+          ],
+          [
+            "Aguada",
+            "Candolim, Goa",
+            "By road"
+          ],
+          [
+            "Chapora",
+            "Vagator, Goa",
+            "Short climb"
+          ],
+          [
+            "Diu Fort",
+            "Diu",
+            "By road"
+          ],
+          [
+            "Bekal",
+            "Kasaragod, Kerala",
+            "By road"
+          ],
+          [
+            "Fort Dansborg",
+            "Tranquebar, Tamil Nadu",
+            "By road"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "lighthouses",
+      "heading": "Lighthouses",
+      "paras": [
+        "The Ministry of Ports, Shipping and Waterways has developed visitor facilities at dozens of lighthouses along the coast, with viewing galleries, small museums and cafes at some. Lighthouses such as Kovalam in Kerala and Kaup near Udupi are popular viewpoints. Opening hours are limited and some close on particular days, so check locally."
+      ],
+      "items": [
+        {
+          "name": "Lighthouses with beach views",
+          "body": [
+            "Kovalam (Kerala), Kaup (Karnataka), Dona Paula and Aguada area (Goa), Mahabalipuram (Tamil Nadu), Gopalpur (Odisha)."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Kerala",
+              "href": "/blog/best-beaches-in-kerala"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mangroves",
+      "heading": "Mangroves and coastal wildlife",
+      "items": [
+        {
+          "name": "The Sundarbans, West Bengal",
+          "body": [
+            "The world's largest mangrove forest, home to the Bengal tiger, explored by boat from the Sajnekhali side."
+          ],
+          "links": [
+            {
+              "label": "Things to do in the Sundarbans",
+              "href": "/blog/things-to-do-in-sundarbans"
+            }
+          ]
+        },
+        {
+          "name": "Bhitarkanika, Odisha",
+          "body": [
+            "Mangroves with a large population of saltwater crocodiles, near the Gahirmatha turtle coast."
+          ],
+          "links": [
+            {
+              "label": "Bhitarkanika guide",
+              "href": "/blog/bhitarkanika-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Pichavaram, Tamil Nadu",
+          "body": [
+            "Narrow channels through dense mangroves near Chidambaram, by rowing boat."
+          ]
+        },
+        {
+          "name": "Dolphin watching",
+          "body": [
+            "Boat trips to see dolphins in Goa, the Konkan and Chilika."
+          ],
+          "links": [
+            {
+              "label": "Dolphin watching in India",
+              "href": "/blog/dolphin-watching-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fishing",
+      "heading": "Fishing harbours and villages",
+      "paras": [
+        "Watching the catch come in is one of the most authentic coastal experiences: the Chinese fishing nets of Fort Kochi, the harbours of Malpe, Malvan and Shankarpur, and fish auctions at dawn. Recreational fishing trips are offered informally by boat owners in several places, but safety standards vary; wear a life jacket and avoid going out in rough weather.",
+        "Most of India's coast observes an annual fishing ban during the monsoon breeding season, when trawlers stay in harbour."
+      ],
+      "items": [
+        {
+          "name": "Fort Kochi",
+          "body": [
+            "Chinese fishing nets, colonial streets and a harbour-front walk."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kochi",
+              "href": "/blog/things-to-do-in-kochi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drives",
+      "heading": "Coastal road trips",
+      "table": {
+        "columns": [
+          "Route",
+          "Highlights"
+        ],
+        "rows": [
+          [
+            "Konkan coast (Mumbai to Goa)",
+            "Alibaug, Janjira, Ganpatipule, the Aare-Ware road, Tarkarli"
+          ],
+          [
+            "Coastal Karnataka",
+            "Karwar, Gokarna, Murudeshwar, Maravanthe, Udupi"
+          ],
+          [
+            "Malabar coast (Kerala)",
+            "Kozhikode, Muzhappilangad, Kannur, Bekal"
+          ],
+          [
+            "East Coast Road (Tamil Nadu)",
+            "Chennai, Covelong, Mahabalipuram, Pondicherry"
+          ],
+          [
+            "Vizag beach road (Andhra)",
+            "RK Beach, Rushikonda, Bheemili"
+          ],
+          [
+            "Odisha marine drive",
+            "Puri, Ramchandi, Chandrabhaga, Konark"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cruises",
+      "heading": "Cruises and ferries",
+      "paras": [
+        "Coastal cruises operate seasonally between Mumbai, Goa and Lakshadweep, and ship-based packages from Kochi visit the Lakshadweep islands. In the Andamans, ferries between Sri Vijaya Puram, Havelock and Neil are themselves a scenic journey. Schedules are seasonal and change often; check current sailings."
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Coastal food",
+      "list": [
+        "Goan fish curry-rice, xacuti and bebinca",
+        "Malvani seafood on the Konkan coast",
+        "Mangalorean and Udupi cuisine on the Karnataka coast",
+        "Kerala's karimeen pollichathu and appam with stew",
+        "Chettinad and Coromandel seafood in Tamil Nadu",
+        "Bengali fish curries and Digha's fried fish"
+      ]
+    }
+  ],
+  "safety": [
+    "Wear a life jacket on all boats, including houseboats and short ferries.",
+    "Do not take unlicensed boats out in rough weather or the monsoon.",
+    "Check tide times before walking to forts such as Kolaba.",
+    "Follow forest department rules in mangroves; crocodiles live in several of them."
+  ],
+  "faqs": [
+    {
+      "q": "What is coastal tourism?",
+      "a": "Travel along the coast beyond beaches: backwaters, sea forts, lighthouses, mangroves, harbours, coastal roads, cruises and food."
+    },
+    {
+      "q": "Where can I see sea forts in India?",
+      "a": "Murud-Janjira, Kolaba and Sindhudurg in Maharashtra, Aguada and Chapora in Goa, Diu Fort, Bekal in Kerala and Fort Dansborg in Tamil Nadu."
+    },
+    {
+      "q": "Can you visit lighthouses in India?",
+      "a": "Yes. Many lighthouses have visitor facilities; opening hours are limited."
+    },
+    {
+      "q": "Which coastal experiences are good in the monsoon?",
+      "a": "Kerala's backwaters, the green Konkan coast, coastal drives and food trails. Beaches are closed to swimming then."
+    },
+    {
+      "q": "Where can I see mangroves in India?",
+      "a": "The Sundarbans, Bhitarkanika, Pichavaram, and the mangroves of Goa and the Andamans."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Kerala backwaters guide",
+      "href": "/blog/kerala-backwaters-travel-guide"
+    },
+    {
+      "label": "Things to do in Kochi",
+      "href": "/blog/things-to-do-in-kochi"
+    },
+    {
+      "label": "Kochi travel guide",
+      "href": "/blog/kochi-travel-guide"
+    },
+    {
+      "label": "Kerala tour packages",
+      "href": "/packages/kerala"
+    }
+  ],
+  "related": [
+    {
+      "name": "Beach tourism in India",
+      "href": "/blog/beach-tourism-in-india",
+      "note": "how beaches are managed"
+    },
+    {
+      "name": "Dolphin watching in India",
+      "href": "/blog/dolphin-watching-in-india",
+      "note": "boat trips to see dolphins"
+    },
+    {
+      "name": "Best beaches in Maharashtra",
+      "href": "/blog/best-beaches-in-maharashtra",
+      "note": "the Konkan's forts and beaches"
+    }
+  ],
+  "places": [
+    "Alappuzha",
+    "Kumarakom",
+    "Munroe Island",
+    "Chilika Lake",
+    "Murud-Janjira",
+    "Kolaba Fort",
+    "Sindhudurg",
+    "Aguada",
+    "Chapora",
+    "Diu Fort",
+    "Bekal",
+    "Tranquebar",
+    "Kovalam lighthouse",
+    "Kaup",
+    "Sundarbans",
+    "Bhitarkanika",
+    "Pichavaram",
+    "Fort Kochi"
+  ],
+  "styles": [
+    "family-holidays"
+  ],
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,387 @@
+{
+  "slug": "river-rafting-in-rishikesh",
+  "kind": "activity",
+  "short": "River rafting in Rishikesh",
+  "title": "River Rafting in Rishikesh: Stretches, Rapids, Season and Safety",
+  "seoTitle": "River Rafting in Rishikesh: Stretches, Season & Safety | Kudozz Club",
+  "metaDescription": "River rafting in Rishikesh explained: the Brahmpuri, Shivpuri, Marine Drive and Kaudiyala stretches, rapid grades, the season, age rules and how to pick an operator.",
+  "description": "A practical guide to white-water rafting on the Ganga at Rishikesh: the four main stretches and their rapids, which one suits beginners, the rafting season and monsoon closure, what happens on the day, and safety checks before you book.",
+  "dek": "The Ganga above Rishikesh is India's busiest white-water river. Here is how the stretches differ, when the river is open and how to raft it safely.",
+  "primaryKeyword": "river rafting in Rishikesh",
+  "secondaryKeywords": [
+    "Rishikesh rafting stretches",
+    "Shivpuri rafting",
+    "Kaudiyala rafting",
+    "Marine Drive rafting",
+    "rafting season Rishikesh"
+  ],
+  "searchIntent": "Informational/pre-booking",
+  "activities": [
+    "rafting",
+    "camping",
+    "cliff jumping"
+  ],
+  "terrain": [
+    "river",
+    "mountains"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "North India"
+  ],
+  "seasons": [
+    "autumn",
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "beginners",
+    "friends",
+    "groups",
+    "couples"
+  ],
+  "tags": [
+    "River Rafting",
+    "Rishikesh",
+    "Uttarakhand",
+    "Ganga"
+  ],
+  "hero": {
+    "src": "/images/adventure/rishikesh-rafting-ganga-rapids.webp",
+    "alt": "A raft on the green Ganga below rocky cliffs at Rishikesh",
+    "caption": "Rafting at Rishikesh"
+  },
+  "parent": {
+    "label": "River Rafting in India",
+    "href": "/blog/river-rafting-in-india"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "White-water rafting on the Ganga, Rishikesh",
+    "containedIn": "Uttarakhand"
+  },
+  "intro": [
+    "Rishikesh sits where the Ganga leaves the Garhwal Himalaya for the plains, in Uttarakhand. For about 35 km upstream of the town, the river runs through a forested gorge with a string of rapids, sandy beaches and calm pools. That combination, plus the town's easy access from Delhi, has made Rishikesh the most popular place for white-water rafting in India.",
+    "Trips are sold by stretch, named after the put-in point: Brahmpuri, Shivpuri, Marine Drive and Kaudiyala. All finish near Rishikesh (usually at NIM Beach or near Laxman Jhula), so the longer the stretch, the more rapids and hours on the water. This guide explains how they differ, when rafting runs and what to check before booking. For the rest of the trip, from yoga to cafes and stays, see our Rishikesh travel guide."
+  ],
+  "quickAnswer": "River rafting in Rishikesh runs on the Ganga from roughly September to June and is suspended in the peak monsoon. First-timers usually choose the 16 km Shivpuri stretch, which has Grade II to III rapids and takes two to three hours. Kaudiyala, about 35 km, adds Grade III to IV rapids for fitter, more confident rafters. Book a government-licensed operator, wear the life jacket and helmet throughout, and follow the guide's commands.",
+  "takeaways": [
+    "Four common stretches: Brahmpuri (shortest, gentlest), Shivpuri, Marine Drive and Kaudiyala (longest, hardest).",
+    "Shivpuri is the usual first trip: about 16 km with named rapids such as Roller Coaster and Golf Course.",
+    "Rafting is paused in the peak monsoon, usually July and August, on state government orders.",
+    "Rapids are graded I to VI; Rishikesh rafting stays within Grade I to IV.",
+    "You do not need to swim, but you must wear a life jacket and helmet and listen to the guide."
+  ],
+  "sections": [
+    {
+      "id": "stretches",
+      "heading": "The rafting stretches compared",
+      "paras": [
+        "Distances below are approximate river kilometres to the usual take-out near Rishikesh. Operators vary the exact put-in and take-out points, and the rapids change with the water level, so treat grades as a guide rather than a guarantee."
+      ],
+      "table": {
+        "columns": [
+          "Stretch",
+          "Distance",
+          "Rapid grades",
+          "Time on water",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Brahmpuri",
+            "About 9 km",
+            "I to II",
+            "1 to 1.5 hours",
+            "Children above the operator's minimum age, nervous first-timers"
+          ],
+          [
+            "Shivpuri",
+            "About 16 km",
+            "II to III",
+            "2 to 3 hours",
+            "Most first-timers"
+          ],
+          [
+            "Marine Drive",
+            "About 24 km",
+            "II to IV",
+            "3 to 4 hours",
+            "Fit beginners who want more"
+          ],
+          [
+            "Kaudiyala",
+            "About 35 km",
+            "III to IV",
+            "4 to 5 hours or a full day",
+            "Confident, fit rafters"
+          ]
+        ]
+      },
+      "items": [
+        {
+          "name": "Brahmpuri",
+          "body": [
+            "The shortest and calmest stretch starts a few kilometres above Rishikesh. It has small rapids and long flat sections, so it suits families and anyone unsure about the water. It is also the stretch most operators use when the river is running high at the start or end of the season."
+          ],
+          "facts": {
+            "Difficulty": "Easy",
+            "Duration": "About 1 to 1.5 hours"
+          }
+        },
+        {
+          "name": "Shivpuri",
+          "body": [
+            "Shivpuri is the classic first rafting trip. Rafts put in near Shivpuri village, about 16 km upstream, and pass several named rapids, including Roller Coaster and Golf Course, along with calm pools where guides often let rafters float in the river in their life jackets. Many beach and riverside camps are in this area."
+          ],
+          "facts": {
+            "Difficulty": "Easy to moderate",
+            "Duration": "2 to 3 hours on the water",
+            "Good for": "First-timers, groups of friends"
+          }
+        },
+        {
+          "name": "Marine Drive",
+          "body": [
+            "Starting further up the valley, the Marine Drive stretch adds the rapids between Marine Drive and Shivpuri to the Shivpuri section. It is a good step up once you know you enjoy rafting and want a longer morning on the river."
+          ],
+          "facts": {
+            "Difficulty": "Moderate",
+            "Duration": "3 to 4 hours"
+          }
+        },
+        {
+          "name": "Kaudiyala",
+          "body": [
+            "The longest standard stretch starts at Kaudiyala, about 35 km upstream, and includes the hardest rapids on this part of the Ganga, such as The Wall, Three Blind Mice and Crossfire. Expect long paddling sections, cold water and a real chance of a swim if the raft flips. Operators may ask about fitness and past rafting before taking you."
+          ],
+          "facts": {
+            "Difficulty": "Challenging",
+            "Duration": "4 to 5 hours or more",
+            "Good for": "Fit rafters with some experience"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grades",
+      "heading": "What the rapid grades mean",
+      "paras": [
+        "Rapids are graded on the international scale from I (moving water with small waves) to VI (extreme and rarely run). Grade II rapids have clear channels and waves that splash the raft. Grade III has larger, irregular waves and needs steering. Grade IV rapids are powerful and need precise manoeuvring; a raft can flip.",
+        "On the Ganga at Rishikesh, commercial trips run Grade I to IV. The same rapid can feel very different in March, when the water is low and cold, and in September, when it is higher and pushier. Ask your operator how the river is running on the day."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "Rafting season in Rishikesh",
+      "table": {
+        "columns": [
+          "Months",
+          "River conditions",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "September to November",
+            "Water dropping after the monsoon, pushy and fun",
+            "Rafting reopens once the government allows it, often from September"
+          ],
+          [
+            "December to February",
+            "Low, clear and cold",
+            "Fewer crowds; wear a wetsuit or splash jacket if offered"
+          ],
+          [
+            "March to June",
+            "Warmer water, peak season",
+            "Busy on weekends and holidays; book ahead"
+          ],
+          [
+            "July to August",
+            "High, fast and muddy",
+            "Commercial rafting suspended on state orders"
+          ]
+        ]
+      },
+      "after": [
+        "The exact opening and closing dates are set by the Uttarakhand government each year and can shift with rainfall and river levels. If you are planning around the start or end of the monsoon, confirm with the operator before you travel."
+      ]
+    },
+    {
+      "id": "day",
+      "heading": "What happens on a rafting trip",
+      "list": [
+        "You meet the operator in Rishikesh and are driven up the river road to the put-in point.",
+        "The guide fits your life jacket and helmet and gives a safety briefing: how to sit, hold the paddle, the commands (forward, back, stop, get down) and what to do if you fall in.",
+        "Each raft usually carries six to eight people plus a guide at the back. Longer stretches often have a safety kayaker alongside.",
+        "You paddle through the rapids on the guide's commands, with calm sections in between. On some stretches there is a stop for body surfing or cliff jumping, depending on the water and the operator.",
+        "Trips end near Rishikesh, where you change and are dropped back. Keep a dry set of clothes in the vehicle or with the operator."
+      ]
+    },
+    {
+      "id": "who",
+      "heading": "Who can raft",
+      "paras": [
+        "You do not need to be able to swim for the shorter stretches, but you should be comfortable in water and able to follow instructions. Operators set their own minimum ages and are stricter on longer stretches; ask before booking if you are travelling with children or anyone over sixty.",
+        "Rafting is not advised if you are pregnant, have a heart condition, epilepsy, recent surgery or a back or shoulder injury. Most operators ask you to sign a declaration about health and alcohol; do not raft after drinking."
+      ]
+    },
+    {
+      "id": "operators",
+      "heading": "Choosing an operator",
+      "paras": [
+        "Rafting in Rishikesh is regulated by the Uttarakhand government, which licenses operators and guides. Prices are competitive and vary by stretch, season and whether transport, camping or meals are included, so compare what is included rather than the headline price."
+      ],
+      "list": [
+        "Ask to see the operator's licence and confirm guides are trained and certified.",
+        "Check that every raft has a trained guide and that a safety kayaker accompanies longer stretches.",
+        "Look at the equipment: life jackets that fit snugly, helmets, and rafts in good condition.",
+        "Read recent reviews for how the company handled briefings and safety, not only how much fun it was.",
+        "Avoid last-minute deals from touts on the street."
+      ]
+    },
+    {
+      "id": "combine",
+      "heading": "Combining rafting with the rest of Rishikesh",
+      "items": [
+        {
+          "name": "Riverside camping",
+          "body": [
+            "Camps along the Shivpuri stretch combine a rafting trip with a night by the river, a bonfire and sometimes a short forest walk. Check where the camp is located and what facilities it has."
+          ],
+          "links": [
+            {
+              "label": "Camping in India",
+              "href": "/blog/camping-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Bungee jumping and giant swing",
+          "body": [
+            "Jumpin Heights at Mohan Chatti, about 25 km from Rishikesh, runs an 83-metre bungee jump from a fixed platform, plus a giant swing and flying fox. Many visitors pair it with rafting over a weekend."
+          ],
+          "links": [
+            {
+              "label": "Bungee jumping in India",
+              "href": "/blog/bungee-jumping-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Easy walks and treks",
+          "body": [
+            "Neer Garh waterfall is a short walk from the Laxman Jhula area, and Kunjapuri Temple above Narendra Nagar is a popular sunrise drive and walk."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Rishikesh",
+              "href": "/blog/things-to-do-in-rishikesh"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety": [
+    "Wear your life jacket and helmet from the moment you get in the raft until you are out, even in calm water.",
+    "In the water after a flip, float on your back with feet pointing downstream and up at the surface, and wait for the guide's rope or the safety kayak.",
+    "Keep a firm grip on the paddle's T-grip; a loose paddle is the most common cause of facial injuries.",
+    "Do not raft after alcohol, and tell the guide about any medical condition.",
+    "Carry nothing you cannot afford to get wet; leave phones and valuables with the operator unless they give you a dry bag.",
+    "Apply sunscreen; the reflection off the water burns quickly, even in winter."
+  ],
+  "packing": [
+    "Quick-dry shorts or track pants and a synthetic T-shirt (no cotton or jeans)",
+    "Sandals with a heel strap or old sports shoes; flip-flops come off in the river",
+    "A thin fleece or splash jacket in winter",
+    "A full change of clothes and a towel for afterwards",
+    "Sunscreen, sunglasses with a strap and a cap",
+    "Cash for transport tips and snacks"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best rafting stretch in Rishikesh for beginners?",
+      "a": "Shivpuri, about 16 km with Grade II to III rapids, is the usual first trip. Brahmpuri is gentler and shorter if you are nervous or travelling with children."
+    },
+    {
+      "q": "When is rafting closed in Rishikesh?",
+      "a": "Commercial rafting is suspended during the peak monsoon, usually July and August, on the orders of the Uttarakhand government. Dates vary each year with the rain."
+    },
+    {
+      "q": "Do I need to know swimming for rafting in Rishikesh?",
+      "a": "No. Life jackets are compulsory and guides brief you on what to do if you fall in. You should be comfortable in water and able to follow instructions."
+    },
+    {
+      "q": "How long does Shivpuri rafting take?",
+      "a": "About two to three hours on the water, plus the drive to the put-in point and time for the briefing."
+    },
+    {
+      "q": "Is rafting in Rishikesh safe?",
+      "a": "It is generally safe with a licensed operator, trained guides, proper equipment and a clear briefing. Most accidents involve ignoring instructions, removing life jackets or rafting in poor conditions."
+    },
+    {
+      "q": "What is the hardest rafting stretch in Rishikesh?",
+      "a": "Kaudiyala to Rishikesh, about 35 km, with Grade III to IV rapids such as The Wall."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Rishikesh travel guide",
+      "href": "/blog/rishikesh-adventure-travel-guide"
+    },
+    {
+      "label": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh"
+    },
+    {
+      "label": "Rishikesh 5-day itinerary",
+      "href": "/blog/rishikesh-adventure-travel-guide#itinerary"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "River rafting in India",
+      "href": "/blog/river-rafting-in-india",
+      "note": "other rivers and seasons"
+    },
+    {
+      "name": "Bungee jumping in India",
+      "href": "/blog/bungee-jumping-in-india",
+      "note": "Jumpin Heights near Rishikesh"
+    },
+    {
+      "name": "Weekend adventure trips from Delhi",
+      "href": "/blog/weekend-adventure-trips-from-delhi",
+      "note": "Rishikesh as a weekend"
+    },
+    {
+      "name": "Adventure activities in Uttarakhand",
+      "href": "/blog/adventure-activities-in-uttarakhand",
+      "note": "treks, skiing and more in the state"
+    }
+  ],
+  "places": [
+    "Rishikesh",
+    "Shivpuri",
+    "Brahmpuri",
+    "Marine Drive",
+    "Kaudiyala",
+    "Ganga"
+  ],
+  "styles": [
+    "adventure-tours",
+    "weekend-getaways"
+  ],
+  "planDestination": "Rishikesh",
+  "updated": "2026-09-25"
+}

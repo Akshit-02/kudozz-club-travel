@@ -1,0 +1,397 @@
+{
+ "slug": "spiritual-tourism-in-karnataka",
+ "kind": "state",
+ "short": "Spiritual Karnataka",
+ "title": "Spiritual Tourism in Karnataka: Udupi, Dharmasthala, Shravanabelagola and Hampi",
+ "seoTitle": "Spiritual Places in Karnataka: Udupi & Dharmasthala | Kudozz Club",
+ "metaDescription": "Plan a spiritual trip in Karnataka: Udupi, Dharmasthala, Kukke Subramanya, Sringeri, Kollur, Gokarna, Murudeshwar, Shravanabelagola and Bylakuppe, with routes.",
+ "description": "A guide to spiritual tourism in Karnataka: Udupi's Krishna Matha, Dharmasthala, Kukke Subramanya, Sringeri's Sharada Peetham, Kollur Mookambika, Gokarna and Murudeshwar on the coast, Chamundi in Mysuru, the Hoysala temples, Hampi's Virupaksha, Shravanabelagola and the Tibetan monasteries of Bylakuppe, with coastal and hill routes.",
+ "dek": "Karnataka's temple routes run along the coast and through the Western Ghats, with Jain and Buddhist sites alongside.",
+ "primaryKeyword": "spiritual places in Karnataka",
+ "secondaryKeywords": [
+  "religious places in Karnataka",
+  "temples in Karnataka",
+  "pilgrimage places in Karnataka"
+ ],
+ "searchIntent": "State discovery/planning",
+ "activities": [
+  "temple visit",
+  "pilgrimage",
+  "Jain temples",
+  "monasteries"
+ ],
+ "terrain": [
+  "coast",
+  "hills",
+  "temple town"
+ ],
+ "regions": [
+  "Karnataka",
+  "South India"
+ ],
+ "seasons": [
+  "winter",
+  "spring",
+  "monsoon"
+ ],
+ "travellers": [
+  "families",
+  "senior travellers",
+  "couples"
+ ],
+ "tags": [
+  "Karnataka",
+  "Udupi",
+  "Dharmasthala",
+  "Sringeri"
+ ],
+ "hero": {
+  "src": "/images/spiritual/spiritual-karnataka-udupi-krishna.webp",
+  "alt": "The ornate entrance of the Sri Krishna Matha at Udupi, Karnataka"
+ },
+ "parent": {
+  "label": "Spiritual Tourism",
+  "href": "/spiritual-tourism"
+ },
+ "about": {
+  "type": "TouristDestination",
+  "name": "Spiritual Karnataka",
+  "containedIn": "Karnataka"
+ },
+ "intro": [
+  "Karnataka's best-known pilgrim circuit follows the coast and the Western Ghats: Udupi's Sri Krishna Matha, Dharmasthala's Manjunatha temple, Kukke Subramanya, Sringeri's Sharada Peetham, the Mookambika temple at Kollur, and the sea-facing shrines of Gokarna and Murudeshwar.",
+  "Inland are Mysuru's Chamundi hill temple, the Hoysala masterpieces of Belur and Halebidu, Hampi's living Virupaksha temple, the Jain town of Shravanabelagola, and Bylakuppe's Tibetan monasteries, the largest Tibetan settlement in south India."
+ ],
+ "quickAnswer": "Karnataka's main spiritual destinations are Udupi's Sri Krishna Matha, Dharmasthala, Kukke Subramanya, Sringeri, Kollur Mookambika, Gokarna and Murudeshwar on the coast, Chamundi hill in Mysuru, Hampi's Virupaksha temple, Shravanabelagola for Jains and Bylakuppe's Namdroling monastery. A coastal and Western Ghats temple route from Mangaluru takes about five to six days. October to March is the best time.",
+ "takeaways": [
+  "The coastal temple route runs from Mangaluru through Udupi, Kollur and Murudeshwar to Gokarna.",
+  "Dharmasthala, Kukke Subramanya and Sringeri lie in the Western Ghats, reached on winding roads.",
+  "Shravanabelagola is a major Jain site; Bylakuppe is a major Tibetan Buddhist settlement.",
+  "Mysuru's Dasara (September or October) is the state's biggest festival.",
+  "October to March is best; the monsoon is heavy on the coast."
+ ],
+ "sections": [
+  {
+   "id": "places",
+   "heading": "Main spiritual places",
+   "table": {
+    "columns": [
+     "Place",
+     "Tradition",
+     "Known for",
+     "Our guide"
+    ],
+    "rows": [
+     [
+      "Udupi",
+      "Hindu",
+      "Sri Krishna Matha; the Kanakana Kindi window",
+      "Udupi guide"
+     ],
+     [
+      "Dharmasthala",
+      "Hindu",
+      "Manjunatha temple; free meals for pilgrims",
+      "Covered here"
+     ],
+     [
+      "Kukke Subramanya",
+      "Hindu",
+      "Subramanya temple in the Western Ghats",
+      "Covered here"
+     ],
+     [
+      "Sringeri",
+      "Hindu",
+      "Sharada Peetham on the Tunga",
+      "Covered here"
+     ],
+     [
+      "Kollur",
+      "Hindu",
+      "Mookambika temple",
+      "Covered here"
+     ],
+     [
+      "Gokarna and Murudeshwar",
+      "Hindu",
+      "Mahabaleshwar temple; giant Shiva statue by the sea",
+      "Gokarna guide"
+     ],
+     [
+      "Shravanabelagola",
+      "Jain",
+      "Gommateshwara statue",
+      "Shravanabelagola guide"
+     ],
+     [
+      "Bylakuppe",
+      "Buddhist",
+      "Namdroling monastery",
+      "Covered here"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "highlights",
+   "heading": "Highlights",
+   "items": [
+    {
+     "name": "Udupi",
+     "body": [
+      "The Krishna Matha, where the deity is viewed through a small window associated with the saint Kanakadasa, surrounded by the eight mathas founded by Madhvacharya."
+     ],
+     "links": [
+      {
+       "label": "Udupi guide",
+       "href": "/blog/udupi-travel-guide"
+      },
+      {
+       "label": "Things to do in Udupi",
+       "href": "/blog/things-to-do-in-udupi"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/karnataka/udupi/sri-krishna-matha-udupi.webp",
+      "alt": "The Sri Krishna Matha in Udupi, Karnataka",
+      "caption": "Sri Krishna Matha, Udupi"
+     }
+    },
+    {
+     "name": "Dharmasthala and Kukke Subramanya",
+     "body": [
+      "Two major Western Ghats shrines about 50 km apart. Dharmasthala's Manjunatha temple is administered by a Jain family and serves free meals to pilgrims."
+     ],
+     "facts": {
+      "Nearest city": "Mangaluru"
+     }
+    },
+    {
+     "name": "Sringeri and Kollur",
+     "body": [
+      "The Sharada Peetham at Sringeri, traditionally linked with Adi Shankaracharya, and the Mookambika temple at Kollur below the Kodachadri hills."
+     ]
+    },
+    {
+     "name": "Gokarna and Murudeshwar",
+     "body": [
+      "The Mahabaleshwar temple at Gokarna and Murudeshwar's giant seated Shiva on a headland."
+     ],
+     "links": [
+      {
+       "label": "Gokarna guide",
+       "href": "/blog/gokarna-beaches-travel-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "inland",
+   "heading": "Inland sites",
+   "items": [
+    {
+     "name": "Mysuru",
+     "body": [
+      "Chamundeshwari temple on Chamundi hill, counted among the Shakti Peethas, and the Dasara festival."
+     ],
+     "links": [
+      {
+       "label": "Things to do in Mysore",
+       "href": "/blog/things-to-do-in-mysore"
+      }
+     ]
+    },
+    {
+     "name": "Hampi",
+     "body": [
+      "The Virupaksha temple is still in worship among the ruins of Vijayanagara."
+     ],
+     "links": [
+      {
+       "label": "Hampi guide",
+       "href": "/blog/hampi-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Shravanabelagola and the Hoysala temples",
+     "body": [
+      "Gommateshwara on Vindhyagiri, and the carved temples of Belur and Halebidu."
+     ],
+     "links": [
+      {
+       "label": "Shravanabelagola guide",
+       "href": "/blog/shravanabelagola-gommateshwara"
+      }
+     ]
+    },
+    {
+     "name": "Bylakuppe",
+     "body": [
+      "The Namdroling monastery's golden temple in a Tibetan settlement near Kushalnagar."
+     ],
+     "links": [
+      {
+       "label": "Coorg guide",
+       "href": "/blog/coorg-travel-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "route",
+   "heading": "Suggested routes",
+   "table": {
+    "columns": [
+     "Route",
+     "Days",
+     "Places"
+    ],
+    "rows": [
+     [
+      "Coastal temples",
+      "4 to 5",
+      "Mangaluru, Udupi, Kollur, Murudeshwar, Gokarna"
+     ],
+     [
+      "Western Ghats temples",
+      "3 to 4",
+      "Dharmasthala, Kukke Subramanya, Sringeri, Horanadu"
+     ],
+     [
+      "Mysuru and Hoysala",
+      "3 to 4",
+      "Mysuru, Shravanabelagola, Belur, Halebidu"
+     ],
+     [
+      "North Karnataka",
+      "2 to 3",
+      "Hampi and nearby temples"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "stays",
+   "heading": "Stays and tips",
+   "list": [
+    "Udupi and Mangaluru have the most hotels for the coastal route.",
+    "Dharmasthala and Kukke Subramanya have temple-run guesthouses as well as private lodges.",
+    "Many coastal temples require traditional dress for men, often a dhoti without a shirt, inside the inner shrine.",
+    "Temples in the Ghats are reached on winding roads; allow extra time and avoid night driving in the monsoon."
+   ]
+  }
+ ],
+ "safety": [
+  "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+  "Dress modestly and follow each temple's rules on dress, phones and photography.",
+  "Coastal seas are rough in the monsoon; do not swim at Gokarna or Murudeshwar when flags are up.",
+  "Drive carefully on Ghat roads, especially in rain and fog."
+ ],
+ "packing": [
+  "Dhoti or mundu for men; saree or long dress for women",
+  "Rain jacket in the monsoon",
+  "Slip-on footwear",
+  "Light cotton clothing"
+ ],
+ "faqs": [
+  {
+   "q": "Can I visit Hampi's Virupaksha temple?",
+   "a": "Yes. It is still in active worship among the Vijayanagara ruins."
+  },
+  {
+   "q": "Which are the main temples in coastal Karnataka?",
+   "a": "Udupi, Kollur Mookambika, Murudeshwar and Gokarna, with Dharmasthala and Kukke Subramanya inland."
+  },
+  {
+   "q": "How many days are needed for the Karnataka coastal temple tour?",
+   "a": "About four to five days from Mangaluru."
+  },
+  {
+   "q": "What is special about Dharmasthala?",
+   "a": "Its Manjunatha temple is administered by a Jain family, and free meals are served to pilgrims."
+  },
+  {
+   "q": "Where is the Tibetan monastery in Karnataka?",
+   "a": "At Bylakuppe near Kushalnagar, where the Namdroling monastery is known for its golden temple."
+  },
+  {
+   "q": "Is there a dress code at Udupi Krishna Matha?",
+   "a": "Men are usually asked to remove shirts for some areas and rituals; follow the notices at the entrance."
+  },
+  {
+   "q": "How far is Sringeri from Udupi?",
+   "a": "About 80 km, around two and a half hours through the Ghats."
+  },
+  {
+   "q": "When is Mysuru Dasara?",
+   "a": "In September or October; check the dates for the year."
+  }
+ ],
+ "nextSteps": [
+  {
+   "label": "Things to do in Udupi",
+   "href": "/blog/things-to-do-in-udupi"
+  },
+  {
+   "label": "Things to do in Mangalore",
+   "href": "/blog/things-to-do-in-mangalore"
+  },
+  {
+   "label": "Karnataka travel guide",
+   "href": "/blog/karnataka-travel-guide"
+  },
+  {
+   "label": "Karnataka tour packages",
+   "href": "/packages/karnataka"
+  },
+  {
+   "label": "Spiritual tour packages",
+   "href": "/packages/spiritual-tours"
+  }
+ ],
+ "related": [
+  {
+   "name": "Jain pilgrimage in India",
+   "href": "/blog/jain-pilgrimage-in-india",
+   "note": "Shravanabelagola and more"
+  },
+  {
+   "name": "Buddhist tourism in India",
+   "href": "/blog/buddhist-tourism-in-india",
+   "note": "Bylakuppe and more"
+  },
+  {
+   "name": "Famous temples in India",
+   "href": "/blog/famous-temples-in-india",
+   "note": "region by region"
+  },
+  {
+   "name": "Heritage tourism in Karnataka",
+   "href": "/blog/heritage-tourism-in-karnataka",
+   "note": "forts, monuments and crafts"
+  }
+ ],
+ "places": [
+  "Udupi",
+  "Dharmasthala",
+  "Kukke Subramanya",
+  "Sringeri",
+  "Kollur",
+  "Gokarna",
+  "Murudeshwar",
+  "Mysuru",
+  "Hampi",
+  "Shravanabelagola",
+  "Bylakuppe"
+ ],
+ "styles": [
+  "spiritual-tours",
+  "family-holidays"
+ ],
+ "planDestination": "Karnataka",
+ "updated": "2026-09-26"
+}

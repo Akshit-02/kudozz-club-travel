@@ -1,0 +1,414 @@
+{
+  "slug": "desert-adventures-in-india",
+  "kind": "activity",
+  "short": "Desert adventures in India",
+  "title": "Desert Adventures in India: Thar, Rann and Cold Deserts",
+  "seoTitle": "Desert Adventures in India: Thar, Rann & Cold Deserts | Kudozz Club",
+  "metaDescription": "Desert adventures in India: camel safaris and dune camps near Jaisalmer and Bikaner, the white Rann of Kutch, Bactrian camels in Nubra and when to go.",
+  "description": "A guide to desert adventures in India: camel safaris, jeep rides and dune camps in the Thar around Jaisalmer, Bikaner and Osian, the white salt desert and Rann Utsav in Kutch, wild ass safaris in the Little Rann, and the cold deserts of Nubra and Spiti.",
+  "dek": "India has hot sand deserts, a salt desert and high cold deserts. Here is how to experience each, from camel treks to nights under the stars.",
+  "primaryKeyword": "desert adventures in India",
+  "secondaryKeywords": [
+    "camel safari in Rajasthan",
+    "dune bashing Jaisalmer",
+    "desert camping",
+    "Nubra camel safari",
+    "Rann of Kutch"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "camel safari",
+    "jeep safari",
+    "desert camping",
+    "stargazing"
+  ],
+  "terrain": [
+    "desert",
+    "salt flats",
+    "high desert"
+  ],
+  "regions": [
+    "Rajasthan",
+    "Gujarat",
+    "Ladakh",
+    "Himachal Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "summer"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tags": [
+    "Desert",
+    "Camel Safari",
+    "Jaisalmer",
+    "Rann of Kutch"
+  ],
+  "hero": {
+    "src": "/images/adventure/thar-desert-dunes-jaisalmer.webp",
+    "alt": "Rippled sand dunes at Sam near Jaisalmer",
+    "caption": "Sam dunes, Jaisalmer"
+  },
+  "parent": {
+    "label": "Best Adventure Destinations in India",
+    "href": "/blog/best-adventure-destinations-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Desert adventures in India"
+  },
+  "intro": [
+    "The Thar Desert covers much of western Rajasthan and spills into Gujarat. Its dunes, forts and villages make it India's main hot-desert destination, with camel safaris and tent camps around Jaisalmer, Bikaner and the villages near Jodhpur. Further south, the Great Rann of Kutch in Gujarat is a vast seasonal salt desert that turns white in winter.",
+    "India also has cold deserts high in the Himalaya: Ladakh's Nubra Valley, with its sand dunes and two-humped Bactrian camels, and the barren landscapes of Spiti. This guide covers what to do in each and when to go."
+  ],
+  "quickAnswer": "The best desert adventures in India are camel safaris and dune camps at Sam and Khuri near Jaisalmer, camel treks around Bikaner and Osian, the white salt desert and Rann Utsav at Dhordo in the Great Rann of Kutch, jeep safaris for wild ass in the Little Rann, and Bactrian camel rides on the Hunder dunes in Nubra Valley. The Thar and Kutch are best from about October to March; Nubra from about May to September.",
+  "takeaways": [
+    "Jaisalmer is the base for Thar dunes at Sam (busy) and Khuri (quieter).",
+    "The Great Rann of Kutch is white and dry from about November to February, when the Rann Utsav runs.",
+    "The Little Rann of Kutch is home to the Indian wild ass, seen on jeep safaris.",
+    "Nubra Valley in Ladakh has sand dunes and Bactrian camels at Hunder, reached over Khardung La.",
+    "Avoid the Thar in the hot months from April to June."
+  ],
+  "sections": [
+    {
+      "id": "thar",
+      "heading": "The Thar Desert, Rajasthan",
+      "items": [
+        {
+          "name": "Sam and Khuri, near Jaisalmer",
+          "body": [
+            "Sam, about 40 km west of Jaisalmer, has the best-known dunes, with camel rides, jeep drives, cultural evenings and a large number of tent camps; it is busy at sunset. Khuri, to the south-west, is quieter with smaller camps and village stays."
+          ],
+          "facts": {
+            "Season": "October to March",
+            "Good for": "Families, couples, first-timers"
+          },
+          "links": [
+            {
+              "label": "Things to do in Jaisalmer",
+              "href": "/blog/things-to-do-in-jaisalmer"
+            },
+            {
+              "label": "Rajasthan desert guide",
+              "href": "/blog/rajasthan-desert-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/jaisalmer/sam-sand-dunes-camel-safari.webp",
+            "alt": "Camel safari on the Sam sand dunes near Jaisalmer",
+            "caption": "Sam dunes"
+          }
+        },
+        {
+          "name": "Overnight camel safaris",
+          "body": [
+            "Longer camel treks leave from Jaisalmer and nearby villages, riding for several hours a day between villages and sleeping on the dunes under the stars. Ask exactly how many hours you will ride and where you will sleep."
+          ],
+          "facts": {
+            "Duration": "1 to 3 days",
+            "Good for": "Adventurous travellers"
+          }
+        },
+        {
+          "name": "Jeep rides and dune driving",
+          "body": [
+            "Jeep and 4x4 dune drives run at Sam and other dune areas. Choose an operator with roll-bar-equipped vehicles and a careful driver, and skip it if you have back or neck problems."
+          ],
+          "facts": {
+            "Good to know": "Can be rough on the back"
+          }
+        },
+        {
+          "name": "Bikaner and Osian",
+          "body": [
+            "Bikaner offers camel safaris, the National Research Centre on Camel and the dunes around the city. Osian, about 65 km from Jodhpur, has temples and dunes with camel rides and camps."
+          ],
+          "facts": {
+            "Season": "October to March"
+          },
+          "links": [
+            {
+              "label": "Bikaner travel guide",
+              "href": "/blog/bikaner-travel-guide"
+            },
+            {
+              "label": "Osian travel guide",
+              "href": "/blog/osian-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Border roads and the Desert National Park",
+          "body": [
+            "From Jaisalmer, drives lead to Longewala, site of a 1971 battle, and the Tanot Mata temple near the Pakistan border. The Desert National Park, home to the endangered great Indian bustard, lies south-west of Jaisalmer."
+          ],
+          "facts": {
+            "Good for": "Road trippers, birdwatchers"
+          },
+          "links": [
+            {
+              "label": "Best motorcycle trips in India",
+              "href": "/blog/best-motorcycle-trips-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kutch",
+      "heading": "The Rann of Kutch, Gujarat",
+      "items": [
+        {
+          "name": "The Great Rann and the Rann Utsav",
+          "body": [
+            "In winter, the salt flats around Dhordo dry into a white, cracked plain that stretches to the horizon. The Rann Utsav festival, with its tent city and cultural programmes, runs through much of the winter. Full-moon nights on the white Rann are especially popular. A permit, usually issued online or at a checkpost, is needed to visit the white Rann."
+          ],
+          "facts": {
+            "Season": "About November to February",
+            "Good for": "Families, photographers"
+          },
+          "links": [
+            {
+              "label": "Rann of Kutch guide",
+              "href": "/blog/rann-of-kutch-travel-guide"
+            },
+            {
+              "label": "Things to do in Kutch",
+              "href": "/blog/things-to-do-in-kutch"
+            }
+          ]
+        },
+        {
+          "name": "The Little Rann and the wild ass",
+          "body": [
+            "The Little Rann of Kutch is home to the Indian wild ass (khur), protected in the Wild Ass Sanctuary. Jeep safaris from villages such as Dasada cross the flats to see herds of wild ass, flamingos and other birds in winter."
+          ],
+          "facts": {
+            "Season": "October to March",
+            "Good for": "Wildlife lovers"
+          }
+        },
+        {
+          "name": "Dholavira",
+          "body": [
+            "The Harappan city of Dholavira sits on Khadir Bet island in the Great Rann, reached by a causeway road across the flats, one of India's most striking drives."
+          ],
+          "facts": {
+            "Season": "November to February"
+          },
+          "links": [
+            {
+              "label": "Dholavira travel guide",
+              "href": "/blog/dholavira-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "heading": "Cold deserts in the Himalaya",
+      "items": [
+        {
+          "name": "Nubra Valley, Ladakh",
+          "body": [
+            "Across Khardung La from Leh, Nubra's valley floor has sand dunes at Hunder where visitors ride Bactrian (two-humped) camels, descendants of animals used on the old trade routes to Central Asia. Camps and guesthouses make it an overnight stop."
+          ],
+          "facts": {
+            "Season": "About May to September",
+            "Good for": "Road trips in Ladakh"
+          },
+          "links": [
+            {
+              "label": "Nubra Valley guide",
+              "href": "/blog/nubra-valley-travel-guide"
+            },
+            {
+              "label": "Things to do in Nubra Valley",
+              "href": "/blog/things-to-do-in-nubra-valley"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp",
+            "alt": "Bactrian camels on the Hunder sand dunes in Nubra Valley",
+            "caption": "Hunder, Nubra Valley"
+          }
+        },
+        {
+          "name": "Spiti, Himachal Pradesh",
+          "body": [
+            "Spiti's high, dry landscape of scree slopes and fossil-bearing rocks makes it India's other cold desert, explored by road, on foot and by motorcycle."
+          ],
+          "facts": {
+            "Season": "About June to September"
+          },
+          "links": [
+            {
+              "label": "Spiti Valley bike trip",
+              "href": "/blog/spiti-valley-bike-trip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Deserts compared",
+      "table": {
+        "columns": [
+          "Desert",
+          "Type",
+          "Best months",
+          "Main activities"
+        ],
+        "rows": [
+          [
+            "Thar (Jaisalmer, Bikaner, Osian)",
+            "Hot sand desert",
+            "October to March",
+            "Camel safaris, dune camps, jeep rides"
+          ],
+          [
+            "Great Rann of Kutch",
+            "Salt desert",
+            "November to February",
+            "White Rann, Rann Utsav, Dholavira"
+          ],
+          [
+            "Little Rann of Kutch",
+            "Salt and scrub flats",
+            "October to March",
+            "Wild ass jeep safaris, birding"
+          ],
+          [
+            "Nubra Valley",
+            "High cold desert",
+            "May to September",
+            "Bactrian camel rides, dunes"
+          ],
+          [
+            "Spiti",
+            "High cold desert",
+            "June to September",
+            "Road trips, treks, monasteries"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "festivals",
+      "heading": "Desert festivals",
+      "paras": [
+        "The Jaisalmer Desert Festival is held in winter, usually around the full moon in January or February, with camel races, music and folk performances at the fort and on the Sam dunes. The Pushkar camel fair, in October or November, draws camel traders and visitors from across the country, and the Bikaner Camel Festival is held in January. Dates follow the lunar calendar, so check each year."
+      ]
+    }
+  ],
+  "safety": [
+    "Avoid the Thar from April to June, when temperatures can exceed 45 degrees Celsius.",
+    "Carry plenty of water, a hat and sunscreen on dune trips, and cover up at night; desert nights are cold in winter.",
+    "Check camel saddles and ask for a gentle animal if you are a first-time rider.",
+    "On jeep dune drives, wear the seatbelt and ask the driver to go easy if you are uncomfortable.",
+    "In Nubra, acclimatise in Leh first; Hunder is above 3,000 metres and Khardung La much higher.",
+    "Carry ID; parts of the desert near the border have security checkpoints."
+  ],
+  "packing": [
+    "Sunglasses, hat and scarf against sun and sand",
+    "Sunscreen and lip balm",
+    "Warm layers for winter nights",
+    "Closed shoes or sandals for hot sand",
+    "A torch for camps"
+  ],
+  "faqs": [
+    {
+      "q": "Where is the best desert safari in India?",
+      "a": "Jaisalmer is the best base, with camel and jeep safaris at Sam and Khuri. Bikaner and Osian are quieter alternatives."
+    },
+    {
+      "q": "When is the best time to visit the Thar Desert?",
+      "a": "October to March, when days are warm and nights cool."
+    },
+    {
+      "q": "When is the Rann of Kutch white?",
+      "a": "From about November to February, when the salt flats dry out after the monsoon."
+    },
+    {
+      "q": "Where can I ride a Bactrian camel in India?",
+      "a": "On the Hunder sand dunes in Nubra Valley, Ladakh."
+    },
+    {
+      "q": "Is an overnight camel safari safe?",
+      "a": "With an established operator, yes. Ask what is included, how many hours you ride, and where you sleep and eat."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Jaisalmer",
+      "href": "/blog/things-to-do-in-jaisalmer"
+    },
+    {
+      "label": "Rajasthan desert guide",
+      "href": "/blog/rajasthan-desert-travel-guide"
+    },
+    {
+      "label": "Rajasthan desert itinerary",
+      "href": "/blog/rajasthan-desert-travel-guide#itinerary"
+    },
+    {
+      "label": "Rajasthan tour packages",
+      "href": "/packages/rajasthan"
+    },
+    {
+      "label": "Gujarat tour packages",
+      "href": "/packages/gujarat"
+    }
+  ],
+  "related": [
+    {
+      "name": "Camping in India",
+      "href": "/blog/camping-in-india",
+      "note": "desert and mountain camps"
+    },
+    {
+      "name": "Hot air balloon rides in India",
+      "href": "/blog/hot-air-balloon-rides-in-india",
+      "note": "ballooning over Rajasthan"
+    },
+    {
+      "name": "Best adventure destinations in India",
+      "href": "/blog/best-adventure-destinations-in-india",
+      "note": "where else to go"
+    },
+    {
+      "name": "Wildlife tourism in Gujarat",
+      "href": "/blog/wildlife-tourism-in-gujarat",
+      "note": "wild ass and flamingos in the Rann"
+    }
+  ],
+  "places": [
+    "Jaisalmer",
+    "Sam",
+    "Khuri",
+    "Bikaner",
+    "Osian",
+    "Longewala",
+    "Tanot",
+    "Desert National Park",
+    "Dhordo",
+    "Great Rann of Kutch",
+    "Little Rann of Kutch",
+    "Dholavira",
+    "Nubra Valley",
+    "Hunder",
+    "Spiti"
+  ],
+  "styles": [
+    "family-holidays",
+    "adventure-tours"
+  ],
+  "planDestination": "Jaisalmer",
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,331 @@
+{
+  "slug": "hemkund-sahib-yatra",
+  "kind": "destination",
+  "short": "Hemkund Sahib Yatra",
+  "title": "Hemkund Sahib Yatra: Trek Route, Dates and Registration",
+  "seoTitle": "Hemkund Sahib Yatra: Trek Route, Dates & Registration | Kudozz Club",
+  "metaDescription": "Plan the Hemkund Sahib Yatra: 2026 dates, mandatory registration, the trek from Govindghat via Ghangaria, helicopter options, the Valley of Flowers and what to pack.",
+  "description": "A planning guide to Hemkund Sahib in Chamoli district, Uttarakhand: the gurdwara and lake, the 2026 season, mandatory registration, the route from Rishikesh to Govindghat, the trek via Ghangaria, helicopter options, same-day return, combining it with the Valley of Flowers and Badrinath, and advice on altitude.",
+  "dek": "Hemkund Sahib is a gurdwara beside a glacial lake at over 4,500 m, reached on a steep summer trek through the Bhyundar valley.",
+  "primaryKeyword": "Hemkund Sahib yatra",
+  "secondaryKeywords": [
+    "Hemkund Sahib trek",
+    "Hemkund Sahib opening date",
+    "Govindghat to Hemkund Sahib"
+  ],
+  "searchIntent": "Destination planning",
+  "activities": [
+    "gurdwaras",
+    "trekking",
+    "Sikh heritage",
+    "pilgrimage route"
+  ],
+  "terrain": [
+    "mountains",
+    "lake"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "North India"
+  ],
+  "seasons": [
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "groups",
+    "families",
+    "solo travellers"
+  ],
+  "tags": [
+    "Hemkund Sahib",
+    "Sikh",
+    "Uttarakhand",
+    "Trek"
+  ],
+  "hero": {
+    "src": "/images/spiritual/hemkund-sahib-gurdwara-lake.webp",
+    "alt": "Gurdwara Hemkund Sahib beside the glacial lake in mist, Uttarakhand"
+  },
+  "parent": {
+    "label": "Sikh Pilgrimage in India",
+    "href": "/blog/sikh-pilgrimage-in-india"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Gurdwara Hemkund Sahib",
+    "containedIn": "Uttarakhand"
+  },
+  "intro": [
+    "Gurdwara Sri Hemkund Sahib stands beside Hemkund lake in the Garhwal Himalaya, at an altitude of over 4,500 m. Sikh tradition, based on the Bachittar Natak, identifies it with the place where Guru Gobind Singh meditated in a previous life. A small Lakshman temple stands by the same lake.",
+    "The gurdwara is open only in summer, after the snow on the path is cleared. Pilgrims trek up from Govindghat via the base camp of Ghangaria, which is also the starting point for the Valley of Flowers."
+  ],
+  "quickAnswer": "Hemkund Sahib is open from late May to early October (23 May to 10 October announced for 2026). Registration on the Uttarakhand portal is mandatory. From Govindghat, pilgrims go to Pulna by road, trek about 10 km to Ghangaria, then climb about 6 km steeply to Hemkund and return to Ghangaria the same day. Helicopters fly between Govindghat and Ghangaria in good weather.",
+  "takeaways": [
+    "The 2026 season was announced as 23 May to 10 October.",
+    "Registration on the Uttarakhand government portal is mandatory.",
+    "Base camp is Ghangaria; the final climb is about 6 km and steep.",
+    "Pilgrims do not stay overnight at Hemkund; return to Ghangaria the same day.",
+    "The Valley of Flowers can be visited from Ghangaria, usually from June."
+  ],
+  "sections": [
+    {
+      "id": "route",
+      "heading": "The route",
+      "table": {
+        "columns": [
+          "Stage",
+          "Distance (about)",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Rishikesh to Govindghat",
+            "270 km by road",
+            "Via Devprayag, Rudraprayag and Joshimath; one long day or two shorter ones"
+          ],
+          [
+            "Govindghat to Pulna",
+            "4 km",
+            "By shared vehicle"
+          ],
+          [
+            "Pulna to Ghangaria",
+            "10 km trek",
+            "Ponies and porters available; helicopter from Govindghat in good weather"
+          ],
+          [
+            "Ghangaria to Hemkund Sahib",
+            "6 km, steep",
+            "Start early; ponies available on the main path"
+          ],
+          [
+            "Return to Ghangaria",
+            "6 km",
+            "Same day; no overnight stay at Hemkund"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gurdwara",
+      "heading": "At Hemkund",
+      "paras": [
+        "The gurdwara serves hot tea and langar to pilgrims. Many pilgrims take a dip in the icy lake before prayers. The weather changes quickly at this altitude, so most people spend an hour or two before starting down in the early afternoon."
+      ],
+      "items": [
+        {
+          "name": "At a glance",
+          "body": [
+            "Key facts for visitors."
+          ],
+          "facts": {
+            "Altitude": "Over 4,500 m",
+            "District": "Chamoli, Uttarakhand",
+            "Season (2026)": "23 May to 10 October",
+            "Base camp": "Ghangaria"
+          },
+          "image": {
+            "src": "/images/blogs/uttarakhand/valley-of-flowers/hemkund-sahib-gurudwara-lake.webp",
+            "alt": "Gurdwara Hemkund Sahib beside Hemkund lake in the Garhwal Himalaya",
+            "caption": "Hemkund Sahib"
+          }
+        }
+      ]
+    },
+    {
+      "id": "registration",
+      "heading": "Registration and helicopters",
+      "list": [
+        "Register on the Uttarakhand government portal (the same system as the Char Dham Yatra); daily numbers may be capped.",
+        "Helicopter tickets between Govindghat and Ghangaria are listed on IRCTC HeliYatra and depend on weather.",
+        "Book Ghangaria stays early for June weekends.",
+        "Carry the registration and ID; they are checked on the route."
+      ]
+    },
+    {
+      "id": "combine",
+      "heading": "Combine it with",
+      "items": [
+        {
+          "name": "Valley of Flowers",
+          "body": [
+            "A national park and UNESCO site reached from Ghangaria, best in July and August for flowers."
+          ],
+          "links": [
+            {
+              "label": "Valley of Flowers guide",
+              "href": "/blog/valley-of-flowers-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Badrinath",
+          "body": [
+            "About 25 km beyond Govindghat by road."
+          ],
+          "links": [
+            {
+              "label": "Badrinath guide",
+              "href": "/blog/badrinath-travel-guide"
+            },
+            {
+              "label": "Kedarnath and Badrinath Yatra",
+              "href": "/blog/kedarnath-badrinath-yatra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "heading": "A 6-day plan",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Rishikesh to Joshimath or Govindghat"
+          ],
+          [
+            "2",
+            "Trek (or fly) to Ghangaria"
+          ],
+          [
+            "3",
+            "Hemkund Sahib and back to Ghangaria"
+          ],
+          [
+            "4",
+            "Valley of Flowers (from June), or rest"
+          ],
+          [
+            "5",
+            "Down to Govindghat; Badrinath"
+          ],
+          [
+            "6",
+            "Drive back to Rishikesh"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ghangaria",
+      "heading": "Ghangaria base camp",
+      "paras": [
+        "Ghangaria is a small seasonal settlement at the meeting of the paths to Hemkund Sahib and the Valley of Flowers. It has a large gurdwara that offers shelter and langar, plus hotels and guesthouses that open only for the season. Rooms are basic and fill quickly in June; book ahead and carry cash, as ATMs and card payments are unreliable."
+      ]
+    },
+    {
+      "id": "fitness",
+      "heading": "How fit do you need to be?",
+      "list": [
+        "The final 6 km climb gains over 1,000 m of height and is steep; most walkers take three to five hours up.",
+        "Ponies are available on the main path, and porters carry bags; agree prices at the official counters.",
+        "Practise walking uphill for a few weeks before the trip.",
+        "Older pilgrims and anyone with heart or lung conditions should take medical advice first."
+      ]
+    }
+  ],
+  "safety": [
+    "The climb to Hemkund reaches over 4,500 m; ascend slowly, and turn back if you have symptoms of altitude sickness. Take medical advice before the trip.",
+    "Early-season snow and summer rain make the path slippery.",
+    "Start the final climb early and descend by early afternoon.",
+    "Monsoon landslides can close the road to Govindghat; keep buffer days."
+  ],
+  "packing": [
+    "Warm jacket, gloves and cap",
+    "Rain jacket and poncho",
+    "Good trekking shoes with grip",
+    "Head covering",
+    "Torch, power bank and personal medicines",
+    "Cash for Ghangaria"
+  ],
+  "faqs": [
+    {
+      "q": "When does Hemkund Sahib open?",
+      "a": "The 2026 season was announced from 23 May to 10 October; dates are fixed each year."
+    },
+    {
+      "q": "Is registration required for Hemkund Sahib?",
+      "a": "Yes, on the Uttarakhand government portal."
+    },
+    {
+      "q": "How long is the Hemkund Sahib trek?",
+      "a": "About 10 km from Pulna to Ghangaria, then about 6 km steeply up to Hemkund."
+    },
+    {
+      "q": "Is there a helicopter to Hemkund Sahib?",
+      "a": "Helicopters fly between Govindghat and Ghangaria in good weather; the final climb to Hemkund is on foot or by pony."
+    },
+    {
+      "q": "Where do pilgrims stay for Hemkund Sahib?",
+      "a": "At Ghangaria, in the gurdwara or in seasonal hotels and guesthouses."
+    },
+    {
+      "q": "Can I stay overnight at Hemkund Sahib?",
+      "a": "No. Pilgrims return to Ghangaria the same day."
+    },
+    {
+      "q": "Can I visit the Valley of Flowers on the same trip?",
+      "a": "Yes, from Ghangaria, usually from June onwards."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Valley of Flowers guide",
+      "href": "/blog/valley-of-flowers-travel-guide"
+    },
+    {
+      "label": "Badrinath guide",
+      "href": "/blog/badrinath-travel-guide"
+    },
+    {
+      "label": "Sikh pilgrimage in India",
+      "href": "/blog/sikh-pilgrimage-in-india"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Char Dham Yatra guide",
+      "href": "/blog/char-dham-yatra-guide",
+      "note": "the Hindu shrines nearby"
+    },
+    {
+      "name": "Monsoon treks in India",
+      "href": "/blog/monsoon-treks-in-india",
+      "note": "the Valley of Flowers season"
+    },
+    {
+      "name": "Pilgrimage packing list",
+      "href": "/blog/pilgrimage-packing-list",
+      "note": "what to carry"
+    }
+  ],
+  "places": [
+    "Hemkund Sahib",
+    "Govindghat",
+    "Ghangaria",
+    "Valley of Flowers",
+    "Badrinath",
+    "Joshimath"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "adventure-tours"
+  ],
+  "planDestination": "Hemkund Sahib",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,441 @@
+{
+  "slug": "cultural-festivals-in-india",
+  "kind": "pillar",
+  "short": "Cultural festivals in India",
+  "title": "Cultural Festivals in India: A Traveller's Calendar",
+  "seoTitle": "Cultural Festivals in India: A Month-by-Month Guide | Kudozz Club",
+  "metaDescription": "India's great cultural festivals month by month: Pushkar Fair, Hornbill, Rann Utsav, Durga Puja, Onam, Hemis, Bihu, Uttarayan, Dasara and more, with planning tips.",
+  "description": "A month-by-month guide to India's cultural festivals for travellers: Uttarayan kites and Pongal in January, Goa Carnival and the Desert Festival in February, Holi, Bihu and Thrissur Pooram in spring, Hemis in summer, Onam and the snake-boat races, Navratri, Durga Puja and Mysuru Dasara in autumn, the Pushkar Fair, Hornbill Festival and Rann Utsav in winter, with how to plan around them.",
+  "dek": "India's festivals are when its culture is most visible: music, dance, crafts, food and whole towns in celebration. Here is when and where to go.",
+  "primaryKeyword": "cultural festivals in India",
+  "secondaryKeywords": [
+    "festival tourism India",
+    "traditional festivals India",
+    "India festival calendar"
+  ],
+  "searchIntent": "Informational/planning",
+  "activities": [
+    "festivals",
+    "culture",
+    "photography",
+    "food"
+  ],
+  "terrain": [
+    "city",
+    "village",
+    "desert",
+    "hills"
+  ],
+  "regions": [
+    "Rajasthan",
+    "Nagaland",
+    "Gujarat",
+    "West Bengal",
+    "Kerala",
+    "Ladakh",
+    "Assam",
+    "Karnataka",
+    "Goa"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring",
+    "monsoon"
+  ],
+  "travellers": [
+    "couples",
+    "photographers",
+    "groups",
+    "families"
+  ],
+  "tags": [
+    "Festivals",
+    "Culture",
+    "Pushkar",
+    "Hornbill",
+    "Durga Puja"
+  ],
+  "hero": {
+    "src": "/images/heritage/cultural-festivals-pushkar-fair.webp",
+    "alt": "A musician and camels at sunset at the Pushkar Fair, Rajasthan"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Cultural festivals of India"
+  },
+  "intro": [
+    "India celebrates all year, but a handful of festivals are worth planning a whole trip around, because they bring together music, dance, crafts, food and community in one place. Some follow the Hindu, Islamic, Buddhist or regional calendars and move each year; others, such as the Hornbill Festival, have fixed dates.",
+    "This guide focuses on cultural festivals that welcome visitors. For religious festivals and the Kumbh Mela, see our spiritual festivals guide."
+  ],
+  "quickAnswer": "India's best cultural festivals for travellers include the Pushkar Fair in Rajasthan (October or November), the Hornbill Festival in Nagaland (1 to 10 December), the Rann Utsav in Kutch (November to February or March), Durga Puja in Kolkata, Mysuru Dasara, Onam and the snake-boat races in Kerala, the Hemis festival in Ladakh, Bihu in Assam and Uttarayan kite flying in Gujarat.",
+  "takeaways": [
+    "Winter, from October to February, has the most festivals that suit travellers.",
+    "Many dates follow lunar calendars and move each year.",
+    "Book stays early for Pushkar, Hornbill, Durga Puja and Dasara; towns fill up.",
+    "Durga Puja in Kolkata and Garba are on UNESCO's Intangible Cultural Heritage list.",
+    "Festivals are community events first; be a respectful guest."
+  ],
+  "sections": [
+    {
+      "id": "calendar",
+      "heading": "Festival calendar",
+      "table": {
+        "columns": [
+          "Month",
+          "Festival",
+          "Where"
+        ],
+        "rows": [
+          [
+            "January",
+            "Uttarayan (kite festival); Pongal",
+            "Ahmedabad; Tamil Nadu"
+          ],
+          [
+            "February",
+            "Goa Carnival; Jaisalmer Desert Festival; Khajuraho Dance Festival",
+            "Goa; Rajasthan; Madhya Pradesh"
+          ],
+          [
+            "March",
+            "Holi",
+            "North India, especially Mathura and Vrindavan"
+          ],
+          [
+            "April to May",
+            "Rongali Bihu; Thrissur Pooram",
+            "Assam; Kerala"
+          ],
+          [
+            "June to July",
+            "Hemis festival",
+            "Ladakh"
+          ],
+          [
+            "August to September",
+            "Onam; Nehru Trophy Boat Race (usually August)",
+            "Kerala"
+          ],
+          [
+            "September to October",
+            "Navratri and Garba; Durga Puja; Mysuru Dasara; Bastar Dussehra",
+            "Gujarat; Kolkata; Mysuru; Chhattisgarh"
+          ],
+          [
+            "October to November",
+            "Diwali; Pushkar Fair",
+            "Across India; Rajasthan"
+          ],
+          [
+            "November",
+            "Sangai Festival; Wangala",
+            "Manipur; Meghalaya"
+          ],
+          [
+            "November to March",
+            "Rann Utsav",
+            "Kutch, Gujarat"
+          ],
+          [
+            "December",
+            "Hornbill Festival (1 to 10 December)",
+            "Kisama, Nagaland"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "winter",
+      "heading": "Winter festivals",
+      "items": [
+        {
+          "name": "Pushkar Fair",
+          "body": [
+            "A camel and livestock fair around the Kartik full moon, with pilgrims bathing at Pushkar Lake, folk music and a busy fairground."
+          ],
+          "links": [
+            {
+              "label": "Pushkar guide",
+              "href": "/blog/pushkar-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/rajasthan/pushkar/pushkar-camel-fair.webp",
+            "alt": "Camels at the Pushkar Fair, Rajasthan",
+            "caption": "Pushkar Fair"
+          }
+        },
+        {
+          "name": "Hornbill Festival",
+          "body": [
+            "Ten days of Naga dance, music, food and crafts at the Kisama Heritage Village near Kohima."
+          ],
+          "links": [
+            {
+              "label": "Hornbill Festival",
+              "href": "/blog/hornbill-festival"
+            }
+          ]
+        },
+        {
+          "name": "Rann Utsav",
+          "body": [
+            "A long winter festival on the white salt desert of Kutch, with a tent city at Dhordo."
+          ],
+          "links": [
+            {
+              "label": "Rann Utsav",
+              "href": "/blog/rann-utsav"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autumn",
+      "heading": "Autumn festivals",
+      "items": [
+        {
+          "name": "Durga Puja, Kolkata",
+          "body": [
+            "The city's pandals become open-air art installations; inscribed by UNESCO as Intangible Cultural Heritage in 2021."
+          ],
+          "links": [
+            {
+              "label": "Kolkata guide",
+              "href": "/blog/kolkata-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Mysuru Dasara",
+          "body": [
+            "Ten days of celebration ending in a procession, with Mysore Palace illuminated every evening."
+          ],
+          "links": [
+            {
+              "label": "Mysuru guide",
+              "href": "/blog/mysuru-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Bastar Dussehra",
+          "body": [
+            "A long, distinctive Dussehra in Jagdalpur centred on the goddess Danteshwari and tribal traditions."
+          ],
+          "links": [
+            {
+              "label": "Bastar guide",
+              "href": "/blog/bastar-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/chhattisgarh/chhattisgarh/bastar-dussehra-festival-jagdalpur.webp",
+            "alt": "Bastar Dussehra celebrations in Jagdalpur, Chhattisgarh",
+            "caption": "Bastar Dussehra"
+          }
+        }
+      ]
+    },
+    {
+      "id": "spring-summer",
+      "heading": "Spring, summer and the monsoon",
+      "items": [
+        {
+          "name": "Hemis festival",
+          "body": [
+            "Masked Cham dances at Hemis monastery in Ladakh, in June or July."
+          ],
+          "links": [
+            {
+              "label": "Hemis guide",
+              "href": "/blog/hemis-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/ladakh/hemis/hemis-festival-cham-masked-dancer.webp",
+            "alt": "A masked Cham dancer at the Hemis festival, Ladakh",
+            "caption": "Hemis festival"
+          }
+        },
+        {
+          "name": "Onam and the boat races",
+          "body": [
+            "Kerala's harvest festival, with floral carpets, the sadya feast and snake-boat races on the backwaters."
+          ],
+          "links": [
+            {
+              "label": "Alappuzha guide",
+              "href": "/blog/alappuzha-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Bihu and Thrissur Pooram",
+          "body": [
+            "Assam's spring festival of dance and music, and Kerala's temple festival of caparisoned elephants and percussion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Book stays and transport months ahead for the big festivals.",
+        "Expect higher prices and crowds; build in slack.",
+        "Ask before photographing people, especially at rituals.",
+        "Dress modestly and follow local customs at religious events.",
+        "Carry cash; card machines at fairs may be unreliable."
+      ]
+    },
+    {
+      "id": "choosing",
+      "heading": "Choosing a festival",
+      "table": {
+        "columns": [
+          "If you want",
+          "Go to"
+        ],
+        "rows": [
+          [
+            "Music and dance",
+            "Hornbill Festival; Chennai music season; Khajuraho Dance Festival"
+          ],
+          [
+            "Crafts and landscapes",
+            "Rann Utsav; Pushkar Fair"
+          ],
+          [
+            "Art and city life",
+            "Durga Puja in Kolkata"
+          ],
+          [
+            "Colour and play",
+            "Holi in Mathura and Vrindavan"
+          ],
+          [
+            "Monasteries and mountains",
+            "Hemis festival in Ladakh"
+          ],
+          [
+            "Water and food",
+            "Onam and the Kerala boat races"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "responsible",
+      "heading": "Being a good festival guest",
+      "paras": [
+        "Most of these festivals are community celebrations before they are tourist events. Follow the lead of local people, take part when invited, and step back from rituals when you are not. Avoid drones unless permitted, keep noise down near places of worship, and use local guides and homestays so the benefits stay in the community."
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning around a festival",
+      "list": [
+        "Decide whether you want the festival itself or a quieter trip just before or after.",
+        "Check whether your dates fall on a public holiday, when trains and flights fill fast.",
+        "Allow a rest day; festival days are long."
+      ]
+    }
+  ],
+  "safety": [
+    "Festival dates change every year and are set by organisers or follow the lunar calendar; confirm with the organisers or state tourism before you book.",
+    "Crowds can be intense; agree a meeting point with your group.",
+    "Watch for pickpockets at busy fairs and processions."
+  ],
+  "packing": [
+    "Layers for cold desert or hill nights",
+    "Comfortable shoes",
+    "Scarf or dupatta for religious sites",
+    "Power bank"
+  ],
+  "faqs": [
+    {
+      "q": "What is the best cultural festival in India?",
+      "a": "It depends on your interests: the Pushkar Fair, Hornbill Festival, Durga Puja and Rann Utsav are among the most rewarding for travellers."
+    },
+    {
+      "q": "When is the Hornbill Festival?",
+      "a": "From 1 to 10 December every year, at Kisama near Kohima."
+    },
+    {
+      "q": "When is the Pushkar Fair?",
+      "a": "Around the Kartik full moon, in October or November; dates change every year."
+    },
+    {
+      "q": "Is Durga Puja a UNESCO heritage?",
+      "a": "Yes, Durga Puja in Kolkata was inscribed on UNESCO's Intangible Cultural Heritage list in 2021."
+    },
+    {
+      "q": "Which month has the most festivals?",
+      "a": "October to December, with Navratri, Durga Puja, Dasara, Diwali, Pushkar and Hornbill."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Spiritual festivals in India",
+      "href": "/blog/spiritual-festivals-in-india"
+    },
+    {
+      "label": "Classical dance and music",
+      "href": "/blog/classical-dance-and-music-in-india"
+    },
+    {
+      "label": "Hornbill Festival",
+      "href": "/blog/hornbill-festival"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Rann Utsav",
+      "href": "/blog/rann-utsav",
+      "note": "the white desert festival"
+    },
+    {
+      "name": "Tribal tourism in India",
+      "href": "/blog/tribal-tourism-in-india",
+      "note": "living cultures"
+    },
+    {
+      "name": "Food heritage of India",
+      "href": "/blog/food-heritage-of-india",
+      "note": "festival food"
+    }
+  ],
+  "places": [
+    "Pushkar",
+    "Kisama",
+    "Dhordo",
+    "Kolkata",
+    "Mysuru",
+    "Jagdalpur",
+    "Hemis",
+    "Alappuzha",
+    "Ahmedabad",
+    "Thrissur"
+  ],
+  "styles": [
+    "heritage-tours",
+    "group-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

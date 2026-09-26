@@ -1,0 +1,394 @@
+{
+  "slug": "kayaking-in-india",
+  "kind": "activity",
+  "short": "Kayaking in India",
+  "title": "Kayaking in India: Rivers, Lakes, Backwaters and Mangroves",
+  "seoTitle": "Kayaking in India: Rivers, Lakes, Backwaters & Mangroves | Kudozz Club",
+  "metaDescription": "Where to go kayaking in India: Andaman mangroves, Goa's backwaters, Kerala canals, Tehri Lake, the Umngot river and white-water courses in Rishikesh.",
+  "description": "A guide to kayaking in India: calm-water paddling in the Andaman mangroves, Goa's backwaters and Kerala's canals, lake kayaking at Tehri and Umiam, clear-water trips on the Umngot in Meghalaya, and white-water kayaking courses on the Ganga at Rishikesh.",
+  "dek": "Kayaking in India is mostly gentle: mangroves, backwaters and lakes you can paddle on your first try. There is white water too, for those who want to learn.",
+  "primaryKeyword": "kayaking in India",
+  "secondaryKeywords": [
+    "kayaking in Goa",
+    "kayaking Kerala",
+    "sea kayaking Andaman",
+    "white water kayaking Rishikesh"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "kayaking",
+    "canoeing"
+  ],
+  "terrain": [
+    "river",
+    "lakes",
+    "backwaters",
+    "sea",
+    "mangroves"
+  ],
+  "regions": [
+    "Andaman and Nicobar Islands",
+    "Goa",
+    "Kerala",
+    "Uttarakhand",
+    "Meghalaya",
+    "Karnataka"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "beginners",
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tags": [
+    "Kayaking",
+    "Andaman",
+    "Goa",
+    "Kerala"
+  ],
+  "hero": {
+    "src": "/images/adventure/kayaking-river-india.webp",
+    "alt": "A kayaker paddling on Kotpally reservoir, Telangana",
+    "caption": "Kotpally reservoir, Telangana"
+  },
+  "parent": {
+    "label": "Water Sports in India",
+    "href": "/blog/water-sports-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Kayaking in India"
+  },
+  "intro": [
+    "Most kayaking trips in India are on flat, calm water, which means you can join with no experience. Guides take small groups in sit-on-top or two-person kayaks through mangrove creeks, backwaters and lakes, often at sunrise or sunset. It is one of the easiest adventure activities for families and first-timers.",
+    "For those who want more, Rishikesh has schools that teach white-water kayaking on the Ganga, and experienced paddlers run rivers in the Himalaya and Western Ghats. This guide covers where to kayak, when to go and what to expect."
+  ],
+  "quickAnswer": "Popular places for kayaking in India are the mangrove creeks of Havelock Island in the Andamans, the backwaters and rivers of south and north Goa, Kerala's canals around Alappuzha and Munroe Island, Tehri Lake in Uttarakhand, Umiam Lake and the clear Umngot river in Meghalaya, and Dandeli in Karnataka. Most trips are on calm water and suit beginners. White-water kayaking courses run on the Ganga at Rishikesh.",
+  "takeaways": [
+    "Most kayaking in India is on calm water and needs no experience.",
+    "Mangrove and backwater trips run in the Andamans, Goa and Kerala, usually at sunrise or sunset.",
+    "The Umngot river near Dawki is famous for its clear water, best from about November to April.",
+    "White-water kayaking is taught on the Ganga at Rishikesh outside the monsoon.",
+    "Always wear a life jacket, and check tide times on mangrove and sea trips."
+  ],
+  "sections": [
+    {
+      "id": "calm",
+      "heading": "Calm-water kayaking",
+      "items": [
+        {
+          "name": "Mangroves of Havelock Island, Andamans",
+          "body": [
+            "Guided trips paddle through mangrove creeks on Swaraj Dweep (Havelock), and some operators run night trips to see bioluminescent plankton on dark, moonless nights. Crocodile warnings apply in some creeks; go only with local guides."
+          ],
+          "facts": {
+            "Season": "About October to May",
+            "Good for": "Beginners, couples"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in the Andamans",
+              "href": "/blog/adventure-activities-in-andaman"
+            },
+            {
+              "label": "Havelock Island guide",
+              "href": "/blog/havelock-island-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Goa's rivers and backwaters",
+          "body": [
+            "In south Goa, kayak trips run on the Sal river and around the backwaters near Cavelossim and Betul; in north Goa, on the Nerul and Mandovi mangroves and near Chorao Island. Sunrise and sunset trips often include birdwatching."
+          ],
+          "facts": {
+            "Season": "About October to May",
+            "Good for": "Families, birdwatchers"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Goa",
+              "href": "/blog/adventure-activities-in-goa"
+            }
+          ]
+        },
+        {
+          "name": "Kerala's backwaters",
+          "body": [
+            "Paddling through the narrow canals around Alappuzha and Kumarakom, and around Munroe Island near Kollam, takes you past village homes, paddy fields and coconut groves that big houseboats cannot reach."
+          ],
+          "facts": {
+            "Season": "About September to March",
+            "Good for": "Slow travellers"
+          },
+          "links": [
+            {
+              "label": "Munroe Island guide",
+              "href": "/blog/munroe-island-travel-guide"
+            },
+            {
+              "label": "Things to do in Alleppey",
+              "href": "/blog/things-to-do-in-alleppey"
+            }
+          ]
+        },
+        {
+          "name": "Tehri Lake, Uttarakhand",
+          "body": [
+            "The large reservoir of the Tehri Dam has a water-sports centre with kayaking along with jet skis, speedboats and other activities, usually run with the state tourism authorities."
+          ],
+          "facts": {
+            "Season": "Most of the year, except in bad weather",
+            "Good for": "Families"
+          },
+          "links": [
+            {
+              "label": "Tehri Lake guide",
+              "href": "/blog/tehri-lake-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Umngot river and Umiam Lake, Meghalaya",
+          "body": [
+            "The Umngot at Dawki and Shnongpdeng is famous for water so clear that boats seem to float in the air in the dry season. Kayaks and boats are available, and camps at Shnongpdeng offer kayaking. Umiam Lake near Shillong has a water-sports complex."
+          ],
+          "facts": {
+            "Season": "About November to April for clear water",
+            "Good for": "Everyone"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Meghalaya",
+              "href": "/blog/adventure-activities-in-meghalaya"
+            },
+            {
+              "label": "Dawki travel guide",
+              "href": "/blog/dawki-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kali river, Dandeli, Karnataka",
+          "body": [
+            "Calm stretches of the Kali near Dandeli are used for kayaking and coracle rides alongside the rafting runs."
+          ],
+          "facts": {
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Dandeli travel guide",
+              "href": "/blog/dandeli-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-water",
+      "heading": "White-water kayaking",
+      "paras": [
+        "Rishikesh is the main place to learn white-water kayaking in India. Schools start in a pool or calm water with the wet exit and Eskimo roll, then move on to easy rapids on the Ganga. A beginner course usually takes a few days, and the season follows rafting, closing in the peak monsoon.",
+        "Experienced kayakers run rivers such as the Ganga's upper tributaries, the Beas, and rivers in Karnataka and the North East, often with specialist expeditions. White-water kayaking is not something to try without training."
+      ],
+      "items": [
+        {
+          "name": "Learning on the Ganga, Rishikesh",
+          "body": [
+            "A beginner course covers paddle strokes, rolling, reading the river and rescue, on flat water and then Grade I to II rapids."
+          ],
+          "facts": {
+            "Duration": "A few days",
+            "Season": "About September to June"
+          },
+          "links": [
+            {
+              "label": "River rafting in Rishikesh",
+              "href": "/blog/river-rafting-in-rishikesh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Where to kayak, compared",
+      "table": {
+        "columns": [
+          "Place",
+          "Water",
+          "Level",
+          "Best months"
+        ],
+        "rows": [
+          [
+            "Havelock mangroves",
+            "Mangrove creeks, sea",
+            "Beginner",
+            "October to May"
+          ],
+          [
+            "Goa rivers and backwaters",
+            "River, backwater",
+            "Beginner",
+            "October to May"
+          ],
+          [
+            "Kerala backwaters",
+            "Canals, lakes",
+            "Beginner",
+            "September to March"
+          ],
+          [
+            "Tehri Lake",
+            "Reservoir",
+            "Beginner",
+            "Most of the year"
+          ],
+          [
+            "Umngot river",
+            "Clear river",
+            "Beginner",
+            "November to April"
+          ],
+          [
+            "Ganga, Rishikesh",
+            "White water",
+            "Course needed",
+            "September to June"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sup",
+      "heading": "Stand-up paddleboarding",
+      "paras": [
+        "Stand-up paddleboarding (SUP) is offered alongside kayaking in several of the same places: on calm backwaters and rivers in Goa, on lakes near Chennai and Bengaluru, and at some surf schools on the Kerala and Tamil Nadu coasts. You stand on a wide, stable board and paddle with a single long paddle.",
+        "It takes a few minutes to find your balance, and falling in is part of learning, so wear a life jacket and choose flat water for your first session. Early morning is best, before the wind picks up."
+      ]
+    },
+    {
+      "id": "wildlife",
+      "heading": "Kayaking for wildlife and birds",
+      "paras": [
+        "Paddling quietly is one of the best ways to see birds and wildlife. In Goa's mangroves, look for kingfishers, herons and, on some rivers, crocodiles basking on the banks at a distance. Kerala's backwaters have egrets, cormorants and kingfishers. Keep a respectful distance, do not feed animals, and follow your guide's advice on where to paddle."
+      ]
+    },
+    {
+      "id": "expect",
+      "heading": "What to expect on a guided trip",
+      "list": [
+        "Trips last one to three hours and usually run at sunrise or late afternoon.",
+        "You get a life jacket, paddle and often a dry bag; sit-on-top kayaks are stable and self-draining.",
+        "Guides give a short lesson on paddling and steering before you start.",
+        "Double kayaks are easier for beginners and couples.",
+        "Expect to get wet; wear quick-dry clothes and sandals."
+      ]
+    }
+  ],
+  "safety": [
+    "Wear your life jacket the whole time you are on the water.",
+    "Check tide times on mangrove and sea trips; strong tidal currents can make it hard to paddle back.",
+    "In the Andamans, follow crocodile warnings and paddle only with licensed local guides.",
+    "Do not kayak in rivers in flood or during the monsoon unless run by specialist operators.",
+    "Protect yourself from the sun with a hat, sunscreen and long sleeves."
+  ],
+  "packing": [
+    "Quick-dry clothes and sandals with straps",
+    "Hat, sunglasses with a strap and sunscreen",
+    "A dry bag or waterproof pouch for your phone",
+    "Water and a light snack",
+    "A change of clothes"
+  ],
+  "faqs": [
+    {
+      "q": "Where can I go kayaking in India?",
+      "a": "In the Andamans, Goa, Kerala's backwaters, Tehri Lake, Meghalaya's Umngot river and Umiam Lake, Dandeli, and on the Ganga at Rishikesh for white water."
+    },
+    {
+      "q": "Do I need experience for kayaking?",
+      "a": "Not for calm-water trips in mangroves, backwaters and lakes. White-water kayaking needs a course."
+    },
+    {
+      "q": "Can non-swimmers go kayaking?",
+      "a": "On calm-water guided trips with a life jacket, usually yes. Tell the guide beforehand."
+    },
+    {
+      "q": "What is the best time for kayaking in the Andamans?",
+      "a": "About October to May, when the sea is calmer."
+    },
+    {
+      "q": "Where can I learn white-water kayaking in India?",
+      "a": "In Rishikesh, where schools run beginner courses on the Ganga outside the monsoon."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa"
+    },
+    {
+      "label": "Goa travel guide",
+      "href": "/blog/goa-beaches-travel-guide"
+    },
+    {
+      "label": "Goa 5-day itinerary",
+      "href": "/blog/goa-beaches-travel-guide#itinerary"
+    },
+    {
+      "label": "Goa tour packages",
+      "href": "/packages/goa"
+    },
+    {
+      "label": "Kerala tour packages",
+      "href": "/packages/kerala"
+    }
+  ],
+  "related": [
+    {
+      "name": "Water sports in India",
+      "href": "/blog/water-sports-in-india",
+      "note": "more ways to get on the water"
+    },
+    {
+      "name": "River rafting in India",
+      "href": "/blog/river-rafting-in-india",
+      "note": "white water in a raft"
+    },
+    {
+      "name": "Snorkelling in India",
+      "href": "/blog/snorkeling-in-india",
+      "note": "what lies below"
+    },
+    {
+      "name": "Coastal tourism in India",
+      "href": "/blog/coastal-tourism-in-india",
+      "note": "backwaters and mangroves"
+    }
+  ],
+  "places": [
+    "Havelock Island",
+    "Sal river",
+    "Chorao Island",
+    "Alappuzha",
+    "Munroe Island",
+    "Tehri Lake",
+    "Umngot river",
+    "Umiam Lake",
+    "Dandeli",
+    "Rishikesh"
+  ],
+  "styles": [
+    "family-holidays",
+    "adventure-tours"
+  ],
+  "planDestination": "Goa",
+  "updated": "2026-09-25"
+}

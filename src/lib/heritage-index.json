@@ -1,0 +1,2205 @@
+[
+ {
+  "slug": "historical-places-in-india",
+  "title": "Historical Places in India: Monuments and Heritage Destinations",
+  "short": "Historical places in India",
+  "kind": "pillar",
+  "excerpt": "A region-by-region guide to India's historical places for travellers: Delhi, Agra and Fatehpur Sikri; Rajasthan's forts and palace cities; Gujarat's stepwells and Harappan sites; the caves and forts of Maharashtra; Hampi, Badami and the Hoysala temples; Tamil Nadu's temple towns; Khajuraho, Orchha and Mandu; Konark and Bhubaneswar; Kolkata and Murshidabad; Lucknow and Hyderabad, with how to plan.",
+  "image": "/images/heritage/historical-places-india-fatehpur-sikri.webp",
+  "imageAlt": "The Buland Darwaza, the great gateway of Fatehpur Sikri",
+  "tags": [
+   "Historical Places",
+   "Monuments",
+   "Heritage",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "forts",
+   "UNESCO sites",
+   "heritage walks"
+  ],
+  "terrain": [
+   "heritage town",
+   "hills"
+  ],
+  "regions": [
+   "Delhi",
+   "Uttar Pradesh",
+   "Rajasthan",
+   "Gujarat",
+   "Maharashtra",
+   "Karnataka",
+   "Tamil Nadu",
+   "Madhya Pradesh",
+   "Odisha",
+   "West Bengal",
+   "Telangana"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "how-to-plan-a-heritage-trip-in-india",
+  "title": "How to Plan a Heritage Trip in India: Tickets, Guides and Timing",
+  "short": "How to plan a heritage trip",
+  "kind": "planning",
+  "excerpt": "A practical guide to planning a heritage trip in India: choosing a region and theme, how long to allow, the best seasons, weekly monument closures, booking ASI and state monument tickets online, hiring licensed guides, photography and drone rules, dress codes at living temples and mosques, pacing, heat and travelling with children or older relatives.",
+  "image": "/images/heritage/heritage-trip-khajuraho-temples.webp",
+  "imageAlt": "Temples of the Western Group at Khajuraho, seen across the gardens",
+  "tags": [
+   "Planning",
+   "Heritage Travel",
+   "Tips",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "planning",
+   "monuments",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "India"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "autumn"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "first-time visitors",
+   "seniors"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "unesco-world-heritage-sites-in-india",
+  "title": "UNESCO World Heritage Sites in India: The Full List and How to Visit",
+  "short": "UNESCO sites in India",
+  "kind": "pillar",
+  "excerpt": "A complete, verified list of India's 45 UNESCO World Heritage Sites as of September 2026: 37 cultural, 7 natural and 1 mixed, with the year of inscription and state, the most recent additions (the Maratha Military Landscapes in 2025 and Sarnath in 2026), how the list works, and how to plan heritage trips around the sites by region.",
+  "image": "/images/heritage/unesco-sites-india-konark-sun-temple.webp",
+  "imageAlt": "A carved stone wheel of the Sun Temple at Konark, Odisha",
+  "tags": [
+   "UNESCO",
+   "World Heritage",
+   "Monuments",
+   "India"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "UNESCO sites",
+   "monuments",
+   "heritage walks",
+   "museums"
+  ],
+  "terrain": [
+   "heritage town",
+   "forest",
+   "mountains"
+  ],
+  "regions": [
+   "Uttar Pradesh",
+   "Delhi",
+   "Rajasthan",
+   "Gujarat",
+   "Maharashtra",
+   "Karnataka",
+   "Tamil Nadu",
+   "Madhya Pradesh",
+   "Odisha",
+   "Bihar",
+   "West Bengal",
+   "Assam",
+   "Telangana",
+   "Goa"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "taj-mahal",
+  "title": "Taj Mahal: History, Visiting Guide and Tips",
+  "short": "Taj Mahal",
+  "kind": "destination",
+  "excerpt": "A visitor's guide to the Taj Mahal in Agra: its history as Shah Jahan's tomb for Mumtaz Mahal, the complex from the great gate to the riverside terrace, the Friday closure, full-moon night viewing, gates, tickets and rules, the best times of day and year, how to reach Agra from Delhi, and nearby Mughal sites.",
+  "image": "/images/heritage/taj-mahal-agra.webp",
+  "imageAlt": "The Taj Mahal seen from the gardens along the central water channel",
+  "tags": [
+   "Taj Mahal",
+   "Agra",
+   "Mughal",
+   "UNESCO"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "UNESCO sites",
+   "Mughal monuments",
+   "photography"
+  ],
+  "terrain": [
+   "heritage town",
+   "river"
+  ],
+  "regions": [
+   "Uttar Pradesh",
+   "North India"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/blog/unesco-world-heritage-sites-in-india"
+ },
+ {
+  "slug": "red-fort",
+  "title": "Red Fort, Delhi: History and Visiting Guide",
+  "short": "Red Fort",
+  "kind": "destination",
+  "excerpt": "A visitor's guide to the Red Fort (Lal Qila) in Delhi: built by Shah Jahan as the palace-fortress of Shahjahanabad, its role in 1857 and on Independence Day, what to see from Lahori Gate and Chhatta Chowk to the Diwan-i-Aam and Diwan-i-Khas, the museums, the Monday closure, tickets, the metro, and nearby Old Delhi.",
+  "image": "/images/heritage/red-fort-delhi-lahori-gate.webp",
+  "imageAlt": "The Naubat Khana, the drum house inside the Red Fort, Delhi",
+  "tags": [
+   "Red Fort",
+   "Lal Qila",
+   "Delhi",
+   "Mughal"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "UNESCO sites",
+   "Mughal monuments",
+   "museums"
+  ],
+  "terrain": [
+   "heritage town"
+  ],
+  "regions": [
+   "Delhi",
+   "North India"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/blog/unesco-world-heritage-sites-in-india"
+ },
+ {
+  "slug": "qutub-minar",
+  "title": "Qutub Minar: History and Visiting Guide",
+  "short": "Qutub Minar",
+  "kind": "destination",
+  "excerpt": "A visitor's guide to the Qutub Minar complex in Mehrauli, Delhi: the 72.5 m minaret begun under Qutbuddin Aibak and completed under Iltutmish, the Quwwat-ul-Islam mosque, the Gupta-era Iron Pillar, the Alai Darwaza and the unfinished Alai Minar, practicalities, the metro, and Mehrauli Archaeological Park nearby.",
+  "image": "/images/heritage/qutub-minar-delhi.webp",
+  "imageAlt": "The Qutub Minar rising above the ruins of the Qutub complex, Delhi",
+  "tags": [
+   "Qutub Minar",
+   "Delhi",
+   "Delhi Sultanate",
+   "UNESCO"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "UNESCO sites",
+   "monuments",
+   "photography"
+  ],
+  "terrain": [
+   "heritage town"
+  ],
+  "regions": [
+   "Delhi",
+   "North India"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/blog/unesco-world-heritage-sites-in-india"
+ },
+ {
+  "slug": "humayuns-tomb",
+  "title": "Humayun's Tomb: History and Visiting Guide",
+  "short": "Humayun's Tomb",
+  "kind": "destination",
+  "excerpt": "A visitor's guide to Humayun's Tomb in Delhi: the 16th-century garden tomb of the second Mughal emperor, often seen as a forerunner of the Taj Mahal, the other tombs in the complex including Isa Khan's, the restoration by the Aga Khan Trust for Culture, the site museum, Sunder Nursery next door, practicalities and nearby Nizamuddin.",
+  "image": "/images/heritage/humayuns-tomb-delhi.webp",
+  "imageAlt": "Humayun's Tomb in red sandstone and white marble, Delhi",
+  "tags": [
+   "Humayun's Tomb",
+   "Delhi",
+   "Mughal",
+   "UNESCO"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "UNESCO sites",
+   "Mughal monuments",
+   "gardens"
+  ],
+  "terrain": [
+   "heritage town",
+   "garden"
+  ],
+  "regions": [
+   "Delhi",
+   "North India"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/blog/unesco-world-heritage-sites-in-india"
+ },
+ {
+  "slug": "amber-fort",
+  "title": "Amber Fort (Amer Fort), Jaipur: History and Visiting Guide",
+  "short": "Amber Fort",
+  "kind": "destination",
+  "excerpt": "A visitor's guide to Amber (Amer) Fort near Jaipur: commissioned by Raja Man Singh I in 1592 and expanded by later Kachhwaha rulers, part of the UNESCO Hill Forts of Rajasthan, with the Diwan-i-Aam, Ganesh Pol, Sheesh Mahal and zenana, ways up the hill, the evening show, Jaigarh and Nahargarh forts, and practical tips.",
+  "image": "/images/heritage/amber-fort-jaipur.webp",
+  "imageAlt": "The garden courtyard and Jai Mandir palace inside Amber Fort, near Jaipur",
+  "tags": [
+   "Amber Fort",
+   "Amer",
+   "Jaipur",
+   "Rajput"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "forts",
+   "palaces",
+   "UNESCO sites",
+   "photography"
+  ],
+  "terrain": [
+   "hills",
+   "heritage town"
+  ],
+  "regions": [
+   "Rajasthan",
+   "North India"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "monsoon"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/blog/forts-of-rajasthan"
+ },
+ {
+  "slug": "mehrangarh-fort",
+  "title": "Mehrangarh Fort, Jodhpur: History and Visiting Guide",
+  "short": "Mehrangarh Fort",
+  "kind": "destination",
+  "excerpt": "A visitor's guide to Mehrangarh Fort in Jodhpur: founded by Rao Jodha in 1459, its seven gates, the palace rooms and museum collections run by the Mehrangarh Museum Trust, views over the blue city, Jaswant Thada and the Rao Jodha Desert Rock Park, the Rajasthan International Folk Festival, and practical tips.",
+  "image": "/images/heritage/mehrangarh-fort-jodhpur.webp",
+  "imageAlt": "Mehrangarh Fort on its rocky hill above Jodhpur",
+  "tags": [
+   "Mehrangarh",
+   "Jodhpur",
+   "Rajput",
+   "Museum"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "forts",
+   "palaces",
+   "museums",
+   "photography"
+  ],
+  "terrain": [
+   "hills",
+   "heritage town"
+  ],
+  "regions": [
+   "Rajasthan",
+   "North India"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/blog/forts-of-rajasthan"
+ },
+ {
+  "slug": "elephanta-caves",
+  "title": "Elephanta Caves: History, Ferry and Visiting Guide",
+  "short": "Elephanta Caves",
+  "kind": "destination",
+  "excerpt": "A visitor's guide to the Elephanta Caves on Gharapuri island near Mumbai: rock-cut caves generally dated to the 5th to 6th centuries, Cave 1 and its great Sadashiva (Trimurti) sculpture, the Buddhist caves on the eastern hill, ferries from the Gateway of India, the Monday closure, the climb, and planning tips.",
+  "image": "/images/heritage/elephanta-caves-trimurti.webp",
+  "imageAlt": "Visitors at the entrance to the main cave on Elephanta Island",
+  "tags": [
+   "Elephanta Caves",
+   "Mumbai",
+   "Rock-cut",
+   "UNESCO"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "UNESCO sites",
+   "rock-cut caves",
+   "boat trip",
+   "photography"
+  ],
+  "terrain": [
+   "island",
+   "hills"
+  ],
+  "regions": [
+   "Maharashtra",
+   "West India"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/blog/unesco-world-heritage-sites-in-india"
+ },
+ {
+  "slug": "champaner-pavagadh",
+  "title": "Champaner-Pavagadh Archaeological Park: Visiting Guide",
+  "short": "Champaner-Pavagadh",
+  "kind": "destination",
+  "excerpt": "A visitor's guide to the Champaner-Pavagadh Archaeological Park in Gujarat, a UNESCO site since 2004: the city Sultan Mahmud Begada made his capital after 1484, the Jami Masjid and other mosques, the Helical Stepwell and fortifications, Pavagadh hill with its temple and ropeway, how to reach from Vadodara, and planning tips.",
+  "image": "/images/heritage/champaner-jami-masjid.webp",
+  "imageAlt": "The Jami Masjid at Champaner, with its twin minarets",
+  "tags": [
+   "Champaner",
+   "Pavagadh",
+   "Gujarat",
+   "UNESCO"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "UNESCO sites",
+   "monuments",
+   "heritage walks",
+   "photography"
+  ],
+  "terrain": [
+   "hills",
+   "heritage town"
+  ],
+  "regions": [
+   "Gujarat",
+   "West India"
+  ],
+  "seasons": [
+   "winter",
+   "monsoon"
+  ],
+  "travellers": [
+   "couples",
+   "photographers",
+   "families"
+  ],
+  "parent": "/blog/unesco-world-heritage-sites-in-india"
+ },
+ {
+  "slug": "lothal",
+  "title": "Lothal: Harappan Port Town and Visiting Guide",
+  "short": "Lothal",
+  "kind": "destination",
+  "excerpt": "A visitor's guide to Lothal in Ahmedabad district, Gujarat: a Harappan town excavated from 1955, its large basin interpreted by most archaeologists as a dockyard (and by some as a reservoir), the acropolis, lower town and bead-making workshops, the ASI site museum, the National Maritime Heritage Complex under development nearby, how to reach and tips.",
+  "image": "/images/heritage/lothal-harappan-site.webp",
+  "imageAlt": "Excavated brick foundations at the Harappan site of Lothal, Gujarat",
+  "tags": [
+   "Lothal",
+   "Harappan",
+   "Gujarat",
+   "Archaeology"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "archaeology",
+   "museums",
+   "heritage"
+  ],
+  "terrain": [
+   "plains"
+  ],
+  "regions": [
+   "Gujarat",
+   "West India"
+  ],
+  "seasons": [
+   "winter"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/blog/archaeological-sites-in-india"
+ },
+ {
+  "slug": "belur-halebidu-hoysala-temples",
+  "title": "Belur, Halebidu and Somanathapura: Visiting the Hoysala Temples",
+  "short": "Belur and Halebidu",
+  "kind": "destination",
+  "excerpt": "A visitor's guide to the Sacred Ensembles of the Hoysalas, inscribed by UNESCO in 2023: the Chennakeshava temple at Belur, the Hoysaleswara temple at Halebidu and the Keshava temple at Somanathapura, their star-shaped plans and soapstone carving, how to reach from Bengaluru, Mysuru and Hassan, and a plan combining them with Shravanabelagola.",
+  "image": "/images/heritage/hoysala-chennakeshava-temple-belur.webp",
+  "imageAlt": "The Chennakeshava temple at Belur, Karnataka",
+  "tags": [
+   "Belur",
+   "Halebidu",
+   "Hoysala",
+   "UNESCO"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "UNESCO sites",
+   "temples",
+   "architecture",
+   "photography"
+  ],
+  "terrain": [
+   "heritage town"
+  ],
+  "regions": [
+   "Karnataka",
+   "South India"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "monsoon"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "photographers"
+  ],
+  "parent": "/blog/unesco-world-heritage-sites-in-india"
+ },
+ {
+  "slug": "famous-forts-in-india",
+  "title": "Famous Forts in India: A Region-by-Region Guide",
+  "short": "Famous forts in India",
+  "kind": "pillar",
+  "excerpt": "A region-by-region guide to famous forts in India: Rajasthan's UNESCO hill forts and Mehrangarh, the Red Fort and Agra Fort, Gwalior, Orchha and Mandu in Madhya Pradesh, the Maratha forts of Maharashtra, Daulatabad and Janjira, Golconda, Bidar and Chitradurga in the Deccan, Gingee and Vellore in Tamil Nadu, Bekal in Kerala, and the sea forts of Diu and Sindhudurg, with visiting tips.",
+  "image": "/images/heritage/famous-forts-india-chittorgarh.webp",
+  "imageAlt": "Chittorgarh Fort on its plateau, with the Vijay Stambh rising above the walls",
+  "tags": [
+   "Forts",
+   "Heritage",
+   "Rajasthan",
+   "Maharashtra"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "forts",
+   "UNESCO sites",
+   "trekking",
+   "photography"
+  ],
+  "terrain": [
+   "hills",
+   "desert",
+   "coast"
+  ],
+  "regions": [
+   "Rajasthan",
+   "Delhi",
+   "Uttar Pradesh",
+   "Maharashtra",
+   "Madhya Pradesh",
+   "Telangana",
+   "Karnataka",
+   "Tamil Nadu",
+   "Kerala"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "monsoon"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "forts-of-rajasthan",
+  "title": "Forts of Rajasthan: The UNESCO Hill Forts and Beyond",
+  "short": "Forts of Rajasthan",
+  "kind": "pillar",
+  "excerpt": "A guide to the forts of Rajasthan: the six Hill Forts of Rajasthan inscribed by UNESCO in 2013 (Amber, Chittorgarh, Kumbhalgarh, Ranthambore, Gagron and Jaisalmer), other great forts including Mehrangarh, Junagarh, Taragarh, Nahargarh, Jaigarh and Lohagarh, what makes each distinct, and a route to see several in one trip.",
+  "image": "/images/heritage/forts-rajasthan-kumbhalgarh-walls.webp",
+  "imageAlt": "Kumbhalgarh Fort and its walls in the Aravalli hills, Rajasthan",
+  "tags": [
+   "Rajasthan",
+   "Forts",
+   "Rajput",
+   "UNESCO"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "forts",
+   "palaces",
+   "UNESCO sites",
+   "photography"
+  ],
+  "terrain": [
+   "hills",
+   "desert"
+  ],
+  "regions": [
+   "Rajasthan",
+   "North India"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/blog/famous-forts-in-india"
+ },
+ {
+  "slug": "forts-in-maharashtra",
+  "title": "Forts in Maharashtra: The Maratha Military Landscapes and More",
+  "short": "Forts in Maharashtra",
+  "kind": "pillar",
+  "excerpt": "A guide to the forts of Maharashtra: the Maratha Military Landscapes of India inscribed by UNESCO in 2025 (Salher, Shivneri, Lohagad, Khanderi, Raigad, Rajgad, Pratapgad, Suvarnadurg, Panhala, Vijaydurg, Sindhudurg, and Gingee in Tamil Nadu), other famous forts such as Sinhagad, Daulatabad and Murud-Janjira, how to visit, fort treks, seasons and safety.",
+  "image": "/images/heritage/forts-maharashtra-raigad.webp",
+  "imageAlt": "Ruined towers at Raigad Fort, Maharashtra",
+  "tags": [
+   "Maharashtra",
+   "Forts",
+   "Maratha",
+   "UNESCO"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "forts",
+   "trekking",
+   "UNESCO sites",
+   "sea forts"
+  ],
+  "terrain": [
+   "hills",
+   "coast"
+  ],
+  "regions": [
+   "Maharashtra",
+   "Tamil Nadu",
+   "West India"
+  ],
+  "seasons": [
+   "monsoon",
+   "winter",
+   "autumn"
+  ],
+  "travellers": [
+   "groups",
+   "couples",
+   "families"
+  ],
+  "parent": "/blog/famous-forts-in-india"
+ },
+ {
+  "slug": "palaces-in-india",
+  "title": "Palaces in India: Royal Heritage and How to Visit",
+  "short": "Palaces in India",
+  "kind": "pillar",
+  "excerpt": "A guide to India's royal palaces for visitors: Rajasthan's City Palaces in Jaipur and Udaipur, the Hawa Mahal and Umaid Bhawan; Mysore Palace and its illuminations; Laxmi Vilas in Vadodara; Chowmahalla and Falaknuma in Hyderabad; Padmanabhapuram and Mattancherry in Kerala; Hazarduari, Cooch Behar and the palaces of central India, with visiting tips and a note on palace hotels.",
+  "image": "/images/heritage/palaces-india-mysore-palace.webp",
+  "imageAlt": "Mysore Palace, Mysuru, Karnataka",
+  "tags": [
+   "Palaces",
+   "Royal Heritage",
+   "Rajasthan",
+   "Mysore"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "palaces",
+   "museums",
+   "heritage walks",
+   "photography"
+  ],
+  "terrain": [
+   "heritage town",
+   "lake"
+  ],
+  "regions": [
+   "Rajasthan",
+   "Karnataka",
+   "Gujarat",
+   "Telangana",
+   "Kerala",
+   "West Bengal",
+   "Madhya Pradesh"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "photographers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "archaeological-sites-in-india",
+  "title": "Archaeological Sites in India: From Harappan Cities to Ancient Universities",
+  "short": "Archaeological sites in India",
+  "kind": "pillar",
+  "excerpt": "A travel guide to India's archaeological sites: prehistoric rock shelters at Bhimbetka, Harappan cities at Dholavira, Lothal, Rakhigarhi and Kalibangan, Buddhist sites at Sanchi, Nalanda, Sarnath, Vikramshila and Odisha's Diamond Triangle, historic capitals such as Hampi, and new excavations at Keeladi, with notes on how evidence, interpretation and tradition differ.",
+  "image": "/images/heritage/archaeological-sites-dholavira.webp",
+  "imageAlt": "Excavated stone reservoirs and walls at Dholavira, Kutch",
+  "tags": [
+   "Archaeology",
+   "Harappan",
+   "Buddhist Sites",
+   "UNESCO"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "archaeology",
+   "museums",
+   "UNESCO sites",
+   "heritage walks"
+  ],
+  "terrain": [
+   "plains",
+   "hills",
+   "desert"
+  ],
+  "regions": [
+   "Gujarat",
+   "Madhya Pradesh",
+   "Bihar",
+   "Haryana",
+   "Odisha",
+   "Tamil Nadu",
+   "Karnataka"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "students",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "rock-cut-caves-in-india",
+  "title": "Ancient Caves in India: Rock-Cut Temples and Monasteries",
+  "short": "Rock-cut caves in India",
+  "kind": "pillar",
+  "excerpt": "A guide to India's rock-cut caves and cave temples: the Mauryan Barabar caves, the Buddhist caves of Ajanta, Karla, Bhaja and Kanheri, Ellora's Buddhist, Hindu and Jain caves and the Kailasa temple, Elephanta, the Badami cave temples, Udayagiri and Khandagiri in Odisha, Udayagiri near Vidisha, and the Pallava monuments of Mahabalipuram, with how rock-cut caves differ from natural caves.",
+  "image": "/images/heritage/rock-cut-caves-ajanta.webp",
+  "imageAlt": "The rock-cut prayer hall of Cave 26 at Ajanta, with its stupa",
+  "tags": [
+   "Caves",
+   "Ajanta",
+   "Ellora",
+   "Rock-Cut Architecture"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "caves",
+   "UNESCO sites",
+   "photography",
+   "archaeology"
+  ],
+  "terrain": [
+   "hills",
+   "cliffs"
+  ],
+  "regions": [
+   "Maharashtra",
+   "Karnataka",
+   "Odisha",
+   "Bihar",
+   "Madhya Pradesh",
+   "Tamil Nadu"
+  ],
+  "seasons": [
+   "winter",
+   "monsoon",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "temple-architecture-of-india",
+  "title": "Temple Architecture of India: A Traveller's Guide to the Styles",
+  "short": "Temple architecture of India",
+  "kind": "pillar",
+  "excerpt": "A traveller's guide to Indian temple architecture: the parts of a temple, the Nagara style of the north, the Dravida style of the south, the Vesara style of the Deccan, and regional forms in Odisha, Karnataka, Bengal, Kerala and Gujarat, with the best places to see each: Khajuraho, Konark, Bhubaneswar, Thanjavur, Madurai, Pattadakal, Belur, Modhera, Ramappa and Bishnupur.",
+  "image": "/images/heritage/temple-architecture-brihadeeswarar.webp",
+  "imageAlt": "The Brihadeeswarar temple at Thanjavur, a classic Dravida temple",
+  "tags": [
+   "Temple Architecture",
+   "Nagara",
+   "Dravida",
+   "Heritage"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "temples",
+   "architecture",
+   "UNESCO sites",
+   "photography"
+  ],
+  "terrain": [
+   "heritage town"
+  ],
+  "regions": [
+   "Madhya Pradesh",
+   "Odisha",
+   "Tamil Nadu",
+   "Karnataka",
+   "Gujarat",
+   "Telangana",
+   "West Bengal",
+   "Kerala"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "photographers",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "mughal-monuments-in-india",
+  "title": "Mughal Monuments in India: A Heritage Trail",
+  "short": "Mughal monuments in India",
+  "kind": "pillar",
+  "excerpt": "A guide to Mughal monuments in India, in the order they were built: Humayun's Tomb, Agra Fort and Fatehpur Sikri under Akbar, Akbar's tomb at Sikandra, Itmad-ud-Daulah, the Taj Mahal, the Red Fort and Jama Masjid in Delhi, the Mughal gardens of Kashmir and Pinjore, Bibi ka Maqbara and Safdarjung's Tomb, with how to see them on a trip.",
+  "image": "/images/heritage/mughal-monuments-agra-fort.webp",
+  "imageAlt": "Bastions of the red sandstone walls of Agra Fort",
+  "tags": [
+   "Mughal",
+   "Monuments",
+   "Taj Mahal",
+   "Agra",
+   "Delhi"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "gardens",
+   "photography"
+  ],
+  "terrain": [
+   "plains",
+   "river",
+   "gardens"
+  ],
+  "regions": [
+   "Delhi",
+   "Uttar Pradesh",
+   "Jammu and Kashmir",
+   "Maharashtra",
+   "Haryana"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "colonial-heritage-in-india",
+  "title": "Colonial-Era Heritage in India: Portuguese, French, Danish and British Towns",
+  "short": "Colonial heritage in India",
+  "kind": "pillar",
+  "excerpt": "A guide to colonial-era heritage in India, seen in its full context: Portuguese Old Goa, Diu and Daman; Dutch and Portuguese Kochi; Danish Tharangambadi and Serampore; French Puducherry and Chandannagar; and British-era Chennai, Kolkata, Mumbai, Shimla and New Delhi, along with memorials to the freedom struggle such as the Cellular Jail and Jallianwala Bagh.",
+  "image": "/images/heritage/colonial-heritage-csmt-mumbai.webp",
+  "imageAlt": "Chhatrapati Shivaji Maharaj Terminus in Mumbai",
+  "tags": [
+   "Colonial Heritage",
+   "Goa",
+   "Kolkata",
+   "Mumbai",
+   "Puducherry"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "heritage walks",
+   "architecture",
+   "museums",
+   "churches"
+  ],
+  "terrain": [
+   "coast",
+   "city",
+   "hills"
+  ],
+  "regions": [
+   "Goa",
+   "Kerala",
+   "Puducherry",
+   "Tamil Nadu",
+   "West Bengal",
+   "Maharashtra",
+   "Himachal Pradesh",
+   "Delhi",
+   "Andaman and Nicobar Islands"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "photographers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "deccan-sultanate-heritage",
+  "title": "Deccan Heritage: Bijapur, Bidar, Gulbarga and Golconda",
+  "short": "Deccan sultanate heritage",
+  "kind": "destination",
+  "excerpt": "A guide to the monuments of the Bahmani and Deccan sultanates: the forts and mosques of Kalaburagi (Gulbarga), Bidar's fort, madrasa and Bahmani tombs, Bijapur's Gol Gumbaz and Ibrahim Rauza, Golconda Fort, the Qutb Shahi tombs and Charminar in Hyderabad, and Ahmednagar, with a road-trip route and tips.",
+  "image": "/images/heritage/deccan-gol-gumbaz-vijayapura.webp",
+  "imageAlt": "Gol Gumbaz, the tomb of Muhammad Adil Shah, at Vijayapura",
+  "tags": [
+   "Deccan",
+   "Bidar",
+   "Bijapur",
+   "Golconda",
+   "Hyderabad"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "forts",
+   "heritage walks",
+   "photography"
+  ],
+  "terrain": [
+   "plateau",
+   "city"
+  ],
+  "regions": [
+   "Karnataka",
+   "Telangana",
+   "Maharashtra"
+  ],
+  "seasons": [
+   "winter"
+  ],
+  "travellers": [
+   "history lovers",
+   "photographers",
+   "couples"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-cities-in-india",
+  "title": "Heritage Cities in India: Old Cities Worth Exploring",
+  "short": "Heritage cities in India",
+  "kind": "pillar",
+  "excerpt": "A guide to India's heritage cities, where old quarters, markets, crafts and food are part of daily life: Ahmedabad and Jaipur (the two UNESCO World Heritage Cities), Varanasi, Old Delhi, Lucknow, Hyderabad, Kolkata, Udaipur, Jodhpur, Jaisalmer, Kochi, Madurai, Puducherry, Mysuru, Amritsar and smaller towns such as Orchha and Bundi, with how to explore them.",
+  "image": "/images/heritage/heritage-cities-ahmedabad-pol.webp",
+  "imageAlt": "A lane of carved wooden houses in Desai ni Pol, old Ahmedabad",
+  "tags": [
+   "Heritage Cities",
+   "Old City",
+   "Ahmedabad",
+   "Jaipur",
+   "Varanasi"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "heritage walks",
+   "markets",
+   "food",
+   "architecture"
+  ],
+  "terrain": [
+   "city",
+   "heritage town"
+  ],
+  "regions": [
+   "Gujarat",
+   "Rajasthan",
+   "Uttar Pradesh",
+   "Delhi",
+   "Telangana",
+   "West Bengal",
+   "Kerala",
+   "Tamil Nadu",
+   "Punjab"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "photographers",
+   "food lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-walks-in-india",
+  "title": "Heritage Walks in India: Old City Walks Worth Taking",
+  "short": "Heritage walks in India",
+  "kind": "pillar",
+  "excerpt": "A guide to the best heritage walks in India, with what each covers and how to do it: Ahmedabad's old-city walk through the pols, Old Delhi and Chandni Chowk, Mehrauli Archaeological Park, Jaipur's walled city, Varanasi's ghats, Lucknow, Hyderabad's old city, Kolkata's Dalhousie Square and north Kolkata, Mumbai's Fort precinct, Fort Kochi, Puducherry and Hampi, with tips on timing, guides and etiquette.",
+  "image": "/images/heritage/heritage-walks-chandni-chowk.webp",
+  "imageAlt": "A busy street in Chandni Chowk, Old Delhi",
+  "tags": [
+   "Heritage Walks",
+   "Old City",
+   "Walking Tours",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "heritage walks",
+   "food walks",
+   "markets",
+   "photography"
+  ],
+  "terrain": [
+   "city"
+  ],
+  "regions": [
+   "Gujarat",
+   "Delhi",
+   "Rajasthan",
+   "Uttar Pradesh",
+   "Telangana",
+   "West Bengal",
+   "Maharashtra",
+   "Kerala",
+   "Puducherry"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "solo travellers",
+   "families",
+   "photographers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "best-museums-in-india",
+  "title": "Best Museums in India: History, Art and Culture",
+  "short": "Best museums in India",
+  "kind": "pillar",
+  "excerpt": "A guide to the best museums in India for travellers: national collections in Delhi and Kolkata, CSMVS in Mumbai, the Salar Jung Museum in Hyderabad, the Calico Museum of Textiles in Ahmedabad, the Bihar Museum in Patna, the Government Museum in Chennai, fort and palace museums in Rajasthan, site museums at Sarnath and Sanchi, and anthropology museums in Bhopal, with visiting tips.",
+  "image": "/images/heritage/museums-india-victoria-memorial.webp",
+  "imageAlt": "The Victoria Memorial museum in Kolkata",
+  "tags": [
+   "Museums",
+   "Art",
+   "History",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "museums",
+   "art",
+   "history",
+   "architecture"
+  ],
+  "terrain": [
+   "city"
+  ],
+  "regions": [
+   "Delhi",
+   "West Bengal",
+   "Maharashtra",
+   "Telangana",
+   "Gujarat",
+   "Bihar",
+   "Tamil Nadu",
+   "Rajasthan",
+   "Madhya Pradesh"
+  ],
+  "seasons": [
+   "year-round"
+  ],
+  "travellers": [
+   "families",
+   "students",
+   "couples"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "handicrafts-of-india",
+  "title": "Handicrafts of India: Crafts, Artisan Villages and Where to Buy",
+  "short": "Handicrafts of India",
+  "kind": "pillar",
+  "excerpt": "A traveller's guide to the handicrafts of India, region by region: Jaipur blue pottery and Sanganer block printing, Kutch embroidery and bandhani, Kashmiri papier-mache, Bidriware, Channapatna toys, dhokra metal casting, Pattachitra at Raghurajpur, Madhubani painting, Bankura terracotta and more, with craft villages to visit, fairs, and how to buy ethically.",
+  "image": "/images/heritage/handicrafts-jaipur-blue-pottery.webp",
+  "imageAlt": "Shelves of Jaipur blue pottery in a craft shop",
+  "tags": [
+   "Handicrafts",
+   "Crafts",
+   "Artisans",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "crafts",
+   "shopping",
+   "village visits",
+   "workshops"
+  ],
+  "terrain": [
+   "village",
+   "city"
+  ],
+  "regions": [
+   "Rajasthan",
+   "Gujarat",
+   "Odisha",
+   "Bihar",
+   "Karnataka",
+   "Jammu and Kashmir",
+   "West Bengal",
+   "Chhattisgarh",
+   "Uttar Pradesh"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "shoppers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "textile-heritage-of-india",
+  "title": "Textile Heritage of India: Handlooms, Sarees and Weaving Towns",
+  "short": "Textile heritage of India",
+  "kind": "pillar",
+  "excerpt": "A traveller's guide to India's textile heritage: silk weaves from Varanasi and Kanchipuram, the double ikat Patola of Patan, Pochampally and Sambalpuri ikat, Chanderi and Maheshwari, Paithani, Baluchari, Muga silk of Assam, chikankari, kantha and phulkari embroidery, Ajrakh and Kalamkari prints, and Kashmir's pashmina, with weaving towns to visit and how to buy genuine handloom.",
+  "image": "/images/heritage/textiles-handloom-weaver-india.webp",
+  "imageAlt": "A handloom weaving silk in Salem, Tamil Nadu",
+  "tags": [
+   "Textiles",
+   "Handloom",
+   "Silk",
+   "Saris",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "textiles",
+   "crafts",
+   "shopping",
+   "village visits"
+  ],
+  "terrain": [
+   "village",
+   "city"
+  ],
+  "regions": [
+   "Uttar Pradesh",
+   "Tamil Nadu",
+   "Gujarat",
+   "Telangana",
+   "Odisha",
+   "Madhya Pradesh",
+   "Maharashtra",
+   "West Bengal",
+   "Assam",
+   "Jammu and Kashmir"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "shoppers",
+   "textile lovers"
+  ],
+  "parent": "/blog/handicrafts-of-india"
+ },
+ {
+  "slug": "classical-dance-and-music-in-india",
+  "title": "Classical Dance and Music in India: Where to Watch and Learn",
+  "short": "Classical dance and music in India",
+  "kind": "pillar",
+  "excerpt": "A traveller's guide to India's classical dance and music: the classical dance forms recognised by the Sangeet Natak Akademi, Hindustani and Carnatic music, folk forms such as Kalbelia, Chhau and Garba, and where to watch them, from Kathakali in Kochi and the Chennai music season to the Khajuraho and Konark dance festivals.",
+  "image": "/images/heritage/classical-dance-kathakali.webp",
+  "imageAlt": "A Kathakali performance in Kerala",
+  "tags": [
+   "Classical Dance",
+   "Music",
+   "Kathakali",
+   "Bharatanatyam",
+   "Festivals"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "performances",
+   "festivals",
+   "culture"
+  ],
+  "terrain": [
+   "city",
+   "heritage town"
+  ],
+  "regions": [
+   "Tamil Nadu",
+   "Kerala",
+   "Odisha",
+   "Madhya Pradesh",
+   "Uttar Pradesh",
+   "Manipur",
+   "Assam",
+   "Andhra Pradesh",
+   "Rajasthan"
+  ],
+  "seasons": [
+   "winter"
+  ],
+  "travellers": [
+   "couples",
+   "culture lovers",
+   "families"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "cultural-festivals-in-india",
+  "title": "Cultural Festivals in India: A Traveller's Calendar",
+  "short": "Cultural festivals in India",
+  "kind": "pillar",
+  "excerpt": "A month-by-month guide to India's cultural festivals for travellers: Uttarayan kites and Pongal in January, Goa Carnival and the Desert Festival in February, Holi, Bihu and Thrissur Pooram in spring, Hemis in summer, Onam and the snake-boat races, Navratri, Durga Puja and Mysuru Dasara in autumn, the Pushkar Fair, Hornbill Festival and Rann Utsav in winter, with how to plan around them.",
+  "image": "/images/heritage/cultural-festivals-pushkar-fair.webp",
+  "imageAlt": "A musician and camels at sunset at the Pushkar Fair, Rajasthan",
+  "tags": [
+   "Festivals",
+   "Culture",
+   "Pushkar",
+   "Hornbill",
+   "Durga Puja"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "festivals",
+   "culture",
+   "photography",
+   "food"
+  ],
+  "terrain": [
+   "city",
+   "village",
+   "desert",
+   "hills"
+  ],
+  "regions": [
+   "Rajasthan",
+   "Nagaland",
+   "Gujarat",
+   "West Bengal",
+   "Kerala",
+   "Ladakh",
+   "Assam",
+   "Karnataka",
+   "Goa"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring",
+   "monsoon"
+  ],
+  "travellers": [
+   "couples",
+   "photographers",
+   "groups",
+   "families"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "hornbill-festival",
+  "title": "Hornbill Festival, Nagaland: Dates, Kisama and How to Visit",
+  "short": "Hornbill Festival",
+  "kind": "destination",
+  "excerpt": "A planning guide to the Hornbill Festival in Nagaland, held every year from 1 to 10 December at the Naga Heritage Village, Kisama, near Kohima: what you will see, the Inner Line Permit and registration rules, how to get there from Dimapur, where to stay, what to wear in December, and how to visit Naga villages respectfully.",
+  "image": "/images/heritage/hornbill-festival-kisama.webp",
+  "imageAlt": "Naga dancers leaping during the Hornbill Festival at Kisama, Nagaland",
+  "tags": [
+   "Hornbill Festival",
+   "Nagaland",
+   "Kohima",
+   "Festivals"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "festivals",
+   "culture",
+   "music",
+   "food"
+  ],
+  "terrain": [
+   "hills"
+  ],
+  "regions": [
+   "Nagaland",
+   "North East India"
+  ],
+  "seasons": [
+   "winter"
+  ],
+  "travellers": [
+   "photographers",
+   "couples",
+   "groups",
+   "solo travellers"
+  ],
+  "parent": "/blog/cultural-festivals-in-india"
+ },
+ {
+  "slug": "rann-utsav",
+  "title": "Rann Utsav, Kutch: Dates, Tent City and How to Visit",
+  "short": "Rann Utsav",
+  "kind": "destination",
+  "excerpt": "A planning guide to the Rann Utsav, Gujarat's winter festival on the white salt desert of the Rann of Kutch: the 2026 to 2027 season at Dhordo, the tent city, cultural programmes, full-moon nights on the white Rann, the permit for the Rann, the craft villages around Bhuj, Kalo Dungar and Dholavira, and how to plan a visit.",
+  "image": "/images/heritage/rann-utsav-white-rann.webp",
+  "imageAlt": "The tent city of the Rann Utsav at Dhordo, Kutch",
+  "tags": [
+   "Rann Utsav",
+   "Kutch",
+   "White Rann",
+   "Gujarat",
+   "Festivals"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "festivals",
+   "crafts",
+   "desert",
+   "photography"
+  ],
+  "terrain": [
+   "desert",
+   "salt flat"
+  ],
+  "regions": [
+   "Gujarat",
+   "Kutch"
+  ],
+  "seasons": [
+   "winter"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "photographers",
+   "groups"
+  ],
+  "parent": "/blog/cultural-festivals-in-india"
+ },
+ {
+  "slug": "tribal-tourism-in-india",
+  "title": "Tribal and Indigenous Culture in India: A Responsible Traveller's Guide",
+  "short": "Tribal tourism in India",
+  "kind": "pillar",
+  "excerpt": "A responsible guide to experiencing India's tribal and indigenous cultures: community-run homestays and festivals in Nagaland, Meghalaya and Arunachal Pradesh, Bastar and Koraput in central and eastern India, Warli and Gond art, museums in Bhopal, permit rules, protected groups who must not be visited, and principles for respectful, consent-based travel.",
+  "image": "/images/heritage/tribal-culture-warli-painting.webp",
+  "imageAlt": "A Warli painting in white on a red wall, at Sanjay Gandhi National Park, Mumbai",
+  "tags": [
+   "Tribal Culture",
+   "Indigenous",
+   "Responsible Travel",
+   "North East India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "culture",
+   "village stays",
+   "crafts",
+   "festivals"
+  ],
+  "terrain": [
+   "hills",
+   "forest",
+   "village"
+  ],
+  "regions": [
+   "Nagaland",
+   "Meghalaya",
+   "Arunachal Pradesh",
+   "Chhattisgarh",
+   "Odisha",
+   "Madhya Pradesh",
+   "Maharashtra",
+   "Jharkhand"
+  ],
+  "seasons": [
+   "winter",
+   "autumn"
+  ],
+  "travellers": [
+   "responsible travellers",
+   "couples",
+   "small groups"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "food-heritage-of-india",
+  "title": "Food Heritage of India: Regional Cuisines for Travellers",
+  "short": "Food heritage of India",
+  "kind": "pillar",
+  "excerpt": "A traveller's guide to the food heritage of India: the royal kitchens of Lucknow, Hyderabad and Delhi, Rajasthani and Gujarati thalis, Bengali sweets, Kerala's sadya and seafood, Chettinad spice, Goan and Parsi food, Kashmiri wazwan, north-eastern cooking and temple food, with GI-tagged foods, food walks and tips for eating well and safely.",
+  "image": "/images/heritage/food-heritage-thali.webp",
+  "imageAlt": "An Indian vegetarian thali with breads, dal and vegetables",
+  "tags": [
+   "Food Heritage",
+   "Indian Cuisine",
+   "Food Walks",
+   "Regional Food"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "food",
+   "food walks",
+   "markets",
+   "culture"
+  ],
+  "terrain": [
+   "city",
+   "village"
+  ],
+  "regions": [
+   "Uttar Pradesh",
+   "Telangana",
+   "Delhi",
+   "Rajasthan",
+   "Gujarat",
+   "West Bengal",
+   "Kerala",
+   "Tamil Nadu",
+   "Goa",
+   "Jammu and Kashmir"
+  ],
+  "seasons": [
+   "year-round"
+  ],
+  "travellers": [
+   "food lovers",
+   "couples",
+   "families"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "mountain-railways-of-india",
+  "title": "Mountain Railways of India: The UNESCO Toy Trains and Other Heritage Journeys",
+  "short": "Mountain railways of India",
+  "kind": "pillar",
+  "excerpt": "A guide to riding India's mountain railways: the three lines inscribed by UNESCO as the Mountain Railways of India (the Darjeeling Himalayan Railway, the Nilgiri Mountain Railway and the Kalka-Shimla Railway), plus the Matheran Light Railway and the Kangra Valley Railway, with routes, journey times, booking, seasons and tips.",
+  "image": "/images/heritage/mountain-railways-darjeeling-toy-train.webp",
+  "imageAlt": "A steam locomotive of the Darjeeling Himalayan Railway",
+  "tags": [
+   "Toy Train",
+   "Mountain Railways",
+   "Darjeeling",
+   "Ooty",
+   "Shimla",
+   "UNESCO"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "train journeys",
+   "hill stations",
+   "photography"
+  ],
+  "terrain": [
+   "mountains",
+   "hills"
+  ],
+  "regions": [
+   "West Bengal",
+   "Tamil Nadu",
+   "Himachal Pradesh",
+   "Maharashtra"
+  ],
+  "seasons": [
+   "spring",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "rail enthusiasts"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "golden-triangle-itinerary",
+  "title": "Golden Triangle Itinerary: Delhi, Agra and Jaipur in 5 Days",
+  "short": "Golden Triangle itinerary",
+  "kind": "planning",
+  "excerpt": "A day-by-day Golden Triangle itinerary covering Delhi, Agra and Jaipur in six days: Old and New Delhi, Humayun's Tomb and the Qutub Minar, the Taj Mahal at sunrise, Agra Fort, Fatehpur Sikri on the drive to Jaipur, Amber Fort and Jaipur's walled city, with weekly closures to plan around, travel times by road and rail, and extensions to Ranthambore, Udaipur or Varanasi.",
+  "image": "/images/heritage/golden-triangle-jaipur-hawa-mahal.webp",
+  "imageAlt": "The Hawa Mahal facing the street in Jaipur",
+  "tags": [
+   "Golden Triangle",
+   "Delhi",
+   "Agra",
+   "Jaipur",
+   "Itinerary"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "markets",
+   "food"
+  ],
+  "terrain": [
+   "plains",
+   "city"
+  ],
+  "regions": [
+   "Delhi",
+   "Uttar Pradesh",
+   "Rajasthan"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "autumn"
+  ],
+  "travellers": [
+   "first-time visitors",
+   "families",
+   "couples"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "rajasthan-heritage-itinerary",
+  "title": "Rajasthan Heritage Itinerary: Forts, Palaces and Old Cities in 10 to 14 Days",
+  "short": "Rajasthan heritage itinerary",
+  "kind": "planning",
+  "excerpt": "A 14-day Rajasthan heritage itinerary through forts, palaces and old cities: Jaipur and Amber, Ranthambore's fort and tigers, Bundi's stepwells and murals, Chittorgarh, Udaipur's lakes and City Palace, Kumbhalgarh and the Ranakpur temple, Jodhpur's Mehrangarh and Jaisalmer's living fort, with drive times, where to break the journey and shorter versions.",
+  "image": "/images/heritage/rajasthan-heritage-jaisalmer-fort.webp",
+  "imageAlt": "The gateway and walls of Jaisalmer Fort",
+  "tags": [
+   "Rajasthan",
+   "Itinerary",
+   "Forts",
+   "Palaces",
+   "Road Trip"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "forts",
+   "palaces",
+   "road trip",
+   "heritage walks"
+  ],
+  "terrain": [
+   "hills",
+   "desert",
+   "lakes"
+  ],
+  "regions": [
+   "Rajasthan"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "photographers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "south-india-heritage-itinerary",
+  "title": "South India Heritage Itinerary: Karnataka and Tamil Nadu",
+  "short": "South India heritage itinerary",
+  "kind": "planning",
+  "excerpt": "A South India heritage itinerary in two loops: eight days in Tamil Nadu through Chennai, Mahabalipuram, Kanchipuram, Puducherry, Thanjavur and the Great Living Chola Temples, Chettinad and Madurai; and eight days in Karnataka through Mysuru, the Hoysala temples of Belur and Halebidu, Hampi, and Badami, Aihole and Pattadakal, with travel times and ways to combine them.",
+  "image": "/images/heritage/south-india-mahabalipuram-shore-temple.webp",
+  "imageAlt": "The Shore Temple at Mahabalipuram, Tamil Nadu",
+  "tags": [
+   "South India",
+   "Tamil Nadu",
+   "Karnataka",
+   "Temples",
+   "Itinerary"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "temples",
+   "UNESCO sites",
+   "architecture",
+   "food"
+  ],
+  "terrain": [
+   "coast",
+   "plains",
+   "plateau"
+  ],
+  "regions": [
+   "Tamil Nadu",
+   "Karnataka",
+   "Puducherry"
+  ],
+  "seasons": [
+   "winter"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "gujarat-heritage-itinerary",
+  "title": "Gujarat Heritage Itinerary: Ahmedabad, Patan, Kutch and Saurashtra",
+  "short": "Gujarat heritage itinerary",
+  "kind": "planning",
+  "excerpt": "A 10-day Gujarat heritage itinerary: Ahmedabad's UNESCO old city and Sabarmati Ashram, the Adalaj stepwell, the Modhera Sun Temple and Rani ki Vav at Patan, the Harappan sites of Lothal and Dholavira, Kutch's craft villages and white Rann, and Champaner-Pavagadh, with travel times and seasonal notes.",
+  "image": "/images/heritage/gujarat-heritage-rani-ki-vav.webp",
+  "imageAlt": "The terraced stepwell of Rani ki Vav at Patan, Gujarat",
+  "tags": [
+   "Gujarat",
+   "Itinerary",
+   "Stepwells",
+   "Kutch",
+   "Harappan"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "stepwells",
+   "UNESCO sites",
+   "crafts",
+   "archaeology"
+  ],
+  "terrain": [
+   "plains",
+   "desert",
+   "salt flat"
+  ],
+  "regions": [
+   "Gujarat"
+  ],
+  "seasons": [
+   "winter"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "madhya-pradesh-heritage-itinerary",
+  "title": "Madhya Pradesh Heritage Itinerary: Gwalior, Orchha, Khajuraho, Sanchi and Mandu",
+  "short": "Madhya Pradesh heritage itinerary",
+  "kind": "planning",
+  "excerpt": "An 11-day Madhya Pradesh heritage itinerary: Gwalior's hilltop fort, Orchha's palaces and cenotaphs, the temples of Khajuraho, Bhopal with day trips to Sanchi, Udayagiri and Bhimbetka, and the Malwa plateau's Mandu and Maheshwar, reached from Indore, with travel times and seasonal tips.",
+  "image": "/images/heritage/mp-heritage-orchha-chhatris.webp",
+  "imageAlt": "The royal chhatris (cenotaphs) of Orchha, Madhya Pradesh",
+  "tags": [
+   "Madhya Pradesh",
+   "Itinerary",
+   "Khajuraho",
+   "Orchha",
+   "Mandu"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "forts",
+   "temples",
+   "UNESCO sites",
+   "heritage towns"
+  ],
+  "terrain": [
+   "plateau",
+   "river"
+  ],
+  "regions": [
+   "Madhya Pradesh"
+  ],
+  "seasons": [
+   "winter",
+   "monsoon"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "photographers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-tourism-in-rajasthan",
+  "title": "Heritage Tourism in Rajasthan: Forts, Palaces and Painted Towns",
+  "short": "Heritage tourism in Rajasthan",
+  "kind": "state",
+  "excerpt": "A guide to heritage tourism in Rajasthan: its four UNESCO sites, the great forts and palace cities, the painted havelis of Shekhawati, stepwells such as Chand Baori, Jain temples at Ranakpur and Mount Abu, crafts, folk music and festivals, and how to plan a heritage route.",
+  "image": "/images/heritage/heritage-rajasthan-jaipur-city-palace.webp",
+  "imageAlt": "The Chandra Mahal courtyard at the City Palace, Jaipur",
+  "tags": [
+   "Rajasthan",
+   "Heritage",
+   "Forts",
+   "Palaces"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "crafts",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "Rajasthan"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-tourism-in-gujarat",
+  "title": "Heritage Tourism in Gujarat: Stepwells, Harappan Cities and Old Ahmedabad",
+  "short": "Heritage tourism in Gujarat",
+  "kind": "state",
+  "excerpt": "A guide to heritage tourism in Gujarat: its four UNESCO cultural sites (Champaner-Pavagadh, Rani ki Vav, the Historic City of Ahmedabad and Dholavira), Harappan Lothal, the Modhera Sun Temple and Adalaj stepwell, Junagadh and Girnar, Vadodara's palaces, the crafts and textiles of Kutch and Patan, festivals, and how to plan a route.",
+  "image": "/images/heritage/heritage-gujarat-adalaj-stepwell.webp",
+  "imageAlt": "Carved pillars and galleries of the Adalaj stepwell near Ahmedabad",
+  "tags": [
+   "Gujarat",
+   "Heritage",
+   "Stepwells",
+   "Kutch"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "crafts",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "Gujarat"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-tourism-in-madhya-pradesh",
+  "title": "Heritage Tourism in Madhya Pradesh: Khajuraho, Gwalior, Orchha and Mandu",
+  "short": "Heritage tourism in Madhya Pradesh",
+  "kind": "state",
+  "excerpt": "A guide to heritage tourism in Madhya Pradesh: its three UNESCO cultural sites (Khajuraho, Sanchi and Bhimbetka), the forts and palaces of Gwalior, Orchha and Datia, Mandu and Maheshwar on the Malwa plateau, the weaving towns of Chanderi and Maheshwar, Bhopal's museums, the Khajuraho Dance Festival and Gwalior's music heritage, with how to plan a route.",
+  "image": "/images/heritage/heritage-mp-gwalior-fort.webp",
+  "imageAlt": "The Man Singh palace on the walls of Gwalior Fort",
+  "tags": [
+   "Madhya Pradesh",
+   "Heritage",
+   "Khajuraho",
+   "Orchha"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "crafts",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "Madhya Pradesh"
+  ],
+  "seasons": [
+   "winter",
+   "monsoon"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-tourism-in-maharashtra",
+  "title": "Heritage Tourism in Maharashtra: Caves, Forts and Mumbai's Architecture",
+  "short": "Heritage tourism in Maharashtra",
+  "kind": "state",
+  "excerpt": "A guide to heritage tourism in Maharashtra: its six UNESCO cultural sites (Ajanta, Ellora, Elephanta, Chhatrapati Shivaji Maharaj Terminus, Mumbai's Victorian Gothic and Art Deco Ensembles, and the Maratha Military Landscapes), other caves and forts, Chhatrapati Sambhajinagar and Pune, Paithani and Warli, Ganeshotsav and Lavani, and how to plan a route.",
+  "image": "/images/heritage/heritage-maharashtra-ellora-kailasa.webp",
+  "imageAlt": "The Kailasa temple (Cave 16) at Ellora, carved from the hillside",
+  "tags": [
+   "Maharashtra",
+   "Heritage",
+   "Caves",
+   "Forts",
+   "Mumbai"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "crafts",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "Maharashtra"
+  ],
+  "seasons": [
+   "winter",
+   "monsoon"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-tourism-in-karnataka",
+  "title": "Heritage Tourism in Karnataka: Hampi, Hoysala Temples and Deccan Forts",
+  "short": "Heritage tourism in Karnataka",
+  "kind": "state",
+  "excerpt": "A guide to heritage tourism in Karnataka: its three UNESCO cultural sites (Hampi, Pattadakal and the Sacred Ensembles of the Hoysalas), the Chalukya temples of Badami and Aihole, Mysuru and Srirangapatna, the Deccan sultanate cities of Bidar, Kalaburagi and Vijayapura, crafts such as Mysore silk, Channapatna toys and Bidriware, Yakshagana and Mysuru Dasara.",
+  "image": "/images/heritage/heritage-karnataka-pattadakal.webp",
+  "imageAlt": "Temples of the Pattadakal group, Karnataka",
+  "tags": [
+   "Karnataka",
+   "Heritage",
+   "Hampi",
+   "Hoysala",
+   "Mysuru"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "crafts",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "Karnataka"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-tourism-in-tamil-nadu",
+  "title": "Heritage Tourism in Tamil Nadu: Chola Temples, Mahabalipuram and Chettinad",
+  "short": "Heritage tourism in Tamil Nadu",
+  "kind": "state",
+  "excerpt": "A guide to heritage tourism in Tamil Nadu: its UNESCO sites (the monuments of Mahabalipuram, the Great Living Chola Temples and the Nilgiri Mountain Railway), the temple towns of Madurai, Kanchipuram, Srirangam and Chidambaram, the Chettinad mansions, colonial Chennai and Tharangambadi, Keeladi, bronze casting, Kanchipuram silk, Bharatanatyam and the Chennai music season.",
+  "image": "/images/heritage/heritage-tn-chettinad-mansion.webp",
+  "imageAlt": "A Chettinad mansion in Kanadukathan, Tamil Nadu",
+  "tags": [
+   "Tamil Nadu",
+   "Heritage",
+   "Temples",
+   "Chettinad"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "crafts",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "Tamil Nadu"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-tourism-in-uttar-pradesh",
+  "title": "Heritage Tourism in Uttar Pradesh: Agra, Lucknow, Varanasi and Beyond",
+  "short": "Heritage tourism in Uttar Pradesh",
+  "kind": "state",
+  "excerpt": "A guide to heritage tourism in Uttar Pradesh: its four UNESCO cultural sites (the Taj Mahal, Agra Fort, Fatehpur Sikri and Sarnath), Mughal Agra, Nawabi Lucknow, the ghats of Varanasi, Jhansi and the Bundelkhand forts, Buddhist sites, crafts such as chikankari, Banarasi silk and marble inlay, and the Kathak tradition, with how to plan a route.",
+  "image": "/images/heritage/heritage-up-bara-imambara-lucknow.webp",
+  "imageAlt": "The Bara Imambara of Asaf-ud-Daula in Lucknow",
+  "tags": [
+   "Uttar Pradesh",
+   "Heritage",
+   "Agra",
+   "Lucknow",
+   "Varanasi"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "crafts",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "Uttar Pradesh"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-tourism-in-delhi",
+  "title": "Heritage Tourism in Delhi: Monuments of the Seven Cities",
+  "short": "Heritage tourism in Delhi",
+  "kind": "state",
+  "excerpt": "A guide to heritage tourism in Delhi: its three UNESCO sites (the Qutub Minar, Humayun's Tomb and the Red Fort), the layered 'cities of Delhi' from Mehrauli and Tughlaqabad to Purana Qila and Shahjahanabad, Lodhi Garden, Nizamuddin and Sunder Nursery, Lutyens' New Delhi, stepwells, museums, crafts and heritage walks.",
+  "image": "/images/heritage/heritage-delhi-purana-qila.webp",
+  "imageAlt": "The Qila-i-Kuhna mosque inside the Purana Qila, Delhi",
+  "tags": [
+   "Delhi",
+   "Heritage",
+   "Monuments",
+   "Old Delhi"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "crafts",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "Delhi"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-tourism-in-odisha",
+  "title": "Heritage Tourism in Odisha: Konark, Temple Towns and Living Crafts",
+  "short": "Heritage tourism in Odisha",
+  "kind": "state",
+  "excerpt": "A guide to heritage tourism in Odisha: the Konark Sun Temple, a UNESCO World Heritage Site, the temple city of Bhubaneswar, the Jain caves of Udayagiri and Khandagiri, the Ashokan edicts at Dhauli, the Buddhist sites of Ratnagiri, Lalitgiri and Udayagiri, Puri, the craft villages of Raghurajpur and Pipili, Cuttack's silver filigree, Odissi and Sambalpuri weaving.",
+  "image": "/images/heritage/heritage-odisha-mukteswar-temple.webp",
+  "imageAlt": "The Mukteswar temple in Bhubaneswar, Odisha",
+  "tags": [
+   "Odisha",
+   "Heritage",
+   "Konark",
+   "Bhubaneswar",
+   "Crafts"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "crafts",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "Odisha"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-tourism-in-west-bengal",
+  "title": "Heritage Tourism in West Bengal: Kolkata, Bishnupur, Murshidabad and Santiniketan",
+  "short": "Heritage tourism in West Bengal",
+  "kind": "state",
+  "excerpt": "A guide to heritage tourism in West Bengal: its UNESCO cultural sites (Santiniketan and the Darjeeling Himalayan Railway), Kolkata's colonial and Bengali heritage, Bishnupur's terracotta temples, Murshidabad and the Nawabs of Bengal, the European towns along the Hooghly, Gaur and Pandua, Cooch Behar, and crafts, music and festivals from kantha and Baul to Durga Puja.",
+  "image": "/images/heritage/heritage-wb-bishnupur-terracotta.webp",
+  "imageAlt": "The Jor Mandir terracotta temples at Bishnupur, West Bengal",
+  "tags": [
+   "West Bengal",
+   "Heritage",
+   "Kolkata",
+   "Bishnupur",
+   "Durga Puja"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "crafts",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "West Bengal"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-tourism-in-telangana",
+  "title": "Heritage Tourism in Telangana: Hyderabad, Golconda and Warangal",
+  "short": "Heritage tourism in Telangana",
+  "kind": "state",
+  "excerpt": "A guide to heritage tourism in Telangana: the Ramappa temple, a UNESCO World Heritage Site since 2021; Hyderabad's Golconda Fort, Qutb Shahi tombs, Charminar, Chowmahalla Palace and Salar Jung Museum; Warangal's Kakatiya fort and Thousand Pillar Temple; Bhongir fort; Pochampally ikat and Cheriyal scrolls; Bathukamma and Bonalu; and Hyderabadi food.",
+  "image": "/images/heritage/heritage-telangana-charminar.webp",
+  "imageAlt": "The Charminar, Hyderabad",
+  "tags": [
+   "Telangana",
+   "Heritage",
+   "Hyderabad",
+   "Warangal",
+   "Ramappa"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "crafts",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "Telangana"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ },
+ {
+  "slug": "heritage-tourism-in-kerala",
+  "title": "Heritage Tourism in Kerala: Kochi, Palaces and Performing Arts",
+  "short": "Heritage tourism in Kerala",
+  "kind": "state",
+  "excerpt": "A guide to heritage tourism in Kerala: Fort Kochi and Mattancherry, the Muziris Heritage Project around Kodungallur, Padmanabhapuram and Kuthiramalika palaces, Bekal and Thalassery forts, the art forms of Kathakali, Kutiyattam, Mohiniyattam and Theyyam, Kerala Kalamandalam, temple festivals such as Thrissur Pooram, snake-boat races, and crafts from Aranmula mirrors to kasavu handloom.",
+  "image": "/images/heritage/heritage-kerala-mattancherry-palace.webp",
+  "imageAlt": "The Mattancherry Palace (Dutch Palace) in Kochi, Kerala",
+  "tags": [
+   "Kerala",
+   "Heritage",
+   "Kochi",
+   "Kathakali",
+   "Theyyam"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monuments",
+   "UNESCO sites",
+   "crafts",
+   "heritage walks"
+  ],
+  "terrain": [
+   "varied"
+  ],
+  "regions": [
+   "Kerala"
+  ],
+  "seasons": [
+   "winter",
+   "monsoon"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "history lovers"
+  ],
+  "parent": "/heritage-cultural-tourism"
+ }
+]

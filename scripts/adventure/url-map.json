@@ -1,0 +1,1540 @@
+[
+ {
+  "group": "Hub",
+  "slug": "adventure-travel",
+  "title": "Adventure Travel in India",
+  "primary": "adventure travel in India",
+  "secondary": [
+   "adventure tourism in India",
+   "adventure activities in India",
+   "adventure holidays India"
+  ],
+  "intent": "Navigational/informational: browse adventure activities, destinations and planning guides",
+  "parent": "/",
+  "children": [],
+  "related": [
+   "/packages/adventure-tours",
+   "/plan-your-trip"
+  ],
+  "conflicts": "Owns 'adventure travel/tourism in India'; replaces the candidate pillar /blog/adventure-travel-in-india",
+  "status": "create",
+  "kind": "hub",
+  "mergedInto": "",
+  "reason": "Category hub at /adventure-travel (not /blog/)"
+ },
+ {
+  "group": "Pillar",
+  "slug": "adventure-travel-in-india",
+  "title": "",
+  "primary": "adventure travel in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/adventure-travel",
+  "reason": "Same H1 and intent as the category hub required by the brief; one page ranks, so the hub carries the pillar copy."
+ },
+ {
+  "group": "Pillar",
+  "slug": "adventure-tourism-in-india",
+  "title": "",
+  "primary": "adventure tourism in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/adventure-travel",
+  "reason": "SERP for 'adventure tourism in India' and 'adventure travel in India' returns the same pages (listicles and operator hubs). Covered by the hub."
+ },
+ {
+  "group": "Pillar",
+  "slug": "adventure-trips-in-india",
+  "title": "",
+  "primary": "adventure trips in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/packages/adventure-tours",
+  "reason": "Transactional 'trips/tours' intent already served by the Adventure Trips package page; an article would compete with it."
+ },
+ {
+  "group": "Pillar",
+  "slug": "best-adventure-destinations-in-india",
+  "title": "Best Adventure Destinations in India, by Activity and Season",
+  "primary": "best adventure destinations in India",
+  "secondary": [
+   "adventure places in India",
+   "best places for adventure in India",
+   "adventure destinations India",
+   "adventure places in India for couples"
+  ],
+  "intent": "Informational list: where to go in India for adventure",
+  "parent": "/adventure-travel",
+  "children": [
+   "/blog/adventure-activities-in-ladakh",
+   "/blog/adventure-activities-in-manali",
+   "/blog/adventure-activities-in-goa",
+   "/blog/adventure-activities-in-andaman",
+   "/blog/adventure-activities-in-meghalaya",
+   "/blog/adventure-activities-in-sikkim",
+   "/blog/adventure-activities-in-uttarakhand",
+   "/blog/adventure-activities-in-himachal-pradesh"
+  ],
+  "related": [
+   "/blog/adventure-sports-in-india"
+  ],
+  "conflicts": "Places (this page) vs activities (adventure-sports-in-india); destination sections link down to the hubs rather than repeating them",
+  "status": "create",
+  "kind": "pillar",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Pillar",
+  "slug": "adventure-sports-in-india",
+  "title": "Adventure Sports in India: Land, Water and Air Activities",
+  "primary": "adventure sports in India",
+  "secondary": [
+   "adventure activities in India",
+   "types of adventure sports in India",
+   "ziplining in India",
+   "ATV rides in India",
+   "list of adventure sports"
+  ],
+  "intent": "Informational list: which adventure activities exist in India and where to do them",
+  "parent": "/adventure-travel",
+  "children": [
+   "/blog/trekking-in-india",
+   "/blog/river-rafting-in-india",
+   "/blog/paragliding-in-india",
+   "/blog/scuba-diving-in-india",
+   "/blog/skiing-in-india",
+   "/blog/bungee-jumping-in-india",
+   "/blog/skydiving-in-india",
+   "/blog/water-sports-in-india"
+  ],
+  "related": [
+   "/blog/best-adventure-destinations-in-india"
+  ],
+  "conflicts": "Activities (this page) vs places; each activity section is a summary that links to the activity page",
+  "status": "create",
+  "kind": "pillar",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Trekking",
+  "slug": "trekking-in-india",
+  "title": "Trekking in India: Best Treks by Region, Season and Difficulty",
+  "primary": "trekking in India",
+  "secondary": [
+   "best treks in India",
+   "Himalayan treks in India",
+   "high altitude treks in India",
+   "famous treks in India",
+   "trekking season in India"
+  ],
+  "intent": "Informational: choose a trek in India",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [
+   "/blog/beginner-treks-in-india",
+   "/blog/winter-treks-in-india",
+   "/blog/monsoon-treks-in-india"
+  ],
+  "related": [
+   "/blog/mountaineering-in-india"
+  ],
+  "conflicts": "Owns 'best treks' and 'Himalayan treks'; child pages own beginner, winter and monsoon intent",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Trekking",
+  "slug": "best-treks-in-india",
+  "title": "",
+  "primary": "best treks in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/trekking-in-india",
+  "reason": "SERP overlap: 'trekking in India' and 'best treks in India' return the same listicles."
+ },
+ {
+  "group": "Trekking",
+  "slug": "himalayan-treks-in-india",
+  "title": "",
+  "primary": "himalayan treks in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/trekking-in-india",
+  "reason": "Most treks in the parent are Himalayan; a separate page would duplicate its list."
+ },
+ {
+  "group": "Trekking",
+  "slug": "high-altitude-treks-in-india",
+  "title": "",
+  "primary": "high altitude treks in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/trekking-in-india",
+  "reason": "Covered as the 'Challenging and high-altitude treks' section, with AMS guidance."
+ },
+ {
+  "group": "Trekking",
+  "slug": "beginner-treks-in-india",
+  "title": "Beginner Treks in India: Easy Himalayan and Hill Treks",
+  "primary": "beginner treks in India",
+  "secondary": [
+   "easy treks in India",
+   "treks for beginners",
+   "first Himalayan trek",
+   "easy Himalayan treks"
+  ],
+  "intent": "Informational: first-time trekkers choosing a trek",
+  "parent": "/blog/trekking-in-india",
+  "children": [],
+  "related": [
+   "/blog/adventure-travel-for-beginners-in-india"
+  ],
+  "conflicts": "Distinct from adventure-travel-for-beginners (all activities); this page lists treks only",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Trekking",
+  "slug": "winter-treks-in-india",
+  "title": "Winter Treks in India: Snow Treks from December to March",
+  "primary": "winter treks in India",
+  "secondary": [
+   "snow treks in India",
+   "December treks",
+   "January treks in India",
+   "Kedarkantha trek",
+   "Chadar trek"
+  ],
+  "intent": "Informational/seasonal",
+  "parent": "/blog/trekking-in-india",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Trekking",
+  "slug": "monsoon-treks-in-india",
+  "title": "Monsoon Treks in India: Rain-Shadow Himalaya and Sahyadri Trails",
+  "primary": "monsoon treks in India",
+  "secondary": [
+   "treks in July and August",
+   "monsoon treks near Mumbai",
+   "Valley of Flowers trek",
+   "Sahyadri monsoon treks",
+   "rain shadow treks"
+  ],
+  "intent": "Informational/seasonal",
+  "parent": "/blog/trekking-in-india",
+  "children": [],
+  "related": [
+   "/blog/weekend-adventure-trips-from-mumbai"
+  ],
+  "conflicts": "Valley of Flowers guide covers that trek in depth; this page summarises and links",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Rafting",
+  "slug": "river-rafting-in-india",
+  "title": "River Rafting in India: Rivers, Grades and Seasons",
+  "primary": "river rafting in India",
+  "secondary": [
+   "best places for river rafting in India",
+   "white water rafting India",
+   "rafting season India",
+   "Zanskar rafting",
+   "Kolad rafting",
+   "Barapole rafting"
+  ],
+  "intent": "Informational: where and when to raft",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [
+   "/blog/river-rafting-in-rishikesh"
+  ],
+  "related": [
+   "/blog/kayaking-in-india"
+  ],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Rafting",
+  "slug": "best-places-for-river-rafting-in-india",
+  "title": "",
+  "primary": "best places for river rafting in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/river-rafting-in-india",
+  "reason": "Identical intent; merged."
+ },
+ {
+  "group": "Rafting",
+  "slug": "river-rafting-in-rishikesh",
+  "title": "River Rafting in Rishikesh: Stretches, Rapids, Season and Safety",
+  "primary": "river rafting in Rishikesh",
+  "secondary": [
+   "Rishikesh rafting stretches",
+   "Shivpuri rafting",
+   "Kaudiyala rafting",
+   "Marine Drive rafting",
+   "rafting season Rishikesh"
+  ],
+  "intent": "Informational/pre-booking",
+  "parent": "/blog/river-rafting-in-india",
+  "children": [],
+  "related": [
+   "/blog/rishikesh-adventure-travel-guide",
+   "/blog/things-to-do-in-rishikesh"
+  ],
+  "conflicts": "rishikesh-adventure-travel-guide covers the whole trip (yoga, cafes, stays) with a short adventure section; this page is rafting-only and the guide links here",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Paragliding",
+  "slug": "paragliding-in-india",
+  "title": "Paragliding in India: Best Sites, Seasons and What to Expect",
+  "primary": "paragliding in India",
+  "secondary": [
+   "best places for paragliding in India",
+   "paragliding in Bir Billing",
+   "Kamshet paragliding",
+   "Solang paragliding",
+   "tandem paragliding"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [],
+  "related": [
+   "/blog/bir-billing-travel-guide"
+  ],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Paragliding",
+  "slug": "best-places-for-paragliding-in-india",
+  "title": "",
+  "primary": "best places for paragliding in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/paragliding-in-india",
+  "reason": "Identical intent."
+ },
+ {
+  "group": "Paragliding",
+  "slug": "paragliding-in-bir-billing",
+  "title": "",
+  "primary": "paragliding in bir billing",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/bir-billing-travel-guide",
+  "reason": "The Bir Billing guide is titled 'Paragliding Capital of India' and already targets this query; a new page would cannibalise it. paragliding-in-india carries a Bir section that links to the guide."
+ },
+ {
+  "group": "Underwater",
+  "slug": "scuba-diving-in-india",
+  "title": "Scuba Diving in India: Best Dive Sites and Seasons",
+  "primary": "scuba diving in India",
+  "secondary": [
+   "best places for scuba diving in India",
+   "scuba diving in Lakshadweep",
+   "Netrani diving",
+   "Grande Island diving",
+   "PADI course India"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [
+   "/blog/scuba-diving-in-andaman"
+  ],
+  "related": [
+   "/blog/snorkeling-in-india"
+  ],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Underwater",
+  "slug": "best-places-for-scuba-diving-in-india",
+  "title": "",
+  "primary": "best places for scuba diving in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/scuba-diving-in-india",
+  "reason": "Identical intent."
+ },
+ {
+  "group": "Underwater",
+  "slug": "scuba-diving-in-lakshadweep",
+  "title": "",
+  "primary": "scuba diving in lakshadweep",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/scuba-diving-in-india",
+  "reason": "Lakshadweep guide already covers permits and diving; low standalone depth without verified operator detail. Section in scuba-diving-in-india."
+ },
+ {
+  "group": "Underwater",
+  "slug": "scuba-diving-in-andaman",
+  "title": "Scuba Diving in the Andaman Islands: Sites, Courses and Season",
+  "primary": "scuba diving in Andaman",
+  "secondary": [
+   "scuba diving Havelock",
+   "Neil Island diving",
+   "North Bay diving",
+   "Andaman dive season",
+   "try dive Andaman"
+  ],
+  "intent": "Informational/pre-booking",
+  "parent": "/blog/scuba-diving-in-india",
+  "children": [],
+  "related": [
+   "/blog/havelock-island-andaman-travel-guide"
+  ],
+  "conflicts": "Havelock guide covers Havelock only; this page covers all Andaman dive areas and links to island guides",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Underwater",
+  "slug": "snorkeling-in-india",
+  "title": "Snorkelling in India: Best Reefs and Lagoons",
+  "primary": "snorkeling in India",
+  "secondary": [
+   "snorkelling in Andaman",
+   "best places for snorkeling in India",
+   "Elephant Beach snorkelling",
+   "Lakshadweep snorkelling"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/scuba-diving-in-india",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Skiing",
+  "slug": "skiing-in-india",
+  "title": "Skiing in India: Gulmarg, Auli, Solang and the Ski Season",
+  "primary": "skiing in India",
+  "secondary": [
+   "best places for skiing in India",
+   "skiing in Gulmarg",
+   "skiing in Auli",
+   "ski courses India",
+   "snowboarding India"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [],
+  "related": [
+   "/blog/gulmarg-travel-guide",
+   "/blog/auli-travel-guide"
+  ],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Skiing",
+  "slug": "best-places-for-skiing-in-india",
+  "title": "",
+  "primary": "best places for skiing in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/skiing-in-india",
+  "reason": "Identical intent; India has only a handful of ski areas."
+ },
+ {
+  "group": "Skiing",
+  "slug": "skiing-in-gulmarg",
+  "title": "",
+  "primary": "skiing in gulmarg",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/gulmarg-travel-guide",
+  "reason": "Gulmarg guide ('Gondola, Skiing & Meadows') already owns this query with a full skiing section."
+ },
+ {
+  "group": "Skiing",
+  "slug": "skiing-in-auli",
+  "title": "",
+  "primary": "skiing in auli",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/auli-travel-guide",
+  "reason": "Auli guide ('Skiing, Cable Car & Best Time') already owns this query; the ropeway closure makes a standalone page thin."
+ },
+ {
+  "group": "Air",
+  "slug": "bungee-jumping-in-india",
+  "title": "Bungee Jumping in India: Where to Jump and What to Know",
+  "primary": "bungee jumping in India",
+  "secondary": [
+   "bungee jumping in Rishikesh",
+   "Jumpin Heights",
+   "highest bungee jump in India",
+   "bungee jumping Goa"
+  ],
+  "intent": "Informational/pre-booking",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [],
+  "related": [
+   "/blog/river-rafting-in-rishikesh"
+  ],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Air",
+  "slug": "bungee-jumping-in-rishikesh",
+  "title": "",
+  "primary": "bungee jumping in rishikesh",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/bungee-jumping-in-india",
+  "reason": "Rishikesh is the main fixed-platform site, so the India page is mostly about it; two pages would share their content and SERP."
+ },
+ {
+  "group": "Air",
+  "slug": "skydiving-in-india",
+  "title": "Skydiving in India: Drop Zones, Jump Types and Seasons",
+  "primary": "skydiving in India",
+  "secondary": [
+   "skydiving in Mysore",
+   "Deesa skydiving",
+   "Aamby Valley skydiving",
+   "tandem skydiving India",
+   "static line jump"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Air",
+  "slug": "skydiving-and-parachuting-in-india",
+  "title": "",
+  "primary": "skydiving and parachuting in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/skydiving-in-india",
+  "reason": "No distinct intent: parachuting searches return skydiving pages. Static-line jumps covered as a section."
+ },
+ {
+  "group": "Air",
+  "slug": "hot-air-balloon-rides-in-india",
+  "title": "Hot Air Balloon Rides in India: Where and When to Fly",
+  "primary": "hot air balloon rides in India",
+  "secondary": [
+   "hot air balloon Jaipur",
+   "Pushkar balloon ride",
+   "Hampi balloon",
+   "Lonavala hot air balloon"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Land",
+  "slug": "mountain-biking-in-india",
+  "title": "Mountain Biking in India: Trails, Routes and Seasons",
+  "primary": "mountain biking in India",
+  "secondary": [
+   "cycling in Ladakh",
+   "Manali to Leh cycling",
+   "mountain bike trails India",
+   "MTB Himalaya"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [],
+  "related": [
+   "/blog/best-motorcycle-trips-in-india"
+  ],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Land",
+  "slug": "best-motorcycle-trips-in-india",
+  "title": "Best Motorcycle Trips in India: Routes for Every Season",
+  "primary": "best motorcycle trips in India",
+  "secondary": [
+   "bike trips in India",
+   "road trips on a bike India",
+   "Ladakh bike trip",
+   "Royal Enfield trips",
+   "ride routes India"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [
+   "/blog/spiti-valley-bike-trip"
+  ],
+  "related": [
+   "/blog/leh-ladakh-road-trip-travel-guide"
+  ],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Land",
+  "slug": "ladakh-bike-trip",
+  "title": "",
+  "primary": "ladakh bike trip",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/leh-ladakh-road-trip-travel-guide",
+  "reason": "The Leh Ladakh road trip guide covers bike vs car, routes, permits and passes. best-motorcycle-trips-in-india links to it for Ladakh."
+ },
+ {
+  "group": "Land",
+  "slug": "spiti-valley-bike-trip",
+  "title": "Spiti Valley Bike Trip: Route, Season and Riding Tips",
+  "primary": "Spiti Valley bike trip",
+  "secondary": [
+   "Spiti circuit by bike",
+   "Shimla to Spiti bike",
+   "Manali to Kaza bike",
+   "Kunzum Pass ride"
+  ],
+  "intent": "Informational/route planning",
+  "parent": "/blog/best-motorcycle-trips-in-india",
+  "children": [],
+  "related": [
+   "/blog/spiti-valley-travel-guide"
+  ],
+  "conflicts": "Spiti guide is a general travel guide with almost no riding content; this page is ride-specific and links to it",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Land",
+  "slug": "rock-climbing-in-india",
+  "title": "Rock Climbing in India: Crags, Bouldering and Courses",
+  "primary": "rock climbing in India",
+  "secondary": [
+   "bouldering in Hampi",
+   "rock climbing Bangalore",
+   "rock climbing near Delhi",
+   "climbing courses India"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [],
+  "related": [
+   "/blog/mountaineering-in-india"
+  ],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Land",
+  "slug": "mountaineering-in-india",
+  "title": "Mountaineering in India: Courses, Institutes and First Peaks",
+  "primary": "mountaineering in India",
+  "secondary": [
+   "basic mountaineering course",
+   "NIM Uttarkashi",
+   "HMI Darjeeling",
+   "ABVIMAS Manali",
+   "trekking peaks India"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [],
+  "related": [
+   "/blog/trekking-in-india"
+  ],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Land",
+  "slug": "camping-in-india",
+  "title": "Camping in India: Best Places and How to Camp Well",
+  "primary": "camping in India",
+  "secondary": [
+   "best camping destinations in India",
+   "camping in Rishikesh",
+   "desert camping Jaisalmer",
+   "lakeside camping",
+   "Pawna Lake camping"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Land",
+  "slug": "best-camping-destinations-in-india",
+  "title": "",
+  "primary": "best camping destinations in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/camping-in-india",
+  "reason": "Identical intent."
+ },
+ {
+  "group": "Water",
+  "slug": "kayaking-in-india",
+  "title": "Kayaking in India: Rivers, Lakes, Backwaters and Mangroves",
+  "primary": "kayaking in India",
+  "secondary": [
+   "kayaking in Goa",
+   "kayaking Kerala",
+   "sea kayaking Andaman",
+   "white water kayaking Rishikesh"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/water-sports-in-india",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Water",
+  "slug": "surfing-in-india",
+  "title": "Surfing in India: Surf Towns, Schools and Seasons",
+  "primary": "surfing in India",
+  "secondary": [
+   "surfing in Mulki",
+   "Kovalam surfing",
+   "Varkala surfing",
+   "surf schools India",
+   "best surf spots in India"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/water-sports-in-india",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Water",
+  "slug": "water-sports-in-india",
+  "title": "Water Sports in India: Where to Try What",
+  "primary": "water sports in India",
+  "secondary": [
+   "best water sports destinations in India",
+   "parasailing in India",
+   "jet ski",
+   "sea walk India",
+   "water sports in Goa"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/adventure-sports-in-india",
+  "children": [
+   "/blog/kayaking-in-india",
+   "/blog/surfing-in-india",
+   "/blog/snorkeling-in-india"
+  ],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Water",
+  "slug": "best-water-sports-destinations-in-india",
+  "title": "",
+  "primary": "best water sports destinations in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/water-sports-in-india",
+  "reason": "Identical intent."
+ },
+ {
+  "group": "Water",
+  "slug": "adventure-water-sports-in-goa",
+  "title": "",
+  "primary": "adventure water sports in goa",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/adventure-activities-in-goa",
+  "reason": "Goa's adventure activities are mostly water sports; one Goa page avoids splitting the same list."
+ },
+ {
+  "group": "Specialised",
+  "slug": "ziplining-in-india",
+  "title": "",
+  "primary": "ziplining in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/adventure-sports-in-india",
+  "reason": "Low, fragmented demand and few verifiable fixed sites; covered as a section."
+ },
+ {
+  "group": "Specialised",
+  "slug": "atv-rides-in-india",
+  "title": "",
+  "primary": "atv rides in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/adventure-sports-in-india",
+  "reason": "Mostly add-ons at resorts and valleys (Solang, Gulmarg, beaches); covered as a section."
+ },
+ {
+  "group": "Specialised",
+  "slug": "desert-adventures-in-india",
+  "title": "Desert Adventures in India: Thar, Rann and Cold Deserts",
+  "primary": "desert adventures in India",
+  "secondary": [
+   "camel safari in Rajasthan",
+   "dune bashing Jaisalmer",
+   "desert camping",
+   "Nubra camel safari",
+   "Rann of Kutch"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/best-adventure-destinations-in-india",
+  "children": [],
+  "related": [
+   "/blog/rajasthan-desert-travel-guide",
+   "/blog/rann-of-kutch-travel-guide",
+   "/blog/nubra-valley-travel-guide"
+  ],
+  "conflicts": "rajasthan-desert and Jaisalmer guides cover sightseeing; this page covers the activities across all Indian deserts",
+  "status": "create",
+  "kind": "activity",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Specialised",
+  "slug": "camel-safari-in-rajasthan",
+  "title": "",
+  "primary": "camel safari in rajasthan",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/desert-adventures-in-india",
+  "reason": "Overlaps the Rajasthan desert, Jaisalmer and Bikaner guides; covered as a section of desert-adventures-in-india."
+ },
+ {
+  "group": "Specialised",
+  "slug": "jeep-safari-in-india",
+  "title": "",
+  "primary": "jeep safari in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "existing national park guides",
+  "reason": "Ambiguous intent (wildlife vs desert jeep safaris); wildlife safaris are covered by 40+ national park guides and desert jeep safaris by desert-adventures-in-india."
+ },
+ {
+  "group": "Destination",
+  "slug": "adventure-activities-in-rishikesh",
+  "title": "",
+  "primary": "adventure activities in rishikesh",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/rishikesh-adventure-travel-guide",
+  "reason": "The existing Rishikesh adventure guide and things-to-do-in-rishikesh already own this; river-rafting-in-rishikesh and bungee-jumping-in-india cover the activity depth."
+ },
+ {
+  "group": "Destination",
+  "slug": "adventure-activities-in-manali",
+  "title": "Adventure Activities in Manali: Paragliding, Skiing, Rafting and Treks",
+  "primary": "adventure activities in Manali",
+  "secondary": [
+   "adventure sports in Manali",
+   "things to do in Manali for adventure",
+   "Solang paragliding",
+   "skiing",
+   "Beas rafting"
+  ],
+  "intent": "Informational: what adventure to do in Manali",
+  "parent": "/blog/best-adventure-destinations-in-india",
+  "children": [],
+  "related": [
+   "/blog/things-to-do-in-manali",
+   "/blog/manali-travel-guide"
+  ],
+  "conflicts": "things-to-do and travel guides cover all sightseeing; this page covers adventure activities only and links to them",
+  "status": "create",
+  "kind": "destination",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Destination",
+  "slug": "adventure-activities-in-ladakh",
+  "title": "Adventure Activities in Ladakh: Rafting, Treks, Rides and Peaks",
+  "primary": "adventure activities in Ladakh",
+  "secondary": [
+   "adventure sports in Ladakh",
+   "things to do in Ladakh for adventure",
+   "Zanskar rafting",
+   "Chadar",
+   "Markha"
+  ],
+  "intent": "Informational: what adventure to do in Ladakh",
+  "parent": "/blog/best-adventure-destinations-in-india",
+  "children": [],
+  "related": [
+   "/blog/leh-ladakh-road-trip-travel-guide",
+   "/blog/leh-travel-guide"
+  ],
+  "conflicts": "things-to-do and travel guides cover all sightseeing; this page covers adventure activities only and links to them",
+  "status": "create",
+  "kind": "destination",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Destination",
+  "slug": "adventure-activities-in-himachal-pradesh",
+  "title": "Adventure Activities in Himachal Pradesh, Region by Region",
+  "primary": "adventure activities in Himachal Pradesh",
+  "secondary": [
+   "adventure sports in Himachal Pradesh",
+   "things to do in Himachal Pradesh for adventure",
+   "Bir",
+   "Solang",
+   "Spiti"
+  ],
+  "intent": "Informational: what adventure to do in Himachal Pradesh",
+  "parent": "/blog/best-adventure-destinations-in-india",
+  "children": [],
+  "related": [
+   "/blog/himachal-pradesh-travel-guide"
+  ],
+  "conflicts": "things-to-do and travel guides cover all sightseeing; this page covers adventure activities only and links to them",
+  "status": "create",
+  "kind": "destination",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Destination",
+  "slug": "adventure-activities-in-uttarakhand",
+  "title": "Adventure Activities in Uttarakhand: Rafting, Treks, Skiing and More",
+  "primary": "adventure activities in Uttarakhand",
+  "secondary": [
+   "adventure sports in Uttarakhand",
+   "things to do in Uttarakhand for adventure",
+   "Rishikesh",
+   "Auli",
+   "Kedarkantha"
+  ],
+  "intent": "Informational: what adventure to do in Uttarakhand",
+  "parent": "/blog/best-adventure-destinations-in-india",
+  "children": [],
+  "related": [
+   "/blog/uttarakhand-travel-guide"
+  ],
+  "conflicts": "things-to-do and travel guides cover all sightseeing; this page covers adventure activities only and links to them",
+  "status": "create",
+  "kind": "destination",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Destination",
+  "slug": "adventure-activities-in-goa",
+  "title": "Adventure Activities in Goa: Water Sports, Kayaking and Treks",
+  "primary": "adventure activities in Goa",
+  "secondary": [
+   "adventure sports in Goa",
+   "things to do in Goa for adventure",
+   "water sports",
+   "kayaking",
+   "diving"
+  ],
+  "intent": "Informational: what adventure to do in Goa",
+  "parent": "/blog/best-adventure-destinations-in-india",
+  "children": [],
+  "related": [
+   "/blog/goa-beaches-travel-guide",
+   "/blog/things-to-do-in-goa"
+  ],
+  "conflicts": "things-to-do and travel guides cover all sightseeing; this page covers adventure activities only and links to them",
+  "status": "create",
+  "kind": "destination",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Destination",
+  "slug": "adventure-activities-in-andaman",
+  "title": "Adventure Activities in the Andaman Islands",
+  "primary": "adventure activities in Andaman Islands",
+  "secondary": [
+   "adventure sports in Andaman Islands",
+   "things to do in Andaman Islands for adventure",
+   "diving",
+   "sea walk",
+   "kayaking"
+  ],
+  "intent": "Informational: what adventure to do in the Andaman Islands",
+  "parent": "/blog/best-adventure-destinations-in-india",
+  "children": [],
+  "related": [
+   "/blog/andaman-islands-travel-guide"
+  ],
+  "conflicts": "things-to-do and travel guides cover all sightseeing; this page covers adventure activities only and links to them",
+  "status": "create",
+  "kind": "destination",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Destination",
+  "slug": "adventure-activities-in-sikkim",
+  "title": "Adventure Activities in Sikkim: Treks, Rafting and Paragliding",
+  "primary": "adventure activities in Sikkim",
+  "secondary": [
+   "adventure sports in Sikkim",
+   "things to do in Sikkim for adventure",
+   "Goecha La",
+   "Teesta rafting",
+   "paragliding"
+  ],
+  "intent": "Informational: what adventure to do in Sikkim",
+  "parent": "/blog/best-adventure-destinations-in-india",
+  "children": [],
+  "related": [
+   "/blog/sikkim-travel-guide"
+  ],
+  "conflicts": "things-to-do and travel guides cover all sightseeing; this page covers adventure activities only and links to them",
+  "status": "create",
+  "kind": "destination",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Destination",
+  "slug": "adventure-activities-in-meghalaya",
+  "title": "Adventure Activities in Meghalaya: Caves, Root Bridges and Rivers",
+  "primary": "adventure activities in Meghalaya",
+  "secondary": [
+   "adventure sports in Meghalaya",
+   "things to do in Meghalaya for adventure",
+   "caving",
+   "root bridges",
+   "Umngot kayaking"
+  ],
+  "intent": "Informational: what adventure to do in Meghalaya",
+  "parent": "/blog/best-adventure-destinations-in-india",
+  "children": [],
+  "related": [
+   "/blog/meghalaya-travel-guide"
+  ],
+  "conflicts": "things-to-do and travel guides cover all sightseeing; this page covers adventure activities only and links to them",
+  "status": "create",
+  "kind": "destination",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Segment",
+  "slug": "adventure-travel-for-couples-in-india",
+  "title": "",
+  "primary": "adventure travel for couples in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/best-adventure-destinations-in-india",
+  "reason": "Thin standalone demand; covered by a 'by traveller type' section and the honeymoon package."
+ },
+ {
+  "group": "Segment",
+  "slug": "adventure-travel-for-families-in-india",
+  "title": "",
+  "primary": "adventure travel for families in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/how-to-plan-an-adventure-trip-in-india",
+  "reason": "Covered by the family section (age limits, soft adventure) of the planning guide."
+ },
+ {
+  "group": "Segment",
+  "slug": "budget-adventure-travel-in-india",
+  "title": "",
+  "primary": "budget adventure travel in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/how-to-plan-an-adventure-trip-in-india",
+  "reason": "Needs verified prices to stand alone; budget levers covered in the planning guide."
+ },
+ {
+  "group": "Segment",
+  "slug": "adventure-trips-for-groups-in-india",
+  "title": "",
+  "primary": "adventure trips for groups in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/packages/group-tours",
+  "reason": "Transactional; the Group Tours package page owns it. Group tips in the planning guide."
+ },
+ {
+  "group": "Segment",
+  "slug": "solo-adventure-travel-in-india",
+  "title": "",
+  "primary": "solo adventure travel in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/how-to-plan-an-adventure-trip-in-india",
+  "reason": "Covered by the solo section of the planning guide."
+ },
+ {
+  "group": "Segment",
+  "slug": "weekend-adventure-trips-from-delhi",
+  "title": "Weekend Adventure Trips from Delhi",
+  "primary": "weekend adventure trips from Delhi",
+  "secondary": [
+   "adventure activities near Delhi",
+   "adventure places near Delhi",
+   "Rishikesh weekend from Delhi",
+   "treks near Delhi"
+  ],
+  "intent": "Informational: short trips from Delhi NCR",
+  "parent": "/adventure-travel",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "weekend",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Segment",
+  "slug": "weekend-adventure-trips-from-mumbai",
+  "title": "Weekend Adventure Trips from Mumbai and Pune",
+  "primary": "weekend adventure trips from Mumbai",
+  "secondary": [
+   "adventure activities near Mumbai",
+   "adventure near Pune",
+   "Kolad rafting",
+   "Kamshet paragliding",
+   "Sahyadri treks"
+  ],
+  "intent": "Informational: short trips from Mumbai and Pune",
+  "parent": "/adventure-travel",
+  "children": [],
+  "related": [],
+  "conflicts": "Pune merged in: same Sahyadri destinations (Kamshet, Kolad, Rajmachi) within a few hours of both cities",
+  "status": "create",
+  "kind": "weekend",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Segment",
+  "slug": "weekend-adventure-trips-from-pune",
+  "title": "",
+  "primary": "weekend adventure trips from pune",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/weekend-adventure-trips-from-mumbai",
+  "reason": "Same destinations as Mumbai (Kamshet, Kolad, Sahyadri forts)."
+ },
+ {
+  "group": "Segment",
+  "slug": "weekend-adventure-trips-from-bengaluru",
+  "title": "Weekend Adventure Trips from Bengaluru",
+  "primary": "weekend adventure trips from Bengaluru",
+  "secondary": [
+   "adventure activities near Bangalore",
+   "treks near Bangalore",
+   "Dandeli rafting",
+   "Coorg rafting",
+   "Ramanagara climbing"
+  ],
+  "intent": "Informational: short trips from Bengaluru",
+  "parent": "/adventure-travel",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "weekend",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Segment",
+  "slug": "weekend-adventure-trips-from-hyderabad",
+  "title": "",
+  "primary": "weekend adventure trips from hyderabad",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "deferred",
+  "kind": "",
+  "mergedInto": "",
+  "reason": "Too few verifiable adventure options within a weekend's reach to write without padding; manual review."
+ },
+ {
+  "group": "Planning",
+  "slug": "how-to-plan-an-adventure-trip-in-india",
+  "title": "How to Plan an Adventure Trip in India",
+  "primary": "how to plan an adventure trip in India",
+  "secondary": [
+   "adventure trip planning",
+   "adventure trip cost in India",
+   "solo adventure travel India",
+   "family adventure trip India",
+   "choosing an adventure operator"
+  ],
+  "intent": "Informational: planning steps",
+  "parent": "/adventure-travel",
+  "children": [
+   "/blog/adventure-travel-packing-list-india",
+   "/blog/best-time-for-adventure-travel-in-india"
+  ],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "planning",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Planning",
+  "slug": "adventure-trip-cost-in-india",
+  "title": "",
+  "primary": "adventure trip cost in india",
+  "secondary": [],
+  "intent": "",
+  "parent": "",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "merged",
+  "kind": "",
+  "mergedInto": "/blog/how-to-plan-an-adventure-trip-in-india",
+  "reason": "Brief forbids unverified prices and current prices vary by operator and season; cost factors covered in the planning guide."
+ },
+ {
+  "group": "Planning",
+  "slug": "adventure-travel-packing-list-india",
+  "title": "Adventure Travel Packing List for India",
+  "primary": "adventure travel packing list",
+  "secondary": [
+   "trekking packing list India",
+   "what to pack for Ladakh",
+   "rafting what to wear",
+   "layering for Himalaya"
+  ],
+  "intent": "Informational checklist",
+  "parent": "/blog/how-to-plan-an-adventure-trip-in-india",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "planning",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Planning",
+  "slug": "best-time-for-adventure-travel-in-india",
+  "title": "Best Time for Adventure Travel in India, Month by Month",
+  "primary": "best time for adventure travel in India",
+  "secondary": [
+   "adventure activities by month India",
+   "rafting season",
+   "paragliding season",
+   "ski season India",
+   "trekking season"
+  ],
+  "intent": "Informational calendar",
+  "parent": "/blog/how-to-plan-an-adventure-trip-in-india",
+  "children": [],
+  "related": [],
+  "conflicts": "",
+  "status": "create",
+  "kind": "planning",
+  "mergedInto": "",
+  "reason": ""
+ },
+ {
+  "group": "Planning",
+  "slug": "adventure-travel-for-beginners-in-india",
+  "title": "Adventure Travel for Beginners in India",
+  "primary": "adventure travel for beginners in India",
+  "secondary": [
+   "beginner adventure activities India",
+   "first adventure trip",
+   "soft adventure India",
+   "easy adventure activities"
+  ],
+  "intent": "Informational",
+  "parent": "/blog/how-to-plan-an-adventure-trip-in-india",
+  "children": [],
+  "related": [
+   "/blog/beginner-treks-in-india"
+  ],
+  "conflicts": "Covers all activities for beginners; beginner-treks-in-india owns treks",
+  "status": "create",
+  "kind": "planning",
+  "mergedInto": "",
+  "reason": ""
+ }
+]

@@ -1,0 +1,394 @@
+{
+ "slug": "spiritual-tourism-in-rajasthan",
+ "kind": "state",
+ "short": "Spiritual Rajasthan",
+ "title": "Spiritual Tourism in Rajasthan: Pushkar, Ajmer, Nathdwara and Jain Temples",
+ "seoTitle": "Spiritual Places in Rajasthan: Pushkar, Ajmer & More | Kudozz Club",
+ "metaDescription": "Plan a spiritual trip in Rajasthan: Pushkar and Ajmer Sharif, Nathdwara and Eklingji, Ranakpur and Dilwara, Khatu Shyam Ji and Karni Mata, with routes.",
+ "description": "A guide to spiritual tourism in Rajasthan: Pushkar's lake and Brahma temple, the dargah of Khwaja Moinuddin Chishti at Ajmer, Shrinathji at Nathdwara and Eklingji near Udaipur, the Jain temples of Ranakpur and Dilwara, Khatu Shyam Ji, Salasar Balaji, Karni Mata and Galtaji, festivals, routes and seasons.",
+ "dek": "Rajasthan's sacred sites range from a desert lake town and a great Sufi shrine to some of India's finest Jain temples.",
+ "primaryKeyword": "spiritual places in Rajasthan",
+ "secondaryKeywords": [
+  "religious places in Rajasthan",
+  "temples in Rajasthan",
+  "pilgrimage places in Rajasthan"
+ ],
+ "searchIntent": "State discovery/planning",
+ "activities": [
+  "pilgrimage",
+  "temple visit",
+  "Sufi shrines",
+  "Jain temples"
+ ],
+ "terrain": [
+  "desert",
+  "hills",
+  "lake",
+  "temple town"
+ ],
+ "regions": [
+  "Rajasthan",
+  "North India"
+ ],
+ "seasons": [
+  "winter",
+  "spring"
+ ],
+ "travellers": [
+  "families",
+  "couples",
+  "groups"
+ ],
+ "tags": [
+  "Rajasthan",
+  "Pushkar",
+  "Ajmer Sharif",
+  "Nathdwara"
+ ],
+ "hero": {
+  "src": "/images/spiritual/spiritual-rajasthan-pushkar-ghats.webp",
+  "alt": "White temples and ghats on the shore of Pushkar Lake, Rajasthan"
+ },
+ "parent": {
+  "label": "Spiritual Tourism",
+  "href": "/spiritual-tourism"
+ },
+ "about": {
+  "type": "TouristDestination",
+  "name": "Spiritual Rajasthan",
+  "containedIn": "Rajasthan"
+ },
+ "intro": [
+  "Rajasthan is best known for forts and palaces, but it is also a major pilgrimage state. Pushkar, with its sacred lake and one of the very few temples to Brahma, sits 15 km from Ajmer, home to the dargah of Khwaja Moinuddin Chishti. Near Udaipur are Shrinathji at Nathdwara and the Eklingji temple, and in the Aravalli hills stand the Jain temples of Ranakpur and Dilwara.",
+  "In the Shekhawati region, Khatu Shyam Ji and Salasar Balaji draw huge crowds, and Karni Mata near Bikaner is famous for the rats revered in its courtyard."
+ ],
+ "quickAnswer": "Rajasthan's main spiritual destinations are Pushkar (the lake, ghats and Brahma temple), the Ajmer Sharif dargah, Shrinathji at Nathdwara and Eklingji near Udaipur, the Jain temples of Ranakpur and Dilwara at Mount Abu, Khatu Shyam Ji and Salasar Balaji in Shekhawati, and Karni Mata near Bikaner. October to March is the best time; the Pushkar fair falls in the month of Kartik.",
+ "takeaways": [
+  "Pushkar and Ajmer are 15 km apart and easily combined.",
+  "Nathdwara and Eklingji are near Udaipur; Ranakpur is about 90 km away.",
+  "Dilwara's Jain temples are at Mount Abu.",
+  "Khatu Shyam Ji and Salasar Balaji are among Rajasthan's busiest temples.",
+  "October to March is best; summers are very hot."
+ ],
+ "sections": [
+  {
+   "id": "places",
+   "heading": "Main spiritual places",
+   "table": {
+    "columns": [
+     "Place",
+     "Tradition",
+     "Known for",
+     "Our guide"
+    ],
+    "rows": [
+     [
+      "Pushkar",
+      "Hindu",
+      "Sacred lake, ghats, Brahma temple",
+      "Pushkar guide"
+     ],
+     [
+      "Ajmer Sharif",
+      "Sufi",
+      "Dargah of Khwaja Moinuddin Chishti",
+      "Ajmer guide"
+     ],
+     [
+      "Nathdwara",
+      "Hindu",
+      "Shrinathji (Krishna)",
+      "Covered here"
+     ],
+     [
+      "Eklingji",
+      "Hindu",
+      "Shiva temple of the Mewar rulers",
+      "Covered here"
+     ],
+     [
+      "Ranakpur",
+      "Jain",
+      "15th-century marble temple",
+      "Ranakpur Jain Temple"
+     ],
+     [
+      "Dilwara, Mount Abu",
+      "Jain",
+      "Marble temples, 11th to 13th centuries",
+      "Mount Abu guide"
+     ],
+     [
+      "Khatu Shyam Ji",
+      "Hindu",
+      "Temple of Khatu Shyam",
+      "Khatu Shyam Ji guide"
+     ],
+     [
+      "Karni Mata, Deshnoke",
+      "Hindu",
+      "Temple famous for its revered rats",
+      "Bikaner guide"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "highlights",
+   "heading": "Highlights",
+   "items": [
+    {
+     "name": "Pushkar",
+     "body": [
+      "Fifty-two ghats around the lake, the Brahma temple and the Savitri temple on a hill; the Pushkar fair falls in Kartik (October or November)."
+     ],
+     "links": [
+      {
+       "label": "Pushkar guide",
+       "href": "/blog/pushkar-travel-guide"
+      },
+      {
+       "label": "Things to do in Pushkar",
+       "href": "/blog/things-to-do-in-pushkar"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/rajasthan/pushkar/brahma-temple-pushkar.webp",
+      "alt": "The Brahma temple in Pushkar, Rajasthan",
+      "caption": "Brahma temple, Pushkar"
+     }
+    },
+    {
+     "name": "Ajmer Sharif",
+     "body": [
+      "The dargah reached through the old bazaar; the Urs falls in the month of Rajab."
+     ],
+     "links": [
+      {
+       "label": "Ajmer guide",
+       "href": "/blog/ajmer-travel-guide"
+      },
+      {
+       "label": "Sufi shrines in India",
+       "href": "/blog/sufi-shrines-in-india"
+      }
+     ]
+    },
+    {
+     "name": "Nathdwara and Eklingji",
+     "body": [
+      "Shrinathji is worshipped in the Pushtimarg tradition, with darshan at set times through the day; Eklingji is about 25 km from Udaipur."
+     ],
+     "links": [
+      {
+       "label": "Things to do in Udaipur",
+       "href": "/blog/things-to-do-in-udaipur"
+      }
+     ]
+    },
+    {
+     "name": "Ranakpur and Dilwara",
+     "body": [
+      "Two of India's finest groups of Jain marble temples."
+     ],
+     "links": [
+      {
+       "label": "Ranakpur Jain Temple",
+       "href": "/blog/ranakpur-jain-temple"
+      },
+      {
+       "label": "Mount Abu guide",
+       "href": "/blog/mount-abu-travel-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "more",
+   "heading": "More sacred places",
+   "list": [
+    "Salasar Balaji, a Hanuman temple in Churu district.",
+    "Galtaji near Jaipur, with temples and sacred tanks in a gorge.",
+    "Mehandipur Balaji in Dausa district.",
+    "Osian's temples near Jodhpur.",
+    "Ramdevra near Pokaran, the shrine of Baba Ramdev, revered by Hindus and Muslims."
+   ],
+   "items": [
+    {
+     "name": "Khatu Shyam Ji",
+     "body": [
+      "Temple timings and crowds."
+     ],
+     "links": [
+      {
+       "label": "Khatu Shyam Ji guide",
+       "href": "/blog/khatu-shyam-ji-travel-guide"
+      },
+      {
+       "label": "Osian guide",
+       "href": "/blog/osian-travel-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "route",
+   "heading": "Suggested routes",
+   "table": {
+    "columns": [
+     "Route",
+     "Days",
+     "Places"
+    ],
+    "rows": [
+     [
+      "Jaipur, Pushkar and Ajmer",
+      "3 to 4",
+      "Galtaji, Govind Dev Ji, Pushkar, Ajmer Sharif"
+     ],
+     [
+      "Mewar temples",
+      "3 to 4",
+      "Udaipur, Eklingji, Nathdwara, Ranakpur"
+     ],
+     [
+      "Mount Abu",
+      "2",
+      "Dilwara temples"
+     ],
+     [
+      "Shekhawati",
+      "2",
+      "Khatu Shyam Ji, Salasar Balaji"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "stays",
+   "heading": "Where to stay",
+   "list": [
+    "Pushkar: guesthouses and small hotels by the lake; the town is vegetarian and alcohol is not served near the ghats.",
+    "Ajmer: hotels near the dargah for early visits, or stay in Pushkar.",
+    "Udaipur: the best base for Nathdwara, Eklingji and Ranakpur.",
+    "Mount Abu: hill-station hotels near Nakki Lake for Dilwara."
+   ]
+  },
+  {
+   "id": "etiquette",
+   "heading": "Etiquette notes",
+   "list": [
+    "Pushkar's ghats are sacred: remove shoes, do not photograph people bathing, and decline pushy offers of 'free' puja.",
+    "Cover your head at Ajmer Sharif; caps and scarves are sold nearby.",
+    "At Nathdwara, darshan happens at set times (jhankis) through the day; plan around them.",
+    "At Karni Mata, walk carefully; the rats are revered, and seeing a white one is considered lucky."
+   ]
+  }
+ ],
+ "safety": [
+  "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+  "Dress modestly and follow each place of worship's rules on dress, phones and photography.",
+  "Carry water and sun protection; Rajasthan's heat is intense from April to June.",
+  "Follow Jain temple rules on leather and food at Ranakpur and Dilwara."
+ ],
+ "packing": [
+  "Light cotton clothing and a shawl for winter nights",
+  "Head covering for Ajmer",
+  "Non-leather items for Jain temples",
+  "Hat and sunscreen"
+ ],
+ "faqs": [
+  {
+   "q": "Which is the most famous temple in Pushkar?",
+   "a": "The Brahma temple, one of the very few temples dedicated to Brahma."
+  },
+  {
+   "q": "How far is Pushkar from Ajmer?",
+   "a": "About 15 km."
+  },
+  {
+   "q": "How do I reach Nathdwara?",
+   "a": "By road from Udaipur, about 50 km."
+  },
+  {
+   "q": "When is the Pushkar fair?",
+   "a": "In the month of Kartik, usually October or November; check the year's dates."
+  },
+  {
+   "q": "Can non-Muslims visit Ajmer Sharif?",
+   "a": "Yes. The dargah welcomes visitors of all faiths who cover their heads and dress modestly."
+  },
+  {
+   "q": "Is Pushkar a vegetarian town?",
+   "a": "Yes. Meat, eggs and alcohol are not sold around the lake and ghats."
+  },
+  {
+   "q": "What is the best time for a spiritual trip to Rajasthan?",
+   "a": "October to March."
+  }
+ ],
+ "nextSteps": [
+  {
+   "label": "Pushkar guide",
+   "href": "/blog/pushkar-travel-guide"
+  },
+  {
+   "label": "Ajmer guide",
+   "href": "/blog/ajmer-travel-guide"
+  },
+  {
+   "label": "Rajasthan travel guide",
+   "href": "/blog/rajasthan-travel-guide"
+  },
+  {
+   "label": "Rajasthan tour packages",
+   "href": "/packages/rajasthan"
+  },
+  {
+   "label": "Spiritual tour packages",
+   "href": "/packages/spiritual-tours"
+  }
+ ],
+ "related": [
+  {
+   "name": "Jain pilgrimage in India",
+   "href": "/blog/jain-pilgrimage-in-india",
+   "note": "Ranakpur and Dilwara"
+  },
+  {
+   "name": "Sufi shrines in India",
+   "href": "/blog/sufi-shrines-in-india",
+   "note": "Ajmer and other dargahs"
+  },
+  {
+   "name": "Spiritual festivals in India",
+   "href": "/blog/spiritual-festivals-in-india",
+   "note": "the Pushkar fair and more"
+  },
+  {
+   "name": "Heritage tourism in Rajasthan",
+   "href": "/blog/heritage-tourism-in-rajasthan",
+   "note": "forts, monuments and crafts"
+  }
+ ],
+ "places": [
+  "Pushkar",
+  "Ajmer",
+  "Nathdwara",
+  "Eklingji",
+  "Ranakpur",
+  "Mount Abu",
+  "Khatu Shyam Ji",
+  "Salasar",
+  "Deshnoke",
+  "Jaipur"
+ ],
+ "styles": [
+  "spiritual-tours",
+  "family-holidays"
+ ],
+ "planDestination": "Rajasthan",
+ "updated": "2026-09-26"
+}

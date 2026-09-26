@@ -1,0 +1,360 @@
+{
+  "slug": "heritage-tourism-in-madhya-pradesh",
+  "kind": "state",
+  "short": "Heritage tourism in Madhya Pradesh",
+  "title": "Heritage Tourism in Madhya Pradesh: Khajuraho, Gwalior, Orchha and Mandu",
+  "seoTitle": "Heritage Tourism in Madhya Pradesh: Khajuraho to Mandu | Kudozz Club",
+  "metaDescription": "Madhya Pradesh's heritage: Khajuraho, Sanchi and Bhimbetka (UNESCO), Gwalior, Orchha, Mandu, Maheshwar, Chanderi, Bhopal's museums, crafts and festivals.",
+  "description": "A guide to heritage tourism in Madhya Pradesh: its three UNESCO cultural sites (Khajuraho, Sanchi and Bhimbetka), the forts and palaces of Gwalior, Orchha and Datia, Mandu and Maheshwar on the Malwa plateau, the weaving towns of Chanderi and Maheshwar, Bhopal's museums, the Khajuraho Dance Festival and Gwalior's music heritage, with how to plan a route.",
+  "dek": "At the centre of India, Madhya Pradesh holds temples, stupas, rock art, forts and palace towns, and far fewer crowds than its neighbours.",
+  "primaryKeyword": "heritage places in Madhya Pradesh",
+  "secondaryKeywords": [
+    "historical places in Madhya Pradesh",
+    "monuments in Madhya Pradesh",
+    "Madhya Pradesh heritage tour"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "monuments",
+    "UNESCO sites",
+    "crafts",
+    "heritage walks"
+  ],
+  "terrain": [
+    "varied"
+  ],
+  "regions": [
+    "Madhya Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "monsoon"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "history lovers"
+  ],
+  "tags": [
+    "Madhya Pradesh",
+    "Heritage",
+    "Khajuraho",
+    "Orchha"
+  ],
+  "hero": {
+    "src": "/images/heritage/heritage-mp-gwalior-fort.webp",
+    "alt": "The Man Singh palace on the walls of Gwalior Fort"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Heritage of Madhya Pradesh",
+    "containedIn": "Madhya Pradesh"
+  },
+  "intro": [
+    "Madhya Pradesh has been at the crossroads of Indian history for thousands of years: prehistoric rock shelters at Bhimbetka, Ashokan and later Buddhist stupas at Sanchi, Chandela temples at Khajuraho, the fort of Gwalior, the sultanate capital of Mandu, and the Bundela palaces of Orchha.",
+    "Its three UNESCO cultural sites are the Khajuraho Group of Monuments (1986), the Buddhist Monuments at Sanchi (1989) and the Rock Shelters of Bhimbetka (2003). Gwalior was named a UNESCO Creative City of Music in 2023, recognising its classical music tradition."
+  ],
+  "quickAnswer": "Madhya Pradesh's heritage highlights are its three UNESCO sites (Khajuraho, Sanchi and Bhimbetka), Gwalior Fort, Orchha's palaces and cenotaphs, Mandu's plateau monuments, Maheshwar's ghats and handloom, Chanderi's weaves, and Bhopal's museums. Travel between October and March, or visit Mandu in the monsoon. Ten to twelve days covers the state well.",
+  "takeaways": [
+    "Madhya Pradesh has three UNESCO cultural sites: Khajuraho, Sanchi and Bhimbetka.",
+    "Orchha, Mandu and Maheshwar are among India's most rewarding small heritage towns.",
+    "Gwalior is a UNESCO Creative City of Music.",
+    "Bhopal's museums are an excellent introduction to Indian cultures.",
+    "Mandu is especially beautiful in the monsoon."
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "heading": "UNESCO World Heritage Sites",
+      "table": {
+        "columns": [
+          "Site",
+          "Year",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Khajuraho Group of Monuments",
+            "1986",
+            "Chandela temples, about 950 to 1050 CE"
+          ],
+          [
+            "Buddhist Monuments at Sanchi",
+            "1989",
+            "Stupas from the 3rd century BCE onward"
+          ],
+          [
+            "Rock Shelters of Bhimbetka",
+            "2003",
+            "Rock art from many periods"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "highlights",
+      "heading": "Highlights",
+      "items": [
+        {
+          "name": "Gwalior and Orchha",
+          "body": [
+            "Gwalior's hilltop fort and Jai Vilas Palace; Orchha's palaces and royal chhatris on the Betwa."
+          ],
+          "links": [
+            {
+              "label": "Gwalior guide",
+              "href": "/blog/gwalior-travel-guide"
+            },
+            {
+              "label": "Orchha guide",
+              "href": "/blog/orchha-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Khajuraho",
+          "body": [
+            "Temples with sculpted walls; the Western Group is the most famous."
+          ],
+          "links": [
+            {
+              "label": "Khajuraho guide",
+              "href": "/blog/khajuraho-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/khajuraho/khajuraho-temples.webp",
+            "alt": "Temples of the Western Group, Khajuraho",
+            "caption": "Khajuraho temples"
+          }
+        },
+        {
+          "name": "Bhopal, Sanchi and Bhimbetka",
+          "body": [
+            "The capital's museums and lakes, with two UNESCO sites within an hour."
+          ],
+          "links": [
+            {
+              "label": "Sanchi guide",
+              "href": "/blog/sanchi-travel-guide"
+            },
+            {
+              "label": "Bhimbetka guide",
+              "href": "/blog/bhimbetka-travel-guide"
+            },
+            {
+              "label": "Bhopal guide",
+              "href": "/blog/bhopal-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Mandu and Maheshwar",
+          "body": [
+            "The Malwa sultans' plateau capital, and Ahilyabai Holkar's town on the Narmada."
+          ],
+          "links": [
+            {
+              "label": "Mandu guide",
+              "href": "/blog/mandu-travel-guide"
+            },
+            {
+              "label": "Indore guide",
+              "href": "/blog/indore-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/mandu/hoshang-shah-s-tomb-mandu.webp",
+            "alt": "Hoshang Shah's marble tomb at Mandu",
+            "caption": "Hoshang Shah's tomb, Mandu"
+          }
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Crafts, music and festivals",
+      "list": [
+        "Chanderi and Maheshwari handloom.",
+        "Gond painting from the Mandla and Dindori region.",
+        "The Tansen Samaroh in Gwalior, usually in December.",
+        "The Khajuraho Dance Festival, usually in February.",
+        "Bhopal's Tribal Museum and Manav Sangrahalaya."
+      ],
+      "items": [
+        {
+          "name": "Culture",
+          "body": [
+            "More on performance."
+          ],
+          "links": [
+            {
+              "label": "Classical dance and music",
+              "href": "/blog/classical-dance-and-music-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "Planning a route",
+      "paras": [
+        "A north-to-west route runs Gwalior, Orchha, Khajuraho, Bhopal (for Sanchi and Bhimbetka), Indore, Mandu and Maheshwar in about eleven days. With five days, do Gwalior, Orchha and Khajuraho; with four, Bhopal and the Malwa towns."
+      ],
+      "items": [
+        {
+          "name": "Itinerary",
+          "body": [
+            "Day by day."
+          ],
+          "links": [
+            {
+              "label": "Madhya Pradesh heritage itinerary",
+              "href": "/blog/madhya-pradesh-heritage-itinerary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "Bhimbetka's rock shelters show human presence over a very long span. Sanchi's stupas date from the Mauryan period, and the Gupta-era caves at Udayagiri near Vidisha are among the earliest Hindu cave shrines. The Chandelas built Khajuraho between about 950 and 1050 CE, while the Paramaras of Malwa made Dhar and Mandu their centres. Mandu became the capital of the Malwa Sultanate, the Bundelas ruled from Orchha, and later the Scindias and Holkars governed from Gwalior and Indore. Bhopal was ruled for over a century by a line of begums."
+      ]
+    },
+    {
+      "id": "getting-around",
+      "heading": "Getting around",
+      "paras": [
+        "Gwalior, Khajuraho, Bhopal and Indore have airports, and trains serve Gwalior, Jhansi (for Orchha), Bhopal and Indore. Distances between regions are large, so treat the north (Gwalior, Orchha, Khajuraho) and the west (Bhopal, Indore, Mandu, Maheshwar) as two loops, joined by train or flight."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "October to March: the best season across the state.",
+        "July to September: Mandu and the Malwa plateau are at their greenest.",
+        "April to June: very hot; plan early starts."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "MP Tourism hotels are often the best-placed option in heritage towns such as Orchha, Khajuraho, Mandu and Maheshwar. Orchha and Maheshwar also have heritage stays in old palaces and forts. In Bhopal, stay near the lakes for easy access to the museums and the Sanchi and Bhimbetka day trips."
+      ]
+    },
+    {
+      "id": "lesser-known",
+      "heading": "Lesser-known heritage",
+      "list": [
+        "Datia's seven-storey Bir Singh Palace, near Gwalior.",
+        "Chanderi's fort, stepwells and weaving lanes.",
+        "Burhanpur, with its Mughal-era water system of underground channels.",
+        "Ujjain's Vedh Shala observatory, alongside its temples."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, weekly closures and tickets change; check the ASI, state tourism or the site before you go.",
+    "Living temples, mosques and shrines set their own rules on dress, entry and photography; follow what is posted."
+  ],
+  "packing": [
+    "Comfortable walking shoes",
+    "Scarf or shawl for places of worship",
+    "Hat, sunscreen and water",
+    "Photo ID for tickets"
+  ],
+  "faqs": [
+    {
+      "q": "What are the UNESCO sites in Madhya Pradesh?",
+      "a": "Khajuraho, Sanchi and Bhimbetka."
+    },
+    {
+      "q": "Which heritage towns in MP are less crowded?",
+      "a": "Orchha, Mandu, Maheshwar and Chanderi."
+    },
+    {
+      "q": "Is Gwalior a UNESCO Creative City?",
+      "a": "Yes, Gwalior was designated a UNESCO Creative City of Music in 2023."
+    },
+    {
+      "q": "When is the best time to visit?",
+      "a": "October to March; Mandu is also lovely in the monsoon."
+    },
+    {
+      "q": "How many days do I need?",
+      "a": "About ten to twelve days for the main heritage sites."
+    },
+    {
+      "q": "Is Madhya Pradesh good for a first heritage trip?",
+      "a": "Yes, especially if you prefer quieter sites; Khajuraho, Orchha and Gwalior pair well with a Golden Triangle trip."
+    },
+    {
+      "q": "Where can I buy Chanderi and Maheshwari saris?",
+      "a": "In Chanderi and Maheshwar themselves, from weavers' cooperatives and trusts."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Madhya Pradesh heritage itinerary",
+      "href": "/blog/madhya-pradesh-heritage-itinerary"
+    },
+    {
+      "label": "Temple architecture of India",
+      "href": "/blog/temple-architecture-of-india"
+    },
+    {
+      "label": "Madhya Pradesh travel guide",
+      "href": "/blog/madhya-pradesh-travel-guide"
+    },
+    {
+      "label": "Madhya Pradesh tour packages",
+      "href": "/packages/madhya-pradesh"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Spiritual tourism in Madhya Pradesh",
+      "href": "/blog/spiritual-tourism-in-madhya-pradesh",
+      "note": "Ujjain and Omkareshwar"
+    },
+    {
+      "name": "Archaeological sites in India",
+      "href": "/blog/archaeological-sites-in-india",
+      "note": "Bhimbetka and Sanchi"
+    },
+    {
+      "name": "Famous forts in India",
+      "href": "/blog/famous-forts-in-india",
+      "note": "Gwalior and more"
+    }
+  ],
+  "places": [
+    "Gwalior",
+    "Orchha",
+    "Khajuraho",
+    "Bhopal",
+    "Sanchi",
+    "Bhimbetka",
+    "Mandu",
+    "Maheshwar",
+    "Chanderi"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "Madhya Pradesh",
+  "updated": "2026-09-26"
+}

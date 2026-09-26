@@ -1,0 +1,360 @@
+{
+  "slug": "sikh-pilgrimage-in-india",
+  "kind": "pillar",
+  "short": "Sikh pilgrimage",
+  "title": "Sikh Pilgrimage in India: Historic Gurdwaras and Takhts",
+  "seoTitle": "Sikh Pilgrimage in India: Historic Gurdwaras & Takhts | Kudozz Club",
+  "metaDescription": "A guide to Sikh pilgrimage in India: the Golden Temple, the five Takhts, Anandpur Sahib, Hemkund Sahib and historic gurdwaras, with etiquette, festivals and routes.",
+  "description": "A guide to Sikh pilgrimage and heritage in India: the Golden Temple and Amritsar's gurdwaras, the Panj Takht, Anandpur Sahib, Fatehgarh Sahib, Sultanpur Lodhi and the Kartarpur corridor, Delhi's historic gurdwaras, Hemkund Sahib, gurdwara etiquette, langar, festivals and suggested routes.",
+  "dek": "Sikh pilgrimage centres on Punjab, but historic gurdwaras stretch from the Himalaya to Bihar and Maharashtra.",
+  "primaryKeyword": "sikh pilgrimage places in India",
+  "secondaryKeywords": [
+    "famous gurdwaras India",
+    "sikh religious places",
+    "sikh heritage tourism"
+  ],
+  "searchIntent": "Informational/discovery",
+  "activities": [
+    "gurdwaras",
+    "langar",
+    "Sikh heritage",
+    "pilgrimage route"
+  ],
+  "terrain": [
+    "plains",
+    "mountains"
+  ],
+  "regions": [
+    "Punjab",
+    "Delhi",
+    "Uttarakhand",
+    "Bihar",
+    "Maharashtra",
+    "Himachal Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "groups"
+  ],
+  "tags": [
+    "Sikh",
+    "Gurdwaras",
+    "Golden Temple",
+    "Punjab"
+  ],
+  "hero": {
+    "src": "/images/spiritual/sikh-pilgrimage-anandpur-sahib.webp",
+    "alt": "Takht Sri Kesgarh Sahib at Anandpur Sahib, Punjab"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Sikh pilgrimage sites in India"
+  },
+  "intro": [
+    "Sikh pilgrimage sites are gurdwaras linked to the lives of the ten Sikh Gurus. The best known is the Harmandir Sahib, the Golden Temple, in Amritsar. Five gurdwaras have special status as Takhts, seats of temporal authority, and many others mark places where the Gurus lived, taught or were martyred.",
+    "Gurdwaras welcome visitors of all faiths. Everyone covers their head, removes shoes and washes their feet before entering, and every gurdwara serves langar, a free community meal."
+  ],
+  "quickAnswer": "The most important Sikh pilgrimage sites in India are the Golden Temple and Akal Takht in Amritsar, the other four Takhts (Kesgarh Sahib at Anandpur Sahib, Damdama Sahib at Talwandi Sabo, Patna Sahib in Bihar and Hazur Sahib at Nanded), Hemkund Sahib in Uttarakhand, and historic gurdwaras at Tarn Taran, Fatehgarh Sahib, Sultanpur Lodhi and in Delhi. Visitors of all faiths are welcome if they follow gurdwara etiquette.",
+  "takeaways": [
+    "The Golden Temple (Harmandir Sahib) in Amritsar is the most visited Sikh shrine.",
+    "The Panj Takht are in Amritsar, Anandpur Sahib, Talwandi Sabo, Patna and Nanded.",
+    "Cover your head, remove shoes and wash your feet before entering a gurdwara.",
+    "Every gurdwara serves free langar to all visitors.",
+    "Hemkund Sahib is open only from late May to early October."
+  ],
+  "sections": [
+    {
+      "id": "punjab",
+      "heading": "Punjab",
+      "items": [
+        {
+          "name": "Amritsar",
+          "body": [
+            "The Golden Temple, the Akal Takht facing it, and nearby Jallianwala Bagh; visit early morning and late evening for the ceremonies."
+          ],
+          "links": [
+            {
+              "label": "Golden Temple guide",
+              "href": "/blog/golden-temple-travel-guide"
+            },
+            {
+              "label": "Things to do in Amritsar",
+              "href": "/blog/things-to-do-in-amritsar"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/punjab/punjab/golden-temple-amritsar-punjab.webp",
+            "alt": "The Golden Temple (Harmandir Sahib) reflected in its sarovar in Amritsar",
+            "caption": "The Golden Temple, Amritsar"
+          }
+        },
+        {
+          "name": "Tarn Taran",
+          "body": [
+            "Founded by Guru Arjan Dev, with one of the largest sarovars (holy tanks)."
+          ],
+          "links": [
+            {
+              "label": "Tarn Taran guide",
+              "href": "/blog/tarn-taran-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Anandpur Sahib",
+          "body": [
+            "Where Guru Gobind Singh founded the Khalsa in 1699; Takht Sri Kesgarh Sahib and the Hola Mohalla festival."
+          ],
+          "links": [
+            {
+              "label": "Anandpur Sahib guide",
+              "href": "/blog/anandpur-sahib-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Fatehgarh Sahib and Sultanpur Lodhi",
+          "body": [
+            "Fatehgarh Sahib marks the martyrdom of Guru Gobind Singh's younger sons; Sultanpur Lodhi is linked with Guru Nanak's early life."
+          ],
+          "links": [
+            {
+              "label": "Fatehgarh Sahib guide",
+              "href": "/blog/fatehgarh-sahib-travel-guide"
+            },
+            {
+              "label": "Sultanpur Lodhi guide",
+              "href": "/blog/sultanpur-lodhi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Talwandi Sabo and Dera Baba Nanak",
+          "body": [
+            "Takht Sri Damdama Sahib near Bathinda; and Dera Baba Nanak, starting point of the Kartarpur corridor to Gurdwara Darbar Sahib in Pakistan, which requires advance registration when open."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond Punjab",
+      "items": [
+        {
+          "name": "Delhi",
+          "body": [
+            "Gurdwara Bangla Sahib, Sis Ganj Sahib in Chandni Chowk and Rakab Ganj Sahib."
+          ],
+          "links": [
+            {
+              "label": "Old Delhi guide",
+              "href": "/blog/old-delhi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Hemkund Sahib",
+          "body": [
+            "A high-altitude gurdwara on a glacial lake in Uttarakhand, open in summer."
+          ],
+          "links": [
+            {
+              "label": "Hemkund Sahib Yatra",
+              "href": "/blog/hemkund-sahib-yatra"
+            }
+          ]
+        },
+        {
+          "name": "Patna Sahib and Hazur Sahib",
+          "body": [
+            "Takhts at the birthplace of Guru Gobind Singh in Patna and at Nanded, Maharashtra, where he spent his last days."
+          ],
+          "links": [
+            {
+              "label": "Panj Takht Yatra",
+              "href": "/blog/panj-takht-yatra"
+            }
+          ]
+        },
+        {
+          "name": "Himachal",
+          "body": [
+            "Manikaran Sahib in the Parvati valley and Paonta Sahib on the Yamuna."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "etiquette",
+      "heading": "Gurdwara etiquette",
+      "list": [
+        "Cover your head; scarves are usually available at the entrance.",
+        "Remove shoes and socks and wash hands and feet.",
+        "Do not carry tobacco or alcohol, and do not arrive intoxicated.",
+        "Sit on the floor in the prayer hall and at langar; accept prasad with both hands.",
+        "Volunteers (sevadars) guide visitors; follow their directions."
+      ]
+    },
+    {
+      "id": "festivals",
+      "heading": "Festivals",
+      "list": [
+        "Gurpurabs: the birth anniversaries of Guru Nanak (October or November) and Guru Gobind Singh (December or January).",
+        "Vaisakhi (April), marking the founding of the Khalsa.",
+        "Hola Mohalla at Anandpur Sahib, the day after Holi.",
+        "Bandi Chhor Divas, celebrated with lights at the Golden Temple around Diwali."
+      ]
+    },
+    {
+      "id": "routes",
+      "heading": "Suggested routes",
+      "table": {
+        "columns": [
+          "Route",
+          "Days",
+          "Places"
+        ],
+        "rows": [
+          [
+            "Amritsar",
+            "2 to 3",
+            "Golden Temple, Akal Takht, Tarn Taran, Goindwal Sahib"
+          ],
+          [
+            "Punjab Takhts",
+            "4 to 5",
+            "Amritsar, Anandpur Sahib, Kiratpur Sahib, Fatehgarh Sahib, Talwandi Sabo"
+          ],
+          [
+            "Panj Takht",
+            "8 to 10",
+            "Punjab's three Takhts plus Patna and Nanded"
+          ],
+          [
+            "Hemkund Sahib",
+            "6 to 7",
+            "Rishikesh, Govindghat, Ghangaria, Hemkund"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "langar",
+      "heading": "Langar and seva",
+      "paras": [
+        "Langar, the free community kitchen, is at the heart of every gurdwara. Everyone sits together on the floor, regardless of background, and is served simple vegetarian food by volunteers. The kitchen at the Golden Temple feeds very large numbers of people every day.",
+        "Visitors can join in seva (voluntary service) by helping to wash dishes, serve food or prepare vegetables; ask the volunteers where help is needed. It is one of the most memorable parts of a visit for many travellers."
+      ]
+    }
+  ],
+  "safety": [
+    "Crowds are heavy at gurpurabs and Vaisakhi; plan early.",
+    "Keep valuables secure in busy complexes.",
+    "Hemkund Sahib is at high altitude; take medical advice before going.",
+    "Follow sevadars' instructions around the sarovar."
+  ],
+  "packing": [
+    "A head covering (scarves are also provided)",
+    "Modest clothing",
+    "Socks for walking on marble in winter",
+    "Small bag",
+    "A reusable water bottle"
+  ],
+  "faqs": [
+    {
+      "q": "Is there an entry fee at the Golden Temple?",
+      "a": "No. Entry and langar are free for everyone."
+    },
+    {
+      "q": "Can non-Sikhs visit gurdwaras?",
+      "a": "Yes. Gurdwaras welcome everyone who follows the etiquette."
+    },
+    {
+      "q": "What are the five Takhts?",
+      "a": "Akal Takht (Amritsar), Kesgarh Sahib (Anandpur Sahib), Damdama Sahib (Talwandi Sabo), Patna Sahib (Patna) and Hazur Sahib (Nanded)."
+    },
+    {
+      "q": "What is langar?",
+      "a": "A free community meal served to everyone at a gurdwara, prepared and served by volunteers."
+    },
+    {
+      "q": "When is the best time to visit the Golden Temple?",
+      "a": "October to March is pleasant; early morning and evening are the most atmospheric times."
+    },
+    {
+      "q": "What should I wear to a gurdwara?",
+      "a": "Modest clothing with a head covering; remove shoes and socks at the entrance."
+    },
+    {
+      "q": "Is Hemkund Sahib open all year?",
+      "a": "No. It opens in late May and closes in early October."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Golden Temple guide",
+      "href": "/blog/golden-temple-travel-guide"
+    },
+    {
+      "label": "Panj Takht Yatra",
+      "href": "/blog/panj-takht-yatra"
+    },
+    {
+      "label": "Things to do in Amritsar",
+      "href": "/blog/things-to-do-in-amritsar"
+    },
+    {
+      "label": "Punjab tour packages",
+      "href": "/packages/punjab"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hemkund Sahib Yatra",
+      "href": "/blog/hemkund-sahib-yatra",
+      "note": "the Himalayan gurdwara"
+    },
+    {
+      "name": "Best pilgrimage places in India",
+      "href": "/blog/best-pilgrimage-places-in-india",
+      "note": "holy sites of every faith"
+    },
+    {
+      "name": "Spiritual festivals in India",
+      "href": "/blog/spiritual-festivals-in-india",
+      "note": "Vaisakhi and Hola Mohalla"
+    }
+  ],
+  "places": [
+    "Amritsar",
+    "Tarn Taran",
+    "Anandpur Sahib",
+    "Fatehgarh Sahib",
+    "Sultanpur Lodhi",
+    "Talwandi Sabo",
+    "Delhi",
+    "Hemkund Sahib",
+    "Patna",
+    "Nanded"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Sikh pilgrimage",
+  "updated": "2026-09-26"
+}

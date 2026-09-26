@@ -1,0 +1,406 @@
+{
+  "slug": "pilgrimage-trips-from-delhi",
+  "kind": "weekend",
+  "short": "Pilgrimage trips from Delhi",
+  "title": "Pilgrimage Trips from Delhi: Temples and Shrines Within Reach",
+  "seoTitle": "Pilgrimage Trips from Delhi: Temples & Shrines Nearby | Kudozz Club",
+  "metaDescription": "Pilgrimage trips from Delhi: Vrindavan and Mathura, Haridwar and Rishikesh, Kurukshetra, Khatu Shyam, Ajmer, Amritsar and Katra, with distances and days.",
+  "description": "A guide to pilgrimage trips from Delhi: the city's own shrines, weekend trips to Mathura and Vrindavan, Haridwar and Rishikesh, Kurukshetra, Garhmukteshwar and Khatu Shyam Ji, and longer trips to Ajmer and Pushkar, Amritsar, Katra for Vaishno Devi and Varanasi, with distances, travel options and how many days each needs.",
+  "dek": "Some of north India's most important shrines are within a day's drive or a short train ride of Delhi.",
+  "primaryKeyword": "religious places near Delhi",
+  "secondaryKeywords": [
+    "pilgrimage places near Delhi",
+    "temples near Delhi for weekend",
+    "Vrindavan Haridwar from Delhi"
+  ],
+  "searchIntent": "Weekend planning",
+  "activities": [
+    "pilgrimage",
+    "weekend trip",
+    "temple visit",
+    "ghats"
+  ],
+  "terrain": [
+    "plains",
+    "river",
+    "hills"
+  ],
+  "regions": [
+    "Delhi",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "Haryana",
+    "Rajasthan",
+    "Punjab"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "couples"
+  ],
+  "tags": [
+    "Delhi",
+    "Weekend Pilgrimage",
+    "Vrindavan",
+    "Haridwar"
+  ],
+  "hero": {
+    "src": "/images/spiritual/pilgrimage-delhi-vrindavan-prem-mandir.webp",
+    "alt": "The white marble Prem Mandir in Vrindavan, Uttar Pradesh"
+  },
+  "parent": {
+    "label": "Best Pilgrimage Places in India",
+    "href": "/blog/best-pilgrimage-places-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Pilgrimage trips from Delhi"
+  },
+  "intro": [
+    "Delhi is a good base for pilgrimages. Mathura and Vrindavan are about three hours away, Haridwar and Rishikesh five to six, and fast trains reach Amritsar, Ajmer and Katra in a few hours more.",
+    "The city itself has major shrines: Akshardham, Gurdwara Bangla Sahib, the dargah of Hazrat Nizamuddin, the Lotus Temple, ISKCON and Chhatarpur. This guide groups trips by the time they need."
+  ],
+  "quickAnswer": "Popular pilgrimage trips from Delhi include Mathura and Vrindavan (about 180 km), Haridwar and Rishikesh (about 220 to 240 km), Kurukshetra (about 160 km), Garhmukteshwar (about 100 km) and Khatu Shyam Ji in Rajasthan. For longer trips, Ajmer and Pushkar, Amritsar and Katra (for Vaishno Devi) are reached by fast trains, and Varanasi by overnight train or flight.",
+  "takeaways": [
+    "Mathura and Vrindavan make an easy weekend from Delhi.",
+    "Haridwar and Rishikesh need two to three days.",
+    "Amritsar, Ajmer and Katra are a few hours by fast train.",
+    "Delhi's own shrines include Bangla Sahib, Nizamuddin, Akshardham and the Lotus Temple.",
+    "Avoid long weekends and festival days if you want smaller crowds."
+  ],
+  "sections": [
+    {
+      "id": "trips",
+      "heading": "Trips by distance",
+      "table": {
+        "columns": [
+          "Destination",
+          "Distance from Delhi (about)",
+          "Days",
+          "Our guide"
+        ],
+        "rows": [
+          [
+            "Mathura and Vrindavan",
+            "180 km",
+            "1 to 2",
+            "Vrindavan guide"
+          ],
+          [
+            "Haridwar",
+            "220 km",
+            "2",
+            "Haridwar guide"
+          ],
+          [
+            "Rishikesh",
+            "240 km",
+            "2 to 3",
+            "Things to do in Rishikesh"
+          ],
+          [
+            "Kurukshetra",
+            "160 km",
+            "1",
+            "Covered here"
+          ],
+          [
+            "Garhmukteshwar",
+            "100 km",
+            "1",
+            "Covered here"
+          ],
+          [
+            "Khatu Shyam Ji",
+            "280 km",
+            "2",
+            "Khatu Shyam Ji guide"
+          ],
+          [
+            "Ajmer and Pushkar",
+            "400 km (fast trains available)",
+            "2 to 3",
+            "Ajmer guide"
+          ],
+          [
+            "Amritsar",
+            "450 km (fast trains available)",
+            "2 to 3",
+            "Golden Temple guide"
+          ],
+          [
+            "Katra (Vaishno Devi)",
+            "650 km (fast trains available)",
+            "3",
+            "Katra guide"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "weekend",
+      "heading": "Weekend trips",
+      "items": [
+        {
+          "name": "Mathura and Vrindavan",
+          "body": [
+            "Krishna Janmabhoomi, Banke Bihari, Prem Mandir, ISKCON and the Yamuna ghats, with Govardhan and Barsana nearby."
+          ],
+          "links": [
+            {
+              "label": "Vrindavan guide",
+              "href": "/blog/vrindavan-travel-guide"
+            },
+            {
+              "label": "Things to do in Mathura",
+              "href": "/blog/things-to-do-in-mathura"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/vrindavan/prem-mandir-illuminated-night-vrindavan.webp",
+            "alt": "Prem Mandir illuminated at night in Vrindavan",
+            "caption": "Prem Mandir, Vrindavan"
+          }
+        },
+        {
+          "name": "Haridwar and Rishikesh",
+          "body": [
+            "Har ki Pauri's evening aarti, the hilltop temples, and Rishikesh's ashrams and ghats."
+          ],
+          "links": [
+            {
+              "label": "Haridwar guide",
+              "href": "/blog/haridwar-travel-guide"
+            },
+            {
+              "label": "Things to do in Rishikesh",
+              "href": "/blog/things-to-do-in-rishikesh"
+            }
+          ]
+        },
+        {
+          "name": "Kurukshetra",
+          "body": [
+            "Brahma Sarovar and Jyotisar, associated with the Bhagavad Gita, about two and a half hours north on the highway to Chandigarh."
+          ]
+        },
+        {
+          "name": "Khatu Shyam Ji",
+          "body": [
+            "A hugely popular temple in Sikar district, with Salasar Balaji nearby."
+          ],
+          "links": [
+            {
+              "label": "Khatu Shyam Ji guide",
+              "href": "/blog/khatu-shyam-ji-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "longer",
+      "heading": "Longer trips",
+      "list": [
+        "Ajmer and Pushkar: the dargah of Khwaja Moinuddin Chishti and Pushkar's lake and Brahma temple.",
+        "Amritsar: the Golden Temple and Akal Takht.",
+        "Katra: the Vaishno Devi yatra (registration required).",
+        "Varanasi and Ayodhya: by overnight train or a short flight."
+      ],
+      "items": [
+        {
+          "name": "Plan longer trips",
+          "body": [
+            "Itineraries for the bigger circuits."
+          ],
+          "links": [
+            {
+              "label": "Ayodhya, Varanasi and Prayagraj itinerary",
+              "href": "/blog/ayodhya-varanasi-prayagraj-tour"
+            },
+            {
+              "label": "Golden Temple guide",
+              "href": "/blog/golden-temple-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-delhi",
+      "heading": "Shrines within Delhi",
+      "list": [
+        "Gurdwara Bangla Sahib and Gurdwara Sis Ganj Sahib.",
+        "The dargah of Hazrat Nizamuddin Auliya, with qawwali on Thursday evenings.",
+        "Akshardham and the ISKCON temple.",
+        "The Lotus Temple (Baha'i House of Worship).",
+        "The Chhatarpur temples and the Jama Masjid."
+      ],
+      "items": [
+        {
+          "name": "Delhi guides",
+          "body": [
+            "Plan a day around the city's shrines."
+          ],
+          "links": [
+            {
+              "label": "Nizamuddin guide",
+              "href": "/blog/nizamuddin-delhi-travel-guide"
+            },
+            {
+              "label": "Akshardham guide",
+              "href": "/blog/akshardham-delhi-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Leave Delhi early to avoid traffic on the highways.",
+        "Book fast trains to Amritsar, Ajmer and Katra well ahead on weekends.",
+        "Winter fog (December and January) can delay trains and road travel.",
+        "Mathura, Vrindavan and Haridwar are very crowded on festival days and long weekends."
+      ]
+    },
+    {
+      "id": "sample-weekends",
+      "heading": "Sample weekends",
+      "table": {
+        "columns": [
+          "Weekend",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "Braj",
+            "Day 1: Mathura and Vrindavan; Day 2: Govardhan and Barsana"
+          ],
+          [
+            "Ganga",
+            "Day 1: Haridwar and the evening aarti; Day 2: Rishikesh, then Delhi by train"
+          ],
+          [
+            "Rajasthan",
+            "Day 1: Khatu Shyam Ji; Day 2: Salasar Balaji"
+          ],
+          [
+            "Punjab",
+            "Day 1: fast train to Amritsar and the Golden Temple at night; Day 2: early morning at the temple, then back"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Drive carefully on highways, especially at night and in fog.",
+    "Keep valuables secure in crowded temple towns.",
+    "Book registrations and special darshan only on official sites."
+  ],
+  "packing": [
+    "Modest clothes and a head covering for gurdwaras and dargahs",
+    "Slip-on footwear",
+    "Warm layers in winter",
+    "ID"
+  ],
+  "faqs": [
+    {
+      "q": "Which religious places can I visit from Delhi on a weekend?",
+      "a": "Mathura and Vrindavan, Haridwar and Rishikesh, Kurukshetra, Garhmukteshwar and Khatu Shyam Ji."
+    },
+    {
+      "q": "How far is Vrindavan from Delhi?",
+      "a": "About 180 km, around three hours by road."
+    },
+    {
+      "q": "How far is Haridwar from Delhi?",
+      "a": "About 220 km, around five to six hours by road, or less by train."
+    },
+    {
+      "q": "Can I visit Vaishno Devi from Delhi on a weekend?",
+      "a": "It is possible by fast train to Katra, but three days is more comfortable."
+    },
+    {
+      "q": "Is there a train from Delhi to Haridwar?",
+      "a": "Yes, several daily trains including fast services; the journey takes about four to five hours."
+    },
+    {
+      "q": "How far is Kurukshetra from Delhi?",
+      "a": "About 160 km, around two and a half to three hours by road."
+    },
+    {
+      "q": "What is the best time for pilgrimage trips from Delhi?",
+      "a": "October to March, avoiding the fog of late December and January for early starts."
+    },
+    {
+      "q": "Which shrines are there in Delhi itself?",
+      "a": "Bangla Sahib, Nizamuddin dargah, Akshardham, the Lotus Temple, ISKCON and Chhatarpur, among others."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Delhi",
+      "href": "/blog/things-to-do-in-delhi"
+    },
+    {
+      "label": "Things to do in Vrindavan",
+      "href": "/blog/things-to-do-in-vrindavan"
+    },
+    {
+      "label": "Weekend getaways",
+      "href": "/packages/weekend-getaways"
+    },
+    {
+      "label": "Delhi tour packages",
+      "href": "/packages/delhi"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best pilgrimage places in India",
+      "href": "/blog/best-pilgrimage-places-in-india",
+      "note": "holy sites of every faith"
+    },
+    {
+      "name": "Spiritual tourism in Uttar Pradesh",
+      "href": "/blog/spiritual-tourism-in-uttar-pradesh",
+      "note": "Braj and Varanasi"
+    },
+    {
+      "name": "Weekend adventure trips from Delhi",
+      "href": "/blog/weekend-adventure-trips-from-delhi",
+      "note": "other weekend ideas"
+    }
+  ],
+  "places": [
+    "Mathura",
+    "Vrindavan",
+    "Haridwar",
+    "Rishikesh",
+    "Kurukshetra",
+    "Garhmukteshwar",
+    "Khatu Shyam Ji",
+    "Ajmer",
+    "Pushkar",
+    "Amritsar",
+    "Katra"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "weekend-getaways"
+  ],
+  "planDestination": "Delhi",
+  "updated": "2026-09-26"
+}

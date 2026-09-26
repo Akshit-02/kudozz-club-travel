@@ -1,0 +1,421 @@
+{
+  "slug": "rock-climbing-in-india",
+  "kind": "activity",
+  "short": "Rock climbing in India",
+  "title": "Rock Climbing in India: Crags, Bouldering and Courses",
+  "seoTitle": "Rock Climbing in India: Crags, Bouldering & Courses | Kudozz Club",
+  "metaDescription": "Rock climbing in India: bouldering in Hampi, sport routes at Badami, crags near Bengaluru, Delhi and Pune, climbing courses and gyms, with seasons and safety.",
+  "description": "A guide to rock climbing in India: Hampi's world-famous bouldering, sandstone routes at Badami, granite crags around Bengaluru, the Aravalli crags near Delhi, Sahyadri pinnacles near Pune and Manali's boulders, with seasons, courses and safety.",
+  "dek": "Hampi's granite boulders put India on the climbing map, but there are crags near most big cities. Here is where to climb and how to learn.",
+  "primaryKeyword": "rock climbing in India",
+  "secondaryKeywords": [
+    "bouldering in Hampi",
+    "rock climbing Bangalore",
+    "rock climbing near Delhi",
+    "climbing courses India"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "rock climbing",
+    "bouldering",
+    "rappelling"
+  ],
+  "terrain": [
+    "rock",
+    "hills"
+  ],
+  "regions": [
+    "Karnataka",
+    "Delhi NCR",
+    "Haryana",
+    "Maharashtra",
+    "Himachal Pradesh",
+    "Rajasthan"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "friends",
+    "solo",
+    "beginners"
+  ],
+  "tags": [
+    "Rock Climbing",
+    "Hampi",
+    "Bouldering",
+    "Adventure Sports"
+  ],
+  "hero": {
+    "src": "/images/adventure/rock-climbing-hampi-boulders.webp",
+    "alt": "A climber bouldering on a granite boulder at Hampi",
+    "caption": "Bouldering at Hampi"
+  },
+  "parent": {
+    "label": "Adventure Sports in India",
+    "href": "/blog/adventure-sports-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Rock climbing in India"
+  },
+  "intro": [
+    "Rock climbing in India has grown quickly, helped by climbing gyms in the big cities and by Hampi, whose sea of granite boulders around the Vijayanagara ruins has become one of Asia's best-known bouldering areas. Outside Hampi, most climbing happens on granite hills around Bengaluru, sandstone at Badami, quartzite crags in the Aravallis near Delhi, and basalt pinnacles in the Sahyadris.",
+    "Beginners usually start in a gym or on a guided outdoor session with top-rope and rappelling, then learn lead climbing or bouldering technique. The mountaineering institutes also teach rock craft as part of their courses. This guide covers the main areas, when to go and how to climb safely."
+  ],
+  "quickAnswer": "The best places for rock climbing in India are Hampi for bouldering, Badami for sandstone sport routes, Ramanagara and other granite hills near Bengaluru, the Aravalli crags at Dhauj near Delhi, Sahyadri pinnacles near Pune and boulders around Manali. Climb in the cooler months, roughly October to March in the south and plains. Beginners should start at a climbing gym or with a certified instructor.",
+  "takeaways": [
+    "Hampi is India's bouldering capital, best from about November to February.",
+    "Badami's red sandstone cliffs have bolted sport routes.",
+    "Crags near Bengaluru, Delhi and Pune make climbing a weekend activity.",
+    "Beginners should learn with instructors on top-rope before leading or bouldering high.",
+    "Always climb with a helmet outdoors and check anchors, ropes and crash pads."
+  ],
+  "sections": [
+    {
+      "id": "areas",
+      "heading": "Where to climb in India",
+      "items": [
+        {
+          "name": "Hampi, Karnataka",
+          "body": [
+            "The granite boulders scattered around Hampi and across the Tungabhadra river at Hanumanahalli and Sanapur have thousands of problems of every grade. Crash pads can be rented from climbing shops and guesthouses. It is very hot from March, so most climbers come from about November to February."
+          ],
+          "facts": {
+            "Style": "Bouldering",
+            "Season": "About November to February",
+            "Good for": "All levels"
+          },
+          "links": [
+            {
+              "label": "Things to do in Hampi",
+              "href": "/blog/things-to-do-in-hampi"
+            },
+            {
+              "label": "Hampi travel guide",
+              "href": "/blog/hampi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Badami, Karnataka",
+          "body": [
+            "The red sandstone cliffs around Badami's cave temples and lake hold bolted sport routes and some bouldering. Combine climbing with the Chalukya temples of Aihole and Pattadakal."
+          ],
+          "facts": {
+            "Style": "Sport climbing, bouldering",
+            "Season": "About November to February"
+          },
+          "links": [
+            {
+              "label": "Badami, Aihole and Pattadakal guide",
+              "href": "/blog/badami-aihole-pattadakal-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Ramanagara and granite hills near Bengaluru",
+          "body": [
+            "The rocky hills around Ramanagara, Savandurga and Turahalli are Bengaluru's weekend crags, with top-rope, trad and bouldering. Local climbing groups and outfitters run introductory sessions."
+          ],
+          "facts": {
+            "Style": "Top-rope, trad, bouldering",
+            "Season": "October to March"
+          },
+          "links": [
+            {
+              "label": "Weekend adventure trips from Bengaluru",
+              "href": "/blog/weekend-adventure-trips-from-bengaluru"
+            }
+          ]
+        },
+        {
+          "name": "Dhauj and Damdama, near Delhi",
+          "body": [
+            "The quartzite crags of the Aravallis at Dhauj near Faridabad, and around Damdama Lake near Gurugram, are where Delhi's climbers learn. Weekend sessions with rappelling are common."
+          ],
+          "facts": {
+            "Style": "Top-rope, rappelling",
+            "Season": "October to March"
+          },
+          "links": [
+            {
+              "label": "Weekend adventure trips from Delhi",
+              "href": "/blog/weekend-adventure-trips-from-delhi"
+            },
+            {
+              "label": "Damdama Lake guide",
+              "href": "/blog/damdama-lake-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Sahyadri pinnacles, Maharashtra",
+          "body": [
+            "Basalt pinnacles and cliffs near Lonavala and in the Western Ghats, such as Duke's Nose, are climbed by Mumbai and Pune clubs, often with rappelling. Rock can be loose; go with experienced climbers."
+          ],
+          "facts": {
+            "Style": "Trad, rappelling",
+            "Season": "October to February"
+          },
+          "links": [
+            {
+              "label": "Weekend adventure trips from Mumbai",
+              "href": "/blog/weekend-adventure-trips-from-mumbai"
+            }
+          ]
+        },
+        {
+          "name": "Manali and the Kullu valley, Himachal Pradesh",
+          "body": [
+            "Granite boulders around Vashisht and Old Manali, and crags in the Solang area, offer bouldering and short routes in summer, when the south is too hot or wet."
+          ],
+          "facts": {
+            "Style": "Bouldering, sport",
+            "Season": "April to June, September to October"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Manali",
+              "href": "/blog/adventure-activities-in-manali"
+            }
+          ]
+        },
+        {
+          "name": "Mount Abu, Rajasthan",
+          "body": [
+            "The granite around Mount Abu, Rajasthan's only hill station, has bouldering and short routes, and has long been used for climbing training."
+          ],
+          "facts": {
+            "Style": "Bouldering, top-rope",
+            "Season": "October to March"
+          },
+          "links": [
+            {
+              "label": "Things to do in Mount Abu",
+              "href": "/blog/things-to-do-in-mount-abu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Climbing areas compared",
+      "table": {
+        "columns": [
+          "Area",
+          "Rock",
+          "Style",
+          "Best months"
+        ],
+        "rows": [
+          [
+            "Hampi",
+            "Granite",
+            "Bouldering",
+            "November to February"
+          ],
+          [
+            "Badami",
+            "Sandstone",
+            "Sport, bouldering",
+            "November to February"
+          ],
+          [
+            "Bengaluru hills",
+            "Granite",
+            "Top-rope, trad, bouldering",
+            "October to March"
+          ],
+          [
+            "Dhauj, near Delhi",
+            "Quartzite",
+            "Top-rope",
+            "October to March"
+          ],
+          [
+            "Sahyadris",
+            "Basalt",
+            "Trad, rappelling",
+            "October to February"
+          ],
+          [
+            "Manali",
+            "Granite",
+            "Bouldering, sport",
+            "April to June, September to October"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "learn",
+      "heading": "Learning to climb",
+      "items": [
+        {
+          "name": "Climbing gyms",
+          "body": [
+            "Indoor walls in cities including Bengaluru, Mumbai, Pune, Delhi and Hyderabad teach basics safely, with rental shoes and harnesses. The Indian Mountaineering Foundation in Delhi has a climbing wall and runs sport climbing competitions."
+          ]
+        },
+        {
+          "name": "Outdoor introductory sessions",
+          "body": [
+            "Weekend sessions near cities usually include top-rope climbing and rappelling with instructors, and are the easiest first taste of outdoor rock."
+          ]
+        },
+        {
+          "name": "Institute courses",
+          "body": [
+            "The basic mountaineering courses at NIM Uttarkashi, HMI Darjeeling, ABVIMAS Manali and JIM&WS Pahalgam include rock craft, and some institutes run dedicated rock climbing or sport climbing courses."
+          ],
+          "links": [
+            {
+              "label": "Mountaineering in India",
+              "href": "/blog/mountaineering-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grades",
+      "heading": "Climbing grades used in India",
+      "paras": [
+        "Sport and top-rope routes in India are usually graded on the French system, from about 4 (easy) through 5 and 6 for most recreational climbers, to 7 and 8 for strong climbers. Bouldering problems are graded on the V scale (V0 upwards) or the Fontainebleau scale (from about 3 upwards).",
+        "Grades on Indian crags can feel stiff or soft compared with gyms, and some older routes have only local grades. Start well below your gym grade on real rock, especially on Hampi's rounded granite, where technique matters more than strength."
+      ],
+      "table": {
+        "columns": [
+          "Level",
+          "Sport (French)",
+          "Bouldering (V scale)"
+        ],
+        "rows": [
+          [
+            "Beginner",
+            "4 to 5c",
+            "V0 to V2"
+          ],
+          [
+            "Intermediate",
+            "6a to 6c",
+            "V3 to V5"
+          ],
+          [
+            "Advanced",
+            "7a and above",
+            "V6 and above"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ethics",
+      "heading": "Climbing responsibly",
+      "list": [
+        "Hampi and Badami are protected heritage areas; do not climb on or near monuments, and respect closures.",
+        "Avoid chalking up or brushing holds near temples and sacred rocks.",
+        "Do not place new bolts without agreement from local climbing groups.",
+        "Carry out tape, wrappers and chalk bags; leave no trace on popular boulders.",
+        "Ask permission on farmland and village land, especially around Hampi."
+      ]
+    }
+  ],
+  "safety": [
+    "Wear a helmet at the crag, whether climbing or belaying.",
+    "Check knots, harness buckles and the belay device before every climb; double-check each other.",
+    "Use enough crash pads and spotters when bouldering, especially on high problems.",
+    "Inspect fixed anchors and bolts; some older routes have ageing gear.",
+    "Climb in the cooler parts of the day; granite gets dangerously hot and slippery in the sun.",
+    "Carry water and a first-aid kit; many crags are far from help."
+  ],
+  "packing": [
+    "Climbing shoes and a chalk bag",
+    "Harness, helmet and belay device (or rent from the gym or guide)",
+    "Crash pad for bouldering",
+    "Water, snacks and sunscreen",
+    "Tape and a small first-aid kit"
+  ],
+  "faqs": [
+    {
+      "q": "Where is the best rock climbing in India?",
+      "a": "Hampi for bouldering, Badami for sport climbing, and the granite hills near Bengaluru."
+    },
+    {
+      "q": "When is the best time to climb in Hampi?",
+      "a": "About November to February, when it is cool and dry."
+    },
+    {
+      "q": "Can beginners go rock climbing in India?",
+      "a": "Yes. Start at a climbing gym or on a guided outdoor session with top-rope and instructors."
+    },
+    {
+      "q": "Where can I rock climb near Delhi?",
+      "a": "At Dhauj near Faridabad and around Damdama Lake, mostly with guided weekend sessions."
+    },
+    {
+      "q": "Do mountaineering courses teach rock climbing?",
+      "a": "Yes. Basic mountaineering courses at Indian institutes include rock craft, and some run dedicated climbing courses."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Hampi travel guide",
+      "href": "/blog/hampi-travel-guide"
+    },
+    {
+      "label": "Things to do in Hampi",
+      "href": "/blog/things-to-do-in-hampi"
+    },
+    {
+      "label": "Hampi itinerary",
+      "href": "/blog/hampi-travel-guide#itinerary"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Mountaineering in India",
+      "href": "/blog/mountaineering-in-india",
+      "note": "courses and first peaks"
+    },
+    {
+      "name": "Weekend adventure trips from Bengaluru",
+      "href": "/blog/weekend-adventure-trips-from-bengaluru",
+      "note": "climbing near the city"
+    },
+    {
+      "name": "Adventure sports in India",
+      "href": "/blog/adventure-sports-in-india",
+      "note": "every activity in one place"
+    }
+  ],
+  "places": [
+    "Hampi",
+    "Badami",
+    "Ramanagara",
+    "Savandurga",
+    "Turahalli",
+    "Dhauj",
+    "Damdama",
+    "Lonavala",
+    "Manali",
+    "Mount Abu"
+  ],
+  "styles": [
+    "adventure-tours"
+  ],
+  "planDestination": "Hampi",
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,294 @@
+{
+  "slug": "belur-halebidu-hoysala-temples",
+  "kind": "destination",
+  "short": "Belur and Halebidu",
+  "title": "Belur, Halebidu and Somanathapura: Visiting the Hoysala Temples",
+  "seoTitle": "Belur, Halebidu & Somanathapura: The Hoysala Temples | Kudozz Club",
+  "metaDescription": "Visit the Hoysala temples of Belur, Halebidu and Somanathapura in Karnataka, a UNESCO site since 2023: what to see, how to reach, and a plan with Shravanabelagola.",
+  "description": "A visitor's guide to the Sacred Ensembles of the Hoysalas, inscribed by UNESCO in 2023: the Chennakeshava temple at Belur, the Hoysaleswara temple at Halebidu and the Keshava temple at Somanathapura, their star-shaped plans and soapstone carving, how to reach from Bengaluru, Mysuru and Hassan, and a plan combining them with Shravanabelagola.",
+  "dek": "The Hoysala temples of Belur, Halebidu and Somanathapura are covered in some of the most intricate stone carving in India.",
+  "primaryKeyword": "Belur Halebidu",
+  "secondaryKeywords": [
+    "Hoysala temples",
+    "Chennakeshava temple Belur",
+    "Hoysaleswara temple"
+  ],
+  "searchIntent": "Monument visit planning",
+  "activities": [
+    "UNESCO sites",
+    "temples",
+    "architecture",
+    "photography"
+  ],
+  "terrain": [
+    "heritage town"
+  ],
+  "regions": [
+    "Karnataka",
+    "South India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "monsoon"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "photographers"
+  ],
+  "tags": [
+    "Belur",
+    "Halebidu",
+    "Hoysala",
+    "UNESCO"
+  ],
+  "hero": {
+    "src": "/images/heritage/hoysala-chennakeshava-temple-belur.webp",
+    "alt": "The Chennakeshava temple at Belur, Karnataka"
+  },
+  "parent": {
+    "label": "UNESCO World Heritage Sites in India",
+    "href": "/blog/unesco-world-heritage-sites-in-india"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Sacred Ensembles of the Hoysalas",
+    "containedIn": "Karnataka"
+  },
+  "intro": [
+    "The Hoysala dynasty ruled much of present-day Karnataka between the 11th and 14th centuries, and built temples in a distinctive style: star-shaped (stellate) platforms, and walls covered with friezes carved in soft soapstone. Three of them, at Belur, Halebidu and Somanathapura, were inscribed by UNESCO in 2023 as the Sacred Ensembles of the Hoysalas.",
+    "Belur's Chennakeshava temple, consecrated in 1117 under King Vishnuvardhana, is still in worship. The Hoysaleswara temple at Halebidu, the old capital Dwarasamudra, was begun around 1121 and never completed. The smaller Keshava temple at Somanathapura, built in 1268, is the most complete example of the style."
+  ],
+  "quickAnswer": "The Hoysala temples at Belur (Chennakeshava) and Halebidu (Hoysaleswara), 16 km apart in Hassan district, and Somanathapura (Keshava), near Mysuru, have been a UNESCO World Heritage Site since 2023. They are known for star-shaped plans and intricate soapstone carving. Belur and Halebidu are about four hours from Bengaluru and make a day trip, often with Shravanabelagola. Allow two hours at each.",
+  "takeaways": [
+    "Inscribed by UNESCO in 2023 as the Sacred Ensembles of the Hoysalas.",
+    "Belur and Halebidu are 16 km apart in Hassan district; Somanathapura is near Mysuru.",
+    "Belur's Chennakeshava temple is still in worship.",
+    "Hire a local guide: the carving is best understood panel by panel.",
+    "Combine with Shravanabelagola for a full day from Hassan."
+  ],
+  "sections": [
+    {
+      "id": "temples",
+      "heading": "The three temples",
+      "items": [
+        {
+          "name": "Chennakeshava, Belur",
+          "body": [
+            "Consecrated in 1117, with carved bracket figures (madanikas) of dancers and musicians, and a living temple courtyard."
+          ],
+          "facts": {
+            "Status": "In worship"
+          },
+          "image": {
+            "src": "/images/blogs/karnataka/karnataka/belur-and-halebidu-karnataka.webp",
+            "alt": "Carved Hoysala temple walls at Belur and Halebidu, Karnataka",
+            "caption": "Hoysala carving"
+          }
+        },
+        {
+          "name": "Hoysaleswara, Halebidu",
+          "body": [
+            "A twin-shrine temple begun around 1121, its outer walls carved with friezes of elephants, lions, scrolls, and scenes from the epics."
+          ],
+          "facts": {
+            "Status": "Monument; an ASI museum is nearby"
+          },
+          "image": {
+            "src": "/images/blogs/karnataka/karnataka/hoysaleswara-temple-halebidu.webp",
+            "alt": "The Hoysaleswara temple at Halebidu, Karnataka",
+            "caption": "Hoysaleswara temple, Halebidu"
+          }
+        },
+        {
+          "name": "Keshava, Somanathapura",
+          "body": [
+            "Built in 1268, a compact triple-shrine temple on a star-shaped platform, about 35 km from Mysuru."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "style",
+      "heading": "The Hoysala style",
+      "list": [
+        "Star-shaped platforms (jagati) that let visitors walk around the temple.",
+        "Soft soapstone that allowed very fine carving, polished to a sheen.",
+        "Horizontal friezes, often in a fixed order of animals and scenes, running around the walls.",
+        "Lathe-turned pillars inside, with carved ceilings."
+      ],
+      "after": [
+        "See our temple architecture guide for how the Hoysala style compares with Nagara and Dravida temples."
+      ]
+    },
+    {
+      "id": "reach",
+      "heading": "How to reach",
+      "list": [
+        "From Bengaluru: about 220 km to Belur, around four hours by road.",
+        "From Hassan: Belur about 38 km and Halebidu about 30 km.",
+        "From Mysuru: Somanathapura about 35 km; Belur about 150 km.",
+        "Hassan has the nearest railway station for Belur and Halebidu."
+      ]
+    },
+    {
+      "id": "one-day",
+      "heading": "A day from Hassan",
+      "table": {
+        "columns": [
+          "Time",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "8 am",
+            "Shravanabelagola: climb Vindhyagiri to the Gommateshwara statue"
+          ],
+          [
+            "11 am",
+            "Drive to Halebidu (about 80 km)"
+          ],
+          [
+            "12:30 pm",
+            "Hoysaleswara temple and museum"
+          ],
+          [
+            "3 pm",
+            "Belur's Chennakeshava temple"
+          ],
+          [
+            "5 pm",
+            "Return to Hassan or Chikmagalur"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "what-to-look-for",
+      "heading": "What to look for",
+      "list": [
+        "At Belur, the 38 bracket figures of dancers and musicians around the outer walls, and the Darpana Sundari (lady with a mirror).",
+        "At Halebidu, the continuous friezes of elephants, lions, horsemen and scenes from the Ramayana and Mahabharata, and the large Nandi statues.",
+        "At Somanathapura, the three star-shaped shrines on a single platform, and sculptors' names carved near some figures.",
+        "Inside Belur, the lathe-turned pillars, especially the Narasimha pillar."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "list": [
+        "Hassan: the most practical base for Belur, Halebidu and Shravanabelagola.",
+        "Chikmagalur: coffee estates and homestays about an hour from Belur.",
+        "Mysuru: the base for Somanathapura."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "October to February: pleasant for long temple visits.",
+        "March to May: warm; visit in the mornings.",
+        "June to September: green countryside and light rain."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and ticket rules are set by the ASI, state archaeology departments or site trusts and change from time to time; check the official website before you go.",
+    "Do not climb on or touch carvings, and follow the site's rules on photography, drones and tripods.",
+    "Belur is an active temple; dress modestly and follow its rules."
+  ],
+  "packing": [
+    "Modest clothing",
+    "Socks for hot stone floors",
+    "Water and a hat",
+    "Photo ID",
+    "Binoculars or a zoom lens for the high friezes"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Belur from Halebidu?",
+      "a": "About 16 km."
+    },
+    {
+      "q": "Are Belur and Halebidu UNESCO sites?",
+      "a": "Yes. With Somanathapura they form the Sacred Ensembles of the Hoysalas, inscribed in 2023."
+    },
+    {
+      "q": "How far is Belur from Bengaluru?",
+      "a": "About 220 km, around four hours by road."
+    },
+    {
+      "q": "What is special about Hoysala architecture?",
+      "a": "Star-shaped platforms, soapstone walls carved with dense friezes, and lathe-turned pillars inside."
+    },
+    {
+      "q": "Is photography allowed at Belur and Halebidu?",
+      "a": "Photography is generally allowed outside; follow the rules inside the shrines."
+    },
+    {
+      "q": "Where should I stay to visit Belur and Halebidu?",
+      "a": "Hassan is the most practical base; Chikmagalur is about an hour away."
+    },
+    {
+      "q": "Which Hoysala temple is still in worship?",
+      "a": "The Chennakeshava temple at Belur."
+    },
+    {
+      "q": "Can I visit Belur, Halebidu and Shravanabelagola in one day?",
+      "a": "Yes, from Hassan, with an early start."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Shravanabelagola guide",
+      "href": "/blog/shravanabelagola-gommateshwara"
+    },
+    {
+      "label": "Things to do in Chikmagalur",
+      "href": "/blog/things-to-do-in-chikmagalur"
+    },
+    {
+      "label": "Heritage tourism in Karnataka",
+      "href": "/blog/heritage-tourism-in-karnataka"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Temple architecture of India",
+      "href": "/blog/temple-architecture-of-india",
+      "note": "the styles explained"
+    },
+    {
+      "name": "South India heritage itinerary",
+      "href": "/blog/south-india-heritage-itinerary",
+      "note": "a longer route"
+    },
+    {
+      "name": "UNESCO sites in India",
+      "href": "/blog/unesco-world-heritage-sites-in-india",
+      "note": "the full list"
+    }
+  ],
+  "places": [
+    "Belur",
+    "Halebidu",
+    "Somanathapura",
+    "Hassan",
+    "Shravanabelagola",
+    "Mysuru"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "Belur and Halebidu",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,381 @@
+{
+  "slug": "spiritual-tourism-in-uttarakhand",
+  "kind": "state",
+  "short": "Spiritual Uttarakhand",
+  "title": "Spiritual Tourism in Uttarakhand: Char Dham, Haridwar, Rishikesh and Beyond",
+  "seoTitle": "Spiritual Places in Uttarakhand: Char Dham & Haridwar | Kudozz Club",
+  "metaDescription": "Plan a spiritual trip in Uttarakhand: the Char Dham, Haridwar and Rishikesh, the Panch Kedar and Panch Prayag, Hemkund Sahib and Kumaon's temples, with seasons.",
+  "description": "A guide to spiritual tourism in Uttarakhand, often called Devbhoomi: the Char Dham, Haridwar's Har ki Pauri and Rishikesh's ashrams and aartis, the Panch Kedar and Panch Prayag, Hemkund Sahib, Jageshwar, Kainchi Dham and Purnagiri in Kumaon, the 2027 Haridwar Ardh Kumbh, seasons and routes.",
+  "dek": "Uttarakhand's Himalaya hold some of Hinduism's holiest shrines, and its river towns of Haridwar and Rishikesh are pilgrimage centres in their own right.",
+  "primaryKeyword": "spiritual places in Uttarakhand",
+  "secondaryKeywords": [
+    "religious places in Uttarakhand",
+    "temples in Uttarakhand",
+    "pilgrimage places in Uttarakhand"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "pilgrimage",
+    "Char Dham",
+    "ghats",
+    "trekking"
+  ],
+  "terrain": [
+    "mountains",
+    "river",
+    "temple town"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "North India"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "groups"
+  ],
+  "tags": [
+    "Uttarakhand",
+    "Char Dham",
+    "Haridwar",
+    "Rishikesh"
+  ],
+  "hero": {
+    "src": "/images/spiritual/spiritual-uttarakhand-kedarnath.webp",
+    "alt": "Kedarnath Temple below snow-covered Himalayan peaks"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Spiritual Uttarakhand",
+    "containedIn": "Uttarakhand"
+  },
+  "intro": [
+    "Uttarakhand is often called Devbhoomi, the land of the gods. In the Garhwal Himalaya are the Char Dham shrines of Yamunotri, Gangotri, Kedarnath and Badrinath, the Panch Kedar temples of Shiva and the five river confluences of the Panch Prayag. Lower down, Haridwar and Rishikesh stand where the Ganga leaves the mountains.",
+    "The Kumaon hills to the east have their own sacred sites, including the ancient temple cluster at Jageshwar and the ashram of Neem Karoli Baba at Kainchi Dham. Himalayan shrines open only from late April or May to around November, while Haridwar and Rishikesh can be visited all year."
+  ],
+  "quickAnswer": "Uttarakhand's main spiritual destinations are the Char Dham (Yamunotri, Gangotri, Kedarnath and Badrinath), Haridwar and Rishikesh on the Ganga, Hemkund Sahib, the Panch Kedar temples and the Panch Prayag confluences in Garhwal, and Jageshwar and Kainchi Dham in Kumaon. The Himalayan shrines open from about April or May to November; Haridwar hosts the Ardh Kumbh from January to April 2027.",
+  "takeaways": [
+    "The Char Dham and Hemkund Sahib need mandatory registration and are summer-only.",
+    "Haridwar and Rishikesh are year-round pilgrimage towns with evening Ganga aartis.",
+    "The Panch Kedar and Panch Prayag add depth to a Garhwal journey.",
+    "Kumaon's Jageshwar and Kainchi Dham are quieter alternatives.",
+    "Haridwar's Ardh Kumbh runs from 14 January to 20 April 2027."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Main spiritual places",
+      "table": {
+        "columns": [
+          "Place",
+          "Region",
+          "Known for",
+          "Season"
+        ],
+        "rows": [
+          [
+            "Char Dham",
+            "Garhwal",
+            "Yamunotri, Gangotri, Kedarnath, Badrinath",
+            "About April or May to November"
+          ],
+          [
+            "Haridwar",
+            "Plains edge",
+            "Har ki Pauri aarti, Mansa Devi, Chandi Devi",
+            "All year"
+          ],
+          [
+            "Rishikesh",
+            "Foothills",
+            "Ashrams, Triveni Ghat and Parmarth aartis, yoga",
+            "All year"
+          ],
+          [
+            "Hemkund Sahib",
+            "Garhwal",
+            "High-altitude gurdwara",
+            "Late May to early October"
+          ],
+          [
+            "Panch Kedar",
+            "Garhwal",
+            "Kedarnath, Tungnath, Rudranath, Madhyamaheshwar, Kalpeshwar",
+            "Summer to autumn"
+          ],
+          [
+            "Jageshwar",
+            "Kumaon",
+            "Cluster of over a hundred stone temples",
+            "All year"
+          ],
+          [
+            "Kainchi Dham",
+            "Kumaon",
+            "Neem Karoli Baba's ashram",
+            "All year"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "highlights",
+      "heading": "Highlights",
+      "items": [
+        {
+          "name": "Haridwar",
+          "body": [
+            "The evening aarti at Har ki Pauri and the hilltop temples of Mansa Devi and Chandi Devi, reached by ropeway."
+          ],
+          "links": [
+            {
+              "label": "Haridwar guide",
+              "href": "/blog/haridwar-travel-guide"
+            },
+            {
+              "label": "Things to do in Haridwar",
+              "href": "/blog/things-to-do-in-haridwar"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp",
+            "alt": "Evening Ganga Aarti at Har ki Pauri, Haridwar",
+            "caption": "Har ki Pauri, Haridwar"
+          }
+        },
+        {
+          "name": "Rishikesh",
+          "body": [
+            "Ashrams, yoga schools and the evening aartis at Triveni Ghat and Parmarth Niketan."
+          ],
+          "links": [
+            {
+              "label": "Yoga in Rishikesh",
+              "href": "/blog/yoga-in-rishikesh"
+            },
+            {
+              "label": "Things to do in Rishikesh",
+              "href": "/blog/things-to-do-in-rishikesh"
+            }
+          ]
+        },
+        {
+          "name": "The Char Dham",
+          "body": [
+            "The circuit of four Himalayan shrines, planned over 10 to 12 days."
+          ],
+          "links": [
+            {
+              "label": "Char Dham Yatra guide",
+              "href": "/blog/char-dham-yatra-guide"
+            }
+          ]
+        },
+        {
+          "name": "Panch Prayag",
+          "body": [
+            "Devprayag, Rudraprayag, Karnaprayag, Nandprayag and Vishnuprayag, the confluences on the road to Badrinath."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kumaon",
+      "heading": "Kumaon",
+      "items": [
+        {
+          "name": "Jageshwar",
+          "body": [
+            "A cluster of stone temples in deodar forest near Almora, also claimed by some traditions as the Nageshwar Jyotirlinga."
+          ],
+          "links": [
+            {
+              "label": "Jageshwar guide",
+              "href": "/blog/jageshwar-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kainchi Dham",
+          "body": [
+            "The ashram of Neem Karoli Baba near Nainital, busiest around its foundation day in June."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Nainital",
+              "href": "/blog/things-to-do-in-nainital"
+            }
+          ]
+        },
+        {
+          "name": "Other sites",
+          "body": [
+            "Purnagiri near Tanakpur, Nanakmatta Sahib, and Baijnath near Kausani."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "Suggested routes",
+      "table": {
+        "columns": [
+          "Route",
+          "Days",
+          "Places"
+        ],
+        "rows": [
+          [
+            "Haridwar and Rishikesh",
+            "2 to 3",
+            "Har ki Pauri, Mansa Devi, Rishikesh ashrams and aartis"
+          ],
+          [
+            "Char Dham",
+            "10 to 12",
+            "Yamunotri, Gangotri, Kedarnath, Badrinath"
+          ],
+          [
+            "Kedarnath and Badrinath",
+            "6 to 7",
+            "Do Dham via the Panch Prayag"
+          ],
+          [
+            "Kumaon temples",
+            "4 to 5",
+            "Jageshwar, Kainchi Dham, Baijnath"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "list": [
+        "Haridwar and Rishikesh: hotels, ashrams and GMVN properties; ashram stays often include yoga and meditation sessions.",
+        "On the Char Dham route: GMVN rest houses, hotels and dharamshalas; book ahead for May and June.",
+        "Kumaon: homestays and small hotels around Almora, Jageshwar and Nainital."
+      ]
+    },
+    {
+      "id": "festivals",
+      "heading": "Festivals",
+      "list": [
+        "The Haridwar Ardh Kumbh, 14 January to 20 April 2027.",
+        "Kanwar Yatra in the month of Shravan, when pilgrims carry Ganga water from Haridwar.",
+        "The opening and closing ceremonies of the Char Dham shrines.",
+        "The International Yoga Festival at Parmarth Niketan, Rishikesh, each March."
+      ]
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Book darshan, aarti and registrations only on official temple or government websites.",
+    "Himalayan shrines need acclimatisation and medical advice for older pilgrims; monsoon landslides can close roads.",
+    "Follow bathing rules at the ghats; the Ganga's current is strong."
+  ],
+  "packing": [
+    "Warm and rain layers for the mountains",
+    "Walking shoes",
+    "Modest clothing",
+    "Yatra registration and ID"
+  ],
+  "faqs": [
+    {
+      "q": "Why is Uttarakhand called Devbhoomi?",
+      "a": "Because it holds so many sacred shrines and rivers, including the Char Dham and the sources of the Ganga and Yamuna."
+    },
+    {
+      "q": "When are the Char Dham shrines open?",
+      "a": "From about late April or May to around Diwali and Bhai Dooj; dates are announced each year."
+    },
+    {
+      "q": "Can I visit Haridwar and Rishikesh all year?",
+      "a": "Yes, though summers are hot and the monsoon brings heavy rain."
+    },
+    {
+      "q": "What is the Panch Kedar?",
+      "a": "Five Shiva temples in Garhwal: Kedarnath, Tungnath, Rudranath, Madhyamaheshwar and Kalpeshwar."
+    },
+    {
+      "q": "Where is Kainchi Dham?",
+      "a": "In the Kumaon hills about 17 km from Nainital, on the road to Almora."
+    },
+    {
+      "q": "Do I need registration to visit Haridwar and Rishikesh?",
+      "a": "No. Registration applies to the Char Dham and Hemkund Sahib, not to Haridwar and Rishikesh."
+    },
+    {
+      "q": "When is the next Kumbh in Haridwar?",
+      "a": "The Ardh Kumbh runs from 14 January to 20 April 2027."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Char Dham Yatra guide",
+      "href": "/blog/char-dham-yatra-guide"
+    },
+    {
+      "label": "Things to do in Haridwar",
+      "href": "/blog/things-to-do-in-haridwar"
+    },
+    {
+      "label": "Uttarakhand travel guide",
+      "href": "/blog/uttarakhand-travel-guide"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    },
+    {
+      "label": "Char Dham Yatra packages",
+      "href": "/packages/char-dham-yatra"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hemkund Sahib Yatra",
+      "href": "/blog/hemkund-sahib-yatra",
+      "note": "the Sikh shrine"
+    },
+    {
+      "name": "Yoga in Rishikesh",
+      "href": "/blog/yoga-in-rishikesh",
+      "note": "ashrams and courses"
+    },
+    {
+      "name": "Kumbh Mela",
+      "href": "/blog/kumbh-mela",
+      "note": "Haridwar 2027"
+    }
+  ],
+  "places": [
+    "Yamunotri",
+    "Gangotri",
+    "Kedarnath",
+    "Badrinath",
+    "Haridwar",
+    "Rishikesh",
+    "Hemkund Sahib",
+    "Tungnath",
+    "Devprayag",
+    "Jageshwar",
+    "Kainchi Dham"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Uttarakhand",
+  "updated": "2026-09-26"
+}

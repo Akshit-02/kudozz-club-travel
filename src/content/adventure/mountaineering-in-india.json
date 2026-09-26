@@ -1,0 +1,345 @@
+{
+  "slug": "mountaineering-in-india",
+  "kind": "activity",
+  "short": "Mountaineering in India",
+  "title": "Mountaineering in India: Courses, Institutes and First Peaks",
+  "seoTitle": "Mountaineering in India: Courses, Institutes & Peaks | Kudozz Club",
+  "metaDescription": "How to start mountaineering in India: basic courses at NIM, HMI, ABVIMAS, JIM&WS and NIMAS, eligibility, trekking peaks for first climbs, IMF permits and safety.",
+  "description": "A guide to mountaineering in India: the government mountaineering institutes and their basic and advanced courses, who can apply, trekking peaks for a first climb such as Friendship Peak and Kang Yatse, expedition permits from the Indian Mountaineering Foundation, and how to prepare.",
+  "dek": "Most Indian climbers start the same way: a basic mountaineering course at a government institute, then a first trekking peak. Here is how that path works.",
+  "primaryKeyword": "mountaineering in India",
+  "secondaryKeywords": [
+    "basic mountaineering course",
+    "NIM Uttarkashi",
+    "HMI Darjeeling",
+    "ABVIMAS Manali",
+    "trekking peaks India"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "mountaineering",
+    "trekking",
+    "rock climbing"
+  ],
+  "terrain": [
+    "mountains",
+    "snow",
+    "glacier"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "West Bengal",
+    "Himachal Pradesh",
+    "Jammu and Kashmir",
+    "Arunachal Pradesh",
+    "Ladakh"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "solo",
+    "friends"
+  ],
+  "tags": [
+    "Mountaineering",
+    "Himalaya",
+    "Courses",
+    "Adventure Sports"
+  ],
+  "hero": {
+    "src": "/images/adventure/mountaineers-himalayan-glacier.webp",
+    "alt": "Climber sculpture and emblem at the Himalayan Mountaineering Institute, Darjeeling",
+    "caption": "HMI, Darjeeling"
+  },
+  "parent": {
+    "label": "Adventure Sports in India",
+    "href": "/blog/adventure-sports-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Mountaineering in India"
+  },
+  "intro": [
+    "India has a unique system for learning to climb: government-run mountaineering institutes that teach month-long courses at low cost, with instructors who are experienced Himalayan climbers. The Himalayan Mountaineering Institute in Darjeeling was set up in 1954, the year after the first ascent of Everest, with Tenzing Norgay as its first field director. Others followed in Uttarkashi, Manali, Pahalgam and, more recently, Dirang in Arunachal Pradesh.",
+    "A basic course teaches rock and ice craft, rope work, glacier travel and camping in the high mountains, and ends with a climb to a small peak or high point. After that, climbers usually try a trekking peak with an experienced team, then an advanced course. This guide explains the path."
+  ],
+  "quickAnswer": "To start mountaineering in India, take a Basic Mountaineering Course (about 26 to 28 days) at a government institute such as NIM Uttarkashi, HMI Darjeeling, ABVIMAS Manali, JIM&WS Pahalgam or NIMAS Dirang. Age limits and fees vary by institute, and seats fill months ahead. After the course, climb a trekking peak such as Friendship Peak near Manali with an experienced team. Expedition peaks need permission from the Indian Mountaineering Foundation.",
+  "takeaways": [
+    "The Basic Mountaineering Course is the standard first step and lasts about 26 to 28 days.",
+    "Five main government institutes run courses: NIM, HMI, ABVIMAS, JIM&WS and NIMAS.",
+    "Courses are inexpensive compared with private training but need booking months in advance.",
+    "Friendship Peak, Yunam and Kang Yatse are common first summits after a course.",
+    "Climbing most Indian peaks requires permission through the Indian Mountaineering Foundation."
+  ],
+  "sections": [
+    {
+      "id": "institutes",
+      "heading": "Mountaineering institutes in India",
+      "items": [
+        {
+          "name": "Nehru Institute of Mountaineering (NIM), Uttarkashi, Uttarakhand",
+          "body": [
+            "Based in Uttarkashi in Garhwal, with training in the Dokriani glacier area. It runs basic, advanced, method of instruction, and search and rescue courses, and adventure courses for younger people."
+          ],
+          "facts": {
+            "Region": "Garhwal Himalaya",
+            "Courses": "Basic, advanced, MOI, search and rescue"
+          },
+          "links": [
+            {
+              "label": "Gangotri travel guide",
+              "href": "/blog/gangotri-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Himalayan Mountaineering Institute (HMI), Darjeeling, West Bengal",
+          "body": [
+            "India's oldest institute, founded in 1954. Courses train in the Rathong glacier area of West Sikkim. The campus in Darjeeling has a mountaineering museum."
+          ],
+          "facts": {
+            "Region": "Sikkim Himalaya",
+            "Courses": "Basic, advanced, MOI, adventure"
+          },
+          "links": [
+            {
+              "label": "Things to do in Darjeeling",
+              "href": "/blog/things-to-do-in-darjeeling"
+            }
+          ]
+        },
+        {
+          "name": "Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports (ABVIMAS), Manali, Himachal Pradesh",
+          "body": [
+            "Runs mountaineering courses and also skiing, water sports and other adventure courses. Its basic mountaineering course is about 26 days, and its published age range for basic courses has been 16 to 45."
+          ],
+          "facts": {
+            "Region": "Kullu and Lahaul",
+            "Courses": "Mountaineering, skiing, water sports"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Manali",
+              "href": "/blog/adventure-activities-in-manali"
+            }
+          ]
+        },
+        {
+          "name": "Jawahar Institute of Mountaineering and Winter Sports (JIM&WS), Pahalgam, Jammu and Kashmir",
+          "body": [
+            "Runs mountaineering courses in summer and skiing courses in winter, with training in the Kolahoi area."
+          ],
+          "facts": {
+            "Region": "Kashmir Himalaya",
+            "Courses": "Mountaineering, skiing"
+          },
+          "links": [
+            {
+              "label": "Pahalgam travel guide",
+              "href": "/blog/pahalgam-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "National Institute of Mountaineering and Allied Sports (NIMAS), Dirang, Arunachal Pradesh",
+          "body": [
+            "A newer institute in West Kameng district that runs mountaineering and allied adventure courses in the eastern Himalaya."
+          ],
+          "facts": {
+            "Region": "Eastern Himalaya",
+            "Courses": "Mountaineering, allied sports"
+          },
+          "links": [
+            {
+              "label": "Dirang travel guide",
+              "href": "/blog/dirang-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course",
+      "heading": "What a basic course involves",
+      "paras": [
+        "A Basic Mountaineering Course (BMC) usually runs for 26 to 28 days. The first days cover rock craft and fitness near the institute, then trainees move to a base camp near a glacier for snow and ice craft: using crampons and ice axes, self-arrest, rope work, crevasse rescue and glacier travel. The course ends with a height gain, usually a climb to a pass or small peak.",
+        "Trainees are graded at the end. A good grade is needed to join the Advanced Mountaineering Course, and advanced graduates can go on to the Method of Instruction and Search and Rescue courses."
+      ],
+      "list": [
+        "Eligibility: age limits vary by institute (commonly from 16 or 18 up to about 35 to 45), with a medical certificate of fitness.",
+        "Fees: much lower than private courses; foreign nationals pay more. Check the current fee on the institute's website.",
+        "Booking: courses are announced each year and seats fill up months in advance; apply as early as possible.",
+        "Fitness: you should be able to run 5 km comfortably and carry a 15 to 20 kg load uphill."
+      ]
+    },
+    {
+      "id": "first-peaks",
+      "heading": "First peaks after a course",
+      "paras": [
+        "These are often called trekking peaks: non-technical or moderately technical summits that are climbed with a guide or experienced team after a basic course. Conditions, routes and access rules change; some peaks have been closed to climbers for periods to reduce crowding and environmental damage."
+      ],
+      "items": [
+        {
+          "name": "Friendship Peak, near Manali",
+          "body": [
+            "About 5,289 metres, climbed from Solang Valley via Bakarthach and Lady Leg, with a steep snow slope near the top."
+          ],
+          "facts": {
+            "Height": "About 5,289 m",
+            "Season": "May to June, September to October"
+          }
+        },
+        {
+          "name": "Yunam, near Baralacha La",
+          "body": [
+            "About 6,100 metres above the Manali to Leh road, with a long but not very technical climb. A good first 6,000-metre peak."
+          ],
+          "facts": {
+            "Height": "About 6,100 m",
+            "Season": "July to September"
+          }
+        },
+        {
+          "name": "Kang Yatse II, Markha Valley, Ladakh",
+          "body": [
+            "About 6,250 metres, reached on the Markha Valley trek and climbed from a high camp over snow and scree."
+          ],
+          "facts": {
+            "Height": "About 6,250 m",
+            "Season": "July to September"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Ladakh",
+              "href": "/blog/adventure-activities-in-ladakh"
+            }
+          ]
+        },
+        {
+          "name": "Stok Kangri, near Leh",
+          "body": [
+            "At about 6,153 metres, this was India's most popular trekking peak, but it has been closed to climbers for periods by the Ladakh authorities to let the area recover. Check whether it is open before planning."
+          ],
+          "facts": {
+            "Height": "About 6,153 m",
+            "Good to know": "Check current status"
+          }
+        }
+      ]
+    },
+    {
+      "id": "permits",
+      "heading": "Permits and the IMF",
+      "paras": [
+        "The Indian Mountaineering Foundation (IMF) in New Delhi is the national body for mountaineering and issues permission for expeditions to most Indian peaks. Foreign expeditions must apply through the IMF and usually need a liaison officer; Indian teams also book peaks through the IMF. Many trekking peaks are handled by registered operators who arrange the permits.",
+        "Areas near the international borders also need Inner Line or Protected Area Permits, and some peaks lie inside national parks with their own fees and rules."
+      ]
+    },
+    {
+      "id": "prepare",
+      "heading": "How to prepare",
+      "list": [
+        "Build aerobic fitness for at least three months: running, cycling or stair climbing four to five times a week.",
+        "Add strength training for legs and core, and practise carrying a loaded pack uphill.",
+        "Do several high Himalayan treks before a course, to learn how your body handles altitude.",
+        "Learn basic rope and knot skills at a climbing gym.",
+        "Get a full medical check-up and fitness certificate before applying."
+      ]
+    }
+  ],
+  "safety": [
+    "Never climb above your training; basic course graduates should climb with experienced leaders.",
+    "Follow acclimatisation schedules strictly and descend if altitude sickness symptoms worsen.",
+    "Carry and know how to use avalanche and crevasse rescue gear on glaciated peaks.",
+    "Respect turnaround times; most accidents happen on the descent.",
+    "Buy insurance that covers mountaineering and helicopter evacuation where available.",
+    "Leave detailed plans with someone at base, and check weather forecasts daily."
+  ],
+  "packing": [
+    "Mountaineering boots (usually issued or rented on courses)",
+    "Down jacket and full layering system",
+    "Harness, helmet, crampons and ice axe",
+    "Glacier glasses and high-SPF sunscreen",
+    "A sleeping bag rated well below zero",
+    "Personal medicines and a basic first-aid kit"
+  ],
+  "faqs": [
+    {
+      "q": "How do I start mountaineering in India?",
+      "a": "Take a Basic Mountaineering Course at a government institute such as NIM Uttarkashi, HMI Darjeeling, ABVIMAS Manali, JIM&WS Pahalgam or NIMAS Dirang."
+    },
+    {
+      "q": "How long is a basic mountaineering course?",
+      "a": "About 26 to 28 days, depending on the institute."
+    },
+    {
+      "q": "What is the age limit for a basic mountaineering course?",
+      "a": "It varies by institute, commonly starting at 16 or 18 and going up to about 35 to 45. Check each institute's current rules."
+    },
+    {
+      "q": "Which is the easiest 6,000-metre peak in India?",
+      "a": "Yunam near Baralacha La and Kang Yatse II in Ladakh are among the more accessible 6,000-metre peaks, but still need training and acclimatisation."
+    },
+    {
+      "q": "Do I need a permit to climb a mountain in India?",
+      "a": "Most expedition peaks need permission from the Indian Mountaineering Foundation, and border areas need Inner Line or Protected Area Permits."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Uttarakhand travel guide",
+      "href": "/blog/uttarakhand-travel-guide"
+    },
+    {
+      "label": "Darjeeling travel guide",
+      "href": "/blog/darjeeling-travel-guide"
+    },
+    {
+      "label": "Things to do in Manali",
+      "href": "/blog/things-to-do-in-manali"
+    },
+    {
+      "label": "Himachal Pradesh tour packages",
+      "href": "/packages/himachal-pradesh"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Trekking in India",
+      "href": "/blog/trekking-in-india",
+      "note": "build experience first"
+    },
+    {
+      "name": "Rock climbing in India",
+      "href": "/blog/rock-climbing-in-india",
+      "note": "learn rope skills"
+    },
+    {
+      "name": "Skiing in India",
+      "href": "/blog/skiing-in-india",
+      "note": "institute ski courses"
+    }
+  ],
+  "places": [
+    "Uttarkashi",
+    "Darjeeling",
+    "Manali",
+    "Pahalgam",
+    "Dirang",
+    "Friendship Peak",
+    "Yunam",
+    "Kang Yatse",
+    "Stok Kangri"
+  ],
+  "styles": [
+    "adventure-tours"
+  ],
+  "updated": "2026-09-25"
+}

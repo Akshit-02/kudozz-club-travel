@@ -5,6 +5,11 @@ import Link from "next/link";
 const navLinks = [
   { label: "Destinations", href: "/destinations" },
   { label: "Tour Packages", href: "/packages" },
+  { label: "Adventure", href: "/adventure-travel" },
+  { label: "Beaches", href: "/beach-travel" },
+  { label: "Wildlife", href: "/wildlife-tourism" },
+  { label: "Spiritual", href: "/spiritual-tourism" },
+  { label: "Heritage", href: "/heritage-cultural-tourism" },
   { label: "Travel Guides", href: "/blog" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
@@ -93,12 +98,12 @@ export default function SiteHeader() {
             </Link>
 
             {/* ── Desktop Nav ───────────────────────────────── */}
-            <nav className="hidden lg:flex items-center gap-1">
+            <nav className="hidden xl:flex items-center gap-0.5">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`relative px-4 py-2 text-sm font-medium tracking-wide rounded-lg transition-all duration-200 group ${
+                  className={`relative whitespace-nowrap px-2 py-2 text-sm font-medium tracking-wide rounded-lg transition-all duration-200 group ${
                     scrolled
                       ? "text-stone-600 hover:text-stone-900 hover:bg-stone-100"
                       : "text-white/85 hover:text-white hover:bg-white/10"
@@ -117,7 +122,7 @@ export default function SiteHeader() {
             </nav>
 
             {/* ── Right Actions ─────────────────────────────── */}
-            <div className="hidden lg:flex items-center gap-3">
+            <div className="hidden xl:flex items-center gap-3">
               {/* Search */}
               {/* <button
                 aria-label="Search"
@@ -155,7 +160,7 @@ export default function SiteHeader() {
 
             {/* ── Mobile Hamburger ──────────────────────────── */}
             <button
-              className={`lg:hidden p-2 rounded-lg transition-all duration-200 ${
+              className={`xl:hidden p-2 rounded-lg transition-all duration-200 ${
                 scrolled
                   ? "text-stone-700 hover:bg-stone-100"
                   : "text-white hover:bg-white/10"
@@ -193,7 +198,7 @@ export default function SiteHeader() {
       {/* ── Mobile Menu Overlay ───────────────────────────── */}
       {/* Backdrop */}
       <div
-        className={`fixed inset-0 z-40 bg-black/40 backdrop-blur-sm lg:hidden transition-opacity duration-300 ${
+        className={`fixed inset-0 z-40 bg-black/40 backdrop-blur-sm xl:hidden transition-opacity duration-300 ${
           mobileOpen
             ? "opacity-100 pointer-events-auto"
             : "opacity-0 pointer-events-none"
@@ -203,7 +208,7 @@ export default function SiteHeader() {
 
       {/* Slide-in drawer */}
       <div
-        className={`fixed top-0 right-0 bottom-0 z-50 w-72 bg-white shadow-2xl lg:hidden flex flex-col transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 bottom-0 z-50 w-72 bg-white shadow-2xl xl:hidden flex flex-col transition-transform duration-300 ease-in-out ${
           mobileOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >

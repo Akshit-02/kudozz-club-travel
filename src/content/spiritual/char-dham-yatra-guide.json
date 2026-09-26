@@ -1,0 +1,378 @@
+{
+  "slug": "char-dham-yatra-guide",
+  "kind": "pillar",
+  "short": "Char Dham Yatra guide",
+  "title": "Char Dham Yatra Guide: Route, Registration, Dates and Planning",
+  "seoTitle": "Char Dham Yatra Guide: Route, Registration & Dates | Kudozz Club",
+  "metaDescription": "Plan the Char Dham Yatra in Uttarakhand: Yamunotri, Gangotri, Kedarnath and Badrinath, with 2026 dates, registration, route, treks, helicopters and best months.",
+  "description": "A planning guide to the Char Dham Yatra of Uttarakhand (the Chota Char Dham): the four shrines and their order, 2026 opening dates and how closing dates are set, mandatory registration, the route from Haridwar or Rishikesh, treks and helicopter options, a 10 to 12 day itinerary, the best months, cost drivers and advice for older pilgrims.",
+  "dek": "The Char Dham Yatra takes pilgrims to four Himalayan shrines in Garhwal. It needs planning for registration, weather, altitude and long mountain drives.",
+  "primaryKeyword": "char dham yatra",
+  "secondaryKeywords": [
+    "chota char dham yatra",
+    "char dham yatra route",
+    "char dham registration",
+    "char dham yatra from Delhi",
+    "char dham best time"
+  ],
+  "searchIntent": "Planning/informational",
+  "activities": [
+    "Char Dham",
+    "pilgrimage route",
+    "trekking",
+    "darshan"
+  ],
+  "terrain": [
+    "mountains",
+    "river"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "North India"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "groups"
+  ],
+  "tags": [
+    "Char Dham",
+    "Uttarakhand",
+    "Kedarnath",
+    "Badrinath"
+  ],
+  "hero": {
+    "src": "/images/spiritual/char-dham-yamunotri-temple.webp",
+    "alt": "Yamunotri temple below snow-covered peaks in the Garhwal Himalaya"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Char Dham Yatra",
+    "containedIn": "Uttarakhand"
+  },
+  "intro": [
+    "When people in north India say Char Dham Yatra, they usually mean the circuit of four shrines in Uttarakhand's Garhwal Himalaya: Yamunotri, Gangotri, Kedarnath and Badrinath. It is also called the Chota Char Dham, to distinguish it from the four dhams at the corners of India (Badrinath, Dwarka, Puri and Rameswaram).",
+    "The shrines open in late April or May and close for winter around Diwali. Pilgrims traditionally travel west to east, from Yamunotri to Badrinath, on a road trip of about 10 to 12 days from Haridwar or Rishikesh."
+  ],
+  "quickAnswer": "The Char Dham Yatra covers Yamunotri, Gangotri, Kedarnath and Badrinath in Uttarakhand, usually in that order, over 10 to 12 days from Haridwar or Rishikesh. In 2026 the shrines opened between 19 and 23 April and close around Diwali and Bhai Dooj. Registration on the Uttarakhand government portal is mandatory and free. May to June and September to October are the best windows; avoid July and August.",
+  "takeaways": [
+    "The four shrines are Yamunotri, Gangotri, Kedarnath and Badrinath, visited west to east.",
+    "Registration is mandatory and free on the Uttarakhand government portal.",
+    "Yamunotri and Kedarnath need treks (about 6 km and 16 km); ponies, palkis and, for Kedarnath, helicopters are available.",
+    "Allow 10 to 12 days by road, including buffer days for weather.",
+    "The Char Dham Yatra of Uttarakhand is different from the four dhams of India."
+  ],
+  "sections": [
+    {
+      "id": "shrines",
+      "heading": "The four shrines",
+      "table": {
+        "columns": [
+          "Shrine",
+          "Deity",
+          "Altitude (about)",
+          "Access",
+          "2026 opening"
+        ],
+        "rows": [
+          [
+            "Yamunotri",
+            "Goddess Yamuna",
+            "3,290 m",
+            "Trek of about 6 km from Janki Chatti",
+            "19 April"
+          ],
+          [
+            "Gangotri",
+            "Goddess Ganga",
+            "3,100 m",
+            "By road",
+            "19 April"
+          ],
+          [
+            "Kedarnath",
+            "Shiva (Jyotirlinga)",
+            "3,580 m",
+            "Trek of about 16 km from Gaurikund, or helicopter",
+            "22 April"
+          ],
+          [
+            "Badrinath",
+            "Vishnu (Badri Narayan)",
+            "3,130 m",
+            "By road",
+            "23 April"
+          ]
+        ],
+        "caption": "Opening dates are fixed each year by the temple committees; closing dates are announced in the autumn, usually around Diwali and Bhai Dooj."
+      }
+    },
+    {
+      "id": "registration",
+      "heading": "Registration and bookings",
+      "list": [
+        "Char Dham registration is mandatory and free on the Uttarakhand government portal (registrationandtouristcare.uk.gov.in).",
+        "Registration opens in advance of the season (6 March in 2026); offline counters operate at Haridwar, Rishikesh and other points during the yatra.",
+        "Kedarnath helicopter tickets are sold only on IRCTC HeliYatra and need a valid yatra registration.",
+        "Carry the registration and ID; they are checked at several points.",
+        "Beware of fake registration and helicopter websites."
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "The route",
+      "items": [
+        {
+          "name": "Haridwar or Rishikesh to Barkot",
+          "body": [
+            "The first long drive, towards Yamunotri. Barkot or Janki Chatti is the usual night stop."
+          ],
+          "links": [
+            {
+              "label": "Haridwar guide",
+              "href": "/blog/haridwar-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Yamunotri",
+          "body": [
+            "A trek of about 6 km from Janki Chatti to the temple and hot springs; ponies and palkis are available."
+          ],
+          "links": [
+            {
+              "label": "Yamunotri guide",
+              "href": "/blog/yamunotri-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/yamunotri/yamunotri-temple-gorge-shrine.webp",
+            "alt": "Yamunotri temple in a narrow gorge in the Garhwal Himalaya",
+            "caption": "Yamunotri, Uttarakhand"
+          }
+        },
+        {
+          "name": "Gangotri",
+          "body": [
+            "Via Uttarkashi to the temple on the Bhagirathi, reached by road. Gaumukh, the glacier source, is a separate permit trek."
+          ],
+          "links": [
+            {
+              "label": "Gangotri guide",
+              "href": "/blog/gangotri-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kedarnath",
+          "body": [
+            "To Guptkashi or Sonprayag, then by shuttle to Gaurikund and the 16 km trek, or by helicopter from Phata, Sersi or Guptkashi."
+          ],
+          "links": [
+            {
+              "label": "Kedarnath guide",
+              "href": "/blog/kedarnath-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Badrinath",
+          "body": [
+            "Via Rudraprayag and Joshimath to Badrinath on the Alaknanda; Mana village is 3 km beyond."
+          ],
+          "links": [
+            {
+              "label": "Badrinath guide",
+              "href": "/blog/badrinath-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "heading": "A 10 to 12 day itinerary",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Haridwar or Rishikesh; Ganga Aarti"
+          ],
+          [
+            "2",
+            "Drive to Barkot"
+          ],
+          [
+            "3",
+            "Yamunotri trek and return"
+          ],
+          [
+            "4",
+            "Drive to Uttarkashi"
+          ],
+          [
+            "5",
+            "Gangotri darshan; back to Uttarkashi"
+          ],
+          [
+            "6",
+            "Drive to Guptkashi or Sitapur"
+          ],
+          [
+            "7",
+            "Kedarnath trek (or helicopter); overnight at Kedarnath if possible"
+          ],
+          [
+            "8",
+            "Descend; drive towards Chopta or Pipalkoti"
+          ],
+          [
+            "9",
+            "Badrinath darshan; Mana village"
+          ],
+          [
+            "10",
+            "Drive back towards Rishikesh (two days is more comfortable)"
+          ],
+          [
+            "11 to 12",
+            "Buffer days for weather or rest"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "when",
+      "heading": "Best time",
+      "list": [
+        "May and June: the busiest months; clear days, long queues.",
+        "July and August: monsoon landslides often block roads; avoid if you can.",
+        "September and October: fewer crowds and clear views after the rain; cold nights.",
+        "Late October and November: shrines begin to close for winter."
+      ]
+    },
+    {
+      "id": "costs",
+      "heading": "What drives the cost",
+      "list": [
+        "Transport: shared jeep, private car or tempo traveller, and the number of days.",
+        "Stays: dharamshalas, GMVN rest houses, hotels and tents, which fill up early in May and June.",
+        "Treks: ponies, palkis and porters at Yamunotri and Kedarnath.",
+        "Helicopter for Kedarnath, and helicopter packages from Dehradun.",
+        "Peak dates: the opening weeks and weekends."
+      ],
+      "after": [
+        "Kudozz Club's Char Dham package can be priced for your dates and pace."
+      ]
+    }
+  ],
+  "safety": [
+    "The shrines are at 3,000 m or more; climb gradually, drink water, and descend if you have signs of altitude sickness. Take medical advice before the trip, especially if you are older or have heart or lung conditions.",
+    "Monsoon landslides can close roads for hours or days; keep buffer days and follow official advisories.",
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Registration is checked at multiple points; carry it with your ID."
+  ],
+  "packing": [
+    "Warm layers, gloves and a cap even in May",
+    "Rain jacket and umbrella",
+    "Good walking shoes for the treks",
+    "Personal medicines and a basic first-aid kit",
+    "Printed yatra registration and ID"
+  ],
+  "faqs": [
+    {
+      "q": "What are the Char Dham of Uttarakhand?",
+      "a": "Yamunotri, Gangotri, Kedarnath and Badrinath."
+    },
+    {
+      "q": "Is registration mandatory for the Char Dham Yatra?",
+      "a": "Yes. Registration on the Uttarakhand government portal is mandatory and free."
+    },
+    {
+      "q": "How many days does the Char Dham Yatra take?",
+      "a": "About 10 to 12 days by road from Haridwar or Rishikesh, including buffer days."
+    },
+    {
+      "q": "When do the Char Dham shrines open and close?",
+      "a": "They open around Akshaya Tritiya (19 to 23 April in 2026) and close around Diwali and Bhai Dooj; exact dates are announced each year."
+    },
+    {
+      "q": "What is the best time for the Char Dham Yatra?",
+      "a": "May to June and September to October. Avoid July and August, when landslides are common."
+    },
+    {
+      "q": "Is the Char Dham Yatra the same as the four dhams of India?",
+      "a": "No. The four dhams of India are Badrinath, Dwarka, Puri and Rameswaram; only Badrinath is common to both."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Char Dham Yatra packages",
+      "href": "/packages/char-dham-yatra"
+    },
+    {
+      "label": "Kedarnath and Badrinath Yatra",
+      "href": "/blog/kedarnath-badrinath-yatra"
+    },
+    {
+      "label": "Haridwar guide: Char Dham gateway",
+      "href": "/blog/haridwar-travel-guide#char-dham-gateway"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    },
+    {
+      "label": "Pilgrimage packing list",
+      "href": "/blog/pilgrimage-packing-list"
+    }
+  ],
+  "related": [
+    {
+      "name": "The Char Dham of India",
+      "href": "/blog/char-dham-of-india",
+      "note": "the four dhams"
+    },
+    {
+      "name": "Spiritual tourism in Uttarakhand",
+      "href": "/blog/spiritual-tourism-in-uttarakhand",
+      "note": "beyond the Char Dham"
+    },
+    {
+      "name": "Hemkund Sahib Yatra",
+      "href": "/blog/hemkund-sahib-yatra",
+      "note": "near Badrinath"
+    }
+  ],
+  "places": [
+    "Yamunotri",
+    "Gangotri",
+    "Kedarnath",
+    "Badrinath",
+    "Haridwar",
+    "Rishikesh",
+    "Barkot",
+    "Uttarkashi",
+    "Guptkashi",
+    "Mana"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Char Dham Yatra",
+  "updated": "2026-09-26"
+}

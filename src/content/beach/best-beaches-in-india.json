@@ -1,0 +1,526 @@
+{
+  "slug": "best-beaches-in-india",
+  "kind": "pillar",
+  "short": "Best beaches in India",
+  "title": "Best Beaches in India: The Standout Beaches, Coast by Coast",
+  "seoTitle": "Best Beaches in India: Standout Beaches, Coast by Coast | Kudozz Club",
+  "metaDescription": "The best beaches in India, coast by coast: Radhanagar, Palolem, Vagator, Om Beach, Varkala, Tarkarli, Shivrajpur, Rushikonda and Puri, plus Blue Flag beaches.",
+  "description": "A guide to India's standout individual beaches, coast by coast: Radhanagar and Elephant Beach in the Andamans, Bangaram in Lakshadweep, Palolem, Agonda and Vagator in Goa, Om and Kudle in Gokarna, Varkala and Kovalam in Kerala, Tarkarli and Kashid in Maharashtra, Shivrajpur and Nagoa on the Gujarat coast, and Rushikonda, Puri and Paradise Beach on the east coast, with India's Blue Flag beaches.",
+  "dek": "Some beaches are worth the trip on their own. These are the ones we would plan a holiday around, grouped by coast.",
+  "primaryKeyword": "best beaches in India",
+  "secondaryKeywords": [
+    "most beautiful beaches in India",
+    "cleanest beaches in India",
+    "famous beaches in India",
+    "Blue Flag beaches India",
+    "beaches in India list"
+  ],
+  "searchIntent": "Discover individual beaches",
+  "activities": [
+    "beaches",
+    "swimming",
+    "snorkelling",
+    "sunset"
+  ],
+  "terrain": [
+    "beaches",
+    "islands"
+  ],
+  "regions": [
+    "India",
+    "West coast",
+    "East coast",
+    "Islands"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "friends",
+    "solo"
+  ],
+  "tags": [
+    "Best Beaches",
+    "India",
+    "Blue Flag",
+    "Andaman"
+  ],
+  "hero": {
+    "src": "/images/beach/best-beaches-india-radhanagar.webp",
+    "alt": "Driftwood on Radhanagar Beach, Havelock Island, Andamans",
+    "caption": "Radhanagar Beach"
+  },
+  "parent": {
+    "label": "Beach Travel",
+    "href": "/beach-travel"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Beaches of India"
+  },
+  "intro": [
+    "India's coast has hundreds of beaches, but only some combine clean sand, safe swimming in season, beautiful surroundings and easy enough access. This guide picks out the standouts, from the white sand of the Andamans to cliff-backed coves in Goa and Gokarna and temple beaches on the east coast.",
+    "Each entry says what the beach is best for and links to the state guide where you will find nearby beaches, when to go and how to plan. For choosing a place to base your holiday, see best beach destinations in India."
+  ],
+  "quickAnswer": "The best beaches in India include Radhanagar and Elephant Beach on Havelock Island, Bangaram in Lakshadweep, Palolem, Agonda and Vagator in Goa, Om and Kudle in Gokarna, Varkala and Kovalam in Kerala, Tarkarli in Maharashtra, Shivrajpur and Diu's Nagoa on the Gujarat coast, and Rushikonda, Puri's Golden Beach and Paradise Beach on the east coast. Swim only in season and in lifeguarded zones.",
+  "takeaways": [
+    "The Andamans (Radhanagar, Elephant, Laxmanpur) have India's most beautiful beaches.",
+    "Goa's Palolem, Agonda and Vagator are the pick of its many beaches.",
+    "Blue Flag certification marks beaches that meet international standards for water quality, safety and management.",
+    "Beaches on the east coast are wider and flatter; the west coast has more coves and cliffs.",
+    "Most beaches are closed to swimming in the monsoon."
+  ],
+  "sections": [
+    {
+      "id": "islands",
+      "heading": "Island beaches",
+      "items": [
+        {
+          "name": "Radhanagar Beach, Havelock Island (Andamans)",
+          "body": [
+            "A long curve of white sand and clear water backed by forest, with lifeguards and Blue Flag certification. Famous for sunsets."
+          ],
+          "facts": {
+            "Best for": "Swimming in season, sunset"
+          },
+          "links": [
+            {
+              "label": "Best beaches in the Andamans",
+              "href": "/blog/best-beaches-in-andaman"
+            }
+          ]
+        },
+        {
+          "name": "Elephant Beach, Havelock Island",
+          "body": [
+            "Shallow reef close to shore for snorkelling and sea walks, reached by boat or a forest walk."
+          ],
+          "facts": {
+            "Best for": "Snorkelling"
+          }
+        },
+        {
+          "name": "Laxmanpur, Neil Island",
+          "body": [
+            "A wide sunset beach, with a natural rock bridge nearby at low tide."
+          ],
+          "facts": {
+            "Best for": "Sunset, rock pools"
+          }
+        },
+        {
+          "name": "Bangaram, Lakshadweep",
+          "body": [
+            "A small uninhabited island encircled by a turquoise lagoon."
+          ],
+          "facts": {
+            "Best for": "Couples, lagoon swimming"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Lakshadweep",
+              "href": "/blog/best-beaches-in-lakshadweep"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "west",
+      "heading": "West coast beaches",
+      "items": [
+        {
+          "name": "Palolem, south Goa",
+          "body": [
+            "A crescent bay framed by headlands, calm in season, with kayaking and boat trips."
+          ],
+          "facts": {
+            "Best for": "Couples, families"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Goa",
+              "href": "/blog/best-beaches-in-goa"
+            }
+          ]
+        },
+        {
+          "name": "Agonda, south Goa",
+          "body": [
+            "Long, quiet and uncrowded, with a turtle-nesting stretch protected in season."
+          ],
+          "facts": {
+            "Best for": "Quiet stays"
+          }
+        },
+        {
+          "name": "Vagator, north Goa",
+          "body": [
+            "Red cliffs, a sheltered bay and Chapora Fort above for sunset."
+          ],
+          "facts": {
+            "Best for": "Views"
+          }
+        },
+        {
+          "name": "Om beach and Kudle, Gokarna",
+          "body": [
+            "Coves linked by a coastal trail; Om beach is shaped like the Om symbol from above."
+          ],
+          "facts": {
+            "Best for": "Walks, backpackers"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Karnataka",
+              "href": "/blog/best-beaches-in-karnataka"
+            }
+          ]
+        },
+        {
+          "name": "St Mary's Island, Udupi",
+          "body": [
+            "Columnar basalt rocks on a small island reached by boat from Malpe, a National Geological Monument."
+          ],
+          "facts": {
+            "Best for": "A different kind of beach"
+          }
+        },
+        {
+          "name": "Varkala, Kerala",
+          "body": [
+            "The only beach on the Kerala coast backed by high red cliffs, with cafes along the top."
+          ],
+          "facts": {
+            "Best for": "Couples, cafes"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Kerala",
+              "href": "/blog/best-beaches-in-kerala"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/kerala/varkala/varkala-cliff-beach.webp",
+            "alt": "Varkala's red cliffs above the beach",
+            "caption": "Varkala"
+          }
+        },
+        {
+          "name": "Lighthouse beach, Kovalam",
+          "body": [
+            "A crescent below the red-and-white lighthouse, busy and well served."
+          ],
+          "facts": {
+            "Best for": "Families"
+          }
+        },
+        {
+          "name": "Marari, Kerala",
+          "body": [
+            "A quiet fishing-village beach near Alappuzha."
+          ],
+          "facts": {
+            "Best for": "Slow stays"
+          }
+        },
+        {
+          "name": "Tarkarli, Maharashtra",
+          "body": [
+            "Long beach with clear water in season, snorkelling and backwaters behind."
+          ],
+          "facts": {
+            "Best for": "Snorkelling"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Maharashtra",
+              "href": "/blog/best-beaches-in-maharashtra"
+            }
+          ]
+        },
+        {
+          "name": "Kashid, Maharashtra",
+          "body": [
+            "Pale sand and casuarinas, the classic weekend beach from Mumbai."
+          ],
+          "facts": {
+            "Best for": "Weekends"
+          }
+        },
+        {
+          "name": "Shivrajpur, Gujarat",
+          "body": [
+            "White sand and clear water near Dwarka, with Blue Flag certification."
+          ],
+          "facts": {
+            "Best for": "A managed, clean beach"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Gujarat",
+              "href": "/blog/best-beaches-in-gujarat"
+            }
+          ]
+        },
+        {
+          "name": "Nagoa, Diu",
+          "body": [
+            "A horseshoe-shaped bay with calm water and water sports."
+          ],
+          "facts": {
+            "Best for": "Families"
+          },
+          "image": {
+            "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-horseshoe-bay-diu.webp",
+            "alt": "Nagoa beach, Diu",
+            "caption": "Nagoa, Diu"
+          }
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "heading": "East coast beaches",
+      "items": [
+        {
+          "name": "Rushikonda, Visakhapatnam",
+          "body": [
+            "Golden sand below green hills, with Blue Flag certification and water sports."
+          ],
+          "facts": {
+            "Best for": "Swimming in season, water sports"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Andhra Pradesh",
+              "href": "/blog/best-beaches-in-andhra-pradesh"
+            }
+          ]
+        },
+        {
+          "name": "Golden Beach, Puri",
+          "body": [
+            "Puri's certified Blue Flag stretch, with traditional lifeguards and sand art."
+          ],
+          "facts": {
+            "Best for": "Families, pilgrims"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Odisha",
+              "href": "/blog/best-beaches-in-odisha"
+            }
+          ]
+        },
+        {
+          "name": "Chandipur, Odisha",
+          "body": [
+            "Where the sea retreats several kilometres at low tide."
+          ],
+          "facts": {
+            "Best for": "The tidal spectacle"
+          }
+        },
+        {
+          "name": "Paradise Beach, Puducherry",
+          "body": [
+            "A sandbar reached by a short boat ride from Chunnambar."
+          ],
+          "facts": {
+            "Best for": "A beach day"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Puducherry",
+              "href": "/blog/best-beaches-in-puducherry"
+            }
+          ]
+        },
+        {
+          "name": "Mahabalipuram, Tamil Nadu",
+          "body": [
+            "The Shore Temple stands on the sand; surf schools work the village beach."
+          ],
+          "facts": {
+            "Best for": "Heritage"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Tamil Nadu",
+              "href": "/blog/best-beaches-in-tamil-nadu"
+            }
+          ]
+        },
+        {
+          "name": "Tajpur, West Bengal",
+          "body": [
+            "A quiet, casuarina-lined beach near Digha."
+          ],
+          "facts": {
+            "Best for": "Quiet weekends"
+          },
+          "links": [
+            {
+              "label": "Best beaches in West Bengal",
+              "href": "/blog/best-beaches-in-west-bengal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blue-flag",
+      "heading": "India's Blue Flag beaches",
+      "paras": [
+        "Blue Flag is an international certification run by the Foundation for Environmental Education (FEE). Beaches must meet a long list of criteria on water quality, environmental management, safety and services, and certification is reviewed every year. India had about 18 certified beaches in 2025, after five Maharashtra beaches were added.",
+        "Beaches that have held Blue Flag certification include Shivrajpur (Gujarat), Ghoghla (Diu), Kasarkod and Padubidri (Karnataka), Kappad and Chal (Kerala), Rushikonda (Andhra Pradesh), Golden Beach at Puri and Sunapur (Odisha), Radhanagar (Andamans), Kovalam (Tamil Nadu), Eden (Puducherry), Minicoy Thundi and Kadmat (Lakshadweep), and Shrivardhan, Nagaon, Parnaka, Guhagar and Ladghar (Maharashtra). Because certification is renewed annually, check the current list before travelling."
+      ],
+      "after": [
+        "See beach tourism in India for what Blue Flag and other coastal rules mean on the ground."
+      ]
+    },
+    {
+      "id": "types",
+      "heading": "Best beaches by type",
+      "table": {
+        "columns": [
+          "You want",
+          "Beaches"
+        ],
+        "rows": [
+          [
+            "The most beautiful sand and water",
+            "Radhanagar, Laxmanpur, Bangaram"
+          ],
+          [
+            "Snorkelling from the beach",
+            "Elephant Beach, Bharatpur (Neil), Tarkarli"
+          ],
+          [
+            "Cliffs and views",
+            "Vagator, Varkala, Om beach"
+          ],
+          [
+            "Calm, family swimming in season",
+            "Palolem, Candolim, Nagoa, Rushikonda, Shivrajpur"
+          ],
+          [
+            "Quiet",
+            "Agonda, Marari, Tajpur, Guhagar"
+          ],
+          [
+            "Heritage by the sea",
+            "Mahabalipuram, Puri, Konark's Chandrabhaga, Diu"
+          ],
+          [
+            "Surf",
+            "Varkala, Kovalam (Covelong), Mulki, Serenity"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Many popular beaches, such as Marina in Chennai and Rock Beach in Puducherry, prohibit swimming.",
+    "Rip currents are common on long, open beaches; if caught, swim parallel to the shore.",
+    "Stay away from rocks and cliff edges, especially in rough weather.",
+    "Do not touch coral or take shells from protected areas."
+  ],
+  "faqs": [
+    {
+      "q": "Which is the most beautiful beach in India?",
+      "a": "Radhanagar Beach on Havelock Island in the Andamans is widely considered the most beautiful."
+    },
+    {
+      "q": "Which is the cleanest beach in India?",
+      "a": "Blue Flag-certified beaches such as Radhanagar, Shivrajpur, Rushikonda and Puri's Golden Beach meet international standards for cleanliness and management."
+    },
+    {
+      "q": "How many Blue Flag beaches are there in India?",
+      "a": "About 18 as of 2025, after five Maharashtra beaches were added. Certification is renewed every year."
+    },
+    {
+      "q": "Which is the best beach in Goa?",
+      "a": "Palolem and Agonda in the south, and Vagator in the north, are among the best."
+    },
+    {
+      "q": "Which beaches in India are safe for swimming?",
+      "a": "Lifeguarded beaches in season, such as Radhanagar, Calangute, Palolem, Kovalam and Rushikonda, within flagged zones."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Best beach destinations in India",
+      "href": "/blog/best-beach-destinations-in-india"
+    },
+    {
+      "label": "Things to do in the Andamans",
+      "href": "/blog/things-to-do-in-andaman"
+    },
+    {
+      "label": "Radhanagar Beach guide",
+      "href": "/blog/radhanagar-beach-andaman-travel-guide"
+    },
+    {
+      "label": "Andaman tour packages",
+      "href": "/packages/andaman-nicobar"
+    },
+    {
+      "label": "Goa tour packages",
+      "href": "/packages/goa"
+    }
+  ],
+  "related": [
+    {
+      "name": "Offbeat beaches in India",
+      "href": "/blog/offbeat-beaches-in-india",
+      "note": "quieter beaches"
+    },
+    {
+      "name": "Beach tourism in India",
+      "href": "/blog/beach-tourism-in-india",
+      "note": "Blue Flag explained"
+    },
+    {
+      "name": "Beach safety in India",
+      "href": "/blog/beach-safety-in-india",
+      "note": "how to swim safely"
+    }
+  ],
+  "places": [
+    "Radhanagar",
+    "Elephant Beach",
+    "Laxmanpur",
+    "Bangaram",
+    "Palolem",
+    "Agonda",
+    "Vagator",
+    "Om beach",
+    "Kudle",
+    "St Mary's Island",
+    "Varkala",
+    "Kovalam",
+    "Marari",
+    "Tarkarli",
+    "Kashid",
+    "Shivrajpur",
+    "Nagoa",
+    "Rushikonda",
+    "Puri",
+    "Chandipur",
+    "Paradise Beach",
+    "Mahabalipuram",
+    "Tajpur"
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "updated": "2026-09-25"
+}

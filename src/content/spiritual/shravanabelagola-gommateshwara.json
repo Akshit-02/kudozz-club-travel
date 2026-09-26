@@ -1,0 +1,277 @@
+{
+  "slug": "shravanabelagola-gommateshwara",
+  "kind": "destination",
+  "short": "Shravanabelagola",
+  "title": "Shravanabelagola: Gommateshwara Statue, Climb and Visiting Guide",
+  "seoTitle": "Shravanabelagola: Gommateshwara Statue & Visiting Guide | Kudozz Club",
+  "metaDescription": "Visit Shravanabelagola in Karnataka: the 57-foot Gommateshwara statue, the climb up Vindhyagiri, Chandragiri's basadis, the Mahamastakabhisheka and how to reach it.",
+  "description": "A visitor's guide to Shravanabelagola in Hassan district, Karnataka: the monolithic statue of Bahubali (Gommateshwara) on Vindhyagiri, the barefoot climb, the basadis of Chandragiri and the town, the 12-yearly Mahamastakabhisheka (next due in 2030), how to reach from Bengaluru, Mysuru and Hassan, and combining it with Belur and Halebidu.",
+  "dek": "A 57-foot statue carved from a single rock over a thousand years ago looks out from a granite hill above Shravanabelagola.",
+  "primaryKeyword": "Shravanabelagola",
+  "secondaryKeywords": [
+    "Gommateshwara statue",
+    "Shravanabelagola Bahubali",
+    "Mahamastakabhisheka"
+  ],
+  "searchIntent": "Destination planning",
+  "activities": [
+    "Jain temples",
+    "hill climb",
+    "heritage"
+  ],
+  "terrain": [
+    "hills",
+    "temple town"
+  ],
+  "regions": [
+    "Karnataka",
+    "South India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "senior travellers"
+  ],
+  "tags": [
+    "Shravanabelagola",
+    "Gommateshwara",
+    "Jain",
+    "Karnataka"
+  ],
+  "hero": {
+    "src": "/images/spiritual/shravanabelagola-vindhyagiri-hill.webp",
+    "alt": "The 12th-century Akkana Basadi, a Jain temple in Shravanabelagola, Karnataka"
+  },
+  "parent": {
+    "label": "Jain Pilgrimage in India",
+    "href": "/blog/jain-pilgrimage-in-india"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Shravanabelagola",
+    "containedIn": "Karnataka"
+  },
+  "intro": [
+    "Shravanabelagola is a Jain pilgrimage town between two granite hills in Hassan district, Karnataka. On the larger hill, Vindhyagiri, stands the statue of Bahubali, also called Gommateshwara, a 17.4 m (57 ft) monolith carved around 983 CE under Chavundaraya, a minister of the Western Ganga dynasty.",
+    "The smaller hill, Chandragiri, holds a group of basadis (Jain temples) and inscriptions. Jain tradition links it with the arrival of the monk Bhadrabahu and the emperor Chandragupta Maurya, who is said to have spent his last years here."
+  ],
+  "quickAnswer": "Shravanabelagola is in Hassan district, Karnataka, about 145 km from Bengaluru and about 85 km from Mysuru. Visitors climb a flight of rock-cut steps up Vindhyagiri barefoot to see the 57-foot statue of Bahubali (Gommateshwara), carved around 983 CE. The Mahamastakabhisheka anointing is held every 12 years; the last was in 2018 and the next is due in 2030. October to February is the best time.",
+  "takeaways": [
+    "The Gommateshwara statue is 17.4 m (57 ft) tall, carved from a single rock around 983 CE.",
+    "The climb up Vindhyagiri is on rock-cut steps, barefoot; start early to avoid hot rock.",
+    "Chandragiri, the smaller hill, has old basadis and inscriptions.",
+    "The Mahamastakabhisheka is held every 12 years; the next is due in 2030.",
+    "Belur and Halebidu's Hoysala temples are an easy add-on."
+  ],
+  "sections": [
+    {
+      "id": "statue",
+      "heading": "Gommateshwara on Vindhyagiri",
+      "paras": [
+        "The statue shows Bahubali standing in meditation, so still that vines are carved climbing his legs. It faces north and can be seen from the town below. A pillared enclosure surrounds it, with smaller shrines along the climb.",
+        "The steps are cut into the granite hillside. Footwear is left at the bottom, so go in the early morning or late afternoon when the rock is cooler; socks help."
+      ],
+      "items": [
+        {
+          "name": "At a glance",
+          "body": [
+            "Key facts for visitors."
+          ],
+          "facts": {
+            "Statue height": "17.4 m (57 ft)",
+            "Carved": "Around 983 CE",
+            "Climb": "Rock-cut steps, barefoot",
+            "Nearest city": "Hassan, about 50 km"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chandragiri",
+      "heading": "Chandragiri and the town",
+      "items": [
+        {
+          "name": "Chandragiri",
+          "body": [
+            "A smaller hill with a group of basadis, including the Chandragupta Basadi, and many old inscriptions. The climb is shorter and quieter."
+          ]
+        },
+        {
+          "name": "The town",
+          "body": [
+            "The Bhandara Basadi and Akkana Basadi, the large temple tank (Kalyani), and the Jain matha."
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/karnataka/hoysaleswara-temple-halebidu.webp",
+            "alt": "The carved Hoysaleswara Temple at Halebidu, Karnataka",
+            "caption": "Halebidu, a common add-on"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mahamastakabhisheka",
+      "heading": "The Mahamastakabhisheka",
+      "paras": [
+        "Every 12 years the statue is anointed from scaffolding erected behind it with water, milk, sugarcane juice, sandalwood paste, turmeric and flowers. The ceremony draws very large crowds and is organised by the Jain community with the state government. It was last held in February 2018; the next is due in 2030. Check official announcements for exact dates."
+      ]
+    },
+    {
+      "id": "reach",
+      "heading": "How to reach",
+      "list": [
+        "From Bengaluru: about 145 km by road, around three hours.",
+        "From Mysuru: about 85 km, around two hours.",
+        "From Hassan: about 50 km.",
+        "Shravanabelagola has a railway station on the Bengaluru to Hassan line; road travel is usually more convenient."
+      ]
+    },
+    {
+      "id": "combine",
+      "heading": "Combine it with",
+      "items": [
+        {
+          "name": "Belur and Halebidu",
+          "body": [
+            "Hoysala temples now part of a UNESCO World Heritage Site, about 80 to 90 km away."
+          ],
+          "links": [
+            {
+              "label": "Spiritual tourism in Karnataka",
+              "href": "/blog/spiritual-tourism-in-karnataka"
+            }
+          ]
+        },
+        {
+          "name": "Mysuru",
+          "body": [
+            "Palaces and the Chamundi hill temple."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mysore",
+              "href": "/blog/things-to-do-in-mysore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "Inscriptions on Chandragiri show that Shravanabelagola has been a Jain centre for well over a thousand years. Jain tradition holds that the monk Bhadrabahu came here with his disciples, including the emperor Chandragupta Maurya, who is said to have ended his life here by the Jain practice of sallekhana.",
+        "The statue of Bahubali was commissioned around 983 CE by Chavundaraya, a general and minister of the Western Ganga kings. Bahubali, a son of the first Tirthankara, is revered in Digambara tradition for giving up a kingdom and meditating standing for so long that creepers grew around his limbs."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "Best time to visit",
+      "list": [
+        "October to February: cool mornings, the best time for the climb.",
+        "March to May: hot; climb at sunrise.",
+        "June to September: rain makes the rock slippery; check the weather.",
+        "Around the Mahamastakabhisheka: very crowded; book stays months ahead."
+      ]
+    }
+  ],
+  "safety": [
+    "The rock steps get very hot by midday; climb early or late.",
+    "Hold the railings on the steep sections, especially when descending.",
+    "Follow the temple's rules on dress, photography and offerings.",
+    "Carry water, but leave food outside the temples."
+  ],
+  "packing": [
+    "Socks for the barefoot climb",
+    "Hat and water",
+    "Modest clothing",
+    "Non-leather bag"
+  ],
+  "faqs": [
+    {
+      "q": "How tall is the Gommateshwara statue?",
+      "a": "17.4 m, or about 57 ft."
+    },
+    {
+      "q": "How far is Shravanabelagola from Bengaluru?",
+      "a": "About 145 km, or around three hours by road."
+    },
+    {
+      "q": "When is the next Mahamastakabhisheka?",
+      "a": "It is held every 12 years; the last was in 2018 and the next is due in 2030."
+    },
+    {
+      "q": "How long does the Vindhyagiri climb take?",
+      "a": "Around 30 to 45 minutes up for most people, with stops."
+    },
+    {
+      "q": "Who carved the Gommateshwara statue?",
+      "a": "It was commissioned around 983 CE by Chavundaraya, a minister of the Western Ganga dynasty."
+    },
+    {
+      "q": "Do I have to climb barefoot?",
+      "a": "Yes. Footwear is left at the base of the hill; wearing socks helps on hot rock."
+    },
+    {
+      "q": "Can I visit Shravanabelagola, Belur and Halebidu in one day?",
+      "a": "Yes, with an early start from Bengaluru or Mysuru, though two days is more relaxed."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Mysore",
+      "href": "/blog/things-to-do-in-mysore"
+    },
+    {
+      "label": "Spiritual tourism in Karnataka",
+      "href": "/blog/spiritual-tourism-in-karnataka"
+    },
+    {
+      "label": "Jain pilgrimage in India",
+      "href": "/blog/jain-pilgrimage-in-india"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Famous temples in India",
+      "href": "/blog/famous-temples-in-india",
+      "note": "temples region by region"
+    },
+    {
+      "name": "Ranakpur Jain Temple",
+      "href": "/blog/ranakpur-jain-temple",
+      "note": "Rajasthan's marble temple"
+    },
+    {
+      "name": "Pilgrimage packing list",
+      "href": "/blog/pilgrimage-packing-list",
+      "note": "what to wear and carry"
+    }
+  ],
+  "places": [
+    "Shravanabelagola",
+    "Vindhyagiri",
+    "Chandragiri",
+    "Hassan",
+    "Belur",
+    "Halebidu"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Shravanabelagola",
+  "updated": "2026-09-26"
+}

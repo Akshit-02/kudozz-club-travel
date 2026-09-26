@@ -1,0 +1,324 @@
+{
+  "slug": "best-beaches-in-lakshadweep",
+  "kind": "state",
+  "short": "Best beaches in Lakshadweep",
+  "title": "Best Beaches in Lakshadweep: Islands, Lagoons and Permits",
+  "seoTitle": "Best Beaches in Lakshadweep: Islands, Lagoons & Permits | Kudozz Club",
+  "metaDescription": "The best beaches and lagoons in Lakshadweep: Agatti, Bangaram, Kadmat, Kavaratti and Minicoy, with the entry permit, how to get there and when to go.",
+  "description": "A guide to the beaches of Lakshadweep, India's coral atolls in the Arabian Sea: the lagoons of Agatti, Bangaram, Kadmat, Kavaratti and Minicoy, which islands visitors can reach, the entry permit, flights and ships from Kochi, the season and how to protect the reef.",
+  "dek": "Lakshadweep's islands are ringed by white sand and shallow turquoise lagoons. Getting there takes planning; here is what each island offers.",
+  "primaryKeyword": "best beaches in Lakshadweep",
+  "secondaryKeywords": [
+    "beaches in Lakshadweep",
+    "Lakshadweep beaches",
+    "beach holiday Lakshadweep",
+    "beach travel in Lakshadweep",
+    "best beach in Lakshadweep for families",
+    "quiet beaches Lakshadweep"
+  ],
+  "searchIntent": "Choose beaches in Lakshadweep",
+  "activities": [
+    "beaches",
+    "snorkelling",
+    "scuba diving",
+    "kayaking",
+    "lagoons"
+  ],
+  "terrain": [
+    "beaches",
+    "islands",
+    "lagoons",
+    "sea"
+  ],
+  "regions": [
+    "Lakshadweep",
+    "Arabian Sea"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families"
+  ],
+  "tags": [
+    "Lakshadweep",
+    "Beaches",
+    "Lagoons",
+    "Islands"
+  ],
+  "hero": {
+    "src": "/images/beach/lakshadweep-lagoon-beach.webp",
+    "alt": "Thatched huts under palms on Bangaram Island, Lakshadweep",
+    "caption": "Bangaram"
+  },
+  "parent": {
+    "label": "Best Beach Destinations in India",
+    "href": "/blog/best-beach-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Lakshadweep",
+    "containedIn": "Lakshadweep"
+  },
+  "intro": [
+    "Lakshadweep is a Union Territory of coral islands in the Arabian Sea, roughly 200 to 440 km off the Kerala coast. Most islands are low, palm-covered atolls enclosing a shallow lagoon, so the typical beach here is a strip of white coral sand facing calm, clear water on the lagoon side and open sea beyond the reef.",
+    "Tourism is controlled. Every visitor, including Indian citizens, needs an entry permit, and only certain islands are open to tourists, usually through packages arranged with the administration's tourism body or approved operators. This guide covers the beaches you can visit and how to plan."
+  ],
+  "quickAnswer": "The best beaches in Lakshadweep are on Agatti, where flights land, Bangaram, a small uninhabited island with a resort, Kadmat and Minicoy, both with Blue Flag beaches, and Kavaratti, the capital. All have shallow lagoons for swimming, kayaking and snorkelling. Every visitor needs an entry permit. Go between October and May; the monsoon brings rough seas and fewer ships and flights.",
+  "takeaways": [
+    "Every visitor, including Indian citizens, needs an entry permit, usually arranged with a tour package.",
+    "Agatti has the airport, with flights from Kochi; passenger ships also sail from Kochi.",
+    "Kadmat and Minicoy's Thundi beach have Blue Flag certification.",
+    "Lagoons are calm and shallow, good for swimming, kayaking and snorkelling in season.",
+    "Carry out all plastic and never touch or take coral."
+  ],
+  "sections": [
+    {
+      "id": "islands",
+      "heading": "The beaches, island by island",
+      "items": [
+        {
+          "name": "Agatti",
+          "body": [
+            "The gateway island, with the airstrip at its southern end and a long lagoon on the western side. Anthan and other lagoon beaches have kayaks and snorkelling, and dive centres operate here."
+          ],
+          "facts": {
+            "Best for": "Short trips, lagoon activities"
+          },
+          "links": [
+            {
+              "label": "Agatti Island guide",
+              "href": "/blog/agatti-island-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/lakshadweep/agatti-island/agatti-island-lagoon-beach.webp",
+            "alt": "Lagoon beach on Agatti Island, Lakshadweep",
+            "caption": "Agatti"
+          }
+        },
+        {
+          "name": "Bangaram",
+          "body": [
+            "A small, uninhabited, teardrop-shaped island a boat ride from Agatti, with a resort, a wide lagoon and some of Lakshadweep's quietest beaches."
+          ],
+          "facts": {
+            "Best for": "Couples, a quiet stay"
+          }
+        },
+        {
+          "name": "Kadmat",
+          "body": [
+            "A long, narrow island with a lagoon along its western side and a Blue Flag beach, known for water sports and diving."
+          ],
+          "facts": {
+            "Best for": "Water sports, diving"
+          }
+        },
+        {
+          "name": "Kavaratti",
+          "body": [
+            "The capital, with lagoon beaches, a marine aquarium and old mosques, including the Ujra mosque."
+          ],
+          "facts": {
+            "Best for": "Island life, lagoon beaches"
+          },
+          "links": [
+            {
+              "label": "Kavaratti Island guide",
+              "href": "/blog/kavaratti-island-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/lakshadweep/kavaratti-island/kavaratti-lagoon-beach-sailboat.webp",
+            "alt": "Lagoon beach at Kavaratti with a sailboat",
+            "caption": "Kavaratti"
+          }
+        },
+        {
+          "name": "Minicoy",
+          "body": [
+            "The southernmost island, culturally closer to the Maldives, with a tall lighthouse and Thundi beach, which holds Blue Flag certification."
+          ],
+          "facts": {
+            "Best for": "Culture, lighthouse views"
+          }
+        },
+        {
+          "name": "Kalpeni and Thinnakara",
+          "body": [
+            "Kalpeni has a large lagoon dotted with islets; Thinnakara, near Bangaram, has been used for tent stays. Availability depends on current packages."
+          ],
+          "facts": {
+            "Good to know": "Check which packages are running"
+          }
+        }
+      ]
+    },
+    {
+      "id": "permits",
+      "heading": "Permits and access",
+      "list": [
+        "All visitors need an entry permit issued by the Lakshadweep administration. Tour packages usually include it; allow time for processing.",
+        "Foreign nationals may visit only certain islands and need additional clearance; check current rules.",
+        "Flights connect Kochi with Agatti; ships sail from Kochi to several islands, with limited schedules.",
+        "Inter-island transfers are by boat or, on some routes, helicopter, arranged through the package.",
+        "Alcohol is largely unavailable on the islands."
+      ]
+    },
+    {
+      "id": "how-trips-work",
+      "heading": "How a Lakshadweep beach trip works",
+      "paras": [
+        "Most visitors book a package through the Lakshadweep administration's tourism arm or an approved operator. Packages usually cover the permit, flights or ship tickets, island stays and transfers, and range from short island stays on Agatti or Bangaram to ship-based cruises that visit several islands by day and sail by night.",
+        "Because capacity is small and schedules limited, plan several weeks ahead, especially for December to February. Keep your itinerary flexible: weather and sea conditions can change boat and helicopter transfers at short notice."
+      ]
+    },
+    {
+      "id": "how-many-days",
+      "heading": "How many days?",
+      "paras": [
+        "Three to five nights is typical: one or two islands, time in the lagoons and a dive or snorkel trip. Ship-based packages from Kochi usually run for about five days."
+      ]
+    },
+    {
+      "id": "who-for",
+      "heading": "Who is it best for?",
+      "items": [
+        {
+          "name": "Couples",
+          "body": [
+            "Bangaram and Agatti for quiet lagoons and island stays."
+          ]
+        },
+        {
+          "name": "Families",
+          "body": [
+            "Agatti and Kadmat, with calm lagoons and organised activities."
+          ]
+        },
+        {
+          "name": "Divers and snorkellers",
+          "body": [
+            "Agatti and Kadmat, which have dive centres."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "The best months are about October to May, when the lagoons are calm and clear. The south-west monsoon, from about June to September, brings rough seas, and ship and boat services are reduced. December to February is the most comfortable and the busiest time; book packages and permits well ahead."
+      ]
+    },
+    {
+      "id": "activities",
+      "heading": "What to do on the beaches",
+      "list": [
+        "Swim in the lagoons, which are shallow and sheltered in season.",
+        "Kayak and paddleboard on the lagoon side.",
+        "Snorkel over the reef edge with local guides, or take a glass-bottom boat.",
+        "Try a scuba dive at centres on islands such as Agatti and Kadmat.",
+        "Walk the islands; most are small enough to cross on foot or by bicycle."
+      ],
+      "after": [
+        "See scuba diving in India and snorkelling in India for more on diving the islands."
+      ]
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Stay inside the lagoon unless you are with a guide; currents at the reef edge and channels are strong.",
+    "Never touch, stand on or take coral or shells.",
+    "Carry out all plastic; the islands have limited waste disposal.",
+    "Use reef-safe sunscreen and cover up; the sun reflected off white sand is intense.",
+    "Respect local customs: dress modestly away from resort beaches."
+  ],
+  "packing": [
+    "Swimwear and modest clothes for villages",
+    "Reef-safe sunscreen and a hat",
+    "Water shoes",
+    "Your permit, ID and copies",
+    "Enough cash; ATMs are limited"
+  ],
+  "faqs": [
+    {
+      "q": "Do Indians need a permit for Lakshadweep?",
+      "a": "Yes. Every visitor, including Indian citizens, needs an entry permit from the Lakshadweep administration."
+    },
+    {
+      "q": "Which island in Lakshadweep has the best beaches?",
+      "a": "Bangaram and Agatti are popular for lagoons; Kadmat and Minicoy's Thundi beach have Blue Flag certification."
+    },
+    {
+      "q": "How do I reach Lakshadweep?",
+      "a": "By flight from Kochi to Agatti, or by passenger ship from Kochi."
+    },
+    {
+      "q": "When is the best time to visit Lakshadweep?",
+      "a": "About October to May."
+    },
+    {
+      "q": "Can I snorkel in Lakshadweep?",
+      "a": "Yes, in the lagoons and at the reef edge with local guides."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Lakshadweep travel guide",
+      "href": "/blog/lakshadweep-island-travel-guide"
+    },
+    {
+      "label": "Things to do in Lakshadweep",
+      "href": "/blog/things-to-do-in-lakshadweep"
+    },
+    {
+      "label": "Lakshadweep itinerary",
+      "href": "/blog/lakshadweep-island-travel-guide#itinerary"
+    },
+    {
+      "label": "Lakshadweep tour packages",
+      "href": "/packages/lakshadweep"
+    },
+    {
+      "label": "Honeymoon packages",
+      "href": "/packages/honeymoon"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best beaches in the Andaman Islands",
+      "href": "/blog/best-beaches-in-andaman",
+      "note": "India's other island group"
+    },
+    {
+      "name": "Snorkelling in India",
+      "href": "/blog/snorkeling-in-india",
+      "note": "lagoons and reefs"
+    },
+    {
+      "name": "Best beaches in Kerala",
+      "href": "/blog/best-beaches-in-kerala",
+      "note": "combine with Kochi"
+    }
+  ],
+  "places": [
+    "Agatti",
+    "Bangaram",
+    "Kadmat",
+    "Kavaratti",
+    "Minicoy",
+    "Kalpeni",
+    "Thinnakara",
+    "Kochi"
+  ],
+  "styles": [
+    "honeymoon"
+  ],
+  "planDestination": "Lakshadweep",
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,574 @@
+{
+  "slug": "best-beaches-in-andaman",
+  "kind": "state",
+  "short": "Best beaches in the Andamans",
+  "title": "Best Beaches in the Andaman Islands: Havelock, Neil, Port Blair and Beyond",
+  "seoTitle": "Best Beaches in the Andamans: Havelock, Neil & More | Kudozz Club",
+  "metaDescription": "The best beaches in the Andaman Islands: Radhanagar, Kalapathar and Elephant Beach on Havelock, Laxmanpur and Bharatpur on Neil, and Port Blair's beaches, with tips.",
+  "description": "A guide to the best beaches in the Andaman Islands: Radhanagar, Kalapathar, Elephant and Vijaynagar beaches on Swaraj Dweep (Havelock), Laxmanpur, Bharatpur and Sitapur on Shaheed Dweep (Neil), Corbyn's Cove, Chidiya Tapu and Wandoor near Sri Vijaya Puram (Port Blair), and remote beaches in North and Little Andaman, with seasons and safety.",
+  "dek": "White sand, forest behind it and reefs in front: the Andamans have India's most beautiful island beaches. Here is how they compare, island by island.",
+  "primaryKeyword": "best beaches in Andaman Islands",
+  "secondaryKeywords": [
+    "beaches in Andaman Islands",
+    "Andaman Islands beaches",
+    "beach holiday Andaman Islands",
+    "beach travel in Andaman Islands",
+    "best beach in Andaman Islands for families",
+    "quiet beaches Andaman Islands"
+  ],
+  "searchIntent": "Choose beaches in the Andaman Islands",
+  "activities": [
+    "beaches",
+    "snorkelling",
+    "scuba diving",
+    "sea walk",
+    "kayaking",
+    "turtle nesting"
+  ],
+  "terrain": [
+    "beaches",
+    "islands",
+    "sea"
+  ],
+  "regions": [
+    "Andaman and Nicobar Islands",
+    "Bay of Bengal"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "solo"
+  ],
+  "tags": [
+    "Andaman",
+    "Beaches",
+    "Havelock",
+    "Neil Island"
+  ],
+  "hero": {
+    "src": "/images/beach/andaman-beach-kalapathar.webp",
+    "alt": "Boats off Kalapathar beach, Havelock Island",
+    "caption": "Kalapathar beach"
+  },
+  "parent": {
+    "label": "Best Beach Destinations in India",
+    "href": "/blog/best-beach-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Andaman Islands beaches",
+    "containedIn": "Andaman and Nicobar Islands"
+  },
+  "intro": [
+    "The Andaman Islands lie in the Bay of Bengal, about 1,200 km from the mainland, and their beaches are the reason many people come. Most visitors split their time between Sri Vijaya Puram (Port Blair), the capital, and the two islands a short ferry ride away: Swaraj Dweep (Havelock Island), with Radhanagar and the main dive centres, and the smaller Shaheed Dweep (Neil Island).",
+    "The beaches range from long, lifeguarded public beaches to rocky coves and reef-fringed shores that come alive at low tide. This guide compares the best beaches on each island. For ferries, permits and a full itinerary, see our Andaman Islands travel guide."
+  ],
+  "quickAnswer": "The best beaches in the Andaman Islands are Radhanagar (Beach No. 7) on Havelock for its long white sand and sunsets, Kalapathar and Elephant Beach on Havelock for sunrise and snorkelling, Laxmanpur and Bharatpur on Neil Island for sunset, rock formations and glass-bottom boats, and Corbyn's Cove and Chidiya Tapu near Port Blair. Visit from about November to April, and follow lifeguard flags and crocodile warnings.",
+  "takeaways": [
+    "Radhanagar on Havelock is the Andamans' most famous beach and holds Blue Flag certification.",
+    "Elephant Beach (Havelock) and Bharatpur (Neil) are the main snorkelling and sea-walk beaches.",
+    "Laxmanpur on Neil is the sunset spot; Sitapur and Kalapathar are for sunrise.",
+    "Crocodiles live in some creeks and mangroves; swim only at recommended beaches.",
+    "The best months are about November to April; the monsoon brings rough seas and ferry cancellations."
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "heading": "Andaman beaches at a glance",
+      "table": {
+        "columns": [
+          "Beach",
+          "Island",
+          "Best for",
+          "Good to know"
+        ],
+        "rows": [
+          [
+            "Radhanagar (Beach No. 7)",
+            "Havelock",
+            "Swimming in season, sunset",
+            "Lifeguarded; Blue Flag beach"
+          ],
+          [
+            "Kalapathar",
+            "Havelock",
+            "Sunrise, quiet",
+            "Rocky edges"
+          ],
+          [
+            "Elephant Beach",
+            "Havelock",
+            "Snorkelling, sea walk",
+            "Boat or forest trek"
+          ],
+          [
+            "Vijaynagar (Beach No. 5)",
+            "Havelock",
+            "Resort stays, low-tide walks",
+            "Shallow at low tide"
+          ],
+          [
+            "Laxmanpur 1",
+            "Neil",
+            "Sunset",
+            "Wide sand"
+          ],
+          [
+            "Laxmanpur 2",
+            "Neil",
+            "Natural rock bridge at low tide",
+            "Rocky; wear footwear"
+          ],
+          [
+            "Bharatpur",
+            "Neil",
+            "Snorkelling, glass-bottom boats",
+            "Busy by the jetty"
+          ],
+          [
+            "Sitapur",
+            "Neil",
+            "Sunrise",
+            "Rough in the monsoon"
+          ],
+          [
+            "Corbyn's Cove",
+            "South Andaman",
+            "City beach, water sports",
+            "Near the airport"
+          ],
+          [
+            "Chidiya Tapu and Munda Pahar",
+            "South Andaman",
+            "Sunset, forest walk",
+            "Crocodile warnings on some stretches"
+          ],
+          [
+            "Lalaji Bay",
+            "Long Island",
+            "Remote, untouched",
+            "Boat plus forest walk"
+          ],
+          [
+            "Ross and Smith",
+            "North Andaman",
+            "Sandbar joining two islands",
+            "Forest permit and boat from Diglipur"
+          ],
+          [
+            "Kalipur",
+            "North Andaman",
+            "Turtle nesting in season",
+            "Remote"
+          ],
+          [
+            "Butler Bay",
+            "Little Andaman",
+            "Surf, empty sand",
+            "Long ferry ride"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "havelock",
+      "heading": "Swaraj Dweep (Havelock Island)",
+      "items": [
+        {
+          "name": "Radhanagar Beach",
+          "body": [
+            "A long curve of white sand backed by tall forest on Havelock's west coast, with lifeguards, changing rooms and a Blue Flag certification. The sea is calm and clear in season, and sunset draws a crowd. Check the current closing time; the beach is closed to visitors after dark."
+          ],
+          "facts": {
+            "Best for": "Swimming, sunset, families"
+          },
+          "links": [
+            {
+              "label": "Radhanagar Beach guide",
+              "href": "/blog/radhanagar-beach-andaman-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/havelock-island-andaman/radhanagar-beach-swaraj-dweep-havelock-island.webp",
+            "alt": "Radhanagar beach on Swaraj Dweep (Havelock Island)",
+            "caption": "Radhanagar"
+          }
+        },
+        {
+          "name": "Kalapathar Beach",
+          "body": [
+            "A narrow beach on the east coast named after the black rocks along it, with turquoise water and a road running alongside. Best at sunrise."
+          ],
+          "facts": {
+            "Best for": "Sunrise, quiet walks"
+          },
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/havelock-island-andaman/kalapathar-beach-swaraj-dweep-havelock-island.webp",
+            "alt": "Kalapathar beach, Havelock Island",
+            "caption": "Kalapathar"
+          }
+        },
+        {
+          "name": "Elephant Beach",
+          "body": [
+            "Reached by speedboat from the jetty or a forest walk, Elephant Beach has a shallow reef close to shore for snorkelling, plus sea walks and other water activities. It gets busy by late morning."
+          ],
+          "facts": {
+            "Best for": "Snorkelling, sea walk"
+          },
+          "links": [
+            {
+              "label": "Snorkelling in India",
+              "href": "/blog/snorkeling-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Vijaynagar and Govind Nagar",
+          "body": [
+            "The east-coast beaches numbered 3 and 5, where many resorts and dive centres stand. The sea goes out a long way at low tide, exposing rock pools."
+          ],
+          "facts": {
+            "Best for": "Resort stays, dive centres"
+          },
+          "links": [
+            {
+              "label": "Scuba diving in the Andamans",
+              "href": "/blog/scuba-diving-in-andaman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neil",
+      "heading": "Shaheed Dweep (Neil Island)",
+      "items": [
+        {
+          "name": "Laxmanpur beaches",
+          "body": [
+            "Laxmanpur 1 is a wide beach for sunset. Laxmanpur 2 leads, at low tide, to a natural rock arch often called the Howrah Bridge, with coral and sea life in the pools around it."
+          ],
+          "facts": {
+            "Best for": "Sunset, low-tide exploring"
+          },
+          "links": [
+            {
+              "label": "Neil Island guide",
+              "href": "/blog/neil-island-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Bharatpur Beach",
+          "body": [
+            "The beach next to Neil's jetty, with calm shallow water, snorkelling and glass-bottom boat rides."
+          ],
+          "facts": {
+            "Best for": "Families, first snorkel"
+          },
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/neil-island-andaman/bharatpur-beach-shaheed-dweep-neil-island.webp",
+            "alt": "Bharatpur beach, Shaheed Dweep (Neil Island)",
+            "caption": "Bharatpur"
+          }
+        },
+        {
+          "name": "Sitapur Beach",
+          "body": [
+            "At the island's eastern tip, Sitapur faces the sunrise and has a rougher, more open sea."
+          ],
+          "facts": {
+            "Best for": "Sunrise"
+          },
+          "links": [
+            {
+              "label": "Things to do on Neil Island",
+              "href": "/blog/things-to-do-in-neil-island"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "port-blair",
+      "heading": "Around Sri Vijaya Puram (Port Blair)",
+      "items": [
+        {
+          "name": "Corbyn's Cove",
+          "body": [
+            "A small palm-fringed city beach a few kilometres from the centre, with water sports in season."
+          ],
+          "facts": {
+            "Best for": "An evening in town"
+          },
+          "links": [
+            {
+              "label": "Things to do in Port Blair",
+              "href": "/blog/things-to-do-in-port-blair"
+            }
+          ]
+        },
+        {
+          "name": "Chidiya Tapu and Munda Pahar",
+          "body": [
+            "At the southern tip of South Andaman, known for sunsets and birds; a forest trail leads to Munda Pahar beach."
+          ],
+          "facts": {
+            "Best for": "Sunset, birds"
+          },
+          "links": [
+            {
+              "label": "Chidiya Tapu guide",
+              "href": "/blog/chidiya-tapu-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "North Bay and Jolly Buoy",
+          "body": [
+            "Island beaches reached by boat, for coral viewing, snorkelling and sea walks. Jolly Buoy lies in a marine national park and opens in season only."
+          ],
+          "facts": {
+            "Best for": "Reefs"
+          },
+          "links": [
+            {
+              "label": "North Bay Island guide",
+              "href": "/blog/north-bay-island-andaman-travel-guide"
+            },
+            {
+              "label": "Jolly Buoy guide",
+              "href": "/blog/jolly-buoy-island-andaman-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "remote",
+      "heading": "Remote beaches",
+      "items": [
+        {
+          "name": "Lalaji Bay, Long Island",
+          "body": [
+            "A quiet beach in Middle Andaman, reached by boat or a forest walk from Long Island village."
+          ],
+          "links": [
+            {
+              "label": "Long Island guide",
+              "href": "/blog/long-island-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Ross and Smith islands",
+          "body": [
+            "Two islands off Diglipur joined by a narrow sandbar, reached by boat with a forest department permit."
+          ],
+          "links": [
+            {
+              "label": "Ross and Smith islands guide",
+              "href": "/blog/ross-and-smith-islands-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kalipur",
+          "body": [
+            "A North Andaman beach where sea turtles nest in season, near the start of the Saddle Peak trek."
+          ],
+          "links": [
+            {
+              "label": "Kalipur beach guide",
+              "href": "/blog/kalipur-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Butler Bay, Little Andaman",
+          "body": [
+            "A long, remote beach with surf in season, a long ferry ride south of Sri Vijaya Puram."
+          ],
+          "links": [
+            {
+              "label": "Little Andaman guide",
+              "href": "/blog/little-andaman-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-many-days",
+      "heading": "How many days?",
+      "paras": [
+        "Five to seven nights is ideal: one or two in Sri Vijaya Puram (Port Blair), three on Havelock and one or two on Neil. With four nights, skip Neil or do it as a day trip. Add days for diving courses or trips to North Andaman."
+      ]
+    },
+    {
+      "id": "itinerary",
+      "heading": "Suggested itinerary",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Arrive in Sri Vijaya Puram; Corbyn's Cove and the Cellular Jail light show"
+          ],
+          [
+            "2",
+            "Ferry to Havelock; sunset at Radhanagar"
+          ],
+          [
+            "3",
+            "Elephant Beach for snorkelling or a sea walk; evening at Vijaynagar"
+          ],
+          [
+            "4",
+            "Sunrise at Kalapathar; free day or scuba try dive"
+          ],
+          [
+            "5",
+            "Ferry to Neil; Laxmanpur sunset"
+          ],
+          [
+            "6",
+            "Natural rock bridge at low tide, Bharatpur; ferry back"
+          ],
+          [
+            "7",
+            "Chidiya Tapu or North Bay; depart"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "From about November to April the sea is calmer, the water clearer and ferries more reliable, with December and January the busiest months. The south-west monsoon, from about May or June to September, brings heavy rain, rough seas and ferry cancellations, and beach swimming is often restricted. October and May are shoulder months with some rain."
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning a beach trip",
+      "list": [
+        "Fly into Sri Vijaya Puram (Port Blair) and take a ferry to Havelock and Neil; book ferries early for December and January.",
+        "Allow at least two nights on Havelock and one on Neil, plus a night in Sri Vijaya Puram.",
+        "Beaches such as Radhanagar and Elephant Beach have fixed opening hours and close by early evening.",
+        "Cash is useful on the islands; card and network coverage can be patchy."
+      ],
+      "after": [
+        "For diving, kayaking, treks and the Baratang caves, see adventure activities in the Andamans."
+      ]
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Saltwater crocodiles live in some creeks and mangroves; obey warning signs and never swim at dusk or in creek mouths.",
+    "Wear footwear on rocky and coral stretches such as Laxmanpur 2; coral cuts easily infect.",
+    "Do not touch, stand on or collect coral and shells; it is illegal and damages the reef.",
+    "Avoid swimming in rough seas and during the monsoon, even at lifeguarded beaches.",
+    "Respect the rules in tribal reserves on the road north: no stopping, photos or contact."
+  ],
+  "packing": [
+    "Swimwear and a rash guard",
+    "Reef-safe sunscreen",
+    "Water shoes for rocky beaches",
+    "Insect repellent",
+    "Cash and a power bank"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best beach in the Andaman Islands?",
+      "a": "Radhanagar Beach on Havelock (Swaraj Dweep) is the best known, for its long white sand, calm sea in season and sunsets."
+    },
+    {
+      "q": "Which Andaman beach is best for snorkelling?",
+      "a": "Elephant Beach on Havelock and Bharatpur on Neil, plus North Bay and Jolly Buoy near Sri Vijaya Puram."
+    },
+    {
+      "q": "Is it safe to swim in the Andamans?",
+      "a": "At lifeguarded beaches such as Radhanagar, in calm conditions and within flags, yes. Avoid creeks and mangroves because of crocodiles."
+    },
+    {
+      "q": "Which is better for beaches, Havelock or Neil?",
+      "a": "Havelock has more famous beaches and diving; Neil is smaller, quieter and good for rock formations and a slower pace. Most people visit both."
+    },
+    {
+      "q": "What is the best time to visit Andaman beaches?",
+      "a": "About November to April."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Andaman Islands travel guide",
+      "href": "/blog/andaman-islands-travel-guide"
+    },
+    {
+      "label": "Things to do in the Andamans",
+      "href": "/blog/things-to-do-in-andaman"
+    },
+    {
+      "label": "Adventure activities in the Andamans",
+      "href": "/blog/adventure-activities-in-andaman"
+    },
+    {
+      "label": "Andaman itinerary",
+      "href": "/blog/andaman-islands-travel-guide#itinerary"
+    },
+    {
+      "label": "Andaman tour packages",
+      "href": "/packages/andaman-nicobar"
+    }
+  ],
+  "related": [
+    {
+      "name": "Havelock Island guide",
+      "href": "/blog/havelock-island-andaman-travel-guide",
+      "note": "the main beach island"
+    },
+    {
+      "name": "Beach honeymoon destinations in India",
+      "href": "/blog/beach-honeymoon-destinations-in-india",
+      "note": "why the Andamans top the list"
+    },
+    {
+      "name": "Best beaches in Lakshadweep",
+      "href": "/blog/best-beaches-in-lakshadweep",
+      "note": "India's other coral islands"
+    }
+  ],
+  "places": [
+    "Radhanagar",
+    "Kalapathar",
+    "Elephant Beach",
+    "Vijaynagar",
+    "Laxmanpur",
+    "Bharatpur",
+    "Sitapur",
+    "Corbyn's Cove",
+    "Chidiya Tapu",
+    "North Bay",
+    "Jolly Buoy",
+    "Lalaji Bay",
+    "Ross and Smith",
+    "Kalipur",
+    "Butler Bay"
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "planDestination": "Andaman",
+  "updated": "2026-09-25"
+}

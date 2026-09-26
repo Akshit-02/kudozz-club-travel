@@ -1,0 +1,416 @@
+{
+  "slug": "adventure-activities-in-andaman",
+  "kind": "destination",
+  "short": "Adventure activities in the Andamans",
+  "title": "Adventure Activities in the Andaman Islands",
+  "seoTitle": "Adventure Activities in the Andaman Islands | Kudozz Club",
+  "metaDescription": "Adventure activities in the Andaman Islands: scuba diving, snorkelling, sea walks, mangrove kayaking, treks to Saddle Peak and the Baratang caves.",
+  "description": "A guide to adventure activities in the Andaman Islands: scuba diving and snorkelling on Havelock and Neil, sea walks at North Bay and Elephant Beach, mangrove and night kayaking, jungle treks to Mount Harriet and Saddle Peak, the Baratang limestone caves and surf at Little Andaman, with seasons and safety.",
+  "dek": "The Andamans are India's best islands for underwater adventure, with forest treks, mangrove creeks and caves to explore between dives.",
+  "primaryKeyword": "adventure activities in Andaman Islands",
+  "secondaryKeywords": [
+    "adventure sports in Andaman Islands",
+    "things to do in Andaman Islands for adventure",
+    "diving",
+    "sea walk",
+    "kayaking"
+  ],
+  "searchIntent": "Informational: what adventure to do in the Andaman Islands",
+  "activities": [
+    "scuba diving",
+    "snorkelling",
+    "sea walk",
+    "kayaking",
+    "trekking",
+    "surfing"
+  ],
+  "terrain": [
+    "sea",
+    "islands",
+    "mangroves",
+    "forest",
+    "beaches"
+  ],
+  "regions": [
+    "Andaman and Nicobar Islands"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "friends",
+    "beginners"
+  ],
+  "tags": [
+    "Andaman",
+    "Scuba Diving",
+    "Island Adventure",
+    "Kayaking"
+  ],
+  "hero": {
+    "src": "/images/adventure/andaman-sea-adventure.webp",
+    "alt": "A snorkeller underwater at Elephant Beach, Havelock Island",
+    "caption": "Snorkelling at Elephant Beach"
+  },
+  "parent": {
+    "label": "Best Adventure Destinations in India",
+    "href": "/blog/best-adventure-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Andaman Islands",
+    "containedIn": "Andaman and Nicobar Islands"
+  },
+  "intro": [
+    "The Andaman Islands are a chain of forested islands in the Bay of Bengal, fringed with coral reefs and mangroves. Most visitors fly into Port Blair on South Andaman and take ferries to Swaraj Dweep (Havelock Island) and Shaheed Dweep (Neil Island), which between them have most of the dive schools, beaches and water activities.",
+    "Beyond the water, the islands have tropical forest treks, limestone caves reached through mangrove creeks, and remote beaches in the north and on Little Andaman. This guide covers adventure activities across the islands."
+  ],
+  "quickAnswer": "The best adventure activities in the Andaman Islands are scuba diving and snorkelling on Havelock and Neil, sea walks and snorkelling at North Bay and Elephant Beach, kayaking through mangroves (including night bioluminescence trips on Havelock), treks to Mount Harriet and Saddle Peak, a boat trip through mangroves to the Baratang limestone caves, and surfing at Little Andaman. The season runs from about October to May.",
+  "takeaways": [
+    "Havelock is the base for diving, snorkelling at Elephant Beach and mangrove kayaking.",
+    "North Bay near Port Blair offers sea walks, snorkelling and try dives in half a day.",
+    "Saddle Peak near Diglipur is the highest point in the islands, a full-day forest trek.",
+    "Baratang's limestone caves are reached by boat through mangroves; the road passes through a protected tribal reserve with strict rules.",
+    "Follow crocodile warnings and swim only where locals say it is safe."
+  ],
+  "sections": [
+    {
+      "id": "water",
+      "heading": "Underwater adventures",
+      "items": [
+        {
+          "name": "Scuba diving",
+          "body": [
+            "Havelock has the most dive centres and sites, from shallow reefs for try dives to deeper sites for certified divers; Neil and North Bay offer more options."
+          ],
+          "facts": {
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Scuba diving in the Andamans",
+              "href": "/blog/scuba-diving-in-andaman"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/andaman-islands/scuba-diving-andaman-islands-2.webp",
+            "alt": "A scuba diver over the reef in the Andaman Islands",
+            "caption": "Diving in the Andamans"
+          }
+        },
+        {
+          "name": "Snorkelling",
+          "body": [
+            "Elephant Beach on Havelock, North Bay, Jolly Buoy in the marine national park, and Neil's shallow reefs are the best spots."
+          ],
+          "links": [
+            {
+              "label": "Snorkelling in India",
+              "href": "/blog/snorkeling-in-india"
+            },
+            {
+              "label": "Jolly Buoy Island guide",
+              "href": "/blog/jolly-buoy-island-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Sea walks",
+          "body": [
+            "At North Bay and Elephant Beach, you walk on the seabed wearing a helmet supplied with air, guided by a diver. No swimming needed."
+          ],
+          "facts": {
+            "Good for": "Non-swimmers, families"
+          },
+          "links": [
+            {
+              "label": "North Bay Island guide",
+              "href": "/blog/north-bay-island-andaman-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paddle",
+      "heading": "Kayaking and boats",
+      "items": [
+        {
+          "name": "Mangrove kayaking on Havelock",
+          "body": [
+            "Guided trips paddle through the mangrove creeks of Havelock; on dark nights, some operators run bioluminescence trips when plankton light up the water."
+          ],
+          "facts": {
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Kayaking in India",
+              "href": "/blog/kayaking-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Glass-bottom boats, jet skis and game fishing",
+          "body": [
+            "Glass-bottom boats at North Bay and Havelock show the reef without getting wet, and jet skis and other water sports run near Port Blair. Game fishing trips operate in season."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "land",
+      "heading": "Treks and caves",
+      "items": [
+        {
+          "name": "Mount Harriet",
+          "body": [
+            "Mount Harriet National Park, across the harbour from Port Blair, has forest trails and a viewpoint over the islands. A longer forest trek links it to Madhuban on the coast."
+          ],
+          "facts": {
+            "Difficulty": "Easy to moderate"
+          },
+          "links": [
+            {
+              "label": "Things to do in Port Blair",
+              "href": "/blog/things-to-do-in-port-blair"
+            }
+          ]
+        },
+        {
+          "name": "Chidiya Tapu and Munda Pahar",
+          "body": [
+            "South of Port Blair, a forest walk from Chidiya Tapu leads to Munda Pahar beach, known for sunsets and birdlife."
+          ],
+          "facts": {
+            "Difficulty": "Easy"
+          },
+          "links": [
+            {
+              "label": "Chidiya Tapu guide",
+              "href": "/blog/chidiya-tapu-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Saddle Peak, near Diglipur",
+          "body": [
+            "The highest point in the Andamans, at about 730 metres, reached by a steep full-day trek through Saddle Peak National Park from Lamiya Bay near Kalipur. Forest department permission is required."
+          ],
+          "facts": {
+            "Difficulty": "Moderate to challenging",
+            "Duration": "Full day"
+          },
+          "links": [
+            {
+              "label": "Diglipur guide",
+              "href": "/blog/diglipur-andaman-travel-guide"
+            },
+            {
+              "label": "Kalipur guide",
+              "href": "/blog/kalipur-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Baratang limestone caves and mud volcano",
+          "body": [
+            "From Baratang jetty, boats travel through mangrove creeks to a forest walk that ends at limestone caves. Baratang also has a small mud volcano. The road from Port Blair passes through the Jarawa tribal reserve, where stopping, photography and any contact are strictly prohibited."
+          ],
+          "facts": {
+            "Duration": "Full day from Port Blair"
+          },
+          "links": [
+            {
+              "label": "Baratang guide",
+              "href": "/blog/baratang-andaman-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "islands",
+      "heading": "Which island for which adventure",
+      "table": {
+        "columns": [
+          "Island",
+          "Best for",
+          "Getting there"
+        ],
+        "rows": [
+          [
+            "South Andaman (Port Blair)",
+            "North Bay sea walks and snorkelling, Mount Harriet, Chidiya Tapu, jet skis",
+            "Flights from the mainland"
+          ],
+          [
+            "Swaraj Dweep (Havelock)",
+            "Scuba diving, Elephant Beach snorkelling, mangrove and night kayaking",
+            "Ferry from Port Blair"
+          ],
+          [
+            "Shaheed Dweep (Neil)",
+            "Relaxed diving and snorkelling, cycling around the island",
+            "Ferry from Port Blair or Havelock"
+          ],
+          [
+            "Baratang and Middle Andaman",
+            "Limestone caves, mangrove creeks, mud volcano",
+            "Road and boat from Port Blair"
+          ],
+          [
+            "North Andaman (Diglipur)",
+            "Saddle Peak trek, turtle nesting beaches at Kalipur in season",
+            "Long road trip or ferry"
+          ],
+          [
+            "Little Andaman",
+            "Surf, waterfalls, remote beaches",
+            "Ferry from Port Blair"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "remote",
+      "heading": "Remote adventures",
+      "items": [
+        {
+          "name": "Little Andaman",
+          "body": [
+            "A long ferry ride south of Port Blair, Little Andaman has surf at Butler Bay in season, waterfalls in the forest and very few visitors. Facilities are basic."
+          ],
+          "facts": {
+            "Good for": "Surfers, independent travellers"
+          },
+          "links": [
+            {
+              "label": "Little Andaman guide",
+              "href": "/blog/little-andaman-travel-guide"
+            },
+            {
+              "label": "Surfing in India",
+              "href": "/blog/surfing-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning adventure in the Andamans",
+      "list": [
+        "Fly into Port Blair; ferries connect to Havelock and Neil, with private catamarans and government ferries on the main route.",
+        "Allow at least five to six nights for Port Blair, Havelock and Neil with some diving.",
+        "Book ferries, dives and stays early for December and January.",
+        "Keep a day without diving before your flight out.",
+        "Carry cash as backup; networks and card machines are patchy on the smaller islands."
+      ]
+    }
+  ],
+  "safety": [
+    "Follow crocodile warnings; do not swim in creeks, mangroves or at dusk where warned.",
+    "Choose certified dive centres and wear life jackets for snorkelling and sea walks.",
+    "Respect the rules in tribal reserves: no stopping, photographs or contact.",
+    "Never touch or collect coral, shells or marine life; it is illegal and harms the reef.",
+    "Check ferry schedules and weather; boats are cancelled in rough seas."
+  ],
+  "packing": [
+    "Swimwear, rash guard and reef-safe sunscreen",
+    "Light cotton clothes and a rain jacket",
+    "Trekking sandals or shoes for forest walks",
+    "Insect repellent",
+    "Cash and a power bank"
+  ],
+  "faqs": [
+    {
+      "q": "What are the best adventure activities in the Andamans?",
+      "a": "Scuba diving and snorkelling on Havelock and Neil, sea walks at North Bay and Elephant Beach, mangrove kayaking, treks to Mount Harriet and Saddle Peak, and the Baratang caves."
+    },
+    {
+      "q": "When is the best time for adventure in the Andamans?",
+      "a": "From about October to May, when seas are calmer."
+    },
+    {
+      "q": "Can non-swimmers do water activities in the Andamans?",
+      "a": "Yes: sea walks, glass-bottom boats, guided snorkelling with a life jacket and try dives with an instructor."
+    },
+    {
+      "q": "What is the highest point in the Andamans?",
+      "a": "Saddle Peak, at about 730 metres, near Diglipur in North Andaman."
+    },
+    {
+      "q": "Is it safe to swim in the Andamans?",
+      "a": "At recommended beaches, in calm conditions, yes. Avoid creeks and mangroves because of crocodiles, and follow local warnings."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Andaman Islands travel guide",
+      "href": "/blog/andaman-islands-travel-guide"
+    },
+    {
+      "label": "Things to do in the Andamans",
+      "href": "/blog/things-to-do-in-andaman"
+    },
+    {
+      "label": "Andaman itinerary",
+      "href": "/blog/andaman-islands-travel-guide#itinerary"
+    },
+    {
+      "label": "Andaman tour packages",
+      "href": "/packages/andaman-nicobar"
+    },
+    {
+      "label": "Honeymoon packages",
+      "href": "/packages/honeymoon"
+    }
+  ],
+  "related": [
+    {
+      "name": "Scuba diving in the Andamans",
+      "href": "/blog/scuba-diving-in-andaman",
+      "note": "dive sites and courses"
+    },
+    {
+      "name": "Things to do on Havelock",
+      "href": "/blog/things-to-do-in-havelock-island",
+      "note": "the main island base"
+    },
+    {
+      "name": "Things to do on Neil Island",
+      "href": "/blog/things-to-do-in-neil-island",
+      "note": "a quieter island"
+    },
+    {
+      "name": "Best beaches in the Andamans",
+      "href": "/blog/best-beaches-in-andaman",
+      "note": "beach by beach"
+    }
+  ],
+  "places": [
+    "Port Blair",
+    "Havelock Island",
+    "Neil Island",
+    "North Bay Island",
+    "Elephant Beach",
+    "Jolly Buoy Island",
+    "Mount Harriet",
+    "Chidiya Tapu",
+    "Saddle Peak",
+    "Baratang",
+    "Little Andaman"
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays",
+    "adventure-tours"
+  ],
+  "planDestination": "Andaman",
+  "updated": "2026-09-25"
+}

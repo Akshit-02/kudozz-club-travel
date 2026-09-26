@@ -11,6 +11,11 @@ Official website: https://club.kudozz.in (also searched as "Kudoz Club", "Kudos 
 - [India Tour Packages](https://club.kudozz.in/packages): index of every destination, circuit and travel-style package page.
 - [Destinations](https://club.kudozz.in/destinations): every destination guide, organised by state.
 - [Travel Guides](https://club.kudozz.in/blog): the full guide library.
+- [Adventure Travel in India](https://club.kudozz.in/adventure-travel): hub for adventure activities, destinations, seasons and planning guides.
+- [Beach Travel in India](https://club.kudozz.in/beach-travel): hub for beach destinations, state-by-state beach guides, beach activities, seasons and safety.
+- [Wildlife Tourism in India](https://club.kudozz.in/wildlife-tourism): hub for national parks, tiger reserves, sanctuaries, safaris, species, birdwatching, state wildlife guides and responsible travel.
+- [Spiritual Tourism in India](https://club.kudozz.in/spiritual-tourism): hub for pilgrimage places of every faith, the Jyotirlingas, Char Dham, Shakti Peethas, Buddhist Circuit, Sikh and Jain pilgrimage, Sufi shrines, state spiritual guides, festivals and retreats.
+- [Heritage & Cultural Tourism in India](https://club.kudozz.in/heritage-cultural-tourism): hub for UNESCO sites, monuments, forts, palaces, caves, archaeological sites, historic cities, museums, crafts, textiles, dance and music, festivals, food heritage, state heritage guides and itineraries.
 - [About](https://club.kudozz.in/about): who Kudozz Club is, how trip planning works, editorial independence.
 - [Contact](https://club.kudozz.in/contact): trip enquiries and other contact.
 
@@ -23,8 +28,306 @@ Travel guide (informational) → Destination/state guide → Tour package page (
 
 Each state/UT has one hub guide (marked 🗺️ below) linking to its city and attraction guides, and one tour package page at /packages/<state> linking back to those guides. Every guide links forward to its state's package page and to Plan My Trip. The guides stay independent: Kudozz Club does not accept paid placements in guide content.
 
+An Adventure Travel cluster, with its hub at /adventure-travel, covers adventure activities (such as river rafting, paragliding, scuba diving, skiing and trekking), destination adventure hubs (such as /blog/adventure-activities-in-ladakh), weekend trips from major cities and planning guides. Each article gives seasons, difficulty, safety guidance and FAQs, and links on to the relevant destination guide, things-to-do article, itinerary, tour package and Plan My Trip. Seasonal closures (for example, Rishikesh rafting in the peak monsoon and the Bir Billing paragliding ban from 15 July to 15 September) are stated as current at the time of writing and should be checked before travel.
+
+A Beach Travel cluster, with its hub at /beach-travel, has one beach guide per coastal state or island group (/blog/best-beaches-in-<state>), overview guides (best beach destinations, best beaches, beach holidays, beach trips from cities, beach tourism and coastal tourism), and guides to dolphin watching, beach honeymoons, offbeat beaches, seasons and beach safety. Water activities (diving, snorkelling, surfing, kayaking, water sports) are covered in the Adventure Travel cluster and linked from the beach pages. Swimming rules, monsoon bans and Blue Flag status are stated as current at the time of writing and should be checked before travel.
+
+A Wildlife Tourism cluster, with its hub at /wildlife-tourism, has overview guides (best wildlife destinations, national parks, sanctuaries and safaris), tiger guides (tiger safari, best tiger reserves, planning a tiger safari, and Pench, Satpura and Sariska), species guides (where to see wildlife, leopards, rhinos and snow leopards), birdwatching, one guide per major wildlife state (/blog/wildlife-tourism-in-<state>), and planning guides on seasons, packing, photography and responsible tourism. Existing destination guides (such as Ranthambore, Jim Corbett, Kanha, Kaziranga and Gir) remain the main page for each park. Park seasons, closures and figures such as tiger and lion counts are stated as current at the time of writing and should be checked before travel.
+
+A Spiritual Tourism cluster, with its hub at /spiritual-tourism, covers pilgrimage places and famous temples, the twelve Jyotirlingas (with the four Jyotirlinga temples that had no guide), the Char Dham Yatra of Uttarakhand and the separate four dhams of India, the Shakti Peethas, the Buddhist Circuit, Sikh pilgrimage and the Panj Takht, Jain tirthas, Sufi shrines, one guide per major spiritual state (/blog/spiritual-tourism-in-<state>), festivals and the Kumbh Mela, planning, and yoga retreats. Existing destination guides (such as Varanasi, Tirupati, Somnath and the Golden Temple) remain the main page for each sacred place. Where traditions differ on lists (Jyotirlingas, Shakti Peethas), the pages name the variations; dates, registrations and closures are stated as current at the time of writing and should be checked before travel.
+
+A Heritage & Cultural Tourism cluster, with its hub at /heritage-cultural-tourism, covers historical places and the full list of India's 45 UNESCO World Heritage Sites (as of September 2026, including the Maratha Military Landscapes in 2025 and Sarnath in 2026), visitor guides to major monuments that had no page of their own (such as the Taj Mahal, Red Fort, Qutub Minar, Humayun's Tomb, Amber Fort, Mehrangarh and the Elephanta Caves), forts, palaces, archaeological sites and rock-cut caves, temple, Mughal, Deccan and colonial-era architecture, heritage cities and walks, museums, crafts, textiles, dance and music, cultural festivals, tribal tourism, food heritage and the mountain railways, one guide per major heritage state (/blog/heritage-tourism-in-<state>) and five itineraries. Existing destination guides (such as Agra, Jaipur, Hampi and Khajuraho) remain the main page for each place. Where archaeologists or historians disagree, the pages say so; timings, closures and festival dates are stated as current at the time of writing and should be checked before travel.
+
 For 143 major destinations, a "Things to do in <place>" article (/blog/things-to-do-in-<place>) sits beside the destination guide. It focuses on activities and experiences, grouped by type, with practical facts, suitability notes and FAQs, and links back to the guide for planning details.
 
+## Adventure travel
+
+- [Adventure Travel in India](https://club.kudozz.in/adventure-travel): the hub page.
+
+### Overviews
+
+- [Best Adventure Destinations in India, by Activity and Season](https://club.kudozz.in/blog/best-adventure-destinations-in-india)
+- [Adventure Sports in India: Land, Water and Air Activities](https://club.kudozz.in/blog/adventure-sports-in-india)
+
+### By activity
+
+- [Trekking in India: Best Treks by Region, Season and Difficulty](https://club.kudozz.in/blog/trekking-in-india)
+- [Beginner Treks in India: Easy Himalayan and Hill Treks](https://club.kudozz.in/blog/beginner-treks-in-india)
+- [Winter Treks in India: Snow Treks from December to March](https://club.kudozz.in/blog/winter-treks-in-india)
+- [Monsoon Treks in India: Rain-Shadow Himalaya and Sahyadri Trails](https://club.kudozz.in/blog/monsoon-treks-in-india)
+- [River Rafting in India: Rivers, Grades and Seasons](https://club.kudozz.in/blog/river-rafting-in-india)
+- [River Rafting in Rishikesh: Stretches, Rapids, Season and Safety](https://club.kudozz.in/blog/river-rafting-in-rishikesh)
+- [Paragliding in India: Best Sites, Seasons and What to Expect](https://club.kudozz.in/blog/paragliding-in-india)
+- [Scuba Diving in India: Best Dive Sites and Seasons](https://club.kudozz.in/blog/scuba-diving-in-india)
+- [Scuba Diving in the Andaman Islands: Sites, Courses and Season](https://club.kudozz.in/blog/scuba-diving-in-andaman)
+- [Snorkelling in India: Best Reefs and Lagoons](https://club.kudozz.in/blog/snorkeling-in-india)
+- [Skiing in India: Gulmarg, Auli, Solang and the Ski Season](https://club.kudozz.in/blog/skiing-in-india)
+- [Bungee Jumping in India: Where to Jump and What to Know](https://club.kudozz.in/blog/bungee-jumping-in-india)
+- [Skydiving in India: Drop Zones, Jump Types and Seasons](https://club.kudozz.in/blog/skydiving-in-india)
+- [Hot Air Balloon Rides in India: Where and When to Fly](https://club.kudozz.in/blog/hot-air-balloon-rides-in-india)
+- [Mountain Biking in India: Trails, Routes and Seasons](https://club.kudozz.in/blog/mountain-biking-in-india)
+- [Best Motorcycle Trips in India: Routes for Every Season](https://club.kudozz.in/blog/best-motorcycle-trips-in-india)
+- [Spiti Valley Bike Trip: Route, Season and Riding Tips](https://club.kudozz.in/blog/spiti-valley-bike-trip)
+- [Rock Climbing in India: Crags, Bouldering and Courses](https://club.kudozz.in/blog/rock-climbing-in-india)
+- [Mountaineering in India: Courses, Institutes and First Peaks](https://club.kudozz.in/blog/mountaineering-in-india)
+- [Camping in India: Best Places and How to Camp Well](https://club.kudozz.in/blog/camping-in-india)
+- [Kayaking in India: Rivers, Lakes, Backwaters and Mangroves](https://club.kudozz.in/blog/kayaking-in-india)
+- [Surfing in India: Surf Towns, Schools and Seasons](https://club.kudozz.in/blog/surfing-in-india)
+- [Water Sports in India: Where to Try What](https://club.kudozz.in/blog/water-sports-in-india)
+- [Desert Adventures in India: Thar, Rann and Cold Deserts](https://club.kudozz.in/blog/desert-adventures-in-india)
+
+### By destination
+
+- [Adventure Activities in Manali: Paragliding, Skiing, Rafting and Treks](https://club.kudozz.in/blog/adventure-activities-in-manali)
+- [Adventure Activities in Ladakh: Rafting, Treks, Rides and Peaks](https://club.kudozz.in/blog/adventure-activities-in-ladakh)
+- [Adventure Activities in Himachal Pradesh, Region by Region](https://club.kudozz.in/blog/adventure-activities-in-himachal-pradesh)
+- [Adventure Activities in Uttarakhand: Rafting, Treks, Skiing and More](https://club.kudozz.in/blog/adventure-activities-in-uttarakhand)
+- [Adventure Activities in Goa: Water Sports, Kayaking and Treks](https://club.kudozz.in/blog/adventure-activities-in-goa)
+- [Adventure Activities in the Andaman Islands](https://club.kudozz.in/blog/adventure-activities-in-andaman)
+- [Adventure Activities in Sikkim: Treks, Rafting and Paragliding](https://club.kudozz.in/blog/adventure-activities-in-sikkim)
+- [Adventure Activities in Meghalaya: Caves, Root Bridges and Rivers](https://club.kudozz.in/blog/adventure-activities-in-meghalaya)
+
+### Weekend trips
+
+- [Weekend Adventure Trips from Delhi](https://club.kudozz.in/blog/weekend-adventure-trips-from-delhi)
+- [Weekend Adventure Trips from Mumbai and Pune](https://club.kudozz.in/blog/weekend-adventure-trips-from-mumbai)
+- [Weekend Adventure Trips from Bengaluru](https://club.kudozz.in/blog/weekend-adventure-trips-from-bengaluru)
+
+### Planning
+
+- [How to Plan an Adventure Trip in India](https://club.kudozz.in/blog/how-to-plan-an-adventure-trip-in-india)
+- [Adventure Travel Packing List for India](https://club.kudozz.in/blog/adventure-travel-packing-list-india)
+- [Best Time for Adventure Travel in India, Month by Month](https://club.kudozz.in/blog/best-time-for-adventure-travel-in-india)
+- [Adventure Travel for Beginners in India](https://club.kudozz.in/blog/adventure-travel-for-beginners-in-india)
+
+## Beach travel
+
+- [Beach Travel in India](https://club.kudozz.in/beach-travel): the hub page.
+
+### Overviews
+
+- [Best Beach Destinations in India, by Coast and Travel Style](https://club.kudozz.in/blog/best-beach-destinations-in-india)
+- [Best Beaches in India: The Standout Beaches, Coast by Coast](https://club.kudozz.in/blog/best-beaches-in-india)
+- [Beach Holidays in India: How to Choose by Traveller, Budget and Season](https://club.kudozz.in/blog/beach-holidays-in-india)
+- [Beach Trips in India: Short Breaks from Mumbai, Bengaluru, Chennai, Kolkata and Delhi](https://club.kudozz.in/blog/beach-trips-in-india)
+- [Beach Tourism in India: Blue Flag Beaches, Coastal Rules and Responsible Travel](https://club.kudozz.in/blog/beach-tourism-in-india)
+- [Coastal Tourism in India: Backwaters, Lighthouses, Forts and Fishing Villages](https://club.kudozz.in/blog/coastal-tourism-in-india)
+
+### Beaches by state
+
+- [Best Beaches in Goa: North and South Goa Beach by Beach](https://club.kudozz.in/blog/best-beaches-in-goa)
+- [Best Beaches in the Andaman Islands: Havelock, Neil, Port Blair and Beyond](https://club.kudozz.in/blog/best-beaches-in-andaman)
+- [Best Beaches in Lakshadweep: Islands, Lagoons and Permits](https://club.kudozz.in/blog/best-beaches-in-lakshadweep)
+- [Best Beaches in Kerala: From Varkala and Kovalam to the Malabar Coast](https://club.kudozz.in/blog/best-beaches-in-kerala)
+- [Best Beaches in Karnataka: Gokarna, Udupi, Murudeshwar and Karwar](https://club.kudozz.in/blog/best-beaches-in-karnataka)
+- [Best Beaches in Maharashtra: Konkan Coast from Alibaug to Tarkarli](https://club.kudozz.in/blog/best-beaches-in-maharashtra)
+- [Best Beaches in Tamil Nadu: Chennai, Mahabalipuram, Rameswaram and Kanyakumari](https://club.kudozz.in/blog/best-beaches-in-tamil-nadu)
+- [Best Beaches in Odisha: Puri, Chandrabhaga, Gopalpur and Chandipur](https://club.kudozz.in/blog/best-beaches-in-odisha)
+- [Best Beaches in Gujarat: Shivrajpur, Mandvi, Dwarka and the Saurashtra Coast](https://club.kudozz.in/blog/best-beaches-in-gujarat)
+- [Best Beaches in Andhra Pradesh: Visakhapatnam's Coast and Beyond](https://club.kudozz.in/blog/best-beaches-in-andhra-pradesh)
+- [Best Beaches in West Bengal: Digha, Mandarmani, Tajpur and Bakkhali](https://club.kudozz.in/blog/best-beaches-in-west-bengal)
+- [Best Beaches in Puducherry: Paradise, Serenity, Auroville and Rock Beach](https://club.kudozz.in/blog/best-beaches-in-puducherry)
+
+### Activities
+
+- [Dolphin Watching in India: Where to See Dolphins on the Coast](https://club.kudozz.in/blog/dolphin-watching-in-india)
+
+### Planning and traveller guides
+
+- [Beach Honeymoon Destinations in India](https://club.kudozz.in/blog/beach-honeymoon-destinations-in-india)
+- [Offbeat Beaches in India: Quiet Coasts Worth the Detour](https://club.kudozz.in/blog/offbeat-beaches-in-india)
+- [Best Time for Beach Holidays in India, Month by Month](https://club.kudozz.in/blog/best-time-for-beach-holidays-in-india)
+- [Beach Safety in India: Flags, Rip Currents, Monsoon Rules and Marine Life](https://club.kudozz.in/blog/beach-safety-in-india)
+
+## Wildlife tourism
+
+- [Wildlife Tourism in India](https://club.kudozz.in/wildlife-tourism): the hub page.
+
+### Overviews
+
+- [Best Wildlife Destinations in India, by Species and Season](https://club.kudozz.in/blog/best-wildlife-destinations-in-india)
+- [Best National Parks in India for Wildlife](https://club.kudozz.in/blog/best-national-parks-in-india)
+- [Best Wildlife Sanctuaries in India](https://club.kudozz.in/blog/best-wildlife-sanctuaries-in-india)
+- [Best Wildlife Safaris in India: Jeep, Canter, Boat and Walking Safaris](https://club.kudozz.in/blog/best-wildlife-safaris-in-india)
+
+### Tigers and tiger reserves
+
+- [Tiger Safari in India: Best Reserves, Best Time and Planning Tips](https://club.kudozz.in/blog/tiger-safari-in-india)
+- [Best Tiger Reserves in India, and How the Reserve System Works](https://club.kudozz.in/blog/best-tiger-reserves-in-india)
+- [How to Plan a Tiger Safari in India: Booking, Zones and Costs](https://club.kudozz.in/blog/how-to-plan-a-tiger-safari-in-india)
+- [Pench Tiger Reserve: Safari Gates, Zones, Best Time and Travel Guide](https://club.kudozz.in/blog/pench-tiger-reserve)
+- [Satpura Tiger Reserve: Walking, Boat and Jeep Safaris](https://club.kudozz.in/blog/satpura-tiger-reserve)
+- [Sariska Tiger Reserve: Safari, Zones, Best Time and Travel Guide](https://club.kudozz.in/blog/sariska-tiger-reserve)
+
+### Species and birdwatching
+
+- [Where to See Wildlife in India, Species by Species](https://club.kudozz.in/blog/where-to-see-wildlife-in-india)
+- [Leopard Safari in India: Jawai, Jhalana, Kabini and More](https://club.kudozz.in/blog/leopard-safari-in-india)
+- [Where to See One-Horned Rhinos in India](https://club.kudozz.in/blog/where-to-see-rhinos-in-india)
+- [Snow Leopard Tours in India: Hemis, Ulley and Spiti](https://club.kudozz.in/blog/snow-leopard-tours-in-india)
+- [Birdwatching in India: Best Destinations and Seasons for Birding](https://club.kudozz.in/blog/birdwatching-in-india)
+
+### Wildlife by state
+
+- [Wildlife Tourism in Assam: Kaziranga, Manas, Pobitora and More](https://club.kudozz.in/blog/wildlife-tourism-in-assam)
+- [Wildlife Tourism in Gujarat: Gir Lions, Wild Ass and Wetlands](https://club.kudozz.in/blog/wildlife-tourism-in-gujarat)
+- [Wildlife Tourism in Karnataka: Kabini, Nagarhole, Bandipur and Bhadra](https://club.kudozz.in/blog/wildlife-tourism-in-karnataka)
+- [Wildlife Tourism in Kerala: Periyar, Wayanad, Thattekad and More](https://club.kudozz.in/blog/wildlife-tourism-in-kerala)
+- [Wildlife Tourism in Madhya Pradesh: Kanha, Bandhavgarh, Pench and More](https://club.kudozz.in/blog/wildlife-tourism-in-madhya-pradesh)
+- [Wildlife Tourism in Maharashtra: Tadoba, Pench and Vidarbha's Tiger Country](https://club.kudozz.in/blog/wildlife-tourism-in-maharashtra)
+- [Wildlife Tourism in Odisha: Similipal, Bhitarkanika and Chilika](https://club.kudozz.in/blog/wildlife-tourism-in-odisha)
+- [Wildlife Tourism in Rajasthan: Ranthambore, Sariska, Leopards and Birds](https://club.kudozz.in/blog/wildlife-tourism-in-rajasthan)
+- [Wildlife Tourism in Tamil Nadu: Mudumalai, Anamalai and Bird Sanctuaries](https://club.kudozz.in/blog/wildlife-tourism-in-tamil-nadu)
+- [Wildlife Tourism in Uttarakhand: Corbett, Rajaji and the High Himalaya](https://club.kudozz.in/blog/wildlife-tourism-in-uttarakhand)
+- [Wildlife Tourism in West Bengal: Sundarbans and the Dooars](https://club.kudozz.in/blog/wildlife-tourism-in-west-bengal)
+
+### Planning
+
+- [How to Plan a Wildlife Safari in India](https://club.kudozz.in/blog/how-to-plan-a-wildlife-safari-in-india)
+- [Best Time for Wildlife Safari in India, Month by Month](https://club.kudozz.in/blog/best-time-for-wildlife-safari-in-india)
+- [Wildlife Safari Packing List and What to Wear](https://club.kudozz.in/blog/wildlife-safari-packing-list)
+- [Wildlife Photography in India: Where to Go and How to Shoot Responsibly](https://club.kudozz.in/blog/wildlife-photography-in-india)
+- [Responsible Wildlife Tourism in India: Safari Rules and Ethics](https://club.kudozz.in/blog/responsible-wildlife-tourism-in-india)
+## Spiritual tourism
+
+- [Spiritual Tourism in India](https://club.kudozz.in/spiritual-tourism): the hub page.
+
+### Overviews and planning
+
+- [Best Pilgrimage Places in India: Holy Sites of Every Faith](https://club.kudozz.in/blog/best-pilgrimage-places-in-india)
+- [Famous Temples in India: A Region-by-Region Guide for Visitors](https://club.kudozz.in/blog/famous-temples-in-india)
+- [How to Plan a Pilgrimage in India: Routes, Stays and Darshan](https://club.kudozz.in/blog/how-to-plan-a-pilgrimage-in-india)
+- [Pilgrimage Packing List and What to Wear at Temples and Shrines](https://club.kudozz.in/blog/pilgrimage-packing-list)
+- [Spiritual Festivals in India: Melas, Yatras and Sacred Celebrations](https://club.kudozz.in/blog/spiritual-festivals-in-india)
+- [Kumbh Mela: The Four Sites, the Cycle and the Next Melas](https://club.kudozz.in/blog/kumbh-mela)
+
+### Jyotirlingas
+
+- [The 12 Jyotirlingas: Names, Locations and How to Visit](https://club.kudozz.in/blog/12-jyotirlingas-in-india)
+- [Jyotirlinga Yatra: Routes, Itineraries and Planning](https://club.kudozz.in/blog/jyotirlinga-yatra)
+- [Jyotirlingas in Maharashtra: Trimbakeshwar, Bhimashankar, Grishneshwar and More](https://club.kudozz.in/blog/jyotirlingas-in-maharashtra)
+- [Trimbakeshwar Jyotirlinga: Temple Guide, Darshan and How to Reach](https://club.kudozz.in/blog/trimbakeshwar-jyotirlinga)
+- [Bhimashankar Jyotirlinga: Temple Guide, Route from Pune and Best Time](https://club.kudozz.in/blog/bhimashankar-jyotirlinga)
+- [Grishneshwar Jyotirlinga: Temple Guide near Ellora](https://club.kudozz.in/blog/grishneshwar-jyotirlinga)
+- [Nageshwar Jyotirlinga: Temple Guide near Dwarka](https://club.kudozz.in/blog/nageshwar-jyotirlinga)
+
+### Char Dham and Shakti Peethas
+
+- [Char Dham Yatra Guide: Route, Registration, Dates and Planning](https://club.kudozz.in/blog/char-dham-yatra-guide)
+- [The Char Dham of India: Badrinath, Dwarka, Puri and Rameswaram](https://club.kudozz.in/blog/char-dham-of-india)
+- [Kedarnath and Badrinath Yatra (Do Dham): Route and Itinerary](https://club.kudozz.in/blog/kedarnath-badrinath-yatra)
+- [Shakti Peethas in India: The 18 and 51 Lists, and How to Visit](https://club.kudozz.in/blog/shakti-peethas-in-india)
+
+### Buddhist, Sikh, Jain and Sufi
+
+- [The Buddhist Circuit in India: Sites, Route and Itinerary](https://club.kudozz.in/blog/buddhist-circuit-in-india)
+- [Buddhist Tourism in India: Sacred Sites and Monasteries](https://club.kudozz.in/blog/buddhist-tourism-in-india)
+- [Sikh Pilgrimage in India: Historic Gurdwaras and Takhts](https://club.kudozz.in/blog/sikh-pilgrimage-in-india)
+- [Panj Takht Yatra: The Five Takhts and How to Visit Them](https://club.kudozz.in/blog/panj-takht-yatra)
+- [Hemkund Sahib Yatra: Trek Route, Dates and Registration](https://club.kudozz.in/blog/hemkund-sahib-yatra)
+- [Jain Pilgrimage in India: Tirthas, Temples and How to Visit](https://club.kudozz.in/blog/jain-pilgrimage-in-india)
+- [Ranakpur Jain Temple: Visiting Guide, Timings and How to Reach](https://club.kudozz.in/blog/ranakpur-jain-temple)
+- [Shravanabelagola: Gommateshwara Statue, Climb and Visiting Guide](https://club.kudozz.in/blog/shravanabelagola-gommateshwara)
+- [Sufi Shrines in India: Famous Dargahs and How to Visit Respectfully](https://club.kudozz.in/blog/sufi-shrines-in-india)
+
+### Spiritual travel by state
+
+- [Spiritual Tourism in Andhra Pradesh: Tirupati, Srisailam and Srikalahasti](https://club.kudozz.in/blog/spiritual-tourism-in-andhra-pradesh)
+- [Spiritual Tourism in Bihar: Bodh Gaya, Gaya, Patna Sahib and Pawapuri](https://club.kudozz.in/blog/spiritual-tourism-in-bihar)
+- [Spiritual Tourism in Gujarat: Somnath, Dwarka, Ambaji and Jain Tirthas](https://club.kudozz.in/blog/spiritual-tourism-in-gujarat)
+- [Spiritual Tourism in Himachal Pradesh: Shakti Temples and Tibetan Monasteries](https://club.kudozz.in/blog/spiritual-tourism-in-himachal-pradesh)
+- [Spiritual Tourism in Jammu and Kashmir: Vaishno Devi, Amarnath and Hazratbal](https://club.kudozz.in/blog/spiritual-tourism-in-jammu-and-kashmir)
+- [Spiritual Tourism in Karnataka: Udupi, Dharmasthala, Shravanabelagola and Hampi](https://club.kudozz.in/blog/spiritual-tourism-in-karnataka)
+- [Spiritual Tourism in Kerala: Guruvayur, Sabarimala and Temple Traditions](https://club.kudozz.in/blog/spiritual-tourism-in-kerala)
+- [Spiritual Tourism in Madhya Pradesh: Ujjain, Omkareshwar, Orchha and Sanchi](https://club.kudozz.in/blog/spiritual-tourism-in-madhya-pradesh)
+- [Spiritual Tourism in Maharashtra: Jyotirlingas, Shirdi, Pandharpur and Ashtavinayak](https://club.kudozz.in/blog/spiritual-tourism-in-maharashtra)
+- [Spiritual Tourism in Odisha: Puri, Bhubaneswar and Konark](https://club.kudozz.in/blog/spiritual-tourism-in-odisha)
+- [Spiritual Tourism in Rajasthan: Pushkar, Ajmer, Nathdwara and Jain Temples](https://club.kudozz.in/blog/spiritual-tourism-in-rajasthan)
+- [Spiritual Tourism in Tamil Nadu: Madurai, Rameswaram and the Great Temple Towns](https://club.kudozz.in/blog/spiritual-tourism-in-tamil-nadu)
+- [Spiritual Tourism in Uttar Pradesh: Varanasi, Ayodhya, Prayagraj and Braj](https://club.kudozz.in/blog/spiritual-tourism-in-uttar-pradesh)
+- [Spiritual Tourism in Uttarakhand: Char Dham, Haridwar, Rishikesh and Beyond](https://club.kudozz.in/blog/spiritual-tourism-in-uttarakhand)
+- [Spiritual Tourism in West Bengal: Kalighat, Dakshineswar, Tarapith and Mayapur](https://club.kudozz.in/blog/spiritual-tourism-in-west-bengal)
+
+### Itineraries, short trips and retreats
+
+- [Ayodhya, Varanasi and Prayagraj: A Pilgrimage Itinerary](https://club.kudozz.in/blog/ayodhya-varanasi-prayagraj-tour)
+- [Pilgrimage Trips from Delhi: Temples and Shrines Within Reach](https://club.kudozz.in/blog/pilgrimage-trips-from-delhi)
+- [Pilgrimage Trips from Mumbai: Temples and Shrines Within Reach](https://club.kudozz.in/blog/pilgrimage-trips-from-mumbai)
+- [Yoga and Meditation Retreats in India: Ashrams and Centres](https://club.kudozz.in/blog/yoga-and-meditation-retreats-in-india)
+- [Yoga in Rishikesh: Ashrams, Courses and How to Choose](https://club.kudozz.in/blog/yoga-in-rishikesh)
+## Heritage and cultural tourism
+
+- [Heritage & Cultural Tourism in India](https://club.kudozz.in/heritage-cultural-tourism): the hub page.
+
+### Overviews and planning
+
+- [Historical Places in India: Monuments and Heritage Destinations](https://club.kudozz.in/blog/historical-places-in-india)
+- [How to Plan a Heritage Trip in India: Tickets, Guides and Timing](https://club.kudozz.in/blog/how-to-plan-a-heritage-trip-in-india)
+- [UNESCO World Heritage Sites in India: The Full List and How to Visit](https://club.kudozz.in/blog/unesco-world-heritage-sites-in-india)
+
+### UNESCO monuments
+
+- [Taj Mahal: History, Visiting Guide and Tips](https://club.kudozz.in/blog/taj-mahal)
+- [Red Fort, Delhi: History and Visiting Guide](https://club.kudozz.in/blog/red-fort)
+- [Qutub Minar: History and Visiting Guide](https://club.kudozz.in/blog/qutub-minar)
+- [Humayun's Tomb: History and Visiting Guide](https://club.kudozz.in/blog/humayuns-tomb)
+- [Amber Fort (Amer Fort), Jaipur: History and Visiting Guide](https://club.kudozz.in/blog/amber-fort)
+- [Mehrangarh Fort, Jodhpur: History and Visiting Guide](https://club.kudozz.in/blog/mehrangarh-fort)
+- [Elephanta Caves: History, Ferry and Visiting Guide](https://club.kudozz.in/blog/elephanta-caves)
+- [Champaner-Pavagadh Archaeological Park: Visiting Guide](https://club.kudozz.in/blog/champaner-pavagadh)
+- [Lothal: Harappan Port Town and Visiting Guide](https://club.kudozz.in/blog/lothal)
+- [Belur, Halebidu and Somanathapura: Visiting the Hoysala Temples](https://club.kudozz.in/blog/belur-halebidu-hoysala-temples)
+
+### Forts, palaces, archaeology and architecture
+
+- [Famous Forts in India: A Region-by-Region Guide](https://club.kudozz.in/blog/famous-forts-in-india)
+- [Forts of Rajasthan: The UNESCO Hill Forts and Beyond](https://club.kudozz.in/blog/forts-of-rajasthan)
+- [Forts in Maharashtra: The Maratha Military Landscapes and More](https://club.kudozz.in/blog/forts-in-maharashtra)
+- [Palaces in India: Royal Heritage and How to Visit](https://club.kudozz.in/blog/palaces-in-india)
+- [Archaeological Sites in India: From Harappan Cities to Ancient Universities](https://club.kudozz.in/blog/archaeological-sites-in-india)
+- [Ancient Caves in India: Rock-Cut Temples and Monasteries](https://club.kudozz.in/blog/rock-cut-caves-in-india)
+- [Temple Architecture of India: A Traveller's Guide to the Styles](https://club.kudozz.in/blog/temple-architecture-of-india)
+- [Mughal Monuments in India: A Heritage Trail](https://club.kudozz.in/blog/mughal-monuments-in-india)
+- [Deccan Heritage: Bijapur, Bidar, Gulbarga and Golconda](https://club.kudozz.in/blog/deccan-sultanate-heritage)
+- [Colonial-Era Heritage in India: Portuguese, French, Danish and British Towns](https://club.kudozz.in/blog/colonial-heritage-in-india)
+
+### Cities, museums and living culture
+
+- [Heritage Cities in India: Old Cities Worth Exploring](https://club.kudozz.in/blog/heritage-cities-in-india)
+- [Heritage Walks in India: Old City Walks Worth Taking](https://club.kudozz.in/blog/heritage-walks-in-india)
+- [Best Museums in India: History, Art and Culture](https://club.kudozz.in/blog/best-museums-in-india)
+- [Handicrafts of India: Crafts, Artisan Villages and Where to Buy](https://club.kudozz.in/blog/handicrafts-of-india)
+- [Textile Heritage of India: Handlooms, Sarees and Weaving Towns](https://club.kudozz.in/blog/textile-heritage-of-india)
+- [Classical Dance and Music in India: Where to Watch and Learn](https://club.kudozz.in/blog/classical-dance-and-music-in-india)
+- [Cultural Festivals in India: A Traveller's Calendar](https://club.kudozz.in/blog/cultural-festivals-in-india)
+- [Hornbill Festival, Nagaland: Dates, Kisama and How to Visit](https://club.kudozz.in/blog/hornbill-festival)
+- [Rann Utsav, Kutch: Dates, Tent City and How to Visit](https://club.kudozz.in/blog/rann-utsav)
+- [Tribal and Indigenous Culture in India: A Responsible Traveller's Guide](https://club.kudozz.in/blog/tribal-tourism-in-india)
+- [Food Heritage of India: Regional Cuisines for Travellers](https://club.kudozz.in/blog/food-heritage-of-india)
+- [Mountain Railways of India: The UNESCO Toy Trains and Other Heritage Journeys](https://club.kudozz.in/blog/mountain-railways-of-india)
+
+### Heritage itineraries
+
+- [Golden Triangle Itinerary: Delhi, Agra and Jaipur in 5 Days](https://club.kudozz.in/blog/golden-triangle-itinerary)
+- [Rajasthan Heritage Itinerary: Forts, Palaces and Old Cities in 10 to 14 Days](https://club.kudozz.in/blog/rajasthan-heritage-itinerary)
+- [South India Heritage Itinerary: Karnataka and Tamil Nadu](https://club.kudozz.in/blog/south-india-heritage-itinerary)
+- [Gujarat Heritage Itinerary: Ahmedabad, Patan, Kutch and Saurashtra](https://club.kudozz.in/blog/gujarat-heritage-itinerary)
+- [Madhya Pradesh Heritage Itinerary: Gwalior, Orchha, Khajuraho, Sanchi and Mandu](https://club.kudozz.in/blog/madhya-pradesh-heritage-itinerary)
+
+### Heritage travel by state
+
+- [Heritage Tourism in Delhi: Monuments of the Seven Cities](https://club.kudozz.in/blog/heritage-tourism-in-delhi)
+- [Heritage Tourism in Gujarat: Stepwells, Harappan Cities and Old Ahmedabad](https://club.kudozz.in/blog/heritage-tourism-in-gujarat)
+- [Heritage Tourism in Karnataka: Hampi, Hoysala Temples and Deccan Forts](https://club.kudozz.in/blog/heritage-tourism-in-karnataka)
+- [Heritage Tourism in Kerala: Kochi, Palaces and Performing Arts](https://club.kudozz.in/blog/heritage-tourism-in-kerala)
+- [Heritage Tourism in Madhya Pradesh: Khajuraho, Gwalior, Orchha and Mandu](https://club.kudozz.in/blog/heritage-tourism-in-madhya-pradesh)
+- [Heritage Tourism in Maharashtra: Caves, Forts and Mumbai's Architecture](https://club.kudozz.in/blog/heritage-tourism-in-maharashtra)
+- [Heritage Tourism in Odisha: Konark, Temple Towns and Living Crafts](https://club.kudozz.in/blog/heritage-tourism-in-odisha)
+- [Heritage Tourism in Rajasthan: Forts, Palaces and Painted Towns](https://club.kudozz.in/blog/heritage-tourism-in-rajasthan)
+- [Heritage Tourism in Tamil Nadu: Chola Temples, Mahabalipuram and Chettinad](https://club.kudozz.in/blog/heritage-tourism-in-tamil-nadu)
+- [Heritage Tourism in Telangana: Hyderabad, Golconda and Warangal](https://club.kudozz.in/blog/heritage-tourism-in-telangana)
+- [Heritage Tourism in Uttar Pradesh: Agra, Lucknow, Varanasi and Beyond](https://club.kudozz.in/blog/heritage-tourism-in-uttar-pradesh)
+- [Heritage Tourism in West Bengal: Kolkata, Bishnupur, Murshidabad and Santiniketan](https://club.kudozz.in/blog/heritage-tourism-in-west-bengal)
 ## Popular circuits
 
 - [Golden Triangle Tour Packages](https://club.kudozz.in/packages/golden-triangle): Delhi, Agra and Jaipur; 5–6 days typical.
@@ -40,6 +343,7 @@ For 143 major destinations, a "Things to do in <place>" article (/blog/things-to
 - [Adventure Trips](https://club.kudozz.in/packages/adventure-tours): Trekking, rafting, road trips.
 - [Wildlife Trips](https://club.kudozz.in/packages/wildlife-tours): National parks and safaris.
 - [Spiritual & Pilgrimage](https://club.kudozz.in/packages/spiritual-tours): Char Dham, temple circuits.
+- [Heritage & Culture](https://club.kudozz.in/packages/heritage-tours): Forts, palaces, UNESCO sites.
 - [Luxury Holidays](https://club.kudozz.in/packages/luxury-holidays): Premium stays, private transport.
 - [Budget Holidays](https://club.kudozz.in/packages/budget-holidays): Value-conscious, still well-planned.
 

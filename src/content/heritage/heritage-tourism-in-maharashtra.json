@@ -1,0 +1,362 @@
+{
+  "slug": "heritage-tourism-in-maharashtra",
+  "kind": "state",
+  "short": "Heritage tourism in Maharashtra",
+  "title": "Heritage Tourism in Maharashtra: Caves, Forts and Mumbai's Architecture",
+  "seoTitle": "Heritage Tourism in Maharashtra: Caves, Forts & Mumbai | Kudozz Club",
+  "metaDescription": "Maharashtra's heritage: Ajanta, Ellora and Elephanta, the UNESCO Maratha forts, Mumbai's CSMT and Art Deco, Daulatabad, Pune, crafts and festivals, with routes.",
+  "description": "A guide to heritage tourism in Maharashtra: its six UNESCO cultural sites (Ajanta, Ellora, Elephanta, Chhatrapati Shivaji Maharaj Terminus, Mumbai's Victorian Gothic and Art Deco Ensembles, and the Maratha Military Landscapes), other caves and forts, Chhatrapati Sambhajinagar and Pune, Paithani and Warli, Ganeshotsav and Lavani, and how to plan a route.",
+  "dek": "Maharashtra has more UNESCO cultural sites than any other Indian state, from ancient cave temples to colonial Mumbai and the Maratha forts.",
+  "primaryKeyword": "heritage places in Maharashtra",
+  "secondaryKeywords": [
+    "historical places in Maharashtra",
+    "monuments in Maharashtra",
+    "Maharashtra heritage tour"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "monuments",
+    "UNESCO sites",
+    "crafts",
+    "heritage walks"
+  ],
+  "terrain": [
+    "varied"
+  ],
+  "regions": [
+    "Maharashtra"
+  ],
+  "seasons": [
+    "winter",
+    "monsoon"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "history lovers"
+  ],
+  "tags": [
+    "Maharashtra",
+    "Heritage",
+    "Caves",
+    "Forts",
+    "Mumbai"
+  ],
+  "hero": {
+    "src": "/images/heritage/heritage-maharashtra-ellora-kailasa.webp",
+    "alt": "The Kailasa temple (Cave 16) at Ellora, carved from the hillside"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Heritage of Maharashtra",
+    "containedIn": "Maharashtra"
+  },
+  "intro": [
+    "Maharashtra's heritage spans more than two thousand years: Buddhist caves cut into the Deccan basalt from around the 2nd century BCE, the Hindu and Jain caves of Ellora, the Yadava fortress of Devagiri (Daulatabad), the Maratha forts of Shivaji Maharaj and his successors, and colonial and Art Deco Mumbai.",
+    "It has six UNESCO World Heritage cultural sites: the Ajanta Caves and Ellora Caves (1983), the Elephanta Caves (1987), Chhatrapati Shivaji Maharaj Terminus (2004), the Victorian Gothic and Art Deco Ensembles of Mumbai (2018) and the Maratha Military Landscapes of India (2025), which it shares with Tamil Nadu."
+  ],
+  "quickAnswer": "Maharashtra's heritage highlights are the Ajanta, Ellora and Elephanta caves, the Maratha forts such as Raigad, Shivneri and Sindhudurg (UNESCO 2025), Mumbai's CSMT and Victorian and Art Deco buildings, Daulatabad and Bibi ka Maqbara near Chhatrapati Sambhajinagar, the caves of Karla, Bhaja and Kanheri, and Pune's Maratha-era sites. Visit between October and March, or in the monsoon for forts.",
+  "takeaways": [
+    "Maharashtra has six UNESCO cultural sites.",
+    "Ajanta is usually closed on Mondays and Ellora on Tuesdays.",
+    "The Maratha forts were inscribed by UNESCO in 2025.",
+    "Mumbai's Fort precinct is one of India's best colonial-era walks.",
+    "Forts are best after the monsoon; caves are good all winter."
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "heading": "UNESCO World Heritage Sites",
+      "table": {
+        "columns": [
+          "Site",
+          "Year"
+        ],
+        "rows": [
+          [
+            "Ajanta Caves",
+            "1983"
+          ],
+          [
+            "Ellora Caves",
+            "1983"
+          ],
+          [
+            "Elephanta Caves",
+            "1987"
+          ],
+          [
+            "Chhatrapati Shivaji Maharaj Terminus",
+            "2004"
+          ],
+          [
+            "Victorian Gothic and Art Deco Ensembles of Mumbai",
+            "2018"
+          ],
+          [
+            "Maratha Military Landscapes of India",
+            "2025"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "caves",
+      "heading": "Caves",
+      "items": [
+        {
+          "name": "Ajanta, Ellora and more",
+          "body": [
+            "Ajanta's paintings and Ellora's Kailasa temple near Chhatrapati Sambhajinagar; Elephanta by ferry from Mumbai; Karla and Bhaja near Lonavala; Kanheri in Mumbai."
+          ],
+          "links": [
+            {
+              "label": "Ajanta and Ellora guide",
+              "href": "/blog/ajanta-ellora-travel-guide"
+            },
+            {
+              "label": "Elephanta Caves",
+              "href": "/blog/elephanta-caves"
+            },
+            {
+              "label": "Rock-cut caves in India",
+              "href": "/blog/rock-cut-caves-in-india"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/ajanta-ellora/ajanta-caves-ajanta-and-ellora-caves-2.webp",
+            "alt": "The Ajanta caves in their horseshoe gorge",
+            "caption": "Ajanta Caves"
+          }
+        }
+      ]
+    },
+    {
+      "id": "forts",
+      "heading": "Forts",
+      "items": [
+        {
+          "name": "The Maratha forts",
+          "body": [
+            "Raigad, Shivneri, Pratapgad, Rajgad, Lohagad, Panhala and the sea forts of the Konkan, plus Sinhagad, Daulatabad and Murud-Janjira."
+          ],
+          "links": [
+            {
+              "label": "Forts in Maharashtra",
+              "href": "/blog/forts-in-maharashtra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cities",
+      "heading": "Cities",
+      "items": [
+        {
+          "name": "Mumbai",
+          "body": [
+            "CSMT, the Fort precinct, Kala Ghoda, the Art Deco buildings of Marine Drive, and museums."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mumbai",
+              "href": "/blog/things-to-do-in-mumbai"
+            },
+            {
+              "label": "Colonial-era heritage",
+              "href": "/blog/colonial-heritage-in-india"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/mumbai/gateway-of-india-evening-mumbai.webp",
+            "alt": "The Gateway of India in the evening, Mumbai",
+            "caption": "Gateway of India"
+          }
+        },
+        {
+          "name": "Chhatrapati Sambhajinagar and Pune",
+          "body": [
+            "Bibi ka Maqbara, the Aurangabad caves, Daulatabad and Panchakki; Pune's Shaniwar Wada and Aga Khan Palace."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Aurangabad",
+              "href": "/blog/things-to-do-in-aurangabad"
+            },
+            {
+              "label": "Things to do in Pune",
+              "href": "/blog/things-to-do-in-pune"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Crafts and festivals",
+      "list": [
+        "Paithani silk saris from Paithan and Yeola.",
+        "Warli painting from the Palghar region.",
+        "Ganeshotsav, especially in Mumbai and Pune, in August or September.",
+        "Lavani and the folk theatre of Tamasha.",
+        "Kolhapuri chappals from Kolhapur."
+      ],
+      "items": [
+        {
+          "name": "Crafts",
+          "body": [
+            "Across India."
+          ],
+          "links": [
+            {
+              "label": "Handicrafts of India",
+              "href": "/blog/handicrafts-of-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "Buddhist monastic communities carved caves along trade routes through the Western Ghats from around the 2nd century BCE, supported by merchants and rulers such as the Satavahanas. The Rashtrakutas and Yadavas followed, then the Delhi Sultanate, the Bahmanis and the Nizam Shahis. In the 17th century Chhatrapati Shivaji Maharaj founded the Maratha state, which grew into a power across much of India. The British took Bombay from the Portuguese in 1661, and it grew into one of Asia's great commercial cities."
+      ]
+    },
+    {
+      "id": "getting-around",
+      "heading": "Getting around",
+      "paras": [
+        "Mumbai and Pune are the main gateways. Chhatrapati Sambhajinagar, the base for Ajanta and Ellora, has flights and trains. Forts are usually reached by road and on foot; the coastal forts are best combined with a Konkan road trip."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "October to March: caves, cities and coastal forts.",
+        "July to September: fort treks in the green Sahyadri, with care on slippery paths.",
+        "August or September: Ganeshotsav in Mumbai and Pune."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "Stay in south Mumbai for the Fort precinct, Colaba and the Elephanta ferries. Chhatrapati Sambhajinagar is the base for Ajanta, Ellora and Daulatabad; some travellers also stay near Ajanta to see the caves at opening time. For the Konkan sea forts, homestays in Malvan, Dapoli and Alibaug are good bases."
+      ]
+    },
+    {
+      "id": "lesser-known",
+      "heading": "Lesser-known heritage",
+      "list": [
+        "Lonar, with its crater lake and old temples.",
+        "The Pitalkhora caves near Chalisgaon.",
+        "Nashik's Pandavleni caves.",
+        "Kolhapur's New Palace museum and Panhala fort."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, weekly closures and tickets change; check the ASI, state tourism or the site before you go.",
+    "Living temples, mosques and shrines set their own rules on dress, entry and photography; follow what is posted."
+  ],
+  "packing": [
+    "Comfortable walking shoes",
+    "Scarf or shawl for places of worship",
+    "Hat, sunscreen and water",
+    "Photo ID for tickets"
+  ],
+  "faqs": [
+    {
+      "q": "How many UNESCO sites does Maharashtra have?",
+      "a": "Six cultural sites, plus part of the Western Ghats natural site."
+    },
+    {
+      "q": "Which days are Ajanta and Ellora closed?",
+      "a": "Ajanta is usually closed on Mondays and Ellora on Tuesdays; check before you go."
+    },
+    {
+      "q": "Which Maratha forts are UNESCO sites?",
+      "a": "Salher, Shivneri, Lohagad, Khanderi, Raigad, Rajgad, Pratapgad, Suvarnadurg, Panhala, Vijaydurg and Sindhudurg, with Gingee in Tamil Nadu."
+    },
+    {
+      "q": "What is the best base for Ajanta and Ellora?",
+      "a": "Chhatrapati Sambhajinagar (Aurangabad)."
+    },
+    {
+      "q": "When is the best time to visit?",
+      "a": "October to March for caves and cities; July to February for forts."
+    },
+    {
+      "q": "Can I see Mumbai's heritage in a day?",
+      "a": "You can see CSMT, the Fort precinct, Kala Ghoda and the Art Deco buildings on Marine Drive in a day, and Elephanta on another."
+    },
+    {
+      "q": "Are Maharashtra's forts suitable for families?",
+      "a": "Easier forts such as Sinhagad, Raigad (with the ropeway) and Shivneri suit families; longer treks need fitness."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Forts in Maharashtra",
+      "href": "/blog/forts-in-maharashtra"
+    },
+    {
+      "label": "Rock-cut caves in India",
+      "href": "/blog/rock-cut-caves-in-india"
+    },
+    {
+      "label": "Maharashtra travel guide",
+      "href": "/blog/maharashtra-travel-guide"
+    },
+    {
+      "label": "Maharashtra tour packages",
+      "href": "/packages/maharashtra"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Spiritual tourism in Maharashtra",
+      "href": "/blog/spiritual-tourism-in-maharashtra",
+      "note": "Jyotirlingas and Pandharpur"
+    },
+    {
+      "name": "Elephanta Caves",
+      "href": "/blog/elephanta-caves",
+      "note": "Mumbai's cave temples"
+    },
+    {
+      "name": "Colonial-era heritage",
+      "href": "/blog/colonial-heritage-in-india",
+      "note": "Mumbai's architecture"
+    }
+  ],
+  "places": [
+    "Ajanta",
+    "Ellora",
+    "Elephanta",
+    "Mumbai",
+    "Chhatrapati Sambhajinagar",
+    "Daulatabad",
+    "Pune",
+    "Raigad",
+    "Sindhudurg",
+    "Karla",
+    "Kanheri"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "Maharashtra",
+  "updated": "2026-09-26"
+}

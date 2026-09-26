@@ -1,0 +1,394 @@
+{
+  "slug": "paragliding-in-india",
+  "kind": "activity",
+  "short": "Paragliding in India",
+  "title": "Paragliding in India: Best Sites, Seasons and What to Expect",
+  "seoTitle": "Paragliding in India: Best Sites, Seasons & Tandem Tips | Kudozz Club",
+  "metaDescription": "Where to go paragliding in India: Bir Billing, Solang, Kamshet, Kalimpong, Vagamon and more, with flying seasons, the monsoon ban and tandem safety checks.",
+  "description": "A guide to paragliding in India: the main flying sites from Bir Billing in Himachal to Kamshet near Pune, when each site flies, what a tandem flight involves, the monsoon ban and how to choose a registered pilot.",
+  "dek": "From the long flights over the Kangra valley at Bir Billing to short hops over lakes and tea gardens, India has paragliding for first-timers and cross-country pilots. Here is where and when to fly.",
+  "primaryKeyword": "paragliding in India",
+  "secondaryKeywords": [
+    "best places for paragliding in India",
+    "paragliding in Bir Billing",
+    "Kamshet paragliding",
+    "Solang paragliding",
+    "tandem paragliding"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "paragliding"
+  ],
+  "terrain": [
+    "mountains",
+    "hills"
+  ],
+  "regions": [
+    "Himachal Pradesh",
+    "Maharashtra",
+    "West Bengal",
+    "Sikkim",
+    "Kerala",
+    "Uttarakhand",
+    "Jammu and Kashmir",
+    "Goa"
+  ],
+  "seasons": [
+    "autumn",
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "beginners",
+    "couples",
+    "solo",
+    "friends"
+  ],
+  "tags": [
+    "Paragliding",
+    "Adventure Sports",
+    "Bir Billing",
+    "Kamshet"
+  ],
+  "hero": {
+    "src": "/images/adventure/paragliding-himalaya-india.webp",
+    "alt": "Paragliding pilots at the Billing take-off with the Dhauladhar range behind",
+    "caption": "Billing take-off, Bir Billing"
+  },
+  "parent": {
+    "label": "Adventure Sports in India",
+    "href": "/blog/adventure-sports-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Paragliding in India"
+  },
+  "intro": [
+    "Paragliding is one of the easiest ways to try an air sport in India. On a tandem flight you are strapped in front of a trained pilot who does the flying; your job is to run a few steps at take-off and sit back. No experience is needed, and flights last anywhere from five minutes to half an hour or more depending on the site and the air.",
+    "India's best-known site is Bir Billing in Himachal Pradesh, which hosted the Paragliding World Cup in 2015 and draws solo pilots from around the world each autumn. Kamshet near Pune is the main training centre in western India, and there are smaller sites in Manali, Kalimpong, Gangtok, Vagamon, Naukuchiatal, Sanasar and Goa. This guide covers where to fly, when, and how to do it safely."
+  ],
+  "quickAnswer": "The best places for paragliding in India are Bir Billing in Himachal Pradesh, Solang Valley near Manali, Kamshet near Pune, Kalimpong and Gangtok in the eastern Himalaya, Vagamon in Kerala and Naukuchiatal in Uttarakhand. Most sites fly from October to May. Himachal's sites, including Bir Billing, close each monsoon from mid-July to mid-September. First-timers take tandem flights with a registered pilot.",
+  "takeaways": [
+    "Bir Billing is India's top paragliding site, with launches at Billing and landings at Bir far below.",
+    "Himachal suspends paragliding every monsoon, from 15 July to 15 September, on district orders.",
+    "Kamshet near Pune flies from about mid-October to late May and is the main place to learn in western India.",
+    "Tandem flights need no experience; solo flying needs a proper course over several days.",
+    "Choose registered pilots and operators, and check harnesses, reserve parachutes and helmets."
+  ],
+  "sections": [
+    {
+      "id": "sites",
+      "heading": "Best places for paragliding in India",
+      "items": [
+        {
+          "name": "Bir Billing, Himachal Pradesh",
+          "body": [
+            "Paragliders launch from the meadow at Billing, at about 2,400 metres, and land in the fields at Bir, about 1,000 metres lower, in the Kangra valley. Tandem flights typically last 15 to 30 minutes, and the site is famous for long cross-country flights along the Dhauladhar range. Autumn, from late September to November, usually has the most stable flying, with spring (March to May) the next best."
+          ],
+          "facts": {
+            "Take-off": "Billing, about 2,400 m",
+            "Season": "Mid-September to June, best October to November",
+            "Closed": "15 July to 15 September (monsoon ban)",
+            "Good for": "Tandem first-timers, courses, experienced pilots"
+          },
+          "links": [
+            {
+              "label": "Bir Billing travel guide",
+              "href": "/blog/bir-billing-travel-guide"
+            },
+            {
+              "label": "Things to do in Bir Billing",
+              "href": "/blog/things-to-do-in-bir-billing"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/bir-billing/bir-billing-paragliding-valley.webp",
+            "alt": "Paragliders above the valley at Bir Billing",
+            "caption": "Bir Billing"
+          }
+        },
+        {
+          "name": "Solang Valley and the Kullu valley, Himachal Pradesh",
+          "body": [
+            "Solang Valley, about 14 km from Manali, offers short tandem flights down the slopes, and operators also run longer flights from higher launch points in the Kullu valley. It is convenient if you are already in Manali, though flights at Solang are shorter than at Bir. The same monsoon ban applies."
+          ],
+          "facts": {
+            "Season": "Spring and autumn",
+            "Good for": "Short first flights on a Manali trip"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Manali",
+              "href": "/blog/adventure-activities-in-manali"
+            }
+          ]
+        },
+        {
+          "name": "Kamshet, Maharashtra",
+          "body": [
+            "Kamshet, off the old Mumbai to Pune highway near Lonavala, is the busiest paragliding centre in western India, with several schools running tandem flights and beginner courses. Tower Hill faces east and works in the winter mornings; Shelar faces west and works in the afternoons from about January to May. The season runs from about mid-October to late May."
+          ],
+          "facts": {
+            "Season": "About mid-October to late May",
+            "Good for": "Learning to fly, weekend trips from Mumbai and Pune"
+          },
+          "links": [
+            {
+              "label": "Weekend adventure trips from Mumbai",
+              "href": "/blog/weekend-adventure-trips-from-mumbai"
+            }
+          ]
+        },
+        {
+          "name": "Kalimpong and Gangtok, eastern Himalaya",
+          "body": [
+            "In Kalimpong, tandem flights launch from Deolo Hill over the Teesta valley. Operators near Gangtok in Sikkim also offer tandem flights with views of the surrounding ridges. Both are easy add-ons to a Darjeeling and Sikkim trip."
+          ],
+          "facts": {
+            "Season": "Outside the monsoon",
+            "Good for": "Short tandem flights"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Sikkim",
+              "href": "/blog/adventure-activities-in-sikkim"
+            },
+            {
+              "label": "Kalimpong travel guide",
+              "href": "/blog/kalimpong-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Sanasar, near Patnitop, Jammu and Kashmir",
+          "body": [
+            "The meadows of Sanasar, a short drive from Patnitop, are used for paragliding, with flights over the bowl-shaped valley and pine forest."
+          ],
+          "facts": {
+            "Good for": "Short tandem flights on a Jammu trip"
+          },
+          "links": [
+            {
+              "label": "Patnitop travel guide",
+              "href": "/blog/patnitop-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/patnitop/paragliding-launch-sanasar-meadow.webp",
+            "alt": "Paraglider launching from the meadow at Sanasar near Patnitop",
+            "caption": "Sanasar, near Patnitop"
+          }
+        },
+        {
+          "name": "Vagamon, Kerala",
+          "body": [
+            "The rolling grassy hills of Vagamon in Idukki district have hosted an international paragliding festival, and tandem flights are offered in the drier months."
+          ],
+          "facts": {
+            "Season": "Roughly October to May",
+            "Good for": "A Kerala hill trip"
+          },
+          "links": [
+            {
+              "label": "Vagamon travel guide",
+              "href": "/blog/vagamon-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Naukuchiatal, Uttarakhand",
+          "body": [
+            "Near Bhimtal in the Kumaon hills, tandem flights launch from the ridge above Naukuchiatal lake and land near the water."
+          ],
+          "facts": {
+            "Good for": "Nainital area trips"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Uttarakhand",
+              "href": "/blog/adventure-activities-in-uttarakhand"
+            }
+          ]
+        },
+        {
+          "name": "Arambol, Goa",
+          "body": [
+            "In north Goa, pilots fly along the cliffs near Arambol beach and Sweet Water Lake when the sea breeze is right. It is one of the few coastal flying sites in India."
+          ],
+          "facts": {
+            "Season": "Winter",
+            "Good for": "Coastal flights on a Goa holiday"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Goa",
+              "href": "/blog/adventure-activities-in-goa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "Paragliding seasons",
+      "table": {
+        "columns": [
+          "Region",
+          "Best months",
+          "Avoid"
+        ],
+        "rows": [
+          [
+            "Himachal Pradesh (Bir Billing, Manali)",
+            "October to November; March to May",
+            "15 July to 15 September (banned)"
+          ],
+          [
+            "Maharashtra (Kamshet)",
+            "Mid-October to May",
+            "June to September"
+          ],
+          [
+            "Eastern Himalaya (Kalimpong, Gangtok)",
+            "October to May",
+            "Monsoon"
+          ],
+          [
+            "Kerala (Vagamon)",
+            "Roughly October to May",
+            "Monsoon"
+          ],
+          [
+            "Goa (Arambol)",
+            "December to February",
+            "Monsoon"
+          ]
+        ]
+      },
+      "after": [
+        "Paragliding depends on the day's wind, thermals and cloud. Even in season, flights are delayed or cancelled when conditions are wrong; build a spare day into your plans at Bir Billing or Kamshet."
+      ]
+    },
+    {
+      "id": "tandem",
+      "heading": "What a tandem flight involves",
+      "list": [
+        "You are weighed and asked about health, then fitted with a harness and helmet.",
+        "The pilot explains the take-off: you run forward with the pilot behind you until the wing lifts you off the ground. Keep running until told to sit.",
+        "In the air, you sit in the harness in front of the pilot. On longer flights the pilot may let you hold the brakes briefly.",
+        "For landing, you lift your legs or stand and run on the pilot's command.",
+        "Many operators offer a GoPro video for an extra charge. Keep phones zipped away unless the pilot allows them."
+      ]
+    },
+    {
+      "id": "learning",
+      "heading": "Learning to fly solo",
+      "paras": [
+        "If you want to fly yourself, look for a school that runs structured courses to international standards. A basic course usually takes around a week or more, starting with ground handling on small slopes before solo flights under radio guidance. Kamshet and Bir Billing are the main training centres.",
+        "Ask the school about its instructors' certifications, the equipment you will use and the ratio of students to instructors. Solo pilots should also have insurance that covers paragliding."
+      ]
+    },
+    {
+      "id": "rules",
+      "heading": "Rules and regulation",
+      "paras": [
+        "Paragliding operators and pilots in Himachal Pradesh must be registered with the state, and the district administration enforces the annual monsoon ban. Other states have their own rules. In practice, the simplest check is to fly with an established operator that can show its registration and its pilots' licences, and to avoid people selling flights on the roadside."
+      ]
+    }
+  ],
+  "safety": [
+    "Fly only with a registered operator and a licensed tandem pilot.",
+    "Check the harness has a reserve parachute and that you have a helmet that fits.",
+    "Tell the pilot about any back, knee or heart problems; take-off and landing involve running.",
+    "Wear closed shoes with ankle support, not sandals.",
+    "Accept cancellations for weather without argument; wind and cloud change fast in the mountains.",
+    "Do not fly during the monsoon ban or in unsettled weather, whatever an operator offers."
+  ],
+  "packing": [
+    "Closed trekking or sports shoes",
+    "A windproof jacket; it is colder in the air",
+    "Sunglasses with a strap and sunscreen",
+    "A small bag you can zip shut, or leave everything with the operator"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best place for paragliding in India?",
+      "a": "Bir Billing in Himachal Pradesh is the best-known and has the longest flights. Kamshet near Pune is the main site in western India."
+    },
+    {
+      "q": "When is paragliding closed in Bir Billing?",
+      "a": "Paragliding is banned from 15 July to 15 September every year during the monsoon, on the orders of the Kangra district administration."
+    },
+    {
+      "q": "How long is a tandem paragliding flight?",
+      "a": "It depends on the site and the day's air: from about five to ten minutes at smaller sites to 15 to 30 minutes or longer at Bir Billing."
+    },
+    {
+      "q": "Do I need experience for paragliding?",
+      "a": "No. On a tandem flight a trained pilot flies the glider. You only need to run at take-off and follow instructions for landing."
+    },
+    {
+      "q": "Is there a weight limit for paragliding?",
+      "a": "Yes. Operators set weight and age limits for tandem flights. Check before booking, especially for children or heavier passengers."
+    },
+    {
+      "q": "Where can I learn paragliding in India?",
+      "a": "Kamshet in Maharashtra and Bir Billing in Himachal Pradesh have schools that run beginner courses."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Bir Billing travel guide",
+      "href": "/blog/bir-billing-travel-guide"
+    },
+    {
+      "label": "Things to do in Bir Billing",
+      "href": "/blog/things-to-do-in-bir-billing"
+    },
+    {
+      "label": "Bir Billing 2-day itinerary",
+      "href": "/blog/bir-billing-travel-guide#itinerary"
+    },
+    {
+      "label": "Himachal Pradesh tour packages",
+      "href": "/packages/himachal-pradesh"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Adventure activities in Himachal Pradesh",
+      "href": "/blog/adventure-activities-in-himachal-pradesh",
+      "note": "Bir, Manali, Spiti and more"
+    },
+    {
+      "name": "Skydiving in India",
+      "href": "/blog/skydiving-in-india",
+      "note": "the other way to fly"
+    },
+    {
+      "name": "Hot air balloon rides in India",
+      "href": "/blog/hot-air-balloon-rides-in-india",
+      "note": "a gentler air adventure"
+    }
+  ],
+  "places": [
+    "Bir Billing",
+    "Solang Valley",
+    "Kamshet",
+    "Kalimpong",
+    "Gangtok",
+    "Sanasar",
+    "Vagamon",
+    "Naukuchiatal",
+    "Arambol"
+  ],
+  "styles": [
+    "adventure-tours"
+  ],
+  "planDestination": "Bir Billing",
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,547 @@
+{
+  "slug": "best-beaches-in-karnataka",
+  "kind": "state",
+  "short": "Best beaches in Karnataka",
+  "title": "Best Beaches in Karnataka: Gokarna, Udupi, Murudeshwar and Karwar",
+  "seoTitle": "Best Beaches in Karnataka: Gokarna, Udupi & Karwar | Kudozz Club",
+  "metaDescription": "The best beaches in Karnataka: Gokarna's Om, Kudle and Half Moon, Murudeshwar, Malpe and St Mary's Island, Kaup, Padubidri, Maravanthe and Karwar.",
+  "description": "A guide to the best beaches on Karnataka's 320-km coast: Gokarna's beach trek (Kudle, Om, Half Moon, Paradise), Murudeshwar and the Netrani dive trips, Udupi's Malpe, St Mary's Island, Kaup and Padubidri, the Maravanthe road, Karwar and Devbagh, and Mangaluru's beaches, with seasons and safety.",
+  "dek": "Karnataka's short coast has some of India's most varied beaches: coves reached on foot, basalt islands, a temple on the sea and a road squeezed between river and ocean.",
+  "primaryKeyword": "best beaches in Karnataka",
+  "secondaryKeywords": [
+    "beaches in Karnataka",
+    "Karnataka beaches",
+    "beach holiday Karnataka",
+    "beach travel in Karnataka",
+    "best beach in Karnataka for families",
+    "quiet beaches Karnataka"
+  ],
+  "searchIntent": "Choose beaches in Karnataka",
+  "activities": [
+    "beaches",
+    "beach trek",
+    "surfing",
+    "scuba diving",
+    "island trips"
+  ],
+  "terrain": [
+    "beaches",
+    "coves",
+    "islands"
+  ],
+  "regions": [
+    "Karnataka",
+    "South India",
+    "Konkan coast"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "solo"
+  ],
+  "tags": [
+    "Karnataka",
+    "Beaches",
+    "Gokarna",
+    "Udupi"
+  ],
+  "hero": {
+    "src": "/images/beach/karnataka-beach-murudeshwar.webp",
+    "alt": "Waves on Murudeshwar beach, Karnataka",
+    "caption": "Murudeshwar"
+  },
+  "parent": {
+    "label": "Best Beach Destinations in India",
+    "href": "/blog/best-beach-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Karnataka coast",
+    "containedIn": "Karnataka"
+  },
+  "intro": [
+    "Karnataka's coastline, about 320 km long, runs from Karwar near the Goa border to Mangaluru in the south, with the Western Ghats rising close behind. It is less developed than Goa or Kerala, with a mix of temple towns, fishing harbours and quiet beaches.",
+    "The highlights are Gokarna's chain of coves, the beaches and islands around Udupi, the giant Shiva statue at Murudeshwar and the Maravanthe coast road. This guide runs from north to south."
+  ],
+  "quickAnswer": "The best beaches in Karnataka are Gokarna's Kudle, Om, Half Moon and Paradise beaches, linked by a coastal trail; Murudeshwar, the base for Netrani Island dives; Malpe and St Mary's Island near Udupi; Kaup with its lighthouse; the Blue Flag beaches at Padubidri and Kasarkod; and Maravanthe, where the highway runs between the sea and a river. Go from October to March.",
+  "takeaways": [
+    "Gokarna's beaches (Kudle, Om, Half Moon, Paradise) are linked by a cliff-top walking trail.",
+    "St Mary's Island, off Malpe, has columnar basalt rocks; boats run only outside the monsoon.",
+    "Murudeshwar is the base for trips to Netrani Island, the best dive site on the mainland coast.",
+    "Padubidri (Udupi) and Kasarkod (Honnavar) hold Blue Flag certification.",
+    "The sea is rough and many boat services stop from about June to September."
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "heading": "Karnataka beaches at a glance",
+      "table": {
+        "columns": [
+          "Beach",
+          "Near",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Devbagh and Rabindranath Tagore beach",
+            "Karwar",
+            "Quiet stays, islands"
+          ],
+          [
+            "Gokarna beach",
+            "Gokarna",
+            "Temple town beach"
+          ],
+          [
+            "Kudle",
+            "Gokarna",
+            "Cafes, sunset, a base"
+          ],
+          [
+            "Om",
+            "Gokarna",
+            "Scenery, a lively cove"
+          ],
+          [
+            "Half Moon and Paradise",
+            "Gokarna",
+            "Secluded coves on the trail"
+          ],
+          [
+            "Kasarkod",
+            "Honnavar",
+            "Blue Flag beach, quiet"
+          ],
+          [
+            "Murudeshwar",
+            "Bhatkal",
+            "Temple on the sea, Netrani trips"
+          ],
+          [
+            "Maravanthe",
+            "Kundapura",
+            "The sea-and-river road"
+          ],
+          [
+            "Malpe and St Mary's Island",
+            "Udupi",
+            "Families, basalt island trip"
+          ],
+          [
+            "Kaup",
+            "Udupi",
+            "Lighthouse on the rocks"
+          ],
+          [
+            "Padubidri",
+            "Udupi",
+            "Blue Flag beach"
+          ],
+          [
+            "Panambur and Tannirbhavi",
+            "Mangaluru",
+            "City beaches, sunset"
+          ],
+          [
+            "Sasihithlu and Mulki",
+            "Mangaluru",
+            "Surfing"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gokarna",
+      "heading": "Gokarna",
+      "paras": [
+        "Gokarna, a Shiva pilgrimage town in Uttara Kannada, has a busy main beach below the town and a string of coves to the south linked by a cliff-top trail. Many visitors walk the whole trail in a morning, or take boats between beaches."
+      ],
+      "items": [
+        {
+          "name": "Kudle beach",
+          "body": [
+            "The closest cove to town, with cafes and guesthouses, and a popular sunset spot."
+          ],
+          "facts": {
+            "Best for": "A base, sunset"
+          },
+          "links": [
+            {
+              "label": "Gokarna travel guide",
+              "href": "/blog/gokarna-beaches-travel-guide"
+            },
+            {
+              "label": "Things to do in Gokarna",
+              "href": "/blog/things-to-do-in-gokarna"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/gokarna/kudle-beach-gokarna.webp",
+            "alt": "Kudle beach, Gokarna",
+            "caption": "Kudle"
+          }
+        },
+        {
+          "name": "Om beach",
+          "body": [
+            "Named for its shape, which resembles the Om symbol from the headland above. It has shacks, boats and some water sports."
+          ],
+          "facts": {
+            "Best for": "Views, a lively cove"
+          },
+          "image": {
+            "src": "/images/blogs/karnataka/gokarna/om-beach-gokarna.webp",
+            "alt": "Om beach, Gokarna",
+            "caption": "Om beach"
+          }
+        },
+        {
+          "name": "Half Moon and Paradise beaches",
+          "body": [
+            "Smaller, quieter coves further along the trail, reachable only on foot or by boat. Facilities are basic, and overnight stays at Paradise have been restricted by local authorities at times."
+          ],
+          "facts": {
+            "Best for": "Secluded coves",
+            "Good to know": "Carry water; check stay rules"
+          },
+          "image": {
+            "src": "/images/blogs/karnataka/gokarna/half-moon-beach-gokarna.webp",
+            "alt": "Half Moon beach, Gokarna",
+            "caption": "Half Moon beach"
+          }
+        }
+      ]
+    },
+    {
+      "id": "north",
+      "heading": "Karwar and Honnavar",
+      "items": [
+        {
+          "name": "Karwar and Devbagh",
+          "body": [
+            "Near the Goa border, Karwar has Rabindranath Tagore beach in town and Devbagh on a spit at the Kali river mouth, with boat trips to nearby islands."
+          ],
+          "facts": {
+            "Best for": "Quiet stays"
+          }
+        },
+        {
+          "name": "Kasarkod",
+          "body": [
+            "A clean, uncrowded beach near Honnavar with Blue Flag certification."
+          ],
+          "facts": {
+            "Best for": "A quiet swim in season"
+          }
+        }
+      ]
+    },
+    {
+      "id": "murudeshwar",
+      "heading": "Murudeshwar and Maravanthe",
+      "items": [
+        {
+          "name": "Murudeshwar",
+          "body": [
+            "A temple town on a headland with a very tall Shiva statue and a busy beach. Boats leave for Netrani Island, about an hour offshore, for snorkelling and scuba diving from about October to May."
+          ],
+          "facts": {
+            "Best for": "Temple visit, Netrani trips"
+          },
+          "links": [
+            {
+              "label": "Scuba diving in India",
+              "href": "/blog/scuba-diving-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Maravanthe",
+          "body": [
+            "Near Kundapura, the coastal highway runs along a narrow strip with the Arabian Sea on one side and the Souparnika river on the other, one of the most scenic drives on the coast."
+          ],
+          "facts": {
+            "Best for": "A stop on a coast road trip"
+          }
+        }
+      ]
+    },
+    {
+      "id": "udupi",
+      "heading": "Udupi",
+      "items": [
+        {
+          "name": "Malpe and St Mary's Island",
+          "body": [
+            "Malpe, about 6 km from Udupi, is a busy beach and fishing harbour. Boats from here run to St Mary's Island, a National Geological Monument known for columnar basalt formations, from about October to May."
+          ],
+          "facts": {
+            "Best for": "Families, the island trip"
+          },
+          "links": [
+            {
+              "label": "Things to do in Udupi",
+              "href": "/blog/things-to-do-in-udupi"
+            },
+            {
+              "label": "Udupi travel guide",
+              "href": "/blog/udupi-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/udupi/st-mary-s-island-udupi.webp",
+            "alt": "Basalt rocks on St Mary's Island off Malpe",
+            "caption": "St Mary's Island"
+          }
+        },
+        {
+          "name": "Kaup",
+          "body": [
+            "A quieter beach south of Udupi with a lighthouse on the rocks, often open for visitors to climb."
+          ],
+          "facts": {
+            "Best for": "Late afternoon, views"
+          }
+        },
+        {
+          "name": "Padubidri",
+          "body": [
+            "A Blue Flag-certified stretch between Udupi and Mangaluru, with managed facilities."
+          ],
+          "facts": {
+            "Best for": "A clean, managed beach"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mangaluru",
+      "heading": "Mangaluru",
+      "items": [
+        {
+          "name": "Panambur, Tannirbhavi and Someshwar",
+          "body": [
+            "Mangaluru's city beaches: Panambur is the busiest, Tannirbhavi quieter, and Someshwar has rocks and a temple. Sea swimming is often restricted; use lifeguarded areas."
+          ],
+          "facts": {
+            "Best for": "Sunset in the city"
+          },
+          "links": [
+            {
+              "label": "Things to do in Mangalore",
+              "href": "/blog/things-to-do-in-mangalore"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/mangaluru/panambur-beach-mangaluru.webp",
+            "alt": "Panambur beach, Mangaluru",
+            "caption": "Panambur"
+          }
+        },
+        {
+          "name": "Sasihithlu and Mulki",
+          "body": [
+            "North of Mangaluru, these beaches are known for surfing, with one of India's longest-running surf schools at Mulki."
+          ],
+          "facts": {
+            "Best for": "Surf lessons"
+          },
+          "links": [
+            {
+              "label": "Surfing in India",
+              "href": "/blog/surfing-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "heading": "Suggested itinerary",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Arrive in Gokarna; temple town and main beach"
+          ],
+          [
+            "2",
+            "Walk the beach trail from Kudle to Om, Half Moon and Paradise; boat back"
+          ],
+          [
+            "3",
+            "Drive to Murudeshwar; boat trip to Netrani (in season)"
+          ],
+          [
+            "4",
+            "Maravanthe drive; afternoon at Malpe"
+          ],
+          [
+            "5",
+            "Boat to St Mary's Island; Kaup lighthouse at sunset"
+          ],
+          [
+            "6",
+            "Padubidri and Mangaluru's beaches; depart"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "who-for",
+      "heading": "Who is it best for?",
+      "items": [
+        {
+          "name": "Couples",
+          "body": [
+            "Gokarna's Kudle and Om beaches, and quiet Kasarkod."
+          ]
+        },
+        {
+          "name": "Families",
+          "body": [
+            "Malpe, St Mary's Island and Padubidri near Udupi."
+          ]
+        },
+        {
+          "name": "Backpackers",
+          "body": [
+            "Gokarna and its beach trail."
+          ]
+        },
+        {
+          "name": "Divers",
+          "body": [
+            "Murudeshwar for Netrani Island."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to March is the main season, with calmer seas and boats running to St Mary's Island and Netrani. April and May are hot. From about June to September, the monsoon makes the sea rough; swimming is unsafe and most boat services stop."
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning a Karnataka coast trip",
+      "list": [
+        "Mangaluru airport serves Udupi and the south coast; Goa's airports are closer for Karwar and Gokarna.",
+        "Gokarna Road, Kumta, Murudeshwar, Udupi and Mangaluru are on the Konkan Railway.",
+        "A good five-day route: Gokarna (two nights), Murudeshwar with a Netrani trip, then Udupi and Malpe.",
+        "Gokarna is also easy to combine with south Goa."
+      ]
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "The Gokarna trail follows cliffs; walk in daylight and carry water.",
+    "Om and other coves can have strong currents; do not swim when warned.",
+    "Boats to St Mary's Island and Netrani stop in the monsoon; do not take unofficial boats in rough seas.",
+    "Mangaluru city beaches often restrict swimming; follow lifeguards and police instructions."
+  ],
+  "packing": [
+    "Walking shoes for the Gokarna trail",
+    "Swimwear and sunscreen",
+    "Water and snacks for secluded coves",
+    "Modest clothes for temple towns"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best beach in Karnataka?",
+      "a": "Gokarna's Om and Kudle beaches are the most popular. Malpe and St Mary's Island near Udupi and Murudeshwar are also highlights."
+    },
+    {
+      "q": "How do I visit St Mary's Island?",
+      "a": "By boat from Malpe near Udupi, from about October to May."
+    },
+    {
+      "q": "Which Karnataka beaches have Blue Flag certification?",
+      "a": "Padubidri near Udupi and Kasarkod near Honnavar."
+    },
+    {
+      "q": "Is Gokarna better than Goa?",
+      "a": "Gokarna is smaller, quieter and more rustic, with coves reached on foot. Goa has more choice, facilities and nightlife."
+    },
+    {
+      "q": "Where can I surf in Karnataka?",
+      "a": "At Mulki and Sasihithlu near Mangaluru, and at surf camps in Gokarna."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Gokarna travel guide",
+      "href": "/blog/gokarna-beaches-travel-guide"
+    },
+    {
+      "label": "Things to do in Gokarna",
+      "href": "/blog/things-to-do-in-gokarna"
+    },
+    {
+      "label": "Things to do in Udupi",
+      "href": "/blog/things-to-do-in-udupi"
+    },
+    {
+      "label": "Gokarna itinerary",
+      "href": "/blog/gokarna-beaches-travel-guide#itinerary"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best beaches in Goa",
+      "href": "/blog/best-beaches-in-goa",
+      "note": "just north"
+    },
+    {
+      "name": "Best beaches in Kerala",
+      "href": "/blog/best-beaches-in-kerala",
+      "note": "south along the coast"
+    },
+    {
+      "name": "Weekend adventure trips from Bengaluru",
+      "href": "/blog/weekend-adventure-trips-from-bengaluru",
+      "note": "coast weekends"
+    }
+  ],
+  "places": [
+    "Karwar",
+    "Devbagh",
+    "Gokarna",
+    "Kudle",
+    "Om beach",
+    "Half Moon beach",
+    "Paradise beach",
+    "Kasarkod",
+    "Murudeshwar",
+    "Netrani Island",
+    "Maravanthe",
+    "Malpe",
+    "St Mary's Island",
+    "Kaup",
+    "Padubidri",
+    "Panambur",
+    "Mulki"
+  ],
+  "styles": [
+    "weekend-getaways",
+    "honeymoon"
+  ],
+  "planDestination": "Gokarna",
+  "updated": "2026-09-25"
+}

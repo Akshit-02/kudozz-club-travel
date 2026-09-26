@@ -1,0 +1,333 @@
+{
+  "slug": "yoga-and-meditation-retreats-in-india",
+  "kind": "pillar",
+  "short": "Yoga and meditation retreats",
+  "title": "Yoga and Meditation Retreats in India: Ashrams and Centres",
+  "seoTitle": "Yoga & Meditation Retreats in India: Ashrams and Centres | Kudozz Club",
+  "metaDescription": "Where to go for yoga and meditation retreats in India: Rishikesh, Mysuru, Kerala, Pune, Vipassana at Igatpuri, Dharamshala and Puducherry, with how to choose.",
+  "description": "A guide to yoga and meditation retreats in India: Rishikesh's ashrams and schools, Mysuru's Ashtanga scene, Kerala's Sivananda ashram and Ayurveda retreats, Pune's Iyengar institute, the Bihar School of Yoga, Vipassana courses at Igatpuri, Tibetan Buddhist meditation in Dharamshala, and Puducherry and Auroville, with ashram rules, seasons and how to choose.",
+  "dek": "India is where yoga began, and retreats range from traditional ashrams with strict routines to comfortable wellness resorts.",
+  "primaryKeyword": "yoga retreats in India",
+  "secondaryKeywords": [
+    "meditation retreats India",
+    "spiritual retreats India",
+    "ashram stay India",
+    "yoga tourism India"
+  ],
+  "searchIntent": "Informational/commercial investigation",
+  "activities": [
+    "yoga",
+    "meditation",
+    "ashram stay",
+    "wellness"
+  ],
+  "terrain": [
+    "river",
+    "hills",
+    "coast"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "Karnataka",
+    "Kerala",
+    "Maharashtra",
+    "Bihar",
+    "Himachal Pradesh",
+    "Puducherry",
+    "Tamil Nadu"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn"
+  ],
+  "travellers": [
+    "solo travellers",
+    "couples",
+    "groups"
+  ],
+  "tags": [
+    "Yoga",
+    "Meditation",
+    "Ashram",
+    "Retreat"
+  ],
+  "hero": {
+    "src": "/images/spiritual/yoga-retreats-ashram-rishikesh.webp",
+    "alt": "A morning yoga class at Parmarth Niketan ashram, Rishikesh"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Yoga and meditation retreats in India"
+  },
+  "intro": [
+    "India offers every kind of retreat, from traditional ashrams where guests follow a daily routine of early rising, practice, study, silence and simple vegetarian food, to yoga schools running teacher-training courses and resorts that combine yoga with Ayurveda and comfortable rooms.",
+    "This guide is about practice and retreat rather than pilgrimage, though the two often meet: Rishikesh is both a Ganga pilgrimage town and the best-known yoga destination in the country. International Day of Yoga falls on 21 June each year."
+  ],
+  "quickAnswer": "The best-known places for yoga and meditation retreats in India are Rishikesh (ashrams and schools by the Ganga), Mysuru (Ashtanga yoga), Kerala (the Sivananda ashram near Neyyar Dam and Ayurveda retreats), Pune (the Iyengar institute), Munger (the Bihar School of Yoga), Igatpuri (10-day Vipassana courses), Dharamshala (Tibetan Buddhist meditation) and Puducherry with Auroville. Choose by style, level, length and how strict a routine you want.",
+  "takeaways": [
+    "Rishikesh has the widest choice of ashrams, schools and short courses.",
+    "Traditional ashrams have fixed routines, silence periods and simple vegetarian food.",
+    "Vipassana centres such as Dhamma Giri at Igatpuri run 10-day silent courses on a donation basis.",
+    "Teacher-training courses usually run for about four weeks for a 200-hour course.",
+    "October to April is the main season in most regions."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Where to go",
+      "table": {
+        "columns": [
+          "Place",
+          "Known for",
+          "Good for"
+        ],
+        "rows": [
+          [
+            "Rishikesh, Uttarakhand",
+            "Ashrams, yoga schools, teacher training",
+            "All levels; first-timers"
+          ],
+          [
+            "Mysuru, Karnataka",
+            "Ashtanga yoga",
+            "Experienced practitioners"
+          ],
+          [
+            "Kerala",
+            "Sivananda ashram at Neyyar Dam; Ayurveda retreats",
+            "Structured retreats; wellness"
+          ],
+          [
+            "Pune, Maharashtra",
+            "Ramamani Iyengar Memorial Yoga Institute",
+            "Iyengar practitioners"
+          ],
+          [
+            "Munger, Bihar",
+            "Bihar School of Yoga",
+            "Traditional study"
+          ],
+          [
+            "Igatpuri, Maharashtra",
+            "Dhamma Giri Vipassana centre",
+            "Silent meditation courses"
+          ],
+          [
+            "Dharamshala, Himachal",
+            "Tibetan Buddhist meditation courses",
+            "Meditation and Buddhist study"
+          ],
+          [
+            "Puducherry and Auroville",
+            "Sri Aurobindo Ashram, Matrimandir",
+            "Quiet reflection"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "rishikesh",
+      "heading": "Rishikesh",
+      "items": [
+        {
+          "name": "The yoga capital",
+          "body": [
+            "Ashrams such as Parmarth Niketan and the Sivananda Ashram of the Divine Life Society, dozens of schools around Tapovan and Lakshman Jhula, and the International Yoga Festival each March."
+          ],
+          "links": [
+            {
+              "label": "Yoga in Rishikesh",
+              "href": "/blog/yoga-in-rishikesh"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/rishikesh/rishikesh-parmarth-niketan-ganga-aarti.webp",
+            "alt": "Evening Ganga Aarti at Parmarth Niketan, Rishikesh",
+            "caption": "Parmarth Niketan, Rishikesh"
+          }
+        }
+      ]
+    },
+    {
+      "id": "meditation",
+      "heading": "Meditation retreats",
+      "items": [
+        {
+          "name": "Vipassana",
+          "body": [
+            "Ten-day silent courses in the tradition taught by S. N. Goenka are offered at centres across India, including Dhamma Giri at Igatpuri. Courses are run on donations, with strict rules on silence and schedule."
+          ],
+          "links": [
+            {
+              "label": "Spiritual tourism in Maharashtra",
+              "href": "/blog/spiritual-tourism-in-maharashtra"
+            }
+          ]
+        },
+        {
+          "name": "Tibetan Buddhist meditation",
+          "body": [
+            "Introductory courses in McLeod Ganj and at monasteries elsewhere in the Himalaya."
+          ],
+          "links": [
+            {
+              "label": "Buddhist tourism in India",
+              "href": "/blog/buddhist-tourism-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Bodh Gaya",
+          "body": [
+            "Meditation courses are offered by several monasteries and centres, especially in winter."
+          ],
+          "links": [
+            {
+              "label": "Bodh Gaya guide",
+              "href": "/blog/bodh-gaya-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choose",
+      "heading": "How to choose a retreat",
+      "list": [
+        "Decide what you want: a traditional ashram, a yoga school, a teacher-training course, a silent meditation retreat or a wellness stay.",
+        "Match the style (Hatha, Ashtanga, Iyengar, Kundalini and others) to your level.",
+        "Check the daily routine, rules on silence, food and phones, and what is included.",
+        "For teacher training, check the course hours, teachers' experience and any external registration the school offers.",
+        "Book directly with the centre; read recent reviews from independent sources."
+      ]
+    },
+    {
+      "id": "ashram-life",
+      "heading": "What ashram life is like",
+      "list": [
+        "An early start, often around 5 am, with meditation, chanting or asana practice.",
+        "Simple vegetarian meals at fixed times; alcohol, meat and smoking are not allowed.",
+        "Periods of silence, study (satsang) and seva (voluntary work) in some ashrams.",
+        "Modest dress and shared or simple rooms."
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "When to go",
+      "list": [
+        "Rishikesh: September to November and February to April; March brings the International Yoga Festival.",
+        "Kerala: October to March; the monsoon (June to September) is traditionally favoured for some Ayurveda treatments.",
+        "Mysuru and Pune: October to February, when the weather is mild.",
+        "Dharamshala: March to June and September to November.",
+        "Vipassana courses run all year; apply well in advance."
+      ]
+    }
+  ],
+  "safety": [
+    "Check a centre's teachers, daily schedule, rules and reviews before booking; no retreat can promise a particular spiritual or health outcome, and people with medical conditions should take advice before intensive practice.",
+    "Stay only in registered accommodation and share your plans with someone at home.",
+    "Be cautious of teachers or centres making extravagant claims.",
+    "Pace intensive courses; rest if you feel unwell."
+  ],
+  "packing": [
+    "Comfortable modest clothes for practice",
+    "A shawl for meditation halls",
+    "Your own mat if the centre asks",
+    "A notebook"
+  ],
+  "faqs": [
+    {
+      "q": "Where is the best place for a yoga retreat in India?",
+      "a": "Rishikesh has the widest choice; Mysuru, Kerala, Pune and Munger suit particular styles."
+    },
+    {
+      "q": "What is a Vipassana course?",
+      "a": "A 10-day silent meditation course, offered on a donation basis at centres such as Dhamma Giri in Igatpuri."
+    },
+    {
+      "q": "How long is a yoga teacher training in India?",
+      "a": "A 200-hour course usually runs for about four weeks."
+    },
+    {
+      "q": "Can beginners join an ashram retreat?",
+      "a": "Yes. Many ashrams and schools offer beginner courses; check the level before booking."
+    },
+    {
+      "q": "Are Vipassana courses free?",
+      "a": "They are run on donations; there is no fixed fee, and students may give what they wish at the end."
+    },
+    {
+      "q": "What should I pack for an ashram stay?",
+      "a": "Modest, comfortable clothes, a shawl, a torch and any personal medicines; ashrams usually provide simple bedding."
+    },
+    {
+      "q": "Do ashrams allow phones?",
+      "a": "Rules vary; many ask for silence and limited phone use, and Vipassana centres keep phones for the whole course."
+    },
+    {
+      "q": "When is International Day of Yoga?",
+      "a": "On 21 June each year."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Yoga in Rishikesh",
+      "href": "/blog/yoga-in-rishikesh"
+    },
+    {
+      "label": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh"
+    },
+    {
+      "label": "Buddhist tourism in India",
+      "href": "/blog/buddhist-tourism-in-india"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    }
+  ],
+  "related": [
+    {
+      "name": "Spiritual tourism in Kerala",
+      "href": "/blog/spiritual-tourism-in-kerala",
+      "note": "ashrams and Ayurveda"
+    },
+    {
+      "name": "Spiritual tourism in Himachal",
+      "href": "/blog/spiritual-tourism-in-himachal-pradesh",
+      "note": "McLeod Ganj"
+    },
+    {
+      "name": "How to plan a pilgrimage",
+      "href": "/blog/how-to-plan-a-pilgrimage-in-india",
+      "note": "planning tips"
+    }
+  ],
+  "places": [
+    "Rishikesh",
+    "Mysuru",
+    "Neyyar Dam",
+    "Pune",
+    "Munger",
+    "Igatpuri",
+    "Dharamshala",
+    "Puducherry",
+    "Auroville"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "luxury-holidays"
+  ],
+  "planDestination": "yoga retreat",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,383 @@
+{
+  "slug": "classical-dance-and-music-in-india",
+  "kind": "pillar",
+  "short": "Classical dance and music in India",
+  "title": "Classical Dance and Music in India: Where to Watch and Learn",
+  "seoTitle": "Classical Dance & Music in India: Where to See Them | Kudozz Club",
+  "metaDescription": "India's classical dance and music for travellers: Bharatanatyam, Kathak, Kathakali, Odissi and more, the Chennai music season, dance festivals and where to watch.",
+  "description": "A traveller's guide to India's classical dance and music: the classical dance forms recognised by the Sangeet Natak Akademi, Hindustani and Carnatic music, folk forms such as Kalbelia, Chhau and Garba, and where to watch them, from Kathakali in Kochi and the Chennai music season to the Khajuraho and Konark dance festivals.",
+  "dek": "India's classical dance and music are living traditions, performed in temples, festivals and small halls as well as big stages. Here is how to see them on your travels.",
+  "primaryKeyword": "classical dances of India",
+  "secondaryKeywords": [
+    "Indian classical music festivals",
+    "folk dances of India",
+    "cultural performances India"
+  ],
+  "searchIntent": "Informational/experience",
+  "activities": [
+    "performances",
+    "festivals",
+    "culture"
+  ],
+  "terrain": [
+    "city",
+    "heritage town"
+  ],
+  "regions": [
+    "Tamil Nadu",
+    "Kerala",
+    "Odisha",
+    "Madhya Pradesh",
+    "Uttar Pradesh",
+    "Manipur",
+    "Assam",
+    "Andhra Pradesh",
+    "Rajasthan"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "travellers": [
+    "couples",
+    "culture lovers",
+    "families"
+  ],
+  "tags": [
+    "Classical Dance",
+    "Music",
+    "Kathakali",
+    "Bharatanatyam",
+    "Festivals"
+  ],
+  "hero": {
+    "src": "/images/heritage/classical-dance-kathakali.webp",
+    "alt": "A Kathakali performance in Kerala"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Indian classical dance and music"
+  },
+  "intro": [
+    "India has two great classical music traditions, Hindustani in the north and Carnatic in the south, and several classical dance forms, each linked to a region. The Sangeet Natak Akademi, India's national academy for music and dance, recognises eight classical dances; the Ministry of Culture's list also includes Chhau.",
+    "Alongside them are hundreds of folk and ritual forms. UNESCO has inscribed several on its Intangible Cultural Heritage lists, including Kutiyattam, Chhau, Kalbelia and Garba."
+  ],
+  "quickAnswer": "India's classical dances include Bharatanatyam (Tamil Nadu), Kathak (north India), Kathakali and Mohiniyattam (Kerala), Kuchipudi (Andhra Pradesh), Odissi (Odisha), Manipuri (Manipur) and Sattriya (Assam). Travellers can watch Kathakali in Kochi most evenings, the Chennai music season in December and January, and winter dance festivals at Khajuraho, Konark and Mamallapuram.",
+  "takeaways": [
+    "The Sangeet Natak Akademi recognises eight classical dance forms.",
+    "Kathakali performances for visitors run most evenings in Kochi; arrive early to watch the make-up.",
+    "The Chennai music season runs from about mid-December to mid-January.",
+    "Winter brings dance festivals to Khajuraho, Konark and Mamallapuram; dates vary each year.",
+    "Kalbelia, Chhau, Garba and Kutiyattam are on UNESCO's Intangible Cultural Heritage lists."
+  ],
+  "sections": [
+    {
+      "id": "dances",
+      "heading": "The classical dances",
+      "table": {
+        "columns": [
+          "Dance",
+          "Region",
+          "Known for"
+        ],
+        "rows": [
+          [
+            "Bharatanatyam",
+            "Tamil Nadu",
+            "Geometric footwork and expressive storytelling"
+          ],
+          [
+            "Kathak",
+            "North India",
+            "Fast spins, footwork, Mughal and temple influences"
+          ],
+          [
+            "Kathakali",
+            "Kerala",
+            "Dance-drama with elaborate make-up and costumes"
+          ],
+          [
+            "Mohiniyattam",
+            "Kerala",
+            "Graceful, swaying solo dance"
+          ],
+          [
+            "Kuchipudi",
+            "Andhra Pradesh",
+            "Dance-drama, including dancing on the rim of a brass plate"
+          ],
+          [
+            "Odissi",
+            "Odisha",
+            "Sculpturesque poses linked to temple art"
+          ],
+          [
+            "Manipuri",
+            "Manipur",
+            "Gentle movement, Vaishnava themes"
+          ],
+          [
+            "Sattriya",
+            "Assam",
+            "Born in the sattras (monasteries) of Majuli and beyond"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "music",
+      "heading": "Hindustani and Carnatic music",
+      "paras": [
+        "Hindustani music, from the north, is built around ragas developed at length, often with sitar, sarod, tabla or voice. Carnatic music, from the south, is more composition-based, with voice, veena, violin and mridangam. Both are best heard live, in concert halls, temples and festivals, and many concerts are free or inexpensive."
+      ],
+      "items": [
+        {
+          "name": "Chennai music season",
+          "body": [
+            "From about mid-December to mid-January, the city's sabhas host hundreds of concerts and dance recitals."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Chennai",
+              "href": "/blog/things-to-do-in-chennai"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "where",
+      "heading": "Where to watch",
+      "items": [
+        {
+          "name": "Kathakali in Kochi",
+          "body": [
+            "Short performances for visitors are held most evenings in Fort Kochi and Ernakulam, often with a make-up session beforehand."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kochi",
+              "href": "/blog/things-to-do-in-kochi"
+            }
+          ]
+        },
+        {
+          "name": "Winter dance festivals",
+          "body": [
+            "The Khajuraho Dance Festival (usually February), the Konark Dance Festival (December) and the Mamallapuram Dance Festival (December to January), staged with monuments as the backdrop."
+          ],
+          "links": [
+            {
+              "label": "Khajuraho guide",
+              "href": "/blog/khajuraho-travel-guide"
+            },
+            {
+              "label": "Konark guide",
+              "href": "/blog/konark-travel-guide"
+            },
+            {
+              "label": "Mahabalipuram guide",
+              "href": "/blog/mahabalipuram-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Music festivals",
+          "body": [
+            "The Tansen Samaroh in Gwalior and the Sawai Gandharva festival in Pune, both usually in December."
+          ],
+          "links": [
+            {
+              "label": "Gwalior guide",
+              "href": "/blog/gwalior-travel-guide"
+            },
+            {
+              "label": "Pune guide",
+              "href": "/blog/pune-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folk",
+      "heading": "Folk and ritual forms",
+      "list": [
+        "Kalbelia of Rajasthan's snake-charmer community, and Ghoomar.",
+        "Chhau, a masked or semi-masked dance of Purulia, Seraikela and Mayurbhanj.",
+        "Garba and Dandiya during Navratri in Gujarat.",
+        "Theyyam, a ritual performance in north Kerala temples and shrines, roughly December to May.",
+        "Yakshagana, a night-long dance-drama of coastal Karnataka.",
+        "Bihu of Assam, danced at the spring festival in April."
+      ],
+      "items": [
+        {
+          "name": "Hornbill Festival",
+          "body": [
+            "Naga dances and music every December."
+          ],
+          "links": [
+            {
+              "label": "Hornbill Festival",
+              "href": "/blog/hornbill-festival"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "etiquette",
+      "heading": "Etiquette at performances",
+      "list": [
+        "Arrive early; late entry during a piece is frowned upon.",
+        "Ask before photographing; flash is usually not allowed.",
+        "At ritual performances such as Theyyam, you are a guest at worship; follow local guidance.",
+        "Silence phones, and stay until the end of a piece before leaving."
+      ]
+    },
+    {
+      "id": "learn",
+      "heading": "Learning a little first",
+      "paras": [
+        "A little knowledge makes a big difference. Most classical dances combine pure dance (nritta), expressive storytelling (abhinaya) and drama (natya). Stories often come from the Ramayana, the Mahabharata, the Puranas or devotional poetry. At a Kathakali performance, the colour of the make-up signals the character: green for noble heroes, red and black for villains. Many visitor shows explain the hand gestures (mudras) before they begin."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "table": {
+        "columns": [
+          "Month",
+          "Where"
+        ],
+        "rows": [
+          [
+            "December",
+            "Chennai music season begins; Konark Dance Festival; Tansen Samaroh, Gwalior; Hornbill Festival, Nagaland"
+          ],
+          [
+            "January",
+            "Chennai music season ends; Mamallapuram Dance Festival"
+          ],
+          [
+            "February",
+            "Khajuraho Dance Festival"
+          ],
+          [
+            "April",
+            "Bihu in Assam"
+          ],
+          [
+            "September to October",
+            "Navratri Garba in Gujarat"
+          ],
+          [
+            "December to May",
+            "Theyyam season in north Kerala"
+          ]
+        ]
+      },
+      "after": [
+        "Dates vary every year; always confirm with the organisers."
+      ]
+    }
+  ],
+  "safety": [
+    "Festival dates change every year; confirm with the organisers or state tourism before you travel.",
+    "Ritual performances follow local custom; keep a respectful distance."
+  ],
+  "packing": [
+    "A shawl for open-air winter evenings",
+    "Cushion for floor seating",
+    "Cash for small venues",
+    "Camera without flash"
+  ],
+  "faqs": [
+    {
+      "q": "How many classical dances does India have?",
+      "a": "The Sangeet Natak Akademi recognises eight; the Ministry of Culture's list also includes Chhau."
+    },
+    {
+      "q": "Where can I watch Kathakali?",
+      "a": "In Kochi, where short performances for visitors are held most evenings."
+    },
+    {
+      "q": "When is the Chennai music season?",
+      "a": "From about mid-December to mid-January."
+    },
+    {
+      "q": "When is the Khajuraho Dance Festival?",
+      "a": "Usually in February; check the year's dates with Madhya Pradesh Tourism."
+    },
+    {
+      "q": "Which Indian dances are on UNESCO's intangible heritage list?",
+      "a": "Chhau, Kalbelia, Garba and Kutiyattam, among others."
+    },
+    {
+      "q": "Do I need to understand the stories to enjoy a performance?",
+      "a": "No, but it helps; read a short synopsis or ask for one, and watch the hand gestures and facial expressions that carry the story."
+    },
+    {
+      "q": "Are there performances for children?",
+      "a": "Short visitor shows, such as Kathakali in Kochi, suit older children; festivals in open-air settings are also family-friendly."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Cultural festivals in India",
+      "href": "/blog/cultural-festivals-in-india"
+    },
+    {
+      "label": "Heritage tourism in Kerala",
+      "href": "/blog/heritage-tourism-in-kerala"
+    },
+    {
+      "label": "Heritage tourism in Tamil Nadu",
+      "href": "/blog/heritage-tourism-in-tamil-nadu"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hornbill Festival",
+      "href": "/blog/hornbill-festival",
+      "note": "Nagaland in December"
+    },
+    {
+      "name": "Temple architecture of India",
+      "href": "/blog/temple-architecture-of-india",
+      "note": "the temples behind the dances"
+    },
+    {
+      "name": "Tribal tourism in India",
+      "href": "/blog/tribal-tourism-in-india",
+      "note": "living cultures"
+    }
+  ],
+  "places": [
+    "Kochi",
+    "Chennai",
+    "Khajuraho",
+    "Konark",
+    "Mamallapuram",
+    "Gwalior",
+    "Pune",
+    "Majuli",
+    "Imphal"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

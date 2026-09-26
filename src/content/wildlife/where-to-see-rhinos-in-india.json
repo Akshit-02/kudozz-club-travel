@@ -1,0 +1,352 @@
+{
+  "slug": "where-to-see-rhinos-in-india",
+  "kind": "activity",
+  "short": "Where to see rhinos",
+  "title": "Where to See One-Horned Rhinos in India",
+  "seoTitle": "Where to See One-Horned Rhinos in India | Kudozz Club",
+  "metaDescription": "Where to see the greater one-horned rhino in India: Kaziranga, Pobitora, Orang and Manas in Assam, and Jaldapara and Gorumara in West Bengal, with seasons.",
+  "description": "A guide to seeing the greater one-horned rhinoceros in India: Kaziranga, which holds most of them, Pobitora near Guwahati, Orang and Manas in Assam, Jaldapara and Gorumara in the Dooars of West Bengal, and Dudhwa in Uttar Pradesh, with population figures, seasons, safari types and conservation history.",
+  "dek": "India is home to most of the world's greater one-horned rhinos, almost all of them in Assam and northern West Bengal. Here is where to see them.",
+  "primaryKeyword": "where to see rhinos in India",
+  "secondaryKeywords": [
+    "one-horned rhino India",
+    "Kaziranga rhino",
+    "Pobitora rhino",
+    "Jaldapara rhino",
+    "Dudhwa rhino"
+  ],
+  "searchIntent": "Where to see rhinos",
+  "activities": [
+    "jeep safari",
+    "elephant safari"
+  ],
+  "terrain": [
+    "grassland",
+    "wetland"
+  ],
+  "regions": [
+    "North East India",
+    "East India",
+    "Assam",
+    "West Bengal"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "photographers",
+    "couples"
+  ],
+  "tags": [
+    "Rhino",
+    "Kaziranga",
+    "Assam",
+    "Dooars"
+  ],
+  "hero": {
+    "src": "/images/wildlife/rhino-kaziranga-grassland.webp",
+    "alt": "A one-horned rhino mother and calf grazing on grassland in Kaziranga National Park"
+  },
+  "parent": {
+    "label": "Where to See Wildlife in India",
+    "href": "/blog/where-to-see-wildlife-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Greater one-horned rhinoceros in India"
+  },
+  "intro": [
+    "The greater one-horned rhinoceros once ranged across the floodplains of northern India. Hunting and habitat loss reduced it to a few pockets, and by the early 20th century only a few dozen may have survived in Kaziranga. Protection has since brought numbers back to several thousand across India and Nepal.",
+    "In India, rhinos live mainly in Assam and in the Dooars of West Bengal, with a reintroduced population in Dudhwa, Uttar Pradesh. Rhinos graze in open grassland, so they are among the easier large animals to see."
+  ],
+  "quickAnswer": "Kaziranga National Park in Assam has the largest population of greater one-horned rhinos in the world, 2,613 in the 2022 count. Pobitora Wildlife Sanctuary near Guwahati has a very high density, and Orang and Manas have smaller populations. In West Bengal, Jaldapara and Gorumara national parks have rhinos. The season is roughly November to April.",
+  "takeaways": [
+    "Kaziranga holds most of the world's greater one-horned rhinos.",
+    "Pobitora has one of the highest rhino densities anywhere, about an hour or so from Guwahati.",
+    "Jaldapara in West Bengal has India's second-largest rhino population.",
+    "Rhino parks are usually open from November to April and close in the monsoon.",
+    "Rhinos graze in open grassland, so sightings are more likely than for big cats."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Where to see rhinos",
+      "table": {
+        "columns": [
+          "Park",
+          "State",
+          "Rhinos",
+          "Good to know"
+        ],
+        "rows": [
+          [
+            "Kaziranga National Park",
+            "Assam",
+            "2,613 (2022)",
+            "Jeep and elephant safaris in four ranges"
+          ],
+          [
+            "Pobitora Wildlife Sanctuary",
+            "Assam",
+            "107 (2022)",
+            "Easy trip from Guwahati"
+          ],
+          [
+            "Orang National Park",
+            "Assam",
+            "125 (2022)",
+            "Quieter, on the Brahmaputra's north bank"
+          ],
+          [
+            "Manas National Park",
+            "Assam",
+            "About 50 (2022)",
+            "Reintroduced population; UNESCO site"
+          ],
+          [
+            "Jaldapara National Park",
+            "West Bengal",
+            "About 330",
+            "Dooars grassland and forest"
+          ],
+          [
+            "Gorumara National Park",
+            "West Bengal",
+            "Smaller population",
+            "Watchtowers in the Dooars"
+          ],
+          [
+            "Dudhwa National Park",
+            "Uttar Pradesh",
+            "Small reintroduced group",
+            "Rhino area has limited access"
+          ]
+        ],
+        "caption": "Counts are from the most recent official estimates; they change with each census."
+      }
+    },
+    {
+      "id": "kaziranga",
+      "heading": "Kaziranga",
+      "items": [
+        {
+          "name": "Ranges and safaris",
+          "body": [
+            "Kaziranga is divided into the Kohora (central), Bagori (western), Agaratoli (eastern) and Burapahar ranges. Jeep safaris run in all of them; elephant rides start from Kohora and Bagori early in the morning. The western range around Bagori is known for rhinos in open grassland."
+          ],
+          "facts": {
+            "Season": "November to April",
+            "Nearest airport": "Jorhat or Guwahati"
+          },
+          "links": [
+            {
+              "label": "Kaziranga guide",
+              "href": "/blog/kaziranga-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/assam/assam/elephant-safari-rhino-kaziranga.webp",
+            "alt": "Visitors on elephants watching a one-horned rhino in the grassland of Kaziranga",
+            "caption": "Rhino viewing in Kaziranga"
+          }
+        }
+      ]
+    },
+    {
+      "id": "assam",
+      "heading": "Pobitora, Orang and Manas",
+      "items": [
+        {
+          "name": "Pobitora",
+          "body": [
+            "A small sanctuary with a very dense rhino population, often seen on a day trip from Guwahati."
+          ],
+          "links": [
+            {
+              "label": "Pobitora guide",
+              "href": "/blog/pobitora-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Orang",
+          "body": [
+            "A national park on the north bank of the Brahmaputra, sometimes called a mini Kaziranga, with far fewer visitors."
+          ]
+        },
+        {
+          "name": "Manas",
+          "body": [
+            "Rhinos were lost here during years of unrest. They have been brought back since 2006, first as hand-raised calves and then by translocation under Indian Rhino Vision 2020."
+          ],
+          "links": [
+            {
+              "label": "Manas guide",
+              "href": "/blog/manas-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bengal",
+      "heading": "The Dooars, West Bengal",
+      "paras": [
+        "Jaldapara National Park, near Alipurduar, has India's second-largest rhino population. Gorumara, a smaller park nearby, has rhinos, gaur and elephants, seen from watchtowers and jeeps. Both close in the monsoon, roughly mid-June to mid-September."
+      ],
+      "items": [
+        {
+          "name": "Dooars guide",
+          "body": [
+            "Plan Jaldapara and Gorumara together."
+          ],
+          "links": [
+            {
+              "label": "Dooars guide",
+              "href": "/blog/dooars-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/dooars/one-horned-rhino-jaldapara-national-park-dooars.webp",
+            "alt": "A one-horned rhinoceros grazing in tall grass in Jaldapara National Park",
+            "caption": "A rhino in Jaldapara"
+          }
+        }
+      ]
+    },
+    {
+      "id": "conservation",
+      "heading": "Rhino conservation",
+      "paras": [
+        "Poaching for horn remains the main threat. Assam's forest department, with guards and community support, has cut poaching sharply in recent years. Floods on the Brahmaputra also affect Kaziranga each monsoon, when animals move to highlands and across the national highway; speed limits are enforced on the road."
+      ]
+    },
+    {
+      "id": "itinerary",
+      "heading": "A four-day rhino trip in Assam",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Arrive in Guwahati; afternoon at Pobitora or in the city"
+          ],
+          [
+            "2",
+            "Morning jeep safari at Pobitora; drive to Kaziranga"
+          ],
+          [
+            "3",
+            "Early elephant or jeep safari in the western range; afternoon in the central range"
+          ],
+          [
+            "4",
+            "Morning safari in the eastern range for birds; fly out from Jorhat"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for seeing rhinos",
+      "list": [
+        "Morning safaris often find rhinos grazing in open grass or wallowing in pools.",
+        "Early in the season (November) grass can be tall; visibility improves after the grass is burned in winter.",
+        "Take drives in more than one range; each has a different mix of grassland, wetland and forest.",
+        "Combine Kaziranga with a visit to Guwahati for Kamakhya temple and the Brahmaputra."
+      ]
+    }
+  ],
+  "safety": [
+    "Rhinos can charge; stay in the vehicle and keep a distance.",
+    "Sightings are never guaranteed; wild animals move freely and every drive is different.",
+    "Wear a hat and sunscreen; grasslands give little shade.",
+    "Follow elephant-safari rules if you take one."
+  ],
+  "packing": [
+    "Binoculars",
+    "Light layers and a warm jacket for winter mornings",
+    "Hat and sunscreen",
+    "Insect repellent"
+  ],
+  "faqs": [
+    {
+      "q": "Where is the best place to see rhinos in India?",
+      "a": "Kaziranga National Park in Assam, which has the world's largest population."
+    },
+    {
+      "q": "How many rhinos are in Kaziranga?",
+      "a": "2,613 in the 2022 count."
+    },
+    {
+      "q": "Can I see rhinos near Guwahati?",
+      "a": "Yes, at Pobitora Wildlife Sanctuary, about an hour or so away."
+    },
+    {
+      "q": "When is Kaziranga open?",
+      "a": "Usually from November to April; it closes in the monsoon."
+    },
+    {
+      "q": "Are there rhinos outside Assam?",
+      "a": "Yes, in Jaldapara and Gorumara in West Bengal and a reintroduced group in Dudhwa."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Kaziranga guide",
+      "href": "/blog/kaziranga-travel-guide"
+    },
+    {
+      "label": "Wildlife tourism in Assam",
+      "href": "/blog/wildlife-tourism-in-assam"
+    },
+    {
+      "label": "Wildlife tourism in West Bengal",
+      "href": "/blog/wildlife-tourism-in-west-bengal"
+    },
+    {
+      "label": "Assam tour packages",
+      "href": "/packages/assam"
+    },
+    {
+      "label": "Wildlife trips",
+      "href": "/packages/wildlife-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Where to see wildlife in India",
+      "href": "/blog/where-to-see-wildlife-in-india",
+      "note": "species by species"
+    },
+    {
+      "name": "Best wildlife safaris",
+      "href": "/blog/best-wildlife-safaris-in-india",
+      "note": "jeep and elephant safaris"
+    },
+    {
+      "name": "Best national parks in India",
+      "href": "/blog/best-national-parks-in-india",
+      "note": "Kaziranga and more"
+    }
+  ],
+  "places": [
+    "Kaziranga",
+    "Pobitora",
+    "Orang",
+    "Manas",
+    "Jaldapara",
+    "Gorumara",
+    "Dudhwa"
+  ],
+  "styles": [
+    "wildlife-tours"
+  ],
+  "planDestination": "Kaziranga",
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,366 @@
+{
+  "slug": "mountain-railways-of-india",
+  "kind": "pillar",
+  "short": "Mountain railways of India",
+  "title": "Mountain Railways of India: The UNESCO Toy Trains and Other Heritage Journeys",
+  "seoTitle": "Mountain Railways of India: Darjeeling, Ooty & Shimla | Kudozz Club",
+  "metaDescription": "India's mountain railways: the UNESCO Darjeeling, Nilgiri and Kalka-Shimla lines, plus Matheran and Kangra Valley, with routes, how to book and when to ride.",
+  "description": "A guide to riding India's mountain railways: the three lines inscribed by UNESCO as the Mountain Railways of India (the Darjeeling Himalayan Railway, the Nilgiri Mountain Railway and the Kalka-Shimla Railway), plus the Matheran Light Railway and the Kangra Valley Railway, with routes, journey times, booking, seasons and tips.",
+  "dek": "Built in the colonial era to reach hill stations, India's toy trains still climb through tea gardens, forests and tunnels. Three of them are a UNESCO World Heritage Site.",
+  "primaryKeyword": "mountain railways of India",
+  "secondaryKeywords": [
+    "toy trains India",
+    "Darjeeling Himalayan Railway",
+    "Kalka Shimla railway",
+    "Nilgiri mountain railway"
+  ],
+  "searchIntent": "Informational/experience",
+  "activities": [
+    "train journeys",
+    "hill stations",
+    "photography"
+  ],
+  "terrain": [
+    "mountains",
+    "hills"
+  ],
+  "regions": [
+    "West Bengal",
+    "Tamil Nadu",
+    "Himachal Pradesh",
+    "Maharashtra"
+  ],
+  "seasons": [
+    "spring",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "rail enthusiasts"
+  ],
+  "tags": [
+    "Toy Train",
+    "Mountain Railways",
+    "Darjeeling",
+    "Ooty",
+    "Shimla",
+    "UNESCO"
+  ],
+  "hero": {
+    "src": "/images/heritage/mountain-railways-darjeeling-toy-train.webp",
+    "alt": "A steam locomotive of the Darjeeling Himalayan Railway"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Mountain Railways of India"
+  },
+  "intro": [
+    "The Mountain Railways of India is a UNESCO World Heritage Site made up of three lines: the Darjeeling Himalayan Railway (inscribed in 1999), the Nilgiri Mountain Railway (added in 2005) and the Kalka-Shimla Railway (added in 2008). They were built between the 1880s and 1900s to connect the plains with hill stations, and are still operated by Indian Railways.",
+    "These railways were built under colonial rule, largely to serve the summer retreats of officials, with Indian labour and engineering. Today they are much-loved journeys through beautiful country."
+  ],
+  "quickAnswer": "The Mountain Railways of India, a UNESCO World Heritage Site, are the Darjeeling Himalayan Railway (New Jalpaiguri to Darjeeling), the Nilgiri Mountain Railway (Mettupalayam to Ooty, with a rack section) and the Kalka-Shimla Railway. The Matheran Light Railway and the Kangra Valley Railway are other scenic narrow-gauge lines. Book through IRCTC well ahead, especially in summer, and check for monsoon disruptions.",
+  "takeaways": [
+    "Three lines form the UNESCO site: Darjeeling, Nilgiri and Kalka-Shimla.",
+    "The Nilgiri line uses a rack-and-pinion system on its steepest section.",
+    "Short steam or heritage joy rides run from Darjeeling towards Ghum.",
+    "Book on IRCTC well in advance; seats sell out in holiday seasons.",
+    "Landslides can disrupt services in the monsoon; check before you travel."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "The lines at a glance",
+      "table": {
+        "columns": [
+          "Railway",
+          "Route",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Darjeeling Himalayan Railway",
+            "New Jalpaiguri to Darjeeling",
+            "2 ft gauge; loops and zigzags; joy rides from Darjeeling (UNESCO 1999)"
+          ],
+          [
+            "Nilgiri Mountain Railway",
+            "Mettupalayam to Udhagamandalam (Ooty)",
+            "Metre gauge with a rack section from Kallar to Coonoor (UNESCO 2005)"
+          ],
+          [
+            "Kalka-Shimla Railway",
+            "Kalka to Shimla",
+            "2 ft 6 in gauge; many tunnels and bridges (UNESCO 2008)"
+          ],
+          [
+            "Matheran Light Railway",
+            "Neral to Matheran",
+            "2 ft gauge; on India's UNESCO Tentative List"
+          ],
+          [
+            "Kangra Valley Railway",
+            "Pathankot to Joginder Nagar",
+            "2 ft 6 in gauge; views of the Dhauladhar"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "darjeeling",
+      "heading": "Darjeeling Himalayan Railway",
+      "items": [
+        {
+          "name": "The toy train",
+          "body": [
+            "Opened in 1881, it climbs from the plains to Darjeeling with loops and reversing zigzags, including the Batasia Loop. Most visitors take the short joy ride from Darjeeling to Ghum and back, sometimes steam-hauled."
+          ],
+          "links": [
+            {
+              "label": "Darjeeling guide",
+              "href": "/blog/darjeeling-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/west-bengal/darjeeling-himalayan-railway-toy-train.webp",
+            "alt": "The Darjeeling Himalayan Railway toy train",
+            "caption": "Darjeeling toy train"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nilgiri",
+      "heading": "Nilgiri Mountain Railway",
+      "items": [
+        {
+          "name": "Mettupalayam to Ooty",
+          "body": [
+            "Completed to Ooty in 1908. Between Kallar and Coonoor, a rack-and-pinion system helps trains climb steep gradients through forest and tea country."
+          ],
+          "links": [
+            {
+              "label": "Ooty guide",
+              "href": "/blog/ooty-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/ooty/nilgiri-mountain-railway-ooty.webp",
+            "alt": "A Nilgiri Mountain Railway train near Ooty",
+            "caption": "Nilgiri Mountain Railway"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shimla",
+      "heading": "Kalka-Shimla Railway",
+      "items": [
+        {
+          "name": "Kalka to Shimla",
+          "body": [
+            "Opened in 1903, with more than 100 tunnels and hundreds of bridges on its climb to the former summer capital. The journey takes about five to six hours."
+          ],
+          "links": [
+            {
+              "label": "Shimla guide",
+              "href": "/blog/shimla-travel-guide"
+            },
+            {
+              "label": "Things to do in Shimla",
+              "href": "/blog/things-to-do-in-shimla"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "others",
+      "heading": "Matheran and Kangra",
+      "items": [
+        {
+          "name": "Matheran Light Railway",
+          "body": [
+            "A short line from Neral to the car-free hill station of Matheran; services are often suspended in the monsoon."
+          ],
+          "links": [
+            {
+              "label": "Matheran guide",
+              "href": "/blog/matheran-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kangra Valley Railway",
+          "body": [
+            "A long, slow line through the Kangra valley below the Dhauladhar range, useful for Palampur and Baijnath."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Booking and tips",
+      "list": [
+        "Book through IRCTC as early as possible; heritage and joy-ride services have limited seats.",
+        "Choose window seats on the valley side where you can; ask at the station.",
+        "Carry snacks and water; stops are few on some routes.",
+        "The monsoon brings landslides and suspensions; spring and autumn are most reliable."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "The hill stations of Darjeeling, Ooty and Shimla became summer retreats and, in Shimla's case, the summer capital of British India. Getting supplies and people up steep mountain roads was slow and costly, so narrow-gauge railways were built to climb them. Engineers used loops, zigzag reversals, a rack-and-pinion system and many tunnels to gain height. The lines were built largely by Indian workers, often in hard conditions, and they also carried tea, timber and local passengers, which is how many hill towns grew."
+      ]
+    },
+    {
+      "id": "which",
+      "heading": "Which one to choose",
+      "table": {
+        "columns": [
+          "If you want",
+          "Choose"
+        ],
+        "rows": [
+          [
+            "A short, easy ride",
+            "Darjeeling joy ride to Ghum"
+          ],
+          [
+            "Forest, tea gardens and a steep climb",
+            "Nilgiri Mountain Railway, Mettupalayam to Coonoor"
+          ],
+          [
+            "Tunnels, bridges and a full-day journey",
+            "Kalka-Shimla"
+          ],
+          [
+            "A quick trip from Mumbai",
+            "Matheran"
+          ],
+          [
+            "A quiet, slow journey with mountain views",
+            "Kangra Valley"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "combine",
+      "heading": "Combine with",
+      "list": [
+        "Darjeeling: tea gardens, Tiger Hill sunrise and the Himalayan Mountaineering Institute.",
+        "Ooty and Coonoor: botanical gardens, tea estates and the Nilgiri Biosphere Reserve.",
+        "Shimla: the Mall, Christ Church and the Viceregal Lodge.",
+        "Matheran: walks to viewpoints in a car-free town."
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Best seasons",
+      "list": [
+        "March to June: the busiest season, with school holidays; book early.",
+        "July to September: lush, but landslides can suspend services.",
+        "October to December: clear skies and the best mountain views, especially in Darjeeling."
+      ]
+    }
+  ],
+  "safety": [
+    "Services and timings change seasonally; check IRCTC and station notices before travelling.",
+    "Keep hands and heads inside the train, especially on bridges and in tunnels."
+  ],
+  "packing": [
+    "Warm layer for the hills",
+    "Snacks and water",
+    "Camera",
+    "Motion-sickness tablets for winding stretches"
+  ],
+  "faqs": [
+    {
+      "q": "Which railways are in the UNESCO Mountain Railways of India?",
+      "a": "The Darjeeling Himalayan Railway, the Nilgiri Mountain Railway and the Kalka-Shimla Railway."
+    },
+    {
+      "q": "How long is the Kalka-Shimla train journey?",
+      "a": "About five to six hours."
+    },
+    {
+      "q": "What is the Darjeeling joy ride?",
+      "a": "A short round trip from Darjeeling to Ghum, often steam-hauled, passing the Batasia Loop."
+    },
+    {
+      "q": "How do I book the Ooty toy train?",
+      "a": "Through IRCTC; book early, as seats are limited."
+    },
+    {
+      "q": "Is the Matheran toy train running?",
+      "a": "Services are often suspended in the monsoon; check before you go."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Colonial-era heritage",
+      "href": "/blog/colonial-heritage-in-india"
+    },
+    {
+      "label": "UNESCO sites in India",
+      "href": "/blog/unesco-world-heritage-sites-in-india"
+    },
+    {
+      "label": "Darjeeling guide",
+      "href": "/blog/darjeeling-travel-guide"
+    },
+    {
+      "label": "Family holidays",
+      "href": "/packages/family-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Shimla guide",
+      "href": "/blog/shimla-travel-guide",
+      "note": "the summer capital"
+    },
+    {
+      "name": "Ooty guide",
+      "href": "/blog/ooty-travel-guide",
+      "note": "the Nilgiris"
+    },
+    {
+      "name": "Heritage tourism in West Bengal",
+      "href": "/blog/heritage-tourism-in-west-bengal",
+      "note": "Darjeeling and beyond"
+    }
+  ],
+  "places": [
+    "Darjeeling",
+    "New Jalpaiguri",
+    "Ghum",
+    "Mettupalayam",
+    "Coonoor",
+    "Ooty",
+    "Kalka",
+    "Shimla",
+    "Neral",
+    "Matheran",
+    "Pathankot",
+    "Joginder Nagar"
+  ],
+  "styles": [
+    "family-holidays",
+    "heritage-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

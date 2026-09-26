@@ -1,5 +1,11 @@
-// "Things to Do in <Destination>" articles, rendered from
-// src/content/things-to-do/<slug>.json. Static guide folders in src/app/blog
+// JSON-backed blog articles: "Things to Do in <Destination>" articles from
+// src/content/things-to-do/<slug>.json and Adventure Travel articles from
+// src/content/adventure/<slug>.json and Beach Travel articles from
+// src/content/beach/<slug>.json, and Wildlife Tourism articles from
+// src/content/wildlife/<slug>.json, and Spiritual Tourism articles from
+// src/content/spiritual/<slug>.json, and Heritage & Cultural Tourism articles from
+// src/content/heritage/<slug>.json, and Hill Station Travel articles from
+// src/content/hills/<slug>.json. Static guide folders in src/app/blog
 // take precedence over this dynamic segment, and dynamicParams = false means
 // only slugs with a content file are served (anything else is a 404).
 import type { Metadata } from "next";
@@ -16,14 +22,108 @@ import { getAllThingsToDo, getThingsToDo, wordCount, type ThingsToDoArticle } fr
 import { thingsToDoEntry, thingsToDoInState } from "@/lib/things-to-do-links";
 import { getTravelStyle } from "@/lib/travel-styles-data";
 import { SITE_URL } from "@/lib/site";
+import { getAllAdventure, getAdventure } from "@/lib/adventure";
+import AdventureArticleView, { ClusterArticleView, type ClusterConfig } from "@/components/adventure/AdventureArticle";
+import { getAllBeach, getBeach } from "@/lib/beach";
+import { relatedBeach } from "@/lib/beach-links";
+import { getAllWildlife, getWildlife } from "@/lib/wildlife";
+import { relatedWildlife } from "@/lib/wildlife-links";
+import { getAllSpiritual, getSpiritual } from "@/lib/spiritual";
+import { relatedSpiritual } from "@/lib/spiritual-links";
+import { getAllHeritage, getHeritage } from "@/lib/heritage";
+import { relatedHeritage } from "@/lib/heritage-links";
+import { getAllHills, getHill } from "@/lib/hills";
+import { relatedHills } from "@/lib/hills-links";
+
+const HERITAGE_CLUSTER: ClusterConfig = {
+  hub: { label: "Heritage & Culture", href: "/heritage-cultural-tourism", name: "Heritage & Cultural Tourism in India" },
+  tripType: "Heritage & Culture Trips",
+  cta: {
+    title: "Planning a heritage trip?",
+    text: "Kudozz Club can help turn the places you want to see into a practical itinerary, built around your dates, pace and interests.",
+  },
+  sidebarTitle: "More heritage and culture guides",
+  allLabel: "All heritage & cultural tourism \u2192",
+  planTitle: "Want to explore India's heritage on a route built around you?",
+};
+
+const HILLS_CLUSTER: ClusterConfig = {
+  hub: { label: "Hill Stations", href: "/hill-station-travel", name: "Hill Station Travel in India" },
+  tripType: "Hill Station Holidays",
+  cta: {
+    title: "Planning a hill holiday?",
+    text: "Kudozz Club can help turn the hill stations you're considering into a practical itinerary, built around your dates, pace and who is travelling.",
+  },
+  sidebarTitle: "More hill-station guides",
+  allLabel: "All hill-station travel \u2192",
+  planTitle: "Want to combine several mountain destinations into one trip?",
+};
+
+const SPIRITUAL_CLUSTER: ClusterConfig = {
+  hub: { label: "Spiritual Tourism", href: "/spiritual-tourism", name: "Spiritual Tourism in India" },
+  tripType: "Spiritual & Pilgrimage Trips",
+  cta: {
+    title: "Planning to visit?",
+    text: "Let Kudozz Club help you build the route around your dates, budget and travel style, with realistic time for darshan, travel and rest.",
+  },
+  sidebarTitle: "More spiritual travel guides",
+  allLabel: "All spiritual tourism \u2192",
+  planTitle: "Want this pilgrimage turned into a practical itinerary?",
+};
+
+const WILDLIFE_CLUSTER: ClusterConfig = {
+  hub: { label: "Wildlife Tourism", href: "/wildlife-tourism", name: "Wildlife Tourism in India" },
+  tripType: "Wildlife Trips",
+  cta: {
+    title: "Planning a wildlife trip?",
+    text: "Tell Kudozz Club your destination, dates, budget and travel style, and we\u2019ll plan safaris, stays and transfers around it.",
+  },
+  sidebarTitle: "More wildlife guides",
+  allLabel: "All wildlife tourism \u2192",
+  planTitle: "Ready to plan your wildlife escape?",
+};
+
+const BEACH_CLUSTER: ClusterConfig = {
+  hub: { label: "Beach Travel", href: "/beach-travel", name: "Beach Travel in India" },
+  cta: {
+    title: "Planning a beach holiday in India?",
+    text: "Tell Kudozz Club your destination, dates, budget and travel style, and we\u2019ll plan the trip around it.",
+  },
+  sidebarTitle: "More beach guides",
+  planTitle: "Ready for your beach escape?",
+  allLabel: "All beach travel \u2192",
+};
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return getAllThingsToDo().map((a) => ({ slug: a.slug }));
+  return [...getAllThingsToDo(), ...getAllAdventure(), ...getAllBeach(), ...getAllWildlife(), ...getAllSpiritual(), ...getAllHeritage(), ...getAllHills()].map((a) => ({ slug: a.slug }));
+}
+
+function adventureMetadata(slug: string): Metadata | null {
+  const a = getAdventure(slug) ?? getBeach(slug) ?? getWildlife(slug) ?? getSpiritual(slug) ?? getHeritage(slug) ?? getHill(slug);
+  if (!a) return null;
+  const url = `${SITE_URL}/blog/${a.slug}`;
+  return {
+    title: { absolute: a.seoTitle },
+    description: a.metaDescription,
+    keywords: [a.primaryKeyword, ...a.secondaryKeywords],
+    alternates: { canonical: url },
+    openGraph: {
+      title: a.seoTitle,
+      description: a.metaDescription,
+      url,
+      type: "article",
+      siteName: "Kudozz Club",
+      images: [{ url: a.hero.src, alt: a.hero.alt }],
+    },
+    twitter: { card: "summary_large_image", title: a.seoTitle, description: a.metaDescription, images: [a.hero.src] },
+  };
 }
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+  const adv = adventureMetadata(params.slug);
+  if (adv) return adv;
   const a = getThingsToDo(params.slug);
   if (!a) return {};
   const url = `${SITE_URL}/blog/${a.slug}`;
@@ -111,6 +211,18 @@ function Facts({ facts }: { facts: Record<string, string> }) {
 }
 
 export default function ThingsToDoPage({ params }: { params: { slug: string } }) {
+  const adv = getAdventure(params.slug);
+  if (adv) return <AdventureArticleView a={adv} />;
+  const beach = getBeach(params.slug);
+  if (beach) return <ClusterArticleView a={beach} c={BEACH_CLUSTER} sidebar={relatedBeach(beach.slug, 6)} />;
+  const wild = getWildlife(params.slug);
+  if (wild) return <ClusterArticleView a={wild} c={WILDLIFE_CLUSTER} sidebar={relatedWildlife(wild.slug, 6)} />;
+  const spirit = getSpiritual(params.slug);
+  if (spirit) return <ClusterArticleView a={spirit} c={SPIRITUAL_CLUSTER} sidebar={relatedSpiritual(spirit.slug, 6)} />;
+  const heri = getHeritage(params.slug);
+  if (heri) return <ClusterArticleView a={heri} c={HERITAGE_CLUSTER} sidebar={relatedHeritage(heri.slug, 6)} />;
+  const hill = getHill(params.slug);
+  if (hill) return <ClusterArticleView a={hill} c={HILLS_CLUSTER} sidebar={relatedHills(hill.slug, 6)} />;
   const a = getThingsToDo(params.slug);
   if (!a) notFound();
   const e = thingsToDoEntry(a.slug);

@@ -1,0 +1,297 @@
+{
+  "slug": "humayuns-tomb",
+  "kind": "destination",
+  "short": "Humayun's Tomb",
+  "title": "Humayun's Tomb: History and Visiting Guide",
+  "seoTitle": "Humayun's Tomb, Delhi: History & Visiting Guide | Kudozz Club",
+  "metaDescription": "Visit Humayun's Tomb in Delhi: the first great Mughal garden tomb, its history and restoration, the other tombs in the complex, and how to reach it.",
+  "description": "A visitor's guide to Humayun's Tomb in Delhi: the 16th-century garden tomb of the second Mughal emperor, often seen as a forerunner of the Taj Mahal, the other tombs in the complex including Isa Khan's, the restoration by the Aga Khan Trust for Culture, the site museum, Sunder Nursery next door, practicalities and nearby Nizamuddin.",
+  "dek": "Humayun's Tomb, set in a quartered garden in Delhi, set the pattern for the great Mughal tombs that followed, including the Taj Mahal.",
+  "primaryKeyword": "Humayun's Tomb",
+  "secondaryKeywords": [
+    "Humayun tomb Delhi",
+    "Humayun's Tomb history",
+    "Nizamuddin heritage"
+  ],
+  "searchIntent": "Monument visit planning",
+  "activities": [
+    "UNESCO sites",
+    "Mughal monuments",
+    "gardens"
+  ],
+  "terrain": [
+    "heritage town",
+    "garden"
+  ],
+  "regions": [
+    "Delhi",
+    "North India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Humayun's Tomb",
+    "Delhi",
+    "Mughal",
+    "UNESCO"
+  ],
+  "hero": {
+    "src": "/images/heritage/humayuns-tomb-delhi.webp",
+    "alt": "Humayun's Tomb in red sandstone and white marble, Delhi"
+  },
+  "parent": {
+    "label": "UNESCO World Heritage Sites in India",
+    "href": "/blog/unesco-world-heritage-sites-in-india"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Humayun's Tomb",
+    "containedIn": "Delhi"
+  },
+  "intro": [
+    "The Mughal emperor Humayun died in 1556, and his tomb was built in the 1560s and 1570s, commissioned by his widow, Bega Begum, and designed by the Persian architect Mirak Mirza Ghiyas. UNESCO describes it as the first garden-tomb on the Indian subcontinent, and it is often seen as a forerunner of the Taj Mahal.",
+    "The complex contains many other graves, including those of later Mughals, and earlier monuments such as Isa Khan's tomb. A long restoration led by the Aga Khan Trust for Culture with the ASI brought back its gardens and water channels. It was inscribed as a UNESCO World Heritage Site in 1993."
+  ],
+  "quickAnswer": "Humayun's Tomb in Delhi is the 16th-century garden tomb of the Mughal emperor Humayun, commissioned by his widow Bega Begum and a UNESCO World Heritage Site since 1993. It is open daily from sunrise to sunset, with ASI tickets available online. Allow two to three hours for the tomb, Isa Khan's tomb and the gardens, and add Sunder Nursery and the Nizamuddin dargah nearby.",
+  "takeaways": [
+    "Built in the 1560s and 1570s; commissioned by Humayun's widow, Bega Begum.",
+    "Often seen as the forerunner of the Taj Mahal.",
+    "Open daily; tickets from the ASI.",
+    "Isa Khan's tomb, the Arab ki Sarai gate and the Nila Gumbad are in the same area.",
+    "Sunder Nursery, next door, is a restored Mughal-era garden with more monuments."
+  ],
+  "sections": [
+    {
+      "id": "what-to-see",
+      "heading": "What to see",
+      "items": [
+        {
+          "name": "The tomb",
+          "body": [
+            "A red sandstone and white marble mausoleum on a high platform with a double dome, in a charbagh garden divided by water channels."
+          ],
+          "image": {
+            "src": "/images/blogs/delhi/delhi/humayuns-tomb-garden-delhi.webp",
+            "alt": "Humayun's Tomb seen across its charbagh garden, Delhi",
+            "caption": "Humayun's Tomb"
+          }
+        },
+        {
+          "name": "Isa Khan's tomb",
+          "body": [
+            "An octagonal tomb of a noble at the court of Sher Shah Suri, built before Humayun's Tomb, just inside the complex."
+          ]
+        },
+        {
+          "name": "The gates and the Arab ki Sarai",
+          "body": [
+            "Gateways and the remains of the enclosure associated with the craftsmen who built the tomb."
+          ]
+        },
+        {
+          "name": "Nila Gumbad and Afsarwala tomb",
+          "body": [
+            "Smaller monuments nearby, including one with blue tiles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "restoration",
+      "heading": "Restoration and the site museum",
+      "paras": [
+        "The Aga Khan Trust for Culture restored the gardens in the early 2000s and then the tomb itself, working with the ASI, using traditional materials and craftsmen. A site museum near the entrance tells the story of the tomb and the Mughal dynasty; check its current opening hours."
+      ]
+    },
+    {
+      "id": "visiting",
+      "heading": "Visiting practicalities",
+      "list": [
+        "Open daily from sunrise to sunset; check current hours with the ASI.",
+        "Tickets at the gate or online; carry ID.",
+        "Allow two to three hours, more with Sunder Nursery.",
+        "Early mornings and late afternoons have the best light and fewer visitors."
+      ]
+    },
+    {
+      "id": "reach",
+      "heading": "How to reach",
+      "list": [
+        "Metro: JLN Stadium on the Violet Line is the nearest, a short auto ride away.",
+        "Hazrat Nizamuddin railway station is about 2 km away.",
+        "From India Gate: about 5 km."
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Nearby",
+      "items": [
+        {
+          "name": "Nizamuddin",
+          "body": [
+            "The dargah of Hazrat Nizamuddin Auliya and its qawwali, and the tomb of Ghalib."
+          ],
+          "links": [
+            {
+              "label": "Nizamuddin guide",
+              "href": "/blog/nizamuddin-delhi-travel-guide"
+            },
+            {
+              "label": "Sufi shrines in India",
+              "href": "/blog/sufi-shrines-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Lodhi Garden",
+          "body": [
+            "Sultanate-era tombs in a large city park."
+          ],
+          "links": [
+            {
+              "label": "Lodhi Garden guide",
+              "href": "/blog/lodhi-garden-delhi-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "half-day",
+      "heading": "A morning at Nizamuddin",
+      "table": {
+        "columns": [
+          "Time",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "Sunrise",
+            "Humayun's Tomb and Isa Khan's tomb in soft light"
+          ],
+          [
+            "9 am",
+            "Sunder Nursery's gardens and monuments"
+          ],
+          [
+            "11 am",
+            "Walk through Nizamuddin Basti to the dargah"
+          ],
+          [
+            "Evening (Thursdays)",
+            "Return for the qawwali at the dargah"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "architecture",
+      "heading": "What makes it special",
+      "paras": [
+        "Humayun's Tomb brought together Persian ideas (the double dome, the charbagh garden) with Indian materials and craftsmanship (red sandstone, white marble inlay, small chhatris on the roof). The high platform, the garden aligned on the tomb, and the play of red and white became the language of later Mughal tombs."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and ticket rules are set by the Archaeological Survey of India (ASI) or the site authority and change from time to time; check the official website before you go, and buy tickets only on official portals.",
+    "Do not climb on or touch carvings, and follow the site's rules on photography, drones and tripods.",
+    "Weekends and holidays are crowded; arrive at opening time for the calmest visit.",
+    "Carry water; the gardens are large and open."
+  ],
+  "packing": [
+    "Comfortable shoes",
+    "Hat and water",
+    "Photo ID",
+    "Camera",
+    "A light shawl for winter mornings"
+  ],
+  "faqs": [
+    {
+      "q": "Who built Humayun's Tomb?",
+      "a": "It was commissioned by Humayun's widow, Bega Begum, and designed by the architect Mirak Mirza Ghiyas."
+    },
+    {
+      "q": "Is Humayun's Tomb open every day?",
+      "a": "Yes, from sunrise to sunset."
+    },
+    {
+      "q": "Is Humayun's Tomb like the Taj Mahal?",
+      "a": "It is often seen as a forerunner of the Taj Mahal, with a similar garden-tomb plan."
+    },
+    {
+      "q": "How long do I need at Humayun's Tomb?",
+      "a": "About two to three hours."
+    },
+    {
+      "q": "Which metro station is nearest to Humayun's Tomb?",
+      "a": "JLN Stadium on the Violet Line, a short auto ride away."
+    },
+    {
+      "q": "Is there a museum at Humayun's Tomb?",
+      "a": "Yes, a site museum near the entrance; check its current opening hours."
+    },
+    {
+      "q": "What is near Humayun's Tomb?",
+      "a": "The Nizamuddin dargah, Sunder Nursery and Lodhi Garden."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Nizamuddin guide",
+      "href": "/blog/nizamuddin-delhi-travel-guide"
+    },
+    {
+      "label": "Heritage tourism in Delhi",
+      "href": "/blog/heritage-tourism-in-delhi"
+    },
+    {
+      "label": "Things to do in Delhi",
+      "href": "/blog/things-to-do-in-delhi"
+    },
+    {
+      "label": "Delhi tour packages",
+      "href": "/packages/delhi"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Taj Mahal",
+      "href": "/blog/taj-mahal",
+      "note": "the tomb it inspired"
+    },
+    {
+      "name": "Mughal monuments in India",
+      "href": "/blog/mughal-monuments-in-india",
+      "note": "the Mughal trail"
+    },
+    {
+      "name": "Heritage walks in India",
+      "href": "/blog/heritage-walks-in-india",
+      "note": "Nizamuddin walks"
+    }
+  ],
+  "places": [
+    "Humayun's Tomb",
+    "Isa Khan's tomb",
+    "Sunder Nursery",
+    "Nizamuddin",
+    "Lodhi Garden"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Delhi",
+  "updated": "2026-09-26"
+}

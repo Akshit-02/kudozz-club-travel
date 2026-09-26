@@ -1,0 +1,414 @@
+{
+  "slug": "mughal-monuments-in-india",
+  "kind": "pillar",
+  "short": "Mughal monuments in India",
+  "title": "Mughal Monuments in India: A Heritage Trail",
+  "seoTitle": "Mughal Monuments in India: Tombs, Forts & Gardens | Kudozz Club",
+  "metaDescription": "Mughal monuments in India: Humayun's Tomb, Agra Fort, Fatehpur Sikri, Akbar's tomb, the Baby Taj, the Taj Mahal, Red Fort, Jama Masjid and Kashmir's gardens.",
+  "description": "A guide to Mughal monuments in India, in the order they were built: Humayun's Tomb, Agra Fort and Fatehpur Sikri under Akbar, Akbar's tomb at Sikandra, Itmad-ud-Daulah, the Taj Mahal, the Red Fort and Jama Masjid in Delhi, the Mughal gardens of Kashmir and Pinjore, Bibi ka Maqbara and Safdarjung's Tomb, with how to see them on a trip.",
+  "dek": "The Mughals built some of India's most famous monuments between the 16th and 18th centuries. Seen in order, they tell the story of a style.",
+  "primaryKeyword": "Mughal monuments in India",
+  "secondaryKeywords": [
+    "Mughal architecture",
+    "Mughal heritage trail",
+    "Mughal buildings India"
+  ],
+  "searchIntent": "Discovery/itinerary",
+  "activities": [
+    "monuments",
+    "UNESCO sites",
+    "gardens",
+    "photography"
+  ],
+  "terrain": [
+    "plains",
+    "river",
+    "gardens"
+  ],
+  "regions": [
+    "Delhi",
+    "Uttar Pradesh",
+    "Jammu and Kashmir",
+    "Maharashtra",
+    "Haryana"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Mughal",
+    "Monuments",
+    "Taj Mahal",
+    "Agra",
+    "Delhi"
+  ],
+  "hero": {
+    "src": "/images/heritage/mughal-monuments-agra-fort.webp",
+    "alt": "Bastions of the red sandstone walls of Agra Fort"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Mughal architecture in India"
+  },
+  "intro": [
+    "The Mughal dynasty, founded by Babur after the battle of Panipat in 1526, ruled much of the subcontinent until the 18th century and nominally until 1857. Its builders brought together Persian, Central Asian and Indian traditions in tombs, forts, mosques and gardens.",
+    "Seeing the monuments roughly in the order they were built shows how the style grew, from the red sandstone and marble of Humayun's Tomb to the white marble of the Taj Mahal. Most are concentrated in Delhi, Agra and Fatehpur Sikri."
+  ],
+  "quickAnswer": "The major Mughal monuments are Humayun's Tomb and the Red Fort in Delhi; Agra Fort, the Taj Mahal, Itmad-ud-Daulah and Akbar's tomb at Sikandra in and around Agra; Fatehpur Sikri; the Jama Masjid in Delhi; the Mughal gardens of Srinagar; and Bibi ka Maqbara in Chhatrapati Sambhajinagar. Five are UNESCO sites: Humayun's Tomb, the Red Fort, Agra Fort, the Taj Mahal and Fatehpur Sikri.",
+  "takeaways": [
+    "Humayun's Tomb (completed in the 1570s) set the pattern for the Taj Mahal.",
+    "Akbar built in red sandstone at Agra Fort and Fatehpur Sikri.",
+    "Itmad-ud-Daulah, the 'Baby Taj', pioneered fine marble inlay.",
+    "Shah Jahan built the Taj Mahal, the Red Fort and Delhi's Jama Masjid.",
+    "Delhi, Agra and Fatehpur Sikri can be seen together in four or five days."
+  ],
+  "sections": [
+    {
+      "id": "timeline",
+      "heading": "Monuments in the order they were built",
+      "table": {
+        "columns": [
+          "Monument",
+          "Place",
+          "Ruler",
+          "Built"
+        ],
+        "rows": [
+          [
+            "Humayun's Tomb",
+            "Delhi",
+            "Built for Humayun, commissioned under Akbar",
+            "1560s to about 1572"
+          ],
+          [
+            "Agra Fort (rebuilt)",
+            "Agra",
+            "Akbar",
+            "From 1565"
+          ],
+          [
+            "Fatehpur Sikri",
+            "Near Agra",
+            "Akbar",
+            "1571 to 1585"
+          ],
+          [
+            "Akbar's tomb",
+            "Sikandra, Agra",
+            "Jahangir",
+            "Completed about 1613"
+          ],
+          [
+            "Itmad-ud-Daulah",
+            "Agra",
+            "Nur Jahan",
+            "1622 to 1628"
+          ],
+          [
+            "Shalimar and Nishat Baghs",
+            "Srinagar",
+            "Jahangir and Asaf Khan",
+            "17th century"
+          ],
+          [
+            "Taj Mahal",
+            "Agra",
+            "Shah Jahan",
+            "From 1632; main tomb complete by about 1643"
+          ],
+          [
+            "Red Fort",
+            "Delhi",
+            "Shah Jahan",
+            "1639 to 1648"
+          ],
+          [
+            "Jama Masjid",
+            "Delhi",
+            "Shah Jahan",
+            "1650 to 1656"
+          ],
+          [
+            "Bibi ka Maqbara",
+            "Chhatrapati Sambhajinagar",
+            "Azam Shah",
+            "About 1660"
+          ],
+          [
+            "Safdarjung's Tomb",
+            "Delhi",
+            "Late Mughal",
+            "1754"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "delhi",
+      "heading": "Delhi",
+      "items": [
+        {
+          "name": "Humayun's Tomb, the Red Fort and the Jama Masjid",
+          "body": [
+            "The first great garden tomb, Shah Jahan's palace-fort, and the city's great mosque."
+          ],
+          "links": [
+            {
+              "label": "Humayun's Tomb",
+              "href": "/blog/humayuns-tomb"
+            },
+            {
+              "label": "Red Fort",
+              "href": "/blog/red-fort"
+            },
+            {
+              "label": "Old Delhi guide",
+              "href": "/blog/old-delhi-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/delhi/delhi/jama-masjid-courtyard-old-delhi.webp",
+            "alt": "The courtyard of the Jama Masjid, Old Delhi",
+            "caption": "Jama Masjid, Delhi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "agra",
+      "heading": "Agra and Fatehpur Sikri",
+      "items": [
+        {
+          "name": "Agra Fort",
+          "body": [
+            "Akbar's red sandstone fort, with later marble palaces by Shah Jahan overlooking the Yamuna and the Taj."
+          ],
+          "links": [
+            {
+              "label": "Agra guide",
+              "href": "/blog/agra-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/agra/agra-fort-red-sandstone-ramparts-yamuna.webp",
+            "alt": "The red sandstone ramparts of Agra Fort",
+            "caption": "Agra Fort"
+          }
+        },
+        {
+          "name": "Fatehpur Sikri",
+          "body": [
+            "Akbar's short-lived capital, with the Buland Darwaza, the Jama Masjid, the dargah of Salim Chishti and palace courtyards."
+          ],
+          "links": [
+            {
+              "label": "Fatehpur Sikri guide",
+              "href": "/blog/fatehpur-sikri-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Itmad-ud-Daulah and Sikandra",
+          "body": [
+            "The 'Baby Taj', with delicate marble inlay, and Akbar's tomb, set in a large garden."
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/agra/itmad-ud-daulah-baby-taj-marble-tomb.webp",
+            "alt": "The marble tomb of Itmad-ud-Daulah, Agra",
+            "caption": "Itmad-ud-Daulah"
+          }
+        },
+        {
+          "name": "Taj Mahal",
+          "body": [
+            "Shah Jahan's tomb for Mumtaz Mahal. Closed on Fridays."
+          ],
+          "links": [
+            {
+              "label": "Taj Mahal",
+              "href": "/blog/taj-mahal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond Delhi and Agra",
+      "list": [
+        "Srinagar's Mughal gardens (Shalimar, Nishat, Chashme Shahi), terraced along the Dal Lake.",
+        "Pinjore Gardens near Chandigarh, a Mughal-period terraced garden.",
+        "Bibi ka Maqbara in Chhatrapati Sambhajinagar, often compared with the Taj Mahal.",
+        "Lahore, now in Pakistan, has major Mughal monuments too; they are outside this guide."
+      ],
+      "items": [
+        {
+          "name": "Guides",
+          "body": [
+            "Mughal sites outside Delhi and Agra."
+          ],
+          "links": [
+            {
+              "label": "Srinagar guide",
+              "href": "/blog/srinagar-travel-guide"
+            },
+            {
+              "label": "Things to do in Aurangabad",
+              "href": "/blog/things-to-do-in-aurangabad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "heading": "What to look for",
+      "list": [
+        "The charbagh: a garden divided into four by water channels.",
+        "Pietra dura: coloured stones inlaid into marble, perfected at Itmad-ud-Daulah and the Taj.",
+        "Double domes, which let the outside rise high while keeping the inner chamber in proportion.",
+        "Calligraphy that seems the same size from top to bottom, because letters higher up are larger."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "Babur's victory at Panipat in 1526 founded the dynasty, but his son Humayun lost the throne to Sher Shah Suri and regained it only in 1555, shortly before his death. Akbar (ruled 1556 to 1605) built the empire's institutions and its first great buildings. Jahangir and Nur Jahan favoured gardens and refined decoration; Shah Jahan (1628 to 1658) built on the grandest scale; and under Aurangzeb building slowed as wars in the Deccan drained resources. After the 18th century the dynasty's power shrank, and the last emperor, Bahadur Shah Zafar, was exiled by the British after 1857."
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "A five-day Mughal route",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Delhi: Humayun's Tomb, Safdarjung's Tomb, Lodhi Garden"
+          ],
+          [
+            "2",
+            "Delhi: Red Fort (not Monday), Jama Masjid, Chandni Chowk"
+          ],
+          [
+            "3",
+            "Agra: Taj Mahal at sunrise (not Friday), Agra Fort"
+          ],
+          [
+            "4",
+            "Agra: Itmad-ud-Daulah, Mehtab Bagh at sunset, Sikandra"
+          ],
+          [
+            "5",
+            "Fatehpur Sikri on the way to Jaipur or back to Delhi"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Timings, closures and tickets change; check the ASI, state department or temple authority before you go.",
+    "The Taj Mahal is closed on Fridays and the Red Fort on Mondays.",
+    "Use official ticket sites and licensed guides."
+  ],
+  "packing": [
+    "Walking shoes",
+    "Hat and water",
+    "Photo ID",
+    "Minimal bags; some monuments restrict large items"
+  ],
+  "faqs": [
+    {
+      "q": "What are the most famous Mughal monuments?",
+      "a": "The Taj Mahal, Red Fort, Humayun's Tomb, Agra Fort, Fatehpur Sikri and Delhi's Jama Masjid."
+    },
+    {
+      "q": "Which Mughal monuments are UNESCO sites?",
+      "a": "Humayun's Tomb, the Red Fort, Agra Fort, the Taj Mahal and Fatehpur Sikri."
+    },
+    {
+      "q": "What is the Baby Taj?",
+      "a": "Itmad-ud-Daulah in Agra, a marble tomb built by Nur Jahan for her father, completed in 1628."
+    },
+    {
+      "q": "Which came first, Humayun's Tomb or the Taj Mahal?",
+      "a": "Humayun's Tomb, by about 60 years; it influenced the Taj."
+    },
+    {
+      "q": "How many days do I need?",
+      "a": "Four or five days covers Delhi, Agra and Fatehpur Sikri."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Golden Triangle itinerary",
+      "href": "/blog/golden-triangle-itinerary"
+    },
+    {
+      "label": "Heritage tourism in Uttar Pradesh",
+      "href": "/blog/heritage-tourism-in-uttar-pradesh"
+    },
+    {
+      "label": "Heritage tourism in Delhi",
+      "href": "/blog/heritage-tourism-in-delhi"
+    },
+    {
+      "label": "Golden Triangle tour",
+      "href": "/packages/golden-triangle"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Taj Mahal",
+      "href": "/blog/taj-mahal",
+      "note": "visiting the Taj"
+    },
+    {
+      "name": "Deccan sultanate heritage",
+      "href": "/blog/deccan-sultanate-heritage",
+      "note": "Indo-Islamic architecture in the Deccan"
+    },
+    {
+      "name": "Things to do in Agra",
+      "href": "/blog/things-to-do-in-agra",
+      "note": "the city"
+    }
+  ],
+  "places": [
+    "Humayun's Tomb",
+    "Agra Fort",
+    "Fatehpur Sikri",
+    "Sikandra",
+    "Itmad-ud-Daulah",
+    "Taj Mahal",
+    "Red Fort",
+    "Jama Masjid",
+    "Shalimar Bagh",
+    "Bibi ka Maqbara",
+    "Safdarjung's Tomb"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Delhi and Agra",
+  "updated": "2026-09-26"
+}

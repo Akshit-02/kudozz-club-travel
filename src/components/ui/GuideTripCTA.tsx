@@ -1,6 +1,12 @@
 import Link from "next/link";
 import { getGuideContext } from "@/lib/guide-context";
 import { thingsToDoForGuide } from "@/lib/things-to-do-links";
+import { adventureForGuide } from "@/lib/adventure-links";
+import { beachForGuide } from "@/lib/beach-links";
+import { wildlifeForGuide } from "@/lib/wildlife-links";
+import { spiritualForGuide } from "@/lib/spiritual-links";
+import { heritageForGuide } from "@/lib/heritage-links";
+import { hillsForGuide } from "@/lib/hills-links";
 
 // A single, quiet planning prompt placed after a guide's introduction.
 // Rendered inside .prose-travel, so it uses the .guide-cta overrides in
@@ -9,6 +15,12 @@ export default function GuideTripCTA({ slug, hideThingsToDo = false }: { slug: s
   const ctx = getGuideContext(slug);
   if (!ctx) return null;
   const ttd = hideThingsToDo ? undefined : thingsToDoForGuide(slug);
+  const adv = adventureForGuide[slug];
+  const beach = beachForGuide[slug];
+  const wild = wildlifeForGuide[slug];
+  const spirit = spiritualForGuide[slug];
+  const heri = heritageForGuide[slug];
+  const hill = hillsForGuide[slug];
   const samePlace = ctx.place === ctx.stateName;
 
   return (
@@ -17,6 +29,42 @@ export default function GuideTripCTA({ slug, hideThingsToDo = false }: { slug: s
       <p className="font-sans text-[15px]">
         Looking for activities and experiences? See our guide to the{" "}
         <Link href={`/blog/${ttd.slug}`}>best things to do in {ttd.destination}</Link>.
+      </p>
+    )}
+    {hill && (
+      <p className="font-sans text-[15px]">
+        Comparing hill stations? See our guide to{" "}
+        <Link href={`/blog/${hill.slug}`}>{hill.label}</Link>.
+      </p>
+    )}
+    {heri && (
+      <p className="font-sans text-[15px]">
+        Interested in the history? See our guide to{" "}
+        <Link href={`/blog/${heri.slug}`}>{heri.label}</Link>.
+      </p>
+    )}
+    {spirit && (
+      <p className="font-sans text-[15px]">
+        Planning a pilgrimage? See our guide to{" "}
+        <Link href={`/blog/${spirit.slug}`}>{spirit.label}</Link>.
+      </p>
+    )}
+    {wild && (
+      <p className="font-sans text-[15px]">
+        Planning a wildlife trip? See our guide to{" "}
+        <Link href={`/blog/${wild.slug}`}>{wild.label}</Link>.
+      </p>
+    )}
+    {beach && (
+      <p className="font-sans text-[15px]">
+        Planning a beach holiday? Explore our guide to{" "}
+        <Link href={`/blog/${beach.slug}`}>{beach.label}</Link>.
+      </p>
+    )}
+    {adv && (
+      <p className="font-sans text-[15px]">
+        Planning something active? Read our guide to{" "}
+        <Link href={`/blog/${adv.slug}`}>{adv.label}</Link>.
       </p>
     )}
     <aside

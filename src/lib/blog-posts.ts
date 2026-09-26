@@ -1,4 +1,10 @@
 import { thingsToDoIndex } from "./things-to-do-links";
+import { adventureIndex } from "./adventure-links";
+import { beachIndex } from "./beach-links";
+import { wildlifeIndex } from "./wildlife-links";
+import { spiritualIndex } from "./spiritual-links";
+import { heritageIndex } from "./heritage-links";
+import { hillsIndex } from "./hills-links";
 
 // `id` matches the `category` value used on each post in `posts` below,
 // so filtering is a direct equality check with no separate mapping table.
@@ -12,6 +18,12 @@ export const categories = [
   { id: "Road Trip", label: "Road Trip" },
   { id: "Adventure", label: "Adventure" },
   { id: "Things to Do", label: "Things to Do" },
+  { id: "Adventure Travel", label: "Adventure Travel" },
+  { id: "Beach Travel", label: "Beach Travel" },
+  { id: "Wildlife Tourism", label: "Wildlife Tourism" },
+  { id: "Spiritual Tourism", label: "Spiritual Tourism" },
+  { id: "Heritage & Culture", label: "Heritage & Culture" },
+  { id: "Hill Stations", label: "Hill Stations" },
 ];
 
 export const featuredPost = {
@@ -7027,7 +7039,85 @@ const thingsToDoPosts = thingsToDoIndex.map((e) => ({
   featured: false,
 }));
 
-export const posts = [...guidePosts, ...thingsToDoPosts];
+// Adventure Travel articles (src/content/adventure), from the generated index.
+const adventurePosts = adventureIndex.map((e) => ({
+  slug: e.slug,
+  title: e.title,
+  excerpt: e.excerpt,
+  image: e.image,
+  category: "Adventure Travel",
+  categoryColor: "bg-sky-100 text-sky-800",
+  tags: e.tags,
+  readTime: e.readTime,
+  featured: false,
+}));
+
+// Beach Travel articles (src/content/beach), from the generated index.
+const beachPosts = beachIndex.map((e) => ({
+  slug: e.slug,
+  title: e.title,
+  excerpt: e.excerpt,
+  image: e.image,
+  category: "Beach Travel",
+  categoryColor: "bg-cyan-100 text-cyan-800",
+  tags: e.tags,
+  readTime: e.readTime,
+  featured: false,
+}));
+
+// Wildlife Tourism articles (src/content/wildlife), from the generated index.
+const wildlifePosts = wildlifeIndex.map((e) => ({
+  slug: e.slug,
+  title: e.title,
+  excerpt: e.excerpt,
+  image: e.image,
+  category: "Wildlife Tourism",
+  categoryColor: "bg-lime-100 text-lime-800",
+  tags: e.tags,
+  readTime: e.readTime,
+  featured: false,
+}));
+
+// Spiritual Tourism articles (src/content/spiritual), from the generated index.
+const spiritualPosts = spiritualIndex.map((e) => ({
+  slug: e.slug,
+  title: e.title,
+  excerpt: e.excerpt,
+  image: e.image,
+  category: "Spiritual Tourism",
+  categoryColor: "bg-amber-100 text-amber-800",
+  tags: e.tags,
+  readTime: e.readTime,
+  featured: false,
+}));
+
+// Heritage & Cultural Tourism articles (src/content/heritage), from the generated index.
+const heritagePosts = heritageIndex.map((e) => ({
+  slug: e.slug,
+  title: e.title,
+  excerpt: e.excerpt,
+  image: e.image,
+  category: "Heritage & Culture",
+  categoryColor: "bg-rose-100 text-rose-800",
+  tags: e.tags,
+  readTime: e.readTime,
+  featured: false,
+}));
+
+// Hill Station Travel articles (src/content/hills), from the generated index.
+const hillsPosts = hillsIndex.map((e) => ({
+  slug: e.slug,
+  title: e.title,
+  excerpt: e.excerpt,
+  image: e.image,
+  category: "Hill Stations",
+  categoryColor: "bg-sky-100 text-sky-800",
+  tags: e.tags,
+  readTime: e.readTime,
+  featured: false,
+}));
+
+export const posts = [...guidePosts, ...thingsToDoPosts, ...adventurePosts, ...beachPosts, ...wildlifePosts, ...spiritualPosts, ...heritagePosts, ...hillsPosts];
 
 export const popularTags = [
   "Himachal Pradesh",

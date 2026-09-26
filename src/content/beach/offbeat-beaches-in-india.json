@@ -1,0 +1,465 @@
+{
+  "slug": "offbeat-beaches-in-india",
+  "kind": "planning",
+  "short": "Offbeat beaches in India",
+  "title": "Offbeat Beaches in India: Quiet Coasts Worth the Detour",
+  "seoTitle": "Offbeat Beaches in India: Quiet Coasts Worth the Detour | Kudozz Club",
+  "metaDescription": "Quiet, offbeat beaches in India: Guhagar and Velas on the Konkan, Kasarkod and Maravanthe, Marari and Kappil in Kerala, Tranquebar, Talasari, Butler Bay and more.",
+  "description": "A guide to offbeat beaches in India, quieter alternatives to the famous names: Guhagar, Velas and Devbagh on the Konkan, Galgibaga and Cola in Goa, Kasarkod, Maravanthe and Devbagh (Karwar) in Karnataka, Marari, Kappil and Muzhappilangad in Kerala, Tranquebar in Tamil Nadu, Yarada and Bheemili in Andhra, Talasari and Junput on the Bengal border, and remote island beaches.",
+  "dek": "India's famous beaches get crowded in season. These quieter beaches trade facilities for space, and reward the extra effort.",
+  "primaryKeyword": "offbeat beaches in India",
+  "secondaryKeywords": [
+    "hidden beaches in India",
+    "secluded beaches India",
+    "less crowded beaches India",
+    "untouched beaches India",
+    "quiet beaches India"
+  ],
+  "searchIntent": "Discover lesser-known beaches",
+  "activities": [
+    "beaches",
+    "turtle watching",
+    "quiet stays"
+  ],
+  "terrain": [
+    "beaches",
+    "coast",
+    "islands"
+  ],
+  "regions": [
+    "India",
+    "West coast",
+    "East coast",
+    "Islands"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "solo",
+    "families"
+  ],
+  "tags": [
+    "Offbeat Beaches",
+    "Quiet Beaches",
+    "India",
+    "Konkan"
+  ],
+  "hero": {
+    "src": "/images/beach/offbeat-beach-india-quiet.webp",
+    "alt": "Kudle beach seen from the headland, Gokarna",
+    "caption": "Kudle beach"
+  },
+  "parent": {
+    "label": "Best Beaches in India",
+    "href": "/blog/best-beaches-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "India's coast"
+  },
+  "intro": [
+    "Offbeat does not mean undiscovered: most of these beaches are known to locals and a few travellers. What they share is fewer visitors, simpler facilities and a slower pace than Goa's north, Kovalam or Digha. Many have no lifeguards, so treat the sea with extra caution.",
+    "This guide lists the best quieter beaches by coast, with what makes each worth the detour and the nearest well-known base."
+  ],
+  "quickAnswer": "Good offbeat beaches in India include Guhagar, Velas and Devbagh on the Konkan coast, Galgibaga and Cola in south Goa, Kasarkod and Maravanthe in Karnataka, Marari, Kappil and Muzhappilangad in Kerala, Tranquebar in Tamil Nadu, Yarada and Bheemili near Vizag, Talasari and Junput on the Bengal and Odisha border, and island beaches such as Lalaji Bay and Butler Bay in the Andamans. Most have few facilities and no lifeguards.",
+  "takeaways": [
+    "The Konkan coast between Mumbai and Goa has many quiet beaches, some with Blue Flag certification.",
+    "South Goa's Galgibaga and Cola are among Goa's emptiest beaches.",
+    "Kerala's north (Kappil, Muzhappilangad) is far quieter than Kovalam and Varkala.",
+    "East coast gems such as Tranquebar, Talasari and Bheemili see few outside visitors.",
+    "Quiet beaches often have no lifeguards: swim only in calm conditions, if at all."
+  ],
+  "sections": [
+    {
+      "id": "west",
+      "heading": "West coast",
+      "items": [
+        {
+          "name": "Guhagar and Velas, Ratnagiri",
+          "body": [
+            "Guhagar is a long, clean Blue Flag beach behind a small temple town; Velas is known for turtle hatchlings in spring."
+          ],
+          "facts": {
+            "Nearest base": "Chiplun, Dapoli"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Maharashtra",
+              "href": "/blog/best-beaches-in-maharashtra"
+            }
+          ]
+        },
+        {
+          "name": "Devbagh and Vengurla, Sindhudurg",
+          "body": [
+            "Devbagh sits on a spit between river and sea near Tarkarli; Vengurla is close to the Goa border."
+          ],
+          "facts": {
+            "Nearest base": "Malvan"
+          }
+        },
+        {
+          "name": "Galgibaga and Cola, south Goa",
+          "body": [
+            "Galgibaga is a turtle-nesting beach with very little development; Cola has a freshwater lagoon behind the sand."
+          ],
+          "facts": {
+            "Nearest base": "Palolem, Agonda"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Goa",
+              "href": "/blog/best-beaches-in-goa"
+            }
+          ]
+        },
+        {
+          "name": "Kasarkod and Maravanthe, Karnataka",
+          "body": [
+            "Kasarkod is a clean Blue Flag beach near Honnavar; Maravanthe is the coast road between sea and river, with an empty beach beside it."
+          ],
+          "facts": {
+            "Nearest base": "Honnavar, Kundapura"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Karnataka",
+              "href": "/blog/best-beaches-in-karnataka"
+            }
+          ]
+        },
+        {
+          "name": "Devbagh, Karwar",
+          "body": [
+            "A quiet spit at the mouth of the Kali river near Karwar, with island boat trips."
+          ],
+          "facts": {
+            "Nearest base": "Karwar"
+          }
+        },
+        {
+          "name": "Marari, Kappil and Muzhappilangad, Kerala",
+          "body": [
+            "Marari is a fishing-village beach near Alappuzha; Kappil near Bekal has a backwater behind it; Muzhappilangad near Thalassery is a drive-in beach."
+          ],
+          "facts": {
+            "Nearest base": "Alappuzha, Kasaragod, Kannur"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Kerala",
+              "href": "/blog/best-beaches-in-kerala"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "heading": "East coast",
+      "items": [
+        {
+          "name": "Tranquebar, Tamil Nadu",
+          "body": [
+            "A former Danish trading town with a fort on the sand and quiet colonial streets."
+          ],
+          "facts": {
+            "Nearest base": "Tranquebar itself"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Tamil Nadu",
+              "href": "/blog/best-beaches-in-tamil-nadu"
+            }
+          ]
+        },
+        {
+          "name": "Yarada and Bheemili, Andhra Pradesh",
+          "body": [
+            "Yarada is surrounded by hills below Dolphin's Nose; Bheemili, at the end of Vizag's beach road, has Dutch-era history."
+          ],
+          "facts": {
+            "Nearest base": "Visakhapatnam"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Andhra Pradesh",
+              "href": "/blog/best-beaches-in-andhra-pradesh"
+            }
+          ]
+        },
+        {
+          "name": "Gopalpur, Odisha",
+          "body": [
+            "A small colonial port town with a calm beach, far quieter than Puri."
+          ],
+          "facts": {
+            "Nearest base": "Berhampur"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Odisha",
+              "href": "/blog/best-beaches-in-odisha"
+            }
+          ]
+        },
+        {
+          "name": "Talasari and Junput",
+          "body": [
+            "Talasari in Odisha and Junput in Bengal, near Digha, are quiet estuary beaches with red crabs and casuarinas."
+          ],
+          "facts": {
+            "Nearest base": "Digha"
+          },
+          "links": [
+            {
+              "label": "Best beaches in West Bengal",
+              "href": "/blog/best-beaches-in-west-bengal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "islands",
+      "heading": "Island beaches",
+      "items": [
+        {
+          "name": "Lalaji Bay, Long Island (Andamans)",
+          "body": [
+            "A white beach in Middle Andaman reached by boat or forest walk."
+          ],
+          "links": [
+            {
+              "label": "Long Island guide",
+              "href": "/blog/long-island-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Butler Bay, Little Andaman",
+          "body": [
+            "A long, remote surf beach, a long ferry ride from Sri Vijaya Puram."
+          ],
+          "links": [
+            {
+              "label": "Little Andaman guide",
+              "href": "/blog/little-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kalipur, North Andaman",
+          "body": [
+            "A turtle-nesting beach near Diglipur and Saddle Peak."
+          ],
+          "links": [
+            {
+              "label": "Kalipur beach guide",
+              "href": "/blog/kalipur-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Minicoy, Lakshadweep",
+          "body": [
+            "The southernmost Lakshadweep island, with Thundi beach and a tall lighthouse."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Lakshadweep",
+              "href": "/blog/best-beaches-in-lakshadweep"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Offbeat beaches compared",
+      "table": {
+        "columns": [
+          "Beach",
+          "State",
+          "Why go",
+          "Facilities"
+        ],
+        "rows": [
+          [
+            "Guhagar",
+            "Maharashtra",
+            "Clean, long, Blue Flag",
+            "Some"
+          ],
+          [
+            "Velas",
+            "Maharashtra",
+            "Turtle hatchlings in spring",
+            "Homestays"
+          ],
+          [
+            "Galgibaga",
+            "Goa",
+            "Empty, turtle nesting",
+            "Very few"
+          ],
+          [
+            "Kasarkod",
+            "Karnataka",
+            "Clean, Blue Flag",
+            "Some"
+          ],
+          [
+            "Marari",
+            "Kerala",
+            "Village beach",
+            "Homestays, resorts"
+          ],
+          [
+            "Kappil",
+            "Kerala",
+            "Beach and backwater",
+            "Few"
+          ],
+          [
+            "Tranquebar",
+            "Tamil Nadu",
+            "Danish fort, quiet town",
+            "Some"
+          ],
+          [
+            "Bheemili",
+            "Andhra Pradesh",
+            "History, quiet",
+            "Some"
+          ],
+          [
+            "Talasari",
+            "Odisha",
+            "Estuary, red crabs",
+            "Few"
+          ],
+          [
+            "Butler Bay",
+            "Andamans",
+            "Remote surf beach",
+            "Very few"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for quiet beaches",
+      "list": [
+        "Carry water, snacks and cash; there may be no shops or ATMs.",
+        "Check how you will get back, especially if you arrive by boat or on foot.",
+        "Swim only in calm conditions; most quiet beaches have no lifeguards.",
+        "Respect villages: dress modestly and keep noise down.",
+        "Leave nothing behind."
+      ]
+    }
+  ],
+  "safety": [
+    "Most offbeat beaches have no lifeguards; do not swim alone or in rough water.",
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Keep away from turtle nests and follow local volunteers' rules.",
+    "Tell someone where you are going on remote island beaches."
+  ],
+  "packing": [
+    "Water and snacks",
+    "Cash",
+    "Sunscreen and a hat",
+    "A small first-aid kit",
+    "Rubbish bag"
+  ],
+  "faqs": [
+    {
+      "q": "What are some offbeat beaches in India?",
+      "a": "Guhagar, Velas, Galgibaga, Kasarkod, Marari, Kappil, Tranquebar, Bheemili, Talasari and Lalaji Bay."
+    },
+    {
+      "q": "Which are the least crowded beaches in Goa?",
+      "a": "Galgibaga, Cola and Polem in south Goa."
+    },
+    {
+      "q": "Are offbeat beaches safe for swimming?",
+      "a": "Most have no lifeguards. Swim only in calm conditions and never alone."
+    },
+    {
+      "q": "Which offbeat beach is good near Mumbai?",
+      "a": "Diveagar, Shrivardhan and Guhagar are quieter than Alibaug and Kashid."
+    },
+    {
+      "q": "Which quiet beaches are near Kolkata?",
+      "a": "Tajpur, Junput and Talasari near Digha, and Bakkhali."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Best beaches in India",
+      "href": "/blog/best-beaches-in-india"
+    },
+    {
+      "label": "Things to do in Gokarna",
+      "href": "/blog/things-to-do-in-gokarna"
+    },
+    {
+      "label": "Gokarna travel guide",
+      "href": "/blog/gokarna-beaches-travel-guide"
+    },
+    {
+      "label": "Budget holidays",
+      "href": "/packages/budget-holidays"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best beach destinations in India",
+      "href": "/blog/best-beach-destinations-in-india",
+      "note": "the main destinations"
+    },
+    {
+      "name": "Beach safety in India",
+      "href": "/blog/beach-safety-in-india",
+      "note": "swimming where there are no lifeguards"
+    },
+    {
+      "name": "Beach tourism in India",
+      "href": "/blog/beach-tourism-in-india",
+      "note": "responsible travel"
+    }
+  ],
+  "places": [
+    "Guhagar",
+    "Velas",
+    "Devbagh",
+    "Vengurla",
+    "Galgibaga",
+    "Cola",
+    "Kasarkod",
+    "Maravanthe",
+    "Karwar",
+    "Marari",
+    "Kappil",
+    "Muzhappilangad",
+    "Tranquebar",
+    "Yarada",
+    "Bheemili",
+    "Gopalpur",
+    "Talasari",
+    "Junput",
+    "Lalaji Bay",
+    "Butler Bay",
+    "Kalipur",
+    "Minicoy"
+  ],
+  "styles": [
+    "budget-holidays"
+  ],
+  "updated": "2026-09-25"
+}

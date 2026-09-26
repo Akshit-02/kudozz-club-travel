@@ -1,0 +1,313 @@
+{
+  "slug": "scuba-diving-in-andaman",
+  "kind": "activity",
+  "short": "Scuba diving in the Andamans",
+  "title": "Scuba Diving in the Andaman Islands: Sites, Courses and Season",
+  "seoTitle": "Scuba Diving in Andaman: Havelock, Neil & Season Guide | Kudozz Club",
+  "metaDescription": "Scuba diving in the Andaman Islands: Havelock, Neil and North Bay, try dives vs courses, the dive season, costs to budget for and safety before you book.",
+  "description": "A guide to scuba diving in the Andaman Islands: where to dive around Swaraj Dweep (Havelock), Shaheed Dweep (Neil) and Port Blair, how try dives and Open Water courses work, the diving season, how to plan the trip and dive safely.",
+  "dek": "The Andamans are where most people in India learn to dive. Here is how the islands compare, what a try dive involves and how to plan dives into your trip.",
+  "primaryKeyword": "scuba diving in Andaman",
+  "secondaryKeywords": [
+    "scuba diving Havelock",
+    "Neil Island diving",
+    "North Bay diving",
+    "Andaman dive season",
+    "try dive Andaman"
+  ],
+  "searchIntent": "Informational/pre-booking",
+  "activities": [
+    "scuba diving",
+    "snorkelling"
+  ],
+  "terrain": [
+    "sea",
+    "islands"
+  ],
+  "regions": [
+    "Andaman and Nicobar Islands"
+  ],
+  "seasons": [
+    "autumn",
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "beginners",
+    "couples",
+    "solo",
+    "families"
+  ],
+  "tags": [
+    "Scuba Diving",
+    "Andaman",
+    "Havelock",
+    "Neil Island"
+  ],
+  "hero": {
+    "src": "/images/adventure/scuba-diving-havelock-andaman.webp",
+    "alt": "A school of barracuda over the reef off Havelock Island",
+    "caption": "Barracuda off Havelock Island"
+  },
+  "parent": {
+    "label": "Scuba Diving in India",
+    "href": "/blog/scuba-diving-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Andaman Islands",
+    "containedIn": "Andaman and Nicobar Islands"
+  },
+  "intro": [
+    "The Andaman Islands sit in the Bay of Bengal, closer to Myanmar than to mainland India, surrounded by fringing coral reefs. Warm water, a long dry season and a cluster of dive schools on Swaraj Dweep (Havelock Island) make the Andamans the most popular place in India to try scuba diving or get certified.",
+    "Most divers base themselves on Havelock, which has the widest choice of dive centres and sites. Neil Island, a short ferry ride away, is quieter, and Port Blair's North Bay offers quick try dives for those short on time. This guide explains the options and how to fit diving into an Andaman itinerary."
+  ],
+  "quickAnswer": "Scuba diving in the Andaman Islands is best from about October to May. Swaraj Dweep (Havelock Island) is the main base, with dive schools offering try dives, Open Water courses over three to four days and fun dives for certified divers. Shaheed Dweep (Neil Island) is quieter, and North Bay near Port Blair offers short try dives. Keep a day free of flying after your last dive.",
+  "takeaways": [
+    "Havelock has the most dive centres and sites, from shallow try-dive reefs to deeper sites for advanced divers.",
+    "Neil Island is quieter and suits a relaxed pace; North Bay suits a quick try dive from Port Blair.",
+    "The diving season runs roughly October to May; the monsoon brings rough seas and cancellations.",
+    "Plan at least 18 hours between your last dive and your flight out of Port Blair.",
+    "Ferries between Port Blair, Havelock and Neil sell out in peak season, so book ahead."
+  ],
+  "sections": [
+    {
+      "id": "islands",
+      "heading": "Where to dive in the Andamans",
+      "items": [
+        {
+          "name": "Swaraj Dweep (Havelock Island)",
+          "body": [
+            "Havelock is the centre of Andaman diving. Dive centres, most of them along the east coast near Govind Nagar and Vijay Nagar beaches, run boat dives to a range of sites: shallow, sheltered reefs for try dives and training, and deeper pinnacles and walls with stronger currents for experienced divers. Many centres offer every level from try dives to instructor courses."
+          ],
+          "facts": {
+            "Good for": "Everyone",
+            "Getting there": "Ferry from Port Blair, about 1.5 to 2.5 hours depending on the vessel"
+          },
+          "links": [
+            {
+              "label": "Havelock Island guide",
+              "href": "/blog/havelock-island-andaman-travel-guide"
+            },
+            {
+              "label": "Things to do on Havelock",
+              "href": "/blog/things-to-do-in-havelock-island"
+            }
+          ]
+        },
+        {
+          "name": "Shaheed Dweep (Neil Island)",
+          "body": [
+            "Neil is smaller and more laid-back than Havelock, with a handful of dive centres and reefs close to shore. It suits divers who want a quieter base and can be combined with Havelock on the same trip."
+          ],
+          "facts": {
+            "Good for": "Relaxed diving, couples",
+            "Getting there": "Ferry from Port Blair or Havelock"
+          },
+          "links": [
+            {
+              "label": "Neil Island guide",
+              "href": "/blog/neil-island-andaman-travel-guide"
+            },
+            {
+              "label": "Things to do on Neil Island",
+              "href": "/blog/things-to-do-in-neil-island"
+            }
+          ]
+        },
+        {
+          "name": "North Bay and Port Blair",
+          "body": [
+            "North Bay Island, a short boat ride from Port Blair, is the easiest place for a quick try dive, along with sea walks and glass-bottom boat rides. It is busy, but convenient if you only have a day or two in Port Blair."
+          ],
+          "facts": {
+            "Good for": "Short try dives",
+            "Getting there": "Boat from Port Blair"
+          },
+          "links": [
+            {
+              "label": "North Bay Island guide",
+              "href": "/blog/north-bay-island-andaman-travel-guide"
+            },
+            {
+              "label": "Things to do in Port Blair",
+              "href": "/blog/things-to-do-in-port-blair"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/andaman/north-bay-island-coral-reef.webp",
+            "alt": "Coral reef in shallow water at North Bay Island, Andaman",
+            "caption": "North Bay Island reef"
+          }
+        },
+        {
+          "name": "Further afield",
+          "body": [
+            "Liveaboard boats have run trips to remote sites, including the volcanic Barren Island, subject to permits and seasonal operation. These are for experienced divers and need booking well in advance."
+          ],
+          "facts": {
+            "Good for": "Experienced divers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "options",
+      "heading": "Try dive, course or fun dives",
+      "table": {
+        "columns": [
+          "Option",
+          "What you do",
+          "Time",
+          "Who it suits"
+        ],
+        "rows": [
+          [
+            "Try dive (Discover Scuba)",
+            "Briefing, shallow-water practice, one dive with an instructor holding onto you",
+            "Half a day",
+            "First-timers, including non-swimmers comfortable in water"
+          ],
+          [
+            "Open Water Diver",
+            "Theory, confined-water skills and four open-water dives; lifelong certification",
+            "3 to 4 days",
+            "Anyone who wants to keep diving"
+          ],
+          [
+            "Advanced Open Water",
+            "Five adventure dives including deep and navigation",
+            "About 2 days",
+            "Newly certified divers"
+          ],
+          [
+            "Fun dives",
+            "Guided dives for certified divers, usually two per boat trip",
+            "Half day per trip",
+            "Certified divers"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "season",
+      "heading": "Andaman diving season",
+      "paras": [
+        "The diving season runs from about October to May. The calmest seas and best visibility are usually between about January and April. From roughly June to September, the south-west monsoon brings rough seas, heavy rain and frequent ferry and boat cancellations, and some dive centres close.",
+        "December and January are the busiest months for travel to the Andamans, so book dive centres, ferries and stays early for those dates."
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning diving into an Andaman trip",
+      "list": [
+        "Fly into Port Blair (Veer Savarkar International Airport) and take a ferry to Havelock; most people spend a night in Port Blair either end.",
+        "Allow at least three nights on Havelock for a try dive and some beach time, or four to five for an Open Water course.",
+        "Keep the last day before your flight free of diving; plan non-diving sights in Port Blair (Cellular Jail, Ross Island) for that day.",
+        "Book ferries early in peak season; private catamarans and government ferries both run on the Port Blair, Havelock and Neil route.",
+        "Carry cash as a backup; card and network coverage on the islands can be patchy."
+      ]
+    },
+    {
+      "id": "costs",
+      "heading": "What to budget for",
+      "paras": [
+        "Prices vary by dive centre, season and what is included, and they change often, so compare current quotes rather than relying on old figures. When comparing, check whether the price includes equipment, boat fees, course materials, certification fees and any marine park fees, which some areas charge separately."
+      ]
+    }
+  ],
+  "safety": [
+    "Choose dive centres with instructors certified by a recognised agency such as PADI or SSI.",
+    "Declare medical conditions honestly; asthma, heart conditions, ear problems and recent surgery need medical clearance.",
+    "Equalise your ears early and often; never hold your breath on scuba.",
+    "Leave at least 18 hours between multiple dives and flying (12 hours is the minimum after one dive).",
+    "Saltwater crocodiles live in some Andaman creeks and mangroves; follow local warnings about where to swim and snorkel.",
+    "Do not touch coral or marine life, and never collect shells or coral; it is illegal and damages the reef."
+  ],
+  "packing": [
+    "Swimwear, a rash guard and reef-safe sunscreen",
+    "Certification card and logbook if certified",
+    "Motion-sickness tablets for ferries and dive boats",
+    "A light rain jacket, even in season",
+    "Cash for places without card machines"
+  ],
+  "faqs": [
+    {
+      "q": "What is the best time for scuba diving in the Andamans?",
+      "a": "About October to May, with the calmest seas often from January to April. The monsoon, roughly June to September, brings rough seas."
+    },
+    {
+      "q": "Which island is best for scuba diving in the Andamans?",
+      "a": "Swaraj Dweep (Havelock Island) has the most dive centres and sites. Neil Island is quieter, and North Bay near Port Blair suits a quick try dive."
+    },
+    {
+      "q": "Can non-swimmers do scuba diving in the Andamans?",
+      "a": "Many dive centres take non-swimmers on try dives with an instructor, as long as they are comfortable in water. Certification courses usually need a swim test."
+    },
+    {
+      "q": "How many days do I need for scuba diving in the Andamans?",
+      "a": "A try dive takes half a day; an Open Water course takes three to four days. Add a buffer day before your flight."
+    },
+    {
+      "q": "When can I fly after diving?",
+      "a": "Wait at least 18 hours after multiple dives or a course before flying out of Port Blair."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Andaman Islands travel guide",
+      "href": "/blog/andaman-islands-travel-guide"
+    },
+    {
+      "label": "Things to do in the Andamans",
+      "href": "/blog/things-to-do-in-andaman"
+    },
+    {
+      "label": "Havelock Island guide",
+      "href": "/blog/havelock-island-andaman-travel-guide"
+    },
+    {
+      "label": "Havelock visit plan",
+      "href": "/blog/havelock-island-andaman-travel-guide#visit-plan"
+    },
+    {
+      "label": "Andaman tour packages",
+      "href": "/packages/andaman-nicobar"
+    }
+  ],
+  "related": [
+    {
+      "name": "Scuba diving in India",
+      "href": "/blog/scuba-diving-in-india",
+      "note": "other dive areas"
+    },
+    {
+      "name": "Snorkelling in India",
+      "href": "/blog/snorkeling-in-india",
+      "note": "Elephant Beach, North Bay and more"
+    },
+    {
+      "name": "Adventure activities in the Andamans",
+      "href": "/blog/adventure-activities-in-andaman",
+      "note": "kayaking, sea walks and treks"
+    },
+    {
+      "name": "Best beaches in the Andamans",
+      "href": "/blog/best-beaches-in-andaman",
+      "note": "beaches on each island"
+    }
+  ],
+  "places": [
+    "Havelock Island",
+    "Neil Island",
+    "North Bay Island",
+    "Port Blair",
+    "Barren Island"
+  ],
+  "styles": [
+    "adventure-tours",
+    "honeymoon"
+  ],
+  "planDestination": "Andaman",
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,363 @@
+{
+  "slug": "wildlife-tourism-in-odisha",
+  "kind": "state",
+  "short": "Wildlife in Odisha",
+  "title": "Wildlife Tourism in Odisha: Similipal, Bhitarkanika and Chilika",
+  "seoTitle": "Wildlife Tourism in Odisha: Similipal & Bhitarkanika | Kudozz Club",
+  "metaDescription": "Plan a wildlife trip in Odisha: Similipal's tigers and waterfalls, Bhitarkanika's crocodiles, Chilika's dolphins and birds, Satkosia and olive ridley nesting.",
+  "description": "A guide to wildlife tourism in Odisha: Similipal Tiger Reserve with its waterfalls and melanistic tigers, Bhitarkanika's saltwater crocodiles and mangroves, Chilika lake's Irrawaddy dolphins and winter birds at Mangalajodi and Nalabana, Satkosia's Mahanadi gorge, olive ridley turtle nesting at Gahirmatha and Rushikulya, seasons and closures.",
+  "dek": "Odisha combines tiger forests, mangroves, Asia's largest brackish lagoon and some of the world's biggest sea-turtle nesting beaches.",
+  "primaryKeyword": "wildlife tourism in Odisha",
+  "secondaryKeywords": [
+    "wildlife sanctuaries in Odisha",
+    "national parks in Odisha",
+    "Odisha safari",
+    "wildlife in Odisha"
+  ],
+  "searchIntent": "State-level wildlife planning",
+  "activities": [
+    "boat safari",
+    "jeep safari",
+    "birdwatching"
+  ],
+  "terrain": [
+    "forest",
+    "mangrove",
+    "wetland",
+    "coast"
+  ],
+  "regions": [
+    "Odisha",
+    "East India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Odisha",
+    "Similipal",
+    "Bhitarkanika",
+    "Chilika"
+  ],
+  "hero": {
+    "src": "/images/wildlife/odisha-wildlife-bhitarkanika.webp",
+    "alt": "A saltwater crocodile basking on a mud bank in Bhitarkanika National Park"
+  },
+  "parent": {
+    "label": "Wildlife Tourism",
+    "href": "/wildlife-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Wildlife of Odisha",
+    "containedIn": "Odisha"
+  },
+  "intro": [
+    "Odisha has two tiger reserves, Similipal and Satkosia, along with Bhitarkanika's mangroves, the Chilika lagoon and a long coastline where olive ridley turtles nest in huge numbers. Similipal was one of India's original nine Project Tiger reserves in 1973.",
+    "Much of Odisha's wildlife is seen by boat: saltwater crocodiles in Bhitarkanika's creeks, Irrawaddy dolphins on Chilika, and gharials in the Mahanadi at Satkosia. It is an easy add-on to a Puri, Konark and Bhubaneswar trip."
+  ],
+  "quickAnswer": "Odisha's main wildlife destinations are Similipal Tiger Reserve, known for sal forest, waterfalls and melanistic tigers; Bhitarkanika National Park, with India's largest population of saltwater crocodiles; Chilika lake for Irrawaddy dolphins at Satapada and winter birds at Mangalajodi; and Satkosia on the Mahanadi. Similipal usually opens in November and closes in the monsoon; Bhitarkanika closes from May to July for crocodile nesting.",
+  "takeaways": [
+    "Similipal was one of India's first nine tiger reserves and has rare melanistic tigers.",
+    "Bhitarkanika has India's largest population of saltwater crocodiles.",
+    "Bhitarkanika closes from 1 May to 31 July for crocodile breeding.",
+    "Chilika has Irrawaddy dolphins at Satapada and huge flocks of winter birds.",
+    "Olive ridley turtles nest in mass at Gahirmatha and Rushikulya in late winter."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Wildlife places in Odisha",
+      "table": {
+        "columns": [
+          "Place",
+          "Status",
+          "Known for",
+          "Gateway"
+        ],
+        "rows": [
+          [
+            "Similipal",
+            "National park and tiger reserve",
+            "Sal forest, waterfalls, tigers, elephants",
+            "Baripada"
+          ],
+          [
+            "Bhitarkanika",
+            "National park",
+            "Saltwater crocodiles, mangroves",
+            "Kendrapara, Bhubaneswar"
+          ],
+          [
+            "Chilika lake",
+            "Lagoon with Nalabana Bird Sanctuary, Ramsar site",
+            "Dolphins, winter birds",
+            "Satapada, Barkul, Mangalajodi"
+          ],
+          [
+            "Satkosia",
+            "Tiger reserve",
+            "Mahanadi gorge, gharials",
+            "Angul"
+          ],
+          [
+            "Gahirmatha",
+            "Marine sanctuary",
+            "Olive ridley mass nesting",
+            "Bhitarkanika"
+          ],
+          [
+            "Rushikulya",
+            "Nesting beach",
+            "Olive ridley mass nesting",
+            "Ganjam, Berhampur"
+          ],
+          [
+            "Debrigarh",
+            "Wildlife sanctuary",
+            "Hirakud reservoir, birds",
+            "Sambalpur"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "highlights",
+      "heading": "Highlights",
+      "items": [
+        {
+          "name": "Similipal",
+          "body": [
+            "A large plateau of sal forest with the Barehipani and Joranda waterfalls, elephants, gaur and tigers, including rare melanistic individuals."
+          ],
+          "links": [
+            {
+              "label": "Similipal guide",
+              "href": "/blog/similipal-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Bhitarkanika",
+          "body": [
+            "Boat trips through mangrove creeks from Khola and Dangmal to see saltwater crocodiles, monitor lizards, deer and kingfishers."
+          ],
+          "links": [
+            {
+              "label": "Bhitarkanika guide",
+              "href": "/blog/bhitarkanika-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Chilika and Mangalajodi",
+          "body": [
+            "Boats from Satapada to look for Irrawaddy dolphins near the sea mouth, and community-run boats at Mangalajodi for close views of waterbirds."
+          ],
+          "links": [
+            {
+              "label": "Chilika Lake guide",
+              "href": "/blog/chilika-lake-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/odisha/chilika-lake/nalabana-bird-sanctuary-chilika-lake.webp",
+            "alt": "Birds over the waters of Nalabana Bird Sanctuary on Chilika Lake",
+            "caption": "Nalabana, Chilika Lake"
+          }
+        },
+        {
+          "name": "Satkosia",
+          "body": [
+            "A gorge on the Mahanadi with gharials, muggers and a quiet forest, with river camps."
+          ],
+          "links": [
+            {
+              "label": "Satkosia guide",
+              "href": "/blog/satkosia-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turtles",
+      "heading": "Olive ridley turtles",
+      "paras": [
+        "Olive ridleys come ashore together in mass nesting events, called arribadas, at Gahirmatha, Rushikulya and Devi river mouth, usually between about February and April. Hatchlings emerge around 45 to 60 days later. Visits at Rushikulya are organised with the forest department and local volunteers; watch from a distance and never use lights on the beach at night."
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "A sample Odisha route",
+      "table": {
+        "columns": [
+          "Days",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Bhubaneswar; drive to Bhitarkanika via Chandbali"
+          ],
+          [
+            "2",
+            "Boat safaris through the creeks from Dangmal"
+          ],
+          [
+            "3 to 4",
+            "Similipal via Baripada: waterfalls and forest drives"
+          ],
+          [
+            "5",
+            "Chilika: Mangalajodi at dawn, Satapada for dolphins, then Puri"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Visit Mangalajodi at sunrise, when birds are most active and the light is best.",
+        "Choose Satapada boat operators who keep their distance from dolphins and switch off engines.",
+        "Check Similipal's opening dates each season; they can shift with weather."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "table": {
+        "columns": [
+          "Months",
+          "What to expect"
+        ],
+        "rows": [
+          [
+            "November to February",
+            "Similipal open; Chilika birds at their peak"
+          ],
+          [
+            "February to April",
+            "Turtle nesting; Bhitarkanika and Similipal open"
+          ],
+          [
+            "May to October",
+            "Bhitarkanika closed May to July; Similipal closed in the monsoon"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stay",
+      "heading": "Where to stay and how long",
+      "paras": [
+        "Similipal has forest department nature camps inside and hotels in Baripada. Bhitarkanika has forest lodges at Dangmal and hotels at Chandbali. For Chilika, stay at Satapada, Barkul or Mangalajodi's eco-cottages, or visit from Puri. Two nights each for Similipal and Bhitarkanika, and a day for Chilika, make a good week."
+      ]
+    }
+  ],
+  "safety": [
+    "Sightings are never guaranteed; plan several drives and enjoy the landscape itself.",
+    "Stay in the vehicle or boat and follow your guide.",
+    "Book permits only through official forest department portals or trusted operators.",
+    "Never feed animals or leave litter in a park.",
+    "Crocodiles live in Bhitarkanika's creeks; never put hands in the water."
+  ],
+  "packing": [
+    "Hat, sunscreen and water for boats",
+    "Warm layer for Similipal nights",
+    "Binoculars",
+    "Insect repellent"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best wildlife sanctuary in Odisha?",
+      "a": "Similipal for forest and tigers, Bhitarkanika for crocodiles and Chilika for dolphins and birds."
+    },
+    {
+      "q": "When is Bhitarkanika closed?",
+      "a": "From 1 May to 31 July for crocodile breeding."
+    },
+    {
+      "q": "Where can I see dolphins in Odisha?",
+      "a": "Irrawaddy dolphins at Chilika, on boats from Satapada."
+    },
+    {
+      "q": "When do olive ridleys nest in Odisha?",
+      "a": "Mass nesting usually happens between about February and April."
+    },
+    {
+      "q": "Can I combine wildlife with Puri and Konark?",
+      "a": "Yes. Chilika is about an hour or so from Puri, and Bhitarkanika about four hours from Bhubaneswar."
+    },
+    {
+      "q": "Are there tigers in Similipal?",
+      "a": "Yes, including rare melanistic tigers, though sightings are uncommon in its dense forest."
+    },
+    {
+      "q": "When does Similipal open?",
+      "a": "Usually around 1 November, closing in the monsoon; check the forest department's dates."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Puri",
+      "href": "/blog/things-to-do-in-puri"
+    },
+    {
+      "label": "Things to do in Bhubaneswar",
+      "href": "/blog/things-to-do-in-bhubaneswar"
+    },
+    {
+      "label": "Odisha travel guide",
+      "href": "/blog/odisha-travel-guide"
+    },
+    {
+      "label": "Odisha tour packages",
+      "href": "/packages/odisha"
+    },
+    {
+      "label": "Wildlife trips",
+      "href": "/packages/wildlife-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Birdwatching in India",
+      "href": "/blog/birdwatching-in-india",
+      "note": "Chilika and Mangalajodi"
+    },
+    {
+      "name": "Where to see wildlife in India",
+      "href": "/blog/where-to-see-wildlife-in-india",
+      "note": "dolphins and crocodiles"
+    },
+    {
+      "name": "Best wildlife safaris",
+      "href": "/blog/best-wildlife-safaris-in-india",
+      "note": "boat safaris"
+    }
+  ],
+  "places": [
+    "Similipal",
+    "Bhitarkanika",
+    "Chilika",
+    "Mangalajodi",
+    "Satapada",
+    "Satkosia",
+    "Gahirmatha",
+    "Rushikulya"
+  ],
+  "styles": [
+    "wildlife-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Odisha",
+  "updated": "2026-09-25"
+}

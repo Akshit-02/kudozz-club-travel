@@ -1,0 +1,380 @@
+{
+  "slug": "gujarat-heritage-itinerary",
+  "kind": "planning",
+  "short": "Gujarat heritage itinerary",
+  "title": "Gujarat Heritage Itinerary: Ahmedabad, Patan, Kutch and Saurashtra",
+  "seoTitle": "Gujarat Heritage Itinerary: Stepwells to Kutch | Kudozz Club",
+  "metaDescription": "A 10-day Gujarat heritage itinerary: Ahmedabad's old city, Adalaj, Modhera, Rani ki Vav, Lothal, Champaner-Pavagadh and Kutch with Dholavira and the Rann.",
+  "description": "A 10-day Gujarat heritage itinerary: Ahmedabad's UNESCO old city and Sabarmati Ashram, the Adalaj stepwell, the Modhera Sun Temple and Rani ki Vav at Patan, the Harappan sites of Lothal and Dholavira, Kutch's craft villages and white Rann, and Champaner-Pavagadh, with travel times and seasonal notes.",
+  "dek": "Gujarat has four UNESCO cultural sites, the best Harappan cities in India and a living craft culture. This route ties them together.",
+  "primaryKeyword": "Gujarat heritage tour",
+  "secondaryKeywords": [
+    "Gujarat heritage circuit",
+    "Gujarat UNESCO sites tour",
+    "Ahmedabad Patan Dholavira"
+  ],
+  "searchIntent": "Itinerary",
+  "activities": [
+    "stepwells",
+    "UNESCO sites",
+    "crafts",
+    "archaeology"
+  ],
+  "terrain": [
+    "plains",
+    "desert",
+    "salt flat"
+  ],
+  "regions": [
+    "Gujarat"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "history lovers"
+  ],
+  "tags": [
+    "Gujarat",
+    "Itinerary",
+    "Stepwells",
+    "Kutch",
+    "Harappan"
+  ],
+  "hero": {
+    "src": "/images/heritage/gujarat-heritage-rani-ki-vav.webp",
+    "alt": "The terraced stepwell of Rani ki Vav at Patan, Gujarat"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Gujarat heritage route",
+    "containedIn": "Gujarat"
+  },
+  "intro": [
+    "Gujarat's heritage spans the Harappan civilisation, the Solanki temples and stepwells, the sultanate architecture of Ahmedabad and Champaner, and a living craft culture in Kutch. Its UNESCO cultural sites are the Historic City of Ahmedabad, Rani ki Vav at Patan, Champaner-Pavagadh, and Dholavira.",
+    "This 10-day route begins in Ahmedabad and covers the north Gujarat stepwells, Lothal, Kutch and Champaner. Travel by car and driver, and time Kutch for the Rann Utsav if you want the festival."
+  ],
+  "quickAnswer": "A 10-day Gujarat heritage itinerary: Ahmedabad (2 nights, old city walk, Sabarmati Ashram, Adalaj), a day trip to Modhera and Patan's Rani ki Vav, Lothal on the way to Kutch, Bhuj and the craft villages (3 nights), Dholavira (1), the white Rann, and Champaner-Pavagadh near Vadodara to finish. Go between November and February.",
+  "takeaways": [
+    "The route includes all four of Gujarat's UNESCO cultural sites.",
+    "Modhera and Patan make an easy day trip from Ahmedabad.",
+    "Kutch deserves at least three nights.",
+    "Time your trip for the Rann Utsav season if you want the festival.",
+    "November to February is the best season."
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Route at a glance",
+      "table": {
+        "columns": [
+          "Days",
+          "Base",
+          "Highlights"
+        ],
+        "rows": [
+          [
+            "1 to 2",
+            "Ahmedabad",
+            "Old city heritage walk, Sidi Saiyyed Mosque, Sabarmati Ashram, Adalaj stepwell"
+          ],
+          [
+            "3",
+            "Ahmedabad",
+            "Day trip: Modhera Sun Temple and Rani ki Vav, Patan"
+          ],
+          [
+            "4",
+            "Bhuj",
+            "Lothal on the way to Kutch"
+          ],
+          [
+            "5 to 6",
+            "Bhuj",
+            "Aina Mahal, Prag Mahal, craft villages; the white Rann at sunset"
+          ],
+          [
+            "7",
+            "Dholavira",
+            "The Harappan city and a fossil park"
+          ],
+          [
+            "8",
+            "Bhuj or Ahmedabad",
+            "Return drive"
+          ],
+          [
+            "9 to 10",
+            "Vadodara",
+            "Champaner-Pavagadh; Laxmi Vilas Palace"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ahmedabad",
+      "heading": "Ahmedabad and north Gujarat",
+      "items": [
+        {
+          "name": "Ahmedabad",
+          "body": [
+            "The old city's pols, mosques and stepwells, and the Sabarmati Ashram."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Ahmedabad",
+              "href": "/blog/things-to-do-in-ahmedabad"
+            }
+          ]
+        },
+        {
+          "name": "Modhera and Patan",
+          "body": [
+            "The Solanki-era Sun Temple with its stepped tank, and Rani ki Vav, an 11th-century stepwell carved with hundreds of sculptures."
+          ],
+          "links": [
+            {
+              "label": "Patan guide",
+              "href": "/blog/patan-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/patan/rani-ki-vav-patan.webp",
+            "alt": "The terraced steps of Rani ki Vav, Patan",
+            "caption": "Rani ki Vav, Patan"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kutch",
+      "heading": "Lothal and Kutch",
+      "items": [
+        {
+          "name": "Lothal",
+          "body": [
+            "A Harappan town with a large basin widely read as a dockyard, and an ASI museum (closed on Fridays)."
+          ],
+          "links": [
+            {
+              "label": "Lothal",
+              "href": "/blog/lothal"
+            }
+          ]
+        },
+        {
+          "name": "Bhuj, the craft villages and the Rann",
+          "body": [
+            "Palaces in Bhuj, craft villages such as Bhujodi and Nirona, and the white Rann near Dhordo."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kutch",
+              "href": "/blog/things-to-do-in-kutch"
+            },
+            {
+              "label": "Rann Utsav",
+              "href": "/blog/rann-utsav"
+            }
+          ]
+        },
+        {
+          "name": "Dholavira",
+          "body": [
+            "The finest Harappan city in India, a UNESCO site since 2021."
+          ],
+          "links": [
+            {
+              "label": "Dholavira guide",
+              "href": "/blog/dholavira-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "central",
+      "heading": "Champaner-Pavagadh and Vadodara",
+      "items": [
+        {
+          "name": "Champaner-Pavagadh",
+          "body": [
+            "The mosques and walls of a 15th-century sultanate capital below Pavagadh hill."
+          ],
+          "links": [
+            {
+              "label": "Champaner-Pavagadh",
+              "href": "/blog/champaner-pavagadh"
+            },
+            {
+              "label": "Things to do in Vadodara",
+              "href": "/blog/things-to-do-in-vadodara"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "distances",
+      "heading": "Distances",
+      "list": [
+        "Ahmedabad to Modhera: about 100 km; Modhera to Patan: about 35 km.",
+        "Ahmedabad to Lothal: about 80 km.",
+        "Ahmedabad to Bhuj: about 330 km (six to seven hours by road); flights and trains are available.",
+        "Bhuj to Dholavira: about 220 km.",
+        "Ahmedabad to Champaner: about 150 km; Vadodara is about 50 km away."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "In Ahmedabad, a heritage house in the old city lets you walk the pols at dawn. In Kutch, choose between Bhuj hotels, village homestays in mud-walled bhungas around Hodka and Dhordo, and the Rann Utsav tent city in season. Dholavira has limited options, including a state tourism resort, so book ahead. Near Champaner, Vadodara is the easiest base."
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food and culture",
+      "list": [
+        "A Gujarati thali in Ahmedabad, and the Manek Chowk night food market.",
+        "Kutchi dabeli in Mandvi and Bhuj.",
+        "Uttarayan kite flying in Ahmedabad in mid-January.",
+        "Navratri garba across the state in September or October."
+      ]
+    },
+    {
+      "id": "shorter",
+      "heading": "Shorter versions",
+      "table": {
+        "columns": [
+          "Time",
+          "Route"
+        ],
+        "rows": [
+          [
+            "4 days",
+            "Ahmedabad, Modhera, Patan, Adalaj, Lothal"
+          ],
+          [
+            "6 days",
+            "Add Champaner-Pavagadh and Vadodara"
+          ],
+          [
+            "10 days",
+            "The full route with Kutch and Dholavira"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "history",
+      "heading": "Gujarat's heritage in brief",
+      "paras": [
+        "Gujarat's story runs from Harappan towns such as Dholavira and Lothal, through the Maitraka and Solanki kingdoms that built temples and stepwells, to the Gujarat Sultanate, which founded Ahmedabad in 1411 and built Champaner. Mughal, Maratha and British rule followed, and the port towns traded with Arabia, Africa and Southeast Asia for centuries. That long mix of peoples and faiths, Hindu, Jain, Muslim and Parsi, still shows in the state's architecture, crafts and food."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and train schedules change; check the ASI, state tourism and IRCTC before you go.",
+    "Driving times are approximate; allow extra time, and avoid long drives after dark.",
+    "Carry permits for the white Rann, and ID in the border areas of Kutch."
+  ],
+  "packing": [
+    "Sun protection",
+    "Warm layers for Kutch nights",
+    "Modest clothing",
+    "Cash for craft villages"
+  ],
+  "faqs": [
+    {
+      "q": "How many days do I need for Gujarat's heritage sites?",
+      "a": "About ten days to include Kutch; five days covers Ahmedabad, Patan, Modhera and Champaner."
+    },
+    {
+      "q": "What are Gujarat's UNESCO sites?",
+      "a": "The Historic City of Ahmedabad, Rani ki Vav, Champaner-Pavagadh and Dholavira."
+    },
+    {
+      "q": "When is the best time to visit?",
+      "a": "November to February."
+    },
+    {
+      "q": "Is Gujarat a dry state?",
+      "a": "Yes, Gujarat has prohibition; permits for visitors are available in some hotels."
+    },
+    {
+      "q": "Can I combine this with the Rann Utsav?",
+      "a": "Yes, if your dates fall within the festival season."
+    },
+    {
+      "q": "Do I need a car?",
+      "a": "Yes, a car and driver is the most practical way to reach Modhera, Patan, Lothal, Champaner and the Kutch villages."
+    },
+    {
+      "q": "Is Dholavira worth the long drive?",
+      "a": "For anyone interested in the Harappans, yes; stay overnight rather than making it a day trip from Bhuj."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage tourism in Gujarat",
+      "href": "/blog/heritage-tourism-in-gujarat"
+    },
+    {
+      "label": "Rann Utsav",
+      "href": "/blog/rann-utsav"
+    },
+    {
+      "label": "Archaeological sites in India",
+      "href": "/blog/archaeological-sites-in-india"
+    },
+    {
+      "label": "Gujarat tour packages",
+      "href": "/packages/gujarat"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Textile heritage of India",
+      "href": "/blog/textile-heritage-of-india",
+      "note": "Patola and Kutch crafts"
+    },
+    {
+      "name": "Lothal",
+      "href": "/blog/lothal",
+      "note": "Harappan town"
+    },
+    {
+      "name": "Champaner-Pavagadh",
+      "href": "/blog/champaner-pavagadh",
+      "note": "sultanate capital"
+    }
+  ],
+  "places": [
+    "Ahmedabad",
+    "Adalaj",
+    "Modhera",
+    "Patan",
+    "Lothal",
+    "Bhuj",
+    "Dhordo",
+    "Dholavira",
+    "Champaner",
+    "Vadodara"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "Gujarat",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,504 @@
+{
+  "slug": "weekend-adventure-trips-from-delhi",
+  "kind": "weekend",
+  "short": "Weekend adventure from Delhi",
+  "title": "Weekend Adventure Trips from Delhi",
+  "seoTitle": "Weekend Adventure Trips from Delhi: Rafting & Treks | Kudozz Club",
+  "metaDescription": "Weekend adventure trips from Delhi: rafting and bungee in Rishikesh, Nag Tibba, ziplining at Neemrana, climbing near Faridabad, skydiving at Narnaul and more.",
+  "description": "The best weekend adventure trips from Delhi NCR: rafting, bungee jumping and camping in Rishikesh, the Nag Tibba trek, paragliding near Bhimtal, ziplining at Neemrana, rock climbing at Dhauj and Damdama, skydiving at Narnaul, and longer weekends at Bir Billing and Triund.",
+  "dek": "Delhi is within a night's drive of the Himalaya and an hour or two from the Aravallis. Here are the best adventure weekends, by distance and season.",
+  "primaryKeyword": "weekend adventure trips from Delhi",
+  "secondaryKeywords": [
+    "adventure activities near Delhi",
+    "adventure places near Delhi",
+    "Rishikesh weekend from Delhi",
+    "treks near Delhi"
+  ],
+  "searchIntent": "Informational: short trips from Delhi NCR",
+  "activities": [
+    "rafting",
+    "bungee jumping",
+    "trekking",
+    "camping",
+    "ziplining",
+    "rock climbing",
+    "skydiving",
+    "paragliding"
+  ],
+  "terrain": [
+    "river",
+    "mountains",
+    "hills"
+  ],
+  "regions": [
+    "Delhi NCR",
+    "Uttarakhand",
+    "Rajasthan",
+    "Haryana",
+    "Himachal Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn"
+  ],
+  "travellers": [
+    "friends",
+    "couples",
+    "groups",
+    "beginners"
+  ],
+  "tags": [
+    "Weekend Trips",
+    "Delhi",
+    "Rishikesh",
+    "Adventure"
+  ],
+  "hero": {
+    "src": "/images/adventure/rishikesh-ganga-weekend.webp",
+    "alt": "The Ganga flowing between green hills at Rishikesh",
+    "caption": "The Ganga at Rishikesh"
+  },
+  "parent": {
+    "label": "Adventure Travel",
+    "href": "/adventure-travel"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Delhi NCR",
+    "containedIn": "Delhi"
+  },
+  "intro": [
+    "From Delhi, the Himalayan foothills of Uttarakhand are five to seven hours away, and the Aravalli hills of Haryana and Rajasthan are much closer. That makes it easy to fit a real adventure into a weekend: a day of rafting on the Ganga, a two-day trek, or a morning of climbing and back for dinner.",
+    "The list below is grouped by travel time. Friday-night departures by car, bus or train are the norm for the hill trips; for the Aravalli options, a Saturday or Sunday is enough."
+  ],
+  "quickAnswer": "The best weekend adventure trips from Delhi are Rishikesh for river rafting, bungee jumping and riverside camping, the Nag Tibba trek near Mussoorie, paragliding near Bhimtal, ziplining at Neemrana Fort, rock climbing at Dhauj and Damdama, and skydiving at Narnaul. With a long weekend, add Bir Billing for paragliding or Triund near Dharamshala. Rishikesh rafting pauses in July and August.",
+  "takeaways": [
+    "Rishikesh, about five to six hours away, is the classic adventure weekend: rafting, bungee and camps.",
+    "Nag Tibba is the easiest two-day Himalayan trek from Delhi.",
+    "Neemrana, Dhauj and Damdama are day trips for ziplining, climbing and rappelling.",
+    "Skydiving runs at the Bachhod airstrip near Narnaul, about two hours from Delhi, on scheduled dates.",
+    "Bir Billing and Triund need a long weekend or overnight buses both ways."
+  ],
+  "sections": [
+    {
+      "id": "close",
+      "heading": "Day trips (under 3 hours)",
+      "items": [
+        {
+          "name": "Neemrana Fort ziplining, Rajasthan",
+          "body": [
+            "A zipline circuit over the walls and ramparts of Neemrana Fort Palace, on the Delhi to Jaipur highway, about two to three hours from Delhi."
+          ],
+          "facts": {
+            "Distance": "About 120 km",
+            "Good for": "Couples, families, first-timers"
+          }
+        },
+        {
+          "name": "Rock climbing at Dhauj and Damdama",
+          "body": [
+            "The Aravalli crags at Dhauj near Faridabad and around Damdama Lake near Gurugram host weekend climbing and rappelling sessions with instructors."
+          ],
+          "facts": {
+            "Distance": "About 40 to 60 km",
+            "Season": "October to March"
+          },
+          "links": [
+            {
+              "label": "Rock climbing in India",
+              "href": "/blog/rock-climbing-in-india"
+            },
+            {
+              "label": "Damdama Lake guide",
+              "href": "/blog/damdama-lake-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Skydiving at Narnaul, Haryana",
+          "body": [
+            "Tandem and static-line jumps at the Bachhod airstrip, run on scheduled dates by a skydiving company."
+          ],
+          "facts": {
+            "Distance": "About 2 hours by road",
+            "Season": "Scheduled dates, mostly cooler months"
+          },
+          "links": [
+            {
+              "label": "Skydiving in India",
+              "href": "/blog/skydiving-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Cycling and trail runs in the Aravallis",
+          "body": [
+            "Clubs ride and run on trails in the Aravalli hills around south Delhi, Gurugram and Faridabad, especially on winter mornings."
+          ],
+          "facts": {
+            "Season": "October to March"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rishikesh",
+      "heading": "Rishikesh (5 to 6 hours)",
+      "items": [
+        {
+          "name": "River rafting",
+          "body": [
+            "Shivpuri, about 16 km of Grade II to III rapids, is the usual choice for a weekend. Kaudiyala is longer and harder."
+          ],
+          "facts": {
+            "Season": "About September to June"
+          },
+          "links": [
+            {
+              "label": "River rafting in Rishikesh",
+              "href": "/blog/river-rafting-in-rishikesh"
+            }
+          ]
+        },
+        {
+          "name": "Bungee jumping",
+          "body": [
+            "An 83-metre jump at Mohan Chatti, about 25 km from Rishikesh."
+          ],
+          "links": [
+            {
+              "label": "Bungee jumping in India",
+              "href": "/blog/bungee-jumping-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Riverside camping",
+          "body": [
+            "Camps near Shivpuri combine rafting with a night by the river."
+          ],
+          "links": [
+            {
+              "label": "Camping in India",
+              "href": "/blog/camping-in-india"
+            }
+          ]
+        }
+      ],
+      "after": [
+        "A typical plan: leave Delhi on Friday night, raft on Saturday morning and stay at a camp, jump or walk on Sunday, and drive back in the evening. See our Rishikesh travel guide for stays and food."
+      ]
+    },
+    {
+      "id": "hills",
+      "heading": "Treks and hills (6 to 8 hours)",
+      "items": [
+        {
+          "name": "Nag Tibba trek, Uttarakhand",
+          "body": [
+            "A two-day trek from Pantwari near Mussoorie to a summit at about 3,020 metres, with snow in winter."
+          ],
+          "facts": {
+            "Difficulty": "Easy to moderate",
+            "Season": "Most of the year"
+          },
+          "links": [
+            {
+              "label": "Beginner treks in India",
+              "href": "/blog/beginner-treks-in-india"
+            },
+            {
+              "label": "Things to do in Mussoorie",
+              "href": "/blog/things-to-do-in-mussoorie"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding near Bhimtal, Uttarakhand",
+          "body": [
+            "Tandem flights above Naukuchiatal, with Nainital and Bhimtal's lakes for the rest of the weekend."
+          ],
+          "facts": {
+            "Season": "About October to June"
+          },
+          "links": [
+            {
+              "label": "Paragliding in India",
+              "href": "/blog/paragliding-in-india"
+            },
+            {
+              "label": "Things to do in Nainital",
+              "href": "/blog/things-to-do-in-nainital"
+            }
+          ]
+        },
+        {
+          "name": "Jim Corbett safari",
+          "body": [
+            "Jeep safaris in India's oldest national park, about five to six hours from Delhi."
+          ],
+          "facts": {
+            "Season": "Most zones about mid-November to June"
+          },
+          "links": [
+            {
+              "label": "Things to do in Jim Corbett",
+              "href": "/blog/things-to-do-in-jim-corbett"
+            }
+          ]
+        },
+        {
+          "name": "Tehri Lake water sports",
+          "body": [
+            "Kayaking, jet skis and speedboats on the Tehri reservoir, about seven to eight hours from Delhi."
+          ],
+          "links": [
+            {
+              "label": "Tehri Lake guide",
+              "href": "/blog/tehri-lake-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "heading": "Long weekends (overnight journeys)",
+      "items": [
+        {
+          "name": "Bir Billing paragliding",
+          "body": [
+            "Take an overnight bus to Bir, fly on Saturday, rest on Sunday and bus back overnight."
+          ],
+          "facts": {
+            "Season": "Mid-September to June; closed 15 July to 15 September"
+          },
+          "links": [
+            {
+              "label": "Things to do in Bir Billing",
+              "href": "/blog/things-to-do-in-bir-billing"
+            }
+          ]
+        },
+        {
+          "name": "Triund trek",
+          "body": [
+            "Overnight to McLeod Ganj, trek up to Triund for a night on the ridge, and return the next day."
+          ],
+          "facts": {
+            "Season": "March to June, September to December"
+          },
+          "links": [
+            {
+              "label": "Things to do in Dharamshala",
+              "href": "/blog/things-to-do-in-dharamshala"
+            }
+          ]
+        },
+        {
+          "name": "Kasol and Kheerganga",
+          "body": [
+            "Overnight to Bhuntar and Kasol, trek to Kheerganga, return the following night."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kasol",
+              "href": "/blog/things-to-do-in-kasol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Weekend options compared",
+      "table": {
+        "columns": [
+          "Trip",
+          "Travel time from Delhi",
+          "Adventure",
+          "Best months"
+        ],
+        "rows": [
+          [
+            "Neemrana",
+            "2 to 3 hours",
+            "Ziplining",
+            "October to March"
+          ],
+          [
+            "Dhauj, Damdama",
+            "1 to 2 hours",
+            "Rock climbing, rappelling",
+            "October to March"
+          ],
+          [
+            "Narnaul",
+            "About 2 hours",
+            "Skydiving",
+            "Scheduled dates"
+          ],
+          [
+            "Rishikesh",
+            "5 to 6 hours",
+            "Rafting, bungee, camping",
+            "September to June"
+          ],
+          [
+            "Nag Tibba",
+            "7 to 8 hours",
+            "Trekking",
+            "Most of the year"
+          ],
+          [
+            "Bhimtal and Naukuchiatal",
+            "6 to 7 hours",
+            "Paragliding, lakes",
+            "October to June"
+          ],
+          [
+            "Bir Billing",
+            "10 to 12 hours",
+            "Paragliding",
+            "October to November, March to May"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sample",
+      "heading": "Three sample weekends",
+      "items": [
+        {
+          "name": "The Rishikesh classic",
+          "body": [
+            "Friday: overnight bus or late drive to Rishikesh. Saturday: Shivpuri rafting in the morning, check in to a riverside camp, bonfire in the evening. Sunday: bungee or giant swing at Mohan Chatti, lunch in Tapovan, drive back."
+          ],
+          "facts": {
+            "Budget level": "Moderate",
+            "Best for": "Friends, first adventure"
+          }
+        },
+        {
+          "name": "A snow weekend on Nag Tibba",
+          "body": [
+            "Friday night: drive towards Dehradun. Saturday: reach Pantwari, trek to the base camp. Sunday: summit at dawn, descend and drive back to Delhi late."
+          ],
+          "facts": {
+            "Best for": "Fit beginners",
+            "Best time": "December to February for snow"
+          }
+        },
+        {
+          "name": "Aravalli day of climbing",
+          "body": [
+            "Saturday morning: guided climbing and rappelling at Dhauj or Damdama. Afternoon: back in the city; add Neemrana's zipline on Sunday."
+          ],
+          "facts": {
+            "Best for": "Short on time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Weekend tips",
+      "list": [
+        "Leave on Friday night to make the most of Saturday; overnight buses from Kashmere Gate and private operators serve most hill towns.",
+        "Avoid long weekends and holidays if you can; Rishikesh and Mussoorie roads get jammed.",
+        "Book rafting, bungee slots and camps in advance for weekends.",
+        "In the monsoon (July to August), skip Rishikesh rafting and hill roads prone to landslides."
+      ]
+    }
+  ],
+  "safety": [
+    "Book licensed operators for rafting, bungee and skydiving.",
+    "Do not drive overnight on hill roads if you are tired; take a bus or share driving.",
+    "Carry warm layers for Nag Tibba and Triund, even in spring.",
+    "Check weather alerts for Uttarakhand and Himachal before setting out.",
+    "Stay hydrated on Aravalli climbs; the rock gets very hot by late morning."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best adventure activities near Delhi?",
+      "a": "Rafting and bungee jumping in Rishikesh, the Nag Tibba trek, ziplining at Neemrana, rock climbing at Dhauj and Damdama, and skydiving at Narnaul."
+    },
+    {
+      "q": "How far is Rishikesh from Delhi?",
+      "a": "About 240 km, or five to six hours by road depending on traffic."
+    },
+    {
+      "q": "Which trek can I do on a weekend from Delhi?",
+      "a": "Nag Tibba is the easiest two-day Himalayan trek. Triund and Kheerganga need a long weekend."
+    },
+    {
+      "q": "Is there skydiving near Delhi?",
+      "a": "Yes, at the Bachhod airstrip near Narnaul in Haryana, about two hours away, on scheduled dates."
+    },
+    {
+      "q": "What is the best month for an adventure weekend from Delhi?",
+      "a": "October to April is best for most trips; avoid the peak monsoon for rafting and hill roads."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Rishikesh travel guide",
+      "href": "/blog/rishikesh-adventure-travel-guide"
+    },
+    {
+      "label": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh"
+    },
+    {
+      "label": "Rishikesh 5-day itinerary",
+      "href": "/blog/rishikesh-adventure-travel-guide#itinerary"
+    },
+    {
+      "label": "Weekend getaways",
+      "href": "/packages/weekend-getaways"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    }
+  ],
+  "related": [
+    {
+      "name": "Adventure activities in Uttarakhand",
+      "href": "/blog/adventure-activities-in-uttarakhand",
+      "note": "the state in full"
+    },
+    {
+      "name": "Things to do in Delhi",
+      "href": "/blog/things-to-do-in-delhi",
+      "note": "when you are back in town"
+    },
+    {
+      "name": "Adventure activities in Himachal Pradesh",
+      "href": "/blog/adventure-activities-in-himachal-pradesh",
+      "note": "for longer trips"
+    }
+  ],
+  "places": [
+    "Neemrana",
+    "Dhauj",
+    "Damdama",
+    "Narnaul",
+    "Rishikesh",
+    "Mohan Chatti",
+    "Nag Tibba",
+    "Naukuchiatal",
+    "Jim Corbett",
+    "Tehri Lake",
+    "Bir Billing",
+    "Triund",
+    "Kasol"
+  ],
+  "styles": [
+    "weekend-getaways",
+    "adventure-tours"
+  ],
+  "planDestination": "Rishikesh",
+  "updated": "2026-09-25"
+}

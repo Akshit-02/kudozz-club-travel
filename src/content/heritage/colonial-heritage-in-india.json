@@ -1,0 +1,403 @@
+{
+  "slug": "colonial-heritage-in-india",
+  "kind": "pillar",
+  "short": "Colonial heritage in India",
+  "title": "Colonial-Era Heritage in India: Portuguese, French, Danish and British Towns",
+  "seoTitle": "Colonial-Era Heritage in India: Where to See It | Kudozz Club",
+  "metaDescription": "India's colonial-era heritage, seen honestly: Old Goa, Kochi, Puducherry, Tranquebar, Kolkata, Mumbai, Chennai, Shimla, New Delhi and the Cellular Jail.",
+  "description": "A guide to colonial-era heritage in India, seen in its full context: Portuguese Old Goa, Diu and Daman; Dutch and Portuguese Kochi; Danish Tharangambadi and Serampore; French Puducherry and Chandannagar; and British-era Chennai, Kolkata, Mumbai, Shimla and New Delhi, along with memorials to the freedom struggle such as the Cellular Jail and Jallianwala Bagh.",
+  "dek": "European powers left churches, forts, offices and whole towns across India. They are worth seeing, and worth seeing with the history they carry.",
+  "primaryKeyword": "colonial heritage India",
+  "secondaryKeywords": [
+    "Portuguese heritage Goa",
+    "French heritage Puducherry",
+    "Indo-Saracenic architecture"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "heritage walks",
+    "architecture",
+    "museums",
+    "churches"
+  ],
+  "terrain": [
+    "coast",
+    "city",
+    "hills"
+  ],
+  "regions": [
+    "Goa",
+    "Kerala",
+    "Puducherry",
+    "Tamil Nadu",
+    "West Bengal",
+    "Maharashtra",
+    "Himachal Pradesh",
+    "Delhi",
+    "Andaman and Nicobar Islands"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "photographers"
+  ],
+  "tags": [
+    "Colonial Heritage",
+    "Goa",
+    "Kolkata",
+    "Mumbai",
+    "Puducherry"
+  ],
+  "hero": {
+    "src": "/images/heritage/colonial-heritage-csmt-mumbai.webp",
+    "alt": "Chhatrapati Shivaji Maharaj Terminus in Mumbai"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Colonial-era heritage in India"
+  },
+  "intro": [
+    "From the 16th century, Portuguese, Dutch, Danish, French and British trading companies set up forts and settlements on India's coasts. The British East India Company, and after 1858 the British Crown, went on to rule most of the subcontinent until 1947. That rule was imposed and kept by force, and it drained wealth, reshaped economies and was marked by famines and violence, as well as by the long struggle that ended it.",
+    "The buildings of that period are now part of India's heritage, used as courts, stations, museums, churches and homes, and several are UNESCO sites. This guide covers where to see them, and the memorials that tell the other side of the story."
+  ],
+  "quickAnswer": "India's main colonial-era heritage is found in Portuguese Old Goa (UNESCO), Diu and Daman; Fort Kochi and Mattancherry in Kerala; French Puducherry; Danish Tharangambadi; and British-era Kolkata, Mumbai (CSMT and the Victorian and Art Deco ensembles, both UNESCO), Chennai's Fort St George, Shimla and New Delhi. Memorials such as the Cellular Jail in Port Blair and Jallianwala Bagh in Amritsar remember the freedom struggle.",
+  "takeaways": [
+    "Old Goa's churches and Mumbai's CSMT and Victorian and Art Deco ensembles are UNESCO sites.",
+    "Kochi shows Portuguese, Dutch and British layers alongside Jewish and Kerala heritage.",
+    "Puducherry's French Quarter is the best-preserved French town plan in India.",
+    "Kolkata and Mumbai have the richest British-era architecture.",
+    "Visit the Cellular Jail or Jallianwala Bagh to see the cost of colonial rule."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Where to see it",
+      "table": {
+        "columns": [
+          "Power",
+          "Places",
+          "What survives"
+        ],
+        "rows": [
+          [
+            "Portuguese",
+            "Old Goa, Diu, Daman, Fort Kochi, Bassein (Vasai)",
+            "Churches, convents, sea forts"
+          ],
+          [
+            "Dutch",
+            "Kochi, Pulicat, Chinsurah",
+            "Palace renovations, cemeteries, forts"
+          ],
+          [
+            "Danish",
+            "Tharangambadi (Tranquebar), Serampore",
+            "Fort Dansborg, churches, a college"
+          ],
+          [
+            "French",
+            "Puducherry, Chandannagar, Mahe, Yanam",
+            "Town plans, villas, churches"
+          ],
+          [
+            "British",
+            "Kolkata, Mumbai, Chennai, Shimla, New Delhi",
+            "Government buildings, stations, churches, hill stations"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "portuguese",
+      "heading": "Portuguese and Dutch",
+      "items": [
+        {
+          "name": "Old Goa",
+          "body": [
+            "The Basilica of Bom Jesus, Se Cathedral and other 16th- and 17th-century churches of a once-great Portuguese city. The Inquisition in Goa is part of this history too."
+          ],
+          "links": [
+            {
+              "label": "Old Goa guide",
+              "href": "/blog/old-goa-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/goa/old-goa/basilica-of-bom-jesus-old-goa.webp",
+            "alt": "The Basilica of Bom Jesus, Old Goa",
+            "caption": "Basilica of Bom Jesus"
+          }
+        },
+        {
+          "name": "Kochi",
+          "body": [
+            "St Francis Church, the Chinese fishing nets, the Mattancherry Palace (built by the Portuguese for the Raja of Kochi and later renovated by the Dutch) and the Paradesi Synagogue."
+          ],
+          "links": [
+            {
+              "label": "Kochi guide",
+              "href": "/blog/kochi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Diu and Daman",
+          "body": [
+            "Portuguese forts and churches, under Portuguese rule until 1961."
+          ],
+          "links": [
+            {
+              "label": "Diu Fort guide",
+              "href": "/blog/diu-fort-travel-guide"
+            },
+            {
+              "label": "Moti Daman Fort guide",
+              "href": "/blog/moti-daman-fort-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "french-danish",
+      "heading": "French and Danish",
+      "items": [
+        {
+          "name": "Puducherry",
+          "body": [
+            "The French Quarter's grid of streets, yellow villas and churches by the sea; French rule ended in 1954."
+          ],
+          "links": [
+            {
+              "label": "Puducherry French Quarter",
+              "href": "/blog/puducherry-french-quarter-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Tharangambadi and Serampore",
+          "body": [
+            "Fort Dansborg (1620) in Tamil Nadu, and the Danish town of Serampore near Kolkata, where Serampore College was founded in 1818."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "british",
+      "heading": "British era",
+      "items": [
+        {
+          "name": "Kolkata",
+          "body": [
+            "Capital of British India until 1911: the Victoria Memorial, Writers' Building, St Paul's Cathedral and the old Dalhousie Square."
+          ],
+          "links": [
+            {
+              "label": "Kolkata guide",
+              "href": "/blog/kolkata-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/kolkata/victoria-memorial-west-facade-kolkata.webp",
+            "alt": "The Victoria Memorial, Kolkata",
+            "caption": "Victoria Memorial, Kolkata"
+          }
+        },
+        {
+          "name": "Mumbai",
+          "body": [
+            "Chhatrapati Shivaji Maharaj Terminus (UNESCO 2004) and the Victorian Gothic and Art Deco Ensembles (UNESCO 2018) around the Oval Maidan and Marine Drive."
+          ],
+          "links": [
+            {
+              "label": "Mumbai guide",
+              "href": "/blog/mumbai-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/mumbai/gateway-of-india-mumbai.webp",
+            "alt": "The Gateway of India, Mumbai, built in the Indo-Saracenic style",
+            "caption": "Gateway of India, Mumbai"
+          }
+        },
+        {
+          "name": "Chennai",
+          "body": [
+            "Fort St George (begun in 1644) with St Mary's Church, and the Indo-Saracenic High Court."
+          ],
+          "links": [
+            {
+              "label": "Chennai guide",
+              "href": "/blog/chennai-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Shimla and New Delhi",
+          "body": [
+            "Shimla, the summer capital, with the former Viceregal Lodge; New Delhi, designed by Edwin Lutyens and Herbert Baker and inaugurated in 1931."
+          ],
+          "links": [
+            {
+              "label": "Shimla guide",
+              "href": "/blog/shimla-travel-guide"
+            },
+            {
+              "label": "New Delhi guide",
+              "href": "/blog/new-delhi-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "heading": "Memorials of the freedom struggle",
+      "list": [
+        "The Cellular Jail in Port Blair, where political prisoners were held in solitary cells; now a national memorial.",
+        "Jallianwala Bagh in Amritsar, where British troops fired on an unarmed crowd in 1919.",
+        "Sabarmati Ashram in Ahmedabad, from where Gandhi began the Salt March in 1930.",
+        "The Red Fort, where the INA trials were held in 1945 and 1946."
+      ],
+      "items": [
+        {
+          "name": "Guides",
+          "body": [
+            "Places of the freedom struggle."
+          ],
+          "links": [
+            {
+              "label": "Cellular Jail guide",
+              "href": "/blog/cellular-jail-andaman-travel-guide"
+            },
+            {
+              "label": "Amritsar guide",
+              "href": "/blog/amritsar-travel-guide"
+            },
+            {
+              "label": "Ahmedabad guide",
+              "href": "/blog/ahmedabad-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "heading": "Architectural styles",
+      "paras": [
+        "Colonial-era buildings in India cover several styles. Portuguese Baroque shaped the churches of Goa. The British built in neoclassical style in early Kolkata and Chennai, then in Victorian Gothic in 19th-century Mumbai. Indo-Saracenic architecture, which borrowed domes, arches and chhatris from Indian traditions, appears in Chennai's High Court and Mumbai's Gateway of India. Art Deco followed in the 1930s along Mumbai's Marine Drive. Much of this work was designed by Indian engineers and built by Indian craftsmen, and Indian architects also shaped these styles."
+      ]
+    },
+    {
+      "id": "walks",
+      "heading": "Walks to take",
+      "list": [
+        "Mumbai's Fort precinct: CSMT, the Bombay High Court, the University and the Oval Maidan.",
+        "Kolkata's BBD Bagh (Dalhousie Square) and the Park Street cemetery.",
+        "Fort Kochi on foot or by bicycle.",
+        "Puducherry's French Quarter in the early morning."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and tickets change; check official sources before you go.",
+    "Churches in Goa and Kochi are places of worship; dress modestly and avoid visiting during services.",
+    "Many heritage buildings are working offices; photograph from public spaces only."
+  ],
+  "packing": [
+    "Walking shoes",
+    "Clothes suitable for churches",
+    "Umbrella in the monsoon",
+    "Water"
+  ],
+  "faqs": [
+    {
+      "q": "Which colonial buildings in India are UNESCO sites?",
+      "a": "The Churches and Convents of Goa, Chhatrapati Shivaji Maharaj Terminus, and Mumbai's Victorian Gothic and Art Deco Ensembles."
+    },
+    {
+      "q": "Where is the French Quarter in India?",
+      "a": "In Puducherry, on the coast of Tamil Nadu."
+    },
+    {
+      "q": "Which city has the most British-era architecture?",
+      "a": "Kolkata and Mumbai have the richest ensembles."
+    },
+    {
+      "q": "When did Portuguese rule end in Goa?",
+      "a": "In December 1961."
+    },
+    {
+      "q": "What is the Cellular Jail?",
+      "a": "A colonial prison in Port Blair where freedom fighters were held, now a national memorial."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage walks in India",
+      "href": "/blog/heritage-walks-in-india"
+    },
+    {
+      "label": "Heritage tourism in West Bengal",
+      "href": "/blog/heritage-tourism-in-west-bengal"
+    },
+    {
+      "label": "Heritage tourism in Kerala",
+      "href": "/blog/heritage-tourism-in-kerala"
+    },
+    {
+      "label": "Goa tour packages",
+      "href": "/packages/goa"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Heritage cities in India",
+      "href": "/blog/heritage-cities-in-india",
+      "note": "old cities"
+    },
+    {
+      "name": "Mountain railways of India",
+      "href": "/blog/mountain-railways-of-india",
+      "note": "the toy trains"
+    },
+    {
+      "name": "Things to do in Pondicherry",
+      "href": "/blog/things-to-do-in-pondicherry",
+      "note": "the French Quarter and more"
+    }
+  ],
+  "places": [
+    "Old Goa",
+    "Kochi",
+    "Diu",
+    "Daman",
+    "Puducherry",
+    "Tharangambadi",
+    "Serampore",
+    "Kolkata",
+    "Mumbai",
+    "Chennai",
+    "Shimla",
+    "New Delhi",
+    "Port Blair"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

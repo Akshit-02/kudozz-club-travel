@@ -1,0 +1,319 @@
+{
+  "slug": "spiti-valley-bike-trip",
+  "kind": "activity",
+  "short": "Spiti Valley bike trip",
+  "title": "Spiti Valley Bike Trip: Route, Season and Riding Tips",
+  "seoTitle": "Spiti Valley Bike Trip: Route, Season & Riding Tips | Kudozz Club",
+  "metaDescription": "Plan a Spiti Valley bike trip: the Shimla to Kaza to Manali circuit, day-by-day distances, when Kunzum Pass opens, fuel, permits and road conditions.",
+  "description": "A route guide to riding the Spiti Valley circuit by motorcycle: in from Shimla through Kinnaur, out over Kunzum Pass and the Atal Tunnel to Manali, with a day-by-day plan, the riding season, road conditions, fuel stops, permits for foreigners and altitude advice.",
+  "dek": "The Spiti circuit is one of India's great rides: apple orchards, cliff roads, desert villages and a 4,551-metre pass. Here is how to plan it.",
+  "primaryKeyword": "Spiti Valley bike trip",
+  "secondaryKeywords": [
+    "Spiti circuit by bike",
+    "Shimla to Spiti bike",
+    "Manali to Kaza bike",
+    "Kunzum Pass ride"
+  ],
+  "searchIntent": "Informational/route planning",
+  "activities": [
+    "motorcycling",
+    "road trips"
+  ],
+  "terrain": [
+    "high desert",
+    "mountains"
+  ],
+  "regions": [
+    "Himachal Pradesh"
+  ],
+  "seasons": [
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "friends",
+    "solo",
+    "groups"
+  ],
+  "tags": [
+    "Spiti Valley",
+    "Motorcycle Trips",
+    "Himachal Pradesh",
+    "Kunzum Pass"
+  ],
+  "hero": {
+    "src": "/images/adventure/spiti-valley-road-kaza.webp",
+    "alt": "A road cut into sheer cliffs on the way to Spiti Valley",
+    "caption": "The road to Spiti"
+  },
+  "parent": {
+    "label": "Best Motorcycle Trips in India",
+    "href": "/blog/best-motorcycle-trips-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Spiti Valley",
+    "containedIn": "Himachal Pradesh"
+  },
+  "intro": [
+    "Spiti is a high, dry valley in Lahaul and Spiti district of Himachal Pradesh, on the Tibetan side of the Himalaya. It can be reached from two directions: from Shimla along the Sutlej through Kinnaur, a road that stays open most of the year, or from Manali over Kunzum Pass, which is open only for a few months in summer.",
+    "Riding in from Shimla and out to Manali makes a loop of roughly 900 to 1,000 km. The Shimla side climbs gradually, which helps your body adjust to altitude, and the Kunzum side saves the roughest riding for the end, when you are acclimatised. This guide lays out the route, the season and what to prepare. For sights, stays and food in Spiti, see our Spiti Valley travel guide."
+  ],
+  "quickAnswer": "The classic Spiti Valley bike trip is a loop of roughly 900 to 1,000 km: Shimla to Kaza through Kinnaur, then Kaza to Manali over Kunzum Pass (about 4,551 metres) and through the Atal Tunnel. Ride it in 8 to 10 days between about mid-June and early October, when Kunzum is open. Enter via Shimla to acclimatise, fill fuel at Kaza, and cross the streams near Chhatru in the morning.",
+  "takeaways": [
+    "Ride in from Shimla through Kinnaur and out via Kunzum Pass to Manali for easier acclimatisation.",
+    "Kunzum Pass usually opens in June and closes around October or November, depending on snow.",
+    "The stretch from Losar over Kunzum to Gramphu is the roughest, with water crossings and broken road.",
+    "Kaza has a fuel station; carry extra fuel for the Kaza to Manali leg.",
+    "Foreign nationals need an Inner Line Permit for the Kinnaur border stretch; Indians do not."
+  ],
+  "sections": [
+    {
+      "id": "route",
+      "heading": "The route, day by day",
+      "paras": [
+        "Distances and times are approximate and depend on road works and weather. Add rest days in Kaza for side trips and acclimatisation."
+      ],
+      "table": {
+        "columns": [
+          "Day",
+          "Stretch",
+          "About",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "1",
+            "Shimla to Narkanda to Sarahan or Sangla",
+            "170 to 230 km",
+            "Apple country; Bhimakali temple at Sarahan, or detour to Sangla and Chitkul"
+          ],
+          [
+            "2",
+            "To Kalpa or Reckong Peo",
+            "60 to 90 km",
+            "Views of Kinner Kailash; foreigners get permits here"
+          ],
+          [
+            "3",
+            "Kalpa to Nako",
+            "About 110 km",
+            "Cliff roads along the Sutlej; Nako lake village at about 3,600 m"
+          ],
+          [
+            "4",
+            "Nako to Tabo",
+            "About 65 km",
+            "Via the Malling nala; Tabo's thousand-year-old monastery"
+          ],
+          [
+            "5",
+            "Tabo to Dhankar to Kaza",
+            "About 50 km",
+            "Dhankar monastery on a cliff; reach Kaza"
+          ],
+          [
+            "6 to 7",
+            "Around Kaza",
+            "Short rides",
+            "Key monastery, Kibber, Langza, Komic, Hikkim, Pin Valley"
+          ],
+          [
+            "8",
+            "Kaza to Chandratal",
+            "About 100 km",
+            "Over Kunzum Pass; camp near Chandratal"
+          ],
+          [
+            "9",
+            "Chandratal to Manali",
+            "About 120 km",
+            "Batal, Chhatru, Gramphu, Atal Tunnel"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "season",
+      "heading": "When to ride",
+      "paras": [
+        "The Shimla to Kaza road through Kinnaur is open most of the year, but snow and landslides can block it in winter and the monsoon. The Kaza to Manali road over Kunzum Pass is usually opened by the Border Roads Organisation in June and stays open until snow closes it, often in October or November.",
+        "Mid-June to September is the main riding season. July and August bring monsoon rain to Kinnaur and the Manali side, with landslide risk, though Spiti itself stays mostly dry. September is often the best month: clear skies, fewer tourists and rivers lower after the snowmelt."
+      ]
+    },
+    {
+      "id": "roads",
+      "heading": "Road conditions",
+      "items": [
+        {
+          "name": "Shimla to Kaza",
+          "body": [
+            "Mostly paved, but with long landslide zones in Kinnaur, cliff sections and ongoing road works. Stretches around Malling and Nako are known for rockfall and slides."
+          ],
+          "facts": {
+            "Surface": "Mostly tarmac with broken patches"
+          }
+        },
+        {
+          "name": "Kaza to Losar",
+          "body": [
+            "Good tarmac through the widening Spiti valley."
+          ],
+          "facts": {
+            "Surface": "Tarmac"
+          }
+        },
+        {
+          "name": "Losar to Gramphu over Kunzum",
+          "body": [
+            "The hardest part: rocky, loose road over Kunzum Pass, dust or mud depending on weather, and several stream crossings between Batal and Chhatru. Some of these fill up with snowmelt in the afternoon, so ride this section early."
+          ],
+          "facts": {
+            "Surface": "Rough, unpaved in long stretches"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Himachal Pradesh",
+              "href": "/blog/adventure-activities-in-himachal-pradesh"
+            }
+          ]
+        },
+        {
+          "name": "Chandratal detour",
+          "body": [
+            "A narrow dirt track of about 14 km from near Batal to the lake parking area. Camps are set back from the lake; walk the last part."
+          ],
+          "facts": {
+            "Surface": "Dirt, single lane"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fuel",
+      "heading": "Fuel, food, network and repairs",
+      "list": [
+        "Fuel: stations at Reckong Peo and Kaza. There is none between Kaza and the Manali side, so carry extra fuel if your tank is small.",
+        "Food and stays: homestays and guesthouses in every main village; basic dhabas at Batal and Chhatru.",
+        "Mobile network: patchy. BSNL and some private networks work in Kaza and larger villages; do not rely on data. Download offline maps.",
+        "Repairs: small mechanics in Reckong Peo and Kaza. Carry spares and know basic repairs.",
+        "ATMs: in Reckong Peo and Kaza, but they can run out of cash. Carry enough cash."
+      ]
+    },
+    {
+      "id": "permits",
+      "heading": "Permits",
+      "paras": [
+        "Indian citizens do not need a permit for Spiti. Foreign nationals need an Inner Line Permit for the stretch of Kinnaur near the Tibet border, roughly between Reckong Peo and Sumdo; it is issued in places such as Reckong Peo, Shimla and Kaza. Check current rules, and carry copies of your permit, licence and vehicle papers."
+      ]
+    },
+    {
+      "id": "bike",
+      "heading": "Which bike, rent or own?",
+      "paras": [
+        "Any well-maintained bike of 350 cc or more with good ground clearance copes; many riders use Royal Enfield Himalayans or Classics, or similar adventure bikes. Rentals are available in Shimla and Manali. Check tyres, brakes and chain before leaving, and agree what happens if the bike breaks down in Spiti."
+      ]
+    }
+  ],
+  "safety": [
+    "Gain height gradually on Himalayan routes, sleep lower than your highest point where possible, and descend if altitude sickness symptoms (headache, nausea, breathlessness at rest) get worse.",
+    "Ride only in daylight; the Kinnaur cliff roads and Kunzum stretch are dangerous in the dark.",
+    "Walk stream crossings before riding them if unsure, and cross early in the day.",
+    "Watch for rockfall in Kinnaur, especially after rain.",
+    "Ride with at least one other bike; help can be hours away.",
+    "Carry warm and waterproof layers; weather at Kunzum changes fast.",
+    "Check the status of Kunzum Pass and the Kinnaur road with local police or the BRO before setting out."
+  ],
+  "packing": [
+    "Riding jacket, trousers, gloves and boots",
+    "Thermals and a down jacket",
+    "Rain suit",
+    "Puncture kit, spare tubes, cables and a tool kit",
+    "Jerry can or fuel bladder",
+    "Cash, offline maps and a power bank"
+  ],
+  "faqs": [
+    {
+      "q": "When is the best time for a Spiti Valley bike trip?",
+      "a": "About mid-June to September, with September often the best month. Kunzum Pass opens around June and closes with snow in October or November."
+    },
+    {
+      "q": "Which route is better for Spiti, Shimla or Manali?",
+      "a": "Enter from Shimla through Kinnaur for gradual acclimatisation, and exit over Kunzum Pass to Manali."
+    },
+    {
+      "q": "How many days are needed for a Spiti bike trip?",
+      "a": "Eight to ten days for the full circuit, including a day or two around Kaza."
+    },
+    {
+      "q": "Is there a petrol pump in Spiti?",
+      "a": "Yes, in Kaza. There is none between Kaza and the Manali side, so carry extra fuel."
+    },
+    {
+      "q": "Do I need a permit for Spiti?",
+      "a": "Indians do not. Foreign nationals need an Inner Line Permit for the Kinnaur border stretch."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Spiti Valley travel guide",
+      "href": "/blog/spiti-valley-travel-guide"
+    },
+    {
+      "label": "Things to do in Spiti Valley",
+      "href": "/blog/things-to-do-in-spiti-valley"
+    },
+    {
+      "label": "Spiti 10-day itinerary",
+      "href": "/blog/spiti-valley-travel-guide#itinerary"
+    },
+    {
+      "label": "Himachal Pradesh tour packages",
+      "href": "/packages/himachal-pradesh"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best motorcycle trips in India",
+      "href": "/blog/best-motorcycle-trips-in-india",
+      "note": "more great rides"
+    },
+    {
+      "name": "Kinnaur travel guide",
+      "href": "/blog/kinnaur-travel-guide",
+      "note": "the valley on the way in"
+    },
+    {
+      "name": "Chitkul travel guide",
+      "href": "/blog/chitkul-travel-guide",
+      "note": "a detour from Sangla"
+    }
+  ],
+  "places": [
+    "Shimla",
+    "Narkanda",
+    "Sarahan",
+    "Sangla",
+    "Kalpa",
+    "Reckong Peo",
+    "Nako",
+    "Tabo",
+    "Dhankar",
+    "Kaza",
+    "Kunzum Pass",
+    "Chandratal",
+    "Batal",
+    "Chhatru",
+    "Atal Tunnel",
+    "Manali"
+  ],
+  "styles": [
+    "adventure-tours"
+  ],
+  "planDestination": "Spiti Valley",
+  "updated": "2026-09-25"
+}

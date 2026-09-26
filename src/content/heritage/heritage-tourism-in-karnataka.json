@@ -1,0 +1,346 @@
+{
+  "slug": "heritage-tourism-in-karnataka",
+  "kind": "state",
+  "short": "Heritage tourism in Karnataka",
+  "title": "Heritage Tourism in Karnataka: Hampi, Hoysala Temples and Deccan Forts",
+  "seoTitle": "Heritage Tourism in Karnataka: Hampi, Hoysala & Mysuru | Kudozz Club",
+  "metaDescription": "Karnataka's heritage: Hampi, Pattadakal and the Hoysala temples (UNESCO), Badami and Aihole, Mysuru, Bidar and Vijayapura, crafts, Yakshagana and Dasara.",
+  "description": "A guide to heritage tourism in Karnataka: its three UNESCO cultural sites (Hampi, Pattadakal and the Sacred Ensembles of the Hoysalas), the Chalukya temples of Badami and Aihole, Mysuru and Srirangapatna, the Deccan sultanate cities of Bidar, Kalaburagi and Vijayapura, crafts such as Mysore silk, Channapatna toys and Bidriware, Yakshagana and Mysuru Dasara.",
+  "dek": "Karnataka holds the ruined capital of Vijayanagara, the birthplace of Chalukya temple architecture, the carved Hoysala temples and the royal city of Mysuru.",
+  "primaryKeyword": "heritage places in Karnataka",
+  "secondaryKeywords": [
+    "historical places in Karnataka",
+    "monuments in Karnataka",
+    "Karnataka heritage tour"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "monuments",
+    "UNESCO sites",
+    "crafts",
+    "heritage walks"
+  ],
+  "terrain": [
+    "varied"
+  ],
+  "regions": [
+    "Karnataka"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "history lovers"
+  ],
+  "tags": [
+    "Karnataka",
+    "Heritage",
+    "Hampi",
+    "Hoysala",
+    "Mysuru"
+  ],
+  "hero": {
+    "src": "/images/heritage/heritage-karnataka-pattadakal.webp",
+    "alt": "Temples of the Pattadakal group, Karnataka"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Heritage of Karnataka",
+    "containedIn": "Karnataka"
+  },
+  "intro": [
+    "Karnataka was ruled by some of India's great temple-building dynasties: the Chalukyas of Badami, the Rashtrakutas, the Hoysalas and the Vijayanagara emperors. The Bahmani and Adil Shahi sultans built in the north, and the Wadiyars ruled from Mysuru.",
+    "Its three UNESCO cultural sites are the Group of Monuments at Hampi (1986), the Group of Monuments at Pattadakal (1987) and the Sacred Ensembles of the Hoysalas (2023) at Belur, Halebidu and Somanathapura. Much of the rest, from Badami to Bidar, is quiet and rewarding."
+  ],
+  "quickAnswer": "Karnataka's heritage highlights are Hampi, Pattadakal and the Hoysala temples of Belur, Halebidu and Somanathapura (all UNESCO sites), Badami's cave temples and Aihole, Mysuru's palace and Dasara, Srirangapatna, and the Deccan sultanate monuments of Bidar and Vijayapura. Travel between October and February; eight to ten days covers the main sites.",
+  "takeaways": [
+    "Karnataka has three UNESCO cultural sites: Hampi, Pattadakal and the Hoysala temples.",
+    "Hampi needs at least two full days, ideally three.",
+    "Badami, Aihole and Pattadakal are best seen together.",
+    "Mysuru Dasara is one of India's great festivals.",
+    "Bidar and Vijayapura are quiet but outstanding."
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "heading": "UNESCO World Heritage Sites",
+      "table": {
+        "columns": [
+          "Site",
+          "Year",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Group of Monuments at Hampi",
+            "1986",
+            "The Vijayanagara capital"
+          ],
+          [
+            "Group of Monuments at Pattadakal",
+            "1987",
+            "Chalukya temples in both styles"
+          ],
+          [
+            "Sacred Ensembles of the Hoysalas",
+            "2023",
+            "Belur, Halebidu, Somanathapura"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "highlights",
+      "heading": "Highlights",
+      "items": [
+        {
+          "name": "Hampi",
+          "body": [
+            "Temples, bazaars, royal enclosures and waterworks across a boulder landscape by the Tungabhadra."
+          ],
+          "links": [
+            {
+              "label": "Hampi guide",
+              "href": "/blog/hampi-travel-guide"
+            },
+            {
+              "label": "Things to do in Hampi",
+              "href": "/blog/things-to-do-in-hampi"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/hampi/lotus-mahal-hampi.webp",
+            "alt": "The Lotus Mahal in the Zenana Enclosure, Hampi",
+            "caption": "Lotus Mahal, Hampi"
+          }
+        },
+        {
+          "name": "Badami, Aihole and Pattadakal",
+          "body": [
+            "Cave temples, early temple experiments and a UNESCO temple complex within an hour of each other."
+          ],
+          "links": [
+            {
+              "label": "Badami, Aihole and Pattadakal",
+              "href": "/blog/badami-aihole-pattadakal-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "The Hoysala temples",
+          "body": [
+            "Belur, Halebidu and Somanathapura."
+          ],
+          "links": [
+            {
+              "label": "Belur and Halebidu",
+              "href": "/blog/belur-halebidu-hoysala-temples"
+            }
+          ]
+        },
+        {
+          "name": "Mysuru and Srirangapatna",
+          "body": [
+            "The palace, Chamundi Hill, and Tipu Sultan's island capital."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mysore",
+              "href": "/blog/things-to-do-in-mysore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "north",
+      "heading": "North Karnataka",
+      "paras": [
+        "Bidar, Kalaburagi and Vijayapura hold the monuments of the Bahmani and Adil Shahi sultans, including Gol Gumbaz and Ibrahim Rauza. They are far from the usual circuits and best combined with a trip from Hyderabad or from Badami."
+      ],
+      "items": [
+        {
+          "name": "Deccan",
+          "body": [
+            "The sultanate cities."
+          ],
+          "links": [
+            {
+              "label": "Deccan sultanate heritage",
+              "href": "/blog/deccan-sultanate-heritage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Crafts and culture",
+      "list": [
+        "Mysore silk, sandalwood carving and rosewood inlay.",
+        "Channapatna lacquered toys, made in workshops on the Bengaluru to Mysuru road.",
+        "Bidriware from Bidar.",
+        "Yakshagana, the night-long dance-drama of the coast.",
+        "Mysuru Dasara in September or October."
+      ],
+      "items": [
+        {
+          "name": "Crafts",
+          "body": [
+            "More on crafts."
+          ],
+          "links": [
+            {
+              "label": "Handicrafts of India",
+              "href": "/blog/handicrafts-of-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "The Chalukyas of Badami ruled the Deccan from the 6th to the 8th centuries and experimented with temple forms at Aihole and Pattadakal. The Rashtrakutas followed, and the Hoysalas ruled from Halebidu in the 12th and 13th centuries. The Vijayanagara empire, founded in 1336, made Hampi one of the largest cities of its time until its defeat in 1565. In the north, the Bahmani and Adil Shahi sultans built at Bidar and Vijayapura. The Wadiyars ruled Mysore, apart from the period of Haidar Ali and Tipu Sultan, until 1947."
+      ]
+    },
+    {
+      "id": "getting-around",
+      "heading": "Getting around",
+      "paras": [
+        "Bengaluru is the main gateway. Mysuru and Hassan are easy by road or rail. Hampi is reached via Hosapete station or the airports at Hubballi and Vijayanagar, and Badami has its own station. A car and driver is the most practical way to link the northern sites."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "October to February: the best season.",
+        "September or October: Mysuru Dasara.",
+        "March to May: hot in Hampi and the north; start early."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "Stay in Mysuru for the palace and Srirangapatna, in Hassan or Chikmagalur for the Hoysala temples, near the Virupaksha temple or across the river for Hampi, and in Badami town for the Chalukya sites. Heritage stays in Mysuru and Hampi include old mansions and simple guesthouses; book ahead for Dasara and the winter holidays."
+      ]
+    },
+    {
+      "id": "lesser-known",
+      "heading": "Lesser-known heritage",
+      "list": [
+        "Lakkundi's Chalukya temples and stepwells near Gadag.",
+        "Banavasi, one of Karnataka's oldest towns.",
+        "Melukote, a temple town on a hill near Mysuru.",
+        "Kodagu's ancestral homes (ainmanes) and its distinctive culture."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, weekly closures and tickets change; check the ASI, state tourism or the site before you go.",
+    "Living temples, mosques and shrines set their own rules on dress, entry and photography; follow what is posted."
+  ],
+  "packing": [
+    "Comfortable walking shoes",
+    "Scarf or shawl for places of worship",
+    "Hat, sunscreen and water",
+    "Photo ID for tickets"
+  ],
+  "faqs": [
+    {
+      "q": "What are the UNESCO sites in Karnataka?",
+      "a": "Hampi, Pattadakal and the Sacred Ensembles of the Hoysalas."
+    },
+    {
+      "q": "How many days do I need for Hampi?",
+      "a": "At least two full days."
+    },
+    {
+      "q": "What is the best base for Badami, Aihole and Pattadakal?",
+      "a": "Badami town."
+    },
+    {
+      "q": "When is Mysuru Dasara?",
+      "a": "In September or October, following the Hindu calendar."
+    },
+    {
+      "q": "When is the best time to visit Karnataka's heritage sites?",
+      "a": "October to February."
+    },
+    {
+      "q": "Can I combine Karnataka with Goa?",
+      "a": "Yes; Hampi is about seven to eight hours by road from Goa, and many travellers pair the two."
+    },
+    {
+      "q": "Where can I see Bidriware being made?",
+      "a": "In Bidar, where artisans still work in small workshops in the old town."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "South India heritage itinerary",
+      "href": "/blog/south-india-heritage-itinerary"
+    },
+    {
+      "label": "Deccan sultanate heritage",
+      "href": "/blog/deccan-sultanate-heritage"
+    },
+    {
+      "label": "Karnataka travel guide",
+      "href": "/blog/karnataka-travel-guide"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Spiritual tourism in Karnataka",
+      "href": "/blog/spiritual-tourism-in-karnataka",
+      "note": "Udupi, Sringeri and more"
+    },
+    {
+      "name": "Temple architecture of India",
+      "href": "/blog/temple-architecture-of-india",
+      "note": "Vesara style"
+    },
+    {
+      "name": "Palaces in India",
+      "href": "/blog/palaces-in-india",
+      "note": "Mysore Palace"
+    }
+  ],
+  "places": [
+    "Hampi",
+    "Badami",
+    "Aihole",
+    "Pattadakal",
+    "Belur",
+    "Halebidu",
+    "Somanathapura",
+    "Mysuru",
+    "Srirangapatna",
+    "Bidar",
+    "Vijayapura"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "Karnataka",
+  "updated": "2026-09-26"
+}

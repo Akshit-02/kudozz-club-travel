@@ -1,0 +1,434 @@
+{
+  "slug": "best-beaches-in-west-bengal",
+  "kind": "state",
+  "short": "Best beaches in West Bengal",
+  "title": "Best Beaches in West Bengal: Digha, Mandarmani, Tajpur and Bakkhali",
+  "seoTitle": "Best Beaches in West Bengal: Digha, Mandarmani & Tajpur | Kudozz Club",
+  "metaDescription": "The best beaches in West Bengal: Digha, Mandarmani, Shankarpur, Tajpur, Junput, Bakkhali and Gangasagar, with how to reach them from Kolkata and sea-bathing rules.",
+  "description": "A guide to West Bengal's beaches on the Bay of Bengal: Old and New Digha, Mandarmani's long beach, the fishing harbour at Shankarpur, quiet Tajpur and Junput, Bakkhali and Frasergunj near the Sundarbans, and Gangasagar, with travel times from Kolkata, the best season and sea-bathing restrictions.",
+  "dek": "West Bengal's beaches are Kolkata's weekend escapes: flat, wide shores with fresh seafood, a few hours from the city.",
+  "primaryKeyword": "best beaches in West Bengal",
+  "secondaryKeywords": [
+    "beaches in West Bengal",
+    "West Bengal beaches",
+    "beach holiday West Bengal",
+    "beach travel in West Bengal",
+    "best beach in West Bengal for families",
+    "quiet beaches West Bengal"
+  ],
+  "searchIntent": "Choose beaches in West Bengal",
+  "activities": [
+    "beaches",
+    "seafood",
+    "weekend trips",
+    "pilgrimage"
+  ],
+  "terrain": [
+    "beaches",
+    "coast",
+    "mangroves"
+  ],
+  "regions": [
+    "West Bengal",
+    "East India",
+    "Bay of Bengal"
+  ],
+  "seasons": [
+    "winter",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "friends",
+    "couples"
+  ],
+  "tags": [
+    "West Bengal",
+    "Beaches",
+    "Digha",
+    "Mandarmani"
+  ],
+  "hero": {
+    "src": "/images/beach/west-bengal-beach-tajpur.webp",
+    "alt": "Tajpur beach and its casuarina trees, West Bengal",
+    "caption": "Tajpur"
+  },
+  "parent": {
+    "label": "Best Beach Destinations in India",
+    "href": "/blog/best-beach-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "West Bengal coast",
+    "containedIn": "West Bengal"
+  },
+  "intro": [
+    "West Bengal's short coastline lies on the Bay of Bengal between Odisha and the Sundarbans delta. Its beaches fall into two groups: the Digha cluster in Purba Medinipur district (Digha, Shankarpur, Tajpur and Mandarmani, plus Junput to the north) and the delta beaches of South 24 Parganas (Bakkhali, Frasergunj and Gangasagar on Sagar Island).",
+    "The beaches are wide and flat, the sea is muddy-brown rather than turquoise, and the draw is easy access from Kolkata, fresh fish and a break by the sea. Sea bathing is regularly banned in rough weather and during the monsoon."
+  ],
+  "quickAnswer": "The best beaches in West Bengal are Digha, the busiest and best connected; Mandarmani, a long beach lined with resorts; Tajpur and Junput for quiet; Shankarpur for its fishing harbour; and Bakkhali and Gangasagar in the delta. Digha is about four to five hours from Kolkata by road or train. Visit from October to March, and do not bathe when authorities announce a ban.",
+  "takeaways": [
+    "Digha is the most developed beach town, with trains from Kolkata and a large Jagannath temple.",
+    "Mandarmani is a long beach with many resorts; rules on driving on the sand have been tightened.",
+    "Tajpur and Junput are the quietest beaches in the Digha cluster.",
+    "Bakkhali and Frasergunj are near the Sundarbans; Gangasagar hosts a huge pilgrimage in January.",
+    "Sea bathing is banned in rough weather and the monsoon; follow police announcements."
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "heading": "West Bengal beaches at a glance",
+      "table": {
+        "columns": [
+          "Beach",
+          "District",
+          "From Kolkata",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Digha (Old and New)",
+            "Purba Medinipur",
+            "About 4 to 5 hours",
+            "Families, first-timers"
+          ],
+          [
+            "Shankarpur",
+            "Purba Medinipur",
+            "About 4 to 5 hours",
+            "Fishing harbour, quiet"
+          ],
+          [
+            "Tajpur",
+            "Purba Medinipur",
+            "About 4 hours",
+            "Quiet, casuarinas"
+          ],
+          [
+            "Mandarmani",
+            "Purba Medinipur",
+            "About 4 hours",
+            "Resorts, a long beach"
+          ],
+          [
+            "Junput",
+            "Purba Medinipur",
+            "About 4 hours",
+            "Very quiet"
+          ],
+          [
+            "Bakkhali and Frasergunj",
+            "South 24 Parganas",
+            "About 3 to 4 hours",
+            "Quiet, near the Sundarbans"
+          ],
+          [
+            "Gangasagar",
+            "South 24 Parganas",
+            "Road and ferry",
+            "Pilgrimage"
+          ]
+        ],
+        "caption": "Travel times are approximate and depend on traffic and route."
+      }
+    },
+    {
+      "id": "digha",
+      "heading": "The Digha cluster",
+      "items": [
+        {
+          "name": "Digha",
+          "body": [
+            "West Bengal's best-known beach town, with Old Digha's crowded promenade and the wider beach at New Digha, a marine aquarium, seafood stalls and, since 2025, a large Jagannath temple. Trains run from Howrah."
+          ],
+          "facts": {
+            "Best for": "Families, easy trips"
+          },
+          "links": [
+            {
+              "label": "Things to do in Digha",
+              "href": "/blog/things-to-do-in-digha"
+            },
+            {
+              "label": "Digha travel guide",
+              "href": "/blog/digha-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/digha/digha-sea-beach-view.webp",
+            "alt": "The sea beach at Digha",
+            "caption": "Digha"
+          }
+        },
+        {
+          "name": "Shankarpur",
+          "body": [
+            "A few kilometres east of Digha, known for its fishing harbour and traditional boats, and a quieter beach."
+          ],
+          "facts": {
+            "Best for": "Photography, quiet"
+          }
+        },
+        {
+          "name": "Tajpur",
+          "body": [
+            "A quiet beach with casuarina groves and red crabs, between Shankarpur and Mandarmani."
+          ],
+          "facts": {
+            "Best for": "Couples, quiet stays"
+          }
+        },
+        {
+          "name": "Mandarmani",
+          "body": [
+            "A long, flat beach with many resorts. It was once known for driving on the sand; local rules have since restricted vehicles on the beach, so check before you plan to drive."
+          ],
+          "facts": {
+            "Best for": "Resort weekends",
+            "Good to know": "Vehicle rules on the sand have changed"
+          },
+          "links": [
+            {
+              "label": "Mandarmani travel guide",
+              "href": "/blog/mandarmani-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/mandarmani/mandarmani-beach-fishing-boats-stormy-sky.webp",
+            "alt": "Fishing boats on Mandarmani beach",
+            "caption": "Mandarmani"
+          }
+        },
+        {
+          "name": "Junput",
+          "body": [
+            "The quietest of the group, near Contai, with a fisheries research presence and very few visitors."
+          ],
+          "facts": {
+            "Best for": "Solitude"
+          }
+        }
+      ]
+    },
+    {
+      "id": "delta",
+      "heading": "Delta beaches",
+      "items": [
+        {
+          "name": "Bakkhali and Frasergunj",
+          "body": [
+            "Neighbouring beaches in South 24 Parganas, quieter than Digha and a short trip from the edge of the Sundarbans."
+          ],
+          "facts": {
+            "Best for": "Quiet weekends"
+          },
+          "links": [
+            {
+              "label": "Things to do in the Sundarbans",
+              "href": "/blog/things-to-do-in-sundarbans"
+            }
+          ]
+        },
+        {
+          "name": "Gangasagar",
+          "body": [
+            "On Sagar Island, where the Hooghly meets the sea, the Kapil Muni temple draws huge crowds for the Gangasagar Mela around Makar Sankranti in January. Reaching it involves a road trip and a ferry."
+          ],
+          "facts": {
+            "Best for": "Pilgrims"
+          },
+          "links": [
+            {
+              "label": "Gangasagar travel guide",
+              "href": "/blog/gangasagar-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-there",
+      "heading": "Getting there",
+      "list": [
+        "Trains from Howrah and Santragachi run to Digha; buses and cars take about four to five hours.",
+        "Mandarmani, Tajpur and Shankarpur are short drives from Digha or reached directly by road from Kolkata.",
+        "Bakkhali is reached by road via Namkhana, with a river crossing that has been bridged in parts; check the current route.",
+        "Weekends and Durga Puja and winter holidays are very busy; book stays early."
+      ]
+    },
+    {
+      "id": "itinerary",
+      "heading": "Suggested itinerary",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Kolkata to Digha by train or road; New Digha beach in the evening"
+          ],
+          [
+            "2",
+            "Old Digha, the marine aquarium and the Jagannath temple; Shankarpur harbour"
+          ],
+          [
+            "3",
+            "Tajpur and Mandarmani; return to Kolkata"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "who-for",
+      "heading": "Who is it best for?",
+      "items": [
+        {
+          "name": "Families",
+          "body": [
+            "Digha and Mandarmani, with resorts and easy access."
+          ]
+        },
+        {
+          "name": "Couples",
+          "body": [
+            "Tajpur and Junput for quiet."
+          ]
+        },
+        {
+          "name": "Pilgrims",
+          "body": [
+            "Gangasagar during the January mela."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "where-to-stay",
+      "heading": "Where to stay",
+      "table": {
+        "columns": [
+          "Area",
+          "Suits"
+        ],
+        "rows": [
+          [
+            "New Digha",
+            "Families, easy access"
+          ],
+          [
+            "Mandarmani",
+            "Resorts, weekend breaks"
+          ],
+          [
+            "Tajpur",
+            "Quiet stays"
+          ],
+          [
+            "Bakkhali",
+            "Quiet delta beach near the Sundarbans"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to March is the best time, with pleasant weather and calmer sea. Summer is hot and humid, and the monsoon, from about June to September, brings rough sea; the administration often bans sea bathing then and during low-pressure systems. The coast is exposed to cyclones, especially in May and October to November."
+      ]
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Obey sea-bathing bans announced by the district administration and police, which are common in rough weather.",
+    "The beaches are flat and the tide comes in fast; do not wander far out at low tide.",
+    "Check cyclone warnings in May and October to November.",
+    "Do not drive on the beach unless the current local rules allow it."
+  ],
+  "packing": [
+    "Light cotton clothes",
+    "Sunscreen and a hat",
+    "Sandals you can get wet",
+    "A light jacket for winter evenings"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best beach in West Bengal?",
+      "a": "Digha is the most popular and best connected; Mandarmani and Tajpur are quieter."
+    },
+    {
+      "q": "How far is Digha from Kolkata?",
+      "a": "About four to five hours by road or train."
+    },
+    {
+      "q": "Can you drive on Mandarmani beach?",
+      "a": "Rules have been tightened and vehicles are restricted on the beach. Check the current rules locally."
+    },
+    {
+      "q": "Which is the quietest beach near Digha?",
+      "a": "Tajpur and Junput."
+    },
+    {
+      "q": "When is sea bathing banned at Digha?",
+      "a": "During the monsoon and whenever rough weather or low pressure is forecast, by order of the local administration."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Digha travel guide",
+      "href": "/blog/digha-travel-guide"
+    },
+    {
+      "label": "Things to do in Digha",
+      "href": "/blog/things-to-do-in-digha"
+    },
+    {
+      "label": "Digha visit plan",
+      "href": "/blog/digha-travel-guide#visit-plan"
+    },
+    {
+      "label": "West Bengal tour packages",
+      "href": "/packages/west-bengal"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best beaches in Odisha",
+      "href": "/blog/best-beaches-in-odisha",
+      "note": "Talasari and Chandipur next door"
+    },
+    {
+      "name": "Beach trips in India",
+      "href": "/blog/beach-trips-in-india",
+      "note": "beach weekends from Kolkata"
+    },
+    {
+      "name": "Beach safety in India",
+      "href": "/blog/beach-safety-in-india",
+      "note": "bathing bans and flags"
+    },
+    {
+      "name": "Wildlife tourism in West Bengal",
+      "href": "/blog/wildlife-tourism-in-west-bengal",
+      "note": "the Sundarbans by boat"
+    }
+  ],
+  "places": [
+    "Digha",
+    "Shankarpur",
+    "Tajpur",
+    "Mandarmani",
+    "Junput",
+    "Bakkhali",
+    "Frasergunj",
+    "Gangasagar"
+  ],
+  "styles": [
+    "weekend-getaways",
+    "family-holidays"
+  ],
+  "planDestination": "Digha",
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,454 @@
+{
+  "slug": "best-museums-in-india",
+  "kind": "pillar",
+  "short": "Best museums in India",
+  "title": "Best Museums in India: History, Art and Culture",
+  "seoTitle": "Best Museums in India: Art, History & Culture | Kudozz Club",
+  "metaDescription": "India's best museums: the National Museum, Indian Museum, CSMVS, Salar Jung, the Calico Museum, Bihar Museum, Mehrangarh and Madhya Pradesh's Tribal Museum.",
+  "description": "A guide to the best museums in India for travellers: national collections in Delhi and Kolkata, CSMVS in Mumbai, the Salar Jung Museum in Hyderabad, the Calico Museum of Textiles in Ahmedabad, the Bihar Museum in Patna, the Government Museum in Chennai, fort and palace museums in Rajasthan, site museums at Sarnath and Sanchi, and anthropology museums in Bhopal, with visiting tips.",
+  "dek": "India's museums hold Harappan seals, Buddhist sculpture, Mughal paintings and royal textiles. These are the ones worth building a day around.",
+  "primaryKeyword": "museums in India",
+  "secondaryKeywords": [
+    "best museums in India",
+    "art museums India",
+    "archaeological museums India"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "museums",
+    "art",
+    "history",
+    "architecture"
+  ],
+  "terrain": [
+    "city"
+  ],
+  "regions": [
+    "Delhi",
+    "West Bengal",
+    "Maharashtra",
+    "Telangana",
+    "Gujarat",
+    "Bihar",
+    "Tamil Nadu",
+    "Rajasthan",
+    "Madhya Pradesh"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "travellers": [
+    "families",
+    "students",
+    "couples"
+  ],
+  "tags": [
+    "Museums",
+    "Art",
+    "History",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/heritage/museums-india-victoria-memorial.webp",
+    "alt": "The Victoria Memorial museum in Kolkata"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Museums of India"
+  },
+  "intro": [
+    "Some of India's greatest treasures are in its museums: Harappan seals, Mauryan and Gupta sculpture, Chola bronzes, Mughal and Rajput paintings, royal arms and textiles. The best museums are also good places to understand a region before you visit its monuments.",
+    "Museums are also a good plan for hot afternoons and monsoon days. Many are closed on one weekday, often Monday, so check before you go."
+  ],
+  "quickAnswer": "The best museums in India include the National Museum in New Delhi, the Indian Museum in Kolkata, the Chhatrapati Shivaji Maharaj Vastu Sangrahalaya (CSMVS) in Mumbai, the Salar Jung Museum in Hyderabad, the Calico Museum of Textiles in Ahmedabad, the Bihar Museum in Patna, the Government Museum in Chennai, the Mehrangarh Museum in Jodhpur, and the Madhya Pradesh Tribal Museum in Bhopal.",
+  "takeaways": [
+    "The National Museum in Delhi has one of India's largest Harappan collections.",
+    "The Indian Museum in Kolkata, founded in 1814, is generally described as India's oldest museum.",
+    "Many museums close one day a week, often Monday; check first.",
+    "Site museums at Sarnath, Sanchi and Lothal show finds in context.",
+    "Allow at least half a day for the big national museums."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "The best museums",
+      "table": {
+        "columns": [
+          "Museum",
+          "City",
+          "Highlights"
+        ],
+        "rows": [
+          [
+            "National Museum",
+            "New Delhi",
+            "Harappan finds, sculpture, miniature paintings"
+          ],
+          [
+            "Indian Museum",
+            "Kolkata",
+            "Bharhut sculptures, Gandharan art, natural history"
+          ],
+          [
+            "CSMVS (formerly Prince of Wales Museum)",
+            "Mumbai",
+            "Sculpture, miniatures, decorative arts"
+          ],
+          [
+            "Salar Jung Museum",
+            "Hyderabad",
+            "A vast private collection, including the musical clock"
+          ],
+          [
+            "Calico Museum of Textiles",
+            "Ahmedabad",
+            "Historic Indian textiles (guided visits by prior booking)"
+          ],
+          [
+            "Bihar Museum",
+            "Patna",
+            "Didarganj Yakshi, Mauryan and Buddhist art"
+          ],
+          [
+            "Government Museum",
+            "Chennai",
+            "Chola bronzes, Amaravati sculptures"
+          ],
+          [
+            "Mehrangarh Museum",
+            "Jodhpur",
+            "Palanquins, arms, paintings in the fort palaces"
+          ],
+          [
+            "Madhya Pradesh Tribal Museum",
+            "Bhopal",
+            "Immersive galleries made with tribal artists"
+          ],
+          [
+            "Sarnath Museum",
+            "Sarnath",
+            "The Lion Capital of Ashoka"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "national",
+      "heading": "National collections",
+      "items": [
+        {
+          "name": "National Museum, New Delhi",
+          "body": [
+            "Galleries from the Harappan period to modern times, with a strong sculpture and painting collection."
+          ],
+          "links": [
+            {
+              "label": "New Delhi guide",
+              "href": "/blog/new-delhi-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/delhi/new-delhi/national-museum-facade-new-delhi.webp",
+            "alt": "The National Museum, New Delhi",
+            "caption": "National Museum, New Delhi"
+          }
+        },
+        {
+          "name": "Indian Museum, Kolkata",
+          "body": [
+            "Founded in 1814, with the Bharhut stupa railings and a large Gandharan collection."
+          ],
+          "links": [
+            {
+              "label": "Kolkata guide",
+              "href": "/blog/kolkata-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/kolkata/indian-museum-entrance-facade-kolkata.webp",
+            "alt": "The entrance of the Indian Museum, Kolkata",
+            "caption": "Indian Museum, Kolkata"
+          }
+        },
+        {
+          "name": "CSMVS, Mumbai",
+          "body": [
+            "An Indo-Saracenic building in the Fort area with sculpture, miniature paintings and decorative arts."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mumbai",
+              "href": "/blog/things-to-do-in-mumbai"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regional",
+      "heading": "Regional museums",
+      "items": [
+        {
+          "name": "Salar Jung Museum, Hyderabad",
+          "body": [
+            "One man's collection, gathered largely by Salar Jung III, covering Indian, European and Asian art."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Hyderabad",
+              "href": "/blog/things-to-do-in-hyderabad"
+            }
+          ]
+        },
+        {
+          "name": "Calico Museum, Ahmedabad",
+          "body": [
+            "One of the finest textile collections in the world; visits are by guided tour, booked in advance, and numbers are limited."
+          ],
+          "links": [
+            {
+              "label": "Textile heritage of India",
+              "href": "/blog/textile-heritage-of-india"
+            }
+          ]
+        },
+        {
+          "name": "Bihar Museum, Patna",
+          "body": [
+            "A modern museum whose collection includes the Didarganj Yakshi."
+          ],
+          "links": [
+            {
+              "label": "Patna guide",
+              "href": "/blog/patna-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Government Museum, Chennai",
+          "body": [
+            "Its bronze gallery is one of the best places to see Chola bronzes."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Chennai",
+              "href": "/blog/things-to-do-in-chennai"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "site-palace",
+      "heading": "Site, fort and palace museums",
+      "list": [
+        "Mehrangarh, Jodhpur, and the City Palaces of Jaipur and Udaipur.",
+        "Sarnath Museum, with the Lion Capital of Ashoka, India's national emblem.",
+        "Sanchi, Nalanda, Lothal and Hampi site museums.",
+        "Victoria Memorial, Kolkata, with galleries on the city's history."
+      ],
+      "items": [
+        {
+          "name": "Guides",
+          "body": [
+            "Palace and fort museums."
+          ],
+          "links": [
+            {
+              "label": "Mehrangarh Fort",
+              "href": "/blog/mehrangarh-fort"
+            },
+            {
+              "label": "Palaces in India",
+              "href": "/blog/palaces-in-india"
+            },
+            {
+              "label": "Sarnath guide",
+              "href": "/blog/sarnath-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "heading": "Museums of people and culture",
+      "paras": [
+        "Bhopal has two outstanding museums on India's peoples. The Indira Gandhi Rashtriya Manav Sangrahalaya is a large open-air museum of traditional houses and crafts, and the Madhya Pradesh Tribal Museum was made with tribal artists. The Partition Museum in Amritsar records the experience of 1947 through survivors' testimony."
+      ],
+      "items": [
+        {
+          "name": "Bhopal and Amritsar",
+          "body": [
+            "Plan these into a trip."
+          ],
+          "links": [
+            {
+              "label": "Bhopal guide",
+              "href": "/blog/bhopal-travel-guide"
+            },
+            {
+              "label": "Amritsar guide",
+              "href": "/blog/amritsar-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Check the weekly closure day; Monday is common.",
+        "Take the audio guide where offered.",
+        "Photography rules and camera fees vary; ask at the counter.",
+        "Go on a weekday morning to avoid school groups."
+      ]
+    },
+    {
+      "id": "by-interest",
+      "heading": "Museums by interest",
+      "table": {
+        "columns": [
+          "Interest",
+          "Where to go"
+        ],
+        "rows": [
+          [
+            "Ancient India and the Harappans",
+            "National Museum, Delhi; Lothal and Dholavira site museums"
+          ],
+          [
+            "Buddhist art",
+            "Indian Museum, Kolkata; Sarnath; Bihar Museum; Mathura Museum"
+          ],
+          [
+            "Bronzes and temple art",
+            "Government Museum, Chennai; Thanjavur Art Gallery"
+          ],
+          [
+            "Paintings",
+            "National Museum; CSMVS; City Palace museums in Rajasthan"
+          ],
+          [
+            "Textiles",
+            "Calico Museum, Ahmedabad"
+          ],
+          [
+            "Tribal and folk culture",
+            "Bhopal's two museums"
+          ],
+          [
+            "Modern Indian art",
+            "National Gallery of Modern Art in Delhi, Mumbai and Bengaluru"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "with-kids",
+      "heading": "Museums with children",
+      "paras": [
+        "Children usually enjoy the arms and palanquins at Mehrangarh, the musical clock at the Salar Jung Museum, the open-air houses at Bhopal's Manav Sangrahalaya and the natural history galleries of the Indian Museum. Keep visits short, pick two or three galleries, and leave time for the gardens or café."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and prices change; check official sources before you go.",
+    "Bags are often checked or held at the cloakroom; carry valuables with you."
+  ],
+  "packing": [
+    "Photo ID",
+    "Light bag",
+    "Water (not allowed in some galleries)",
+    "Comfortable shoes"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best museum in India?",
+      "a": "The National Museum in Delhi, the Indian Museum in Kolkata and CSMVS in Mumbai are the three great general museums."
+    },
+    {
+      "q": "Which is the oldest museum in India?",
+      "a": "The Indian Museum in Kolkata, founded in 1814, is generally described as the oldest."
+    },
+    {
+      "q": "Are Indian museums closed on Mondays?",
+      "a": "Many are, but not all; check each museum's closure day."
+    },
+    {
+      "q": "How do I visit the Calico Museum?",
+      "a": "By guided tour booked in advance; numbers are limited."
+    },
+    {
+      "q": "Where can I see Chola bronzes?",
+      "a": "At the Government Museum in Chennai and the National Museum in Delhi."
+    },
+    {
+      "q": "How much time should I plan for a big museum?",
+      "a": "Half a day for the National Museum, Indian Museum or CSMVS; two hours for most regional and site museums."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Archaeological sites in India",
+      "href": "/blog/archaeological-sites-in-india"
+    },
+    {
+      "label": "Handicrafts of India",
+      "href": "/blog/handicrafts-of-india"
+    },
+    {
+      "label": "Heritage cities in India",
+      "href": "/blog/heritage-cities-in-india"
+    },
+    {
+      "label": "Family holidays",
+      "href": "/packages/family-holidays"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Textile heritage of India",
+      "href": "/blog/textile-heritage-of-india",
+      "note": "weaves and museums"
+    },
+    {
+      "name": "Palaces in India",
+      "href": "/blog/palaces-in-india",
+      "note": "palace museums"
+    },
+    {
+      "name": "Colonial-era heritage",
+      "href": "/blog/colonial-heritage-in-india",
+      "note": "museum buildings"
+    }
+  ],
+  "places": [
+    "New Delhi",
+    "Kolkata",
+    "Mumbai",
+    "Hyderabad",
+    "Ahmedabad",
+    "Patna",
+    "Chennai",
+    "Jodhpur",
+    "Bhopal",
+    "Sarnath",
+    "Amritsar"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

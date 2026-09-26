@@ -1,0 +1,328 @@
+{
+  "slug": "how-to-plan-a-wildlife-safari-in-india",
+  "kind": "planning",
+  "short": "Plan a wildlife safari",
+  "title": "How to Plan a Wildlife Safari in India",
+  "seoTitle": "How to Plan a Wildlife Safari in India: Step by Step | Kudozz Club",
+  "metaDescription": "Plan a wildlife safari in India step by step: choosing a park, when to go, booking permits and zones, how many drives, costs, and tips for families and couples.",
+  "description": "A step-by-step guide to planning a wildlife safari in India: choosing a park by species and season, how permits, zones and shifts work, booking on official portals, how many drives to take, what drives the cost, where to stay, and advice for families, couples, solo travellers, older travellers and photographers.",
+  "dek": "A good wildlife trip in India is mostly planning: the right park, the right season and permits booked early. Here is how to do it.",
+  "primaryKeyword": "how to plan a wildlife safari in India",
+  "secondaryKeywords": [
+    "wildlife safari cost India",
+    "wildlife safari booking",
+    "wildlife safari rules",
+    "wildlife safari for beginners",
+    "family wildlife holiday",
+    "wildlife honeymoon"
+  ],
+  "searchIntent": "Plan any wildlife trip",
+  "activities": [
+    "jeep safari",
+    "tiger safari",
+    "birdwatching"
+  ],
+  "terrain": [
+    "forest",
+    "grassland"
+  ],
+  "regions": [
+    "Central India",
+    "North India",
+    "South India",
+    "North East India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "solo travellers",
+    "photographers"
+  ],
+  "tags": [
+    "Safari Planning",
+    "Wildlife",
+    "India",
+    "Permits"
+  ],
+  "hero": {
+    "src": "/images/wildlife/safari-planning-kanha-gate.webp",
+    "alt": "A safari jeep driving along a dusty forest track in Bandhavgarh National Park"
+  },
+  "parent": {
+    "label": "Wildlife Tourism",
+    "href": "/wildlife-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Planning a wildlife safari in India"
+  },
+  "intro": [
+    "Indian parks limit the number of vehicles in each zone and shift, so permits for popular parks often sell out weeks or months ahead. The park, the season and the number of drives you book matter more to the trip than almost anything else.",
+    "This guide walks through the decisions in order. For tiger-specific details such as zones in the big reserves, see our tiger safari planning guide."
+  ],
+  "quickAnswer": "To plan a wildlife safari in India, choose a park by the animal you want to see and check that it is open in your travel month; most close core zones from July to September. Book permits on the official forest department portal as soon as bookings open, often 90 to 120 days ahead. Plan at least three or four drives in one park, stay close to the gate, and travel light in neutral colours.",
+  "takeaways": [
+    "Choose the park by species and season first.",
+    "Book permits on official portals as soon as they open; many sell out.",
+    "Three or four drives in one park beat one drive in several.",
+    "Stay close to your safari gate to save time before dawn starts.",
+    "Permits, vehicle, guide and lodge are the main costs; check current fees."
+  ],
+  "sections": [
+    {
+      "id": "steps",
+      "heading": "Step by step",
+      "list": [
+        "Decide on the species or experience: tigers, lions, rhinos, birds or a mix.",
+        "Pick two or three suitable parks and check their season and closures.",
+        "Fix dates, avoiding long weekends and holidays if you can.",
+        "Book permits the day bookings open, on the official portal.",
+        "Book a lodge close to your gates, and transport from the nearest airport or station.",
+        "Pack neutral clothes, layers and binoculars.",
+        "Allow a spare day for travel delays."
+      ]
+    },
+    {
+      "id": "choose",
+      "heading": "Choosing a park",
+      "table": {
+        "columns": [
+          "If you want to see",
+          "Consider"
+        ],
+        "rows": [
+          [
+            "Tigers",
+            "Bandhavgarh, Kanha, Tadoba, Ranthambore, Corbett, Pench"
+          ],
+          [
+            "Asiatic lions",
+            "Gir"
+          ],
+          [
+            "Rhinos and elephants",
+            "Kaziranga, Pobitora, Jaldapara"
+          ],
+          [
+            "Leopards",
+            "Jawai, Jhalana, Kabini"
+          ],
+          [
+            "Birds",
+            "Keoladeo, Chilika, Thattekad, Pangot"
+          ],
+          [
+            "A quieter trip",
+            "Satpura, Pench, Nagarhole, Manas"
+          ]
+        ]
+      },
+      "after": [
+        "See best wildlife destinations in India for more detail."
+      ]
+    },
+    {
+      "id": "permits",
+      "heading": "Permits, zones and shifts",
+      "items": [
+        {
+          "name": "Zones",
+          "body": [
+            "Large parks are divided into core and buffer zones, each with limited vehicles. Core zones usually have more wildlife and higher fees; buffer zones are cheaper and often good."
+          ],
+          "links": [
+            {
+              "label": "How to plan a tiger safari",
+              "href": "/blog/how-to-plan-a-tiger-safari-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Shifts",
+          "body": [
+            "Most parks run a morning and an afternoon shift of about three to four hours. Some offer full-day permits at a much higher fee."
+          ]
+        },
+        {
+          "name": "Booking",
+          "body": [
+            "Use the official forest department portal for each park, or a trusted operator. Carry the ID used when booking; names are checked at the gate."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "heading": "What drives the cost",
+      "list": [
+        "Permit fees, which differ between core and buffer zones and between Indian and foreign nationals.",
+        "Vehicle and guide fees, charged per jeep or per canter seat.",
+        "Lodge category, from forest rest houses to luxury lodges.",
+        "Transfers from the airport or station, which can be long.",
+        "Season: holidays and April to June are busiest."
+      ],
+      "after": [
+        "We do not quote prices because fees change often; check the official portal for current rates."
+      ]
+    },
+    {
+      "id": "travellers",
+      "heading": "Advice by traveller",
+      "items": [
+        {
+          "name": "Families",
+          "body": [
+            "Choose parks with shorter drives and good lodges, such as Pench, Corbett or Kabini. Canters and boat trips suit young children; check any age rules for walks."
+          ],
+          "links": [
+            {
+              "label": "Family holidays",
+              "href": "/packages/family-holidays"
+            }
+          ]
+        },
+        {
+          "name": "Couples and honeymooners",
+          "body": [
+            "Kabini, Satpura and Periyar offer beautiful lodges and quieter safaris."
+          ],
+          "links": [
+            {
+              "label": "Honeymoon packages",
+              "href": "/packages/honeymoon"
+            }
+          ]
+        },
+        {
+          "name": "Solo travellers",
+          "body": [
+            "Shared jeeps and canters keep costs down; many lodges run group departures."
+          ]
+        },
+        {
+          "name": "Older travellers",
+          "body": [
+            "Choose parks with easy roads and comfortable vehicles, and avoid the hottest months."
+          ]
+        },
+        {
+          "name": "Luxury travellers",
+          "body": [
+            "Several reserves have high-end jungle lodges with private vehicles and naturalists."
+          ],
+          "links": [
+            {
+              "label": "Luxury holidays",
+              "href": "/packages/luxury-holidays"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes",
+      "list": [
+        "Booking a single drive and expecting a tiger.",
+        "Leaving permits until the last few weeks before a holiday weekend.",
+        "Choosing a lodge far from the gate you are booked into.",
+        "Travelling in the monsoon without checking which zones are open."
+      ]
+    }
+  ],
+  "safety": [
+    "No operator can promise a sighting; be wary of anyone who does.",
+    "Stay in the vehicle and follow the guide's instructions.",
+    "Keep noise down and never feed animals.",
+    "Carry water, sun protection and warm layers."
+  ],
+  "packing": [
+    "Neutral clothes and warm layers",
+    "Binoculars",
+    "Hat, sunscreen and water",
+    "ID used for booking"
+  ],
+  "faqs": [
+    {
+      "q": "How far in advance should I book a safari in India?",
+      "a": "As early as possible. Many parks open bookings 90 to 120 days ahead, and popular zones sell out."
+    },
+    {
+      "q": "How many safaris should I do?",
+      "a": "At least three or four drives in one park give a fair chance of good sightings."
+    },
+    {
+      "q": "Which is the best month for a wildlife safari in India?",
+      "a": "It depends on the park; March to May is often best for sightings, and November to February for comfort and birds."
+    },
+    {
+      "q": "Can I book a safari at the gate?",
+      "a": "Some parks sell a few current permits, but most seats are booked online in advance."
+    },
+    {
+      "q": "Is a wildlife safari safe for children?",
+      "a": "Yes, when you follow the rules. Some parks set minimum ages or ticket rules for children; check before booking."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Best wildlife destinations",
+      "href": "/blog/best-wildlife-destinations-in-india"
+    },
+    {
+      "label": "Best time for wildlife safari",
+      "href": "/blog/best-time-for-wildlife-safari-in-india"
+    },
+    {
+      "label": "Wildlife safari packing list",
+      "href": "/blog/wildlife-safari-packing-list"
+    },
+    {
+      "label": "Wildlife trips",
+      "href": "/packages/wildlife-tours"
+    },
+    {
+      "label": "Best wildlife destinations",
+      "href": "/blog/best-wildlife-destinations-in-india"
+    }
+  ],
+  "related": [
+    {
+      "name": "Tiger safari in India",
+      "href": "/blog/tiger-safari-in-india",
+      "note": "tiger reserves compared"
+    },
+    {
+      "name": "Best wildlife safaris",
+      "href": "/blog/best-wildlife-safaris-in-india",
+      "note": "types of safari"
+    },
+    {
+      "name": "Responsible wildlife tourism",
+      "href": "/blog/responsible-wildlife-tourism-in-india",
+      "note": "safari etiquette"
+    }
+  ],
+  "places": [
+    "Bandhavgarh",
+    "Kanha",
+    "Tadoba",
+    "Ranthambore",
+    "Corbett",
+    "Gir",
+    "Kaziranga",
+    "Kabini"
+  ],
+  "styles": [
+    "wildlife-tours",
+    "family-holidays",
+    "honeymoon"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-25"
+}

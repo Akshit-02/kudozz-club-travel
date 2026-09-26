@@ -1,0 +1,300 @@
+{
+  "slug": "pilgrimage-packing-list",
+  "kind": "planning",
+  "short": "Pilgrimage packing list",
+  "title": "Pilgrimage Packing List and What to Wear at Temples and Shrines",
+  "seoTitle": "Pilgrimage Packing List & What to Wear at Temples | Kudozz Club",
+  "metaDescription": "What to pack and wear on a pilgrimage in India: dress codes at temples, gurdwaras, dargahs and Jain temples, documents, medicines and gear for Himalayan yatras.",
+  "description": "A practical packing list for pilgrimages in India: what to wear at Hindu temples (including strict southern dress codes), gurdwaras, dargahs, Jain temples and monasteries; documents and bookings; medicines; footwear; and extra gear for high-altitude yatras such as the Char Dham, Hemkund Sahib and Amarnath.",
+  "dek": "The right clothes smooth your way into temples and shrines, and the right gear makes long queues and mountain treks easier.",
+  "primaryKeyword": "pilgrimage packing list",
+  "secondaryKeywords": [
+    "what to wear to temples in India",
+    "temple dress code India",
+    "what to pack for char dham"
+  ],
+  "searchIntent": "Planning",
+  "activities": [
+    "pilgrimage",
+    "temple visit",
+    "trekking"
+  ],
+  "terrain": [
+    "temple town",
+    "mountains"
+  ],
+  "regions": [
+    "India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "groups"
+  ],
+  "tags": [
+    "Packing List",
+    "Temple Dress Code",
+    "What to Wear",
+    "Pilgrimage"
+  ],
+  "hero": {
+    "src": "/images/spiritual/pilgrimage-packing-kedarnath-trek.webp",
+    "alt": "Mules waiting at a transit point on the Kedarnath trek route"
+  },
+  "parent": {
+    "label": "How to Plan a Pilgrimage in India",
+    "href": "/blog/how-to-plan-a-pilgrimage-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Pilgrimage packing list"
+  },
+  "intro": [
+    "Every place of worship in India has its own customs. Many temples expect covered shoulders and knees, some southern temples require traditional dress, gurdwaras and dargahs ask everyone to cover their head, and Jain temples do not allow leather. Shoes come off at the entrance almost everywhere.",
+    "Pilgrimages also mean long queues in heat or cold, and, in the Himalaya, trekking at altitude. This checklist covers both."
+  ],
+  "quickAnswer": "For a pilgrimage in India, pack modest clothing that covers shoulders and knees, a scarf or cap for gurdwaras and dargahs, traditional dress if visiting strict southern temples, slip-on footwear, and socks for hot or cold floors. Carry photo ID, printed bookings and registrations, medicines and a water bottle. Himalayan yatras also need warm layers, rain gear, trekking shoes and a torch.",
+  "takeaways": [
+    "Cover shoulders and knees at most places of worship.",
+    "Carry a scarf or cap for gurdwaras and dargahs.",
+    "Some southern temples require a dhoti or mundu for men and a saree or long dress for women.",
+    "Leave leather items behind for Jain temples.",
+    "Himalayan yatras need warm, waterproof layers and good shoes."
+  ],
+  "sections": [
+    {
+      "id": "dress",
+      "heading": "What to wear, by place of worship",
+      "table": {
+        "columns": [
+          "Place",
+          "What to wear",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Most Hindu temples",
+            "Modest clothes covering shoulders and knees",
+            "Shoes off at the entrance"
+          ],
+          [
+            "Strict southern temples (for example Padmanabhaswamy, Guruvayur)",
+            "Men: dhoti or mundu, often without a shirt. Women: saree or long traditional dress",
+            "Rules are enforced at the gate; some hire out dhotis"
+          ],
+          [
+            "Gurdwaras",
+            "Modest clothes, head covered",
+            "Scarves provided; wash feet at entry"
+          ],
+          [
+            "Dargahs",
+            "Modest clothes, head covered",
+            "Rules on the inner shrine differ"
+          ],
+          [
+            "Jain temples",
+            "Modest clothes, no leather",
+            "No food inside; some have visitor hours"
+          ],
+          [
+            "Monasteries",
+            "Modest clothes",
+            "Remove shoes where asked; walk clockwise"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "essentials",
+      "heading": "Essentials for every pilgrimage",
+      "list": [
+        "Photo ID (Aadhaar or passport) and printed or saved bookings and registrations.",
+        "Slip-on footwear, and socks for hot stone in summer and cold marble in winter.",
+        "A small bag; many shrines do not allow large bags, phones or cameras inside.",
+        "Water bottle, light snacks and a hand towel for queues.",
+        "Personal medicines, prescriptions and a basic first-aid kit.",
+        "Cash in small notes for offerings, cloakrooms and local transport.",
+        "A power bank and a torch."
+      ]
+    },
+    {
+      "id": "himalaya",
+      "heading": "Extra gear for Himalayan yatras",
+      "items": [
+        {
+          "name": "Clothing",
+          "body": [
+            "Thermal base layers, a fleece, a down or padded jacket, gloves and a warm cap, even in May and June."
+          ],
+          "links": [
+            {
+              "label": "Char Dham Yatra guide",
+              "href": "/blog/char-dham-yatra-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/kedarnath/the-gaurikund-kedarnath-trek.webp",
+            "alt": "The trekking path from Gaurikund towards Kedarnath",
+            "caption": "The Kedarnath trek"
+          }
+        },
+        {
+          "name": "Rain and trek gear",
+          "body": [
+            "A rain jacket or poncho, waterproof bag covers, trekking shoes with grip and a walking stick."
+          ],
+          "links": [
+            {
+              "label": "Hemkund Sahib Yatra",
+              "href": "/blog/hemkund-sahib-yatra"
+            }
+          ]
+        },
+        {
+          "name": "Health",
+          "body": [
+            "Sunscreen, lip balm, sunglasses, oral rehydration salts and any medicines your doctor advises for altitude."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "By season",
+      "table": {
+        "columns": [
+          "Season",
+          "Add"
+        ],
+        "rows": [
+          [
+            "Winter (December to February)",
+            "Warm layers and socks; fog can delay trains in the north"
+          ],
+          [
+            "Summer (April to June)",
+            "Cotton clothes, a hat, sunscreen and electrolytes"
+          ],
+          [
+            "Monsoon (July to September)",
+            "Umbrella, quick-dry clothes and footwear with grip"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "leave",
+      "heading": "What to leave at home",
+      "list": [
+        "Expensive jewellery and large amounts of cash.",
+        "Leather items if you are visiting Jain temples.",
+        "Revealing or beachwear clothing for temple towns.",
+        "Large bags if you plan to go straight to the temple."
+      ]
+    },
+    {
+      "id": "rituals",
+      "heading": "If you plan rituals or a holy dip",
+      "list": [
+        "A change of clothes and a quick-dry towel for bathing at ghats, kunds and sarovars.",
+        "A waterproof pouch for your phone and documents.",
+        "Traditional clothes if a priest has asked for them (for example a dhoti for certain pujas at Trimbakeshwar).",
+        "Small containers if you wish to carry back holy water, where allowed.",
+        "Flowers and offerings are usually sold near temples; you do not need to carry them from home."
+      ]
+    },
+    {
+      "id": "women",
+      "heading": "Notes for women travellers",
+      "paras": [
+        "A dupatta or light scarf is useful everywhere: for covering the head at gurdwaras and dargahs, and as an extra layer in air-conditioned trains. Long skirts, salwar kameez or sarees are accepted at almost all temples. Some shrines set their own customs for women visitors, which are posted at the entrance; follow them or ask the staff if you are unsure."
+      ]
+    }
+  ],
+  "safety": [
+    "Keep documents and cash in a secure pouch in crowds.",
+    "Stay hydrated in long queues, especially in summer.",
+    "Wear footwear with grip on wet ghats and temple steps.",
+    "At altitude, dress in layers and descend if you feel unwell."
+  ],
+  "packing": [
+    "Modest clothing",
+    "Head covering",
+    "Slip-on shoes and socks",
+    "ID and bookings",
+    "Medicines and water"
+  ],
+  "faqs": [
+    {
+      "q": "What should I wear to a temple in India?",
+      "a": "Modest clothes covering shoulders and knees. Some southern temples require traditional dress."
+    },
+    {
+      "q": "Do I need to cover my head in a gurdwara?",
+      "a": "Yes. Everyone covers their head; scarves are usually provided."
+    },
+    {
+      "q": "Can I wear leather in a Jain temple?",
+      "a": "No. Leather belts, bags and shoes are not allowed inside."
+    },
+    {
+      "q": "What should I pack for the Char Dham Yatra?",
+      "a": "Warm and rain layers, trekking shoes, medicines, ID and your yatra registration."
+    },
+    {
+      "q": "Can I carry my phone into temples?",
+      "a": "Many temples do not allow phones or cameras inside; use the cloakrooms."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "How to plan a pilgrimage",
+      "href": "/blog/how-to-plan-a-pilgrimage-in-india"
+    },
+    {
+      "label": "Char Dham Yatra guide",
+      "href": "/blog/char-dham-yatra-guide"
+    },
+    {
+      "label": "Famous temples in India",
+      "href": "/blog/famous-temples-in-india"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    },
+    {
+      "label": "Hemkund Sahib Yatra",
+      "href": "/blog/hemkund-sahib-yatra"
+    }
+  ],
+  "related": [
+    {
+      "name": "Sikh pilgrimage in India",
+      "href": "/blog/sikh-pilgrimage-in-india",
+      "note": "gurdwara etiquette"
+    },
+    {
+      "name": "Sufi shrines in India",
+      "href": "/blog/sufi-shrines-in-india",
+      "note": "dargah etiquette"
+    },
+    {
+      "name": "Adventure travel packing list",
+      "href": "/blog/adventure-travel-packing-list-india",
+      "note": "for treks"
+    }
+  ],
+  "styles": [
+    "spiritual-tours"
+  ],
+  "planDestination": "pilgrimage",
+  "updated": "2026-09-26"
+}

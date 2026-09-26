@@ -1,0 +1,330 @@
+{
+  "slug": "beach-tourism-in-india",
+  "kind": "pillar",
+  "short": "Beach tourism in India",
+  "title": "Beach Tourism in India: Blue Flag Beaches, Coastal Rules and Responsible Travel",
+  "seoTitle": "Beach Tourism in India: Blue Flag & Coastal Rules | Kudozz Club",
+  "metaDescription": "How beach tourism works in India: Blue Flag and the BEAMS programme, coastal rules, lifeguards, turtle and coral protection, and how to visit responsibly.",
+  "description": "An explainer on beach tourism in India: what Blue Flag certification means and which beaches hold it, the government's BEAMS programme, how coastal regulation shapes beach shacks and resorts, monsoon bans and lifeguard services, protection for nesting turtles and coral reefs, plastic rules, and how visitors can travel responsibly.",
+  "dek": "Behind every managed beach are rules on water quality, safety, building and wildlife. Here is how beach tourism in India is managed, and what it means for visitors.",
+  "primaryKeyword": "beach tourism in India",
+  "secondaryKeywords": [
+    "Blue Flag beaches in India",
+    "CRZ rules beaches",
+    "beach tourism India sustainability",
+    "clean beaches India",
+    "beach management India"
+  ],
+  "searchIntent": "Understand how beach tourism is managed (certification, rules, sustainability)",
+  "activities": [
+    "beaches",
+    "responsible travel",
+    "turtle watching"
+  ],
+  "terrain": [
+    "beaches",
+    "coast"
+  ],
+  "regions": [
+    "India",
+    "West coast",
+    "East coast",
+    "Islands"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring",
+    "monsoon"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "solo",
+    "friends"
+  ],
+  "tags": [
+    "Beach Tourism",
+    "Blue Flag",
+    "Responsible Travel",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/beach/blue-flag-beach-shivrajpur.webp",
+    "alt": "Shivrajpur beach near Dwarka, Gujarat",
+    "caption": "Shivrajpur beach"
+  },
+  "parent": {
+    "label": "Beach Travel",
+    "href": "/beach-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Beach tourism in India"
+  },
+  "intro": [
+    "Beach tourism is one of India's largest leisure segments, concentrated in Goa, Kerala, the Andamans and the Konkan, but growing on the east coast too. Over the past decade, government programmes have pushed beaches towards international standards of cleanliness and safety, while coastal regulations limit what can be built near the shore and wildlife laws protect turtles and reefs.",
+    "This guide explains those systems in plain terms: what a Blue Flag beach is, why some beaches have shacks and others do not, why beaches close in the monsoon, and what visitors can do to keep beaches healthy. For choosing a beach, see best beaches in India."
+  ],
+  "quickAnswer": "Beach tourism in India is managed through Blue Flag certification (an international eco-label India had on about 18 beaches in 2025), the government's BEAMS programme for beach cleanliness and safety, coastal regulation zone rules that limit building near the shore, state lifeguard services and monsoon bathing bans, and wildlife laws protecting nesting turtles and coral. Visitors help by avoiding plastic, respecting flags and nesting zones and never touching coral.",
+  "takeaways": [
+    "Blue Flag is an international certification for water quality, environmental management, safety and services, reviewed every year.",
+    "India's BEAMS programme, run under the environment ministry, prepares beaches for Blue Flag standards.",
+    "Coastal Regulation Zone rules limit construction near the high-tide line; beach shacks in states such as Goa are licensed for the season.",
+    "Sea bathing and water sports are banned on many coasts in the monsoon.",
+    "Olive ridley turtles and reef corals are protected species; disturbing nests or collecting coral is illegal."
+  ],
+  "sections": [
+    {
+      "id": "blue-flag",
+      "heading": "What is a Blue Flag beach?",
+      "paras": [
+        "The Blue Flag programme is run by the Foundation for Environmental Education (FEE), based in Denmark. To be certified, a beach must meet a long list of criteria covering bathing-water quality, environmental education, environmental management (waste, toilets, no untreated sewage), and safety and services (lifeguards, first aid, access for people with disabilities). Certification is renewed each year, and a beach can lose it.",
+        "India's first beaches were certified in 2020. By 2025, after five Maharashtra beaches were added, India had about 18 certified beaches."
+      ],
+      "table": {
+        "columns": [
+          "State or UT",
+          "Beaches that have held Blue Flag certification"
+        ],
+        "rows": [
+          [
+            "Gujarat",
+            "Shivrajpur"
+          ],
+          [
+            "Diu",
+            "Ghoghla"
+          ],
+          [
+            "Maharashtra",
+            "Shrivardhan, Nagaon, Parnaka, Guhagar, Ladghar"
+          ],
+          [
+            "Karnataka",
+            "Kasarkod, Padubidri"
+          ],
+          [
+            "Kerala",
+            "Kappad, Chal"
+          ],
+          [
+            "Lakshadweep",
+            "Minicoy Thundi, Kadmat"
+          ],
+          [
+            "Tamil Nadu",
+            "Kovalam (Covelong)"
+          ],
+          [
+            "Puducherry",
+            "Eden"
+          ],
+          [
+            "Andhra Pradesh",
+            "Rushikonda"
+          ],
+          [
+            "Odisha",
+            "Golden Beach (Puri), Sunapur"
+          ],
+          [
+            "Andaman and Nicobar",
+            "Radhanagar"
+          ]
+        ],
+        "caption": "Certification is annual; check the current list before relying on it."
+      },
+      "after": [
+        "On a certified beach, expect a marked bathing zone with lifeguards in season, clean toilets and changing rooms, waste bins and sorting, information boards on water quality and wildlife, and restrictions on vehicles, pets and vending."
+      ]
+    },
+    {
+      "id": "beams",
+      "heading": "The BEAMS programme",
+      "paras": [
+        "Beach Environment and Aesthetics Management Services (BEAMS) is a programme of the Ministry of Environment, Forest and Climate Change, implemented by the Society of Integrated Coastal Management (SICOM) under the Integrated Coastal Zone Management project. It funds pollution control, cleaning, safety and surveillance, and environmental education at selected beaches, with the aim of meeting Blue Flag standards."
+      ]
+    },
+    {
+      "id": "regulation",
+      "heading": "Why you see shacks on some beaches and not others",
+      "paras": [
+        "The Coastal Regulation Zone (CRZ) notification, most recently revised in 2019, restricts permanent construction within set distances of the high-tide line and protects sensitive areas such as mangroves, turtle-nesting beaches and coral reefs. Temporary, seasonal structures such as beach shacks are allowed in some states under their own policies.",
+        "Goa's shack policy is the best-known example: licensed shacks go up after the monsoon and come down before it, roughly from October to May. Other states and districts set their own rules on vending, water sports and vehicles on the sand, such as the restrictions on driving at Mandarmani in West Bengal."
+      ]
+    },
+    {
+      "id": "safety-systems",
+      "heading": "Lifeguards and monsoon bans",
+      "paras": [
+        "Goa, Kerala and several other states run lifeguard services at popular beaches, with watchtowers, patrol vehicles and warning flags. During the south-west monsoon, roughly June to September on the west coast, sea bathing and beach water sports are banned in states such as Goa, and district administrations on the east coast announce bans during rough weather and cyclone alerts. Some urban beaches, such as Marina in Chennai and Rock Beach in Puducherry, prohibit swimming all year."
+      ],
+      "items": [
+        {
+          "name": "Learn more",
+          "body": [
+            "How to read beach flags, escape rip currents and plan around the monsoon."
+          ],
+          "links": [
+            {
+              "label": "Beach safety in India",
+              "href": "/blog/beach-safety-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wildlife",
+      "heading": "Turtles, reefs and coastal wildlife",
+      "items": [
+        {
+          "name": "Nesting turtles",
+          "body": [
+            "Olive ridley turtles nest on beaches in Odisha (Rushikulya, Gahirmatha), the Konkan (Velas), Goa (Morjim, Agonda, Galgibaga) and the Andamans, mostly between November and April. Nesting beaches have rules on lights, vehicles and access, and nests are often protected by forest departments and local volunteers."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Odisha",
+              "href": "/blog/best-beaches-in-odisha"
+            },
+            {
+              "label": "Best beaches in Maharashtra",
+              "href": "/blog/best-beaches-in-maharashtra"
+            }
+          ]
+        },
+        {
+          "name": "Coral reefs",
+          "body": [
+            "Reef-building corals are protected under the Wildlife (Protection) Act; collecting, buying or taking coral is illegal. Reefs in the Andamans, Lakshadweep and the Gulf of Mannar are also affected by warming seas and coral bleaching, which makes careful snorkelling and diving more important."
+          ],
+          "links": [
+            {
+              "label": "Snorkelling in India",
+              "href": "/blog/snorkeling-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Dolphins and marine mammals",
+          "body": [
+            "Dolphin-watching boats operate in Goa, the Konkan and Chilika. Good operators keep their distance and limit time near the animals."
+          ],
+          "links": [
+            {
+              "label": "Dolphin watching in India",
+              "href": "/blog/dolphin-watching-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plastic",
+      "heading": "Plastic and waste",
+      "paras": [
+        "India banned a range of identified single-use plastic items from July 2022, and many beach destinations, especially islands such as Lakshadweep and the Andamans, have their own restrictions on plastic. Waste from visitors is one of the biggest problems on busy beaches, particularly after holidays."
+      ]
+    },
+    {
+      "id": "responsible",
+      "heading": "How to be a responsible beach visitor",
+      "list": [
+        "Carry a reusable bottle and bag, and take your rubbish back with you.",
+        "Swim only where allowed, and follow lifeguards and flags.",
+        "Stay out of marked nesting zones; do not use torches or flash near turtles or hatchlings.",
+        "Never touch, stand on or collect coral, shells or starfish.",
+        "Choose licensed water-sports and boat operators who follow the rules.",
+        "Keep noise down at night, especially in fishing villages and near nesting beaches.",
+        "Support local businesses: family homestays, shacks and fish markets."
+      ]
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Respect monsoon bathing bans; they are imposed because of drownings.",
+    "Keep away from wildlife on the beach, including turtles, dogs and cattle.",
+    "Report injured marine animals to local forest or fisheries officials rather than handling them."
+  ],
+  "faqs": [
+    {
+      "q": "What is a Blue Flag beach?",
+      "a": "A beach certified by the Foundation for Environmental Education for water quality, environmental management, safety and services. Certification is renewed every year."
+    },
+    {
+      "q": "How many Blue Flag beaches does India have?",
+      "a": "About 18 as of 2025, after five Maharashtra beaches were added."
+    },
+    {
+      "q": "What is the BEAMS programme?",
+      "a": "A Ministry of Environment, Forest and Climate Change programme that improves cleanliness, safety and management at selected beaches to meet Blue Flag standards."
+    },
+    {
+      "q": "Why are beaches closed in the monsoon?",
+      "a": "Rough seas and strong currents make swimming dangerous, so states such as Goa ban sea bathing and water sports from about June to September."
+    },
+    {
+      "q": "Is it illegal to collect coral in India?",
+      "a": "Yes. Reef-building corals are protected under the Wildlife (Protection) Act."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Best beaches in India",
+      "href": "/blog/best-beaches-in-india"
+    },
+    {
+      "label": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa"
+    },
+    {
+      "label": "Goa travel guide",
+      "href": "/blog/goa-beaches-travel-guide"
+    },
+    {
+      "label": "Goa tour packages",
+      "href": "/packages/goa"
+    }
+  ],
+  "related": [
+    {
+      "name": "Coastal tourism in India",
+      "href": "/blog/coastal-tourism-in-india",
+      "note": "the coast beyond the beach"
+    },
+    {
+      "name": "Beach safety in India",
+      "href": "/blog/beach-safety-in-india",
+      "note": "flags, currents and bans"
+    },
+    {
+      "name": "Best beaches in Gujarat",
+      "href": "/blog/best-beaches-in-gujarat",
+      "note": "Shivrajpur, a Blue Flag beach"
+    }
+  ],
+  "places": [
+    "Shivrajpur",
+    "Ghoghla",
+    "Shrivardhan",
+    "Nagaon",
+    "Parnaka",
+    "Guhagar",
+    "Ladghar",
+    "Kasarkod",
+    "Padubidri",
+    "Kappad",
+    "Chal",
+    "Minicoy",
+    "Kadmat",
+    "Kovalam (Covelong)",
+    "Eden",
+    "Rushikonda",
+    "Puri",
+    "Sunapur",
+    "Radhanagar"
+  ],
+  "updated": "2026-09-25"
+}

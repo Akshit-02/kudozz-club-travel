@@ -1,0 +1,374 @@
+{
+ "slug": "wildlife-tourism-in-madhya-pradesh",
+ "kind": "state",
+ "short": "Wildlife in Madhya Pradesh",
+ "title": "Wildlife Tourism in Madhya Pradesh: Kanha, Bandhavgarh, Pench and More",
+ "seoTitle": "Wildlife Tourism in Madhya Pradesh: Tiger Reserves Guide | Kudozz Club",
+ "metaDescription": "Plan a wildlife trip in Madhya Pradesh, India's tiger state: Kanha, Bandhavgarh, Pench, Satpura, Panna, Kuno's cheetahs, booking on MP Online, seasons and routes.",
+ "description": "A guide to wildlife tourism in Madhya Pradesh, the state with India's most tigers: Kanha, Bandhavgarh, Pench, Satpura, Panna and the newer reserves, Kuno National Park and its cheetahs, how booking works on MP Online, the monsoon closure, and sample two-park routes.",
+ "dek": "Madhya Pradesh has more tigers than any other Indian state, and more tiger reserves. Here is how to choose between them and plan a trip.",
+ "primaryKeyword": "wildlife tourism in Madhya Pradesh",
+ "secondaryKeywords": [
+  "wildlife sanctuaries in Madhya Pradesh",
+  "national parks in Madhya Pradesh",
+  "Madhya Pradesh safari",
+  "wildlife in Madhya Pradesh"
+ ],
+ "searchIntent": "State-level wildlife planning",
+ "activities": [
+  "tiger safari",
+  "jeep safari",
+  "walking safari",
+  "birdwatching"
+ ],
+ "terrain": [
+  "forest",
+  "grassland",
+  "hills"
+ ],
+ "regions": [
+  "Madhya Pradesh",
+  "Central India"
+ ],
+ "seasons": [
+  "winter",
+  "spring",
+  "summer"
+ ],
+ "travellers": [
+  "families",
+  "couples",
+  "photographers"
+ ],
+ "tags": [
+  "Madhya Pradesh",
+  "Kanha",
+  "Bandhavgarh",
+  "Tiger State"
+ ],
+ "hero": {
+  "src": "/images/wildlife/mp-wildlife-barasingha-kanha.webp",
+  "alt": "Safari tracks forking through sal forest in Kanha National Park"
+ },
+ "parent": {
+  "label": "Wildlife Tourism",
+  "href": "/wildlife-tourism"
+ },
+ "about": {
+  "type": "TouristDestination",
+  "name": "Wildlife of Madhya Pradesh",
+  "containedIn": "Madhya Pradesh"
+ },
+ "intro": [
+  "Madhya Pradesh had an estimated 785 tigers in the 2022 assessment, the highest of any state, and it has nine tiger reserves: Kanha, Bandhavgarh, Pench, Satpura, Panna, Sanjay-Dubri, Veerangana Durgavati (Nauradehi), Ratapani and Madhav, the last declared in March 2025.",
+  "The state's central Indian forests of sal and teak also hold leopards, dhole, sloth bears, gaur and the hard-ground barasingha. Kuno National Park became home to cheetahs brought from Namibia and South Africa from 2022, and Gandhi Sagar Sanctuary has since received cheetahs too."
+ ],
+ "quickAnswer": "Madhya Pradesh's main wildlife destinations are Kanha, Bandhavgarh and Pench for tigers, Satpura for walking and boat safaris, Panna for tigers and the Ken river gorge near Khajuraho, and Kuno National Park, where cheetahs have been reintroduced. Safaris are booked on the MP Online forest portal. Core zones close from 1 July to 30 September; buffers can stay open.",
+ "takeaways": [
+  "Madhya Pradesh had the most tigers in India in 2022: an estimated 785.",
+  "It has nine tiger reserves, including Ratapani (2024) and Madhav (2025).",
+  "Kanha, Bandhavgarh and Pench are the most visited.",
+  "Book on the official MP Online portal; permits open up to 120 days ahead.",
+  "Kuno National Park has reintroduced cheetahs; visitor access is limited, so check."
+ ],
+ "sections": [
+  {
+   "id": "reserves",
+   "heading": "Tiger reserves and parks",
+   "table": {
+    "columns": [
+     "Reserve",
+     "Known for",
+     "Gateway"
+    ],
+    "rows": [
+     [
+      "Kanha",
+      "Meadows, sal forest, barasingha, tigers",
+      "Jabalpur, Gondia"
+     ],
+     [
+      "Bandhavgarh",
+      "High tiger density, fort",
+      "Jabalpur, Katni, Umaria"
+     ],
+     [
+      "Pench",
+      "Teak forest, easy access",
+      "Nagpur"
+     ],
+     [
+      "Satpura",
+      "Walking and boat safaris, sloth bears",
+      "Bhopal, Pipariya"
+     ],
+     [
+      "Panna",
+      "Tigers, Ken river gorge",
+      "Khajuraho"
+     ],
+     [
+      "Sanjay-Dubri",
+      "Remote, few visitors",
+      "Sidhi"
+     ],
+     [
+      "Kuno National Park",
+      "Reintroduced cheetahs",
+      "Sheopur, Gwalior"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "highlights",
+   "heading": "Highlights",
+   "items": [
+    {
+     "name": "Kanha",
+     "body": [
+      "Wide meadows where the barasingha was saved from extinction, and a strong record of tiger sightings."
+     ],
+     "links": [
+      {
+       "label": "Kanha guide",
+       "href": "/blog/kanha-travel-guide"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/madhya-pradesh/kanha/kanha-national-park.webp",
+      "alt": "Sal forest and meadow in Kanha National Park",
+      "caption": "Kanha National Park"
+     }
+    },
+    {
+     "name": "Bandhavgarh",
+     "body": [
+      "A compact core zone with rocky hills and an ancient fort, famous for tigers."
+     ],
+     "links": [
+      {
+       "label": "Bandhavgarh guide",
+       "href": "/blog/bandhavgarh-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Pench and Satpura",
+     "body": [
+      "Pench for an easy trip from Nagpur; Satpura for exploring on foot and by boat."
+     ],
+     "links": [
+      {
+       "label": "Pench Tiger Reserve",
+       "href": "/blog/pench-tiger-reserve"
+      },
+      {
+       "label": "Satpura Tiger Reserve",
+       "href": "/blog/satpura-tiger-reserve"
+      }
+     ]
+    },
+    {
+     "name": "Panna",
+     "body": [
+      "Tigers brought back after local extinction in 2009, and boat trips on the Ken river, 45 minutes or so from Khajuraho."
+     ],
+     "links": [
+      {
+       "label": "Panna guide",
+       "href": "/blog/panna-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Kuno",
+     "body": [
+      "Cheetahs were reintroduced to India here in 2022. Some safari zones have opened; sightings and access are limited and change often."
+     ],
+     "links": [
+      {
+       "label": "Kuno guide",
+       "href": "/blog/kuno-travel-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "booking",
+   "heading": "How booking works",
+   "list": [
+    "Core and buffer permits are sold on the official MP Online forest portal.",
+    "Bookings open up to 120 days before the date and sell out fast for weekends and April to June.",
+    "Each permit is for a zone and a shift; carry the ID used for booking.",
+    "Afternoon safaris are closed on Wednesdays in several MP reserves; check for your park."
+   ]
+  },
+  {
+   "id": "stay",
+   "heading": "Where to stay",
+   "paras": [
+    "Every major reserve has lodges close to its main gates, from forest department rest houses and MP Tourism properties to high-end jungle lodges. Staying close to the gate you will use most saves time before dawn safaris. At Kanha, choose between the Khatia and Mukki sides; at Bandhavgarh, Tala is the main village; at Pench, most lodges are near Turia."
+   ]
+  },
+  {
+   "id": "how-many-days",
+   "heading": "How many days to spend",
+   "paras": [
+    "Allow at least two nights and three or four drives in each reserve. A classic trip of seven to nine days covers two reserves, such as Kanha and Bandhavgarh, with a rest day for the long road between them. Photographers often spend four or five nights in one park instead."
+   ]
+  },
+  {
+   "id": "when",
+   "heading": "When to go",
+   "table": {
+    "columns": [
+     "Months",
+     "What to expect"
+    ],
+    "rows": [
+     [
+      "October to February",
+      "Cool and green; cold winter mornings"
+     ],
+     [
+      "March to June",
+      "Hot; the best time for tiger sightings"
+     ],
+     [
+      "July to September",
+      "Core zones closed; buffers may open"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "routes",
+   "heading": "Two-park routes",
+   "table": {
+    "columns": [
+     "Route",
+     "Days",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "Kanha and Bandhavgarh",
+      "7 to 8",
+      "About five to six hours' drive between them"
+     ],
+     [
+      "Pench and Kanha",
+      "6 to 7",
+      "Fly into Nagpur"
+     ],
+     [
+      "Panna and Khajuraho",
+      "3 to 4",
+      "Temples and tigers in one trip"
+     ],
+     [
+      "Satpura and Pench",
+      "6",
+      "Walking safaris plus classic drives"
+     ]
+    ]
+   }
+  }
+ ],
+ "safety": [
+  "Sightings are never guaranteed; plan several drives and enjoy the forest itself.",
+  "Stay in the vehicle on safaris and follow your guide.",
+  "Book permits only through official forest department portals or trusted operators.",
+  "Never feed animals or leave litter in a park.",
+  "Carry warm layers; winter mornings in open jeeps can be near freezing."
+ ],
+ "packing": [
+  "Warm layers and gloves for December and January",
+  "Neutral clothes",
+  "Hat and sunscreen for summer",
+  "Binoculars"
+ ],
+ "faqs": [
+  {
+   "q": "Which is the best tiger reserve in Madhya Pradesh?",
+   "a": "Kanha and Bandhavgarh are the most popular; Pench is easiest to reach and Satpura the most different."
+  },
+  {
+   "q": "How many tiger reserves are in Madhya Pradesh?",
+   "a": "Nine, after Madhav was declared in March 2025."
+  },
+  {
+   "q": "How do I book a safari in Madhya Pradesh?",
+   "a": "On the official MP Online forest portal, up to 120 days in advance."
+  },
+  {
+   "q": "Can I see cheetahs in Kuno?",
+   "a": "Cheetahs live in Kuno, but access and sightings are limited; check the current rules before planning."
+  },
+  {
+   "q": "When are MP's tiger reserves closed?",
+   "a": "Core zones close from 1 July to 30 September."
+  }
+ ],
+ "nextSteps": [
+  {
+   "label": "Things to do in Jabalpur",
+   "href": "/blog/things-to-do-in-jabalpur"
+  },
+  {
+   "label": "Madhya Pradesh travel guide",
+   "href": "/blog/madhya-pradesh-travel-guide"
+  },
+  {
+   "label": "Things to do in Khajuraho",
+   "href": "/blog/things-to-do-in-khajuraho"
+  },
+  {
+   "label": "Madhya Pradesh tour packages",
+   "href": "/packages/madhya-pradesh"
+  },
+  {
+   "label": "Wildlife trips",
+   "href": "/packages/wildlife-tours"
+  }
+ ],
+ "related": [
+  {
+   "name": "Best tiger reserves in India",
+   "href": "/blog/best-tiger-reserves-in-india",
+   "note": "national comparison"
+  },
+  {
+   "name": "How to plan a tiger safari",
+   "href": "/blog/how-to-plan-a-tiger-safari-in-india",
+   "note": "zones and permits"
+  },
+  {
+   "name": "Wildlife tourism in Maharashtra",
+   "href": "/blog/wildlife-tourism-in-maharashtra",
+   "note": "Tadoba next door"
+  },
+  {
+   "name": "Heritage tourism in Madhya Pradesh",
+   "href": "/blog/heritage-tourism-in-madhya-pradesh",
+   "note": "Khajuraho, Orchha and Mandu"
+  }
+ ],
+ "places": [
+  "Kanha",
+  "Bandhavgarh",
+  "Pench",
+  "Satpura",
+  "Panna",
+  "Sanjay-Dubri",
+  "Kuno"
+ ],
+ "styles": [
+  "wildlife-tours",
+  "family-holidays"
+ ],
+ "planDestination": "Madhya Pradesh",
+ "updated": "2026-09-25"
+}

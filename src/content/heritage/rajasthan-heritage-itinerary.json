@@ -1,0 +1,419 @@
+{
+  "slug": "rajasthan-heritage-itinerary",
+  "kind": "planning",
+  "short": "Rajasthan heritage itinerary",
+  "title": "Rajasthan Heritage Itinerary: Forts, Palaces and Old Cities in 10 to 14 Days",
+  "seoTitle": "Rajasthan Heritage Itinerary: 14 Days of Forts & Palaces | Kudozz Club",
+  "metaDescription": "A 14-day Rajasthan heritage itinerary: Jaipur, Ranthambore, Bundi, Chittorgarh, Udaipur, Kumbhalgarh and Ranakpur, Jodhpur and Jaisalmer, with drive times and tips.",
+  "description": "A 14-day Rajasthan heritage itinerary through forts, palaces and old cities: Jaipur and Amber, Ranthambore's fort and tigers, Bundi's stepwells and murals, Chittorgarh, Udaipur's lakes and City Palace, Kumbhalgarh and the Ranakpur temple, Jodhpur's Mehrangarh and Jaisalmer's living fort, with drive times, where to break the journey and shorter versions.",
+  "dek": "Rajasthan rewards a slow road trip, from the pink city of Jaipur to the golden fort of Jaisalmer. This two-week route covers the best of its forts, palaces and old towns.",
+  "primaryKeyword": "Rajasthan heritage itinerary",
+  "secondaryKeywords": [
+    "Rajasthan heritage circuit",
+    "Rajasthan 10 days itinerary",
+    "Rajasthan forts tour"
+  ],
+  "searchIntent": "Itinerary",
+  "activities": [
+    "forts",
+    "palaces",
+    "road trip",
+    "heritage walks"
+  ],
+  "terrain": [
+    "hills",
+    "desert",
+    "lakes"
+  ],
+  "regions": [
+    "Rajasthan"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "photographers"
+  ],
+  "tags": [
+    "Rajasthan",
+    "Itinerary",
+    "Forts",
+    "Palaces",
+    "Road Trip"
+  ],
+  "hero": {
+    "src": "/images/heritage/rajasthan-heritage-jaisalmer-fort.webp",
+    "alt": "The gateway and walls of Jaisalmer Fort"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Rajasthan heritage route",
+    "containedIn": "Rajasthan"
+  },
+  "intro": [
+    "Rajasthan is India's best-known heritage state, with four UNESCO sites (the Hill Forts of Rajasthan, Jaipur's walled city, the Jantar Mantar and Keoladeo National Park) and dozens of forts, palaces and havelis. The distances are large, so a car and driver is the easiest way to travel.",
+    "This 14-day route starts in Jaipur and ends in Jaisalmer, from where you can fly or take a train back, or continue to Bikaner and Delhi. It includes all six of the UNESCO hill forts except remote Gagron, which can be added from Bundi."
+  ],
+  "quickAnswer": "A 14-day Rajasthan heritage itinerary: Jaipur (2 nights), Ranthambore (2), Bundi (1), Chittorgarh (1), Udaipur (3, with a day at Kumbhalgarh and Ranakpur), Jodhpur (2) and Jaisalmer (2), then fly or take a train onward. Travel by car and driver, and go between October and March. Shorter versions can drop Ranthambore and Bundi.",
+  "takeaways": [
+    "Two weeks lets you see Rajasthan's great forts and cities without rushing.",
+    "A car and driver is the most practical way to travel.",
+    "Five of the six UNESCO hill forts are on this route.",
+    "Udaipur makes a good mid-trip rest stop.",
+    "October to March is the season; desert nights are cold in December and January."
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Route at a glance",
+      "table": {
+        "columns": [
+          "Days",
+          "Base",
+          "Highlights",
+          "Drive"
+        ],
+        "rows": [
+          [
+            "1 to 2",
+            "Jaipur",
+            "Amber Fort, City Palace, Jantar Mantar, Hawa Mahal",
+            "Start"
+          ],
+          [
+            "3 to 4",
+            "Ranthambore",
+            "Fort and tiger safari",
+            "About 3.5 hours"
+          ],
+          [
+            "5",
+            "Bundi",
+            "Taragarh, Garh Palace murals, stepwells",
+            "About 3.5 hours"
+          ],
+          [
+            "6",
+            "Chittorgarh",
+            "Chittorgarh Fort",
+            "About 3 hours"
+          ],
+          [
+            "7 to 9",
+            "Udaipur",
+            "City Palace, Lake Pichola; day trip to Kumbhalgarh and Ranakpur",
+            "About 2 hours"
+          ],
+          [
+            "10 to 11",
+            "Jodhpur",
+            "Mehrangarh, blue city, Jaswant Thada",
+            "About 5 hours (via Ranakpur possible)"
+          ],
+          [
+            "12 to 13",
+            "Jaisalmer",
+            "Jaisalmer Fort, havelis, desert",
+            "About 5 hours"
+          ],
+          [
+            "14",
+            "Onward",
+            "Fly or train from Jaisalmer or Jodhpur",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "id": "jaipur-bundi",
+      "heading": "Jaipur to Chittorgarh",
+      "items": [
+        {
+          "name": "Jaipur",
+          "body": [
+            "Amber Fort early in the morning, then the walled city."
+          ],
+          "links": [
+            {
+              "label": "Amber Fort",
+              "href": "/blog/amber-fort"
+            },
+            {
+              "label": "Things to do in Jaipur",
+              "href": "/blog/things-to-do-in-jaipur"
+            }
+          ]
+        },
+        {
+          "name": "Ranthambore",
+          "body": [
+            "The UNESCO fort inside the tiger reserve, with a Ganesh temple, and safaris into the park."
+          ],
+          "links": [
+            {
+              "label": "Ranthambore guide",
+              "href": "/blog/ranthambore-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Bundi and Chittorgarh",
+          "body": [
+            "Bundi's murals and stepwells, and the vast fort of Chittorgarh."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Bundi",
+              "href": "/blog/things-to-do-in-bundi"
+            },
+            {
+              "label": "Chittorgarh guide",
+              "href": "/blog/chittorgarh-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/rajasthan/rajasthan/vijay-stambh-victory-tower-chittorgarh-fort.webp",
+            "alt": "The Vijay Stambh inside Chittorgarh Fort",
+            "caption": "Chittorgarh Fort"
+          }
+        }
+      ]
+    },
+    {
+      "id": "udaipur",
+      "heading": "Udaipur, Kumbhalgarh and Ranakpur",
+      "items": [
+        {
+          "name": "Udaipur",
+          "body": [
+            "The City Palace, a boat on Lake Pichola, Bagore ki Haveli's evening folk show, and a day trip to Kumbhalgarh's walls and the Jain temple at Ranakpur."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Udaipur",
+              "href": "/blog/things-to-do-in-udaipur"
+            },
+            {
+              "label": "Kumbhalgarh guide",
+              "href": "/blog/kumbhalgarh-travel-guide"
+            },
+            {
+              "label": "Ranakpur Jain temple",
+              "href": "/blog/ranakpur-jain-temple"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/rajasthan/udaipur/jag-mandir-lake-pichola-udaipur.webp",
+            "alt": "Jag Mandir on Lake Pichola, Udaipur",
+            "caption": "Jag Mandir, Udaipur"
+          }
+        }
+      ]
+    },
+    {
+      "id": "west",
+      "heading": "Jodhpur and Jaisalmer",
+      "items": [
+        {
+          "name": "Jodhpur",
+          "body": [
+            "Mehrangarh and its museum, the blue houses below, Jaswant Thada and the Clock Tower market."
+          ],
+          "links": [
+            {
+              "label": "Mehrangarh Fort",
+              "href": "/blog/mehrangarh-fort"
+            },
+            {
+              "label": "Things to do in Jodhpur",
+              "href": "/blog/things-to-do-in-jodhpur"
+            }
+          ]
+        },
+        {
+          "name": "Jaisalmer",
+          "body": [
+            "The living fort, the carved havelis of Patwon ki Haveli and Nathmal, Gadisar Lake, and an evening in the dunes."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Jaisalmer",
+              "href": "/blog/things-to-do-in-jaisalmer"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/jaisalmer/patwon-ki-haveli-carved-facade.webp",
+            "alt": "The carved facade of Patwon ki Haveli, Jaisalmer",
+            "caption": "Patwon ki Haveli, Jaisalmer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shorter",
+      "heading": "Shorter versions",
+      "table": {
+        "columns": [
+          "Time",
+          "Route"
+        ],
+        "rows": [
+          [
+            "7 days",
+            "Jaipur, Udaipur, Jodhpur (fly into Jaipur, out of Jodhpur)"
+          ],
+          [
+            "10 days",
+            "Jaipur, Chittorgarh, Udaipur, Jodhpur, Jaisalmer"
+          ],
+          [
+            "14 days",
+            "The full route above"
+          ],
+          [
+            "18 days",
+            "Add Bikaner, Mandawa (Shekhawati) and Pushkar"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "Rajasthan is the best place in India to stay in heritage hotels: havelis in Jaipur, Bundi and Jaisalmer, palace hotels in Udaipur and Jodhpur, and fort stays near Kumbhalgarh. They range from simple family-run guesthouses to luxury palaces. In Jaisalmer, staying outside the fort walls helps reduce the strain on the old fort's drainage and structure. Book the winter months, especially Christmas and New Year, well ahead."
+      ]
+    },
+    {
+      "id": "pace",
+      "heading": "Keeping the pace comfortable",
+      "list": [
+        "Break long drives with stops: Ranakpur between Udaipur and Jodhpur, or Osian between Jodhpur and Jaisalmer.",
+        "Plan one slow day in Udaipur to rest.",
+        "Start fort visits at opening time; afternoons are hot even in winter.",
+        "Use evenings for markets, folk shows and rooftop dinners."
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Beyond the monuments",
+      "list": [
+        "The block printers of Sanganer and Bagru near Jaipur.",
+        "Bagore ki Haveli's evening dance show in Udaipur.",
+        "The Rajasthan International Folk Festival at Mehrangarh, usually in October.",
+        "Desert villages and the Jaisalmer Desert Festival in February."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Agree the full route, overnight stops and driver's accommodation when you book a car.",
+        "Carry a scarf and hat; the sun is strong in forts.",
+        "Keep some cash; small towns and fort stalls may not take cards."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and train schedules change; check the ASI, state tourism and IRCTC before you go.",
+    "Driving times are approximate; allow extra time, and avoid long drives after dark.",
+    "Desert nights are cold in winter; carry warm layers."
+  ],
+  "packing": [
+    "Walking shoes",
+    "Warm layers for desert nights",
+    "Scarf for temples",
+    "Sunglasses and sunscreen"
+  ],
+  "faqs": [
+    {
+      "q": "How many days do I need for Rajasthan?",
+      "a": "Ten to fourteen days for the main heritage cities; a week for a shorter loop."
+    },
+    {
+      "q": "What is the best route for Rajasthan?",
+      "a": "Jaipur, Ranthambore, Bundi, Chittorgarh, Udaipur, Jodhpur and Jaisalmer, in that order, is a logical loop."
+    },
+    {
+      "q": "Is it better to travel by car or train?",
+      "a": "A car and driver is easier for forts and small towns; trains work between the big cities."
+    },
+    {
+      "q": "When is the best time to visit Rajasthan?",
+      "a": "October to March."
+    },
+    {
+      "q": "Can I add Pushkar?",
+      "a": "Yes, between Jaipur and Jodhpur, or from Ajmer."
+    },
+    {
+      "q": "Should I include Jaisalmer?",
+      "a": "Yes, if you have 12 days or more; its living fort and desert are unlike anywhere else, but it is a long drive, so fly or take a train back."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage tourism in Rajasthan",
+      "href": "/blog/heritage-tourism-in-rajasthan"
+    },
+    {
+      "label": "Forts of Rajasthan",
+      "href": "/blog/forts-of-rajasthan"
+    },
+    {
+      "label": "Rajasthan tour packages",
+      "href": "/packages/rajasthan"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Palaces in India",
+      "href": "/blog/palaces-in-india",
+      "note": "royal Rajasthan"
+    },
+    {
+      "name": "Golden Triangle itinerary",
+      "href": "/blog/golden-triangle-itinerary",
+      "note": "Delhi, Agra and Jaipur"
+    },
+    {
+      "name": "Rajasthan travel guide",
+      "href": "/blog/rajasthan-travel-guide",
+      "note": "the state"
+    }
+  ],
+  "places": [
+    "Jaipur",
+    "Amber",
+    "Ranthambore",
+    "Bundi",
+    "Chittorgarh",
+    "Udaipur",
+    "Kumbhalgarh",
+    "Ranakpur",
+    "Jodhpur",
+    "Jaisalmer"
+  ],
+  "styles": [
+    "heritage-tours",
+    "luxury-holidays"
+  ],
+  "planDestination": "Rajasthan",
+  "updated": "2026-09-26"
+}

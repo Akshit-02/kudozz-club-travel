@@ -1,0 +1,310 @@
+{
+  "slug": "heritage-tourism-in-odisha",
+  "kind": "state",
+  "short": "Heritage tourism in Odisha",
+  "title": "Heritage Tourism in Odisha: Konark, Temple Towns and Living Crafts",
+  "seoTitle": "Heritage Tourism in Odisha: Konark, Bhubaneswar & Crafts | Kudozz Club",
+  "metaDescription": "Odisha's heritage: the Konark Sun Temple (UNESCO), Bhubaneswar's temples, Udayagiri and Khandagiri, Dhauli, the Buddhist Diamond Triangle, Raghurajpur and Odissi.",
+  "description": "A guide to heritage tourism in Odisha: the Konark Sun Temple, a UNESCO World Heritage Site, the temple city of Bhubaneswar, the Jain caves of Udayagiri and Khandagiri, the Ashokan edicts at Dhauli, the Buddhist sites of Ratnagiri, Lalitgiri and Udayagiri, Puri, the craft villages of Raghurajpur and Pipili, Cuttack's silver filigree, Odissi and Sambalpuri weaving.",
+  "dek": "Odisha, ancient Kalinga, holds the Sun Temple at Konark, a city of hundreds of temples and some of India's finest living crafts.",
+  "primaryKeyword": "heritage places in Odisha",
+  "secondaryKeywords": [
+    "historical places in Odisha",
+    "monuments in Odisha",
+    "Odisha heritage tour"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "monuments",
+    "UNESCO sites",
+    "crafts",
+    "heritage walks"
+  ],
+  "terrain": [
+    "varied"
+  ],
+  "regions": [
+    "Odisha"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "history lovers"
+  ],
+  "tags": [
+    "Odisha",
+    "Heritage",
+    "Konark",
+    "Bhubaneswar",
+    "Crafts"
+  ],
+  "hero": {
+    "src": "/images/heritage/heritage-odisha-mukteswar-temple.webp",
+    "alt": "The Mukteswar temple in Bhubaneswar, Odisha"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Heritage of Odisha",
+    "containedIn": "Odisha"
+  },
+  "intro": [
+    "Odisha was the ancient kingdom of Kalinga, whose conquest by Ashoka in the 3rd century BCE, according to his own edicts, led him to turn towards Buddhism. Later dynasties, especially the Somavamshis and the Eastern Gangas, built the temples of Bhubaneswar, Puri and Konark in the distinctive Kalinga style.",
+    "The Sun Temple at Konark was inscribed by UNESCO in 1984. Odisha is also known for its living crafts, its Odissi dance and music, and its weaving traditions."
+  ],
+  "quickAnswer": "Odisha's heritage highlights are the Konark Sun Temple (UNESCO), Bhubaneswar's temples such as Lingaraj and Mukteswar, the Udayagiri and Khandagiri caves, Dhauli's Ashokan edicts, the Buddhist Diamond Triangle of Ratnagiri, Lalitgiri and Udayagiri, the craft village of Raghurajpur, and Odissi dance and Sambalpuri weaving. October to March is the best time.",
+  "takeaways": [
+    "The Konark Sun Temple is Odisha's UNESCO site.",
+    "Bhubaneswar, Puri and Konark form an easy 'Golden Triangle' of Odisha.",
+    "Raghurajpur is one of India's best craft villages.",
+    "The Jagannath temple in Puri admits only Hindus; visitors can view it from outside.",
+    "October to March is the most comfortable season."
+  ],
+  "sections": [
+    {
+      "id": "temples",
+      "heading": "Konark and Bhubaneswar",
+      "items": [
+        {
+          "name": "Konark Sun Temple",
+          "body": [
+            "A 13th-century temple built as the chariot of the sun god, with carved stone wheels and horses."
+          ],
+          "links": [
+            {
+              "label": "Konark guide",
+              "href": "/blog/konark-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/odisha/odisha/konark-sun-temple-wheel-odisha.webp",
+            "alt": "A carved stone wheel of the Konark Sun Temple",
+            "caption": "Konark Sun Temple"
+          }
+        },
+        {
+          "name": "Bhubaneswar",
+          "body": [
+            "A temple city with the Lingaraj, Mukteswar, Rajarani and Parasurameswara temples, spanning several centuries of the Kalinga style."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Bhubaneswar",
+              "href": "/blog/things-to-do-in-bhubaneswar"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/odisha/odisha/lingaraj-temple-complex-bhubaneswar.webp",
+            "alt": "The Lingaraj temple complex, Bhubaneswar",
+            "caption": "Lingaraj temple, Bhubaneswar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ancient",
+      "heading": "Ancient sites",
+      "list": [
+        "Udayagiri and Khandagiri: Jain caves with the Hathigumpha inscription of King Kharavela.",
+        "Dhauli: Ashokan rock edicts and a modern Peace Pagoda above the Daya river.",
+        "Ratnagiri, Lalitgiri and Udayagiri: Buddhist monasteries and stupas near Jajpur, with a museum at Ratnagiri.",
+        "Sisupalgarh: the remains of an early historic fortified city near Bhubaneswar."
+      ],
+      "items": [
+        {
+          "name": "Guides",
+          "body": [
+            "Archaeology."
+          ],
+          "links": [
+            {
+              "label": "Archaeological sites in India",
+              "href": "/blog/archaeological-sites-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crafts",
+      "heading": "Crafts and performance",
+      "list": [
+        "Raghurajpur: Pattachitra painting and palm-leaf engraving; also known for Gotipua dance.",
+        "Pipili: appliqué work.",
+        "Cuttack: silver filigree (tarakasi).",
+        "Sambalpuri and Bomkai weaving.",
+        "Odissi dance, and the Konark Dance Festival in December."
+      ],
+      "items": [
+        {
+          "name": "Crafts",
+          "body": [
+            "More on crafts."
+          ],
+          "links": [
+            {
+              "label": "Handicrafts of India",
+              "href": "/blog/handicrafts-of-india"
+            },
+            {
+              "label": "Cuttack guide",
+              "href": "/blog/cuttack-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "Ashoka's Kalinga war, recorded in his edicts at Dhauli and Jaugada, is one of the best-documented events of early Indian history. Around the 1st century BCE, Kharavela ruled a powerful Kalinga kingdom, recorded in the Hathigumpha inscription. Buddhist monasteries flourished for centuries, and from about the 7th century the Shailodbhavas, Bhaumakaras, Somavamshis and Eastern Gangas built the great temples. Odisha later came under Afghan, Mughal, Maratha and British rule, and became a separate province in 1936."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "Bhubaneswar is the most practical base, with good hotels and quick access to Dhauli, Udayagiri and Khandagiri, and the temples. Puri has seaside hotels and is 35 km from Konark; Konark itself has a few simpler places to stay. For the Diamond Triangle, stay in Bhubaneswar or Cuttack and go for the day."
+      ]
+    },
+    {
+      "id": "getting-around",
+      "heading": "Getting around",
+      "paras": [
+        "Bhubaneswar has an airport and good rail links. Puri, Konark and Bhubaneswar form a triangle of short drives, and Raghurajpur is about 14 km from Puri. For the Buddhist sites near Jajpur, a car and driver is the easiest option."
+      ]
+    },
+    {
+      "id": "lesser-known",
+      "heading": "Lesser-known heritage",
+      "list": [
+        "The Chausath Yogini temple at Hirapur, an unusual circular, roofless shrine.",
+        "Bhubaneswar's Old Town around the Bindu Sagar tank, with dozens of smaller temples.",
+        "Barabati fort in Cuttack.",
+        "Chilika Lake's fishing villages and the Kalijai island shrine."
+      ]
+    },
+    {
+      "id": "respect",
+      "heading": "Visiting temples respectfully",
+      "paras": [
+        "Many of Odisha's temples are in active worship. Some, including the Jagannath temple in Puri and the Lingaraj temple in Bhubaneswar, admit only Hindus; the Lingaraj can be seen from a viewing platform outside. Elsewhere, remove shoes, dress modestly and ask before photographing rituals."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "October to March: the best season.",
+        "June or July: the Rath Yatra in Puri, which draws enormous crowds.",
+        "December: the Konark Dance Festival.",
+        "April to June: hot and humid."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, weekly closures and tickets change; check the ASI, state tourism or the site before you go.",
+    "Living temples, mosques and shrines set their own rules on dress, entry and photography; follow what is posted."
+  ],
+  "packing": [
+    "Comfortable walking shoes",
+    "Scarf or shawl for places of worship",
+    "Hat, sunscreen and water",
+    "Photo ID for tickets"
+  ],
+  "faqs": [
+    {
+      "q": "What is Odisha's UNESCO World Heritage Site?",
+      "a": "The Sun Temple at Konark, inscribed in 1984."
+    },
+    {
+      "q": "Can non-Hindus enter the Jagannath temple in Puri?",
+      "a": "No, entry is restricted to Hindus; visitors can view the temple from outside."
+    },
+    {
+      "q": "What is Raghurajpur known for?",
+      "a": "Pattachitra painting, palm-leaf engraving and Gotipua dance."
+    },
+    {
+      "q": "How many days do I need?",
+      "a": "Four to five days covers Bhubaneswar, Konark, Puri and Raghurajpur."
+    },
+    {
+      "q": "When is the best time to visit?",
+      "a": "October to March."
+    },
+    {
+      "q": "What is the Diamond Triangle of Odisha?",
+      "a": "The Buddhist sites of Ratnagiri, Lalitgiri and Udayagiri near Jajpur, about two hours from Bhubaneswar."
+    },
+    {
+      "q": "Where can I watch Odissi?",
+      "a": "At the Konark Dance Festival in December, and at cultural centres and performances in Bhubaneswar."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Temple architecture of India",
+      "href": "/blog/temple-architecture-of-india"
+    },
+    {
+      "label": "Konark guide",
+      "href": "/blog/konark-travel-guide"
+    },
+    {
+      "label": "Odisha travel guide",
+      "href": "/blog/odisha-travel-guide"
+    },
+    {
+      "label": "Odisha tour packages",
+      "href": "/packages/odisha"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Spiritual tourism in Odisha",
+      "href": "/blog/spiritual-tourism-in-odisha",
+      "note": "Puri and the Jagannath tradition"
+    },
+    {
+      "name": "Rock-cut caves in India",
+      "href": "/blog/rock-cut-caves-in-india",
+      "note": "Udayagiri and Khandagiri"
+    },
+    {
+      "name": "Things to do in Puri",
+      "href": "/blog/things-to-do-in-puri",
+      "note": "the coast"
+    }
+  ],
+  "places": [
+    "Konark",
+    "Bhubaneswar",
+    "Puri",
+    "Udayagiri",
+    "Khandagiri",
+    "Dhauli",
+    "Ratnagiri",
+    "Lalitgiri",
+    "Raghurajpur",
+    "Pipili",
+    "Cuttack"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "Odisha",
+  "updated": "2026-09-26"
+}

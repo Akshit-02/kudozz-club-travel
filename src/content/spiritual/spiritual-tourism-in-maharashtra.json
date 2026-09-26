@@ -1,0 +1,377 @@
+{
+ "slug": "spiritual-tourism-in-maharashtra",
+ "kind": "state",
+ "short": "Spiritual Maharashtra",
+ "title": "Spiritual Tourism in Maharashtra: Jyotirlingas, Shirdi, Pandharpur and Ashtavinayak",
+ "seoTitle": "Spiritual Places in Maharashtra: Shirdi & Pandharpur | Kudozz Club",
+ "metaDescription": "Plan a spiritual trip in Maharashtra: the Jyotirlingas, Shirdi, Pandharpur and the Wari, Ashtavinayak, Kolhapur, Hazur Sahib and Deekshabhoomi, with routes.",
+ "description": "A guide to spiritual tourism in Maharashtra: the Jyotirlingas of Trimbakeshwar, Bhimashankar and Grishneshwar, Sai Baba's Shirdi, Pandharpur and the Ashadhi Wari, the Ashtavinayak Ganesh temples, Mahalaxmi at Kolhapur, Tulja Bhavani, Siddhivinayak, Hazur Sahib at Nanded, Deekshabhoomi and Vipassana at Igatpuri, festivals, routes and seasons.",
+ "dek": "Maharashtra's pilgrim routes range from Jyotirlingas and Sai Baba's Shirdi to the walking Wari to Pandharpur and eight Ganesh temples around Pune.",
+ "primaryKeyword": "spiritual places in Maharashtra",
+ "secondaryKeywords": [
+  "religious places in Maharashtra",
+  "temples in Maharashtra",
+  "pilgrimage places in Maharashtra"
+ ],
+ "searchIntent": "State discovery/planning",
+ "activities": [
+  "pilgrimage",
+  "Jyotirlinga",
+  "temple visit",
+  "festivals"
+ ],
+ "terrain": [
+  "hills",
+  "temple town",
+  "coast"
+ ],
+ "regions": [
+  "Maharashtra",
+  "West India"
+ ],
+ "seasons": [
+  "winter",
+  "monsoon",
+  "spring"
+ ],
+ "travellers": [
+  "families",
+  "senior travellers",
+  "groups"
+ ],
+ "tags": [
+  "Maharashtra",
+  "Shirdi",
+  "Pandharpur",
+  "Ashtavinayak"
+ ],
+ "hero": {
+  "src": "/images/spiritual/spiritual-maharashtra-pandharpur.webp",
+  "alt": "Pilgrims outside the Vithoba temple at Pandharpur during Ashadhi"
+ },
+ "parent": {
+  "label": "Spiritual Tourism",
+  "href": "/spiritual-tourism"
+ },
+ "about": {
+  "type": "TouristDestination",
+  "name": "Spiritual Maharashtra",
+  "containedIn": "Maharashtra"
+ },
+ "intro": [
+  "Maharashtra has three of the twelve Jyotirlingas, Sai Baba's town of Shirdi, and Pandharpur, the home of Vithoba, where hundreds of thousands of Warkaris walk each year in the Ashadhi Wari. Around Pune are the eight Ashtavinayak Ganesh temples, and Mumbai's Siddhivinayak is one of the city's busiest shrines.",
+  "The state also holds Takht Sri Hazur Sahib at Nanded, Deekshabhoomi in Nagpur, where B. R. Ambedkar embraced Buddhism in 1956, and the Dhamma Giri Vipassana centre at Igatpuri."
+ ],
+ "quickAnswer": "Maharashtra's main spiritual destinations are the Jyotirlingas of Trimbakeshwar, Bhimashankar and Grishneshwar, Shirdi, Pandharpur, the eight Ashtavinayak temples around Pune, Mahalaxmi at Kolhapur, Tulja Bhavani at Tuljapur, Siddhivinayak in Mumbai, Hazur Sahib at Nanded and Deekshabhoomi in Nagpur. October to February is the best time; the Ashadhi Wari to Pandharpur takes place in June or July.",
+ "takeaways": [
+  "Maharashtra has three undisputed Jyotirlingas, plus two more claimed by some traditions.",
+  "Shirdi is about 240 km from Mumbai and 90 km from Nashik.",
+  "The Ashadhi Wari is a walking pilgrimage to Pandharpur in June or July.",
+  "The Ashtavinayak are eight Ganesh temples around Pune, usually visited in two to three days.",
+  "Ganesh Chaturthi (August or September) is the biggest festival, especially in Mumbai and Pune."
+ ],
+ "sections": [
+  {
+   "id": "places",
+   "heading": "Main spiritual places",
+   "table": {
+    "columns": [
+     "Place",
+     "Tradition",
+     "Known for",
+     "Our guide"
+    ],
+    "rows": [
+     [
+      "Trimbakeshwar, Bhimashankar, Grishneshwar",
+      "Hindu",
+      "Jyotirlingas",
+      "Jyotirlingas in Maharashtra"
+     ],
+     [
+      "Shirdi",
+      "Sai Baba devotees",
+      "Samadhi Mandir",
+      "Shirdi guide"
+     ],
+     [
+      "Pandharpur",
+      "Hindu (Varkari)",
+      "Vithoba-Rukmini temple; the Wari",
+      "Covered here"
+     ],
+     [
+      "Ashtavinayak",
+      "Hindu",
+      "Eight Ganesh temples around Pune",
+      "Covered here"
+     ],
+     [
+      "Kolhapur",
+      "Hindu",
+      "Mahalaxmi temple",
+      "Kolhapur guide"
+     ],
+     [
+      "Tuljapur",
+      "Hindu",
+      "Tulja Bhavani temple",
+      "Covered here"
+     ],
+     [
+      "Nanded",
+      "Sikh",
+      "Takht Sri Hazur Sahib",
+      "Panj Takht Yatra"
+     ],
+     [
+      "Nagpur",
+      "Buddhist",
+      "Deekshabhoomi",
+      "Covered here"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "highlights",
+   "heading": "Highlights",
+   "items": [
+    {
+     "name": "Shirdi",
+     "body": [
+      "The Samadhi Mandir of Sai Baba, run by the Shri Saibaba Sansthan Trust, with darshan and aarti bookings on its official site."
+     ],
+     "links": [
+      {
+       "label": "Shirdi guide",
+       "href": "/blog/shirdi-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Pandharpur and the Wari",
+     "body": [
+      "The Vithoba temple on the Bhima (Chandrabhaga). In the Ashadhi Wari, palkhis of Sant Dnyaneshwar from Alandi and Sant Tukaram from Dehu are escorted on foot to Pandharpur for Ashadhi Ekadashi."
+     ],
+     "facts": {
+      "When": "June or July"
+     }
+    },
+    {
+     "name": "Ashtavinayak",
+     "body": [
+      "Morgaon, Siddhatek, Pali, Mahad, Theur, Lenyadri, Ozar and Ranjangaon, traditionally visited in a set order starting and ending at Morgaon."
+     ],
+     "links": [
+      {
+       "label": "Pune guide",
+       "href": "/blog/pune-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Kolhapur and Tuljapur",
+     "body": [
+      "The Mahalaxmi temple, counted among the Shakti Peethas, and Tulja Bhavani, the family deity of many Maharashtrian families."
+     ],
+     "links": [
+      {
+       "label": "Things to do in Kolhapur",
+       "href": "/blog/things-to-do-in-kolhapur"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/maharashtra/kolhapur/mahalaxmi-temple-kolhapur.webp",
+      "alt": "The Mahalaxmi temple in Kolhapur, Maharashtra",
+      "caption": "Mahalaxmi temple, Kolhapur"
+     }
+    }
+   ]
+  },
+  {
+   "id": "more",
+   "heading": "More sacred places",
+   "list": [
+    "Siddhivinayak in Prabhadevi, Mumbai, and Haji Ali dargah.",
+    "Shani Shingnapur, near Shirdi.",
+    "Nashik's Panchavati and Ram Kund on the Godavari.",
+    "Jejuri, the hill temple of Khandoba near Pune.",
+    "Dhamma Giri at Igatpuri, a major Vipassana meditation centre.",
+    "Aundha Nagnath and Parli Vaijnath, claimed Jyotirlingas in Marathwada."
+   ],
+   "items": [
+    {
+     "name": "Short trips from Mumbai",
+     "body": [
+      "Temples within reach of the city."
+     ],
+     "links": [
+      {
+       "label": "Pilgrimage trips from Mumbai",
+       "href": "/blog/pilgrimage-trips-from-mumbai"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "route",
+   "heading": "Suggested routes",
+   "table": {
+    "columns": [
+     "Route",
+     "Days",
+     "Places"
+    ],
+    "rows": [
+     [
+      "Jyotirlingas and Shirdi",
+      "5 to 7",
+      "Bhimashankar, Trimbakeshwar, Shirdi, Grishneshwar"
+     ],
+     [
+      "Ashtavinayak",
+      "2 to 3",
+      "Eight Ganesh temples around Pune"
+     ],
+     [
+      "South Maharashtra",
+      "3 to 4",
+      "Pandharpur, Tuljapur, Kolhapur"
+     ],
+     [
+      "Marathwada and Nanded",
+      "3 to 4",
+      "Aundha Nagnath, Parli Vaijnath, Hazur Sahib"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "stays",
+   "heading": "Where to stay",
+   "list": [
+    "Shirdi: the Sansthan's accommodation and many hotels near the temple.",
+    "Nashik and Trimbak: hotels in Nashik, guesthouses in Trimbak.",
+    "Pune: the base for Bhimashankar and the Ashtavinayak route.",
+    "Pandharpur, Tuljapur and Kolhapur: hotels and dharamshalas close to the temples; very busy during the Wari and Navratri."
+   ]
+  },
+  {
+   "id": "festivals",
+   "heading": "Festivals",
+   "list": [
+    "Ganesh Chaturthi (August or September), especially in Mumbai and Pune.",
+    "The Ashadhi Wari and Ashadhi Ekadashi at Pandharpur (June or July).",
+    "Maha Shivratri at the Jyotirlingas.",
+    "Navratri at Tuljapur and Kolhapur, and the Nashik-Trimbakeshwar Simhastha in 2027."
+   ]
+  }
+ ],
+ "safety": [
+  "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+  "Dress modestly and follow each place of worship's rules on dress, phones and photography.",
+  "Book darshan, aarti and registrations only on official temple or government websites.",
+  "The Wari and Ganesh Chaturthi bring huge crowds; follow police arrangements and road closures."
+ ],
+ "packing": [
+  "Light cotton clothing",
+  "Rain jacket in the monsoon",
+  "Slip-on footwear",
+  "ID and bookings"
+ ],
+ "faqs": [
+  {
+   "q": "Which are the main pilgrimage places in Maharashtra?",
+   "a": "The Jyotirlingas, Shirdi, Pandharpur, the Ashtavinayak temples, Kolhapur, Tuljapur, Siddhivinayak and Hazur Sahib."
+  },
+  {
+   "q": "What is the Pandharpur Wari?",
+   "a": "A walking pilgrimage in which Warkaris escort the palkhis of Sant Dnyaneshwar and Sant Tukaram to Pandharpur for Ashadhi Ekadashi."
+  },
+  {
+   "q": "How many days does the Ashtavinayak yatra take?",
+   "a": "About two to three days by road from Pune."
+  },
+  {
+   "q": "How far is Shirdi from Mumbai?",
+   "a": "About 240 km, around five to six hours by road."
+  },
+  {
+   "q": "Is there a dress code at Shirdi?",
+   "a": "Modest clothing is expected; follow the Sansthan's notices on phones and bags."
+  },
+  {
+   "q": "Where is Deekshabhoomi?",
+   "a": "In Nagpur, where B. R. Ambedkar and his followers embraced Buddhism in 1956."
+  },
+  {
+   "q": "When is the best time for a spiritual trip to Maharashtra?",
+   "a": "October to February; the monsoon is beautiful but slower."
+  }
+ ],
+ "nextSteps": [
+  {
+   "label": "Jyotirlingas in Maharashtra",
+   "href": "/blog/jyotirlingas-in-maharashtra"
+  },
+  {
+   "label": "Shirdi guide",
+   "href": "/blog/shirdi-travel-guide"
+  },
+  {
+   "label": "Maharashtra travel guide",
+   "href": "/blog/maharashtra-travel-guide"
+  },
+  {
+   "label": "Maharashtra tour packages",
+   "href": "/packages/maharashtra"
+  },
+  {
+   "label": "Spiritual tour packages",
+   "href": "/packages/spiritual-tours"
+  }
+ ],
+ "related": [
+  {
+   "name": "Pilgrimage trips from Mumbai",
+   "href": "/blog/pilgrimage-trips-from-mumbai",
+   "note": "short trips"
+  },
+  {
+   "name": "Panj Takht Yatra",
+   "href": "/blog/panj-takht-yatra",
+   "note": "Hazur Sahib at Nanded"
+  },
+  {
+   "name": "Yoga and meditation retreats",
+   "href": "/blog/yoga-and-meditation-retreats-in-india",
+   "note": "Vipassana at Igatpuri"
+  },
+  {
+   "name": "Heritage tourism in Maharashtra",
+   "href": "/blog/heritage-tourism-in-maharashtra",
+   "note": "forts, monuments and crafts"
+  }
+ ],
+ "places": [
+  "Trimbakeshwar",
+  "Bhimashankar",
+  "Grishneshwar",
+  "Shirdi",
+  "Pandharpur",
+  "Kolhapur",
+  "Tuljapur",
+  "Mumbai",
+  "Nanded",
+  "Nagpur",
+  "Igatpuri"
+ ],
+ "styles": [
+  "spiritual-tours",
+  "family-holidays"
+ ],
+ "planDestination": "Maharashtra",
+ "updated": "2026-09-26"
+}

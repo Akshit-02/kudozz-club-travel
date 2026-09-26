@@ -1,0 +1,544 @@
+{
+  "slug": "beach-trips-in-india",
+  "kind": "pillar",
+  "short": "Beach trips from Indian cities",
+  "title": "Beach Trips in India: Short Breaks from Mumbai, Bengaluru, Chennai, Kolkata and Delhi",
+  "seoTitle": "Beach Trips in India: Short Breaks from Major Cities | Kudozz Club",
+  "metaDescription": "Beach trips from Mumbai, Pune, Bengaluru, Chennai, Hyderabad, Kolkata, Ahmedabad and Delhi: the nearest good beaches, travel times and weekend ideas.",
+  "description": "A guide to short beach trips from India's big cities: Alibaug, Kashid and the Konkan from Mumbai and Pune, Gokarna, Udupi and Pondicherry from Bengaluru, Covelong, Mahabalipuram and Pondicherry from Chennai, Vizag from Hyderabad, Digha and Puri from Kolkata, Diu and Shivrajpur from Ahmedabad, and fly-in beach weekends from Delhi.",
+  "dek": "Most big Indian cities are within a train ride or a short flight of a good beach. Here are the best beach trips from each, for a weekend or a long weekend.",
+  "primaryKeyword": "beach trips in India",
+  "secondaryKeywords": [
+    "beach trips from Mumbai",
+    "beach trips from Bengaluru",
+    "beach near Chennai",
+    "beach trips from Kolkata",
+    "beach trip from Delhi",
+    "weekend beach getaways India"
+  ],
+  "searchIntent": "Short or weekend beach trips from major cities",
+  "activities": [
+    "beaches",
+    "weekend trips",
+    "water sports"
+  ],
+  "terrain": [
+    "beaches",
+    "coast"
+  ],
+  "regions": [
+    "India",
+    "Maharashtra",
+    "Karnataka",
+    "Tamil Nadu",
+    "West Bengal",
+    "Gujarat",
+    "Andhra Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "friends"
+  ],
+  "tags": [
+    "Beach Trips",
+    "Weekend Getaways",
+    "Mumbai",
+    "Bengaluru"
+  ],
+  "hero": {
+    "src": "/images/beach/beach-trip-alibaug-konkan.webp",
+    "alt": "Sunset at Kashid beach, Raigad, Maharashtra",
+    "caption": "Kashid"
+  },
+  "parent": {
+    "label": "Beach Travel",
+    "href": "/beach-travel"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "India's coast"
+  },
+  "intro": [
+    "Mumbai, Chennai and Kolkata are on the sea, and Pune, Bengaluru, Hyderabad and Ahmedabad are within a day's drive or a short flight of it. Even from Delhi, a Goa beach weekend is a two-hour flight. This guide lists the best beach trips from each city, with rough travel times and what each suits.",
+    "Travel times are approximate and depend on traffic and route. For longer holidays, see beach holidays in India."
+  ],
+  "quickAnswer": "The best beach trips from major Indian cities are Alibaug, Kashid and the Konkan from Mumbai and Pune; Gokarna, Udupi and Pondicherry from Bengaluru; Covelong, Mahabalipuram and Pondicherry from Chennai; Vizag and Goa from Hyderabad; Digha, Mandarmani and Puri from Kolkata; Diu, Daman and Shivrajpur from Ahmedabad; and Goa by air from Delhi. Weekends suit trips under five hours; take a long weekend for more.",
+  "takeaways": [
+    "From Mumbai, Alibaug is reachable by ferry and road in two to three hours.",
+    "From Bengaluru, Pondicherry is about six to seven hours by road; Gokarna is an overnight journey.",
+    "From Chennai, Covelong and Mahabalipuram are day trips on the East Coast Road.",
+    "From Kolkata, Digha and Mandarmani are about four to five hours away.",
+    "From Delhi, the practical beach weekend is a flight to Goa."
+  ],
+  "sections": [
+    {
+      "id": "mumbai",
+      "heading": "From Mumbai and Pune",
+      "items": [
+        {
+          "name": "Alibaug, Nagaon and Kashid",
+          "body": [
+            "The closest good beaches to Mumbai, by ferry to Mandwa plus road (ferries stop in the monsoon), or about three to four hours by road. From Pune, about three to four hours by road."
+          ],
+          "facts": {
+            "Trip": "Weekend"
+          },
+          "links": [
+            {
+              "label": "Things to do in Alibaug",
+              "href": "/blog/things-to-do-in-alibaug"
+            }
+          ]
+        },
+        {
+          "name": "Diveagar, Shrivardhan and Harihareshwar",
+          "body": [
+            "Quieter Raigad beaches, about four to five hours by road."
+          ],
+          "facts": {
+            "Trip": "Weekend"
+          }
+        },
+        {
+          "name": "Ganpatipule and Guhagar",
+          "body": [
+            "Temple and Blue Flag beaches in Ratnagiri, about six to eight hours by road or by Konkan Railway to Ratnagiri or Chiplun."
+          ],
+          "facts": {
+            "Trip": "Long weekend"
+          }
+        },
+        {
+          "name": "Tarkarli and Malvan",
+          "body": [
+            "Clear water and snorkelling in Sindhudurg, an overnight train or long drive."
+          ],
+          "facts": {
+            "Trip": "Long weekend"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Maharashtra",
+              "href": "/blog/best-beaches-in-maharashtra"
+            }
+          ]
+        },
+        {
+          "name": "Daman and Goa",
+          "body": [
+            "Daman is about four hours north by road; Goa is an overnight train or a one-hour flight."
+          ],
+          "facts": {
+            "Trip": "Weekend or long weekend"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Goa",
+              "href": "/blog/best-beaches-in-goa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bengaluru",
+      "heading": "From Bengaluru",
+      "items": [
+        {
+          "name": "Pondicherry",
+          "body": [
+            "About six to seven hours by road, for the French Quarter, Paradise Beach and Serenity."
+          ],
+          "facts": {
+            "Trip": "Long weekend"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Puducherry",
+              "href": "/blog/best-beaches-in-puducherry"
+            }
+          ]
+        },
+        {
+          "name": "Gokarna and Murudeshwar",
+          "body": [
+            "Overnight bus or train, for coves and Netrani dive trips."
+          ],
+          "facts": {
+            "Trip": "Long weekend"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Karnataka",
+              "href": "/blog/best-beaches-in-karnataka"
+            }
+          ]
+        },
+        {
+          "name": "Udupi and Malpe",
+          "body": [
+            "Overnight, or a flight to Mangaluru, for St Mary's Island and temple towns."
+          ],
+          "facts": {
+            "Trip": "Long weekend"
+          }
+        },
+        {
+          "name": "Goa, Varkala and Kovalam",
+          "body": [
+            "A short flight to Goa or Thiruvananthapuram makes a beach weekend possible."
+          ],
+          "facts": {
+            "Trip": "Weekend by air"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chennai",
+      "heading": "From Chennai",
+      "items": [
+        {
+          "name": "Kovalam (Covelong) and Mahabalipuram",
+          "body": [
+            "About one to one and a half hours along the East Coast Road, for surfing and the Shore Temple."
+          ],
+          "facts": {
+            "Trip": "Day trip or weekend"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Tamil Nadu",
+              "href": "/blog/best-beaches-in-tamil-nadu"
+            }
+          ]
+        },
+        {
+          "name": "Pondicherry",
+          "body": [
+            "About three hours along the East Coast Road."
+          ],
+          "facts": {
+            "Trip": "Weekend"
+          }
+        },
+        {
+          "name": "Tranquebar",
+          "body": [
+            "About five to six hours, for a quiet Danish-era beach town."
+          ],
+          "facts": {
+            "Trip": "Long weekend"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hyderabad",
+      "heading": "From Hyderabad",
+      "items": [
+        {
+          "name": "Visakhapatnam",
+          "body": [
+            "A short flight or an overnight train to Vizag's beaches at Rushikonda, Yarada and Bheemili."
+          ],
+          "facts": {
+            "Trip": "Long weekend"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Andhra Pradesh",
+              "href": "/blog/best-beaches-in-andhra-pradesh"
+            }
+          ]
+        },
+        {
+          "name": "Goa and Gokarna",
+          "body": [
+            "Flights to Goa, or an overnight journey towards Gokarna."
+          ],
+          "facts": {
+            "Trip": "Long weekend"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kolkata",
+      "heading": "From Kolkata",
+      "items": [
+        {
+          "name": "Digha, Shankarpur, Tajpur and Mandarmani",
+          "body": [
+            "About four to five hours by road, or by train to Digha."
+          ],
+          "facts": {
+            "Trip": "Weekend"
+          },
+          "links": [
+            {
+              "label": "Best beaches in West Bengal",
+              "href": "/blog/best-beaches-in-west-bengal"
+            }
+          ]
+        },
+        {
+          "name": "Bakkhali",
+          "body": [
+            "About three to four hours, a quieter beach near the Sundarbans."
+          ],
+          "facts": {
+            "Trip": "Weekend"
+          }
+        },
+        {
+          "name": "Puri and Chandipur",
+          "body": [
+            "Overnight trains to Puri; Chandipur is reachable via Balasore."
+          ],
+          "facts": {
+            "Trip": "Long weekend"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Odisha",
+              "href": "/blog/best-beaches-in-odisha"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ahmedabad",
+      "heading": "From Ahmedabad",
+      "items": [
+        {
+          "name": "Diu",
+          "body": [
+            "About seven to eight hours by road, or a short flight, for Nagoa and Ghoghla."
+          ],
+          "facts": {
+            "Trip": "Long weekend"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Gujarat",
+              "href": "/blog/best-beaches-in-gujarat"
+            }
+          ]
+        },
+        {
+          "name": "Dwarka and Shivrajpur",
+          "body": [
+            "About seven to eight hours by road or overnight train, for the Blue Flag beach and temple."
+          ],
+          "facts": {
+            "Trip": "Long weekend"
+          }
+        },
+        {
+          "name": "Daman and Tithal",
+          "body": [
+            "About five to six hours south by road."
+          ],
+          "facts": {
+            "Trip": "Weekend"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fastest",
+      "heading": "Quickest beach escapes by city",
+      "table": {
+        "columns": [
+          "City",
+          "Nearest good beach",
+          "Getting there",
+          "Suits"
+        ],
+        "rows": [
+          [
+            "Mumbai",
+            "Alibaug, Nagaon, Kashid",
+            "Ferry and road, 2 to 4 hours",
+            "Weekend"
+          ],
+          [
+            "Pune",
+            "Kashid, Diveagar",
+            "Road, 3 to 5 hours",
+            "Weekend"
+          ],
+          [
+            "Bengaluru",
+            "Pondicherry",
+            "Road, 6 to 7 hours",
+            "Long weekend"
+          ],
+          [
+            "Chennai",
+            "Kovalam (Covelong), Mahabalipuram",
+            "Road, 1 to 1.5 hours",
+            "Day trip"
+          ],
+          [
+            "Hyderabad",
+            "Visakhapatnam",
+            "Flight or overnight train",
+            "Long weekend"
+          ],
+          [
+            "Kolkata",
+            "Digha, Mandarmani",
+            "Road or train, 4 to 5 hours",
+            "Weekend"
+          ],
+          [
+            "Ahmedabad",
+            "Daman, Diu",
+            "Road, 5 to 8 hours, or a flight to Diu",
+            "Long weekend"
+          ],
+          [
+            "Delhi",
+            "Goa",
+            "Flight, about 2.5 hours",
+            "Long weekend"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "plan-weekend",
+      "heading": "Planning a beach weekend",
+      "list": [
+        "Leave on Friday evening or very early on Saturday to make the most of two days.",
+        "Avoid long weekends and holidays if you can; coastal roads and ferries get very busy.",
+        "Book stays early for December to February weekends.",
+        "Check whether ferries are running: most harbour ferries stop in the monsoon.",
+        "Pick one beach and stay put rather than hopping between several."
+      ]
+    },
+    {
+      "id": "delhi",
+      "heading": "From Delhi",
+      "paras": [
+        "Delhi is far from the sea, so beach weekends mean flying. Goa is about two and a half hours by air, and a three-day weekend is enough for one area. For longer breaks, fly to Sri Vijaya Puram (Port Blair) for the Andamans, or to Thiruvananthapuram or Kochi for Kerala's beaches."
+      ],
+      "items": [
+        {
+          "name": "Goa by air",
+          "body": [
+            "The most practical beach weekend from Delhi; choose one area to avoid long transfers."
+          ],
+          "facts": {
+            "Trip": "Long weekend"
+          },
+          "links": [
+            {
+              "label": "Goa tour packages",
+              "href": "/packages/goa"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Weekend crowds at popular beaches can make water sports busy; choose licensed operators.",
+    "Check ferry and boat schedules; many coastal ferries stop in the monsoon.",
+    "Avoid driving long coastal and ghat roads at night."
+  ],
+  "faqs": [
+    {
+      "q": "Which is the nearest good beach to Mumbai?",
+      "a": "Alibaug, Nagaon and Kashid, reachable by ferry and road in two to three hours."
+    },
+    {
+      "q": "Which beach is nearest to Bengaluru?",
+      "a": "Pondicherry is about six to seven hours by road; Gokarna and Udupi are overnight journeys."
+    },
+    {
+      "q": "Which beaches can I visit from Kolkata on a weekend?",
+      "a": "Digha, Shankarpur, Tajpur, Mandarmani and Bakkhali."
+    },
+    {
+      "q": "Is there a beach near Delhi?",
+      "a": "No. The nearest practical beach weekend is a flight to Goa."
+    },
+    {
+      "q": "Which beaches are near Chennai?",
+      "a": "Kovalam (Covelong), Mahabalipuram and Pondicherry along the East Coast Road."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Weekend getaways",
+      "href": "/packages/weekend-getaways"
+    },
+    {
+      "label": "Things to do in Alibaug",
+      "href": "/blog/things-to-do-in-alibaug"
+    },
+    {
+      "label": "Alibaug travel guide",
+      "href": "/blog/alibaug-travel-guide"
+    },
+    {
+      "label": "Goa tour packages",
+      "href": "/packages/goa"
+    }
+  ],
+  "related": [
+    {
+      "name": "Beach holidays in India",
+      "href": "/blog/beach-holidays-in-india",
+      "note": "longer beach holidays"
+    },
+    {
+      "name": "Weekend adventure trips from Mumbai",
+      "href": "/blog/weekend-adventure-trips-from-mumbai",
+      "note": "hills and rivers"
+    },
+    {
+      "name": "Best beach destinations in India",
+      "href": "/blog/best-beach-destinations-in-india",
+      "note": "where to go"
+    }
+  ],
+  "places": [
+    "Alibaug",
+    "Kashid",
+    "Diveagar",
+    "Ganpatipule",
+    "Tarkarli",
+    "Daman",
+    "Pondicherry",
+    "Gokarna",
+    "Udupi",
+    "Kovalam (Covelong)",
+    "Mahabalipuram",
+    "Tranquebar",
+    "Visakhapatnam",
+    "Digha",
+    "Mandarmani",
+    "Bakkhali",
+    "Puri",
+    "Diu",
+    "Shivrajpur",
+    "Tithal",
+    "Goa"
+  ],
+  "styles": [
+    "weekend-getaways"
+  ],
+  "updated": "2026-09-25"
+}

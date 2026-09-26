@@ -1,0 +1,330 @@
+{
+  "slug": "dolphin-watching-in-india",
+  "kind": "activity",
+  "short": "Dolphin watching in India",
+  "title": "Dolphin Watching in India: Where to See Dolphins on the Coast",
+  "seoTitle": "Dolphin Watching in India: Goa, Konkan & Chilika | Kudozz Club",
+  "metaDescription": "Where to see dolphins in India: humpback dolphins off Goa and the Konkan, Irrawaddy dolphins in Chilika Lake and river dolphins, with seasons and etiquette.",
+  "description": "A guide to dolphin watching in India: boat trips to see humpback dolphins off Goa (Sinquerim, Coco Beach, Palolem) and the Konkan (Tarkarli, Devbagh, Dapoli), Irrawaddy dolphins at Satapada on Chilika Lake, river dolphins in the Sundarbans and the Ganga, the best seasons, what to expect and how to choose a responsible operator.",
+  "dek": "You will not swim with dolphins in India, but you can watch them from a boat in several places. Here is where, when and how to do it responsibly.",
+  "primaryKeyword": "dolphin watching in India",
+  "secondaryKeywords": [
+    "dolphin spotting Goa",
+    "Chilika dolphins",
+    "Irrawaddy dolphins India",
+    "Tarkarli dolphin trip",
+    "humpback dolphins India"
+  ],
+  "searchIntent": "Where and how to see dolphins",
+  "activities": [
+    "dolphin watching",
+    "boat trips",
+    "wildlife"
+  ],
+  "terrain": [
+    "sea",
+    "lagoons",
+    "rivers"
+  ],
+  "regions": [
+    "Goa",
+    "Maharashtra",
+    "Odisha",
+    "West Bengal",
+    "Bihar"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples"
+  ],
+  "tags": [
+    "Dolphin Watching",
+    "Goa",
+    "Chilika",
+    "Wildlife"
+  ],
+  "hero": {
+    "src": "/images/beach/dolphins-chilika-boat.webp",
+    "alt": "A dolphin-watching boat on Chilika Lake, Odisha",
+    "caption": "Chilika Lake"
+  },
+  "parent": {
+    "label": "Coastal Tourism in India",
+    "href": "/blog/coastal-tourism-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Dolphin watching in India"
+  },
+  "intro": [
+    "Dolphin-watching trips in India are short, inexpensive boat rides that head a little way offshore, or into a lagoon or river, where dolphins are regularly seen. The two coastal species most visitors see are the Indian Ocean humpback dolphin, off the west coast, and the Irrawaddy dolphin in Chilika Lake in Odisha. River dolphins live in the Ganga and Brahmaputra systems and in the Sundarbans.",
+    "Sightings are never guaranteed, and the experience depends heavily on the operator. This guide covers the best places, the season and how to watch without disturbing the animals."
+  ],
+  "quickAnswer": "The best places for dolphin watching in India are Goa, with morning boat trips from Sinquerim, Coco Beach and Palolem; the Konkan coast at Tarkarli, Devbagh and Dapoli; and Chilika Lake in Odisha, where Irrawaddy dolphins are seen near Satapada. The season runs roughly from October to May on the coast, with November to February best at Chilika. Choose operators who keep their distance and do not chase dolphins.",
+  "takeaways": [
+    "Goa's dolphin trips run from Sinquerim, Coco Beach and Palolem, mostly in the calm morning hours.",
+    "Chilika Lake's Irrawaddy dolphins are seen near Satapada, best from November to February.",
+    "Konkan trips from Tarkarli, Devbagh, Karde and Ladghar are quieter than Goa's.",
+    "Sightings are likely but never guaranteed; calm, clear mornings are best.",
+    "Good operators keep a distance, cut engines near dolphins and never chase or crowd them."
+  ],
+  "sections": [
+    {
+      "id": "where",
+      "heading": "Where to see dolphins",
+      "items": [
+        {
+          "name": "Goa",
+          "body": [
+            "Boats leave from Sinquerim and Coco Beach near Candolim, and from Palolem in the south, to see Indian Ocean humpback dolphins near the river mouths and headlands. Trips last about an hour and are often combined with views of Fort Aguada or Butterfly beach."
+          ],
+          "facts": {
+            "Season": "About October to May",
+            "Best time": "Early morning"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Goa",
+              "href": "/blog/best-beaches-in-goa"
+            },
+            {
+              "label": "Adventure activities in Goa",
+              "href": "/blog/adventure-activities-in-goa"
+            }
+          ]
+        },
+        {
+          "name": "The Konkan coast, Maharashtra",
+          "body": [
+            "Morning boat rides from Tarkarli and Devbagh in Sindhudurg, and from Karde and Ladghar near Dapoli, often spot humpback dolphins close to shore."
+          ],
+          "facts": {
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Best beaches in Maharashtra",
+              "href": "/blog/best-beaches-in-maharashtra"
+            },
+            {
+              "label": "Tarkarli travel guide",
+              "href": "/blog/tarkarli-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Chilika Lake, Odisha",
+          "body": [
+            "Chilika's small population of Irrawaddy dolphins is seen near Satapada, where the lagoon meets the sea. Boats are run by local cooperatives; ask for a trip that respects distance limits."
+          ],
+          "facts": {
+            "Season": "Year-round; best November to February",
+            "Good for": "Families, birdwatchers in winter"
+          },
+          "links": [
+            {
+              "label": "Chilika Lake guide",
+              "href": "/blog/chilika-lake-travel-guide"
+            },
+            {
+              "label": "Best beaches in Odisha",
+              "href": "/blog/best-beaches-in-odisha"
+            }
+          ]
+        },
+        {
+          "name": "The Sundarbans, West Bengal",
+          "body": [
+            "Irrawaddy and Ganges river dolphins are sometimes seen from boats in the Sundarbans' rivers, alongside birds and crocodiles."
+          ],
+          "facts": {
+            "Season": "October to March"
+          },
+          "links": [
+            {
+              "label": "Things to do in the Sundarbans",
+              "href": "/blog/things-to-do-in-sundarbans"
+            }
+          ]
+        },
+        {
+          "name": "River dolphins",
+          "body": [
+            "The endangered Ganges river dolphin, India's national aquatic animal, lives in the Ganga and Brahmaputra river systems. The Vikramshila Gangetic Dolphin Sanctuary in Bihar protects a stretch of the Ganga where they are regularly seen."
+          ],
+          "facts": {
+            "Good to know": "Endangered; view from a distance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Dolphin watching compared",
+      "table": {
+        "columns": [
+          "Place",
+          "Species",
+          "Setting",
+          "Best months"
+        ],
+        "rows": [
+          [
+            "Goa",
+            "Indian Ocean humpback dolphin",
+            "Open sea near river mouths",
+            "October to May"
+          ],
+          [
+            "Tarkarli, Devbagh, Dapoli",
+            "Indian Ocean humpback dolphin",
+            "Coastal waters",
+            "October to May"
+          ],
+          [
+            "Chilika Lake",
+            "Irrawaddy dolphin",
+            "Brackish lagoon",
+            "November to February"
+          ],
+          [
+            "Sundarbans",
+            "Irrawaddy and Ganges river dolphins",
+            "Tidal rivers",
+            "October to March"
+          ],
+          [
+            "Vikramshila, Bihar",
+            "Ganges river dolphin",
+            "River",
+            "October to March"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "expect",
+      "heading": "What to expect",
+      "list": [
+        "Trips last about 45 minutes to an hour and a half.",
+        "Sightings are usually of backs and fins breaking the surface, not leaps, and the dolphins keep moving.",
+        "Mornings are calmer, with better visibility.",
+        "Boats are small and open; you may get splashed.",
+        "Trips stop in rough weather and during the monsoon on the coast."
+      ]
+    },
+    {
+      "id": "responsible",
+      "heading": "Choosing a responsible operator",
+      "list": [
+        "Boats should approach slowly from the side, never head-on, and keep a distance.",
+        "Engines should be slowed or cut when dolphins are close.",
+        "Only a few boats should be near a group at once; avoid operators who chase or circle.",
+        "Trips should not promise touching, feeding or swimming with dolphins.",
+        "Life jackets should be provided and worn."
+      ]
+    }
+  ],
+  "safety": [
+    "Wear a life jacket on every boat trip.",
+    "Avoid trips in rough seas or the monsoon.",
+    "Keep hands and feet inside the boat when dolphins are near.",
+    "Protect yourself from the sun; there is little shade on small boats."
+  ],
+  "packing": [
+    "Hat and sunscreen",
+    "Sunglasses",
+    "A dry bag for your phone",
+    "A light layer for early mornings"
+  ],
+  "faqs": [
+    {
+      "q": "Where can I see dolphins in India?",
+      "a": "Off Goa and the Konkan coast, in Chilika Lake in Odisha, in the Sundarbans, and in the Ganga at the Vikramshila sanctuary in Bihar."
+    },
+    {
+      "q": "Which dolphins can you see in Goa?",
+      "a": "Indian Ocean humpback dolphins, usually on morning boat trips from Sinquerim, Coco Beach and Palolem."
+    },
+    {
+      "q": "When is the best time to see dolphins in Chilika?",
+      "a": "Dolphins are present year-round; November to February is the most comfortable and popular time."
+    },
+    {
+      "q": "Are dolphin sightings guaranteed?",
+      "a": "No. Sightings are common on good days, but never guaranteed."
+    },
+    {
+      "q": "Can I swim with dolphins in India?",
+      "a": "No. Dolphin trips in India are for watching from a boat."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa"
+    },
+    {
+      "label": "Goa travel guide",
+      "href": "/blog/goa-beaches-travel-guide"
+    },
+    {
+      "label": "Chilika Lake guide",
+      "href": "/blog/chilika-lake-travel-guide"
+    },
+    {
+      "label": "Goa tour packages",
+      "href": "/packages/goa"
+    },
+    {
+      "label": "Odisha tour packages",
+      "href": "/packages/odisha"
+    }
+  ],
+  "related": [
+    {
+      "name": "Coastal tourism in India",
+      "href": "/blog/coastal-tourism-in-india",
+      "note": "more coastal experiences"
+    },
+    {
+      "name": "Water sports in India",
+      "href": "/blog/water-sports-in-india",
+      "note": "other boat trips"
+    },
+    {
+      "name": "Beach tourism in India",
+      "href": "/blog/beach-tourism-in-india",
+      "note": "protecting marine life"
+    },
+    {
+      "name": "Where to see wildlife in India",
+      "href": "/blog/where-to-see-wildlife-in-india",
+      "note": "dolphins, crocodiles and more"
+    }
+  ],
+  "places": [
+    "Sinquerim",
+    "Coco Beach",
+    "Palolem",
+    "Tarkarli",
+    "Devbagh",
+    "Karde",
+    "Ladghar",
+    "Chilika Lake",
+    "Satapada",
+    "Sundarbans",
+    "Vikramshila"
+  ],
+  "styles": [
+    "family-holidays",
+    "wildlife-tours"
+  ],
+  "planDestination": "Goa",
+  "updated": "2026-09-25"
+}

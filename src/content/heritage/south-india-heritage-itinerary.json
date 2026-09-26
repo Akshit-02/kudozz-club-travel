@@ -1,0 +1,388 @@
+{
+  "slug": "south-india-heritage-itinerary",
+  "kind": "planning",
+  "short": "South India heritage itinerary",
+  "title": "South India Heritage Itinerary: Karnataka and Tamil Nadu",
+  "seoTitle": "South India Heritage Itinerary: Temples and Capitals | Kudozz Club",
+  "metaDescription": "A South India heritage itinerary: Tamil Nadu's temple towns (Mahabalipuram to Madurai) and Karnataka's Mysuru, Belur, Halebidu, Hampi and Badami, with timings.",
+  "description": "A South India heritage itinerary in two loops: eight days in Tamil Nadu through Chennai, Mahabalipuram, Kanchipuram, Puducherry, Thanjavur and the Great Living Chola Temples, Chettinad and Madurai; and eight days in Karnataka through Mysuru, the Hoysala temples of Belur and Halebidu, Hampi, and Badami, Aihole and Pattadakal, with travel times and ways to combine them.",
+  "dek": "South India's heritage is a story of great temple builders and royal capitals. This route covers the Pallava, Chola, Pandya, Hoysala, Chalukya and Vijayanagara heartlands.",
+  "primaryKeyword": "South India heritage tour",
+  "secondaryKeywords": [
+    "Tamil Nadu heritage tour",
+    "Karnataka heritage circuit",
+    "South India temple and heritage itinerary"
+  ],
+  "searchIntent": "Itinerary",
+  "activities": [
+    "temples",
+    "UNESCO sites",
+    "architecture",
+    "food"
+  ],
+  "terrain": [
+    "coast",
+    "plains",
+    "plateau"
+  ],
+  "regions": [
+    "Tamil Nadu",
+    "Karnataka",
+    "Puducherry"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "history lovers"
+  ],
+  "tags": [
+    "South India",
+    "Tamil Nadu",
+    "Karnataka",
+    "Temples",
+    "Itinerary"
+  ],
+  "hero": {
+    "src": "/images/heritage/south-india-mahabalipuram-shore-temple.webp",
+    "alt": "The Shore Temple at Mahabalipuram, Tamil Nadu"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "South India heritage route",
+    "containedIn": "Tamil Nadu and Karnataka"
+  },
+  "intro": [
+    "This route takes in five UNESCO cultural sites: the monuments of Mahabalipuram, the Great Living Chola Temples, Hampi, Pattadakal and the Hoysala temples; the Nilgiri Mountain Railway, a sixth, is a short detour. It also has living temple towns where worship has continued for centuries.",
+    "This route is designed as two loops of about eight days each. Do either one, or combine both in about 16 days with a flight or overnight train between Madurai or Chennai and Bengaluru."
+  ],
+  "quickAnswer": "A South India heritage itinerary can combine two loops. In Tamil Nadu (8 days): Chennai, Mahabalipuram, Kanchipuram, Puducherry, Thanjavur with Darasuram and Gangaikondacholapuram, Chettinad and Madurai. In Karnataka (8 days): Bengaluru, Mysuru, Belur and Halebidu, Hampi, and Badami, Aihole and Pattadakal. Travel between December and February for the most comfortable weather.",
+  "takeaways": [
+    "The route covers five UNESCO cultural sites.",
+    "Tamil Nadu's temples are living places of worship; dress modestly and follow temple rules.",
+    "Hampi needs at least two full days.",
+    "December to February is the most comfortable time.",
+    "Combine both loops with a flight between Madurai or Chennai and Bengaluru."
+  ],
+  "sections": [
+    {
+      "id": "tamil-nadu",
+      "heading": "Loop 1: Tamil Nadu (8 days)",
+      "table": {
+        "columns": [
+          "Day",
+          "Base",
+          "Highlights"
+        ],
+        "rows": [
+          [
+            "1",
+            "Chennai",
+            "Fort St George, Government Museum bronzes, Mylapore"
+          ],
+          [
+            "2",
+            "Mahabalipuram",
+            "Shore Temple, Pancha Rathas, Arjuna's Penance"
+          ],
+          [
+            "3",
+            "Mahabalipuram",
+            "Day trip to Kanchipuram's temples and silk"
+          ],
+          [
+            "4",
+            "Puducherry",
+            "French Quarter"
+          ],
+          [
+            "5 to 6",
+            "Thanjavur",
+            "Brihadeeswarar; Darasuram and Gangaikondacholapuram"
+          ],
+          [
+            "7",
+            "Chettinad",
+            "Mansions of Karaikudi and Kanadukathan"
+          ],
+          [
+            "8",
+            "Madurai",
+            "Meenakshi Amman temple, Thirumalai Nayak Palace"
+          ]
+        ]
+      },
+      "items": [
+        {
+          "name": "Guides",
+          "body": [
+            "Tamil Nadu's heritage towns."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mahabalipuram",
+              "href": "/blog/things-to-do-in-mahabalipuram"
+            },
+            {
+              "label": "Things to do in Thanjavur",
+              "href": "/blog/things-to-do-in-thanjavur"
+            },
+            {
+              "label": "Chettinad guide",
+              "href": "/blog/chettinad-travel-guide"
+            },
+            {
+              "label": "Things to do in Madurai",
+              "href": "/blog/things-to-do-in-madurai"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/mahabalipuram/pancha-rathas-rock-cut-monuments-mahabalipuram.webp",
+            "alt": "The Pancha Rathas at Mahabalipuram",
+            "caption": "Pancha Rathas, Mahabalipuram"
+          }
+        }
+      ]
+    },
+    {
+      "id": "karnataka",
+      "heading": "Loop 2: Karnataka (8 days)",
+      "table": {
+        "columns": [
+          "Day",
+          "Base",
+          "Highlights"
+        ],
+        "rows": [
+          [
+            "1 to 2",
+            "Mysuru",
+            "Mysore Palace (lit on Sunday evenings), Chamundi Hill, Somanathapura"
+          ],
+          [
+            "3",
+            "Hassan",
+            "Belur and Halebidu; Shravanabelagola on the way"
+          ],
+          [
+            "4 to 6",
+            "Hampi",
+            "Virupaksha, Vittala, the Royal Enclosure, the river"
+          ],
+          [
+            "7 to 8",
+            "Badami",
+            "Cave temples; Aihole and Pattadakal"
+          ]
+        ]
+      },
+      "items": [
+        {
+          "name": "Guides",
+          "body": [
+            "Karnataka's great sites."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Mysore",
+              "href": "/blog/things-to-do-in-mysore"
+            },
+            {
+              "label": "Belur and Halebidu",
+              "href": "/blog/belur-halebidu-hoysala-temples"
+            },
+            {
+              "label": "Things to do in Hampi",
+              "href": "/blog/things-to-do-in-hampi"
+            },
+            {
+              "label": "Badami, Aihole and Pattadakal",
+              "href": "/blog/badami-aihole-pattadakal-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/hampi/virupaksha-temple-gopuram-hampi.webp",
+            "alt": "The gopuram of the Virupaksha temple, Hampi",
+            "caption": "Virupaksha temple, Hampi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "combining",
+      "heading": "Combining the loops",
+      "list": [
+        "Fly from Madurai or Chennai to Bengaluru, then drive to Mysuru.",
+        "From Badami, the nearest airports are Hubballi and Belagavi; Hosapete is the railhead for Hampi.",
+        "Allow a rest day in between; temple towns are intense.",
+        "Add the Nilgiri Mountain Railway to Ooty between the two loops if you have time."
+      ],
+      "items": [
+        {
+          "name": "Toy train",
+          "body": [
+            "The Nilgiri line."
+          ],
+          "links": [
+            {
+              "label": "Mountain railways of India",
+              "href": "/blog/mountain-railways-of-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temples",
+      "heading": "Temple visiting tips",
+      "list": [
+        "Most temples close in the early afternoon and reopen in the late afternoon; plan around it.",
+        "Dress modestly; some temples require men to wear a dhoti and remove shirts in inner areas.",
+        "Some inner sanctums admit only Hindus; follow posted rules.",
+        "Leave shoes at the counters outside.",
+        "Photography is often restricted inside."
+      ]
+    },
+    {
+      "id": "festivals",
+      "heading": "Festivals on the route",
+      "list": [
+        "The Mamallapuram Dance Festival, December to January.",
+        "The Chennai music season, mid-December to mid-January.",
+        "Pongal in mid-January, celebrated across Tamil Nadu.",
+        "Mysuru Dasara in September or October, with the palace lit every evening."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "In Tamil Nadu, heritage stays are a highlight: restored Chettiar mansions in Chettinad, colonial villas in Puducherry's French Quarter, and simple hotels near the temples in Thanjavur and Madurai. In Karnataka, stay near the Virupaksha temple or across the river in Hampi, and in Badami town for the caves. Book ahead for December and January, which are peak months."
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food on the way",
+      "paras": [
+        "Try a banana-leaf meal in Thanjavur, Chettinad's pepper-rich cooking in Karaikudi, Madurai's jigarthanda and night-time street food, filter coffee everywhere, and Mysore pak in Mysuru."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "The dynasties behind the monuments",
+      "paras": [
+        "The Pallavas built the rock-cut and structural temples of Mahabalipuram and Kanchipuram between the 7th and 9th centuries. The Cholas, who ruled from Thanjavur, raised the great Brihadeeswarar temple around 1010. In the Deccan, the Chalukyas of Badami experimented with temple forms at Aihole and Pattadakal, the Hoysalas carved Belur and Halebidu in the 12th and 13th centuries, and the Vijayanagara empire made Hampi one of the great cities of its age, until its defeat in 1565. The Nayaks later expanded Madurai's temple."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and train schedules change; check the ASI, state tourism and IRCTC before you go.",
+    "Driving times are approximate; allow extra time, and avoid long drives after dark.",
+    "Afternoons are hot even in winter; carry water."
+  ],
+  "packing": [
+    "Modest clothing, with a dhoti or sarong for temple visits",
+    "Slip-on shoes",
+    "Sun protection",
+    "Socks for hot stone floors"
+  ],
+  "faqs": [
+    {
+      "q": "How many days do I need for a South India heritage trip?",
+      "a": "About eight days for Tamil Nadu or Karnataka alone, or 16 days for both."
+    },
+    {
+      "q": "What is the best time to visit South India's heritage sites?",
+      "a": "December to February."
+    },
+    {
+      "q": "How many days do I need in Hampi?",
+      "a": "At least two full days, ideally three."
+    },
+    {
+      "q": "Can non-Hindus enter South Indian temples?",
+      "a": "Most temple complexes welcome visitors, but some inner sanctums are restricted to Hindus."
+    },
+    {
+      "q": "How do I get from Tamil Nadu to Karnataka?",
+      "a": "Fly from Madurai or Chennai to Bengaluru, or take an overnight train."
+    },
+    {
+      "q": "Is it better to do Tamil Nadu or Karnataka first?",
+      "a": "Either works; if you arrive in Chennai, start with Tamil Nadu and leave from Bengaluru, or the reverse."
+    },
+    {
+      "q": "Can I do this trip by train?",
+      "a": "Partly; trains link the main cities, but a car is easier for Mahabalipuram, the Chola temples, Belur, Halebidu and Badami."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage tourism in Tamil Nadu",
+      "href": "/blog/heritage-tourism-in-tamil-nadu"
+    },
+    {
+      "label": "Heritage tourism in Karnataka",
+      "href": "/blog/heritage-tourism-in-karnataka"
+    },
+    {
+      "label": "Temple architecture of India",
+      "href": "/blog/temple-architecture-of-india"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Famous temples in India",
+      "href": "/blog/famous-temples-in-india",
+      "note": "temples across India"
+    },
+    {
+      "name": "Belur and Halebidu",
+      "href": "/blog/belur-halebidu-hoysala-temples",
+      "note": "Hoysala temples"
+    },
+    {
+      "name": "Tamil Nadu tour packages",
+      "href": "/packages/tamil-nadu",
+      "note": "packages"
+    }
+  ],
+  "places": [
+    "Chennai",
+    "Mahabalipuram",
+    "Kanchipuram",
+    "Puducherry",
+    "Thanjavur",
+    "Darasuram",
+    "Gangaikondacholapuram",
+    "Chettinad",
+    "Madurai",
+    "Mysuru",
+    "Belur",
+    "Halebidu",
+    "Hampi",
+    "Badami",
+    "Aihole",
+    "Pattadakal"
+  ],
+  "styles": [
+    "heritage-tours",
+    "spiritual-tours"
+  ],
+  "planDestination": "Tamil Nadu and Karnataka",
+  "updated": "2026-09-26"
+}

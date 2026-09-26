@@ -1,0 +1,332 @@
+{
+  "slug": "panj-takht-yatra",
+  "kind": "planning",
+  "short": "Panj Takht Yatra",
+  "title": "Panj Takht Yatra: The Five Takhts and How to Visit Them",
+  "seoTitle": "Panj Takht Yatra: The Five Takhts & How to Visit | Kudozz Club",
+  "metaDescription": "Plan a Panj Takht Yatra to the five Sikh Takhts in Amritsar, Anandpur Sahib, Talwandi Sabo, Patna and Nanded, with distances, routes, trains and an itinerary.",
+  "description": "A planning guide to the Panj Takht Yatra: what a Takht is, the five Takhts and their histories, the three in Punjab and the two far away in Patna and Nanded, a route of eight to ten days, trains and flights, IRCTC tourist trains, stays in gurdwara sarais and the best time.",
+  "dek": "The five Takhts are the seats of authority in Sikhism. Visiting all five takes pilgrims from Punjab to Bihar and Maharashtra.",
+  "primaryKeyword": "panj takht yatra",
+  "secondaryKeywords": [
+    "five takhts",
+    "panj takht darshan",
+    "panj takht itinerary"
+  ],
+  "searchIntent": "Planning/itinerary",
+  "activities": [
+    "gurdwaras",
+    "Sikh heritage",
+    "pilgrimage route",
+    "langar"
+  ],
+  "terrain": [
+    "plains"
+  ],
+  "regions": [
+    "Punjab",
+    "Bihar",
+    "Maharashtra"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "groups"
+  ],
+  "tags": [
+    "Panj Takht",
+    "Sikh",
+    "Gurdwara",
+    "Pilgrimage"
+  ],
+  "hero": {
+    "src": "/images/spiritual/panj-takht-patna-sahib.webp",
+    "alt": "The white domes of Takht Sri Patna Sahib, Patna, Bihar"
+  },
+  "parent": {
+    "label": "Sikh Pilgrimage in India",
+    "href": "/blog/sikh-pilgrimage-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Panj Takht"
+  },
+  "intro": [
+    "A Takht, meaning throne, is a seat of temporal authority in Sikhism. There are five: the Akal Takht in Amritsar, Takht Sri Kesgarh Sahib at Anandpur Sahib, Takht Sri Damdama Sahib at Talwandi Sabo near Bathinda, Takht Sri Patna Sahib in Bihar, and Takht Sri Hazur Sahib at Nanded in Maharashtra.",
+    "Three are in Punjab and can be visited in a few days by road. Patna and Nanded are far away, linked with the birth and the last days of Guru Gobind Singh, and are usually reached by train or flight."
+  ],
+  "quickAnswer": "The Panj Takht are the Akal Takht (Amritsar), Kesgarh Sahib (Anandpur Sahib), Damdama Sahib (Talwandi Sabo, near Bathinda), Patna Sahib (Patna) and Hazur Sahib (Nanded). Visiting all five takes about eight to ten days: three to four days by road for the Punjab Takhts, then trains or flights to Patna and Nanded. The Sachkhand Express links Amritsar and Nanded directly.",
+  "takeaways": [
+    "Three Takhts are in Punjab: Amritsar, Anandpur Sahib and Talwandi Sabo.",
+    "Patna Sahib marks the birthplace of Guru Gobind Singh; Hazur Sahib is where he spent his last days.",
+    "All five take about eight to ten days.",
+    "Gurdwaras run sarais (guesthouses) and langar for pilgrims.",
+    "IRCTC has run Panj Takht tourist trains on selected dates."
+  ],
+  "sections": [
+    {
+      "id": "takhts",
+      "heading": "The five Takhts",
+      "table": {
+        "columns": [
+          "Takht",
+          "Place",
+          "Significance"
+        ],
+        "rows": [
+          [
+            "Akal Takht",
+            "Amritsar, Punjab",
+            "Established by Guru Hargobind, facing the Harmandir Sahib"
+          ],
+          [
+            "Kesgarh Sahib",
+            "Anandpur Sahib, Punjab",
+            "Where the Khalsa was founded in 1699"
+          ],
+          [
+            "Damdama Sahib",
+            "Talwandi Sabo, Punjab",
+            "Where Guru Gobind Singh stayed and, by tradition, prepared the final version of the Guru Granth Sahib"
+          ],
+          [
+            "Patna Sahib",
+            "Patna, Bihar",
+            "Birthplace of Guru Gobind Singh"
+          ],
+          [
+            "Hazur Sahib",
+            "Nanded, Maharashtra",
+            "Where Guru Gobind Singh spent his last days"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "punjab-leg",
+      "heading": "The Punjab leg",
+      "items": [
+        {
+          "name": "Amritsar",
+          "body": [
+            "Akal Takht and the Golden Temple; spend two days to see the early and late ceremonies."
+          ],
+          "links": [
+            {
+              "label": "Golden Temple guide",
+              "href": "/blog/golden-temple-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/punjab/golden-temple/akal-takht-golden-temple.webp",
+            "alt": "The Akal Takht facing the Golden Temple complex in Amritsar",
+            "caption": "Akal Takht, Amritsar"
+          }
+        },
+        {
+          "name": "Anandpur Sahib",
+          "body": [
+            "About 200 km from Amritsar; Takht Sri Kesgarh Sahib and the Virasat-e-Khalsa museum."
+          ],
+          "links": [
+            {
+              "label": "Anandpur Sahib guide",
+              "href": "/blog/anandpur-sahib-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Talwandi Sabo",
+          "body": [
+            "About 30 km from Bathinda; Takht Sri Damdama Sahib, a large complex with sarovars."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "far-takhts",
+      "heading": "Patna and Nanded",
+      "items": [
+        {
+          "name": "Takht Sri Patna Sahib",
+          "body": [
+            "In Patna's old city (Patna Sahib), with relics associated with Guru Gobind Singh."
+          ],
+          "links": [
+            {
+              "label": "Patna guide",
+              "href": "/blog/patna-travel-guide"
+            },
+            {
+              "label": "Things to do in Patna",
+              "href": "/blog/things-to-do-in-patna"
+            }
+          ]
+        },
+        {
+          "name": "Takht Sri Hazur Sahib",
+          "body": [
+            "On the Godavari in Nanded, a large complex with its own station name (Hazur Sahib Nanded). The Sachkhand Express runs between Amritsar and Nanded."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "heading": "A 9-day itinerary",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1 to 2",
+            "Amritsar: Akal Takht, Golden Temple, Tarn Taran"
+          ],
+          [
+            "3",
+            "Drive to Anandpur Sahib via Kiratpur Sahib"
+          ],
+          [
+            "4",
+            "Drive to Talwandi Sabo via Fatehgarh Sahib (optional)"
+          ],
+          [
+            "5",
+            "Travel to Patna (fly from Amritsar or Chandigarh via Delhi, or train)"
+          ],
+          [
+            "6",
+            "Takht Sri Patna Sahib and Gurdwara Bal Leela"
+          ],
+          [
+            "7",
+            "Travel to Nanded"
+          ],
+          [
+            "8",
+            "Takht Sri Hazur Sahib; Gurdwara Nagina Ghat and others"
+          ],
+          [
+            "9",
+            "Return"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stays",
+      "heading": "Stays and trains",
+      "list": [
+        "Large gurdwaras run sarais (pilgrim guesthouses); book or ask at the office on arrival.",
+        "Hotels are available near all five Takhts.",
+        "The Sachkhand Express links Amritsar with Hazur Sahib Nanded.",
+        "IRCTC has operated Panj Takht tourist trains from Delhi on a fixed schedule; check current departures on the official site."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history of the Takhts",
+      "paras": [
+        "The first Takht, the Akal Takht, was established in Amritsar by Guru Hargobind, the sixth Guru, as a seat of temporal authority facing the Harmandir Sahib. Takht Sri Kesgarh Sahib at Anandpur Sahib marks the place where Guru Gobind Singh founded the Khalsa on Vaisakhi in 1699.",
+        "Takht Sri Patna Sahib and Takht Sri Hazur Sahib are linked with the beginning and end of Guru Gobind Singh's life, and Takht Sri Damdama Sahib at Talwandi Sabo with his stay in the Malwa region. The Takhts are administered by Sikh bodies, and their notices set the rules for visitors."
+      ]
+    }
+  ],
+  "safety": [
+    "Crowds are heavy at gurpurabs and Vaisakhi; plan early.",
+    "Carry ID for trains and sarai stays.",
+    "Keep valuables secure in busy complexes.",
+    "Long train journeys are tiring; plan rest days."
+  ],
+  "packing": [
+    "Head covering",
+    "Modest clothing",
+    "Light layers for trains",
+    "Small bag and water bottle"
+  ],
+  "faqs": [
+    {
+      "q": "What is the Panj Takht Yatra?",
+      "a": "A pilgrimage to the five Takhts of Sikhism in Amritsar, Anandpur Sahib, Talwandi Sabo, Patna and Nanded."
+    },
+    {
+      "q": "How many days does the Panj Takht Yatra take?",
+      "a": "About eight to ten days."
+    },
+    {
+      "q": "Which Takhts are outside Punjab?",
+      "a": "Patna Sahib in Bihar and Hazur Sahib in Nanded, Maharashtra."
+    },
+    {
+      "q": "Is there a train for the Panj Takht Yatra?",
+      "a": "The Sachkhand Express links Amritsar and Nanded, and IRCTC has run Panj Takht tourist trains; check current schedules."
+    },
+    {
+      "q": "Which is the best time for the Panj Takht Yatra?",
+      "a": "October to March avoids the heat of the plains; gurpurabs are special but crowded."
+    },
+    {
+      "q": "Can I stay at the gurdwaras?",
+      "a": "Most large gurdwaras run sarais for pilgrims; availability varies."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Sikh pilgrimage in India",
+      "href": "/blog/sikh-pilgrimage-in-india"
+    },
+    {
+      "label": "Golden Temple guide",
+      "href": "/blog/golden-temple-travel-guide"
+    },
+    {
+      "label": "Things to do in Patna",
+      "href": "/blog/things-to-do-in-patna"
+    },
+    {
+      "label": "Punjab tour packages",
+      "href": "/packages/punjab"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hemkund Sahib Yatra",
+      "href": "/blog/hemkund-sahib-yatra",
+      "note": "the Himalayan gurdwara"
+    },
+    {
+      "name": "Spiritual tourism in Bihar",
+      "href": "/blog/spiritual-tourism-in-bihar",
+      "note": "Patna Sahib and more"
+    },
+    {
+      "name": "Spiritual tourism in Maharashtra",
+      "href": "/blog/spiritual-tourism-in-maharashtra",
+      "note": "Nanded and more"
+    }
+  ],
+  "places": [
+    "Amritsar",
+    "Anandpur Sahib",
+    "Talwandi Sabo",
+    "Patna",
+    "Nanded"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Panj Takht",
+  "updated": "2026-09-26"
+}

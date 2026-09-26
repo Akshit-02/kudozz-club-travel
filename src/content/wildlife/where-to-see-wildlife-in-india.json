@@ -1,0 +1,355 @@
+{
+  "slug": "where-to-see-wildlife-in-india",
+  "kind": "pillar",
+  "short": "Where to see wildlife",
+  "title": "Where to See Wildlife in India, Species by Species",
+  "seoTitle": "Where to See Wildlife in India, Species by Species | Kudozz Club",
+  "metaDescription": "Where to see India's signature animals: tigers, lions, leopards, rhinos, elephants, snow leopards, red pandas, gibbons, gharials and dolphins, with seasons.",
+  "description": "A species-by-species guide to watching wildlife in India: the best places to look for tigers, Asiatic lions, leopards, snow leopards, one-horned rhinos, elephants, the Indian wild ass, red pandas, hoolock gibbons, lion-tailed macaques, Nilgiri tahr, gharials, Irrawaddy dolphins, sangai and hangul deer and more, with seasons and links to detailed guides.",
+  "dek": "From tigers to red pandas, most of India's signature animals live in a few well-known places. Here is where to look for each one.",
+  "primaryKeyword": "where to see wildlife in India",
+  "secondaryKeywords": [
+    "where to see tigers in India",
+    "where to see Asiatic lions",
+    "where to see elephants in India",
+    "where to see sloth bears",
+    "where to see red pandas",
+    "where to see wild ass"
+  ],
+  "searchIntent": "Species-led trip choice",
+  "activities": [
+    "jeep safari",
+    "boat safari",
+    "birdwatching",
+    "trekking"
+  ],
+  "terrain": [
+    "forest",
+    "grassland",
+    "wetland",
+    "mountains"
+  ],
+  "regions": [
+    "Central India",
+    "North India",
+    "North East India",
+    "South India",
+    "West India",
+    "East India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "families",
+    "photographers",
+    "couples"
+  ],
+  "tags": [
+    "Wildlife",
+    "Species",
+    "India",
+    "Safari"
+  ],
+  "hero": {
+    "src": "/images/wildlife/wildlife-india-elephants.webp",
+    "alt": "A herd of wild elephants crossing a shallow river in Jim Corbett National Park"
+  },
+  "parent": {
+    "label": "Wildlife Tourism",
+    "href": "/wildlife-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Wildlife of India"
+  },
+  "intro": [
+    "India's wildlife is spread across very different landscapes: the Himalaya, the terai grasslands, central Indian forests, the Western Ghats, the deserts of the west, the mangroves of the east and the hills of the north-east. Each animal has a few places where it is most often seen by visitors.",
+    "This guide lists those places species by species. Population figures come from the most recent official estimates, and seasons are typical ones. Every park sets its own dates, so check before you go."
+  ],
+  "quickAnswer": "Tigers are most often seen in central Indian reserves and in Ranthambore and Corbett; Asiatic lions only in Gir; one-horned rhinos in Kaziranga and Pobitora; leopards at Jawai, Jhalana and Kabini; snow leopards in Hemis in winter. Red pandas live in Singalila and Neora Valley, hoolock gibbons in Assam's Hollongapar Gibbon Sanctuary, and gharials in the Chambal. Most parks are open from October to June.",
+  "takeaways": [
+    "Most signature animals are seen most reliably in a handful of places.",
+    "Gir is the only wild home of Asiatic lions; the Little Rann of the Indian wild ass.",
+    "India has an estimated 3,682 tigers (2022) and 718 snow leopards (2024 assessment).",
+    "North-east India holds red pandas, gibbons and golden langurs.",
+    "Plan around seasons: winter for snow leopards and birds, summer for tigers at waterholes."
+  ],
+  "sections": [
+    {
+      "id": "big-cats",
+      "heading": "Big cats",
+      "table": {
+        "columns": [
+          "Species",
+          "Where to look",
+          "Season"
+        ],
+        "rows": [
+          [
+            "Bengal tiger",
+            "Bandhavgarh, Kanha, Pench, Tadoba, Ranthambore, Corbett",
+            "October to June"
+          ],
+          [
+            "Asiatic lion",
+            "Gir National Park and Sanctuary, Gujarat",
+            "16 October to 15 June"
+          ],
+          [
+            "Leopard",
+            "Jawai and Jhalana (Rajasthan), Kabini, Tadoba",
+            "Most of the year"
+          ],
+          [
+            "Snow leopard",
+            "Hemis and Ulley (Ladakh), Kibber (Spiti)",
+            "January to March"
+          ],
+          [
+            "Clouded leopard",
+            "Namdapha and other north-east forests; very rarely seen",
+            "October to April"
+          ]
+        ]
+      },
+      "items": [
+        {
+          "name": "Tigers",
+          "body": [
+            "India had an estimated 3,682 tigers in the 2022 assessment, the largest share of the world's wild tigers, led by Madhya Pradesh, Karnataka and Uttarakhand."
+          ],
+          "links": [
+            {
+              "label": "Tiger safari in India",
+              "href": "/blog/tiger-safari-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Leopards",
+          "body": [
+            "Leopards are widespread, but open rocky country such as Jawai and Jhalana gives some of the best views."
+          ],
+          "links": [
+            {
+              "label": "Leopard safari in India",
+              "href": "/blog/leopard-safari-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Snow leopards",
+          "body": [
+            "Treks with trackers in the Ladakh winter give a real chance of a sighting, though never a certainty."
+          ],
+          "links": [
+            {
+              "label": "Snow leopard tours",
+              "href": "/blog/snow-leopard-tours-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "large",
+      "heading": "Rhinos, elephants and other large mammals",
+      "items": [
+        {
+          "name": "One-horned rhino",
+          "body": [
+            "Kaziranga holds most of India's rhinos (2,613 in the 2022 count), with more at Pobitora, Orang and Manas in Assam and Jaldapara in West Bengal."
+          ],
+          "links": [
+            {
+              "label": "Where to see rhinos",
+              "href": "/blog/where-to-see-rhinos-in-india"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/dooars/one-horned-rhino-jaldapara-national-park-dooars.webp",
+            "alt": "A one-horned rhinoceros grazing in tall grass in Jaldapara National Park",
+            "caption": "A rhino in Jaldapara, West Bengal"
+          }
+        },
+        {
+          "name": "Asian elephant",
+          "body": [
+            "Corbett, Kabini, Periyar, Kaziranga and the Dooars have large herds; Kabini's backwaters draw them in summer."
+          ],
+          "links": [
+            {
+              "label": "Kabini guide",
+              "href": "/blog/kabini-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Indian wild ass",
+          "body": [
+            "Found only in and around the Little Rann of Kutch."
+          ],
+          "links": [
+            {
+              "label": "Rann of Kutch guide",
+              "href": "/blog/rann-of-kutch-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Gaur, barasingha and blackbuck",
+          "body": [
+            "Gaur in Kanha, Tadoba and the Western Ghats; hard-ground barasingha in Kanha; blackbuck at Velavadar (Gujarat) and Tal Chhapar (Rajasthan)."
+          ],
+          "image": {
+            "src": "/images/blogs/tripura/trishna-wildlife-sanctuary/indian-gaur-bison-trishna-wildlife-sanctuary.webp",
+            "alt": "An Indian gaur standing in forest in Trishna Wildlife Sanctuary, Tripura",
+            "caption": "A gaur in Tripura"
+          }
+        }
+      ]
+    },
+    {
+      "id": "north-east",
+      "heading": "The north-east and the Himalaya",
+      "list": [
+        "Red panda: Singalila National Park and Neora Valley National Park in West Bengal, and forests in Sikkim and Arunachal.",
+        "Hoolock gibbon: Hollongapar Gibbon Sanctuary near Jorhat, Assam.",
+        "Golden langur: Manas National Park and nearby forests in western Assam.",
+        "Sangai (brow-antlered deer): Keibul Lamjao National Park, Manipur.",
+        "Hangul (Kashmir stag): Dachigam National Park near Srinagar."
+      ]
+    },
+    {
+      "id": "south",
+      "heading": "The Western Ghats",
+      "list": [
+        "Lion-tailed macaque: the rainforest around Valparai in the Anamalai hills, Tamil Nadu.",
+        "Nilgiri tahr: Eravikulam National Park near Munnar.",
+        "Grizzled giant squirrel: Chinnar Wildlife Sanctuary, Kerala.",
+        "Sloth bear: Daroji Sloth Bear Sanctuary near Hampi, as well as Satpura and Tadoba."
+      ]
+    },
+    {
+      "id": "water",
+      "heading": "Rivers and coasts",
+      "list": [
+        "Gharial and Gangetic dolphin: the National Chambal Sanctuary, on the Rajasthan, Madhya Pradesh and Uttar Pradesh border.",
+        "Irrawaddy dolphin: Chilika lake, Odisha, especially near Satapada.",
+        "Saltwater crocodile: Bhitarkanika National Park, Odisha, and the Sundarbans.",
+        "Olive ridley turtles: mass nesting beaches in Odisha, such as Gahirmatha and Rushikulya, in the late winter months."
+      ],
+      "after": [
+        "Nesting and dolphin seasons vary; check with local forest offices."
+      ]
+    },
+    {
+      "id": "plan-by-region",
+      "heading": "Combining species on one trip",
+      "list": [
+        "Central India: tigers, leopards, gaur, sloth bears and dhole across Kanha, Bandhavgarh, Pench and Satpura.",
+        "Assam: rhinos, elephants, wild buffalo, gibbons and golden langurs across Kaziranga, Hollongapar and Manas.",
+        "Gujarat: lions in Gir, wild ass in the Little Rann and blackbuck at Velavadar.",
+        "Karnataka and Kerala: elephants, leopards, tigers and Nilgiri tahr across Kabini, Bandipur and Munnar."
+      ]
+    }
+  ],
+  "safety": [
+    "Sightings are never guaranteed; wild animals move freely and every drive is different.",
+    "Follow park rules on vehicles, walking and distance.",
+    "Never feed or approach wild animals.",
+    "Use licensed guides in every protected area."
+  ],
+  "packing": [
+    "Binoculars",
+    "Neutral clothes",
+    "Warm layers for winter and the mountains",
+    "A field guide to Indian mammals or birds"
+  ],
+  "faqs": [
+    {
+      "q": "Where can I see the most wildlife in India?",
+      "a": "Kaziranga for variety in one park; central India's tiger reserves for big cats; Kabini for elephants and leopards."
+    },
+    {
+      "q": "Where can I see red pandas in India?",
+      "a": "In Singalila and Neora Valley national parks in West Bengal, and in forests in Sikkim and Arunachal Pradesh."
+    },
+    {
+      "q": "How many tigers are there in India?",
+      "a": "The 2022 assessment estimated 3,682 tigers. A new count began in 2026."
+    },
+    {
+      "q": "How many snow leopards are there in India?",
+      "a": "The 2024 national assessment estimated 718, most of them in Ladakh."
+    },
+    {
+      "q": "Where can I see dolphins in India?",
+      "a": "Irrawaddy dolphins at Chilika lake and Gangetic dolphins in the Chambal and parts of the Ganga."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Best wildlife destinations",
+      "href": "/blog/best-wildlife-destinations-in-india"
+    },
+    {
+      "label": "Tiger safari in India",
+      "href": "/blog/tiger-safari-in-india"
+    },
+    {
+      "label": "Birdwatching in India",
+      "href": "/blog/birdwatching-in-india"
+    },
+    {
+      "label": "Best time for wildlife safari",
+      "href": "/blog/best-time-for-wildlife-safari-in-india"
+    },
+    {
+      "label": "Wildlife trips",
+      "href": "/packages/wildlife-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Leopard safari in India",
+      "href": "/blog/leopard-safari-in-india",
+      "note": "Jawai, Jhalana and Kabini"
+    },
+    {
+      "name": "Where to see rhinos",
+      "href": "/blog/where-to-see-rhinos-in-india",
+      "note": "Assam and West Bengal"
+    },
+    {
+      "name": "Snow leopard tours",
+      "href": "/blog/snow-leopard-tours-in-india",
+      "note": "winter in Ladakh"
+    }
+  ],
+  "places": [
+    "Gir",
+    "Kaziranga",
+    "Jawai",
+    "Jhalana",
+    "Hemis",
+    "Singalila",
+    "Hollongapar",
+    "Keibul Lamjao",
+    "Dachigam",
+    "Valparai",
+    "Eravikulam",
+    "Chambal",
+    "Chilika",
+    "Bhitarkanika"
+  ],
+  "styles": [
+    "wildlife-tours",
+    "family-holidays"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,297 @@
+{
+  "slug": "qutub-minar",
+  "kind": "destination",
+  "short": "Qutub Minar",
+  "title": "Qutub Minar: History and Visiting Guide",
+  "seoTitle": "Qutub Minar, Delhi: History, What to See & Visiting Tips | Kudozz Club",
+  "metaDescription": "Visit the Qutub Minar complex in Delhi: the minaret's history, the Iron Pillar, Alai Darwaza, the mosque, tickets, the metro and Mehrauli.",
+  "description": "A visitor's guide to the Qutub Minar complex in Mehrauli, Delhi: the 72.5 m minaret begun under Qutbuddin Aibak and completed under Iltutmish, the Quwwat-ul-Islam mosque, the Gupta-era Iron Pillar, the Alai Darwaza and the unfinished Alai Minar, practicalities, the metro, and Mehrauli Archaeological Park nearby.",
+  "dek": "The Qutub Minar is the tallest brick minaret in the world by most accounts, and the monuments around it trace the first centuries of the Delhi Sultanate.",
+  "primaryKeyword": "Qutub Minar",
+  "secondaryKeywords": [
+    "Qutb complex",
+    "Qutub Minar history",
+    "Iron Pillar Delhi"
+  ],
+  "searchIntent": "Monument visit planning",
+  "activities": [
+    "UNESCO sites",
+    "monuments",
+    "photography"
+  ],
+  "terrain": [
+    "heritage town"
+  ],
+  "regions": [
+    "Delhi",
+    "North India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Qutub Minar",
+    "Delhi",
+    "Delhi Sultanate",
+    "UNESCO"
+  ],
+  "hero": {
+    "src": "/images/heritage/qutub-minar-delhi.webp",
+    "alt": "The Qutub Minar rising above the ruins of the Qutub complex, Delhi"
+  },
+  "parent": {
+    "label": "UNESCO World Heritage Sites in India",
+    "href": "/blog/unesco-world-heritage-sites-in-india"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Qutub Minar",
+    "containedIn": "Delhi"
+  },
+  "intro": [
+    "The Qutub Minar rises about 72.5 m above Mehrauli, in south Delhi. It was begun around the end of the 12th century under Qutbuddin Aibak, the first ruler of the Delhi Sultanate, and continued by his successor Iltutmish; the upper storeys were rebuilt under Firuz Shah Tughlaq after lightning damage in the 14th century.",
+    "The minaret stands among some of the earliest Islamic monuments in India, built partly from the remains of older temples, together with the Iron Pillar, a far older metal column. The complex was inscribed by UNESCO in 1993 as the Qutb Minar and its Monuments."
+  ],
+  "quickAnswer": "The Qutub Minar complex in Mehrauli, Delhi, is open daily and is a UNESCO World Heritage Site. Its 72.5 m minaret was begun under Qutbuddin Aibak and completed under Iltutmish, with upper storeys rebuilt under Firuz Shah Tughlaq. Also see the Iron Pillar, the Quwwat-ul-Islam mosque and the Alai Darwaza. The nearest metro station is Qutub Minar on the Yellow Line. Allow about two hours.",
+  "takeaways": [
+    "The minaret is about 72.5 m tall, built in stages from the late 12th to the 14th century.",
+    "Visitors cannot climb the tower; it has been closed to the public for decades.",
+    "The Iron Pillar is an older Gupta-era column, famous for resisting rust.",
+    "Open daily; tickets from the ASI.",
+    "Mehrauli Archaeological Park, next door, has many more monuments."
+  ],
+  "sections": [
+    {
+      "id": "what-to-see",
+      "heading": "What to see",
+      "items": [
+        {
+          "name": "The minaret",
+          "body": [
+            "Five storeys of fluted red and buff sandstone and marble, banded with Arabic inscriptions and balconies."
+          ],
+          "image": {
+            "src": "/images/blogs/delhi/delhi/qutub-minar-tower-delhi.webp",
+            "alt": "The Qutub Minar rising above the ruins of the Qutb complex, Delhi",
+            "caption": "Qutub Minar"
+          }
+        },
+        {
+          "name": "Quwwat-ul-Islam mosque",
+          "body": [
+            "One of the earliest mosques in Delhi, built with carved pillars reused from earlier temples, as its own inscription records."
+          ]
+        },
+        {
+          "name": "The Iron Pillar",
+          "body": [
+            "A column of wrought iron with an inscription in Sanskrit, generally dated to the Gupta period, and famous for resisting corrosion for over 1,500 years."
+          ]
+        },
+        {
+          "name": "Alai Darwaza and Alai Minar",
+          "body": [
+            "The domed gateway built in 1311 under Alauddin Khalji, and the stump of the far larger minaret he began but never finished."
+          ]
+        },
+        {
+          "name": "Tomb of Iltutmish",
+          "body": [
+            "A tomb with finely carved interior walls."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visiting",
+      "heading": "Visiting practicalities",
+      "list": [
+        "Open daily from morning to evening; check current hours with the ASI.",
+        "Tickets at the gate or online; carry ID.",
+        "The tower cannot be climbed.",
+        "Evenings sometimes feature lighting of the monuments; check what is on.",
+        "Allow about two hours, more if you walk on to Mehrauli."
+      ]
+    },
+    {
+      "id": "reach",
+      "heading": "How to reach",
+      "list": [
+        "Metro: Qutub Minar station on the Yellow Line, then a short auto or cab ride.",
+        "By road: parking is available near the complex.",
+        "From Connaught Place: about 15 km."
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Mehrauli and beyond",
+      "items": [
+        {
+          "name": "Mehrauli Archaeological Park",
+          "body": [
+            "Jamali Kamali, Rajon ki Baoli and the tomb of Balban, among dozens of monuments in woods beside the Qutub."
+          ],
+          "links": [
+            {
+              "label": "Mehrauli guide",
+              "href": "/blog/mehrauli-delhi-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/delhi/mehrauli/rajon-ki-baoli-stepwell-mehrauli.webp",
+            "alt": "Rajon ki Baoli stepwell in Mehrauli Archaeological Park, Delhi",
+            "caption": "Rajon ki Baoli, Mehrauli"
+          }
+        },
+        {
+          "name": "Tughlaqabad and Hauz Khas",
+          "body": [
+            "Later Sultanate forts, tombs and a medieval reservoir."
+          ],
+          "links": [
+            {
+              "label": "Tughlaqabad guide",
+              "href": "/blog/tughlaqabad-delhi-travel-guide"
+            },
+            {
+              "label": "Hauz Khas guide",
+              "href": "/blog/hauz-khas-delhi-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "half-day",
+      "heading": "A morning in Mehrauli",
+      "table": {
+        "columns": [
+          "Time",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "7 to 9 am",
+            "Qutub complex early, before the crowds and the heat"
+          ],
+          [
+            "9 to 11 am",
+            "Walk through Mehrauli Archaeological Park: Jamali Kamali, Rajon ki Baoli, Balban's tomb"
+          ],
+          [
+            "11 am",
+            "Coffee in Mehrauli village or Hauz Khas"
+          ]
+        ]
+      },
+      "after": [
+        "The park's paths are uneven and partly unmarked; wear good shoes, and go with a guide or in a group."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and ticket rules are set by the Archaeological Survey of India (ASI) or the site authority and change from time to time; check the official website before you go, and buy tickets only on official portals.",
+    "Do not climb on or touch carvings, and follow the site's rules on photography, drones and tripods.",
+    "Weekends and holidays are crowded; arrive at opening time for the calmest visit.",
+    "Carry water and a hat; there is little shade."
+  ],
+  "packing": [
+    "Comfortable shoes",
+    "Water and a hat",
+    "Photo ID",
+    "Camera",
+    "Sunscreen for the open complex and the park"
+  ],
+  "faqs": [
+    {
+      "q": "How tall is the Qutub Minar?",
+      "a": "About 72.5 m."
+    },
+    {
+      "q": "Who built the Qutub Minar?",
+      "a": "It was begun under Qutbuddin Aibak and continued under Iltutmish; the upper storeys were rebuilt under Firuz Shah Tughlaq."
+    },
+    {
+      "q": "When is the best time to visit the Qutub Minar?",
+      "a": "Early morning between October and March, for cooler weather and softer light."
+    },
+    {
+      "q": "Can you climb the Qutub Minar?",
+      "a": "No. The tower has been closed to visitors for decades."
+    },
+    {
+      "q": "Is the Qutub Minar open every day?",
+      "a": "Yes, it is open daily; check the ASI for current hours."
+    },
+    {
+      "q": "What else is inside the Qutub complex?",
+      "a": "The Quwwat-ul-Islam mosque, the Iron Pillar, the Alai Darwaza, the unfinished Alai Minar and the tomb of Iltutmish."
+    },
+    {
+      "q": "Is photography allowed at the Qutub Minar?",
+      "a": "Yes, for personal use; tripods and drones need permission."
+    },
+    {
+      "q": "What is special about the Iron Pillar?",
+      "a": "It is an ancient wrought-iron column, generally dated to the Gupta period, known for resisting rust."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Mehrauli guide",
+      "href": "/blog/mehrauli-delhi-travel-guide"
+    },
+    {
+      "label": "Heritage tourism in Delhi",
+      "href": "/blog/heritage-tourism-in-delhi"
+    },
+    {
+      "label": "Things to do in Delhi",
+      "href": "/blog/things-to-do-in-delhi"
+    },
+    {
+      "label": "Delhi tour packages",
+      "href": "/packages/delhi"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Red Fort",
+      "href": "/blog/red-fort",
+      "note": "Mughal Delhi"
+    },
+    {
+      "name": "Humayun's Tomb",
+      "href": "/blog/humayuns-tomb",
+      "note": "Delhi's Mughal garden tomb"
+    },
+    {
+      "name": "UNESCO sites in India",
+      "href": "/blog/unesco-world-heritage-sites-in-india",
+      "note": "the full list"
+    }
+  ],
+  "places": [
+    "Qutub Minar",
+    "Iron Pillar",
+    "Alai Darwaza",
+    "Quwwat-ul-Islam mosque",
+    "Mehrauli"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Delhi",
+  "updated": "2026-09-26"
+}

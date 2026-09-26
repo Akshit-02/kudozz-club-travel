@@ -1,0 +1,287 @@
+{
+  "slug": "beach-safety-in-india",
+  "kind": "planning",
+  "short": "Beach safety in India",
+  "title": "Beach Safety in India: Flags, Rip Currents, Monsoon Rules and Marine Life",
+  "seoTitle": "Beach Safety in India: Flags, Rip Currents & Monsoon | Kudozz Club",
+  "metaDescription": "How to stay safe at Indian beaches: reading flags, escaping rip currents, monsoon bathing bans, tides, jellyfish, crocodile zones, water sports and help numbers.",
+  "description": "A practical guide to beach safety in India: why swimming is riskier than it looks, how lifeguard flags work, how to spot and escape a rip current, monsoon and cyclone bathing bans, beaches where swimming is prohibited, tides, rocks and cliffs, jellyfish and marine life, crocodile warnings in the Andamans, water-sports safety, sun and alcohol, and what to do in an emergency.",
+  "dek": "Many drownings on Indian beaches happen within metres of the shore. These are the rules and habits that keep you safe.",
+  "primaryKeyword": "beach safety in India",
+  "secondaryKeywords": [
+    "is it safe to swim in the sea in India",
+    "rip currents India",
+    "beach flags meaning",
+    "monsoon beach ban",
+    "lifeguard beaches India"
+  ],
+  "searchIntent": "Stay safe at Indian beaches",
+  "activities": [
+    "beaches",
+    "swimming",
+    "water sports"
+  ],
+  "terrain": [
+    "beaches",
+    "coast"
+  ],
+  "regions": [
+    "India",
+    "West coast",
+    "East coast",
+    "Islands"
+  ],
+  "seasons": [
+    "winter",
+    "monsoon",
+    "summer",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends",
+    "solo"
+  ],
+  "tags": [
+    "Beach Safety",
+    "Swimming",
+    "Monsoon",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/beach/beach-lifeguard-india.webp",
+    "alt": "Lifeguards and their patrol vehicle on a Goa beach",
+    "caption": "Lifeguards in Goa"
+  },
+  "parent": {
+    "label": "Beach Holidays in India",
+    "href": "/blog/beach-holidays-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Beach safety in India"
+  },
+  "intro": [
+    "India's open coasts face the Arabian Sea and the Bay of Bengal, and even calm-looking water can hide strong currents, sudden drop-offs and powerful waves. Most beaches have no lifeguards, and the busiest ones are crowded, which makes rescues harder. Every year, many drownings happen close to shore, often involving people who did not intend to swim far.",
+    "The good news is that most risks are avoidable with a few rules. This guide covers them in order of importance."
+  ],
+  "quickAnswer": "To stay safe at Indian beaches, swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up. Do not swim during the monsoon (June to September on the west coast) or in rough weather. If caught in a rip current, do not fight it: float, then swim parallel to the shore. Avoid rocks and cliff edges, do not swim after alcohol, and wear a life jacket for all water sports.",
+  "takeaways": [
+    "Red flag means no swimming; swim only in lifeguarded, flagged zones.",
+    "If caught in a rip current, float and swim parallel to the shore, not against the current.",
+    "Sea bathing is banned on much of the west coast from about June to September.",
+    "Some beaches, such as Marina in Chennai and Rock Beach in Puducherry, prohibit swimming all year.",
+    "Alcohol, rocks, cliff edges and selfies near the water are behind many accidents."
+  ],
+  "sections": [
+    {
+      "id": "flags",
+      "heading": "Flags and lifeguards",
+      "paras": [
+        "Lifeguard services at major beaches in Goa, Kerala, Odisha and elsewhere mark safe bathing zones and post warning flags. A red flag means the sea is dangerous and swimming is not allowed. Many beaches also use flags to mark the edges of the patrolled area; swim between them. Flag systems vary between states and beaches, so look for signboards and ask the lifeguards.",
+        "Lifeguards work only in daylight and in season. Outside those hours, and at the many beaches without lifeguards, treat the sea as unsupervised."
+      ]
+    },
+    {
+      "id": "rips",
+      "heading": "Rip currents",
+      "paras": [
+        "A rip current is a narrow, fast channel of water flowing away from the shore. It often looks like a darker, calmer gap in the breaking waves, sometimes with foam or debris drifting out. Rips are common on long, open beaches in Goa, Kerala and the east coast."
+      ],
+      "list": [
+        "Do not panic or try to swim straight back to shore against the current.",
+        "Float on your back to conserve energy and raise an arm to signal for help.",
+        "Swim parallel to the shore until you are out of the current, then angle back to the beach.",
+        "If you see someone in trouble, alert a lifeguard; do not go in after them without a flotation aid."
+      ]
+    },
+    {
+      "id": "bans",
+      "heading": "Monsoon, cyclones and where swimming is banned",
+      "items": [
+        {
+          "name": "Monsoon bans",
+          "body": [
+            "Goa and other west coast states ban sea swimming and beach water sports during the south-west monsoon, roughly June to September. Lifeguards post red flags across the coast."
+          ],
+          "links": [
+            {
+              "label": "Best time for beach holidays in India",
+              "href": "/blog/best-time-for-beach-holidays-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Cyclones and rough weather",
+          "body": [
+            "On the east coast, district administrations ban sea bathing when low pressure or cyclones are forecast, most often from October to December and in May. Follow local announcements."
+          ]
+        },
+        {
+          "name": "Beaches where swimming is prohibited",
+          "body": [
+            "Bathing is prohibited at Marina beach in Chennai because of dangerous undercurrents, and at Rock Beach in Puducherry, where the shore is a sea wall. City beaches such as Juhu and Dumas are also not suitable for swimming."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Tamil Nadu",
+              "href": "/blog/best-beaches-in-tamil-nadu"
+            },
+            {
+              "label": "Best beaches in Puducherry",
+              "href": "/blog/best-beaches-in-puducherry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hazards",
+      "heading": "Other hazards",
+      "items": [
+        {
+          "name": "Tides",
+          "body": [
+            "At beaches such as Chandipur in Odisha, the sea retreats several kilometres and returns quickly; walks to tidal forts such as Kolaba near Alibaug must be timed with the tide. Check tide times."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Odisha",
+              "href": "/blog/best-beaches-in-odisha"
+            }
+          ]
+        },
+        {
+          "name": "Rocks and cliffs",
+          "body": [
+            "Wet rocks and cliff edges at Vagator, Anjuna, Varkala, Om beach and Dona Paula are slippery; several accidents have involved selfies. Some states have marked no-selfie danger zones."
+          ]
+        },
+        {
+          "name": "Jellyfish and marine life",
+          "body": [
+            "Stinging jellyfish, including bluebottles, wash up on some west coast beaches, especially during and after the monsoon. Rinse stings with seawater (not fresh water) and seek help for severe reactions. In reefs, avoid touching coral, sea urchins and stonefish."
+          ]
+        },
+        {
+          "name": "Crocodiles",
+          "body": [
+            "Saltwater crocodiles live in creeks and mangroves in the Andamans and in Odisha's Bhitarkanika. Follow warning signs and swim only at recommended beaches."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in the Andamans",
+              "href": "/blog/best-beaches-in-andaman"
+            }
+          ]
+        },
+        {
+          "name": "Sun and heat",
+          "body": [
+            "UV is strong all year. Use high-SPF sunscreen, a hat and shade, and drink more water than usual."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water-sports",
+      "heading": "Water-sports safety",
+      "list": [
+        "Book licensed operators; in Goa, operators must be registered with the state.",
+        "Always wear the life jacket provided, fastened properly.",
+        "Do not ride jet skis or go parasailing in strong wind or rough sea.",
+        "Tell the operator about heart, back or neck problems and pregnancy.",
+        "Keep away from swimming zones on jet skis and boats."
+      ],
+      "after": [
+        "See water sports in India for where each activity is offered."
+      ]
+    },
+    {
+      "id": "children",
+      "heading": "Children and families",
+      "list": [
+        "Keep young children within arm's reach in the water, even in the shallows.",
+        "Waves on shelving beaches can knock children over and pull them back quickly.",
+        "Use swim vests for weak swimmers and children, but do not treat them as a substitute for supervision.",
+        "Agree a meeting point in case anyone gets separated on a crowded beach."
+      ]
+    },
+    {
+      "id": "emergency",
+      "heading": "In an emergency",
+      "list": [
+        "Alert the nearest lifeguard or police post immediately.",
+        "Call 112, India's national emergency number.",
+        "Throw something that floats to a person in difficulty rather than swimming out.",
+        "Know the name of your beach and nearest landmark to guide rescuers."
+      ]
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Never swim after drinking alcohol.",
+    "Do not swim alone, at night, or in unfamiliar water.",
+    "Stay off rocks and cliff edges near the water."
+  ],
+  "faqs": [
+    {
+      "q": "Is it safe to swim at Indian beaches?",
+      "a": "At lifeguarded beaches, in season and inside the flagged zone, it is reasonably safe. Many beaches have strong currents and no lifeguards."
+    },
+    {
+      "q": "What does a red flag mean at an Indian beach?",
+      "a": "The sea is dangerous and swimming is not allowed."
+    },
+    {
+      "q": "What should I do if caught in a rip current?",
+      "a": "Stay calm, float, signal for help, and swim parallel to the shore before heading back in."
+    },
+    {
+      "q": "Why is swimming banned in the monsoon?",
+      "a": "The sea is rough, with strong currents and big waves, and drownings rise sharply."
+    },
+    {
+      "q": "What is the emergency number in India?",
+      "a": "112, the national emergency number."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Beach holidays in India",
+      "href": "/blog/beach-holidays-in-india"
+    },
+    {
+      "label": "Best beaches in Goa",
+      "href": "/blog/best-beaches-in-goa"
+    },
+    {
+      "label": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa"
+    },
+    {
+      "label": "Family holidays",
+      "href": "/packages/family-holidays"
+    }
+  ],
+  "related": [
+    {
+      "name": "Beach tourism in India",
+      "href": "/blog/beach-tourism-in-india",
+      "note": "lifeguards, rules and responsible travel"
+    },
+    {
+      "name": "Water sports in India",
+      "href": "/blog/water-sports-in-india",
+      "note": "choosing safe operators"
+    },
+    {
+      "name": "Best time for beach holidays in India",
+      "href": "/blog/best-time-for-beach-holidays-in-india",
+      "note": "when to avoid the sea"
+    }
+  ],
+  "updated": "2026-09-25"
+}

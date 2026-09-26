@@ -1,0 +1,380 @@
+{
+  "slug": "heritage-tourism-in-west-bengal",
+  "kind": "state",
+  "short": "Heritage tourism in West Bengal",
+  "title": "Heritage Tourism in West Bengal: Kolkata, Bishnupur, Murshidabad and Santiniketan",
+  "seoTitle": "Heritage Tourism in West Bengal: Kolkata to Bishnupur | Kudozz Club",
+  "metaDescription": "West Bengal's heritage: Santiniketan and the Darjeeling railway (UNESCO), Kolkata, Bishnupur's terracotta temples, Murshidabad, the Hooghly towns and Durga Puja.",
+  "description": "A guide to heritage tourism in West Bengal: its UNESCO cultural sites (Santiniketan and the Darjeeling Himalayan Railway), Kolkata's colonial and Bengali heritage, Bishnupur's terracotta temples, Murshidabad and the Nawabs of Bengal, the European towns along the Hooghly, Gaur and Pandua, Cooch Behar, and crafts, music and festivals from kantha and Baul to Durga Puja.",
+  "dek": "West Bengal's heritage runs from terracotta temples and Nawabi palaces to Tagore's Santiniketan and the old capital of British India.",
+  "primaryKeyword": "heritage places in West Bengal",
+  "secondaryKeywords": [
+    "historical places in West Bengal",
+    "monuments in West Bengal",
+    "West Bengal heritage tour"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "monuments",
+    "UNESCO sites",
+    "crafts",
+    "heritage walks"
+  ],
+  "terrain": [
+    "varied"
+  ],
+  "regions": [
+    "West Bengal"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "history lovers"
+  ],
+  "tags": [
+    "West Bengal",
+    "Heritage",
+    "Kolkata",
+    "Bishnupur",
+    "Durga Puja"
+  ],
+  "hero": {
+    "src": "/images/heritage/heritage-wb-bishnupur-terracotta.webp",
+    "alt": "The Jor Mandir terracotta temples at Bishnupur, West Bengal"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Heritage of West Bengal",
+    "containedIn": "West Bengal"
+  },
+  "intro": [
+    "Bengal has been a centre of learning, trade and art for centuries. The Pala kings supported Buddhist learning, the Bengal Sultanate built at Gaur and Pandua, the Malla kings raised terracotta temples at Bishnupur, and the Nawabs ruled from Murshidabad until the British East India Company's victory at Plassey in 1757. Kolkata then became the capital of British India until 1911, and the heart of the Bengal Renaissance.",
+    "West Bengal's UNESCO cultural sites are the Darjeeling Himalayan Railway (1999, part of the Mountain Railways of India) and Santiniketan (2023). Durga Puja in Kolkata was inscribed on UNESCO's Intangible Cultural Heritage list in 2021."
+  ],
+  "quickAnswer": "West Bengal's heritage highlights are Kolkata's Victoria Memorial, Indian Museum, north Kolkata mansions and Kumartuli; Santiniketan, Tagore's university town (UNESCO 2023); the Darjeeling Himalayan Railway (UNESCO); Bishnupur's terracotta temples; Murshidabad's Hazarduari Palace; the Hooghly towns of Chandannagar, Chinsurah and Serampore; and Durga Puja. October to March is best.",
+  "takeaways": [
+    "Santiniketan and the Darjeeling Himalayan Railway are UNESCO sites.",
+    "Durga Puja in Kolkata is UNESCO intangible heritage.",
+    "Bishnupur's terracotta temples are among India's most distinctive.",
+    "Murshidabad was the capital of the Nawabs of Bengal.",
+    "October to March is the most comfortable season."
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "heading": "UNESCO World Heritage Sites",
+      "table": {
+        "columns": [
+          "Site",
+          "Year",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Darjeeling Himalayan Railway",
+            "1999",
+            "Part of the Mountain Railways of India"
+          ],
+          [
+            "Sundarbans National Park",
+            "1987",
+            "Natural site"
+          ],
+          [
+            "Santiniketan",
+            "2023",
+            "Tagore's university town"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "kolkata",
+      "heading": "Kolkata",
+      "items": [
+        {
+          "name": "The city",
+          "body": [
+            "The Victoria Memorial, the Indian Museum, Dalhousie Square, the Marble Palace, Jorasanko Thakur Bari (Tagore's family home), Kumartuli and College Street."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kolkata",
+              "href": "/blog/things-to-do-in-kolkata"
+            },
+            {
+              "label": "Kolkata guide",
+              "href": "/blog/kolkata-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/kolkata/howrah-bridge-cantilever-hooghly-river-kolkata.webp",
+            "alt": "Howrah Bridge over the Hooghly, Kolkata",
+            "caption": "Howrah Bridge, Kolkata"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond Kolkata",
+      "items": [
+        {
+          "name": "Bishnupur",
+          "body": [
+            "Brick and laterite temples of the Malla kings, covered in terracotta panels, with Baluchari weaving in the town."
+          ],
+          "links": [
+            {
+              "label": "Bishnupur guide",
+              "href": "/blog/bishnupur-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/bishnupur/jor-bangla-temple-terracotta-facade-bishnupur.webp",
+            "alt": "The Jor Bangla temple with its terracotta facade, Bishnupur",
+            "caption": "Jor Bangla temple, Bishnupur"
+          }
+        },
+        {
+          "name": "Santiniketan",
+          "body": [
+            "The university town founded by Rabindranath Tagore, known for its art, architecture and the Poush Mela in December."
+          ],
+          "links": [
+            {
+              "label": "Santiniketan guide",
+              "href": "/blog/santiniketan-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Murshidabad",
+          "body": [
+            "The Hazarduari Palace museum, the Katra Masjid and the Nizamat Imambara."
+          ],
+          "links": [
+            {
+              "label": "Murshidabad guide",
+              "href": "/blog/murshidabad-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/murshidabad/katra-mosque-murshidabad.webp",
+            "alt": "The Katra Masjid, Murshidabad",
+            "caption": "Katra Masjid, Murshidabad"
+          }
+        },
+        {
+          "name": "Darjeeling and Cooch Behar",
+          "body": [
+            "The toy train and tea gardens; the royal palace of Cooch Behar."
+          ],
+          "links": [
+            {
+              "label": "Darjeeling guide",
+              "href": "/blog/darjeeling-travel-guide"
+            },
+            {
+              "label": "Cooch Behar guide",
+              "href": "/blog/cooch-behar-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hooghly",
+      "heading": "The Hooghly towns",
+      "list": [
+        "Chandannagar: French until 1950, with a riverside promenade and the Jagaddhatri Puja.",
+        "Chinsurah: the Dutch cemetery and old buildings.",
+        "Serampore: the Danish settlement and Serampore College (1818).",
+        "Bandel: the Portuguese-founded Basilica of the Holy Rosary.",
+        "Hooghly: the Imambara on the river."
+      ],
+      "items": [
+        {
+          "name": "Colonial heritage",
+          "body": [
+            "The wider picture."
+          ],
+          "links": [
+            {
+              "label": "Colonial-era heritage",
+              "href": "/blog/colonial-heritage-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "heading": "Crafts, music and festivals",
+      "list": [
+        "Kantha embroidery and Baluchari silk.",
+        "Terracotta and dhokra metalwork.",
+        "Kalighat and Bengal pata painting.",
+        "Baul music, recognised by UNESCO as intangible heritage.",
+        "Durga Puja in September or October, and the Poush Mela at Santiniketan in December."
+      ],
+      "items": [
+        {
+          "name": "Festivals",
+          "body": [
+            "Across India."
+          ],
+          "links": [
+            {
+              "label": "Cultural festivals in India",
+              "href": "/blog/cultural-festivals-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "The Pala dynasty, from the 8th to the 12th centuries, patronised Buddhist monasteries such as Nalanda and Vikramashila. The Sena kings followed, then the Bengal Sultanate, whose ruined capitals of Gaur and Pandua lie in Malda district. The Nawabs of Bengal ruled from Murshidabad in the 18th century. After Plassey, the East India Company made Calcutta its base, and the city grew into the capital of British India. Bengal was partitioned in 1905 and again in 1947, which reshaped its towns and people."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "Kolkata is the natural base, with heritage hotels in old mansions as well as modern options. Bishnupur, Santiniketan and Murshidabad each deserve a night; Darjeeling needs at least two. The Hooghly towns are easy day trips from Kolkata by train or road."
+      ]
+    },
+    {
+      "id": "lesser-known",
+      "heading": "Lesser-known heritage",
+      "list": [
+        "Gaur and Pandua in Malda: ruined mosques and gateways of the Bengal Sultanate.",
+        "Kalna's temples, including the 108 Shiva temples in two concentric circles.",
+        "Itachuna Rajbari and other zamindari mansions.",
+        "Plassey's memorial, the site of the 1757 battle."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Visit Kumartuli in the weeks before Durga Puja to see the idols being made.",
+        "Take a ferry across the Hooghly for views of the old ghats.",
+        "Book Darjeeling toy-train joy rides in advance."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "October to March: the best season in the plains.",
+        "September or October: Durga Puja in Kolkata.",
+        "December: the Poush Mela in Santiniketan.",
+        "March to May and October to December: the best months for Darjeeling."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, weekly closures and tickets change; check the ASI, state tourism or the site before you go.",
+    "Living temples, mosques and shrines set their own rules on dress, entry and photography; follow what is posted."
+  ],
+  "packing": [
+    "Comfortable walking shoes",
+    "Scarf or shawl for places of worship",
+    "Hat, sunscreen and water",
+    "Photo ID for tickets"
+  ],
+  "faqs": [
+    {
+      "q": "What are the UNESCO sites in West Bengal?",
+      "a": "The Darjeeling Himalayan Railway and Santiniketan (cultural), and the Sundarbans (natural)."
+    },
+    {
+      "q": "When was Santiniketan inscribed by UNESCO?",
+      "a": "In 2023."
+    },
+    {
+      "q": "What is Bishnupur known for?",
+      "a": "Terracotta temples of the Malla kings and Baluchari silk."
+    },
+    {
+      "q": "When is Durga Puja?",
+      "a": "In September or October, following the Hindu calendar."
+    },
+    {
+      "q": "How many days do I need?",
+      "a": "Three days in Kolkata, plus a night each in Bishnupur, Santiniketan and Murshidabad."
+    },
+    {
+      "q": "Can I visit the Hooghly towns from Kolkata?",
+      "a": "Yes, Chandannagar, Chinsurah, Bandel and Serampore make an easy day trip by train or car."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Colonial-era heritage",
+      "href": "/blog/colonial-heritage-in-india"
+    },
+    {
+      "label": "Mountain railways of India",
+      "href": "/blog/mountain-railways-of-india"
+    },
+    {
+      "label": "West Bengal travel guide",
+      "href": "/blog/west-bengal-travel-guide"
+    },
+    {
+      "label": "West Bengal tour packages",
+      "href": "/packages/west-bengal"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Spiritual tourism in West Bengal",
+      "href": "/blog/spiritual-tourism-in-west-bengal",
+      "note": "Dakshineswar, Belur Math and more"
+    },
+    {
+      "name": "Temple architecture of India",
+      "href": "/blog/temple-architecture-of-india",
+      "note": "Bengal terracotta"
+    },
+    {
+      "name": "Textile heritage of India",
+      "href": "/blog/textile-heritage-of-india",
+      "note": "kantha and Baluchari"
+    }
+  ],
+  "places": [
+    "Kolkata",
+    "Santiniketan",
+    "Bishnupur",
+    "Murshidabad",
+    "Darjeeling",
+    "Cooch Behar",
+    "Chandannagar",
+    "Chinsurah",
+    "Serampore",
+    "Bandel"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "West Bengal",
+  "updated": "2026-09-26"
+}

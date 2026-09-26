@@ -1,0 +1,455 @@
+{
+  "slug": "adventure-activities-in-sikkim",
+  "kind": "destination",
+  "short": "Adventure activities in Sikkim",
+  "title": "Adventure Activities in Sikkim: Treks, Rafting and Paragliding",
+  "seoTitle": "Adventure Activities in Sikkim: Treks & Rafting | Kudozz Club",
+  "metaDescription": "Adventure activities in Sikkim: the Goecha La and Dzongri treks, Teesta rafting, paragliding near Gangtok, high-lake road trips and permits you need.",
+  "description": "A guide to adventure activities in Sikkim: treks to Goecha La, Dzongri and the Singalila ridge, white-water rafting on the Teesta and Rangit, tandem paragliding near Gangtok, high-altitude road trips to Tsomgo, Nathula, Zuluk and North Sikkim, mountaineering training and the permits each needs.",
+  "dek": "Sikkim's adventures sit beneath Kanchenjunga, the world's third-highest peak. Here is what to do, when to go and which permits to arrange.",
+  "primaryKeyword": "adventure activities in Sikkim",
+  "secondaryKeywords": [
+    "adventure sports in Sikkim",
+    "things to do in Sikkim for adventure",
+    "Goecha La",
+    "Teesta rafting",
+    "paragliding"
+  ],
+  "searchIntent": "Informational: what adventure to do in Sikkim",
+  "activities": [
+    "trekking",
+    "rafting",
+    "paragliding",
+    "road trips",
+    "mountaineering"
+  ],
+  "terrain": [
+    "mountains",
+    "river",
+    "lakes",
+    "forest"
+  ],
+  "regions": [
+    "Sikkim",
+    "Northeast India"
+  ],
+  "seasons": [
+    "spring",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "friends",
+    "couples",
+    "families",
+    "solo"
+  ],
+  "tags": [
+    "Sikkim",
+    "Goecha La",
+    "Teesta",
+    "Adventure"
+  ],
+  "hero": {
+    "src": "/images/adventure/sikkim-himalaya-trek.webp",
+    "alt": "Kangchenjunga seen from Thangshing on the Goecha La trek",
+    "caption": "Kangchenjunga from Thangshing"
+  },
+  "parent": {
+    "label": "Best Adventure Destinations in India",
+    "href": "/blog/best-adventure-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Sikkim",
+    "containedIn": "Sikkim"
+  },
+  "intro": [
+    "Sikkim is a small Himalayan state between Nepal, Tibet and Bhutan, rising from river valleys at a few hundred metres to Kanchenjunga at over 8,500 metres. Khangchendzonga National Park, a UNESCO World Heritage Site, covers much of the west and north, and its trails are among the best in the eastern Himalaya.",
+    "Most adventure in Sikkim is trekking, rafting and high road trips, with paragliding near Gangtok. Permits are a bigger part of planning here than in most states, so this guide notes them for each activity. For sightseeing, stays and food, see our Sikkim travel guide."
+  ],
+  "quickAnswer": "The best adventure activities in Sikkim are the Goecha La and Dzongri treks from Yuksom, the Singalila ridge trek, rafting on the Teesta and Rangit rivers, tandem paragliding near Gangtok, and road trips to Tsomgo Lake, Nathula, Zuluk and North Sikkim. The best seasons are March to May and October to December. Treks in the national park and trips to protected areas need permits, usually arranged through registered agencies.",
+  "takeaways": [
+    "Goecha La is Sikkim's classic trek, eight to eleven days from Yuksom with close views of Kanchenjunga.",
+    "Rafting on the Teesta and Rangit runs outside the monsoon, with Grade II to IV rapids.",
+    "Tsomgo Lake, Nathula, Zuluk and North Sikkim need permits; foreigners need a Restricted Area Permit for Sikkim.",
+    "The October 2023 glacial lake flood on the Teesta damaged roads in North Sikkim; check access before planning.",
+    "Avoid the monsoon (June to September), when landslides often close roads."
+  ],
+  "sections": [
+    {
+      "id": "treks",
+      "heading": "Treks",
+      "items": [
+        {
+          "name": "Goecha La",
+          "body": [
+            "From Yuksom, the trail climbs through rhododendron forest to Tshoka and Dzongri, then to Thangshing and Lamuney, with a pre-dawn walk towards Goecha La for sunrise on Kanchenjunga. Access beyond the first viewpoint has been restricted in recent years. Permits for Khangchendzonga National Park are arranged through registered agencies."
+          ],
+          "facts": {
+            "Difficulty": "Moderate to challenging",
+            "Duration": "8 to 11 days",
+            "Season": "April to May, October to November"
+          },
+          "links": [
+            {
+              "label": "Trekking in India",
+              "href": "/blog/trekking-in-india"
+            },
+            {
+              "label": "Yuksom travel guide",
+              "href": "/blog/yuksom-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Dzongri",
+          "body": [
+            "A shorter version of the Goecha La route, turning back at Dzongri after the sunrise viewpoint above camp."
+          ],
+          "facts": {
+            "Difficulty": "Moderate",
+            "Duration": "5 to 6 days"
+          }
+        },
+        {
+          "name": "Singalila ridge",
+          "body": [
+            "The ridge along the Nepal border, walked from the West Bengal side via Sandakphu and Phalut, or joined from Uttarey in West Sikkim, has views of Kanchenjunga and Everest."
+          ],
+          "facts": {
+            "Difficulty": "Moderate",
+            "Duration": "5 to 8 days"
+          },
+          "links": [
+            {
+              "label": "Sandakphu travel guide",
+              "href": "/blog/sandakphu-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Monastery and village walks",
+          "body": [
+            "Easier walks link the monasteries and villages of West Sikkim around Pelling, Yuksom and Ravangla."
+          ],
+          "facts": {
+            "Difficulty": "Easy"
+          },
+          "links": [
+            {
+              "label": "Things to do in Pelling",
+              "href": "/blog/things-to-do-in-pelling"
+            },
+            {
+              "label": "Ravangla travel guide",
+              "href": "/blog/ravangla-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rivers",
+      "heading": "Rafting on the Teesta and Rangit",
+      "paras": [
+        "Rafting trips run on the Teesta and its tributary the Rangit, from points near Melli and Teesta Bazaar on the Sikkim and West Bengal border. Rapids range from Grade II to IV depending on the stretch and water level. Rafting is suspended in the monsoon."
+      ],
+      "items": [
+        {
+          "name": "Teesta rafting",
+          "body": [
+            "Half-day trips suit beginners; longer stretches include harder rapids."
+          ],
+          "facts": {
+            "Grades": "II to IV",
+            "Season": "Outside the monsoon, about October to May"
+          },
+          "links": [
+            {
+              "label": "River rafting in India",
+              "href": "/blog/river-rafting-in-india"
+            },
+            {
+              "label": "Kalimpong travel guide",
+              "href": "/blog/kalimpong-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "air",
+      "heading": "Paragliding near Gangtok",
+      "paras": [
+        "Tandem paragliding flights near Gangtok give views over the valleys and ridges around the capital. Flights are short and depend on weather; clear mornings in spring and autumn are best."
+      ],
+      "items": [
+        {
+          "name": "Tandem paragliding",
+          "body": [
+            "Short flights with registered pilots."
+          ],
+          "facts": {
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Paragliding in India",
+              "href": "/blog/paragliding-in-india"
+            },
+            {
+              "label": "Things to do in Gangtok",
+              "href": "/blog/things-to-do-in-gangtok"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roads",
+      "heading": "High-altitude road trips",
+      "items": [
+        {
+          "name": "Tsomgo Lake and Nathula",
+          "body": [
+            "A glacial lake at about 3,750 metres and the Nathula border pass on the old trade route to Tibet, both reached from Gangtok with permits. Nathula is open to Indian nationals on specified days only."
+          ],
+          "facts": {
+            "Permits": "Required; arranged via registered agents"
+          },
+          "links": [
+            {
+              "label": "Tsomgo Lake guide",
+              "href": "/blog/tsomgo-lake-travel-guide"
+            },
+            {
+              "label": "Nathula Pass guide",
+              "href": "/blog/nathula-pass-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Zuluk and the old silk route",
+          "body": [
+            "A zig-zag road with dozens of hairpin bends climbs to Zuluk and Thambi viewpoint in East Sikkim, on the old trade route between India and Tibet."
+          ],
+          "facts": {
+            "Permits": "Required"
+          },
+          "links": [
+            {
+              "label": "Zuluk travel guide",
+              "href": "/blog/zuluk-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "North Sikkim",
+          "body": [
+            "Lachung, Yumthang Valley and, from Lachen, Gurudongmar Lake at over 5,000 metres. The October 2023 flood on the Teesta damaged roads and bridges in the north, and access has been affected; check before planning."
+          ],
+          "facts": {
+            "Permits": "Required"
+          },
+          "links": [
+            {
+              "label": "Lachung travel guide",
+              "href": "/blog/lachung-travel-guide"
+            },
+            {
+              "label": "Gurudongmar Lake guide",
+              "href": "/blog/gurudongmar-lake-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mountaineering",
+      "heading": "Mountaineering",
+      "paras": [
+        "The Himalayan Mountaineering Institute in Darjeeling trains its students on the Rathong glacier in West Sikkim, above Dzongri. Expedition peaks in Sikkim need permission from the Indian Mountaineering Foundation and the state."
+      ],
+      "items": [
+        {
+          "name": "Mountaineering courses",
+          "body": [
+            "Basic and advanced courses with HMI, with field training in West Sikkim."
+          ],
+          "links": [
+            {
+              "label": "Mountaineering in India",
+              "href": "/blog/mountaineering-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bases",
+      "heading": "Getting there and a sample trip",
+      "paras": [
+        "Bagdogra airport and New Jalpaiguri railway station in West Bengal are the gateways; Pakyong airport near Gangtok has limited flights. Gangtok is the base for East and North Sikkim, and Pelling or Yuksom for West Sikkim and the Goecha La trek.",
+        "A good week combines both: two days in Gangtok with Tsomgo Lake and paragliding, a day's drive to Pelling, and a short walk from Yuksom or a rafting trip on the Rangit on the way back to Bagdogra. Trekkers heading for Goecha La should add at least nine to eleven days."
+      ],
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Bagdogra to Gangtok"
+          ],
+          [
+            "2",
+            "Tsomgo Lake (permit) and paragliding if the weather is clear"
+          ],
+          [
+            "3",
+            "Gangtok to Pelling via Ravangla"
+          ],
+          [
+            "4",
+            "Pelling and Yuksom walks"
+          ],
+          [
+            "5",
+            "Rangit or Teesta rafting on the way to Bagdogra"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "permits",
+      "heading": "Permits at a glance",
+      "table": {
+        "columns": [
+          "Area or activity",
+          "Indian citizens",
+          "Foreign nationals"
+        ],
+        "rows": [
+          [
+            "Entering Sikkim",
+            "No permit",
+            "Restricted Area Permit"
+          ],
+          [
+            "Tsomgo Lake, Nathula, Zuluk",
+            "Permit via registered agent",
+            "Permit; Nathula closed to foreigners"
+          ],
+          [
+            "North Sikkim (Lachung, Lachen)",
+            "Permit via registered agent",
+            "Permit, with restrictions on some areas"
+          ],
+          [
+            "Goecha La and Dzongri treks",
+            "National park permit via registered agency",
+            "Permit via registered agency"
+          ]
+        ],
+        "caption": "Rules change; confirm current requirements with Sikkim Tourism or your agent."
+      }
+    }
+  ],
+  "safety": [
+    "Acclimatise before high treks and before visiting Gurudongmar or Nathula.",
+    "Avoid travel in the monsoon, when landslides close roads for days.",
+    "Raft only with licensed operators and trained guides, outside the monsoon.",
+    "Hire trek guides through registered agencies; they arrange permits and know the trails.",
+    "Carry warm layers; even in spring, nights at Dzongri are below freezing."
+  ],
+  "packing": [
+    "Warm layers and a rain jacket",
+    "Trekking shoes",
+    "Copies of ID and passport-size photos for permits",
+    "Sunglasses and sunscreen",
+    "Cash for remote areas"
+  ],
+  "faqs": [
+    {
+      "q": "What are the best adventure activities in Sikkim?",
+      "a": "Treks to Goecha La and Dzongri, rafting on the Teesta, paragliding near Gangtok and high road trips to Tsomgo, Zuluk and North Sikkim."
+    },
+    {
+      "q": "When is the best time for trekking in Sikkim?",
+      "a": "April to May and October to November."
+    },
+    {
+      "q": "Do I need a permit for Goecha La?",
+      "a": "Yes. Khangchendzonga National Park permits are arranged through registered trekking agencies."
+    },
+    {
+      "q": "Can foreigners visit Sikkim?",
+      "a": "Yes, with a Restricted Area Permit. Some areas, including Nathula, are closed to foreign nationals."
+    },
+    {
+      "q": "Is North Sikkim open?",
+      "a": "Access has been affected by the 2023 Teesta flood and landslides. Check current road status and permits before planning."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Sikkim travel guide",
+      "href": "/blog/sikkim-travel-guide"
+    },
+    {
+      "label": "Things to do in Sikkim",
+      "href": "/blog/things-to-do-in-sikkim"
+    },
+    {
+      "label": "Sikkim itinerary",
+      "href": "/blog/sikkim-travel-guide#itinerary"
+    },
+    {
+      "label": "Sikkim tour packages",
+      "href": "/packages/sikkim"
+    },
+    {
+      "label": "Northeast India tours",
+      "href": "/packages/northeast-india"
+    }
+  ],
+  "related": [
+    {
+      "name": "Things to do in Gangtok",
+      "href": "/blog/things-to-do-in-gangtok",
+      "note": "the capital"
+    },
+    {
+      "name": "Adventure activities in Meghalaya",
+      "href": "/blog/adventure-activities-in-meghalaya",
+      "note": "another North East adventure"
+    },
+    {
+      "name": "Things to do in Darjeeling",
+      "href": "/blog/things-to-do-in-darjeeling",
+      "note": "across the border in West Bengal"
+    }
+  ],
+  "places": [
+    "Yuksom",
+    "Dzongri",
+    "Goecha La",
+    "Singalila",
+    "Teesta river",
+    "Rangit river",
+    "Gangtok",
+    "Tsomgo Lake",
+    "Nathula",
+    "Zuluk",
+    "Lachung",
+    "Gurudongmar Lake"
+  ],
+  "styles": [
+    "adventure-tours",
+    "honeymoon"
+  ],
+  "planDestination": "Sikkim",
+  "updated": "2026-09-25"
+}

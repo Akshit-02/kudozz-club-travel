@@ -1,0 +1,261 @@
+{
+  "slug": "lothal",
+  "kind": "destination",
+  "short": "Lothal",
+  "title": "Lothal: Harappan Port Town and Visiting Guide",
+  "seoTitle": "Lothal: Harappan Port Town & Visiting Guide | Kudozz Club",
+  "metaDescription": "Visit Lothal, the Harappan site near Ahmedabad: the basin often called a dockyard, the acropolis and bead workshops, the ASI museum, how to reach and what to know.",
+  "description": "A visitor's guide to Lothal in Ahmedabad district, Gujarat: a Harappan town excavated from 1955, its large basin interpreted by most archaeologists as a dockyard (and by some as a reservoir), the acropolis, lower town and bead-making workshops, the ASI site museum, the National Maritime Heritage Complex under development nearby, how to reach and tips.",
+  "dek": "Lothal is one of the most important Harappan sites in India, a trading town with what many archaeologists see as the world's earliest known dockyard.",
+  "primaryKeyword": "Lothal",
+  "secondaryKeywords": [
+    "Lothal dockyard",
+    "Harappan sites Gujarat",
+    "National Maritime Heritage Complex"
+  ],
+  "searchIntent": "Monument visit planning",
+  "activities": [
+    "archaeology",
+    "museums",
+    "heritage"
+  ],
+  "terrain": [
+    "plains"
+  ],
+  "regions": [
+    "Gujarat",
+    "West India"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Lothal",
+    "Harappan",
+    "Gujarat",
+    "Archaeology"
+  ],
+  "hero": {
+    "src": "/images/heritage/lothal-harappan-site.webp",
+    "alt": "Excavated brick foundations at the Harappan site of Lothal, Gujarat"
+  },
+  "parent": {
+    "label": "Archaeological Sites in India",
+    "href": "/blog/archaeological-sites-in-india"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Lothal",
+    "containedIn": "Gujarat"
+  },
+  "intro": [
+    "Lothal lies in the plains of Ahmedabad district, about 80 km south-west of Ahmedabad, near the Gulf of Khambhat. It was excavated by the ASI under S. R. Rao between 1955 and 1962, revealing a planned Harappan town occupied in the 3rd and 2nd millennia BCE.",
+    "Its best-known feature is a large brick-lined basin connected to an old river channel. Most archaeologists interpret it as a dockyard, and recent studies of sediments and microfossils have supported that view, though some scholars have argued it was a water reservoir. Lothal is on India's Tentative List for UNESCO nomination."
+  ],
+  "quickAnswer": "Lothal, about 80 km from Ahmedabad, is a Harappan town excavated between 1955 and 1962. Its large brick basin is interpreted by most archaeologists as a dockyard, the earliest known, though a minority see it as a reservoir. Visitors can see the basin, the acropolis, the lower town and bead workshops, and the ASI museum, which is closed on Fridays. Visit from November to February.",
+  "takeaways": [
+    "About 80 km from Ahmedabad; allow half a day.",
+    "The brick basin is widely interpreted as a dockyard; some scholars have proposed a reservoir.",
+    "The ASI site museum is closed on Fridays.",
+    "The site is exposed; visit in the cool winter months and early in the day.",
+    "A National Maritime Heritage Complex is being developed nearby."
+  ],
+  "sections": [
+    {
+      "id": "site",
+      "heading": "What you can see",
+      "items": [
+        {
+          "name": "The basin",
+          "body": [
+            "A large rectangular brick-lined basin on the east side of the town, with an inlet and a spillway."
+          ],
+          "facts": {
+            "Interpretation": "Dockyard (majority view); reservoir (minority view)"
+          }
+        },
+        {
+          "name": "The acropolis and lower town",
+          "body": [
+            "A raised area with drains, baths and a warehouse, and the residential lower town laid out in blocks."
+          ]
+        },
+        {
+          "name": "Bead-making workshops",
+          "body": [
+            "Evidence of a bead industry using carnelian and other stones, traded widely."
+          ]
+        },
+        {
+          "name": "The site museum",
+          "body": [
+            "Seals, beads, pottery, tools and ornaments found at Lothal, with models of the town."
+          ],
+          "facts": {
+            "Closed": "Fridays"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "heading": "Evidence and interpretation",
+      "paras": [
+        "What is established: Lothal was a planned Harappan settlement with a drainage system, a warehouse, craft workshops and a large basin connected to a water channel, and objects found here show links with other Harappan sites and wider trade.",
+        "What is interpreted: whether the basin served ships (a dockyard) or stored fresh water. The dockyard reading is the more widely accepted, and has been strengthened by recent scientific studies; we present it as the leading interpretation rather than settled fact."
+      ]
+    },
+    {
+      "id": "reach",
+      "heading": "How to reach",
+      "list": [
+        "From Ahmedabad: about 80 km by road, around two hours.",
+        "The nearest railway stations are Lothal-Bhurkhi and Dholka; road travel is more practical.",
+        "Combine it with Nal Sarovar bird sanctuary on a winter day trip."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for the visit",
+      "list": [
+        "Visit the museum first; it explains the layout and makes the ruins easier to read.",
+        "Go early in the day; there is little shade on the site.",
+        "A guide or the museum staff can point out the drains, warehouse and bead workshops.",
+        "Combine Lothal with Nal Sarovar in winter, or with Ahmedabad's old city."
+      ]
+    },
+    {
+      "id": "harappan-gujarat",
+      "heading": "Other Harappan sites in Gujarat",
+      "paras": [
+        "Gujarat has several important Harappan sites. Dholavira in Kutch, a UNESCO World Heritage Site since 2021, is the largest and best presented. Others, such as Rangpur and Surkotada, are less developed for visitors."
+      ],
+      "items": [
+        {
+          "name": "Dholavira",
+          "body": [
+            "The Harappan city in the Rann of Kutch."
+          ],
+          "links": [
+            {
+              "label": "Dholavira guide",
+              "href": "/blog/dholavira-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "November to February: cool, dry and pleasant.",
+        "March to June: very hot; visit early in the morning.",
+        "July to September: rain can make the site muddy."
+      ]
+    },
+    {
+      "id": "nmhc",
+      "heading": "The National Maritime Heritage Complex",
+      "paras": [
+        "The Government of India has approved a large National Maritime Heritage Complex near Lothal, with museums on India's maritime history. It is under development; check its current status before planning a visit around it."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and ticket rules are set by the ASI, state archaeology departments or site trusts and change from time to time; check the official website before you go.",
+    "The site is open and exposed; carry water and sun protection.",
+    "Stay on marked paths and do not walk on excavated walls."
+  ],
+  "packing": [
+    "Hat and sunscreen",
+    "Water",
+    "Comfortable shoes",
+    "Photo ID"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Lothal from Ahmedabad?",
+      "a": "About 80 km, around two hours by road."
+    },
+    {
+      "q": "Was Lothal really a dockyard?",
+      "a": "Most archaeologists interpret the basin as a dockyard, supported by recent studies; a minority view sees it as a reservoir."
+    },
+    {
+      "q": "Is the Lothal museum open on Friday?",
+      "a": "No, the ASI museum is closed on Fridays."
+    },
+    {
+      "q": "Is Lothal a UNESCO site?",
+      "a": "It is on India's Tentative List, not yet inscribed."
+    },
+    {
+      "q": "How much time do I need at Lothal?",
+      "a": "About two to three hours for the site and museum."
+    },
+    {
+      "q": "How old is Lothal?",
+      "a": "It was occupied during the Harappan period, in the 3rd and 2nd millennia BCE."
+    },
+    {
+      "q": "What else can I see near Lothal?",
+      "a": "Nal Sarovar bird sanctuary in winter, and Ahmedabad's old city."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Ahmedabad",
+      "href": "/blog/things-to-do-in-ahmedabad"
+    },
+    {
+      "label": "Archaeological sites in India",
+      "href": "/blog/archaeological-sites-in-india"
+    },
+    {
+      "label": "Gujarat heritage itinerary",
+      "href": "/blog/gujarat-heritage-itinerary"
+    },
+    {
+      "label": "Gujarat tour packages",
+      "href": "/packages/gujarat"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Dholavira guide",
+      "href": "/blog/dholavira-travel-guide",
+      "note": "the UNESCO Harappan city"
+    },
+    {
+      "name": "Heritage tourism in Gujarat",
+      "href": "/blog/heritage-tourism-in-gujarat",
+      "note": "stepwells and old cities"
+    },
+    {
+      "name": "Best museums in India",
+      "href": "/blog/best-museums-in-india",
+      "note": "Harappan collections"
+    }
+  ],
+  "places": [
+    "Lothal",
+    "Ahmedabad",
+    "Nal Sarovar",
+    "Dholka"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "Ahmedabad and Lothal",
+  "updated": "2026-09-26"
+}

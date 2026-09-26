@@ -1,0 +1,333 @@
+{
+  "slug": "char-dham-of-india",
+  "kind": "pillar",
+  "short": "The Char Dham of India",
+  "title": "The Char Dham of India: Badrinath, Dwarka, Puri and Rameswaram",
+  "seoTitle": "Char Dham of India: Badrinath, Dwarka, Puri & Rameswaram | Kudozz Club",
+  "metaDescription": "The four dhams of India: Badrinath, Dwarka, Puri and Rameswaram, their deities and traditions, how they differ from the Uttarakhand Char Dham and how to plan visits.",
+  "description": "A guide to the Char Dham of India (the Bada Char Dham): Badrinath in the north, Dwarka in the west, Puri in the east and Rameswaram in the south, their deities, the tradition linking them to Adi Shankaracharya, seasons, entry rules, how they differ from Uttarakhand's Char Dham Yatra and how to plan visits.",
+  "dek": "The four dhams mark the four corners of India. Visiting all four is among the most important pilgrimages in Hinduism.",
+  "primaryKeyword": "char dham of India",
+  "secondaryKeywords": [
+    "bada char dham",
+    "four dhams India",
+    "char dham Badrinath Dwarka Puri Rameswaram"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "Char Dham",
+    "temple visit",
+    "darshan",
+    "pilgrimage route"
+  ],
+  "terrain": [
+    "mountains",
+    "coast",
+    "temple town"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "Gujarat",
+    "Odisha",
+    "Tamil Nadu"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "groups"
+  ],
+  "tags": [
+    "Char Dham",
+    "Badrinath",
+    "Dwarka",
+    "Puri",
+    "Rameswaram"
+  ],
+  "hero": {
+    "src": "/images/spiritual/char-dham-dwarkadhish-temple.webp",
+    "alt": "The carved shikhara of Dwarkadhish Temple in Dwarka, Gujarat"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Char Dham of India"
+  },
+  "intro": [
+    "The Char Dham, or four abodes, are Badrinath in the Himalaya, Dwarka on the Arabian Sea, Puri on the Bay of Bengal and Rameswaram near India's southern tip. In popular tradition the grouping is associated with Adi Shankaracharya, and the four sites are often called the Bada (great) Char Dham.",
+    "Three of the dhams are Vaishnava (Badrinath, Dwarka and Puri) and one is Shaiva (Rameswaram). Because they are thousands of kilometres apart, most pilgrims visit them over several trips, though some combine all four in two to three weeks using flights."
+  ],
+  "quickAnswer": "The Char Dham of India are Badrinath (Uttarakhand), Dwarka (Gujarat), Jagannath Puri (Odisha) and Rameswaram (Tamil Nadu). They are different from the Char Dham Yatra of Uttarakhand, which covers Yamunotri, Gangotri, Kedarnath and Badrinath. Badrinath is open only from about April or May to November; the other three are open all year. Most pilgrims visit them over several trips.",
+  "takeaways": [
+    "The four dhams are Badrinath, Dwarka, Puri and Rameswaram.",
+    "Only Badrinath is common to both the national and the Uttarakhand Char Dham.",
+    "Badrinath is seasonal; the other three are open all year.",
+    "Puri's Jagannath temple admits only Hindus, according to its rules.",
+    "All four in one trip takes about two to three weeks with flights."
+  ],
+  "sections": [
+    {
+      "id": "dhams",
+      "heading": "The four dhams",
+      "table": {
+        "columns": [
+          "Dham",
+          "Direction",
+          "Deity",
+          "State",
+          "Season"
+        ],
+        "rows": [
+          [
+            "Badrinath",
+            "North",
+            "Vishnu as Badri Narayan",
+            "Uttarakhand",
+            "About April or May to November"
+          ],
+          [
+            "Dwarka",
+            "West",
+            "Krishna as Dwarkadhish",
+            "Gujarat",
+            "All year; October to March is cooler"
+          ],
+          [
+            "Puri",
+            "East",
+            "Jagannath",
+            "Odisha",
+            "All year; Rath Yatra in June or July"
+          ],
+          [
+            "Rameswaram",
+            "South",
+            "Shiva as Ramanathaswamy",
+            "Tamil Nadu",
+            "All year; October to April is cooler"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "each",
+      "heading": "About each dham",
+      "items": [
+        {
+          "name": "Badrinath",
+          "body": [
+            "The temple on the Alaknanda below the Nilkantha peak, reached by road from Rishikesh. It is also part of the Uttarakhand Char Dham."
+          ],
+          "links": [
+            {
+              "label": "Badrinath guide",
+              "href": "/blog/badrinath-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/badrinath/badrinath-temple-colorful-facade-mountains.webp",
+            "alt": "The colourful facade of Badrinath Temple below Himalayan peaks",
+            "caption": "Badrinath, Uttarakhand"
+          }
+        },
+        {
+          "name": "Dwarka",
+          "body": [
+            "The Dwarkadhish Temple above the Gomti Ghat, linked to Krishna's kingdom. Nageshwar Jyotirlinga and Bet Dwarka are nearby."
+          ],
+          "links": [
+            {
+              "label": "Dwarka guide",
+              "href": "/blog/dwarka-travel-guide"
+            },
+            {
+              "label": "Nageshwar Jyotirlinga",
+              "href": "/blog/nageshwar-jyotirlinga"
+            }
+          ]
+        },
+        {
+          "name": "Puri",
+          "body": [
+            "The Jagannath Temple, famous for its Rath Yatra and its Mahaprasad kitchen. Entry is restricted to Hindus by temple rules."
+          ],
+          "links": [
+            {
+              "label": "Puri guide",
+              "href": "/blog/puri-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/odisha/odisha/jagannath-temple-shikhara-puri.webp",
+            "alt": "The tall shikhara of the Jagannath Temple in Puri, Odisha",
+            "caption": "Jagannath Temple, Puri"
+          }
+        },
+        {
+          "name": "Rameswaram",
+          "body": [
+            "The Ramanathaswamy Temple on Pamban island, also one of the twelve Jyotirlingas, with long pillared corridors and sacred wells."
+          ],
+          "links": [
+            {
+              "label": "Rameswaram guide",
+              "href": "/blog/rameswaram-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two",
+      "heading": "Two Char Dhams: the difference",
+      "paras": [
+        "The national Char Dham covers the four corners of India. The Char Dham Yatra of Uttarakhand, sometimes called the Chota Char Dham, covers four Himalayan shrines: Yamunotri, Gangotri, Kedarnath and Badrinath. Travel agencies and searches often use 'Char Dham Yatra' for the Uttarakhand circuit, so check which one a tour covers."
+      ],
+      "after": [
+        "See our Char Dham Yatra guide for the Uttarakhand circuit."
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning all four",
+      "list": [
+        "Fit Badrinath into its season (May to June or September to October).",
+        "Fly between regions: Dehradun for Badrinath, Jamnagar or Rajkot for Dwarka, Bhubaneswar for Puri, Madurai for Rameswaram.",
+        "Allow three to four days for each dham, including travel.",
+        "Combine each with nearby sites: Somnath with Dwarka, Konark with Puri, Madurai with Rameswaram, the other Himalayan shrines with Badrinath."
+      ]
+    },
+    {
+      "id": "tradition",
+      "heading": "The tradition behind the four dhams",
+      "paras": [
+        "The four dhams are linked in popular tradition to Adi Shankaracharya, the 8th-century philosopher who is also credited with founding four mathas (monasteries) at the corners of India: Jyotirmath near Badrinath, Dwarka, Puri and Sringeri in Karnataka. Note that the southern matha is at Sringeri, while the southern dham is Rameswaram.",
+        "Each dham has its own traditions of worship and offerings, and each is also a busy town with its own festivals. Pilgrims often add nearby sacred sites: Somnath and Nageshwar near Dwarka, Konark and Bhubaneswar near Puri, Madurai near Rameswaram, and the other Himalayan shrines near Badrinath."
+      ]
+    },
+    {
+      "id": "sample",
+      "heading": "A sample three-week route",
+      "table": {
+        "columns": [
+          "Days",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1 to 4",
+            "Fly to Dehradun; road to Badrinath and back (May to June or September to October)"
+          ],
+          [
+            "5 to 8",
+            "Fly to Rajkot or Jamnagar; Dwarka, Nageshwar and Bet Dwarka"
+          ],
+          [
+            "9 to 12",
+            "Fly to Bhubaneswar; Puri, with Konark and Bhubaneswar's temples"
+          ],
+          [
+            "13 to 17",
+            "Fly to Madurai; Meenakshi Temple, then Rameswaram and Dhanushkodi"
+          ],
+          [
+            "18 to 21",
+            "Buffer days for weather and rest, or return home"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Dress modestly and follow each temple's rules on phones, bags and photography.",
+    "At Badrinath, allow for altitude and cold; check road advisories before travelling.",
+    "Follow each temple's entry rules, including restrictions on who may enter."
+  ],
+  "packing": [
+    "Warm layers for Badrinath",
+    "Light cotton for Dwarka, Puri and Rameswaram",
+    "Slip-on footwear",
+    "Photo ID"
+  ],
+  "faqs": [
+    {
+      "q": "What are the four dhams of India?",
+      "a": "Badrinath, Dwarka, Puri and Rameswaram."
+    },
+    {
+      "q": "What is the difference between Char Dham and Chota Char Dham?",
+      "a": "The Char Dham of India are Badrinath, Dwarka, Puri and Rameswaram. The Chota Char Dham in Uttarakhand are Yamunotri, Gangotri, Kedarnath and Badrinath."
+    },
+    {
+      "q": "Who established the Char Dham?",
+      "a": "Popular tradition associates the grouping with Adi Shankaracharya."
+    },
+    {
+      "q": "Which dham is open only part of the year?",
+      "a": "Badrinath, from about April or May to November."
+    },
+    {
+      "q": "Can non-Hindus visit all four dhams?",
+      "a": "Temple rules differ. The Jagannath Temple in Puri admits only Hindus; check each temple's rules before visiting."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Char Dham Yatra guide (Uttarakhand)",
+      "href": "/blog/char-dham-yatra-guide"
+    },
+    {
+      "label": "Puri guide",
+      "href": "/blog/puri-travel-guide"
+    },
+    {
+      "label": "Rameswaram guide",
+      "href": "/blog/rameswaram-travel-guide"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    },
+    {
+      "label": "Dwarka guide",
+      "href": "/blog/dwarka-travel-guide"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best pilgrimage places in India",
+      "href": "/blog/best-pilgrimage-places-in-india",
+      "note": "holy sites of every faith"
+    },
+    {
+      "name": "The 12 Jyotirlingas",
+      "href": "/blog/12-jyotirlingas-in-india",
+      "note": "Rameswaram and more"
+    },
+    {
+      "name": "Spiritual festivals in India",
+      "href": "/blog/spiritual-festivals-in-india",
+      "note": "Rath Yatra and more"
+    }
+  ],
+  "places": [
+    "Badrinath",
+    "Dwarka",
+    "Puri",
+    "Rameswaram"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Char Dham of India",
+  "updated": "2026-09-26"
+}

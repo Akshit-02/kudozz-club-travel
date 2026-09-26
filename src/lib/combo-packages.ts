@@ -203,6 +203,60 @@ export const comboPackages: ComboPackage[] = [
       "loktak-lake-travel-guide",
     ],
   },
+  {
+    slug: "buddhist-circuit",
+    name: "Buddhist Circuit",
+    shortName: "Buddhist Circuit",
+    region: "East India",
+    intro:
+      "Bodh Gaya, Rajgir, Nalanda, Kushinagar, Sarnath and Lumbini, with the road days, border crossing and monastery stays planned around your pace.",
+    image: "/images/blogs/bihar/bodh-gaya/the-bodhi-tree-bodh-gaya.webp",
+    imageAlt: "The Bodhi tree beside the Mahabodhi Temple in Bodh Gaya, Bihar",
+    knownFor:
+      "The Buddhist Circuit links the places of the Buddha's life: Bodh Gaya (enlightenment), Sarnath (first sermon) and Kushinagar (parinirvana) in India, and Lumbini (birth) in Nepal, together with Rajgir, Vaishali, Shravasti and the ruins of Nalanda.",
+    idealDays:
+      "Five to six days covers Bodh Gaya, Rajgir, Nalanda and Sarnath. Nine to ten days completes the loop through Vaishali, Kushinagar, Lumbini and Shravasti.",
+    bestTime:
+      "October to March. December and January are busiest at Bodh Gaya; Buddha Purnima (April or May) is special but hot.",
+    howToReach:
+      "Gaya, Patna, Varanasi, Gorakhpur and Lucknow are the practical airports; most of the circuit is travelled by road. Lumbini is across the Nepal border at Sonauli, and non-Indian visitors need a Nepal visa.",
+    routes: [
+      {
+        name: "Bodh Gaya to Sarnath",
+        days: "5–6 days",
+        desc: "Enlightenment, the Vulture's Peak, Nalanda's ruins and the first sermon at Sarnath.",
+        stops: [
+          { label: "Bodh Gaya", slug: "bodh-gaya-travel-guide" },
+          { label: "Rajgir", slug: "rajgir-travel-guide" },
+          { label: "Nalanda", slug: "nalanda-travel-guide" },
+          { label: "Sarnath", slug: "sarnath-travel-guide" },
+        ],
+      },
+      {
+        name: "The full circuit",
+        days: "9–10 days",
+        desc: "Bihar, eastern Uttar Pradesh and Lumbini in Nepal, in one loop by road.",
+        stops: [
+          { label: "Bodh Gaya", slug: "bodh-gaya-travel-guide" },
+          { label: "Vaishali", slug: "vaishali-travel-guide" },
+          { label: "Kushinagar", slug: "kushinagar-travel-guide" },
+          { label: "Shravasti", slug: "shravasti-travel-guide" },
+          { label: "Sarnath", slug: "sarnath-travel-guide" },
+        ],
+      },
+    ],
+    relatedStates: ["bihar", "uttar-pradesh"],
+    guideSlugs: [
+      "bodh-gaya-travel-guide",
+      "rajgir-travel-guide",
+      "nalanda-travel-guide",
+      "vaishali-travel-guide",
+      "kushinagar-travel-guide",
+      "shravasti-travel-guide",
+      "sarnath-travel-guide",
+      "vikramshila-travel-guide",
+    ],
+  },
 ];
 
 export function getComboPackage(slug: string) {

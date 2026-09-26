@@ -1,0 +1,356 @@
+{
+  "slug": "wildlife-tourism-in-gujarat",
+  "kind": "state",
+  "short": "Wildlife in Gujarat",
+  "title": "Wildlife Tourism in Gujarat: Gir Lions, Wild Ass and Wetlands",
+  "seoTitle": "Wildlife Tourism in Gujarat: Gir Lions, Wild Ass & Birds | Kudozz Club",
+  "metaDescription": "Plan a wildlife trip in Gujarat: Gir's Asiatic lions and safari permits, the Little Rann's wild ass, Velavadar's blackbuck, Nal Sarovar and the Gulf of Kutch.",
+  "description": "A guide to wildlife tourism in Gujarat: Gir National Park and Sanctuary, the only wild home of the Asiatic lion, with its safari permits, Devalia and Ambardi safari parks, the Indian Wild Ass Sanctuary in the Little Rann of Kutch, Velavadar's blackbuck, Nal Sarovar and Thol wetlands, flamingos in the Great Rann, the Marine National Park's reefs, seasons and routes.",
+  "dek": "Gujarat is the only place on earth where Asiatic lions live in the wild, and its salt deserts and wetlands hold wildlife found nowhere else in India.",
+  "primaryKeyword": "wildlife tourism in Gujarat",
+  "secondaryKeywords": [
+    "wildlife sanctuaries in Gujarat",
+    "national parks in Gujarat",
+    "Gujarat safari",
+    "wildlife in Gujarat"
+  ],
+  "searchIntent": "State-level wildlife planning",
+  "activities": [
+    "lion safari",
+    "jeep safari",
+    "birdwatching"
+  ],
+  "terrain": [
+    "forest",
+    "desert",
+    "grassland",
+    "wetland",
+    "coast"
+  ],
+  "regions": [
+    "Gujarat",
+    "West India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Gujarat",
+    "Gir",
+    "Asiatic Lion",
+    "Rann of Kutch"
+  ],
+  "hero": {
+    "src": "/images/wildlife/gujarat-wildlife-gir-lion.webp",
+    "alt": "A male Asiatic lion yawning in dry grassland in Gir, Gujarat"
+  },
+  "parent": {
+    "label": "Wildlife Tourism",
+    "href": "/wildlife-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Wildlife of Gujarat",
+    "containedIn": "Gujarat"
+  },
+  "intro": [
+    "The Asiatic lion once ranged from the Middle East to central India. Today it survives in the wild only in Gujarat's Saurashtra region, in and around Gir National Park and Sanctuary. The 2025 lion census counted 891 lions, living across Gir and nearby forests, coasts and farmland.",
+    "Gujarat also has the Little Rann of Kutch, the only home of the Indian wild ass; Velavadar's grasslands, where blackbuck gather in large herds; wetlands such as Nal Sarovar and Thol that fill with birds in winter; flamingo breeding grounds in the Great Rann; and coral reefs in the Gulf of Kutch."
+  ],
+  "quickAnswer": "Gujarat's leading wildlife destination is Gir National Park and Sanctuary, the only wild home of Asiatic lions, where jeep safaris run from Sasan Gir between 16 October and 15 June. Devalia Safari Park stays open in the monsoon. Other highlights are the Indian Wild Ass Sanctuary in the Little Rann of Kutch, Velavadar Blackbuck National Park, the Nal Sarovar and Thol wetlands, and the Marine National Park near Jamnagar.",
+  "takeaways": [
+    "Gir is the only wild home of the Asiatic lion; the 2025 census counted 891 lions.",
+    "Gir safaris run from 16 October to 15 June and are booked on the official Gir permit portal.",
+    "Devalia Safari Park near Sasan stays open during the monsoon.",
+    "The Little Rann of Kutch is the only home of the Indian wild ass.",
+    "November to February is best for birds at Nal Sarovar, Thol and the Rann."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Wildlife places in Gujarat",
+      "table": {
+        "columns": [
+          "Place",
+          "Status",
+          "Known for",
+          "Gateway"
+        ],
+        "rows": [
+          [
+            "Gir",
+            "National park and sanctuary",
+            "Asiatic lions, leopards",
+            "Sasan Gir, Junagadh"
+          ],
+          [
+            "Devalia Safari Park",
+            "Fenced interpretation zone in Gir",
+            "Lions in a smaller area; open in the monsoon",
+            "Sasan Gir"
+          ],
+          [
+            "Indian Wild Ass Sanctuary",
+            "Sanctuary",
+            "Indian wild ass, cranes, raptors",
+            "Dasada, Bajana"
+          ],
+          [
+            "Velavadar",
+            "National park",
+            "Blackbuck, wolves, harriers",
+            "Bhavnagar"
+          ],
+          [
+            "Nal Sarovar",
+            "Bird sanctuary, Ramsar site",
+            "Winter waterbirds",
+            "Ahmedabad"
+          ],
+          [
+            "Thol",
+            "Bird sanctuary, Ramsar site",
+            "Cranes, ducks",
+            "Ahmedabad"
+          ],
+          [
+            "Marine National Park",
+            "National park",
+            "Coral reefs, intertidal life",
+            "Jamnagar"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gir",
+      "heading": "Gir",
+      "items": [
+        {
+          "name": "Safaris",
+          "body": [
+            "Jeep safaris follow set routes from Sasan Gir in three shifts in the dry season. Permits are sold on the official Gir permit portal and sell out early for Diwali, Christmas and weekends."
+          ],
+          "facts": {
+            "Open": "16 October to 15 June",
+            "Closed": "16 June to 15 October"
+          },
+          "links": [
+            {
+              "label": "Gir National Park guide",
+              "href": "/blog/gir-national-park-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/gujarat/asiatic-lion-gir-national-park.webp",
+            "alt": "An Asiatic lion resting in dry forest in Gir National Park",
+            "caption": "An Asiatic lion in Gir"
+          }
+        },
+        {
+          "name": "Devalia and Ambardi",
+          "body": [
+            "Devalia Safari Park, near Sasan, is a fenced part of Gir with lions and other animals, reached by bus or jeep and open in the monsoon. Ambardi Safari Park near Dhari is a similar option on the eastern side."
+          ]
+        },
+        {
+          "name": "Beyond lions",
+          "body": [
+            "Gir also has leopards, striped hyenas, sambar, chital, chinkara, marsh crocodiles in Kamleshwar dam, and a rich bird list."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rann",
+      "heading": "The Rann of Kutch and the grasslands",
+      "items": [
+        {
+          "name": "Little Rann",
+          "body": [
+            "Jeep drives from Dasada or Bajana across salt flats and grassy islands (bets) for wild ass, nilgai, desert foxes, cranes and larks."
+          ],
+          "links": [
+            {
+              "label": "Rann of Kutch guide",
+              "href": "/blog/rann-of-kutch-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Great Rann",
+          "body": [
+            "Flamingos breed on remote mudflats in good monsoon years; the Banni grasslands have raptors and wolves."
+          ]
+        },
+        {
+          "name": "Velavadar",
+          "body": [
+            "Grassland near Bhavnagar with large blackbuck herds, Indian wolves and one of the world's largest harrier roosts in winter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "table": {
+        "columns": [
+          "Months",
+          "What to expect"
+        ],
+        "rows": [
+          [
+            "October to February",
+            "Pleasant; birds in the Rann and wetlands"
+          ],
+          [
+            "March to June",
+            "Hot; good lion sightings in Gir"
+          ],
+          [
+            "June to October",
+            "Gir closed except Devalia; wetlands fill"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stay",
+      "heading": "Where to stay and how long",
+      "paras": [
+        "Sasan Gir has resorts, homestays and a forest department guest house near the reception centre. Dasada and Bajana have eco-camps for the Little Rann; Ahmedabad works for Nal Sarovar and Thol. Two nights in Gir allow three or four safaris; a week covers Gir, Velavadar and the Little Rann."
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "A sample Gujarat route",
+      "table": {
+        "columns": [
+          "Days",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Ahmedabad; Thol or Nal Sarovar at dawn"
+          ],
+          [
+            "2 to 3",
+            "Little Rann of Kutch from Dasada"
+          ],
+          [
+            "4",
+            "Velavadar via Bhavnagar"
+          ],
+          [
+            "5 to 7",
+            "Sasan Gir: safaris, Devalia and Junagadh"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Sightings are never guaranteed; plan several drives and enjoy the landscape itself.",
+    "Stay in the vehicle or boat and follow your guide.",
+    "Book permits only through official forest department portals or trusted operators.",
+    "Never feed animals or leave litter in a park.",
+    "Lions live near villages and roads around Gir; never approach them on foot."
+  ],
+  "packing": [
+    "Hat, sunscreen and water",
+    "Warm layers for winter nights in the Rann",
+    "Neutral clothes",
+    "Binoculars"
+  ],
+  "faqs": [
+    {
+      "q": "Where can I see Asiatic lions in India?",
+      "a": "Only in and around Gir National Park and Sanctuary in Gujarat."
+    },
+    {
+      "q": "How many lions are there in Gir?",
+      "a": "The 2025 census counted 891 Asiatic lions in Gujarat."
+    },
+    {
+      "q": "When is Gir closed?",
+      "a": "From 16 June to 15 October; Devalia Safari Park stays open."
+    },
+    {
+      "q": "How do I book a Gir safari?",
+      "a": "On the official Gir permit portal, as early as possible for holidays."
+    },
+    {
+      "q": "Where can I see the Indian wild ass?",
+      "a": "In the Little Rann of Kutch, from Dasada or Bajana."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Gir National Park guide",
+      "href": "/blog/gir-national-park-travel-guide"
+    },
+    {
+      "label": "Things to do in Kutch",
+      "href": "/blog/things-to-do-in-kutch"
+    },
+    {
+      "label": "Gujarat travel guide",
+      "href": "/blog/gujarat-travel-guide"
+    },
+    {
+      "label": "Gujarat tour packages",
+      "href": "/packages/gujarat"
+    },
+    {
+      "label": "Wildlife trips",
+      "href": "/packages/wildlife-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Where to see wildlife in India",
+      "href": "/blog/where-to-see-wildlife-in-india",
+      "note": "species by species"
+    },
+    {
+      "name": "Birdwatching in India",
+      "href": "/blog/birdwatching-in-india",
+      "note": "wetlands and the Rann"
+    },
+    {
+      "name": "Desert adventures in India",
+      "href": "/blog/desert-adventures-in-india",
+      "note": "the white Rann"
+    },
+    {
+      "name": "Spiritual tourism in Gujarat",
+      "href": "/blog/spiritual-tourism-in-gujarat",
+      "note": "Somnath is 45 km from Gir"
+    }
+  ],
+  "places": [
+    "Gir",
+    "Sasan Gir",
+    "Devalia",
+    "Little Rann of Kutch",
+    "Velavadar",
+    "Nal Sarovar",
+    "Thol",
+    "Marine National Park"
+  ],
+  "styles": [
+    "wildlife-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Gir",
+  "updated": "2026-09-25"
+}

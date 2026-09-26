@@ -1,0 +1,332 @@
+{
+  "slug": "rann-utsav",
+  "kind": "destination",
+  "short": "Rann Utsav",
+  "title": "Rann Utsav, Kutch: Dates, Tent City and How to Visit",
+  "seoTitle": "Rann Utsav, Kutch: Dates, Tent City & How to Plan | Kudozz Club",
+  "metaDescription": "Plan the Rann Utsav in Kutch: festival season at Dhordo, the tent city, the white Rann under the full moon, permits, crafts villages, and when to go.",
+  "description": "A planning guide to the Rann Utsav, Gujarat's winter festival on the white salt desert of the Rann of Kutch: the 2026 to 2027 season at Dhordo, the tent city, cultural programmes, full-moon nights on the white Rann, the permit for the Rann, the craft villages around Bhuj, Kalo Dungar and Dholavira, and how to plan a visit.",
+  "dek": "For a few months each winter, the white salt desert of Kutch becomes the setting for a festival of music, crafts and moonlit nights, with a tent city at its edge.",
+  "primaryKeyword": "Rann Utsav",
+  "secondaryKeywords": [
+    "Rann Utsav 2026",
+    "Dhordo tent city",
+    "White Rann festival"
+  ],
+  "searchIntent": "Event planning",
+  "activities": [
+    "festivals",
+    "crafts",
+    "desert",
+    "photography"
+  ],
+  "terrain": [
+    "desert",
+    "salt flat"
+  ],
+  "regions": [
+    "Gujarat",
+    "Kutch"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers",
+    "groups"
+  ],
+  "tags": [
+    "Rann Utsav",
+    "Kutch",
+    "White Rann",
+    "Gujarat",
+    "Festivals"
+  ],
+  "hero": {
+    "src": "/images/heritage/rann-utsav-white-rann.webp",
+    "alt": "The tent city of the Rann Utsav at Dhordo, Kutch"
+  },
+  "parent": {
+    "label": "Cultural Festivals in India",
+    "href": "/blog/cultural-festivals-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Great Rann of Kutch (Rann Utsav)",
+    "containedIn": "Gujarat"
+  },
+  "intro": [
+    "The Rann Utsav is organised by Gujarat Tourism each winter at Dhordo, on the edge of the Great Rann of Kutch. When the monsoon water evaporates, it leaves a vast, flat white crust of salt, which is at its most striking on full-moon nights.",
+    "The festival runs for several months, with a tent city, cultural programmes, craft stalls and excursions. For the 2026 to 2027 season, the tent city is announced from 1 November 2026 to 7 March 2027; check the official site for the latest dates and packages."
+  ],
+  "quickAnswer": "The Rann Utsav is Gujarat Tourism's winter festival at Dhordo, on the white salt desert of the Great Rann of Kutch, about 85 km from Bhuj. The 2026 to 2027 season runs from 1 November 2026 to 7 March 2027. Visitors stay in the tent city or in Bhuj and nearby villages, and a permit is needed to enter the white Rann. Full-moon nights are the highlight.",
+  "takeaways": [
+    "The 2026 to 2027 season is announced from 1 November 2026 to 7 March 2027.",
+    "The tent city is at Dhordo, about 85 km from Bhuj.",
+    "A permit is needed for the white Rann; it is available online or at the checkpost.",
+    "Full-moon nights are the most popular; book early for those dates.",
+    "The craft villages of Kutch are an essential part of the trip."
+  ],
+  "sections": [
+    {
+      "id": "facts",
+      "heading": "Key facts",
+      "table": {
+        "columns": [
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "Season (2026 to 2027)",
+            "1 November 2026 to 7 March 2027 (check the official site)"
+          ],
+          [
+            "Venue",
+            "Tent city at Dhordo, Kutch"
+          ],
+          [
+            "Nearest city",
+            "Bhuj, about 85 km"
+          ],
+          [
+            "Nearest airports",
+            "Bhuj; Ahmedabad for more connections"
+          ],
+          [
+            "Organiser",
+            "Gujarat Tourism"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "white-rann",
+      "heading": "The white Rann",
+      "paras": [
+        "The Great Rann of Kutch is a seasonal salt marsh. In the monsoon it floods; in winter it dries into a white crust that stretches to the horizon. The viewpoint near Dhordo is busiest at sunset and on full-moon nights, when the salt glows under the moon. Walk a little away from the crowds for the best views."
+      ],
+      "items": [
+        {
+          "name": "Rann of Kutch",
+          "body": [
+            "The white desert."
+          ],
+          "links": [
+            {
+              "label": "Rann of Kutch guide",
+              "href": "/blog/rann-of-kutch-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/rann-of-kutch/the-white-rann-rann-of-kutch.webp",
+            "alt": "The white salt desert of the Rann of Kutch",
+            "caption": "The white Rann"
+          }
+        }
+      ]
+    },
+    {
+      "id": "programme",
+      "heading": "What happens",
+      "list": [
+        "Folk music and dance performances in the evenings.",
+        "Craft stalls with Kutchi embroidery, bandhani, Ajrakh, leather and bell-metal work.",
+        "Camel-cart rides on the edge of the Rann.",
+        "Excursions to Kalo Dungar, the craft villages and Dholavira.",
+        "Adventure activities such as paramotoring, depending on the season's programme."
+      ]
+    },
+    {
+      "id": "crafts",
+      "heading": "Craft villages",
+      "list": [
+        "Hodka and Dhordo: embroidery and mud-walled bhunga houses.",
+        "Bhujodi: weaving, near Bhuj.",
+        "Ajrakhpur: Ajrakh block printing.",
+        "Nirona: rogan painting and bell-metal work.",
+        "Khavda: pottery."
+      ],
+      "items": [
+        {
+          "name": "Kutch",
+          "body": [
+            "Crafts and places around Bhuj."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kutch",
+              "href": "/blog/things-to-do-in-kutch"
+            },
+            {
+              "label": "Handicrafts of India",
+              "href": "/blog/handicrafts-of-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Nearby",
+      "items": [
+        {
+          "name": "Kalo Dungar and Dholavira",
+          "body": [
+            "Kalo Dungar, the highest point in Kutch, has sweeping views over the Rann; Dholavira, the UNESCO Harappan city, is a long day trip."
+          ],
+          "links": [
+            {
+              "label": "Dholavira guide",
+              "href": "/blog/dholavira-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/rann-of-kutch/kalo-dungar-rann-of-kutch.webp",
+            "alt": "The view from Kalo Dungar over the Rann of Kutch",
+            "caption": "Kalo Dungar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stay",
+      "heading": "Where to stay",
+      "list": [
+        "The tent city at Dhordo, booked through the official Rann Utsav channels, in a range of tent categories.",
+        "Homestays and resorts in villages such as Hodka and Dhordo.",
+        "Hotels in Bhuj, with day trips to the Rann (about two hours each way)."
+      ]
+    },
+    {
+      "id": "three-days",
+      "heading": "A three-day Kutch plan",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Arrive in Bhuj; Aina Mahal and Prag Mahal; evening in the old bazaar"
+          ],
+          [
+            "2",
+            "Craft villages (Bhujodi, Ajrakhpur, Nirona) on the way to Dhordo; sunset and moonrise on the white Rann"
+          ],
+          [
+            "3",
+            "Kalo Dungar at sunrise, Hodka village, return to Bhuj"
+          ]
+        ]
+      },
+      "after": [
+        "Add a night at Dholavira if you want to see the Harappan city."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "list": [
+        "November: the salt is still drying in places; quieter and good value.",
+        "December to February: the white Rann is at its best; full-moon nights are the busiest.",
+        "March: warmer days, the season winds down."
+      ]
+    }
+  ],
+  "safety": [
+    "Festival dates change every year and are set by organisers or follow the lunar calendar; confirm with the organisers or state tourism before you book.",
+    "Carry your Rann permit and ID; the area is close to the international border and checks are strict.",
+    "Nights are cold and days are sunny; protect yourself from the glare off the salt."
+  ],
+  "packing": [
+    "Warm layers for the night",
+    "Sunglasses and sunscreen",
+    "Comfortable shoes",
+    "Cash for craft purchases"
+  ],
+  "faqs": [
+    {
+      "q": "When is the Rann Utsav 2026 to 2027?",
+      "a": "The tent city season is announced from 1 November 2026 to 7 March 2027; check the official site."
+    },
+    {
+      "q": "Where is the Rann Utsav held?",
+      "a": "At Dhordo, on the edge of the Great Rann of Kutch, about 85 km from Bhuj."
+    },
+    {
+      "q": "Do I need a permit to visit the white Rann?",
+      "a": "Yes, a permit is required; it can be obtained online or at the checkpost."
+    },
+    {
+      "q": "When is the best time to see the white Rann?",
+      "a": "On full-moon nights from December to February."
+    },
+    {
+      "q": "Can I visit without staying in the tent city?",
+      "a": "Yes, you can stay in Bhuj or nearby villages and visit the Rann for the day."
+    },
+    {
+      "q": "How many days do I need for Kutch?",
+      "a": "Three days covers Bhuj, the craft villages and the white Rann; add a day or two for Dholavira and Mandvi."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage tourism in Gujarat",
+      "href": "/blog/heritage-tourism-in-gujarat"
+    },
+    {
+      "label": "Gujarat heritage itinerary",
+      "href": "/blog/gujarat-heritage-itinerary"
+    },
+    {
+      "label": "Cultural festivals in India",
+      "href": "/blog/cultural-festivals-in-india"
+    },
+    {
+      "label": "Gujarat tour packages",
+      "href": "/packages/gujarat"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Things to do in Kutch",
+      "href": "/blog/things-to-do-in-kutch",
+      "note": "the region"
+    },
+    {
+      "name": "Textile heritage of India",
+      "href": "/blog/textile-heritage-of-india",
+      "note": "Kutch's crafts"
+    },
+    {
+      "name": "Dholavira guide",
+      "href": "/blog/dholavira-travel-guide",
+      "note": "Harappan city"
+    }
+  ],
+  "places": [
+    "Dhordo",
+    "Bhuj",
+    "Hodka",
+    "Bhujodi",
+    "Ajrakhpur",
+    "Nirona",
+    "Kalo Dungar",
+    "Dholavira"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Kutch",
+  "updated": "2026-09-26"
+}

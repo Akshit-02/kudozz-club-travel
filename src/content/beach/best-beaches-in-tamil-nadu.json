@@ -1,0 +1,493 @@
+{
+  "slug": "best-beaches-in-tamil-nadu",
+  "kind": "state",
+  "short": "Best beaches in Tamil Nadu",
+  "title": "Best Beaches in Tamil Nadu: Chennai, Mahabalipuram, Rameswaram and Kanyakumari",
+  "seoTitle": "Best Beaches in Tamil Nadu: Chennai to Kanyakumari | Kudozz Club",
+  "metaDescription": "The best beaches in Tamil Nadu: Chennai's Marina and Elliot's, Kovalam (Covelong), Mahabalipuram, Tranquebar, Rameswaram and Dhanushkodi, and Kanyakumari.",
+  "description": "A guide to the best beaches on Tamil Nadu's long coast: Chennai's city beaches, Kovalam (Covelong) and Mahabalipuram on the East Coast Road, Tranquebar and Velankanni on the delta coast, Rameswaram and Dhanushkodi, and Kanyakumari at India's southern tip, with the north-east monsoon, swimming rules and when to go.",
+  "dek": "Tamil Nadu's coast is less about lazy beach days and more about temples, heritage and sunrise at land's end. Here are its best beaches and what each is for.",
+  "primaryKeyword": "best beaches in Tamil Nadu",
+  "secondaryKeywords": [
+    "beaches in Tamil Nadu",
+    "Tamil Nadu beaches",
+    "beach holiday Tamil Nadu",
+    "beach travel in Tamil Nadu",
+    "best beach in Tamil Nadu for families",
+    "quiet beaches Tamil Nadu"
+  ],
+  "searchIntent": "Choose beaches in Tamil Nadu",
+  "activities": [
+    "beaches",
+    "heritage",
+    "surfing",
+    "sunrise",
+    "pilgrimage"
+  ],
+  "terrain": [
+    "beaches",
+    "coast"
+  ],
+  "regions": [
+    "Tamil Nadu",
+    "South India",
+    "Coromandel coast"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tags": [
+    "Tamil Nadu",
+    "Beaches",
+    "Mahabalipuram",
+    "Kanyakumari"
+  ],
+  "hero": {
+    "src": "/images/beach/tamil-nadu-beach-dhanushkodi.webp",
+    "alt": "Beach near Dhanushkodi, Rameswaram island, Tamil Nadu",
+    "caption": "Near Dhanushkodi"
+  },
+  "parent": {
+    "label": "Best Beach Destinations in India",
+    "href": "/blog/best-beach-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Tamil Nadu coast",
+    "containedIn": "Tamil Nadu"
+  },
+  "intro": [
+    "Tamil Nadu has one of India's longest coastlines, running along the Bay of Bengal from Chennai down the Coromandel coast to Kanyakumari, where it meets the Indian Ocean and the Arabian Sea. Its best-known beaches are tied to temples and history: the Shore Temple at Mahabalipuram, the Danish fort at Tranquebar and the tip of India at Kanyakumari.",
+    "The sea here is often rough, and swimming is prohibited on several city beaches, so plan beach time around walks, sunrise and heritage rather than long swims. The state gets most of its rain from the north-east monsoon, roughly October to December."
+  ],
+  "quickAnswer": "The best beaches in Tamil Nadu are Kovalam (Covelong) near Chennai for surfing and its Blue Flag beach, Mahabalipuram for the Shore Temple, Elliot's beach in Chennai for evening walks, Tranquebar for its Danish fort, Rameswaram and Dhanushkodi for the ghost town at the end of the island, and Kanyakumari for sunrise at India's tip. Go from about December to March, avoiding the north-east monsoon.",
+  "takeaways": [
+    "Swimming is prohibited at Chennai's Marina beach because of dangerous currents.",
+    "Kovalam (Covelong) on the East Coast Road is Tamil Nadu's surf town and has a Blue Flag beach.",
+    "Mahabalipuram's Shore Temple, a UNESCO World Heritage monument, stands on the beach.",
+    "Dhanushkodi, at the tip of Rameswaram island, has been a ghost town since the 1964 cyclone.",
+    "The north-east monsoon (about October to December) brings heavy rain and cyclone risk to this coast."
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "heading": "Tamil Nadu beaches at a glance",
+      "table": {
+        "columns": [
+          "Beach",
+          "Near",
+          "Best for",
+          "Swimming?"
+        ],
+        "rows": [
+          [
+            "Marina",
+            "Chennai",
+            "Evening crowds, street food",
+            "Prohibited"
+          ],
+          [
+            "Elliot's (Besant Nagar)",
+            "Chennai",
+            "Calmer evening walks",
+            "Not advised"
+          ],
+          [
+            "Kovalam (Covelong)",
+            "Chennai, East Coast Road",
+            "Surfing, Blue Flag beach",
+            "In season, at the managed beach"
+          ],
+          [
+            "Mahabalipuram",
+            "East Coast Road",
+            "Shore Temple, surf lessons",
+            "With care"
+          ],
+          [
+            "Tranquebar (Tharangambadi)",
+            "Mayiladuthurai",
+            "Danish fort, quiet",
+            "With care"
+          ],
+          [
+            "Velankanni",
+            "Nagapattinam",
+            "Pilgrimage beach",
+            "With care"
+          ],
+          [
+            "Dhanushkodi and Arichal Munai",
+            "Rameswaram",
+            "End-of-land views, ruins",
+            "Not advised"
+          ],
+          [
+            "Kanyakumari",
+            "Kanyakumari",
+            "Sunrise, sunset, Vivekananda Rock",
+            "Not advised"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "chennai",
+      "heading": "Chennai and the East Coast Road",
+      "items": [
+        {
+          "name": "Marina and Elliot's beaches",
+          "body": [
+            "Marina, running along the city's shore, is one of the longest urban beaches in the world and fills up every evening with families, food stalls and kite sellers. Bathing is prohibited because of dangerous undercurrents. Elliot's beach at Besant Nagar is smaller and calmer, with cafes nearby."
+          ],
+          "facts": {
+            "Best for": "Evenings, food",
+            "Good to know": "No swimming at Marina"
+          },
+          "links": [
+            {
+              "label": "Things to do in Chennai",
+              "href": "/blog/things-to-do-in-chennai"
+            },
+            {
+              "label": "Chennai travel guide",
+              "href": "/blog/chennai-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/chennai/marina-beach-shoreline-waves-chennai.webp",
+            "alt": "Waves on Marina beach, Chennai",
+            "caption": "Marina beach"
+          }
+        },
+        {
+          "name": "Kovalam (Covelong)",
+          "body": [
+            "A fishing village about 40 km south of Chennai with a point break, several surf schools and a Blue Flag beach. Not to be confused with Kovalam in Kerala."
+          ],
+          "facts": {
+            "Best for": "Surfing, a day out from Chennai"
+          },
+          "links": [
+            {
+              "label": "Surfing in India",
+              "href": "/blog/surfing-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Mahabalipuram",
+          "body": [
+            "The Pallava port town, about 55 km from Chennai, has the Shore Temple right on the beach, along with rock-cut monuments inland. Surf schools and seafood shacks line the village beach."
+          ],
+          "facts": {
+            "Best for": "Heritage and beach, surf lessons"
+          },
+          "links": [
+            {
+              "label": "Things to do in Mahabalipuram",
+              "href": "/blog/things-to-do-in-mahabalipuram"
+            },
+            {
+              "label": "Mahabalipuram travel guide",
+              "href": "/blog/mahabalipuram-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp",
+            "alt": "The Shore Temple at Mahabalipuram",
+            "caption": "Shore Temple"
+          }
+        }
+      ]
+    },
+    {
+      "id": "delta",
+      "heading": "The delta coast",
+      "items": [
+        {
+          "name": "Tranquebar (Tharangambadi)",
+          "body": [
+            "A former Danish trading post with Fort Dansborg on the sand and quiet streets of colonial houses, far from crowds."
+          ],
+          "facts": {
+            "Best for": "Quiet heritage stays"
+          }
+        },
+        {
+          "name": "Velankanni",
+          "body": [
+            "A pilgrimage town whose basilica attracts visitors of all faiths; the beach is busy with pilgrims, especially during the annual feast in late August and early September."
+          ],
+          "facts": {
+            "Best for": "Pilgrims"
+          }
+        },
+        {
+          "name": "Pichavaram",
+          "body": [
+            "Not a beach but one of India's largest mangrove forests, near Chidambaram, explored by rowing boat through narrow channels."
+          ],
+          "facts": {
+            "Best for": "Nature, boating"
+          },
+          "links": [
+            {
+              "label": "Coastal tourism in India",
+              "href": "/blog/coastal-tourism-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south",
+      "heading": "Rameswaram and Kanyakumari",
+      "items": [
+        {
+          "name": "Rameswaram and Dhanushkodi",
+          "body": [
+            "Rameswaram is an island town reached by road and rail bridges across the Pamban channel. At its south-eastern tip, Dhanushkodi was destroyed by a cyclone in 1964; the ruins and the road to Arichal Munai, where land ends between two seas, are open to visitors in daylight hours."
+          ],
+          "facts": {
+            "Best for": "Pilgrims, landscapes",
+            "Good to know": "Swimming not advised; check timings"
+          },
+          "links": [
+            {
+              "label": "Things to do in Rameswaram",
+              "href": "/blog/things-to-do-in-rameswaram"
+            },
+            {
+              "label": "Rameswaram travel guide",
+              "href": "/blog/rameswaram-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/rameswaram/pamban-bridge-sea-rameswaram.webp",
+            "alt": "Pamban bridge over the sea to Rameswaram",
+            "caption": "Pamban"
+          }
+        },
+        {
+          "name": "Kanyakumari",
+          "body": [
+            "At India's southern tip, where the Bay of Bengal, Indian Ocean and Arabian Sea meet, visitors gather for sunrise and sunset and take ferries to the Vivekananda Rock Memorial and the Thiruvalluvar statue. The shore is rocky and the sea rough, so it is for views rather than swimming."
+          ],
+          "facts": {
+            "Best for": "Sunrise, sunset"
+          },
+          "links": [
+            {
+              "label": "Things to do in Kanyakumari",
+              "href": "/blog/things-to-do-in-kanyakumari"
+            },
+            {
+              "label": "Kanyakumari travel guide",
+              "href": "/blog/kanyakumari-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "heading": "Suggested itinerary",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Chennai: Marina and Elliot's beaches in the evening"
+          ],
+          [
+            "2",
+            "East Coast Road to Kovalam (Covelong) for a surf lesson; Mahabalipuram"
+          ],
+          [
+            "3",
+            "Shore Temple and monuments; continue to Puducherry"
+          ],
+          [
+            "4",
+            "Tranquebar and Velankanni"
+          ],
+          [
+            "5",
+            "Rameswaram temple and Dhanushkodi"
+          ],
+          [
+            "6",
+            "Drive to Kanyakumari for sunset"
+          ],
+          [
+            "7",
+            "Sunrise and Vivekananda Rock; depart"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "who-for",
+      "heading": "Who is it best for?",
+      "items": [
+        {
+          "name": "Families",
+          "body": [
+            "Mahabalipuram and Kanyakumari combine beaches with sights."
+          ]
+        },
+        {
+          "name": "Pilgrims",
+          "body": [
+            "Rameswaram, Velankanni and Kanyakumari."
+          ]
+        },
+        {
+          "name": "Surfers",
+          "body": [
+            "Kovalam (Covelong) and Mahabalipuram."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-many-days",
+      "heading": "How many days?",
+      "paras": [
+        "Two days covers Chennai and Mahabalipuram. A full coastal loop to Rameswaram and Kanyakumari takes six to eight days, as distances are long."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "table": {
+        "columns": [
+          "Months",
+          "Conditions"
+        ],
+        "rows": [
+          [
+            "December to March",
+            "Best: dry, pleasant, calmer sea"
+          ],
+          [
+            "April to June",
+            "Hot and humid; early mornings and evenings are best"
+          ],
+          [
+            "July to September",
+            "Some rain, sea variable; surf season on the east coast"
+          ],
+          [
+            "October to December",
+            "North-east monsoon: heavy rain, cyclone risk"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Do not swim at Marina beach; bathing is prohibited because of undercurrents.",
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Check cyclone warnings in October to December, when this coast is most exposed.",
+    "At Dhanushkodi and Kanyakumari, stay back from the water on rocky and windy stretches.",
+    "Surf only with a school and in suitable conditions."
+  ],
+  "packing": [
+    "Light cotton clothes and a hat",
+    "Sunscreen",
+    "Modest clothes for temples",
+    "A rain jacket from October to December"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best beach in Tamil Nadu?",
+      "a": "Mahabalipuram for heritage and beach, Kovalam (Covelong) for surfing, and Kanyakumari for sunrise at India's tip."
+    },
+    {
+      "q": "Can you swim at Marina beach?",
+      "a": "No. Bathing is prohibited because of dangerous undercurrents."
+    },
+    {
+      "q": "Which Tamil Nadu beach has Blue Flag certification?",
+      "a": "Kovalam (Covelong) near Chennai."
+    },
+    {
+      "q": "What is the best time to visit Tamil Nadu's beaches?",
+      "a": "December to March, after the north-east monsoon."
+    },
+    {
+      "q": "Is Dhanushkodi worth visiting?",
+      "a": "Yes, for its ruins and the road to Arichal Munai, where land ends between two seas. Visit in daylight and check timings."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Tamil Nadu travel guide",
+      "href": "/blog/tamil-nadu-travel-guide"
+    },
+    {
+      "label": "Things to do in Mahabalipuram",
+      "href": "/blog/things-to-do-in-mahabalipuram"
+    },
+    {
+      "label": "Things to do in Kanyakumari",
+      "href": "/blog/things-to-do-in-kanyakumari"
+    },
+    {
+      "label": "Tamil Nadu tour packages",
+      "href": "/packages/tamil-nadu"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best beaches in Puducherry",
+      "href": "/blog/best-beaches-in-puducherry",
+      "note": "a short drive down the coast"
+    },
+    {
+      "name": "Surfing in India",
+      "href": "/blog/surfing-in-india",
+      "note": "surf schools near Chennai"
+    },
+    {
+      "name": "Beach trips in India",
+      "href": "/blog/beach-trips-in-india",
+      "note": "beach escapes from Chennai"
+    },
+    {
+      "name": "Spiritual tourism in Tamil Nadu",
+      "href": "/blog/spiritual-tourism-in-tamil-nadu",
+      "note": "the great temple towns"
+    }
+  ],
+  "places": [
+    "Marina beach",
+    "Elliot's beach",
+    "Kovalam (Covelong)",
+    "Mahabalipuram",
+    "Tranquebar",
+    "Velankanni",
+    "Pichavaram",
+    "Rameswaram",
+    "Dhanushkodi",
+    "Arichal Munai",
+    "Kanyakumari"
+  ],
+  "styles": [
+    "family-holidays",
+    "spiritual-tours"
+  ],
+  "planDestination": "Tamil Nadu",
+  "updated": "2026-09-25"
+}

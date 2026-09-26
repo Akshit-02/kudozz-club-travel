@@ -1,0 +1,421 @@
+{
+  "slug": "food-heritage-of-india",
+  "kind": "pillar",
+  "short": "Food heritage of India",
+  "title": "Food Heritage of India: Regional Cuisines for Travellers",
+  "seoTitle": "Food Heritage of India: Regional Cuisines to Travel For | Kudozz Club",
+  "metaDescription": "A guide to India's food heritage: Awadhi, Hyderabadi, Mughlai, Rajasthani, Gujarati, Bengali, Kerala, Chettinad, Goan, Kashmiri and north-eastern cooking.",
+  "description": "A traveller's guide to the food heritage of India: the royal kitchens of Lucknow, Hyderabad and Delhi, Rajasthani and Gujarati thalis, Bengali sweets, Kerala's sadya and seafood, Chettinad spice, Goan and Parsi food, Kashmiri wazwan, north-eastern cooking and temple food, with GI-tagged foods, food walks and tips for eating well and safely.",
+  "dek": "In India, heritage is also on the plate. Every region's food carries its history, from royal kitchens and temple offerings to trade routes and home cooking.",
+  "primaryKeyword": "food heritage of India",
+  "secondaryKeywords": [
+    "culinary tourism India",
+    "traditional food of India",
+    "regional cuisines India"
+  ],
+  "searchIntent": "Informational/experience",
+  "activities": [
+    "food",
+    "food walks",
+    "markets",
+    "culture"
+  ],
+  "terrain": [
+    "city",
+    "village"
+  ],
+  "regions": [
+    "Uttar Pradesh",
+    "Telangana",
+    "Delhi",
+    "Rajasthan",
+    "Gujarat",
+    "West Bengal",
+    "Kerala",
+    "Tamil Nadu",
+    "Goa",
+    "Jammu and Kashmir"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "travellers": [
+    "food lovers",
+    "couples",
+    "families"
+  ],
+  "tags": [
+    "Food Heritage",
+    "Indian Cuisine",
+    "Food Walks",
+    "Regional Food"
+  ],
+  "hero": {
+    "src": "/images/heritage/food-heritage-thali.webp",
+    "alt": "An Indian vegetarian thali with breads, dal and vegetables"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Food heritage of India"
+  },
+  "intro": [
+    "Indian food changes every few hundred kilometres. It is shaped by climate and crops, by religion and caste, by royal courts, and by trade with Persia, Central Asia, Portugal, Britain and Southeast Asia. Much of it is best eaten where it comes from: in a home, a dhaba, a temple, a market or a small old-city eatery.",
+    "This guide covers the regional food traditions that travellers can seek out, with the cities where they are strongest."
+  ],
+  "quickAnswer": "India's great food heritage includes the Awadhi kebabs and biryani of Lucknow, Hyderabadi biryani and haleem, Mughlai food in Old Delhi, Rajasthani and Gujarati thalis, Bengali fish and sweets, Kerala's sadya and seafood, Chettinad cooking in Tamil Nadu, Goan and Parsi food, Kashmiri wazwan, and the cooking of the north-east. Food walks in old cities are the easiest way to taste them.",
+  "takeaways": [
+    "Each region's food reflects its history, crops and communities.",
+    "Old-city food walks are the best introduction.",
+    "Several foods have GI tags, including Darjeeling tea and Hyderabadi haleem.",
+    "Vegetarian traditions are especially strong in Gujarat, Rajasthan and temple towns.",
+    "Eat freshly cooked, hot food and drink bottled or filtered water."
+  ],
+  "sections": [
+    {
+      "id": "regions",
+      "heading": "Regional food at a glance",
+      "table": {
+        "columns": [
+          "Cuisine",
+          "Where",
+          "Try"
+        ],
+        "rows": [
+          [
+            "Awadhi",
+            "Lucknow",
+            "Galouti and kakori kebabs, biryani, sheermal"
+          ],
+          [
+            "Hyderabadi",
+            "Hyderabad",
+            "Biryani, haleem (in Ramzan), Irani chai and Osmania biscuits"
+          ],
+          [
+            "Mughlai and Old Delhi",
+            "Delhi",
+            "Nihari, kebabs, parathas, jalebi"
+          ],
+          [
+            "Rajasthani",
+            "Rajasthan",
+            "Dal baati churma, gatte, laal maas"
+          ],
+          [
+            "Gujarati",
+            "Gujarat",
+            "Thali, dhokla, undhiyu in winter"
+          ],
+          [
+            "Bengali",
+            "Kolkata",
+            "Fish in mustard, mishti doi, rosogolla"
+          ],
+          [
+            "Kerala",
+            "Kerala",
+            "Sadya on a banana leaf, appam and stew, seafood"
+          ],
+          [
+            "Chettinad",
+            "Tamil Nadu",
+            "Pepper-rich chicken, paniyaram"
+          ],
+          [
+            "Goan",
+            "Goa",
+            "Fish curry rice, xacuti, bebinca"
+          ],
+          [
+            "Kashmiri",
+            "Kashmir",
+            "Wazwan feast: rogan josh, gushtaba"
+          ],
+          [
+            "North-east",
+            "Nagaland, Meghalaya, Assam",
+            "Smoked pork, bamboo shoot, jadoh, Assamese thali"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "royal",
+      "heading": "Royal and courtly kitchens",
+      "items": [
+        {
+          "name": "Lucknow",
+          "body": [
+            "The Nawabs of Awadh made slow cooking (dum) and fine kebabs an art."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Lucknow",
+              "href": "/blog/things-to-do-in-lucknow"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/lucknow/galouti-kebab-tunday-kababi-lucknow.webp",
+            "alt": "Galouti kebabs being cooked in Lucknow",
+            "caption": "Galouti kebabs, Lucknow"
+          }
+        },
+        {
+          "name": "Hyderabad",
+          "body": [
+            "A blend of Mughlai, Turkish and Telugu influences, famous for biryani and, in Ramzan, haleem."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Hyderabad",
+              "href": "/blog/things-to-do-in-hyderabad"
+            }
+          ]
+        },
+        {
+          "name": "Old Delhi",
+          "body": [
+            "The lanes around the Jama Masjid and Chandni Chowk, with dishes going back generations."
+          ],
+          "links": [
+            {
+              "label": "Old Delhi guide",
+              "href": "/blog/old-delhi-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vegetarian",
+      "heading": "Vegetarian traditions",
+      "items": [
+        {
+          "name": "Gujarat and Rajasthan",
+          "body": [
+            "Thalis with many small dishes; Jain food without root vegetables."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Ahmedabad",
+              "href": "/blog/things-to-do-in-ahmedabad"
+            }
+          ]
+        },
+        {
+          "name": "Temple food",
+          "body": [
+            "The prasad and meals of temple kitchens, such as Udupi's, which gave its name to a style of south Indian restaurant, and the Golden Temple's langar in Amritsar, which serves free meals to all."
+          ],
+          "links": [
+            {
+              "label": "Udupi guide",
+              "href": "/blog/udupi-travel-guide"
+            },
+            {
+              "label": "Amritsar guide",
+              "href": "/blog/amritsar-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coast",
+      "heading": "Coastal and trade influences",
+      "items": [
+        {
+          "name": "Kerala and Goa",
+          "body": [
+            "Coconut, spices and seafood, with Syrian Christian, Mappila and Portuguese influences."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kochi",
+              "href": "/blog/things-to-do-in-kochi"
+            },
+            {
+              "label": "Things to do in Goa",
+              "href": "/blog/things-to-do-in-goa"
+            }
+          ]
+        },
+        {
+          "name": "Mumbai and Kolkata",
+          "body": [
+            "Parsi and Irani cafés in Mumbai; Kolkata's Bengali sweets, Anglo-Indian and Chinese traditions."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kolkata",
+              "href": "/blog/things-to-do-in-kolkata"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gi",
+      "heading": "Foods with GI tags",
+      "list": [
+        "Darjeeling tea.",
+        "Hyderabadi haleem.",
+        "Bikaneri bhujia.",
+        "Rasagola (Odisha) and Banglar Rosogolla (West Bengal), both registered.",
+        "Dharwad pedha (Karnataka), among many others."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Eating well and safely",
+      "list": [
+        "Eat where locals queue, and choose freshly cooked, hot food.",
+        "Drink bottled or filtered water; be careful with ice and cut fruit.",
+        "Street food is best in the evening in most cities, when it is freshly made.",
+        "Ask about spice levels; 'less spicy' is a common request."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "How history shaped Indian food",
+      "paras": [
+        "Many staples of Indian cooking arrived through trade and empire. Chillies, potatoes and tomatoes came from the Americas with the Portuguese from the 16th century. Persian and Central Asian influences shaped the pulaos, kebabs and breads of the Mughal and Deccan courts. Tea became a mass drink only in the 20th century, after British planters built the industry in Assam and Darjeeling. At the same time, older traditions, such as Ayurvedic ideas of balance, regional grains like millets, and temple and festival foods, continue in home kitchens."
+      ]
+    },
+    {
+      "id": "festival-food",
+      "heading": "Festival food",
+      "list": [
+        "Onam sadya in Kerala: more than 20 dishes on a banana leaf.",
+        "Durga Puja bhog and street food in Kolkata.",
+        "Ramzan evenings in Hyderabad, Lucknow and Old Delhi, when haleem, kebabs and sweets appear.",
+        "Pongal in Tamil Nadu, named after the sweet rice dish cooked for the harvest.",
+        "Undhiyu in Gujarat during Uttarayan in January."
+      ]
+    },
+    {
+      "id": "learn",
+      "heading": "Cooking classes and food walks",
+      "paras": [
+        "Home cooking classes are one of the best ways to understand regional food, and many homestays offer them. Food walks in Old Delhi, Lucknow, Hyderabad, Kolkata, Amritsar and Mumbai are usually held in the evening and cover several small eateries in a few hours."
+      ],
+      "items": [
+        {
+          "name": "Walks",
+          "body": [
+            "Pair food with heritage."
+          ],
+          "links": [
+            {
+              "label": "Heritage walks in India",
+              "href": "/blog/heritage-walks-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "breakfasts",
+      "heading": "Regional breakfasts worth waking up for",
+      "list": [
+        "Poha and jalebi in Indore.",
+        "Idli, dosa and filter coffee in Chennai and Bengaluru.",
+        "Chole bhature and parathas in Delhi and Amritsar.",
+        "Puttu and kadala curry in Kerala."
+      ]
+    }
+  ],
+  "safety": [
+    "Carry oral rehydration salts and any medicines you need.",
+    "Tell hosts and restaurants clearly about allergies and dietary needs."
+  ],
+  "packing": [
+    "Hand sanitiser",
+    "Reusable water bottle",
+    "Oral rehydration salts",
+    "Appetite"
+  ],
+  "faqs": [
+    {
+      "q": "Which Indian city is best for food?",
+      "a": "Lucknow, Hyderabad, Delhi, Kolkata and Amritsar are among the best, each for different reasons."
+    },
+    {
+      "q": "What is a thali?",
+      "a": "A platter of several small dishes, rice and breads, served as a complete meal."
+    },
+    {
+      "q": "What is wazwan?",
+      "a": "A traditional Kashmiri multi-course feast, mostly of meat dishes."
+    },
+    {
+      "q": "Is street food safe in India?",
+      "a": "Usually, if it is freshly cooked, hot and busy with local customers."
+    },
+    {
+      "q": "Which Indian foods have GI tags?",
+      "a": "Darjeeling tea, Hyderabadi haleem, Bikaneri bhujia and rasagola are among them."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage walks in India",
+      "href": "/blog/heritage-walks-in-india"
+    },
+    {
+      "label": "Heritage cities in India",
+      "href": "/blog/heritage-cities-in-india"
+    },
+    {
+      "label": "Cultural festivals in India",
+      "href": "/blog/cultural-festivals-in-india"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Things to do in Lucknow",
+      "href": "/blog/things-to-do-in-lucknow",
+      "note": "kebabs and imambaras"
+    },
+    {
+      "name": "Things to do in Hyderabad",
+      "href": "/blog/things-to-do-in-hyderabad",
+      "note": "biryani and Charminar"
+    },
+    {
+      "name": "Handicrafts of India",
+      "href": "/blog/handicrafts-of-india",
+      "note": "crafts to take home"
+    }
+  ],
+  "places": [
+    "Lucknow",
+    "Hyderabad",
+    "Old Delhi",
+    "Ahmedabad",
+    "Kolkata",
+    "Kochi",
+    "Chettinad",
+    "Goa",
+    "Srinagar",
+    "Amritsar"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

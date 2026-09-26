@@ -1,0 +1,212 @@
+{
+ "hub": {
+  "src": "/images/adventure/adventure-travel-india-himalaya-trekkers.webp",
+  "alt": "Snow peaks reflected in Deoria Tal, Uttarakhand",
+  "caption": "Deoria Tal, Uttarakhand"
+ },
+ "best-adventure-destinations-in-india": {
+  "src": "/images/adventure/ladakh-mountain-road-adventure.webp",
+  "alt": "Motorcyclists on a desert road in Ladakh",
+  "caption": "Ladakh"
+ },
+ "adventure-sports-in-india": {
+  "src": "/images/adventure/rishikesh-ganga-rafting-adventure.webp",
+  "alt": "A raft on the Ganga beside a riverside camp near Rishikesh",
+  "caption": "The Ganga near Rishikesh"
+ },
+ "trekking-in-india": {
+  "src": "/images/adventure/himalayan-trek-trail-india.webp",
+  "alt": "Kedarkantha peak above autumn forest in Uttarakhand",
+  "caption": "Kedarkantha, Uttarakhand"
+ },
+ "beginner-treks-in-india": {
+  "src": "/images/adventure/triund-trek-ridge.webp",
+  "alt": "Snow on the Dhauladhar range seen from the Triund trail",
+  "caption": "Triund, Himachal Pradesh"
+ },
+ "winter-treks-in-india": {
+  "src": "/images/adventure/kedarkantha-winter-trek-snow.webp",
+  "alt": "Frozen Juda ka Talab lake in snow on the Kedarkantha trek",
+  "caption": "Juda ka Talab, Kedarkantha trek"
+ },
+ "monsoon-treks-in-india": {
+  "src": "/images/adventure/sahyadri-monsoon-trek.webp",
+  "alt": "Green slopes of the Valley of Flowers in the monsoon",
+  "caption": "Valley of Flowers, Uttarakhand"
+ },
+ "river-rafting-in-india": {
+  "src": "/images/adventure/white-water-rafting-india-river.webp",
+  "alt": "Rafts on the Zanskar river in Ladakh",
+  "caption": "Zanskar river, Ladakh"
+ },
+ "river-rafting-in-rishikesh": {
+  "src": "/images/adventure/rishikesh-rafting-ganga-rapids.webp",
+  "alt": "A raft on the green Ganga below rocky cliffs at Rishikesh",
+  "caption": "Rafting at Rishikesh"
+ },
+ "paragliding-in-india": {
+  "src": "/images/adventure/paragliding-himalaya-india.webp",
+  "alt": "Paragliding pilots at the Billing take-off with the Dhauladhar range behind",
+  "caption": "Billing take-off, Bir Billing"
+ },
+ "scuba-diving-in-india": {
+  "src": "/images/adventure/scuba-diver-coral-reef-india.webp",
+  "alt": "Scuba divers in blue water in the Andaman Islands",
+  "caption": "Diving in the Andamans"
+ },
+ "scuba-diving-in-andaman": {
+  "src": "/images/adventure/scuba-diving-havelock-andaman.webp",
+  "alt": "A school of barracuda over the reef off Havelock Island",
+  "caption": "Barracuda off Havelock Island"
+ },
+ "snorkeling-in-india": {
+  "src": "/images/adventure/snorkelling-reef-andaman.webp",
+  "alt": "Branching coral and reef fish at Elephant Beach, Havelock Island",
+  "caption": "Elephant Beach reef, Havelock"
+ },
+ "skiing-in-india": {
+  "src": "/images/adventure/skiing-gulmarg-slopes.webp",
+  "alt": "Ski students on the snow slopes at Gulmarg",
+  "caption": "Skiing at Gulmarg"
+ },
+ "bungee-jumping-in-india": {
+  "src": "/images/adventure/bungee-jump-india.webp",
+  "alt": "The bungee tower over Mayem Lake in north Goa",
+  "caption": "Mayem Lake, Goa"
+ },
+ "skydiving-in-india": {
+  "src": "/images/adventure/skydiving-tandem-freefall.webp",
+  "alt": "Tandem skydivers in free fall just after leaving the aircraft",
+  "caption": "Tandem skydive"
+ },
+ "hot-air-balloon-rides-in-india": {
+  "src": "/images/adventure/hot-air-balloon-rajasthan.webp",
+  "alt": "A hot air balloon over Pushkar, Rajasthan",
+  "caption": "Ballooning over Pushkar"
+ },
+ "mountain-biking-in-india": {
+  "src": "/images/adventure/mountain-biking-himalaya-india.webp",
+  "alt": "Paved and dirt roads snaking up the mountainside on the Khardung La road, Ladakh",
+  "caption": "Mountain roads in Ladakh"
+ },
+ "best-motorcycle-trips-in-india": {
+  "src": "/images/adventure/motorcycle-himalayan-road-ladakh.webp",
+  "alt": "A motorcyclist on the road beside Pangong Tso, Ladakh",
+  "caption": "Pangong Tso, Ladakh"
+ },
+ "spiti-valley-bike-trip": {
+  "src": "/images/adventure/spiti-valley-road-kaza.webp",
+  "alt": "A road cut into sheer cliffs on the way to Spiti Valley",
+  "caption": "The road to Spiti"
+ },
+ "rock-climbing-in-india": {
+  "src": "/images/adventure/rock-climbing-hampi-boulders.webp",
+  "alt": "A climber bouldering on a granite boulder at Hampi",
+  "caption": "Bouldering at Hampi"
+ },
+ "mountaineering-in-india": {
+  "src": "/images/adventure/mountaineers-himalayan-glacier.webp",
+  "alt": "Climber sculpture and emblem at the Himalayan Mountaineering Institute, Darjeeling",
+  "caption": "HMI, Darjeeling"
+ },
+ "camping-in-india": {
+  "src": "/images/adventure/camping-tents-himalaya.webp",
+  "alt": "Nomad camp tents in a high valley at Rajung Karu, Ladakh",
+  "caption": "Rajung Karu, Ladakh"
+ },
+ "kayaking-in-india": {
+  "src": "/images/adventure/kayaking-river-india.webp",
+  "alt": "A kayaker paddling on Kotpally reservoir, Telangana",
+  "caption": "Kotpally reservoir, Telangana"
+ },
+ "water-sports-in-india": {
+  "src": "/images/adventure/water-sports-beach-india.webp",
+  "alt": "Parasailing over Calangute beach, Goa",
+  "caption": "Calangute, Goa"
+ },
+ "desert-adventures-in-india": {
+  "src": "/images/adventure/thar-desert-dunes-jaisalmer.webp",
+  "alt": "Rippled sand dunes at Sam near Jaisalmer",
+  "caption": "Sam dunes, Jaisalmer"
+ },
+ "adventure-activities-in-manali": {
+  "src": "/images/adventure/solang-valley-manali-snow.webp",
+  "alt": "A paraglider over pine forest in Solang Valley, Manali",
+  "caption": "Solang Valley"
+ },
+ "adventure-activities-in-ladakh": {
+  "src": "/images/adventure/ladakh-adventure-landscape.webp",
+  "alt": "The turquoise Zanskar river winding through a Ladakh gorge",
+  "caption": "Zanskar river"
+ },
+ "adventure-activities-in-himachal-pradesh": {
+  "src": "/images/adventure/himachal-mountains-adventure.webp",
+  "alt": "A trekker in the valley on the way to Hampta Pass",
+  "caption": "Hampta Pass trail"
+ },
+ "adventure-activities-in-uttarakhand": {
+  "src": "/images/adventure/uttarakhand-himalaya-adventure.webp",
+  "alt": "Trekkers on a snow-covered path to Tungnath",
+  "caption": "The path to Tungnath"
+ },
+ "adventure-activities-in-goa": {
+  "src": "/images/adventure/goa-beach-water-sports.webp",
+  "alt": "A parasail over a busy beach in Goa",
+  "caption": "A Goa beach"
+ },
+ "adventure-activities-in-andaman": {
+  "src": "/images/adventure/andaman-sea-adventure.webp",
+  "alt": "A snorkeller underwater at Elephant Beach, Havelock Island",
+  "caption": "Snorkelling at Elephant Beach"
+ },
+ "adventure-activities-in-sikkim": {
+  "src": "/images/adventure/sikkim-himalaya-trek.webp",
+  "alt": "Kangchenjunga seen from Thangshing on the Goecha La trek",
+  "caption": "Kangchenjunga from Thangshing"
+ },
+ "adventure-activities-in-meghalaya": {
+  "src": "/images/adventure/meghalaya-root-bridge-trek.webp",
+  "alt": "The double-decker living root bridge at Nongriat, Meghalaya",
+  "caption": "Nongriat root bridge"
+ },
+ "weekend-adventure-trips-from-delhi": {
+  "src": "/images/adventure/rishikesh-ganga-weekend.webp",
+  "alt": "The Ganga flowing between green hills at Rishikesh",
+  "caption": "The Ganga at Rishikesh"
+ },
+ "weekend-adventure-trips-from-mumbai": {
+  "src": "/images/adventure/sahyadri-fort-trek-weekend.webp",
+  "alt": "Rajmachi fort hill in the monsoon near Lonavala",
+  "caption": "Rajmachi"
+ },
+ "weekend-adventure-trips-from-bengaluru": {
+  "src": "/images/adventure/savandurga-monolith-karnataka.webp",
+  "alt": "The granite monolith of Savandurga near Bengaluru",
+  "caption": "Savandurga"
+ },
+ "how-to-plan-an-adventure-trip-in-india": {
+  "src": "/images/adventure/himalayan-trail-planning.webp",
+  "alt": "Tents pitched on the ridge at Triund, Himachal Pradesh",
+  "caption": "Camps at Triund"
+ },
+ "adventure-travel-packing-list-india": {
+  "src": "/images/adventure/trekking-gear-backpack-mountains.webp",
+  "alt": "Snowfields on the Rupin Pass trek looking towards Sangla Valley",
+  "caption": "Rupin Pass"
+ },
+ "best-time-for-adventure-travel-in-india": {
+  "src": "/images/adventure/himalaya-season-landscape.webp",
+  "alt": "Himalayan peaks above a sea of cloud from Chandrashila",
+  "caption": "View from Chandrashila"
+ },
+ "adventure-travel-for-beginners-in-india": {
+  "src": "/images/adventure/beginner-adventure-india.webp",
+  "alt": "Meadow and trail at Kheerganga in the Parvati Valley",
+  "caption": "Kheerganga"
+ },
+ "surfing-in-india": {
+  "src": "/images/adventure/surfing-india-coast.webp",
+  "alt": "Waves breaking on Covelong beach near Chennai, with a fishing boat on the sand",
+  "caption": "Covelong, Tamil Nadu"
+ }
+}

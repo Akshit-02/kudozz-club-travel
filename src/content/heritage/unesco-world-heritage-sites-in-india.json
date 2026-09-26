@@ -1,0 +1,578 @@
+{
+  "slug": "unesco-world-heritage-sites-in-india",
+  "kind": "pillar",
+  "short": "UNESCO sites in India",
+  "title": "UNESCO World Heritage Sites in India: The Full List and How to Visit",
+  "seoTitle": "UNESCO World Heritage Sites in India: Full List (45) | Kudozz Club",
+  "metaDescription": "All 45 UNESCO World Heritage Sites in India, with the year each was inscribed and its state, the latest additions (Sarnath, 2026), and how to plan visits by region.",
+  "description": "A complete, verified list of India's 45 UNESCO World Heritage Sites as of September 2026: 37 cultural, 7 natural and 1 mixed, with the year of inscription and state, the most recent additions (the Maratha Military Landscapes in 2025 and Sarnath in 2026), how the list works, and how to plan heritage trips around the sites by region.",
+  "dek": "India has 45 UNESCO World Heritage Sites, from the Taj Mahal and the Ajanta caves to Himalayan parks and the newest additions, the Maratha forts and Sarnath.",
+  "primaryKeyword": "UNESCO World Heritage Sites in India",
+  "secondaryKeywords": [
+    "how many UNESCO sites in India",
+    "UNESCO sites by state",
+    "best UNESCO sites to visit"
+  ],
+  "searchIntent": "Informational list",
+  "activities": [
+    "UNESCO sites",
+    "monuments",
+    "heritage walks",
+    "museums"
+  ],
+  "terrain": [
+    "heritage town",
+    "forest",
+    "mountains"
+  ],
+  "regions": [
+    "Uttar Pradesh",
+    "Delhi",
+    "Rajasthan",
+    "Gujarat",
+    "Maharashtra",
+    "Karnataka",
+    "Tamil Nadu",
+    "Madhya Pradesh",
+    "Odisha",
+    "Bihar",
+    "West Bengal",
+    "Assam",
+    "Telangana",
+    "Goa"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "UNESCO",
+    "World Heritage",
+    "Monuments",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/heritage/unesco-sites-india-konark-sun-temple.webp",
+    "alt": "A carved stone wheel of the Sun Temple at Konark, Odisha"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "UNESCO World Heritage Sites in India"
+  },
+  "intro": [
+    "UNESCO's World Heritage List recognises places of outstanding universal value. India's first sites, including the Taj Mahal, Agra Fort and the Ajanta and Ellora caves, were inscribed in 1983. As of September 2026, India has 45 World Heritage Sites: 37 cultural, 7 natural and 1 mixed.",
+    "The two most recent additions are the Maratha Military Landscapes of India, a group of twelve forts inscribed in July 2025, and the Ancient Buddhist Site of Sarnath, inscribed in July 2026. The list changes each year, and India also has many more places on UNESCO's Tentative List."
+  ],
+  "quickAnswer": "India has 45 UNESCO World Heritage Sites as of September 2026: 37 cultural, 7 natural and 1 mixed (Khangchendzonga National Park). The first were inscribed in 1983 (the Taj Mahal, Agra Fort, Ajanta and Ellora). The newest are the Maratha Military Landscapes (2025) and the Ancient Buddhist Site of Sarnath (2026). Maharashtra, Uttar Pradesh, Karnataka and Rajasthan have several sites each.",
+  "takeaways": [
+    "India has 45 World Heritage Sites: 37 cultural, 7 natural and 1 mixed.",
+    "The first were inscribed in 1983; the latest is Sarnath, in July 2026.",
+    "Ahmedabad (2017) and Jaipur (2019) are inscribed as historic cities.",
+    "Several sites span more than one state, such as the Mountain Railways and the Western Ghats.",
+    "Most cultural sites are best visited from October to March."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "The full list",
+      "table": {
+        "columns": [
+          "Site",
+          "Type",
+          "Year",
+          "State(s)"
+        ],
+        "rows": [
+          [
+            "Agra Fort",
+            "Cultural",
+            "1983",
+            "Uttar Pradesh"
+          ],
+          [
+            "Ajanta Caves",
+            "Cultural",
+            "1983",
+            "Maharashtra"
+          ],
+          [
+            "Ellora Caves",
+            "Cultural",
+            "1983",
+            "Maharashtra"
+          ],
+          [
+            "Taj Mahal",
+            "Cultural",
+            "1983",
+            "Uttar Pradesh"
+          ],
+          [
+            "Group of Monuments at Mahabalipuram",
+            "Cultural",
+            "1984",
+            "Tamil Nadu"
+          ],
+          [
+            "Sun Temple, Konark",
+            "Cultural",
+            "1984",
+            "Odisha"
+          ],
+          [
+            "Kaziranga National Park",
+            "Natural",
+            "1985",
+            "Assam"
+          ],
+          [
+            "Keoladeo National Park",
+            "Natural",
+            "1985",
+            "Rajasthan"
+          ],
+          [
+            "Manas Wildlife Sanctuary",
+            "Natural",
+            "1985",
+            "Assam"
+          ],
+          [
+            "Churches and Convents of Goa",
+            "Cultural",
+            "1986",
+            "Goa"
+          ],
+          [
+            "Fatehpur Sikri",
+            "Cultural",
+            "1986",
+            "Uttar Pradesh"
+          ],
+          [
+            "Group of Monuments at Hampi",
+            "Cultural",
+            "1986",
+            "Karnataka"
+          ],
+          [
+            "Khajuraho Group of Monuments",
+            "Cultural",
+            "1986",
+            "Madhya Pradesh"
+          ],
+          [
+            "Elephanta Caves",
+            "Cultural",
+            "1987",
+            "Maharashtra"
+          ],
+          [
+            "Great Living Chola Temples",
+            "Cultural",
+            "1987 (extended 2004)",
+            "Tamil Nadu"
+          ],
+          [
+            "Group of Monuments at Pattadakal",
+            "Cultural",
+            "1987",
+            "Karnataka"
+          ],
+          [
+            "Sundarbans National Park",
+            "Natural",
+            "1987",
+            "West Bengal"
+          ],
+          [
+            "Nanda Devi and Valley of Flowers National Parks",
+            "Natural",
+            "1988 (extended 2005)",
+            "Uttarakhand"
+          ],
+          [
+            "Buddhist Monuments at Sanchi",
+            "Cultural",
+            "1989",
+            "Madhya Pradesh"
+          ],
+          [
+            "Humayun's Tomb, Delhi",
+            "Cultural",
+            "1993",
+            "Delhi"
+          ],
+          [
+            "Qutb Minar and its Monuments, Delhi",
+            "Cultural",
+            "1993",
+            "Delhi"
+          ],
+          [
+            "Mountain Railways of India",
+            "Cultural",
+            "1999 (extended 2005, 2008)",
+            "West Bengal, Tamil Nadu, Himachal Pradesh"
+          ],
+          [
+            "Mahabodhi Temple Complex at Bodh Gaya",
+            "Cultural",
+            "2002",
+            "Bihar"
+          ],
+          [
+            "Rock Shelters of Bhimbetka",
+            "Cultural",
+            "2003",
+            "Madhya Pradesh"
+          ],
+          [
+            "Champaner-Pavagadh Archaeological Park",
+            "Cultural",
+            "2004",
+            "Gujarat"
+          ],
+          [
+            "Chhatrapati Shivaji Terminus",
+            "Cultural",
+            "2004",
+            "Maharashtra"
+          ],
+          [
+            "Red Fort Complex",
+            "Cultural",
+            "2007",
+            "Delhi"
+          ],
+          [
+            "The Jantar Mantar, Jaipur",
+            "Cultural",
+            "2010",
+            "Rajasthan"
+          ],
+          [
+            "Western Ghats",
+            "Natural",
+            "2012",
+            "Kerala, Karnataka, Tamil Nadu, Maharashtra, Goa, Gujarat"
+          ],
+          [
+            "Hill Forts of Rajasthan",
+            "Cultural",
+            "2013",
+            "Rajasthan"
+          ],
+          [
+            "Great Himalayan National Park Conservation Area",
+            "Natural",
+            "2014",
+            "Himachal Pradesh"
+          ],
+          [
+            "Rani-ki-Vav, Patan",
+            "Cultural",
+            "2014",
+            "Gujarat"
+          ],
+          [
+            "Nalanda Mahavihara",
+            "Cultural",
+            "2016",
+            "Bihar"
+          ],
+          [
+            "Khangchendzonga National Park",
+            "Mixed",
+            "2016",
+            "Sikkim"
+          ],
+          [
+            "The Architectural Work of Le Corbusier (Capitol Complex)",
+            "Cultural",
+            "2016",
+            "Chandigarh"
+          ],
+          [
+            "Historic City of Ahmadabad",
+            "Cultural",
+            "2017",
+            "Gujarat"
+          ],
+          [
+            "Victorian Gothic and Art Deco Ensembles of Mumbai",
+            "Cultural",
+            "2018",
+            "Maharashtra"
+          ],
+          [
+            "Jaipur City, Rajasthan",
+            "Cultural",
+            "2019",
+            "Rajasthan"
+          ],
+          [
+            "Kakatiya Rudreshwara (Ramappa) Temple",
+            "Cultural",
+            "2021",
+            "Telangana"
+          ],
+          [
+            "Dholavira: a Harappan City",
+            "Cultural",
+            "2021",
+            "Gujarat"
+          ],
+          [
+            "Santiniketan",
+            "Cultural",
+            "2023",
+            "West Bengal"
+          ],
+          [
+            "Sacred Ensembles of the Hoysalas",
+            "Cultural",
+            "2023",
+            "Karnataka"
+          ],
+          [
+            "Moidams: the Mound-Burial System of the Ahom Dynasty",
+            "Cultural",
+            "2024",
+            "Assam"
+          ],
+          [
+            "Maratha Military Landscapes of India",
+            "Cultural",
+            "2025",
+            "Maharashtra, Tamil Nadu"
+          ],
+          [
+            "Ancient Buddhist Site of Sarnath",
+            "Cultural",
+            "2026",
+            "Uttar Pradesh"
+          ]
+        ],
+        "caption": "Names follow UNESCO's listings, shortened where long. Le Corbusier's work is a transnational listing shared with six other countries."
+      }
+    },
+    {
+      "id": "highlights",
+      "heading": "Where to start",
+      "items": [
+        {
+          "name": "The Mughal sites",
+          "body": [
+            "The Taj Mahal, Agra Fort, Fatehpur Sikri, Humayun's Tomb and the Red Fort, all within the Delhi, Agra and Jaipur triangle."
+          ],
+          "links": [
+            {
+              "label": "Taj Mahal",
+              "href": "/blog/taj-mahal"
+            },
+            {
+              "label": "Golden Triangle itinerary",
+              "href": "/blog/golden-triangle-itinerary"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp",
+            "alt": "The Taj Mahal seen across the Yamuna river, Agra",
+            "caption": "The Taj Mahal, Agra"
+          }
+        },
+        {
+          "name": "Caves and temples",
+          "body": [
+            "Ajanta, Ellora and Elephanta in Maharashtra; Hampi and Pattadakal in Karnataka; Khajuraho, Konark and the Chola temples."
+          ],
+          "links": [
+            {
+              "label": "Ancient caves in India",
+              "href": "/blog/rock-cut-caves-in-india"
+            },
+            {
+              "label": "Temple architecture of India",
+              "href": "/blog/temple-architecture-of-india"
+            }
+          ]
+        },
+        {
+          "name": "Forts",
+          "body": [
+            "The six Hill Forts of Rajasthan, the Red Fort and the twelve forts of the Maratha Military Landscapes."
+          ],
+          "links": [
+            {
+              "label": "Forts of Rajasthan",
+              "href": "/blog/forts-of-rajasthan"
+            },
+            {
+              "label": "Forts in Maharashtra",
+              "href": "/blog/forts-in-maharashtra"
+            }
+          ]
+        },
+        {
+          "name": "Historic cities",
+          "body": [
+            "Ahmedabad and Jaipur, and Mumbai's Victorian Gothic and Art Deco ensembles."
+          ],
+          "links": [
+            {
+              "label": "Heritage cities in India",
+              "href": "/blog/heritage-cities-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Ancient and Buddhist sites",
+          "body": [
+            "Dholavira, Bhimbetka, Sanchi, Nalanda, the Mahabodhi Temple and Sarnath."
+          ],
+          "links": [
+            {
+              "label": "Archaeological sites in India",
+              "href": "/blog/archaeological-sites-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "by-state",
+      "heading": "States with the most sites",
+      "list": [
+        "Maharashtra: Ajanta, Ellora, Elephanta, Chhatrapati Shivaji Terminus, the Mumbai ensembles and most of the Maratha forts (plus part of the Western Ghats).",
+        "Uttar Pradesh: the Taj Mahal, Agra Fort, Fatehpur Sikri and Sarnath.",
+        "Karnataka: Hampi, Pattadakal and the Hoysala temples (plus part of the Western Ghats).",
+        "Rajasthan: the Hill Forts, Jantar Mantar, Jaipur City and Keoladeo.",
+        "Gujarat: Champaner-Pavagadh, Rani-ki-Vav, Ahmedabad and Dholavira.",
+        "Delhi: Humayun's Tomb, the Qutb complex and the Red Fort."
+      ]
+    },
+    {
+      "id": "how-list-works",
+      "heading": "How the list works",
+      "paras": [
+        "Countries nominate sites from their Tentative List, and the World Heritage Committee decides at its annual session. India's Tentative List includes many more places, and new sites have been added almost every year recently. We update this page after each session; check UNESCO's official list for the latest position."
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning a UNESCO trip",
+      "list": [
+        "Group sites by region: the Golden Triangle, Rajasthan, Gujarat, Maharashtra's caves, and Karnataka with Tamil Nadu.",
+        "Most monuments are managed by the ASI; many sell tickets online.",
+        "October to March is the most comfortable season for cultural sites; natural sites follow their own seasons.",
+        "Allow half a day or more for large sites such as Hampi, Ellora and Fatehpur Sikri."
+      ],
+      "after": [
+        "See how to plan a heritage trip in India for tickets, guides and timing."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and ticket rules are set by the Archaeological Survey of India (ASI) or the site authority and change from time to time; check the official website before you go, and buy tickets only on official portals.",
+    "Do not climb on or touch carvings, and follow the site's rules on photography, drones and tripods.",
+    "Weekends and holidays are crowded; arrive at opening time for the calmest visit.",
+    "Hire guides at official counters; approved guides carry ASI or state tourism licences."
+  ],
+  "packing": [
+    "Comfortable walking shoes",
+    "Hat, sunscreen and water",
+    "A light shawl for winter mornings",
+    "Photo ID for ticket checks"
+  ],
+  "faqs": [
+    {
+      "q": "How many UNESCO World Heritage Sites are there in India?",
+      "a": "45 as of September 2026: 37 cultural, 7 natural and 1 mixed."
+    },
+    {
+      "q": "What is the newest UNESCO site in India?",
+      "a": "The Ancient Buddhist Site of Sarnath, inscribed in July 2026."
+    },
+    {
+      "q": "Which Indian cities are UNESCO World Heritage Sites?",
+      "a": "The Historic City of Ahmadabad (2017) and Jaipur City (2019); Mumbai's Victorian Gothic and Art Deco ensembles (2018) cover parts of that city."
+    },
+    {
+      "q": "Which was the first UNESCO site in India?",
+      "a": "Agra Fort, the Ajanta Caves, the Ellora Caves and the Taj Mahal were all inscribed in 1983."
+    },
+    {
+      "q": "Which state has the most UNESCO sites?",
+      "a": "Maharashtra has the most sites located fully or partly within it."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Historical places in India",
+      "href": "/blog/historical-places-in-india"
+    },
+    {
+      "label": "Golden Triangle itinerary",
+      "href": "/blog/golden-triangle-itinerary"
+    },
+    {
+      "label": "How to plan a heritage trip",
+      "href": "/blog/how-to-plan-a-heritage-trip-in-india"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    },
+    {
+      "label": "Famous forts in India",
+      "href": "/blog/famous-forts-in-india"
+    }
+  ],
+  "related": [
+    {
+      "name": "Taj Mahal",
+      "href": "/blog/taj-mahal",
+      "note": "India's best-known monument"
+    },
+    {
+      "name": "Archaeological sites in India",
+      "href": "/blog/archaeological-sites-in-india",
+      "note": "Dholavira, Nalanda and more"
+    },
+    {
+      "name": "Best national parks in India",
+      "href": "/blog/best-national-parks-in-india",
+      "note": "the natural sites"
+    }
+  ],
+  "places": [
+    "Taj Mahal",
+    "Agra Fort",
+    "Ajanta",
+    "Ellora",
+    "Hampi",
+    "Konark",
+    "Khajuraho",
+    "Red Fort",
+    "Qutb Minar",
+    "Humayun's Tomb",
+    "Dholavira",
+    "Sarnath"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "UNESCO sites",
+  "updated": "2026-09-26"
+}

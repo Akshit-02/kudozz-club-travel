@@ -1,0 +1,3108 @@
+{
+ "hub": {
+  "stem": "adventure-travel-india-himalaya-trekkers",
+  "queries": [
+   "Himalaya trekkers India",
+   "trekking Himachal Pradesh",
+   "trekkers Uttarakhand Himalaya"
+  ],
+  "must": [
+   "india",
+   "himachal",
+   "uttarakhand",
+   "ladakh",
+   "sikkim"
+  ],
+  "alt": "",
+  "usedIn": "/adventure-travel",
+  "n": 6
+ },
+ "best-adventure-destinations-in-india": {
+  "stem": "ladakh-mountain-road-adventure",
+  "queries": [
+   "Ladakh road mountains",
+   "Khardung La road",
+   "Leh Ladakh landscape road"
+  ],
+  "must": [
+   "ladakh",
+   "leh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-adventure-destinations-in-india",
+  "n": 6
+ },
+ "adventure-sports-in-india": {
+  "stem": "rishikesh-ganga-rafting-adventure",
+  "queries": [
+   "Rafting Rishikesh",
+   "Ganga rafting Rishikesh",
+   "white water rafting Ganges"
+  ],
+  "must": [
+   "rishikesh",
+   "ganga",
+   "ganges"
+  ],
+  "alt": "",
+  "usedIn": "/blog/adventure-sports-in-india",
+  "n": 6
+ },
+ "trekking-in-india": {
+  "stem": "himalayan-trek-trail-india",
+  "queries": [
+   "Hampta Pass trek",
+   "Kedarkantha trek",
+   "Roopkund trek",
+   "Goecha La trek"
+  ],
+  "must": [
+   "trek"
+  ],
+  "alt": "",
+  "usedIn": "/blog/trekking-in-india",
+  "n": 6
+ },
+ "beginner-treks-in-india": {
+  "stem": "triund-trek-ridge",
+  "queries": [
+   "Triund",
+   "Triund trek Dharamshala",
+   "Nag Tibba trek"
+  ],
+  "must": [
+   "triund",
+   "nag tibba"
+  ],
+  "alt": "",
+  "usedIn": "/blog/beginner-treks-in-india",
+  "n": 6
+ },
+ "winter-treks-in-india": {
+  "stem": "kedarkantha-winter-trek-snow",
+  "queries": [
+   "Kedarkantha snow",
+   "Kedarkantha trek winter",
+   "Brahmatal trek",
+   "Dayara Bugyal snow"
+  ],
+  "must": [
+   "kedarkantha",
+   "brahmatal",
+   "dayara"
+  ],
+  "alt": "",
+  "usedIn": "/blog/winter-treks-in-india",
+  "n": 6
+ },
+ "monsoon-treks-in-india": {
+  "stem": "sahyadri-monsoon-trek",
+  "queries": [
+   "Harishchandragad monsoon",
+   "Rajmachi fort monsoon",
+   "Sahyadri monsoon trek",
+   "Kalsubai monsoon"
+  ],
+  "must": [
+   "harishchandragad",
+   "rajmachi",
+   "sahyadri",
+   "kalsubai"
+  ],
+  "alt": "",
+  "usedIn": "/blog/monsoon-treks-in-india",
+  "n": 6
+ },
+ "river-rafting-in-india": {
+  "stem": "white-water-rafting-india-river",
+  "queries": [
+   "Zanskar river rafting",
+   "rafting Kali river Dandeli",
+   "Teesta rafting",
+   "Brahmaputra rafting",
+   "rafting India river"
+  ],
+  "must": [
+   "raft"
+  ],
+  "alt": "",
+  "usedIn": "/blog/river-rafting-in-india",
+  "n": 6
+ },
+ "river-rafting-in-rishikesh": {
+  "stem": "rishikesh-rafting-ganga-rapids",
+  "queries": [
+   "Rafting in Rishikesh",
+   "Rishikesh river rafting",
+   "Shivpuri rafting Ganga"
+  ],
+  "must": [
+   "rishikesh",
+   "shivpuri"
+  ],
+  "alt": "",
+  "usedIn": "/blog/river-rafting-in-rishikesh",
+  "n": 6
+ },
+ "paragliding-in-india": {
+  "stem": "paragliding-himalaya-india",
+  "queries": [
+   "Paragliding Bir Billing",
+   "paragliding Solang",
+   "paragliding Kamshet",
+   "paragliding India"
+  ],
+  "must": [
+   "paraglid"
+  ],
+  "alt": "",
+  "usedIn": "/blog/paragliding-in-india",
+  "n": 6
+ },
+ "scuba-diving-in-india": {
+  "stem": "scuba-diver-coral-reef-india",
+  "queries": [
+   "scuba diving Andaman",
+   "scuba diving Havelock",
+   "Netrani diving",
+   "scuba diving India"
+  ],
+  "must": [
+   "andaman",
+   "havelock",
+   "netrani",
+   "india",
+   "lakshadweep",
+   "goa",
+   "pondicherry"
+  ],
+  "alt": "",
+  "usedIn": "/blog/scuba-diving-in-india",
+  "n": 6
+ },
+ "scuba-diving-in-andaman": {
+  "stem": "scuba-diving-havelock-andaman",
+  "queries": [
+   "scuba diving Havelock Island",
+   "Havelock Island underwater",
+   "Andaman underwater coral",
+   "Neil Island coral"
+  ],
+  "must": [
+   "andaman",
+   "havelock",
+   "neil"
+  ],
+  "alt": "",
+  "usedIn": "/blog/scuba-diving-in-andaman",
+  "n": 6
+ },
+ "snorkeling-in-india": {
+  "stem": "snorkelling-reef-andaman",
+  "queries": [
+   "snorkeling Andaman",
+   "snorkelling Havelock",
+   "Elephant beach Havelock",
+   "Lakshadweep lagoon snorkel"
+  ],
+  "must": [
+   "andaman",
+   "havelock",
+   "lakshadweep",
+   "elephant"
+  ],
+  "alt": "",
+  "usedIn": "/blog/snorkeling-in-india",
+  "n": 6
+ },
+ "skiing-in-india": {
+  "stem": "skiing-gulmarg-slopes",
+  "queries": [
+   "Skiing in Gulmarg",
+   "Gulmarg ski",
+   "Gulmarg skiers",
+   "Auli skiing"
+  ],
+  "must": [
+   "gulmarg",
+   "auli",
+   "ski"
+  ],
+  "alt": "",
+  "usedIn": "/blog/skiing-in-india",
+  "n": 6
+ },
+ "bungee-jumping-in-india": {
+  "stem": "bungee-jump-india",
+  "queries": [
+   "bungee jumping Rishikesh",
+   "bungee jump India",
+   "bungy jump"
+  ],
+  "must": [
+   "bungee",
+   "bungy"
+  ],
+  "alt": "",
+  "usedIn": "/blog/bungee-jumping-in-india",
+  "n": 6
+ },
+ "skydiving-in-india": {
+  "stem": "skydiving-tandem-freefall",
+  "queries": [
+   "tandem skydiving",
+   "skydiving India",
+   "skydive freefall"
+  ],
+  "must": [
+   "skydiv",
+   "parachut"
+  ],
+  "alt": "",
+  "usedIn": "/blog/skydiving-in-india",
+  "n": 6
+ },
+ "hot-air-balloon-rides-in-india": {
+  "stem": "hot-air-balloon-rajasthan",
+  "queries": [
+   "hot air balloon Pushkar",
+   "hot air balloon Jaipur",
+   "hot air balloon India",
+   "Pushkar balloon"
+  ],
+  "must": [
+   "balloon"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hot-air-balloon-rides-in-india",
+  "n": 6
+ },
+ "mountain-biking-in-india": {
+  "stem": "mountain-biking-himalaya-india",
+  "queries": [
+   "mountain biking Ladakh",
+   "mountain bike Himachal",
+   "cycling Ladakh",
+   "mountain biking Manali"
+  ],
+  "must": [
+   "ladakh",
+   "himachal",
+   "manali",
+   "spiti",
+   "india"
+  ],
+  "alt": "",
+  "usedIn": "/blog/mountain-biking-in-india",
+  "n": 6
+ },
+ "best-motorcycle-trips-in-india": {
+  "stem": "motorcycle-himalayan-road-ladakh",
+  "queries": [
+   "Royal Enfield Ladakh",
+   "motorcycle Ladakh",
+   "motorcycle Khardung La",
+   "bikers Leh Manali highway"
+  ],
+  "must": [
+   "ladakh",
+   "leh",
+   "khardung",
+   "manali"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-motorcycle-trips-in-india",
+  "n": 6
+ },
+ "spiti-valley-bike-trip": {
+  "stem": "spiti-valley-road-kaza",
+  "queries": [
+   "Spiti valley road",
+   "Kunzum Pass",
+   "Spiti road Kaza",
+   "Spiti motorcycle"
+  ],
+  "must": [
+   "spiti",
+   "kunzum",
+   "kaza"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiti-valley-bike-trip",
+  "n": 6
+ },
+ "rock-climbing-in-india": {
+  "stem": "rock-climbing-hampi-boulders",
+  "queries": [
+   "rock climbing Hampi",
+   "bouldering Hampi",
+   "rock climbing India",
+   "climbing Badami"
+  ],
+  "must": [
+   "hampi",
+   "badami",
+   "india",
+   "climb"
+  ],
+  "alt": "",
+  "usedIn": "/blog/rock-climbing-in-india",
+  "n": 6
+ },
+ "mountaineering-in-india": {
+  "stem": "mountaineers-himalayan-glacier",
+  "queries": [
+   "mountaineering Himalaya India",
+   "Stok Kangri climbers",
+   "mountaineers glacier Garhwal",
+   "expedition Himalaya India"
+  ],
+  "must": [
+   "stok",
+   "garhwal",
+   "india",
+   "himalaya",
+   "sikkim",
+   "ladakh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/mountaineering-in-india",
+  "n": 6
+ },
+ "camping-in-india": {
+  "stem": "camping-tents-himalaya",
+  "queries": [
+   "camping Chandratal",
+   "tents Chandratal",
+   "camping Ladakh",
+   "camping Himalaya tents"
+  ],
+  "must": [
+   "chandratal",
+   "ladakh",
+   "himalaya",
+   "spiti",
+   "camp"
+  ],
+  "alt": "",
+  "usedIn": "/blog/camping-in-india",
+  "n": 6
+ },
+ "kayaking-in-india": {
+  "stem": "kayaking-river-india",
+  "queries": [
+   "kayaking India",
+   "kayak Ganga Rishikesh",
+   "kayaking Kerala backwaters",
+   "kayaking Goa"
+  ],
+  "must": [
+   "india",
+   "ganga",
+   "kerala",
+   "goa",
+   "rishikesh",
+   "andaman"
+  ],
+  "alt": "",
+  "usedIn": "/blog/kayaking-in-india",
+  "n": 6
+ },
+ "surfing-in-india": {
+  "stem": "surfing-india-coast",
+  "queries": [
+   "surfer Kovalam",
+   "surfing Mulki",
+   "Covelong surf",
+   "surfing Kerala beach",
+   "surfing Tamil Nadu",
+   "surfboard India beach",
+   "Varkala surfing",
+   "surf school India"
+  ],
+  "must": [
+   "surf"
+  ],
+  "alt": "",
+  "usedIn": "/blog/surfing-in-india",
+  "n": 9
+ },
+ "water-sports-in-india": {
+  "stem": "water-sports-beach-india",
+  "queries": [
+   "parasailing Goa",
+   "water sports Goa",
+   "jet ski India",
+   "banana boat Goa",
+   "parasailing India"
+  ],
+  "must": [
+   "goa",
+   "india",
+   "andaman",
+   "malvan",
+   "tarkarli"
+  ],
+  "alt": "",
+  "usedIn": "/blog/water-sports-in-india",
+  "n": 6
+ },
+ "desert-adventures-in-india": {
+  "stem": "thar-desert-dunes-jaisalmer",
+  "queries": [
+   "Sam sand dunes",
+   "Thar desert dunes Jaisalmer",
+   "Khuri dunes",
+   "camel safari Thar"
+  ],
+  "must": [
+   "sam",
+   "thar",
+   "khuri",
+   "jaisalmer"
+  ],
+  "alt": "",
+  "usedIn": "/blog/desert-adventures-in-india",
+  "n": 6
+ },
+ "adventure-activities-in-manali": {
+  "stem": "solang-valley-manali-snow",
+  "queries": [
+   "Solang Valley",
+   "Solang nala",
+   "Solang valley paragliding",
+   "Solang winter"
+  ],
+  "must": [
+   "solang"
+  ],
+  "alt": "",
+  "usedIn": "/blog/adventure-activities-in-manali",
+  "n": 6
+ },
+ "adventure-activities-in-ladakh": {
+  "stem": "ladakh-adventure-landscape",
+  "queries": [
+   "Zanskar river Ladakh",
+   "Nimmu confluence Indus Zanskar",
+   "Markha valley",
+   "Stok Kangri"
+  ],
+  "must": [
+   "zanskar",
+   "nimmu",
+   "indus",
+   "markha",
+   "stok"
+  ],
+  "alt": "",
+  "usedIn": "/blog/adventure-activities-in-ladakh",
+  "n": 6
+ },
+ "adventure-activities-in-himachal-pradesh": {
+  "stem": "himachal-mountains-adventure",
+  "queries": [
+   "Hampta pass",
+   "Beas river Kullu rafting",
+   "Kullu valley Beas",
+   "Chandratal lake"
+  ],
+  "must": [
+   "hampta",
+   "beas",
+   "kullu",
+   "chandratal"
+  ],
+  "alt": "",
+  "usedIn": "/blog/adventure-activities-in-himachal-pradesh",
+  "n": 6
+ },
+ "adventure-activities-in-uttarakhand": {
+  "stem": "uttarakhand-himalaya-adventure",
+  "queries": [
+   "Chopta Tungnath trek",
+   "Valley of Flowers trek",
+   "Kuari Pass",
+   "Dayara Bugyal"
+  ],
+  "must": [
+   "tungnath",
+   "chopta",
+   "kuari",
+   "dayara",
+   "valley of flowers"
+  ],
+  "alt": "",
+  "usedIn": "/blog/adventure-activities-in-uttarakhand",
+  "n": 6
+ },
+ "adventure-activities-in-goa": {
+  "stem": "goa-beach-water-sports",
+  "queries": [
+   "Goa water sports",
+   "Calangute parasailing",
+   "Baga beach water sports",
+   "Goa kayaking mangroves"
+  ],
+  "must": [
+   "goa",
+   "calangute",
+   "baga"
+  ],
+  "alt": "",
+  "usedIn": "/blog/adventure-activities-in-goa",
+  "n": 6
+ },
+ "adventure-activities-in-andaman": {
+  "stem": "andaman-sea-adventure",
+  "queries": [
+   "North Bay Island Andaman",
+   "Andaman kayaking mangroves",
+   "Havelock beach Andaman",
+   "Andaman sea walk"
+  ],
+  "must": [
+   "andaman",
+   "north bay",
+   "havelock"
+  ],
+  "alt": "",
+  "usedIn": "/blog/adventure-activities-in-andaman",
+  "n": 6
+ },
+ "adventure-activities-in-sikkim": {
+  "stem": "sikkim-himalaya-trek",
+  "queries": [
+   "Dzongri",
+   "Goecha La",
+   "Teesta river Sikkim",
+   "Yuksom trek"
+  ],
+  "must": [
+   "dzongri",
+   "goecha",
+   "teesta",
+   "yuksom"
+  ],
+  "alt": "",
+  "usedIn": "/blog/adventure-activities-in-sikkim",
+  "n": 6
+ },
+ "adventure-activities-in-meghalaya": {
+  "stem": "meghalaya-root-bridge-trek",
+  "queries": [
+   "Nongriat",
+   "double decker root bridge",
+   "Umngot river Dawki",
+   "Krem Mawmluh"
+  ],
+  "must": [
+   "nongriat",
+   "root bridge",
+   "umngot",
+   "dawki",
+   "mawmluh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/adventure-activities-in-meghalaya",
+  "n": 6
+ },
+ "weekend-adventure-trips-from-delhi": {
+  "stem": "rishikesh-ganga-weekend",
+  "queries": [
+   "Rishikesh Ganga Lakshman Jhula",
+   "Rishikesh Ganga hills",
+   "Neemrana fort",
+   "Nag Tibba"
+  ],
+  "must": [
+   "rishikesh",
+   "neemrana",
+   "nag tibba"
+  ],
+  "alt": "",
+  "usedIn": "/blog/weekend-adventure-trips-from-delhi",
+  "n": 6
+ },
+ "weekend-adventure-trips-from-mumbai": {
+  "stem": "sahyadri-fort-trek-weekend",
+  "queries": [
+   "Rajmachi",
+   "Lohagad fort",
+   "Kalsubai peak",
+   "Harishchandragad Konkan Kada"
+  ],
+  "must": [
+   "rajmachi",
+   "lohagad",
+   "kalsubai",
+   "harishchandragad"
+  ],
+  "alt": "",
+  "usedIn": "/blog/weekend-adventure-trips-from-mumbai",
+  "n": 6
+ },
+ "weekend-adventure-trips-from-bengaluru": {
+  "stem": "savandurga-monolith-karnataka",
+  "queries": [
+   "Savandurga",
+   "Skandagiri",
+   "Ramanagara rocks",
+   "Kunti Betta"
+  ],
+  "must": [
+   "savandurga",
+   "skandagiri",
+   "ramanagara",
+   "kunti"
+  ],
+  "alt": "",
+  "usedIn": "/blog/weekend-adventure-trips-from-bengaluru",
+  "n": 6
+ },
+ "how-to-plan-an-adventure-trip-in-india": {
+  "stem": "himalayan-trail-planning",
+  "queries": [
+   "Hampta Pass camp",
+   "trekkers camp Himachal",
+   "trek camp Uttarakhand meadow",
+   "Bhrigu lake"
+  ],
+  "must": [
+   "hampta",
+   "himachal",
+   "uttarakhand",
+   "bhrigu"
+  ],
+  "alt": "",
+  "usedIn": "/blog/how-to-plan-an-adventure-trip-in-india",
+  "n": 6
+ },
+ "adventure-travel-packing-list-india": {
+  "stem": "trekking-gear-backpack-mountains",
+  "queries": [
+   "trekking tents Himalaya India",
+   "trekker backpack Himalaya",
+   "Kheerganga camping",
+   "Rupin pass"
+  ],
+  "must": [
+   "india",
+   "himalaya",
+   "kheerganga",
+   "rupin",
+   "himachal",
+   "uttarakhand"
+  ],
+  "alt": "",
+  "usedIn": "/blog/adventure-travel-packing-list-india",
+  "n": 6
+ },
+ "best-time-for-adventure-travel-in-india": {
+  "stem": "himalaya-season-landscape",
+  "queries": [
+   "Chandrashila",
+   "Tungnath snow",
+   "Great Himalayan National Park",
+   "Parvati valley"
+  ],
+  "must": [
+   "chandrashila",
+   "tungnath",
+   "great himalayan",
+   "parvati"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-time-for-adventure-travel-in-india",
+  "n": 6
+ },
+ "adventure-travel-for-beginners-in-india": {
+  "stem": "beginner-adventure-india",
+  "queries": [
+   "Kheerganga",
+   "Nag Tibba",
+   "Prashar Lake",
+   "Chopta meadow"
+  ],
+  "must": [
+   "kheerganga",
+   "nag tibba",
+   "prashar",
+   "chopta"
+  ],
+  "alt": "",
+  "usedIn": "/blog/adventure-travel-for-beginners-in-india",
+  "n": 6
+ },
+ "beach-hub": {
+  "stem": "beach-travel-india-coast",
+  "queries": [
+   "Om Beach Gokarna",
+   "Om beach aerial",
+   "Gokarna Om beach"
+  ],
+  "must": [
+   "om beach",
+   "gokarna"
+  ],
+  "alt": "",
+  "usedIn": "/beach-travel",
+  "n": 6
+ },
+ "best-beach-destinations-in-india": {
+  "stem": "beach-destinations-india-havelock",
+  "queries": [
+   "Havelock Island beach",
+   "Kalapathar beach Havelock",
+   "Vijaynagar beach Havelock"
+  ],
+  "must": [
+   "havelock",
+   "kalapathar",
+   "swaraj"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beach-destinations-in-india",
+  "n": 6
+ },
+ "best-beaches-in-india": {
+  "stem": "best-beaches-india-radhanagar",
+  "queries": [
+   "Radhanagar beach",
+   "Radhanagar beach Havelock",
+   "Beach No 7 Havelock"
+  ],
+  "must": [
+   "radhanagar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-india",
+  "n": 6
+ },
+ "beach-holidays-in-india": {
+  "stem": "beach-holiday-india-kovalam",
+  "queries": [
+   "Kovalam lighthouse beach",
+   "Kovalam beach Kerala",
+   "Lighthouse beach Kovalam"
+  ],
+  "must": [
+   "kovalam"
+  ],
+  "alt": "",
+  "usedIn": "/blog/beach-holidays-in-india",
+  "n": 6
+ },
+ "beach-trips-in-india": {
+  "stem": "beach-trip-alibaug-konkan",
+  "queries": [
+   "Kashid beach",
+   "Nagaon beach Alibaug",
+   "Alibaug beach"
+  ],
+  "must": [
+   "kashid",
+   "nagaon",
+   "alibaug"
+  ],
+  "alt": "",
+  "usedIn": "/blog/beach-trips-in-india",
+  "n": 6
+ },
+ "beach-tourism-in-india": {
+  "stem": "blue-flag-beach-shivrajpur",
+  "queries": [
+   "Shivrajpur beach",
+   "Shivrajpur Dwarka beach",
+   "Blue flag beach India"
+  ],
+  "must": [
+   "shivrajpur",
+   "blue flag"
+  ],
+  "alt": "",
+  "usedIn": "/blog/beach-tourism-in-india",
+  "n": 6
+ },
+ "coastal-tourism-in-india": {
+  "stem": "coastal-india-chinese-fishing-nets",
+  "queries": [
+   "Chinese fishing nets Kochi",
+   "Fort Kochi fishing nets sunset",
+   "Cheena vala"
+  ],
+  "must": [
+   "fishing net",
+   "kochi",
+   "cheena"
+  ],
+  "alt": "",
+  "usedIn": "/blog/coastal-tourism-in-india",
+  "n": 6
+ },
+ "dolphin-watching-in-india": {
+  "stem": "dolphins-chilika-boat",
+  "queries": [
+   "Irrawaddy dolphin Chilika",
+   "Chilika dolphin",
+   "dolphin Goa boat",
+   "humpback dolphin India"
+  ],
+  "must": [
+   "dolphin"
+  ],
+  "alt": "",
+  "usedIn": "/blog/dolphin-watching-in-india",
+  "n": 6
+ },
+ "beach-honeymoon-destinations-in-india": {
+  "stem": "honeymoon-beach-neil-island",
+  "queries": [
+   "Neil Island beach",
+   "Laxmanpur beach",
+   "Bharatpur beach Neil",
+   "Sitapur beach Neil"
+  ],
+  "must": [
+   "neil",
+   "laxmanpur",
+   "bharatpur",
+   "sitapur",
+   "shaheed"
+  ],
+  "alt": "",
+  "usedIn": "/blog/beach-honeymoon-destinations-in-india",
+  "n": 6
+ },
+ "offbeat-beaches-in-india": {
+  "stem": "offbeat-beach-india-quiet",
+  "queries": [
+   "Kudle beach",
+   "Half Moon beach Gokarna",
+   "Paradise beach Gokarna",
+   "Butterfly beach Goa",
+   "Cola beach Goa"
+  ],
+  "must": [
+   "kudle",
+   "half moon",
+   "paradise",
+   "butterfly",
+   "cola"
+  ],
+  "alt": "",
+  "usedIn": "/blog/offbeat-beaches-in-india",
+  "n": 6
+ },
+ "best-time-for-beach-holidays-in-india": {
+  "stem": "beach-season-india-palolem",
+  "queries": [
+   "Palolem beach",
+   "Palolem Goa",
+   "Palolem sunset"
+  ],
+  "must": [
+   "palolem"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-time-for-beach-holidays-in-india",
+  "n": 6
+ },
+ "beach-safety-in-india": {
+  "stem": "beach-lifeguard-india",
+  "queries": [
+   "lifeguard beach Goa",
+   "lifeguard tower India beach",
+   "Baga beach lifeguard",
+   "red flag beach India"
+  ],
+  "must": [
+   "lifeguard",
+   "flag",
+   "baga"
+  ],
+  "alt": "",
+  "usedIn": "/blog/beach-safety-in-india",
+  "n": 6
+ },
+ "best-beaches-in-goa": {
+  "stem": "goa-beach-arambol-cliffs",
+  "queries": [
+   "Vagator beach",
+   "Arambol beach",
+   "Agonda beach",
+   "Anjuna beach Goa",
+   "Butterfly beach Goa",
+   "Cola beach Goa"
+  ],
+  "must": [
+   "vagator",
+   "arambol",
+   "agonda",
+   "anjuna",
+   "butterfly",
+   "cola"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-goa",
+  "n": 9
+ },
+ "best-beaches-in-andaman": {
+  "stem": "andaman-beach-kalapathar",
+  "queries": [
+   "Kalapathar beach",
+   "Elephant beach Havelock",
+   "Laxmanpur beach",
+   "Corbyn's Cove"
+  ],
+  "must": [
+   "kalapathar",
+   "elephant",
+   "laxmanpur",
+   "corbyn"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-andaman",
+  "n": 6
+ },
+ "best-beaches-in-lakshadweep": {
+  "stem": "lakshadweep-lagoon-beach",
+  "queries": [
+   "Bangaram",
+   "Agatti island beach",
+   "Kadmat island",
+   "Minicoy beach",
+   "Kavaratti lagoon"
+  ],
+  "must": [
+   "bangaram",
+   "agatti",
+   "kadmat",
+   "minicoy",
+   "kavaratti",
+   "lakshadweep"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-lakshadweep",
+  "n": 6
+ },
+ "best-beaches-in-kerala": {
+  "stem": "kerala-beach-varkala-cliff",
+  "queries": [
+   "Varkala cliff",
+   "Varkala beach",
+   "Marari beach",
+   "Cherai beach",
+   "Kappad beach"
+  ],
+  "must": [
+   "varkala",
+   "marari",
+   "cherai",
+   "kappad"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-kerala",
+  "n": 6
+ },
+ "best-beaches-in-karnataka": {
+  "stem": "karnataka-beach-murudeshwar",
+  "queries": [
+   "Murudeshwar beach",
+   "Malpe beach",
+   "Kaup beach lighthouse",
+   "Maravanthe beach",
+   "Kudle beach"
+  ],
+  "must": [
+   "murudeshwar",
+   "malpe",
+   "kaup",
+   "maravanthe",
+   "kudle"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-karnataka",
+  "n": 6
+ },
+ "best-beaches-in-maharashtra": {
+  "stem": "maharashtra-beach-ganpatipule",
+  "queries": [
+   "Ganpatipule beach",
+   "Tarkarli beach",
+   "Kashid beach",
+   "Diveagar beach",
+   "Guhagar beach",
+   "Harihareshwar"
+  ],
+  "must": [
+   "ganpatipule",
+   "tarkarli",
+   "kashid",
+   "diveagar",
+   "guhagar",
+   "harihareshwar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-maharashtra",
+  "n": 6
+ },
+ "best-beaches-in-tamil-nadu": {
+  "stem": "tamil-nadu-beach-dhanushkodi",
+  "queries": [
+   "Dhanushkodi beach",
+   "Dhanushkodi",
+   "Mahabalipuram beach shore temple",
+   "Kanyakumari beach"
+  ],
+  "must": [
+   "dhanushkodi",
+   "mahabalipuram",
+   "kanyakumari"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-tamil-nadu",
+  "n": 6
+ },
+ "best-beaches-in-odisha": {
+  "stem": "odisha-beach-gopalpur",
+  "queries": [
+   "Gopalpur beach",
+   "Chandrabhaga beach",
+   "Puri beach",
+   "Chandipur beach",
+   "Talasari beach"
+  ],
+  "must": [
+   "gopalpur",
+   "chandrabhaga",
+   "puri",
+   "chandipur",
+   "talasari"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-odisha",
+  "n": 6
+ },
+ "best-beaches-in-gujarat": {
+  "stem": "gujarat-beach-mandvi",
+  "queries": [
+   "Mandvi beach",
+   "Mandvi Kutch beach",
+   "Tithal beach",
+   "Shivrajpur beach",
+   "Somnath beach"
+  ],
+  "must": [
+   "mandvi",
+   "tithal",
+   "shivrajpur",
+   "somnath"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-gujarat",
+  "n": 6
+ },
+ "best-beaches-in-andhra-pradesh": {
+  "stem": "andhra-beach-rushikonda",
+  "queries": [
+   "Rushikonda beach",
+   "Rushikonda",
+   "Yarada beach",
+   "Bheemili beach",
+   "RK beach Visakhapatnam"
+  ],
+  "must": [
+   "rushikonda",
+   "yarada",
+   "bheemili",
+   "visakhapatnam",
+   "vizag"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-andhra-pradesh",
+  "n": 6
+ },
+ "best-beaches-in-west-bengal": {
+  "stem": "west-bengal-beach-tajpur",
+  "queries": [
+   "Tajpur beach",
+   "Mandarmani beach",
+   "Shankarpur beach",
+   "Bakkhali beach",
+   "Digha beach"
+  ],
+  "must": [
+   "tajpur",
+   "mandarmani",
+   "shankarpur",
+   "bakkhali",
+   "digha"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-west-bengal",
+  "n": 6
+ },
+ "best-beaches-in-puducherry": {
+  "stem": "puducherry-beach-paradise",
+  "queries": [
+   "Paradise beach Pondicherry",
+   "Paradise beach Puducherry",
+   "Serenity beach Pondicherry",
+   "Auroville beach",
+   "Promenade beach Pondicherry"
+  ],
+  "must": [
+   "paradise",
+   "serenity",
+   "auroville",
+   "promenade",
+   "pondicherry",
+   "puducherry"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-beaches-in-puducherry",
+  "n": 6
+ },
+ "wildlife-hub": {
+  "stem": "wildlife-tourism-india-tiger",
+  "queries": [
+   "Tiger Ranthambore",
+   "Bengal tiger Ranthambore National Park",
+   "Tiger in Ranthambore"
+  ],
+  "must": [
+   "ranthambore"
+  ],
+  "alt": "",
+  "usedIn": "/wildlife-tourism",
+  "n": 6
+ },
+ "best-wildlife-destinations-in-india": {
+  "stem": "wildlife-destinations-kaziranga-rhino",
+  "queries": [
+   "Rhinoceros Kaziranga",
+   "One-horned rhinoceros Kaziranga National Park",
+   "Kaziranga rhino grassland"
+  ],
+  "must": [
+   "kaziranga"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-wildlife-destinations-in-india",
+  "n": 6
+ },
+ "best-national-parks-in-india": {
+  "stem": "national-parks-kanha-meadow",
+  "queries": [
+   "Kanha National Park barasingha",
+   "Kanha meadow",
+   "Kanha National Park"
+  ],
+  "must": [
+   "kanha"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-national-parks-in-india",
+  "n": 6
+ },
+ "best-wildlife-sanctuaries-in-india": {
+  "stem": "sanctuary-periyar-lake",
+  "queries": [
+   "Periyar Wildlife Sanctuary",
+   "Periyar lake elephants",
+   "Periyar Tiger Reserve lake"
+  ],
+  "must": [
+   "periyar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-wildlife-sanctuaries-in-india",
+  "n": 6
+ },
+ "best-wildlife-safaris-in-india": {
+  "stem": "safari-jeep-tadoba",
+  "queries": [
+   "Tadoba safari jeep",
+   "safari gypsy Tadoba",
+   "jeep safari Kanha",
+   "safari jeep Bandhavgarh"
+  ],
+  "must": [
+   "tadoba",
+   "kanha",
+   "bandhavgarh",
+   "safari",
+   "gypsy"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-wildlife-safaris-in-india",
+  "n": 6
+ },
+ "tiger-safari-in-india": {
+  "stem": "tiger-safari-tadoba",
+  "queries": [
+   "Tiger Tadoba",
+   "Tadoba tigress",
+   "Tiger Tadoba Andhari"
+  ],
+  "must": [
+   "tadoba"
+  ],
+  "alt": "",
+  "usedIn": "/blog/tiger-safari-in-india",
+  "n": 6
+ },
+ "best-tiger-reserves-in-india": {
+  "stem": "tiger-reserve-bandhavgarh",
+  "queries": [
+   "Tiger Bandhavgarh",
+   "Bandhavgarh tiger",
+   "Bandhavgarh National Park tiger"
+  ],
+  "must": [
+   "bandhavgarh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-tiger-reserves-in-india",
+  "n": 6
+ },
+ "how-to-plan-a-tiger-safari-in-india": {
+  "stem": "tiger-safari-kanha-tiger",
+  "queries": [
+   "Tiger Kanha",
+   "Kanha tiger",
+   "Tiger Kanha National Park"
+  ],
+  "must": [
+   "kanha"
+  ],
+  "alt": "",
+  "usedIn": "/blog/how-to-plan-a-tiger-safari-in-india",
+  "n": 6
+ },
+ "pench-tiger-reserve": {
+  "stem": "pench-tiger-reserve-forest",
+  "queries": [
+   "Pench National Park",
+   "Pench Tiger Reserve",
+   "Pench tiger",
+   "Pench Madhya Pradesh"
+  ],
+  "must": [
+   "pench"
+  ],
+  "alt": "",
+  "usedIn": "/blog/pench-tiger-reserve",
+  "n": 6
+ },
+ "satpura-tiger-reserve": {
+  "stem": "satpura-tiger-reserve-landscape",
+  "queries": [
+   "Satpura National Park",
+   "Satpura Tiger Reserve",
+   "Madhai Satpura",
+   "Denwa river Satpura"
+  ],
+  "must": [
+   "satpura",
+   "madhai",
+   "denwa"
+  ],
+  "alt": "",
+  "usedIn": "/blog/satpura-tiger-reserve",
+  "n": 6
+ },
+ "sariska-tiger-reserve": {
+  "stem": "sariska-tiger-reserve",
+  "queries": [
+   "Sariska Tiger Reserve",
+   "Sariska National Park",
+   "Sariska tiger",
+   "Sariska Alwar"
+  ],
+  "must": [
+   "sariska"
+  ],
+  "alt": "",
+  "usedIn": "/blog/sariska-tiger-reserve",
+  "n": 6
+ },
+ "where-to-see-wildlife-in-india": {
+  "stem": "wildlife-india-elephants",
+  "queries": [
+   "Elephants Corbett",
+   "Asian elephant Nagarhole",
+   "elephant herd Kabini",
+   "Elephants Periyar"
+  ],
+  "must": [
+   "corbett",
+   "nagarhole",
+   "kabini",
+   "periyar",
+   "bandipur"
+  ],
+  "alt": "",
+  "usedIn": "/blog/where-to-see-wildlife-in-india",
+  "n": 6
+ },
+ "leopard-safari-in-india": {
+  "stem": "leopard-jawai-rajasthan",
+  "queries": [
+   "Leopard Jawai",
+   "Jawai leopard",
+   "Leopard Bera Rajasthan",
+   "Leopard Jhalana"
+  ],
+  "must": [
+   "jawai",
+   "bera",
+   "jhalana"
+  ],
+  "alt": "",
+  "usedIn": "/blog/leopard-safari-in-india",
+  "n": 6
+ },
+ "where-to-see-rhinos-in-india": {
+  "stem": "rhino-kaziranga-grassland",
+  "queries": [
+   "Indian rhinoceros Kaziranga",
+   "Rhino Pobitora",
+   "Rhinoceros unicornis Kaziranga",
+   "rhino Jaldapara"
+  ],
+  "must": [
+   "kaziranga",
+   "pobitora",
+   "jaldapara"
+  ],
+  "alt": "",
+  "usedIn": "/blog/where-to-see-rhinos-in-india",
+  "n": 6
+ },
+ "snow-leopard-tours-in-india": {
+  "stem": "snow-leopard-ladakh",
+  "queries": [
+   "Snow leopard Hemis",
+   "Snow leopard Ladakh",
+   "Snow leopard Spiti",
+   "Snow leopard Kibber"
+  ],
+  "must": [
+   "hemis",
+   "ladakh",
+   "spiti",
+   "kibber",
+   "ulley"
+  ],
+  "alt": "",
+  "usedIn": "/blog/snow-leopard-tours-in-india",
+  "n": 6
+ },
+ "birdwatching-in-india": {
+  "stem": "birdwatching-keoladeo",
+  "queries": [
+   "Keoladeo National Park birds",
+   "Painted stork Keoladeo",
+   "Bharatpur bird sanctuary",
+   "Sarus crane Keoladeo"
+  ],
+  "must": [
+   "keoladeo",
+   "bharatpur"
+  ],
+  "alt": "",
+  "usedIn": "/blog/birdwatching-in-india",
+  "n": 6
+ },
+ "wildlife-tourism-in-rajasthan": {
+  "stem": "rajasthan-wildlife-ranthambore-lake",
+  "queries": [
+   "Ranthambore lake",
+   "Padam Talao Ranthambore",
+   "Ranthambore landscape"
+  ],
+  "must": [
+   "ranthambore"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-tourism-in-rajasthan",
+  "n": 6
+ },
+ "wildlife-tourism-in-madhya-pradesh": {
+  "stem": "mp-wildlife-barasingha-kanha",
+  "queries": [
+   "Barasingha Kanha",
+   "Hard ground barasingha",
+   "Swamp deer Kanha"
+  ],
+  "must": [
+   "kanha",
+   "barasingha"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-tourism-in-madhya-pradesh",
+  "n": 6
+ },
+ "wildlife-tourism-in-uttarakhand": {
+  "stem": "uttarakhand-wildlife-corbett",
+  "queries": [
+   "Jim Corbett National Park Ramganga",
+   "Dhikala Corbett",
+   "Corbett National Park landscape"
+  ],
+  "must": [
+   "corbett",
+   "dhikala"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-tourism-in-uttarakhand",
+  "n": 6
+ },
+ "wildlife-tourism-in-maharashtra": {
+  "stem": "maharashtra-wildlife-tadoba-lake",
+  "queries": [
+   "Tadoba lake",
+   "Tadoba Andhari landscape",
+   "Tadoba forest"
+  ],
+  "must": [
+   "tadoba"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-tourism-in-maharashtra",
+  "n": 6
+ },
+ "wildlife-tourism-in-karnataka": {
+  "stem": "karnataka-wildlife-nagarhole",
+  "queries": [
+   "Nagarhole National Park",
+   "Nagarhole elephants",
+   "Kabini river elephants",
+   "Bandipur National Park"
+  ],
+  "must": [
+   "nagarhole",
+   "kabini",
+   "bandipur"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-tourism-in-karnataka",
+  "n": 6
+ },
+ "wildlife-tourism-in-kerala": {
+  "stem": "kerala-wildlife-wayanad-sanctuary",
+  "queries": [
+   "Wayanad Wildlife Sanctuary",
+   "Muthanga",
+   "Thattekad bird sanctuary",
+   "Eravikulam Nilgiri tahr"
+  ],
+  "must": [
+   "wayanad",
+   "muthanga",
+   "thattekad",
+   "eravikulam"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-tourism-in-kerala",
+  "n": 6
+ },
+ "wildlife-tourism-in-assam": {
+  "stem": "assam-wildlife-manas",
+  "queries": [
+   "Manas National Park",
+   "Kaziranga elephants",
+   "Kaziranga grassland",
+   "Pobitora"
+  ],
+  "must": [
+   "manas",
+   "kaziranga",
+   "pobitora"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-tourism-in-assam",
+  "n": 6
+ },
+ "wildlife-tourism-in-gujarat": {
+  "stem": "gujarat-wildlife-gir-lion",
+  "queries": [
+   "Asiatic lion Gir",
+   "Gir lion",
+   "Asiatic lioness Gir",
+   "Indian wild ass Little Rann"
+  ],
+  "must": [
+   "gir",
+   "little rann",
+   "wild ass"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-tourism-in-gujarat",
+  "n": 6
+ },
+ "wildlife-tourism-in-west-bengal": {
+  "stem": "west-bengal-wildlife-sundarbans",
+  "queries": [
+   "Sundarbans tiger reserve",
+   "Sundarbans mangrove",
+   "Jaldapara",
+   "Gorumara National Park"
+  ],
+  "must": [
+   "sundarban",
+   "jaldapara",
+   "gorumara"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-tourism-in-west-bengal",
+  "n": 6
+ },
+ "wildlife-tourism-in-odisha": {
+  "stem": "odisha-wildlife-bhitarkanika",
+  "queries": [
+   "Bhitarkanika crocodile",
+   "Bhitarkanika mangroves",
+   "Similipal National Park",
+   "Similipal"
+  ],
+  "must": [
+   "bhitarkanika",
+   "similipal"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-tourism-in-odisha",
+  "n": 6
+ },
+ "wildlife-tourism-in-tamil-nadu": {
+  "stem": "tamil-nadu-wildlife-mudumalai",
+  "queries": [
+   "Mudumalai National Park",
+   "Mudumalai elephants",
+   "Anamalai Tiger Reserve",
+   "Vedanthangal"
+  ],
+  "must": [
+   "mudumalai",
+   "anamalai",
+   "vedanthangal"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-tourism-in-tamil-nadu",
+  "n": 6
+ },
+ "how-to-plan-a-wildlife-safari-in-india": {
+  "stem": "safari-planning-kanha-gate",
+  "queries": [
+   "Kanha gate",
+   "Mukki gate Kanha",
+   "Bandhavgarh gate",
+   "Tala gate"
+  ],
+  "must": [
+   "kanha",
+   "bandhavgarh",
+   "gate"
+  ],
+  "alt": "",
+  "usedIn": "/blog/how-to-plan-a-wildlife-safari-in-india",
+  "n": 6
+ },
+ "wildlife-safari-packing-list": {
+  "stem": "safari-packing-binoculars",
+  "queries": [
+   "binoculars birdwatching India",
+   "birdwatchers India",
+   "bird watching Sultanpur"
+  ],
+  "must": [
+   "india",
+   "sultanpur",
+   "bharatpur",
+   "keoladeo"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-safari-packing-list",
+  "n": 6
+ },
+ "best-time-for-wildlife-safari-in-india": {
+  "stem": "safari-season-sal-forest",
+  "queries": [
+   "Sal forest Kanha",
+   "Sal trees Corbett",
+   "Kanha forest"
+  ],
+  "must": [
+   "kanha",
+   "corbett",
+   "sal"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-time-for-wildlife-safari-in-india",
+  "n": 6
+ },
+ "wildlife-photography-in-india": {
+  "stem": "wildlife-photography-india",
+  "queries": [
+   "wildlife photographers India safari",
+   "photographers tiger Ranthambore",
+   "photographers Tadoba"
+  ],
+  "must": [
+   "india",
+   "ranthambore",
+   "tadoba",
+   "kanha",
+   "bandhavgarh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-photography-in-india",
+  "n": 6
+ },
+ "responsible-wildlife-tourism-in-india": {
+  "stem": "responsible-wildlife-sign-forest",
+  "queries": [
+   "no plastic zone forest India",
+   "national park rules board India",
+   "Kanha rules board",
+   "sambar deer Ranthambore"
+  ],
+  "must": [
+   "india",
+   "kanha",
+   "ranthambore",
+   "national park"
+  ],
+  "alt": "",
+  "usedIn": "/blog/responsible-wildlife-tourism-in-india",
+  "n": 6
+ },
+ "spiritual-hub": {
+  "stem": "spiritual-tourism-india-varanasi-aarti",
+  "queries": [
+   "Ganga Aarti Varanasi",
+   "Dashashwamedh Ghat aarti",
+   "Varanasi ghats evening aarti"
+  ],
+  "must": [
+   "varanasi",
+   "dashashwamedh",
+   "aarti"
+  ],
+  "alt": "",
+  "usedIn": "/spiritual-tourism",
+  "n": 6
+ },
+ "best-pilgrimage-places-in-india": {
+  "stem": "pilgrimage-places-golden-temple",
+  "queries": [
+   "Golden Temple Amritsar",
+   "Harmandir Sahib"
+  ],
+  "must": [
+   "golden temple",
+   "harmandir"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-pilgrimage-places-in-india",
+  "n": 6
+ },
+ "famous-temples-in-india": {
+  "stem": "famous-temples-meenakshi-madurai",
+  "queries": [
+   "Meenakshi Amman Temple gopuram",
+   "Meenakshi Temple Madurai"
+  ],
+  "must": [
+   "meenakshi"
+  ],
+  "alt": "",
+  "usedIn": "/blog/famous-temples-in-india",
+  "n": 6
+ },
+ "12-jyotirlingas-in-india": {
+  "stem": "jyotirlingas-somnath-temple",
+  "queries": [
+   "Somnath temple",
+   "Somnath Temple Gujarat"
+  ],
+  "must": [
+   "somnath"
+  ],
+  "alt": "",
+  "usedIn": "/blog/12-jyotirlingas-in-india",
+  "n": 6
+ },
+ "jyotirlinga-yatra": {
+  "stem": "jyotirlinga-yatra-omkareshwar",
+  "queries": [
+   "Omkareshwar temple",
+   "Omkareshwar Narmada",
+   "Omkareshwar island"
+  ],
+  "must": [
+   "omkareshwar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/jyotirlinga-yatra",
+  "n": 6
+ },
+ "jyotirlingas-in-maharashtra": {
+  "stem": "maharashtra-jyotirlinga-trimbak-hills",
+  "queries": [
+   "Trimbak Brahmagiri",
+   "Trimbakeshwar town",
+   "Brahmagiri hill Trimbak"
+  ],
+  "must": [
+   "trimbak",
+   "brahmagiri"
+  ],
+  "alt": "",
+  "usedIn": "/blog/jyotirlingas-in-maharashtra",
+  "n": 6
+ },
+ "trimbakeshwar-jyotirlinga": {
+  "stem": "trimbakeshwar-temple-nashik",
+  "queries": [
+   "Trimbakeshwar Temple",
+   "Trimbakeshwar Shiva Temple Nashik"
+  ],
+  "must": [
+   "trimbakeshwar",
+   "tryambakeshwar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/trimbakeshwar-jyotirlinga",
+  "n": 6
+ },
+ "bhimashankar-jyotirlinga": {
+  "stem": "bhimashankar-temple-pune",
+  "queries": [
+   "Bhimashankar Temple",
+   "Bhimashankar Jyotirlinga",
+   "Bhimashankar"
+  ],
+  "must": [
+   "bhimashankar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/bhimashankar-jyotirlinga",
+  "n": 6
+ },
+ "grishneshwar-jyotirlinga": {
+  "stem": "grishneshwar-temple-ellora",
+  "queries": [
+   "Grishneshwar Temple",
+   "Ghrishneshwar temple",
+   "Grishneshwar Jyotirlinga Verul"
+  ],
+  "must": [
+   "grishneshwar",
+   "ghrishneshwar",
+   "grushneshwar",
+   "ghushmeshwar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/grishneshwar-jyotirlinga",
+  "n": 6
+ },
+ "nageshwar-jyotirlinga": {
+  "stem": "nageshwar-temple-dwarka",
+  "queries": [
+   "Nageshwar Jyotirlinga",
+   "Nageshwar temple Dwarka",
+   "Nageshvara Dwarka"
+  ],
+  "must": [
+   "nageshwar",
+   "nageshvar",
+   "nagesh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nageshwar-jyotirlinga",
+  "n": 6
+ },
+ "char-dham-yatra-guide": {
+  "stem": "char-dham-yamunotri-temple",
+  "queries": [
+   "Yamunotri temple",
+   "Yamunotri"
+  ],
+  "must": [
+   "yamunotri"
+  ],
+  "alt": "",
+  "usedIn": "/blog/char-dham-yatra-guide",
+  "n": 6
+ },
+ "char-dham-of-india": {
+  "stem": "char-dham-dwarkadhish-temple",
+  "queries": [
+   "Dwarkadhish Temple",
+   "Dwarkadhish temple Dwarka"
+  ],
+  "must": [
+   "dwarkadhish",
+   "dwarkadheesh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/char-dham-of-india",
+  "n": 6
+ },
+ "kedarnath-badrinath-yatra": {
+  "stem": "kedarnath-badrinath-badrinath-temple",
+  "queries": [
+   "Badrinath Temple",
+   "Badrinath temple Alaknanda"
+  ],
+  "must": [
+   "badrinath"
+  ],
+  "alt": "",
+  "usedIn": "/blog/kedarnath-badrinath-yatra",
+  "n": 6
+ },
+ "shakti-peethas-in-india": {
+  "stem": "shakti-peethas-kamakhya-temple",
+  "queries": [
+   "Kamakhya Temple",
+   "Kamakhya temple Guwahati"
+  ],
+  "must": [
+   "kamakhya"
+  ],
+  "alt": "",
+  "usedIn": "/blog/shakti-peethas-in-india",
+  "n": 6
+ },
+ "buddhist-circuit-in-india": {
+  "stem": "buddhist-circuit-mahabodhi-temple",
+  "queries": [
+   "Mahabodhi Temple Bodhgaya",
+   "Mahabodhi temple Bihar",
+   "Bodh Gaya Mahabodhi stupa temple"
+  ],
+  "must": [
+   "mahabodhi"
+  ],
+  "alt": "",
+  "usedIn": "/blog/buddhist-circuit-in-india",
+  "n": 6
+ },
+ "buddhist-tourism-in-india": {
+  "stem": "buddhist-tourism-thiksey-monastery",
+  "queries": [
+   "Thiksey Monastery",
+   "Thiksey Gompa"
+  ],
+  "must": [
+   "thiksey"
+  ],
+  "alt": "",
+  "usedIn": "/blog/buddhist-tourism-in-india",
+  "n": 6
+ },
+ "sikh-pilgrimage-in-india": {
+  "stem": "sikh-pilgrimage-anandpur-sahib",
+  "queries": [
+   "Takht Sri Kesgarh Sahib",
+   "Anandpur Sahib gurdwara",
+   "Kesgarh Sahib"
+  ],
+  "must": [
+   "kesgarh",
+   "anandpur"
+  ],
+  "alt": "",
+  "usedIn": "/blog/sikh-pilgrimage-in-india",
+  "n": 6
+ },
+ "panj-takht-yatra": {
+  "stem": "panj-takht-patna-sahib",
+  "queries": [
+   "Takht Sri Patna Sahib",
+   "Patna Sahib Gurudwara",
+   "Harmandir Sahib Patna"
+  ],
+  "must": [
+   "patna sahib",
+   "takht sri patna",
+   "harmandir sahib, patna",
+   "patna"
+  ],
+  "alt": "",
+  "usedIn": "/blog/panj-takht-yatra",
+  "n": 6
+ },
+ "hemkund-sahib-yatra": {
+  "stem": "hemkund-sahib-gurdwara-lake",
+  "queries": [
+   "Hemkund Sahib",
+   "Hemkund lake gurudwara"
+  ],
+  "must": [
+   "hemkund"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hemkund-sahib-yatra",
+  "n": 6
+ },
+ "jain-pilgrimage-in-india": {
+  "stem": "jain-pilgrimage-palitana-temples",
+  "queries": [
+   "Palitana temples",
+   "Shatrunjaya hill temples"
+  ],
+  "must": [
+   "palitana",
+   "shatrunjaya"
+  ],
+  "alt": "",
+  "usedIn": "/blog/jain-pilgrimage-in-india",
+  "n": 6
+ },
+ "ranakpur-jain-temple": {
+  "stem": "ranakpur-jain-temple-rajasthan",
+  "queries": [
+   "Ranakpur Jain Temple",
+   "Ranakpur temple"
+  ],
+  "must": [
+   "ranakpur"
+  ],
+  "alt": "",
+  "usedIn": "/blog/ranakpur-jain-temple",
+  "n": 6
+ },
+ "shravanabelagola-gommateshwara": {
+  "stem": "shravanabelagola-vindhyagiri-hill",
+  "queries": [
+   "Shravanabelagola",
+   "Gommateshwara statue Shravanabelagola",
+   "Vindhyagiri"
+  ],
+  "must": [
+   "shravanabelagola",
+   "sravanabelagola",
+   "gommateshwara",
+   "vindhyagiri",
+   "gomateshwara"
+  ],
+  "alt": "",
+  "usedIn": "/blog/shravanabelagola-gommateshwara",
+  "n": 6
+ },
+ "sufi-shrines-in-india": {
+  "stem": "sufi-shrines-nizamuddin-dargah",
+  "queries": [
+   "Nizamuddin Dargah",
+   "Hazrat Nizamuddin Auliya dargah"
+  ],
+  "must": [
+   "nizamuddin"
+  ],
+  "alt": "",
+  "usedIn": "/blog/sufi-shrines-in-india",
+  "n": 6
+ },
+ "spiritual-festivals-in-india": {
+  "stem": "spiritual-festivals-rath-yatra-puri",
+  "queries": [
+   "Rath Yatra Puri",
+   "Puri Rath Yatra chariot"
+  ],
+  "must": [
+   "rath yatra",
+   "ratha yatra",
+   "rath"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-festivals-in-india",
+  "n": 6
+ },
+ "kumbh-mela": {
+  "stem": "kumbh-mela-prayagraj-sangam",
+  "queries": [
+   "Kumbh Mela Allahabad",
+   "Kumbh Mela Prayagraj",
+   "Maha Kumbh Sangam"
+  ],
+  "must": [
+   "kumbh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/kumbh-mela",
+  "n": 6
+ },
+ "yoga-and-meditation-retreats-in-india": {
+  "stem": "yoga-retreats-ashram-rishikesh",
+  "queries": [
+   "Parmarth Niketan",
+   "Rishikesh ashram",
+   "ashram India yoga"
+  ],
+  "must": [
+   "parmarth",
+   "ashram"
+  ],
+  "alt": "",
+  "usedIn": "/blog/yoga-and-meditation-retreats-in-india",
+  "n": 6
+ },
+ "yoga-in-rishikesh": {
+  "stem": "yoga-rishikesh-lakshman-jhula",
+  "queries": [
+   "Lakshman Jhula Rishikesh",
+   "Ram Jhula Rishikesh",
+   "Rishikesh Ganga"
+  ],
+  "must": [
+   "rishikesh",
+   "lakshman jhula",
+   "ram jhula"
+  ],
+  "alt": "",
+  "usedIn": "/blog/yoga-in-rishikesh",
+  "n": 6
+ },
+ "ayodhya-varanasi-prayagraj-tour": {
+  "stem": "ayodhya-saryu-ghats",
+  "queries": [
+   "Ram ki Paidi Ayodhya",
+   "Saryu ghat Ayodhya",
+   "Ayodhya ghats"
+  ],
+  "must": [
+   "ayodhya",
+   "saryu"
+  ],
+  "alt": "",
+  "usedIn": "/blog/ayodhya-varanasi-prayagraj-tour",
+  "n": 6
+ },
+ "how-to-plan-a-pilgrimage-in-india": {
+  "stem": "plan-pilgrimage-har-ki-pauri",
+  "queries": [
+   "Har Ki Pauri Haridwar",
+   "Haridwar ghat"
+  ],
+  "must": [
+   "har ki pauri",
+   "haridwar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/how-to-plan-a-pilgrimage-in-india",
+  "n": 6
+ },
+ "pilgrimage-packing-list": {
+  "stem": "pilgrimage-packing-kedarnath-trek",
+  "queries": [
+   "Kedarnath trek pilgrims",
+   "Kedarnath yatra path",
+   "Gaurikund Kedarnath route"
+  ],
+  "must": [
+   "kedarnath",
+   "gaurikund"
+  ],
+  "alt": "",
+  "usedIn": "/blog/pilgrimage-packing-list",
+  "n": 6
+ },
+ "pilgrimage-trips-from-delhi": {
+  "stem": "pilgrimage-delhi-vrindavan-prem-mandir",
+  "queries": [
+   "Prem Mandir Vrindavan",
+   "Banke Bihari Vrindavan",
+   "Vrindavan temple"
+  ],
+  "must": [
+   "vrindavan",
+   "prem mandir"
+  ],
+  "alt": "",
+  "usedIn": "/blog/pilgrimage-trips-from-delhi",
+  "n": 6
+ },
+ "pilgrimage-trips-from-mumbai": {
+  "stem": "pilgrimage-mumbai-siddhivinayak",
+  "queries": [
+   "Siddhivinayak Temple Mumbai",
+   "Shri Siddhivinayak"
+  ],
+  "must": [
+   "siddhivinayak"
+  ],
+  "alt": "",
+  "usedIn": "/blog/pilgrimage-trips-from-mumbai",
+  "n": 6
+ },
+ "spiritual-tourism-in-uttar-pradesh": {
+  "stem": "spiritual-up-varanasi-ghats",
+  "queries": [
+   "Varanasi ghats Ganges",
+   "Assi Ghat Varanasi",
+   "Manikarnika Ghat"
+  ],
+  "must": [
+   "varanasi",
+   "ghat"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-uttar-pradesh",
+  "n": 6
+ },
+ "spiritual-tourism-in-uttarakhand": {
+  "stem": "spiritual-uttarakhand-kedarnath",
+  "queries": [
+   "Kedarnath Temple",
+   "Kedarnath temple snow"
+  ],
+  "must": [
+   "kedarnath"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-uttarakhand",
+  "n": 6
+ },
+ "spiritual-tourism-in-gujarat": {
+  "stem": "spiritual-gujarat-ambaji",
+  "queries": [
+   "Ambaji temple",
+   "Ambaji Gujarat",
+   "Pavagadh Kalika"
+  ],
+  "must": [
+   "ambaji",
+   "pavagadh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-gujarat",
+  "n": 6
+ },
+ "spiritual-tourism-in-rajasthan": {
+  "stem": "spiritual-rajasthan-pushkar-ghats",
+  "queries": [
+   "Pushkar Lake ghats",
+   "Pushkar ghat"
+  ],
+  "must": [
+   "pushkar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-rajasthan",
+  "n": 6
+ },
+ "spiritual-tourism-in-maharashtra": {
+  "stem": "spiritual-maharashtra-pandharpur",
+  "queries": [
+   "Pandharpur Vithoba temple",
+   "Pandharpur wari",
+   "Pandharpur"
+  ],
+  "must": [
+   "pandharpur",
+   "vithoba",
+   "wari"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-maharashtra",
+  "n": 6
+ },
+ "spiritual-tourism-in-madhya-pradesh": {
+  "stem": "spiritual-mp-ujjain-ghats",
+  "queries": [
+   "Ram Ghat Ujjain",
+   "Ujjain Shipra ghat",
+   "Mahakaleshwar Ujjain"
+  ],
+  "must": [
+   "ujjain"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-madhya-pradesh",
+  "n": 6
+ },
+ "spiritual-tourism-in-tamil-nadu": {
+  "stem": "spiritual-tn-srirangam-gopuram",
+  "queries": [
+   "Srirangam temple gopuram",
+   "Ranganathaswamy Temple Srirangam"
+  ],
+  "must": [
+   "srirangam"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-tamil-nadu",
+  "n": 6
+ },
+ "spiritual-tourism-in-karnataka": {
+  "stem": "spiritual-karnataka-udupi-krishna",
+  "queries": [
+   "Udupi Sri Krishna Matha",
+   "Udupi Krishna temple",
+   "Udupi car street"
+  ],
+  "must": [
+   "udupi"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-karnataka",
+  "n": 6
+ },
+ "spiritual-tourism-in-kerala": {
+  "stem": "spiritual-kerala-guruvayur",
+  "queries": [
+   "Guruvayur temple",
+   "Guruvayur"
+  ],
+  "must": [
+   "guruvayur"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-kerala",
+  "n": 6
+ },
+ "spiritual-tourism-in-andhra-pradesh": {
+  "stem": "spiritual-ap-tirumala-hills",
+  "queries": [
+   "Tirumala Venkateswara Temple",
+   "Tirumala hills",
+   "Tirumala"
+  ],
+  "must": [
+   "tirumala",
+   "venkateswara"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-andhra-pradesh",
+  "n": 6
+ },
+ "spiritual-tourism-in-odisha": {
+  "stem": "spiritual-odisha-lingaraj-bhubaneswar",
+  "queries": [
+   "Lingaraja Temple Bhubaneswar",
+   "Lingaraj temple",
+   "Mukteshwar temple Bhubaneswar"
+  ],
+  "must": [
+   "lingaraj",
+   "mukteshwar",
+   "mukteswar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-odisha",
+  "n": 6
+ },
+ "spiritual-tourism-in-west-bengal": {
+  "stem": "spiritual-wb-dakshineswar",
+  "queries": [
+   "Dakshineswar Kali Temple",
+   "Dakshineswar"
+  ],
+  "must": [
+   "dakshineswar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-west-bengal",
+  "n": 6
+ },
+ "spiritual-tourism-in-bihar": {
+  "stem": "spiritual-bihar-nalanda-ruins",
+  "queries": [
+   "Vishnupad Temple Gaya",
+   "Nalanda Mahavihara Sariputta stupa",
+   "Nalanda university ruins stupa"
+  ],
+  "must": [
+   "vishnupad",
+   "sariputta",
+   "nalanda mahavihara",
+   "nalanda university"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-bihar",
+  "n": 6
+ },
+ "spiritual-tourism-in-himachal-pradesh": {
+  "stem": "spiritual-himachal-namgyal-dharamshala",
+  "queries": [
+   "Namgyal Monastery McLeod Ganj",
+   "Tsuglagkhang McLeod Ganj",
+   "Dalai Lama temple Dharamsala"
+  ],
+  "must": [
+   "namgyal",
+   "tsuglag",
+   "mcleod",
+   "dharamsala",
+   "dharamshala"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-himachal-pradesh",
+  "n": 6
+ },
+ "spiritual-tourism-in-jammu-and-kashmir": {
+  "stem": "spiritual-jk-hazratbal-srinagar",
+  "queries": [
+   "Hazratbal Shrine",
+   "Hazratbal mosque Srinagar"
+  ],
+  "must": [
+   "hazratbal"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiritual-tourism-in-jammu-and-kashmir",
+  "n": 6
+ },
+ "heritage-hub": {
+  "stem": "heritage-cultural-tourism-india-hampi",
+  "queries": [
+   "Hampi Vittala temple stone chariot",
+   "Hampi ruins",
+   "Virupaksha temple Hampi"
+  ],
+  "must": [
+   "hampi",
+   "vittala",
+   "virupaksha"
+  ],
+  "alt": "",
+  "usedIn": "/heritage-cultural-tourism",
+  "n": 6
+ },
+ "historical-places-in-india": {
+  "stem": "historical-places-india-fatehpur-sikri",
+  "queries": [
+   "Fatehpur Sikri Buland Darwaza",
+   "Fatehpur Sikri Panch Mahal"
+  ],
+  "must": [
+   "fatehpur"
+  ],
+  "alt": "",
+  "usedIn": "/blog/historical-places-in-india",
+  "n": 6
+ },
+ "how-to-plan-a-heritage-trip-in-india": {
+  "stem": "heritage-trip-khajuraho-temples",
+  "queries": [
+   "Khajuraho temples western group",
+   "Kandariya Mahadeva"
+  ],
+  "must": [
+   "khajuraho",
+   "kandariya"
+  ],
+  "alt": "",
+  "usedIn": "/blog/how-to-plan-a-heritage-trip-in-india",
+  "n": 6
+ },
+ "unesco-world-heritage-sites-in-india": {
+  "stem": "unesco-sites-india-konark-sun-temple",
+  "queries": [
+   "Konark Sun Temple",
+   "Konark wheel"
+  ],
+  "must": [
+   "konark"
+  ],
+  "alt": "",
+  "usedIn": "/blog/unesco-world-heritage-sites-in-india",
+  "n": 6
+ },
+ "taj-mahal": {
+  "stem": "taj-mahal-agra",
+  "queries": [
+   "Taj Mahal",
+   "Taj Mahal Agra"
+  ],
+  "must": [
+   "taj mahal"
+  ],
+  "alt": "",
+  "usedIn": "/blog/taj-mahal",
+  "n": 6
+ },
+ "red-fort": {
+  "stem": "red-fort-delhi-lahori-gate",
+  "queries": [
+   "Red Fort Delhi",
+   "Lahori Gate Red Fort",
+   "Lal Qila Delhi"
+  ],
+  "must": [
+   "red fort",
+   "lal qila",
+   "lahori gate"
+  ],
+  "alt": "",
+  "usedIn": "/blog/red-fort",
+  "n": 6
+ },
+ "qutub-minar": {
+  "stem": "qutub-minar-delhi",
+  "queries": [
+   "Qutub Minar",
+   "Qutb Minar complex"
+  ],
+  "must": [
+   "qutub",
+   "qutb"
+  ],
+  "alt": "",
+  "usedIn": "/blog/qutub-minar",
+  "n": 6
+ },
+ "humayuns-tomb": {
+  "stem": "humayuns-tomb-delhi",
+  "queries": [
+   "Humayun's Tomb",
+   "Humayun Tomb Delhi"
+  ],
+  "must": [
+   "humayun"
+  ],
+  "alt": "",
+  "usedIn": "/blog/humayuns-tomb",
+  "n": 6
+ },
+ "amber-fort": {
+  "stem": "amber-fort-jaipur",
+  "queries": [
+   "Amber Fort Jaipur",
+   "Amer Fort",
+   "Amer Palace"
+  ],
+  "must": [
+   "amber",
+   "amer"
+  ],
+  "alt": "",
+  "usedIn": "/blog/amber-fort",
+  "n": 6
+ },
+ "mehrangarh-fort": {
+  "stem": "mehrangarh-fort-jodhpur",
+  "queries": [
+   "Mehrangarh Fort",
+   "Mehrangarh Jodhpur"
+  ],
+  "must": [
+   "mehrangarh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/mehrangarh-fort",
+  "n": 6
+ },
+ "elephanta-caves": {
+  "stem": "elephanta-caves-trimurti",
+  "queries": [
+   "Elephanta Caves",
+   "Elephanta Trimurti",
+   "Elephanta Island cave"
+  ],
+  "must": [
+   "elephanta"
+  ],
+  "alt": "",
+  "usedIn": "/blog/elephanta-caves",
+  "n": 6
+ },
+ "champaner-pavagadh": {
+  "stem": "champaner-jami-masjid",
+  "queries": [
+   "Jami Masjid Champaner",
+   "Champaner-Pavagadh",
+   "Champaner mosque"
+  ],
+  "must": [
+   "champaner"
+  ],
+  "alt": "",
+  "usedIn": "/blog/champaner-pavagadh",
+  "n": 6
+ },
+ "lothal": {
+  "stem": "lothal-harappan-site",
+  "queries": [
+   "Lothal",
+   "Lothal dockyard",
+   "Lothal archaeological site"
+  ],
+  "must": [
+   "lothal"
+  ],
+  "alt": "",
+  "usedIn": "/blog/lothal",
+  "n": 6
+ },
+ "belur-halebidu-hoysala-temples": {
+  "stem": "hoysala-chennakeshava-temple-belur",
+  "queries": [
+   "Chennakeshava Temple Belur",
+   "Belur temple",
+   "Hoysaleswara temple Halebidu"
+  ],
+  "must": [
+   "belur",
+   "halebid",
+   "hoysaleswara",
+   "chennakeshava"
+  ],
+  "alt": "",
+  "usedIn": "/blog/belur-halebidu-hoysala-temples",
+  "n": 6
+ },
+ "famous-forts-in-india": {
+  "stem": "famous-forts-india-chittorgarh",
+  "queries": [
+   "Chittorgarh Fort",
+   "Vijay Stambh Chittorgarh"
+  ],
+  "must": [
+   "chittor"
+  ],
+  "alt": "",
+  "usedIn": "/blog/famous-forts-in-india",
+  "n": 6
+ },
+ "forts-of-rajasthan": {
+  "stem": "forts-rajasthan-kumbhalgarh-walls",
+  "queries": [
+   "Kumbhalgarh fort wall",
+   "Kumbhalgarh"
+  ],
+  "must": [
+   "kumbhalgarh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/forts-of-rajasthan",
+  "n": 6
+ },
+ "forts-in-maharashtra": {
+  "stem": "forts-maharashtra-raigad",
+  "queries": [
+   "Raigad Fort",
+   "Raigad fort Maharashtra"
+  ],
+  "must": [
+   "raigad"
+  ],
+  "alt": "",
+  "usedIn": "/blog/forts-in-maharashtra",
+  "n": 6
+ },
+ "palaces-in-india": {
+  "stem": "palaces-india-mysore-palace",
+  "queries": [
+   "Mysore Palace",
+   "Mysore Palace illuminated",
+   "Amba Vilas Palace"
+  ],
+  "must": [
+   "mysore palace",
+   "mysuru palace",
+   "amba vilas"
+  ],
+  "alt": "",
+  "usedIn": "/blog/palaces-in-india",
+  "n": 6
+ },
+ "archaeological-sites-in-india": {
+  "stem": "archaeological-sites-dholavira",
+  "queries": [
+   "Dholavira",
+   "Dholavira excavation",
+   "Dholavira Harappan"
+  ],
+  "must": [
+   "dholavira"
+  ],
+  "alt": "",
+  "usedIn": "/blog/archaeological-sites-in-india",
+  "n": 6
+ },
+ "rock-cut-caves-in-india": {
+  "stem": "rock-cut-caves-ajanta",
+  "queries": [
+   "Ajanta Caves",
+   "Ajanta caves horseshoe"
+  ],
+  "must": [
+   "ajanta"
+  ],
+  "alt": "",
+  "usedIn": "/blog/rock-cut-caves-in-india",
+  "n": 6
+ },
+ "temple-architecture-of-india": {
+  "stem": "temple-architecture-brihadeeswarar",
+  "queries": [
+   "Brihadeeswarar Temple Thanjavur",
+   "Thanjavur Big Temple"
+  ],
+  "must": [
+   "brihadeeswar",
+   "brihadisvara",
+   "thanjavur"
+  ],
+  "alt": "",
+  "usedIn": "/blog/temple-architecture-of-india",
+  "n": 6
+ },
+ "mughal-monuments-in-india": {
+  "stem": "mughal-monuments-agra-fort",
+  "queries": [
+   "Agra Fort",
+   "Agra Fort Diwan-i-Khas",
+   "Agra Fort Amar Singh Gate"
+  ],
+  "must": [
+   "agra fort"
+  ],
+  "alt": "",
+  "usedIn": "/blog/mughal-monuments-in-india",
+  "n": 6
+ },
+ "colonial-heritage-in-india": {
+  "stem": "colonial-heritage-csmt-mumbai",
+  "queries": [
+   "Chhatrapati Shivaji Terminus",
+   "CST Mumbai",
+   "Victoria Terminus Mumbai"
+  ],
+  "must": [
+   "chhatrapati shivaji",
+   "victoria terminus",
+   "cst",
+   "csmt"
+  ],
+  "alt": "",
+  "usedIn": "/blog/colonial-heritage-in-india",
+  "n": 6
+ },
+ "deccan-sultanate-heritage": {
+  "stem": "deccan-gol-gumbaz-vijayapura",
+  "queries": [
+   "Gol Gumbaz",
+   "Gol Gumbaz Bijapur",
+   "Gol Gumbaz Vijayapura"
+  ],
+  "must": [
+   "gol gumbaz"
+  ],
+  "alt": "",
+  "usedIn": "/blog/deccan-sultanate-heritage",
+  "n": 6
+ },
+ "heritage-cities-in-india": {
+  "stem": "heritage-cities-ahmedabad-pol",
+  "queries": [
+   "Ahmedabad pol houses",
+   "Ahmedabad old city pol",
+   "Ahmedabad heritage"
+  ],
+  "must": [
+   "pol",
+   "ahmedabad"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-cities-in-india",
+  "n": 6
+ },
+ "heritage-walks-in-india": {
+  "stem": "heritage-walks-chandni-chowk",
+  "queries": [
+   "Chandni Chowk street",
+   "Chandni Chowk Old Delhi",
+   "Old Delhi lanes"
+  ],
+  "must": [
+   "chandni chowk",
+   "old delhi"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-walks-in-india",
+  "n": 6
+ },
+ "best-museums-in-india": {
+  "stem": "museums-india-victoria-memorial",
+  "queries": [
+   "Victoria Memorial Kolkata",
+   "Victoria Memorial"
+  ],
+  "must": [
+   "victoria memorial"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-museums-in-india",
+  "n": 6
+ },
+ "handicrafts-of-india": {
+  "stem": "handicrafts-jaipur-blue-pottery",
+  "queries": [
+   "Jaipur blue pottery",
+   "blue pottery Rajasthan"
+  ],
+  "must": [
+   "blue pottery"
+  ],
+  "alt": "",
+  "usedIn": "/blog/handicrafts-of-india",
+  "n": 6
+ },
+ "textile-heritage-of-india": {
+  "stem": "textiles-handloom-weaver-india",
+  "queries": [
+   "handloom weaving India",
+   "Banarasi saree weaving",
+   "handloom weaver loom India"
+  ],
+  "must": [
+   "handloom",
+   "weav",
+   "loom"
+  ],
+  "alt": "",
+  "usedIn": "/blog/textile-heritage-of-india",
+  "n": 6
+ },
+ "classical-dance-and-music-in-india": {
+  "stem": "classical-dance-kathakali",
+  "queries": [
+   "Kathakali performance",
+   "Kathakali Kerala"
+  ],
+  "must": [
+   "kathakali"
+  ],
+  "alt": "",
+  "usedIn": "/blog/classical-dance-and-music-in-india",
+  "n": 6
+ },
+ "cultural-festivals-in-india": {
+  "stem": "cultural-festivals-pushkar-fair",
+  "queries": [
+   "Pushkar Camel Fair",
+   "Pushkar fair camels"
+  ],
+  "must": [
+   "pushkar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/cultural-festivals-in-india",
+  "n": 6
+ },
+ "hornbill-festival": {
+  "stem": "hornbill-festival-kisama",
+  "queries": [
+   "Hornbill Festival Nagaland",
+   "Hornbill festival Kisama"
+  ],
+  "must": [
+   "hornbill festival",
+   "kisama"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hornbill-festival",
+  "n": 6
+ },
+ "rann-utsav": {
+  "stem": "rann-utsav-white-rann",
+  "queries": [
+   "Rann Utsav",
+   "White Rann Kutch",
+   "Great Rann of Kutch salt desert"
+  ],
+  "must": [
+   "rann"
+  ],
+  "alt": "",
+  "usedIn": "/blog/rann-utsav",
+  "n": 6
+ },
+ "tribal-tourism-in-india": {
+  "stem": "tribal-culture-warli-painting",
+  "queries": [
+   "Warli painting",
+   "Warli art"
+  ],
+  "must": [
+   "warli"
+  ],
+  "alt": "",
+  "usedIn": "/blog/tribal-tourism-in-india",
+  "n": 6
+ },
+ "food-heritage-of-india": {
+  "stem": "food-heritage-thali",
+  "queries": [
+   "Indian thali",
+   "Gujarati thali",
+   "Rajasthani thali"
+  ],
+  "must": [
+   "thali"
+  ],
+  "alt": "",
+  "usedIn": "/blog/food-heritage-of-india",
+  "n": 6
+ },
+ "mountain-railways-of-india": {
+  "stem": "mountain-railways-darjeeling-toy-train",
+  "queries": [
+   "Darjeeling Himalayan Railway",
+   "Darjeeling toy train",
+   "Batasia Loop"
+  ],
+  "must": [
+   "darjeeling himalayan",
+   "toy train",
+   "batasia"
+  ],
+  "alt": "",
+  "usedIn": "/blog/mountain-railways-of-india",
+  "n": 6
+ },
+ "golden-triangle-itinerary": {
+  "stem": "golden-triangle-jaipur-hawa-mahal",
+  "queries": [
+   "Hawa Mahal",
+   "Hawa Mahal Jaipur"
+  ],
+  "must": [
+   "hawa mahal"
+  ],
+  "alt": "",
+  "usedIn": "/blog/golden-triangle-itinerary",
+  "n": 6
+ },
+ "rajasthan-heritage-itinerary": {
+  "stem": "rajasthan-heritage-jaisalmer-fort",
+  "queries": [
+   "Jaisalmer Fort",
+   "Sonar Qila Jaisalmer"
+  ],
+  "must": [
+   "jaisalmer"
+  ],
+  "alt": "",
+  "usedIn": "/blog/rajasthan-heritage-itinerary",
+  "n": 6
+ },
+ "south-india-heritage-itinerary": {
+  "stem": "south-india-mahabalipuram-shore-temple",
+  "queries": [
+   "Shore Temple Mahabalipuram",
+   "Mamallapuram shore temple"
+  ],
+  "must": [
+   "shore temple"
+  ],
+  "alt": "",
+  "usedIn": "/blog/south-india-heritage-itinerary",
+  "n": 6
+ },
+ "gujarat-heritage-itinerary": {
+  "stem": "gujarat-heritage-rani-ki-vav",
+  "queries": [
+   "Rani ki vav",
+   "Rani ki Vav Patan stepwell"
+  ],
+  "must": [
+   "rani ki vav",
+   "rani-ki-vav"
+  ],
+  "alt": "",
+  "usedIn": "/blog/gujarat-heritage-itinerary",
+  "n": 6
+ },
+ "madhya-pradesh-heritage-itinerary": {
+  "stem": "mp-heritage-orchha-chhatris",
+  "queries": [
+   "Orchha cenotaphs Betwa",
+   "Orchha chhatris",
+   "Orchha Fort"
+  ],
+  "must": [
+   "orchha"
+  ],
+  "alt": "",
+  "usedIn": "/blog/madhya-pradesh-heritage-itinerary",
+  "n": 6
+ },
+ "heritage-tourism-in-rajasthan": {
+  "stem": "heritage-rajasthan-jaipur-city-palace",
+  "queries": [
+   "City Palace Jaipur",
+   "Chandra Mahal Jaipur"
+  ],
+  "must": [
+   "city palace"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-tourism-in-rajasthan",
+  "n": 6
+ },
+ "heritage-tourism-in-gujarat": {
+  "stem": "heritage-gujarat-adalaj-stepwell",
+  "queries": [
+   "Adalaj stepwell",
+   "Adalaj ni vav"
+  ],
+  "must": [
+   "adalaj"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-tourism-in-gujarat",
+  "n": 6
+ },
+ "heritage-tourism-in-madhya-pradesh": {
+  "stem": "heritage-mp-gwalior-fort",
+  "queries": [
+   "Gwalior Fort",
+   "Man Singh Palace Gwalior"
+  ],
+  "must": [
+   "gwalior"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-tourism-in-madhya-pradesh",
+  "n": 6
+ },
+ "heritage-tourism-in-maharashtra": {
+  "stem": "heritage-maharashtra-ellora-kailasa",
+  "queries": [
+   "Kailasa temple Ellora",
+   "Ellora cave 16"
+  ],
+  "must": [
+   "kailasa",
+   "ellora"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-tourism-in-maharashtra",
+  "n": 6
+ },
+ "heritage-tourism-in-karnataka": {
+  "stem": "heritage-karnataka-pattadakal",
+  "queries": [
+   "Pattadakal temples",
+   "Pattadakal"
+  ],
+  "must": [
+   "pattadakal"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-tourism-in-karnataka",
+  "n": 6
+ },
+ "heritage-tourism-in-tamil-nadu": {
+  "stem": "heritage-tn-chettinad-mansion",
+  "queries": [
+   "Chettinad mansion",
+   "Chettinad house Karaikudi",
+   "Kanadukathan palace"
+  ],
+  "must": [
+   "chettinad",
+   "karaikudi",
+   "kanadukathan"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-tourism-in-tamil-nadu",
+  "n": 6
+ },
+ "heritage-tourism-in-uttar-pradesh": {
+  "stem": "heritage-up-bara-imambara-lucknow",
+  "queries": [
+   "Bara Imambara Lucknow",
+   "Rumi Darwaza Lucknow"
+  ],
+  "must": [
+   "imambara",
+   "rumi darwaza"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-tourism-in-uttar-pradesh",
+  "n": 6
+ },
+ "heritage-tourism-in-delhi": {
+  "stem": "heritage-delhi-purana-qila",
+  "queries": [
+   "Purana Qila Delhi",
+   "Purana Qila"
+  ],
+  "must": [
+   "purana qila",
+   "purana qil"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-tourism-in-delhi",
+  "n": 6
+ },
+ "heritage-tourism-in-odisha": {
+  "stem": "heritage-odisha-mukteswar-temple",
+  "queries": [
+   "Mukteswar Temple Bhubaneswar",
+   "Mukteshvara temple"
+  ],
+  "must": [
+   "mukteswar",
+   "mukteshwar",
+   "mukteshvara"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-tourism-in-odisha",
+  "n": 6
+ },
+ "heritage-tourism-in-west-bengal": {
+  "stem": "heritage-wb-bishnupur-terracotta",
+  "queries": [
+   "Bishnupur terracotta temple",
+   "Rasmancha Bishnupur",
+   "Jor Bangla temple"
+  ],
+  "must": [
+   "bishnupur",
+   "rasmancha",
+   "jor bangla"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-tourism-in-west-bengal",
+  "n": 6
+ },
+ "heritage-tourism-in-telangana": {
+  "stem": "heritage-telangana-charminar",
+  "queries": [
+   "Charminar",
+   "Charminar Hyderabad"
+  ],
+  "must": [
+   "charminar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-tourism-in-telangana",
+  "n": 6
+ },
+ "heritage-tourism-in-kerala": {
+  "stem": "heritage-kerala-mattancherry-palace",
+  "queries": [
+   "Mattancherry Palace",
+   "Fort Kochi Chinese fishing nets",
+   "Padmanabhapuram Palace"
+  ],
+  "must": [
+   "mattancherry",
+   "padmanabhapuram",
+   "fort kochi"
+  ],
+  "alt": "",
+  "usedIn": "/blog/heritage-tourism-in-kerala",
+  "n": 6
+ }
+}

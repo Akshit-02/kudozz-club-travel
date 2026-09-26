@@ -1,0 +1,518 @@
+{
+  "slug": "best-beaches-in-gujarat",
+  "kind": "state",
+  "short": "Best beaches in Gujarat",
+  "title": "Best Beaches in Gujarat: Shivrajpur, Mandvi, Dwarka and the Saurashtra Coast",
+  "seoTitle": "Best Beaches in Gujarat: Shivrajpur, Mandvi & Dwarka | Kudozz Club",
+  "metaDescription": "The best beaches in Gujarat: Blue Flag Shivrajpur, Mandvi in Kutch, Dwarka, Somnath, Chorwad and Tithal, plus nearby Diu and Daman, with seasons and tips.",
+  "description": "A guide to the best beaches on Gujarat's long coast: Shivrajpur near Dwarka with Blue Flag certification and snorkelling, Mandvi in Kutch, the temple shores of Dwarka and Somnath, Chorwad, Ahmedpur Mandvi near Diu, Tithal and Dumas in south Gujarat, and the beaches of Diu and Daman just across the Union Territory border.",
+  "dek": "Gujarat has India's longest coastline, but its beaches are less known than its temples and deserts. Here are the ones worth the trip.",
+  "primaryKeyword": "best beaches in Gujarat",
+  "secondaryKeywords": [
+    "beaches in Gujarat",
+    "Gujarat beaches",
+    "beach holiday Gujarat",
+    "beach travel in Gujarat",
+    "best beach in Gujarat for families",
+    "quiet beaches Gujarat"
+  ],
+  "searchIntent": "Choose beaches in Gujarat",
+  "activities": [
+    "beaches",
+    "snorkelling",
+    "water sports",
+    "pilgrimage"
+  ],
+  "terrain": [
+    "beaches",
+    "coast"
+  ],
+  "regions": [
+    "Gujarat",
+    "West India",
+    "Saurashtra"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "friends",
+    "couples"
+  ],
+  "tags": [
+    "Gujarat",
+    "Beaches",
+    "Shivrajpur",
+    "Mandvi"
+  ],
+  "hero": {
+    "src": "/images/beach/gujarat-beach-mandvi.webp",
+    "alt": "Camel ride at sunset on Mandvi beach, Kutch",
+    "caption": "Mandvi"
+  },
+  "parent": {
+    "label": "Best Beach Destinations in India",
+    "href": "/blog/best-beach-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Gujarat coast",
+    "containedIn": "Gujarat"
+  },
+  "intro": [
+    "Gujarat has the longest coastline of any Indian state, curving around the Gulf of Kutch, the Saurashtra peninsula and the Gulf of Khambhat. Much of it is working coast, salt pans and mangroves, but there are good beaches, especially on the Saurashtra coast near Dwarka and Somnath and in Kutch at Mandvi.",
+    "Many Gujarat beaches sit beside major pilgrimage sites, so they are busy with families rather than sunbathers. Diu and Daman, former Portuguese enclaves now part of a Union Territory, have Gujarat's most relaxed beach scene and are covered here too because most visitors reach them through Gujarat."
+  ],
+  "quickAnswer": "The best beaches in Gujarat are Shivrajpur, about 12 km from Dwarka, which has Blue Flag certification and snorkelling trips; Mandvi in Kutch with its long beach and Vijay Vilas Palace nearby; the temple shores at Dwarka and Somnath; Chorwad; Ahmedpur Mandvi near Diu; and Tithal near Valsad. Nearby Diu's Nagoa and Ghoghla beaches are the most relaxed. Visit from October to March.",
+  "takeaways": [
+    "Gujarat has India's longest coastline, but only a handful of beaches are set up for visitors.",
+    "Shivrajpur near Dwarka holds Blue Flag certification and offers snorkelling and try dives.",
+    "Mandvi in Kutch combines a long beach with a traditional dhow-building yard.",
+    "Somnath's temple stands on the shore; the sea there is for views, not swimming.",
+    "Diu's Nagoa and Ghoghla beaches are close to Gujarat and the most laid-back in the region."
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "heading": "Gujarat beaches at a glance",
+      "table": {
+        "columns": [
+          "Beach",
+          "Near",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Mandvi",
+            "Kutch",
+            "Long beach, dhow yards, palace"
+          ],
+          [
+            "Shivrajpur",
+            "Dwarka",
+            "Blue Flag beach, snorkelling"
+          ],
+          [
+            "Dwarka and Bet Dwarka",
+            "Dwarka",
+            "Pilgrimage, sea views"
+          ],
+          [
+            "Somnath",
+            "Gir Somnath",
+            "Temple by the sea"
+          ],
+          [
+            "Chorwad",
+            "Junagadh",
+            "Rocky coast, old palace"
+          ],
+          [
+            "Ahmedpur Mandvi",
+            "Near Diu",
+            "Water sports"
+          ],
+          [
+            "Tithal",
+            "Valsad",
+            "Black sand, sunsets"
+          ],
+          [
+            "Dumas",
+            "Surat",
+            "City escape, dark sand"
+          ],
+          [
+            "Nagoa and Ghoghla (Diu)",
+            "Diu (UT)",
+            "Relaxed beaches, water sports"
+          ],
+          [
+            "Devka and Jampore (Daman)",
+            "Daman (UT)",
+            "Weekend beaches"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "saurashtra",
+      "heading": "Saurashtra coast",
+      "items": [
+        {
+          "name": "Shivrajpur",
+          "body": [
+            "About 12 km from Dwarka on the road to Okha, Shivrajpur has white sand, clear water in season and Blue Flag certification, with managed facilities. Operators offer snorkelling and scuba try dives over the rocky reef."
+          ],
+          "facts": {
+            "Best for": "Families, a clean swim in season"
+          },
+          "links": [
+            {
+              "label": "Things to do in Dwarka",
+              "href": "/blog/things-to-do-in-dwarka"
+            }
+          ]
+        },
+        {
+          "name": "Dwarka and Bet Dwarka",
+          "body": [
+            "The Dwarkadhish temple overlooks the Gomti river mouth. Bet Dwarka, an island temple site off Okha, is now linked by the Sudarshan Setu bridge. The coast here is for walks and views."
+          ],
+          "facts": {
+            "Best for": "Pilgrims"
+          },
+          "links": [
+            {
+              "label": "Dwarka travel guide",
+              "href": "/blog/dwarka-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Somnath",
+          "body": [
+            "The Somnath temple stands right on the Arabian Sea shore, with a promenade and an evening sound and light show. Swimming is not advised."
+          ],
+          "facts": {
+            "Best for": "Pilgrims, sunset"
+          },
+          "links": [
+            {
+              "label": "Somnath travel guide",
+              "href": "/blog/somnath-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/gujarat/somnath-temple-arabian-sea-coast.webp",
+            "alt": "The Somnath temple beside the Arabian Sea",
+            "caption": "Somnath"
+          }
+        },
+        {
+          "name": "Chorwad",
+          "body": [
+            "A rocky stretch of coast near Junagadh with a former summer palace of the Nawabs of Junagadh."
+          ],
+          "facts": {
+            "Best for": "A drive along the coast"
+          }
+        },
+        {
+          "name": "Ahmedpur Mandvi",
+          "body": [
+            "A beach on the Gujarat side of Diu's creek, with water sports and resorts."
+          ],
+          "facts": {
+            "Best for": "Combining with Diu"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kutch",
+      "heading": "Kutch",
+      "items": [
+        {
+          "name": "Mandvi",
+          "body": [
+            "A long, clean beach on the Gulf of Kutch, with camel rides and water sports. The town has a centuries-old tradition of building wooden dhows by hand, and the Vijay Vilas Palace is nearby. Combine it with the Rann of Kutch in winter."
+          ],
+          "facts": {
+            "Best for": "Families, a Kutch trip"
+          },
+          "links": [
+            {
+              "label": "Mandvi travel guide",
+              "href": "/blog/mandvi-travel-guide"
+            },
+            {
+              "label": "Things to do in Kutch",
+              "href": "/blog/things-to-do-in-kutch"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/mandvi/mandvi-beach-2.webp",
+            "alt": "Mandvi beach, Kutch",
+            "caption": "Mandvi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "south",
+      "heading": "South Gujarat",
+      "items": [
+        {
+          "name": "Tithal",
+          "body": [
+            "A black-sand beach near Valsad with a Swaminarayan temple and a Sai Baba temple on the shore, popular for sunsets."
+          ],
+          "facts": {
+            "Best for": "A day out"
+          }
+        },
+        {
+          "name": "Dumas",
+          "body": [
+            "Surat's beach on the Arabian Sea, known for its dark sand and street food. The water is not suitable for swimming."
+          ],
+          "facts": {
+            "Best for": "An evening from Surat"
+          },
+          "links": [
+            {
+              "label": "Things to do in Surat",
+              "href": "/blog/things-to-do-in-surat"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/surat/dumas-beach-surat.webp",
+            "alt": "Dumas beach, Surat",
+            "caption": "Dumas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "diu-daman",
+      "heading": "Diu and Daman (Union Territory)",
+      "items": [
+        {
+          "name": "Diu",
+          "body": [
+            "A small island off the Saurashtra coast with a Portuguese fort and relaxed beaches: horseshoe-shaped Nagoa with water sports, Ghoghla with Blue Flag certification, and quieter Jallandhar and Chakratirth."
+          ],
+          "facts": {
+            "Best for": "Relaxed beach stays"
+          },
+          "links": [
+            {
+              "label": "Things to do in Diu",
+              "href": "/blog/things-to-do-in-diu"
+            },
+            {
+              "label": "Nagoa beach guide",
+              "href": "/blog/nagoa-beach-travel-guide"
+            },
+            {
+              "label": "Ghoghla beach guide",
+              "href": "/blog/ghoghla-beach-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nagoa-beach/nagoa-beach-horseshoe-bay-diu.webp",
+            "alt": "The horseshoe bay of Nagoa beach, Diu",
+            "caption": "Nagoa beach"
+          }
+        },
+        {
+          "name": "Daman",
+          "body": [
+            "Near the Gujarat and Maharashtra border, Daman has Devka and Jampore beaches, forts and churches, and is a common weekend trip from Mumbai and Surat."
+          ],
+          "facts": {
+            "Best for": "Weekends"
+          },
+          "links": [
+            {
+              "label": "Things to do in Daman",
+              "href": "/blog/things-to-do-in-daman"
+            },
+            {
+              "label": "Devka beach guide",
+              "href": "/blog/devka-beach-travel-guide"
+            },
+            {
+              "label": "Jampore beach guide",
+              "href": "/blog/jampore-beach-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "itinerary",
+      "heading": "Suggested itinerary",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Dwarka: Dwarkadhish temple and the Gomti ghat"
+          ],
+          [
+            "2",
+            "Shivrajpur beach; Bet Dwarka via the Sudarshan Setu"
+          ],
+          [
+            "3",
+            "Drive down the coast to Porbandar and Chorwad"
+          ],
+          [
+            "4",
+            "Somnath temple and the evening show"
+          ],
+          [
+            "5",
+            "Diu: fort and Nagoa beach"
+          ],
+          [
+            "6",
+            "Ghoghla and Chakratirth; depart"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "who-for",
+      "heading": "Who is it best for?",
+      "items": [
+        {
+          "name": "Families",
+          "body": [
+            "Shivrajpur, Mandvi and Diu's Nagoa, with managed facilities."
+          ]
+        },
+        {
+          "name": "Pilgrims",
+          "body": [
+            "Dwarka and Somnath."
+          ]
+        },
+        {
+          "name": "Relaxed beach stays",
+          "body": [
+            "Diu."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-many-days",
+      "heading": "How many days?",
+      "paras": [
+        "Two days covers Dwarka and Shivrajpur. A Saurashtra coast trip from Dwarka to Diu takes five to six days; add two days for Mandvi with the Rann of Kutch."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to March is best, with mild days and calmer sea. April to June is very hot, and the monsoon, from about June to September, brings rough seas; swimming is unsafe then. Winter is also the season for the Rann of Kutch, which combines well with Mandvi."
+      ]
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Many Gujarat beaches have strong currents and no lifeguards; swim only at managed beaches such as Shivrajpur, in season.",
+    "Do not swim at Somnath, Dumas or other temple and city shores.",
+    "Use licensed water-sports and snorkelling operators, and wear life jackets.",
+    "The sun is intense and shade is limited; carry water and a hat."
+  ],
+  "packing": [
+    "Sun hat and high-SPF sunscreen",
+    "Plenty of water",
+    "Modest clothes for temples",
+    "Swimwear for managed beaches"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best beach in Gujarat?",
+      "a": "Shivrajpur near Dwarka, with Blue Flag certification, and Mandvi in Kutch."
+    },
+    {
+      "q": "Can you swim at Shivrajpur beach?",
+      "a": "Yes, in the managed area in season, following lifeguard instructions."
+    },
+    {
+      "q": "Are Diu's beaches in Gujarat?",
+      "a": "Diu is part of the Union Territory of Dadra and Nagar Haveli and Daman and Diu, but most visitors reach it through Gujarat."
+    },
+    {
+      "q": "When is the best time to visit Gujarat's beaches?",
+      "a": "October to March."
+    },
+    {
+      "q": "Is Dumas beach safe for swimming?",
+      "a": "No. It is a place for evening walks and food, not swimming."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Gujarat travel guide",
+      "href": "/blog/gujarat-travel-guide"
+    },
+    {
+      "label": "Things to do in Dwarka",
+      "href": "/blog/things-to-do-in-dwarka"
+    },
+    {
+      "label": "Things to do in Diu",
+      "href": "/blog/things-to-do-in-diu"
+    },
+    {
+      "label": "Gujarat itinerary",
+      "href": "/blog/gujarat-travel-guide#itinerary"
+    },
+    {
+      "label": "Gujarat tour packages",
+      "href": "/packages/gujarat"
+    },
+    {
+      "label": "Daman and Diu tour packages",
+      "href": "/packages/dadra-nagar-haveli-daman-diu"
+    }
+  ],
+  "related": [
+    {
+      "name": "Desert adventures in India",
+      "href": "/blog/desert-adventures-in-india",
+      "note": "the Rann of Kutch"
+    },
+    {
+      "name": "Beach tourism in India",
+      "href": "/blog/beach-tourism-in-india",
+      "note": "Blue Flag beaches explained"
+    },
+    {
+      "name": "Best beaches in Maharashtra",
+      "href": "/blog/best-beaches-in-maharashtra",
+      "note": "further south"
+    },
+    {
+      "name": "Spiritual tourism in Gujarat",
+      "href": "/blog/spiritual-tourism-in-gujarat",
+      "note": "Dwarka and Somnath"
+    }
+  ],
+  "places": [
+    "Shivrajpur",
+    "Dwarka",
+    "Bet Dwarka",
+    "Somnath",
+    "Chorwad",
+    "Ahmedpur Mandvi",
+    "Mandvi",
+    "Tithal",
+    "Dumas",
+    "Diu",
+    "Nagoa",
+    "Ghoghla",
+    "Daman",
+    "Devka",
+    "Jampore"
+  ],
+  "styles": [
+    "family-holidays",
+    "spiritual-tours"
+  ],
+  "planDestination": "Gujarat",
+  "updated": "2026-09-25"
+}

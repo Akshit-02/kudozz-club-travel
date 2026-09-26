@@ -1,0 +1,317 @@
+{
+  "slug": "how-to-plan-a-heritage-trip-in-india",
+  "kind": "planning",
+  "short": "How to plan a heritage trip",
+  "title": "How to Plan a Heritage Trip in India: Tickets, Guides and Timing",
+  "seoTitle": "How to Plan a Heritage Trip in India: A Practical Guide | Kudozz Club",
+  "metaDescription": "Plan a heritage trip in India: choosing a region, the best season, weekly closures, booking ASI tickets online, guides, photography rules, pacing and dress.",
+  "description": "A practical guide to planning a heritage trip in India: choosing a region and theme, how long to allow, the best seasons, weekly monument closures, booking ASI and state monument tickets online, hiring licensed guides, photography and drone rules, dress codes at living temples and mosques, pacing, heat and travelling with children or older relatives.",
+  "dek": "A good heritage trip in India is less about seeing everything and more about seeing a few places well. Here is how to plan one.",
+  "primaryKeyword": "heritage trip planning India",
+  "secondaryKeywords": [
+    "ASI monument tickets online",
+    "heritage travel tips India",
+    "heritage tours for families"
+  ],
+  "searchIntent": "Planning",
+  "activities": [
+    "planning",
+    "monuments",
+    "heritage walks"
+  ],
+  "terrain": [
+    "varied"
+  ],
+  "regions": [
+    "India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "first-time visitors",
+    "seniors"
+  ],
+  "tags": [
+    "Planning",
+    "Heritage Travel",
+    "Tips",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/heritage/heritage-trip-khajuraho-temples.webp",
+    "alt": "Temples of the Western Group at Khajuraho, seen across the gardens"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Planning a heritage trip in India"
+  },
+  "intro": [
+    "India has more monuments than any trip can hold. The most rewarding heritage trips pick one region or theme, allow time at each place, and mix monuments with the living culture around them: markets, crafts, food and performances.",
+    "This guide covers the practical side: when to go, how long to allow, tickets, guides, closures and etiquette. Our itineraries and state pages then suggest specific routes."
+  ],
+  "quickAnswer": "To plan a heritage trip in India, choose one region or theme, travel between October and March, and allow at least two nights in each main base. Check weekly closures (the Taj Mahal closes on Fridays, the Red Fort on Mondays), book ASI tickets online, and hire licensed guides at major sites. Start early each day, dress modestly for living temples and mosques, and leave time for markets, crafts and food.",
+  "takeaways": [
+    "Pick one region or theme per trip rather than crossing the country.",
+    "October to March is the best season across most of India.",
+    "Check each monument's weekly closure day before fixing your route.",
+    "Book ASI tickets online and hire licensed guides at major sites.",
+    "Start early, rest in the afternoon heat, and return in the evening for markets and light."
+  ],
+  "sections": [
+    {
+      "id": "choose",
+      "heading": "Choose a region or theme",
+      "table": {
+        "columns": [
+          "If you have",
+          "Consider"
+        ],
+        "rows": [
+          [
+            "5 to 7 days",
+            "The Golden Triangle (Delhi, Agra, Jaipur)"
+          ],
+          [
+            "10 to 14 days",
+            "Rajasthan's forts and palace cities; or Tamil Nadu's temple towns"
+          ],
+          [
+            "8 to 10 days",
+            "Gujarat's stepwells, Harappan sites and Kutch; or Madhya Pradesh"
+          ],
+          [
+            "7 to 9 days",
+            "Karnataka: Mysuru, Belur and Halebidu, Hampi and Badami"
+          ],
+          [
+            "A theme",
+            "Mughal monuments, forts, caves, temple architecture or crafts"
+          ]
+        ]
+      },
+      "after": [
+        "See our itineraries for day-by-day plans."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "list": [
+        "October to March: the best season for most of India; December and January are cold in the north.",
+        "April to June: very hot in the plains; start at dawn, or head to the hills.",
+        "July to September: the monsoon; green landscapes, fewer visitors, but some sites and roads are affected.",
+        "Plan around festivals if you want them, or avoid them if you want quiet sites."
+      ]
+    },
+    {
+      "id": "closures",
+      "heading": "Weekly closures to check",
+      "table": {
+        "columns": [
+          "Monument",
+          "Usually closed"
+        ],
+        "rows": [
+          [
+            "Taj Mahal",
+            "Friday"
+          ],
+          [
+            "Red Fort, Delhi",
+            "Monday"
+          ],
+          [
+            "Ajanta Caves",
+            "Monday"
+          ],
+          [
+            "Ellora Caves",
+            "Tuesday"
+          ],
+          [
+            "Elephanta Caves",
+            "Monday"
+          ],
+          [
+            "Many museums",
+            "Monday (varies)"
+          ],
+          [
+            "Lothal site museum",
+            "Friday"
+          ]
+        ]
+      },
+      "after": [
+        "Closures and timings change; confirm with the ASI or the site before you travel."
+      ]
+    },
+    {
+      "id": "tickets",
+      "heading": "Tickets and guides",
+      "list": [
+        "Many ASI monuments sell tickets online through the ASI's e-ticketing site, and some offer lower prices for online or cashless payment.",
+        "Foreign nationals, Indian citizens and SAARC or BIMSTEC nationals pay different rates.",
+        "Jaipur and some other cities sell composite tickets covering several monuments.",
+        "Hire licensed guides at official counters; they carry ID cards.",
+        "Audio guides are available at many major sites."
+      ],
+      "items": [
+        {
+          "name": "Taj Mahal tickets",
+          "body": [
+            "Book early for the Taj and its main mausoleum."
+          ],
+          "links": [
+            {
+              "label": "Taj Mahal",
+              "href": "/blog/taj-mahal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "etiquette",
+      "heading": "Dress and etiquette",
+      "list": [
+        "Cover shoulders and knees at temples, mosques, gurdwaras and dargahs; carry a scarf.",
+        "Remove shoes where required; some sites provide shoe covers.",
+        "Some temples restrict entry to their inner areas; follow posted rules.",
+        "Photography rules vary; flash is often banned near paintings, and drones need permission.",
+        "Do not touch carvings or paintings, climb on monuments, or scratch names."
+      ]
+    },
+    {
+      "id": "pacing",
+      "heading": "Pacing your days",
+      "list": [
+        "See two or three major sites a day at most.",
+        "Start at opening time, rest in the afternoon, and use evenings for markets, walks and performances.",
+        "Build in a free day every four or five days.",
+        "For older travellers and young children, choose sites with good paths, lifts or shorter walks, such as Mehrangarh and Humayun's Tomb."
+      ],
+      "items": [
+        {
+          "name": "Families",
+          "body": [
+            "Plan a family heritage trip."
+          ],
+          "links": [
+            {
+              "label": "Family holidays",
+              "href": "/packages/family-holidays"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-around",
+      "heading": "Getting around",
+      "list": [
+        "Trains link most heritage cities; book on IRCTC early.",
+        "A car and driver is the most flexible option for Rajasthan, Gujarat, Karnataka and Madhya Pradesh.",
+        "Domestic flights save time between regions.",
+        "In old cities, walk or use cycle-rickshaws and auto-rickshaws."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures, tickets and train schedules change; check the ASI, state tourism and IRCTC before you go.",
+    "Driving times are approximate and depend on traffic and road works; allow extra time, and avoid long drives after dark.",
+    "Carry water and sun protection; monument complexes are large and exposed.",
+    "Use official ticket sites; ignore touts offering 'skip the line' access."
+  ],
+  "packing": [
+    "Comfortable slip-on shoes",
+    "Scarf or shawl",
+    "Hat, sunscreen and water",
+    "Photo ID for tickets",
+    "Light layers for winter mornings"
+  ],
+  "faqs": [
+    {
+      "q": "What is the best time for a heritage trip in India?",
+      "a": "October to March for most regions."
+    },
+    {
+      "q": "How many days do I need?",
+      "a": "Five to seven days for the Golden Triangle; ten to fourteen for a regional heritage trip."
+    },
+    {
+      "q": "Can I book monument tickets online?",
+      "a": "Yes, many ASI monuments sell tickets online through the ASI's e-ticketing site."
+    },
+    {
+      "q": "Do I need a guide?",
+      "a": "Not always, but a licensed guide adds a great deal at large sites such as Fatehpur Sikri, Hampi and Chittorgarh."
+    },
+    {
+      "q": "Which monuments are closed on Fridays?",
+      "a": "The Taj Mahal is closed on Fridays; always check closures for each site."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Golden Triangle itinerary",
+      "href": "/blog/golden-triangle-itinerary"
+    },
+    {
+      "label": "Rajasthan heritage itinerary",
+      "href": "/blog/rajasthan-heritage-itinerary"
+    },
+    {
+      "label": "UNESCO sites in India",
+      "href": "/blog/unesco-world-heritage-sites-in-india"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Historical places in India",
+      "href": "/blog/historical-places-in-india",
+      "note": "where to go"
+    },
+    {
+      "name": "Heritage walks in India",
+      "href": "/blog/heritage-walks-in-india",
+      "note": "exploring on foot"
+    },
+    {
+      "name": "South India heritage itinerary",
+      "href": "/blog/south-india-heritage-itinerary",
+      "note": "temples and ruined capitals"
+    }
+  ],
+  "places": [
+    "Delhi",
+    "Agra",
+    "Jaipur",
+    "Ajanta",
+    "Ellora",
+    "Hampi"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

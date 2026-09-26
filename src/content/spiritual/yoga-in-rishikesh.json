@@ -1,0 +1,315 @@
+{
+  "slug": "yoga-in-rishikesh",
+  "kind": "activity",
+  "short": "Yoga in Rishikesh",
+  "title": "Yoga in Rishikesh: Ashrams, Courses and How to Choose",
+  "seoTitle": "Yoga in Rishikesh: Ashrams, Courses & How to Choose | Kudozz Club",
+  "metaDescription": "A guide to yoga in Rishikesh: ashrams and schools, drop-in classes, retreats, teacher training, the International Yoga Festival and the best season.",
+  "description": "A practical guide to yoga in Rishikesh: why the town is called the yoga capital of the world, traditional ashrams such as Parmarth Niketan and the Sivananda Ashram, schools around Tapovan and Lakshman Jhula, drop-in classes, retreats and 200-hour teacher training, the International Yoga Festival, the Beatles Ashram, where to stay, the best season and how to choose a course.",
+  "dek": "Rishikesh draws yoga students from all over the world to its ashrams and schools on the banks of the Ganga.",
+  "primaryKeyword": "yoga in Rishikesh",
+  "secondaryKeywords": [
+    "yoga retreat Rishikesh",
+    "yoga teacher training Rishikesh",
+    "ashrams in Rishikesh",
+    "International Yoga Festival Rishikesh"
+  ],
+  "searchIntent": "Informational/commercial investigation",
+  "activities": [
+    "yoga",
+    "meditation",
+    "ashram stay",
+    "Ganga Aarti"
+  ],
+  "terrain": [
+    "river",
+    "hills"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "North India"
+  ],
+  "seasons": [
+    "autumn",
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "solo travellers",
+    "couples",
+    "groups"
+  ],
+  "tags": [
+    "Rishikesh",
+    "Yoga",
+    "Ashram",
+    "Teacher Training"
+  ],
+  "hero": {
+    "src": "/images/spiritual/yoga-rishikesh-lakshman-jhula.webp",
+    "alt": "The tiered Tera Manzil temple beside Lakshman Jhula in Rishikesh"
+  },
+  "parent": {
+    "label": "Yoga and Meditation Retreats in India",
+    "href": "/blog/yoga-and-meditation-retreats-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Rishikesh",
+    "containedIn": "Uttarakhand"
+  },
+  "intro": [
+    "Rishikesh, where the Ganga leaves the Himalayan foothills, has been a place of retreat for sages for centuries. In the 20th century ashrams such as the Sivananda Ashram (Divine Life Society) made it a centre for yoga, and the Beatles' stay in 1968 at the ashram of Maharishi Mahesh Yogi brought international attention.",
+    "Today the town has hundreds of ashrams, schools and studios, from traditional institutions with daily routines to modern schools running teacher-training courses. Rishikesh is a vegetarian, alcohol-free town, which suits a retreat."
+  ],
+  "quickAnswer": "Rishikesh is known as the yoga capital of the world, with traditional ashrams such as Parmarth Niketan and the Sivananda Ashram and many schools around Tapovan and Lakshman Jhula. Visitors can join drop-in classes, week-long retreats or 200-hour teacher-training courses of about four weeks. The International Yoga Festival is held at Parmarth Niketan each March. September to November and February to April are the best seasons.",
+  "takeaways": [
+    "Choose between drop-in classes, short retreats and teacher-training courses.",
+    "Parmarth Niketan and the Sivananda Ashram are among the oldest and best-known ashrams.",
+    "Most schools cluster around Tapovan, Lakshman Jhula and Ram Jhula.",
+    "The International Yoga Festival is held at Parmarth Niketan each March.",
+    "Rishikesh is vegetarian and alcohol-free."
+  ],
+  "sections": [
+    {
+      "id": "options",
+      "heading": "Ways to practise",
+      "table": {
+        "columns": [
+          "Option",
+          "Length",
+          "Good for"
+        ],
+        "rows": [
+          [
+            "Drop-in classes",
+            "60 to 90 minutes",
+            "Travellers with a few days"
+          ],
+          [
+            "Ashram stays",
+            "A few days to weeks",
+            "A traditional routine"
+          ],
+          [
+            "Retreats",
+            "One to two weeks",
+            "Focused practice with rest"
+          ],
+          [
+            "200-hour teacher training",
+            "About four weeks",
+            "Serious students and future teachers"
+          ],
+          [
+            "300-hour and advanced courses",
+            "Four to six weeks",
+            "Experienced practitioners"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ashrams",
+      "heading": "Ashrams and areas",
+      "items": [
+        {
+          "name": "Parmarth Niketan",
+          "body": [
+            "A large ashram on the Ganga at Swarg Ashram, known for its evening Ganga Aarti and for hosting the International Yoga Festival."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Rishikesh",
+              "href": "/blog/things-to-do-in-rishikesh"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/rishikesh/rishikesh-parmarth-niketan-ganga-aarti.webp",
+            "alt": "Evening Ganga Aarti at Parmarth Niketan, Rishikesh",
+            "caption": "Parmarth Niketan"
+          }
+        },
+        {
+          "name": "Sivananda Ashram",
+          "body": [
+            "The Divine Life Society's ashram, founded by Swami Sivananda in 1936, with daily satsang and classes."
+          ]
+        },
+        {
+          "name": "Tapovan and Lakshman Jhula",
+          "body": [
+            "The main area for yoga schools, cafés and guesthouses, above the river."
+          ]
+        },
+        {
+          "name": "The Beatles Ashram",
+          "body": [
+            "The former ashram of Maharishi Mahesh Yogi, now a ticketed heritage site inside Rajaji Tiger Reserve."
+          ],
+          "image": {
+            "src": "/images/destinations/rishikesh/rishikesh-beatles-ashram-eggman-dome.webp",
+            "alt": "Meditation domes at the Beatles Ashram in Rishikesh",
+            "caption": "The Beatles Ashram"
+          }
+        }
+      ]
+    },
+    {
+      "id": "choose",
+      "heading": "How to choose a school",
+      "list": [
+        "Look at the teachers' training and experience, class sizes and the daily schedule.",
+        "For teacher training, check the course hours, syllabus and any external registration the school offers.",
+        "Visit for a drop-in class before committing to a long course.",
+        "Read recent independent reviews, and be wary of prices far below the norm.",
+        "Book directly with the school or ashram."
+      ]
+    },
+    {
+      "id": "etiquette",
+      "heading": "Etiquette",
+      "list": [
+        "Dress modestly in the town and at the ghats; practice clothes are fine inside schools.",
+        "Remove shoes before entering ashram halls and temples.",
+        "Rishikesh is vegetarian and alcohol-free; respect the rule.",
+        "Keep noise down at the ghats during the aarti and meditation."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "September to November: clear weather after the monsoon; the busiest season for courses.",
+        "February to April: pleasant, with the International Yoga Festival in March.",
+        "December and January: cold mornings and evenings; fewer students.",
+        "May and June: hot. July and August: monsoon rain, and river activities pause."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "list": [
+        "Ashrams: simple rooms with a daily routine and set meal times.",
+        "Tapovan and Lakshman Jhula: guesthouses and hotels close to schools.",
+        "Near Ram Jhula and Swarg Ashram: close to Parmarth Niketan and the ghats.",
+        "Riverside resorts upstream for more comfort and quiet."
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Beyond yoga",
+      "list": [
+        "The evening Ganga Aarti at Triveni Ghat and Parmarth Niketan.",
+        "Neelkanth Mahadev temple in the hills above the town.",
+        "Haridwar's Har ki Pauri, about an hour away.",
+        "Rafting on the Ganga from September to June, when permitted."
+      ],
+      "items": [
+        {
+          "name": "Adventure in Rishikesh",
+          "body": [
+            "Rafting and other activities."
+          ],
+          "links": [
+            {
+              "label": "River rafting in Rishikesh",
+              "href": "/blog/river-rafting-in-rishikesh"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety": [
+    "Check a centre's teachers, daily schedule, rules and reviews before booking; no retreat can promise a particular spiritual or health outcome, and people with medical conditions should take advice before intensive practice.",
+    "Swim only at designated spots; the Ganga's current is strong.",
+    "Keep valuables secure in busy areas around the bridges."
+  ],
+  "packing": [
+    "Comfortable practice clothes",
+    "A shawl or warm layer for early mornings",
+    "Modest clothes for ashrams and ghats",
+    "A reusable water bottle"
+  ],
+  "faqs": [
+    {
+      "q": "Why is Rishikesh called the yoga capital of the world?",
+      "a": "Because of its long tradition of ashrams and sages and the large number of yoga schools and ashrams in the town today."
+    },
+    {
+      "q": "How long is yoga teacher training in Rishikesh?",
+      "a": "A 200-hour course usually takes about four weeks."
+    },
+    {
+      "q": "When is the International Yoga Festival in Rishikesh?",
+      "a": "Each March, at Parmarth Niketan."
+    },
+    {
+      "q": "Can beginners do yoga in Rishikesh?",
+      "a": "Yes. Drop-in classes and beginner courses are widely available."
+    },
+    {
+      "q": "Is Rishikesh safe for solo travellers?",
+      "a": "It is popular with solo travellers; take usual precautions and stay in registered accommodation."
+    },
+    {
+      "q": "What is the best time for yoga in Rishikesh?",
+      "a": "September to November and February to April."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh"
+    },
+    {
+      "label": "Rishikesh travel guide",
+      "href": "/blog/rishikesh-adventure-travel-guide"
+    },
+    {
+      "label": "Yoga and meditation retreats",
+      "href": "/blog/yoga-and-meditation-retreats-in-india"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Spiritual tourism in Uttarakhand",
+      "href": "/blog/spiritual-tourism-in-uttarakhand",
+      "note": "Haridwar, the Char Dham and more"
+    },
+    {
+      "name": "Pilgrimage trips from Delhi",
+      "href": "/blog/pilgrimage-trips-from-delhi",
+      "note": "Rishikesh and Haridwar weekends"
+    },
+    {
+      "name": "Char Dham Yatra guide",
+      "href": "/blog/char-dham-yatra-guide",
+      "note": "the Himalayan shrines"
+    }
+  ],
+  "places": [
+    "Rishikesh",
+    "Parmarth Niketan",
+    "Tapovan",
+    "Lakshman Jhula",
+    "Ram Jhula",
+    "Neelkanth Mahadev",
+    "Haridwar"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "adventure-tours"
+  ],
+  "planDestination": "Rishikesh",
+  "updated": "2026-09-26"
+}

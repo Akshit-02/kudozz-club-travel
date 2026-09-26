@@ -1,0 +1,481 @@
+{
+  "slug": "river-rafting-in-india",
+  "kind": "activity",
+  "short": "River rafting in India",
+  "title": "River Rafting in India: Rivers, Grades and Seasons",
+  "seoTitle": "River Rafting in India: Best Rivers, Grades & Seasons | Kudozz Club",
+  "metaDescription": "Where to go river rafting in India: the Ganga, Zanskar, Indus, Beas, Teesta, Kali, Barapole and Kundalika, with rapid grades, seasons and safety tips.",
+  "description": "A guide to white-water rafting across India: the main rafting rivers from the Ganga at Rishikesh to the Zanskar in Ladakh and the Barapole in Coorg, which suit beginners, when each river runs, and how to raft safely.",
+  "dek": "India's rafting rivers run on different calendars: Himalayan rivers in spring and autumn, Ladakh in high summer and the Western Ghats in the monsoon. Here is where to go and when.",
+  "primaryKeyword": "river rafting in India",
+  "secondaryKeywords": [
+    "best places for river rafting in India",
+    "white water rafting India",
+    "rafting season India",
+    "Zanskar rafting",
+    "Kolad rafting",
+    "Barapole rafting"
+  ],
+  "searchIntent": "Informational: where and when to raft",
+  "activities": [
+    "rafting",
+    "kayaking"
+  ],
+  "terrain": [
+    "river",
+    "mountains"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "Ladakh",
+    "Himachal Pradesh",
+    "Karnataka",
+    "Maharashtra",
+    "Sikkim",
+    "Arunachal Pradesh"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "monsoon",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "beginners",
+    "friends",
+    "groups"
+  ],
+  "tags": [
+    "River Rafting",
+    "Adventure Sports",
+    "India",
+    "White Water"
+  ],
+  "hero": {
+    "src": "/images/adventure/white-water-rafting-india-river.webp",
+    "alt": "Rafts on the Zanskar river in Ladakh",
+    "caption": "Zanskar river, Ladakh"
+  },
+  "parent": {
+    "label": "Adventure Sports in India",
+    "href": "/blog/adventure-sports-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "White-water rafting in India"
+  },
+  "intro": [
+    "White-water rafting in India is mostly done on Himalayan rivers fed by snow and glaciers, and on a few rivers in the Western Ghats that fill up in the monsoon. Rishikesh on the Ganga is by far the best known, but it is not the only choice, and at some times of year it is not the best one.",
+    "Because the rivers are fed so differently, the seasons do not line up. Himalayan rivers such as the Ganga and Beas are rafted before and after the monsoon, the Zanskar and Indus in Ladakh in the short summer, and the Barapole in Coorg and the Kundalika at Kolad during the monsoon itself. This guide covers the main rivers, how hard they are and when to go."
+  ],
+  "quickAnswer": "The best places for river rafting in India are the Ganga at Rishikesh (September to June), the Zanskar and Indus in Ladakh (roughly June to August), the Beas near Kullu, the Teesta in Sikkim and Darjeeling, the Kali at Dandeli, the Barapole in Coorg and the Kundalika at Kolad. Beginners should start on Grade II to III stretches such as Shivpuri at Rishikesh or Kolad.",
+  "takeaways": [
+    "Rishikesh is the easiest place to start, with short Grade II to III stretches and many licensed operators.",
+    "Ladakh's Zanskar river offers remote, cold, Grade III to IV rafting in high summer.",
+    "Western Ghats rivers (Barapole, Kundalika) are at their best in the monsoon, when Himalayan rafting is closed.",
+    "Rapids are graded I to VI; most commercial trips in India run Grade II to IV.",
+    "Expedition rivers such as the Siang in Arunachal Pradesh are for experienced rafters with specialist operators only."
+  ],
+  "sections": [
+    {
+      "id": "at-a-glance",
+      "heading": "Rafting rivers in India at a glance",
+      "table": {
+        "columns": [
+          "River and place",
+          "State",
+          "Typical grades",
+          "Season",
+          "Suits"
+        ],
+        "rows": [
+          [
+            "Ganga, Rishikesh",
+            "Uttarakhand",
+            "I to IV",
+            "September to June",
+            "Beginners to experienced"
+          ],
+          [
+            "Zanskar, Chilling to Nimmu",
+            "Ladakh",
+            "III to IV",
+            "About June to August",
+            "Fit, confident rafters"
+          ],
+          [
+            "Indus, Phey to Nimmu",
+            "Ladakh",
+            "II to III",
+            "About June to August",
+            "Beginners in Ladakh"
+          ],
+          [
+            "Beas, near Kullu",
+            "Himachal Pradesh",
+            "II to III",
+            "Spring and autumn",
+            "Beginners and families"
+          ],
+          [
+            "Teesta and Rangit",
+            "Sikkim, West Bengal",
+            "II to IV",
+            "Outside the monsoon",
+            "Beginners to intermediate"
+          ],
+          [
+            "Kali, Dandeli",
+            "Karnataka",
+            "II to III",
+            "About October to May",
+            "Beginners to intermediate"
+          ],
+          [
+            "Barapole, Coorg",
+            "Karnataka",
+            "II to IV",
+            "Monsoon, about June to October",
+            "Intermediate"
+          ],
+          [
+            "Kundalika, Kolad",
+            "Maharashtra",
+            "II to III",
+            "Best in the monsoon",
+            "Beginners"
+          ]
+        ],
+        "caption": "Seasons and grades are approximate and change with water levels; operators and local authorities can close rivers at short notice."
+      }
+    },
+    {
+      "id": "himalaya",
+      "heading": "Himalayan rivers",
+      "items": [
+        {
+          "name": "Ganga at Rishikesh, Uttarakhand",
+          "body": [
+            "The Ganga above Rishikesh has four standard stretches, from the gentle 9 km Brahmpuri run to the 35 km Kaudiyala run with Grade IV rapids. It is the most organised rafting destination in India, with government-licensed operators, and it is close to Delhi. Rafting is suspended in the peak monsoon, usually July and August."
+          ],
+          "facts": {
+            "Grades": "I to IV",
+            "Season": "September to June",
+            "Best for": "First-timers and weekend trips"
+          },
+          "links": [
+            {
+              "label": "River rafting in Rishikesh",
+              "href": "/blog/river-rafting-in-rishikesh"
+            },
+            {
+              "label": "Rishikesh travel guide",
+              "href": "/blog/rishikesh-adventure-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Zanskar, Ladakh",
+          "body": [
+            "The classic Ladakh run starts at Chilling on the Zanskar and ends at the confluence with the Indus near Nimmu, through a deep, bare gorge. The water is glacial and very cold, and the rapids reach Grade III to IV when the river is high in summer. Operators in Leh supply wetsuits; you should be fit and acclimatised to Leh's altitude of about 3,500 metres before rafting."
+          ],
+          "facts": {
+            "Grades": "III to IV",
+            "Season": "About June to August",
+            "Best for": "Fit rafters on a Ladakh trip"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Ladakh",
+              "href": "/blog/adventure-activities-in-ladakh"
+            },
+            {
+              "label": "Zanskar Valley guide",
+              "href": "/blog/zanskar-valley-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Indus, Ladakh",
+          "body": [
+            "The Indus between Phey and Nimmu, closer to Leh, is gentler, with Grade II to III rapids and wide views of the valley. It is the usual choice for families and first-timers in Ladakh."
+          ],
+          "facts": {
+            "Grades": "II to III",
+            "Season": "About June to August"
+          }
+        },
+        {
+          "name": "Beas, Kullu Valley, Himachal Pradesh",
+          "body": [
+            "Short rafting runs on the Beas start around Pirdi near Kullu and pass through apple orchards and pine forest. The rapids are modest and the stretch suits beginners on a Manali trip. Rafting is usually paused in the monsoon when the river is in flood."
+          ],
+          "facts": {
+            "Grades": "II to III",
+            "Season": "Spring and autumn"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Manali",
+              "href": "/blog/adventure-activities-in-manali"
+            },
+            {
+              "label": "Kullu travel guide",
+              "href": "/blog/kullu-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Teesta and Rangit, Sikkim and Darjeeling",
+          "body": [
+            "The Teesta, and its tributary the Rangit, are rafted from points near Melli and Teesta Bazaar on the Sikkim and West Bengal border. The rapids range from easy to Grade IV depending on the stretch and the water. It fits well into a Darjeeling, Kalimpong or Gangtok trip."
+          ],
+          "facts": {
+            "Grades": "II to IV",
+            "Season": "Outside the monsoon"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Sikkim",
+              "href": "/blog/adventure-activities-in-sikkim"
+            }
+          ]
+        },
+        {
+          "name": "Expedition rivers",
+          "body": [
+            "Multi-day expeditions run on rivers such as the Siang (the Brahmaputra's upper course) in Arunachal Pradesh, the Alaknanda and Bhagirathi in Garhwal, and the Tons in Uttarakhand. These involve camping on beaches, remote logistics and, on the Siang, big-volume Grade IV to V water. They are for experienced rafters with a specialist operator."
+          ],
+          "facts": {
+            "Grades": "III to V",
+            "Best for": "Experienced rafters only"
+          }
+        }
+      ]
+    },
+    {
+      "id": "western-ghats",
+      "heading": "Western Ghats rivers",
+      "items": [
+        {
+          "name": "Kali, Dandeli, Karnataka",
+          "body": [
+            "The Kali river near Dandeli, in the forests of Uttara Kannada, offers Grade II to III rapids with a few harder sections. Rafting usually runs outside the monsoon, roughly October to May, and water activities are closed during the heavy rains."
+          ],
+          "facts": {
+            "Grades": "II to III",
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Dandeli travel guide",
+              "href": "/blog/dandeli-travel-guide"
+            },
+            {
+              "label": "Weekend adventure trips from Bengaluru",
+              "href": "/blog/weekend-adventure-trips-from-bengaluru"
+            }
+          ]
+        },
+        {
+          "name": "Barapole, Coorg, Karnataka",
+          "body": [
+            "The Barapole river in south Kodagu is at its best in the monsoon, from about June to October, when it runs through dense forest with rapids up to Grade IV. It is one of the few places in India where rafting is a monsoon activity."
+          ],
+          "facts": {
+            "Grades": "II to IV",
+            "Season": "About June to October"
+          },
+          "links": [
+            {
+              "label": "Coorg travel guide",
+              "href": "/blog/coorg-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kundalika, Kolad, Maharashtra",
+          "body": [
+            "The Kundalika at Kolad, about three hours from Mumbai and Pune, is fed by water released from a hydroelectric project upstream, so rafting depends on the morning release. It is busiest and most exciting in the monsoon, with Grade II to III rapids suitable for beginners."
+          ],
+          "facts": {
+            "Grades": "II to III",
+            "Season": "Best June to September"
+          },
+          "links": [
+            {
+              "label": "Weekend adventure trips from Mumbai",
+              "href": "/blog/weekend-adventure-trips-from-mumbai"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gentle",
+      "heading": "Gentle river floats",
+      "paras": [
+        "Not every river trip is white water. At Nameri in Assam, rafts float down the Jia Bhoroli river along the edge of the national park, a quiet trip for birdwatching rather than rapids. Similar calm floats run on lower stretches of many rafting rivers.",
+        "These are good options for families with younger children, older travellers or anyone who wants to be on a river without the rapids."
+      ],
+      "items": [
+        {
+          "name": "Jia Bhoroli, Nameri, Assam",
+          "body": [
+            "A calm float trip on the Jia Bhoroli river at Nameri National Park, with views of forest and river birds."
+          ],
+          "facts": {
+            "Grades": "I to II",
+            "Best for": "Families, birdwatchers"
+          },
+          "links": [
+            {
+              "label": "Nameri travel guide",
+              "href": "/blog/nameri-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grades",
+      "heading": "Understanding rapid grades",
+      "table": {
+        "columns": [
+          "Grade",
+          "What it means"
+        ],
+        "rows": [
+          [
+            "I",
+            "Moving water with small ripples; no real obstacles"
+          ],
+          [
+            "II",
+            "Straightforward rapids with clear channels and waves"
+          ],
+          [
+            "III",
+            "Larger, irregular waves; needs steering; swims possible"
+          ],
+          [
+            "IV",
+            "Powerful, turbulent rapids needing precise moves; flips are common"
+          ],
+          [
+            "V",
+            "Long, violent rapids; for expert teams only"
+          ],
+          [
+            "VI",
+            "Extreme and rarely attempted"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "choose",
+      "heading": "How to choose where to raft",
+      "list": [
+        "Match the river to your dates first: Himalayan rivers before and after the monsoon, Ladakh in high summer, the Western Ghats in the rains.",
+        "First-timers should look for Grade II to III stretches with short durations: Shivpuri in Rishikesh, the Indus in Ladakh, the Beas near Kullu or Kolad.",
+        "Book licensed operators with trained guides, safety kayakers on harder stretches and good equipment.",
+        "Allow for travel time to the put-in point; some trips take a full day including transfers.",
+        "Check age and health rules before booking if you are travelling with children or older family members."
+      ]
+    }
+  ],
+  "safety": [
+    "Wear a properly fitted life jacket and helmet for the whole trip.",
+    "Listen to the briefing: how to hold the paddle, the commands and how to float if you fall in (on your back, feet downstream).",
+    "Do not raft after alcohol or against medical advice (heart conditions, pregnancy, recent surgery, back injuries).",
+    "In Ladakh, acclimatise for at least two days in Leh first; cold water and altitude together are tiring.",
+    "Rivers can close at short notice for high water; accept an operator's decision not to run.",
+    "In cold rivers (Zanskar, the Ganga in winter), use the wetsuit or splash jacket offered."
+  ],
+  "packing": [
+    "Quick-dry clothes, no cotton or denim",
+    "Sandals with heel straps or old sports shoes",
+    "Sunscreen and sunglasses with a strap",
+    "A full change of clothes and a towel",
+    "A fleece or thermal layer for cold rivers"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best place for river rafting in India?",
+      "a": "Rishikesh on the Ganga is the best all-round choice, with stretches for every level and a long season. Ladakh's Zanskar river is the most dramatic, and Coorg and Kolad are best in the monsoon."
+    },
+    {
+      "q": "When is the rafting season in India?",
+      "a": "It depends on the river: roughly September to June on the Ganga, June to August in Ladakh, spring and autumn on the Beas, and the monsoon for the Barapole in Coorg and the Kundalika at Kolad."
+    },
+    {
+      "q": "Can beginners go river rafting?",
+      "a": "Yes. Choose a Grade II to III stretch with a licensed operator, such as Shivpuri in Rishikesh, the Indus near Leh, the Beas near Kullu or the Kundalika at Kolad."
+    },
+    {
+      "q": "Where can I go rafting in the monsoon in India?",
+      "a": "The Barapole in Coorg and the Kundalika at Kolad are run in the monsoon. Most Himalayan rafting, including Rishikesh, is suspended at that time."
+    },
+    {
+      "q": "What is the most difficult river rafting in India?",
+      "a": "Expedition rivers such as the Siang in Arunachal Pradesh have big-volume Grade IV to V rapids. Among day trips, the Kaudiyala stretch of the Ganga and the Zanskar in Ladakh are the hardest."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "River rafting in Rishikesh",
+      "href": "/blog/river-rafting-in-rishikesh"
+    },
+    {
+      "label": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh"
+    },
+    {
+      "label": "Rishikesh travel guide",
+      "href": "/blog/rishikesh-adventure-travel-guide"
+    },
+    {
+      "label": "Ladakh road trip itinerary",
+      "href": "/blog/leh-ladakh-road-trip-travel-guide#itinerary"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Kayaking in India",
+      "href": "/blog/kayaking-in-india",
+      "note": "paddling on rivers, lakes and backwaters"
+    },
+    {
+      "name": "Adventure sports in India",
+      "href": "/blog/adventure-sports-in-india",
+      "note": "every activity in one place"
+    },
+    {
+      "name": "Best time for adventure travel in India",
+      "href": "/blog/best-time-for-adventure-travel-in-india",
+      "note": "month by month"
+    }
+  ],
+  "places": [
+    "Rishikesh",
+    "Zanskar river",
+    "Indus river",
+    "Kullu",
+    "Teesta river",
+    "Dandeli",
+    "Coorg",
+    "Kolad",
+    "Nameri",
+    "Siang river"
+  ],
+  "styles": [
+    "adventure-tours"
+  ],
+  "updated": "2026-09-25"
+}

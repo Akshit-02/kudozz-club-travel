@@ -1,0 +1,514 @@
+{
+  "slug": "best-beach-destinations-in-india",
+  "kind": "pillar",
+  "short": "Best beach destinations",
+  "title": "Best Beach Destinations in India, by Coast and Travel Style",
+  "seoTitle": "Best Beach Destinations in India, by Coast & Style | Kudozz Club",
+  "metaDescription": "The best beach destinations in India: Goa, the Andamans, Lakshadweep, Varkala, Kovalam, Gokarna, Pondicherry, the Konkan, Puri and Diu, and who each suits.",
+  "description": "A guide to the best beach destinations in India, the places to base a beach holiday: Goa, the Andaman and Lakshadweep islands, Kerala's Varkala and Kovalam, Gokarna and the Udupi coast, the Konkan coast, Puducherry and Mahabalipuram, Puri, Vizag, Diu and Digha, compared by coast, season, budget and type of traveller.",
+  "dek": "A beach destination is more than a beach: it is where you stay, eat and spend your days. Here is how India's best compare, and who each suits.",
+  "primaryKeyword": "best beach destinations in India",
+  "secondaryKeywords": [
+    "beach destinations in India",
+    "best beach places in India",
+    "beach holiday destinations India",
+    "top beach destinations India"
+  ],
+  "searchIntent": "Choose a beach destination (a place to base a holiday)",
+  "activities": [
+    "beaches",
+    "water sports",
+    "snorkelling",
+    "surfing",
+    "nightlife",
+    "heritage"
+  ],
+  "terrain": [
+    "beaches",
+    "islands",
+    "coast"
+  ],
+  "regions": [
+    "India",
+    "West coast",
+    "East coast",
+    "Islands"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "friends",
+    "solo"
+  ],
+  "tags": [
+    "Beach Destinations",
+    "India",
+    "Goa",
+    "Andaman"
+  ],
+  "hero": {
+    "src": "/images/beach/beach-destinations-india-havelock.webp",
+    "alt": "A mangrove tree on a white-sand beach, Havelock Island, Andamans",
+    "caption": "Havelock Island"
+  },
+  "parent": {
+    "label": "Beach Travel",
+    "href": "/beach-travel"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "India's coast"
+  },
+  "intro": [
+    "India has two long coastlines and two island groups. The west coast faces the Arabian Sea from Gujarat to Kerala, with Goa, the Konkan and the Malabar coast in between. The east coast faces the Bay of Bengal from West Bengal to Tamil Nadu. Offshore lie the Andaman and Nicobar Islands in the Bay of Bengal and the coral atolls of Lakshadweep in the Arabian Sea.",
+    "This guide compares the destinations where most people base a beach holiday. It is about places to stay and spend several days; for individual beaches, see our guide to the best beaches in India, and for each coast, the state beach guides."
+  ],
+  "quickAnswer": "The best beach destinations in India are Goa for variety and nightlife, the Andaman Islands (Havelock and Neil) for white sand and diving, Lakshadweep for quiet lagoons, Varkala and Kovalam in Kerala for cliffs and Ayurveda, Gokarna for coves, the Konkan coast for quiet beaches near Mumbai, Puducherry for French-era charm, and Puri, Vizag and Diu on less-visited coasts. Most are best from November to March.",
+  "takeaways": [
+    "Goa suits almost everyone; choose north Goa for nightlife and south Goa for calm.",
+    "The Andamans and Lakshadweep have India's clearest water and best reefs, but need more planning.",
+    "Varkala and Kovalam pair beaches with Ayurveda and the backwaters.",
+    "Gokarna, Tarkarli and Diu are quieter alternatives to Goa on the west coast.",
+    "The west coast and islands are best from November to March; the east coast avoids its north-east monsoon (about October to December)."
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "heading": "Beach destinations compared",
+      "table": {
+        "columns": [
+          "Destination",
+          "Coast",
+          "Known for",
+          "Best for",
+          "Best months"
+        ],
+        "rows": [
+          [
+            "Goa",
+            "West (Konkan)",
+            "Variety, shacks, nightlife, water sports",
+            "Everyone",
+            "November to February"
+          ],
+          [
+            "Havelock and Neil, Andamans",
+            "Islands (Bay of Bengal)",
+            "White sand, reefs, diving",
+            "Couples, divers",
+            "November to April"
+          ],
+          [
+            "Lakshadweep",
+            "Islands (Arabian Sea)",
+            "Lagoons, quiet, permits",
+            "Couples, divers",
+            "October to May"
+          ],
+          [
+            "Varkala",
+            "West (Kerala)",
+            "Cliffs, cafes, surf lessons",
+            "Couples, solo",
+            "November to March"
+          ],
+          [
+            "Kovalam and Poovar",
+            "West (Kerala)",
+            "Lighthouse beach, Ayurveda, estuary resorts",
+            "Families, couples",
+            "November to March"
+          ],
+          [
+            "Gokarna",
+            "West (Karnataka)",
+            "Coves on a walking trail",
+            "Backpackers, couples",
+            "October to March"
+          ],
+          [
+            "Udupi and Murudeshwar",
+            "West (Karnataka)",
+            "Island trips, temples, Netrani dives",
+            "Families",
+            "October to March"
+          ],
+          [
+            "Alibaug to Tarkarli",
+            "West (Maharashtra)",
+            "Konkan beaches, sea forts, snorkelling",
+            "Families, weekends",
+            "October to February"
+          ],
+          [
+            "Diu",
+            "West (UT)",
+            "Relaxed beaches, Portuguese fort",
+            "Families, couples",
+            "October to March"
+          ],
+          [
+            "Puducherry",
+            "East",
+            "French Quarter, Paradise Beach, surfing",
+            "Couples",
+            "November to March"
+          ],
+          [
+            "Mahabalipuram and Chennai",
+            "East",
+            "Shore Temple, surf",
+            "Heritage lovers",
+            "December to March"
+          ],
+          [
+            "Puri and Konark",
+            "East (Odisha)",
+            "Temples, sand art, Blue Flag beach",
+            "Families, pilgrims",
+            "October to February"
+          ],
+          [
+            "Visakhapatnam",
+            "East (Andhra)",
+            "Hill-backed beaches, water sports",
+            "Families",
+            "October to March"
+          ],
+          [
+            "Digha and Mandarmani",
+            "East (Bengal)",
+            "Weekend beaches from Kolkata",
+            "Families",
+            "October to March"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "west",
+      "heading": "West coast destinations",
+      "items": [
+        {
+          "name": "Goa",
+          "body": [
+            "India's beach capital has something for every traveller: busy beaches with nightlife and water sports in the north, and wide, calm bays in the south, plus forts, churches and spice farms inland."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Goa",
+              "href": "/blog/best-beaches-in-goa"
+            },
+            {
+              "label": "Things to do in Goa",
+              "href": "/blog/things-to-do-in-goa"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/goa/palolem/palolem-beach.webp",
+            "alt": "Palolem beach, south Goa",
+            "caption": "Palolem, Goa"
+          }
+        },
+        {
+          "name": "Varkala and Kovalam, Kerala",
+          "body": [
+            "Varkala has red cliffs, cafes and a relaxed traveller scene; Kovalam has lighthouse views, Ayurveda resorts and family-friendly beaches. Both pair easily with the backwaters."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Kerala",
+              "href": "/blog/best-beaches-in-kerala"
+            }
+          ]
+        },
+        {
+          "name": "Gokarna and coastal Karnataka",
+          "body": [
+            "Gokarna's coves are linked by a coastal walking trail; further south, Udupi has St Mary's Island and Murudeshwar is the base for Netrani Island dives."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Karnataka",
+              "href": "/blog/best-beaches-in-karnataka"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/gokarna/om-beach-gokarna.webp",
+            "alt": "Om beach, Gokarna",
+            "caption": "Om beach, Gokarna"
+          }
+        },
+        {
+          "name": "The Konkan coast, Maharashtra",
+          "body": [
+            "From Alibaug and Kashid near Mumbai to Ganpatipule and Tarkarli, quiet beaches, sea forts, Malvani food and, in Sindhudurg, snorkelling."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Maharashtra",
+              "href": "/blog/best-beaches-in-maharashtra"
+            }
+          ]
+        },
+        {
+          "name": "Diu and the Gujarat coast",
+          "body": [
+            "Diu has the region's most relaxed beaches; Shivrajpur near Dwarka and Mandvi in Kutch are the best on the Gujarat side."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Gujarat",
+              "href": "/blog/best-beaches-in-gujarat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "islands",
+      "heading": "Island destinations",
+      "items": [
+        {
+          "name": "Andaman Islands",
+          "body": [
+            "Radhanagar on Havelock, Neil's sunsets and rock formations, and the best diving in India make the Andamans the top choice for a special beach trip. Allow five to seven nights."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in the Andamans",
+              "href": "/blog/best-beaches-in-andaman"
+            },
+            {
+              "label": "Scuba diving in the Andamans",
+              "href": "/blog/scuba-diving-in-andaman"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/havelock-island-andaman/radhanagar-beach-swaraj-dweep-havelock-island-2.webp",
+            "alt": "Radhanagar beach, Havelock Island",
+            "caption": "Radhanagar, Andamans"
+          }
+        },
+        {
+          "name": "Lakshadweep",
+          "body": [
+            "Coral atolls with calm lagoons, few visitors and strict permit rules. Best for couples and divers who plan ahead."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Lakshadweep",
+              "href": "/blog/best-beaches-in-lakshadweep"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "heading": "East coast destinations",
+      "items": [
+        {
+          "name": "Puducherry and Mahabalipuram",
+          "body": [
+            "Puducherry's French Quarter and nearby beaches pair with Mahabalipuram's Shore Temple and the surf villages of the East Coast Road."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Puducherry",
+              "href": "/blog/best-beaches-in-puducherry"
+            },
+            {
+              "label": "Best beaches in Tamil Nadu",
+              "href": "/blog/best-beaches-in-tamil-nadu"
+            }
+          ]
+        },
+        {
+          "name": "Puri and the Odisha coast",
+          "body": [
+            "Pilgrimage, sand art and a Blue Flag beach at Puri, with Konark, Chilika and quiet Gopalpur nearby."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Odisha",
+              "href": "/blog/best-beaches-in-odisha"
+            }
+          ]
+        },
+        {
+          "name": "Visakhapatnam",
+          "body": [
+            "Hills meet the sea along a scenic beach road, with Rushikonda for swimming and water sports."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Andhra Pradesh",
+              "href": "/blog/best-beaches-in-andhra-pradesh"
+            }
+          ]
+        },
+        {
+          "name": "Digha and Mandarmani",
+          "body": [
+            "Kolkata's weekend beaches, flat and wide, with fresh seafood."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in West Bengal",
+              "href": "/blog/best-beaches-in-west-bengal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "by-traveller",
+      "heading": "Which destination for which traveller?",
+      "table": {
+        "columns": [
+          "Traveller",
+          "Top choices"
+        ],
+        "rows": [
+          [
+            "Couples and honeymooners",
+            "Havelock and Neil, Lakshadweep, south Goa, Varkala, Poovar"
+          ],
+          [
+            "Families with children",
+            "Candolim and south Goa, Kovalam, Diu, Udupi, Puri, Vizag"
+          ],
+          [
+            "Groups of friends",
+            "North Goa, Gokarna, Alibaug"
+          ],
+          [
+            "Solo travellers",
+            "Varkala, Gokarna, Arambol, Pondicherry"
+          ],
+          [
+            "Divers and snorkellers",
+            "Havelock, Lakshadweep, Tarkarli, Murudeshwar (Netrani)"
+          ],
+          [
+            "Surfers",
+            "Varkala, Kovalam (Covelong), Mulki, Pondicherry"
+          ],
+          [
+            "Heritage lovers",
+            "Mahabalipuram, Puri and Konark, Diu, Pondicherry"
+          ]
+        ]
+      },
+      "after": [
+        "See beach holidays in India for more on planning by traveller type and budget, and beach honeymoon destinations for couples."
+      ]
+    },
+    {
+      "id": "choose",
+      "heading": "How to choose",
+      "list": [
+        "Start with the month: the west coast and islands are best from November to March; the east coast avoids October to December.",
+        "Decide on the pace: nightlife and water sports (north Goa, Baga, Alibaug) or quiet bays (south Goa, Neil, Marari, Tajpur).",
+        "Consider access: Goa, Kerala and Puri are easy by air or rail; the Andamans and Lakshadweep need ferries, permits or more time.",
+        "Mix beach and culture where you can: Goa with Old Goa, Puri with Konark, Pondicherry with Auroville, Kovalam with the backwaters."
+      ]
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Most of India's coast has strong currents and few lifeguards outside major beaches.",
+    "Sea swimming and water sports are suspended on most beaches during the monsoon.",
+    "Protect reefs: do not touch coral, and use reef-safe sunscreen in the islands.",
+    "Check cyclone warnings on the east coast from October to December and in May."
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best beach destination in India?",
+      "a": "Goa for variety and ease, and the Andaman Islands for the most beautiful beaches and clearest water."
+    },
+    {
+      "q": "What is the best beach destination in India for couples?",
+      "a": "Havelock and Neil in the Andamans, Lakshadweep, south Goa and Varkala."
+    },
+    {
+      "q": "What is the best beach destination for families?",
+      "a": "South Goa and Candolim, Kovalam, Diu, Udupi and Puri, which have calmer, well-served beaches."
+    },
+    {
+      "q": "What is the best time for a beach holiday in India?",
+      "a": "November to March for most of the coast and the islands."
+    },
+    {
+      "q": "Which Indian beach destination is least crowded?",
+      "a": "Lakshadweep, Neil Island, the Konkan beaches of Ratnagiri and Sindhudurg, and Tajpur in Bengal."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Beach holidays in India",
+      "href": "/blog/beach-holidays-in-india"
+    },
+    {
+      "label": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa"
+    },
+    {
+      "label": "Goa travel guide",
+      "href": "/blog/goa-beaches-travel-guide"
+    },
+    {
+      "label": "Goa tour packages",
+      "href": "/packages/goa"
+    },
+    {
+      "label": "Andaman tour packages",
+      "href": "/packages/andaman-nicobar"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best beaches in India",
+      "href": "/blog/best-beaches-in-india",
+      "note": "the standout individual beaches"
+    },
+    {
+      "name": "Offbeat beaches in India",
+      "href": "/blog/offbeat-beaches-in-india",
+      "note": "quieter alternatives"
+    },
+    {
+      "name": "Best time for beach holidays in India",
+      "href": "/blog/best-time-for-beach-holidays-in-india",
+      "note": "month by month"
+    }
+  ],
+  "places": [
+    "Goa",
+    "Havelock Island",
+    "Neil Island",
+    "Lakshadweep",
+    "Varkala",
+    "Kovalam",
+    "Gokarna",
+    "Udupi",
+    "Tarkarli",
+    "Diu",
+    "Puducherry",
+    "Mahabalipuram",
+    "Puri",
+    "Visakhapatnam",
+    "Digha"
+  ],
+  "styles": [
+    "honeymoon",
+    "family-holidays"
+  ],
+  "updated": "2026-09-25"
+}

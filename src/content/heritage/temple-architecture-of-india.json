@@ -1,0 +1,395 @@
+{
+  "slug": "temple-architecture-of-india",
+  "kind": "pillar",
+  "short": "Temple architecture of India",
+  "title": "Temple Architecture of India: A Traveller's Guide to the Styles",
+  "seoTitle": "Temple Architecture of India: Styles & Where to See Them | Kudozz Club",
+  "metaDescription": "A traveller's guide to Indian temple architecture: Nagara, Dravida and Vesara styles, Kalinga, Hoysala, Bengal and Kerala temples, and where to see each on a trip.",
+  "description": "A traveller's guide to Indian temple architecture: the parts of a temple, the Nagara style of the north, the Dravida style of the south, the Vesara style of the Deccan, and regional forms in Odisha, Karnataka, Bengal, Kerala and Gujarat, with the best places to see each: Khajuraho, Konark, Bhubaneswar, Thanjavur, Madurai, Pattadakal, Belur, Modhera, Ramappa and Bishnupur.",
+  "dek": "Once you can tell a shikhara from a vimana, every temple visit gets richer. Here is a short guide to the styles, and where to see them.",
+  "primaryKeyword": "temple architecture of India",
+  "secondaryKeywords": [
+    "Nagara Dravida Vesara",
+    "Dravidian architecture",
+    "Hoysala architecture"
+  ],
+  "searchIntent": "Informational with travel intent",
+  "activities": [
+    "temples",
+    "architecture",
+    "UNESCO sites",
+    "photography"
+  ],
+  "terrain": [
+    "heritage town"
+  ],
+  "regions": [
+    "Madhya Pradesh",
+    "Odisha",
+    "Tamil Nadu",
+    "Karnataka",
+    "Gujarat",
+    "Telangana",
+    "West Bengal",
+    "Kerala"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "photographers",
+    "history lovers"
+  ],
+  "tags": [
+    "Temple Architecture",
+    "Nagara",
+    "Dravida",
+    "Heritage"
+  ],
+  "hero": {
+    "src": "/images/heritage/temple-architecture-brihadeeswarar.webp",
+    "alt": "The Brihadeeswarar temple at Thanjavur, a classic Dravida temple"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Hindu temple architecture in India"
+  },
+  "intro": [
+    "Indian temples follow design traditions set out in texts known as the Shilpa Shastras and Agamas, and refined by builders over many centuries. Historians usually group them into three broad styles: Nagara in the north, Dravida in the south, and Vesara, a mix of the two, in the Deccan. Within each there are strong regional forms.",
+    "This is a travel guide rather than an academic one: it explains what to look for, and which temples show each style best. For pilgrimage and worship, see our famous temples guide."
+  ],
+  "quickAnswer": "Indian temple architecture has three broad styles: Nagara in the north, with a curved tower (shikhara), seen at Khajuraho and Modhera; Dravida in the south, with a stepped tower (vimana) and gateway towers (gopurams), seen at Thanjavur and Madurai; and Vesara in the Deccan, a blend seen in the Hoysala and Chalukya temples. Pattadakal in Karnataka has Nagara and Dravida temples side by side.",
+  "takeaways": [
+    "The sanctum (garbhagriha) is the heart of every temple; the tower rises above it.",
+    "Nagara temples have curved shikharas; Dravida temples have stepped vimanas and gopurams.",
+    "Pattadakal shows both main styles in one complex.",
+    "Odisha, Bengal and Kerala have their own distinctive regional forms.",
+    "Many great temples are still in worship; follow their rules on dress and entry."
+  ],
+  "sections": [
+    {
+      "id": "parts",
+      "heading": "The parts of a temple",
+      "table": {
+        "columns": [
+          "Term",
+          "What it is"
+        ],
+        "rows": [
+          [
+            "Garbhagriha",
+            "The sanctum, holding the main deity"
+          ],
+          [
+            "Mandapa",
+            "Pillared hall in front of the sanctum"
+          ],
+          [
+            "Shikhara",
+            "Curved tower above the sanctum (north)"
+          ],
+          [
+            "Vimana",
+            "Stepped tower above the sanctum (south)"
+          ],
+          [
+            "Gopuram",
+            "Gateway tower in the outer walls (south)"
+          ],
+          [
+            "Amalaka and kalasha",
+            "Ribbed stone disc and pot-shaped finial on a Nagara tower"
+          ],
+          [
+            "Pradakshina path",
+            "Walkway for circling the sanctum"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "styles",
+      "heading": "The three main styles",
+      "items": [
+        {
+          "name": "Nagara",
+          "body": [
+            "North and central India. A curved shikhara rising from a square sanctum, often with smaller towers clustered around it. Best seen at Khajuraho, Modhera and Osian."
+          ],
+          "links": [
+            {
+              "label": "Khajuraho guide",
+              "href": "/blog/khajuraho-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/madhya-pradesh/kandariya-mahadeva-temple-khajuraho-sunset.webp",
+            "alt": "The Kandariya Mahadeva temple at Khajuraho, with its clustered shikharas",
+            "caption": "Kandariya Mahadeva, Khajuraho"
+          }
+        },
+        {
+          "name": "Dravida",
+          "body": [
+            "Tamil Nadu and the south. A pyramidal vimana of stepped storeys, with a crowning dome. Later temples added walled enclosures with towering gopurams. Best seen at Thanjavur, Gangaikondacholapuram, Darasuram and Madurai."
+          ],
+          "links": [
+            {
+              "label": "Thanjavur guide",
+              "href": "/blog/thanjavur-travel-guide"
+            },
+            {
+              "label": "Madurai guide",
+              "href": "/blog/madurai-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp",
+            "alt": "A painted gopuram of the Meenakshi Amman temple, Madurai",
+            "caption": "Meenakshi Amman temple gopuram, Madurai"
+          }
+        },
+        {
+          "name": "Vesara",
+          "body": [
+            "The Deccan. A blend of the two, developed under the Chalukyas and the Hoysalas, with star-shaped plans and dense carving at Belur, Halebidu and Somanathapura."
+          ],
+          "links": [
+            {
+              "label": "Belur and Halebidu",
+              "href": "/blog/belur-halebidu-hoysala-temples"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regional",
+      "heading": "Regional forms",
+      "items": [
+        {
+          "name": "Kalinga (Odisha)",
+          "body": [
+            "A tall curved tower (rekha deula) over the sanctum and a pyramidal roof (pidha deula) over the hall. Bhubaneswar's Lingaraj and Mukteshwar temples and the Sun Temple at Konark are the classics."
+          ],
+          "links": [
+            {
+              "label": "Konark guide",
+              "href": "/blog/konark-travel-guide"
+            },
+            {
+              "label": "Bhubaneswar guide",
+              "href": "/blog/bhubaneswar-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Early Chalukya",
+          "body": [
+            "Aihole and Pattadakal, where early experiments in both northern and southern forms stand together."
+          ],
+          "links": [
+            {
+              "label": "Badami, Aihole and Pattadakal",
+              "href": "/blog/badami-aihole-pattadakal-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kakatiya",
+          "body": [
+            "The Ramappa temple near Warangal (UNESCO 2021), known for its sculpted brackets and light floating bricks in the tower."
+          ],
+          "links": [
+            {
+              "label": "Warangal guide",
+              "href": "/blog/warangal-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Solanki (Gujarat)",
+          "body": [
+            "The Modhera Sun Temple (1026 to 1027) with its stepped tank, and the Jain temples of Dilwara at Mount Abu."
+          ],
+          "links": [
+            {
+              "label": "Patan guide",
+              "href": "/blog/patan-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Bengal terracotta",
+          "body": [
+            "Brick temples with curved roofs copying village huts, covered in terracotta panels, at Bishnupur."
+          ],
+          "links": [
+            {
+              "label": "Bishnupur guide",
+              "href": "/blog/bishnupur-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kerala",
+          "body": [
+            "Circular or square shrines with sloping tiled or copper roofs, suited to heavy rain, and wooden carving and murals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "where",
+      "heading": "Where to see the best examples",
+      "table": {
+        "columns": [
+          "Style",
+          "Best places",
+          "Our guides"
+        ],
+        "rows": [
+          [
+            "Nagara",
+            "Khajuraho, Modhera, Osian",
+            "Khajuraho"
+          ],
+          [
+            "Dravida",
+            "Thanjavur, Madurai, Kanchipuram, Mahabalipuram",
+            "Thanjavur, Madurai"
+          ],
+          [
+            "Vesara",
+            "Belur, Halebidu, Pattadakal",
+            "Belur and Halebidu"
+          ],
+          [
+            "Kalinga",
+            "Bhubaneswar, Konark, Puri",
+            "Bhubaneswar, Konark"
+          ],
+          [
+            "Terracotta",
+            "Bishnupur",
+            "Bishnupur"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sculpture",
+      "heading": "Reading the sculpture",
+      "paras": [
+        "Temple walls carry a visual programme. Guardian figures (dvarapalas) flank doorways; river goddesses Ganga and Yamuna often stand at the entrance; the outer niches show forms of the main deity and the directional guardians; and friezes run with elephants, horses, musicians and stories from the epics and Puranas. At Khajuraho, the erotic sculptures that draw so much attention make up only a small part of the carving, and their meaning is still discussed by scholars."
+      ]
+    },
+    {
+      "id": "visit-tips",
+      "heading": "How to visit a temple as a traveller",
+      "list": [
+        "Go early in the morning, when light is soft and the temple is quieter.",
+        "Walk clockwise around the shrine, as worshippers do.",
+        "Look up at the ceilings of the halls; some of the finest carving is overhead.",
+        "At ASI-protected temples no longer in worship, such as much of Khajuraho or Pattadakal, rules are more relaxed than at living temples, but shoes still come off in the shrines."
+      ]
+    }
+  ],
+  "safety": [
+    "Living temples set their own rules on dress, entry and photography; some admit only Hindus to the inner areas. Follow what is posted at the gate.",
+    "Timings, closures and tickets change; check the ASI, state department or temple authority before you go.",
+    "Remove shoes where required and carry socks for hot stone floors in the afternoon."
+  ],
+  "packing": [
+    "Clothes covering shoulders and knees",
+    "Socks for hot floors",
+    "Small bag for shoes",
+    "Binoculars for high carvings"
+  ],
+  "faqs": [
+    {
+      "q": "What are the three styles of Indian temple architecture?",
+      "a": "Nagara (north), Dravida (south) and Vesara (a Deccan blend)."
+    },
+    {
+      "q": "What is the difference between a shikhara and a vimana?",
+      "a": "Both rise over the sanctum; a shikhara is a curved northern tower, a vimana a stepped southern one."
+    },
+    {
+      "q": "Where can I see Nagara and Dravida temples together?",
+      "a": "At Pattadakal in Karnataka, a UNESCO World Heritage Site."
+    },
+    {
+      "q": "What is a gopuram?",
+      "a": "A tall gateway tower in the outer wall of a southern temple, as at Madurai."
+    },
+    {
+      "q": "Can non-Hindus enter Indian temples?",
+      "a": "Most temples welcome everyone, but some restrict the inner areas to Hindus; follow the rules posted at each temple."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Famous temples in India",
+      "href": "/blog/famous-temples-in-india"
+    },
+    {
+      "label": "South India heritage itinerary",
+      "href": "/blog/south-india-heritage-itinerary"
+    },
+    {
+      "label": "Heritage tourism in Tamil Nadu",
+      "href": "/blog/heritage-tourism-in-tamil-nadu"
+    },
+    {
+      "label": "Heritage tourism in Odisha",
+      "href": "/blog/heritage-tourism-in-odisha"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Belur and Halebidu",
+      "href": "/blog/belur-halebidu-hoysala-temples",
+      "note": "Hoysala temples"
+    },
+    {
+      "name": "Rock-cut caves in India",
+      "href": "/blog/rock-cut-caves-in-india",
+      "note": "cave temples"
+    },
+    {
+      "name": "UNESCO sites in India",
+      "href": "/blog/unesco-world-heritage-sites-in-india",
+      "note": "the full list"
+    }
+  ],
+  "places": [
+    "Khajuraho",
+    "Modhera",
+    "Thanjavur",
+    "Madurai",
+    "Pattadakal",
+    "Belur",
+    "Halebidu",
+    "Konark",
+    "Bhubaneswar",
+    "Ramappa",
+    "Bishnupur"
+  ],
+  "styles": [
+    "heritage-tours",
+    "spiritual-tours"
+  ],
+  "planDestination": "India",
+  "updated": "2026-09-26"
+}

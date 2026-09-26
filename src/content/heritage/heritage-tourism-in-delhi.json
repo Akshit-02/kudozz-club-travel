@@ -1,0 +1,406 @@
+{
+  "slug": "heritage-tourism-in-delhi",
+  "kind": "state",
+  "short": "Heritage tourism in Delhi",
+  "title": "Heritage Tourism in Delhi: Monuments of the Seven Cities",
+  "seoTitle": "Heritage Tourism in Delhi: Monuments, Walks & Museums | Kudozz Club",
+  "metaDescription": "Delhi's heritage: the Red Fort, Qutub Minar and Humayun's Tomb (UNESCO), Mehrauli, Tughlaqabad, Purana Qila, Old Delhi, Lutyens' Delhi, museums and walks.",
+  "description": "A guide to heritage tourism in Delhi: its three UNESCO sites (the Qutub Minar, Humayun's Tomb and the Red Fort), the layered 'cities of Delhi' from Mehrauli and Tughlaqabad to Purana Qila and Shahjahanabad, Lodhi Garden, Nizamuddin and Sunder Nursery, Lutyens' New Delhi, stepwells, museums, crafts and heritage walks.",
+  "dek": "Delhi has been a capital many times over, and each of its cities left monuments behind. Few places pack so much history into one city.",
+  "primaryKeyword": "heritage places in Delhi",
+  "secondaryKeywords": [
+    "historical places in Delhi",
+    "monuments in Delhi",
+    "Delhi heritage tour"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "monuments",
+    "UNESCO sites",
+    "crafts",
+    "heritage walks"
+  ],
+  "terrain": [
+    "varied"
+  ],
+  "regions": [
+    "Delhi"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "history lovers"
+  ],
+  "tags": [
+    "Delhi",
+    "Heritage",
+    "Monuments",
+    "Old Delhi"
+  ],
+  "hero": {
+    "src": "/images/heritage/heritage-delhi-purana-qila.webp",
+    "alt": "The Qila-i-Kuhna mosque inside the Purana Qila, Delhi"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Heritage of Delhi",
+    "containedIn": "Delhi"
+  },
+  "intro": [
+    "Delhi is often described as a city of seven (or more) cities, built by successive rulers: Lal Kot and Qila Rai Pithora, Mehrauli, Siri, Tughlaqabad, Jahanpanah, Ferozabad, Dinpanah (Purana Qila) and Shahjahanabad, followed by the British-built New Delhi. Counts and names vary between historians, but the monuments of each survive.",
+    "The city has three UNESCO World Heritage Sites: the Qutub Minar and its monuments (1993), Humayun's Tomb (1993) and the Red Fort Complex (2007). Around them are hundreds of tombs, mosques, stepwells and gardens."
+  ],
+  "quickAnswer": "Delhi's heritage highlights are its UNESCO sites (the Qutub Minar, Humayun's Tomb and the Red Fort), Mehrauli Archaeological Park, Tughlaqabad, Purana Qila, Old Delhi's Chandni Chowk and Jama Masjid, Lodhi Garden, Nizamuddin and Sunder Nursery, Safdarjung's Tomb, Agrasen ki Baoli, Lutyens' New Delhi, and museums such as the National Museum. October to March is best.",
+  "takeaways": [
+    "Delhi has three UNESCO sites: the Qutub Minar, Humayun's Tomb and the Red Fort.",
+    "The Red Fort is closed on Mondays.",
+    "Mehrauli and Tughlaqabad show Delhi's earliest layers.",
+    "Heritage walks are the best way into Old Delhi and Nizamuddin.",
+    "Air quality is often poor in November and December; check before planning outdoor days."
+  ],
+  "sections": [
+    {
+      "id": "unesco",
+      "heading": "UNESCO World Heritage Sites",
+      "table": {
+        "columns": [
+          "Site",
+          "Year",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Qutub Minar and its monuments",
+            "1993",
+            "Delhi Sultanate minaret, mosque and iron pillar"
+          ],
+          [
+            "Humayun's Tomb",
+            "1993",
+            "The first great Mughal garden tomb"
+          ],
+          [
+            "Red Fort Complex",
+            "2007",
+            "Shah Jahan's palace-fort, with Salimgarh"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "layers",
+      "heading": "Delhi's historic layers",
+      "table": {
+        "columns": [
+          "Area",
+          "Period",
+          "See"
+        ],
+        "rows": [
+          [
+            "Mehrauli",
+            "From the 11th century",
+            "Qutub complex, Jamali Kamali, Rajon ki Baoli"
+          ],
+          [
+            "Tughlaqabad",
+            "14th century",
+            "Massive ruined fort walls"
+          ],
+          [
+            "Hauz Khas",
+            "14th century",
+            "Madrasa and tank"
+          ],
+          [
+            "Purana Qila",
+            "16th century",
+            "Sher Shah Suri's mosque, Sher Mandal"
+          ],
+          [
+            "Nizamuddin and Lodhi Garden",
+            "14th to 16th century",
+            "Dargah, Lodi tombs, Humayun's Tomb"
+          ],
+          [
+            "Shahjahanabad (Old Delhi)",
+            "17th century",
+            "Red Fort, Jama Masjid, Chandni Chowk"
+          ],
+          [
+            "New Delhi",
+            "1911 to 1931",
+            "Rashtrapati Bhavan, India Gate, Connaught Place"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "highlights",
+      "heading": "Highlights",
+      "items": [
+        {
+          "name": "The UNESCO monuments",
+          "body": [
+            "The Qutub complex, Humayun's Tomb and the Red Fort."
+          ],
+          "links": [
+            {
+              "label": "Qutub Minar",
+              "href": "/blog/qutub-minar"
+            },
+            {
+              "label": "Humayun's Tomb",
+              "href": "/blog/humayuns-tomb"
+            },
+            {
+              "label": "Red Fort",
+              "href": "/blog/red-fort"
+            }
+          ]
+        },
+        {
+          "name": "Mehrauli and Tughlaqabad",
+          "body": [
+            "Ruins across 800 years, and the vast walls of the Tughlaq fort."
+          ],
+          "links": [
+            {
+              "label": "Mehrauli guide",
+              "href": "/blog/mehrauli-delhi-travel-guide"
+            },
+            {
+              "label": "Tughlaqabad guide",
+              "href": "/blog/tughlaqabad-delhi-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/delhi/mehrauli/jamali-kamali-mosque-tomb-mehrauli-archaeological-park.webp",
+            "alt": "The Jamali Kamali mosque in Mehrauli Archaeological Park",
+            "caption": "Jamali Kamali, Mehrauli"
+          }
+        },
+        {
+          "name": "Old Delhi and Nizamuddin",
+          "body": [
+            "The Jama Masjid and Chandni Chowk; the dargah of Nizamuddin Auliya and Sunder Nursery."
+          ],
+          "links": [
+            {
+              "label": "Old Delhi guide",
+              "href": "/blog/old-delhi-travel-guide"
+            },
+            {
+              "label": "Nizamuddin guide",
+              "href": "/blog/nizamuddin-delhi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Jantar Mantar and New Delhi",
+          "body": [
+            "Sawai Jai Singh II's observatory, and the Lutyens-designed capital."
+          ],
+          "links": [
+            {
+              "label": "New Delhi guide",
+              "href": "/blog/new-delhi-travel-guide"
+            },
+            {
+              "label": "Lodhi Garden guide",
+              "href": "/blog/lodhi-garden-delhi-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/delhi/new-delhi/jantar-mantar-samrat-yantra-new-delhi.webp",
+            "alt": "The Samrat Yantra at Jantar Mantar, New Delhi",
+            "caption": "Jantar Mantar, New Delhi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "museums",
+      "heading": "Museums and crafts",
+      "list": [
+        "National Museum: Harappan finds, sculpture and paintings.",
+        "National Gallery of Modern Art.",
+        "National Crafts Museum and Hastkala Academy near Pragati Maidan.",
+        "Dilli Haat for crafts from across India.",
+        "Sanskriti Museums in the south of the city."
+      ],
+      "items": [
+        {
+          "name": "Museums",
+          "body": [
+            "Across India."
+          ],
+          "links": [
+            {
+              "label": "Best museums in India",
+              "href": "/blog/best-museums-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walks",
+      "heading": "Heritage walks",
+      "paras": [
+        "Delhi has some of India's best heritage walks: Chandni Chowk and the Jama Masjid at dawn, Mehrauli Archaeological Park, Nizamuddin Basti with its dargah and Thursday qawwali, and Hauz Khas village. Go early, wear comfortable shoes, and dress modestly for mosques and dargahs."
+      ],
+      "items": [
+        {
+          "name": "Walks",
+          "body": [
+            "More walks."
+          ],
+          "links": [
+            {
+              "label": "Heritage walks in India",
+              "href": "/blog/heritage-walks-in-india"
+            },
+            {
+              "label": "Things to do in Delhi",
+              "href": "/blog/things-to-do-in-delhi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "Central Delhi, around Connaught Place and Janpath, is convenient for the Red Fort, Old Delhi, Jantar Mantar and the museums. South Delhi is closer to Mehrauli, Hauz Khas and the Qutub. The Delhi Metro links most heritage sites and is the quickest way to beat traffic."
+      ]
+    },
+    {
+      "id": "lesser-known",
+      "heading": "Lesser-known heritage",
+      "list": [
+        "Agrasen ki Baoli, a stepwell hidden among the office blocks near Connaught Place.",
+        "Safdarjung's Tomb, one of the last great Mughal garden tombs.",
+        "Feroz Shah Kotla, with an Ashokan pillar on its ruins.",
+        "The Khirki Mosque and Satpula in south Delhi."
+      ]
+    },
+    {
+      "id": "with-kids",
+      "heading": "Heritage with children",
+      "list": [
+        "Humayun's Tomb and Sunder Nursery have open lawns and space to run.",
+        "The Red Fort's evening sound-and-light show.",
+        "The National Rail Museum in Chanakyapuri."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "October to March: the best season; December and January are cold and foggy in the mornings.",
+        "November and December: air quality is often poor.",
+        "April to June: very hot; plan monuments at opening time.",
+        "July to September: the monsoon; gardens are green."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, weekly closures and tickets change; check the ASI, state tourism or the site before you go.",
+    "Living temples, mosques and shrines set their own rules on dress, entry and photography; follow what is posted.",
+    "Check the air-quality index in November and December."
+  ],
+  "packing": [
+    "Comfortable walking shoes",
+    "Scarf or shawl for places of worship",
+    "Hat, sunscreen and water",
+    "Photo ID for tickets"
+  ],
+  "faqs": [
+    {
+      "q": "What are the UNESCO sites in Delhi?",
+      "a": "The Qutub Minar and its monuments, Humayun's Tomb and the Red Fort Complex."
+    },
+    {
+      "q": "What are the seven cities of Delhi?",
+      "a": "A traditional way of describing the successive capitals, often listed as Qila Rai Pithora, Siri, Tughlaqabad, Jahanpanah, Ferozabad, Dinpanah and Shahjahanabad; lists vary."
+    },
+    {
+      "q": "Which day is the Red Fort closed?",
+      "a": "Monday."
+    },
+    {
+      "q": "How many days do I need for Delhi's heritage?",
+      "a": "Two or three days for the main monuments, walks and a museum."
+    },
+    {
+      "q": "When is the best time to visit?",
+      "a": "October to March."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Golden Triangle itinerary",
+      "href": "/blog/golden-triangle-itinerary"
+    },
+    {
+      "label": "Mughal monuments in India",
+      "href": "/blog/mughal-monuments-in-india"
+    },
+    {
+      "label": "Delhi travel guide",
+      "href": "/blog/delhi-travel-guide"
+    },
+    {
+      "label": "Delhi tour packages",
+      "href": "/packages/delhi"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Heritage walks in India",
+      "href": "/blog/heritage-walks-in-india",
+      "note": "walks in Delhi and beyond"
+    },
+    {
+      "name": "Red Fort",
+      "href": "/blog/red-fort",
+      "note": "Shah Jahan's fort"
+    },
+    {
+      "name": "Things to do in Delhi",
+      "href": "/blog/things-to-do-in-delhi",
+      "note": "the city"
+    }
+  ],
+  "places": [
+    "Red Fort",
+    "Qutub Minar",
+    "Humayun's Tomb",
+    "Mehrauli",
+    "Tughlaqabad",
+    "Purana Qila",
+    "Old Delhi",
+    "Nizamuddin",
+    "Lodhi Garden",
+    "New Delhi"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "Delhi",
+  "updated": "2026-09-26"
+}

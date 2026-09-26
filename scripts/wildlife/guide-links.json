@@ -1,0 +1,194 @@
+{
+ "ranthambore-travel-guide": {
+  "slug": "tiger-safari-in-india",
+  "label": "tiger safaris across India"
+ },
+ "ranthambore-first-time-visitors-travel-guide": {
+  "slug": "how-to-plan-a-tiger-safari-in-india",
+  "label": "how to plan a tiger safari"
+ },
+ "jim-corbett-travel-guide": {
+  "slug": "wildlife-tourism-in-uttarakhand",
+  "label": "wildlife tourism in Uttarakhand"
+ },
+ "kanha-travel-guide": {
+  "slug": "wildlife-tourism-in-madhya-pradesh",
+  "label": "wildlife tourism in Madhya Pradesh"
+ },
+ "bandhavgarh-travel-guide": {
+  "slug": "best-tiger-reserves-in-india",
+  "label": "the best tiger reserves in India"
+ },
+ "panna-travel-guide": {
+  "slug": "wildlife-tourism-in-madhya-pradesh",
+  "label": "wildlife tourism in Madhya Pradesh"
+ },
+ "kuno-travel-guide": {
+  "slug": "wildlife-tourism-in-madhya-pradesh",
+  "label": "wildlife tourism in Madhya Pradesh"
+ },
+ "tadoba-travel-guide": {
+  "slug": "wildlife-tourism-in-maharashtra",
+  "label": "wildlife tourism in Maharashtra"
+ },
+ "dudhwa-travel-guide": {
+  "slug": "best-national-parks-in-india",
+  "label": "the best national parks in India"
+ },
+ "kaziranga-travel-guide": {
+  "slug": "where-to-see-rhinos-in-india",
+  "label": "where to see rhinos in India"
+ },
+ "manas-travel-guide": {
+  "slug": "wildlife-tourism-in-assam",
+  "label": "wildlife tourism in Assam"
+ },
+ "pobitora-travel-guide": {
+  "slug": "where-to-see-rhinos-in-india",
+  "label": "where to see rhinos in India"
+ },
+ "nameri-travel-guide": {
+  "slug": "wildlife-tourism-in-assam",
+  "label": "wildlife tourism in Assam"
+ },
+ "assam-travel-guide": {
+  "slug": "wildlife-tourism-in-assam",
+  "label": "wildlife tourism in Assam"
+ },
+ "gir-national-park-travel-guide": {
+  "slug": "wildlife-tourism-in-gujarat",
+  "label": "wildlife tourism in Gujarat"
+ },
+ "gujarat-travel-guide": {
+  "slug": "wildlife-tourism-in-gujarat",
+  "label": "wildlife tourism in Gujarat"
+ },
+ "sundarbans-travel-guide": {
+  "slug": "wildlife-tourism-in-west-bengal",
+  "label": "wildlife tourism in West Bengal"
+ },
+ "dooars-travel-guide": {
+  "slug": "where-to-see-rhinos-in-india",
+  "label": "where to see rhinos in India"
+ },
+ "buxa-travel-guide": {
+  "slug": "wildlife-tourism-in-west-bengal",
+  "label": "wildlife tourism in West Bengal"
+ },
+ "west-bengal-travel-guide": {
+  "slug": "wildlife-tourism-in-west-bengal",
+  "label": "wildlife tourism in West Bengal"
+ },
+ "kabini-travel-guide": {
+  "slug": "leopard-safari-in-india",
+  "label": "leopard safaris in India"
+ },
+ "bandipur-travel-guide": {
+  "slug": "wildlife-tourism-in-karnataka",
+  "label": "wildlife tourism in Karnataka"
+ },
+ "karnataka-travel-guide": {
+  "slug": "wildlife-tourism-in-karnataka",
+  "label": "wildlife tourism in Karnataka"
+ },
+ "thekkady-travel-guide": {
+  "slug": "wildlife-tourism-in-kerala",
+  "label": "wildlife tourism in Kerala"
+ },
+ "wayanad-travel-guide": {
+  "slug": "wildlife-tourism-in-kerala",
+  "label": "wildlife tourism in Kerala"
+ },
+ "valparai-travel-guide": {
+  "slug": "wildlife-tourism-in-tamil-nadu",
+  "label": "wildlife tourism in Tamil Nadu"
+ },
+ "tamil-nadu-travel-guide": {
+  "slug": "wildlife-tourism-in-tamil-nadu",
+  "label": "wildlife tourism in Tamil Nadu"
+ },
+ "similipal-travel-guide": {
+  "slug": "wildlife-tourism-in-odisha",
+  "label": "wildlife tourism in Odisha"
+ },
+ "bhitarkanika-travel-guide": {
+  "slug": "wildlife-tourism-in-odisha",
+  "label": "wildlife tourism in Odisha"
+ },
+ "satkosia-travel-guide": {
+  "slug": "wildlife-tourism-in-odisha",
+  "label": "wildlife tourism in Odisha"
+ },
+ "chilika-lake-travel-guide": {
+  "slug": "birdwatching-in-india",
+  "label": "birdwatching in India"
+ },
+ "odisha-travel-guide": {
+  "slug": "wildlife-tourism-in-odisha",
+  "label": "wildlife tourism in Odisha"
+ },
+ "bharatpur-travel-guide": {
+  "slug": "birdwatching-in-india",
+  "label": "birdwatching in India"
+ },
+ "sultanpur-national-park-travel-guide": {
+  "slug": "birdwatching-in-india",
+  "label": "birdwatching in India"
+ },
+ "keibul-lamjao-travel-guide": {
+  "slug": "where-to-see-wildlife-in-india",
+  "label": "where to see wildlife in India"
+ },
+ "namdapha-travel-guide": {
+  "slug": "best-national-parks-in-india",
+  "label": "the best national parks in India"
+ },
+ "hemis-travel-guide": {
+  "slug": "snow-leopard-tours-in-india",
+  "label": "snow leopard tours in India"
+ },
+ "jawai-travel-guide": {
+  "slug": "leopard-safari-in-india",
+  "label": "leopard safaris in India"
+ },
+ "kumbhalgarh-travel-guide": {
+  "slug": "wildlife-tourism-in-rajasthan",
+  "label": "wildlife tourism in Rajasthan"
+ },
+ "mount-abu-travel-guide": {
+  "slug": "best-wildlife-sanctuaries-in-india",
+  "label": "the best wildlife sanctuaries in India"
+ },
+ "rajasthan-travel-guide": {
+  "slug": "wildlife-tourism-in-rajasthan",
+  "label": "wildlife tourism in Rajasthan"
+ },
+ "madhya-pradesh-travel-guide": {
+  "slug": "wildlife-tourism-in-madhya-pradesh",
+  "label": "wildlife tourism in Madhya Pradesh"
+ },
+ "pachmarhi-travel-guide": {
+  "slug": "satpura-tiger-reserve",
+  "label": "Satpura Tiger Reserve"
+ },
+ "khajuraho-travel-guide": {
+  "slug": "wildlife-tourism-in-madhya-pradesh",
+  "label": "wildlife tourism in Madhya Pradesh"
+ },
+ "maharashtra-travel-guide": {
+  "slug": "wildlife-tourism-in-maharashtra",
+  "label": "wildlife tourism in Maharashtra"
+ },
+ "uttarakhand-travel-guide": {
+  "slug": "wildlife-tourism-in-uttarakhand",
+  "label": "wildlife tourism in Uttarakhand"
+ },
+ "tirthan-valley-travel-guide": {
+  "slug": "best-national-parks-in-india",
+  "label": "the best national parks in India"
+ },
+ "valley-of-flowers-travel-guide": {
+  "slug": "best-national-parks-in-india",
+  "label": "the best national parks in India"
+ }
+}

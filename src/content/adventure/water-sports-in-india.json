@@ -1,0 +1,426 @@
+{
+  "slug": "water-sports-in-india",
+  "kind": "activity",
+  "short": "Water sports in India",
+  "title": "Water Sports in India: Where to Try What",
+  "seoTitle": "Water Sports in India: Where to Try What | Kudozz Club",
+  "metaDescription": "The best places for water sports in India: parasailing and jet skis in Goa, sea walks in the Andamans, Tarkarli, Tehri Lake and more, with seasons and safety checks.",
+  "description": "A guide to water sports in India: parasailing, jet skiing and banana rides on Goa's beaches, sea walks and glass-bottom boats in the Andamans, Tarkarli and Malvan's water sports, lake sports at Tehri and Umiam, plus kayaking, surfing, snorkelling and diving, with seasons and safety checks.",
+  "dek": "From a ten-minute parasail over a Goa beach to a morning walking on the seabed in the Andamans, here is where to try each water sport in India and when.",
+  "primaryKeyword": "water sports in India",
+  "secondaryKeywords": [
+    "best water sports destinations in India",
+    "parasailing in India",
+    "jet ski",
+    "sea walk India",
+    "water sports in Goa"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "parasailing",
+    "jet skiing",
+    "sea walk",
+    "banana boat",
+    "kayaking",
+    "snorkelling",
+    "scuba diving",
+    "surfing"
+  ],
+  "terrain": [
+    "sea",
+    "beaches",
+    "lakes"
+  ],
+  "regions": [
+    "Goa",
+    "Andaman and Nicobar Islands",
+    "Maharashtra",
+    "Karnataka",
+    "Uttarakhand",
+    "Meghalaya",
+    "Kerala",
+    "Lakshadweep",
+    "Dadra and Nagar Haveli and Daman and Diu"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "friends",
+    "couples",
+    "beginners"
+  ],
+  "tags": [
+    "Water Sports",
+    "Goa",
+    "Andaman",
+    "Beaches"
+  ],
+  "hero": {
+    "src": "/images/adventure/water-sports-beach-india.webp",
+    "alt": "Parasailing over Calangute beach, Goa",
+    "caption": "Calangute, Goa"
+  },
+  "parent": {
+    "label": "Adventure Sports in India",
+    "href": "/blog/adventure-sports-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Water sports in India"
+  },
+  "intro": [
+    "Water sports in India range from quick beach rides, such as parasailing, jet skis and banana boats, to activities that take more time and skill, such as scuba diving, surfing and kayaking. The beach rides are concentrated in Goa, the Andamans, the Konkan coast of Maharashtra and a few lakes; the more serious sports each have their own best places.",
+    "Most coastal water sports stop during the south-west monsoon, from about June to September, when the sea is rough and state governments suspend operations. This guide covers where to try each activity, the season and how to choose a safe operator."
+  ],
+  "quickAnswer": "The best places for water sports in India are Goa (parasailing, jet skis, banana rides, kayaking), the Andaman Islands (sea walks, snorkelling, scuba, glass-bottom boats), Tarkarli and Malvan in Maharashtra, Murudeshwar and Netrani in Karnataka, Tehri Lake in Uttarakhand and Umiam Lake in Meghalaya. The season on the coast is roughly October to May; most beach water sports are suspended in the monsoon.",
+  "takeaways": [
+    "Goa's Calangute, Baga and Candolim beaches are the busiest spots for parasailing, jet skis and banana rides.",
+    "Sea walks, where you walk on the seabed wearing a helmet supplied with air, run at North Bay and Havelock in the Andamans.",
+    "Tarkarli and Malvan offer parasailing, snorkelling and try dives on the Konkan coast.",
+    "Coastal water sports usually stop from about June to September for the monsoon.",
+    "Check life jackets, licences and weather before any ride; accidents often involve unlicensed operators."
+  ],
+  "sections": [
+    {
+      "id": "activities",
+      "heading": "Water sports and where to try them",
+      "table": {
+        "columns": [
+          "Activity",
+          "What it is",
+          "Best places"
+        ],
+        "rows": [
+          [
+            "Parasailing",
+            "Towed behind a boat under a parachute",
+            "Goa, Tarkarli and Malvan, Murudeshwar, Diu"
+          ],
+          [
+            "Jet ski",
+            "Riding a personal watercraft, often with an instructor",
+            "Goa, Port Blair, Tehri Lake"
+          ],
+          [
+            "Banana and bumper rides",
+            "Towed inflatable rides for groups",
+            "Goa, Tarkarli, Diu"
+          ],
+          [
+            "Sea walk",
+            "Walking on the seabed with an air-supplied helmet",
+            "North Bay and Havelock, Andamans"
+          ],
+          [
+            "Snorkelling",
+            "Floating over reefs with mask and snorkel",
+            "Andamans, Lakshadweep, Malvan, Netrani"
+          ],
+          [
+            "Scuba diving",
+            "Diving with air tanks and an instructor",
+            "Andamans, Lakshadweep, Netrani, Goa, Tarkarli"
+          ],
+          [
+            "Kayaking",
+            "Paddling on calm water",
+            "Andamans, Goa, Kerala, Meghalaya"
+          ],
+          [
+            "Surfing",
+            "Riding waves on a board",
+            "Mulki, Kovalam, Varkala, Puducherry"
+          ],
+          [
+            "White-water rafting",
+            "Paddling a raft through river rapids",
+            "Rishikesh, Ladakh, Coorg, Kolad"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "places",
+      "heading": "Best water sports destinations",
+      "items": [
+        {
+          "name": "Goa",
+          "body": [
+            "Calangute, Baga and Candolim in north Goa have the most water-sports operators, with parasailing, jet skis, banana and bumper rides and speedboats. Kayaking runs on the rivers, and dive schools go to Grande Island. Goa's government licenses beach water sports and suspends them in the monsoon."
+          ],
+          "facts": {
+            "Season": "About October to May",
+            "Good for": "Families, groups of friends"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Goa",
+              "href": "/blog/adventure-activities-in-goa"
+            },
+            {
+              "label": "Things to do in Goa",
+              "href": "/blog/things-to-do-in-goa"
+            }
+          ]
+        },
+        {
+          "name": "Andaman Islands",
+          "body": [
+            "North Bay near Port Blair and Elephant Beach on Havelock are the main places for sea walks, snorkelling and glass-bottom boat rides, with jet skis and parasailing around Port Blair. Scuba diving is best on Havelock and Neil."
+          ],
+          "facts": {
+            "Season": "About October to May",
+            "Good for": "Families, first-timers"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in the Andamans",
+              "href": "/blog/adventure-activities-in-andaman"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/andaman/north-bay-island-coral-reef.webp",
+            "alt": "Coral in clear water at North Bay Island, Andaman",
+            "caption": "North Bay Island"
+          }
+        },
+        {
+          "name": "Tarkarli and Malvan, Maharashtra",
+          "body": [
+            "The Sindhudurg coast offers parasailing, banana rides, snorkelling near Sindhudurg Fort, try dives and backwater boat rides on the Karli river."
+          ],
+          "facts": {
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Tarkarli travel guide",
+              "href": "/blog/tarkarli-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Murudeshwar and Netrani, Karnataka",
+          "body": [
+            "Murudeshwar's beach has boat rides and water sports, and is the base for snorkelling and diving trips to Netrani Island."
+          ],
+          "facts": {
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Scuba diving in India",
+              "href": "/blog/scuba-diving-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Diu",
+          "body": [
+            "Nagoa beach in Diu has parasailing, jet skis and banana rides in the dry season."
+          ],
+          "facts": {
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Nagoa Beach guide",
+              "href": "/blog/nagoa-beach-travel-guide"
+            },
+            {
+              "label": "Things to do in Diu",
+              "href": "/blog/things-to-do-in-diu"
+            }
+          ]
+        },
+        {
+          "name": "Tehri Lake, Uttarakhand",
+          "body": [
+            "The reservoir behind the Tehri Dam has jet skis, speedboats, kayaking and other water sports, often organised with the state tourism authorities, and a water-sports festival in some years."
+          ],
+          "facts": {
+            "Season": "Most of the year",
+            "Good for": "Families on a hill trip"
+          },
+          "links": [
+            {
+              "label": "Tehri Lake guide",
+              "href": "/blog/tehri-lake-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Umiam Lake, Meghalaya",
+          "body": [
+            "A reservoir near Shillong with a water-sports complex offering kayaking, speedboats and other activities."
+          ],
+          "facts": {
+            "Season": "October to May"
+          },
+          "links": [
+            {
+              "label": "Umiam Lake guide",
+              "href": "/blog/umiam-lake-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Lakshadweep",
+          "body": [
+            "Resorts and tour packages include kayaking, snorkelling, glass-bottom boats and diving in calm lagoons. An entry permit is needed."
+          ],
+          "facts": {
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Lakshadweep travel guide",
+              "href": "/blog/lakshadweep-island-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sea-walk",
+      "heading": "How a sea walk works",
+      "paras": [
+        "A sea walk suits people who cannot swim but want to see a reef up close. After a briefing on a boat or platform, you climb down a ladder wearing a heavy helmet that is fed air from the surface. You walk on the sandy seabed a few metres down, with a trained diver holding your hand, for about 15 to 20 minutes.",
+        "You do not need to equalise your ears as much as in scuba diving, but tell the staff if you have ear, sinus, heart or breathing problems. Photos and videos are usually sold afterwards."
+      ]
+    },
+    {
+      "id": "choose",
+      "heading": "Choosing a safe operator",
+      "list": [
+        "Use operators licensed by the state tourism department or port authority; in Goa, ask to see the licence.",
+        "Check that life jackets fit and are buckled, and that staff wear them too.",
+        "For parasailing, look at the harness, ropes and the boat; do not fly in strong wind or rain.",
+        "For jet skis, ride with an instructor unless you are experienced, and keep away from swimmers.",
+        "Agree the price and duration before you start, and avoid touts on the beach.",
+        "Do not do water sports after drinking alcohol."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "On the west coast, in the Andamans and in Lakshadweep, the season runs from about October to May. Operations are suspended from about June to September, when the south-west monsoon makes the sea dangerous. Lakes such as Tehri and Umiam run for more of the year but close in storms and heavy rain."
+      ]
+    }
+  ],
+  "safety": [
+    "Wear a life jacket for every activity, whatever your swimming ability.",
+    "Tell the operator about any heart, back or neck problems, and about pregnancy.",
+    "Avoid water sports in rough seas, strong wind or monsoon conditions.",
+    "Watch children closely on beaches, where rip currents can be strong.",
+    "Use waterproof sunscreen and drink plenty of water."
+  ],
+  "packing": [
+    "Swimwear and a rash guard",
+    "Waterproof sunscreen",
+    "A waterproof phone pouch",
+    "Flip-flops",
+    "A towel and a change of clothes"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best place for water sports in India?",
+      "a": "Goa has the widest choice of beach water sports, and the Andamans are best for sea walks, snorkelling and diving."
+    },
+    {
+      "q": "What is the best time for water sports in Goa?",
+      "a": "About October to May. Beach water sports are suspended during the monsoon."
+    },
+    {
+      "q": "What is a sea walk?",
+      "a": "You walk on the seabed a few metres down wearing a helmet supplied with air from the surface, guided by a diver. It suits non-swimmers."
+    },
+    {
+      "q": "Are water sports safe in India?",
+      "a": "With licensed operators, proper life jackets and suitable weather, most are low risk. Avoid touts and rough seas."
+    },
+    {
+      "q": "Which water sports can non-swimmers try?",
+      "a": "Parasailing, sea walks, banana rides, glass-bottom boats and guided snorkelling with a life jacket."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa"
+    },
+    {
+      "label": "Goa travel guide",
+      "href": "/blog/goa-beaches-travel-guide"
+    },
+    {
+      "label": "Goa watersports",
+      "href": "/blog/goa-beaches-travel-guide#watersports"
+    },
+    {
+      "label": "Goa tour packages",
+      "href": "/packages/goa"
+    },
+    {
+      "label": "Andaman tour packages",
+      "href": "/packages/andaman-nicobar"
+    }
+  ],
+  "related": [
+    {
+      "name": "Kayaking in India",
+      "href": "/blog/kayaking-in-india",
+      "note": "calm-water paddling"
+    },
+    {
+      "name": "Surfing in India",
+      "href": "/blog/surfing-in-india",
+      "note": "surf towns and schools"
+    },
+    {
+      "name": "Snorkelling in India",
+      "href": "/blog/snorkeling-in-india",
+      "note": "reefs and lagoons"
+    },
+    {
+      "name": "Scuba diving in India",
+      "href": "/blog/scuba-diving-in-india",
+      "note": "dive sites and courses"
+    },
+    {
+      "name": "Beach travel in India",
+      "href": "/beach-travel",
+      "note": "every coast and beach guide"
+    },
+    {
+      "name": "Best beaches in Goa",
+      "href": "/blog/best-beaches-in-goa",
+      "note": "where Goa's water sports happen"
+    }
+  ],
+  "places": [
+    "Calangute",
+    "Baga",
+    "Candolim",
+    "North Bay Island",
+    "Havelock Island",
+    "Tarkarli",
+    "Malvan",
+    "Murudeshwar",
+    "Nagoa beach",
+    "Tehri Lake",
+    "Umiam Lake",
+    "Lakshadweep"
+  ],
+  "styles": [
+    "family-holidays",
+    "adventure-tours"
+  ],
+  "planDestination": "Goa",
+  "updated": "2026-09-25"
+}

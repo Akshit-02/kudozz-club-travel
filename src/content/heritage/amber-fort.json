@@ -1,0 +1,288 @@
+{
+  "slug": "amber-fort",
+  "kind": "destination",
+  "short": "Amber Fort",
+  "title": "Amber Fort (Amer Fort), Jaipur: History and Visiting Guide",
+  "seoTitle": "Amber Fort (Amer Fort), Jaipur: History & Visiting Guide | Kudozz Club",
+  "metaDescription": "Visit Amber (Amer) Fort near Jaipur: its history under Raja Man Singh, the palaces and Sheesh Mahal, getting up the hill, and Jaigarh and Nahargarh.",
+  "description": "A visitor's guide to Amber (Amer) Fort near Jaipur: commissioned by Raja Man Singh I in 1592 and expanded by later Kachhwaha rulers, part of the UNESCO Hill Forts of Rajasthan, with the Diwan-i-Aam, Ganesh Pol, Sheesh Mahal and zenana, ways up the hill, the evening show, Jaigarh and Nahargarh forts, and practical tips.",
+  "dek": "Amber Fort, on a ridge above Maota Lake, was the seat of the Kachhwaha rulers before they moved to Jaipur, and is one of Rajasthan's finest palace-forts.",
+  "primaryKeyword": "Amber Fort",
+  "secondaryKeywords": [
+    "Amer Fort",
+    "Amer Fort timings",
+    "Jaigarh Fort"
+  ],
+  "searchIntent": "Monument visit planning",
+  "activities": [
+    "forts",
+    "palaces",
+    "UNESCO sites",
+    "photography"
+  ],
+  "terrain": [
+    "hills",
+    "heritage town"
+  ],
+  "regions": [
+    "Rajasthan",
+    "North India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "monsoon"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Amber Fort",
+    "Amer",
+    "Jaipur",
+    "Rajput"
+  ],
+  "hero": {
+    "src": "/images/heritage/amber-fort-jaipur.webp",
+    "alt": "The garden courtyard and Jai Mandir palace inside Amber Fort, near Jaipur"
+  },
+  "parent": {
+    "label": "Forts of Rajasthan",
+    "href": "/blog/forts-of-rajasthan"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Amber Fort",
+    "containedIn": "Rajasthan"
+  },
+  "intro": [
+    "Amber (Amer) was the capital of the Kachhwaha Rajputs until Sawai Jai Singh II founded Jaipur in 1727. The palace-fort seen today was commissioned by Raja Man Singh I, a general at Akbar's court, in 1592, and expanded by later rulers including Mirza Raja Jai Singh I. It blends Rajput and Mughal design in pale yellow sandstone and white marble.",
+    "The fort sits about 11 km north of Jaipur, above Maota Lake, and is linked by walls and passages to Jaigarh Fort on the ridge above. Amber is one of the six Hill Forts of Rajasthan inscribed by UNESCO in 2013."
+  ],
+  "quickAnswer": "Amber (Amer) Fort is about 11 km from central Jaipur and is part of the UNESCO Hill Forts of Rajasthan. Commissioned by Raja Man Singh I in 1592, it includes the Diwan-i-Aam, Ganesh Pol, the mirrored Sheesh Mahal and the zenana. Walk up from the road or take a jeep; allow two to three hours, and combine it with Jaigarh and Nahargarh forts. October to March is the best time.",
+  "takeaways": [
+    "Amber is about 11 km north of central Jaipur.",
+    "It is one of the six UNESCO Hill Forts of Rajasthan.",
+    "The Sheesh Mahal, Ganesh Pol and Diwan-i-Aam are the highlights.",
+    "Arrive at opening time to beat tour groups and the heat.",
+    "Jaigarh and Nahargarh forts on the same ridge make a full day."
+  ],
+  "sections": [
+    {
+      "id": "what-to-see",
+      "heading": "What to see",
+      "items": [
+        {
+          "name": "Jaleb Chowk and the Suraj Pol",
+          "body": [
+            "The main courtyard, reached through the Sun Gate, where the royal troops once paraded."
+          ],
+          "image": {
+            "src": "/images/heritage/amber-fort-jaipur.webp",
+            "alt": "Amber Fort on its ridge above Maota Lake, near Jaipur",
+            "caption": "Amber Fort"
+          }
+        },
+        {
+          "name": "Diwan-i-Aam",
+          "body": [
+            "The pillared Hall of Public Audience."
+          ]
+        },
+        {
+          "name": "Ganesh Pol",
+          "body": [
+            "A painted gateway leading to the private palaces."
+          ]
+        },
+        {
+          "name": "Sheesh Mahal",
+          "body": [
+            "The Hall of Mirrors in the Jai Mandir, its walls and ceiling set with mirror mosaic."
+          ]
+        },
+        {
+          "name": "Sukh Niwas and the zenana",
+          "body": [
+            "Rooms cooled by water channels, and the courtyard palace of the royal women around a central pavilion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-up",
+      "heading": "Getting up the hill",
+      "list": [
+        "On foot: a cobbled path from the road below takes about 15 to 20 minutes.",
+        "By jeep: shared or private jeeps run from the road to the upper gate.",
+        "Elephant rides have been offered up the hill; welfare concerns have been widely raised, and many visitors now choose to walk or take a jeep."
+      ]
+    },
+    {
+      "id": "visiting",
+      "heading": "Visiting practicalities",
+      "list": [
+        "Open daily from morning to early evening; a light and sound show has run in the evenings.",
+        "Tickets at the fort or through Rajasthan's official ticketing; composite tickets have covered several Jaipur monuments.",
+        "Allow two to three hours, and hire a licensed guide at the official counter if you want the history.",
+        "Arrive at opening time; mid-morning brings the largest groups."
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Jaigarh, Nahargarh and Jaipur",
+      "items": [
+        {
+          "name": "Jaigarh and Nahargarh",
+          "body": [
+            "Jaigarh, above Amber, has ramparts and a large old cannon; Nahargarh overlooks Jaipur, best at sunset."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Jaipur",
+              "href": "/blog/things-to-do-in-jaipur"
+            }
+          ]
+        },
+        {
+          "name": "Jaipur city",
+          "body": [
+            "City Palace, Jantar Mantar and the Hawa Mahal in the UNESCO-listed walled city."
+          ],
+          "links": [
+            {
+              "label": "Jaipur guide",
+              "href": "/blog/jaipur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "Amber was the Kachhwaha capital from the 11th century, long before the present palace. Raja Man Singh I, one of Akbar's leading generals, began the palace-fort in 1592, and it grew under his successors, especially Mirza Raja Jai Singh I in the 17th century. When Sawai Jai Singh II founded Jaipur in 1727, the court moved to the plains, and Amber became a ceremonial and religious centre, with the Shila Devi temple inside the fort still in worship."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "Best time and a suggested day",
+      "table": {
+        "columns": [
+          "Time",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "8 to 11 am",
+            "Amber Fort, including the Sheesh Mahal"
+          ],
+          [
+            "11 am to 1 pm",
+            "Jaigarh Fort"
+          ],
+          [
+            "Afternoon",
+            "Lunch, then the Jal Mahal viewpoint by Man Sagar"
+          ],
+          [
+            "Sunset",
+            "Nahargarh Fort"
+          ]
+        ]
+      },
+      "after": [
+        "October to March is best. The monsoon turns the hills green; summer afternoons are very hot."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and ticket rules are set by the ASI, state archaeology departments or site trusts and change from time to time; check the official website before you go.",
+    "Do not climb on or touch carvings, and follow the site's rules on photography, drones and tripods.",
+    "Carry water and a hat; many sites have little shade, and Indian summers are hot.",
+    "Hold the railings on steep stairs and uneven ramparts."
+  ],
+  "packing": [
+    "Comfortable shoes for cobbles and stairs",
+    "Hat and water",
+    "Photo ID",
+    "Light layers in winter"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Amber Fort from Jaipur?",
+      "a": "About 11 km from the city centre, around 30 minutes by road."
+    },
+    {
+      "q": "Who built Amber Fort?",
+      "a": "It was commissioned by Raja Man Singh I in 1592 and expanded by later Kachhwaha rulers."
+    },
+    {
+      "q": "How long do I need at Amber Fort?",
+      "a": "About two to three hours; a full day with Jaigarh and Nahargarh."
+    },
+    {
+      "q": "Is Amber Fort a UNESCO site?",
+      "a": "Yes, as one of the Hill Forts of Rajasthan, inscribed in 2013."
+    },
+    {
+      "q": "What is the Sheesh Mahal?",
+      "a": "The Hall of Mirrors in the Jai Mandir, decorated with mirror mosaic."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Jaipur guide",
+      "href": "/blog/jaipur-travel-guide"
+    },
+    {
+      "label": "Things to do in Jaipur",
+      "href": "/blog/things-to-do-in-jaipur"
+    },
+    {
+      "label": "Golden Triangle itinerary",
+      "href": "/blog/golden-triangle-itinerary"
+    },
+    {
+      "label": "Rajasthan tour packages",
+      "href": "/packages/rajasthan"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Forts of Rajasthan",
+      "href": "/blog/forts-of-rajasthan",
+      "note": "the six UNESCO hill forts"
+    },
+    {
+      "name": "Mehrangarh Fort",
+      "href": "/blog/mehrangarh-fort",
+      "note": "Jodhpur's great fort"
+    },
+    {
+      "name": "Palaces in India",
+      "href": "/blog/palaces-in-india",
+      "note": "royal heritage"
+    }
+  ],
+  "places": [
+    "Amber Fort",
+    "Maota Lake",
+    "Jaigarh Fort",
+    "Nahargarh Fort",
+    "Jaipur"
+  ],
+  "styles": [
+    "heritage-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Jaipur",
+  "updated": "2026-09-26"
+}

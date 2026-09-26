@@ -1,0 +1,346 @@
+{
+  "slug": "best-time-for-beach-holidays-in-india",
+  "kind": "planning",
+  "short": "Best time for beach holidays",
+  "title": "Best Time for Beach Holidays in India, Month by Month",
+  "seoTitle": "Best Time for Beach Holidays in India, Month by Month | Kudozz Club",
+  "metaDescription": "When to go to which beach in India, month by month: the west coast and islands from November to March, the east coast after its monsoon, and where to go in summer.",
+  "description": "A month-by-month guide to beach holidays in India: when the west coast, the east coast, the Andamans and Lakshadweep are at their best, what the south-west and north-east monsoons mean for swimming, where to go in December, January and February, summer beach options, turtle seasons and festivals.",
+  "dek": "India has two monsoons, and they hit its coasts at different times. Here is where the beach weather is good in each month.",
+  "primaryKeyword": "best time for beach holidays in India",
+  "secondaryKeywords": [
+    "best beaches to visit in December",
+    "beaches to visit in January in India",
+    "monsoon beach destinations India",
+    "summer beach holidays India",
+    "winter beach destinations India"
+  ],
+  "searchIntent": "When to go to which coast",
+  "activities": [
+    "beaches",
+    "turtle watching",
+    "festivals"
+  ],
+  "terrain": [
+    "beaches",
+    "coast",
+    "islands"
+  ],
+  "regions": [
+    "India",
+    "West coast",
+    "East coast",
+    "Islands"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer",
+    "monsoon",
+    "autumn"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "friends",
+    "solo"
+  ],
+  "tags": [
+    "Best Time",
+    "Beach Season",
+    "Monsoon",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/beach/beach-season-india-palolem.webp",
+    "alt": "Palolem beach, south Goa",
+    "caption": "Palolem"
+  },
+  "parent": {
+    "label": "Beach Holidays in India",
+    "href": "/blog/beach-holidays-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Beach seasons in India"
+  },
+  "intro": [
+    "The south-west monsoon, from about June to September, brings rough seas and heavy rain to the west coast, closing beaches to swimming from Gujarat to Kerala and disrupting the islands. The east coast gets some of that rain, but its main wet season is the north-east monsoon, from about October to December, which also brings the highest cyclone risk.",
+    "The result is a broad rule: November to March is best almost everywhere, with the east coast at its best from December. This guide breaks the year down month by month."
+  ],
+  "quickAnswer": "The best time for a beach holiday in India is November to March. The west coast (Goa, Kerala, Karnataka, the Konkan) and the Andaman and Lakshadweep islands are best from November to February, and the east coast (Tamil Nadu, Puducherry, Andhra, Odisha) from December to March. From June to September, the monsoon closes most beaches to swimming. In April and May, early mornings on the islands and Goa still work.",
+  "takeaways": [
+    "November to March is the best beach season in most of India.",
+    "December and January are peak season: best weather, highest prices and crowds.",
+    "The west coast and islands are rough and closed to swimming from about June to September.",
+    "The east coast's wettest months, with cyclone risk, are about October to December.",
+    "April and May are hot but workable for the islands and early-morning beach time."
+  ],
+  "sections": [
+    {
+      "id": "months",
+      "heading": "Month by month",
+      "table": {
+        "columns": [
+          "Month",
+          "Best beaches",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "January",
+            "Goa, Kerala, Andamans, Lakshadweep, Gokarna, Pondicherry, Puri",
+            "Peak season; cool mornings on the east coast"
+          ],
+          [
+            "February",
+            "Everywhere; Velas turtles begin; Rushikulya nesting",
+            "Great weather, fewer crowds than January"
+          ],
+          [
+            "March",
+            "Andamans, Lakshadweep, Goa, Konkan, east coast",
+            "Getting warmer; good value"
+          ],
+          [
+            "April",
+            "Andamans, Lakshadweep, Goa early mornings",
+            "Hot and humid on the mainland"
+          ],
+          [
+            "May",
+            "Andamans (early May), Lakshadweep",
+            "Pre-monsoon; sea can turn rough late in the month"
+          ],
+          [
+            "June",
+            "None for swimming",
+            "South-west monsoon arrives; bans on the west coast"
+          ],
+          [
+            "July",
+            "None for swimming",
+            "Peak monsoon; the coast is green; good for backwaters and Ayurveda"
+          ],
+          [
+            "August",
+            "None for swimming",
+            "Monsoon continues"
+          ],
+          [
+            "September",
+            "Late in the month, Goa and Kerala begin to reopen",
+            "Rain eases; water sports resume after the ban"
+          ],
+          [
+            "October",
+            "West coast and islands reopening",
+            "Shacks and boats restart; east coast gets the north-east monsoon"
+          ],
+          [
+            "November",
+            "Goa, Kerala, Karnataka, Andamans, Lakshadweep",
+            "Excellent; watch for east-coast cyclones"
+          ],
+          [
+            "December",
+            "West coast, islands; east coast from mid-month",
+            "Peak season around Christmas and New Year"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "coasts",
+      "heading": "By coast",
+      "table": {
+        "columns": [
+          "Coast",
+          "Best months",
+          "Avoid"
+        ],
+        "rows": [
+          [
+            "Goa and the Konkan",
+            "November to February",
+            "June to September"
+          ],
+          [
+            "Karnataka and Kerala",
+            "November to March",
+            "June to August"
+          ],
+          [
+            "Andaman Islands",
+            "November to April",
+            "June to September"
+          ],
+          [
+            "Lakshadweep",
+            "October to May",
+            "June to September"
+          ],
+          [
+            "Tamil Nadu and Puducherry",
+            "December to March",
+            "October to December (north-east monsoon)"
+          ],
+          [
+            "Andhra Pradesh and Odisha",
+            "October to February, watching for cyclones",
+            "June to September; cyclone alerts"
+          ],
+          [
+            "West Bengal",
+            "October to March",
+            "June to September"
+          ],
+          [
+            "Gujarat, Diu and Daman",
+            "October to March",
+            "April to June heat; monsoon"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "winter",
+      "heading": "December, January and February",
+      "paras": [
+        "These are India's peak beach months. The weather is dry and pleasant on almost every coast, the sea is calm on the west coast and around the islands, and shacks, water sports and boats are all running. Christmas and New Year are the busiest and most expensive weeks, especially in Goa and the Andamans; February is quieter with the same weather."
+      ],
+      "items": [
+        {
+          "name": "Best picks",
+          "body": [
+            "Goa, the Andamans, Kerala, Gokarna, Pondicherry, Puri, and Diu."
+          ],
+          "links": [
+            {
+              "label": "Best beach destinations in India",
+              "href": "/blog/best-beach-destinations-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "summer",
+      "heading": "Summer (April to June)",
+      "paras": [
+        "The mainland coast is hot and humid. The Andamans and Lakshadweep stay attractive until the monsoon, and early mornings and evenings in Goa and the Konkan are pleasant. Many Indians head to the hills instead; if you want the beach, the islands are the best choice."
+      ]
+    },
+    {
+      "id": "monsoon",
+      "heading": "Monsoon (June to September)",
+      "paras": [
+        "The sea is rough and dangerous on the west coast, and states such as Goa ban sea swimming and water sports. Drownings rise every monsoon. The coast is lush, though, and the season suits backwater cruises, Ayurveda in Kerala, coastal drives and waterfalls inland.",
+        "Monsoon-season prices are the lowest of the year. If you go, enjoy the beach from the sand, not the sea."
+      ],
+      "items": [
+        {
+          "name": "Monsoon coastal ideas",
+          "body": [
+            "Kerala's backwaters and Ayurveda, the green Konkan coast, and coastal food trails."
+          ],
+          "links": [
+            {
+              "label": "Coastal tourism in India",
+              "href": "/blog/coastal-tourism-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "heading": "Seasonal events on the coast",
+      "list": [
+        "Turtle nesting and hatching: Rushikulya (Odisha) usually February and March; Velas (Maharashtra) hatchlings about February to April; Goa's nesting beaches from about November.",
+        "Goa Carnival before Lent, usually in February or March.",
+        "Konark Dance Festival and sand art at Chandrabhaga, usually in early December.",
+        "Rann Utsav in Kutch through winter, which combines with Mandvi's beach.",
+        "Gangasagar Mela around Makar Sankranti in mid-January."
+      ]
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Respect monsoon bans on swimming and water sports.",
+    "Check cyclone warnings on the east coast from October to December and in May.",
+    "Protect yourself from heat and sun in April and May."
+  ],
+  "faqs": [
+    {
+      "q": "What is the best time for a beach holiday in India?",
+      "a": "November to March for most of the coast and the islands."
+    },
+    {
+      "q": "Which beaches are good in December in India?",
+      "a": "Goa, Kerala, Karnataka, the Andamans, Lakshadweep and, from mid-December, Pondicherry and the east coast."
+    },
+    {
+      "q": "Can I visit beaches in India in the monsoon?",
+      "a": "You can visit, but sea swimming and water sports are banned on most of the west coast from about June to September."
+    },
+    {
+      "q": "Which beaches are good in summer?",
+      "a": "The Andamans and Lakshadweep until the monsoon; early mornings in Goa and the Konkan."
+    },
+    {
+      "q": "When is the east coast best for beaches?",
+      "a": "From about December to March, after the north-east monsoon."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Beach holidays in India",
+      "href": "/blog/beach-holidays-in-india"
+    },
+    {
+      "label": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa"
+    },
+    {
+      "label": "Goa travel guide",
+      "href": "/blog/goa-beaches-travel-guide"
+    },
+    {
+      "label": "Goa tour packages",
+      "href": "/packages/goa"
+    }
+  ],
+  "related": [
+    {
+      "name": "Beach safety in India",
+      "href": "/blog/beach-safety-in-india",
+      "note": "monsoon bans and flags"
+    },
+    {
+      "name": "Best time for adventure travel in India",
+      "href": "/blog/best-time-for-adventure-travel-in-india",
+      "note": "diving and surfing seasons"
+    },
+    {
+      "name": "Best beach destinations in India",
+      "href": "/blog/best-beach-destinations-in-india",
+      "note": "where to go"
+    }
+  ],
+  "places": [
+    "Goa",
+    "Kerala",
+    "Andaman Islands",
+    "Lakshadweep",
+    "Pondicherry",
+    "Puri",
+    "Velas",
+    "Rushikulya"
+  ],
+  "styles": [
+    "family-holidays",
+    "honeymoon"
+  ],
+  "updated": "2026-09-25"
+}

@@ -1,0 +1,356 @@
+{
+  "slug": "wildlife-tourism-in-west-bengal",
+  "kind": "state",
+  "short": "Wildlife in West Bengal",
+  "title": "Wildlife Tourism in West Bengal: Sundarbans and the Dooars",
+  "seoTitle": "Wildlife Tourism in West Bengal: Sundarbans & Dooars | Kudozz Club",
+  "metaDescription": "Plan a wildlife trip in West Bengal: Sundarbans boat safaris, the Dooars parks of Jaldapara, Gorumara and Buxa, and red pandas in Singalila and Neora Valley.",
+  "description": "A guide to wildlife tourism in West Bengal: boat safaris and watchtowers in the Sundarbans, the Dooars parks of Jaldapara, Gorumara, Chapramari and Buxa with rhinos, elephants and gaur, and the Himalayan forests of Singalila and Neora Valley with red pandas, plus permits, seasons and routes.",
+  "dek": "West Bengal runs from the mangroves of the Sundarbans to the Himalaya. Here is how to see its tigers, rhinos, elephants and red pandas.",
+  "primaryKeyword": "wildlife tourism in West Bengal",
+  "secondaryKeywords": [
+    "wildlife sanctuaries in West Bengal",
+    "national parks in West Bengal",
+    "West Bengal safari",
+    "wildlife in West Bengal"
+  ],
+  "searchIntent": "State-level wildlife planning",
+  "activities": [
+    "boat safari",
+    "jeep safari",
+    "birdwatching",
+    "trekking"
+  ],
+  "terrain": [
+    "mangrove",
+    "forest",
+    "grassland",
+    "mountains"
+  ],
+  "regions": [
+    "West Bengal",
+    "East India"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "West Bengal",
+    "Sundarbans",
+    "Dooars",
+    "Red Panda"
+  ],
+  "hero": {
+    "src": "/images/wildlife/west-bengal-wildlife-sundarbans.webp",
+    "alt": "Mangrove forest on a muddy riverbank in Sundarban Tiger Reserve"
+  },
+  "parent": {
+    "label": "Wildlife Tourism",
+    "href": "/wildlife-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Wildlife of West Bengal",
+    "containedIn": "West Bengal"
+  },
+  "intro": [
+    "The Sundarbans, shared with Bangladesh, is the world's largest mangrove forest and a UNESCO World Heritage Site. Its tigers live among tidal channels and swim between islands, and the forest is explored only by boat.",
+    "In the north, the Dooars at the foot of the Himalaya hold grassland and forest parks with rhinos, elephants and gaur. Higher still, Singalila and Neora Valley national parks are among the best places in India for red pandas."
+  ],
+  "quickAnswer": "West Bengal's main wildlife destinations are the Sundarbans, explored by boat with stops at watchtowers such as Sajnekhali, Sudhanyakhali and Dobanki; the Dooars parks of Jaldapara and Gorumara for rhinos, elephants and gaur; Buxa Tiger Reserve; and Singalila and Neora Valley for red pandas. The Sundarbans is best from October to March; the Dooars parks close from mid-June to mid-September.",
+  "takeaways": [
+    "The Sundarbans is the world's largest mangrove forest and is seen only by boat.",
+    "Tigers are rarely seen in the Sundarbans; the forest and rivers are the experience.",
+    "Jaldapara has India's second-largest rhino population.",
+    "Dooars parks close from about mid-June to mid-September.",
+    "Singalila and Neora Valley are the places for red pandas."
+  ],
+  "sections": [
+    {
+      "id": "places",
+      "heading": "Wildlife places in West Bengal",
+      "table": {
+        "columns": [
+          "Place",
+          "Status",
+          "Known for",
+          "Gateway"
+        ],
+        "rows": [
+          [
+            "Sundarbans",
+            "National park, tiger reserve, UNESCO site",
+            "Mangroves, tigers, crocodiles, birds",
+            "Kolkata, Godkhali"
+          ],
+          [
+            "Jaldapara",
+            "National park",
+            "Rhinos, elephants",
+            "Alipurduar, Madarihat"
+          ],
+          [
+            "Gorumara",
+            "National park",
+            "Rhinos, gaur, watchtowers",
+            "Lataguri"
+          ],
+          [
+            "Chapramari",
+            "Wildlife sanctuary",
+            "Elephants, gaur",
+            "Lataguri"
+          ],
+          [
+            "Buxa",
+            "Tiger reserve",
+            "Forest, fort, birds",
+            "Alipurduar"
+          ],
+          [
+            "Singalila",
+            "National park",
+            "Red pandas, Himalayan views",
+            "Darjeeling, Manebhanjan"
+          ],
+          [
+            "Neora Valley",
+            "National park",
+            "Red pandas, dense forest",
+            "Lava, Kalimpong"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sundarbans",
+      "heading": "The Sundarbans",
+      "items": [
+        {
+          "name": "Boat safaris",
+          "body": [
+            "Day and overnight boat trips run from Godkhali and Sonakhali, about three hours from Kolkata, with stops at fenced watchtowers such as Sajnekhali, Sudhanyakhali, Dobanki (with a canopy walk) and Netidhopani. Permits are issued by the forest department."
+          ],
+          "links": [
+            {
+              "label": "Sundarbans guide",
+              "href": "/blog/sundarbans-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/sundarbans/tourist-boat-mangrove-forest-sundarbans-national-park.webp",
+            "alt": "A tourist boat on a channel beside the mangrove forest of Sundarbans National Park",
+            "caption": "A boat safari in the Sundarbans"
+          }
+        },
+        {
+          "name": "Wildlife",
+          "body": [
+            "Saltwater crocodiles, spotted deer, rhesus macaques, water monitors, kingfishers and waders are seen often; tigers rarely."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dooars",
+      "heading": "The Dooars",
+      "items": [
+        {
+          "name": "Jaldapara",
+          "body": [
+            "Grassland and forest with rhinos, elephants and gaur, seen on jeep and elephant safaris."
+          ],
+          "links": [
+            {
+              "label": "Dooars guide",
+              "href": "/blog/dooars-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/dooars/wild-elephant-forest-jaldapara-dooars.webp",
+            "alt": "A wild elephant in forest in Jaldapara, the Dooars",
+            "caption": "A wild elephant in Jaldapara"
+          }
+        },
+        {
+          "name": "Gorumara and Chapramari",
+          "body": [
+            "Smaller parks near Lataguri with watchtowers overlooking salt licks and water."
+          ]
+        },
+        {
+          "name": "Buxa",
+          "body": [
+            "A tiger reserve on the Bhutan border with Buxa Fort and forest treks."
+          ],
+          "links": [
+            {
+              "label": "Buxa guide",
+              "href": "/blog/buxa-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hills",
+      "heading": "Red pandas in the hills",
+      "paras": [
+        "Red pandas live in the temperate forests of Singalila National Park, on the Sandakphu trekking route, and Neora Valley National Park near Lava. They are shy and usually seen high in trees in the early morning; winter and spring give the best chances with a local guide."
+      ],
+      "after": [
+        "The Darjeeling Himalayan Zoological Park runs a red panda breeding programme."
+      ]
+    },
+    {
+      "id": "permits",
+      "heading": "Permits and planning",
+      "list": [
+        "Sundarbans entry permits are issued by the forest department; tour operators and boat lodges usually arrange them.",
+        "Carry original ID; foreign nationals need their passport.",
+        "Book Dooars safaris early for the Durga Puja and winter holidays, when Kolkata families travel north.",
+        "Singalila is entered from Manebhanjan with a registered guide, usually on the Sandakphu trek."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Choose a boat with a trained naturalist in the Sundarbans; they know where to look for crocodiles and birds.",
+        "In the Dooars, spend an afternoon at a watchtower rather than only driving.",
+        "Carry warm clothes for Singalila and Neora Valley even in spring."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "table": {
+        "columns": [
+          "Months",
+          "What to expect"
+        ],
+        "rows": [
+          [
+            "October to March",
+            "Best for the Sundarbans and the Dooars"
+          ],
+          [
+            "March to May",
+            "Rhododendrons and red pandas in Singalila; Dooars open until mid-June"
+          ],
+          [
+            "June to September",
+            "Dooars parks closed; Sundarbans hot and wet"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stay",
+      "heading": "Where to stay and how long",
+      "paras": [
+        "In the Sundarbans, most visitors stay at lodges in Pakhiralaya or Gosaba, or on boats. Lataguri has resorts for Gorumara and Chapramari; Madarihat for Jaldapara. Two nights suit the Sundarbans; three or four nights cover the Dooars parks. Add a trek to Sandakphu for Singalila."
+      ]
+    }
+  ],
+  "safety": [
+    "Sightings are never guaranteed; plan several drives and enjoy the landscape itself.",
+    "Stay in the vehicle or boat and follow your guide.",
+    "Book permits only through official forest department portals or trusted operators.",
+    "Never feed animals or leave litter in a park.",
+    "Never step off the boat in the Sundarbans except at fenced watchtowers."
+  ],
+  "packing": [
+    "Hat, sunscreen and water for boats",
+    "Warm layers for the hills",
+    "Binoculars",
+    "Insect repellent"
+  ],
+  "faqs": [
+    {
+      "q": "Can I see tigers in the Sundarbans?",
+      "a": "Tigers live there but are rarely seen. Most visitors see crocodiles, deer, monkeys and birds."
+    },
+    {
+      "q": "How do I reach the Sundarbans?",
+      "a": "By road from Kolkata to Godkhali or Sonakhali (about three hours), then by boat."
+    },
+    {
+      "q": "When are the Dooars parks closed?",
+      "a": "From about mid-June to mid-September for the monsoon."
+    },
+    {
+      "q": "Where can I see red pandas in West Bengal?",
+      "a": "In Singalila and Neora Valley national parks."
+    },
+    {
+      "q": "How many days do I need for the Sundarbans?",
+      "a": "Two days and one night is the usual minimum; three days lets you reach farther watchtowers."
+    },
+    {
+      "q": "Are there rhinos in West Bengal?",
+      "a": "Yes, in Jaldapara and Gorumara national parks."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Sundarbans guide",
+      "href": "/blog/sundarbans-travel-guide"
+    },
+    {
+      "label": "Things to do in Sundarbans",
+      "href": "/blog/things-to-do-in-sundarbans"
+    },
+    {
+      "label": "West Bengal travel guide",
+      "href": "/blog/west-bengal-travel-guide"
+    },
+    {
+      "label": "West Bengal tour packages",
+      "href": "/packages/west-bengal"
+    },
+    {
+      "label": "Wildlife trips",
+      "href": "/packages/wildlife-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Where to see rhinos",
+      "href": "/blog/where-to-see-rhinos-in-india",
+      "note": "Jaldapara and Gorumara"
+    },
+    {
+      "name": "Best wildlife safaris",
+      "href": "/blog/best-wildlife-safaris-in-india",
+      "note": "boat safaris"
+    },
+    {
+      "name": "Things to do in Darjeeling",
+      "href": "/blog/things-to-do-in-darjeeling",
+      "note": "the hills"
+    }
+  ],
+  "places": [
+    "Sundarbans",
+    "Sajnekhali",
+    "Jaldapara",
+    "Gorumara",
+    "Chapramari",
+    "Buxa",
+    "Singalila",
+    "Neora Valley"
+  ],
+  "styles": [
+    "wildlife-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Sundarbans",
+  "updated": "2026-09-25"
+}

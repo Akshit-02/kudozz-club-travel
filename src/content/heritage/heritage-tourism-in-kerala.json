@@ -1,0 +1,299 @@
+{
+  "slug": "heritage-tourism-in-kerala",
+  "kind": "state",
+  "short": "Heritage tourism in Kerala",
+  "title": "Heritage Tourism in Kerala: Kochi, Palaces and Performing Arts",
+  "seoTitle": "Heritage Tourism in Kerala: Kochi, Muziris & the Arts | Kudozz Club",
+  "metaDescription": "Kerala's heritage: Fort Kochi and Mattancherry, the Muziris Heritage Project, palaces, forts, Kathakali, Kutiyattam, Theyyam, temple festivals and handloom.",
+  "description": "A guide to heritage tourism in Kerala: Fort Kochi and Mattancherry, the Muziris Heritage Project around Kodungallur, Padmanabhapuram and Kuthiramalika palaces, Bekal and Thalassery forts, the art forms of Kathakali, Kutiyattam, Mohiniyattam and Theyyam, Kerala Kalamandalam, temple festivals such as Thrissur Pooram, snake-boat races, and crafts from Aranmula mirrors to kasavu handloom.",
+  "dek": "Kerala's heritage lives as much in its performance traditions, festivals and crafts as in its palaces, synagogues, churches and forts.",
+  "primaryKeyword": "heritage places in Kerala",
+  "secondaryKeywords": [
+    "historical places in Kerala",
+    "monuments in Kerala",
+    "Kerala heritage tour"
+  ],
+  "searchIntent": "State discovery/planning",
+  "activities": [
+    "monuments",
+    "UNESCO sites",
+    "crafts",
+    "heritage walks"
+  ],
+  "terrain": [
+    "varied"
+  ],
+  "regions": [
+    "Kerala"
+  ],
+  "seasons": [
+    "winter",
+    "monsoon"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "history lovers"
+  ],
+  "tags": [
+    "Kerala",
+    "Heritage",
+    "Kochi",
+    "Kathakali",
+    "Theyyam"
+  ],
+  "hero": {
+    "src": "/images/heritage/heritage-kerala-mattancherry-palace.webp",
+    "alt": "The Mattancherry Palace (Dutch Palace) in Kochi, Kerala"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Heritage of Kerala",
+    "containedIn": "Kerala"
+  },
+  "intro": [
+    "Kerala's coast has traded with the wider world for more than two thousand years. Roman, Arab, Chinese, Jewish, Portuguese, Dutch and British traders came for pepper and spices, and the ancient port of Muziris, near today's Kodungallur, is described in classical sources. Kerala's own kingdoms, such as those of the Zamorins of Kozhikode, Kochi and Travancore, built palaces and temples in a style suited to heavy rain.",
+    "Kerala has no cultural World Heritage Site, but UNESCO recognises two of its performance traditions as Intangible Cultural Heritage: Kutiyattam (2008) and Mudiyettu (2010). Its living arts are often the best reason to visit."
+  ],
+  "quickAnswer": "Kerala's heritage highlights are Fort Kochi and Mattancherry (the Mattancherry Palace, Paradesi Synagogue and St Francis Church), the Muziris Heritage Project, Padmanabhapuram and Kuthiramalika palaces, Bekal Fort, and living arts such as Kathakali, Kutiyattam and Theyyam. Add temple festivals, snake-boat races and handloom. October to March is the best season, and December to March for Theyyam.",
+  "takeaways": [
+    "Kerala's heritage is strongest in its living arts: Kathakali, Kutiyattam, Mohiniyattam and Theyyam.",
+    "Kochi is the best place to start, with layers of Kerala, Jewish, Portuguese, Dutch and British history.",
+    "The Muziris Heritage Project links sites around Kodungallur and Paravur.",
+    "UNESCO recognises Kutiyattam and Mudiyettu as Intangible Cultural Heritage.",
+    "Some temples, such as Padmanabhaswamy, admit only Hindus."
+  ],
+  "sections": [
+    {
+      "id": "kochi",
+      "heading": "Kochi",
+      "items": [
+        {
+          "name": "Fort Kochi and Mattancherry",
+          "body": [
+            "St Francis Church, where Vasco da Gama was first buried; the Chinese fishing nets; the Mattancherry Palace with its murals; and the Paradesi Synagogue, founded in 1568, in Jew Town."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Kochi",
+              "href": "/blog/things-to-do-in-kochi"
+            },
+            {
+              "label": "Kochi guide",
+              "href": "/blog/kochi-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/kerala/kochi/paradesi-synagogue-jew-town-kochi.webp",
+            "alt": "The Paradesi Synagogue in Jew Town, Kochi",
+            "caption": "Paradesi Synagogue, Kochi"
+          }
+        },
+        {
+          "name": "Kochi-Muziris Biennale",
+          "body": [
+            "A contemporary art festival held in old warehouses and heritage buildings, usually from December to March in its festival years."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muziris",
+      "heading": "The Muziris Heritage Project",
+      "paras": [
+        "North of Kochi, around Kodungallur and North Paravur, the Muziris Heritage Project links museums, synagogues, churches, temples, a palace and excavations at Pattanam, which many archaeologists associate with ancient Muziris. The Cheraman Juma Masjid at Kodungallur is traditionally regarded as one of the oldest mosques in India. The sites are best explored by road or on the project's boat routes."
+      ]
+    },
+    {
+      "id": "palaces",
+      "heading": "Palaces and forts",
+      "list": [
+        "Padmanabhapuram Palace, the wooden palace of the Travancore rulers, now in Tamil Nadu but managed by Kerala.",
+        "Kuthiramalika Palace and the Napier Museum in Thiruvananthapuram.",
+        "Bekal Fort on the northern coast.",
+        "Thalassery fort and St Angelo Fort in Kannur."
+      ],
+      "items": [
+        {
+          "name": "North Kerala",
+          "body": [
+            "Forts and Theyyam country."
+          ],
+          "links": [
+            {
+              "label": "Bekal guide",
+              "href": "/blog/bekal-travel-guide"
+            },
+            {
+              "label": "Kannur guide",
+              "href": "/blog/kannur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arts",
+      "heading": "Living arts",
+      "list": [
+        "Kathakali: short performances for visitors in Kochi most evenings.",
+        "Kutiyattam: ancient Sanskrit theatre, performed in temple theatres (koothambalams) and some cultural centres.",
+        "Mohiniyattam: Kerala's graceful solo dance.",
+        "Theyyam: ritual performances in north Kerala, mainly from December to March.",
+        "Kerala Kalamandalam at Cheruthuruthy, near Thrissur, a leading school for Kerala's arts."
+      ],
+      "items": [
+        {
+          "name": "Performance",
+          "body": [
+            "More on dance and music."
+          ],
+          "links": [
+            {
+              "label": "Classical dance and music",
+              "href": "/blog/classical-dance-and-music-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "festivals",
+      "heading": "Festivals and crafts",
+      "list": [
+        "Thrissur Pooram in April or May, with caparisoned elephants and percussion.",
+        "Onam in August or September, and the snake-boat races on the backwaters.",
+        "Aranmula metal mirrors, a GI-tagged craft.",
+        "Kasavu handloom from Balaramapuram and Kuthampully.",
+        "Coir and screw-pine weaving."
+      ],
+      "items": [
+        {
+          "name": "Backwaters",
+          "body": [
+            "Boat races and the backwaters."
+          ],
+          "links": [
+            {
+              "label": "Kerala backwaters guide",
+              "href": "/blog/kerala-backwaters-travel-guide"
+            },
+            {
+              "label": "Alappuzha guide",
+              "href": "/blog/alappuzha-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A short history",
+      "paras": [
+        "The Chera kingdom ruled much of the region in the early centuries CE, trading pepper with Rome. Later, the Zamorins of Kozhikode, the Rajas of Kochi and the kings of Travancore were the main powers. Vasco da Gama landed near Kozhikode in 1498, opening a sea route for Portuguese trade; the Dutch and then the British followed. Kochi and Travancore remained princely states until 1949, and the state of Kerala was formed in 1956."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "October to March: the most comfortable season.",
+        "December to March: Theyyam season in north Kerala.",
+        "August or September: Onam and the boat races.",
+        "June to September: the monsoon, when many Ayurveda centres are busiest."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, weekly closures and tickets change; check the ASI, state tourism or the site before you go.",
+    "Living temples, mosques and shrines set their own rules on dress, entry and photography; follow what is posted."
+  ],
+  "packing": [
+    "Comfortable walking shoes",
+    "Scarf or shawl for places of worship",
+    "Hat, sunscreen and water",
+    "Photo ID for tickets"
+  ],
+  "faqs": [
+    {
+      "q": "Does Kerala have a UNESCO World Heritage Site?",
+      "a": "It has no cultural World Heritage Site; parts of the Western Ghats (natural) are listed, and Kutiyattam and Mudiyettu are recognised as Intangible Cultural Heritage."
+    },
+    {
+      "q": "Where can I watch Kathakali in Kerala?",
+      "a": "In Kochi, where short performances are held most evenings, and at Kerala Kalamandalam near Thrissur."
+    },
+    {
+      "q": "When is Theyyam season?",
+      "a": "Mainly from December to March, in north Kerala around Kannur and Kasaragod."
+    },
+    {
+      "q": "What is the Muziris Heritage Project?",
+      "a": "A group of museums and historic sites around Kodungallur and Paravur linked to the ancient port of Muziris."
+    },
+    {
+      "q": "When is the best time to visit?",
+      "a": "October to March."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Kochi",
+      "href": "/blog/things-to-do-in-kochi"
+    },
+    {
+      "label": "Classical dance and music",
+      "href": "/blog/classical-dance-and-music-in-india"
+    },
+    {
+      "label": "Colonial-era heritage",
+      "href": "/blog/colonial-heritage-in-india"
+    },
+    {
+      "label": "Kerala tour packages",
+      "href": "/packages/kerala"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Spiritual tourism in Kerala",
+      "href": "/blog/spiritual-tourism-in-kerala",
+      "note": "temples and pilgrimages"
+    },
+    {
+      "name": "Cultural festivals in India",
+      "href": "/blog/cultural-festivals-in-india",
+      "note": "Onam and Pooram"
+    },
+    {
+      "name": "Palaces in India",
+      "href": "/blog/palaces-in-india",
+      "note": "Kerala's wooden palaces"
+    }
+  ],
+  "places": [
+    "Kochi",
+    "Mattancherry",
+    "Kodungallur",
+    "North Paravur",
+    "Thiruvananthapuram",
+    "Padmanabhapuram",
+    "Bekal",
+    "Kannur",
+    "Thrissur",
+    "Cheruthuruthy"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "Kerala",
+  "updated": "2026-09-26"
+}

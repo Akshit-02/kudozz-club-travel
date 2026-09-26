@@ -1,0 +1,392 @@
+{
+  "slug": "surfing-in-india",
+  "kind": "activity",
+  "short": "Surfing in India",
+  "title": "Surfing in India: Surf Towns, Schools and Seasons",
+  "seoTitle": "Surfing in India: Surf Towns, Schools & Seasons | Kudozz Club",
+  "metaDescription": "Where to surf in India: Mulki, Kovalam near Chennai, Puducherry, Varkala, Kovalam in Kerala, Gokarna and Goa, with surf seasons, beginner lessons and ocean safety.",
+  "description": "A guide to surfing in India: the surf towns of Mulki in Karnataka, Kovalam and Mahabalipuram near Chennai, Puducherry, Varkala and Kovalam in Kerala, Gokarna and north Goa, with the surf season on each coast, how beginner lessons work and how to stay safe in the waves.",
+  "dek": "India's surf scene is young and friendly, with small, beginner-friendly waves and a handful of surf schools. Here is where to learn and when the waves are best.",
+  "primaryKeyword": "surfing in India",
+  "secondaryKeywords": [
+    "surfing in Mulki",
+    "Kovalam surfing",
+    "Varkala surfing",
+    "surf schools India",
+    "best surf spots in India"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "surfing",
+    "stand-up paddling"
+  ],
+  "terrain": [
+    "sea",
+    "beaches"
+  ],
+  "regions": [
+    "Karnataka",
+    "Tamil Nadu",
+    "Puducherry",
+    "Kerala",
+    "Goa"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "beginners",
+    "friends",
+    "solo",
+    "couples"
+  ],
+  "tags": [
+    "Surfing",
+    "Karnataka",
+    "Kerala",
+    "Tamil Nadu"
+  ],
+  "hero": {
+    "src": "/images/adventure/surfing-india-coast.webp",
+    "alt": "Waves breaking on Covelong beach near Chennai, with a fishing boat on the sand",
+    "caption": "Covelong, Tamil Nadu"
+  },
+  "parent": {
+    "label": "Water Sports in India",
+    "href": "/blog/water-sports-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Surfing in India"
+  },
+  "intro": [
+    "Surfing in India took off in the 2000s, when small surf schools opened on the Karnataka and Tamil Nadu coasts. Today there are schools and surf camps in a string of towns on both coasts, most of them teaching beginners on soft-top boards in small, gentle waves.",
+    "India's surf depends on the monsoons. On the west coast, the biggest swells arrive with the south-west monsoon, when the sea is too rough and dangerous for most surfing; the best learning conditions come before and after it. The east coast has its own pattern. This guide covers the main surf towns and the season for each."
+  ],
+  "quickAnswer": "The best places for surfing in India are Mulki in Karnataka, Kovalam (Covelong) and Mahabalipuram near Chennai, Puducherry, Varkala and Kovalam in Kerala, Gokarna and north Goa. On the west coast, the best beginner conditions are roughly October to May, outside the monsoon. The Tamil Nadu coast has surfable waves for much of the year. Most towns have surf schools offering lessons on soft-top boards.",
+  "takeaways": [
+    "Mulki near Mangaluru and Kovalam near Chennai are India's best-known surf towns.",
+    "West coast beginner season is roughly October to May; the monsoon brings big, dangerous seas.",
+    "The Tamil Nadu and Puducherry coast has waves for much of the year, with schools operating accordingly.",
+    "A two- to three-day beginner course is enough to stand up on a board.",
+    "There are few lifeguards; surf with a school or local surfers and learn about rip currents."
+  ],
+  "sections": [
+    {
+      "id": "west",
+      "heading": "West coast surf towns",
+      "items": [
+        {
+          "name": "Mulki, Karnataka",
+          "body": [
+            "A small town north of Mangaluru with a river mouth and beach breaks, and one of the first surf schools in India. It hosts national surfing events and suits beginners and intermediates."
+          ],
+          "facts": {
+            "Season": "About October to May",
+            "Good for": "Beginners, surf camps"
+          },
+          "links": [
+            {
+              "label": "Things to do in Mangalore",
+              "href": "/blog/things-to-do-in-mangalore"
+            }
+          ]
+        },
+        {
+          "name": "Varkala, Kerala",
+          "body": [
+            "Surf schools operate below Varkala's red cliffs, and nearby beaches have gentle waves for lessons. The town's cafes and guesthouses make it an easy base."
+          ],
+          "facts": {
+            "Season": "About October to April",
+            "Good for": "Beginners"
+          },
+          "links": [
+            {
+              "label": "Things to do in Varkala",
+              "href": "/blog/things-to-do-in-varkala"
+            },
+            {
+              "label": "Varkala travel guide",
+              "href": "/blog/varkala-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kovalam, Kerala",
+          "body": [
+            "Near Thiruvananthapuram, Kovalam's crescent beaches have surf schools and small, consistent waves in season."
+          ],
+          "facts": {
+            "Season": "About October to April",
+            "Good for": "Beginners"
+          },
+          "links": [
+            {
+              "label": "Things to do in Kovalam",
+              "href": "/blog/things-to-do-in-kovalam"
+            },
+            {
+              "label": "Kovalam travel guide",
+              "href": "/blog/kovalam-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Gokarna, Karnataka",
+          "body": [
+            "Surf camps run on Gokarna's beaches, with quieter coves such as Om, Half Moon and Paradise reached by trail or boat."
+          ],
+          "facts": {
+            "Season": "About October to April",
+            "Good for": "Beginners, travellers"
+          },
+          "links": [
+            {
+              "label": "Things to do in Gokarna",
+              "href": "/blog/things-to-do-in-gokarna"
+            }
+          ]
+        },
+        {
+          "name": "North Goa",
+          "body": [
+            "A few surf schools run lessons at beaches such as Arambol, Ashwem and Morjim when there is swell. Goa's water-sports regulations restrict activities during the monsoon."
+          ],
+          "facts": {
+            "Season": "About October to April",
+            "Good for": "Holiday lessons"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Goa",
+              "href": "/blog/adventure-activities-in-goa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "heading": "East coast surf towns",
+      "items": [
+        {
+          "name": "Kovalam (Covelong), Tamil Nadu",
+          "body": [
+            "About an hour south of Chennai, this fishing village has a point break and several surf schools, and hosts a well-known surf festival. It is the centre of surfing on the east coast."
+          ],
+          "facts": {
+            "Season": "Much of the year; ask schools about the best months",
+            "Good for": "Beginners and intermediates"
+          },
+          "links": [
+            {
+              "label": "Things to do in Chennai",
+              "href": "/blog/things-to-do-in-chennai"
+            }
+          ]
+        },
+        {
+          "name": "Mahabalipuram, Tamil Nadu",
+          "body": [
+            "The temple town has surf schools and beach breaks close to the Shore Temple, and combines well with Kovalam."
+          ],
+          "facts": {
+            "Season": "Much of the year",
+            "Good for": "Beginners"
+          },
+          "links": [
+            {
+              "label": "Things to do in Mahabalipuram",
+              "href": "/blog/things-to-do-in-mahabalipuram"
+            }
+          ]
+        },
+        {
+          "name": "Puducherry",
+          "body": [
+            "Surf schools near Puducherry and Auroville teach on beaches outside the town, such as those near Serenity Beach."
+          ],
+          "facts": {
+            "Season": "Much of the year; rough during the north-east monsoon",
+            "Good for": "Beginners"
+          },
+          "links": [
+            {
+              "label": "Things to do in Pondicherry",
+              "href": "/blog/things-to-do-in-pondicherry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "Surf seasons",
+      "table": {
+        "columns": [
+          "Coast",
+          "Best for beginners",
+          "Bigger swell",
+          "Avoid"
+        ],
+        "rows": [
+          [
+            "West coast (Karnataka, Kerala, Goa)",
+            "About October to April",
+            "Around the monsoon's edges (May, September)",
+            "June to August: rough, dangerous seas"
+          ],
+          [
+            "East coast (Tamil Nadu, Puducherry)",
+            "Much of the year",
+            "Roughly mid-year into autumn",
+            "Cyclone warnings and the north-east monsoon (November, December)"
+          ]
+        ],
+        "caption": "Conditions vary year to year; schools know the local breaks best."
+      }
+    },
+    {
+      "id": "lessons",
+      "heading": "What a beginner lesson involves",
+      "list": [
+        "Lessons start on the sand: how to lie on the board, paddle and pop up to standing.",
+        "In the water, instructors push you onto small waves until you can catch them yourself.",
+        "Soft-top foam boards are used for safety; leashes attach the board to your ankle.",
+        "A two- to three-day course usually gets beginners standing on white-water waves.",
+        "Many schools offer surf camps with stays and several sessions a day."
+      ]
+    },
+    {
+      "id": "schools",
+      "heading": "Choosing a surf school or camp",
+      "list": [
+        "Ask whether instructors are certified by a recognised surf body and trained in water rescue and first aid.",
+        "Check the student-to-instructor ratio; one instructor for three or four beginners is good.",
+        "Make sure soft-top boards and leashes are provided and in good condition.",
+        "Ask where lessons happen and at what tide; good schools move to the safest beach on the day.",
+        "Surf camps with stays make it easy to fit in two sessions a day, when conditions are best."
+      ]
+    },
+    {
+      "id": "sup-surf",
+      "heading": "Stand-up paddleboarding and bodyboarding",
+      "paras": [
+        "If standing on a surfboard feels too much, many schools also teach stand-up paddleboarding on calm days and rent bodyboards for riding small waves lying down. Both are good ways to get comfortable in the ocean before a surf lesson, and they suit children and older beginners."
+      ]
+    },
+    {
+      "id": "etiquette",
+      "heading": "Surf etiquette",
+      "list": [
+        "The surfer closest to the breaking part of the wave has priority; do not drop in.",
+        "Do not let go of your board in crowded water.",
+        "Respect local fishermen; beaches are working spaces and boats have right of way.",
+        "Dress modestly on the beach in small towns and fishing villages."
+      ]
+    }
+  ],
+  "safety": [
+    "Learn how to spot and escape rip currents: swim parallel to the shore, not against the current.",
+    "Surf with a school or experienced local surfers; lifeguards are rare.",
+    "Never surf during monsoon storms, cyclone warnings or red-flag conditions.",
+    "Wear a rash guard and waterproof sunscreen; the Indian sun is strong on the water.",
+    "Watch for rocks, fishing lines and boats near breaks."
+  ],
+  "packing": [
+    "Swimwear and a rash guard",
+    "Waterproof sunscreen and a hat",
+    "Flip-flops or reef shoes",
+    "A towel and drinking water",
+    "Ear plugs if you are prone to ear infections"
+  ],
+  "faqs": [
+    {
+      "q": "Where is the best place to surf in India?",
+      "a": "Mulki in Karnataka and Kovalam (Covelong) near Chennai are the best-known surf towns. Varkala, Kovalam in Kerala, Gokarna and Puducherry are also popular."
+    },
+    {
+      "q": "When is the surf season in India?",
+      "a": "On the west coast, roughly October to April for beginners. The Tamil Nadu coast has surfable waves for much of the year."
+    },
+    {
+      "q": "Can I learn surfing in India as a beginner?",
+      "a": "Yes. Most surf schools specialise in beginners and teach on soft-top boards in small waves."
+    },
+    {
+      "q": "Is surfing in India safe?",
+      "a": "With a school, in suitable conditions and with awareness of rip currents, it is reasonably safe. Avoid the monsoon and storm warnings."
+    },
+    {
+      "q": "How many days does it take to learn surfing?",
+      "a": "Most beginners stand up within two or three days of lessons, though learning to surf well takes much longer."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Varkala",
+      "href": "/blog/things-to-do-in-varkala"
+    },
+    {
+      "label": "Varkala travel guide",
+      "href": "/blog/varkala-travel-guide"
+    },
+    {
+      "label": "Kerala tour packages",
+      "href": "/packages/kerala"
+    },
+    {
+      "label": "Tamil Nadu tour packages",
+      "href": "/packages/tamil-nadu"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    }
+  ],
+  "related": [
+    {
+      "name": "Water sports in India",
+      "href": "/blog/water-sports-in-india",
+      "note": "more beach adventures"
+    },
+    {
+      "name": "Kayaking in India",
+      "href": "/blog/kayaking-in-india",
+      "note": "calmer paddling"
+    },
+    {
+      "name": "Weekend adventure trips from Bengaluru",
+      "href": "/blog/weekend-adventure-trips-from-bengaluru",
+      "note": "surf weekends in Karnataka"
+    },
+    {
+      "name": "Best beaches in Kerala",
+      "href": "/blog/best-beaches-in-kerala",
+      "note": "Varkala and Kovalam"
+    },
+    {
+      "name": "Best beaches in Karnataka",
+      "href": "/blog/best-beaches-in-karnataka",
+      "note": "Mulki and Gokarna"
+    }
+  ],
+  "places": [
+    "Mulki",
+    "Varkala",
+    "Kovalam, Kerala",
+    "Gokarna",
+    "Arambol",
+    "Kovalam, Tamil Nadu",
+    "Mahabalipuram",
+    "Puducherry"
+  ],
+  "styles": [
+    "adventure-tours"
+  ],
+  "updated": "2026-09-25"
+}

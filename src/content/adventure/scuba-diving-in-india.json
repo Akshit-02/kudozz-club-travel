@@ -1,0 +1,414 @@
+{
+  "slug": "scuba-diving-in-india",
+  "kind": "activity",
+  "short": "Scuba diving in India",
+  "title": "Scuba Diving in India: Best Dive Sites and Seasons",
+  "seoTitle": "Scuba Diving in India: Best Dive Sites & Seasons | Kudozz Club",
+  "metaDescription": "Where to go scuba diving in India: the Andamans, Lakshadweep, Netrani, Goa, Tarkarli and Puducherry, with seasons, try dives, courses and safety.",
+  "description": "A guide to scuba diving in India: the Andaman Islands, Lakshadweep, Netrani Island off Karnataka, Grande Island in Goa, Tarkarli in Maharashtra and Puducherry, when to dive, how try dives and certification courses work, and dive safety.",
+  "dek": "India's best reefs are around its islands, but there is also diving off the Konkan and Karnataka coasts and in the Bay of Bengal. Here is where to go and what to expect.",
+  "primaryKeyword": "scuba diving in India",
+  "secondaryKeywords": [
+    "best places for scuba diving in India",
+    "scuba diving in Lakshadweep",
+    "Netrani diving",
+    "Grande Island diving",
+    "PADI course India"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "scuba diving",
+    "snorkelling"
+  ],
+  "terrain": [
+    "sea",
+    "islands"
+  ],
+  "regions": [
+    "Andaman and Nicobar Islands",
+    "Lakshadweep",
+    "Karnataka",
+    "Goa",
+    "Maharashtra",
+    "Puducherry"
+  ],
+  "seasons": [
+    "autumn",
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "beginners",
+    "couples",
+    "solo",
+    "families"
+  ],
+  "tags": [
+    "Scuba Diving",
+    "Andaman",
+    "Lakshadweep",
+    "Water Sports"
+  ],
+  "hero": {
+    "src": "/images/adventure/scuba-diver-coral-reef-india.webp",
+    "alt": "Scuba divers in blue water in the Andaman Islands",
+    "caption": "Diving in the Andamans"
+  },
+  "parent": {
+    "label": "Adventure Sports in India",
+    "href": "/blog/adventure-sports-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Scuba diving in India"
+  },
+  "intro": [
+    "Scuba diving in India is concentrated in two island groups: the Andaman Islands in the Bay of Bengal and Lakshadweep in the Arabian Sea. Both have coral reefs, clear water and resident dive schools. On the mainland, dive centres run trips from Murudeshwar to Netrani Island in Karnataka, from Goa to Grande Island, from Malvan and Tarkarli in Maharashtra and out of Puducherry.",
+    "You do not need a certificate to try diving. A try dive (often sold as Discover Scuba Diving) takes a morning and involves a short lesson and a shallow dive with an instructor holding onto you. Full courses such as the Open Water Diver take three to four days and certify you to dive anywhere in the world. This guide covers the main dive areas, the seasons and what to check before you book."
+  ],
+  "quickAnswer": "The best places for scuba diving in India are the Andaman Islands (especially Havelock and Neil), Lakshadweep, Netrani Island off Murudeshwar in Karnataka, Grande Island in Goa, Tarkarli and Malvan in Maharashtra, and Puducherry. The main diving season is roughly October to May, outside the monsoon. Beginners can take a try dive with an instructor; an Open Water course takes three to four days.",
+  "takeaways": [
+    "The Andamans have the most dive schools and sites in India, with Havelock as the main base.",
+    "Lakshadweep has clear lagoons and reefs but needs an entry permit for every visitor.",
+    "Mainland dive sites (Netrani, Grande Island, Tarkarli) are good for weekend dives from Bengaluru, Goa and Mumbai.",
+    "Diving on India's west coast and in the islands stops during the south-west monsoon, roughly June to September.",
+    "Do not fly for at least 18 hours after diving."
+  ],
+  "sections": [
+    {
+      "id": "where",
+      "heading": "Best places for scuba diving in India",
+      "items": [
+        {
+          "name": "Andaman Islands",
+          "body": [
+            "Swaraj Dweep (Havelock Island) is India's diving capital, with well-established dive schools and sites for every level, from shallow sandy reefs for try dives to deeper pinnacles for experienced divers. Shaheed Dweep (Neil Island) is quieter, and there are try dives around North Bay near Port Blair. Liveaboard trips have visited remote sites, including Barren Island, depending on permits."
+          ],
+          "facts": {
+            "Season": "About October to May",
+            "Good for": "Try dives, courses, experienced divers"
+          },
+          "links": [
+            {
+              "label": "Scuba diving in the Andaman Islands",
+              "href": "/blog/scuba-diving-in-andaman"
+            },
+            {
+              "label": "Havelock Island guide",
+              "href": "/blog/havelock-island-andaman-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/andaman-and-nicobar/andaman-islands/scuba-diving-andaman-islands-2.webp",
+            "alt": "Scuba diver over a reef in the Andaman Islands",
+            "caption": "Diving in the Andamans"
+          }
+        },
+        {
+          "name": "Lakshadweep",
+          "body": [
+            "Lakshadweep's coral atolls have wide, shallow lagoons and reef walls outside them. Dive centres have operated on islands open to tourists, such as Agatti, Bangaram and Kadmat. All visitors, including Indian citizens, need an entry permit, and access is by flight to Agatti or by ship from Kochi."
+          ],
+          "facts": {
+            "Season": "About October to May",
+            "Good for": "Clear water and quiet reefs",
+            "Good to know": "Entry permit required"
+          },
+          "links": [
+            {
+              "label": "Lakshadweep travel guide",
+              "href": "/blog/lakshadweep-island-travel-guide"
+            },
+            {
+              "label": "Agatti Island guide",
+              "href": "/blog/agatti-island-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Netrani Island, Karnataka",
+          "body": [
+            "Netrani is a small rocky island in the Arabian Sea, about an hour by boat from Murudeshwar. Its reefs have good fish life and occasional larger visitors, and it is the best dive site on India's west coast mainland. Dive operators are based in Murudeshwar."
+          ],
+          "facts": {
+            "Season": "About October to May",
+            "Good for": "Weekend dives from Bengaluru and Goa"
+          },
+          "links": [
+            {
+              "label": "Things to do in Udupi",
+              "href": "/blog/things-to-do-in-udupi"
+            }
+          ]
+        },
+        {
+          "name": "Grande Island, Goa",
+          "body": [
+            "Dive schools in Goa run boat trips to Grande Island and nearby sites off the Mormugao peninsula, including shallow reefs suited to try dives and wreck sites for certified divers. Visibility is modest compared with the islands, but it is easy to add to a Goa holiday."
+          ],
+          "facts": {
+            "Season": "About October to April",
+            "Good for": "Try dives on a Goa trip"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Goa",
+              "href": "/blog/adventure-activities-in-goa"
+            }
+          ]
+        },
+        {
+          "name": "Tarkarli and Malvan, Maharashtra",
+          "body": [
+            "On the Sindhudurg coast, dive centres at Tarkarli and Malvan offer try dives near Sindhudurg Fort and nearby rocks. The Maharashtra Tourism Development Corporation has an institute for scuba diving and aquatic sports at Tarkarli."
+          ],
+          "facts": {
+            "Season": "About October to April",
+            "Good for": "Beginners on a Konkan trip"
+          },
+          "links": [
+            {
+              "label": "Tarkarli travel guide",
+              "href": "/blog/tarkarli-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Puducherry",
+          "body": [
+            "Dive schools in Puducherry take divers to offshore reefs and wrecks in the Bay of Bengal. Conditions here follow the east coast calendar: dive centres name roughly February to April and September to November as the best months."
+          ],
+          "facts": {
+            "Season": "Best February to April and September to November",
+            "Good for": "Certified divers and courses"
+          },
+          "links": [
+            {
+              "label": "Things to do in Pondicherry",
+              "href": "/blog/things-to-do-in-pondicherry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Dive areas compared",
+      "table": {
+        "columns": [
+          "Area",
+          "Access",
+          "Season",
+          "Visibility",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Andaman Islands",
+            "Fly to Port Blair, ferry to Havelock or Neil",
+            "October to May",
+            "Often good to excellent",
+            "Everyone, from try dives to advanced"
+          ],
+          [
+            "Lakshadweep",
+            "Fly to Agatti or ship from Kochi; permit needed",
+            "October to May",
+            "Often excellent",
+            "Quiet reefs, clear lagoons"
+          ],
+          [
+            "Netrani Island",
+            "Murudeshwar, then about an hour by boat",
+            "October to May",
+            "Variable, best mid-season",
+            "Weekend divers"
+          ],
+          [
+            "Grande Island, Goa",
+            "Boat from south Goa",
+            "October to April",
+            "Modest",
+            "Try dives"
+          ],
+          [
+            "Tarkarli and Malvan",
+            "Road or rail to Kudal or Sindhudurg",
+            "October to April",
+            "Modest",
+            "Try dives"
+          ],
+          [
+            "Puducherry",
+            "Road from Chennai",
+            "February to April, September to November",
+            "Variable",
+            "Courses and certified divers"
+          ]
+        ],
+        "caption": "Visibility changes with weather, plankton and tides; treat this as a rough guide."
+      }
+    },
+    {
+      "id": "try-or-course",
+      "heading": "Try dive or certification course?",
+      "items": [
+        {
+          "name": "Try dive",
+          "body": [
+            "A try dive (Discover Scuba Diving) includes a short briefing, practice in shallow water and a dive of up to about 12 metres with an instructor at your side. It does not certify you, but it lets you see if you enjoy diving."
+          ],
+          "facts": {
+            "Duration": "Half a day",
+            "Minimum age": "Usually 10, set by the training agency and operator"
+          }
+        },
+        {
+          "name": "Open Water Diver",
+          "body": [
+            "The entry-level certification from agencies such as PADI and SSI. It combines theory, confined-water practice and four open-water dives, and certifies you to dive to 18 metres with a buddy anywhere in the world."
+          ],
+          "facts": {
+            "Duration": "3 to 4 days",
+            "Good for": "Anyone planning to dive again"
+          }
+        },
+        {
+          "name": "Advanced and specialty courses",
+          "body": [
+            "Advanced Open Water adds deep and navigation dives, and specialty courses cover skills such as buoyancy or night diving. The Andamans are the best place in India to do these because of the range of sites."
+          ],
+          "facts": {
+            "Duration": "2 days or more"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "When to dive",
+      "paras": [
+        "For the Andamans, Lakshadweep and the west coast, the diving season is roughly October to May. The south-west monsoon, from about June to September, brings rough seas, and many operators close or restrict trips; boats to Netrani and Grande Island usually stop. Puducherry, on the east coast, has its own pattern, with the north-east monsoon affecting conditions in November and December.",
+        "Within the season, the calmest seas and best visibility are often from about January to April. Always confirm with your dive centre before planning."
+      ]
+    },
+    {
+      "id": "choose",
+      "heading": "Choosing a dive centre",
+      "list": [
+        "Check that instructors are certified by a recognised agency (such as PADI or SSI) and ask to see their credentials.",
+        "Look at the equipment: well-maintained regulators, properly fitting wetsuits and BCDs.",
+        "Ask about group sizes; smaller groups mean more attention on a try dive.",
+        "Make sure the boat carries oxygen and a first-aid kit, and ask where the nearest recompression facility is.",
+        "Be honest on the medical form; conditions such as asthma, heart problems or recent surgery need a doctor's clearance."
+      ]
+    }
+  ],
+  "safety": [
+    "Never hold your breath while breathing from scuba; breathe slowly and continuously.",
+    "Equalise your ears early and often on the way down; stop and signal if it hurts.",
+    "Do not fly for at least 18 hours after multiple dives or multi-day diving (12 hours after a single dive is the minimum usually advised).",
+    "Do not dive with a cold, sinus congestion or after alcohol.",
+    "Stay with your buddy or instructor, and follow the planned depth and time.",
+    "Do not touch or stand on coral; it damages the reef and can cut or sting you."
+  ],
+  "packing": [
+    "Swimwear and a rash guard",
+    "Reef-safe sunscreen",
+    "Your certification card and logbook if certified",
+    "Motion-sickness tablets for boat rides",
+    "A towel and a warm layer for the boat back"
+  ],
+  "faqs": [
+    {
+      "q": "Where is the best scuba diving in India?",
+      "a": "The Andaman Islands, especially Havelock and Neil, have the most sites and dive schools. Lakshadweep has the clearest water, and Netrani Island is the best site on the mainland coast."
+    },
+    {
+      "q": "What is the best time for scuba diving in India?",
+      "a": "Roughly October to May for the Andamans, Lakshadweep and the west coast. The south-west monsoon (June to September) brings rough seas."
+    },
+    {
+      "q": "Do I need to know swimming for scuba diving?",
+      "a": "For a try dive with an instructor, many centres accept non-swimmers who are comfortable in water. Certification courses usually require a basic swim and float test."
+    },
+    {
+      "q": "What is the minimum age for scuba diving?",
+      "a": "Training agencies such as PADI set 10 as the minimum age for junior programmes. Individual operators may set higher limits."
+    },
+    {
+      "q": "How long does it take to get scuba certified in India?",
+      "a": "An Open Water Diver course usually takes three to four days."
+    },
+    {
+      "q": "Can I dive in Lakshadweep without a permit?",
+      "a": "No. Every visitor to Lakshadweep needs an entry permit. Your tour operator or resort usually helps arrange it."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Scuba diving in the Andamans",
+      "href": "/blog/scuba-diving-in-andaman"
+    },
+    {
+      "label": "Things to do on Havelock Island",
+      "href": "/blog/things-to-do-in-havelock-island"
+    },
+    {
+      "label": "Havelock Island guide",
+      "href": "/blog/havelock-island-andaman-travel-guide"
+    },
+    {
+      "label": "Havelock visit plan",
+      "href": "/blog/havelock-island-andaman-travel-guide#visit-plan"
+    },
+    {
+      "label": "Andaman tour packages",
+      "href": "/packages/andaman-nicobar"
+    },
+    {
+      "label": "Lakshadweep tour packages",
+      "href": "/packages/lakshadweep"
+    }
+  ],
+  "related": [
+    {
+      "name": "Snorkelling in India",
+      "href": "/blog/snorkeling-in-india",
+      "note": "reefs you can see from the surface"
+    },
+    {
+      "name": "Water sports in India",
+      "href": "/blog/water-sports-in-india",
+      "note": "from parasailing to sea walks"
+    },
+    {
+      "name": "Adventure activities in the Andamans",
+      "href": "/blog/adventure-activities-in-andaman",
+      "note": "beyond diving"
+    },
+    {
+      "name": "Best beaches in Lakshadweep",
+      "href": "/blog/best-beaches-in-lakshadweep",
+      "note": "lagoons and dive islands"
+    }
+  ],
+  "places": [
+    "Havelock Island",
+    "Neil Island",
+    "North Bay Island",
+    "Lakshadweep",
+    "Agatti",
+    "Netrani Island",
+    "Grande Island",
+    "Tarkarli",
+    "Malvan",
+    "Puducherry"
+  ],
+  "styles": [
+    "adventure-tours",
+    "honeymoon"
+  ],
+  "planDestination": "Andaman",
+  "updated": "2026-09-25"
+}

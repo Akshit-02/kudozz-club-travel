@@ -1,0 +1,501 @@
+{
+  "slug": "weekend-adventure-trips-from-bengaluru",
+  "kind": "weekend",
+  "short": "Weekend adventure from Bengaluru",
+  "title": "Weekend Adventure Trips from Bengaluru",
+  "seoTitle": "Weekend Adventure Trips from Bengaluru | Kudozz Club",
+  "metaDescription": "Weekend adventure trips from Bengaluru: rock climbing at Ramanagara, Savandurga and Skandagiri treks, Coorg rafting, Dandeli, Chikmagalur peaks and Netrani diving.",
+  "description": "The best weekend adventure trips from Bengaluru: rock climbing at Ramanagara, hill climbs at Savandurga, Skandagiri and Kunti Betta, cycling at Nandi Hills, rafting at Barapole in Coorg and on the Kali at Dandeli, treks at Chikmagalur and Kudremukh, bouldering at Hampi, and diving at Netrani.",
+  "dek": "Granite hills an hour from the city, rivers in Coorg and Dandeli, and the Western Ghats beyond: Bengaluru has some of the best adventure weekends in India.",
+  "primaryKeyword": "weekend adventure trips from Bengaluru",
+  "secondaryKeywords": [
+    "adventure activities near Bangalore",
+    "treks near Bangalore",
+    "Dandeli rafting",
+    "Coorg rafting",
+    "Ramanagara climbing"
+  ],
+  "searchIntent": "Informational: short trips from Bengaluru",
+  "activities": [
+    "rock climbing",
+    "trekking",
+    "rafting",
+    "kayaking",
+    "scuba diving",
+    "cycling",
+    "camping"
+  ],
+  "terrain": [
+    "hills",
+    "rock",
+    "river",
+    "forest",
+    "sea"
+  ],
+  "regions": [
+    "Karnataka",
+    "South India",
+    "Tamil Nadu"
+  ],
+  "seasons": [
+    "winter",
+    "monsoon",
+    "autumn"
+  ],
+  "travellers": [
+    "friends",
+    "couples",
+    "groups",
+    "beginners"
+  ],
+  "tags": [
+    "Weekend Trips",
+    "Bengaluru",
+    "Karnataka",
+    "Adventure"
+  ],
+  "hero": {
+    "src": "/images/adventure/savandurga-monolith-karnataka.webp",
+    "alt": "The granite monolith of Savandurga near Bengaluru",
+    "caption": "Savandurga"
+  },
+  "parent": {
+    "label": "Adventure Travel",
+    "href": "/adventure-travel"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Bengaluru",
+    "containedIn": "Karnataka"
+  },
+  "intro": [
+    "Bengaluru sits on the Deccan plateau, surrounded by granite hills that make excellent short climbs and treks. A few hours further west, the Western Ghats bring rivers for rafting, coffee country for trekking and cycling, and the Arabian Sea coast for diving and surfing.",
+    "Many treks in Karnataka's forests now need online booking and have fixed timings, set by the state forest department, so check before you go. This guide groups trips by distance."
+  ],
+  "quickAnswer": "The best weekend adventure trips from Bengaluru are rock climbing at Ramanagara, hill climbs at Savandurga, Skandagiri and Kunti Betta, cycling at Nandi Hills, rafting at Barapole in Coorg (monsoon) and on the Kali at Dandeli (October to May), treks around Chikmagalur and Kudremukh, bouldering at Hampi and diving at Netrani Island. Book forest treks through the Karnataka forest department where required.",
+  "takeaways": [
+    "Ramanagara, Savandurga and Skandagiri are within about 50 to 70 km of the city.",
+    "Barapole rafting in Coorg is a monsoon activity; Dandeli rafts outside the monsoon.",
+    "Mullayanagiri near Chikmagalur is Karnataka's highest peak, at about 1,930 metres.",
+    "Many Karnataka forest treks need online booking and have daily limits.",
+    "Hampi bouldering and Netrani diving suit long weekends by overnight train or bus."
+  ],
+  "sections": [
+    {
+      "id": "close",
+      "heading": "Close to the city (1 to 2 hours)",
+      "items": [
+        {
+          "name": "Ramanagara rock climbing",
+          "body": [
+            "Granite crags with top-rope, trad and bouldering, and introductory sessions run by Bengaluru climbing groups."
+          ],
+          "facts": {
+            "Distance": "About 50 km",
+            "Season": "October to March"
+          },
+          "links": [
+            {
+              "label": "Rock climbing in India",
+              "href": "/blog/rock-climbing-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Savandurga",
+          "body": [
+            "One of the largest monolith hills in Asia, climbed on a steep rock path. Start early to avoid the heat."
+          ],
+          "facts": {
+            "Distance": "About 60 km",
+            "Difficulty": "Moderate"
+          },
+          "links": [
+            {
+              "label": "Beginner treks in India",
+              "href": "/blog/beginner-treks-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Skandagiri",
+          "body": [
+            "A short night or pre-dawn climb for sunrise above the clouds; the forest department controls timings and bookings."
+          ],
+          "facts": {
+            "Distance": "About 70 km",
+            "Difficulty": "Easy"
+          }
+        },
+        {
+          "name": "Nandi Hills cycling",
+          "body": [
+            "The climb up Nandi Hills is Bengaluru's favourite cycling challenge on weekend mornings."
+          ],
+          "facts": {
+            "Distance": "About 60 km",
+            "Season": "Year-round, best October to March"
+          },
+          "links": [
+            {
+              "label": "Nandi Hills guide",
+              "href": "/blog/nandi-hills-travel-guide"
+            },
+            {
+              "label": "Mountain biking in India",
+              "href": "/blog/mountain-biking-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Kunti Betta",
+          "body": [
+            "A rocky twin hill near Pandavapura, popular for night treks and camping."
+          ],
+          "facts": {
+            "Distance": "About 130 km",
+            "Difficulty": "Easy to moderate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ghats",
+      "heading": "Western Ghats (4 to 8 hours)",
+      "items": [
+        {
+          "name": "Coorg: rafting and treks",
+          "body": [
+            "Barapole rafting runs in the monsoon, about June to October, and Tadiandamol, the highest peak in Kodagu, is a day trek."
+          ],
+          "facts": {
+            "Distance": "About 250 km",
+            "Season": "Rafting in the monsoon; treks October to February"
+          },
+          "links": [
+            {
+              "label": "Things to do in Coorg",
+              "href": "/blog/things-to-do-in-coorg"
+            },
+            {
+              "label": "River rafting in India",
+              "href": "/blog/river-rafting-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Chikmagalur and Kudremukh",
+          "body": [
+            "Mullayanagiri, at about 1,930 metres, is Karnataka's highest peak; Kudremukh's grassland ridges are a national park trek with permits."
+          ],
+          "facts": {
+            "Distance": "About 250 to 330 km",
+            "Season": "October to February"
+          },
+          "links": [
+            {
+              "label": "Things to do in Chikmagalur",
+              "href": "/blog/things-to-do-in-chikmagalur"
+            }
+          ]
+        },
+        {
+          "name": "Dandeli rafting and kayaking",
+          "body": [
+            "Rafting and kayaking on the Kali river, with forest stays nearby."
+          ],
+          "facts": {
+            "Distance": "About 460 km",
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Dandeli travel guide",
+              "href": "/blog/dandeli-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Wayanad",
+          "body": [
+            "Treks to Chembra Peak (when open) and forest walks, just across the border in Kerala."
+          ],
+          "facts": {
+            "Distance": "About 280 km"
+          },
+          "links": [
+            {
+              "label": "Things to do in Wayanad",
+              "href": "/blog/things-to-do-in-wayanad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "heading": "Long weekends",
+      "items": [
+        {
+          "name": "Hampi bouldering",
+          "body": [
+            "Overnight train or bus to Hosapete, then two days on the boulders."
+          ],
+          "facts": {
+            "Season": "November to February"
+          },
+          "links": [
+            {
+              "label": "Things to do in Hampi",
+              "href": "/blog/things-to-do-in-hampi"
+            }
+          ]
+        },
+        {
+          "name": "Netrani diving and Mulki surfing",
+          "body": [
+            "Dive trips to Netrani Island from Murudeshwar, or surf lessons at Mulki near Mangaluru."
+          ],
+          "facts": {
+            "Season": "About October to May"
+          },
+          "links": [
+            {
+              "label": "Scuba diving in India",
+              "href": "/blog/scuba-diving-in-india"
+            },
+            {
+              "label": "Surfing in India",
+              "href": "/blog/surfing-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Yelagiri, Tamil Nadu",
+          "body": [
+            "A small hill station with trekking and adventure activities, about three to four hours from Bengaluru."
+          ],
+          "links": [
+            {
+              "label": "Yelagiri travel guide",
+              "href": "/blog/yelagiri-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Weekend options compared",
+      "table": {
+        "columns": [
+          "Trip",
+          "Distance",
+          "Adventure",
+          "Best months"
+        ],
+        "rows": [
+          [
+            "Ramanagara",
+            "About 50 km",
+            "Rock climbing",
+            "October to March"
+          ],
+          [
+            "Savandurga, Skandagiri",
+            "60 to 70 km",
+            "Hill climbs",
+            "October to February"
+          ],
+          [
+            "Nandi Hills",
+            "About 60 km",
+            "Cycling",
+            "Year-round"
+          ],
+          [
+            "Coorg",
+            "About 250 km",
+            "Rafting, treks",
+            "Rafting June to October"
+          ],
+          [
+            "Chikmagalur",
+            "About 250 km",
+            "Treks",
+            "October to February"
+          ],
+          [
+            "Dandeli",
+            "About 460 km",
+            "Rafting, kayaking",
+            "October to May"
+          ],
+          [
+            "Hampi",
+            "About 340 km",
+            "Bouldering",
+            "November to February"
+          ]
+        ],
+        "caption": "Distances are approximate road distances."
+      }
+    },
+    {
+      "id": "sample",
+      "heading": "Three sample weekends",
+      "items": [
+        {
+          "name": "Rocks near the city",
+          "body": [
+            "Saturday: sunrise climb at Savandurga, then an afternoon climbing session at Ramanagara with a local group. Sunday: early cycle up Nandi Hills, back for breakfast."
+          ],
+          "facts": {
+            "Best time": "October to February",
+            "Best for": "Short on time"
+          }
+        },
+        {
+          "name": "Monsoon in Coorg",
+          "body": [
+            "Friday night: drive or bus to Coorg. Saturday: Barapole rafting and a plantation stay. Sunday: Abbey Falls or a short walk, drive back."
+          ],
+          "facts": {
+            "Best time": "June to October"
+          }
+        },
+        {
+          "name": "Coffee-country peaks",
+          "body": [
+            "Friday night: drive to Chikmagalur. Saturday: sunrise at Mullayanagiri and a walk along the ridge. Sunday: a waterfall or estate walk, return."
+          ],
+          "facts": {
+            "Best time": "October to February"
+          }
+        }
+      ],
+      "after": [
+        "Bengaluru's traffic makes early starts essential. For Hampi, Dandeli, Murudeshwar and Mulki, overnight trains and buses save a day of driving."
+      ]
+    },
+    {
+      "id": "getting-there",
+      "heading": "Getting out of the city",
+      "list": [
+        "Leave before 6 am on weekends to clear the city; traffic on the Mysuru and Tumakuru roads builds quickly.",
+        "Overnight KSRTC and private buses serve Coorg, Chikmagalur, Hampi and the coast.",
+        "Trains run to Hosapete for Hampi, to Mysuru for Coorg, and along the Konkan coast from Mangaluru."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Weekend tips",
+      "list": [
+        "Check the Karnataka forest department's booking system for treks such as Skandagiri, Kudremukh and Kumara Parvatha before setting out.",
+        "Leave before dawn for the close hills to beat heat and traffic.",
+        "In the monsoon, many forest treks close, but Coorg rafting is at its best.",
+        "Carry ID; forest checkposts record trekkers."
+      ]
+    }
+  ],
+  "safety": [
+    "Start rock climbs early; granite heats up by late morning.",
+    "Climb and trek with groups or guides on less-used routes.",
+    "Follow forest department timings and do not enter closed areas.",
+    "Raft only with licensed operators, and skip rivers in flood.",
+    "Carry at least two litres of water on Deccan hill climbs."
+  ],
+  "faqs": [
+    {
+      "q": "What are the best adventure activities near Bengaluru?",
+      "a": "Rock climbing at Ramanagara, hill climbs at Savandurga and Skandagiri, cycling at Nandi Hills, rafting in Coorg and Dandeli, and treks in Chikmagalur."
+    },
+    {
+      "q": "Do I need to book treks near Bengaluru?",
+      "a": "Many Karnataka forest treks now need online booking through the forest department, with daily limits and fixed timings."
+    },
+    {
+      "q": "When is rafting available in Coorg?",
+      "a": "In the monsoon, from about June to October, on the Barapole river."
+    },
+    {
+      "q": "Which is the highest peak in Karnataka?",
+      "a": "Mullayanagiri near Chikmagalur, at about 1,930 metres."
+    },
+    {
+      "q": "Where can I rock climb near Bengaluru?",
+      "a": "At Ramanagara, Savandurga and Turahalli, often with local climbing groups."
+    },
+    {
+      "q": "What is the best season for adventure weekends from Bengaluru?",
+      "a": "October to February for hill climbs, treks and climbing; June to October for rafting in Coorg."
+    },
+    {
+      "q": "How far is Coorg from Bengaluru?",
+      "a": "About 250 km, or five to six hours by road."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Coorg",
+      "href": "/blog/things-to-do-in-coorg"
+    },
+    {
+      "label": "Coorg travel guide",
+      "href": "/blog/coorg-travel-guide"
+    },
+    {
+      "label": "Things to do in Bangalore",
+      "href": "/blog/things-to-do-in-bangalore"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    },
+    {
+      "label": "Weekend getaways",
+      "href": "/packages/weekend-getaways"
+    }
+  ],
+  "related": [
+    {
+      "name": "Rock climbing in India",
+      "href": "/blog/rock-climbing-in-india",
+      "note": "more crags"
+    },
+    {
+      "name": "River rafting in India",
+      "href": "/blog/river-rafting-in-india",
+      "note": "Coorg, Dandeli and beyond"
+    },
+    {
+      "name": "Things to do in Mysuru",
+      "href": "/blog/things-to-do-in-mysore",
+      "note": "a weekend with history"
+    }
+  ],
+  "places": [
+    "Ramanagara",
+    "Savandurga",
+    "Skandagiri",
+    "Nandi Hills",
+    "Kunti Betta",
+    "Coorg",
+    "Tadiandamol",
+    "Chikmagalur",
+    "Mullayanagiri",
+    "Kudremukh",
+    "Dandeli",
+    "Wayanad",
+    "Hampi",
+    "Netrani Island",
+    "Mulki",
+    "Yelagiri"
+  ],
+  "styles": [
+    "weekend-getaways",
+    "adventure-tours"
+  ],
+  "planDestination": "Coorg",
+  "updated": "2026-09-25"
+}

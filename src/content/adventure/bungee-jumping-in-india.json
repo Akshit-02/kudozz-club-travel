@@ -1,0 +1,318 @@
+{
+  "slug": "bungee-jumping-in-india",
+  "kind": "activity",
+  "short": "Bungee jumping in India",
+  "title": "Bungee Jumping in India: Where to Jump and What to Know",
+  "seoTitle": "Bungee Jumping in India: Rishikesh, Goa & What to Know | Kudozz Club",
+  "metaDescription": "Bungee jumping in India: the 83 m jump near Rishikesh, the lake jump in Goa and other sites, with age and weight limits, seasons and safety checks before you jump.",
+  "description": "A guide to bungee jumping in India: the 83-metre fixed-platform jump at Mohan Chatti near Rishikesh, the jump over Mayem Lake in Goa, Lonavala and city crane jumps, plus eligibility rules, seasons, what happens on the day and how to judge safety.",
+  "dek": "India's best-known bungee jump hangs over a forested gorge near Rishikesh. Here is where you can jump, who can, and what to check first.",
+  "primaryKeyword": "bungee jumping in India",
+  "secondaryKeywords": [
+    "bungee jumping in Rishikesh",
+    "Jumpin Heights",
+    "highest bungee jump in India",
+    "bungee jumping Goa"
+  ],
+  "searchIntent": "Informational/pre-booking",
+  "activities": [
+    "bungee jumping",
+    "giant swing"
+  ],
+  "terrain": [
+    "gorge",
+    "lake"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "Goa",
+    "Maharashtra"
+  ],
+  "seasons": [
+    "autumn",
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "friends",
+    "solo",
+    "couples"
+  ],
+  "tags": [
+    "Bungee Jumping",
+    "Rishikesh",
+    "Goa",
+    "Air Adventure"
+  ],
+  "hero": {
+    "src": "/images/adventure/bungee-jump-india.webp",
+    "alt": "The bungee tower over Mayem Lake in north Goa",
+    "caption": "Mayem Lake, Goa"
+  },
+  "parent": {
+    "label": "Adventure Sports in India",
+    "href": "/blog/adventure-sports-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Bungee jumping in India"
+  },
+  "intro": [
+    "Bungee jumping in India took off with Jumpin Heights, which opened a fixed-platform jump at Mohan Chatti, about 25 km from Rishikesh in Uttarakhand. At 83 metres, it is the highest bungee jump in the country, from a cantilever platform over a forested gorge.",
+    "The same company runs a jump over Mayem Lake in north Goa, and there are smaller jumps at adventure parks such as Della near Lonavala. Crane-based jumps also appear at events and parks in some cities. This guide covers the main sites, the rules on age, weight and health, and what to check before you jump."
+  ],
+  "quickAnswer": "The best-known place for bungee jumping in India is Jumpin Heights at Mohan Chatti near Rishikesh, an 83-metre jump from a fixed platform. There is also a jump of about 55 metres over Mayem Lake in Goa and a smaller jump at Della Adventure near Lonavala. Operators set age, weight and health limits and close in bad weather; Rishikesh closes for the peak monsoon.",
+  "takeaways": [
+    "The highest bungee jump in India is 83 metres, at Mohan Chatti about 25 km from Rishikesh.",
+    "Goa has a lake bungee of about 55 metres at Mayem.",
+    "Fixed platforms with trained jump masters are the safest setting; be cautious with pop-up crane jumps.",
+    "Operators set limits on age, weight and medical conditions; check before booking.",
+    "The Rishikesh site usually closes during the peak monsoon, roughly mid-July to mid-September."
+  ],
+  "sections": [
+    {
+      "id": "where",
+      "heading": "Where to go bungee jumping in India",
+      "items": [
+        {
+          "name": "Jumpin Heights, Mohan Chatti, near Rishikesh",
+          "body": [
+            "The jump is made from a cantilever platform jutting over a gorge. You fall about 83 metres before the cord catches and bounces you, and staff lower you to the valley floor, from where you walk back up. The site also runs a giant swing and a flying fox (zipline). Jumps are booked in advance with a set time slot, and the site is a short drive from the rafting stretches, so many people combine the two."
+          ],
+          "facts": {
+            "Height": "About 83 m",
+            "Distance": "About 25 km from Rishikesh",
+            "Season": "Year-round except the peak monsoon, roughly mid-July to mid-September",
+            "Good for": "First-time jumpers wanting the classic Indian bungee"
+          },
+          "links": [
+            {
+              "label": "River rafting in Rishikesh",
+              "href": "/blog/river-rafting-in-rishikesh"
+            },
+            {
+              "label": "Things to do in Rishikesh",
+              "href": "/blog/things-to-do-in-rishikesh"
+            }
+          ]
+        },
+        {
+          "name": "Mayem Lake, Goa",
+          "body": [
+            "In north Goa, Jumpin Heights runs a jump of about 55 metres from a tower over Mayem Lake, surrounded by forest. It is the easiest bungee to add to a beach holiday."
+          ],
+          "facts": {
+            "Height": "About 55 m",
+            "Season": "Mainly the dry season",
+            "Good for": "Goa holidays"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Goa",
+              "href": "/blog/adventure-activities-in-goa"
+            }
+          ]
+        },
+        {
+          "name": "Della Adventure, Lonavala, Maharashtra",
+          "body": [
+            "Della Adventure Park near Lonavala offers a bungee jump of around 45 metres along with many other park activities. It is a common day trip from Mumbai and Pune."
+          ],
+          "facts": {
+            "Height": "About 45 m",
+            "Good for": "Weekend trips from Mumbai and Pune"
+          },
+          "links": [
+            {
+              "label": "Weekend adventure trips from Mumbai",
+              "href": "/blog/weekend-adventure-trips-from-mumbai"
+            },
+            {
+              "label": "Things to do in Lonavala",
+              "href": "/blog/things-to-do-in-lonavala"
+            }
+          ]
+        },
+        {
+          "name": "Crane jumps in cities",
+          "body": [
+            "Crane-based bungee jumps have operated in cities including Bengaluru and Delhi, often at adventure parks or events. They are shorter and less scenic. Because set-ups can be temporary, check the operator's equipment, experience and permissions carefully."
+          ],
+          "facts": {
+            "Good for": "A quick jump near home, with extra checks"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rules",
+      "heading": "Who can jump",
+      "paras": [
+        "Every operator sets its own limits. Jumpin Heights' published rules for Rishikesh have included a minimum age of 12 and a weight range of about 40 to 110 kg, with an upper age limit, and minors need a guardian's consent. Weight is checked on the day, and the cord is chosen to match it.",
+        "You will be asked to sign a medical declaration. Bungee jumping is generally not allowed for people with heart conditions, high blood pressure, epilepsy, neck or back injuries, recent surgery, some eye conditions or pregnancy. If in doubt, ask your doctor first."
+      ]
+    },
+    {
+      "id": "day",
+      "heading": "What happens on the day",
+      "list": [
+        "Arrive for your slot with ID; you are weighed and sign the declaration.",
+        "You are fitted with a harness and ankle attachments, depending on the jump style.",
+        "On the platform, jump masters check every connection, explain the count and the position to take.",
+        "After the count you dive or step off. The first fall lasts a few seconds, followed by several rebounds.",
+        "You are lowered or winched to a recovery point. At Rishikesh, you walk back up from the valley.",
+        "Videos and photos are usually offered for an extra charge."
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Bungee sites compared",
+      "table": {
+        "columns": [
+          "Site",
+          "Height",
+          "Type",
+          "Setting"
+        ],
+        "rows": [
+          [
+            "Mohan Chatti, near Rishikesh",
+            "About 83 m",
+            "Fixed cantilever platform",
+            "Forested gorge"
+          ],
+          [
+            "Mayem Lake, Goa",
+            "About 55 m",
+            "Tower over water",
+            "Lake and forest"
+          ],
+          [
+            "Della Adventure, Lonavala",
+            "About 45 m",
+            "Park tower",
+            "Adventure park in the hills"
+          ],
+          [
+            "City crane jumps",
+            "Varies",
+            "Crane",
+            "Parks and events"
+          ]
+        ],
+        "caption": "Heights are as published by operators and may change."
+      }
+    },
+    {
+      "id": "weekend",
+      "heading": "A bungee weekend in Rishikesh",
+      "paras": [
+        "Most people fit the jump into a two-day trip from Delhi. A common plan is to drive or take a train to Haridwar or Rishikesh on a Friday night, jump at Mohan Chatti on Saturday morning (slots are usually between morning and late afternoon), and raft the Shivpuri stretch on Saturday afternoon or Sunday morning.",
+        "Book the jump slot before you travel, especially on weekends and long holidays, and leave time for the drive from Rishikesh, which is about 25 km on a winding hill road. Evenings are easy: the Ganga aarti at Parmarth Niketan or Triveni Ghat, and dinner in Tapovan."
+      ],
+      "items": [
+        {
+          "name": "Getting there",
+          "body": [
+            "Rishikesh is about six to seven hours by road from Delhi, or a train to Haridwar and a short drive. Dehradun's Jolly Grant airport is about 20 km from Rishikesh."
+          ],
+          "links": [
+            {
+              "label": "Weekend adventure trips from Delhi",
+              "href": "/blog/weekend-adventure-trips-from-delhi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "heading": "Other swings and drops",
+      "paras": [
+        "If a full bungee jump feels like too much, the giant swing at Mohan Chatti gives a similar free-fall feeling as you swing out over the gorge, and flying foxes and ziplines are common at adventure parks. They are good options for friends who want to join in without jumping."
+      ]
+    }
+  ],
+  "safety": [
+    "Jump only with an established operator using a fixed structure, trained jump masters and certified equipment.",
+    "Be honest about your weight and health on the form; the cord is chosen for your weight.",
+    "Remove glasses, jewellery and anything in your pockets before jumping.",
+    "Do not jump after alcohol, on a full stomach or when unwell.",
+    "Follow the jump master's instructions exactly, including body position.",
+    "If anything about the set-up feels rushed or unclear, do not jump; ask for a later slot or leave."
+  ],
+  "faqs": [
+    {
+      "q": "Where is the highest bungee jump in India?",
+      "a": "At Jumpin Heights, Mohan Chatti, about 25 km from Rishikesh. The jump is about 83 metres from a fixed platform."
+    },
+    {
+      "q": "What is the age limit for bungee jumping in Rishikesh?",
+      "a": "The operator's published minimum age has been 12, with an upper age limit and a weight range of about 40 to 110 kg. Confirm current rules when booking."
+    },
+    {
+      "q": "Is bungee jumping in Rishikesh open in the monsoon?",
+      "a": "It usually closes for the peak monsoon, roughly mid-July to mid-September."
+    },
+    {
+      "q": "Is bungee jumping safe?",
+      "a": "With an established operator, trained jump masters and well-maintained equipment it is considered low risk, but it is not suitable for people with heart, spine or eye conditions, or during pregnancy."
+    },
+    {
+      "q": "Where can I do bungee jumping in Goa?",
+      "a": "Over Mayem Lake in north Goa, from a height of about 55 metres."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Rishikesh travel guide",
+      "href": "/blog/rishikesh-adventure-travel-guide"
+    },
+    {
+      "label": "Things to do in Rishikesh",
+      "href": "/blog/things-to-do-in-rishikesh"
+    },
+    {
+      "label": "Rishikesh 5-day itinerary",
+      "href": "/blog/rishikesh-adventure-travel-guide#itinerary"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Skydiving in India",
+      "href": "/blog/skydiving-in-india",
+      "note": "a longer free fall"
+    },
+    {
+      "name": "Weekend adventure trips from Delhi",
+      "href": "/blog/weekend-adventure-trips-from-delhi",
+      "note": "Rishikesh over a weekend"
+    },
+    {
+      "name": "Adventure sports in India",
+      "href": "/blog/adventure-sports-in-india",
+      "note": "every activity in one place"
+    }
+  ],
+  "places": [
+    "Mohan Chatti",
+    "Rishikesh",
+    "Mayem Lake",
+    "Lonavala"
+  ],
+  "styles": [
+    "adventure-tours",
+    "weekend-getaways"
+  ],
+  "planDestination": "Rishikesh",
+  "updated": "2026-09-25"
+}

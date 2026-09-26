@@ -1,0 +1,444 @@
+{
+ "slug": "famous-temples-in-india",
+ "kind": "pillar",
+ "short": "Famous temples in India",
+ "title": "Famous Temples in India: A Region-by-Region Guide for Visitors",
+ "seoTitle": "Famous Temples in India: A Region-by-Region Guide | Kudozz Club",
+ "metaDescription": "India's famous temples region by region, from Kashi Vishwanath and Kedarnath to Meenakshi, Tirumala, Jagannath, Konark and Khajuraho, with UNESCO sites and tips.",
+ "description": "A region-by-region guide to India's famous temples for visitors: living pilgrimage temples such as Kashi Vishwanath, Tirumala, Meenakshi and Jagannath, UNESCO-listed temples such as Brihadeeswarar, Khajuraho, Konark, Hampi, Pattadakal, Ramappa and the Hoysala temples, temple architecture styles, dress codes and entry rules.",
+ "dek": "India's temples range from busy pilgrimage shrines to thousand-year-old masterpieces of stone. Here is where to find the best known, region by region.",
+ "primaryKeyword": "famous temples in India",
+ "secondaryKeywords": [
+  "temple tourism India",
+  "ancient temples India",
+  "Hindu temples India",
+  "temple tour India"
+ ],
+ "searchIntent": "Informational/discovery",
+ "activities": [
+  "temple visit",
+  "darshan",
+  "heritage",
+  "architecture"
+ ],
+ "terrain": [
+  "temple town",
+  "mountains",
+  "coast"
+ ],
+ "regions": [
+  "Tamil Nadu",
+  "Karnataka",
+  "Kerala",
+  "Andhra Pradesh",
+  "Telangana",
+  "Odisha",
+  "Madhya Pradesh",
+  "Uttar Pradesh",
+  "Uttarakhand",
+  "Gujarat",
+  "Maharashtra",
+  "Rajasthan"
+ ],
+ "seasons": [
+  "winter",
+  "spring"
+ ],
+ "travellers": [
+  "families",
+  "couples",
+  "senior travellers"
+ ],
+ "tags": [
+  "Temples",
+  "Temple Tourism",
+  "UNESCO",
+  "Architecture"
+ ],
+ "hero": {
+  "src": "/images/spiritual/famous-temples-meenakshi-madurai.webp",
+  "alt": "A painted gopuram of the Meenakshi Amman Temple in Madurai, Tamil Nadu"
+ },
+ "parent": {
+  "label": "Spiritual Tourism",
+  "href": "/spiritual-tourism"
+ },
+ "about": {
+  "type": "Thing",
+  "name": "Famous temples in India"
+ },
+ "intro": [
+  "India has two kinds of famous temple, and many are both. Living pilgrimage temples such as Tirumala, Kashi Vishwanath or Jagannath in Puri draw daily crowds for darshan. Historic temples such as Konark, Khajuraho or the Chola temples of Thanjavur are celebrated as architecture, and several are UNESCO World Heritage Sites.",
+  "Styles differ by region: the curved Nagara towers of the north, the Dravida gopurams and vimanas of the south, the Kalinga temples of Odisha and the star-shaped Hoysala temples of Karnataka. This guide groups the best-known temples by region, with links to our detailed guides."
+ ],
+ "quickAnswer": "India's most famous temples include Kashi Vishwanath (Varanasi), Kedarnath and Badrinath (Uttarakhand), Somnath and Dwarkadhish (Gujarat), Jagannath (Puri), Tirumala Venkateswara (Andhra Pradesh), Meenakshi (Madurai), Ramanathaswamy (Rameswaram) and Guruvayur (Kerala). UNESCO-listed temples include Brihadeeswarar at Thanjavur, Khajuraho, Konark, Hampi, Pattadakal, Mahabalipuram, Ramappa and the Hoysala temples of Belur and Halebidu.",
+ "takeaways": [
+  "Living pilgrimage temples and historic monument temples are both worth visiting, with different rules.",
+  "Several temples, including Brihadeeswarar, Khajuraho, Konark and Hampi, are UNESCO World Heritage Sites.",
+  "Some temples admit only Hindus, and many southern temples have strict dress codes.",
+  "Nagara, Dravida, Kalinga and Hoysala styles make each region's temples distinctive.",
+  "October to March is the most comfortable time to visit most temple towns."
+ ],
+ "sections": [
+  {
+   "id": "north",
+   "heading": "North and central India",
+   "items": [
+    {
+     "name": "Kashi Vishwanath, Varanasi",
+     "body": [
+      "The Jyotirlinga in the old city, now reached through the Kashi Vishwanath Dham corridor."
+     ],
+     "links": [
+      {
+       "label": "Varanasi guide: Kashi Vishwanath",
+       "href": "/blog/varanasi-travel-guide#kashi-vishwanath"
+      }
+     ]
+    },
+    {
+     "name": "Kedarnath and Badrinath",
+     "body": [
+      "The Himalayan shrines of Shiva and Vishnu, open in summer."
+     ],
+     "links": [
+      {
+       "label": "Kedarnath guide",
+       "href": "/blog/kedarnath-travel-guide"
+      },
+      {
+       "label": "Badrinath guide",
+       "href": "/blog/badrinath-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Ram Mandir, Ayodhya",
+     "body": [
+      "The new temple at Ram Janmabhoomi, consecrated in January 2024."
+     ],
+     "links": [
+      {
+       "label": "Ayodhya guide",
+       "href": "/blog/ayodhya-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Khajuraho",
+     "body": [
+      "Chandela temples of the 10th and 11th centuries with sculpted walls; a UNESCO site."
+     ],
+     "links": [
+      {
+       "label": "Khajuraho guide",
+       "href": "/blog/khajuraho-travel-guide"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/madhya-pradesh/madhya-pradesh/kandariya-mahadeva-temple-khajuraho-sunset.webp",
+      "alt": "The Kandariya Mahadeva temple at Khajuraho at sunset",
+      "caption": "Kandariya Mahadeva, Khajuraho"
+     }
+    },
+    {
+     "name": "Mahakaleshwar and Omkareshwar",
+     "body": [
+      "Two Jyotirlingas in Madhya Pradesh."
+     ],
+     "links": [
+      {
+       "label": "Ujjain guide",
+       "href": "/blog/ujjain-travel-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "west",
+   "heading": "West India",
+   "list": [
+    "Somnath and Dwarkadhish on the Saurashtra coast.",
+    "Shrinathji at Nathdwara and Brahma's temple at Pushkar, Rajasthan.",
+    "The Jain temples of Ranakpur, Dilwara and Palitana.",
+    "Siddhivinayak in Mumbai, Shirdi, and the Jyotirlingas of Maharashtra.",
+    "Ellora's rock-cut Kailasa temple, a UNESCO site."
+   ]
+  },
+  {
+   "id": "south",
+   "heading": "South India",
+   "items": [
+    {
+     "name": "Meenakshi Amman, Madurai",
+     "body": [
+      "A temple city of towering painted gopurams and pillared halls."
+     ],
+     "links": [
+      {
+       "label": "Madurai guide",
+       "href": "/blog/madurai-travel-guide"
+      }
+     ],
+     "image": {
+      "src": "/images/blogs/tamil-nadu/tamil-nadu/meenakshi-temple-gopuram-madurai.webp",
+      "alt": "A painted gopuram of the Meenakshi Temple in Madurai",
+      "caption": "Meenakshi Temple, Madurai"
+     }
+    },
+    {
+     "name": "Brihadeeswarar, Thanjavur",
+     "body": [
+      "A Chola temple completed in 1010 CE, part of the UNESCO Great Living Chola Temples."
+     ],
+     "links": [
+      {
+       "label": "Thanjavur guide",
+       "href": "/blog/thanjavur-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Tirumala Venkateswara",
+     "body": [
+      "One of the most visited shrines in India, above Tirupati."
+     ],
+     "links": [
+      {
+       "label": "Tirupati guide",
+       "href": "/blog/tirupati-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Rameswaram, Srirangam, Chidambaram and Kanchipuram",
+     "body": [
+      "Tamil Nadu's great temple towns, each with its own traditions."
+     ],
+     "links": [
+      {
+       "label": "Rameswaram guide",
+       "href": "/blog/rameswaram-travel-guide"
+      },
+      {
+       "label": "Chidambaram guide",
+       "href": "/blog/chidambaram-travel-guide"
+      },
+      {
+       "label": "Kanchipuram guide",
+       "href": "/blog/kanchipuram-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Karnataka and Kerala",
+     "body": [
+      "Hampi's Virupaksha, Udupi's Krishna Matha, the Hoysala temples of Belur and Halebidu, and Guruvayur and Padmanabhaswamy in Kerala."
+     ],
+     "links": [
+      {
+       "label": "Hampi guide",
+       "href": "/blog/hampi-travel-guide"
+      },
+      {
+       "label": "Guruvayur guide",
+       "href": "/blog/guruvayur-travel-guide"
+      }
+     ]
+    },
+    {
+     "name": "Telangana",
+     "body": [
+      "The UNESCO-listed Ramappa temple, Yadadri and Bhadrachalam."
+     ],
+     "links": [
+      {
+       "label": "Things to do in Warangal",
+       "href": "/blog/things-to-do-in-warangal"
+      },
+      {
+       "label": "Yadadri guide",
+       "href": "/blog/yadadri-travel-guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "east",
+   "heading": "East and north-east India",
+   "list": [
+    "Jagannath Temple, Puri, and the Sun Temple at Konark (UNESCO), Odisha.",
+    "Lingaraj and the old temples of Bhubaneswar.",
+    "Kamakhya in Guwahati, a major Shakti Peetha.",
+    "Dakshineswar and Kalighat in and around Kolkata.",
+    "Baidyanath Dham at Deoghar, Jharkhand."
+   ]
+  },
+  {
+   "id": "unesco",
+   "heading": "UNESCO-listed temples",
+   "table": {
+    "columns": [
+     "Site",
+     "State"
+    ],
+    "rows": [
+     [
+      "Great Living Chola Temples (Thanjavur and others)",
+      "Tamil Nadu"
+     ],
+     [
+      "Mahabalipuram group of monuments",
+      "Tamil Nadu"
+     ],
+     [
+      "Khajuraho group of monuments",
+      "Madhya Pradesh"
+     ],
+     [
+      "Sun Temple, Konark",
+      "Odisha"
+     ],
+     [
+      "Hampi group of monuments",
+      "Karnataka"
+     ],
+     [
+      "Pattadakal group of monuments",
+      "Karnataka"
+     ],
+     [
+      "Sacred ensembles of the Hoysalas (Belur, Halebidu, Somanathapura)",
+      "Karnataka"
+     ],
+     [
+      "Ramappa (Rudreswara) Temple",
+      "Telangana"
+     ],
+     [
+      "Ellora Caves",
+      "Maharashtra"
+     ],
+     [
+      "Mahabodhi Temple, Bodh Gaya",
+      "Bihar"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "rules",
+   "heading": "Dress codes and entry rules",
+   "list": [
+    "Many south Indian temples ask men to wear a dhoti or mundu and remove shirts, and women to wear sarees or long traditional dress; examples include Padmanabhaswamy in Thiruvananthapuram and Guruvayur.",
+    "Some temples, including Jagannath in Puri, Guruvayur and Padmanabhaswamy, admit only Hindus.",
+    "Phones, cameras and bags are often not allowed inside; use the cloakrooms.",
+    "Monument temples run by the ASI have tickets and fixed hours; living temples follow ritual timings."
+   ]
+  }
+ ],
+ "safety": [
+  "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+  "Follow each temple's dress code and entry rules; check them before you travel.",
+  "Keep valuables secure in crowded temple towns.",
+  "Hire guides only from official counters at monument sites."
+ ],
+ "packing": [
+  "Traditional clothes for southern temples (dhoti or mundu; saree or long dress)",
+  "Slip-on footwear and socks for hot floors",
+  "A small bag without leather for Jain temples",
+  "Water and a hat for monument sites"
+ ],
+ "faqs": [
+  {
+   "q": "Which is the most famous temple in India?",
+   "a": "Several are equally famous: Kashi Vishwanath, Tirumala, the Jagannath Temple in Puri and the Meenakshi Temple in Madurai are among the best known."
+  },
+  {
+   "q": "Which Indian temples are UNESCO World Heritage Sites?",
+   "a": "Among them are the Brihadeeswarar and other Chola temples, Khajuraho, Konark, Hampi, Pattadakal, Mahabalipuram, Ramappa, the Hoysala temples and Ellora."
+  },
+  {
+   "q": "Do Indian temples have a dress code?",
+   "a": "Many do, especially in the south, where traditional dress is required at temples such as Padmanabhaswamy and Guruvayur."
+  },
+  {
+   "q": "Can non-Hindus enter all temples?",
+   "a": "No. Some temples, including Jagannath in Puri, admit only Hindus; check each temple's rules."
+  },
+  {
+   "q": "What are the main temple architecture styles?",
+   "a": "Nagara in the north, Dravida in the south, Kalinga in Odisha and the Hoysala style in Karnataka, among others."
+  },
+  {
+   "q": "What is the best time to visit temple towns?",
+   "a": "October to March for most of India; summer for the Himalayan shrines."
+  }
+ ],
+ "nextSteps": [
+  {
+   "label": "Best pilgrimage places in India",
+   "href": "/blog/best-pilgrimage-places-in-india"
+  },
+  {
+   "label": "The 12 Jyotirlingas",
+   "href": "/blog/12-jyotirlingas-in-india"
+  },
+  {
+   "label": "Spiritual tourism in Tamil Nadu",
+   "href": "/blog/spiritual-tourism-in-tamil-nadu"
+  },
+  {
+   "label": "Spiritual tour packages",
+   "href": "/packages/spiritual-tours"
+  },
+  {
+   "label": "Tamil Nadu tour packages",
+   "href": "/packages/tamil-nadu"
+  }
+ ],
+ "related": [
+  {
+   "name": "Shakti Peethas in India",
+   "href": "/blog/shakti-peethas-in-india",
+   "note": "Devi temples"
+  },
+  {
+   "name": "Spiritual tourism in Odisha",
+   "href": "/blog/spiritual-tourism-in-odisha",
+   "note": "Puri and Konark"
+  },
+  {
+   "name": "Pilgrimage packing list",
+   "href": "/blog/pilgrimage-packing-list",
+   "note": "what to wear"
+  },
+  {
+   "name": "Temple architecture of India",
+   "href": "/blog/temple-architecture-of-india",
+   "note": "how to read the styles"
+  }
+ ],
+ "places": [
+  "Varanasi",
+  "Kedarnath",
+  "Ayodhya",
+  "Khajuraho",
+  "Somnath",
+  "Madurai",
+  "Thanjavur",
+  "Tirumala",
+  "Hampi",
+  "Puri",
+  "Konark",
+  "Guwahati"
+ ],
+ "styles": [
+  "spiritual-tours",
+  "family-holidays"
+ ],
+ "planDestination": "temples of India",
+ "updated": "2026-09-26"
+}

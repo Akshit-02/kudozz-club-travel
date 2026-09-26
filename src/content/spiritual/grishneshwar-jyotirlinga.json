@@ -1,0 +1,292 @@
+{
+  "slug": "grishneshwar-jyotirlinga",
+  "kind": "destination",
+  "short": "Grishneshwar",
+  "title": "Grishneshwar Jyotirlinga: Temple Guide near Ellora",
+  "seoTitle": "Grishneshwar Jyotirlinga near Ellora: Temple Guide | Kudozz Club",
+  "metaDescription": "Visit Grishneshwar Jyotirlinga at Verul beside the Ellora Caves: the temple, darshan customs, how to reach from Chhatrapati Sambhajinagar and nearby sights.",
+  "description": "A visitor's guide to Grishneshwar (Ghrishneshwar) Jyotirlinga at Verul: the legend of Ghushma, the red-stone temple restored by Ahilyabai Holkar, darshan customs, how to reach from Chhatrapati Sambhajinagar, combining it with the Ellora Caves, Daulatabad and Shirdi, and the best time.",
+  "dek": "The last of the twelve Jyotirlingas in the traditional list stands a short walk from the Ellora Caves, so one day covers both.",
+  "primaryKeyword": "Grishneshwar temple",
+  "secondaryKeywords": [
+    "Grishneshwar jyotirlinga",
+    "Ghrishneshwar",
+    "Grishneshwar Ellora"
+  ],
+  "searchIntent": "Destination planning",
+  "activities": [
+    "Jyotirlinga",
+    "Shiva temples",
+    "darshan",
+    "heritage"
+  ],
+  "terrain": [
+    "temple town"
+  ],
+  "regions": [
+    "Maharashtra",
+    "West India"
+  ],
+  "seasons": [
+    "winter",
+    "monsoon",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "couples"
+  ],
+  "tags": [
+    "Grishneshwar",
+    "Jyotirlinga",
+    "Ellora",
+    "Chhatrapati Sambhajinagar"
+  ],
+  "hero": {
+    "src": "/images/spiritual/grishneshwar-temple-ellora.webp",
+    "alt": "The red-stone Grishneshwar Temple at Verul, near Ellora, Maharashtra"
+  },
+  "parent": {
+    "label": "The 12 Jyotirlingas",
+    "href": "/blog/12-jyotirlingas-in-india"
+  },
+  "about": {
+    "type": "TouristAttraction",
+    "name": "Grishneshwar Temple",
+    "containedIn": "Maharashtra"
+  },
+  "intro": [
+    "Grishneshwar Temple, also spelt Ghrishneshwar or Grushneshwar, is in Verul village, about 1.5 km from the Ellora Caves and about 30 km from Chhatrapati Sambhajinagar (formerly Aurangabad). Tradition links it to Ghushma, a devotee whose faith was rewarded by Shiva, which gives the temple its name.",
+    "The present temple of red basalt was restored in the 18th century by Ahilyabai Holkar of Indore, who also rebuilt many other temples across India; an earlier restoration is credited to Maloji Bhosale, grandfather of Shivaji. It is one of the smaller Jyotirlinga temples, and queues are usually shorter than at the more famous shrines."
+  ],
+  "quickAnswer": "Grishneshwar Jyotirlinga is at Verul, about 1.5 km from the Ellora Caves and about 30 km from Chhatrapati Sambhajinagar. Most visitors combine darshan with Ellora in one day; note that Ellora is closed on Tuesdays. Men are usually asked to remove shirts before entering the sanctum. October to March is the best time, and Mondays and Shivratri are the busiest days.",
+  "takeaways": [
+    "Grishneshwar is 1.5 km from the Ellora Caves and about 30 km from Chhatrapati Sambhajinagar.",
+    "The red-stone temple was restored by Ahilyabai Holkar in the 18th century.",
+    "Men are usually asked to remove shirts before entering the sanctum.",
+    "Combine it with Ellora (closed on Tuesdays), Daulatabad and Shirdi.",
+    "Queues are usually shorter than at the bigger Jyotirlingas, except on Mondays and festivals."
+  ],
+  "sections": [
+    {
+      "id": "temple",
+      "heading": "The temple",
+      "paras": [
+        "The temple has a five-tiered shikhara and a hall of carved red stone, with sculptures of deities and scenes from the epics. Devotees can often touch the linga in the sanctum, which is unusual among the Jyotirlingas; follow the priests' instructions and the rules posted at the entrance."
+      ],
+      "items": [
+        {
+          "name": "At a glance",
+          "body": [
+            "Key facts for visitors."
+          ],
+          "facts": {
+            "Location": "Verul, Chhatrapati Sambhajinagar district",
+            "Also spelt": "Ghrishneshwar, Grushneshwar",
+            "Restored": "18th century, by Ahilyabai Holkar",
+            "Nearby": "Ellora Caves, 1.5 km"
+          }
+        }
+      ]
+    },
+    {
+      "id": "darshan",
+      "heading": "Darshan customs",
+      "list": [
+        "Men are usually asked to remove shirts and vests before entering the sanctum.",
+        "Leather belts and bags may not be allowed inside.",
+        "Weekday mornings are quietest; Mondays, Shravan and Maha Shivratri are busiest.",
+        "Photography inside the sanctum is not allowed."
+      ]
+    },
+    {
+      "id": "nearby",
+      "heading": "Combine it with",
+      "items": [
+        {
+          "name": "Ellora Caves",
+          "body": [
+            "A UNESCO World Heritage Site of Buddhist, Hindu and Jain cave temples, including the monolithic Kailasa temple (Cave 16). Closed on Tuesdays."
+          ],
+          "links": [
+            {
+              "label": "Ajanta and Ellora guide",
+              "href": "/blog/ajanta-ellora-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/maharashtra/ellora-caves-maharashtra.webp",
+            "alt": "Rock-cut cave temples at Ellora, Maharashtra",
+            "caption": "The Ellora Caves, near Grishneshwar"
+          }
+        },
+        {
+          "name": "Daulatabad Fort",
+          "body": [
+            "A hilltop fortress about 15 km away on the road to the city."
+          ]
+        },
+        {
+          "name": "Shirdi",
+          "body": [
+            "The Sai Baba temple town, about 100 km away, often combined on the same trip."
+          ],
+          "links": [
+            {
+              "label": "Shirdi guide",
+              "href": "/blog/shirdi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "The city",
+          "body": [
+            "Bibi Ka Maqbara and the city's gates and markets."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Aurangabad",
+              "href": "/blog/things-to-do-in-aurangabad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reach",
+      "heading": "How to reach and where to stay",
+      "list": [
+        "From Chhatrapati Sambhajinagar: about 30 km by taxi or bus, around 45 minutes.",
+        "The city has an airport and a railway station with connections to Mumbai, Pune, Delhi and Hyderabad.",
+        "From Shirdi: about 100 km; from Nashik: about 185 km.",
+        "Stay in the city for more choice, or at simple lodges in Verul near the temple and caves."
+      ]
+    },
+    {
+      "id": "one-day",
+      "heading": "A one-day plan",
+      "table": {
+        "columns": [
+          "Time",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "Early morning",
+            "Grishneshwar darshan before the crowds"
+          ],
+          [
+            "Morning to afternoon",
+            "Ellora Caves, starting with the Kailasa temple"
+          ],
+          [
+            "Late afternoon",
+            "Daulatabad Fort on the way back to the city"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "legend",
+      "heading": "The legend of Ghushma",
+      "paras": [
+        "According to the Shiva Purana, Ghushma was a devout woman who made and worshipped clay lingas every day and immersed them in a nearby tank. When her son was killed out of jealousy, she continued her worship calmly, and Shiva restored the boy and remained here as Ghushmeshwar at her request. The story is told to pilgrims as a lesson in faith and forgiveness, and the tank near the temple is associated with it."
+      ]
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Dress modestly (shoulders and knees covered) and follow the temple's rules on phones, bags and photography.",
+    "Carry water and a hat for Ellora, which is exposed to the sun."
+  ],
+  "packing": [
+    "Modest clothing that is easy to adjust for the sanctum",
+    "Slip-on footwear and socks for hot stone floors",
+    "Hat, sunscreen and water for Ellora",
+    "Small bag without leather",
+    "Cash for offerings, parking and snacks"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Grishneshwar from Ellora?",
+      "a": "About 1.5 km; you can walk or take a short auto ride."
+    },
+    {
+      "q": "Do men have to remove shirts at Grishneshwar?",
+      "a": "Men are usually asked to remove shirts and vests before entering the sanctum."
+    },
+    {
+      "q": "How far is Grishneshwar from Chhatrapati Sambhajinagar (Aurangabad)?",
+      "a": "About 30 km, around 45 minutes by road."
+    },
+    {
+      "q": "Can I visit Grishneshwar and Ellora on the same day?",
+      "a": "Yes. Most visitors do both in one day; Ellora is closed on Tuesdays."
+    },
+    {
+      "q": "What else is there to see near Grishneshwar?",
+      "a": "The Ellora Caves, Daulatabad Fort, Khuldabad and Bibi Ka Maqbara in the city; Shirdi is about 100 km away."
+    },
+    {
+      "q": "Is photography allowed inside Grishneshwar?",
+      "a": "Photography inside the sanctum is not allowed; follow the notices at the entrance."
+    },
+    {
+      "q": "Who built the Grishneshwar temple?",
+      "a": "The present temple was restored in the 18th century by Ahilyabai Holkar, after an earlier restoration credited to Maloji Bhosale."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Aurangabad",
+      "href": "/blog/things-to-do-in-aurangabad"
+    },
+    {
+      "label": "Ajanta and Ellora guide",
+      "href": "/blog/ajanta-ellora-travel-guide"
+    },
+    {
+      "label": "Jyotirlingas in Maharashtra",
+      "href": "/blog/jyotirlingas-in-maharashtra"
+    },
+    {
+      "label": "Maharashtra tour packages",
+      "href": "/packages/maharashtra"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "The 12 Jyotirlingas",
+      "href": "/blog/12-jyotirlingas-in-india",
+      "note": "the full list"
+    },
+    {
+      "name": "Spiritual tourism in Maharashtra",
+      "href": "/blog/spiritual-tourism-in-maharashtra",
+      "note": "the state's pilgrim routes"
+    },
+    {
+      "name": "Famous temples in India",
+      "href": "/blog/famous-temples-in-india",
+      "note": "temples region by region"
+    }
+  ],
+  "places": [
+    "Verul",
+    "Ellora",
+    "Daulatabad",
+    "Chhatrapati Sambhajinagar",
+    "Shirdi"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Grishneshwar and Ellora",
+  "updated": "2026-09-26"
+}

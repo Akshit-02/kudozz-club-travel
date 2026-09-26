@@ -1,0 +1,397 @@
+{
+  "slug": "snorkeling-in-india",
+  "kind": "activity",
+  "short": "Snorkelling in India",
+  "title": "Snorkelling in India: Best Reefs and Lagoons",
+  "seoTitle": "Snorkelling in India: Best Reefs, Lagoons & Seasons | Kudozz Club",
+  "metaDescription": "The best places for snorkelling in India, from Elephant Beach, North Bay and Jolly Buoy to Lakshadweep and Malvan, with seasons and reef tips.",
+  "description": "Where to go snorkelling in India, from Andaman reefs such as Elephant Beach, North Bay and Jolly Buoy to the lagoons of Lakshadweep and the Konkan and Karnataka coasts, with the best months, how guided snorkelling works and how to protect the reef.",
+  "dek": "Snorkelling is the simplest way to see India's coral reefs: no course, no heavy equipment, and many sites are a short boat ride from the beach.",
+  "primaryKeyword": "snorkeling in India",
+  "secondaryKeywords": [
+    "snorkelling in Andaman",
+    "best places for snorkeling in India",
+    "Elephant Beach snorkelling",
+    "Lakshadweep snorkelling"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "snorkelling"
+  ],
+  "terrain": [
+    "sea",
+    "islands",
+    "beaches"
+  ],
+  "regions": [
+    "Andaman and Nicobar Islands",
+    "Lakshadweep",
+    "Maharashtra",
+    "Karnataka",
+    "Goa"
+  ],
+  "seasons": [
+    "autumn",
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "beginners",
+    "couples"
+  ],
+  "tags": [
+    "Snorkelling",
+    "Andaman",
+    "Lakshadweep",
+    "Water Sports"
+  ],
+  "hero": {
+    "src": "/images/adventure/snorkelling-reef-andaman.webp",
+    "alt": "Branching coral and reef fish at Elephant Beach, Havelock Island",
+    "caption": "Elephant Beach reef, Havelock"
+  },
+  "parent": {
+    "label": "Scuba Diving in India",
+    "href": "/blog/scuba-diving-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Snorkelling in India"
+  },
+  "intro": [
+    "Snorkelling means floating face-down on the surface with a mask, snorkel and usually a life jacket, looking at the reef below. In India most snorkelling is guided: a local guide swims with you, often holding a ring buoy for less confident swimmers, and points out corals, clownfish and turtles when they appear.",
+    "The best snorkelling in India is in the Andaman Islands and Lakshadweep, where the reefs are shallow and the water is clear in the dry season. There is also snorkelling off Malvan and Tarkarli in Maharashtra, at Netrani Island in Karnataka and around Grande Island in Goa, though visibility on the mainland coast is lower."
+  ],
+  "quickAnswer": "The best places for snorkelling in India are Elephant Beach on Havelock Island, North Bay near Port Blair and Jolly Buoy Island in the Andamans, the lagoons of Lakshadweep, Neil Island, and Malvan, Netrani and Grande Island on the west coast. Go between about November and April for calm seas and clear water. Guides and life jackets are usually provided, so non-swimmers can join.",
+  "takeaways": [
+    "The Andamans and Lakshadweep have India's best snorkelling reefs.",
+    "Most snorkelling is guided and includes a life jacket, so strong swimming is not essential.",
+    "The best months are roughly November to April; the monsoon brings rough seas.",
+    "Jolly Buoy is in a marine national park and is open only in season; boats leave from Wandoor.",
+    "Never stand on or touch coral, and use reef-safe sunscreen or a rash guard instead."
+  ],
+  "sections": [
+    {
+      "id": "andaman",
+      "heading": "Snorkelling in the Andaman Islands",
+      "items": [
+        {
+          "name": "Elephant Beach, Havelock Island",
+          "body": [
+            "Elephant Beach, reached by boat from Havelock's jetty or a forest walk, has a shallow reef close to the shore and is the most popular snorkelling spot in the Andamans. It is busy in the middle of the day; go early."
+          ],
+          "facts": {
+            "Access": "Boat or forest trek from Havelock",
+            "Good for": "Families and first-timers"
+          },
+          "links": [
+            {
+              "label": "Havelock Island guide",
+              "href": "/blog/havelock-island-andaman-travel-guide"
+            },
+            {
+              "label": "Things to do on Havelock",
+              "href": "/blog/things-to-do-in-havelock-island"
+            }
+          ]
+        },
+        {
+          "name": "North Bay Island, Port Blair",
+          "body": [
+            "North Bay, facing Port Blair, has coral in shallow water and is combined with glass-bottom boat rides, sea walks and try dives. It suits a half day from Port Blair."
+          ],
+          "facts": {
+            "Access": "Boat from Port Blair",
+            "Good for": "Short trips"
+          },
+          "links": [
+            {
+              "label": "North Bay Island guide",
+              "href": "/blog/north-bay-island-andaman-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/andaman/north-bay-island-coral-reef.webp",
+            "alt": "Coral in clear shallow water at North Bay Island, Andaman",
+            "caption": "North Bay Island"
+          }
+        },
+        {
+          "name": "Jolly Buoy Island, Mahatma Gandhi Marine National Park",
+          "body": [
+            "Jolly Buoy lies in the Mahatma Gandhi Marine National Park, about an hour by boat from Wandoor near Port Blair. It has some of the best-protected shallow reefs in the islands. Entry is by permit through the forest department, numbers are limited, plastic is banned, and the island is open only in the dry season (Red Skin Island is used when Jolly Buoy is closed)."
+          ],
+          "facts": {
+            "Access": "Boat from Wandoor; permit required",
+            "Good for": "Clearer, quieter reefs"
+          },
+          "links": [
+            {
+              "label": "Jolly Buoy Island guide",
+              "href": "/blog/jolly-buoy-island-andaman-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Neil Island",
+          "body": [
+            "On Shaheed Dweep (Neil Island), Bharatpur beach has calm, shallow water for snorkelling at high tide, and guides take snorkellers to nearby reefs."
+          ],
+          "facts": {
+            "Good for": "Relaxed snorkelling"
+          },
+          "links": [
+            {
+              "label": "Neil Island guide",
+              "href": "/blog/neil-island-andaman-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lakshadweep",
+      "heading": "Snorkelling in Lakshadweep",
+      "paras": [
+        "Lakshadweep's islands are coral atolls with shallow lagoons protected by an outer reef. Snorkelling in the lagoons at islands open to visitors, such as Agatti, Bangaram and Kadmat, is calm and clear in the dry season, and resorts and tour packages usually include it.",
+        "Every visitor needs an entry permit, usually arranged with the tour package, and the islands are reached by flight to Agatti or by ship from Kochi."
+      ],
+      "items": [
+        {
+          "name": "Agatti Island",
+          "body": [
+            "Agatti, with the islands' airstrip, has a lagoon with shallow coral and seagrass where turtles are often seen."
+          ],
+          "facts": {
+            "Good for": "Families, calm water"
+          },
+          "links": [
+            {
+              "label": "Agatti Island guide",
+              "href": "/blog/agatti-island-travel-guide"
+            },
+            {
+              "label": "Lakshadweep travel guide",
+              "href": "/blog/lakshadweep-island-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/lakshadweep/agatti-island/agatti-coral-reef-fish.webp",
+            "alt": "Reef fish over coral in the lagoon at Agatti, Lakshadweep",
+            "caption": "Agatti lagoon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mainland",
+      "heading": "Snorkelling on the mainland coast",
+      "items": [
+        {
+          "name": "Malvan and Tarkarli, Maharashtra",
+          "body": [
+            "Boats from Malvan jetty take snorkellers to rocky reefs near Sindhudurg Fort. Visibility is best from about November to March. It is a short, inexpensive outing on a Konkan coast trip."
+          ],
+          "facts": {
+            "Season": "About October to April"
+          },
+          "links": [
+            {
+              "label": "Tarkarli travel guide",
+              "href": "/blog/tarkarli-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Netrani Island, Karnataka",
+          "body": [
+            "Dive operators in Murudeshwar also take snorkellers to Netrani Island, about an hour offshore. The reef has more fish than most mainland sites."
+          ],
+          "facts": {
+            "Season": "About October to May"
+          }
+        },
+        {
+          "name": "Grande Island, Goa",
+          "body": [
+            "Boat trips from south Goa to Grande Island often include snorkelling and dolphin spotting. Water clarity is modest but it is easy to add to a Goa holiday."
+          ],
+          "facts": {
+            "Season": "About October to April"
+          },
+          "links": [
+            {
+              "label": "Adventure activities in Goa",
+              "href": "/blog/adventure-activities-in-goa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "heading": "Where to snorkel, compared",
+      "table": {
+        "columns": [
+          "Place",
+          "Reef quality",
+          "Access",
+          "Best months"
+        ],
+        "rows": [
+          [
+            "Elephant Beach, Havelock",
+            "Good, shallow",
+            "Boat or walk",
+            "November to April"
+          ],
+          [
+            "Jolly Buoy, Andamans",
+            "Very good, protected",
+            "Permit and boat from Wandoor",
+            "In season only"
+          ],
+          [
+            "North Bay, Port Blair",
+            "Good, busy",
+            "Boat from Port Blair",
+            "November to April"
+          ],
+          [
+            "Lakshadweep lagoons",
+            "Very good, clear",
+            "Flight or ship, permit",
+            "October to April"
+          ],
+          [
+            "Malvan and Tarkarli",
+            "Fair",
+            "Boat from Malvan",
+            "November to March"
+          ],
+          [
+            "Netrani Island",
+            "Good for the mainland",
+            "Boat from Murudeshwar",
+            "November to April"
+          ],
+          [
+            "Grande Island, Goa",
+            "Fair",
+            "Boat from south Goa",
+            "November to March"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "how",
+      "heading": "How guided snorkelling works",
+      "list": [
+        "Guides provide a mask, snorkel, fins and a life jacket. Check that the mask seals on your face before getting in.",
+        "Non-swimmers can often hold a ring buoy while the guide tows them over the reef.",
+        "Breathe slowly through your mouth; if water gets in, lift your head and clear the snorkel.",
+        "Float flat and keep your fins away from the reef; standing up in shallow water damages coral.",
+        "Sessions last 20 to 45 minutes, which is enough for most beginners."
+      ]
+    }
+  ],
+  "safety": [
+    "Wear a life jacket if you are not a strong swimmer, and stay near your guide.",
+    "Watch the tide and current; snorkel only where local guides say it is safe.",
+    "Follow crocodile warnings in the Andamans and avoid creeks and mangrove mouths.",
+    "Protect yourself from the sun with a rash guard; the back of your legs burns quickly.",
+    "Do not touch coral, sea urchins or fish, and never feed fish.",
+    "Do not take coral, shells or sand; it is illegal in protected areas and harms the reef."
+  ],
+  "packing": [
+    "Swimwear and a rash guard",
+    "Reef-safe sunscreen",
+    "Your own mask if you have one (a better fit than rentals)",
+    "A dry bag for phone and cash on boats",
+    "A towel and drinking water"
+  ],
+  "faqs": [
+    {
+      "q": "Where is the best snorkelling in India?",
+      "a": "The Andaman Islands, especially Elephant Beach, North Bay and Jolly Buoy, and the lagoons of Lakshadweep."
+    },
+    {
+      "q": "Can non-swimmers go snorkelling?",
+      "a": "Yes, at most guided sites. You wear a life jacket and the guide often tows you with a ring buoy."
+    },
+    {
+      "q": "What is the best time for snorkelling in the Andamans?",
+      "a": "About November to April, when seas are calm and the water is clear."
+    },
+    {
+      "q": "Is snorkelling better than scuba diving?",
+      "a": "They are different. Snorkelling is easy, cheap and shallow; scuba lets you go deeper and see more. Many people snorkel first and try a scuba dive later."
+    },
+    {
+      "q": "Do I need a permit to snorkel at Jolly Buoy?",
+      "a": "Yes. Jolly Buoy is in a marine national park, and entry permits are issued through the forest department, usually arranged with the boat ticket from Wandoor."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Andaman Islands travel guide",
+      "href": "/blog/andaman-islands-travel-guide"
+    },
+    {
+      "label": "Things to do in the Andamans",
+      "href": "/blog/things-to-do-in-andaman"
+    },
+    {
+      "label": "Andaman itinerary",
+      "href": "/blog/andaman-islands-travel-guide#itinerary"
+    },
+    {
+      "label": "Andaman tour packages",
+      "href": "/packages/andaman-nicobar"
+    },
+    {
+      "label": "Lakshadweep tour packages",
+      "href": "/packages/lakshadweep"
+    }
+  ],
+  "related": [
+    {
+      "name": "Scuba diving in India",
+      "href": "/blog/scuba-diving-in-india",
+      "note": "the next step down"
+    },
+    {
+      "name": "Scuba diving in the Andamans",
+      "href": "/blog/scuba-diving-in-andaman",
+      "note": "try dives and courses"
+    },
+    {
+      "name": "Water sports in India",
+      "href": "/blog/water-sports-in-india",
+      "note": "everything else on the water"
+    },
+    {
+      "name": "Best beaches in the Andamans",
+      "href": "/blog/best-beaches-in-andaman",
+      "note": "Elephant Beach and more"
+    }
+  ],
+  "places": [
+    "Elephant Beach",
+    "North Bay Island",
+    "Jolly Buoy Island",
+    "Neil Island",
+    "Agatti",
+    "Malvan",
+    "Netrani Island",
+    "Grande Island"
+  ],
+  "styles": [
+    "family-holidays",
+    "honeymoon"
+  ],
+  "planDestination": "Andaman",
+  "updated": "2026-09-25"
+}

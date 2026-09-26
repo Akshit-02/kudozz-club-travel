@@ -1,0 +1,363 @@
+{
+  "slug": "deccan-sultanate-heritage",
+  "kind": "destination",
+  "short": "Deccan sultanate heritage",
+  "title": "Deccan Heritage: Bijapur, Bidar, Gulbarga and Golconda",
+  "seoTitle": "Deccan Sultanate Heritage: Bidar, Bijapur & Golconda | Kudozz Club",
+  "metaDescription": "The monuments of the Bahmani and Deccan sultanates: Gulbarga, Bidar, Bijapur's Gol Gumbaz, Golconda, the Qutb Shahi tombs and Charminar, with a route and tips.",
+  "description": "A guide to the monuments of the Bahmani and Deccan sultanates: the forts and mosques of Kalaburagi (Gulbarga), Bidar's fort, madrasa and Bahmani tombs, Bijapur's Gol Gumbaz and Ibrahim Rauza, Golconda Fort, the Qutb Shahi tombs and Charminar in Hyderabad, and Ahmednagar, with a road-trip route and tips.",
+  "dek": "Between the 14th and 17th centuries, the sultanates of the Deccan built a distinctive architecture of great domes, citadels and tombs. It is still one of India's least crowded heritage trails.",
+  "primaryKeyword": "Deccan heritage",
+  "secondaryKeywords": [
+    "Bijapur Gol Gumbaz",
+    "Bidar fort",
+    "Deccan sultanate monuments"
+  ],
+  "searchIntent": "Discovery/itinerary",
+  "activities": [
+    "monuments",
+    "forts",
+    "heritage walks",
+    "photography"
+  ],
+  "terrain": [
+    "plateau",
+    "city"
+  ],
+  "regions": [
+    "Karnataka",
+    "Telangana",
+    "Maharashtra"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "travellers": [
+    "history lovers",
+    "photographers",
+    "couples"
+  ],
+  "tags": [
+    "Deccan",
+    "Bidar",
+    "Bijapur",
+    "Golconda",
+    "Hyderabad"
+  ],
+  "hero": {
+    "src": "/images/heritage/deccan-gol-gumbaz-vijayapura.webp",
+    "alt": "Gol Gumbaz, the tomb of Muhammad Adil Shah, at Vijayapura"
+  },
+  "parent": {
+    "label": "Heritage & Culture",
+    "href": "/heritage-cultural-tourism"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Deccan sultanate monuments",
+    "containedIn": "Karnataka, Telangana and Maharashtra"
+  },
+  "intro": [
+    "The Bahmani Sultanate was founded in the Deccan in 1347, first ruling from Gulbarga (now Kalaburagi) and later from Bidar. By the early 16th century it had broken into five successor states: the Adil Shahis of Bijapur, the Qutb Shahis of Golconda, the Nizam Shahis of Ahmednagar, the Barid Shahis of Bidar and the Imad Shahis of Berar.",
+    "Their builders mixed Persian, Turkish and local Deccan traditions into a style of their own. The Monuments and Forts of the Deccan Sultanate are on India's Tentative List for UNESCO. Hyderabad is well visited, but Bidar, Kalaburagi and Bijapur are still quiet."
+  ],
+  "quickAnswer": "The Deccan sultanate monuments include the fort and Jama Masjid at Kalaburagi (Gulbarga), Bidar Fort, the Mahmud Gawan madrasa and the Bahmani tombs at Ashtur, Bijapur's Gol Gumbaz and Ibrahim Rauza, and Golconda Fort, the Qutb Shahi tombs and Charminar in Hyderabad. A six-to-eight-day road trip from Hyderabad covers them. October to February is the best time.",
+  "takeaways": [
+    "The Bahmani Sultanate ruled from Gulbarga and then Bidar; five sultanates followed it.",
+    "Gol Gumbaz in Bijapur (Vijayapura) is famous for its huge dome and whispering gallery.",
+    "Hyderabad's Golconda, Qutb Shahi tombs and Charminar are the easiest to reach.",
+    "The monuments are on India's UNESCO Tentative List.",
+    "Winter is the only comfortable season; the plateau is very hot from March."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Key monuments",
+      "table": {
+        "columns": [
+          "Monument",
+          "Place",
+          "Dynasty",
+          "Known for"
+        ],
+        "rows": [
+          [
+            "Gulbarga Fort and Jama Masjid",
+            "Kalaburagi",
+            "Bahmani",
+            "Mosque roofed with domes over the whole prayer hall"
+          ],
+          [
+            "Bidar Fort",
+            "Bidar",
+            "Bahmani and Barid Shahi",
+            "Palaces with tile work"
+          ],
+          [
+            "Mahmud Gawan madrasa",
+            "Bidar",
+            "Bahmani",
+            "A 1472 college with glazed tiles"
+          ],
+          [
+            "Bahmani tombs",
+            "Ashtur, near Bidar",
+            "Bahmani",
+            "Domed royal tombs with paintings"
+          ],
+          [
+            "Gol Gumbaz",
+            "Vijayapura",
+            "Adil Shahi",
+            "Great dome and whispering gallery (1656)"
+          ],
+          [
+            "Ibrahim Rauza",
+            "Vijayapura",
+            "Adil Shahi",
+            "Finely carved tomb and mosque"
+          ],
+          [
+            "Golconda Fort",
+            "Hyderabad",
+            "Qutb Shahi",
+            "Hill citadel and acoustic gateway"
+          ],
+          [
+            "Qutb Shahi tombs",
+            "Hyderabad",
+            "Qutb Shahi",
+            "Royal necropolis, restored"
+          ],
+          [
+            "Charminar",
+            "Hyderabad",
+            "Qutb Shahi",
+            "1591 monument at the city's heart"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "hyderabad",
+      "heading": "Hyderabad and Golconda",
+      "items": [
+        {
+          "name": "Golconda Fort",
+          "body": [
+            "A citadel on a granite hill, famous for acoustics that carry a clap from the entrance to the top, and for the diamond trade of its region."
+          ],
+          "links": [
+            {
+              "label": "Golconda Fort guide",
+              "href": "/blog/golconda-fort-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/telangana/golconda-fort/golconda-fort-ramparts-hyderabad.webp",
+            "alt": "The ramparts of Golconda Fort, Hyderabad",
+            "caption": "Golconda Fort"
+          }
+        },
+        {
+          "name": "Qutb Shahi tombs",
+          "body": [
+            "The tombs of the Golconda kings, with onion domes on high platforms, restored and landscaped in recent years."
+          ],
+          "image": {
+            "src": "/images/blogs/telangana/golconda-fort/qutb-shahi-tombs-golconda-fort.webp",
+            "alt": "Domed Qutb Shahi tombs near Golconda",
+            "caption": "Qutb Shahi tombs"
+          }
+        },
+        {
+          "name": "Charminar",
+          "body": [
+            "Built in 1591 at the centre of the new city of Hyderabad, with the Mecca Masjid and Laad Bazaar around it."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Hyderabad",
+              "href": "/blog/things-to-do-in-hyderabad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bidar-gulbarga",
+      "heading": "Bidar and Kalaburagi",
+      "items": [
+        {
+          "name": "Bidar",
+          "body": [
+            "The fort's palaces, the ruined Mahmud Gawan madrasa with its fragments of blue tile, and the Bahmani tombs at Ashtur. Bidar is also known for Bidriware, metal inlaid with silver."
+          ],
+          "facts": {
+            "From Hyderabad": "About 145 km"
+          }
+        },
+        {
+          "name": "Kalaburagi (Gulbarga)",
+          "body": [
+            "The early Bahmani capital, with a fort and a Jama Masjid unusual in India for being roofed over entirely by domes. The Khwaja Bande Nawaz dargah is an important Sufi shrine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bijapur",
+      "heading": "Bijapur (Vijayapura)",
+      "items": [
+        {
+          "name": "Gol Gumbaz and Ibrahim Rauza",
+          "body": [
+            "The tomb of Muhammad Adil Shah, completed in 1656, with a vast dome and a gallery where whispers carry across the space; and Ibrahim Rauza, a tomb and mosque often admired for its proportions and carving."
+          ],
+          "facts": {
+            "From Hyderabad": "About 380 km",
+            "Near": "Badami about 130 km"
+          }
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "A Deccan road trip",
+      "table": {
+        "columns": [
+          "Days",
+          "Route"
+        ],
+        "rows": [
+          [
+            "1 to 2",
+            "Hyderabad: Golconda, Qutb Shahi tombs, Charminar, Chowmahalla"
+          ],
+          [
+            "3",
+            "Bidar: fort, madrasa, Ashtur tombs"
+          ],
+          [
+            "4",
+            "Kalaburagi: fort, Jama Masjid, dargah"
+          ],
+          [
+            "5 to 6",
+            "Vijayapura: Gol Gumbaz, Ibrahim Rauza, citadel"
+          ],
+          [
+            "7 to 8",
+            "On to Badami and Hampi, or back to Hyderabad"
+          ]
+        ]
+      },
+      "after": [
+        "Hyderabad has the only big airport; the rest of the route is best by car."
+      ]
+    },
+    {
+      "id": "style",
+      "heading": "What makes the style",
+      "list": [
+        "Very large domes, often on bulbous, petalled bases.",
+        "Tall, slender minarets rising from the corners of tombs.",
+        "Glazed tiles and painted plaster, particularly at Bidar.",
+        "Fortified citadels and palaces built on the plateau's granite."
+      ]
+    },
+    {
+      "id": "crafts",
+      "heading": "Crafts and food",
+      "paras": [
+        "The region's living heritage is as rich as its monuments. Bidriware, blackened metal inlaid with silver, is still made in Bidar. Hyderabad is known for its biryani, haleem during Ramzan and the bangles of Laad Bazaar near Charminar, and Deccani Urdu poetry and music grew up in these courts."
+      ]
+    }
+  ],
+  "safety": [
+    "Timings, closures and tickets change; check official sources before you go.",
+    "Start early; the Deccan plateau is hot even in winter afternoons.",
+    "Dress modestly at mosques and dargahs, and ask before photographing people at prayer."
+  ],
+  "packing": [
+    "Hat and water",
+    "Walking shoes",
+    "Scarf for mosques and dargahs",
+    "Photo ID"
+  ],
+  "faqs": [
+    {
+      "q": "What were the Deccan sultanates?",
+      "a": "The five states that followed the Bahmani Sultanate: Bijapur, Golconda, Ahmednagar, Bidar and Berar."
+    },
+    {
+      "q": "What is special about Gol Gumbaz?",
+      "a": "Its very large dome and the whispering gallery, where sounds carry across the space."
+    },
+    {
+      "q": "Are the Deccan sultanate monuments UNESCO sites?",
+      "a": "They are on India's Tentative List, not yet inscribed."
+    },
+    {
+      "q": "How do I visit Bidar and Bijapur?",
+      "a": "By road from Hyderabad; Bidar is about 145 km and Bijapur about 380 km away."
+    },
+    {
+      "q": "When is the best time to visit?",
+      "a": "October to February."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Heritage tourism in Telangana",
+      "href": "/blog/heritage-tourism-in-telangana"
+    },
+    {
+      "label": "Heritage tourism in Karnataka",
+      "href": "/blog/heritage-tourism-in-karnataka"
+    },
+    {
+      "label": "Hyderabad guide",
+      "href": "/blog/hyderabad-travel-guide"
+    },
+    {
+      "label": "Telangana tour packages",
+      "href": "/packages/telangana"
+    },
+    {
+      "label": "Heritage tours",
+      "href": "/packages/heritage-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Mughal monuments in India",
+      "href": "/blog/mughal-monuments-in-india",
+      "note": "the other great Indo-Islamic style"
+    },
+    {
+      "name": "Famous forts in India",
+      "href": "/blog/famous-forts-in-india",
+      "note": "forts across India"
+    },
+    {
+      "name": "Hampi guide",
+      "href": "/blog/hampi-travel-guide",
+      "note": "the Vijayanagara rival"
+    }
+  ],
+  "places": [
+    "Kalaburagi",
+    "Bidar",
+    "Ashtur",
+    "Vijayapura",
+    "Golconda",
+    "Hyderabad",
+    "Charminar"
+  ],
+  "styles": [
+    "heritage-tours"
+  ],
+  "planDestination": "Hyderabad and the Deccan",
+  "updated": "2026-09-26"
+}

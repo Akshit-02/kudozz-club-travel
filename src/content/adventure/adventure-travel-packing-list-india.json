@@ -1,0 +1,364 @@
+{
+  "slug": "adventure-travel-packing-list-india",
+  "kind": "planning",
+  "short": "Adventure travel packing list",
+  "title": "Adventure Travel Packing List for India",
+  "seoTitle": "Adventure Travel Packing List for India | Kudozz Club",
+  "metaDescription": "What to pack for an adventure trip in India: layering for the Himalaya, footwear, rafting and beach kit, snow gear, desert essentials, a first-aid kit and documents.",
+  "description": "A practical packing list for adventure travel in India: the layering system for mountain trips, footwear, and checklists for treks, snow trips, rafting and water sports, desert trips and high-altitude road trips, with a first-aid kit, documents and what you can rent instead of buying.",
+  "dek": "The right kit is mostly about layers, feet and a few activity-specific items. Here is what to pack for each kind of adventure in India.",
+  "primaryKeyword": "adventure travel packing list",
+  "secondaryKeywords": [
+    "trekking packing list India",
+    "what to pack for Ladakh",
+    "rafting what to wear",
+    "layering for Himalaya"
+  ],
+  "searchIntent": "Informational checklist",
+  "activities": [
+    "trekking",
+    "rafting",
+    "skiing",
+    "camping",
+    "motorcycling",
+    "scuba diving"
+  ],
+  "terrain": [
+    "mountains",
+    "snow",
+    "river",
+    "sea",
+    "desert"
+  ],
+  "regions": [
+    "India"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "monsoon",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "beginners",
+    "solo",
+    "friends",
+    "families"
+  ],
+  "tags": [
+    "Packing List",
+    "Trekking Gear",
+    "Adventure Travel",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/adventure/trekking-gear-backpack-mountains.webp",
+    "alt": "Snowfields on the Rupin Pass trek looking towards Sangla Valley",
+    "caption": "Rupin Pass"
+  },
+  "parent": {
+    "label": "How to Plan an Adventure Trip in India",
+    "href": "/blog/how-to-plan-an-adventure-trip-in-india"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Adventure travel packing list for India"
+  },
+  "intro": [
+    "Packing for adventure in India means preparing for very different conditions: humid heat on the coast, cold nights above 4,000 metres, monsoon rain and desert sun. The core of every list is the same, though: layers you can add and remove, footwear suited to the terrain, and protection from sun and rain.",
+    "Below is a core list, followed by extras for each type of trip. Many items, from sleeping bags to ski gear and wetsuits, can be rented locally, so you do not need to buy everything."
+  ],
+  "quickAnswer": "For an adventure trip in India, pack a layering system (base layer, fleece, insulated jacket, waterproof shell), footwear suited to the activity, sun protection, a rain jacket, a headlamp, a first-aid kit, water bottles and your documents. Add microspikes and warm gloves for snow, quick-dry clothes and strapped sandals for rafting and water sports, and a scarf and sunglasses for the desert. Rent bulky gear locally.",
+  "takeaways": [
+    "Layers beat one heavy jacket: base, mid, insulated and waterproof.",
+    "Break in trekking shoes before the trip; never start a trek in new boots.",
+    "Avoid cotton and denim for water sports and treks; they stay wet and cold.",
+    "Sun protection matters everywhere, most of all at altitude and on water.",
+    "Sleeping bags, ski gear, wetsuits and trekking poles can usually be rented."
+  ],
+  "sections": [
+    {
+      "id": "core",
+      "heading": "The core list (every trip)",
+      "list": [
+        "Base layers: two quick-dry T-shirts and one thermal top and bottom",
+        "Mid layer: a fleece or wool jumper",
+        "Insulated layer: a down or synthetic jacket (for hills and nights)",
+        "Waterproof jacket and, for the monsoon or snow, waterproof trousers",
+        "Trekking trousers (not jeans) and a pair of shorts",
+        "Socks: synthetic or wool, one pair per two days",
+        "A cap or sun hat, a warm beanie, and sunglasses with UV protection",
+        "Sunscreen (SPF 30 to 50) and lip balm with SPF",
+        "A daypack of 20 to 30 litres",
+        "Headlamp with spare batteries",
+        "Two 1-litre water bottles or a hydration bladder",
+        "Power bank and charging cables",
+        "A small towel and basic toiletries"
+      ]
+    },
+    {
+      "id": "feet",
+      "heading": "Footwear by activity",
+      "table": {
+        "columns": [
+          "Activity",
+          "Footwear"
+        ],
+        "rows": [
+          [
+            "Treks",
+            "Broken-in trekking shoes with ankle support and good grip"
+          ],
+          [
+            "Snow treks",
+            "Waterproof trekking shoes, gaiters, microspikes (often provided)"
+          ],
+          [
+            "Rafting and kayaking",
+            "Sandals with heel straps or old sports shoes"
+          ],
+          [
+            "Paragliding and bungee",
+            "Closed sports shoes"
+          ],
+          [
+            "Beaches, snorkelling",
+            "Flip-flops and reef shoes"
+          ],
+          [
+            "Desert",
+            "Closed shoes or sandals; sand gets very hot"
+          ],
+          [
+            "Motorcycle trips",
+            "Riding boots or sturdy ankle-high shoes"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "by-trip",
+      "heading": "Extras by trip type",
+      "items": [
+        {
+          "name": "Himalayan treks",
+          "body": [
+            "A 40 to 60 litre backpack with rain cover, sleeping bag rated for the lowest night temperature (often rentable), trekking poles, gloves (inner and outer), a buff or neck warmer, water purification tablets and energy snacks."
+          ],
+          "links": [
+            {
+              "label": "Trekking in India",
+              "href": "/blog/trekking-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Snow treks and skiing",
+          "body": [
+            "Down jacket, two sets of thermals, waterproof gloves, woollen socks, goggles or UV sunglasses, gaiters and microspikes; ski clothing and equipment can be rented at Gulmarg, Auli and Solang."
+          ],
+          "links": [
+            {
+              "label": "Winter treks in India",
+              "href": "/blog/winter-treks-in-india"
+            },
+            {
+              "label": "Skiing in India",
+              "href": "/blog/skiing-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Rafting, kayaking and water sports",
+          "body": [
+            "Quick-dry shorts and T-shirt, a rash guard, sandals with straps, a dry bag or waterproof phone pouch, sunglasses with a strap, waterproof sunscreen and a full change of clothes."
+          ],
+          "links": [
+            {
+              "label": "River rafting in India",
+              "href": "/blog/river-rafting-in-india"
+            },
+            {
+              "label": "Water sports in India",
+              "href": "/blog/water-sports-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Diving and snorkelling",
+          "body": [
+            "Swimwear, rash guard, reef-safe sunscreen, your own mask if you have one, certification card and logbook, and motion-sickness tablets for boats."
+          ],
+          "links": [
+            {
+              "label": "Scuba diving in India",
+              "href": "/blog/scuba-diving-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Desert trips",
+          "body": [
+            "A wide hat, a scarf for sand and sun, sunglasses, light long sleeves for the day and warm layers for winter nights, a torch and lip balm."
+          ],
+          "links": [
+            {
+              "label": "Desert adventures in India",
+              "href": "/blog/desert-adventures-in-india"
+            }
+          ]
+        },
+        {
+          "name": "High-altitude road trips (Ladakh, Spiti)",
+          "body": [
+            "Riding gear if on a motorcycle, thermals and a down jacket, a rain suit, spare fuel container, tool kit and spares, cash and offline maps."
+          ],
+          "links": [
+            {
+              "label": "Best motorcycle trips in India",
+              "href": "/blog/best-motorcycle-trips-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "heading": "First-aid kit and health",
+      "list": [
+        "Personal prescription medicines, with a copy of the prescription",
+        "Paracetamol and an anti-inflammatory for pain",
+        "Oral rehydration salts",
+        "Anti-diarrhoea tablets and antacids",
+        "Antiseptic cream, plasters, blister pads and crepe bandage",
+        "Motion-sickness tablets for winding roads and boats",
+        "Insect repellent",
+        "Altitude medication only on a doctor's advice"
+      ]
+    },
+    {
+      "id": "documents",
+      "heading": "Documents",
+      "list": [
+        "Government photo ID (and passport for foreign nationals)",
+        "Printed permits (Inner Line, Protected Area, national park)",
+        "Driving licence, vehicle papers and insurance for road trips",
+        "Travel and activity insurance details",
+        "Diving certification card if certified",
+        "Emergency contacts on paper, not only on your phone"
+      ]
+    },
+    {
+      "id": "rent",
+      "heading": "What to rent instead of buy",
+      "table": {
+        "columns": [
+          "Item",
+          "Where to rent"
+        ],
+        "rows": [
+          [
+            "Sleeping bags and tents",
+            "Trek operators and rental shops in Manali, Rishikesh, Dehradun, Leh"
+          ],
+          [
+            "Down jackets",
+            "Rental shops in trekking hubs and Leh"
+          ],
+          [
+            "Ski gear and clothing",
+            "Gulmarg, Auli, Solang"
+          ],
+          [
+            "Wetsuits, masks, fins",
+            "Dive and snorkel operators"
+          ],
+          [
+            "Crash pads",
+            "Hampi climbing shops and guesthouses"
+          ],
+          [
+            "Motorcycles and riding gear",
+            "Manali, Leh, Shimla, Goa"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Pack for the coldest and wettest conditions you might meet, not the average.",
+    "Keep layers and rain gear in your daypack, not in the main bag on a mule or jeep.",
+    "Carry enough personal medicines for the whole trip plus spares.",
+    "Keep documents in a waterproof pouch."
+  ],
+  "packing": [
+    "Layering system",
+    "Activity-appropriate footwear",
+    "Sun and rain protection",
+    "Headlamp and power bank",
+    "First-aid kit",
+    "Documents and permits"
+  ],
+  "faqs": [
+    {
+      "q": "What should I pack for a trek in India?",
+      "a": "Layers (base, fleece, insulated jacket, waterproof shell), broken-in trekking shoes, a backpack with rain cover, headlamp, water bottles, sun protection and a first-aid kit."
+    },
+    {
+      "q": "What should I wear for river rafting?",
+      "a": "Quick-dry shorts and a synthetic T-shirt, sandals with heel straps or old sports shoes, and sunglasses with a strap. Avoid cotton and jeans."
+    },
+    {
+      "q": "What should I pack for Ladakh?",
+      "a": "Thermals, a down jacket, UV sunglasses, high-SPF sunscreen, lip balm, a water bottle and a basic medical kit, plus riding gear for motorcycle trips."
+    },
+    {
+      "q": "Can I rent trekking gear in India?",
+      "a": "Yes. Sleeping bags, tents, jackets and poles are rented in hubs such as Manali, Rishikesh, Dehradun and Leh, and by trek operators."
+    },
+    {
+      "q": "What should I pack for a desert safari?",
+      "a": "A hat, scarf, sunglasses, sunscreen, light long sleeves for the day and warm layers for winter nights."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "How to plan an adventure trip",
+      "href": "/blog/how-to-plan-an-adventure-trip-in-india"
+    },
+    {
+      "label": "Things to do in Manali",
+      "href": "/blog/things-to-do-in-manali"
+    },
+    {
+      "label": "Manali travel guide",
+      "href": "/blog/manali-travel-guide"
+    },
+    {
+      "label": "Adventure trips",
+      "href": "/packages/adventure-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Trekking in India",
+      "href": "/blog/trekking-in-india",
+      "note": "choose your trek"
+    },
+    {
+      "name": "Best time for adventure travel in India",
+      "href": "/blog/best-time-for-adventure-travel-in-india",
+      "note": "what the weather will be"
+    },
+    {
+      "name": "Beginner treks in India",
+      "href": "/blog/beginner-treks-in-india",
+      "note": "easy first treks"
+    }
+  ],
+  "styles": [
+    "adventure-tours"
+  ],
+  "updated": "2026-09-25"
+}

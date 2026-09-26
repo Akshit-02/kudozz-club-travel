@@ -1,0 +1,350 @@
+{
+  "slug": "pench-tiger-reserve",
+  "kind": "destination",
+  "short": "Pench Tiger Reserve",
+  "title": "Pench Tiger Reserve: Safari Gates, Zones, Best Time and Travel Guide",
+  "seoTitle": "Pench Tiger Reserve: Safari Gates, Zones & Best Time | Kudozz Club",
+  "metaDescription": "Plan a Pench safari: the Turia, Karmajhiri and Jamtara gates, core and buffer zones, the Maharashtra side, booking on MP Online, the season and how to get there.",
+  "description": "A guide to Pench Tiger Reserve on the Madhya Pradesh and Maharashtra border: the teak forests of the Jungle Book country, safari gates and zones (Turia, Karmajhiri and Jamtara in the core, and buffer gates), the Maharashtra side, how to book, when to go, where to stay, getting there from Nagpur and a two-day plan.",
+  "dek": "Pench's teak forests along the Pench river are among India's easiest tiger reserves to reach, a short drive from Nagpur. Here is how to plan a safari.",
+  "primaryKeyword": "Pench tiger safari",
+  "secondaryKeywords": [
+    "Pench National Park",
+    "Pench safari booking",
+    "Turia gate",
+    "Pench best time",
+    "Pench Maharashtra side"
+  ],
+  "searchIntent": "Plan a Pench safari (no existing guide)",
+  "activities": [
+    "tiger safari",
+    "jeep safari",
+    "canter safari",
+    "birdwatching"
+  ],
+  "terrain": [
+    "forest",
+    "river"
+  ],
+  "regions": [
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Central India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Pench",
+    "Tiger Safari",
+    "Madhya Pradesh",
+    "Tiger Reserve"
+  ],
+  "hero": {
+    "src": "/images/wildlife/pench-tiger-reserve-forest.webp",
+    "alt": "A tiger sitting in a grassy clearing in the Karmajhiri area of Pench"
+  },
+  "parent": {
+    "label": "Wildlife Tourism in Madhya Pradesh",
+    "href": "/blog/wildlife-tourism-in-madhya-pradesh"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Pench Tiger Reserve",
+    "containedIn": "Madhya Pradesh"
+  },
+  "intro": [
+    "Pench Tiger Reserve covers the forests of the Pench river valley on the border of Madhya Pradesh (Seoni and Chhindwara districts) and Maharashtra (Nagpur district), where each state manages its own part. The landscape of teak and mixed forest, with the river and the Totladoh reservoir at its heart, is the country Rudyard Kipling drew on for The Jungle Book.",
+    "The reserve is known for tigers, leopards and wild dogs (dhole), large herds of chital and gaur, and rich birdlife. Its easy access from Nagpur makes it popular for a short safari break. The Madhya Pradesh side is the more visited; the Maharashtra side, through gates such as Sillari, is quieter."
+  ],
+  "quickAnswer": "Pench Tiger Reserve, on the Madhya Pradesh and Maharashtra border, is reached from Nagpur, about two to three hours by road. On the Madhya Pradesh side, the core zones are entered through the Turia, Karmajhiri and Jamtara gates, with buffer gates such as Khawasa and Rukhad. Core zones open from 1 October to 30 June; buffers can run in the monsoon. Book on the official MP Online forest portal up to 120 days ahead.",
+  "takeaways": [
+    "Pench straddles Madhya Pradesh and Maharashtra; each side has its own gates and booking.",
+    "Turia is the busiest Madhya Pradesh gate and the only one with canter safaris.",
+    "Core zones close from 1 July to 30 September; some buffer zones stay open.",
+    "The Madhya Pradesh side is closed for afternoon safaris on Wednesdays.",
+    "Nagpur is the nearest airport and railway hub."
+  ],
+  "sections": [
+    {
+      "id": "gates",
+      "heading": "Gates and zones",
+      "table": {
+        "columns": [
+          "Gate",
+          "State",
+          "Zone type",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Turia (Touria)",
+            "Madhya Pradesh",
+            "Core",
+            "Most popular; jeeps and canters; many lodges nearby"
+          ],
+          [
+            "Karmajhiri",
+            "Madhya Pradesh",
+            "Core",
+            "Quieter core gate"
+          ],
+          [
+            "Jamtara (Jhamtara)",
+            "Madhya Pradesh",
+            "Core",
+            "Northern side"
+          ],
+          [
+            "Khawasa, Teliya, Rukhad",
+            "Madhya Pradesh",
+            "Buffer",
+            "Useful when core permits are sold out"
+          ],
+          [
+            "Sillari, Khursapar",
+            "Maharashtra",
+            "Core and buffer",
+            "Booked through Maharashtra's forest department"
+          ]
+        ],
+        "caption": "Gate names and zone arrangements change occasionally; check the current list when booking."
+      }
+    },
+    {
+      "id": "wildlife",
+      "heading": "Wildlife",
+      "items": [
+        {
+          "name": "Tigers and other predators",
+          "body": [
+            "Pench became famous in the 2010s for a tigress known as Collarwali, which raised a record number of cubs. Leopards, dhole (Indian wild dogs), jungle cats and sloth bears are also seen."
+          ],
+          "facts": {
+            "Best for": "Tigers, leopards, wild dogs"
+          }
+        },
+        {
+          "name": "Herbivores",
+          "body": [
+            "Chital are abundant, along with sambar, nilgai, gaur and wild boar."
+          ],
+          "facts": {
+            "Good for": "All-round wildlife"
+          }
+        },
+        {
+          "name": "Birds",
+          "body": [
+            "The mix of forest, grassland and water supports a rich bird list, including peafowl, crested serpent eagles, Indian pitta in season and waterbirds on the reservoir."
+          ],
+          "links": [
+            {
+              "label": "Birdwatching in India",
+              "href": "/blog/birdwatching-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safari",
+      "heading": "Safari details",
+      "list": [
+        "Two shifts a day: early morning and afternoon, with timings that change with the season.",
+        "Jeeps (gypsies) carry up to six visitors with a driver and a registered guide.",
+        "Canter safaris run only from Turia gate, with a small number of vehicles.",
+        "Madhya Pradesh side: afternoon safaris are closed on Wednesdays.",
+        "Book core permits early for weekends, holidays and April to June."
+      ]
+    },
+    {
+      "id": "booking",
+      "heading": "Booking",
+      "paras": [
+        "Permits for the Madhya Pradesh side are sold on the MP Online forest department portal, opening up to 120 days in advance; the Maharashtra side is booked through Maharashtra's forest department. Lodges near Turia usually help with bookings. Use only the official portals or trusted operators; many unofficial sites imitate them."
+      ],
+      "items": [
+        {
+          "name": "Planning help",
+          "body": [
+            "Our guide to planning a tiger safari explains zones, permits and how many drives to book."
+          ],
+          "links": [
+            {
+              "label": "How to plan a tiger safari",
+              "href": "/blog/how-to-plan-a-tiger-safari-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for a better Pench safari",
+      "list": [
+        "Book at least three drives; each one covers only part of one zone.",
+        "Mix core and buffer drives. Buffer zones are cheaper, less crowded and often productive.",
+        "Ask your lodge which zones have had recent activity, but treat it as a guide, not a promise.",
+        "Spend time on birds, dhole and smaller animals; the drive is worthwhile even without a tiger.",
+        "Carry a light jacket even in March; open jeeps are cold before sunrise.",
+        "Leave a rest day between drives if you are travelling with young children."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "Best time to visit",
+      "table": {
+        "columns": [
+          "Months",
+          "Conditions"
+        ],
+        "rows": [
+          [
+            "October to February",
+            "Pleasant and green; cold mornings in December and January"
+          ],
+          [
+            "March to June",
+            "Hot; forest thins and animals gather at water; good for sightings"
+          ],
+          [
+            "July to September",
+            "Core closed; some buffer safaris in the monsoon"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "reach",
+      "heading": "Getting there and where to stay",
+      "list": [
+        "Nagpur, with an airport and major railway station, is about two to three hours by road from Turia.",
+        "Seoni is the nearest town on the Madhya Pradesh side; Jabalpur is further north.",
+        "Most lodges and resorts cluster around Turia gate; some are near Karmajhiri and Khawasa.",
+        "Combine Pench with Kanha (about five hours by road) or Tadoba (about five to six hours)."
+      ]
+    },
+    {
+      "id": "two-day-plan",
+      "heading": "A two-day Pench plan",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Arrive from Nagpur by midday; afternoon buffer or core safari from Turia"
+          ],
+          [
+            "2",
+            "Morning core safari; rest; afternoon safari from a different gate"
+          ],
+          [
+            "3 (optional)",
+            "A final morning safari, then return to Nagpur or continue to Kanha"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Sightings are never guaranteed; tigers are wild and move widely.",
+    "Stay inside the vehicle and follow the guide's instructions.",
+    "Keep noise down and do not feed animals.",
+    "Carry the ID used for booking.",
+    "Drive carefully on the highway at night; wildlife crosses the roads near the reserve."
+  ],
+  "packing": [
+    "Warm layers for winter mornings",
+    "Neutral clothes",
+    "Binoculars and a camera",
+    "Sunscreen, hat and water for summer"
+  ],
+  "faqs": [
+    {
+      "q": "Where is Pench Tiger Reserve?",
+      "a": "On the Madhya Pradesh and Maharashtra border, in Seoni and Chhindwara (MP) and Nagpur (Maharashtra) districts."
+    },
+    {
+      "q": "Which is the best gate in Pench?",
+      "a": "Turia is the most popular core gate on the Madhya Pradesh side; Karmajhiri and Jamtara are quieter."
+    },
+    {
+      "q": "When is Pench closed?",
+      "a": "Core zones close from 1 July to 30 September. The Madhya Pradesh side closes for afternoon safaris on Wednesdays."
+    },
+    {
+      "q": "How far is Pench from Nagpur?",
+      "a": "About two to three hours by road to Turia."
+    },
+    {
+      "q": "Is Pench the Jungle Book forest?",
+      "a": "Rudyard Kipling set The Jungle Book in the Seoni area, and Pench's forests are often associated with it."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Wildlife tourism in Madhya Pradesh",
+      "href": "/blog/wildlife-tourism-in-madhya-pradesh"
+    },
+    {
+      "label": "Kanha National Park guide",
+      "href": "/blog/kanha-travel-guide"
+    },
+    {
+      "label": "Things to do in Jabalpur",
+      "href": "/blog/things-to-do-in-jabalpur"
+    },
+    {
+      "label": "Madhya Pradesh tour packages",
+      "href": "/packages/madhya-pradesh"
+    },
+    {
+      "label": "Wildlife trips",
+      "href": "/packages/wildlife-tours"
+    }
+  ],
+  "related": [
+    {
+      "name": "Tiger safari in India",
+      "href": "/blog/tiger-safari-in-india",
+      "note": "other reserves"
+    },
+    {
+      "name": "Tadoba guide",
+      "href": "/blog/tadoba-travel-guide",
+      "note": "Maharashtra's tiger reserve"
+    },
+    {
+      "name": "Wildlife tourism in Maharashtra",
+      "href": "/blog/wildlife-tourism-in-maharashtra",
+      "note": "the Vidarbha reserves"
+    }
+  ],
+  "places": [
+    "Pench",
+    "Turia",
+    "Karmajhiri",
+    "Jamtara",
+    "Khawasa",
+    "Sillari",
+    "Seoni",
+    "Nagpur"
+  ],
+  "styles": [
+    "wildlife-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Pench",
+  "updated": "2026-09-25"
+}

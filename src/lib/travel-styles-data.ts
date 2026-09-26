@@ -78,6 +78,24 @@ export const travelStylesData: TravelStylePackage[] = [
     relatedStates: ["uttarakhand", "uttar-pradesh", "punjab", "odisha"],
   },
   {
+    slug: "heritage-tours",
+    name: "Heritage & Culture",
+    desc: "Forts, palaces, UNESCO sites",
+    intro:
+      "Heritage trips work best with the right sequence: monuments at opening time, rest in the midday heat, a guide who knows the history, and room for crafts, food and performances in between.",
+    image: "/images/blogs/karnataka/hampi/stone-chariot-vittala-temple-hampi.webp",
+    relatedStates: ["rajasthan", "gujarat", "karnataka", "madhya-pradesh"],
+  },
+  {
+    slug: "hill-station-holidays",
+    name: "Hill Stations",
+    desc: "Himalayan towns, tea hills, snow",
+    intro:
+      "Hill holidays work best when the season, the roads and the pace are right: the right hill for the month, realistic mountain driving days, and stays that suit who is travelling.",
+    image: "/images/blogs/sikkim/pelling/kanchenjunga-peak-view-from-pelling-sikkim.webp",
+    relatedStates: ["himachal-pradesh", "uttarakhand", "kashmir", "sikkim"],
+  },
+  {
     slug: "luxury-holidays",
     name: "Luxury Holidays",
     desc: "Premium stays, private transport",

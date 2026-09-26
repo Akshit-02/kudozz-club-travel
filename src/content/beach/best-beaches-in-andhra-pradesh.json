@@ -1,0 +1,383 @@
+{
+  "slug": "best-beaches-in-andhra-pradesh",
+  "kind": "state",
+  "short": "Best beaches in Andhra Pradesh",
+  "title": "Best Beaches in Andhra Pradesh: Visakhapatnam's Coast and Beyond",
+  "seoTitle": "Best Beaches in Andhra Pradesh: Vizag's Coast & Beyond | Kudozz Club",
+  "metaDescription": "The best beaches in Andhra Pradesh: Rushikonda, RK Beach, Yarada and Bheemili in Visakhapatnam, the Vizag to Bheemili beach road, and quieter beaches down the coast.",
+  "description": "A guide to the best beaches in Andhra Pradesh, focusing on Visakhapatnam: RK Beach, the Blue Flag beach at Rushikonda with water sports, Yarada below Dolphin's Nose, Bheemili at the Gosthani river mouth, and the coastal road between them, plus Suryalanka and other beaches down the coast, with cyclone season and safety.",
+  "dek": "Visakhapatnam has the best beaches on India's east coast between Odisha and Chennai, backed by hills and linked by a scenic beach road.",
+  "primaryKeyword": "best beaches in Andhra Pradesh",
+  "secondaryKeywords": [
+    "beaches in Andhra Pradesh",
+    "Andhra Pradesh beaches",
+    "beach holiday Andhra Pradesh",
+    "beach travel in Andhra Pradesh",
+    "best beach in Andhra Pradesh for families",
+    "quiet beaches Andhra Pradesh"
+  ],
+  "searchIntent": "Choose beaches in Andhra Pradesh",
+  "activities": [
+    "beaches",
+    "water sports",
+    "surfing",
+    "heritage"
+  ],
+  "terrain": [
+    "beaches",
+    "hills",
+    "coast"
+  ],
+  "regions": [
+    "Andhra Pradesh",
+    "South India",
+    "Bay of Bengal"
+  ],
+  "seasons": [
+    "winter",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tags": [
+    "Andhra Pradesh",
+    "Beaches",
+    "Visakhapatnam",
+    "Rushikonda"
+  ],
+  "hero": {
+    "src": "/images/beach/andhra-beach-rushikonda.webp",
+    "alt": "Rocks and surf at Rushikonda beach, Visakhapatnam",
+    "caption": "Rushikonda"
+  },
+  "parent": {
+    "label": "Best Beach Destinations in India",
+    "href": "/blog/best-beach-destinations-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Visakhapatnam coast",
+    "containedIn": "Andhra Pradesh"
+  },
+  "intro": [
+    "Andhra Pradesh has a long coastline on the Bay of Bengal, but most beach travellers focus on Visakhapatnam (Vizag), where the Eastern Ghats come down to the sea and form headlands and coves. A coastal road runs about 30 km north from the city past Rushikonda to Bheemunipatnam (Bheemili), with beaches along the way.",
+    "Vizag is also a port city and naval base, so its beaches mix city life with quieter stretches further out. The best time is October to March; this coast is exposed to cyclones, especially from October to December."
+  ],
+  "quickAnswer": "The best beaches in Andhra Pradesh are around Visakhapatnam: Rushikonda, with Blue Flag certification and water sports run by approved operators; RK Beach, the city's lively promenade; Yarada, a quiet beach below the Dolphin's Nose headland; and Bheemili, at the Gosthani river mouth. Drive the beach road between Vizag and Bheemili. Visit from October to March and follow lifeguard flags.",
+  "takeaways": [
+    "Rushikonda, about 8 km from central Vizag, is the best swimming and water-sports beach and has Blue Flag certification.",
+    "RK Beach is for evening walks and the INS Kursura submarine museum, not swimming.",
+    "Yarada is quiet, surrounded by hills, below the Dolphin's Nose headland.",
+    "The Vizag to Bheemili beach road is one of the best coastal drives on the east coast.",
+    "Cyclones can hit this coast from October to December; check warnings."
+  ],
+  "sections": [
+    {
+      "id": "vizag",
+      "heading": "Visakhapatnam's beaches",
+      "items": [
+        {
+          "name": "RK Beach (Ramakrishna Beach)",
+          "body": [
+            "The city's main beach and promenade, with the INS Kursura submarine museum, the Aircraft museum and food stalls. It is busy in the evenings. Swimming is not advised because of strong currents."
+          ],
+          "facts": {
+            "Best for": "Evenings, museums"
+          },
+          "links": [
+            {
+              "label": "Things to do in Vizag",
+              "href": "/blog/things-to-do-in-vizag"
+            },
+            {
+              "label": "Visakhapatnam travel guide",
+              "href": "/blog/visakhapatnam-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/andhra-pradesh/visakhapatnam/rk-beach-visakhapatnam-2.webp",
+            "alt": "RK Beach, Visakhapatnam",
+            "caption": "RK Beach"
+          }
+        },
+        {
+          "name": "Rushikonda",
+          "body": [
+            "About 8 km north of the city centre, Rushikonda has golden sand below green hills and Blue Flag certification. Water sports including jet skis, kayaking and surfing lessons are offered by operators approved by the state tourism corporation."
+          ],
+          "facts": {
+            "Best for": "Swimming in season, water sports, surfing lessons"
+          },
+          "links": [
+            {
+              "label": "Surfing in India",
+              "href": "/blog/surfing-in-india"
+            },
+            {
+              "label": "Water sports in India",
+              "href": "/blog/water-sports-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Tenneti Park and Lawson's Bay",
+          "body": [
+            "Viewpoints and quieter stretches along the beach road between RK Beach and Rushikonda, good for sunrise."
+          ],
+          "facts": {
+            "Best for": "Sunrise"
+          },
+          "image": {
+            "src": "/images/blogs/andhra-pradesh/andhra-pradesh/sunrise-tenneti-beach-visakhapatnam-andhra-pradesh.webp",
+            "alt": "Sunrise at Tenneti beach, Visakhapatnam",
+            "caption": "Tenneti"
+          }
+        },
+        {
+          "name": "Yarada",
+          "body": [
+            "South of the city, beyond the port, Yarada is a quiet beach surrounded by hills below the Dolphin's Nose headland and lighthouse."
+          ],
+          "facts": {
+            "Best for": "A quiet afternoon"
+          }
+        },
+        {
+          "name": "Bheemili (Bheemunipatnam)",
+          "body": [
+            "At the end of the beach road, where the Gosthani river meets the sea, Bheemili has a quiet beach, a lighthouse and a Dutch cemetery from its days as a Dutch trading post."
+          ],
+          "facts": {
+            "Best for": "History and a quiet beach"
+          }
+        },
+        {
+          "name": "Mangamaripeta and the beach road",
+          "body": [
+            "The drive from Vizag to Bheemili passes small fishing-village beaches such as Mangamaripeta, with rock formations and viewpoints."
+          ],
+          "facts": {
+            "Best for": "A scenic drive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "coast",
+      "heading": "Further down the coast",
+      "items": [
+        {
+          "name": "Suryalanka and Manginapudi",
+          "body": [
+            "Suryalanka near Bapatla and Manginapudi near Machilipatnam are the main beaches of central Andhra, visited mostly by families from Guntur, Vijayawada and nearby towns."
+          ],
+          "facts": {
+            "Best for": "Local weekend trips"
+          }
+        }
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning",
+      "list": [
+        "Visakhapatnam has an airport and a major railway station; Rushikonda and the beach road are easy by taxi or scooter.",
+        "Two to three days covers Vizag's beaches; add a day or two for Araku Valley and the Borra caves inland.",
+        "The beach road is best in the early morning or late afternoon."
+      ],
+      "after": [
+        "See our guide to things to do in Vizag for the city's hills, museums and Araku trip."
+      ]
+    },
+    {
+      "id": "itinerary",
+      "heading": "Suggested itinerary",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "RK Beach, INS Kursura submarine museum, evening promenade"
+          ],
+          [
+            "2",
+            "Sunrise at Tenneti Park; Rushikonda for water sports"
+          ],
+          [
+            "3",
+            "Drive the beach road to Bheemili via Mangamaripeta"
+          ],
+          [
+            "4",
+            "Yarada and Dolphin's Nose; or a day trip to Araku Valley"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "who-for",
+      "heading": "Who is it best for?",
+      "items": [
+        {
+          "name": "Families",
+          "body": [
+            "RK Beach promenade and Rushikonda."
+          ]
+        },
+        {
+          "name": "Couples",
+          "body": [
+            "Yarada and Bheemili."
+          ]
+        },
+        {
+          "name": "Adventure seekers",
+          "body": [
+            "Rushikonda's surfing lessons and water sports."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "where-to-stay",
+      "heading": "Where to stay",
+      "table": {
+        "columns": [
+          "Area",
+          "Suits"
+        ],
+        "rows": [
+          [
+            "Beach Road, Vizag",
+            "Access to RK Beach and the city"
+          ],
+          [
+            "Rushikonda",
+            "Beach stays and water sports"
+          ],
+          [
+            "Bheemili",
+            "Quiet stays at the end of the beach road"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "table": {
+        "columns": [
+          "Months",
+          "Conditions"
+        ],
+        "rows": [
+          [
+            "October to March",
+            "Best: pleasant, calmer sea; check cyclone warnings until December"
+          ],
+          [
+            "April to June",
+            "Hot and humid"
+          ],
+          [
+            "July to September",
+            "Monsoon rain, rough sea at times"
+          ]
+        ]
+      }
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside the flagged zone, and never when a red flag is up or during the monsoon.",
+    "Do not swim at RK Beach; currents are strong.",
+    "At Rushikonda, swim only in the lifeguarded area and use approved water-sports operators.",
+    "Check cyclone warnings from October to December.",
+    "Stay off wet rocks at Dolphin's Nose, Yarada and Mangamaripeta."
+  ],
+  "packing": [
+    "Swimwear and sunscreen",
+    "A hat and water",
+    "Light layers for evenings in winter"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best beach in Visakhapatnam?",
+      "a": "Rushikonda, for swimming in season and water sports, and Yarada for quiet."
+    },
+    {
+      "q": "Can you swim at RK Beach?",
+      "a": "It is not advised because of strong currents. Rushikonda is the better swimming beach."
+    },
+    {
+      "q": "Does Rushikonda have Blue Flag certification?",
+      "a": "Yes."
+    },
+    {
+      "q": "What is the best time to visit Vizag's beaches?",
+      "a": "October to March, watching for cyclone warnings until December."
+    },
+    {
+      "q": "How far is Bheemili from Vizag?",
+      "a": "About 25 to 30 km along the beach road."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Visakhapatnam travel guide",
+      "href": "/blog/visakhapatnam-travel-guide"
+    },
+    {
+      "label": "Things to do in Vizag",
+      "href": "/blog/things-to-do-in-vizag"
+    },
+    {
+      "label": "Vizag itinerary",
+      "href": "/blog/visakhapatnam-travel-guide#itinerary"
+    },
+    {
+      "label": "Andhra Pradesh tour packages",
+      "href": "/packages/andhra-pradesh"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best beaches in Odisha",
+      "href": "/blog/best-beaches-in-odisha",
+      "note": "north along the coast"
+    },
+    {
+      "name": "Beach tourism in India",
+      "href": "/blog/beach-tourism-in-india",
+      "note": "Blue Flag beaches"
+    },
+    {
+      "name": "Things to do in Araku Valley",
+      "href": "/blog/things-to-do-in-araku-valley",
+      "note": "hills inland"
+    }
+  ],
+  "places": [
+    "Visakhapatnam",
+    "RK Beach",
+    "Rushikonda",
+    "Tenneti Park",
+    "Lawson's Bay",
+    "Yarada",
+    "Dolphin's Nose",
+    "Bheemili",
+    "Mangamaripeta",
+    "Suryalanka",
+    "Manginapudi"
+  ],
+  "styles": [
+    "family-holidays"
+  ],
+  "planDestination": "Visakhapatnam",
+  "updated": "2026-09-25"
+}

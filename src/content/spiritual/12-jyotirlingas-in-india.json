@@ -1,0 +1,426 @@
+{
+  "slug": "12-jyotirlingas-in-india",
+  "kind": "pillar",
+  "short": "The 12 Jyotirlingas",
+  "title": "The 12 Jyotirlingas: Names, Locations and How to Visit",
+  "seoTitle": "12 Jyotirlingas: Names, Locations & How to Visit | Kudozz Club",
+  "metaDescription": "The 12 Jyotirlingas of Shiva with their temples, towns and states, the sites whose identity is disputed, the best seasons and how to plan visits to all twelve.",
+  "description": "A guide to the twelve Jyotirlingas: the list as given in the Dvadasha Jyotirlinga Stotram, each temple's town and state, the sites claimed by more than one place (Vaidyanath, Nageshwar, Bhimashankar), seasons, and how to group the temples into practical trips.",
+  "dek": "The twelve Jyotirlingas are among the most important Shiva shrines in India, spread across eight states from the Himalaya to the tip of the peninsula.",
+  "primaryKeyword": "12 jyotirlingas",
+  "secondaryKeywords": [
+    "jyotirlinga list",
+    "12 jyotirlinga names and places",
+    "jyotirlinga temples India"
+  ],
+  "searchIntent": "Informational list",
+  "activities": [
+    "Jyotirlinga",
+    "Shiva temples",
+    "darshan",
+    "temple visit"
+  ],
+  "terrain": [
+    "temple town",
+    "mountains",
+    "coast",
+    "river"
+  ],
+  "regions": [
+    "Gujarat",
+    "Maharashtra",
+    "Madhya Pradesh",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "Jharkhand",
+    "Andhra Pradesh",
+    "Tamil Nadu"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer"
+  ],
+  "travellers": [
+    "families",
+    "senior travellers",
+    "couples"
+  ],
+  "tags": [
+    "Jyotirlinga",
+    "Shiva",
+    "Pilgrimage",
+    "Temples"
+  ],
+  "hero": {
+    "src": "/images/spiritual/jyotirlingas-somnath-temple.webp",
+    "alt": "The shikhara of Somnath Temple at Prabhas Patan, Gujarat"
+  },
+  "parent": {
+    "label": "Spiritual Tourism",
+    "href": "/spiritual-tourism"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Twelve Jyotirlingas"
+  },
+  "intro": [
+    "In Hindu tradition, a Jyotirlinga is a shrine where Shiva is worshipped as a column of light. The Shiva Purana describes the legend, and the short Dvadasha Jyotirlinga Stotram, recited daily by many devotees, names twelve places. Visiting all twelve is a lifelong goal for many Shaiva pilgrims.",
+    "The twelve temples are spread across Gujarat, Maharashtra, Madhya Pradesh, Uttarakhand, Uttar Pradesh, Jharkhand, Andhra Pradesh and Tamil Nadu. For three of them, more than one temple claims the name; this guide gives the most widely followed identification and notes the other claims without taking sides."
+  ],
+  "quickAnswer": "The 12 Jyotirlingas are Somnath (Gujarat), Mallikarjuna at Srisailam (Andhra Pradesh), Mahakaleshwar at Ujjain and Omkareshwar (Madhya Pradesh), Kedarnath (Uttarakhand), Bhimashankar, Trimbakeshwar and Grishneshwar (Maharashtra), Kashi Vishwanath at Varanasi (Uttar Pradesh), Vaidyanath (commonly Deoghar, Jharkhand), Nageshwar (commonly near Dwarka, Gujarat) and Ramanathaswamy at Rameswaram (Tamil Nadu). Kedarnath is open only from about April or May to November.",
+  "takeaways": [
+    "The twelve are named in the Dvadasha Jyotirlinga Stotram and described in the Shiva Purana.",
+    "They are spread across eight states; Maharashtra has three undisputed sites.",
+    "Vaidyanath, Nageshwar and Bhimashankar are each claimed by more than one temple.",
+    "Kedarnath opens only for the summer season; the others are open all year.",
+    "Most pilgrims visit them in regional groups rather than in one trip."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "The 12 Jyotirlingas at a glance",
+      "table": {
+        "columns": [
+          "Jyotirlinga",
+          "Temple town",
+          "State",
+          "Our guide"
+        ],
+        "rows": [
+          [
+            "Somnath",
+            "Prabhas Patan, near Veraval",
+            "Gujarat",
+            "Somnath guide"
+          ],
+          [
+            "Mallikarjuna",
+            "Srisailam",
+            "Andhra Pradesh",
+            "Srisailam guide"
+          ],
+          [
+            "Mahakaleshwar",
+            "Ujjain",
+            "Madhya Pradesh",
+            "Ujjain guide"
+          ],
+          [
+            "Omkareshwar",
+            "Mandhata island on the Narmada",
+            "Madhya Pradesh",
+            "Omkareshwar guide"
+          ],
+          [
+            "Kedarnath",
+            "Kedarnath (3,583 m)",
+            "Uttarakhand",
+            "Kedarnath guide"
+          ],
+          [
+            "Bhimashankar",
+            "Bhimashankar, Pune district",
+            "Maharashtra",
+            "Bhimashankar Jyotirlinga"
+          ],
+          [
+            "Kashi Vishwanath",
+            "Varanasi",
+            "Uttar Pradesh",
+            "Varanasi guide"
+          ],
+          [
+            "Trimbakeshwar",
+            "Trimbak, Nashik district",
+            "Maharashtra",
+            "Trimbakeshwar Jyotirlinga"
+          ],
+          [
+            "Vaidyanath",
+            "Deoghar (also claimed: Parli Vaijnath)",
+            "Jharkhand / Maharashtra",
+            "Deoghar guide"
+          ],
+          [
+            "Nageshwar",
+            "Near Dwarka (also claimed: Aundha, Jageshwar)",
+            "Gujarat",
+            "Nageshwar Jyotirlinga"
+          ],
+          [
+            "Ramanathaswamy",
+            "Rameswaram",
+            "Tamil Nadu",
+            "Rameswaram guide"
+          ],
+          [
+            "Grishneshwar",
+            "Verul, near Ellora",
+            "Maharashtra",
+            "Grishneshwar Jyotirlinga"
+          ]
+        ],
+        "caption": "Order follows the Dvadasha Jyotirlinga Stotram. Where a site is disputed, the more widely followed identification comes first."
+      }
+    },
+    {
+      "id": "west",
+      "heading": "Gujarat and Maharashtra",
+      "items": [
+        {
+          "name": "Somnath",
+          "body": [
+            "The temple on the Arabian Sea shore at Prabhas Patan was rebuilt many times; the present temple was consecrated in 1951."
+          ],
+          "facts": {
+            "State": "Gujarat",
+            "Nearest station": "Veraval"
+          },
+          "links": [
+            {
+              "label": "Somnath guide",
+              "href": "/blog/somnath-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/gujarat/gujarat/somnath-temple-arabian-sea-coast.webp",
+            "alt": "Somnath temple on the Arabian Sea coast at Prabhas Patan, Gujarat",
+            "caption": "Somnath, Gujarat"
+          }
+        },
+        {
+          "name": "Nageshwar",
+          "body": [
+            "A temple on the road from Dwarka to Okha, about 17 km from Dwarka, usually visited with Dwarkadhish and Bet Dwarka."
+          ],
+          "links": [
+            {
+              "label": "Nageshwar Jyotirlinga",
+              "href": "/blog/nageshwar-jyotirlinga"
+            }
+          ]
+        },
+        {
+          "name": "Trimbakeshwar, Bhimashankar and Grishneshwar",
+          "body": [
+            "Maharashtra's three: Trimbakeshwar near Nashik at the source of the Godavari, Bhimashankar in the Sahyadri forest, and Grishneshwar beside the Ellora Caves."
+          ],
+          "links": [
+            {
+              "label": "Jyotirlingas in Maharashtra",
+              "href": "/blog/jyotirlingas-in-maharashtra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "central",
+      "heading": "Central and north India",
+      "items": [
+        {
+          "name": "Mahakaleshwar and Omkareshwar",
+          "body": [
+            "Two Jyotirlingas about 140 km apart in Madhya Pradesh, usually visited together from Indore. Mahakaleshwar is known for its dawn Bhasma Aarti, booked in advance."
+          ],
+          "links": [
+            {
+              "label": "Ujjain guide",
+              "href": "/blog/ujjain-travel-guide"
+            },
+            {
+              "label": "Omkareshwar guide",
+              "href": "/blog/omkareshwar-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/madhya-pradesh/mahakaleshwar-jyotirlinga-temple-ujjain.webp",
+            "alt": "Mahakaleshwar Jyotirlinga temple in Ujjain, Madhya Pradesh",
+            "caption": "Mahakaleshwar, Ujjain"
+          }
+        },
+        {
+          "name": "Kedarnath",
+          "body": [
+            "The highest of the twelve, reached by a trek of about 16 km from Gaurikund or by helicopter, open from about April or May to November."
+          ],
+          "links": [
+            {
+              "label": "Kedarnath guide",
+              "href": "/blog/kedarnath-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kashi Vishwanath",
+          "body": [
+            "The temple in Varanasi's old city, now approached through the Kashi Vishwanath Dham corridor from the ghats."
+          ],
+          "links": [
+            {
+              "label": "Varanasi guide: Kashi Vishwanath",
+              "href": "/blog/varanasi-travel-guide#kashi-vishwanath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east-south",
+      "heading": "East and south India",
+      "items": [
+        {
+          "name": "Vaidyanath",
+          "body": [
+            "Most pilgrims go to Baidyanath Dham in Deoghar, Jharkhand, which draws huge crowds in the month of Shravan. Parli Vaijnath in Beed district, Maharashtra, is also revered as the Jyotirlinga, citing the stotram's wording."
+          ],
+          "links": [
+            {
+              "label": "Deoghar guide",
+              "href": "/blog/deoghar-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Mallikarjuna",
+          "body": [
+            "At Srisailam in the Nallamala hills, where the Bhramaramba shrine in the same complex is also counted among the Shakti Peethas."
+          ],
+          "links": [
+            {
+              "label": "Srisailam guide",
+              "href": "/blog/srisailam-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Ramanathaswamy",
+          "body": [
+            "Rameswaram's temple, known for its long pillared corridors and the sacred wells (theerthams) in which pilgrims bathe before darshan."
+          ],
+          "links": [
+            {
+              "label": "Rameswaram guide",
+              "href": "/blog/rameswaram-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "disputed",
+      "heading": "Sites claimed by more than one temple",
+      "paras": [
+        "Traditions differ on three Jyotirlingas, and no single authority settles them. Vaidyanath is identified with Deoghar in Jharkhand and with Parli Vaijnath in Maharashtra. Nageshwar is identified with the temple near Dwarka, with Aundha Nagnath in Hingoli, Maharashtra, and with Jageshwar in Uttarakhand. Bhimashankar is identified with the temple near Pune; the Assam government has also promoted a site in Kamrup as Bhimashankar.",
+        "Many pilgrims simply visit both or all of the claimed sites when they are on their route."
+      ],
+      "after": [
+        "Our Maharashtra route includes Aundha Nagnath and Parli Vaijnath for this reason."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to visit",
+      "list": [
+        "October to March is the most comfortable time for the plains and coastal temples.",
+        "Kedarnath opens around Akshaya Tritiya (April or May) and closes around Diwali and Bhai Dooj.",
+        "Maha Shivratri and the Mondays of Shravan (July to August) bring very large crowds everywhere.",
+        "Bhimashankar and Trimbakeshwar are green and misty in the monsoon, but roads and trails are slippery."
+      ]
+    }
+  ],
+  "safety": [
+    "Darshan waits vary from minutes to many hours; no one can guarantee quick darshan, so plan buffer time.",
+    "Dress modestly (shoulders and knees covered) and follow each temple's rules on phones, bags and photography.",
+    "Book special darshan or aarti slots only on the temple's official website or counter.",
+    "At Kedarnath, allow time to acclimatise and check the weather before starting the trek."
+  ],
+  "packing": [
+    "Clothes suitable for temple dress codes",
+    "Comfortable slip-on footwear",
+    "A small bag (large bags may not be allowed)",
+    "Warm layers for Kedarnath"
+  ],
+  "faqs": [
+    {
+      "q": "Which are the 12 Jyotirlingas?",
+      "a": "Somnath, Mallikarjuna, Mahakaleshwar, Omkareshwar, Kedarnath, Bhimashankar, Kashi Vishwanath, Trimbakeshwar, Vaidyanath, Nageshwar, Ramanathaswamy (Rameswaram) and Grishneshwar."
+    },
+    {
+      "q": "Which state has the most Jyotirlingas?",
+      "a": "Maharashtra, with Trimbakeshwar, Bhimashankar and Grishneshwar. Some traditions add Aundha Nagnath and Parli Vaijnath."
+    },
+    {
+      "q": "Which is the first Jyotirlinga?",
+      "a": "Somnath is listed first in the Dvadasha Jyotirlinga Stotram."
+    },
+    {
+      "q": "Why are some Jyotirlingas disputed?",
+      "a": "Scriptures give place names that more than one temple identifies with, so Vaidyanath, Nageshwar and Bhimashankar are claimed by different sites."
+    },
+    {
+      "q": "Can all 12 Jyotirlingas be visited in one trip?",
+      "a": "Yes, but it usually takes two to three weeks with trains and flights. Most people cover them in regional groups."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Jyotirlinga Yatra planning",
+      "href": "/blog/jyotirlinga-yatra"
+    },
+    {
+      "label": "Jyotirlingas in Maharashtra",
+      "href": "/blog/jyotirlingas-in-maharashtra"
+    },
+    {
+      "label": "Char Dham Yatra guide",
+      "href": "/blog/char-dham-yatra-guide"
+    },
+    {
+      "label": "Spiritual tour packages",
+      "href": "/packages/spiritual-tours"
+    },
+    {
+      "label": "Famous temples in India",
+      "href": "/blog/famous-temples-in-india"
+    }
+  ],
+  "related": [
+    {
+      "name": "Shakti Peethas in India",
+      "href": "/blog/shakti-peethas-in-india",
+      "note": "the Devi shrines"
+    },
+    {
+      "name": "Famous temples in India",
+      "href": "/blog/famous-temples-in-india",
+      "note": "region by region"
+    },
+    {
+      "name": "How to plan a pilgrimage",
+      "href": "/blog/how-to-plan-a-pilgrimage-in-india",
+      "note": "stays, darshan and pacing"
+    }
+  ],
+  "places": [
+    "Somnath",
+    "Srisailam",
+    "Ujjain",
+    "Omkareshwar",
+    "Kedarnath",
+    "Bhimashankar",
+    "Varanasi",
+    "Trimbakeshwar",
+    "Deoghar",
+    "Nageshwar",
+    "Rameswaram",
+    "Grishneshwar"
+  ],
+  "styles": [
+    "spiritual-tours",
+    "family-holidays"
+  ],
+  "planDestination": "Jyotirlinga temples",
+  "updated": "2026-09-26"
+}
