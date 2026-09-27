@@ -1,0 +1,350 @@
+{
+  "slug": "kashmir-itinerary",
+  "kind": "planning",
+  "short": "Kashmir itinerary",
+  "title": "Kashmir Itinerary: 5 to 7 Days in Srinagar, Gulmarg, Pahalgam and Sonamarg",
+  "seoTitle": "Kashmir Itinerary: 5 to 7 Days in the Valley | Kudozz Club",
+  "metaDescription": "A day-by-day Kashmir itinerary for five to seven days: Srinagar's Dal Lake and gardens, Gulmarg, Pahalgam and Sonamarg, with seasons and advisories.",
+  "description": "A practical five to seven day Kashmir itinerary: Srinagar's Dal Lake, houseboats, Mughal gardens and old city, Gulmarg's meadows and gondola, Pahalgam and the Lidder valley, and a day trip to Sonamarg, with seasonal variations for tulips, summer meadows, autumn and winter snow, where to stay, and the importance of checking current official advisories.",
+  "dek": "Kashmir's classic trip is built around Srinagar, with day trips or nights in Gulmarg, Pahalgam and Sonamarg. Here is a realistic plan.",
+  "primaryKeyword": "Kashmir itinerary",
+  "secondaryKeywords": [
+    "Kashmir 5 day itinerary",
+    "Kashmir trip plan",
+    "Srinagar Gulmarg Pahalgam itinerary"
+  ],
+  "searchIntent": "Itinerary planning",
+  "activities": [
+    "hill stations",
+    "houseboats",
+    "gardens",
+    "snow"
+  ],
+  "terrain": [
+    "valleys",
+    "mountains",
+    "lakes"
+  ],
+  "regions": [
+    "Jammu and Kashmir"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "friends"
+  ],
+  "tags": [
+    "Kashmir",
+    "Srinagar",
+    "Gulmarg",
+    "Pahalgam",
+    "Itinerary"
+  ],
+  "hero": {
+    "src": "/images/hills/kashmir-itinerary-sonamarg.webp",
+    "alt": "The Sindh valley at Sonamarg, Kashmir"
+  },
+  "parent": {
+    "label": "Hill Stations in Jammu and Kashmir",
+    "href": "/blog/hill-stations-in-jammu-and-kashmir"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Kashmir valley route",
+    "containedIn": "Jammu and Kashmir"
+  },
+  "intro": [
+    "Most Kashmir trips centre on Srinagar, with its lakes, gardens and old city, and add the three classic resorts: Gulmarg to the west, Pahalgam to the south-east and Sonamarg to the north-east. Five days covers the essentials; seven lets you stay a night in Gulmarg or Pahalgam and slow down.",
+    "Tourist destinations closed after the April 2025 Pahalgam attack were progressively reopened from early 2026. Check current official advisories before booking and during your trip."
+  ],
+  "quickAnswer": "A five to seven day Kashmir itinerary: arrive in Srinagar for Dal Lake and a shikara ride (day 1), see the Mughal gardens and old city (day 2), visit Gulmarg and its gondola (day 3), drive to Pahalgam via Pampore and Awantipora (day 4), explore Betaab and Aru valleys (day 5), take a day trip to Sonamarg (day 6), and depart from Srinagar (day 7). Check current official advisories before travelling.",
+  "takeaways": [
+    "Srinagar is the base; Gulmarg, Pahalgam and Sonamarg are each 50 to 90 km away.",
+    "Stay a night in Pahalgam or Gulmarg to see them early and late in the day.",
+    "April brings tulips; May to June green meadows; October autumn colour; December to March snow.",
+    "Gulmarg's gondola is weather-dependent; book online where possible.",
+    "Check official advisories and use registered stays and operators."
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Route at a glance",
+      "table": {
+        "columns": [
+          "Day",
+          "Base",
+          "Highlights"
+        ],
+        "rows": [
+          [
+            "1",
+            "Srinagar",
+            "Dal Lake, shikara ride, houseboat or lakeside stay"
+          ],
+          [
+            "2",
+            "Srinagar",
+            "Nishat, Shalimar and Chashme Shahi gardens; old city and Hazratbal"
+          ],
+          [
+            "3",
+            "Srinagar or Gulmarg",
+            "Gulmarg meadows and gondola"
+          ],
+          [
+            "4",
+            "Pahalgam",
+            "Drive via Pampore saffron fields and Awantipora ruins"
+          ],
+          [
+            "5",
+            "Pahalgam",
+            "Betaab and Aru valleys; Chandanwari in season"
+          ],
+          [
+            "6",
+            "Srinagar",
+            "Day trip to Sonamarg and Thajiwas glacier"
+          ],
+          [
+            "7",
+            "Depart",
+            "Last morning in Srinagar"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "srinagar",
+      "heading": "Srinagar",
+      "items": [
+        {
+          "name": "Srinagar",
+          "body": [
+            "A shikara at sunset, the Mughal gardens, the old city's shrines and markets, and the tulip garden in April."
+          ],
+          "links": [
+            {
+              "label": "Srinagar guide",
+              "href": "/blog/srinagar-travel-guide"
+            },
+            {
+              "label": "Things to do in Srinagar",
+              "href": "/blog/things-to-do-in-srinagar"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/jammu-kashmir/nishat-bagh-mughal-garden-srinagar.webp",
+            "alt": "Nishat Bagh, a Mughal garden on Dal Lake",
+            "caption": "Nishat Bagh"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gulmarg",
+      "heading": "Gulmarg",
+      "items": [
+        {
+          "name": "Gulmarg",
+          "body": [
+            "Meadows and the gondola in summer, snow and skiing in winter; about 50 km from Srinagar."
+          ],
+          "links": [
+            {
+              "label": "Gulmarg guide",
+              "href": "/blog/gulmarg-travel-guide"
+            },
+            {
+              "label": "Things to do in Gulmarg",
+              "href": "/blog/things-to-do-in-gulmarg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pahalgam",
+      "heading": "Pahalgam and Sonamarg",
+      "items": [
+        {
+          "name": "Pahalgam",
+          "body": [
+            "The Lidder valley town, with Betaab and Aru valleys; about 90 km from Srinagar."
+          ],
+          "links": [
+            {
+              "label": "Pahalgam guide",
+              "href": "/blog/pahalgam-travel-guide"
+            },
+            {
+              "label": "Things to do in Pahalgam",
+              "href": "/blog/things-to-do-in-pahalgam"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/pahalgam/pahalgam-valley-lidder-river-forest.webp",
+            "alt": "The Lidder river and forests at Pahalgam",
+            "caption": "Pahalgam"
+          }
+        },
+        {
+          "name": "Sonamarg",
+          "body": [
+            "Meadows below glaciers on the road to Zoji La; about 80 km from Srinagar."
+          ],
+          "links": [
+            {
+              "label": "Sonamarg guide",
+              "href": "/blog/sonamarg-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "variations",
+      "heading": "Variations by season",
+      "list": [
+        "April: time Srinagar for the tulip garden, which blooms for a few weeks.",
+        "May to June: green meadows everywhere; the busiest season.",
+        "July to August: the Amarnath Yatra brings traffic and security arrangements around Pahalgam and Sonamarg.",
+        "October: autumn colours in the gardens and chinar trees.",
+        "December to March: snow in Gulmarg and Pahalgam; skiing at Gulmarg; roads may close after heavy snow."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "A night or two on a registered houseboat on Dal or Nagin Lake is part of the experience; hotels by the lake or in the city are alternatives. A night in Gulmarg or Pahalgam avoids long day trips. In winter, confirm heating before booking."
+      ]
+    },
+    {
+      "id": "getting-there",
+      "heading": "Getting there",
+      "list": [
+        "Fly to Srinagar from Delhi, Mumbai and other cities.",
+        "Trains run from Katra to Srinagar; check connections from Jammu.",
+        "The Jammu-Srinagar highway can close after snow or landslides.",
+        "Local taxi unions operate transport to the resorts; book through your stay or operator."
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food to try",
+      "list": [
+        "Wazwan, the Kashmiri multi-course feast, with rogan josh and gushtaba.",
+        "Kahwa, saffron and almond green tea.",
+        "Harissa, a slow-cooked winter breakfast.",
+        "Bakery breads such as girda and lavasa with noon chai."
+      ]
+    },
+    {
+      "id": "shopping",
+      "heading": "Shopping",
+      "paras": [
+        "Srinagar is known for pashmina and wool shawls, papier-mache, walnut-wood carving, carpets and saffron from Pampore. Buy from government emporia or established shops, ask for certification where it applies, and be wary of touts on the lake."
+      ]
+    }
+  ],
+  "safety": [
+    "Check current official advisories before booking and during the trip.",
+    "Drive times are approximate and depend on traffic, weather, landslides and road works; allow extra time and avoid driving after dark.",
+    "Permits, e-passes, ropeways and pass openings change; check official portals before you travel.",
+    "In winter, heed avalanche warnings in Gulmarg and Sonamarg."
+  ],
+  "packing": [
+    "Layers; heavy woollens in winter",
+    "Walking shoes",
+    "Scarf for shrines",
+    "Photo ID for checkpoints"
+  ],
+  "faqs": [
+    {
+      "q": "How many days are enough for Kashmir?",
+      "a": "Five days covers the essentials; seven allows nights in Gulmarg or Pahalgam."
+    },
+    {
+      "q": "When is the best time to visit Kashmir?",
+      "a": "April to June and September to October for sightseeing; December to March for snow."
+    },
+    {
+      "q": "Is Kashmir open to tourists?",
+      "a": "Destinations closed after April 2025 were progressively reopened from early 2026; check current official advisories before travelling."
+    },
+    {
+      "q": "Should I stay on a houseboat?",
+      "a": "A night or two on a registered houseboat is a classic part of a Srinagar stay."
+    },
+    {
+      "q": "Can I combine Kashmir with Ladakh?",
+      "a": "Yes, via Sonamarg and Zoji La when the road is open, usually from about May or June to October."
+    },
+    {
+      "q": "Is Gulmarg better as a day trip or an overnight stay?",
+      "a": "An overnight stay lets you see the meadows early and late and ride the gondola before crowds; a day trip works if time is short."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Hill stations in Jammu and Kashmir",
+      "href": "/blog/hill-stations-in-jammu-and-kashmir"
+    },
+    {
+      "label": "Things to do in Kashmir",
+      "href": "/blog/things-to-do-in-kashmir"
+    },
+    {
+      "label": "Places to see snow in India",
+      "href": "/blog/places-to-see-snow-in-india"
+    },
+    {
+      "label": "Kashmir tour packages",
+      "href": "/packages/kashmir"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hill stations for couples",
+      "href": "/blog/hill-stations-for-couples-in-india",
+      "note": "honeymoon ideas"
+    },
+    {
+      "name": "Skiing in India",
+      "href": "/blog/skiing-in-india",
+      "note": "Gulmarg's slopes"
+    },
+    {
+      "name": "Mughal monuments in India",
+      "href": "/blog/mughal-monuments-in-india",
+      "note": "Mughal gardens"
+    }
+  ],
+  "places": [
+    "Srinagar",
+    "Gulmarg",
+    "Pahalgam",
+    "Pampore",
+    "Awantipora",
+    "Betaab Valley",
+    "Aru",
+    "Sonamarg"
+  ],
+  "styles": [
+    "hill-station-holidays",
+    "honeymoon"
+  ],
+  "planDestination": "Kashmir",
+  "updated": "2026-09-26"
+}

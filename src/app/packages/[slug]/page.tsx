@@ -24,6 +24,8 @@ import { beachForPackage, beachEntry } from "@/lib/beach-links";
 import { wildlifeIndex, wildlifeForPackage, wildlifeEntry } from "@/lib/wildlife-links";
 import { spiritualIndex, spiritualForPackage, spiritualEntry } from "@/lib/spiritual-links";
 import { heritageIndex, heritageForPackage, heritageEntry } from "@/lib/heritage-links";
+import { hillsIndex, hillsForPackage, hillsEntry } from "@/lib/hills-links";
+import { natureIndex, natureForPackage, natureEntry } from "@/lib/nature-links";
 
 // Travel-style pages that get a "Beach ideas" block (Beach Travel cluster).
 const BEACH_FOR_STYLE: Record<string, string[]> = {
@@ -47,6 +49,38 @@ const SPIRITUAL_FOR_STYLE: Record<string, string[]> = {
 const SPIRITUAL_FOR_COMBO: Record<string, string[]> = {
   "char-dham-yatra": ["char-dham-yatra-guide", "kedarnath-badrinath-yatra", "hemkund-sahib-yatra", "pilgrimage-packing-list", "spiritual-tourism-in-uttarakhand"],
   "buddhist-circuit": ["buddhist-circuit-in-india", "buddhist-tourism-in-india", "spiritual-tourism-in-bihar", "spiritual-tourism-in-uttar-pradesh"],
+};
+
+// Travel-style pages that get a "Hill-station ideas" block (Hill Station Travel cluster).
+const HILLS_FOR_STYLE: Record<string, string[]> = {
+  "family-holidays": ["hill-stations-for-families-in-india", "summer-hill-stations-in-india", "south-india-hill-stations-itinerary"],
+  honeymoon: ["hill-stations-for-couples-in-india", "kashmir-itinerary", "winter-hill-stations-in-india"],
+  "weekend-getaways": ["hill-stations-near-delhi", "hill-stations-near-mumbai", "hill-stations-near-bengaluru", "hill-stations-near-chennai", "hill-stations-near-kolkata"],
+  "luxury-holidays": ["luxury-hill-holidays-in-india", "tea-tourism-in-india", "coffee-plantation-tourism-in-india"],
+  "budget-holidays": ["budget-hill-stations-in-india", "hill-stations-near-delhi"],
+  "group-tours": ["shimla-manali-itinerary", "mountain-road-trips-in-india", "places-to-see-snow-in-india"],
+  "adventure-tours": ["mountain-road-trips-in-india", "best-mountain-destinations-in-india", "places-to-see-snow-in-india"],
+};
+
+// Combo packages that get a block of hill-station planning guides.
+const HILLS_FOR_COMBO: Record<string, string[]> = {
+  "northeast-india": ["hill-stations-in-northeast-india", "hill-stations-in-meghalaya", "darjeeling-sikkim-itinerary"],
+};
+
+// Travel-style pages that get a "Nature ideas" block (Nature Travel cluster).
+const NATURE_FOR_STYLE: Record<string, string[]> = {
+  "family-holidays": ["nature-trips-for-families-in-india", "kerala-nature-itinerary", "waterfalls-in-india"],
+  honeymoon: ["nature-getaways-for-couples-in-india", "nature-retreats-in-india", "lakes-in-india"],
+  "luxury-holidays": ["nature-retreats-in-india", "western-ghats-nature-travel"],
+  "budget-holidays": ["nature-retreats-in-india", "village-tourism-in-india", "offbeat-nature-destinations-in-india"],
+  "wildlife-tours": ["forest-destinations-in-india", "biodiversity-hotspots-in-india", "eco-tourism-in-india"],
+  "adventure-tours": ["valleys-in-india", "natural-caves-in-india", "offbeat-nature-destinations-in-india"],
+  "hill-station-holidays": ["himalayan-nature-travel", "valleys-in-india", "flower-valleys-and-blooms-in-india"],
+};
+
+// Combo packages that get a block of nature planning guides.
+const NATURE_FOR_COMBO: Record<string, string[]> = {
+  "northeast-india": ["nature-travel-in-northeast-india", "nature-travel-in-meghalaya", "meghalaya-nature-itinerary"],
 };
 
 // Travel-style pages that get a "Heritage ideas" block (Heritage & Cultural Tourism cluster).
@@ -528,6 +562,66 @@ function SpiritualLinks({ slug, name }: { slug: string; name: string }) {
   );
 }
 
+function NatureLinks({ slug, name }: { slug: string; name: string }) {
+  const items = natureForPackage(slug);
+  if (!items.length) return null;
+  return (
+    <section className="bg-white pb-16 md:pb-20">
+      <div className="container-site">
+        <SectionTitle
+          eyebrow="Nature travel"
+          title={`Nature in ${name}`}
+          intro="Forests, waterfalls, lakes and valleys, with the seasons that suit them."
+        />
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {items.map((e) => (
+            <li key={e.slug}>
+              <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-3.5 py-1.5 font-sans text-sm text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                {e.short}
+              </Link>
+            </li>
+          ))}
+          <li>
+            <Link href="/nature-travel" className="inline-block rounded-full px-3.5 py-1.5 font-sans text-sm font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+              All nature travel →
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+function HillsLinks({ slug, name }: { slug: string; name: string }) {
+  const items = hillsForPackage(slug);
+  if (!items.length) return null;
+  return (
+    <section className="bg-white pb-16 md:pb-20">
+      <div className="container-site">
+        <SectionTitle
+          eyebrow="Hill stations"
+          title={`Hill stations in ${name}`}
+          intro="Hill towns, seasons, snow and routes, with realistic drives and where to stay."
+        />
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {items.map((e) => (
+            <li key={e.slug}>
+              <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-3.5 py-1.5 font-sans text-sm text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                {e.short}
+              </Link>
+            </li>
+          ))}
+          <li>
+            <Link href="/hill-station-travel" className="inline-block rounded-full px-3.5 py-1.5 font-sans text-sm font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+              All hill-station travel →
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
 function HeritageLinks({ slug, name }: { slug: string; name: string }) {
   const items = heritageForPackage(slug);
   if (!items.length) return null;
@@ -862,6 +956,8 @@ function StatePackageView({ state }: { state: StatePackage }) {
         <WildlifeLinks slug={state.slug} name={name} />
         <SpiritualLinks slug={state.slug} name={name} />
         <HeritageLinks slug={state.slug} name={name} />
+        <HillsLinks slug={state.slug} name={name} />
+        <NatureLinks slug={state.slug} name={name} />
 
         {profile && (
           <section className="bg-white pb-16 md:pb-20">
@@ -991,6 +1087,54 @@ function ComboPackageView({ combo }: { combo: ComboPackage }) {
                       </Link>
                     </li>
                   ))}
+              </ul>
+            </div>
+          </section>
+        )}
+        {HILLS_FOR_COMBO[combo.slug] && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle eyebrow="Hill-station guides" title={`Hill stations in ${combo.name}`} intro="Hill towns, permits, seasons and a day-by-day route, before you book." />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {HILLS_FOR_COMBO[combo.slug]
+                  .map((slug) => hillsEntry(slug))
+                  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+                <li>
+                  <Link href="/hill-station-travel" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Hill station travel in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {NATURE_FOR_COMBO[combo.slug] && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle eyebrow="Nature guides" title={`Nature in ${combo.name}`} intro="Root bridges, waterfalls, valleys and permits, with a day-by-day route." />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {NATURE_FOR_COMBO[combo.slug]
+                  .map((slug) => natureEntry(slug))
+                  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+                <li>
+                  <Link href="/nature-travel" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Nature travel in India →
+                  </Link>
+                </li>
               </ul>
             </div>
           </section>
@@ -1137,6 +1281,104 @@ function StylePackageView({ style }: { style: TravelStylePackage }) {
                 <li>
                   <Link href="/beach-travel" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
                     Beach travel in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {HILLS_FOR_STYLE[style.slug] && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle eyebrow="Hill-station ideas" title={`Hill trips for ${lower}`} intro="Hill-station guides to help choose the place, the season and the pace." />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {HILLS_FOR_STYLE[style.slug]
+                  .map((slug) => hillsEntry(slug))
+                  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+                <li>
+                  <Link href="/hill-station-travel" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Hill station travel in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {style.slug === "hill-station-holidays" && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle
+                eyebrow="Hill-station guides"
+                title="Choose your hill holiday"
+                intro="Regions, states, seasons, traveller types, weekend trips and itineraries, to help you choose before you plan the trip."
+              />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {hillsIndex.map((e) => (
+                  <li key={e.slug}>
+                    <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                      {e.short}
+                    </Link>
+                  </li>
+                ))}
+                <li>
+                  <Link href="/hill-station-travel" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Hill station travel in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {NATURE_FOR_STYLE[style.slug] && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle eyebrow="Nature ideas" title={`Nature trips for ${lower}`} intro="Nature guides to help choose the landscape, the season and the pace." />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {NATURE_FOR_STYLE[style.slug]
+                  .map((slug) => natureEntry(slug))
+                  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+                <li>
+                  <Link href="/nature-travel" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Nature travel in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {style.slug === "nature-holidays" && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle
+                eyebrow="Nature guides"
+                title="Choose your nature holiday"
+                intro="Landscapes, regions, states, seasons, traveller types and itineraries, to help you choose before you plan the trip."
+              />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {natureIndex.map((e) => (
+                  <li key={e.slug}>
+                    <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                      {e.short}
+                    </Link>
+                  </li>
+                ))}
+                <li>
+                  <Link href="/nature-travel" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Nature travel in India →
                   </Link>
                 </li>
               </ul>

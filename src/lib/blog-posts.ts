@@ -5,6 +5,7 @@ import { wildlifeIndex } from "./wildlife-links";
 import { spiritualIndex } from "./spiritual-links";
 import { heritageIndex } from "./heritage-links";
 import { hillsIndex } from "./hills-links";
+import { natureIndex } from "./nature-links";
 
 // `id` matches the `category` value used on each post in `posts` below,
 // so filtering is a direct equality check with no separate mapping table.
@@ -24,6 +25,7 @@ export const categories = [
   { id: "Spiritual Tourism", label: "Spiritual Tourism" },
   { id: "Heritage & Culture", label: "Heritage & Culture" },
   { id: "Hill Stations", label: "Hill Stations" },
+  { id: "Nature Travel", label: "Nature Travel" },
 ];
 
 export const featuredPost = {
@@ -7117,7 +7119,20 @@ const hillsPosts = hillsIndex.map((e) => ({
   featured: false,
 }));
 
-export const posts = [...guidePosts, ...thingsToDoPosts, ...adventurePosts, ...beachPosts, ...wildlifePosts, ...spiritualPosts, ...heritagePosts, ...hillsPosts];
+// Nature Travel articles (src/content/nature), from the generated index.
+const naturePosts = natureIndex.map((e) => ({
+  slug: e.slug,
+  title: e.title,
+  excerpt: e.excerpt,
+  image: e.image,
+  category: "Nature Travel",
+  categoryColor: "bg-lime-100 text-lime-800",
+  tags: e.tags,
+  readTime: e.readTime,
+  featured: false,
+}));
+
+export const posts = [...guidePosts, ...thingsToDoPosts, ...adventurePosts, ...beachPosts, ...wildlifePosts, ...spiritualPosts, ...heritagePosts, ...hillsPosts, ...naturePosts];
 
 export const popularTags = [
   "Himachal Pradesh",

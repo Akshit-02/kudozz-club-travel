@@ -1,0 +1,446 @@
+{
+  "slug": "natural-wonders-of-india",
+  "kind": "pillar",
+  "short": "Natural wonders of India",
+  "title": "Natural Wonders of India: Canyons, Craters, Root Bridges and More",
+  "seoTitle": "Natural Wonders of India: Canyons, Craters and More | Kudozz Club",
+  "metaDescription": "India's natural wonders: Gandikota gorge, Marble Rocks at Bhedaghat, Lonar crater, Meghalaya's living root bridges, the Rann of Kutch, Loktak's phumdis and more.",
+  "description": "A guide to the natural wonders of India: the Gandikota gorge on the Penna, the Marble Rocks and Dhuandhar Falls at Bhedaghat, the Lonar crater lake, Meghalaya's living root bridges and Laitlum canyons, the white salt desert of the Rann of Kutch, Loktak Lake's floating islands, the basalt columns of St Mary's Islands, Baratang's mud volcanoes, and the caves of Borra and Belum, with how and when to visit.",
+  "dek": "India's most remarkable natural sites include a meteorite crater, marble gorges, floating islands and bridges grown from living roots. Here is where to see them.",
+  "primaryKeyword": "natural wonders of India",
+  "secondaryKeywords": [
+    "geological wonders India",
+    "natural rock formations India",
+    "canyons in India"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "sightseeing",
+    "geology",
+    "photography",
+    "boat rides"
+  ],
+  "terrain": [
+    "canyons",
+    "lakes",
+    "caves",
+    "desert"
+  ],
+  "regions": [
+    "Andhra Pradesh",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Meghalaya",
+    "Gujarat",
+    "Manipur",
+    "Karnataka",
+    "Andaman and Nicobar Islands"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "photographers"
+  ],
+  "tags": [
+    "Natural Wonders",
+    "Geology",
+    "Canyons",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/nature/natural-wonders-gandikota-gorge.webp",
+    "alt": "The Penna river gorge at Gandikota at sunset, Andhra Pradesh"
+  },
+  "parent": {
+    "label": "Nature Travel",
+    "href": "/nature-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Natural wonders of India"
+  },
+  "intro": [
+    "Some of India's most memorable places are the work of rivers, volcanoes, meteorites and, in Meghalaya, generations of patient villagers. They range from deep river gorges and a crater lake to a salt desert that turns white each winter.",
+    "This guide focuses on geological and living wonders you can visit. For waterfalls, lakes and caves in depth, see our dedicated guides."
+  ],
+  "quickAnswer": "India's natural wonders include the Gandikota gorge on the Penna river in Andhra Pradesh, the Marble Rocks gorge at Bhedaghat in Madhya Pradesh, Lonar crater lake in Maharashtra, Meghalaya's living root bridges, the white Rann of Kutch in Gujarat, Loktak Lake's floating phumdis in Manipur, the basalt columns of St Mary's Islands in Karnataka, and the Borra and Belum caves in Andhra Pradesh. Most are best visited from October to March.",
+  "takeaways": [
+    "Lonar is a crater lake formed by a meteorite impact, and a Ramsar wetland.",
+    "Meghalaya's living root bridges are on UNESCO's Tentative List.",
+    "The Rann of Kutch's white salt flats are best from about November to February.",
+    "Marble Rocks at Bhedaghat is best seen by boat, which runs outside the monsoon.",
+    "St Mary's Islands off Udupi have striking hexagonal basalt columns."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "At a glance",
+      "table": {
+        "columns": [
+          "Wonder",
+          "State",
+          "What it is",
+          "Best time"
+        ],
+        "rows": [
+          [
+            "Gandikota",
+            "Andhra Pradesh",
+            "Red sandstone gorge of the Penna river, with a fort",
+            "October to February"
+          ],
+          [
+            "Marble Rocks, Bhedaghat",
+            "Madhya Pradesh",
+            "Narmada gorge between white marble cliffs; Dhuandhar Falls",
+            "October to May"
+          ],
+          [
+            "Lonar crater",
+            "Maharashtra",
+            "Crater lake from a meteorite impact",
+            "October to February"
+          ],
+          [
+            "Living root bridges",
+            "Meghalaya",
+            "Bridges grown from the roots of rubber fig trees",
+            "October to May"
+          ],
+          [
+            "Laitlum canyons",
+            "Meghalaya",
+            "Deep gorges near Shillong",
+            "October to April"
+          ],
+          [
+            "Rann of Kutch",
+            "Gujarat",
+            "Seasonal white salt desert",
+            "November to February"
+          ],
+          [
+            "Loktak Lake",
+            "Manipur",
+            "Lake with floating islands (phumdis)",
+            "October to March"
+          ],
+          [
+            "St Mary's Islands",
+            "Karnataka",
+            "Columnar basalt islands",
+            "October to May (boats weather-dependent)"
+          ],
+          [
+            "Baratang",
+            "Andaman",
+            "Mud volcanoes and limestone caves",
+            "November to April"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gorges",
+      "heading": "Gorges and canyons",
+      "items": [
+        {
+          "name": "Gandikota",
+          "body": [
+            "The Penna river has cut a deep gorge through red sandstone beside an old fort, often called the Grand Canyon of India."
+          ],
+          "links": [
+            {
+              "label": "Gandikota guide",
+              "href": "/blog/gandikota-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/andhra-pradesh/gandikota/gandikota-2.webp",
+            "alt": "The Gandikota gorge on the Penna river",
+            "caption": "Gandikota"
+          }
+        },
+        {
+          "name": "Marble Rocks, Bhedaghat",
+          "body": [
+            "Boat rides between marble cliffs on the Narmada, and the Dhuandhar Falls nearby."
+          ],
+          "links": [
+            {
+              "label": "Jabalpur guide",
+              "href": "/blog/jabalpur-travel-guide"
+            },
+            {
+              "label": "Things to do in Jabalpur",
+              "href": "/blog/things-to-do-in-jabalpur"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/madhya-pradesh/jabalpur/bhedaghat-marble-rocks-jabalpur.webp",
+            "alt": "The marble cliffs of Bhedaghat on the Narmada",
+            "caption": "Marble Rocks, Bhedaghat"
+          }
+        },
+        {
+          "name": "Laitlum",
+          "body": [
+            "Canyons dropping away from the plateau edge near Shillong."
+          ],
+          "links": [
+            {
+              "label": "Laitlum Canyons guide",
+              "href": "/blog/laitlum-canyons-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "living",
+      "heading": "Living and water wonders",
+      "items": [
+        {
+          "name": "Living root bridges",
+          "body": [
+            "Khasi and Jaintia communities train the roots of rubber fig trees across streams; the double-decker bridge at Nongriat is the best known."
+          ],
+          "links": [
+            {
+              "label": "Nongriat guide",
+              "href": "/blog/nongriat-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Loktak Lake",
+          "body": [
+            "A large freshwater lake in Manipur dotted with floating phumdis, including the Keibul Lamjao National Park."
+          ],
+          "links": [
+            {
+              "label": "Loktak Lake guide",
+              "href": "/blog/loktak-lake-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Dawki's Umngot river",
+          "body": [
+            "So clear in winter that boats seem to float above the riverbed."
+          ],
+          "links": [
+            {
+              "label": "Dawki guide",
+              "href": "/blog/dawki-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deserts",
+      "heading": "Deserts, craters and islands",
+      "items": [
+        {
+          "name": "Rann of Kutch",
+          "body": [
+            "The white salt desert near the Pakistan border, at its best in winter and under a full moon."
+          ],
+          "links": [
+            {
+              "label": "Rann of Kutch guide",
+              "href": "/blog/rann-of-kutch-travel-guide"
+            },
+            {
+              "label": "Rann Utsav",
+              "href": "/blog/rann-utsav"
+            }
+          ]
+        },
+        {
+          "name": "Lonar",
+          "body": [
+            "A crater lake formed by a meteorite impact, in Buldhana district, with old temples on its slopes."
+          ]
+        },
+        {
+          "name": "St Mary's Islands and Baratang",
+          "body": [
+            "Hexagonal basalt columns off Malpe near Udupi; mud volcanoes and limestone caves in the Andamans."
+          ],
+          "links": [
+            {
+              "label": "Udupi guide",
+              "href": "/blog/udupi-travel-guide"
+            },
+            {
+              "label": "Baratang guide",
+              "href": "/blog/baratang-andaman-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caves",
+      "heading": "Caves",
+      "items": [
+        {
+          "name": "Borra and Belum",
+          "body": [
+            "Limestone caves with stalactites in the Araku hills and near Kurnool."
+          ],
+          "links": [
+            {
+              "label": "Natural caves in India",
+              "href": "/blog/natural-caves-in-india"
+            },
+            {
+              "label": "Borra Caves guide",
+              "href": "/blog/borra-caves-travel-guide"
+            },
+            {
+              "label": "Belum Caves guide",
+              "href": "/blog/belum-caves-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "responsible",
+      "heading": "Visiting responsibly",
+      "paras": [
+        "Many of these places are fragile. Do not climb on root bridges beyond what locals allow, stay on marked paths at Lonar and Gandikota, never break off cave formations, and carry all waste out. Some sites are community-managed and charge small fees that support maintenance."
+      ],
+      "items": [
+        {
+          "name": "Eco tourism",
+          "body": [
+            "Responsible nature travel."
+          ],
+          "links": [
+            {
+              "label": "Eco tourism in India",
+              "href": "/blog/eco-tourism-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-formed",
+      "heading": "How these wonders formed",
+      "paras": [
+        "Most of these sites record long geological histories. Gandikota and Bhedaghat are river gorges, cut over a very long time by the Penna and the Narmada through sandstone and marble. Lonar formed when a meteorite struck the Deccan basalt. St Mary's Islands' columns formed as lava cooled and cracked. The Rann of Kutch is a seasonal salt marsh, flooded in the monsoon and dried into white crust in winter. The root bridges, by contrast, are human work, grown over decades from living trees."
+      ]
+    },
+    {
+      "id": "route",
+      "heading": "Seeing several on one trip",
+      "list": [
+        "Bhedaghat with Pachmarhi or Kanha in Madhya Pradesh.",
+        "Gandikota with Belum Caves in Andhra Pradesh.",
+        "Laitlum, the root bridges and Dawki in a Meghalaya loop.",
+        "The white Rann with Dholavira and the Kutch craft villages."
+      ]
+    }
+  ],
+  "safety": [
+    "Stay on marked trails and viewpoints, and heed local closures after heavy rain; many accidents at waterfalls and cliffs happen off the path.",
+    "Entry rules, timings, permits and seasonal closures change; check the forest department or official site before you go.",
+    "Boat rides stop in rough weather and during the monsoon at several sites."
+  ],
+  "packing": [
+    "Walking shoes",
+    "Sun protection",
+    "Water and snacks",
+    "Torch for caves"
+  ],
+  "faqs": [
+    {
+      "q": "What are the natural wonders of India?",
+      "a": "Gandikota, Marble Rocks at Bhedaghat, Lonar crater, the living root bridges, the Rann of Kutch, Loktak Lake and St Mary's Islands are among them."
+    },
+    {
+      "q": "Which is called the Grand Canyon of India?",
+      "a": "Gandikota, in Andhra Pradesh."
+    },
+    {
+      "q": "How was Lonar Lake formed?",
+      "a": "By a meteorite impact, which created a crater that now holds a saline lake."
+    },
+    {
+      "q": "Are the living root bridges a UNESCO site?",
+      "a": "They are on UNESCO's Tentative List, and India has submitted a nomination."
+    },
+    {
+      "q": "When is the white Rann at its best?",
+      "a": "From about November to February, especially on full-moon nights."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Natural caves in India",
+      "href": "/blog/natural-caves-in-india"
+    },
+    {
+      "label": "Waterfalls in India",
+      "href": "/blog/waterfalls-in-india"
+    },
+    {
+      "label": "Lakes in India",
+      "href": "/blog/lakes-in-india"
+    },
+    {
+      "label": "Nature holidays",
+      "href": "/packages/nature-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best nature destinations",
+      "href": "/blog/best-nature-destinations-in-india",
+      "note": "by landscape"
+    },
+    {
+      "name": "Nature photography in India",
+      "href": "/blog/nature-photography-in-india",
+      "note": "photographing them"
+    },
+    {
+      "name": "Rock-cut caves in India",
+      "href": "/blog/rock-cut-caves-in-india",
+      "note": "carved caves"
+    }
+  ],
+  "places": [
+    "Gandikota",
+    "Bhedaghat",
+    "Lonar",
+    "Nongriat",
+    "Laitlum",
+    "Rann of Kutch",
+    "Loktak",
+    "St Mary's Islands",
+    "Baratang",
+    "Borra",
+    "Belum",
+    "Dawki"
+  ],
+  "styles": [
+    "nature-holidays"
+  ],
+  "planDestination": "India's natural wonders",
+  "updated": "2026-09-26"
+}

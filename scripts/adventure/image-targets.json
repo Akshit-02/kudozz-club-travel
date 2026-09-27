@@ -3104,5 +3104,1019 @@
   "alt": "",
   "usedIn": "/blog/heritage-tourism-in-kerala",
   "n": 6
+ },
+ "hills-hub": {
+  "stem": "hill-station-travel-india-kanchenjunga-darjeeling",
+  "queries": [
+   "Kanchenjunga from Darjeeling",
+   "Darjeeling Kanchenjunga view"
+  ],
+  "must": [
+   "darjeeling",
+   "kanchenjunga",
+   "kangchenjunga"
+  ],
+  "alt": "",
+  "usedIn": "/hill-station-travel",
+  "n": 6
+ },
+ "best-hill-stations-in-india": {
+  "stem": "best-hill-stations-india-shimla",
+  "queries": [
+   "Shimla town view",
+   "Shimla ridge"
+  ],
+  "must": [
+   "shimla"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-hill-stations-in-india",
+  "n": 6
+ },
+ "best-mountain-destinations-in-india": {
+  "stem": "mountain-destinations-india-spiti-key",
+  "queries": [
+   "Key Monastery Spiti",
+   "Spiti valley landscape"
+  ],
+  "must": [
+   "spiti",
+   "key monastery",
+   "kee"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-mountain-destinations-in-india",
+  "n": 6
+ },
+ "himalayan-hill-stations": {
+  "stem": "himalayan-hill-stations-mussoorie",
+  "queries": [
+   "Mussoorie Himalaya view",
+   "Mussoorie town"
+  ],
+  "must": [
+   "mussoorie"
+  ],
+  "alt": "",
+  "usedIn": "/blog/himalayan-hill-stations",
+  "n": 6
+ },
+ "hill-stations-in-northeast-india": {
+  "stem": "northeast-hill-stations-gangtok",
+  "queries": [
+   "Gangtok city view",
+   "Gangtok Sikkim"
+  ],
+  "must": [
+   "gangtok"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-northeast-india",
+  "n": 6
+ },
+ "hill-stations-in-south-india": {
+  "stem": "south-india-hill-stations-munnar",
+  "queries": [
+   "Munnar tea estate",
+   "Munnar hills"
+  ],
+  "must": [
+   "munnar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-south-india",
+  "n": 6
+ },
+ "hill-stations-in-western-and-central-india": {
+  "stem": "western-central-hill-stations-mount-abu",
+  "queries": [
+   "Nakki Lake Mount Abu",
+   "Mount Abu"
+  ],
+  "must": [
+   "mount abu",
+   "nakki"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-western-and-central-india",
+  "n": 6
+ },
+ "hill-stations-in-himachal-pradesh": {
+  "stem": "himachal-hill-stations-manali",
+  "queries": [
+   "Manali valley",
+   "Manali Himachal"
+  ],
+  "must": [
+   "manali"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-himachal-pradesh",
+  "n": 6
+ },
+ "hill-stations-in-uttarakhand": {
+  "stem": "uttarakhand-hill-stations-nainital",
+  "queries": [
+   "Nainital lake",
+   "Naini Lake"
+  ],
+  "must": [
+   "nainital",
+   "naini"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-uttarakhand",
+  "n": 6
+ },
+ "hill-stations-in-jammu-and-kashmir": {
+  "stem": "kashmir-hill-stations-pahalgam",
+  "queries": [
+   "Pahalgam valley",
+   "Betaab Valley"
+  ],
+  "must": [
+   "pahalgam",
+   "betaab",
+   "betab"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-jammu-and-kashmir",
+  "n": 6
+ },
+ "hill-stations-in-sikkim": {
+  "stem": "sikkim-hill-stations-pelling-kanchenjunga",
+  "queries": [
+   "Yumthang Valley Sikkim",
+   "Lachung Sikkim"
+  ],
+  "must": [
+   "yumthang",
+   "lachung"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-sikkim",
+  "n": 6
+ },
+ "hill-stations-in-west-bengal": {
+  "stem": "west-bengal-hill-stations-kalimpong",
+  "queries": [
+   "Kalimpong",
+   "Mirik lake"
+  ],
+  "must": [
+   "kalimpong",
+   "mirik"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-west-bengal",
+  "n": 6
+ },
+ "hill-stations-in-meghalaya": {
+  "stem": "meghalaya-hill-stations-shillong",
+  "queries": [
+   "Umiam Lake",
+   "Shillong peak"
+  ],
+  "must": [
+   "umiam",
+   "shillong"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-meghalaya",
+  "n": 6
+ },
+ "hill-stations-in-tamil-nadu": {
+  "stem": "tamil-nadu-hill-stations-kodaikanal",
+  "queries": [
+   "Kodaikanal Lake",
+   "Kodaikanal"
+  ],
+  "must": [
+   "kodaikanal",
+   "kodai"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-tamil-nadu",
+  "n": 6
+ },
+ "hill-stations-in-kerala": {
+  "stem": "kerala-hill-stations-vagamon",
+  "queries": [
+   "Vagamon",
+   "Wayanad Chembra"
+  ],
+  "must": [
+   "vagamon",
+   "wayanad",
+   "chembra"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-kerala",
+  "n": 6
+ },
+ "hill-stations-in-karnataka": {
+  "stem": "karnataka-hill-stations-chikmagalur",
+  "queries": [
+   "Mullayanagiri",
+   "Chikmagalur hills"
+  ],
+  "must": [
+   "chikmagalur",
+   "mullayanagiri",
+   "chikkamagaluru"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-karnataka",
+  "n": 6
+ },
+ "hill-stations-in-maharashtra": {
+  "stem": "maharashtra-hill-stations-mahabaleshwar",
+  "queries": [
+   "Mahabaleshwar valley",
+   "Arthur's Seat Mahabaleshwar"
+  ],
+  "must": [
+   "mahabaleshwar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-in-maharashtra",
+  "n": 6
+ },
+ "summer-hill-stations-in-india": {
+  "stem": "summer-hill-stations-gulmarg-meadow",
+  "queries": [
+   "Gulmarg summer meadow",
+   "Gulmarg summer"
+  ],
+  "must": [
+   "gulmarg"
+  ],
+  "alt": "",
+  "usedIn": "/blog/summer-hill-stations-in-india",
+  "n": 6
+ },
+ "winter-hill-stations-in-india": {
+  "stem": "winter-hill-stations-shimla-snow",
+  "queries": [
+   "Shimla snow",
+   "Shimla winter"
+  ],
+  "must": [
+   "shimla"
+  ],
+  "alt": "",
+  "usedIn": "/blog/winter-hill-stations-in-india",
+  "n": 6
+ },
+ "places-to-see-snow-in-india": {
+  "stem": "snow-in-india-gulmarg-winter",
+  "queries": [
+   "Gulmarg snow",
+   "Gulmarg winter"
+  ],
+  "must": [
+   "gulmarg"
+  ],
+  "alt": "",
+  "usedIn": "/blog/places-to-see-snow-in-india",
+  "n": 6
+ },
+ "monsoon-hill-stations-in-india": {
+  "stem": "monsoon-hill-stations-cherrapunji",
+  "queries": [
+   "Cherrapunji waterfall monsoon",
+   "Sohra clouds"
+  ],
+  "must": [
+   "cherrapunji",
+   "sohra",
+   "cherrapunjee"
+  ],
+  "alt": "",
+  "usedIn": "/blog/monsoon-hill-stations-in-india",
+  "n": 6
+ },
+ "hill-stations-for-couples-in-india": {
+  "stem": "couples-hill-stations-dal-lake-shikara",
+  "queries": [
+   "Dal Lake shikara",
+   "Dal lake Srinagar"
+  ],
+  "must": [
+   "dal lake"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-for-couples-in-india",
+  "n": 6
+ },
+ "hill-stations-for-families-in-india": {
+  "stem": "family-hill-stations-ooty-botanical-garden",
+  "queries": [
+   "Ooty Botanical Garden",
+   "Ooty lake boats"
+  ],
+  "must": [
+   "ooty",
+   "udhagamandalam"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-for-families-in-india",
+  "n": 6
+ },
+ "budget-hill-stations-in-india": {
+  "stem": "budget-hill-stations-mcleod-ganj",
+  "queries": [
+   "McLeod Ganj",
+   "Mcleodganj Dharamshala"
+  ],
+  "must": [
+   "mcleod",
+   "mcleodganj"
+  ],
+  "alt": "",
+  "usedIn": "/blog/budget-hill-stations-in-india",
+  "n": 6
+ },
+ "luxury-hill-holidays-in-india": {
+  "stem": "luxury-hill-holidays-darjeeling-tea-estate",
+  "queries": [
+   "Darjeeling tea estate bungalow",
+   "Happy Valley Tea Estate"
+  ],
+  "must": [
+   "darjeeling",
+   "tea estate"
+  ],
+  "alt": "",
+  "usedIn": "/blog/luxury-hill-holidays-in-india",
+  "n": 6
+ },
+ "hill-stations-near-delhi": {
+  "stem": "near-delhi-hill-stations-lansdowne",
+  "queries": [
+   "Lansdowne Uttarakhand",
+   "Kasauli"
+  ],
+  "must": [
+   "lansdowne",
+   "kasauli"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-near-delhi",
+  "n": 6
+ },
+ "hill-stations-near-mumbai": {
+  "stem": "near-mumbai-hill-stations-matheran",
+  "queries": [
+   "Matheran",
+   "Lonavala monsoon"
+  ],
+  "must": [
+   "matheran",
+   "lonavala"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-near-mumbai",
+  "n": 6
+ },
+ "hill-stations-near-bengaluru": {
+  "stem": "near-bengaluru-hill-stations-nandi-hills",
+  "queries": [
+   "Nandi Hills",
+   "Coorg"
+  ],
+  "must": [
+   "nandi",
+   "coorg",
+   "kodagu"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-near-bengaluru",
+  "n": 6
+ },
+ "hill-stations-near-chennai": {
+  "stem": "near-chennai-hill-stations-yelagiri",
+  "queries": [
+   "Yelagiri",
+   "Yercaud"
+  ],
+  "must": [
+   "yelagiri",
+   "yercaud"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-near-chennai",
+  "n": 6
+ },
+ "hill-stations-near-kolkata": {
+  "stem": "near-kolkata-hill-stations-darjeeling",
+  "queries": [
+   "Darjeeling town",
+   "Mirik lake"
+  ],
+  "must": [
+   "darjeeling",
+   "mirik"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-stations-near-kolkata",
+  "n": 6
+ },
+ "mountain-road-trips-in-india": {
+  "stem": "mountain-road-trips-atal-tunnel-lahaul",
+  "queries": [
+   "Manali Leh Highway",
+   "Zuluk zigzag road",
+   "Kunzum Pass road"
+  ],
+  "must": [
+   "manali",
+   "leh",
+   "zuluk",
+   "kunzum",
+   "highway"
+  ],
+  "alt": "",
+  "usedIn": "/blog/mountain-road-trips-in-india",
+  "n": 6
+ },
+ "tea-tourism-in-india": {
+  "stem": "tea-tourism-darjeeling-tea-garden",
+  "queries": [
+   "Darjeeling tea garden",
+   "tea pluckers Darjeeling"
+  ],
+  "must": [
+   "darjeeling",
+   "tea"
+  ],
+  "alt": "",
+  "usedIn": "/blog/tea-tourism-in-india",
+  "n": 6
+ },
+ "coffee-plantation-tourism-in-india": {
+  "stem": "coffee-plantation-coorg",
+  "queries": [
+   "Coffee plantation Coorg",
+   "coffee Chikmagalur"
+  ],
+  "must": [
+   "coffee"
+  ],
+  "alt": "",
+  "usedIn": "/blog/coffee-plantation-tourism-in-india",
+  "n": 6
+ },
+ "how-to-plan-a-hill-station-trip": {
+  "stem": "plan-hill-station-trip-kausani-himalaya",
+  "queries": [
+   "Kausani Himalaya",
+   "Kausani view"
+  ],
+  "must": [
+   "kausani"
+  ],
+  "alt": "",
+  "usedIn": "/blog/how-to-plan-a-hill-station-trip",
+  "n": 6
+ },
+ "hill-station-packing-list": {
+  "stem": "hill-station-packing-auli-snow",
+  "queries": [
+   "Auli ski slope",
+   "Auli snow"
+  ],
+  "must": [
+   "auli"
+  ],
+  "alt": "",
+  "usedIn": "/blog/hill-station-packing-list",
+  "n": 6
+ },
+ "responsible-mountain-travel-in-india": {
+  "stem": "responsible-mountain-travel-khonoma",
+  "queries": [
+   "Khonoma village",
+   "Tirthan valley"
+  ],
+  "must": [
+   "khonoma",
+   "tirthan"
+  ],
+  "alt": "",
+  "usedIn": "/blog/responsible-mountain-travel-in-india",
+  "n": 6
+ },
+ "shimla-manali-itinerary": {
+  "stem": "shimla-manali-itinerary-kullu-valley",
+  "queries": [
+   "Kullu valley Beas",
+   "Kullu Manali valley"
+  ],
+  "must": [
+   "kullu"
+  ],
+  "alt": "",
+  "usedIn": "/blog/shimla-manali-itinerary",
+  "n": 6
+ },
+ "uttarakhand-hill-stations-itinerary": {
+  "stem": "uttarakhand-itinerary-mussoorie-landour",
+  "queries": [
+   "Landour Mussoorie",
+   "Mussoorie Mall Road"
+  ],
+  "must": [
+   "landour",
+   "mussoorie"
+  ],
+  "alt": "",
+  "usedIn": "/blog/uttarakhand-hill-stations-itinerary",
+  "n": 6
+ },
+ "kashmir-itinerary": {
+  "stem": "kashmir-itinerary-sonamarg",
+  "queries": [
+   "Sonamarg valley",
+   "Sonamarg"
+  ],
+  "must": [
+   "sonamarg",
+   "sonmarg"
+  ],
+  "alt": "",
+  "usedIn": "/blog/kashmir-itinerary",
+  "n": 6
+ },
+ "darjeeling-sikkim-itinerary": {
+  "stem": "darjeeling-sikkim-itinerary-tsomgo-lake",
+  "queries": [
+   "Tsomgo lake",
+   "Changu lake Sikkim"
+  ],
+  "must": [
+   "tsomgo",
+   "changu",
+   "tsongmo"
+  ],
+  "alt": "",
+  "usedIn": "/blog/darjeeling-sikkim-itinerary",
+  "n": 6
+ },
+ "south-india-hill-stations-itinerary": {
+  "stem": "south-india-hill-itinerary-coonoor",
+  "queries": [
+   "Coonoor tea",
+   "Coonoor Nilgiri"
+  ],
+  "must": [
+   "coonoor"
+  ],
+  "alt": "",
+  "usedIn": "/blog/south-india-hill-stations-itinerary",
+  "n": 6
+ },
+ "nature-hub": {
+  "stem": "nature-travel-india-valley-of-flowers",
+  "queries": [
+   "Valley of Flowers National Park",
+   "Valley of Flowers Uttarakhand"
+  ],
+  "must": [
+   "valley of flowers"
+  ],
+  "alt": "",
+  "usedIn": "/nature-travel",
+  "n": 6
+ },
+ "best-nature-destinations-in-india": {
+  "stem": "best-nature-destinations-india-dzukou",
+  "queries": [
+   "Dzukou Valley",
+   "Dzukou valley Nagaland"
+  ],
+  "must": [
+   "dzukou"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-nature-destinations-in-india",
+  "n": 6
+ },
+ "natural-wonders-of-india": {
+  "stem": "natural-wonders-gandikota-gorge",
+  "queries": [
+   "Gandikota gorge",
+   "Gandikota canyon Penna"
+  ],
+  "must": [
+   "gandikota"
+  ],
+  "alt": "",
+  "usedIn": "/blog/natural-wonders-of-india",
+  "n": 6
+ },
+ "forest-destinations-in-india": {
+  "stem": "forest-destinations-silent-valley",
+  "queries": [
+   "Silent Valley National Park",
+   "Silent Valley Kerala forest"
+  ],
+  "must": [
+   "silent valley"
+  ],
+  "alt": "",
+  "usedIn": "/blog/forest-destinations-in-india",
+  "n": 6
+ },
+ "himalayan-nature-travel": {
+  "stem": "himalayan-nature-chandratal-lake",
+  "queries": [
+   "Chandratal lake",
+   "Chandra Taal Lahaul"
+  ],
+  "must": [
+   "chandratal",
+   "chandra tal",
+   "chandra taal"
+  ],
+  "alt": "",
+  "usedIn": "/blog/himalayan-nature-travel",
+  "n": 6
+ },
+ "valleys-in-india": {
+  "stem": "valleys-india-yumthang",
+  "queries": [
+   "Yumthang valley flowers",
+   "Yumthang valley rhododendron"
+  ],
+  "must": [
+   "yumthang"
+  ],
+  "alt": "",
+  "usedIn": "/blog/valleys-in-india",
+  "n": 6
+ },
+ "waterfalls-in-india": {
+  "stem": "waterfalls-india-jog-falls",
+  "queries": [
+   "Jog Falls monsoon",
+   "Jog Falls Karnataka"
+  ],
+  "must": [
+   "jog"
+  ],
+  "alt": "",
+  "usedIn": "/blog/waterfalls-in-india",
+  "n": 6
+ },
+ "lakes-in-india": {
+  "stem": "lakes-india-pangong-tso",
+  "queries": [
+   "Pangong Tso lake",
+   "Pangong lake Ladakh"
+  ],
+  "must": [
+   "pangong"
+  ],
+  "alt": "",
+  "usedIn": "/blog/lakes-in-india",
+  "n": 6
+ },
+ "riverside-destinations-in-india": {
+  "stem": "riverside-destinations-majuli-brahmaputra",
+  "queries": [
+   "Majuli Brahmaputra",
+   "Majuli island river"
+  ],
+  "must": [
+   "majuli"
+  ],
+  "alt": "",
+  "usedIn": "/blog/riverside-destinations-in-india",
+  "n": 6
+ },
+ "natural-caves-in-india": {
+  "stem": "natural-caves-borra-caves",
+  "queries": [
+   "Borra Caves",
+   "Borra caves Araku"
+  ],
+  "must": [
+   "borra"
+  ],
+  "alt": "",
+  "usedIn": "/blog/natural-caves-in-india",
+  "n": 6
+ },
+ "western-ghats-nature-travel": {
+  "stem": "western-ghats-nature-kudremukh",
+  "queries": [
+   "Kudremukh grasslands",
+   "Kudremukh National Park"
+  ],
+  "must": [
+   "kudremukh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/western-ghats-nature-travel",
+  "n": 6
+ },
+ "nature-travel-in-northeast-india": {
+  "stem": "northeast-nature-living-root-bridge",
+  "queries": [
+   "living root bridge Meghalaya",
+   "root bridge Khasi"
+  ],
+  "must": [
+   "root bridge"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nature-travel-in-northeast-india",
+  "n": 6
+ },
+ "nature-travel-in-kerala": {
+  "stem": "kerala-nature-athirappilly-falls",
+  "queries": [
+   "Athirappilly Falls",
+   "Athirappilly waterfalls"
+  ],
+  "must": [
+   "athirappilly",
+   "athirapally"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nature-travel-in-kerala",
+  "n": 6
+ },
+ "nature-travel-in-karnataka": {
+  "stem": "karnataka-nature-kudremukh-shola",
+  "queries": [
+   "Kodachadri",
+   "Agumbe rainforest"
+  ],
+  "must": [
+   "kodachadri",
+   "agumbe"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nature-travel-in-karnataka",
+  "n": 6
+ },
+ "nature-travel-in-meghalaya": {
+  "stem": "meghalaya-nature-umngot-river-dawki",
+  "queries": [
+   "Umngot river Dawki",
+   "Dawki river boat"
+  ],
+  "must": [
+   "umngot",
+   "dawki"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nature-travel-in-meghalaya",
+  "n": 6
+ },
+ "nature-travel-in-uttarakhand": {
+  "stem": "uttarakhand-nature-hemkund-valley-flowers",
+  "queries": [
+   "Valley of Flowers Pushpawati",
+   "Kedarkantha forest"
+  ],
+  "must": [
+   "valley of flowers",
+   "pushpawati",
+   "kedarkantha"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nature-travel-in-uttarakhand",
+  "n": 6
+ },
+ "nature-travel-in-himachal-pradesh": {
+  "stem": "himachal-nature-prashar-lake",
+  "queries": [
+   "Prashar lake",
+   "Prashar Lake Mandi"
+  ],
+  "must": [
+   "prashar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nature-travel-in-himachal-pradesh",
+  "n": 6
+ },
+ "nature-travel-in-odisha": {
+  "stem": "odisha-nature-chilika-lake",
+  "queries": [
+   "Chilika Lake",
+   "Chilika lagoon boats"
+  ],
+  "must": [
+   "chilika"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nature-travel-in-odisha",
+  "n": 6
+ },
+ "nature-travel-in-madhya-pradesh": {
+  "stem": "mp-nature-bhedaghat-marble-rocks",
+  "queries": [
+   "Bhedaghat Marble Rocks",
+   "Marble Rocks Narmada"
+  ],
+  "must": [
+   "bhedaghat",
+   "marble rocks"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nature-travel-in-madhya-pradesh",
+  "n": 6
+ },
+ "eco-tourism-in-india": {
+  "stem": "eco-tourism-mawlynnong-village",
+  "queries": [
+   "Mawlynnong",
+   "Mawlynnong village"
+  ],
+  "must": [
+   "mawlynnong"
+  ],
+  "alt": "",
+  "usedIn": "/blog/eco-tourism-in-india",
+  "n": 6
+ },
+ "biodiversity-hotspots-in-india": {
+  "stem": "biodiversity-hotspots-western-ghats-shola",
+  "queries": [
+   "Shola grassland Western Ghats",
+   "Eravikulam shola"
+  ],
+  "must": [
+   "shola"
+  ],
+  "alt": "",
+  "usedIn": "/blog/biodiversity-hotspots-in-india",
+  "n": 6
+ },
+ "flower-valleys-and-blooms-in-india": {
+  "stem": "flower-valleys-kaas-plateau",
+  "queries": [
+   "Kaas plateau flowers",
+   "Kaas Pathar"
+  ],
+  "must": [
+   "kaas"
+  ],
+  "alt": "",
+  "usedIn": "/blog/flower-valleys-and-blooms-in-india",
+  "n": 6
+ },
+ "nature-retreats-in-india": {
+  "stem": "nature-retreats-wayanad-forest",
+  "queries": [
+   "Wayanad forest",
+   "Wayanad hills mist"
+  ],
+  "must": [
+   "wayanad"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nature-retreats-in-india",
+  "n": 6
+ },
+ "village-tourism-in-india": {
+  "stem": "village-tourism-kalpa-kinnaur",
+  "queries": [
+   "Kalpa village Kinnaur",
+   "Chitkul village"
+  ],
+  "must": [
+   "kalpa",
+   "chitkul"
+  ],
+  "alt": "",
+  "usedIn": "/blog/village-tourism-in-india",
+  "n": 6
+ },
+ "nature-photography-in-india": {
+  "stem": "nature-photography-tso-moriri",
+  "queries": [
+   "Tso Moriri",
+   "Tso Moriri lake"
+  ],
+  "must": [
+   "moriri"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nature-photography-in-india",
+  "n": 6
+ },
+ "offbeat-nature-destinations-in-india": {
+  "stem": "offbeat-nature-ziro-valley",
+  "queries": [
+   "Ziro valley",
+   "Ziro Arunachal"
+  ],
+  "must": [
+   "ziro"
+  ],
+  "alt": "",
+  "usedIn": "/blog/offbeat-nature-destinations-in-india",
+  "n": 6
+ },
+ "best-time-for-nature-travel-in-india": {
+  "stem": "nature-seasons-dudhsagar-falls",
+  "queries": [
+   "Dudhsagar Falls",
+   "Dudhsagar waterfall train"
+  ],
+  "must": [
+   "dudhsagar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-time-for-nature-travel-in-india",
+  "n": 6
+ },
+ "nature-getaways-for-couples-in-india": {
+  "stem": "nature-couples-dal-lake-mist",
+  "queries": [
+   "Nigeen lake",
+   "Wular lake"
+  ],
+  "must": [
+   "nigeen",
+   "nagin",
+   "wular"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nature-getaways-for-couples-in-india",
+  "n": 6
+ },
+ "nature-trips-for-families-in-india": {
+  "stem": "nature-families-thekkady-periyar-lake",
+  "queries": [
+   "Periyar lake Thekkady",
+   "Periyar boat Thekkady"
+  ],
+  "must": [
+   "periyar",
+   "thekkady"
+  ],
+  "alt": "",
+  "usedIn": "/blog/nature-trips-for-families-in-india",
+  "n": 6
+ },
+ "how-to-plan-a-nature-trip-in-india": {
+  "stem": "plan-nature-trip-tirthan-valley",
+  "queries": [
+   "Tirthan valley",
+   "Tirthan river"
+  ],
+  "must": [
+   "tirthan"
+  ],
+  "alt": "",
+  "usedIn": "/blog/how-to-plan-a-nature-trip-in-india",
+  "n": 6
+ },
+ "meghalaya-nature-itinerary": {
+  "stem": "meghalaya-itinerary-nohkalikai-falls",
+  "queries": [
+   "Nohkalikai Falls",
+   "Nohkalikai"
+  ],
+  "must": [
+   "nohkalikai"
+  ],
+  "alt": "",
+  "usedIn": "/blog/meghalaya-nature-itinerary",
+  "n": 6
+ },
+ "kerala-nature-itinerary": {
+  "stem": "kerala-nature-itinerary-kumarakom-backwaters",
+  "queries": [
+   "Kumarakom backwaters",
+   "Vembanad lake"
+  ],
+  "must": [
+   "kumarakom",
+   "vembanad"
+  ],
+  "alt": "",
+  "usedIn": "/blog/kerala-nature-itinerary",
+  "n": 6
+ },
+ "western-ghats-nature-itinerary": {
+  "stem": "western-ghats-itinerary-dandeli-kali-river",
+  "queries": [
+   "Dandeli Kali river",
+   "Kali river Dandeli"
+  ],
+  "must": [
+   "dandeli",
+   "kali river"
+  ],
+  "alt": "",
+  "usedIn": "/blog/western-ghats-nature-itinerary",
+  "n": 6
  }
 }

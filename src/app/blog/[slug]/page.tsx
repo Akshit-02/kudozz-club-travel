@@ -5,7 +5,8 @@
 // src/content/wildlife/<slug>.json, and Spiritual Tourism articles from
 // src/content/spiritual/<slug>.json, and Heritage & Cultural Tourism articles from
 // src/content/heritage/<slug>.json, and Hill Station Travel articles from
-// src/content/hills/<slug>.json. Static guide folders in src/app/blog
+// src/content/hills/<slug>.json, and Nature Travel articles from
+// src/content/nature/<slug>.json. Static guide folders in src/app/blog
 // take precedence over this dynamic segment, and dynamicParams = false means
 // only slugs with a content file are served (anything else is a 404).
 import type { Metadata } from "next";
@@ -34,6 +35,8 @@ import { getAllHeritage, getHeritage } from "@/lib/heritage";
 import { relatedHeritage } from "@/lib/heritage-links";
 import { getAllHills, getHill } from "@/lib/hills";
 import { relatedHills } from "@/lib/hills-links";
+import { getAllNature, getNature } from "@/lib/nature";
+import { relatedNature } from "@/lib/nature-links";
 
 const HERITAGE_CLUSTER: ClusterConfig = {
   hub: { label: "Heritage & Culture", href: "/heritage-cultural-tourism", name: "Heritage & Cultural Tourism in India" },
@@ -57,6 +60,18 @@ const HILLS_CLUSTER: ClusterConfig = {
   sidebarTitle: "More hill-station guides",
   allLabel: "All hill-station travel \u2192",
   planTitle: "Want to combine several mountain destinations into one trip?",
+};
+
+const NATURE_CLUSTER: ClusterConfig = {
+  hub: { label: "Nature Travel", href: "/nature-travel", name: "Nature Travel in India" },
+  tripType: "Nature Holidays",
+  cta: {
+    title: "Planning a nature trip?",
+    text: "Kudozz Club can help turn the places you're considering into a practical route, built around the season, your pace and who is travelling.",
+  },
+  sidebarTitle: "More nature travel guides",
+  allLabel: "All nature travel \u2192",
+  planTitle: "Want the forests, waterfalls and viewpoints woven into one trip?",
 };
 
 const SPIRITUAL_CLUSTER: ClusterConfig = {
@@ -97,11 +112,11 @@ const BEACH_CLUSTER: ClusterConfig = {
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return [...getAllThingsToDo(), ...getAllAdventure(), ...getAllBeach(), ...getAllWildlife(), ...getAllSpiritual(), ...getAllHeritage(), ...getAllHills()].map((a) => ({ slug: a.slug }));
+  return [...getAllThingsToDo(), ...getAllAdventure(), ...getAllBeach(), ...getAllWildlife(), ...getAllSpiritual(), ...getAllHeritage(), ...getAllHills(), ...getAllNature()].map((a) => ({ slug: a.slug }));
 }
 
 function adventureMetadata(slug: string): Metadata | null {
-  const a = getAdventure(slug) ?? getBeach(slug) ?? getWildlife(slug) ?? getSpiritual(slug) ?? getHeritage(slug) ?? getHill(slug);
+  const a = getAdventure(slug) ?? getBeach(slug) ?? getWildlife(slug) ?? getSpiritual(slug) ?? getHeritage(slug) ?? getHill(slug) ?? getNature(slug);
   if (!a) return null;
   const url = `${SITE_URL}/blog/${a.slug}`;
   return {
@@ -223,6 +238,8 @@ export default function ThingsToDoPage({ params }: { params: { slug: string } })
   if (heri) return <ClusterArticleView a={heri} c={HERITAGE_CLUSTER} sidebar={relatedHeritage(heri.slug, 6)} />;
   const hill = getHill(params.slug);
   if (hill) return <ClusterArticleView a={hill} c={HILLS_CLUSTER} sidebar={relatedHills(hill.slug, 6)} />;
+  const nat = getNature(params.slug);
+  if (nat) return <ClusterArticleView a={nat} c={NATURE_CLUSTER} sidebar={relatedNature(nat.slug, 6)} />;
   const a = getThingsToDo(params.slug);
   if (!a) notFound();
   const e = thingsToDoEntry(a.slug);

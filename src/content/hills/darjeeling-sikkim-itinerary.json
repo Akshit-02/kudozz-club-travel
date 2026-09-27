@@ -1,0 +1,381 @@
+{
+  "slug": "darjeeling-sikkim-itinerary",
+  "kind": "planning",
+  "short": "Darjeeling and Sikkim itinerary",
+  "title": "Darjeeling and Sikkim Itinerary: Darjeeling, Gangtok and Pelling",
+  "seoTitle": "Darjeeling and Sikkim Itinerary: 7 to 9 Days | Kudozz Club",
+  "metaDescription": "A day-by-day Darjeeling and Sikkim itinerary for seven to nine days: Darjeeling, Pelling, Ravangla and Gangtok, Tsomgo Lake, and an optional North Sikkim extension.",
+  "description": "A practical seven to nine day Darjeeling and Sikkim itinerary: Darjeeling's Tiger Hill, toy train and tea estates, Pelling's Kanchenjunga views and monasteries, Ravangla, Gangtok and a permit day trip to Tsomgo Lake and Nathu La, with an optional North Sikkim extension to Lachung and Yumthang, permits, seasons and transfers.",
+  "dek": "The eastern Himalaya's classic circuit links the tea town of Darjeeling with Sikkim's monasteries and Kanchenjunga views.",
+  "primaryKeyword": "Darjeeling Gangtok itinerary",
+  "secondaryKeywords": [
+    "Sikkim itinerary",
+    "northeast mountain itinerary",
+    "Darjeeling Gangtok Pelling trip"
+  ],
+  "searchIntent": "Itinerary planning",
+  "activities": [
+    "hill stations",
+    "monasteries",
+    "tea estates",
+    "viewpoints"
+  ],
+  "terrain": [
+    "mountains",
+    "valleys"
+  ],
+  "regions": [
+    "West Bengal",
+    "Sikkim"
+  ],
+  "seasons": [
+    "spring",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "friends"
+  ],
+  "tags": [
+    "Darjeeling",
+    "Sikkim",
+    "Gangtok",
+    "Pelling",
+    "Itinerary"
+  ],
+  "hero": {
+    "src": "/images/hills/darjeeling-sikkim-itinerary-tsomgo-lake.webp",
+    "alt": "Tsomgo (Changu) Lake in East Sikkim"
+  },
+  "parent": {
+    "label": "Hill Stations in Sikkim",
+    "href": "/blog/hill-stations-in-sikkim"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Darjeeling and Sikkim route",
+    "containedIn": "West Bengal and Sikkim"
+  },
+  "intro": [
+    "Darjeeling, Pelling and Gangtok form a natural loop, each four to five hours apart by road. Together they give you tea gardens and the toy train, close views of Kanchenjunga, Buddhist monasteries, and a high lake at Tsomgo.",
+    "The route starts and ends at Bagdogra airport or New Jalpaiguri station. Allow seven days for the core loop and two or three more for North Sikkim."
+  ],
+  "quickAnswer": "A seven to nine day Darjeeling and Sikkim itinerary: arrive at Bagdogra or New Jalpaiguri and drive to Darjeeling (day 1), Tiger Hill, Batasia Loop, the toy train and a tea estate (day 2), drive to Pelling (day 3), explore Pemayangtse, Rabdentse and the skywalk (day 4), drive to Gangtok via Ravangla (day 5), Tsomgo Lake with a permit (day 6), Gangtok (day 7), and depart, with an optional two-night extension to Lachung and Yumthang.",
+  "takeaways": [
+    "Darjeeling, Pelling and Gangtok are each about four to five hours apart.",
+    "October to December has the clearest Kanchenjunga views; March to May has rhododendrons.",
+    "Tsomgo Lake, Nathu La and North Sikkim need permits, usually arranged by registered operators.",
+    "Nathu La is open to Indian nationals only.",
+    "Avoid the monsoon (June to September) because of landslides."
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Route at a glance",
+      "table": {
+        "columns": [
+          "Day",
+          "Base",
+          "Highlights"
+        ],
+        "rows": [
+          [
+            "1",
+            "Darjeeling",
+            "Bagdogra or NJP to Darjeeling; Mall and Chowrasta"
+          ],
+          [
+            "2",
+            "Darjeeling",
+            "Tiger Hill sunrise, Ghoom, Batasia Loop, toy train, tea estate"
+          ],
+          [
+            "3",
+            "Pelling",
+            "Drive to Pelling (about 4 to 5 hours)"
+          ],
+          [
+            "4",
+            "Pelling",
+            "Pemayangtse, Rabdentse, skywalk, Kanchenjunga views"
+          ],
+          [
+            "5",
+            "Gangtok",
+            "Via Ravangla's Buddha Park"
+          ],
+          [
+            "6",
+            "Gangtok",
+            "Tsomgo Lake and Baba Mandir; Nathu La for Indian nationals (permit)"
+          ],
+          [
+            "7",
+            "Gangtok",
+            "Rumtek, Enchey, MG Marg"
+          ],
+          [
+            "8 to 9",
+            "Optional",
+            "Lachung and Yumthang (permits), then back to Bagdogra"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "darjeeling",
+      "heading": "Darjeeling",
+      "items": [
+        {
+          "name": "Darjeeling",
+          "body": [
+            "Sunrise over Kanchenjunga, the toy train, the Himalayan Mountaineering Institute and a tea estate visit."
+          ],
+          "links": [
+            {
+              "label": "Darjeeling guide",
+              "href": "/blog/darjeeling-travel-guide"
+            },
+            {
+              "label": "Things to do in Darjeeling",
+              "href": "/blog/things-to-do-in-darjeeling"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/darjeeling/ghoom-yiga-choeling-monastery-gate.webp",
+            "alt": "The gate of Ghoom monastery, near Darjeeling",
+            "caption": "Ghoom monastery"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pelling",
+      "heading": "Pelling and Ravangla",
+      "items": [
+        {
+          "name": "Pelling",
+          "body": [
+            "Kanchenjunga at close range, Pemayangtse monastery and the Rabdentse ruins."
+          ],
+          "links": [
+            {
+              "label": "Pelling guide",
+              "href": "/blog/pelling-travel-guide"
+            },
+            {
+              "label": "Things to do in Pelling",
+              "href": "/blog/things-to-do-in-pelling"
+            },
+            {
+              "label": "Ravangla guide",
+              "href": "/blog/ravangla-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/sikkim/pelling/pemayangtse-monastery-pelling.webp",
+            "alt": "Pemayangtse monastery, Pelling",
+            "caption": "Pemayangtse monastery"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gangtok",
+      "heading": "Gangtok and Tsomgo",
+      "items": [
+        {
+          "name": "Gangtok",
+          "body": [
+            "Monasteries, MG Marg, viewpoints and a permit day trip to Tsomgo Lake."
+          ],
+          "links": [
+            {
+              "label": "Gangtok guide",
+              "href": "/blog/gangtok-travel-guide"
+            },
+            {
+              "label": "Things to do in Gangtok",
+              "href": "/blog/things-to-do-in-gangtok"
+            },
+            {
+              "label": "Tsomgo Lake guide",
+              "href": "/blog/tsomgo-lake-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "north",
+      "heading": "Optional: North Sikkim",
+      "paras": [
+        "With two or three more days, add Lachung and the Yumthang valley (spring flowers, winter snow), or Lachen and Gurudongmar Lake. These trips need Protected Area Permits and registered operators, and Gurudongmar's altitude needs care."
+      ],
+      "items": [
+        {
+          "name": "North Sikkim",
+          "body": [
+            "Guides."
+          ],
+          "links": [
+            {
+              "label": "Lachung guide",
+              "href": "/blog/lachung-travel-guide"
+            },
+            {
+              "label": "Yumthang Valley guide",
+              "href": "/blog/yumthang-valley-travel-guide"
+            },
+            {
+              "label": "Gurudongmar Lake guide",
+              "href": "/blog/gurudongmar-lake-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "permits",
+      "heading": "Permits",
+      "list": [
+        "Indian nationals: Protected Area Permits for Tsomgo, Nathu La and North Sikkim, via registered operators.",
+        "Foreign nationals: a Restricted Area Permit to enter Sikkim, plus Protected Area Permits for certain areas; Nathu La is closed to foreigners.",
+        "Carry ID and passport-size photos for permits."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "In Darjeeling, stay near the Mall or on a tea estate below the town. In Pelling, ask for a Kanchenjunga-facing room. In Gangtok, the MG Marg area is convenient, while the upper town is quieter. North Sikkim stays are simple and usually part of the permit package."
+      ]
+    },
+    {
+      "id": "getting-there",
+      "heading": "Getting there and around",
+      "paras": [
+        "Fly to Bagdogra or take a train to New Jalpaiguri (NJP), both near Siliguri. Shared jeeps link the main towns, but a private car makes the loop far easier, with stops at viewpoints and monasteries. Pakyong airport near Gangtok has limited, weather-dependent flights. Drives are slow; plan one transfer per day."
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food to try",
+      "list": [
+        "Momos and thukpa everywhere.",
+        "Darjeeling tea at an estate or a Chowrasta tea shop.",
+        "Sikkimese dishes such as phagshapa (pork with radish) and gundruk soup.",
+        "Churpi, a local hard cheese."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "March to May: rhododendrons, and flowers in Yumthang.",
+        "June to September: monsoon rain and landslides; not ideal.",
+        "October to December: the clearest Kanchenjunga views.",
+        "January to February: cold; snow at Tsomgo and in North Sikkim."
+      ]
+    }
+  ],
+  "safety": [
+    "Drive times are approximate and depend on traffic, weather, landslides and road works; allow extra time and avoid driving after dark.",
+    "Permits, e-passes, ropeways and pass openings change; check official portals before you travel.",
+    "Acclimatise before going to Tsomgo, Nathu La or Gurudongmar, and descend if symptoms worsen."
+  ],
+  "packing": [
+    "Warm layers; heavier for Tsomgo and the north",
+    "Walking shoes",
+    "Rain jacket",
+    "ID and photos for permits"
+  ],
+  "faqs": [
+    {
+      "q": "How many days do I need for Darjeeling and Sikkim?",
+      "a": "Seven days for Darjeeling, Pelling and Gangtok; nine to ten with North Sikkim."
+    },
+    {
+      "q": "What is the best time to visit?",
+      "a": "March to May and October to December."
+    },
+    {
+      "q": "Do I need a permit for Tsomgo Lake?",
+      "a": "Yes, a Protected Area Permit, usually arranged by a registered operator in Gangtok."
+    },
+    {
+      "q": "Can I visit Nathu La?",
+      "a": "Indian nationals can, with a permit and on permitted days; foreigners cannot."
+    },
+    {
+      "q": "How do I reach Darjeeling and Gangtok?",
+      "a": "Fly to Bagdogra or take a train to New Jalpaiguri, then drive."
+    },
+    {
+      "q": "Can I do this trip with children?",
+      "a": "Yes; keep transfers short, carry warm layers, and skip high places such as Gurudongmar with young children."
+    },
+    {
+      "q": "Should I visit Darjeeling or Gangtok first?",
+      "a": "Either works; starting in Darjeeling and finishing in Gangtok suits most flight and train timings."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Hill stations in Sikkim",
+      "href": "/blog/hill-stations-in-sikkim"
+    },
+    {
+      "label": "Hill stations in West Bengal",
+      "href": "/blog/hill-stations-in-west-bengal"
+    },
+    {
+      "label": "Tea tourism in India",
+      "href": "/blog/tea-tourism-in-india"
+    },
+    {
+      "label": "Sikkim tour packages",
+      "href": "/packages/sikkim"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hill stations near Kolkata",
+      "href": "/blog/hill-stations-near-kolkata",
+      "note": "from Kolkata"
+    },
+    {
+      "name": "Northeast India tour",
+      "href": "/packages/northeast-india",
+      "note": "the wider Northeast"
+    },
+    {
+      "name": "Buddhist tourism in India",
+      "href": "/blog/buddhist-tourism-in-india",
+      "note": "monasteries"
+    }
+  ],
+  "places": [
+    "Darjeeling",
+    "Ghoom",
+    "Pelling",
+    "Ravangla",
+    "Gangtok",
+    "Tsomgo",
+    "Nathu La",
+    "Lachung",
+    "Yumthang"
+  ],
+  "styles": [
+    "hill-station-holidays",
+    "family-holidays"
+  ],
+  "planDestination": "Darjeeling and Sikkim",
+  "updated": "2026-09-26"
+}

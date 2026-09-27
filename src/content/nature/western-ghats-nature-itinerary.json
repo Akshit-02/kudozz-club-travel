@@ -1,0 +1,413 @@
+{
+  "slug": "western-ghats-nature-itinerary",
+  "kind": "planning",
+  "short": "Western Ghats nature itinerary",
+  "title": "Western Ghats Nature Itinerary: Coorg, Chikmagalur, Jog Falls and Dandeli",
+  "seoTitle": "Western Ghats Itinerary: Coorg, Jog Falls, Dandeli | Kudozz Club",
+  "metaDescription": "An eight-day Western Ghats nature itinerary in Karnataka: Coorg, Chikmagalur, Kudremukh and Agumbe, Jog Falls and the Kali river at Dandeli, from Bengaluru.",
+  "description": "An eight-day nature itinerary through Karnataka's Western Ghats from Bengaluru: Coorg's coffee hills and falls, Chikmagalur's peaks and grasslands, the road through Kudremukh and Agumbe's rainforest, Jog Falls, and the forests and Kali river at Dandeli, ending at Hubballi or Goa, with drive times, seasons and variations.",
+  "dek": "This road trip follows the Western Ghats north through Karnataka, from coffee country to rainforest, waterfall and river.",
+  "primaryKeyword": "Karnataka Western Ghats itinerary",
+  "secondaryKeywords": [
+    "Karnataka nature trip plan"
+  ],
+  "searchIntent": "Itinerary planning",
+  "activities": [
+    "waterfalls",
+    "coffee estates",
+    "forest walks",
+    "river trips"
+  ],
+  "terrain": [
+    "hills",
+    "forest",
+    "waterfalls",
+    "rivers"
+  ],
+  "regions": [
+    "Karnataka"
+  ],
+  "seasons": [
+    "monsoon",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families"
+  ],
+  "tags": [
+    "Karnataka",
+    "Western Ghats",
+    "Itinerary",
+    "Coorg",
+    "Jog Falls"
+  ],
+  "hero": {
+    "src": "/images/nature/western-ghats-itinerary-dandeli-kali-river.webp",
+    "alt": "The Kali river near Dandeli, Uttara Kannada, Karnataka"
+  },
+  "parent": {
+    "label": "Nature Travel in Karnataka",
+    "href": "/blog/nature-travel-in-karnataka"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Western Ghats of Karnataka",
+    "containedIn": "Karnataka"
+  },
+  "intro": [
+    "Karnataka's stretch of the Western Ghats, known as the Malnad, is one of the greenest regions of India. This one-way route from Bengaluru heads west to Coorg and then north along the Ghats, ending at Hubballi, with the option to continue to Goa.",
+    "It is best done by hired car with a driver, since public transport between these places is slow."
+  ],
+  "quickAnswer": "A good eight-day Western Ghats nature itinerary in Karnataka runs Bengaluru to Coorg (day 1), Coorg's falls and estates (day 2), Coorg to Chikmagalur (day 3), Mullayanagiri and Kemmangundi (day 4), Chikmagalur to Sagara via Kudremukh and Agumbe (day 5), Jog Falls (day 6), on to Dandeli (day 7), and out via Hubballi (day 8). September to February is best; Jog is fullest in the monsoon.",
+  "takeaways": [
+    "Travel by hired car; drives are four to six hours between bases.",
+    "Jog Falls is fullest from July to October and can be thin in summer.",
+    "Kudremukh and many Ghats treks need forest department bookings; check the current rules.",
+    "Dandeli's river activities depend on water levels and operator permissions.",
+    "Leeches are common in the monsoon; carry leech socks."
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "The route at a glance",
+      "table": {
+        "columns": [
+          "Day",
+          "Route",
+          "Highlights",
+          "Stay"
+        ],
+        "rows": [
+          [
+            "1",
+            "Bengaluru to Coorg",
+            "Drive west, Dubare on the Kaveri",
+            "Madikeri area"
+          ],
+          [
+            "2",
+            "Coorg",
+            "Abbey Falls, Raja's Seat, estate walk",
+            "Madikeri area"
+          ],
+          [
+            "3",
+            "Coorg to Chikmagalur",
+            "Coffee country",
+            "Chikmagalur"
+          ],
+          [
+            "4",
+            "Chikmagalur",
+            "Mullayanagiri, Kemmangundi, Hebbe Falls",
+            "Chikmagalur"
+          ],
+          [
+            "5",
+            "Chikmagalur to Sagara",
+            "Kudremukh road, Agumbe",
+            "Sagara or Jog"
+          ],
+          [
+            "6",
+            "Jog Falls",
+            "Viewpoints, Sharavathi valley",
+            "Sagara or Jog"
+          ],
+          [
+            "7",
+            "Jog to Dandeli",
+            "Kali river, forest",
+            "Dandeli"
+          ],
+          [
+            "8",
+            "Dandeli to Hubballi",
+            "Depart, or continue to Goa",
+            "Depart"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "day-1-2",
+      "heading": "Days 1 and 2: Coorg",
+      "paras": [
+        "Drive five to six hours from Bengaluru to Coorg, stopping at the Dubare elephant camp on the Kaveri. Stay on a coffee estate. The next day, visit Abbey Falls, watch the sunset from Raja's Seat in Madikeri, and walk through the estate with your hosts."
+      ],
+      "items": [
+        {
+          "name": "Coorg",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Coorg guide",
+              "href": "/blog/coorg-travel-guide"
+            },
+            {
+              "label": "Things to do in Coorg",
+              "href": "/blog/things-to-do-in-coorg"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/coorg/abbey-falls-coorg.webp",
+            "alt": "Abbey Falls, Coorg",
+            "caption": "Abbey Falls"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-3-4",
+      "heading": "Days 3 and 4: Chikmagalur",
+      "paras": [
+        "Drive about four to five hours to Chikmagalur. The next day, head up to Mullayanagiri, widely cited as Karnataka's highest peak, then to the grassland viewpoints of Kemmangundi and the walk to Hebbe Falls, usually by local jeep."
+      ],
+      "items": [
+        {
+          "name": "Chikmagalur",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Chikmagalur guide",
+              "href": "/blog/chikmagalur-travel-guide"
+            },
+            {
+              "label": "Things to do in Chikmagalur",
+              "href": "/blog/things-to-do-in-chikmagalur"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/chikmagalur/kemmangundi-chikmagalur.webp",
+            "alt": "Kemmangundi near Chikmagalur",
+            "caption": "Kemmangundi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "heading": "Day 5: Kudremukh and Agumbe",
+      "paras": [
+        "This is the most scenic drive of the trip, five to six hours through Kudremukh National Park and down to Agumbe's rainforest, then on to Sagara near Jog. Stop at Agumbe's sunset point if the timing works. Treks in Kudremukh need a forest department booking in advance."
+      ],
+      "items": [
+        {
+          "name": "Forests",
+          "body": [
+            "More reading."
+          ],
+          "links": [
+            {
+              "label": "Forest destinations in India",
+              "href": "/blog/forest-destinations-in-india"
+            },
+            {
+              "label": "Nature travel in Karnataka",
+              "href": "/blog/nature-travel-in-karnataka"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-6",
+      "heading": "Day 6: Jog Falls",
+      "paras": [
+        "Spend the morning at the Jog viewpoints, where the Sharavathi drops into its gorge. In the monsoon, mist can hide the falls for hours, so be patient. Explore the Sharavathi valley and backwaters of the Linganamakki reservoir in the afternoon."
+      ],
+      "items": [
+        {
+          "name": "Jog Falls",
+          "body": [
+            "Our guide."
+          ],
+          "links": [
+            {
+              "label": "Jog Falls guide",
+              "href": "/blog/jog-falls-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/jog-falls/jog-falls.webp",
+            "alt": "Jog Falls in its gorge",
+            "caption": "Jog Falls"
+          }
+        }
+      ]
+    },
+    {
+      "id": "day-7-8",
+      "heading": "Days 7 and 8: Dandeli",
+      "paras": [
+        "Drive about four to five hours north to Dandeli on the Kali river, surrounded by forest. Operators run coracle rides, kayaking and rafting when water levels allow. On the last day, drive about two hours to Hubballi for flights or trains, or continue to Goa."
+      ],
+      "items": [
+        {
+          "name": "Dandeli",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Dandeli guide",
+              "href": "/blog/dandeli-travel-guide"
+            },
+            {
+              "label": "River rafting in India",
+              "href": "/blog/river-rafting-in-india"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/dandeli/dandeli.webp",
+            "alt": "Forest and river at Dandeli",
+            "caption": "Dandeli"
+          }
+        }
+      ]
+    },
+    {
+      "id": "variations",
+      "heading": "Variations",
+      "list": [
+        "Shorter: do Coorg and Chikmagalur only as a five-day loop from Bengaluru.",
+        "Add Sakleshpur between Coorg and Chikmagalur.",
+        "End in Goa for Dudhsagar Falls and Mollem."
+      ],
+      "items": [
+        {
+          "name": "More",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Sakleshpur guide",
+              "href": "/blog/sakleshpur-travel-guide"
+            },
+            {
+              "label": "Dudhsagar Falls guide",
+              "href": "/blog/dudhsagar-falls-travel-guide"
+            },
+            {
+              "label": "Western Ghats nature travel",
+              "href": "/blog/western-ghats-nature-travel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "September to February is the best period, with green hills, flowing waterfalls and walkable trails. The monsoon (June to September) is the time for Jog and the most dramatic scenery, but rain is heavy and some roads and trails close. March to May is warm but still pleasant in the higher hills."
+      ]
+    }
+  ],
+  "safety": [
+    "Stay on marked trails and viewpoints, and heed local closures after heavy rain.",
+    "Permits, entry rules, seasonal closures and timings change; check official sources before you go.",
+    "Carry your waste back, avoid loud music and never feed wildlife.",
+    "Drive times are approximate and depend on traffic, weather and road works.",
+    "Swimming in rivers and at waterfalls is dangerous; follow local bans."
+  ],
+  "packing": [
+    "Rain jacket and leech socks in the monsoon",
+    "Walking shoes with grip",
+    "Light layers",
+    "Binoculars"
+  ],
+  "faqs": [
+    {
+      "q": "How many days do I need for Karnataka's Western Ghats?",
+      "a": "Eight days covers Coorg, Chikmagalur, Jog and Dandeli; five days covers Coorg and Chikmagalur."
+    },
+    {
+      "q": "Is this a good monsoon trip?",
+      "a": "Yes, for waterfalls and green scenery, but expect heavy rain and some closures."
+    },
+    {
+      "q": "Do I need permits?",
+      "a": "Many Ghats treks, including Kudremukh, need forest department bookings. Check the current rules."
+    },
+    {
+      "q": "Can I do this route by public transport?",
+      "a": "Partly, but it is slow. A hired car with a driver is far more practical."
+    },
+    {
+      "q": "Where does the trip end?",
+      "a": "At Hubballi, with the option to continue to Goa."
+    },
+    {
+      "q": "Is it suitable for families?",
+      "a": "Yes, with short walks, estate stays and easy viewpoints."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Nature travel in Karnataka",
+      "href": "/blog/nature-travel-in-karnataka"
+    },
+    {
+      "label": "Western Ghats nature travel",
+      "href": "/blog/western-ghats-nature-travel"
+    },
+    {
+      "label": "Hill stations near Bengaluru",
+      "href": "/blog/hill-stations-near-bengaluru"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Coffee plantation tourism",
+      "href": "/blog/coffee-plantation-tourism-in-india",
+      "note": "estate stays"
+    },
+    {
+      "name": "Waterfalls in India",
+      "href": "/blog/waterfalls-in-india",
+      "note": "more falls"
+    },
+    {
+      "name": "Wildlife tourism in Karnataka",
+      "href": "/blog/wildlife-tourism-in-karnataka",
+      "note": "Nagarhole and Kabini"
+    }
+  ],
+  "places": [
+    "Bengaluru",
+    "Coorg",
+    "Dubare",
+    "Madikeri",
+    "Chikmagalur",
+    "Mullayanagiri",
+    "Kemmangundi",
+    "Kudremukh",
+    "Agumbe",
+    "Sagara",
+    "Jog Falls",
+    "Dandeli",
+    "Hubballi"
+  ],
+  "styles": [
+    "nature-holidays"
+  ],
+  "planDestination": "the Western Ghats of Karnataka",
+  "updated": "2026-09-26"
+}

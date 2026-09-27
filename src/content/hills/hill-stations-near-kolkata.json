@@ -1,0 +1,367 @@
+{
+  "slug": "hill-stations-near-kolkata",
+  "kind": "weekend",
+  "short": "Hill stations near Kolkata",
+  "title": "Hill Stations Near Kolkata: Weekend and Short-Trip Options",
+  "seoTitle": "Hill Stations Near Kolkata: Darjeeling and Closer Hills | Kudozz Club",
+  "metaDescription": "Hill stations near Kolkata: Darjeeling, Kalimpong, Kurseong, Mirik and Sikkim by overnight train or flight, plus closer breaks at Ajodhya Hills and Netarhat.",
+  "description": "A guide to the hill stations within reach of Kolkata: the Darjeeling hills (Darjeeling, Kalimpong, Kurseong, Mirik) and Sikkim by overnight train or a short flight to Bagdogra, closer plateau and forest breaks at Ajodhya Hills, Ghatshila and Jhargram, and Netarhat in Jharkhand, with approximate distances, trains and seasons.",
+  "dek": "Kolkata's hill stations are an overnight train away in the Darjeeling hills and Sikkim, but there are closer hilly escapes for a short break.",
+  "primaryKeyword": "hill stations near Kolkata",
+  "secondaryKeywords": [
+    "weekend getaways from Kolkata hills",
+    "hill stations within 300 km of Kolkata"
+  ],
+  "searchIntent": "Origin-city discovery",
+  "activities": [
+    "weekend trips",
+    "hill stations",
+    "walks"
+  ],
+  "terrain": [
+    "hills",
+    "mountains"
+  ],
+  "regions": [
+    "West Bengal",
+    "Sikkim",
+    "Jharkhand"
+  ],
+  "seasons": [
+    "spring",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tags": [
+    "Kolkata",
+    "Weekend Getaways",
+    "Darjeeling",
+    "Hill Stations"
+  ],
+  "hero": {
+    "src": "/images/hills/near-kolkata-hill-stations-darjeeling.webp",
+    "alt": "The clock tower of Darjeeling's municipal building at night"
+  },
+  "parent": {
+    "label": "Hill Stations",
+    "href": "/hill-station-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Hill stations near Kolkata"
+  },
+  "intro": [
+    "The true hill stations nearest Kolkata are in the far north of West Bengal: Darjeeling, Kalimpong, Kurseong and Mirik, with Sikkim just beyond. They are reached by an overnight train to New Jalpaiguri or a short flight to Bagdogra, followed by three hours or so by road.",
+    "For a shorter break, the low hills and plateaus of Purulia (Ajodhya Hills), Jharkhand (Ghatshila, Netarhat) and the forests of Jhargram offer greenery, waterfalls and cooler evenings in winter, though they are not hill stations in the Himalayan sense."
+  ],
+  "quickAnswer": "The nearest hill stations to Kolkata are in the Darjeeling hills: Darjeeling, Kalimpong, Kurseong and Mirik, about 560 km away by overnight train to New Jalpaiguri or a flight to Bagdogra, then around three hours by road. Sikkim is a few hours further. For a shorter break, Ajodhya Hills in Purulia, Ghatshila and Netarhat in Jharkhand, and Jhargram's forests are closer.",
+  "takeaways": [
+    "Darjeeling, Kalimpong, Kurseong and Mirik are the nearest true hill stations.",
+    "Take an overnight train to New Jalpaiguri, or fly to Bagdogra.",
+    "Four to five days suits the Darjeeling hills; a week adds Sikkim.",
+    "Ajodhya Hills, Ghatshila and Jhargram make shorter plateau and forest breaks.",
+    "Book early for the Puja holidays and summer vacation."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Options from Kolkata",
+      "table": {
+        "columns": [
+          "Place",
+          "Type",
+          "How to get there",
+          "Time needed"
+        ],
+        "rows": [
+          [
+            "Darjeeling",
+            "Hill station",
+            "Overnight train to NJP or flight to Bagdogra, then road",
+            "Three to four days"
+          ],
+          [
+            "Kalimpong",
+            "Hill station",
+            "Via NJP or Bagdogra",
+            "Two to three days"
+          ],
+          [
+            "Kurseong and Mirik",
+            "Small hill towns",
+            "Via NJP or Bagdogra",
+            "One or two nights"
+          ],
+          [
+            "Gangtok and Pelling",
+            "Sikkim hill towns",
+            "Via NJP or Bagdogra",
+            "Four to six days"
+          ],
+          [
+            "Ajodhya Hills",
+            "Low plateau, Purulia",
+            "Train to Purulia, then road",
+            "A weekend"
+          ],
+          [
+            "Ghatshila",
+            "Hills and river, Jharkhand",
+            "Train from Howrah",
+            "A weekend"
+          ],
+          [
+            "Jhargram",
+            "Forest and palaces",
+            "Train from Howrah",
+            "A weekend"
+          ],
+          [
+            "Netarhat",
+            "Plateau hill retreat, Jharkhand",
+            "Via Ranchi, then road",
+            "Three days"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "darjeeling",
+      "heading": "The Darjeeling hills",
+      "items": [
+        {
+          "name": "Darjeeling, Kalimpong, Kurseong and Mirik",
+          "body": [
+            "Tea gardens, Tiger Hill, the toy train and quieter towns across the Teesta."
+          ],
+          "links": [
+            {
+              "label": "Hill stations in West Bengal",
+              "href": "/blog/hill-stations-in-west-bengal"
+            },
+            {
+              "label": "Darjeeling guide",
+              "href": "/blog/darjeeling-travel-guide"
+            },
+            {
+              "label": "Kalimpong guide",
+              "href": "/blog/kalimpong-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/west-bengal/darjeeling-himalayan-railway-toy-train.webp",
+            "alt": "The Darjeeling Himalayan Railway toy train",
+            "caption": "Darjeeling toy train"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sikkim",
+      "heading": "Sikkim",
+      "items": [
+        {
+          "name": "Gangtok and Pelling",
+          "body": [
+            "A few hours beyond the Darjeeling hills; combine the two for a week."
+          ],
+          "links": [
+            {
+              "label": "Hill stations in Sikkim",
+              "href": "/blog/hill-stations-in-sikkim"
+            },
+            {
+              "label": "Darjeeling and Sikkim itinerary",
+              "href": "/blog/darjeeling-sikkim-itinerary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "closer",
+      "heading": "Closer breaks",
+      "items": [
+        {
+          "name": "Ajodhya Hills, Ghatshila, Jhargram and Netarhat",
+          "body": [
+            "Low hills, forests and waterfalls for a weekend, best from October to March."
+          ],
+          "links": [
+            {
+              "label": "Ajodhya Hills guide",
+              "href": "/blog/ajodhya-hills-travel-guide"
+            },
+            {
+              "label": "Ghatshila guide",
+              "href": "/blog/ghatshila-travel-guide"
+            },
+            {
+              "label": "Jhargram guide",
+              "href": "/blog/jhargram-travel-guide"
+            },
+            {
+              "label": "Netarhat guide",
+              "href": "/blog/netarhat-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "When to go",
+      "list": [
+        "March to May: popular summer escape to the Darjeeling hills; book early.",
+        "October to December: the clearest mountain views, and the Puja holidays.",
+        "June to September: monsoon rain and landslides in the hills.",
+        "October to March: the best time for the closer plateau breaks."
+      ]
+    },
+    {
+      "id": "sample",
+      "heading": "A sample four-day Darjeeling trip",
+      "table": {
+        "columns": [
+          "Day",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "Night 0",
+            "Overnight train from Kolkata to New Jalpaiguri"
+          ],
+          [
+            "Day 1",
+            "Drive up via Kurseong; afternoon at the Mall and Chowrasta"
+          ],
+          [
+            "Day 2",
+            "Tiger Hill sunrise, Ghoom and Batasia Loop; toy-train joy ride; tea estate visit"
+          ],
+          [
+            "Day 3",
+            "Day trip to Mirik or Kalimpong"
+          ],
+          [
+            "Day 4",
+            "Down to NJP for the evening train or a flight from Bagdogra"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "In Darjeeling, stay near Chowrasta and the Mall for walkability, or on a tea estate below town for quiet. Kalimpong and Kurseong have heritage hotels and homestays. For Ajodhya Hills, Ghatshila and Jhargram, stays are simpler, including state and forest department lodges; book ahead for winter weekends."
+      ]
+    },
+    {
+      "id": "getting-there",
+      "heading": "Getting there",
+      "paras": [
+        "Several overnight trains run from Kolkata's Sealdah and Howrah stations to New Jalpaiguri, and there are frequent flights to Bagdogra. From either, shared jeeps and taxis take about three hours to Darjeeling and a little less to Kalimpong, Kurseong and Mirik. For Ajodhya Hills, trains run to Purulia; Ghatshila and Jhargram are on the Howrah to Tatanagar line."
+      ]
+    }
+  ],
+  "safety": [
+    "Drive times are approximate and depend on traffic, weather and road works; weekend traffic on hill roads can double them. Avoid driving on mountain roads after dark.",
+    "Check weather and road updates before leaving, especially in the monsoon.",
+    "Book stays early for long weekends."
+  ],
+  "packing": [
+    "Light warm layer",
+    "Rain jacket in the monsoon",
+    "Comfortable shoes",
+    "Motion-sickness tablets"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the nearest hill station to Kolkata?",
+      "a": "The Darjeeling hills (Darjeeling, Kurseong, Mirik and Kalimpong) are the nearest true hill stations, reached by overnight train or a flight to Bagdogra."
+    },
+    {
+      "q": "Can I visit Darjeeling for a weekend from Kolkata?",
+      "a": "It is possible with an overnight train both ways, but four days is more comfortable."
+    },
+    {
+      "q": "Are there hills closer to Kolkata?",
+      "a": "Ajodhya Hills in Purulia, Ghatshila, Jhargram and Netarhat are closer, low-hill and forest breaks."
+    },
+    {
+      "q": "How do I get from Kolkata to Darjeeling?",
+      "a": "An overnight train to New Jalpaiguri or a flight to Bagdogra, then about three hours by road."
+    },
+    {
+      "q": "When should I visit the Darjeeling hills from Kolkata?",
+      "a": "March to May and October to December; book early for the Puja holidays."
+    },
+    {
+      "q": "Is Mirik worth a day trip?",
+      "a": "Yes, for its lake and tea gardens; it combines well with Kurseong on the drive up or down."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Hill stations in West Bengal",
+      "href": "/blog/hill-stations-in-west-bengal"
+    },
+    {
+      "label": "Darjeeling and Sikkim itinerary",
+      "href": "/blog/darjeeling-sikkim-itinerary"
+    },
+    {
+      "label": "Things to do in Kolkata",
+      "href": "/blog/things-to-do-in-kolkata"
+    },
+    {
+      "label": "Weekend getaways",
+      "href": "/packages/weekend-getaways"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hill stations in Sikkim",
+      "href": "/blog/hill-stations-in-sikkim",
+      "note": "beyond Darjeeling"
+    },
+    {
+      "name": "Tea tourism in India",
+      "href": "/blog/tea-tourism-in-india",
+      "note": "Darjeeling tea"
+    },
+    {
+      "name": "West Bengal tour packages",
+      "href": "/packages/west-bengal",
+      "note": "packages"
+    }
+  ],
+  "places": [
+    "Darjeeling",
+    "Kalimpong",
+    "Kurseong",
+    "Mirik",
+    "Gangtok",
+    "Pelling",
+    "Ajodhya Hills",
+    "Ghatshila",
+    "Jhargram",
+    "Netarhat"
+  ],
+  "styles": [
+    "weekend-getaways",
+    "hill-station-holidays"
+  ],
+  "planDestination": "a hill trip from Kolkata",
+  "updated": "2026-09-26"
+}

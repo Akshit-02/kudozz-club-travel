@@ -856,7 +856,8 @@
     {
       "path": "blogs/uttarakhand/valley-of-flowers/alpine-meadow-snow-peaks-valley-of-flowers.webp",
       "usedIn": [
-        "valley-of-flowers-travel-guide (hero — replaces a Manali photo used in error)"
+        "valley-of-flowers-travel-guide (hero — replaces a Manali photo used in error)",
+        "/nature-travel (hub hero)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Valley_of_flowers_national_park,_Uttarakhand,_India.jpg",
@@ -22888,6 +22889,1028 @@
       "author": "Ranjith Siji",
       "attribution": "Photo by Ranjith Siji, CC BY-SA 4.0, via Wikimedia Commons",
       "location": "The Mattancherry Palace (Dutch Palace) in Kochi, Kerala",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/hill-station-travel-india-kanchenjunga-darjeeling.webp",
+      "usedIn": [
+        "/hill-station-travel (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kanchenjunga_from_Tiger_Hills.JPG",
+      "originalFile": "Kanchenjunga from Tiger Hills.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "DC Assam",
+      "attribution": "Photo by DC Assam, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Kanchenjunga seen from Tiger Hill near Darjeeling",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/best-hill-stations-india-shimla.webp",
+      "usedIn": [
+        "/blog/best-hill-stations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shimla_Southern_Side_of_Ridge.JPG",
+      "originalFile": "Shimla Southern Side of Ridge.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Bjørn Christian Tørrissen",
+      "attribution": "Photo by Bjørn Christian Tørrissen, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Shimla spread along its ridge, Himachal Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/mountain-destinations-india-spiti-key.webp",
+      "usedIn": [
+        "/blog/best-mountain-destinations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Key_Monastery,_Spiti_Valley.JPG",
+      "originalFile": "Key Monastery, Spiti Valley.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "SilverBirch",
+      "attribution": "Photo by SilverBirch, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Key Monastery above the Spiti valley, Himachal Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/himalayan-hill-stations-mussoorie.webp",
+      "usedIn": [
+        "/blog/himalayan-hill-stations (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mussoorie_town,_Uttarakhand.jpg",
+      "originalFile": "Mussoorie town, Uttarakhand.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pinakpani",
+      "attribution": "Photo by Pinakpani, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Mussoorie on its ridge in the Garhwal hills, Uttarakhand",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/northeast-hill-stations-gangtok.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-northeast-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gangtok_from_Tibet_Road.jpg",
+      "originalFile": "Gangtok from Tibet Road.jpg",
+      "license": "CC BY 3.0",
+      "author": "Thebrowniris",
+      "attribution": "Photo by Thebrowniris, CC BY 3.0, via Wikimedia Commons",
+      "location": "Gangtok on its hillside, Sikkim",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/south-india-hill-stations-munnar.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-south-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tea_estate_in_Munnar.jpg",
+      "originalFile": "Tea estate in Munnar.jpg",
+      "license": "CC BY 2.0",
+      "author": "tornado_twister",
+      "attribution": "Photo by tornado_twister, CC BY 2.0, via Wikimedia Commons",
+      "location": "Tea estates in the hills around Munnar, Kerala",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/western-central-hill-stations-mount-abu.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-western-and-central-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nakki_Lake,_Mount_Abu,_Rajasthan,_610.jpg",
+      "originalFile": "Nakki Lake, Mount Abu, Rajasthan, 610.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Sanyam Bahga",
+      "attribution": "Photo by Sanyam Bahga, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Nakki Lake at Mount Abu, Rajasthan",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/himachal-hill-stations-manali.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-himachal-pradesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Solang_Valley_Manali.JPG",
+      "originalFile": "Solang Valley Manali.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Jishnu2602",
+      "attribution": "Photo by Jishnu2602, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Solang valley near Manali, Himachal Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/uttarakhand-hill-stations-nainital.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-uttarakhand (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nainital_lake_004.jpg",
+      "originalFile": "Nainital lake 004.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Wikibongmon",
+      "attribution": "Photo by Wikibongmon, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Naini Lake seen from the hills above Nainital",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/kashmir-hill-stations-pahalgam.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-jammu-and-kashmir (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pahalgam_views_42.JPG",
+      "originalFile": "Pahalgam views 42.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Vinayaraj",
+      "attribution": "Photo by Vinayaraj, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Meadow and pine forest at Pahalgam, Kashmir",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/sikkim-hill-stations-pelling-kanchenjunga.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-sikkim (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_view_of_Yumthang_valley,_Sikkim_India,.jpg",
+      "originalFile": "A view of Yumthang valley, Sikkim India,.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "soumyajit pramanick",
+      "attribution": "Photo by soumyajit pramanick, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "The Yumthang valley in North Sikkim",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/west-bengal-hill-stations-kalimpong.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-west-bengal (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Kalimpong,_India.jpg",
+      "originalFile": "View of Kalimpong, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Bernard Gagnon",
+      "attribution": "Photo by Bernard Gagnon, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Kalimpong town spread across its ridge, West Bengal",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/meghalaya-hill-stations-shillong.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-meghalaya (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Umiam_Lake_Meghalaya.jpg",
+      "originalFile": "Umiam Lake Meghalaya.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "\" User:RMehra \"",
+      "attribution": "Photo by \" User:RMehra \", CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Umiam Lake near Shillong, Meghalaya",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/tamil-nadu-hill-stations-kodaikanal.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-tamil-nadu (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kodaikanal-lake.jpg",
+      "originalFile": "Kodaikanal-lake.jpg",
+      "license": "Public domain",
+      "author": "युकेश at hi.wikipedia",
+      "attribution": "Photo by युकेश at hi.wikipedia, Public domain, via Wikimedia Commons",
+      "location": "Kodaikanal lake and town in the Palani hills, Tamil Nadu",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/kerala-hill-stations-vagamon.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-kerala (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vagamon_town_Idukki.jpg",
+      "originalFile": "Vagamon town Idukki.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Manukrishnan80",
+      "attribution": "Photo by Manukrishnan80, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Grassy hills under clouds near Vagamon, Idukki, Kerala",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/karnataka-hill-stations-chikmagalur.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-karnataka (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kemmangundi_Landscape.jpg",
+      "originalFile": "Kemmangundi Landscape.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Srinivasa83",
+      "attribution": "Photo by Srinivasa83, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Grassland hills near Kemmangundi, Chikkamagaluru district, Karnataka",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/maharashtra-hill-stations-mahabaleshwar.webp",
+      "usedIn": [
+        "/blog/hill-stations-in-maharashtra (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Water_Fall_Valley_Mahabaleshwar.jpg",
+      "originalFile": "Water Fall Valley Mahabaleshwar.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shiivamsharma",
+      "attribution": "Photo by Shiivamsharma, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A forested valley below Mahabaleshwar, Maharashtra",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/summer-hill-stations-gulmarg-meadow.webp",
+      "usedIn": [
+        "/blog/summer-hill-stations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Apharwat_Right_Wing.jpg",
+      "originalFile": "Apharwat Right Wing.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shabir Dar",
+      "attribution": "Photo by Shabir Dar, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Green meadows below the snow-streaked Apharwat range near Gulmarg",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/winter-hill-stations-shimla-snow.webp",
+      "usedIn": [
+        "/blog/winter-hill-stations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shimla_snow.jpg",
+      "originalFile": "Shimla snow.jpg",
+      "license": "Public domain",
+      "author": "Smitanarang at English Wikipedia",
+      "attribution": "Photo by Smitanarang at English Wikipedia, Public domain, via Wikimedia Commons",
+      "location": "Snow on the trees and Christ Church in Shimla",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/snow-in-india-gulmarg-winter.webp",
+      "usedIn": [
+        "/blog/places-to-see-snow-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Majestic_snow_capped_mountains_at_Gulmarg,_Kashmir,_India.jpg",
+      "originalFile": "Majestic snow capped mountains at Gulmarg, Kashmir, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Viwa2612",
+      "attribution": "Photo by Viwa2612, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Snow-covered slopes and visitors at Gulmarg, Kashmir",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/monsoon-hill-stations-cherrapunji.webp",
+      "usedIn": [
+        "/blog/monsoon-hill-stations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mawkdok_Dympep_Valley_,Shillong-Cherrapunjee_Highway,_Cherrapunjee,_India.jpg",
+      "originalFile": "Mawkdok Dympep Valley ,Shillong-Cherrapunjee Highway, Cherrapunjee, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sanjibroy56",
+      "attribution": "Photo by Sanjibroy56, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The green Mawkdok Dympep valley on the road from Shillong to Sohra",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/couples-hill-stations-dal-lake-shikara.webp",
+      "usedIn": [
+        "/blog/hill-stations-for-couples-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shikara_in_Dal_Lake_in_Kashmir.JPG",
+      "originalFile": "Shikara in Dal Lake in Kashmir.JPG",
+      "license": "CC BY 2.0",
+      "author": "Basharat Shah",
+      "attribution": "Photo by Basharat Shah, CC BY 2.0, via Wikimedia Commons",
+      "location": "Shikaras on Dal Lake, Srinagar",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/family-hill-stations-ooty-botanical-garden.webp",
+      "usedIn": [
+        "/blog/hill-stations-for-families-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Botanical_Gardens_-_Ootacamund_(Ooty)_-_India_03.JPG",
+      "originalFile": "Botanical Gardens - Ootacamund (Ooty) - India 03.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Adam Jones Adam63",
+      "attribution": "Photo by Adam Jones Adam63, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Terraced flower beds in the Government Botanical Garden, Ooty",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/budget-hill-stations-mcleod-ganj.webp",
+      "usedIn": [
+        "/blog/budget-hill-stations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Main_Street_Temple_-_McLeod_Ganj_-_Himachal_Pradesh_-_India_(26207379983).jpg",
+      "originalFile": "Main Street Temple - McLeod Ganj - Himachal Pradesh - India (26207379983).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Adam Jones from Kelowna, BC, Canada",
+      "attribution": "Photo by Adam Jones from Kelowna, BC, Canada, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "A temple on the main street of McLeod Ganj, above Dharamshala",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/luxury-hill-holidays-darjeeling-tea-estate.webp",
+      "usedIn": [
+        "/blog/luxury-hill-holidays-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Happy_Valley_Tea_Estate,_Darjeeling.jpg",
+      "originalFile": "Happy Valley Tea Estate, Darjeeling.jpg",
+      "license": "CC BY 2.0",
+      "author": "Matt Stabile",
+      "attribution": "Photo by Matt Stabile, CC BY 2.0, via Wikimedia Commons",
+      "location": "Happy Valley Tea Estate below Darjeeling",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/near-delhi-hill-stations-lansdowne.webp",
+      "usedIn": [
+        "/blog/hill-stations-near-delhi (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lansdowne_20140801_120431_(19905071560).jpg",
+      "originalFile": "Lansdowne 20140801 120431 (19905071560).jpg",
+      "license": "CC BY 2.0",
+      "author": "Ashish Gupta from Noida, India",
+      "attribution": "Photo by Ashish Gupta from Noida, India, CC BY 2.0, via Wikimedia Commons",
+      "location": "Pine forest at Lansdowne, Uttarakhand",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/near-mumbai-hill-stations-matheran.webp",
+      "usedIn": [
+        "/blog/hill-stations-near-mumbai (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Matheran_western_ghats.jpg",
+      "originalFile": "Matheran western ghats.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "MIRAL MAISERY",
+      "attribution": "Photo by MIRAL MAISERY, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Western Ghats seen from Matheran",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/near-bengaluru-hill-stations-nandi-hills.webp",
+      "usedIn": [
+        "/blog/hill-stations-near-bengaluru (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nandi_Hills_20181111_091305.jpg",
+      "originalFile": "Nandi Hills 20181111 091305.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Amol.Gaitonde",
+      "attribution": "Photo by Amol.Gaitonde, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The view from Nandi Hills over the plains near Bengaluru",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/near-chennai-hill-stations-yelagiri.webp",
+      "usedIn": [
+        "/blog/hill-stations-near-chennai (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yelagiri_Hill.jpg",
+      "originalFile": "Yelagiri Hill.jpg",
+      "license": "Public domain",
+      "author": "L.vivian.richard",
+      "attribution": "Photo by L.vivian.richard, Public domain, via Wikimedia Commons",
+      "location": "The road into the Yelagiri hills, Tamil Nadu",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/near-kolkata-hill-stations-darjeeling.webp",
+      "usedIn": [
+        "/blog/hill-stations-near-kolkata (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Night_view_of_Darjeeling_Municipality,India.jpg",
+      "originalFile": "Night view of Darjeeling Municipality,India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Syed Sajidul Islam",
+      "attribution": "Photo by Syed Sajidul Islam, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The clock tower of Darjeeling's municipal building at night",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/mountain-road-trips-atal-tunnel-lahaul.webp",
+      "usedIn": [
+        "/blog/mountain-road-trips-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Himalayas_-_Gulaba_-_Leh-Manali_Highway_2014-05-10_2438-2439_Archive.TIF",
+      "originalFile": "Himalayas - Gulaba - Leh-Manali Highway 2014-05-10 2438-2439 Archive.TIF",
+      "license": "CC BY 3.0",
+      "author": "Biswarup Ganguly",
+      "attribution": "Photo by Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons",
+      "location": "Snow peaks above the Leh-Manali highway near Gulaba",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/tea-tourism-darjeeling-tea-garden.webp",
+      "usedIn": [
+        "/blog/tea-tourism-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tea_Garden_Darjeeling_West_Bengal_India.JPG",
+      "originalFile": "Tea Garden Darjeeling West Bengal India.JPG",
+      "license": "CC BY 3.0",
+      "author": "Shahnoor Habib Munmun",
+      "attribution": "Photo by Shahnoor Habib Munmun, CC BY 3.0, via Wikimedia Commons",
+      "location": "A tea garden on the hills of Darjeeling",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/coffee-plantation-coorg.webp",
+      "usedIn": [
+        "/blog/coffee-plantation-tourism-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:COFFEE@COORG.jpg",
+      "originalFile": "COFFEE@COORG.jpg",
+      "license": "CC BY 4.0",
+      "author": "Dr.himshree",
+      "attribution": "Photo by Dr.himshree, CC BY 4.0, via Wikimedia Commons",
+      "location": "Coffee cherries ripening on a plant in Coorg",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/plan-hill-station-trip-kausani-himalaya.webp",
+      "usedIn": [
+        "/blog/how-to-plan-a-hill-station-trip (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dream_country.jpg",
+      "originalFile": "Dream country.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sujayadhar",
+      "attribution": "Photo by Sujayadhar, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Kumaon Himalaya seen above a sea of clouds from Kausani",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/hill-station-packing-auli-snow.webp",
+      "usedIn": [
+        "/blog/hill-station-packing-list (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_at_Auli.jpg",
+      "originalFile": "Snow at Auli.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "ArmouredCyborg",
+      "attribution": "Photo by ArmouredCyborg, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Patchy snow on the slopes at Auli, Uttarakhand",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/responsible-mountain-travel-khonoma.webp",
+      "usedIn": [
+        "/blog/responsible-mountain-travel-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Khonoma_village,_Nagaland,_India1.jpg",
+      "originalFile": "Khonoma village, Nagaland, India1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Joli Rumi",
+      "attribution": "Photo by Joli Rumi, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Khonoma village on its ridge, Nagaland",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/shimla-manali-itinerary-kullu-valley.webp",
+      "usedIn": [
+        "/blog/shimla-manali-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beas_Valley_-_Palchan_-_Kullu_2014-05-10_2274.JPG",
+      "originalFile": "Beas Valley - Palchan - Kullu 2014-05-10 2274.JPG",
+      "license": "CC BY 3.0",
+      "author": "Biswarup Ganguly",
+      "attribution": "Photo by Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons",
+      "location": "The Beas valley near Palchan, above Manali",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/uttarakhand-itinerary-mussoorie-landour.webp",
+      "usedIn": [
+        "/blog/uttarakhand-hill-stations-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_in_Mussoorie_(14828857444).jpg",
+      "originalFile": "Snow in Mussoorie (14828857444).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Paul Hamilton",
+      "attribution": "Photo by Paul Hamilton, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "Snow on a church in Mussoorie",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/kashmir-itinerary-sonamarg.webp",
+      "usedIn": [
+        "/blog/kashmir-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sonmarg.JPG",
+      "originalFile": "Sonmarg.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Revoshots",
+      "attribution": "Photo by Revoshots, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Sindh valley at Sonamarg, Kashmir",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/darjeeling-sikkim-itinerary-tsomgo-lake.webp",
+      "usedIn": [
+        "/blog/darjeeling-sikkim-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tsongmo_Lake_or_Changu_Lake_-_East_Sikkim.jpg",
+      "originalFile": "Tsongmo Lake or Changu Lake - East Sikkim.jpg",
+      "license": "CC BY 3.0",
+      "author": "Indrajit Das",
+      "attribution": "Photo by Indrajit Das, CC BY 3.0, via Wikimedia Commons",
+      "location": "Tsomgo (Changu) Lake in East Sikkim",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "hills/south-india-hill-itinerary-coonoor.webp",
+      "usedIn": [
+        "/blog/south-india-hill-stations-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tea_plantations_in_Coonoor.jpg",
+      "originalFile": "Tea plantations in Coonoor.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Janjri",
+      "attribution": "Photo by Janjri, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Tea plantations at Coonoor in the Nilgiris",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/best-nature-destinations-india-dzukou.webp",
+      "usedIn": [
+        "/blog/best-nature-destinations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dzukou_Lily_01.jpg",
+      "originalFile": "Dzukou Lily 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ganesh Mohan T",
+      "attribution": "Photo by Ganesh Mohan T, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A Dzukou lily in flower in the Dzukou valley on the Nagaland–Manipur border",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/natural-wonders-gandikota-gorge.webp",
+      "usedIn": [
+        "/blog/natural-wonders-of-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gandikota_Canyon.jpg",
+      "originalFile": "Gandikota Canyon.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kartik Kumar S",
+      "attribution": "Photo by Kartik Kumar S, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Penna river gorge at Gandikota at sunset, Andhra Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/forest-destinations-silent-valley.webp",
+      "usedIn": [
+        "/blog/forest-destinations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Silent_Valley_National_Park_030.jpg",
+      "originalFile": "Silent Valley National Park 030.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "PP Yoonus",
+      "attribution": "Photo by PP Yoonus, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Evergreen forest on the hills of Silent Valley National Park, Kerala",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/himalayan-nature-chandratal-lake.webp",
+      "usedIn": [
+        "/blog/himalayan-nature-travel (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandratal_Lake,_Himachal_Pradesh.jpg",
+      "originalFile": "Chandratal Lake, Himachal Pradesh.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vivek Kumar Srivastava",
+      "attribution": "Photo by Vivek Kumar Srivastava, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Chandratal lake below the peaks of the Spiti region, Himachal Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/valleys-india-yumthang.webp",
+      "usedIn": [
+        "/blog/valleys-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yumthang_Valley_by_SS.jpg",
+      "originalFile": "Yumthang Valley by SS.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Suvadip Sanyal",
+      "attribution": "Photo by Suvadip Sanyal, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Clouds over the Yumthang valley in North Sikkim",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/waterfalls-india-jog-falls.webp",
+      "usedIn": [
+        "/blog/waterfalls-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jog_Falls_in_full_monsoon.jpg",
+      "originalFile": "Jog Falls in full monsoon.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Debaditya 1",
+      "attribution": "Photo by Debaditya 1, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Jog Falls on the Sharavathi river in full monsoon flow, Karnataka",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/lakes-india-pangong-tso.webp",
+      "usedIn": [
+        "/blog/lakes-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pangong_Tso_Lake_hansraj.JPG",
+      "originalFile": "Pangong Tso Lake hansraj.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Hansraj",
+      "attribution": "Photo by Hansraj, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The shore of Pangong Tso in Ladakh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/riverside-destinations-majuli-brahmaputra.webp",
+      "usedIn": [
+        "/blog/riverside-destinations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Transport_system_of_Majuli.jpeg",
+      "originalFile": "Transport system of Majuli.jpeg",
+      "license": "CC BY-SA 3.0",
+      "author": "নিতুল বৰা",
+      "attribution": "Photo by নিতুল বৰা, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "A ferry on the Brahmaputra at Majuli, Assam",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/natural-caves-borra-caves.webp",
+      "usedIn": [
+        "/blog/natural-caves-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Borra_Cave.jpg",
+      "originalFile": "Borra Cave.jpg",
+      "license": "Public domain",
+      "author": "Robbygrine (assumed, per Commons)",
+      "attribution": "Photo by Robbygrine (assumed), public domain, via Wikimedia Commons",
+      "location": "Stalactite formations inside the Borra Caves, Araku valley, Andhra Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/western-ghats-nature-kudremukh.webp",
+      "usedIn": [
+        "/blog/western-ghats-nature-travel (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shola_Grasslands_and_forests_in_the_Kudremukh_National_Park,_Western_Ghats,_Karnataka.jpg",
+      "originalFile": "Shola Grasslands and forests in the Kudremukh National Park, Western Ghats, Karnataka.jpg",
+      "license": "CC BY 2.0",
+      "author": "Karunakar Rayker",
+      "attribution": "Photo by Karunakar Rayker, CC BY 2.0, via Wikimedia Commons",
+      "location": "Shola grasslands and forest in Kudremukh National Park, Karnataka",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/northeast-nature-living-root-bridge.webp",
+      "usedIn": [
+        "/blog/nature-travel-in-northeast-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Double_decker_living_root_bridge_02.jpg",
+      "originalFile": "Double decker living root bridge 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Chiranjeeb Baul",
+      "attribution": "Photo by Chiranjeeb Baul, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The double-decker living root bridge at Nongriat, Meghalaya",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/kerala-nature-athirappilly-falls.webp",
+      "usedIn": [
+        "/blog/nature-travel-in-kerala (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Athirappalli_Waterfalls,_Thrissur,_Kerala.jpg",
+      "originalFile": "Athirappalli Waterfalls, Thrissur, Kerala.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Pranchiyettan",
+      "attribution": "Photo by Pranchiyettan, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Athirappilly Falls on the Chalakudy river, Thrissur district, Kerala",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/karnataka-nature-kudremukh-shola.webp",
+      "usedIn": [
+        "/blog/nature-travel-in-karnataka (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kodachadri_Hills.jpg",
+      "originalFile": "Kodachadri Hills.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Chetan Annaji Gowda",
+      "attribution": "Photo by Chetan Annaji Gowda, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Grassy slopes of the Kodachadri hills in the Western Ghats, Karnataka",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/meghalaya-nature-umngot-river-dawki.webp",
+      "usedIn": [
+        "/blog/nature-travel-in-meghalaya (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dawki_River,_Meghalaya.jpg",
+      "originalFile": "Dawki River, Meghalaya.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Madhumita Das",
+      "attribution": "Photo by Madhumita Das, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A boat on the clear Umngot river at Dawki, Meghalaya",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/uttarakhand-nature-hemkund-valley-flowers.webp",
+      "usedIn": [
+        "/blog/nature-travel-in-uttarakhand (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Valley_of_Flowers_(43555036904).jpg",
+      "originalFile": "Valley of Flowers (43555036904).jpg",
+      "license": "CC BY 2.0",
+      "author": "Belur Ashok from Secunderabad, India",
+      "attribution": "Photo by Belur Ashok from Secunderabad, India, CC BY 2.0, via Wikimedia Commons",
+      "location": "The Valley of Flowers below snow-streaked peaks, Uttarakhand",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/himachal-nature-prashar-lake.webp",
+      "usedIn": [
+        "/blog/nature-travel-in-himachal-pradesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Prashar_Lake_first_view_(21250562139).jpg",
+      "originalFile": "Prashar Lake first view (21250562139).jpg",
+      "license": "CC BY 2.0",
+      "author": "Ashish Gupta from Noida, India",
+      "attribution": "Photo by Ashish Gupta from Noida, India, CC BY 2.0, via Wikimedia Commons",
+      "location": "Prashar Lake in its grassy bowl above the Mandi hills, Himachal Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/odisha-nature-chilika-lake.webp",
+      "usedIn": [
+        "/blog/nature-travel-in-odisha (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chilika_Lake_2.jpg",
+      "originalFile": "Chilika Lake 2.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Krupasindhu Muduli",
+      "attribution": "Photo by Krupasindhu Muduli, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "A boat crossing Chilika Lake, Odisha",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/mp-nature-bhedaghat-marble-rocks.webp",
+      "usedIn": [
+        "/blog/nature-travel-in-madhya-pradesh (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:White_Marble_Rocks_at_Bhedaghat.jpg",
+      "originalFile": "White Marble Rocks at Bhedaghat.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Sandyadav080",
+      "attribution": "Photo by Sandyadav080, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "The marble rocks of the Narmada gorge at Bhedaghat near Jabalpur",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/eco-tourism-mawlynnong-village.webp",
+      "usedIn": [
+        "/blog/eco-tourism-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Traditional_house_at_Mawlynnong,_Meghalaya,_India.jpg",
+      "originalFile": "Traditional house at Mawlynnong, Meghalaya, India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sujan Bandyopadhyay",
+      "attribution": "Photo by Sujan Bandyopadhyay, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A traditional stilt house in Mawlynnong village, Meghalaya",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/biodiversity-hotspots-western-ghats-shola.webp",
+      "usedIn": [
+        "/blog/biodiversity-hotspots-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shola_grasslands_-_IMG_20180215_150359098.jpg",
+      "originalFile": "Shola grasslands - IMG 20180215 150359098.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Abhishekgopal1993",
+      "attribution": "Photo by Abhishekgopal1993, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Shola grassland and forest patches on a Western Ghats ridge",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/flower-valleys-kaas-plateau.webp",
+      "usedIn": [
+        "/blog/flower-valleys-and-blooms-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kaas_plateau_flowers_sahyadri_mountains.jpg",
+      "originalFile": "Kaas plateau flowers sahyadri mountains.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sheetal Kulkarni",
+      "attribution": "Photo by Sheetal Kulkarni, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Wildflowers on the Kaas plateau in the Sahyadri hills, Maharashtra",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/nature-retreats-wayanad-forest.webp",
+      "usedIn": [
+        "/blog/nature-retreats-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wayanad_Ghats.jpg",
+      "originalFile": "Wayanad Ghats.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Thejas Panarkandy",
+      "attribution": "Photo by Thejas Panarkandy, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "Forested ghats of Wayanad under monsoon clouds, Kerala",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/village-tourism-kalpa-kinnaur.webp",
+      "usedIn": [
+        "/blog/village-tourism-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kalpa_(8512894537).jpg",
+      "originalFile": "Kalpa (8512894537).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Carlos Adampol Galindo from DF, México",
+      "attribution": "Photo by Carlos Adampol Galindo from DF, México, CC BY-SA 2.0, via Wikimedia Commons",
+      "location": "Kalpa village below the Kinner Kailash range, Kinnaur, Himachal Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/nature-photography-tso-moriri.webp",
+      "usedIn": [
+        "/blog/nature-photography-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tso_Moriri.jpg",
+      "originalFile": "Tso Moriri.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "CaffeineAM",
+      "attribution": "Photo by CaffeineAM, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Tso Moriri and the Changthang grasslands, Ladakh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/offbeat-nature-ziro-valley.webp",
+      "usedIn": [
+        "/blog/offbeat-nature-destinations-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Clean_ziro_green_ziro.jpeg",
+      "originalFile": "Clean ziro green ziro.jpeg",
+      "license": "Public domain",
+      "author": "Unknown (see Commons page)",
+      "attribution": "Public domain photo via Wikimedia Commons (see source page)",
+      "location": "Rice fields in the Ziro valley, Arunachal Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/nature-seasons-dudhsagar-falls.webp",
+      "usedIn": [
+        "/blog/best-time-for-nature-travel-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dudhsagar_Falls_walk,_Goa_vrvbgoa2k24_(132).jpg",
+      "originalFile": "Dudhsagar Falls walk, Goa vrvbgoa2k24 (132).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Vinayaraj",
+      "attribution": "Photo by Vinayaraj, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Dudhsagar Falls on the Mandovi river, Goa",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/nature-couples-dal-lake-mist.webp",
+      "usedIn": [
+        "/blog/nature-getaways-for-couples-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chinars,_Nigeen_Lake_-_panoramio.jpg",
+      "originalFile": "Chinars, Nigeen Lake - panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Abdul Basit",
+      "attribution": "Photo by Abdul Basit, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Chinar trees reflected in Nigeen Lake, Srinagar",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/nature-families-thekkady-periyar-lake.webp",
+      "usedIn": [
+        "/blog/nature-trips-for-families-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Thekkady_Mullaperiyar_Lake_in_Periyar_Tiger_Reserve_-_Lake_at_Mullakkudy.JPG",
+      "originalFile": "Thekkady Mullaperiyar Lake in Periyar Tiger Reserve - Lake at Mullakkudy.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Sibyperiyar",
+      "attribution": "Photo by Sibyperiyar, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "Periyar Lake at Thekkady, Periyar Tiger Reserve, Kerala",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/plan-nature-trip-tirthan-valley.webp",
+      "usedIn": [
+        "/blog/how-to-plan-a-nature-trip-in-india (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Trekking_Bridge.jpg",
+      "originalFile": "Trekking Bridge.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ankitwadhwa10",
+      "attribution": "Photo by Ankitwadhwa10, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "A footbridge over the Tirthan river, Kullu district, Himachal Pradesh",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/meghalaya-itinerary-nohkalikai-falls.webp",
+      "usedIn": [
+        "/blog/meghalaya-nature-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nohkalikai_Falls,_June_2013.jpg",
+      "originalFile": "Nohkalikai Falls, June 2013.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Indrani911basu",
+      "attribution": "Photo by Indrani911basu, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "Nohkalikai Falls near Sohra (Cherrapunji), Meghalaya",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/kerala-nature-itinerary-kumarakom-backwaters.webp",
+      "usedIn": [
+        "/blog/kerala-nature-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kumarakom_backwaters.jpg",
+      "originalFile": "Kumarakom backwaters.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Tux the penguin at ml.wikipedia",
+      "attribution": "Photo by Tux the penguin at ml.wikipedia, CC BY-SA 3.0, via Wikimedia Commons",
+      "location": "A boat on the backwaters at Kumarakom, Kerala",
+      "accessed": "2026-09-26"
+    },
+    {
+      "path": "nature/western-ghats-itinerary-dandeli-kali-river.webp",
+      "usedIn": [
+        "/blog/western-ghats-nature-itinerary (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_silent_scene_of_kali_river_dandeli,_india.jpg",
+      "originalFile": "A silent scene of kali river dandeli, india.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "PiolAtif",
+      "attribution": "Photo by PiolAtif, CC BY-SA 4.0, via Wikimedia Commons",
+      "location": "The Kali river near Dandeli, Uttara Kannada, Karnataka",
       "accessed": "2026-09-26"
     }
   ]

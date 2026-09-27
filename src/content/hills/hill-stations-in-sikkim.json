@@ -1,0 +1,371 @@
+{
+  "slug": "hill-stations-in-sikkim",
+  "kind": "state",
+  "short": "Hill stations in Sikkim",
+  "title": "Hill Stations in Sikkim: Gangtok, Pelling, Lachung and More",
+  "seoTitle": "Hill Stations in Sikkim: Gangtok, Pelling and Lachung | Kudozz Club",
+  "metaDescription": "Sikkim's hill stations compared: Gangtok, Pelling, Ravangla, Namchi, Yuksom, Lachung and Lachen, with Kanchenjunga views, permits, seasons and how to combine them.",
+  "description": "A guide to the hill stations and valleys of Sikkim: Gangtok and day trips to Tsomgo and Nathu La, Pelling and Yuksom in the west, Ravangla and Namchi in the south, and Lachung, Yumthang and Lachen in the north, with permits, seasons, getting there and how to combine Sikkim with Darjeeling.",
+  "dek": "A small state with some of India's grandest mountain views, Sikkim combines Buddhist monasteries, high valleys and Kanchenjunga on the skyline.",
+  "primaryKeyword": "hill stations in Sikkim",
+  "secondaryKeywords": [
+    "best hill stations in Sikkim",
+    "Sikkim hill stations list"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "hill stations",
+    "walks",
+    "viewpoints",
+    "sightseeing"
+  ],
+  "terrain": [
+    "hills",
+    "mountains"
+  ],
+  "regions": [
+    "Sikkim"
+  ],
+  "seasons": [
+    "spring",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tags": [
+    "Sikkim",
+    "Gangtok",
+    "Pelling",
+    "Lachung",
+    "Hill Stations"
+  ],
+  "hero": {
+    "src": "/images/hills/sikkim-hill-stations-pelling-kanchenjunga.webp",
+    "alt": "The Yumthang valley in North Sikkim"
+  },
+  "parent": {
+    "label": "Hill Stations in Northeast India",
+    "href": "/blog/hill-stations-in-northeast-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Hill stations of Sikkim",
+    "containedIn": "Sikkim"
+  },
+  "intro": [
+    "Sikkim is small but steep, rising from low valleys to the Kanchenjunga massif. Its hill towns fall into four areas: Gangtok and the east; Pelling, Yuksom and the west, facing Kanchenjunga; Ravangla and Namchi in the south; and the high valleys of Lachung and Lachen in the north, reached only with permits.",
+    "Sikkim is easily combined with Darjeeling and Kalimpong in West Bengal, and most travellers arrive through Bagdogra or New Jalpaiguri."
+  ],
+  "quickAnswer": "The main hill stations of Sikkim are Gangtok, Pelling, Ravangla, Namchi and Yuksom, with Lachung and Lachen as bases for North Sikkim. March to May and October to December are the best months, with the clearest Kanchenjunga views in autumn. Tsomgo Lake, Nathu La (Indian nationals only) and North Sikkim need Protected Area Permits, usually arranged by registered operators.",
+  "takeaways": [
+    "Gangtok is the base for Tsomgo Lake and, for Indian nationals, Nathu La.",
+    "Pelling has close views of Kanchenjunga and the Pemayangtse monastery.",
+    "North Sikkim (Lachung, Yumthang, Lachen, Gurudongmar) needs permits and registered operators.",
+    "October to December has the clearest views; March to May has rhododendrons.",
+    "Allow full days for transfers; roads are slow and landslides are common in the monsoon."
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "heading": "At a glance",
+      "table": {
+        "columns": [
+          "Place",
+          "Area",
+          "Known for",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Gangtok",
+            "East",
+            "Monasteries, MG Marg, day trips",
+            "Capital and main base"
+          ],
+          [
+            "Tsomgo Lake and Nathu La",
+            "East",
+            "High lake and pass",
+            "Permits; Nathu La for Indian nationals only"
+          ],
+          [
+            "Pelling",
+            "West",
+            "Kanchenjunga views, Pemayangtse, Rabdentse",
+            "About five hours from Gangtok"
+          ],
+          [
+            "Yuksom",
+            "West",
+            "First capital of Sikkim, trek base",
+            "Beyond Pelling"
+          ],
+          [
+            "Ravangla and Namchi",
+            "South",
+            "Buddha Park; Char Dham and Samdruptse",
+            "Good stopovers"
+          ],
+          [
+            "Lachung and Yumthang",
+            "North",
+            "Valley of flowers in spring, snow in winter",
+            "Permits; registered operators"
+          ],
+          [
+            "Lachen and Gurudongmar",
+            "North",
+            "High-altitude lake",
+            "Permits; acclimatise"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gangtok",
+      "heading": "Gangtok and the east",
+      "items": [
+        {
+          "name": "Gangtok",
+          "body": [
+            "MG Marg, Enchey and Rumtek monasteries, and viewpoints such as Tashi and Ganesh Tok."
+          ],
+          "links": [
+            {
+              "label": "Gangtok guide",
+              "href": "/blog/gangtok-travel-guide"
+            },
+            {
+              "label": "Things to do in Gangtok",
+              "href": "/blog/things-to-do-in-gangtok"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/sikkim/sikkim/rumtek-monastery-gangtok-sikkim.webp",
+            "alt": "Rumtek Monastery near Gangtok",
+            "caption": "Rumtek Monastery"
+          }
+        },
+        {
+          "name": "Tsomgo Lake",
+          "body": [
+            "A high glacial lake on the road to Nathu La, often frozen in winter."
+          ],
+          "links": [
+            {
+              "label": "Tsomgo Lake guide",
+              "href": "/blog/tsomgo-lake-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "west-south",
+      "heading": "West and South Sikkim",
+      "items": [
+        {
+          "name": "Pelling and Yuksom",
+          "body": [
+            "Kanchenjunga at close range, Pemayangtse monastery, Rabdentse ruins and the skywalk; Yuksom for history and treks."
+          ],
+          "links": [
+            {
+              "label": "Pelling guide",
+              "href": "/blog/pelling-travel-guide"
+            },
+            {
+              "label": "Yuksom guide",
+              "href": "/blog/yuksom-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/sikkim/sikkim/kanchenjunga-peak-view-from-pelling-sikkim.webp",
+            "alt": "Kanchenjunga seen from Pelling",
+            "caption": "Kanchenjunga from Pelling"
+          }
+        },
+        {
+          "name": "Ravangla, Namchi and Temi",
+          "body": [
+            "Buddha Park at Ravangla, Namchi's hilltop statues, and Sikkim's only tea estate at Temi."
+          ],
+          "links": [
+            {
+              "label": "Ravangla guide",
+              "href": "/blog/ravangla-travel-guide"
+            },
+            {
+              "label": "Namchi guide",
+              "href": "/blog/namchi-travel-guide"
+            },
+            {
+              "label": "Temi Tea Garden guide",
+              "href": "/blog/temi-tea-garden-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "north",
+      "heading": "North Sikkim",
+      "items": [
+        {
+          "name": "Lachung and Lachen",
+          "body": [
+            "Mountain villages that serve as bases for Yumthang valley and Gurudongmar Lake, reached with permits and registered operators."
+          ],
+          "links": [
+            {
+              "label": "Lachung guide",
+              "href": "/blog/lachung-travel-guide"
+            },
+            {
+              "label": "Lachen guide",
+              "href": "/blog/lachen-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "permits",
+      "heading": "Permits",
+      "list": [
+        "Indian nationals: Protected Area Permits for Tsomgo, Nathu La and North Sikkim, usually arranged through registered operators.",
+        "Nathu La is open to Indian nationals only, on set days, subject to weather.",
+        "Foreign nationals: a Restricted Area Permit to enter Sikkim, and Protected Area Permits for places such as Tsomgo and parts of North Sikkim; Nathu La is not open to foreigners."
+      ]
+    },
+    {
+      "id": "getting-there",
+      "heading": "Getting there",
+      "paras": [
+        "Bagdogra airport and New Jalpaiguri railway station, both near Siliguri in West Bengal, are the main gateways; Gangtok is about four to five hours by road. Pakyong airport near Gangtok has limited, weather-dependent flights. Shared and private taxis connect the towns."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "Gangtok has the widest choice, from hotels on MG Marg to quieter stays in the upper town. Pelling's hotels face Kanchenjunga; ask for a mountain-facing room. In the north, stays in Lachung and Lachen are simpler and usually arranged as part of a permit package. Homestays in villages such as Yuksom and around Ravangla are good for slower trips."
+      ]
+    },
+    {
+      "id": "combos",
+      "heading": "Good combinations",
+      "list": [
+        "Gangtok with Tsomgo and a night in Lachung (five to six days).",
+        "Gangtok, Ravangla and Pelling as a loop through South and West Sikkim.",
+        "Darjeeling with Gangtok and Pelling in about a week."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "March to May: rhododendrons, and Yumthang's spring flowers.",
+        "June to September: monsoon rain and landslides; North Sikkim can be cut off.",
+        "October to December: the clearest views of Kanchenjunga.",
+        "January to February: cold, with snow at Tsomgo, Nathu La and in the north."
+      ]
+    }
+  ],
+  "safety": [
+    "Carry permits and ID; arrange North Sikkim trips through registered operators.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road and weather updates, and avoid driving after dark.",
+    "Permits, e-passes, ropeways and pass openings change; check official portals before you travel.",
+    "Carry warm layers even in summer; nights in the hills are cool."
+  ],
+  "packing": [
+    "Warm layers and a waterproof jacket",
+    "Walking shoes with grip",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best hill station in Sikkim?",
+      "a": "Gangtok for convenience, Pelling for Kanchenjunga views, and Lachung for the high valleys."
+    },
+    {
+      "q": "Do I need a permit to visit Sikkim?",
+      "a": "Indian nationals need permits only for protected areas such as Tsomgo, Nathu La and North Sikkim; foreigners need a Restricted Area Permit to enter."
+    },
+    {
+      "q": "Can foreigners visit Nathu La?",
+      "a": "No, Nathu La is open to Indian nationals only."
+    },
+    {
+      "q": "When can I see snow in Sikkim?",
+      "a": "From about December to March at Tsomgo, Nathu La and in North Sikkim, depending on the year."
+    },
+    {
+      "q": "How many days do I need?",
+      "a": "Five to seven days covers Gangtok, Pelling and one trip north; add Darjeeling for a longer loop."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Darjeeling and Sikkim itinerary",
+      "href": "/blog/darjeeling-sikkim-itinerary"
+    },
+    {
+      "label": "Adventure activities in Sikkim",
+      "href": "/blog/adventure-activities-in-sikkim"
+    },
+    {
+      "label": "Buddhist tourism in India",
+      "href": "/blog/buddhist-tourism-in-india"
+    },
+    {
+      "label": "Sikkim tour packages",
+      "href": "/packages/sikkim"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hill stations in Northeast India",
+      "href": "/blog/hill-stations-in-northeast-india",
+      "note": "the eastern hills"
+    },
+    {
+      "name": "Hill stations in West Bengal",
+      "href": "/blog/hill-stations-in-west-bengal",
+      "note": "Darjeeling and Kalimpong"
+    },
+    {
+      "name": "Places to see snow in India",
+      "href": "/blog/places-to-see-snow-in-india",
+      "note": "winter in Sikkim"
+    }
+  ],
+  "places": [
+    "Gangtok",
+    "Tsomgo",
+    "Nathu La",
+    "Pelling",
+    "Yuksom",
+    "Ravangla",
+    "Namchi",
+    "Temi",
+    "Lachung",
+    "Yumthang",
+    "Lachen"
+  ],
+  "styles": [
+    "hill-station-holidays",
+    "family-holidays"
+  ],
+  "planDestination": "Sikkim",
+  "updated": "2026-09-26"
+}

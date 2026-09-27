@@ -1,0 +1,412 @@
+{
+  "slug": "hill-stations-in-karnataka",
+  "kind": "state",
+  "short": "Hill stations in Karnataka",
+  "title": "Hill Stations in Karnataka: Coorg, Chikmagalur and More",
+  "seoTitle": "Hill Stations in Karnataka: Coorg, Chikmagalur and More | Kudozz Club",
+  "metaDescription": "Karnataka's hill stations compared: Coorg, Chikmagalur, Kemmangundi, Sakleshpur, Kudremukh, Agumbe and Nandi Hills, with coffee estates, treks, seasons and routes.",
+  "description": "A guide to the hill stations and hill country of Karnataka: Coorg (Kodagu) and Madikeri, Chikmagalur with Mullayanagiri and Kemmangundi, Sakleshpur, Kudremukh and Agumbe in the Western Ghats, and Nandi Hills and BR Hills closer to Bengaluru and Mysuru, with coffee estates, treks, seasons, the monsoon and how to combine them.",
+  "dek": "Karnataka's hills are coffee country: misty estates, homestays, waterfalls and some of the Western Ghats' best short treks.",
+  "primaryKeyword": "hill stations in Karnataka",
+  "secondaryKeywords": [
+    "best hill stations in Karnataka",
+    "Karnataka hill stations list"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "hill stations",
+    "walks",
+    "viewpoints",
+    "sightseeing"
+  ],
+  "terrain": [
+    "hills",
+    "mountains"
+  ],
+  "regions": [
+    "Karnataka"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring",
+    "monsoon"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tags": [
+    "Karnataka",
+    "Coorg",
+    "Chikmagalur",
+    "Coffee",
+    "Hill Stations"
+  ],
+  "hero": {
+    "src": "/images/hills/karnataka-hill-stations-chikmagalur.webp",
+    "alt": "Grassland hills near Kemmangundi, Chikkamagaluru district, Karnataka"
+  },
+  "parent": {
+    "label": "Hill Stations in South India",
+    "href": "/blog/hill-stations-in-south-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Hill stations of Karnataka",
+    "containedIn": "Karnataka"
+  },
+  "intro": [
+    "Karnataka's hill country lies in the Western Ghats, and it is best known for coffee. Coorg (Kodagu) and Chikmagalur are the main destinations, with estate homestays, waterfalls and viewpoints. Sakleshpur, Kudremukh and Agumbe offer rainforest, grasslands and quieter stays, while Nandi Hills near Bengaluru and the BR Hills near Mysuru make short trips.",
+    "Rather than a single hill town, most of these are districts of estates and villages, so where you stay shapes the trip."
+  ],
+  "quickAnswer": "Karnataka's main hill destinations are Coorg (Madikeri and its coffee estates), Chikmagalur with Mullayanagiri, Baba Budangiri and Kemmangundi, Sakleshpur, Kudremukh and Agumbe; Nandi Hills makes a sunrise trip from Bengaluru. October to March is the most comfortable period; the monsoon (June to September) is very wet but green. Coorg and Chikmagalur are about five to six hours from Bengaluru by road.",
+  "takeaways": [
+    "Coorg and Chikmagalur are coffee country; stay on an estate for the full experience.",
+    "Mullayanagiri near Chikmagalur is Karnataka's highest peak.",
+    "Nandi Hills is a popular sunrise drive from Bengaluru.",
+    "The monsoon is heavy in Coorg, Agumbe and Sakleshpur; roads and treks can be affected.",
+    "Coorg combines easily with Mysuru, Nagarhole and Wayanad."
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "heading": "At a glance",
+      "table": {
+        "columns": [
+          "Place",
+          "District",
+          "Known for",
+          "From Bengaluru"
+        ],
+        "rows": [
+          [
+            "Coorg (Madikeri)",
+            "Kodagu",
+            "Coffee estates, Raja's Seat, Abbey Falls",
+            "About 5 to 6 hours"
+          ],
+          [
+            "Chikmagalur",
+            "Chikkamagaluru",
+            "Coffee, Mullayanagiri, Baba Budangiri",
+            "About 5 hours"
+          ],
+          [
+            "Kemmangundi",
+            "Chikkamagaluru",
+            "Hill resort, Hebbe Falls",
+            "About 5.5 hours"
+          ],
+          [
+            "Sakleshpur",
+            "Hassan",
+            "Estates, Manjarabad Fort",
+            "About 4 hours"
+          ],
+          [
+            "Kudremukh",
+            "Chikkamagaluru",
+            "Grassland treks, national park",
+            "About 6.5 hours"
+          ],
+          [
+            "Agumbe",
+            "Shivamogga",
+            "Rainforest, sunset point",
+            "About 7 hours"
+          ],
+          [
+            "Nandi Hills",
+            "Chikkaballapur",
+            "Sunrise viewpoint",
+            "About 1.5 hours"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "coorg",
+      "heading": "Coorg",
+      "items": [
+        {
+          "name": "Coorg",
+          "body": [
+            "Madikeri's Raja's Seat and fort, Abbey Falls, Dubare elephant camp, Talakaveri, the Namdroling monastery at Bylakuppe, and estate homestays."
+          ],
+          "links": [
+            {
+              "label": "Coorg guide",
+              "href": "/blog/coorg-travel-guide"
+            },
+            {
+              "label": "Things to do in Coorg",
+              "href": "/blog/things-to-do-in-coorg"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/coorg/rajas-seat-viewpoint-madikeri.webp",
+            "alt": "Raja's Seat viewpoint, Madikeri",
+            "caption": "Raja's Seat, Madikeri"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chikmagalur",
+      "heading": "Chikmagalur and the Western Ghats",
+      "items": [
+        {
+          "name": "Chikmagalur and Kemmangundi",
+          "body": [
+            "Mullayanagiri and Baba Budangiri, Hebbe Falls at Kemmangundi and coffee estates."
+          ],
+          "links": [
+            {
+              "label": "Chikmagalur guide",
+              "href": "/blog/chikmagalur-travel-guide"
+            },
+            {
+              "label": "Things to do in Chikmagalur",
+              "href": "/blog/things-to-do-in-chikmagalur"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/chikmagalur/mullayanagiri-chikmagalur.webp",
+            "alt": "The road up to Mullayanagiri, Chikmagalur",
+            "caption": "Mullayanagiri"
+          }
+        },
+        {
+          "name": "Sakleshpur, Kudremukh and Agumbe",
+          "body": [
+            "Estates and the Bisle ghat around Sakleshpur, grassland treks in Kudremukh and the rainforest around Agumbe."
+          ],
+          "links": [
+            {
+              "label": "Sakleshpur guide",
+              "href": "/blog/sakleshpur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "near-bengaluru",
+      "heading": "Near Bengaluru and Mysuru",
+      "items": [
+        {
+          "name": "Nandi Hills and BR Hills",
+          "body": [
+            "Nandi Hills for sunrise, about 60 km from Bengaluru, and the forests of the Biligiri Rangaswamy hills near Mysuru."
+          ],
+          "links": [
+            {
+              "label": "Nandi Hills guide",
+              "href": "/blog/nandi-hills-travel-guide"
+            },
+            {
+              "label": "Hill stations near Bengaluru",
+              "href": "/blog/hill-stations-near-bengaluru"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "heading": "Coffee country",
+      "paras": [
+        "Local tradition credits the Sufi saint Baba Budan with bringing coffee seeds to the hills near Chikmagalur in the 17th century, and the range there still carries his name. Today Coorg and Chikmagalur produce much of India's coffee, and many estates welcome guests for plantation walks, especially around the blossom (February to March) and harvest (roughly November to February) seasons."
+      ],
+      "items": [
+        {
+          "name": "Coffee tourism",
+          "body": [
+            "More on estates."
+          ],
+          "links": [
+            {
+              "label": "Coffee plantation tourism",
+              "href": "/blog/coffee-plantation-tourism-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "Estate homestays are the signature stay in Coorg, Chikmagalur and Sakleshpur, often with home-cooked Kodava or Malnad food. Madikeri and Chikmagalur towns have hotels for shorter trips. Book ahead for long weekends, when Bengaluru visitors fill the hills."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A little history",
+      "paras": [
+        "Kodagu was a separate kingdom under the Haleri rulers until 1834, and later a small state that merged into Mysore State in 1956; the Kodava community's customs, food and dress remain distinctive. Coffee spread through the region under British planters in the 19th century. The Tibetan settlement at Bylakuppe, near Kushalnagar, dates from the 1960s and is home to the Namdroling monastery, often called the Golden Temple."
+      ]
+    },
+    {
+      "id": "combos",
+      "heading": "Good combinations",
+      "list": [
+        "Coorg with Mysuru and Nagarhole (five to six days).",
+        "Chikmagalur with Belur and Halebidu's Hoysala temples.",
+        "Sakleshpur with Chikmagalur on a coffee-country loop.",
+        "Coorg with Wayanad across the Kerala border."
+      ],
+      "items": [
+        {
+          "name": "Hoysala temples",
+          "body": [
+            "Near Chikmagalur."
+          ],
+          "links": [
+            {
+              "label": "Belur and Halebidu",
+              "href": "/blog/belur-halebidu-hoysala-temples"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treks",
+      "heading": "Treks",
+      "list": [
+        "Mullayanagiri and Baba Budangiri near Chikmagalur.",
+        "Kudremukh's grassland trail (permits from the forest department).",
+        "Tadiandamol, Coorg's highest peak.",
+        "Kumara Parvatha near Kukke Subramanya, a challenging overnight trek."
+      ],
+      "items": [
+        {
+          "name": "Trekking",
+          "body": [
+            "More treks."
+          ],
+          "links": [
+            {
+              "label": "Trekking in India",
+              "href": "/blog/trekking-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "October to March: pleasant and dry; the best time for treks and viewpoints.",
+        "April to May: warmer, but still cooler than the plains.",
+        "June to September: heavy monsoon rain; waterfalls in full flow, leeches on trails, and some treks closed."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road and weather updates, and avoid driving after dark.",
+    "Permits, e-passes, ropeways and pass openings change; check official portals before you travel.",
+    "Carry warm layers even in summer; nights in the hills are cool."
+  ],
+  "packing": [
+    "Warm layers and a waterproof jacket",
+    "Walking shoes with grip",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best hill station in Karnataka?",
+      "a": "Coorg and Chikmagalur are the most popular; Sakleshpur and Kemmangundi are quieter."
+    },
+    {
+      "q": "Which is the highest peak in Karnataka?",
+      "a": "Mullayanagiri, near Chikmagalur."
+    },
+    {
+      "q": "Coorg or Chikmagalur: which is better?",
+      "a": "Coorg has more sights and a distinct Kodava culture; Chikmagalur has higher peaks and treks."
+    },
+    {
+      "q": "Is Coorg good in the monsoon?",
+      "a": "It is green and dramatic, but very wet; some roads and treks are affected."
+    },
+    {
+      "q": "How far is Coorg from Bengaluru?",
+      "a": "About 250 to 270 km, roughly five to six hours by road."
+    },
+    {
+      "q": "What food should I try in Coorg?",
+      "a": "Kodava dishes such as pandi curry (pork) with kadambuttu rice dumplings, and fresh estate coffee."
+    },
+    {
+      "q": "Are estate homestays suitable for families?",
+      "a": "Yes, most welcome families; ask about road access, stairs and meal timings when you book."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Hill stations near Bengaluru",
+      "href": "/blog/hill-stations-near-bengaluru"
+    },
+    {
+      "label": "Coffee plantation tourism",
+      "href": "/blog/coffee-plantation-tourism-in-india"
+    },
+    {
+      "label": "Wildlife tourism in Karnataka",
+      "href": "/blog/wildlife-tourism-in-karnataka"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hill stations in South India",
+      "href": "/blog/hill-stations-in-south-india",
+      "note": "the southern hills"
+    },
+    {
+      "name": "Weekend adventure trips from Bengaluru",
+      "href": "/blog/weekend-adventure-trips-from-bengaluru",
+      "note": "treks and activities"
+    },
+    {
+      "name": "Heritage tourism in Karnataka",
+      "href": "/blog/heritage-tourism-in-karnataka",
+      "note": "Hampi and Mysuru"
+    },
+    {
+      "name": "Nature travel in Karnataka",
+      "href": "/blog/nature-travel-in-karnataka",
+      "note": "falls and forests"
+    }
+  ],
+  "places": [
+    "Coorg",
+    "Madikeri",
+    "Chikmagalur",
+    "Mullayanagiri",
+    "Kemmangundi",
+    "Sakleshpur",
+    "Kudremukh",
+    "Agumbe",
+    "Nandi Hills"
+  ],
+  "styles": [
+    "hill-station-holidays",
+    "family-holidays"
+  ],
+  "planDestination": "Karnataka",
+  "updated": "2026-09-26"
+}

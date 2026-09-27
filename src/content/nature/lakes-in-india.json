@@ -1,0 +1,446 @@
+{
+  "slug": "lakes-in-india",
+  "kind": "pillar",
+  "short": "Lakes in India",
+  "title": "Lakes in India: High-Altitude Lakes, Lagoons and Wetlands",
+  "seoTitle": "Lakes in India: High Lakes, Lagoons and Wetlands | Kudozz Club",
+  "metaDescription": "India's best lakes by type: Pangong and Tso Moriri, Gurudongmar and Tsomgo, Dal and Loktak, Umiam, Chilika lagoon, Vembanad and Ramsar wetlands, with seasons.",
+  "description": "A guide to the best lakes in India by type: high-altitude lakes in Ladakh, Sikkim and Himachal (Pangong, Tso Moriri, Chandratal, Gurudongmar, Tsomgo, Prashar), valley and hill lakes (Dal, Loktak, Umiam, Naini, Khecheopalri), coastal lagoons and backwaters (Chilika, Vembanad), and wetlands recognised under the Ramsar Convention, with seasons, permits and responsible travel.",
+  "dek": "From glacial lakes at over 4,000 m to coastal lagoons full of migratory birds, India's lakes are some of its most beautiful places.",
+  "primaryKeyword": "lakes in India",
+  "secondaryKeywords": [
+    "best lakes in India",
+    "natural lakes in India",
+    "wetlands of India"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "lakes",
+    "boat rides",
+    "birdwatching",
+    "photography"
+  ],
+  "terrain": [
+    "lakes",
+    "high altitude",
+    "wetlands"
+  ],
+  "regions": [
+    "Ladakh",
+    "Sikkim",
+    "Himachal Pradesh",
+    "Jammu and Kashmir",
+    "Manipur",
+    "Meghalaya",
+    "Odisha",
+    "Kerala"
+  ],
+  "seasons": [
+    "summer",
+    "winter",
+    "autumn"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "photographers"
+  ],
+  "tags": [
+    "Lakes",
+    "Wetlands",
+    "High Altitude",
+    "Nature"
+  ],
+  "hero": {
+    "src": "/images/nature/lakes-india-pangong-tso.webp",
+    "alt": "The shore of Pangong Tso in Ladakh"
+  },
+  "parent": {
+    "label": "Nature Travel",
+    "href": "/nature-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Lakes of India"
+  },
+  "intro": [
+    "India's lakes range from glacial high-altitude lakes in Ladakh and Sikkim to valley lakes in Kashmir and Manipur, reservoirs in the hills of Meghalaya, and coastal lagoons and backwaters in Odisha and Kerala. Many are also important wetlands; India has about a hundred sites recognised under the Ramsar Convention, a number that has grown quickly in recent years.",
+    "This guide groups lakes by type, with the best season and the permits or altitude precautions that apply."
+  ],
+  "quickAnswer": "The best lakes in India include Pangong Tso and Tso Moriri in Ladakh, Chandratal in Spiti, Gurudongmar and Tsomgo in Sikkim, Dal Lake in Srinagar, Loktak in Manipur with its floating islands, Umiam near Shillong, Chilika lagoon in Odisha and Vembanad in Kerala. High-altitude lakes are best from June to September; lagoons and wetlands from November to March, when migratory birds arrive.",
+  "takeaways": [
+    "High-altitude lakes in Ladakh and Sikkim need permits and acclimatisation.",
+    "Chilika is India's largest coastal lagoon and a winter bird haven.",
+    "Loktak is known for its floating phumdis and Keibul Lamjao National Park.",
+    "India has about a hundred Ramsar wetlands, many of them lakes.",
+    "Swimming and boating rules vary; many sacred and high lakes forbid both."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Lakes at a glance",
+      "table": {
+        "columns": [
+          "Lake",
+          "State or UT",
+          "Type",
+          "Best time"
+        ],
+        "rows": [
+          [
+            "Pangong Tso",
+            "Ladakh",
+            "High-altitude, saline",
+            "June to September"
+          ],
+          [
+            "Tso Moriri",
+            "Ladakh",
+            "High-altitude, protected wetland",
+            "June to September"
+          ],
+          [
+            "Chandratal",
+            "Himachal (Spiti)",
+            "High-altitude",
+            "June to September"
+          ],
+          [
+            "Gurudongmar",
+            "Sikkim",
+            "High-altitude, sacred",
+            "April to June, October to November"
+          ],
+          [
+            "Tsomgo",
+            "Sikkim",
+            "Glacial lake near Nathu La",
+            "March to May, October to December"
+          ],
+          [
+            "Prashar",
+            "Himachal",
+            "Hill lake with a floating island",
+            "April to June, September to November"
+          ],
+          [
+            "Dal and Nigeen",
+            "Jammu and Kashmir",
+            "Valley lakes with houseboats",
+            "April to October"
+          ],
+          [
+            "Loktak",
+            "Manipur",
+            "Freshwater lake with phumdis",
+            "October to March"
+          ],
+          [
+            "Umiam",
+            "Meghalaya",
+            "Reservoir in pine hills",
+            "October to May"
+          ],
+          [
+            "Chilika",
+            "Odisha",
+            "Brackish coastal lagoon",
+            "November to February"
+          ],
+          [
+            "Vembanad",
+            "Kerala",
+            "Backwater lake",
+            "September to March"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "high",
+      "heading": "High-altitude lakes",
+      "items": [
+        {
+          "name": "Ladakh and Spiti",
+          "body": [
+            "Pangong's changing blues, Tso Moriri at Korzok, and Chandratal in Spiti, reached on foot from the road."
+          ],
+          "links": [
+            {
+              "label": "Pangong Lake guide",
+              "href": "/blog/pangong-lake-travel-guide"
+            },
+            {
+              "label": "Tso Moriri guide",
+              "href": "/blog/tso-moriri-travel-guide"
+            },
+            {
+              "label": "Spiti Valley guide",
+              "href": "/blog/spiti-valley-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/ladakh/pangong-lake/pangong-tso-turquoise-water-mountains.webp",
+            "alt": "Turquoise water of Pangong Tso below the mountains",
+            "caption": "Pangong Tso"
+          }
+        },
+        {
+          "name": "Sikkim",
+          "body": [
+            "Tsomgo near Nathu La, Gurudongmar in the far north, and the sacred Khecheopalri in West Sikkim."
+          ],
+          "links": [
+            {
+              "label": "Tsomgo Lake guide",
+              "href": "/blog/tsomgo-lake-travel-guide"
+            },
+            {
+              "label": "Gurudongmar Lake guide",
+              "href": "/blog/gurudongmar-lake-travel-guide"
+            },
+            {
+              "label": "Khecheopalri Lake guide",
+              "href": "/blog/khecheopalri-lake-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valley",
+      "heading": "Valley and hill lakes",
+      "items": [
+        {
+          "name": "Dal, Loktak and Umiam",
+          "body": [
+            "Srinagar's houseboat lakes, Manipur's floating islands, and Umiam's reservoir near Shillong."
+          ],
+          "links": [
+            {
+              "label": "Srinagar guide",
+              "href": "/blog/srinagar-travel-guide"
+            },
+            {
+              "label": "Loktak Lake guide",
+              "href": "/blog/loktak-lake-travel-guide"
+            },
+            {
+              "label": "Umiam Lake guide",
+              "href": "/blog/umiam-lake-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/manipur/manipur/loktak-lake-floating-islands-manipur.webp",
+            "alt": "Floating phumdis on Loktak Lake, Manipur",
+            "caption": "Loktak Lake"
+          }
+        },
+        {
+          "name": "Prashar and Tehri",
+          "body": [
+            "Prashar's small lake and temple above Mandi, and the large Tehri reservoir in Uttarakhand."
+          ],
+          "links": [
+            {
+              "label": "Prashar Lake guide",
+              "href": "/blog/prashar-lake-travel-guide"
+            },
+            {
+              "label": "Tehri Lake guide",
+              "href": "/blog/tehri-lake-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coastal",
+      "heading": "Lagoons and backwaters",
+      "items": [
+        {
+          "name": "Chilika and Vembanad",
+          "body": [
+            "Chilika's lagoon, with Irrawaddy dolphins at Satapada and birds at Nalabana in winter; Vembanad and the Kerala backwaters by houseboat."
+          ],
+          "links": [
+            {
+              "label": "Chilika Lake guide",
+              "href": "/blog/chilika-lake-travel-guide"
+            },
+            {
+              "label": "Kerala backwaters guide",
+              "href": "/blog/kerala-backwaters-travel-guide"
+            },
+            {
+              "label": "Kumarakom guide",
+              "href": "/blog/kumarakom-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/odisha/odisha/chilika-lake-tourist-boat-satapada.webp",
+            "alt": "A tourist boat on Chilika Lake at Satapada",
+            "caption": "Chilika Lake"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wetlands",
+      "heading": "Wetlands",
+      "paras": [
+        "Many of India's lakes are designated Ramsar wetlands, including Chilika, Loktak, Tso Moriri and Vembanad. They matter for water, fisheries and migratory birds, and are at their busiest with birds from about November to February. For birding destinations, see our birdwatching guide."
+      ],
+      "items": [
+        {
+          "name": "Birdwatching",
+          "body": [
+            "Wetland birds."
+          ],
+          "links": [
+            {
+              "label": "Birdwatching in India",
+              "href": "/blog/birdwatching-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "responsible",
+      "heading": "Visiting lakes responsibly",
+      "list": [
+        "Do not swim in sacred lakes such as Gurudongmar and Khecheopalri, or in high lakes, where the water is dangerously cold.",
+        "Do not throw coins or offerings into lakes unless it is the local custom.",
+        "Avoid plastic entirely at high-altitude lakes; there is no waste collection.",
+        "Keep boats and noise away from bird roosts."
+      ]
+    },
+    {
+      "id": "combos",
+      "heading": "Combining lakes with other places",
+      "list": [
+        "Pangong and Tso Moriri with Leh and Nubra on a Ladakh loop.",
+        "Tsomgo with Gangtok; Gurudongmar with Lachen.",
+        "Loktak with Imphal's markets and the Keibul Lamjao park.",
+        "Chilika with Puri and Konark.",
+        "Vembanad with Munnar and Thekkady."
+      ]
+    },
+    {
+      "id": "photography",
+      "heading": "Photographing lakes",
+      "paras": [
+        "High lakes change colour with light and cloud; early morning is usually calmest for reflections, and midday brings the brightest blues at Pangong. On lagoons such as Chilika, a winter boat trip at dawn gives soft light and active birds."
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "When to go",
+      "list": [
+        "June to September: high lakes in Ladakh and Spiti are accessible.",
+        "October to November: clear skies over Sikkim's lakes, and valley lakes at their calmest.",
+        "November to February: lagoons and wetlands full of migratory birds; high lakes freeze."
+      ]
+    }
+  ],
+  "safety": [
+    "High lakes and valleys in Ladakh, Spiti and North Sikkim are at altitude; acclimatise and descend if symptoms worsen.",
+    "Permits, entry rules and seasonal closures change; check the forest department or official site before you go.",
+    "Carry your waste back, avoid loud music, and never feed wildlife."
+  ],
+  "packing": [
+    "Warm layers for high lakes",
+    "Sunglasses and sunscreen",
+    "Binoculars for wetland birds",
+    "Reusable bottle"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the most beautiful lake in India?",
+      "a": "Pangong Tso, Tso Moriri, Gurudongmar and Dal Lake are often named; it depends on taste."
+    },
+    {
+      "q": "What is special about Loktak Lake?",
+      "a": "Its floating islands (phumdis), including Keibul Lamjao National Park."
+    },
+    {
+      "q": "When is the best time to visit Pangong?",
+      "a": "From about June to September, when the roads are open; it freezes in winter."
+    },
+    {
+      "q": "Do I need a permit for Pangong or Tsomgo?",
+      "a": "Yes, both are in protected areas that require permits."
+    },
+    {
+      "q": "How many Ramsar sites does India have?",
+      "a": "About a hundred as of 2026; the number has grown quickly in recent years."
+    },
+    {
+      "q": "Can I stay near Pangong Lake?",
+      "a": "Yes, in camps and guesthouses at Spangmik and nearby villages, which operate in the summer season."
+    },
+    {
+      "q": "Which lakes are good for birdwatching?",
+      "a": "Chilika, Loktak, Vembanad and many smaller Ramsar wetlands, mostly from November to February."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Himalayan nature travel",
+      "href": "/blog/himalayan-nature-travel"
+    },
+    {
+      "label": "Birdwatching in India",
+      "href": "/blog/birdwatching-in-india"
+    },
+    {
+      "label": "Nature travel in Odisha",
+      "href": "/blog/nature-travel-in-odisha"
+    },
+    {
+      "label": "Nature holidays",
+      "href": "/packages/nature-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Riverside destinations",
+      "href": "/blog/riverside-destinations-in-india",
+      "note": "rivers and backwaters"
+    },
+    {
+      "name": "Nature photography in India",
+      "href": "/blog/nature-photography-in-india",
+      "note": "photographing lakes"
+    },
+    {
+      "name": "Kashmir itinerary",
+      "href": "/blog/kashmir-itinerary",
+      "note": "Dal Lake and beyond"
+    }
+  ],
+  "places": [
+    "Pangong Tso",
+    "Tso Moriri",
+    "Chandratal",
+    "Gurudongmar",
+    "Tsomgo",
+    "Khecheopalri",
+    "Prashar",
+    "Dal Lake",
+    "Loktak",
+    "Umiam",
+    "Chilika",
+    "Vembanad"
+  ],
+  "styles": [
+    "nature-holidays"
+  ],
+  "planDestination": "a lake trip",
+  "updated": "2026-09-26"
+}

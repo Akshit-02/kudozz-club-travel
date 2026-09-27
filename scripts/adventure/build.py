@@ -19,7 +19,7 @@ import json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CLUSTER = sys.argv[sys.argv.index("--cluster") + 1] if "--cluster" in sys.argv else "adventure"
-HUBS = {"adventure": "/adventure-travel", "beach": "/beach-travel", "wildlife": "/wildlife-tourism", "spiritual": "/spiritual-tourism", "heritage": "/heritage-cultural-tourism", "hills": "/hill-station-travel"}
+HUBS = {"adventure": "/adventure-travel", "beach": "/beach-travel", "wildlife": "/wildlife-tourism", "spiritual": "/spiritual-tourism", "heritage": "/heritage-cultural-tourism", "hills": "/hill-station-travel", "nature": "/nature-travel"}
 HERE = os.path.join(ROOT, "scripts", CLUSTER)
 CONTENT = os.path.join(ROOT, "src/content", CLUSTER)
 HUB = HUBS[CLUSTER]
@@ -51,9 +51,12 @@ if CLUSTER in ("beach", "wildlife"):
     # Beach pillars are comparison/listing pages that hand off to the state
     # pages; usefulness over length (see docs/beach-travel-final-report.md).
     FLOOR = {"pillar": 800, "activity": 750, "planning": 750, "state": 750, "destination": 900}
-if CLUSTER == "hills":
+if CLUSTER == "nature":
+    # Nature pages hand off to the existing destination guides (waterfalls, lakes, valleys, caves).
+    FLOOR = {"pillar": 800, "activity": 750, "planning": 750, "state": 800, "destination": 750, "weekend": 750}
+elif CLUSTER == "hills":
     # Hill-station pages hand off to the existing destination guides and things-to-do articles.
-    FLOOR = {"pillar": 850, "activity": 750, "planning": 750, "state": 800, "destination": 750, "weekend": 750}
+    FLOOR = {"pillar": 800, "activity": 750, "planning": 750, "state": 800, "destination": 750, "weekend": 750}
 elif CLUSTER == "heritage":
     # Monument pages hand off to the existing city guides.
     FLOOR = {"pillar": 800, "activity": 750, "planning": 750, "state": 750, "destination": 750, "weekend": 750}
@@ -202,7 +205,7 @@ index.sort(key=lambda e: order.index(e["slug"]) if e["slug"] in order else 999)
 json.dump(index, open(os.path.join(ROOT, f"src/lib/{CLUSTER}-index.json"), "w"), ensure_ascii=False, indent=1)
 # Guide pointers (beach cluster): scripts/beach/guide-links.json → src/lib/beach-guide-links.json
 gl = os.path.join(HERE, "guide-links.json")
-if CLUSTER in ("beach", "wildlife", "spiritual", "heritage", "hills") and os.path.exists(gl):
+if CLUSTER in ("beach", "wildlife", "spiritual", "heritage", "hills", "nature") and os.path.exists(gl):
     links = json.load(open(gl))
     for g, v in links.items():
         if g not in guides:

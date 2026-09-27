@@ -1,0 +1,451 @@
+{
+  "slug": "riverside-destinations-in-india",
+  "kind": "pillar",
+  "short": "Riverside destinations in India",
+  "title": "Riverside Destinations in India: River Valleys, Islands and Backwaters",
+  "seoTitle": "Riverside Destinations in India: Valleys and Islands | Kudozz Club",
+  "metaDescription": "India's riverside destinations: Himalayan river valleys, Majuli on the Brahmaputra, the Kerala backwaters, Dawki's Umngot, Hampi on the Tungabhadra and more.",
+  "description": "A guide to riverside nature destinations in India: Himalayan river valleys such as the Beas at Tirthan and Kasol, the Bhagirathi and Alaknanda, and the Teesta; the Brahmaputra and Majuli river island; Dawki's clear Umngot; the Kaveri at Hogenakkal and Coorg; Hampi on the Tungabhadra; the Narmada at Bhedaghat; and the Kerala backwaters, with river stays, seasons and water safety.",
+  "dek": "Rivers shape India's most loved landscapes. These are the riverside places where the water itself is the reason to go.",
+  "primaryKeyword": "riverside destinations in India",
+  "secondaryKeywords": [
+    "river tourism India",
+    "riverside getaways",
+    "river valley tourism"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "river walks",
+    "boat rides",
+    "riverside stays",
+    "photography"
+  ],
+  "terrain": [
+    "rivers",
+    "valleys",
+    "islands"
+  ],
+  "regions": [
+    "Himachal Pradesh",
+    "Uttarakhand",
+    "Sikkim",
+    "Assam",
+    "Meghalaya",
+    "Karnataka",
+    "Madhya Pradesh",
+    "Kerala"
+  ],
+  "seasons": [
+    "autumn",
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "friends"
+  ],
+  "tags": [
+    "Rivers",
+    "Riverside",
+    "Majuli",
+    "Backwaters",
+    "Nature"
+  ],
+  "hero": {
+    "src": "/images/nature/riverside-destinations-majuli-brahmaputra.webp",
+    "alt": "A ferry on the Brahmaputra at Majuli, Assam"
+  },
+  "parent": {
+    "label": "Nature Travel",
+    "href": "/nature-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Riverside destinations in India"
+  },
+  "intro": [
+    "Many of India's best nature trips follow a river: a Himalayan stream through deodar forest, the broad Brahmaputra around Majuli, the gorges of the Narmada and Kaveri, or Kerala's network of backwaters. Riverside stays, walks and slow boat journeys are some of the most relaxing ways to see these landscapes.",
+    "This guide covers riverside places for nature and slow travel. For white-water rafting, see our Adventure guide."
+  ],
+  "quickAnswer": "Good riverside nature destinations in India include Himalayan valleys such as Tirthan and Jibhi on the Tirthan, Kasol on the Parvati and the Bhagirathi valley around Harsil; the Teesta in Sikkim; Majuli island on the Brahmaputra; Dawki on the clear Umngot in Meghalaya; Hogenakkal on the Kaveri; Hampi on the Tungabhadra; Bhedaghat on the Narmada; and the Kerala backwaters. October to March is the best time for most; rivers are high and dangerous in the monsoon.",
+  "takeaways": [
+    "Himalayan river valleys are best from March to June and September to November, outside the monsoon.",
+    "Majuli is reached by ferry across the Brahmaputra from Jorhat.",
+    "Dawki's Umngot is clearest from about November to April.",
+    "The Kerala backwaters are best explored on a houseboat or country boat.",
+    "Rivers are dangerous in the monsoon; never swim in fast water."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Riverside places at a glance",
+      "table": {
+        "columns": [
+          "Place",
+          "River",
+          "State",
+          "Best time"
+        ],
+        "rows": [
+          [
+            "Tirthan and Jibhi",
+            "Tirthan",
+            "Himachal Pradesh",
+            "March to June, September to November"
+          ],
+          [
+            "Kasol",
+            "Parvati",
+            "Himachal Pradesh",
+            "March to June, September to November"
+          ],
+          [
+            "Rishikesh",
+            "Ganga",
+            "Uttarakhand",
+            "September to April"
+          ],
+          [
+            "Majuli",
+            "Brahmaputra",
+            "Assam",
+            "October to March"
+          ],
+          [
+            "Dawki",
+            "Umngot",
+            "Meghalaya",
+            "November to April"
+          ],
+          [
+            "Hogenakkal",
+            "Kaveri",
+            "Tamil Nadu and Karnataka",
+            "August to February"
+          ],
+          [
+            "Hampi",
+            "Tungabhadra",
+            "Karnataka",
+            "October to February"
+          ],
+          [
+            "Bhedaghat",
+            "Narmada",
+            "Madhya Pradesh",
+            "October to May"
+          ],
+          [
+            "Kerala backwaters",
+            "Vembanad and canals",
+            "Kerala",
+            "September to March"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "himalaya",
+      "heading": "Himalayan river valleys",
+      "items": [
+        {
+          "name": "Tirthan, Parvati and the Ganga",
+          "body": [
+            "Riverside stays and trout streams in Tirthan, the Parvati valley's villages, and the Ganga at Rishikesh."
+          ],
+          "links": [
+            {
+              "label": "Tirthan Valley guide",
+              "href": "/blog/tirthan-valley-travel-guide"
+            },
+            {
+              "label": "Kasol guide",
+              "href": "/blog/kasol-kheerganga-trek-travel-guide"
+            },
+            {
+              "label": "Things to do in Rishikesh",
+              "href": "/blog/things-to-do-in-rishikesh"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/doodhpathri/shaliganga-stream-boulders-pine-forest.webp",
+            "alt": "A mountain stream among boulders and pine forest",
+            "caption": "A Himalayan stream"
+          }
+        }
+      ]
+    },
+    {
+      "id": "northeast",
+      "heading": "The Northeast",
+      "items": [
+        {
+          "name": "Majuli and Dawki",
+          "body": [
+            "A river island of Vaishnavite satras and wetlands on the Brahmaputra, and the glass-clear Umngot at Dawki."
+          ],
+          "links": [
+            {
+              "label": "Majuli guide",
+              "href": "/blog/majuli-travel-guide"
+            },
+            {
+              "label": "Dawki guide",
+              "href": "/blog/dawki-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/meghalaya/meghalaya/dawki-and-the-umngot-river-meghalaya.webp",
+            "alt": "Boats on the clear Umngot river at Dawki",
+            "caption": "Umngot river, Dawki"
+          }
+        }
+      ]
+    },
+    {
+      "id": "south-central",
+      "heading": "South and central India",
+      "items": [
+        {
+          "name": "Kaveri, Tungabhadra and Narmada",
+          "body": [
+            "Coracles at Hogenakkal, boulder landscapes along the Tungabhadra at Hampi, and the marble gorge at Bhedaghat."
+          ],
+          "links": [
+            {
+              "label": "Hogenakkal guide",
+              "href": "/blog/hogenakkal-travel-guide"
+            },
+            {
+              "label": "Hampi guide",
+              "href": "/blog/hampi-travel-guide"
+            },
+            {
+              "label": "Jabalpur guide",
+              "href": "/blog/jabalpur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backwaters",
+      "heading": "Kerala's backwaters",
+      "items": [
+        {
+          "name": "Vembanad and the canals",
+          "body": [
+            "Houseboats on Vembanad, country boats through village canals around Munroe Island, and birds at Kumarakom."
+          ],
+          "links": [
+            {
+              "label": "Kerala backwaters guide",
+              "href": "/blog/kerala-backwaters-travel-guide"
+            },
+            {
+              "label": "Munroe Island guide",
+              "href": "/blog/munroe-island-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/kerala/kerala/munroe-island-village-canal.webp",
+            "alt": "A village canal on Munroe Island, Kerala",
+            "caption": "Munroe Island"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Riverside stays",
+      "paras": [
+        "River valleys have some of India's most appealing stays: riverside homestays in Tirthan, bamboo cottages on Majuli, and heritage homes along Kerala's canals. Choose places set back from the riverbank in the monsoon, and ask about flood history."
+      ]
+    },
+    {
+      "id": "water-safety",
+      "heading": "Water safety",
+      "list": [
+        "Never swim in fast-flowing rivers, especially in the monsoon.",
+        "Use licensed boats and wear life jackets.",
+        "Respect local warnings about sudden water releases from dams.",
+        "Keep children well back from riverbanks."
+      ],
+      "items": [
+        {
+          "name": "Rafting",
+          "body": [
+            "White-water trips are in our Adventure guides."
+          ],
+          "links": [
+            {
+              "label": "River rafting in India",
+              "href": "/blog/river-rafting-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "slow-boats",
+      "heading": "Slow boat journeys",
+      "list": [
+        "A houseboat or country boat on Kerala's backwaters.",
+        "The ferry to Majuli across the Brahmaputra.",
+        "A boat on the Umngot at Dawki in winter.",
+        "Coracles at Hogenakkal, when permitted.",
+        "A boat through the Narmada's marble gorge at Bhedaghat."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "Rivers and culture",
+      "paras": [
+        "India's rivers are also sacred and cultural landscapes. Majuli's satras are centres of Assamese Vaishnavism, the Ganga at Rishikesh draws pilgrims and yoga students, Hampi's ruins line the Tungabhadra, and the Narmada is revered along its length. Respect bathing ghats and rituals, and ask before photographing people at worship."
+      ],
+      "items": [
+        {
+          "name": "Spiritual",
+          "body": [
+            "Sacred rivers."
+          ],
+          "links": [
+            {
+              "label": "Spiritual tourism in India",
+              "href": "/spiritual-tourism"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "When to go",
+      "list": [
+        "October to March: the best time for most riverside places, with safer water levels.",
+        "March to June: pleasant in Himalayan valleys before the monsoon.",
+        "June to September: rivers are high and fast; avoid riverside camping and swimming, and expect road disruptions in the hills."
+      ]
+    },
+    {
+      "id": "wildlife",
+      "heading": "Wildlife along rivers",
+      "paras": [
+        "Rivers are often the best places for wildlife and birds: river dolphins at Chilika's mouth and in parts of the Brahmaputra, otters and kingfishers along Himalayan streams, and hornbills and herons along the Western Ghats rivers. Sightings are never guaranteed."
+      ],
+      "items": [
+        {
+          "name": "Wildlife",
+          "body": [
+            "More on wildlife."
+          ],
+          "links": [
+            {
+              "label": "Where to see wildlife in India",
+              "href": "/blog/where-to-see-wildlife-in-india"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety": [
+    "Rivers can rise suddenly after rain or dam releases; stay back from the water's edge.",
+    "Permits, entry rules and seasonal closures change; check the forest department or official site before you go.",
+    "Carry your waste back, avoid loud music, and never feed wildlife."
+  ],
+  "packing": [
+    "Quick-dry clothing",
+    "Sandals with grip",
+    "Insect repellent",
+    "Dry bag"
+  ],
+  "faqs": [
+    {
+      "q": "What are the best riverside destinations in India?",
+      "a": "Tirthan, Kasol, Rishikesh, Majuli, Dawki, Hampi, Bhedaghat and the Kerala backwaters are among the best."
+    },
+    {
+      "q": "How do I reach Majuli?",
+      "a": "By ferry across the Brahmaputra from Nimati Ghat near Jorhat."
+    },
+    {
+      "q": "When is the Umngot river clearest?",
+      "a": "Roughly from November to April, outside the monsoon."
+    },
+    {
+      "q": "Is it safe to swim in Himalayan rivers?",
+      "a": "Generally no; the water is cold and fast, especially in the monsoon."
+    },
+    {
+      "q": "What is the best way to see the Kerala backwaters?",
+      "a": "On a houseboat on Vembanad, or a country boat through smaller canals."
+    },
+    {
+      "q": "Which riverside place is best for a quiet break?",
+      "a": "Tirthan, Majuli and Munroe Island are calmer than Rishikesh or Alappuzha."
+    },
+    {
+      "q": "Are riverside stays safe in the monsoon?",
+      "a": "Choose stays set back from the bank, ask about flood history, and follow local advisories."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Lakes in India",
+      "href": "/blog/lakes-in-india"
+    },
+    {
+      "label": "Nature travel in Kerala",
+      "href": "/blog/nature-travel-in-kerala"
+    },
+    {
+      "label": "River rafting in India",
+      "href": "/blog/river-rafting-in-india"
+    },
+    {
+      "label": "Nature holidays",
+      "href": "/packages/nature-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Valleys in India",
+      "href": "/blog/valleys-in-india",
+      "note": "river valleys"
+    },
+    {
+      "name": "Nature retreats in India",
+      "href": "/blog/nature-retreats-in-india",
+      "note": "riverside stays"
+    },
+    {
+      "name": "Kerala nature itinerary",
+      "href": "/blog/kerala-nature-itinerary",
+      "note": "backwaters and hills"
+    }
+  ],
+  "places": [
+    "Tirthan",
+    "Jibhi",
+    "Kasol",
+    "Rishikesh",
+    "Majuli",
+    "Dawki",
+    "Hogenakkal",
+    "Hampi",
+    "Bhedaghat",
+    "Vembanad",
+    "Munroe Island"
+  ],
+  "styles": [
+    "nature-holidays"
+  ],
+  "planDestination": "a riverside trip",
+  "updated": "2026-09-26"
+}

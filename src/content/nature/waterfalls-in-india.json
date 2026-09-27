@@ -1,0 +1,456 @@
+{
+  "slug": "waterfalls-in-india",
+  "kind": "pillar",
+  "short": "Waterfalls in India",
+  "title": "Waterfalls in India: The Best Falls by Region and When to See Them",
+  "seoTitle": "Waterfalls in India: The Best Falls by Region and Season | Kudozz Club",
+  "metaDescription": "India's best waterfalls by region: Jog, Dudhsagar, Athirappilly, Nohkalikai, Chitrakote, Hogenakkal, Dhuandhar and more, with the best season and safety.",
+  "description": "A guide to the best waterfalls in India by region: Karnataka's Jog and Abbey Falls, Dudhsagar on the Goa border, Kerala's Athirappilly, Tamil Nadu's Hogenakkal and Courtallam, Meghalaya's Nohkalikai, Seven Sisters and Krang Suri, Chhattisgarh's Chitrakote and Tirathgarh, Jharkhand's Hundru, Madhya Pradesh's Dhuandhar and Mizoram's Vantawng, with the best season, access and monsoon safety.",
+  "dek": "Most Indian waterfalls are at their best in and just after the monsoon. Here is where to go, and how to enjoy them safely.",
+  "primaryKeyword": "waterfalls in India",
+  "secondaryKeywords": [
+    "best waterfalls in India",
+    "famous waterfalls in India",
+    "monsoon waterfalls"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "waterfalls",
+    "nature walks",
+    "photography"
+  ],
+  "terrain": [
+    "hills",
+    "forest",
+    "plateau"
+  ],
+  "regions": [
+    "Karnataka",
+    "Goa",
+    "Kerala",
+    "Tamil Nadu",
+    "Meghalaya",
+    "Chhattisgarh",
+    "Jharkhand",
+    "Madhya Pradesh",
+    "Mizoram",
+    "Telangana"
+  ],
+  "seasons": [
+    "monsoon",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends",
+    "photographers"
+  ],
+  "tags": [
+    "Waterfalls",
+    "Monsoon",
+    "Western Ghats",
+    "Meghalaya"
+  ],
+  "hero": {
+    "src": "/images/nature/waterfalls-india-jog-falls.webp",
+    "alt": "Jog Falls on the Sharavathi river in full monsoon flow, Karnataka"
+  },
+  "parent": {
+    "label": "Nature Travel",
+    "href": "/nature-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Waterfalls of India"
+  },
+  "intro": [
+    "India's waterfalls are fed mostly by the monsoon, so the same fall can be a thundering curtain in August and a trickle in May. The Western Ghats, Meghalaya's plateau and the Chhota Nagpur and Bastar plateaus have the greatest concentration.",
+    "This guide lists the best-known falls by region with their season, and adds the safety advice that matters most at waterfalls in the rains."
+  ],
+  "quickAnswer": "The best waterfalls in India include Jog Falls in Karnataka, Dudhsagar on the Goa-Karnataka border, Athirappilly in Kerala, Hogenakkal and Courtallam in Tamil Nadu, Nohkalikai and Seven Sisters in Meghalaya, Chitrakote in Chhattisgarh, Dhuandhar at Bhedaghat in Madhya Pradesh, and Vantawng in Mizoram. Most are best from July to October, during and just after the monsoon.",
+  "takeaways": [
+    "Most Indian waterfalls peak from July to October.",
+    "Jog, Dudhsagar and Athirappilly are the best-known in the Western Ghats.",
+    "Meghalaya's plateau edge has some of India's most dramatic falls.",
+    "Access can be restricted in heavy rain; check local notices.",
+    "Never swim at or above waterfalls in the monsoon."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Waterfalls at a glance",
+      "table": {
+        "columns": [
+          "Waterfall",
+          "State",
+          "Notes",
+          "Best time"
+        ],
+        "rows": [
+          [
+            "Jog Falls",
+            "Karnataka",
+            "Sharavathi river drops in four streams",
+            "July to October"
+          ],
+          [
+            "Dudhsagar",
+            "Goa and Karnataka",
+            "Four-tiered fall on the Mandovi; trek or jeep safari",
+            "July to October (jeeps often from October)"
+          ],
+          [
+            "Athirappilly",
+            "Kerala",
+            "Wide fall on the Chalakudy river",
+            "July to November"
+          ],
+          [
+            "Hogenakkal",
+            "Tamil Nadu and Karnataka",
+            "Kaveri gorge with coracle rides (when permitted)",
+            "August to November"
+          ],
+          [
+            "Nohkalikai",
+            "Meghalaya",
+            "Plunge fall at Sohra",
+            "June to October"
+          ],
+          [
+            "Seven Sisters",
+            "Meghalaya",
+            "Segmented fall near Mawsmai",
+            "June to October"
+          ],
+          [
+            "Krang Suri",
+            "Meghalaya",
+            "Blue pool fall in the Jaintia hills",
+            "October to March for swimming, where allowed"
+          ],
+          [
+            "Chitrakote",
+            "Chhattisgarh",
+            "Horseshoe fall on the Indravati",
+            "July to October"
+          ],
+          [
+            "Dhuandhar",
+            "Madhya Pradesh",
+            "Narmada fall at Bhedaghat",
+            "July to October"
+          ],
+          [
+            "Vantawng",
+            "Mizoram",
+            "Tall fall in forest near Thenzawl",
+            "June to October"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "western-ghats",
+      "heading": "Western Ghats",
+      "items": [
+        {
+          "name": "Jog and Dudhsagar",
+          "body": [
+            "Jog's four streams on the Sharavathi, and Dudhsagar's milk-white cascade, reached by trek or forest jeep from the Goa side."
+          ],
+          "links": [
+            {
+              "label": "Jog Falls guide",
+              "href": "/blog/jog-falls-travel-guide"
+            },
+            {
+              "label": "Dudhsagar Falls guide",
+              "href": "/blog/dudhsagar-falls-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/goa/goa/dudhsagar-falls-goa-karnataka-border.webp",
+            "alt": "Dudhsagar Falls on the Goa-Karnataka border",
+            "caption": "Dudhsagar Falls"
+          }
+        },
+        {
+          "name": "Athirappilly and Coorg",
+          "body": [
+            "Kerala's broad Athirappilly, and Abbey and Iruppu falls in Coorg."
+          ],
+          "links": [
+            {
+              "label": "Athirappilly guide",
+              "href": "/blog/athirappilly-travel-guide"
+            },
+            {
+              "label": "Coorg guide",
+              "href": "/blog/coorg-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/kerala/athirappilly/athirappilly-falls-view.webp",
+            "alt": "Athirappilly Falls, Kerala",
+            "caption": "Athirappilly Falls"
+          }
+        }
+      ]
+    },
+    {
+      "id": "south",
+      "heading": "South and east",
+      "items": [
+        {
+          "name": "Hogenakkal and Courtallam",
+          "body": [
+            "The Kaveri's smoking rocks at Hogenakkal and the bathing falls of Courtallam."
+          ],
+          "links": [
+            {
+              "label": "Hogenakkal guide",
+              "href": "/blog/hogenakkal-travel-guide"
+            },
+            {
+              "label": "Courtallam guide",
+              "href": "/blog/courtallam-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Telangana",
+          "body": [
+            "Kuntala and Bogatha falls near the Godavari."
+          ],
+          "links": [
+            {
+              "label": "Kuntala Waterfall guide",
+              "href": "/blog/kuntala-waterfall-travel-guide"
+            },
+            {
+              "label": "Bogatha Waterfall guide",
+              "href": "/blog/bogatha-waterfall-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "northeast",
+      "heading": "Meghalaya and Mizoram",
+      "items": [
+        {
+          "name": "The plateau falls",
+          "body": [
+            "Nohkalikai and Seven Sisters at Sohra, Elephant Falls near Shillong, Krang Suri in the Jaintia hills, and Vantawng in Mizoram."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Cherrapunji",
+              "href": "/blog/things-to-do-in-cherrapunji"
+            },
+            {
+              "label": "Krang Suri Falls guide",
+              "href": "/blog/krang-suri-falls-travel-guide"
+            },
+            {
+              "label": "Vantawng Falls guide",
+              "href": "/blog/vantawng-falls-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/meghalaya/cherrapunji/nohkalikai-falls-cherrapunji-2.webp",
+            "alt": "Nohkalikai Falls, Meghalaya",
+            "caption": "Nohkalikai Falls"
+          }
+        }
+      ]
+    },
+    {
+      "id": "central",
+      "heading": "Central India",
+      "items": [
+        {
+          "name": "Chitrakote, Tirathgarh, Dhuandhar and Hundru",
+          "body": [
+            "Bastar's great falls in Chhattisgarh, the Narmada at Bhedaghat, and Jharkhand's plateau falls near Ranchi."
+          ],
+          "links": [
+            {
+              "label": "Chitrakote guide",
+              "href": "/blog/chitrakote-travel-guide"
+            },
+            {
+              "label": "Tirathgarh guide",
+              "href": "/blog/tirathgarh-travel-guide"
+            },
+            {
+              "label": "Jabalpur guide",
+              "href": "/blog/jabalpur-travel-guide"
+            },
+            {
+              "label": "Things to do in Ranchi",
+              "href": "/blog/things-to-do-in-ranchi"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/chhattisgarh/chhattisgarh/chitrakote-falls-chhattisgarh-2.webp",
+            "alt": "Chitrakote Falls on the Indravati, Chhattisgarh",
+            "caption": "Chitrakote Falls"
+          }
+        }
+      ]
+    },
+    {
+      "id": "waterfall-safety",
+      "heading": "Waterfall safety",
+      "list": [
+        "Stay behind barriers and away from slippery rocks near the edge.",
+        "Do not swim in plunge pools or rivers in the monsoon; currents and debris are dangerous.",
+        "Respect closures after heavy rain.",
+        "Avoid selfies at cliff edges.",
+        "Go in daylight, and leave well before dusk on forest trails."
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "Seasons",
+      "paras": [
+        "Waterfalls in the Western Ghats and Meghalaya peak from July to September, though access roads and trails can be closed in the heaviest rain. September and October often combine strong flow with safer access. In winter many falls thin out, but Meghalaya's Krang Suri and Dawki's river are at their clearest."
+      ]
+    },
+    {
+      "id": "photography",
+      "heading": "Photographing waterfalls",
+      "paras": [
+        "Overcast days are best for waterfall photography, softening the light and bringing out the greens. A small tripod or a steady rest allows slow shutter speeds for silky water; protect your camera from spray with a cloth or rain cover. Keep behind barriers even for a better angle."
+      ],
+      "items": [
+        {
+          "name": "Photography",
+          "body": [
+            "Nature photography tips."
+          ],
+          "links": [
+            {
+              "label": "Nature photography in India",
+              "href": "/blog/nature-photography-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combos",
+      "heading": "Waterfall circuits",
+      "list": [
+        "Karnataka: Jog, then Coorg's Abbey and Iruppu falls, with Chikmagalur's Hebbe Falls.",
+        "Goa and Karnataka: Dudhsagar with the Mollem forests.",
+        "Kerala: Athirappilly and Vazhachal with Munnar.",
+        "Meghalaya: Sohra's falls, Elephant Falls near Shillong and Krang Suri in the Jaintia hills.",
+        "Bastar: Chitrakote and Tirathgarh with the Kanger Valley caves."
+      ]
+    }
+  ],
+  "safety": [
+    "Stay on marked trails and viewpoints, and heed local closures after heavy rain; many accidents at waterfalls and cliffs happen off the path.",
+    "Entry rules, timings, permits and seasonal closures change; check the forest department or official site before you go.",
+    "Never swim near waterfalls in the monsoon."
+  ],
+  "packing": [
+    "Rain jacket and dry bag",
+    "Shoes with grip",
+    "Change of clothes",
+    "Leech socks for forest trails"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best waterfall in India?",
+      "a": "Jog, Dudhsagar, Athirappilly, Nohkalikai and Chitrakote are among the most celebrated."
+    },
+    {
+      "q": "When is the best time to see waterfalls in India?",
+      "a": "July to October, during and just after the monsoon."
+    },
+    {
+      "q": "Can I swim at waterfalls in India?",
+      "a": "Generally not in the monsoon; some pools, such as Krang Suri, allow swimming in the dry season with local rules."
+    },
+    {
+      "q": "How do I reach Dudhsagar Falls?",
+      "a": "By trek or by forest-department jeep safari from the Goa side, depending on the season."
+    },
+    {
+      "q": "Which state has the most waterfalls?",
+      "a": "Karnataka, Kerala and Meghalaya are especially rich in waterfalls."
+    },
+    {
+      "q": "Are waterfalls worth visiting in winter?",
+      "a": "Many thin out, but Meghalaya's blue pools and some Western Ghats falls still flow, and access is easier and safer."
+    },
+    {
+      "q": "Which waterfalls are easy for families?",
+      "a": "Athirappilly, Abbey Falls in Coorg, Elephant Falls near Shillong and Hogenakkal have short, managed paths."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Western Ghats",
+      "href": "/blog/western-ghats-nature-travel"
+    },
+    {
+      "label": "Monsoon hill stations",
+      "href": "/blog/monsoon-hill-stations-in-india"
+    },
+    {
+      "label": "Nature travel in Meghalaya",
+      "href": "/blog/nature-travel-in-meghalaya"
+    },
+    {
+      "label": "Nature holidays",
+      "href": "/packages/nature-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Monsoon treks in India",
+      "href": "/blog/monsoon-treks-in-india",
+      "note": "trails to waterfalls"
+    },
+    {
+      "name": "Nature photography in India",
+      "href": "/blog/nature-photography-in-india",
+      "note": "photographing falls"
+    },
+    {
+      "name": "Natural wonders of India",
+      "href": "/blog/natural-wonders-of-india",
+      "note": "gorges and more"
+    }
+  ],
+  "places": [
+    "Jog Falls",
+    "Dudhsagar",
+    "Athirappilly",
+    "Hogenakkal",
+    "Courtallam",
+    "Nohkalikai",
+    "Seven Sisters",
+    "Krang Suri",
+    "Chitrakote",
+    "Dhuandhar",
+    "Vantawng",
+    "Kuntala"
+  ],
+  "styles": [
+    "nature-holidays"
+  ],
+  "planDestination": "a waterfall trip",
+  "updated": "2026-09-26"
+}

@@ -33,7 +33,7 @@ for f in files:
     for req in ("BlogPosting", "BreadcrumbList", "FAQPage", "ItemList", "TouristDestination"):
         need(req in types, f"schema missing {req}")
     for src in set(re.findall(r'(?:src|href)="(/images/[^"?]+)', t)):
-        need(os.path.exists(os.path.join(ROOT, "public", src)), f"missing image {src}")
+        need(os.path.exists(os.path.join(ROOT, "public", src.lstrip("/"))), f"missing image {src}")
 for k, v in titles.items():
     if len(v) > 1: problems.append(f"duplicate title {k}: {v}")
 for k, v in descs.items():

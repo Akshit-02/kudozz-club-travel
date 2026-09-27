@@ -1,0 +1,166 @@
+{
+ "hills-hub": {
+  "src": "/images/hills/hill-station-travel-india-kanchenjunga-darjeeling.webp",
+  "alt": "Kanchenjunga seen from Tiger Hill near Darjeeling"
+ },
+ "best-hill-stations-in-india": {
+  "src": "/images/hills/best-hill-stations-india-shimla.webp",
+  "alt": "Shimla spread along its ridge, Himachal Pradesh"
+ },
+ "best-mountain-destinations-in-india": {
+  "src": "/images/hills/mountain-destinations-india-spiti-key.webp",
+  "alt": "Key Monastery above the Spiti valley, Himachal Pradesh"
+ },
+ "himalayan-hill-stations": {
+  "src": "/images/hills/himalayan-hill-stations-mussoorie.webp",
+  "alt": "Mussoorie on its ridge in the Garhwal hills, Uttarakhand"
+ },
+ "hill-stations-in-northeast-india": {
+  "src": "/images/hills/northeast-hill-stations-gangtok.webp",
+  "alt": "Gangtok on its hillside, Sikkim"
+ },
+ "hill-stations-in-south-india": {
+  "src": "/images/hills/south-india-hill-stations-munnar.webp",
+  "alt": "Tea estates in the hills around Munnar, Kerala"
+ },
+ "hill-stations-in-western-and-central-india": {
+  "src": "/images/hills/western-central-hill-stations-mount-abu.webp",
+  "alt": "Nakki Lake at Mount Abu, Rajasthan"
+ },
+ "hill-stations-in-himachal-pradesh": {
+  "src": "/images/hills/himachal-hill-stations-manali.webp",
+  "alt": "Solang valley near Manali, Himachal Pradesh"
+ },
+ "hill-stations-in-uttarakhand": {
+  "src": "/images/hills/uttarakhand-hill-stations-nainital.webp",
+  "alt": "Naini Lake seen from the hills above Nainital"
+ },
+ "hill-stations-in-jammu-and-kashmir": {
+  "src": "/images/hills/kashmir-hill-stations-pahalgam.webp",
+  "alt": "Meadow and pine forest at Pahalgam, Kashmir"
+ },
+ "hill-stations-in-sikkim": {
+  "src": "/images/hills/sikkim-hill-stations-pelling-kanchenjunga.webp",
+  "alt": "The Yumthang valley in North Sikkim"
+ },
+ "hill-stations-in-west-bengal": {
+  "src": "/images/hills/west-bengal-hill-stations-kalimpong.webp",
+  "alt": "Kalimpong town spread across its ridge, West Bengal"
+ },
+ "hill-stations-in-meghalaya": {
+  "src": "/images/hills/meghalaya-hill-stations-shillong.webp",
+  "alt": "Umiam Lake near Shillong, Meghalaya"
+ },
+ "hill-stations-in-tamil-nadu": {
+  "src": "/images/hills/tamil-nadu-hill-stations-kodaikanal.webp",
+  "alt": "Kodaikanal lake and town in the Palani hills, Tamil Nadu"
+ },
+ "hill-stations-in-kerala": {
+  "src": "/images/hills/kerala-hill-stations-vagamon.webp",
+  "alt": "Grassy hills under clouds near Vagamon, Idukki, Kerala"
+ },
+ "hill-stations-in-karnataka": {
+  "src": "/images/hills/karnataka-hill-stations-chikmagalur.webp",
+  "alt": "Grassland hills near Kemmangundi, Chikkamagaluru district, Karnataka"
+ },
+ "hill-stations-in-maharashtra": {
+  "src": "/images/hills/maharashtra-hill-stations-mahabaleshwar.webp",
+  "alt": "A forested valley below Mahabaleshwar, Maharashtra"
+ },
+ "summer-hill-stations-in-india": {
+  "src": "/images/hills/summer-hill-stations-gulmarg-meadow.webp",
+  "alt": "Green meadows below the snow-streaked Apharwat range near Gulmarg"
+ },
+ "winter-hill-stations-in-india": {
+  "src": "/images/hills/winter-hill-stations-shimla-snow.webp",
+  "alt": "Snow on the trees and Christ Church in Shimla"
+ },
+ "places-to-see-snow-in-india": {
+  "src": "/images/hills/snow-in-india-gulmarg-winter.webp",
+  "alt": "Snow-covered slopes and visitors at Gulmarg, Kashmir"
+ },
+ "monsoon-hill-stations-in-india": {
+  "src": "/images/hills/monsoon-hill-stations-cherrapunji.webp",
+  "alt": "The green Mawkdok Dympep valley on the road from Shillong to Sohra"
+ },
+ "hill-stations-for-couples-in-india": {
+  "src": "/images/hills/couples-hill-stations-dal-lake-shikara.webp",
+  "alt": "Shikaras on Dal Lake, Srinagar"
+ },
+ "hill-stations-for-families-in-india": {
+  "src": "/images/hills/family-hill-stations-ooty-botanical-garden.webp",
+  "alt": "Terraced flower beds in the Government Botanical Garden, Ooty"
+ },
+ "budget-hill-stations-in-india": {
+  "src": "/images/hills/budget-hill-stations-mcleod-ganj.webp",
+  "alt": "A temple on the main street of McLeod Ganj, above Dharamshala"
+ },
+ "luxury-hill-holidays-in-india": {
+  "src": "/images/hills/luxury-hill-holidays-darjeeling-tea-estate.webp",
+  "alt": "Happy Valley Tea Estate below Darjeeling"
+ },
+ "hill-stations-near-delhi": {
+  "src": "/images/hills/near-delhi-hill-stations-lansdowne.webp",
+  "alt": "Pine forest at Lansdowne, Uttarakhand"
+ },
+ "hill-stations-near-mumbai": {
+  "src": "/images/hills/near-mumbai-hill-stations-matheran.webp",
+  "alt": "The Western Ghats seen from Matheran"
+ },
+ "hill-stations-near-bengaluru": {
+  "src": "/images/hills/near-bengaluru-hill-stations-nandi-hills.webp",
+  "alt": "The view from Nandi Hills over the plains near Bengaluru"
+ },
+ "hill-stations-near-chennai": {
+  "src": "/images/hills/near-chennai-hill-stations-yelagiri.webp",
+  "alt": "The road into the Yelagiri hills, Tamil Nadu"
+ },
+ "hill-stations-near-kolkata": {
+  "src": "/images/hills/near-kolkata-hill-stations-darjeeling.webp",
+  "alt": "The clock tower of Darjeeling's municipal building at night"
+ },
+ "mountain-road-trips-in-india": {
+  "src": "/images/hills/mountain-road-trips-atal-tunnel-lahaul.webp",
+  "alt": "Snow peaks above the Leh-Manali highway near Gulaba"
+ },
+ "tea-tourism-in-india": {
+  "src": "/images/hills/tea-tourism-darjeeling-tea-garden.webp",
+  "alt": "A tea garden on the hills of Darjeeling"
+ },
+ "coffee-plantation-tourism-in-india": {
+  "src": "/images/hills/coffee-plantation-coorg.webp",
+  "alt": "Coffee cherries ripening on a plant in Coorg"
+ },
+ "how-to-plan-a-hill-station-trip": {
+  "src": "/images/hills/plan-hill-station-trip-kausani-himalaya.webp",
+  "alt": "The Kumaon Himalaya seen above a sea of clouds from Kausani"
+ },
+ "hill-station-packing-list": {
+  "src": "/images/hills/hill-station-packing-auli-snow.webp",
+  "alt": "Patchy snow on the slopes at Auli, Uttarakhand"
+ },
+ "responsible-mountain-travel-in-india": {
+  "src": "/images/hills/responsible-mountain-travel-khonoma.webp",
+  "alt": "Khonoma village on its ridge, Nagaland"
+ },
+ "shimla-manali-itinerary": {
+  "src": "/images/hills/shimla-manali-itinerary-kullu-valley.webp",
+  "alt": "The Beas valley near Palchan, above Manali"
+ },
+ "uttarakhand-hill-stations-itinerary": {
+  "src": "/images/hills/uttarakhand-itinerary-mussoorie-landour.webp",
+  "alt": "Snow on a church in Mussoorie"
+ },
+ "kashmir-itinerary": {
+  "src": "/images/hills/kashmir-itinerary-sonamarg.webp",
+  "alt": "The Sindh valley at Sonamarg, Kashmir"
+ },
+ "darjeeling-sikkim-itinerary": {
+  "src": "/images/hills/darjeeling-sikkim-itinerary-tsomgo-lake.webp",
+  "alt": "Tsomgo (Changu) Lake in East Sikkim"
+ },
+ "south-india-hill-stations-itinerary": {
+  "src": "/images/hills/south-india-hill-itinerary-coonoor.webp",
+  "alt": "Tea plantations at Coonoor in the Nilgiris"
+ }
+}

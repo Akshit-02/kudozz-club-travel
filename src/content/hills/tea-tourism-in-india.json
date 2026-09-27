@@ -1,0 +1,374 @@
+{
+  "slug": "tea-tourism-in-india",
+  "kind": "activity",
+  "short": "Tea tourism in India",
+  "title": "Tea Tourism in India: Darjeeling, Assam, Munnar, the Nilgiris and Beyond",
+  "seoTitle": "Tea Tourism in India: Estates, Tastings and Stays | Kudozz Club",
+  "metaDescription": "Tea tourism in India: estate walks, factory visits, tastings and bungalow stays in Darjeeling, Assam, the Nilgiris, Munnar, Kangra, Sikkim and Valparai.",
+  "description": "A guide to tea tourism in India: Darjeeling's hill estates and flushes, Assam's plains gardens around Jorhat and Dibrugarh, the Nilgiris around Coonoor and Kotagiri, Munnar's estates and tea museum, Kangra tea near Palampur, Sikkim's Temi garden, and Valparai, with estate walks, factory visits, tastings, bungalow stays and the best seasons.",
+  "dek": "India grows some of the world's best-known teas, and many of the estates welcome visitors for walks, tastings and stays.",
+  "primaryKeyword": "tea tourism in India",
+  "secondaryKeywords": [
+    "tea plantations in India",
+    "tea garden tourism",
+    "tea estate stays"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "tea estates",
+    "tastings",
+    "walks",
+    "plantation stays"
+  ],
+  "terrain": [
+    "hills",
+    "plantations"
+  ],
+  "regions": [
+    "West Bengal",
+    "Assam",
+    "Tamil Nadu",
+    "Kerala",
+    "Himachal Pradesh",
+    "Sikkim"
+  ],
+  "seasons": [
+    "spring",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "food lovers"
+  ],
+  "tags": [
+    "Tea",
+    "Tea Estates",
+    "Darjeeling",
+    "Munnar",
+    "Assam"
+  ],
+  "hero": {
+    "src": "/images/hills/tea-tourism-darjeeling-tea-garden.webp",
+    "alt": "A tea garden on the hills of Darjeeling"
+  },
+  "parent": {
+    "label": "Hill Stations",
+    "href": "/hill-station-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Tea tourism in India"
+  },
+  "intro": [
+    "Tea shapes the landscape of several Indian hill regions: the steep gardens of Darjeeling, the clipped green slopes of Munnar and the Nilgiris, and, on the plains of the Brahmaputra, the vast estates of Assam. Many estates offer walks through the bushes, factory visits during the processing season, tastings and, in some cases, stays in old planters' bungalows.",
+    "Tea tourism is as much about people as landscape; the pluckers and factory workers whose work you see deserve respect and privacy."
+  ],
+  "quickAnswer": "The main places for tea tourism in India are Darjeeling in West Bengal, the Assam gardens around Jorhat and Dibrugarh, the Nilgiris around Coonoor and Kotagiri, Munnar in Kerala, the Kangra valley around Palampur, Temi in Sikkim and Valparai in Tamil Nadu. Visitors can walk the estates, see factories in the plucking season, join tastings and stay in heritage bungalows. Spring and autumn are the best seasons in Darjeeling.",
+  "takeaways": [
+    "Darjeeling tea has a Geographical Indication; its first flush (spring) and second flush (early summer) are prized.",
+    "Assam's tea grows on the plains, not in the hills; stay on a garden near Jorhat or Dibrugarh.",
+    "Munnar's tea museum explains the process from leaf to cup.",
+    "Factory visits depend on the plucking and processing season; check before you go.",
+    "Ask before photographing workers, and follow estate rules."
+  ],
+  "sections": [
+    {
+      "id": "regions",
+      "heading": "Tea regions at a glance",
+      "table": {
+        "columns": [
+          "Region",
+          "State",
+          "Character",
+          "Best time to visit"
+        ],
+        "rows": [
+          [
+            "Darjeeling",
+            "West Bengal",
+            "High, steep estates; delicate teas",
+            "March to May, October to November"
+          ],
+          [
+            "Assam",
+            "Assam",
+            "Plains gardens; strong, malty teas",
+            "October to April"
+          ],
+          [
+            "Nilgiris",
+            "Tamil Nadu",
+            "Rolling estates around Coonoor and Kotagiri",
+            "October to May"
+          ],
+          [
+            "Munnar",
+            "Kerala",
+            "Large estates and a tea museum",
+            "September to May"
+          ],
+          [
+            "Kangra",
+            "Himachal Pradesh",
+            "Small gardens near Palampur",
+            "March to June, October to November"
+          ],
+          [
+            "Temi",
+            "Sikkim",
+            "A single estate on a hillside",
+            "March to May, October to December"
+          ],
+          [
+            "Valparai",
+            "Tamil Nadu",
+            "Estates amid rainforest and wildlife",
+            "October to May"
+          ],
+          [
+            "Dooars",
+            "West Bengal",
+            "Gardens by the forests below the hills",
+            "October to April"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "darjeeling",
+      "heading": "Darjeeling",
+      "items": [
+        {
+          "name": "Darjeeling tea",
+          "body": [
+            "Estates around the town and down towards the Rangeet and Teesta valleys; spring's first flush and early summer's second flush are the famous harvests."
+          ],
+          "links": [
+            {
+              "label": "Darjeeling guide",
+              "href": "/blog/darjeeling-travel-guide"
+            },
+            {
+              "label": "Hill stations in West Bengal",
+              "href": "/blog/hill-stations-in-west-bengal"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/darjeeling/darjeeling-tea-garden-misty-hills.webp",
+            "alt": "Tea gardens on misty hills near Darjeeling",
+            "caption": "Darjeeling tea gardens"
+          }
+        }
+      ]
+    },
+    {
+      "id": "assam",
+      "heading": "Assam and the Dooars",
+      "items": [
+        {
+          "name": "Assam",
+          "body": [
+            "Gardens around Jorhat and Dibrugarh, some with heritage bungalow stays, and the Tocklai tea research station at Jorhat."
+          ],
+          "links": [
+            {
+              "label": "Jorhat guide",
+              "href": "/blog/jorhat-travel-guide"
+            },
+            {
+              "label": "Dibrugarh guide",
+              "href": "/blog/dibrugarh-travel-guide"
+            },
+            {
+              "label": "Dooars guide",
+              "href": "/blog/dooars-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/assam/assam/tea-garden-pluckers-assam.webp",
+            "alt": "Tea pluckers at work in an Assam garden",
+            "caption": "Assam tea garden"
+          }
+        }
+      ]
+    },
+    {
+      "id": "south",
+      "heading": "The Nilgiris, Munnar and Valparai",
+      "items": [
+        {
+          "name": "Southern tea country",
+          "body": [
+            "Coonoor and Kotagiri's estates, Munnar's tea museum and viewpoints, and Valparai's gardens beside the Anamalai forests."
+          ],
+          "links": [
+            {
+              "label": "Munnar guide",
+              "href": "/blog/munnar-travel-guide"
+            },
+            {
+              "label": "Ooty guide",
+              "href": "/blog/ooty-travel-guide"
+            },
+            {
+              "label": "Valparai guide",
+              "href": "/blog/valparai-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "north",
+      "heading": "Kangra and Sikkim",
+      "items": [
+        {
+          "name": "Palampur and Temi",
+          "body": [
+            "Kangra tea gardens below the Dhauladhar, and Sikkim's Temi estate above the Teesta."
+          ],
+          "links": [
+            {
+              "label": "Temi Tea Garden guide",
+              "href": "/blog/temi-tea-garden-travel-guide"
+            },
+            {
+              "label": "Dharamshala guide",
+              "href": "/blog/dharamshala-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "experiences",
+      "heading": "What you can do",
+      "list": [
+        "Walk through the gardens with an estate guide.",
+        "Visit a factory to see withering, rolling, oxidation and drying (in season).",
+        "Join a tasting to compare flushes and grades.",
+        "Stay in a planter's bungalow.",
+        "Buy directly from estate shops or government-approved outlets."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A little history",
+      "paras": [
+        "Commercial tea planting in India began in Assam in the 1830s, after the native Assam tea plant was identified, and spread to Darjeeling from the 1850s, using Chinese plants suited to the cooler hills. The Nilgiris and Munnar followed later in the 19th century. The estates were built on the labour of workers, many brought from other regions, whose descendants still work in the gardens today."
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "When to go",
+      "list": [
+        "Darjeeling: March to May for first and second flush, and October to November for the autumnal flush and clear views.",
+        "Assam: October to April, avoiding the heavy monsoon.",
+        "Nilgiris and Munnar: most of the year; the monsoon is wet but green."
+      ]
+    },
+    {
+      "id": "buying",
+      "heading": "Buying tea",
+      "paras": [
+        "Buy from estate shops, government-approved outlets or established tea merchants rather than roadside stalls selling unmarked 'Darjeeling' tea. Look for the Darjeeling logo and GI mark on packs, check the harvest and flush on the label, and store loose-leaf tea in an airtight container away from light."
+      ]
+    }
+  ],
+  "safety": [
+    "Follow estate rules and stay on paths.",
+    "Ask before photographing workers.",
+    "Permits, e-passes and pass openings change; check official portals before you travel."
+  ],
+  "packing": [
+    "Walking shoes for slopes",
+    "Sun hat and water",
+    "Rain jacket",
+    "A reusable bag for tea purchases"
+  ],
+  "faqs": [
+    {
+      "q": "Where can I visit a tea estate in India?",
+      "a": "Darjeeling, Assam, the Nilgiris, Munnar, Kangra, Temi in Sikkim and Valparai all have estates open to visitors."
+    },
+    {
+      "q": "What is first flush Darjeeling tea?",
+      "a": "The spring harvest, usually from about March to April, known for its light, fresh character."
+    },
+    {
+      "q": "Can I stay on a tea estate?",
+      "a": "Yes, several estates in Darjeeling, Assam, Munnar and the Nilgiris have bungalow stays."
+    },
+    {
+      "q": "Is Assam tea grown in the hills?",
+      "a": "No, most Assam tea grows on the plains of the Brahmaputra valley."
+    },
+    {
+      "q": "When can I see tea being processed?",
+      "a": "During the plucking season, which varies by region; check with the estate before visiting."
+    },
+    {
+      "q": "Which tea region is best for a first visit?",
+      "a": "Darjeeling, for the combination of estates, the toy train and mountain views; Munnar is the easiest in the south."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Hill stations in West Bengal",
+      "href": "/blog/hill-stations-in-west-bengal"
+    },
+    {
+      "label": "Hill stations in Kerala",
+      "href": "/blog/hill-stations-in-kerala"
+    },
+    {
+      "label": "Luxury hill holidays",
+      "href": "/blog/luxury-hill-holidays-in-india"
+    },
+    {
+      "label": "Hill station holidays",
+      "href": "/packages/hill-station-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Coffee plantation tourism",
+      "href": "/blog/coffee-plantation-tourism-in-india",
+      "note": "coffee country"
+    },
+    {
+      "name": "Food heritage of India",
+      "href": "/blog/food-heritage-of-india",
+      "note": "regional food"
+    },
+    {
+      "name": "Things to do in Darjeeling",
+      "href": "/blog/things-to-do-in-darjeeling",
+      "note": "the town"
+    }
+  ],
+  "places": [
+    "Darjeeling",
+    "Jorhat",
+    "Dibrugarh",
+    "Coonoor",
+    "Kotagiri",
+    "Munnar",
+    "Palampur",
+    "Temi",
+    "Valparai",
+    "Dooars"
+  ],
+  "styles": [
+    "hill-station-holidays",
+    "luxury-holidays"
+  ],
+  "planDestination": "a tea country trip",
+  "updated": "2026-09-26"
+}

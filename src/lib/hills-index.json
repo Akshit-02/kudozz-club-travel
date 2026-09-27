@@ -1,1 +1,1730 @@
-[]
+[
+ {
+  "slug": "best-hill-stations-in-india",
+  "title": "Best Hill Stations in India: Where to Go and When",
+  "short": "Best hill stations in India",
+  "kind": "pillar",
+  "excerpt": "A guide to the best hill stations in India, grouped by region: the Himalayan towns of Himachal, Uttarakhand and Kashmir, the hills of Darjeeling, Sikkim and the Northeast, the Nilgiris and Western Ghats of the south, and Mahabaleshwar, Mount Abu and Pachmarhi in the west and centre, with the best season for each and how to choose.",
+  "image": "/images/hills/best-hill-stations-india-shimla.webp",
+  "imageAlt": "Shimla spread along its ridge, Himachal Pradesh",
+  "tags": [
+   "Hill Stations",
+   "Mountains",
+   "India",
+   "Himalaya",
+   "Western Ghats"
+  ],
+  "readTime": "5 min",
+  "activities": [
+   "hill stations",
+   "sightseeing",
+   "walks",
+   "viewpoints"
+  ],
+  "terrain": [
+   "mountains",
+   "hills"
+  ],
+  "regions": [
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "Jammu and Kashmir",
+   "West Bengal",
+   "Sikkim",
+   "Meghalaya",
+   "Tamil Nadu",
+   "Kerala",
+   "Karnataka",
+   "Maharashtra"
+  ],
+  "seasons": [
+   "summer",
+   "autumn",
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends",
+   "first-time visitors"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "best-mountain-destinations-in-india",
+  "title": "Best Mountain Destinations in India: Valleys, High Passes and Himalayan Towns",
+  "short": "Best mountain destinations",
+  "kind": "pillar",
+  "excerpt": "A guide to India's mountain destinations beyond classic hill stations: the high-altitude regions of Ladakh, Spiti and Zanskar, Himalayan valleys such as Kinnaur, Tirthan, Parvati and Lahaul, Uttarakhand's Chopta and Munsiyari, North Sikkim, Tawang and Dzukou, with the right terminology, seasons, permits and how to acclimatise.",
+  "image": "/images/hills/mountain-destinations-india-spiti-key.webp",
+  "imageAlt": "Key Monastery above the Spiti valley, Himachal Pradesh",
+  "tags": [
+   "Mountains",
+   "Himalaya",
+   "Ladakh",
+   "Spiti",
+   "High Altitude"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "road trips",
+   "treks",
+   "monasteries",
+   "landscapes"
+  ],
+  "terrain": [
+   "high altitude",
+   "valleys",
+   "mountains"
+  ],
+  "regions": [
+   "Ladakh",
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "Sikkim",
+   "Arunachal Pradesh",
+   "Nagaland"
+  ],
+  "seasons": [
+   "summer",
+   "autumn"
+  ],
+  "travellers": [
+   "couples",
+   "friends",
+   "photographers",
+   "adventure travellers"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "himalayan-hill-stations",
+  "title": "Himalayan Hill Stations: Himachal, Uttarakhand, Kashmir and the East",
+  "short": "Himalayan hill stations",
+  "kind": "pillar",
+  "excerpt": "A guide to the hill stations of the western and central Himalaya: Shimla, Manali, Dharamshala, Dalhousie and Kasauli in Himachal Pradesh; Mussoorie, Nainital, Ranikhet, Kausani, Lansdowne and Auli in Uttarakhand; and Gulmarg, Pahalgam, Sonamarg and Patnitop in Jammu and Kashmir, with how they compare, when to go and how to combine them.",
+  "image": "/images/hills/himalayan-hill-stations-mussoorie.webp",
+  "imageAlt": "Mussoorie on its ridge in the Garhwal hills, Uttarakhand",
+  "tags": [
+   "Himalaya",
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "Kashmir",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "snow",
+   "viewpoints"
+  ],
+  "terrain": [
+   "mountains",
+   "forest",
+   "valleys"
+  ],
+  "regions": [
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "Jammu and Kashmir"
+  ],
+  "seasons": [
+   "summer",
+   "autumn",
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "hill-stations-in-northeast-india",
+  "title": "Hill Stations in Northeast India: Sikkim, Meghalaya, Arunachal and Beyond",
+  "short": "Hill stations in Northeast India",
+  "kind": "pillar",
+  "excerpt": "A guide to the hill stations of the eastern Himalaya and Northeast India: Darjeeling and Kalimpong in West Bengal, Gangtok, Pelling and Lachung in Sikkim, Shillong and Sohra in Meghalaya, Tawang, Dirang and Ziro in Arunachal Pradesh, Kohima in Nagaland, Aizawl in Mizoram and Haflong in Assam, with permit rules, seasons and how to combine them.",
+  "image": "/images/hills/northeast-hill-stations-gangtok.webp",
+  "imageAlt": "Gangtok on its hillside, Sikkim",
+  "tags": [
+   "Northeast India",
+   "Sikkim",
+   "Darjeeling",
+   "Meghalaya",
+   "Arunachal Pradesh"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "monasteries",
+   "viewpoints",
+   "culture"
+  ],
+  "terrain": [
+   "mountains",
+   "hills",
+   "forest"
+  ],
+  "regions": [
+   "West Bengal",
+   "Sikkim",
+   "Meghalaya",
+   "Arunachal Pradesh",
+   "Nagaland",
+   "Mizoram",
+   "Assam",
+   "Manipur"
+  ],
+  "seasons": [
+   "spring",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "friends",
+   "photographers"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "hill-stations-in-south-india",
+  "title": "Hill Stations in South India: The Nilgiris, Western Ghats and Beyond",
+  "short": "Hill stations in South India",
+  "kind": "pillar",
+  "excerpt": "A guide to the hill stations of South India: the Nilgiris (Ooty, Coonoor, Kotagiri) and Kodaikanal in Tamil Nadu, Munnar, Wayanad, Vagamon and Thekkady in Kerala, Coorg, Chikmagalur and Sakleshpur in Karnataka, and Araku, Horsley Hills and Lambasingi in Andhra Pradesh, with how they compare, seasons, e-passes and routes.",
+  "image": "/images/hills/south-india-hill-stations-munnar.webp",
+  "imageAlt": "Tea estates in the hills around Munnar, Kerala",
+  "tags": [
+   "South India",
+   "Western Ghats",
+   "Nilgiris",
+   "Munnar",
+   "Coorg"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "tea estates",
+   "coffee estates",
+   "walks"
+  ],
+  "terrain": [
+   "hills",
+   "forest",
+   "plantations"
+  ],
+  "regions": [
+   "Tamil Nadu",
+   "Kerala",
+   "Karnataka",
+   "Andhra Pradesh",
+   "Telangana"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "autumn",
+   "monsoon"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "hill-stations-in-western-and-central-india",
+  "title": "Hill Stations in Western and Central India: Mount Abu, Saputara, Pachmarhi and More",
+  "short": "Hill stations in western and central India",
+  "kind": "pillar",
+  "excerpt": "A guide to the hill stations of western and central India: the Sahyadri hills of Maharashtra, Saputara in Gujarat, Mount Abu in Rajasthan, Pachmarhi in Madhya Pradesh, Mainpat in Chhattisgarh, Netarhat in Jharkhand, Daringbadi in Odisha and Morni in Haryana, with what makes each distinct, seasons and access.",
+  "image": "/images/hills/western-central-hill-stations-mount-abu.webp",
+  "imageAlt": "Nakki Lake at Mount Abu, Rajasthan",
+  "tags": [
+   "Western India",
+   "Central India",
+   "Mount Abu",
+   "Pachmarhi",
+   "Saputara"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "viewpoints",
+   "waterfalls",
+   "forest walks"
+  ],
+  "terrain": [
+   "plateau",
+   "hills",
+   "forest"
+  ],
+  "regions": [
+   "Maharashtra",
+   "Gujarat",
+   "Rajasthan",
+   "Madhya Pradesh",
+   "Chhattisgarh",
+   "Jharkhand",
+   "Odisha",
+   "Haryana"
+  ],
+  "seasons": [
+   "monsoon",
+   "winter"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "hill-stations-in-himachal-pradesh",
+  "title": "Hill Stations in Himachal Pradesh: Shimla, Manali, Dharamshala and More",
+  "short": "Hill stations in Himachal Pradesh",
+  "kind": "state",
+  "excerpt": "A guide to the hill stations of Himachal Pradesh: Shimla with Kufri, Chail and Narkanda; Manali and the Kullu valley; Dharamshala, McLeod Ganj, Palampur and Bir in the Kangra valley; Dalhousie and Khajjiar; Kasauli; and quieter valleys such as Tirthan and Jibhi, with how they compare, seasons, getting there and routes.",
+  "image": "/images/hills/himachal-hill-stations-manali.webp",
+  "imageAlt": "Solang valley near Manali, Himachal Pradesh",
+  "tags": [
+   "Himachal Pradesh",
+   "Shimla",
+   "Manali",
+   "Dharamshala",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "viewpoints",
+   "sightseeing"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Himachal Pradesh"
+  ],
+  "seasons": [
+   "summer",
+   "autumn",
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/himalayan-hill-stations"
+ },
+ {
+  "slug": "hill-stations-in-uttarakhand",
+  "title": "Hill Stations in Uttarakhand: Mussoorie, Nainital and the Kumaon Hills",
+  "short": "Hill stations in Uttarakhand",
+  "kind": "state",
+  "excerpt": "A guide to the hill stations of Uttarakhand: Mussoorie, Landour, Dhanaulti, Kanatal, Chakrata and Lansdowne in Garhwal; Nainital and its lakes, Ranikhet, Almora, Binsar, Kausani, Mukteshwar and Munsiyari in Kumaon; and Auli and Chopta in the high Garhwal, with seasons, access and how to combine them.",
+  "image": "/images/hills/uttarakhand-hill-stations-nainital.webp",
+  "imageAlt": "Naini Lake seen from the hills above Nainital",
+  "tags": [
+   "Uttarakhand",
+   "Mussoorie",
+   "Nainital",
+   "Kumaon",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "viewpoints",
+   "sightseeing"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Uttarakhand"
+  ],
+  "seasons": [
+   "summer",
+   "autumn",
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/himalayan-hill-stations"
+ },
+ {
+  "slug": "hill-stations-in-jammu-and-kashmir",
+  "title": "Hill Stations in Jammu and Kashmir: Gulmarg, Pahalgam, Sonamarg and More",
+  "short": "Hill stations in Jammu and Kashmir",
+  "kind": "state",
+  "excerpt": "A guide to the hill resorts and valleys of Jammu and Kashmir: Gulmarg, Pahalgam and Sonamarg around Srinagar, quieter Doodhpathri and Yusmarg, the remote Gurez valley, and Patnitop and Bhaderwah in the Jammu hills, with seasons, snow and skiing, how to combine them and the importance of checking current advisories.",
+  "image": "/images/hills/kashmir-hill-stations-pahalgam.webp",
+  "imageAlt": "Meadow and pine forest at Pahalgam, Kashmir",
+  "tags": [
+   "Kashmir",
+   "Gulmarg",
+   "Pahalgam",
+   "Sonamarg",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "viewpoints",
+   "sightseeing"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Jammu and Kashmir"
+  ],
+  "seasons": [
+   "summer",
+   "autumn",
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/himalayan-hill-stations"
+ },
+ {
+  "slug": "hill-stations-in-sikkim",
+  "title": "Hill Stations in Sikkim: Gangtok, Pelling, Lachung and More",
+  "short": "Hill stations in Sikkim",
+  "kind": "state",
+  "excerpt": "A guide to the hill stations and valleys of Sikkim: Gangtok and day trips to Tsomgo and Nathu La, Pelling and Yuksom in the west, Ravangla and Namchi in the south, and Lachung, Yumthang and Lachen in the north, with permits, seasons, getting there and how to combine Sikkim with Darjeeling.",
+  "image": "/images/hills/sikkim-hill-stations-pelling-kanchenjunga.webp",
+  "imageAlt": "The Yumthang valley in North Sikkim",
+  "tags": [
+   "Sikkim",
+   "Gangtok",
+   "Pelling",
+   "Lachung",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "viewpoints",
+   "sightseeing"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Sikkim"
+  ],
+  "seasons": [
+   "spring",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/hill-stations-in-northeast-india"
+ },
+ {
+  "slug": "hill-stations-in-west-bengal",
+  "title": "Hill Stations in West Bengal: Darjeeling, Kalimpong and the Hills",
+  "short": "Hill stations in West Bengal",
+  "kind": "state",
+  "excerpt": "A guide to the hill stations of West Bengal: Darjeeling and its tea gardens and toy train, Kalimpong across the Teesta, Kurseong and Mirik, the forest villages of Lava, Lolegaon and Rishop, and the Sandakphu ridge trek, with seasons, getting there from Kolkata and how to combine the hills with Sikkim.",
+  "image": "/images/hills/west-bengal-hill-stations-kalimpong.webp",
+  "imageAlt": "Kalimpong town spread across its ridge, West Bengal",
+  "tags": [
+   "West Bengal",
+   "Darjeeling",
+   "Kalimpong",
+   "Tea",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "viewpoints",
+   "sightseeing"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "West Bengal"
+  ],
+  "seasons": [
+   "spring",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/hill-stations-in-northeast-india"
+ },
+ {
+  "slug": "hill-stations-in-meghalaya",
+  "title": "Hill Stations in Meghalaya: Shillong, Sohra and More",
+  "short": "Hill stations in Meghalaya",
+  "kind": "state",
+  "excerpt": "A guide to the hill towns of Meghalaya: Shillong and Umiam Lake, Sohra (Cherrapunji) with its waterfalls and caves, the living root bridges of Nongriat, Mawlynnong and Dawki near the Bangladesh border, Laitlum canyons, Jowai in the Jaintia hills and Tura in the Garo hills, with seasons, the monsoon and responsible travel.",
+  "image": "/images/hills/meghalaya-hill-stations-shillong.webp",
+  "imageAlt": "Umiam Lake near Shillong, Meghalaya",
+  "tags": [
+   "Meghalaya",
+   "Shillong",
+   "Sohra",
+   "Cherrapunji",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "viewpoints",
+   "sightseeing"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Meghalaya"
+  ],
+  "seasons": [
+   "autumn",
+   "winter",
+   "spring",
+   "monsoon"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/hill-stations-in-northeast-india"
+ },
+ {
+  "slug": "hill-stations-in-tamil-nadu",
+  "title": "Hill Stations in Tamil Nadu: Ooty, Kodaikanal, Yercaud and More",
+  "short": "Hill stations in Tamil Nadu",
+  "kind": "state",
+  "excerpt": "A guide to the hill stations of Tamil Nadu: Ooty, Coonoor and Kotagiri in the Nilgiris, Kodaikanal in the Palani hills, Yercaud and Yelagiri in the Eastern Ghats, Valparai in the Anamalai hills, and the Kolli Hills and Meghamalai, with how they compare, the e-pass for Ooty and Kodaikanal, seasons and routes.",
+  "image": "/images/hills/tamil-nadu-hill-stations-kodaikanal.webp",
+  "imageAlt": "Kodaikanal lake and town in the Palani hills, Tamil Nadu",
+  "tags": [
+   "Tamil Nadu",
+   "Ooty",
+   "Kodaikanal",
+   "Nilgiris",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "viewpoints",
+   "sightseeing"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Tamil Nadu"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "autumn"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/hill-stations-in-south-india"
+ },
+ {
+  "slug": "hill-stations-in-kerala",
+  "title": "Hill Stations in Kerala: Munnar, Wayanad, Vagamon and More",
+  "short": "Hill stations in Kerala",
+  "kind": "state",
+  "excerpt": "A guide to the hill stations of Kerala: Munnar and its tea estates and Eravikulam National Park, Wayanad's forests and caves, Vagamon's meadows, Thekkady and Periyar, Ponmudi near Thiruvananthapuram and Nelliyampathy near Palakkad, with seasons, the monsoon, the Neelakurinji bloom and how to combine the hills with the coast.",
+  "image": "/images/hills/kerala-hill-stations-vagamon.webp",
+  "imageAlt": "Grassy hills under clouds near Vagamon, Idukki, Kerala",
+  "tags": [
+   "Kerala",
+   "Munnar",
+   "Wayanad",
+   "Vagamon",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "viewpoints",
+   "sightseeing"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Kerala"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/hill-stations-in-south-india"
+ },
+ {
+  "slug": "hill-stations-in-karnataka",
+  "title": "Hill Stations in Karnataka: Coorg, Chikmagalur and More",
+  "short": "Hill stations in Karnataka",
+  "kind": "state",
+  "excerpt": "A guide to the hill stations and hill country of Karnataka: Coorg (Kodagu) and Madikeri, Chikmagalur with Mullayanagiri and Kemmangundi, Sakleshpur, Kudremukh and Agumbe in the Western Ghats, and Nandi Hills and BR Hills closer to Bengaluru and Mysuru, with coffee estates, treks, seasons, the monsoon and how to combine them.",
+  "image": "/images/hills/karnataka-hill-stations-chikmagalur.webp",
+  "imageAlt": "Grassland hills near Kemmangundi, Chikkamagaluru district, Karnataka",
+  "tags": [
+   "Karnataka",
+   "Coorg",
+   "Chikmagalur",
+   "Coffee",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "viewpoints",
+   "sightseeing"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Karnataka"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring",
+   "monsoon"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/hill-stations-in-south-india"
+ },
+ {
+  "slug": "hill-stations-in-maharashtra",
+  "title": "Hill Stations in Maharashtra: Mahabaleshwar, Lonavala, Matheran and More",
+  "short": "Hill stations in Maharashtra",
+  "kind": "state",
+  "excerpt": "A guide to the hill stations of Maharashtra: Mahabaleshwar and Panchgani, Lonavala and Khandala, car-free Matheran, Bhandardara and Igatpuri, Malshej Ghat, Amboli in the south and Chikhaldara in Vidarbha, with how they compare, the monsoon season, getting there from Mumbai and Pune, and nearby forts and caves.",
+  "image": "/images/hills/maharashtra-hill-stations-mahabaleshwar.webp",
+  "imageAlt": "A forested valley below Mahabaleshwar, Maharashtra",
+  "tags": [
+   "Maharashtra",
+   "Mahabaleshwar",
+   "Lonavala",
+   "Matheran",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "viewpoints",
+   "sightseeing"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Maharashtra"
+  ],
+  "seasons": [
+   "monsoon",
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/hill-stations-in-western-and-central-india"
+ },
+ {
+  "slug": "summer-hill-stations-in-india",
+  "title": "Best Hill Stations in India for Summer: Cool Escapes from April to June",
+  "short": "Summer hill stations",
+  "kind": "pillar",
+  "excerpt": "A guide to the best hill stations for summer in India, from April to June: the Himalayan towns of Himachal and Uttarakhand, Kashmir's meadows, Darjeeling, Sikkim and Shillong in the east, the Nilgiris, Kodaikanal and Munnar in the south, and high valleys that open in June, with how to avoid the crowds.",
+  "image": "/images/hills/summer-hill-stations-gulmarg-meadow.webp",
+  "imageAlt": "Green meadows below the snow-streaked Apharwat range near Gulmarg",
+  "tags": [
+   "Summer",
+   "Hill Stations",
+   "Cool Places",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "sightseeing"
+  ],
+  "terrain": [
+   "mountains",
+   "hills"
+  ],
+  "regions": [
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "Jammu and Kashmir",
+   "Sikkim",
+   "West Bengal",
+   "Meghalaya",
+   "Tamil Nadu",
+   "Kerala"
+  ],
+  "seasons": [
+   "summer"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "winter-hill-stations-in-india",
+  "title": "Best Hill Stations in India in Winter: Snow, Sunshine and Clear Views",
+  "short": "Winter hill stations",
+  "kind": "pillar",
+  "excerpt": "A guide to the best hill stations in India in winter, December to February: snow resorts such as Gulmarg, Manali, Auli and Narkanda, clear-view hills such as Kausani, Mukteshwar and Darjeeling, and the mild southern hills of Munnar, Ooty, Kodaikanal and Coorg, with cold-weather tips and Christmas and New Year planning.",
+  "image": "/images/hills/winter-hill-stations-shimla-snow.webp",
+  "imageAlt": "Snow on the trees and Christ Church in Shimla",
+  "tags": [
+   "Winter",
+   "Hill Stations",
+   "Snow",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "snow",
+   "viewpoints"
+  ],
+  "terrain": [
+   "mountains",
+   "hills"
+  ],
+  "regions": [
+   "Jammu and Kashmir",
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "West Bengal",
+   "Sikkim",
+   "Kerala",
+   "Tamil Nadu",
+   "Karnataka"
+  ],
+  "seasons": [
+   "winter"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "friends"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "places-to-see-snow-in-india",
+  "title": "Places to See Snow in India: Where and When Snowfall Is Likely",
+  "short": "Places to see snow in India",
+  "kind": "pillar",
+  "excerpt": "A guide to places to see snow in India and when snow is most likely: Gulmarg, Sonamarg and Pahalgam in Kashmir, Solang, Sissu and the Shimla hills in Himachal, Auli and Chopta in Uttarakhand, Tsomgo, Nathu La and North Sikkim, and Tawang and Sela in Arunachal, plus snow in spring and early summer at high passes, snow activities, and why snowfall is never guaranteed.",
+  "image": "/images/hills/snow-in-india-gulmarg-winter.webp",
+  "imageAlt": "Snow-covered slopes and visitors at Gulmarg, Kashmir",
+  "tags": [
+   "Snow",
+   "Winter",
+   "Gulmarg",
+   "Manali",
+   "Sikkim"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "snow",
+   "skiing",
+   "sledging",
+   "winter travel"
+  ],
+  "terrain": [
+   "mountains",
+   "high altitude"
+  ],
+  "regions": [
+   "Jammu and Kashmir",
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "Sikkim",
+   "Arunachal Pradesh"
+  ],
+  "seasons": [
+   "winter",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "monsoon-hill-stations-in-india",
+  "title": "Monsoon Hill Stations in India: Western Ghats, Meghalaya and Rain-Shadow Escapes",
+  "short": "Monsoon hill stations",
+  "kind": "pillar",
+  "excerpt": "A guide to hill stations in the monsoon, June to September: the Western Ghats near Mumbai and Pune (Lonavala, Matheran, Bhandardara, Malshej, Amboli), Coorg, Chikmagalur, Wayanad and Munnar in the south, Meghalaya's waterfalls, the Kaas plateau and Valley of Flowers blooms, and the rain-shadow valleys of Ladakh and Spiti, with landslide and road safety.",
+  "image": "/images/hills/monsoon-hill-stations-cherrapunji.webp",
+  "imageAlt": "The green Mawkdok Dympep valley on the road from Shillong to Sohra",
+  "tags": [
+   "Monsoon",
+   "Western Ghats",
+   "Meghalaya",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "monsoon",
+   "waterfalls",
+   "hill stations",
+   "walks"
+  ],
+  "terrain": [
+   "hills",
+   "plateau",
+   "forest"
+  ],
+  "regions": [
+   "Maharashtra",
+   "Karnataka",
+   "Kerala",
+   "Meghalaya",
+   "Ladakh",
+   "Himachal Pradesh"
+  ],
+  "seasons": [
+   "monsoon"
+  ],
+  "travellers": [
+   "couples",
+   "friends",
+   "photographers"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "hill-stations-for-couples-in-india",
+  "title": "Hill Stations for Couples in India: Romantic Mountain Getaways",
+  "short": "Hill stations for couples",
+  "kind": "pillar",
+  "excerpt": "A guide to hill stations for couples and honeymooners in India: Kashmir's meadows and houseboats, Manali and the Kullu valley, quiet Kumaon ridges such as Kausani and Binsar, Darjeeling, Kalimpong and Pelling, Munnar, Vagamon, Coorg and Chikmagalur, with the best season for each, what makes a stay romantic, and how to avoid the crowds.",
+  "image": "/images/hills/couples-hill-stations-dal-lake-shikara.webp",
+  "imageAlt": "Shikaras on Dal Lake, Srinagar",
+  "tags": [
+   "Couples",
+   "Honeymoon",
+   "Romantic",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "honeymoon",
+   "walks",
+   "viewpoints"
+  ],
+  "terrain": [
+   "mountains",
+   "hills"
+  ],
+  "regions": [
+   "Jammu and Kashmir",
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "West Bengal",
+   "Sikkim",
+   "Kerala",
+   "Karnataka"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "autumn"
+  ],
+  "travellers": [
+   "couples",
+   "honeymooners"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "hill-stations-for-families-in-india",
+  "title": "Family Hill Stations in India: Easy, Safe-Feeling Mountain Holidays",
+  "short": "Hill stations for families",
+  "kind": "pillar",
+  "excerpt": "A guide to family-friendly hill stations in India: easy towns such as Shimla, Mussoorie, Nainital, Ooty, Kodaikanal and Mahabaleshwar, activity-rich Manali and Darjeeling, Gangtok and Munnar, with what to look for in a family hill station, travelling with young children and grandparents, winding roads and motion sickness, and the best seasons.",
+  "image": "/images/hills/family-hill-stations-ooty-botanical-garden.webp",
+  "imageAlt": "Terraced flower beds in the Government Botanical Garden, Ooty",
+  "tags": [
+   "Families",
+   "Children",
+   "Hill Stations",
+   "Family Holidays"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "toy trains",
+   "boating",
+   "gardens"
+  ],
+  "terrain": [
+   "hills",
+   "mountains",
+   "lakes"
+  ],
+  "regions": [
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "West Bengal",
+   "Sikkim",
+   "Tamil Nadu",
+   "Kerala",
+   "Maharashtra"
+  ],
+  "seasons": [
+   "summer",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "families",
+   "children",
+   "seniors"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "budget-hill-stations-in-india",
+  "title": "Budget Hill Stations in India: Affordable Mountain Trips",
+  "short": "Budget hill stations",
+  "kind": "pillar",
+  "excerpt": "A guide to budget-friendly hill stations in India and how to travel cheaply in the hills: backpacker towns such as McLeod Ganj, Kasol, Bir and Jibhi, small, uncrowded hill towns such as Kasauli, Lansdowne and Kalimpong, the southern hills of Yercaud and Kodaikanal, and practical ways to cut costs on transport, stays, food and timing, without quoting prices that go out of date.",
+  "image": "/images/hills/budget-hill-stations-mcleod-ganj.webp",
+  "imageAlt": "A temple on the main street of McLeod Ganj, above Dharamshala",
+  "tags": [
+   "Budget Travel",
+   "Hill Stations",
+   "Backpacking",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "backpacking",
+   "walks"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "West Bengal",
+   "Tamil Nadu",
+   "Maharashtra"
+  ],
+  "seasons": [
+   "autumn",
+   "spring",
+   "winter"
+  ],
+  "travellers": [
+   "students",
+   "friends",
+   "solo travellers",
+   "families"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "luxury-hill-holidays-in-india",
+  "title": "Luxury Hill Holidays in India: Heritage Hotels, Plantation Bungalows and Mountain Retreats",
+  "short": "Luxury hill holidays",
+  "kind": "pillar",
+  "excerpt": "A guide to luxury hill holidays in India: colonial heritage hotels in Shimla, Mussoorie and Darjeeling, tea estate bungalows in Darjeeling, Munnar and the Nilgiris, coffee estate villas in Coorg and Chikmagalur, Himalayan spa retreats and Kashmir's houseboats, with what luxury means in the mountains, private transfers, wellness and seasons, without naming or rating specific hotels.",
+  "image": "/images/hills/luxury-hill-holidays-darjeeling-tea-estate.webp",
+  "imageAlt": "Happy Valley Tea Estate below Darjeeling",
+  "tags": [
+   "Luxury",
+   "Heritage Hotels",
+   "Plantation Stays",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "heritage stays",
+   "plantation stays",
+   "wellness",
+   "hill stations"
+  ],
+  "terrain": [
+   "hills",
+   "mountains",
+   "plantations"
+  ],
+  "regions": [
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "West Bengal",
+   "Jammu and Kashmir",
+   "Kerala",
+   "Tamil Nadu",
+   "Karnataka"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "autumn"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "seniors"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "hill-stations-near-delhi",
+  "title": "Hill Stations Near Delhi: Weekend and Short-Trip Options",
+  "short": "Hill stations near Delhi",
+  "kind": "weekend",
+  "excerpt": "A guide to the hill stations within reach of Delhi for weekends and short breaks: Lansdowne, Kasauli, Mussoorie, Nainital, Shimla, Dhanaulti, Chail, Morni Hills, Mukteshwar and, overnight, McLeod Ganj and Manali, with approximate distances, the best trains and buses, and how to avoid the traffic.",
+  "image": "/images/hills/near-delhi-hill-stations-lansdowne.webp",
+  "imageAlt": "Pine forest at Lansdowne, Uttarakhand",
+  "tags": [
+   "Delhi",
+   "Weekend Getaways",
+   "Hill Stations",
+   "Uttarakhand",
+   "Himachal Pradesh"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "weekend trips",
+   "hill stations",
+   "walks"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Uttarakhand",
+   "Himachal Pradesh",
+   "Haryana"
+  ],
+  "seasons": [
+   "all seasons"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "hill-stations-near-mumbai",
+  "title": "Hill Stations Near Mumbai and Pune: Weekend and Short-Trip Options",
+  "short": "Hill stations near Mumbai and Pune",
+  "kind": "weekend",
+  "excerpt": "A guide to the hill stations within weekend reach of Mumbai and Pune: Matheran, Lonavala and Khandala, Igatpuri, Bhandardara, Malshej Ghat, Mahabaleshwar and Panchgani, and Saputara across the Gujarat border, with approximate distances, trains and roads, the monsoon season and how to avoid weekend crowds.",
+  "image": "/images/hills/near-mumbai-hill-stations-matheran.webp",
+  "imageAlt": "The Western Ghats seen from Matheran",
+  "tags": [
+   "Mumbai",
+   "Pune",
+   "Weekend Getaways",
+   "Sahyadri",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "weekend trips",
+   "hill stations",
+   "walks"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Maharashtra",
+   "Gujarat"
+  ],
+  "seasons": [
+   "monsoon",
+   "winter"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "hill-stations-near-bengaluru",
+  "title": "Hill Stations Near Bengaluru: Weekend and Short-Trip Options",
+  "short": "Hill stations near Bengaluru",
+  "kind": "weekend",
+  "excerpt": "A guide to the hill stations within weekend reach of Bengaluru: Nandi Hills for a sunrise day trip, Yelagiri and Horsley Hills for a quick escape, Yercaud, Sakleshpur, Chikmagalur and Coorg for coffee country, BR Hills near Mysuru, and Ooty and Kodaikanal for a longer weekend, with approximate distances, routes, forest-road rules and seasons.",
+  "image": "/images/hills/near-bengaluru-hill-stations-nandi-hills.webp",
+  "imageAlt": "The view from Nandi Hills over the plains near Bengaluru",
+  "tags": [
+   "Bengaluru",
+   "Weekend Getaways",
+   "Coorg",
+   "Chikmagalur",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "weekend trips",
+   "hill stations",
+   "walks"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Karnataka",
+   "Tamil Nadu",
+   "Andhra Pradesh"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "hill-stations-near-chennai",
+  "title": "Hill Stations Near Chennai: Weekend and Short-Trip Options",
+  "short": "Hill stations near Chennai",
+  "kind": "weekend",
+  "excerpt": "A guide to the hill stations within reach of Chennai: Yelagiri and Horsley Hills for a weekend, Yercaud and the Kolli Hills for a longer break, and Kodaikanal, Ooty and Munnar by overnight train or bus, with approximate distances, the best trains and buses, e-pass rules and seasons.",
+  "image": "/images/hills/near-chennai-hill-stations-yelagiri.webp",
+  "imageAlt": "The road into the Yelagiri hills, Tamil Nadu",
+  "tags": [
+   "Chennai",
+   "Weekend Getaways",
+   "Yelagiri",
+   "Yercaud",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "weekend trips",
+   "hill stations",
+   "walks"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "Tamil Nadu",
+   "Andhra Pradesh"
+  ],
+  "seasons": [
+   "winter",
+   "autumn",
+   "spring"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "hill-stations-near-kolkata",
+  "title": "Hill Stations Near Kolkata: Weekend and Short-Trip Options",
+  "short": "Hill stations near Kolkata",
+  "kind": "weekend",
+  "excerpt": "A guide to the hill stations within reach of Kolkata: the Darjeeling hills (Darjeeling, Kalimpong, Kurseong, Mirik) and Sikkim by overnight train or a short flight to Bagdogra, closer plateau and forest breaks at Ajodhya Hills, Ghatshila and Jhargram, and Netarhat in Jharkhand, with approximate distances, trains and seasons.",
+  "image": "/images/hills/near-kolkata-hill-stations-darjeeling.webp",
+  "imageAlt": "The clock tower of Darjeeling's municipal building at night",
+  "tags": [
+   "Kolkata",
+   "Weekend Getaways",
+   "Darjeeling",
+   "Hill Stations"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "weekend trips",
+   "hill stations",
+   "walks"
+  ],
+  "terrain": [
+   "hills",
+   "mountains"
+  ],
+  "regions": [
+   "West Bengal",
+   "Sikkim",
+   "Jharkhand"
+  ],
+  "seasons": [
+   "spring",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "mountain-road-trips-in-india",
+  "title": "Mountain Road Trips in India: Himalayan, Northeast and Western Ghats Drives",
+  "short": "Mountain road trips in India",
+  "kind": "activity",
+  "excerpt": "A guide to mountain road trips in India: the Manali-Leh and Srinagar-Leh highways, the Spiti circuit through Kinnaur, the Atal Tunnel to Lahaul, Uttarakhand's Kumaon loop, Sikkim's North and Zuluk routes, the road to Tawang over the Sela Pass, Meghalaya's plateau, and the hill roads of Kerala, Tamil Nadu, Karnataka and Maharashtra, with seasons, permits, vehicles and safety.",
+  "image": "/images/hills/mountain-road-trips-atal-tunnel-lahaul.webp",
+  "imageAlt": "Snow peaks above the Leh-Manali highway near Gulaba",
+  "tags": [
+   "Road Trips",
+   "Mountains",
+   "Himalaya",
+   "Western Ghats",
+   "Driving"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "road trips",
+   "driving",
+   "mountains",
+   "sightseeing"
+  ],
+  "terrain": [
+   "mountains",
+   "high altitude",
+   "ghats"
+  ],
+  "regions": [
+   "Ladakh",
+   "Himachal Pradesh",
+   "Uttarakhand",
+   "Sikkim",
+   "Arunachal Pradesh",
+   "Meghalaya",
+   "Kerala",
+   "Tamil Nadu",
+   "Karnataka",
+   "Maharashtra"
+  ],
+  "seasons": [
+   "summer",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "friends",
+   "couples",
+   "families",
+   "bikers"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "tea-tourism-in-india",
+  "title": "Tea Tourism in India: Darjeeling, Assam, Munnar, the Nilgiris and Beyond",
+  "short": "Tea tourism in India",
+  "kind": "activity",
+  "excerpt": "A guide to tea tourism in India: Darjeeling's hill estates and flushes, Assam's plains gardens around Jorhat and Dibrugarh, the Nilgiris around Coonoor and Kotagiri, Munnar's estates and tea museum, Kangra tea near Palampur, Sikkim's Temi garden, and Valparai, with estate walks, factory visits, tastings, bungalow stays and the best seasons.",
+  "image": "/images/hills/tea-tourism-darjeeling-tea-garden.webp",
+  "imageAlt": "A tea garden on the hills of Darjeeling",
+  "tags": [
+   "Tea",
+   "Tea Estates",
+   "Darjeeling",
+   "Munnar",
+   "Assam"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "tea estates",
+   "tastings",
+   "walks",
+   "plantation stays"
+  ],
+  "terrain": [
+   "hills",
+   "plantations"
+  ],
+  "regions": [
+   "West Bengal",
+   "Assam",
+   "Tamil Nadu",
+   "Kerala",
+   "Himachal Pradesh",
+   "Sikkim"
+  ],
+  "seasons": [
+   "spring",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "food lovers"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "coffee-plantation-tourism-in-india",
+  "title": "Coffee Plantation Tourism in India: Coorg, Chikmagalur, Araku and More",
+  "short": "Coffee plantation tourism",
+  "kind": "activity",
+  "excerpt": "A guide to coffee plantation tourism in India: estate homestays and plantation walks in Coorg, Chikmagalur and Sakleshpur in Karnataka, Araku Valley's tribal-grown coffee in Andhra Pradesh, Wayanad in Kerala, and Yercaud and the lower Palani hills in Tamil Nadu, with the blossom and harvest seasons, what you can see and how to buy.",
+  "image": "/images/hills/coffee-plantation-coorg.webp",
+  "imageAlt": "Coffee cherries ripening on a plant in Coorg",
+  "tags": [
+   "Coffee",
+   "Coorg",
+   "Chikmagalur",
+   "Araku",
+   "Plantation Stays"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "coffee estates",
+   "plantation stays",
+   "walks",
+   "tastings"
+  ],
+  "terrain": [
+   "hills",
+   "plantations",
+   "forest"
+  ],
+  "regions": [
+   "Karnataka",
+   "Kerala",
+   "Tamil Nadu",
+   "Andhra Pradesh"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "monsoon"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "food lovers"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "how-to-plan-a-hill-station-trip",
+  "title": "How to Plan a Hill Station Trip in India: Season, Days, Budget and Roads",
+  "short": "How to plan a hill station trip",
+  "kind": "planning",
+  "excerpt": "A practical guide to planning a hill station trip in India: choosing a hill for the month, how many days to allow, getting there by road, rail or air, realistic mountain driving, choosing stays, what drives cost, permits and e-passes, weather and landslides, and tips for families, couples and older travellers.",
+  "image": "/images/hills/plan-hill-station-trip-kausani-himalaya.webp",
+  "imageAlt": "The Kumaon Himalaya seen above a sea of clouds from Kausani",
+  "tags": [
+   "Planning",
+   "Hill Stations",
+   "Travel Tips",
+   "India"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "planning",
+   "hill stations"
+  ],
+  "terrain": [
+   "mountains",
+   "hills"
+  ],
+  "regions": [
+   "India"
+  ],
+  "seasons": [
+   "all seasons"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "first-time visitors",
+   "seniors"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "hill-station-packing-list",
+  "title": "Hill Station Packing List: What to Pack and Wear in the Mountains",
+  "short": "Hill station packing list",
+  "kind": "planning",
+  "excerpt": "A season-by-season packing list for hill station and mountain trips in India: clothing layers for summer, monsoon and winter, snow clothing and what to rent, footwear, rain gear, documents and permits, a basic health kit, gear for children, and what to wear at temples, monasteries and in conservative areas.",
+  "image": "/images/hills/hill-station-packing-auli-snow.webp",
+  "imageAlt": "Patchy snow on the slopes at Auli, Uttarakhand",
+  "tags": [
+   "Packing",
+   "What to Wear",
+   "Hill Stations",
+   "Planning"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "planning",
+   "packing"
+  ],
+  "terrain": [
+   "mountains",
+   "hills"
+  ],
+  "regions": [
+   "India"
+  ],
+  "seasons": [
+   "all seasons"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "first-time visitors"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "responsible-mountain-travel-in-india",
+  "title": "Responsible Mountain Travel in India: Roads, Waste, Altitude and Local Rules",
+  "short": "Responsible mountain travel",
+  "kind": "planning",
+  "excerpt": "A practical guide to responsible travel in India's hills and mountains: reducing waste and single-use plastic, avoiding traffic jams and illegal parking, saving water, respecting wildlife and forest rules, acclimatising to altitude, following local permits and regulations, behaving well at sacred sites, photographing people respectfully, supporting local homestays and guides, and travelling off-peak.",
+  "image": "/images/hills/responsible-mountain-travel-khonoma.webp",
+  "imageAlt": "Khonoma village on its ridge, Nagaland",
+  "tags": [
+   "Responsible Travel",
+   "Mountains",
+   "Sustainability",
+   "Planning"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "responsible travel",
+   "planning"
+  ],
+  "terrain": [
+   "mountains",
+   "hills"
+  ],
+  "regions": [
+   "India"
+  ],
+  "seasons": [
+   "all seasons"
+  ],
+  "travellers": [
+   "all travellers"
+  ],
+  "parent": "/hill-station-travel"
+ },
+ {
+  "slug": "shimla-manali-itinerary",
+  "title": "Shimla Manali Itinerary: 6 to 8 Days in Himachal",
+  "short": "Shimla Manali itinerary",
+  "kind": "planning",
+  "excerpt": "A practical six to eight day Shimla and Manali itinerary: the Kalka-Shimla toy train, Shimla's Ridge and Kufri, the long drive to Manali through the Kullu valley, Old Manali, Solang valley and the Atal Tunnel to Sissu, Naggar and Kasol, with variations for winter snow, adding Dharamshala, and returning by overnight bus or flight.",
+  "image": "/images/hills/shimla-manali-itinerary-kullu-valley.webp",
+  "imageAlt": "The Beas valley near Palchan, above Manali",
+  "tags": [
+   "Shimla",
+   "Manali",
+   "Himachal Pradesh",
+   "Itinerary"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "road trips",
+   "snow",
+   "sightseeing"
+  ],
+  "terrain": [
+   "mountains",
+   "valleys"
+  ],
+  "regions": [
+   "Himachal Pradesh"
+  ],
+  "seasons": [
+   "summer",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends",
+   "first-time visitors"
+  ],
+  "parent": "/blog/hill-stations-in-himachal-pradesh"
+ },
+ {
+  "slug": "uttarakhand-hill-stations-itinerary",
+  "title": "Uttarakhand Hill Stations Itinerary: Mussoorie, Nainital and Kumaon",
+  "short": "Uttarakhand hill stations itinerary",
+  "kind": "planning",
+  "excerpt": "Two practical Uttarakhand hill-station itineraries: a five-day Garhwal route through Rishikesh, Mussoorie, Landour and Dhanaulti, and a seven-day Kumaon loop through Nainital, Bhimtal, Mukteshwar, Kausani and Binsar, with how to combine them, trains from Delhi, seasons and monsoon cautions.",
+  "image": "/images/hills/uttarakhand-itinerary-mussoorie-landour.webp",
+  "imageAlt": "Snow on a church in Mussoorie",
+  "tags": [
+   "Uttarakhand",
+   "Mussoorie",
+   "Nainital",
+   "Kumaon",
+   "Itinerary"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "walks",
+   "viewpoints",
+   "road trips"
+  ],
+  "terrain": [
+   "mountains",
+   "forest",
+   "lakes"
+  ],
+  "regions": [
+   "Uttarakhand"
+  ],
+  "seasons": [
+   "summer",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/hill-stations-in-uttarakhand"
+ },
+ {
+  "slug": "kashmir-itinerary",
+  "title": "Kashmir Itinerary: 5 to 7 Days in Srinagar, Gulmarg, Pahalgam and Sonamarg",
+  "short": "Kashmir itinerary",
+  "kind": "planning",
+  "excerpt": "A practical five to seven day Kashmir itinerary: Srinagar's Dal Lake, houseboats, Mughal gardens and old city, Gulmarg's meadows and gondola, Pahalgam and the Lidder valley, and a day trip to Sonamarg, with seasonal variations for tulips, summer meadows, autumn and winter snow, where to stay, and the importance of checking current official advisories.",
+  "image": "/images/hills/kashmir-itinerary-sonamarg.webp",
+  "imageAlt": "The Sindh valley at Sonamarg, Kashmir",
+  "tags": [
+   "Kashmir",
+   "Srinagar",
+   "Gulmarg",
+   "Pahalgam",
+   "Itinerary"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "houseboats",
+   "gardens",
+   "snow"
+  ],
+  "terrain": [
+   "valleys",
+   "mountains",
+   "lakes"
+  ],
+  "regions": [
+   "Jammu and Kashmir"
+  ],
+  "seasons": [
+   "spring",
+   "summer",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "friends"
+  ],
+  "parent": "/blog/hill-stations-in-jammu-and-kashmir"
+ },
+ {
+  "slug": "darjeeling-sikkim-itinerary",
+  "title": "Darjeeling and Sikkim Itinerary: Darjeeling, Gangtok and Pelling",
+  "short": "Darjeeling and Sikkim itinerary",
+  "kind": "planning",
+  "excerpt": "A practical seven to nine day Darjeeling and Sikkim itinerary: Darjeeling's Tiger Hill, toy train and tea estates, Pelling's Kanchenjunga views and monasteries, Ravangla, Gangtok and a permit day trip to Tsomgo Lake and Nathu La, with an optional North Sikkim extension to Lachung and Yumthang, permits, seasons and transfers.",
+  "image": "/images/hills/darjeeling-sikkim-itinerary-tsomgo-lake.webp",
+  "imageAlt": "Tsomgo (Changu) Lake in East Sikkim",
+  "tags": [
+   "Darjeeling",
+   "Sikkim",
+   "Gangtok",
+   "Pelling",
+   "Itinerary"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "monasteries",
+   "tea estates",
+   "viewpoints"
+  ],
+  "terrain": [
+   "mountains",
+   "valleys"
+  ],
+  "regions": [
+   "West Bengal",
+   "Sikkim"
+  ],
+  "seasons": [
+   "spring",
+   "autumn",
+   "winter"
+  ],
+  "travellers": [
+   "couples",
+   "families",
+   "friends"
+  ],
+  "parent": "/blog/hill-stations-in-sikkim"
+ },
+ {
+  "slug": "south-india-hill-stations-itinerary",
+  "title": "South India Hill Stations Itinerary: Ooty, Kodaikanal and Munnar",
+  "short": "South India hill stations itinerary",
+  "kind": "planning",
+  "excerpt": "A practical eight-day South India hill stations itinerary: the Nilgiri Mountain Railway to Coonoor and Ooty, Kodaikanal in the Palani hills, and Munnar's tea estates, ending in Kochi, with approximate drive times, the Tamil Nadu e-pass, seasons, where to stay, and extensions to Thekkady, the backwaters, Coorg or Wayanad.",
+  "image": "/images/hills/south-india-hill-itinerary-coonoor.webp",
+  "imageAlt": "Tea plantations at Coonoor in the Nilgiris",
+  "tags": [
+   "Ooty",
+   "Kodaikanal",
+   "Munnar",
+   "South India",
+   "Itinerary"
+  ],
+  "readTime": "4 min",
+  "activities": [
+   "hill stations",
+   "tea estates",
+   "toy train",
+   "viewpoints"
+  ],
+  "terrain": [
+   "hills",
+   "plantations",
+   "forest"
+  ],
+  "regions": [
+   "Tamil Nadu",
+   "Kerala"
+  ],
+  "seasons": [
+   "winter",
+   "spring",
+   "autumn"
+  ],
+  "travellers": [
+   "families",
+   "couples",
+   "friends"
+  ],
+  "parent": "/blog/hill-stations-in-south-india"
+ }
+]

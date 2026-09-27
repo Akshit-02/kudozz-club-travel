@@ -1,0 +1,336 @@
+{
+  "slug": "coffee-plantation-tourism-in-india",
+  "kind": "activity",
+  "short": "Coffee plantation tourism",
+  "title": "Coffee Plantation Tourism in India: Coorg, Chikmagalur, Araku and More",
+  "seoTitle": "Coffee Plantation Tourism in India: Coorg and More | Kudozz Club",
+  "metaDescription": "Coffee plantation tourism in India: estate stays and walks in Coorg, Chikmagalur and Sakleshpur, Araku's tribal coffee, Wayanad and Yercaud.",
+  "description": "A guide to coffee plantation tourism in India: estate homestays and plantation walks in Coorg, Chikmagalur and Sakleshpur in Karnataka, Araku Valley's tribal-grown coffee in Andhra Pradesh, Wayanad in Kerala, and Yercaud and the lower Palani hills in Tamil Nadu, with the blossom and harvest seasons, what you can see and how to buy.",
+  "dek": "India's coffee grows under shade trees in the Western and Eastern Ghats. Staying on an estate is one of the most relaxing ways to see the hills.",
+  "primaryKeyword": "coffee plantation tourism India",
+  "secondaryKeywords": [
+    "coffee estate stays",
+    "coffee tourism Coorg",
+    "coffee tourism Chikmagalur"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "coffee estates",
+    "plantation stays",
+    "walks",
+    "tastings"
+  ],
+  "terrain": [
+    "hills",
+    "plantations",
+    "forest"
+  ],
+  "regions": [
+    "Karnataka",
+    "Kerala",
+    "Tamil Nadu",
+    "Andhra Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "monsoon"
+  ],
+  "travellers": [
+    "couples",
+    "families",
+    "food lovers"
+  ],
+  "tags": [
+    "Coffee",
+    "Coorg",
+    "Chikmagalur",
+    "Araku",
+    "Plantation Stays"
+  ],
+  "hero": {
+    "src": "/images/hills/coffee-plantation-coorg.webp",
+    "alt": "Coffee cherries ripening on a plant in Coorg"
+  },
+  "parent": {
+    "label": "Hill Stations",
+    "href": "/hill-station-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Coffee plantation tourism in India"
+  },
+  "intro": [
+    "Most of India's coffee is grown in the Western Ghats of Karnataka, Kerala and Tamil Nadu, with a smaller, distinctive crop in the Eastern Ghats around Araku. Much of it grows under a canopy of shade trees, often alongside pepper, cardamom and areca, which makes the estates feel like forest.",
+    "Estate homestays, where you stay with a planting family, are the classic way to experience coffee country."
+  ],
+  "quickAnswer": "The best places for coffee plantation tourism in India are Coorg (Kodagu), Chikmagalur and Sakleshpur in Karnataka, Wayanad in Kerala, Yercaud and the lower Palani hills in Tamil Nadu, and Araku Valley in Andhra Pradesh. Stay on an estate homestay, join a plantation walk, and time your visit for the blossom (around February to March) or the harvest (around November to February).",
+  "takeaways": [
+    "Karnataka's Coorg and Chikmagalur produce much of India's coffee.",
+    "Estate homestays offer plantation walks and home-cooked regional food.",
+    "Coffee blossom is brief and fragrant, around February to March after the first showers.",
+    "The harvest runs roughly from November to February.",
+    "Araku's coffee is grown largely by tribal farmers, many in cooperatives."
+  ],
+  "sections": [
+    {
+      "id": "regions",
+      "heading": "Coffee regions at a glance",
+      "table": {
+        "columns": [
+          "Region",
+          "State",
+          "Known for",
+          "Nearest city"
+        ],
+        "rows": [
+          [
+            "Coorg (Kodagu)",
+            "Karnataka",
+            "Estate homestays, Kodava culture",
+            "Mysuru; Bengaluru"
+          ],
+          [
+            "Chikmagalur",
+            "Karnataka",
+            "Baba Budangiri, Mullayanagiri",
+            "Bengaluru; Mangaluru"
+          ],
+          [
+            "Sakleshpur",
+            "Karnataka",
+            "Estates and the Bisle ghat",
+            "Hassan"
+          ],
+          [
+            "Wayanad",
+            "Kerala",
+            "Coffee with pepper and forest",
+            "Kozhikode"
+          ],
+          [
+            "Yercaud",
+            "Tamil Nadu",
+            "Shevaroy hills coffee",
+            "Salem"
+          ],
+          [
+            "Lower Palani hills",
+            "Tamil Nadu",
+            "Estates below Kodaikanal",
+            "Madurai"
+          ],
+          [
+            "Araku Valley",
+            "Andhra Pradesh",
+            "Tribal-grown coffee, coffee museum",
+            "Visakhapatnam"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "karnataka",
+      "heading": "Karnataka",
+      "items": [
+        {
+          "name": "Coorg, Chikmagalur and Sakleshpur",
+          "body": [
+            "Estate homestays, plantation walks, waterfalls and viewpoints."
+          ],
+          "links": [
+            {
+              "label": "Coorg guide",
+              "href": "/blog/coorg-travel-guide"
+            },
+            {
+              "label": "Chikmagalur guide",
+              "href": "/blog/chikmagalur-travel-guide"
+            },
+            {
+              "label": "Sakleshpur guide",
+              "href": "/blog/sakleshpur-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/chikmagalur/baba-budangiri-chikmagalur.webp",
+            "alt": "The Baba Budangiri hills near Chikmagalur",
+            "caption": "Baba Budangiri"
+          }
+        }
+      ]
+    },
+    {
+      "id": "others",
+      "heading": "Kerala, Tamil Nadu and Andhra Pradesh",
+      "items": [
+        {
+          "name": "Wayanad, Yercaud and Araku",
+          "body": [
+            "Forest-edge estates in Wayanad, the Shevaroy hills around Yercaud, and Araku's cooperative coffee, reached by a scenic railway from Visakhapatnam."
+          ],
+          "links": [
+            {
+              "label": "Wayanad guide",
+              "href": "/blog/wayanad-travel-guide"
+            },
+            {
+              "label": "Yercaud guide",
+              "href": "/blog/yercaud-travel-guide"
+            },
+            {
+              "label": "Araku Valley guide",
+              "href": "/blog/araku-valley-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "experiences",
+      "heading": "What you can do",
+      "list": [
+        "A guided plantation walk, learning about arabica and robusta, shade trees and pepper vines.",
+        "Watching pulping and drying during the harvest.",
+        "Tasting estate coffee brewed the South Indian way, with a filter.",
+        "Birdwatching in the shade canopy.",
+        "Buying beans directly from estates or cooperatives."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A little history",
+      "paras": [
+        "Tradition credits the Sufi saint Baba Budan with bringing seven coffee beans from Yemen to the hills near Chikmagalur in the 17th century; the hills there still carry his name. Commercial planting expanded under British rule in the 19th century across Coorg, Wayanad and the Nilgiris. In the Eastern Ghats, coffee around Araku was later encouraged among tribal farmers, many of whom now grow it in cooperatives."
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "When to go",
+      "list": [
+        "November to February: the harvest, with cool, dry weather.",
+        "February to March: blossom season, briefly white and fragrant after the first showers.",
+        "June to September: very wet and lush; good for quiet stays, less so for walks."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Choosing an estate stay",
+      "paras": [
+        "Estate stays range from simple rooms in a family home to private villas. Ask how far the stay is from the main road, whether a plantation walk is included, what meals are served, and how the access road copes in the monsoon. In Coorg, many stays serve Kodava food; in Chikmagalur, Malnad cooking."
+      ]
+    },
+    {
+      "id": "buying",
+      "heading": "Buying coffee",
+      "paras": [
+        "Estates and cooperatives often sell their own beans and filter blends, and Coffee Board outlets and local roasters in Madikeri, Chikmagalur and Araku are good places to buy. Ask whether the coffee is arabica or robusta, when it was roasted, and whether it is ground for a South Indian filter or another brewing method."
+      ]
+    },
+    {
+      "id": "combos",
+      "heading": "Combining with other places",
+      "list": [
+        "Coorg with Mysuru and Nagarhole.",
+        "Chikmagalur with the Hoysala temples of Belur and Halebidu.",
+        "Wayanad with Kozhikode's coast.",
+        "Araku with Visakhapatnam's beaches, via the scenic railway."
+      ]
+    }
+  ],
+  "safety": [
+    "Stay on estate paths and follow your host's guidance.",
+    "Watch for leeches in the monsoon, and for wildlife on forest-edge estates at dusk.",
+    "Permits, e-passes and pass openings change; check official portals before you travel."
+  ],
+  "packing": [
+    "Walking shoes with grip",
+    "Rain jacket in the monsoon",
+    "Leech socks",
+    "A bag for coffee purchases"
+  ],
+  "faqs": [
+    {
+      "q": "Where can I stay on a coffee plantation in India?",
+      "a": "Coorg, Chikmagalur, Sakleshpur, Wayanad, Yercaud and Araku all have estate stays."
+    },
+    {
+      "q": "When is coffee blossom season?",
+      "a": "Usually around February to March, after the first showers; it lasts only a few days."
+    },
+    {
+      "q": "When is the coffee harvest?",
+      "a": "Roughly from November to February."
+    },
+    {
+      "q": "What is special about Araku coffee?",
+      "a": "It is grown largely by tribal farmers in the Eastern Ghats, many in cooperatives."
+    },
+    {
+      "q": "Coorg or Chikmagalur for a coffee trip?",
+      "a": "Coorg has more homestays and a distinctive culture; Chikmagalur has higher peaks and the Baba Budangiri hills."
+    },
+    {
+      "q": "Can I visit a coffee estate on a day trip?",
+      "a": "Some estates offer paid plantation walks for day visitors; staying overnight gives a fuller experience."
+    },
+    {
+      "q": "Is coffee country good in the monsoon?",
+      "a": "It is very green and quiet, but wet, with leeches on trails; October to March is more comfortable for walks."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Hill stations in Karnataka",
+      "href": "/blog/hill-stations-in-karnataka"
+    },
+    {
+      "label": "Hill stations near Bengaluru",
+      "href": "/blog/hill-stations-near-bengaluru"
+    },
+    {
+      "label": "Tea tourism in India",
+      "href": "/blog/tea-tourism-in-india"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Things to do in Coorg",
+      "href": "/blog/things-to-do-in-coorg",
+      "note": "sights and activities"
+    },
+    {
+      "name": "Luxury hill holidays",
+      "href": "/blog/luxury-hill-holidays-in-india",
+      "note": "estate villas"
+    },
+    {
+      "name": "Food heritage of India",
+      "href": "/blog/food-heritage-of-india",
+      "note": "regional food"
+    }
+  ],
+  "places": [
+    "Coorg",
+    "Chikmagalur",
+    "Sakleshpur",
+    "Wayanad",
+    "Yercaud",
+    "Palani hills",
+    "Araku Valley"
+  ],
+  "styles": [
+    "hill-station-holidays",
+    "luxury-holidays"
+  ],
+  "planDestination": "coffee country",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,391 @@
+{
+  "slug": "hill-stations-near-bengaluru",
+  "kind": "weekend",
+  "short": "Hill stations near Bengaluru",
+  "title": "Hill Stations Near Bengaluru: Weekend and Short-Trip Options",
+  "seoTitle": "Hill Stations Near Bengaluru: Weekend Getaways | Kudozz Club",
+  "metaDescription": "Hill stations near Bengaluru for weekends: Nandi Hills, Yelagiri, Horsley Hills, Yercaud, Sakleshpur, Chikmagalur, Coorg, BR Hills and Ooty, with distances and tips.",
+  "description": "A guide to the hill stations within weekend reach of Bengaluru: Nandi Hills for a sunrise day trip, Yelagiri and Horsley Hills for a quick escape, Yercaud, Sakleshpur, Chikmagalur and Coorg for coffee country, BR Hills near Mysuru, and Ooty and Kodaikanal for a longer weekend, with approximate distances, routes, forest-road rules and seasons.",
+  "dek": "Bengaluru sits within reach of the Western Ghats' coffee country and several small Eastern Ghats hill towns. Here is how to choose.",
+  "primaryKeyword": "hill stations near Bengaluru",
+  "secondaryKeywords": [
+    "weekend getaways from Bengaluru hills",
+    "hill stations within 300 km of Bengaluru"
+  ],
+  "searchIntent": "Origin-city discovery",
+  "activities": [
+    "weekend trips",
+    "hill stations",
+    "walks"
+  ],
+  "terrain": [
+    "hills",
+    "mountains"
+  ],
+  "regions": [
+    "Karnataka",
+    "Tamil Nadu",
+    "Andhra Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tags": [
+    "Bengaluru",
+    "Weekend Getaways",
+    "Coorg",
+    "Chikmagalur",
+    "Hill Stations"
+  ],
+  "hero": {
+    "src": "/images/hills/near-bengaluru-hill-stations-nandi-hills.webp",
+    "alt": "The view from Nandi Hills over the plains near Bengaluru"
+  },
+  "parent": {
+    "label": "Hill Stations",
+    "href": "/hill-station-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Hill stations near Bengaluru"
+  },
+  "intro": [
+    "Bengaluru's weekend hills fall into three groups: quick escapes such as Nandi Hills, Yelagiri and Horsley Hills; the coffee country of Sakleshpur, Chikmagalur and Coorg, five to six hours away; and the Nilgiris and Kodaikanal, which need a longer weekend.",
+    "Many routes pass through forests where night-time traffic is restricted, so plan to drive in daylight."
+  ],
+  "quickAnswer": "The best hill stations near Bengaluru are Nandi Hills (about 60 km) for a sunrise trip; Yelagiri (about 160 km) and Horsley Hills (about 150 km) for a quick break; Sakleshpur (about 220 km), Chikmagalur (about 245 km) and Coorg (about 260 km) for coffee country; and Ooty (about 270 km) for a longer weekend. Forest roads to Ooty and Wayanad have night-time traffic restrictions.",
+  "takeaways": [
+    "Nandi Hills is a sunrise day trip, about 1.5 hours away.",
+    "Coorg, Chikmagalur and Sakleshpur are the classic weekend hills, five to six hours away.",
+    "Roads through Bandipur and Mudumalai have night-time traffic restrictions; plan daylight drives.",
+    "Ooty needs an e-pass for vehicles from outside the Nilgiris district.",
+    "The monsoon makes coffee country lush but wet."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Hill stations near Bengaluru",
+      "table": {
+        "columns": [
+          "Place",
+          "State",
+          "Approx. distance",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Nandi Hills",
+            "Karnataka",
+            "About 60 km",
+            "Sunrise, cycling, day trip"
+          ],
+          [
+            "Horsley Hills",
+            "Andhra Pradesh",
+            "About 150 km",
+            "Quiet one-night break"
+          ],
+          [
+            "Yelagiri",
+            "Tamil Nadu",
+            "About 160 km",
+            "Lake, easy trails"
+          ],
+          [
+            "BR Hills",
+            "Karnataka",
+            "About 180 km",
+            "Forest, wildlife"
+          ],
+          [
+            "Sakleshpur",
+            "Karnataka",
+            "About 220 km",
+            "Estates, Manjarabad Fort"
+          ],
+          [
+            "Yercaud",
+            "Tamil Nadu",
+            "About 230 km",
+            "Lake, coffee"
+          ],
+          [
+            "Chikmagalur",
+            "Karnataka",
+            "About 245 km",
+            "Coffee, Mullayanagiri"
+          ],
+          [
+            "Coorg",
+            "Karnataka",
+            "About 260 km",
+            "Coffee estates, homestays"
+          ],
+          [
+            "Ooty",
+            "Tamil Nadu",
+            "About 270 km",
+            "Nilgiri hills, toy train"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "quick",
+      "heading": "Quick escapes",
+      "items": [
+        {
+          "name": "Nandi Hills, Yelagiri and Horsley Hills",
+          "body": [
+            "Sunrise at Nandi Hills; a lake and short trails at Yelagiri; quiet viewpoints at Horsley Hills."
+          ],
+          "links": [
+            {
+              "label": "Nandi Hills guide",
+              "href": "/blog/nandi-hills-travel-guide"
+            },
+            {
+              "label": "Yelagiri guide",
+              "href": "/blog/yelagiri-travel-guide"
+            },
+            {
+              "label": "Horsley Hills guide",
+              "href": "/blog/horsley-hills-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "heading": "Coffee country",
+      "items": [
+        {
+          "name": "Coorg, Chikmagalur and Sakleshpur",
+          "body": [
+            "Estate homestays, waterfalls and treks in the Western Ghats."
+          ],
+          "links": [
+            {
+              "label": "Coorg guide",
+              "href": "/blog/coorg-travel-guide"
+            },
+            {
+              "label": "Chikmagalur guide",
+              "href": "/blog/chikmagalur-travel-guide"
+            },
+            {
+              "label": "Sakleshpur guide",
+              "href": "/blog/sakleshpur-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/coorg/abbey-falls-coorg.webp",
+            "alt": "Abbey Falls, Coorg",
+            "caption": "Abbey Falls"
+          }
+        }
+      ]
+    },
+    {
+      "id": "longer",
+      "heading": "A longer weekend",
+      "items": [
+        {
+          "name": "Ooty, Wayanad and Yercaud",
+          "body": [
+            "The Nilgiris via Mysuru and the forests, Wayanad over the Kerala border, or Yercaud via Salem."
+          ],
+          "links": [
+            {
+              "label": "Ooty guide",
+              "href": "/blog/ooty-travel-guide"
+            },
+            {
+              "label": "Wayanad guide",
+              "href": "/blog/wayanad-travel-guide"
+            },
+            {
+              "label": "Yercaud guide",
+              "href": "/blog/yercaud-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rules",
+      "heading": "Forest roads and e-passes",
+      "list": [
+        "Roads through Bandipur (to Ooty and Wayanad) and Mudumalai have night-time traffic restrictions; check current timings.",
+        "Do not stop or feed animals on forest roads.",
+        "Vehicles registered outside the Nilgiris district need a free e-pass for Ooty.",
+        "Weekend traffic leaving Bengaluru is heavy; leave before 6 am."
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "When to go",
+      "list": [
+        "October to February: cool and clear; the best season.",
+        "March to May: warm in the plains, pleasant in the hills.",
+        "June to September: heavy rain in Coorg, Chikmagalur and Sakleshpur; beautiful but wet, with leeches on trails."
+      ]
+    },
+    {
+      "id": "sample",
+      "heading": "A sample coffee-country weekend",
+      "table": {
+        "columns": [
+          "When",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "Saturday dawn",
+            "Leave Bengaluru by 6 am for Coorg or Chikmagalur"
+          ],
+          [
+            "Saturday afternoon",
+            "Estate walk and a viewpoint (Raja's Seat or Mullayanagiri)"
+          ],
+          [
+            "Sunday morning",
+            "A waterfall or short trek; breakfast at the estate"
+          ],
+          [
+            "Sunday afternoon",
+            "Head back by 2 pm to avoid late arrival in city traffic"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "Estate homestays are the heart of a Coorg, Chikmagalur or Sakleshpur trip, often with home-cooked meals and plantation walks. Nandi Hills has limited overnight options, so most people visit for sunrise and return. Yelagiri and Yercaud have lake-side hotels and small resorts."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "For Nandi Hills sunrise, leave the city by about 4.30 to 5 am; parking fills quickly on weekends.",
+        "Carry cash for small estates and roadside stalls.",
+        "In the monsoon, check whether treks such as Mullayanagiri or Kudremukh are open.",
+        "Long weekends see heavy traffic on the Mysuru and Hassan highways."
+      ]
+    },
+    {
+      "id": "combos",
+      "heading": "Combining with other places",
+      "list": [
+        "Coorg with Mysuru's palace on the way.",
+        "Chikmagalur with the Hoysala temples of Belur and Halebidu.",
+        "Ooty with Mudumalai or Bandipur for wildlife.",
+        "Yercaud with Salem, or Yelagiri with Vellore."
+      ]
+    }
+  ],
+  "safety": [
+    "Drive times are approximate and depend on traffic, weather and road works; weekend traffic on hill roads can double them. Avoid driving on mountain roads after dark.",
+    "Check weather and road updates before leaving, especially in the monsoon.",
+    "Book stays early for long weekends."
+  ],
+  "packing": [
+    "Light warm layer",
+    "Rain jacket in the monsoon",
+    "Comfortable shoes",
+    "Motion-sickness tablets"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the nearest hill station to Bengaluru?",
+      "a": "Nandi Hills, about 60 km away."
+    },
+    {
+      "q": "Which hill station near Bengaluru is best for a weekend?",
+      "a": "Coorg and Chikmagalur are the classic choices; Yelagiri and Sakleshpur are shorter drives."
+    },
+    {
+      "q": "Can I drive to Ooty from Bengaluru at night?",
+      "a": "Roads through the Bandipur and Mudumalai forests have night-time traffic restrictions; plan to drive in daylight."
+    },
+    {
+      "q": "Coorg or Chikmagalur for a weekend?",
+      "a": "Coorg has more sights and homestays; Chikmagalur has higher peaks and treks."
+    },
+    {
+      "q": "Which is the best season?",
+      "a": "October to February; the monsoon is lush but very wet."
+    },
+    {
+      "q": "Is Nandi Hills worth it?",
+      "a": "Yes, for a sunrise above the clouds on a clear winter morning; weekends are crowded, so go early or on a weekday."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Hill stations in Karnataka",
+      "href": "/blog/hill-stations-in-karnataka"
+    },
+    {
+      "label": "Weekend adventure trips from Bengaluru",
+      "href": "/blog/weekend-adventure-trips-from-bengaluru"
+    },
+    {
+      "label": "Coffee plantation tourism",
+      "href": "/blog/coffee-plantation-tourism-in-india"
+    },
+    {
+      "label": "Weekend getaways",
+      "href": "/packages/weekend-getaways"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Things to do in Bangalore",
+      "href": "/blog/things-to-do-in-bangalore",
+      "note": "the city"
+    },
+    {
+      "name": "Hill stations in South India",
+      "href": "/blog/hill-stations-in-south-india",
+      "note": "the wider south"
+    },
+    {
+      "name": "Things to do in Mysore",
+      "href": "/blog/things-to-do-in-mysore",
+      "note": "on the way to Coorg"
+    }
+  ],
+  "places": [
+    "Nandi Hills",
+    "Horsley Hills",
+    "Yelagiri",
+    "BR Hills",
+    "Sakleshpur",
+    "Yercaud",
+    "Chikmagalur",
+    "Coorg",
+    "Ooty"
+  ],
+  "styles": [
+    "weekend-getaways",
+    "hill-station-holidays"
+  ],
+  "planDestination": "a hill trip from Bengaluru",
+  "updated": "2026-09-26"
+}

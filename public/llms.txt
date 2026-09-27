@@ -16,6 +16,8 @@ Official website: https://club.kudozz.in (also searched as "Kudoz Club", "Kudos 
 - [Wildlife Tourism in India](https://club.kudozz.in/wildlife-tourism): hub for national parks, tiger reserves, sanctuaries, safaris, species, birdwatching, state wildlife guides and responsible travel.
 - [Spiritual Tourism in India](https://club.kudozz.in/spiritual-tourism): hub for pilgrimage places of every faith, the Jyotirlingas, Char Dham, Shakti Peethas, Buddhist Circuit, Sikh and Jain pilgrimage, Sufi shrines, state spiritual guides, festivals and retreats.
 - [Heritage & Cultural Tourism in India](https://club.kudozz.in/heritage-cultural-tourism): hub for UNESCO sites, monuments, forts, palaces, caves, archaeological sites, historic cities, museums, crafts, textiles, dance and music, festivals, food heritage, state heritage guides and itineraries.
+- [Hill Station Travel in India](https://club.kudozz.in/hill-station-travel): hub for the best hill stations by region, state and season, snow and monsoon trips, couples, families, budget and luxury, hill stations near major cities, road trips, tea and coffee country, and itineraries.
+- [Nature Travel in India](https://club.kudozz.in/nature-travel): hub for the best nature destinations and natural wonders, forests, waterfalls, lakes, rivers, valleys and caves, the Himalaya, Western Ghats and Northeast, state nature guides, eco tourism, biodiversity, flower blooms, village stays, retreats, seasons and itineraries.
 - [About](https://club.kudozz.in/about): who Kudozz Club is, how trip planning works, editorial independence.
 - [Contact](https://club.kudozz.in/contact): trip enquiries and other contact.
 
@@ -37,6 +39,10 @@ A Wildlife Tourism cluster, with its hub at /wildlife-tourism, has overview guid
 A Spiritual Tourism cluster, with its hub at /spiritual-tourism, covers pilgrimage places and famous temples, the twelve Jyotirlingas (with the four Jyotirlinga temples that had no guide), the Char Dham Yatra of Uttarakhand and the separate four dhams of India, the Shakti Peethas, the Buddhist Circuit, Sikh pilgrimage and the Panj Takht, Jain tirthas, Sufi shrines, one guide per major spiritual state (/blog/spiritual-tourism-in-<state>), festivals and the Kumbh Mela, planning, and yoga retreats. Existing destination guides (such as Varanasi, Tirupati, Somnath and the Golden Temple) remain the main page for each sacred place. Where traditions differ on lists (Jyotirlingas, Shakti Peethas), the pages name the variations; dates, registrations and closures are stated as current at the time of writing and should be checked before travel.
 
 A Heritage & Cultural Tourism cluster, with its hub at /heritage-cultural-tourism, covers historical places and the full list of India's 45 UNESCO World Heritage Sites (as of September 2026, including the Maratha Military Landscapes in 2025 and Sarnath in 2026), visitor guides to major monuments that had no page of their own (such as the Taj Mahal, Red Fort, Qutub Minar, Humayun's Tomb, Amber Fort, Mehrangarh and the Elephanta Caves), forts, palaces, archaeological sites and rock-cut caves, temple, Mughal, Deccan and colonial-era architecture, heritage cities and walks, museums, crafts, textiles, dance and music, cultural festivals, tribal tourism, food heritage and the mountain railways, one guide per major heritage state (/blog/heritage-tourism-in-<state>) and five itineraries. Existing destination guides (such as Agra, Jaipur, Hampi and Khajuraho) remain the main page for each place. Where archaeologists or historians disagree, the pages say so; timings, closures and festival dates are stated as current at the time of writing and should be checked before travel.
+
+A Hill Station Travel cluster, with its hub at /hill-station-travel, covers the best hill stations and mountain destinations in India, four regional pages (Himalayan, Northeast, South, and western and central India), one guide per major hill state (/blog/hill-stations-in-<state>), seasonal pages (summer, winter, places to see snow, monsoon), couples, families, budget and luxury, hill stations near Delhi, Mumbai and Pune, Bengaluru, Chennai and Kolkata, mountain road trips, tea and coffee plantation tourism, planning, packing and responsible travel, and five multi-destination itineraries. Existing destination guides (such as Shimla, Manali, Darjeeling, Ooty and Munnar) remain the main page for each hill station, including its best time and short day plans. Snowfall is described as likely rather than guaranteed; permits, e-passes, pass openings and advisories are stated as current at the time of writing and should be checked before travel.
+
+A Nature Travel cluster, with its hub at /nature-travel, covers the best nature destinations and natural wonders of India, landscape guides (forests, waterfalls, lakes, riverside destinations, valleys and natural caves), the Himalaya, the Western Ghats and Northeast India, one guide per major nature state (/blog/nature-travel-in-<state>), eco tourism, biodiversity hotspots, flower valleys and blooms, village tourism, nature retreats (including budget and luxury stays), nature photography, offbeat places, a month-by-month calendar, planning, couples and families, and three itineraries (Meghalaya, Kerala and the Western Ghats of Karnataka). Existing destination guides (such as the Valley of Flowers, Jog Falls, Pangong Lake and Chilika Lake) remain the main page for each place; birdwatching, parks and safaris stay with the Wildlife cluster, hill towns with the Hill Station cluster, and treks and rafting with the Adventure cluster. Blooms, water levels and sightings are never guaranteed; permits, park openings and seasonal closures are stated as current at the time of writing and should be checked before travel.
 
 For 143 major destinations, a "Things to do in <place>" article (/blog/things-to-do-in-<place>) sits beside the destination guide. It focuses on activities and experiences, grouped by type, with practical facts, suitability notes and FAQs, and links back to the guide for planning details.
 
@@ -328,6 +334,129 @@ For 143 major destinations, a "Things to do in <place>" article (/blog/things-to
 - [Heritage Tourism in Telangana: Hyderabad, Golconda and Warangal](https://club.kudozz.in/blog/heritage-tourism-in-telangana)
 - [Heritage Tourism in Uttar Pradesh: Agra, Lucknow, Varanasi and Beyond](https://club.kudozz.in/blog/heritage-tourism-in-uttar-pradesh)
 - [Heritage Tourism in West Bengal: Kolkata, Bishnupur, Murshidabad and Santiniketan](https://club.kudozz.in/blog/heritage-tourism-in-west-bengal)
+## Hill station travel
+
+- [Hill Station Travel in India](https://club.kudozz.in/hill-station-travel): the hub page.
+
+### Overviews and planning
+
+- [Best Hill Stations in India: Where to Go and When](https://club.kudozz.in/blog/best-hill-stations-in-india)
+- [Best Mountain Destinations in India: Valleys, High Passes and Himalayan Towns](https://club.kudozz.in/blog/best-mountain-destinations-in-india)
+- [How to Plan a Hill Station Trip in India: Season, Days, Budget and Roads](https://club.kudozz.in/blog/how-to-plan-a-hill-station-trip)
+- [Hill Station Packing List: What to Pack and Wear in the Mountains](https://club.kudozz.in/blog/hill-station-packing-list)
+- [Responsible Mountain Travel in India: Roads, Waste, Altitude and Local Rules](https://club.kudozz.in/blog/responsible-mountain-travel-in-india)
+
+### Regions
+
+- [Himalayan Hill Stations: Himachal, Uttarakhand, Kashmir and the East](https://club.kudozz.in/blog/himalayan-hill-stations)
+- [Hill Stations in Northeast India: Sikkim, Meghalaya, Arunachal and Beyond](https://club.kudozz.in/blog/hill-stations-in-northeast-india)
+- [Hill Stations in South India: The Nilgiris, Western Ghats and Beyond](https://club.kudozz.in/blog/hill-stations-in-south-india)
+- [Hill Stations in Western and Central India: Mount Abu, Saputara, Pachmarhi and More](https://club.kudozz.in/blog/hill-stations-in-western-and-central-india)
+
+### Hill stations by state
+
+- [Hill Stations in Himachal Pradesh: Shimla, Manali, Dharamshala and More](https://club.kudozz.in/blog/hill-stations-in-himachal-pradesh)
+- [Hill Stations in Jammu and Kashmir: Gulmarg, Pahalgam, Sonamarg and More](https://club.kudozz.in/blog/hill-stations-in-jammu-and-kashmir)
+- [Hill Stations in Karnataka: Coorg, Chikmagalur and More](https://club.kudozz.in/blog/hill-stations-in-karnataka)
+- [Hill Stations in Kerala: Munnar, Wayanad, Vagamon and More](https://club.kudozz.in/blog/hill-stations-in-kerala)
+- [Hill Stations in Maharashtra: Mahabaleshwar, Lonavala, Matheran and More](https://club.kudozz.in/blog/hill-stations-in-maharashtra)
+- [Hill Stations in Meghalaya: Shillong, Sohra and More](https://club.kudozz.in/blog/hill-stations-in-meghalaya)
+- [Hill Stations in Sikkim: Gangtok, Pelling, Lachung and More](https://club.kudozz.in/blog/hill-stations-in-sikkim)
+- [Hill Stations in Tamil Nadu: Ooty, Kodaikanal, Yercaud and More](https://club.kudozz.in/blog/hill-stations-in-tamil-nadu)
+- [Hill Stations in Uttarakhand: Mussoorie, Nainital and the Kumaon Hills](https://club.kudozz.in/blog/hill-stations-in-uttarakhand)
+- [Hill Stations in West Bengal: Darjeeling, Kalimpong and the Hills](https://club.kudozz.in/blog/hill-stations-in-west-bengal)
+
+### Seasons
+
+- [Best Hill Stations in India for Summer: Cool Escapes from April to June](https://club.kudozz.in/blog/summer-hill-stations-in-india)
+- [Best Hill Stations in India in Winter: Snow, Sunshine and Clear Views](https://club.kudozz.in/blog/winter-hill-stations-in-india)
+- [Places to See Snow in India: Where and When Snowfall Is Likely](https://club.kudozz.in/blog/places-to-see-snow-in-india)
+- [Monsoon Hill Stations in India: Western Ghats, Meghalaya and Rain-Shadow Escapes](https://club.kudozz.in/blog/monsoon-hill-stations-in-india)
+
+### Traveller types
+
+- [Hill Stations for Couples in India: Romantic Mountain Getaways](https://club.kudozz.in/blog/hill-stations-for-couples-in-india)
+- [Family Hill Stations in India: Easy, Safe-Feeling Mountain Holidays](https://club.kudozz.in/blog/hill-stations-for-families-in-india)
+- [Budget Hill Stations in India: Affordable Mountain Trips](https://club.kudozz.in/blog/budget-hill-stations-in-india)
+- [Luxury Hill Holidays in India: Heritage Hotels, Plantation Bungalows and Mountain Retreats](https://club.kudozz.in/blog/luxury-hill-holidays-in-india)
+
+### Near the big cities
+
+- [Hill Stations Near Delhi: Weekend and Short-Trip Options](https://club.kudozz.in/blog/hill-stations-near-delhi)
+- [Hill Stations Near Mumbai and Pune: Weekend and Short-Trip Options](https://club.kudozz.in/blog/hill-stations-near-mumbai)
+- [Hill Stations Near Bengaluru: Weekend and Short-Trip Options](https://club.kudozz.in/blog/hill-stations-near-bengaluru)
+- [Hill Stations Near Chennai: Weekend and Short-Trip Options](https://club.kudozz.in/blog/hill-stations-near-chennai)
+- [Hill Stations Near Kolkata: Weekend and Short-Trip Options](https://club.kudozz.in/blog/hill-stations-near-kolkata)
+
+### Road trips and plantations
+
+- [Mountain Road Trips in India: Himalayan, Northeast and Western Ghats Drives](https://club.kudozz.in/blog/mountain-road-trips-in-india)
+- [Tea Tourism in India: Darjeeling, Assam, Munnar, the Nilgiris and Beyond](https://club.kudozz.in/blog/tea-tourism-in-india)
+- [Coffee Plantation Tourism in India: Coorg, Chikmagalur, Araku and More](https://club.kudozz.in/blog/coffee-plantation-tourism-in-india)
+
+### Itineraries
+
+- [Shimla Manali Itinerary: 6 to 8 Days in Himachal](https://club.kudozz.in/blog/shimla-manali-itinerary)
+- [Uttarakhand Hill Stations Itinerary: Mussoorie, Nainital and Kumaon](https://club.kudozz.in/blog/uttarakhand-hill-stations-itinerary)
+- [Kashmir Itinerary: 5 to 7 Days in Srinagar, Gulmarg, Pahalgam and Sonamarg](https://club.kudozz.in/blog/kashmir-itinerary)
+- [Darjeeling and Sikkim Itinerary: Darjeeling, Gangtok and Pelling](https://club.kudozz.in/blog/darjeeling-sikkim-itinerary)
+- [South India Hill Stations Itinerary: Ooty, Kodaikanal and Munnar](https://club.kudozz.in/blog/south-india-hill-stations-itinerary)
+## Nature travel
+
+- [Nature Travel in India](https://club.kudozz.in/nature-travel): the hub page.
+
+### Overviews and planning
+
+- [Best Nature Destinations in India: Forests, Valleys, Waterfalls and Lakes](https://club.kudozz.in/blog/best-nature-destinations-in-india)
+- [Natural Wonders of India: Canyons, Craters, Root Bridges and More](https://club.kudozz.in/blog/natural-wonders-of-india)
+- [Best Time for Nature Travel in India: A Month-by-Month Guide](https://club.kudozz.in/blog/best-time-for-nature-travel-in-india)
+- [How to Plan a Nature Trip in India: Seasons, Days, Costs and Rules](https://club.kudozz.in/blog/how-to-plan-a-nature-trip-in-india)
+
+### Landscapes
+
+- [Forest Destinations in India: Rainforests, Sal Forests, Mangroves and Forest Stays](https://club.kudozz.in/blog/forest-destinations-in-india)
+- [Waterfalls in India: The Best Falls by Region and When to See Them](https://club.kudozz.in/blog/waterfalls-in-india)
+- [Lakes in India: High-Altitude Lakes, Lagoons and Wetlands](https://club.kudozz.in/blog/lakes-in-india)
+- [Riverside Destinations in India: River Valleys, Islands and Backwaters](https://club.kudozz.in/blog/riverside-destinations-in-india)
+- [Most Beautiful Valleys in India: Himalayan, Northeastern and Southern Valleys](https://club.kudozz.in/blog/valleys-in-india)
+- [Natural Caves in India: Limestone Caves, Sea Caves and How to Visit](https://club.kudozz.in/blog/natural-caves-in-india)
+
+### Regions
+
+- [Himalayan Nature Travel: Alpine Meadows, Glacial Lakes, Forests and Valleys](https://club.kudozz.in/blog/himalayan-nature-travel)
+- [The Western Ghats: A Nature Traveller's Guide](https://club.kudozz.in/blog/western-ghats-nature-travel)
+- [Nature Travel in Northeast India: Forests, Rivers, Caves and Valleys](https://club.kudozz.in/blog/nature-travel-in-northeast-india)
+
+### Nature travel by state
+
+- [Nature Travel in Kerala](https://club.kudozz.in/blog/nature-travel-in-kerala)
+- [Nature Travel in Karnataka](https://club.kudozz.in/blog/nature-travel-in-karnataka)
+- [Nature Travel in Meghalaya](https://club.kudozz.in/blog/nature-travel-in-meghalaya)
+- [Nature Travel in Uttarakhand](https://club.kudozz.in/blog/nature-travel-in-uttarakhand)
+- [Nature Travel in Himachal Pradesh](https://club.kudozz.in/blog/nature-travel-in-himachal-pradesh)
+- [Nature Travel in Odisha](https://club.kudozz.in/blog/nature-travel-in-odisha)
+- [Nature Travel in Madhya Pradesh](https://club.kudozz.in/blog/nature-travel-in-madhya-pradesh)
+
+### Eco tourism, biodiversity and themes
+
+- [Eco Tourism in India: Community-Run Experiences and Responsible Nature Travel](https://club.kudozz.in/blog/eco-tourism-in-india)
+- [Biodiversity Hotspots in India: The Himalaya, Indo-Burma, Western Ghats and Sundaland](https://club.kudozz.in/blog/biodiversity-hotspots-in-india)
+- [Flower Valleys and Blooms in India: When and Where to See Them](https://club.kudozz.in/blog/flower-valleys-and-blooms-in-india)
+- [Village Tourism in India: Rural Stays in the Himalaya, Northeast and South](https://club.kudozz.in/blog/village-tourism-in-india)
+- [Nature Photography in India: Landscapes, Waterfalls, Forests and Night Skies](https://club.kudozz.in/blog/nature-photography-in-india)
+- [Offbeat Nature Destinations in India: Quieter Forests, Valleys and Lakes](https://club.kudozz.in/blog/offbeat-nature-destinations-in-india)
+
+### Traveller types and stays
+
+- [Nature Getaways for Couples in India: Quiet Forests, Lakes and Valleys](https://club.kudozz.in/blog/nature-getaways-for-couples-in-india)
+- [Nature Trips for Families in India: Easy Forests, Lakes and Waterfalls](https://club.kudozz.in/blog/nature-trips-for-families-in-india)
+- [Nature Retreats in India: Forest Stays, Lakeside and Riverside Retreats](https://club.kudozz.in/blog/nature-retreats-in-india)
+
+### Itineraries
+
+- [Meghalaya Nature Itinerary: Six Days of Waterfalls, Caves and Root Bridges](https://club.kudozz.in/blog/meghalaya-nature-itinerary)
+- [Kerala Nature Itinerary: Hills, Forests, Waterfalls and Backwaters](https://club.kudozz.in/blog/kerala-nature-itinerary)
+- [Western Ghats Nature Itinerary: Coorg, Chikmagalur, Jog Falls and Dandeli](https://club.kudozz.in/blog/western-ghats-nature-itinerary)
 ## Popular circuits
 
 - [Golden Triangle Tour Packages](https://club.kudozz.in/packages/golden-triangle): Delhi, Agra and Jaipur; 5–6 days typical.
@@ -344,6 +473,8 @@ For 143 major destinations, a "Things to do in <place>" article (/blog/things-to
 - [Wildlife Trips](https://club.kudozz.in/packages/wildlife-tours): National parks and safaris.
 - [Spiritual & Pilgrimage](https://club.kudozz.in/packages/spiritual-tours): Char Dham, temple circuits.
 - [Heritage & Culture](https://club.kudozz.in/packages/heritage-tours): Forts, palaces, UNESCO sites.
+- [Hill Stations](https://club.kudozz.in/packages/hill-station-holidays): Himalayan towns, tea hills, snow.
+- [Nature Holidays](https://club.kudozz.in/packages/nature-holidays): Forests, waterfalls, valleys.
 - [Luxury Holidays](https://club.kudozz.in/packages/luxury-holidays): Premium stays, private transport.
 - [Budget Holidays](https://club.kudozz.in/packages/budget-holidays): Value-conscious, still well-planned.
 

@@ -1,0 +1,362 @@
+{
+  "slug": "hill-stations-near-chennai",
+  "kind": "weekend",
+  "short": "Hill stations near Chennai",
+  "title": "Hill Stations Near Chennai: Weekend and Short-Trip Options",
+  "seoTitle": "Hill Stations Near Chennai: Weekend Options | Kudozz Club",
+  "metaDescription": "Hill stations near Chennai: Yelagiri, Horsley Hills, Yercaud, Kolli Hills and, overnight, Kodaikanal and Ooty, with approximate distances, trains, buses and seasons.",
+  "description": "A guide to the hill stations within reach of Chennai: Yelagiri and Horsley Hills for a weekend, Yercaud and the Kolli Hills for a longer break, and Kodaikanal, Ooty and Munnar by overnight train or bus, with approximate distances, the best trains and buses, e-pass rules and seasons.",
+  "dek": "Chennai's nearest hills are small Eastern Ghats towns; the big hill stations need an overnight journey. Here are the options, honestly compared.",
+  "primaryKeyword": "hill stations near Chennai",
+  "secondaryKeywords": [
+    "weekend getaways from Chennai hills",
+    "hill stations within 300 km of Chennai"
+  ],
+  "searchIntent": "Origin-city discovery",
+  "activities": [
+    "weekend trips",
+    "hill stations",
+    "walks"
+  ],
+  "terrain": [
+    "hills",
+    "mountains"
+  ],
+  "regions": [
+    "Tamil Nadu",
+    "Andhra Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tags": [
+    "Chennai",
+    "Weekend Getaways",
+    "Yelagiri",
+    "Yercaud",
+    "Hill Stations"
+  ],
+  "hero": {
+    "src": "/images/hills/near-chennai-hill-stations-yelagiri.webp",
+    "alt": "The road into the Yelagiri hills, Tamil Nadu"
+  },
+  "parent": {
+    "label": "Hill Stations",
+    "href": "/hill-station-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Hill stations near Chennai"
+  },
+  "intro": [
+    "Chennai is further from the mountains than most big Indian cities. Its closest hill stations, Yelagiri and Horsley Hills, are small and quiet, about four to five hours away. Yercaud and the Kolli Hills need a longer weekend, and Kodaikanal and Ooty are best reached by overnight train or bus.",
+    "For a longer break, the overnight journey means you arrive in the hills with a full day ahead."
+  ],
+  "quickAnswer": "The nearest hill stations to Chennai are Yelagiri (about 230 km) and Horsley Hills (about 250 km), each four to five hours by road. Yercaud (about 340 km) and the Kolli Hills (about 370 km) suit a long weekend, while Kodaikanal and Ooty are best by overnight train or bus. October to March is the best season; vehicles need a free e-pass for Kodaikanal and Ooty.",
+  "takeaways": [
+    "Yelagiri is the easiest weekend hill station from Chennai.",
+    "Yercaud and the Kolli Hills need a long weekend.",
+    "Kodaikanal and Ooty are best by overnight train or bus.",
+    "Vehicles need an e-pass to enter Kodaikanal and Ooty.",
+    "April and May are busy; October to March is calmer and cooler."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Hill stations near Chennai",
+      "table": {
+        "columns": [
+          "Place",
+          "State",
+          "Approx. distance",
+          "How"
+        ],
+        "rows": [
+          [
+            "Yelagiri",
+            "Tamil Nadu",
+            "About 230 km",
+            "Train to Jolarpettai, then road"
+          ],
+          [
+            "Horsley Hills",
+            "Andhra Pradesh",
+            "About 250 km",
+            "Road via Madanapalle"
+          ],
+          [
+            "Yercaud",
+            "Tamil Nadu",
+            "About 340 km",
+            "Train to Salem, then road"
+          ],
+          [
+            "Kolli Hills",
+            "Tamil Nadu",
+            "About 370 km",
+            "Road via Namakkal"
+          ],
+          [
+            "Kodaikanal",
+            "Tamil Nadu",
+            "About 520 km",
+            "Overnight train to Kodaikanal Road or Madurai"
+          ],
+          [
+            "Ooty",
+            "Tamil Nadu",
+            "About 560 km",
+            "Overnight train to Coimbatore or Mettupalayam"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "weekend",
+      "heading": "Weekend options",
+      "items": [
+        {
+          "name": "Yelagiri and Horsley Hills",
+          "body": [
+            "A lake, easy trails and quiet stays at Yelagiri; viewpoints and forest at Horsley Hills."
+          ],
+          "links": [
+            {
+              "label": "Yelagiri guide",
+              "href": "/blog/yelagiri-travel-guide"
+            },
+            {
+              "label": "Horsley Hills guide",
+              "href": "/blog/horsley-hills-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "heading": "Long weekend",
+      "items": [
+        {
+          "name": "Yercaud and the Kolli Hills",
+          "body": [
+            "Yercaud's lake and coffee estates via Salem; the Kolli Hills' 70 hairpin bends and waterfalls."
+          ],
+          "links": [
+            {
+              "label": "Yercaud guide",
+              "href": "/blog/yercaud-travel-guide"
+            },
+            {
+              "label": "Kolli Hills guide",
+              "href": "/blog/kolli-hills-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/yercaud/yercaud-lake-view.webp",
+            "alt": "Yercaud lake, Tamil Nadu",
+            "caption": "Yercaud"
+          }
+        }
+      ]
+    },
+    {
+      "id": "overnight",
+      "heading": "Overnight to the big hills",
+      "items": [
+        {
+          "name": "Kodaikanal, Ooty and Munnar",
+          "body": [
+            "Overnight trains to Kodaikanal Road, Madurai, Coimbatore or Mettupalayam put you in the hills by midday."
+          ],
+          "links": [
+            {
+              "label": "Kodaikanal guide",
+              "href": "/blog/kodaikanal-travel-guide"
+            },
+            {
+              "label": "Ooty guide",
+              "href": "/blog/ooty-travel-guide"
+            },
+            {
+              "label": "Munnar guide",
+              "href": "/blog/munnar-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "heading": "When to go",
+      "list": [
+        "October to March: cool and pleasant; the best time.",
+        "April to May: busy with summer holidays; book early.",
+        "June to September: the Nilgiris get monsoon rain; the Eastern Ghats hills are warmer but greener."
+      ]
+    },
+    {
+      "id": "sample",
+      "heading": "A sample Yelagiri weekend",
+      "table": {
+        "columns": [
+          "When",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "Saturday morning",
+            "Train to Jolarpettai or drive; up the hairpin bends to Yelagiri"
+          ],
+          [
+            "Saturday afternoon",
+            "Punganoor lake and a short nature walk"
+          ],
+          [
+            "Sunday morning",
+            "Swamimalai hill trek, or Jalagamparai falls in season"
+          ],
+          [
+            "Sunday afternoon",
+            "Back down to Jolarpettai or Chennai"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "Yelagiri and Yercaud have small resorts, lake-side hotels and state tourism properties. Horsley Hills has a handful of stays, including the Andhra Pradesh tourism resort, so book ahead. For Kodaikanal and Ooty, stay near the lake for convenience or a little outside for quiet and views."
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips",
+      "list": [
+        "Book overnight trains to Madurai, Kodaikanal Road or Coimbatore early for long weekends.",
+        "Carry a light jacket; nights are cool even in the smaller hills in winter.",
+        "Summer weekends in Yercaud and Kodaikanal are busy; weekdays are much calmer.",
+        "Vehicles need an e-pass for Kodaikanal and Ooty."
+      ]
+    },
+    {
+      "id": "eastern-ghats",
+      "heading": "About the Eastern Ghats hills",
+      "paras": [
+        "The hills nearest Chennai belong to the Eastern Ghats, which are lower, older and drier than the Western Ghats. Places such as Yelagiri, the Javadhu hills and the Kolli Hills are about forest, fruit orchards, small lakes and village life rather than tea estates and misty peaks. They are pleasant rather than cold, and at their best from October to February."
+      ]
+    },
+    {
+      "id": "combos",
+      "heading": "Combining with other places",
+      "list": [
+        "Yelagiri with Vellore's fort and temple.",
+        "Yercaud with a stop in Salem.",
+        "Kodaikanal with Madurai's Meenakshi Amman temple.",
+        "Ooty with Coimbatore and the Isha Yoga Centre's Adiyogi."
+      ]
+    }
+  ],
+  "safety": [
+    "Drive times are approximate and depend on traffic, weather and road works; weekend traffic on hill roads can double them. Avoid driving on mountain roads after dark.",
+    "Check weather and road updates before leaving, especially in the monsoon.",
+    "Book stays early for long weekends."
+  ],
+  "packing": [
+    "Light warm layer",
+    "Rain jacket in the monsoon",
+    "Comfortable shoes",
+    "Motion-sickness tablets"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the nearest hill station to Chennai?",
+      "a": "Yelagiri, about 230 km away, and Horsley Hills in Andhra Pradesh."
+    },
+    {
+      "q": "Can I visit Ooty from Chennai for a weekend?",
+      "a": "It is possible with overnight trains both ways, but three days is more comfortable."
+    },
+    {
+      "q": "Is Yercaud good for a weekend from Chennai?",
+      "a": "It is better as a long weekend, about six to seven hours by road or via a train to Salem."
+    },
+    {
+      "q": "Do I need an e-pass for Kodaikanal?",
+      "a": "Vehicles from outside the district need a free e-pass; check the Tamil Nadu e-pass portal."
+    },
+    {
+      "q": "What is the best time to visit?",
+      "a": "October to March."
+    },
+    {
+      "q": "Which hill station near Chennai is best for families?",
+      "a": "Yelagiri, for its short drive, lake and easy walks."
+    },
+    {
+      "q": "Is Horsley Hills worth visiting?",
+      "a": "Yes, for a quiet overnight break with viewpoints and forest walks; facilities are limited, so book ahead."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Hill stations in Tamil Nadu",
+      "href": "/blog/hill-stations-in-tamil-nadu"
+    },
+    {
+      "label": "South India hill stations itinerary",
+      "href": "/blog/south-india-hill-stations-itinerary"
+    },
+    {
+      "label": "Things to do in Chennai",
+      "href": "/blog/things-to-do-in-chennai"
+    },
+    {
+      "label": "Weekend getaways",
+      "href": "/packages/weekend-getaways"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hill stations in South India",
+      "href": "/blog/hill-stations-in-south-india",
+      "note": "the southern hills"
+    },
+    {
+      "name": "Hill stations near Bengaluru",
+      "href": "/blog/hill-stations-near-bengaluru",
+      "note": "coffee country"
+    },
+    {
+      "name": "Tamil Nadu tour packages",
+      "href": "/packages/tamil-nadu",
+      "note": "packages"
+    }
+  ],
+  "places": [
+    "Yelagiri",
+    "Horsley Hills",
+    "Yercaud",
+    "Kolli Hills",
+    "Kodaikanal",
+    "Ooty"
+  ],
+  "styles": [
+    "weekend-getaways",
+    "hill-station-holidays"
+  ],
+  "planDestination": "a hill trip from Chennai",
+  "updated": "2026-09-26"
+}

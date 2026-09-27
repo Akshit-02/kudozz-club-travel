@@ -1,0 +1,305 @@
+{
+  "slug": "hill-station-packing-list",
+  "kind": "planning",
+  "short": "Hill station packing list",
+  "title": "Hill Station Packing List: What to Pack and Wear in the Mountains",
+  "seoTitle": "Hill Station Packing List: What to Pack and Wear | Kudozz Club",
+  "metaDescription": "What to pack for a hill station trip in India by season: layers, footwear, rain gear, winter and snow clothing, documents, health kit and tips on what to wear.",
+  "description": "A season-by-season packing list for hill station and mountain trips in India: clothing layers for summer, monsoon and winter, snow clothing and what to rent, footwear, rain gear, documents and permits, a basic health kit, gear for children, and what to wear at temples, monasteries and in conservative areas.",
+  "dek": "Mountain weather changes quickly, even in summer. Here is what to pack, and what you can rent or buy on the spot.",
+  "primaryKeyword": "hill station packing list",
+  "secondaryKeywords": [
+    "mountain trip packing list",
+    "what to wear in hill stations",
+    "winter hill station clothes"
+  ],
+  "searchIntent": "Planning",
+  "activities": [
+    "planning",
+    "packing"
+  ],
+  "terrain": [
+    "mountains",
+    "hills"
+  ],
+  "regions": [
+    "India"
+  ],
+  "seasons": [
+    "all seasons"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "first-time visitors"
+  ],
+  "tags": [
+    "Packing",
+    "What to Wear",
+    "Hill Stations",
+    "Planning"
+  ],
+  "hero": {
+    "src": "/images/hills/hill-station-packing-auli-snow.webp",
+    "alt": "Patchy snow on the slopes at Auli, Uttarakhand"
+  },
+  "parent": {
+    "label": "Hill Stations",
+    "href": "/hill-station-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Packing for hill station trips in India"
+  },
+  "intro": [
+    "The golden rule for the hills is layers. Days can be warm and sunny while evenings, early mornings and cloudy spells are cold, and weather higher up can change within an hour. Packing several light layers is more useful than one heavy coat.",
+    "This list works for most Indian hill stations; adjust it for the season and for how high you are going."
+  ],
+  "quickAnswer": "For a hill station trip in India, pack layers (T-shirts, a fleece or sweater, and a windproof or down jacket), comfortable walking shoes with grip, a rain jacket, sunscreen and sunglasses, a cap and gloves in winter, basic medicines including motion-sickness tablets, and ID and any permits. Snow boots and jackets can be rented at Gulmarg, Solang and Auli, so you need not buy them.",
+  "takeaways": [
+    "Pack layers you can add and remove through the day.",
+    "Shoes with good grip matter more than style on hill paths.",
+    "Carry a rain jacket even outside the monsoon.",
+    "Rent snow boots and jackets locally for a short snow trip.",
+    "Keep ID and permits handy; checkpoints are common in border areas."
+  ],
+  "sections": [
+    {
+      "id": "core",
+      "heading": "The core list",
+      "table": {
+        "columns": [
+          "Item",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Base layers (T-shirts, thermals in winter)",
+            "Warmth without bulk"
+          ],
+          [
+            "Fleece or sweater",
+            "Evenings and mornings"
+          ],
+          [
+            "Windproof or insulated jacket",
+            "Wind, cloud and high viewpoints"
+          ],
+          [
+            "Rain jacket or poncho",
+            "Sudden showers"
+          ],
+          [
+            "Walking shoes with grip",
+            "Slopes, steps and wet paths"
+          ],
+          [
+            "Cap, sunglasses, sunscreen",
+            "Strong sun at altitude"
+          ],
+          [
+            "Reusable water bottle",
+            "Hydration; fewer plastic bottles"
+          ],
+          [
+            "Small daypack",
+            "Layers, water and snacks on walks"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "by-season",
+      "heading": "By season",
+      "items": [
+        {
+          "name": "Summer (March to June)",
+          "body": [
+            "Light layers, a fleece for evenings, sun protection, and a rain jacket for pre-monsoon storms."
+          ]
+        },
+        {
+          "name": "Monsoon (June to September)",
+          "body": [
+            "Quick-dry clothes, a proper rain jacket, waterproof bag covers, sandals with grip for the rain and shoes for trails, and leech socks for forest walks."
+          ]
+        },
+        {
+          "name": "Winter (October to February)",
+          "body": [
+            "Thermals, a down or insulated jacket, woollen cap, gloves, warm socks and waterproof boots; moisturiser and lip balm for dry air."
+          ],
+          "image": {
+            "src": "/images/adventure/kedarkantha-winter-trek-snow.webp",
+            "alt": "Trekkers in winter snow on the Kedarkantha trail",
+            "caption": "Winter in the Himalaya"
+          }
+        }
+      ]
+    },
+    {
+      "id": "snow",
+      "heading": "For snow",
+      "list": [
+        "Waterproof gloves and boots; wet cotton gloves are useless in snow.",
+        "Thermal base layers and a waterproof outer layer.",
+        "Snow goggles or good sunglasses against glare.",
+        "Snow clothing, boots and ski gear can be rented at Gulmarg, Solang and Auli; check fit and condition."
+      ],
+      "items": [
+        {
+          "name": "Snow",
+          "body": [
+            "Where to see it."
+          ],
+          "links": [
+            {
+              "label": "Places to see snow in India",
+              "href": "/blog/places-to-see-snow-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "heading": "Health and comfort",
+      "list": [
+        "Personal medicines and a copy of prescriptions.",
+        "Motion-sickness remedies for winding roads.",
+        "A basic first-aid kit with plasters, antiseptic and pain relief.",
+        "Oral rehydration salts.",
+        "For high places such as Ladakh or Spiti, consult a doctor before travel about altitude."
+      ]
+    },
+    {
+      "id": "documents",
+      "heading": "Documents and money",
+      "list": [
+        "Photo ID (carry the original); foreign nationals should carry their passport.",
+        "Permits for protected areas (Sikkim, Arunachal, parts of Ladakh) and e-passes for Ooty and Kodaikanal where needed.",
+        "Some cash, as ATMs and card machines can be unreliable in small towns.",
+        "Offline maps and a power bank."
+      ]
+    },
+    {
+      "id": "wear",
+      "heading": "What to wear",
+      "paras": [
+        "Most hill towns are relaxed, but modest clothing is appreciated in villages, at temples, gurdwaras, mosques and monasteries. Carry a scarf or shawl for covering up, and wear shoes that are easy to remove at shrines. In Buddhist monasteries, walk clockwise around stupas and prayer wheels."
+      ]
+    },
+    {
+      "id": "children",
+      "heading": "For children",
+      "list": [
+        "Extra layers and spare socks.",
+        "Snacks and water for long drives.",
+        "A small toy or book for the car.",
+        "Rain covers for prams, or a baby carrier for hill paths."
+      ]
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common packing mistakes",
+      "list": [
+        "Bringing only one heavy jacket instead of layers.",
+        "Wearing new shoes that have not been broken in.",
+        "Forgetting a rain jacket in May or June, when pre-monsoon storms begin.",
+        "Packing too much for places like Matheran, where you carry luggage on foot or by rickshaw.",
+        "Leaving permits and ID in the main bag at a checkpoint."
+      ]
+    },
+    {
+      "id": "buy-locally",
+      "heading": "Things you can buy or rent there",
+      "paras": [
+        "Woollen caps, gloves, socks and shawls are sold cheaply in almost every hill town market, often locally knitted. Snow boots, jackets and gloves can be rented at snow points such as Gulmarg, Solang and Kufri. Trekking poles and rain covers are easy to find in Manali, Rishikesh and Dharamshala."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check updates and avoid driving after dark.",
+    "Dress for the coldest part of the day, not the warmest."
+  ],
+  "packing": [
+    "Layers",
+    "Walking shoes",
+    "Rain jacket",
+    "ID and permits"
+  ],
+  "faqs": [
+    {
+      "q": "What should I wear in a hill station in summer?",
+      "a": "Light layers, a fleece or light jacket for evenings, comfortable shoes and sun protection."
+    },
+    {
+      "q": "What should I pack for snow?",
+      "a": "Thermals, a waterproof jacket, waterproof gloves and boots, a woollen cap and sunglasses; boots and snow suits can be rented locally."
+    },
+    {
+      "q": "Do I need a jacket in the hills in summer?",
+      "a": "Yes, a light jacket or fleece; evenings and higher viewpoints can be cold."
+    },
+    {
+      "q": "What shoes are best for hill stations?",
+      "a": "Comfortable walking shoes or trail shoes with good grip."
+    },
+    {
+      "q": "Can I rent snow gear?",
+      "a": "Yes, at Gulmarg, Solang near Manali and Auli, among others."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "How to plan a hill station trip",
+      "href": "/blog/how-to-plan-a-hill-station-trip"
+    },
+    {
+      "label": "Winter hill stations",
+      "href": "/blog/winter-hill-stations-in-india"
+    },
+    {
+      "label": "Adventure travel packing list",
+      "href": "/blog/adventure-travel-packing-list-india"
+    },
+    {
+      "label": "Hill station holidays",
+      "href": "/packages/hill-station-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Responsible mountain travel",
+      "href": "/blog/responsible-mountain-travel-in-india",
+      "note": "travel lightly"
+    },
+    {
+      "name": "Hill stations for families",
+      "href": "/blog/hill-stations-for-families-in-india",
+      "note": "travelling with children"
+    },
+    {
+      "name": "Monsoon hill stations",
+      "href": "/blog/monsoon-hill-stations-in-india",
+      "note": "rainy-season trips"
+    }
+  ],
+  "places": [
+    "Gulmarg",
+    "Solang",
+    "Auli",
+    "Ladakh",
+    "Spiti"
+  ],
+  "styles": [
+    "hill-station-holidays",
+    "family-holidays"
+  ],
+  "planDestination": "a hill station trip",
+  "updated": "2026-09-26"
+}

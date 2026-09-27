@@ -1,0 +1,351 @@
+{
+  "slug": "biodiversity-hotspots-in-india",
+  "kind": "pillar",
+  "short": "Biodiversity hotspots in India",
+  "title": "Biodiversity Hotspots in India: The Himalaya, Indo-Burma, Western Ghats and Sundaland",
+  "seoTitle": "Biodiversity Hotspots in India: A Traveller's Guide | Kudozz Club",
+  "metaDescription": "India's four biodiversity hotspots for travellers: the Himalaya, Indo-Burma, the Western Ghats and Sundaland, plus marine life.",
+  "description": "A travel-focused guide to biodiversity in India: the four global biodiversity hotspots that overlap India (the Himalaya, Indo-Burma, the Western Ghats and Sri Lanka, and Sundaland in the Nicobar Islands), biosphere reserves, marine biodiversity in the Gulf of Mannar, Andaman and Lakshadweep, butterflies and endemic species, and where visitors can experience them responsibly.",
+  "dek": "India overlaps four of the world's biodiversity hotspots. Here is what that means, and where a traveller can see it for themselves.",
+  "primaryKeyword": "biodiversity hotspots in India",
+  "secondaryKeywords": [
+    "biodiversity tourism India",
+    "Western Ghats biodiversity",
+    "marine biodiversity India"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "nature walks",
+    "birdwatching",
+    "butterflies",
+    "snorkelling"
+  ],
+  "terrain": [
+    "forest",
+    "mountains",
+    "coast",
+    "islands"
+  ],
+  "regions": [
+    "Himalaya",
+    "Northeast India",
+    "Western Ghats",
+    "Andaman and Nicobar Islands"
+  ],
+  "seasons": [
+    "winter",
+    "monsoon",
+    "spring"
+  ],
+  "travellers": [
+    "nature lovers",
+    "students",
+    "photographers"
+  ],
+  "tags": [
+    "Biodiversity",
+    "Hotspots",
+    "Western Ghats",
+    "Northeast India",
+    "Nature"
+  ],
+  "hero": {
+    "src": "/images/nature/biodiversity-hotspots-western-ghats-shola.webp",
+    "alt": "Shola grassland and forest patches on a Western Ghats ridge"
+  },
+  "parent": {
+    "label": "Nature Travel",
+    "href": "/nature-travel"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Biodiversity hotspots in India"
+  },
+  "intro": [
+    "A biodiversity hotspot, in the framework used by conservation scientists, is a region with many species found nowhere else that has also lost much of its original habitat. India overlaps four of them: the Himalaya; Indo-Burma, which covers most of the Northeast; the Western Ghats and Sri Lanka; and Sundaland, which includes the Nicobar Islands.",
+    "For a traveller, these are the places where forests, birds, butterflies, frogs and plants are richest and most distinctive. This guide explains where to experience them, without overstating what you will see."
+  ],
+  "quickAnswer": "India overlaps four global biodiversity hotspots: the Himalaya, Indo-Burma (most of the Northeast), the Western Ghats and Sri Lanka, and Sundaland (the Nicobar Islands). Travellers can experience this biodiversity in places such as the Great Himalayan National Park, Namdapha and Meghalaya's forests, the Western Ghats at Silent Valley, Agumbe and Eravikulam, and marine reserves such as the Gulf of Mannar and the Andaman Islands. Winter and the post-monsoon months are usually best.",
+  "takeaways": [
+    "India overlaps four biodiversity hotspots: Himalaya, Indo-Burma, Western Ghats-Sri Lanka and Sundaland.",
+    "The Western Ghats and the Northeast are the easiest hotspots for travellers to explore.",
+    "Biosphere reserves such as the Nilgiris, Sundarbans and Gulf of Mannar protect whole landscapes.",
+    "The monsoon and post-monsoon are best for frogs, fungi and butterflies in the Ghats.",
+    "Sightings of particular species are never guaranteed."
+  ],
+  "sections": [
+    {
+      "id": "hotspots",
+      "heading": "The four hotspots",
+      "table": {
+        "columns": [
+          "Hotspot",
+          "Where in India",
+          "Where travellers can experience it"
+        ],
+        "rows": [
+          [
+            "Himalaya",
+            "Himalayan states",
+            "Great Himalayan National Park, Valley of Flowers, Sikkim's forests"
+          ],
+          [
+            "Indo-Burma",
+            "Most of the Northeast",
+            "Namdapha, Meghalaya's forests, Nameri, Dzukou"
+          ],
+          [
+            "Western Ghats and Sri Lanka",
+            "West coast hills",
+            "Silent Valley, Agumbe, Eravikulam, Wayanad, Kudremukh"
+          ],
+          [
+            "Sundaland",
+            "Nicobar Islands",
+            "Mostly restricted to visitors; see the Andamans instead"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "western-ghats",
+      "heading": "The Western Ghats",
+      "items": [
+        {
+          "name": "Endemic-rich forests",
+          "body": [
+            "Lion-tailed macaques, Nilgiri tahr, Malabar hornbills and many endemic frogs and plants, best experienced with naturalists at Agumbe, Silent Valley and Eravikulam."
+          ],
+          "links": [
+            {
+              "label": "Western Ghats guide",
+              "href": "/blog/western-ghats-nature-travel"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/kerala/munnar/eravikulam-national-park-munnar.webp",
+            "alt": "Shola grassland in Eravikulam National Park",
+            "caption": "Eravikulam"
+          }
+        }
+      ]
+    },
+    {
+      "id": "northeast",
+      "heading": "The Northeast and eastern Himalaya",
+      "items": [
+        {
+          "name": "Namdapha, Meghalaya and Sikkim",
+          "body": [
+            "Lowland rainforest at Namdapha, sacred groves and caves in Meghalaya, and rhododendron and oak forests in Sikkim."
+          ],
+          "links": [
+            {
+              "label": "Namdapha guide",
+              "href": "/blog/namdapha-travel-guide"
+            },
+            {
+              "label": "Nature travel in Northeast India",
+              "href": "/blog/nature-travel-in-northeast-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "himalaya",
+      "heading": "The western Himalaya",
+      "items": [
+        {
+          "name": "Great Himalayan National Park and the Valley of Flowers",
+          "body": [
+            "Two UNESCO-listed parks protecting forests, meadows and high-altitude wildlife."
+          ],
+          "links": [
+            {
+              "label": "Tirthan Valley guide",
+              "href": "/blog/tirthan-valley-travel-guide"
+            },
+            {
+              "label": "Himalayan nature travel",
+              "href": "/blog/himalayan-nature-travel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marine",
+      "heading": "Marine biodiversity",
+      "items": [
+        {
+          "name": "Coral reefs and seagrass",
+          "body": [
+            "The Gulf of Mannar's marine national park, coral reefs around the Andaman Islands and Lakshadweep, and Malvan's coast in Maharashtra, best seen by snorkelling or glass-bottom boat."
+          ],
+          "links": [
+            {
+              "label": "Snorkelling in India",
+              "href": "/blog/snorkeling-in-india"
+            },
+            {
+              "label": "Andaman Islands guide",
+              "href": "/blog/andaman-islands-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "butterflies",
+      "heading": "Butterflies and small wonders",
+      "paras": [
+        "The Western Ghats and the Northeast are especially rich in butterflies, and the weeks just after the monsoon are often the best time to see them in numbers. Butterfly meets and nature camps are organised by naturalist groups in some states. Frogs, fungi and fireflies are other monsoon highlights in the Ghats."
+      ]
+    },
+    {
+      "id": "biosphere",
+      "heading": "Biosphere reserves",
+      "paras": [
+        "India has a network of biosphere reserves, several of them part of UNESCO's Man and the Biosphere programme, including the Nilgiri, Sundarbans, Gulf of Mannar, Nanda Devi, Khangchendzonga, Similipal and Great Nicobar reserves. They combine strictly protected core zones with buffer zones where people live and work, and some visitor activities are allowed in the buffer."
+      ]
+    },
+    {
+      "id": "where-to-start",
+      "heading": "Where to start",
+      "table": {
+        "columns": [
+          "If you have",
+          "Go to"
+        ],
+        "rows": [
+          [
+            "A weekend from Bengaluru",
+            "Agumbe or Coorg's forests with a naturalist"
+          ],
+          [
+            "A week from Kochi",
+            "Eravikulam, Periyar and Silent Valley"
+          ],
+          [
+            "A week in the Northeast",
+            "Meghalaya's forests and caves, or Nameri and Kaziranga"
+          ],
+          [
+            "Two weeks in the Himalaya",
+            "Tirthan and the Great Himalayan National Park, or the Valley of Flowers"
+          ],
+          [
+            "A beach and reef holiday",
+            "The Andaman Islands with snorkelling"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "naturalists",
+      "heading": "Go with a naturalist",
+      "paras": [
+        "Much of India's biodiversity is small, shy or nocturnal: frogs, insects, reptiles and understorey birds. A trained naturalist or a guided night walk, where permitted, will show you far more than wandering alone. Several research stations and nature camps in the Western Ghats and the Northeast run guided programmes; book in advance and follow their rules."
+      ]
+    }
+  ],
+  "safety": [
+    "Permits, entry rules, booking systems and seasons change; check official sources before you go.",
+    "Carry your waste back, avoid loud music, and never feed wildlife.",
+    "Do not collect plants, insects, shells or coral."
+  ],
+  "packing": [
+    "Binoculars and a field guide",
+    "Macro lens or phone clip for small creatures",
+    "Leech socks in the monsoon",
+    "Reef-safe sunscreen for snorkelling"
+  ],
+  "faqs": [
+    {
+      "q": "How many biodiversity hotspots are there in India?",
+      "a": "India overlaps four of the world's biodiversity hotspots: the Himalaya, Indo-Burma, the Western Ghats and Sri Lanka, and Sundaland."
+    },
+    {
+      "q": "Which is the easiest hotspot to visit?",
+      "a": "The Western Ghats, with good access from Bengaluru, Kochi, Goa and Pune."
+    },
+    {
+      "q": "What is a biosphere reserve?",
+      "a": "A protected landscape with a strictly protected core and buffer zones where people live, some of them in UNESCO's Man and the Biosphere network."
+    },
+    {
+      "q": "When is the best time to see butterflies?",
+      "a": "Often just after the monsoon, in the Western Ghats and the Northeast."
+    },
+    {
+      "q": "Can I visit the Nicobar Islands?",
+      "a": "Most of the Nicobar Islands are restricted; the Andaman Islands are open to visitors."
+    },
+    {
+      "q": "What wildlife is unique to the Western Ghats?",
+      "a": "Species such as the lion-tailed macaque, Nilgiri tahr and many endemic frogs and birds are found only in the Ghats."
+    },
+    {
+      "q": "Are night walks allowed in Indian forests?",
+      "a": "Only in some places, with permission and trained guides; never walk into forests at night on your own."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Western Ghats",
+      "href": "/blog/western-ghats-nature-travel"
+    },
+    {
+      "label": "Forest destinations in India",
+      "href": "/blog/forest-destinations-in-india"
+    },
+    {
+      "label": "Birdwatching in India",
+      "href": "/blog/birdwatching-in-india"
+    },
+    {
+      "label": "Nature holidays",
+      "href": "/packages/nature-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best national parks in India",
+      "href": "/blog/best-national-parks-in-india",
+      "note": "protected areas"
+    },
+    {
+      "name": "Scuba diving in India",
+      "href": "/blog/scuba-diving-in-india",
+      "note": "marine life"
+    },
+    {
+      "name": "Eco tourism in India",
+      "href": "/blog/eco-tourism-in-india",
+      "note": "responsible travel"
+    }
+  ],
+  "places": [
+    "Silent Valley",
+    "Agumbe",
+    "Eravikulam",
+    "Namdapha",
+    "Great Himalayan National Park",
+    "Valley of Flowers",
+    "Gulf of Mannar",
+    "Andaman Islands",
+    "Nilgiris",
+    "Sundarbans"
+  ],
+  "styles": [
+    "nature-holidays",
+    "wildlife-tours"
+  ],
+  "planDestination": "a biodiversity trip",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,433 @@
+{
+  "slug": "hill-stations-in-south-india",
+  "kind": "pillar",
+  "short": "Hill stations in South India",
+  "title": "Hill Stations in South India: The Nilgiris, Western Ghats and Beyond",
+  "seoTitle": "Hill Stations in South India: Nilgiris and Western Ghats | Kudozz Club",
+  "metaDescription": "South India's hill stations compared: Ooty, Coonoor, Kodaikanal, Munnar, Wayanad, Vagamon, Coorg, Chikmagalur, Yercaud, Araku and more, with seasons and routes.",
+  "description": "A guide to the hill stations of South India: the Nilgiris (Ooty, Coonoor, Kotagiri) and Kodaikanal in Tamil Nadu, Munnar, Wayanad, Vagamon and Thekkady in Kerala, Coorg, Chikmagalur and Sakleshpur in Karnataka, and Araku, Horsley Hills and Lambasingi in Andhra Pradesh, with how they compare, seasons, e-passes and routes.",
+  "dek": "The southern hills are about tea and coffee country, forests and cool air through most of the year. Here is how to choose between them.",
+  "primaryKeyword": "hill stations in South India",
+  "secondaryKeywords": [
+    "south India hill stations",
+    "Western Ghats hill stations"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "hill stations",
+    "tea estates",
+    "coffee estates",
+    "walks"
+  ],
+  "terrain": [
+    "hills",
+    "forest",
+    "plantations"
+  ],
+  "regions": [
+    "Tamil Nadu",
+    "Kerala",
+    "Karnataka",
+    "Andhra Pradesh",
+    "Telangana"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn",
+    "monsoon"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tags": [
+    "South India",
+    "Western Ghats",
+    "Nilgiris",
+    "Munnar",
+    "Coorg"
+  ],
+  "hero": {
+    "src": "/images/hills/south-india-hill-stations-munnar.webp",
+    "alt": "Tea estates in the hills around Munnar, Kerala"
+  },
+  "parent": {
+    "label": "Hill Stations",
+    "href": "/hill-station-travel"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Hill stations of South India",
+    "containedIn": "South India"
+  },
+  "intro": [
+    "South India's hill stations sit in the Western Ghats and the Eastern Ghats. They are lower than the Himalayan towns but reliably cool, and most are surrounded by tea, coffee, cardamom and forest. The Nilgiris and Kodaikanal in Tamil Nadu, Munnar and Wayanad in Kerala, and Coorg and Chikmagalur in Karnataka are the best known.",
+    "Unlike the Himalaya, most southern hills are pleasant from October to May, and some are very beautiful in the monsoon, though wet."
+  ],
+  "quickAnswer": "The best hill stations in South India are Ooty, Coonoor and Kodaikanal in Tamil Nadu; Munnar, Wayanad and Vagamon in Kerala; Coorg and Chikmagalur in Karnataka; and Araku Valley in Andhra Pradesh. October to May is the most comfortable period. Vehicles registered outside the district need a free e-pass to enter the Nilgiris and Kodaikanal.",
+  "takeaways": [
+    "The southern hills are pleasant for most of the year; the monsoon (June to September) is very wet.",
+    "Ooty and Kodaikanal need an e-pass for vehicles from outside the district.",
+    "Munnar and the Nilgiris are tea country; Coorg and Chikmagalur are coffee country.",
+    "Ooty, Kodaikanal and Munnar get very busy in April and May.",
+    "Most southern hills are within a day of Bengaluru, Chennai, Kochi or Coimbatore."
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "heading": "At a glance",
+      "table": {
+        "columns": [
+          "Hill station",
+          "State",
+          "Known for",
+          "Gateway"
+        ],
+        "rows": [
+          [
+            "Ooty",
+            "Tamil Nadu",
+            "Gardens, lake, Nilgiri toy train",
+            "Coimbatore; Mettupalayam"
+          ],
+          [
+            "Coonoor and Kotagiri",
+            "Tamil Nadu",
+            "Tea estates, quieter stays",
+            "Coimbatore"
+          ],
+          [
+            "Kodaikanal",
+            "Tamil Nadu",
+            "Lake, forests, viewpoints",
+            "Madurai or Kodaikanal Road"
+          ],
+          [
+            "Yercaud",
+            "Tamil Nadu",
+            "Small lake town, coffee",
+            "Salem"
+          ],
+          [
+            "Munnar",
+            "Kerala",
+            "Tea estates, Eravikulam",
+            "Kochi"
+          ],
+          [
+            "Wayanad",
+            "Kerala",
+            "Forests, caves, trekking",
+            "Kozhikode"
+          ],
+          [
+            "Vagamon",
+            "Kerala",
+            "Meadows and pine forest",
+            "Kochi or Kottayam"
+          ],
+          [
+            "Coorg (Kodagu)",
+            "Karnataka",
+            "Coffee estates, homestays",
+            "Mysuru; Bengaluru by road"
+          ],
+          [
+            "Chikmagalur",
+            "Karnataka",
+            "Coffee, Mullayanagiri peak",
+            "Bengaluru or Mangaluru by road"
+          ],
+          [
+            "Araku Valley",
+            "Andhra Pradesh",
+            "Coffee, tribal villages, scenic railway",
+            "Visakhapatnam"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "tamil-nadu",
+      "heading": "Tamil Nadu",
+      "items": [
+        {
+          "name": "The Nilgiris and Kodaikanal",
+          "body": [
+            "Ooty's gardens and lake, tea country around Coonoor and Kotagiri, and Kodaikanal's lake and forests; Yercaud and Yelagiri for short trips."
+          ],
+          "links": [
+            {
+              "label": "Ooty guide",
+              "href": "/blog/ooty-travel-guide"
+            },
+            {
+              "label": "Kodaikanal guide",
+              "href": "/blog/kodaikanal-travel-guide"
+            },
+            {
+              "label": "Yercaud guide",
+              "href": "/blog/yercaud-travel-guide"
+            },
+            {
+              "label": "Yelagiri guide",
+              "href": "/blog/yelagiri-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/ooty/nilgiri-mountain-railway-ooty.webp",
+            "alt": "The Nilgiri Mountain Railway near Ooty",
+            "caption": "Nilgiri Mountain Railway"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kerala",
+      "heading": "Kerala",
+      "items": [
+        {
+          "name": "Munnar, Wayanad and Vagamon",
+          "body": [
+            "Tea estates and Eravikulam National Park around Munnar, forests and Edakkal caves in Wayanad, and Vagamon's meadows; Thekkady for Periyar."
+          ],
+          "links": [
+            {
+              "label": "Munnar guide",
+              "href": "/blog/munnar-travel-guide"
+            },
+            {
+              "label": "Wayanad guide",
+              "href": "/blog/wayanad-travel-guide"
+            },
+            {
+              "label": "Vagamon guide",
+              "href": "/blog/vagamon-travel-guide"
+            },
+            {
+              "label": "Thekkady guide",
+              "href": "/blog/thekkady-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/kerala/munnar/eravikulam-national-park-munnar.webp",
+            "alt": "Grassland hills in Eravikulam National Park, Munnar",
+            "caption": "Eravikulam, Munnar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "karnataka",
+      "heading": "Karnataka",
+      "items": [
+        {
+          "name": "Coorg, Chikmagalur and Sakleshpur",
+          "body": [
+            "Coffee estates, homestays, waterfalls and treks; Nandi Hills for a sunrise near Bengaluru."
+          ],
+          "links": [
+            {
+              "label": "Coorg guide",
+              "href": "/blog/coorg-travel-guide"
+            },
+            {
+              "label": "Chikmagalur guide",
+              "href": "/blog/chikmagalur-travel-guide"
+            },
+            {
+              "label": "Sakleshpur guide",
+              "href": "/blog/sakleshpur-travel-guide"
+            },
+            {
+              "label": "Nandi Hills guide",
+              "href": "/blog/nandi-hills-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eastern-ghats",
+      "heading": "The Eastern Ghats",
+      "list": [
+        "Araku Valley, reached by a scenic railway from Visakhapatnam through tunnels and bridges.",
+        "Lambasingi, known for winter mist and occasional frost.",
+        "Horsley Hills, a small hill station in Rayalaseema.",
+        "Ananthagiri Hills, a short trip from Hyderabad."
+      ],
+      "items": [
+        {
+          "name": "Guides",
+          "body": [
+            "Hills of Andhra Pradesh and Telangana."
+          ],
+          "links": [
+            {
+              "label": "Araku Valley guide",
+              "href": "/blog/araku-valley-travel-guide"
+            },
+            {
+              "label": "Lambasingi guide",
+              "href": "/blog/lambasingi-travel-guide"
+            },
+            {
+              "label": "Horsley Hills guide",
+              "href": "/blog/horsley-hills-travel-guide"
+            },
+            {
+              "label": "Ananthagiri Hills guide",
+              "href": "/blog/ananthagiri-hills-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combining",
+      "heading": "Combining southern hills",
+      "list": [
+        "Ooty, Kodaikanal and Munnar in about eight days.",
+        "Coorg with Chikmagalur, or with Wayanad and Mysuru.",
+        "Munnar with Thekkady and the Alappuzha backwaters."
+      ],
+      "items": [
+        {
+          "name": "Itinerary",
+          "body": [
+            "A day-by-day route."
+          ],
+          "links": [
+            {
+              "label": "South India hill stations itinerary",
+              "href": "/blog/south-india-hill-stations-itinerary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "How the southern hill stations grew",
+      "paras": [
+        "Ooty (Udhagamandalam) became the summer headquarters of the Madras Presidency in the 19th century, and Kodaikanal was founded by American missionaries in the 1840s as a retreat from the heat of the plains. Munnar grew around tea estates planted from the late 19th century, while Coorg's coffee economy goes back even earlier. The Toda, Kota and Badaga communities of the Nilgiris, and the Kodavas of Coorg, have lived in these hills far longer, and their cultures remain part of the region."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "The southern hills are known for plantation stays: tea bungalows around Munnar, Coonoor and Valparai, and coffee estate homestays in Coorg, Chikmagalur and Sakleshpur. Town centres such as Ooty, Kodaikanal and Munnar have more choice but more traffic; a stay a few kilometres out is often quieter. Book well ahead for April, May and the Christmas holidays."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "October to February: cool, dry and clear; the best months for most hills.",
+        "March to May: warm in the plains, so the hills are busiest; book early.",
+        "June to September: the south-west monsoon brings heavy rain to Kerala and Karnataka hills; lush but wet, with occasional landslides."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road and weather updates, and avoid driving after dark.",
+    "Vehicles registered outside the Nilgiris and Dindigul districts need a free e-pass for Ooty and Kodaikanal; check the Tamil Nadu e-pass portal.",
+    "Carry warm layers even in summer; nights in the hills are cool.",
+    "Watch for wildlife on forest roads at dusk and do not stop to feed animals."
+  ],
+  "packing": [
+    "Light warm layer or fleece",
+    "Rain jacket in the monsoon",
+    "Leech socks for monsoon forest walks",
+    "Comfortable walking shoes"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best hill station in South India?",
+      "a": "Munnar, Ooty, Kodaikanal and Coorg are the most popular; Coonoor, Vagamon and Chikmagalur are quieter."
+    },
+    {
+      "q": "Do I need an e-pass for Ooty and Kodaikanal?",
+      "a": "Tourist vehicles registered outside those districts need a free e-pass; check current rules on the Tamil Nadu portal."
+    },
+    {
+      "q": "What is the best time to visit South India's hill stations?",
+      "a": "October to May; the monsoon months are very wet."
+    },
+    {
+      "q": "Which southern hill stations are good for coffee estates?",
+      "a": "Coorg, Chikmagalur, Sakleshpur, Yercaud and Araku."
+    },
+    {
+      "q": "Can I combine Ooty, Kodaikanal and Munnar?",
+      "a": "Yes, in about a week to eight days by road."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Hill stations in Tamil Nadu",
+      "href": "/blog/hill-stations-in-tamil-nadu"
+    },
+    {
+      "label": "Hill stations in Kerala",
+      "href": "/blog/hill-stations-in-kerala"
+    },
+    {
+      "label": "Hill stations in Karnataka",
+      "href": "/blog/hill-stations-in-karnataka"
+    },
+    {
+      "label": "Kerala tour packages",
+      "href": "/packages/kerala"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Tea tourism in India",
+      "href": "/blog/tea-tourism-in-india",
+      "note": "Munnar and the Nilgiris"
+    },
+    {
+      "name": "Coffee plantation tourism",
+      "href": "/blog/coffee-plantation-tourism-in-india",
+      "note": "Coorg and Chikmagalur"
+    },
+    {
+      "name": "Hill stations near Bengaluru",
+      "href": "/blog/hill-stations-near-bengaluru",
+      "note": "weekend trips"
+    },
+    {
+      "name": "The Western Ghats",
+      "href": "/blog/western-ghats-nature-travel",
+      "note": "the range itself"
+    }
+  ],
+  "places": [
+    "Ooty",
+    "Coonoor",
+    "Kotagiri",
+    "Kodaikanal",
+    "Yercaud",
+    "Munnar",
+    "Wayanad",
+    "Vagamon",
+    "Coorg",
+    "Chikmagalur",
+    "Sakleshpur",
+    "Araku"
+  ],
+  "styles": [
+    "hill-station-holidays",
+    "family-holidays"
+  ],
+  "planDestination": "South India's hill stations",
+  "updated": "2026-09-26"
+}

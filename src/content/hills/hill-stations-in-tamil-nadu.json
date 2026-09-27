@@ -1,0 +1,373 @@
+{
+  "slug": "hill-stations-in-tamil-nadu",
+  "kind": "state",
+  "short": "Hill stations in Tamil Nadu",
+  "title": "Hill Stations in Tamil Nadu: Ooty, Kodaikanal, Yercaud and More",
+  "seoTitle": "Hill Stations in Tamil Nadu: Ooty, Kodaikanal and More | Kudozz Club",
+  "metaDescription": "Tamil Nadu's hill stations compared: Ooty, Coonoor, Kotagiri, Kodaikanal, Yercaud, Yelagiri, Valparai, Kolli Hills and Meghamalai, with e-pass rules and seasons.",
+  "description": "A guide to the hill stations of Tamil Nadu: Ooty, Coonoor and Kotagiri in the Nilgiris, Kodaikanal in the Palani hills, Yercaud and Yelagiri in the Eastern Ghats, Valparai in the Anamalai hills, and the Kolli Hills and Meghamalai, with how they compare, the e-pass for Ooty and Kodaikanal, seasons and routes.",
+  "dek": "Tamil Nadu has two of India's best-known hill stations and several quieter ones, from Nilgiri tea country to small lake towns within reach of Chennai.",
+  "primaryKeyword": "hill stations in Tamil Nadu",
+  "secondaryKeywords": [
+    "best hill stations in Tamil Nadu",
+    "Tamil Nadu hill stations list"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "hill stations",
+    "walks",
+    "viewpoints",
+    "sightseeing"
+  ],
+  "terrain": [
+    "hills",
+    "mountains"
+  ],
+  "regions": [
+    "Tamil Nadu"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tags": [
+    "Tamil Nadu",
+    "Ooty",
+    "Kodaikanal",
+    "Nilgiris",
+    "Hill Stations"
+  ],
+  "hero": {
+    "src": "/images/hills/tamil-nadu-hill-stations-kodaikanal.webp",
+    "alt": "Kodaikanal lake and town in the Palani hills, Tamil Nadu"
+  },
+  "parent": {
+    "label": "Hill Stations in South India",
+    "href": "/blog/hill-stations-in-south-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Hill stations of Tamil Nadu",
+    "containedIn": "Tamil Nadu"
+  },
+  "intro": [
+    "Tamil Nadu's hill stations sit in two ranges. The Western Ghats hold the Nilgiris (Ooty, Coonoor, Kotagiri), the Palani hills (Kodaikanal) and the Anamalai hills (Valparai), all tea and forest country. The Eastern Ghats hold smaller hill towns such as Yercaud near Salem, Yelagiri near Vellore and the Kolli Hills near Namakkal.",
+    "Ooty and Kodaikanal are among the busiest hill stations in India in April and May, and both require an e-pass for most outside vehicles."
+  ],
+  "quickAnswer": "The main hill stations in Tamil Nadu are Ooty, Coonoor and Kotagiri in the Nilgiris; Kodaikanal in the Palani hills; Yercaud and Yelagiri in the Eastern Ghats; and Valparai, the Kolli Hills and Meghamalai. October to June is pleasant, with April and May the busiest months. Vehicles from outside the district need a free e-pass to enter Ooty and Kodaikanal.",
+  "takeaways": [
+    "Ooty and Kodaikanal need a free e-pass for vehicles registered outside their districts.",
+    "Coonoor and Kotagiri are quieter Nilgiri bases than Ooty.",
+    "Yercaud and Yelagiri make easy short trips from Salem, Bengaluru and Chennai.",
+    "Valparai and Meghamalai are tea and wildlife country, with narrow ghat roads.",
+    "The Nilgiri Mountain Railway runs from Mettupalayam to Ooty."
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "heading": "At a glance",
+      "table": {
+        "columns": [
+          "Hill station",
+          "Range",
+          "Known for",
+          "Gateway"
+        ],
+        "rows": [
+          [
+            "Ooty",
+            "Nilgiris",
+            "Botanical garden, lake, toy train",
+            "Coimbatore; Mettupalayam"
+          ],
+          [
+            "Coonoor",
+            "Nilgiris",
+            "Tea estates, Sim's Park, quieter stays",
+            "Coimbatore"
+          ],
+          [
+            "Kotagiri",
+            "Nilgiris",
+            "Tea, Catherine Falls, calm",
+            "Coimbatore"
+          ],
+          [
+            "Kodaikanal",
+            "Palani hills",
+            "Lake, forests, viewpoints",
+            "Madurai or Kodaikanal Road"
+          ],
+          [
+            "Yercaud",
+            "Shevaroy hills",
+            "Lake, coffee",
+            "Salem"
+          ],
+          [
+            "Yelagiri",
+            "Eastern Ghats",
+            "Small lake town",
+            "Jolarpettai"
+          ],
+          [
+            "Valparai",
+            "Anamalai hills",
+            "Tea estates, wildlife",
+            "Pollachi"
+          ],
+          [
+            "Kolli Hills",
+            "Eastern Ghats",
+            "70 hairpin bends, waterfalls",
+            "Namakkal"
+          ],
+          [
+            "Meghamalai",
+            "Western Ghats",
+            "Tea, mist, quiet",
+            "Theni"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "nilgiris",
+      "heading": "The Nilgiris",
+      "items": [
+        {
+          "name": "Ooty, Coonoor and Kotagiri",
+          "body": [
+            "Ooty's Botanical Garden, lake and Doddabetta; Coonoor's tea estates and viewpoints; Kotagiri's calmer lanes. The toy train climbs from Mettupalayam via Coonoor."
+          ],
+          "links": [
+            {
+              "label": "Ooty guide",
+              "href": "/blog/ooty-travel-guide"
+            },
+            {
+              "label": "Things to do in Ooty",
+              "href": "/blog/things-to-do-in-ooty"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/ooty/doddabetta-peak-ooty-2.webp",
+            "alt": "The view from Doddabetta near Ooty",
+            "caption": "Doddabetta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kodaikanal",
+      "heading": "Kodaikanal",
+      "items": [
+        {
+          "name": "Kodaikanal",
+          "body": [
+            "The star-shaped lake, Coaker's Walk, Pillar Rocks and forest trails in the Palani hills."
+          ],
+          "links": [
+            {
+              "label": "Kodaikanal guide",
+              "href": "/blog/kodaikanal-travel-guide"
+            },
+            {
+              "label": "Things to do in Kodaikanal",
+              "href": "/blog/things-to-do-in-kodaikanal"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/kodaikanal/pillar-rocks-kodaikanal.webp",
+            "alt": "Pillar Rocks, Kodaikanal",
+            "caption": "Pillar Rocks"
+          }
+        }
+      ]
+    },
+    {
+      "id": "smaller",
+      "heading": "Smaller hill stations",
+      "items": [
+        {
+          "name": "Yercaud, Yelagiri, Valparai and more",
+          "body": [
+            "Lake towns near Salem and Vellore, tea and wildlife in Valparai, and the winding road to the Kolli Hills."
+          ],
+          "links": [
+            {
+              "label": "Yercaud guide",
+              "href": "/blog/yercaud-travel-guide"
+            },
+            {
+              "label": "Yelagiri guide",
+              "href": "/blog/yelagiri-travel-guide"
+            },
+            {
+              "label": "Valparai guide",
+              "href": "/blog/valparai-travel-guide"
+            },
+            {
+              "label": "Kolli Hills guide",
+              "href": "/blog/kolli-hills-travel-guide"
+            },
+            {
+              "label": "Meghamalai guide",
+              "href": "/blog/meghamalai-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-there",
+      "heading": "Getting there",
+      "list": [
+        "Coimbatore airport and railway station for the Nilgiris; the ghat road via Mettupalayam and Coonoor, or the Nilgiri Mountain Railway.",
+        "Madurai airport or Kodaikanal Road station for Kodaikanal, about three hours up.",
+        "Salem for Yercaud, and Jolarpettai for Yelagiri.",
+        "Pollachi for Valparai, over the 40 hairpin bends of the Aliyar ghat road."
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A little history",
+      "paras": [
+        "Ooty (Udhagamandalam) was developed from the 1820s and became the summer headquarters of the Madras Presidency. Kodaikanal was founded in the 1840s by American missionaries as a refuge from the heat and disease of the plains. The Nilgiris are the home of the Toda, Kota, Irula, Kurumba and Badaga communities, whose presence in the hills long predates the hill stations."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "Ooty town is busy; Coonoor, Kotagiri and the tea estates offer quieter stays, including heritage bungalows. In Kodaikanal, stays near the lake are central, while those further out have better views. Book early for April, May and long weekends."
+      ]
+    },
+    {
+      "id": "combos",
+      "heading": "Good combinations",
+      "list": [
+        "Ooty and Coonoor with a toy-train ride (three to four days).",
+        "Ooty, Kodaikanal and Munnar in about a week.",
+        "Ooty with Mudumalai and Masinagudi for wildlife.",
+        "Yercaud or Yelagiri as a short break from Bengaluru or Chennai."
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food and shopping",
+      "paras": [
+        "The Nilgiris are known for homemade chocolates, varkey biscuits, eucalyptus oil and, of course, tea; Kodaikanal also sells chocolates and plums. Estate shops in Coonoor and Kotagiri sell tea straight from the factory, and some offer tastings."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "October to February: cool, clear and quieter.",
+        "March to June: warm plains make the hills busy, especially April and May.",
+        "June to September: the Nilgiris get the south-west monsoon; Kodaikanal is less wet but still rainy at times."
+      ]
+    }
+  ],
+  "safety": [
+    "Vehicles registered outside the Nilgiris and Dindigul districts need a free e-pass for Ooty and Kodaikanal; check the Tamil Nadu e-pass portal.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road and weather updates, and avoid driving after dark.",
+    "Permits, e-passes, ropeways and pass openings change; check official portals before you travel.",
+    "Carry warm layers even in summer; nights in the hills are cool."
+  ],
+  "packing": [
+    "Warm layers and a waterproof jacket",
+    "Walking shoes with grip",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best hill station in Tamil Nadu?",
+      "a": "Ooty and Kodaikanal are the most popular; Coonoor, Kotagiri and Yercaud are quieter."
+    },
+    {
+      "q": "Do I need an e-pass for Ooty or Kodaikanal?",
+      "a": "Vehicles registered outside those districts need a free e-pass; check the Tamil Nadu e-pass portal for current rules."
+    },
+    {
+      "q": "Ooty or Kodaikanal: which is better?",
+      "a": "Ooty has more attractions and the toy train; Kodaikanal is smaller, with forest walks and a central lake."
+    },
+    {
+      "q": "Which hill station is closest to Chennai?",
+      "a": "Yelagiri, about four hours by road."
+    },
+    {
+      "q": "When is the best time to visit?",
+      "a": "October to June, avoiding the April and May rush if you prefer quiet."
+    },
+    {
+      "q": "Is the Nilgiri toy train worth taking?",
+      "a": "Yes, especially the section between Mettupalayam and Coonoor through forest and tunnels; book early on IRCTC."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "South India hill stations itinerary",
+      "href": "/blog/south-india-hill-stations-itinerary"
+    },
+    {
+      "label": "Hill stations near Chennai",
+      "href": "/blog/hill-stations-near-chennai"
+    },
+    {
+      "label": "Mountain railways of India",
+      "href": "/blog/mountain-railways-of-india"
+    },
+    {
+      "label": "Tamil Nadu tour packages",
+      "href": "/packages/tamil-nadu"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hill stations in South India",
+      "href": "/blog/hill-stations-in-south-india",
+      "note": "the southern hills"
+    },
+    {
+      "name": "Tea tourism in India",
+      "href": "/blog/tea-tourism-in-india",
+      "note": "Nilgiri tea"
+    },
+    {
+      "name": "Wildlife tourism in Tamil Nadu",
+      "href": "/blog/wildlife-tourism-in-tamil-nadu",
+      "note": "Mudumalai and Anamalai"
+    }
+  ],
+  "places": [
+    "Ooty",
+    "Coonoor",
+    "Kotagiri",
+    "Kodaikanal",
+    "Yercaud",
+    "Yelagiri",
+    "Valparai",
+    "Kolli Hills",
+    "Meghamalai"
+  ],
+  "styles": [
+    "hill-station-holidays",
+    "family-holidays"
+  ],
+  "planDestination": "Tamil Nadu",
+  "updated": "2026-09-26"
+}

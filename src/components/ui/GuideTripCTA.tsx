@@ -7,6 +7,7 @@ import { wildlifeForGuide } from "@/lib/wildlife-links";
 import { spiritualForGuide } from "@/lib/spiritual-links";
 import { heritageForGuide } from "@/lib/heritage-links";
 import { hillsForGuide } from "@/lib/hills-links";
+import { natureForGuide } from "@/lib/nature-links";
 
 // A single, quiet planning prompt placed after a guide's introduction.
 // Rendered inside .prose-travel, so it uses the .guide-cta overrides in
@@ -21,6 +22,7 @@ export default function GuideTripCTA({ slug, hideThingsToDo = false }: { slug: s
   const spirit = spiritualForGuide[slug];
   const heri = heritageForGuide[slug];
   const hill = hillsForGuide[slug];
+  const nat = natureForGuide[slug];
   const samePlace = ctx.place === ctx.stateName;
 
   return (
@@ -29,6 +31,12 @@ export default function GuideTripCTA({ slug, hideThingsToDo = false }: { slug: s
       <p className="font-sans text-[15px]">
         Looking for activities and experiences? See our guide to the{" "}
         <Link href={`/blog/${ttd.slug}`}>best things to do in {ttd.destination}</Link>.
+      </p>
+    )}
+    {nat && (
+      <p className="font-sans text-[15px]">
+        Love the outdoors? See our guide to{" "}
+        <Link href={`/blog/${nat.slug}`}>{nat.label}</Link>.
       </p>
     )}
     {hill && (

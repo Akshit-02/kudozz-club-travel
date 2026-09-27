@@ -1,0 +1,368 @@
+{
+  "slug": "hill-stations-in-west-bengal",
+  "kind": "state",
+  "short": "Hill stations in West Bengal",
+  "title": "Hill Stations in West Bengal: Darjeeling, Kalimpong and the Hills",
+  "seoTitle": "Hill Stations in West Bengal: Darjeeling to Kalimpong | Kudozz Club",
+  "metaDescription": "West Bengal's hill stations: Darjeeling, Kalimpong, Kurseong, Mirik, Lava, Lolegaon and Rishop, plus the Sandakphu trek, with tea gardens, toy train and seasons.",
+  "description": "A guide to the hill stations of West Bengal: Darjeeling and its tea gardens and toy train, Kalimpong across the Teesta, Kurseong and Mirik, the forest villages of Lava, Lolegaon and Rishop, and the Sandakphu ridge trek, with seasons, getting there from Kolkata and how to combine the hills with Sikkim.",
+  "dek": "The Darjeeling hills are West Bengal's Himalayan corner: tea gardens, a UNESCO toy train and, on clear days, Kanchenjunga filling the horizon.",
+  "primaryKeyword": "hill stations in West Bengal",
+  "secondaryKeywords": [
+    "best hill stations in West Bengal",
+    "West Bengal hill stations list"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "hill stations",
+    "walks",
+    "viewpoints",
+    "sightseeing"
+  ],
+  "terrain": [
+    "hills",
+    "mountains"
+  ],
+  "regions": [
+    "West Bengal"
+  ],
+  "seasons": [
+    "spring",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "families",
+    "couples",
+    "friends"
+  ],
+  "tags": [
+    "West Bengal",
+    "Darjeeling",
+    "Kalimpong",
+    "Tea",
+    "Hill Stations"
+  ],
+  "hero": {
+    "src": "/images/hills/west-bengal-hill-stations-kalimpong.webp",
+    "alt": "Kalimpong town spread across its ridge, West Bengal"
+  },
+  "parent": {
+    "label": "Hill Stations in Northeast India",
+    "href": "/blog/hill-stations-in-northeast-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Hill stations of West Bengal",
+    "containedIn": "West Bengal"
+  },
+  "intro": [
+    "West Bengal's hill stations are all in the far north, in the Darjeeling and Kalimpong districts. Darjeeling is the famous one, with its tea estates, Tiger Hill and the Darjeeling Himalayan Railway. Kalimpong, across the Teesta valley, is quieter, and smaller places such as Kurseong, Mirik, Lava, Lolegaon and Rishop offer forests and village stays.",
+    "The Singalila ridge, with Sandakphu, gives one of the few views in India of Everest, Kanchenjunga, Lhotse and Makalu together, on foot or by permitted vehicles."
+  ],
+  "quickAnswer": "West Bengal's hill stations are Darjeeling, Kalimpong, Kurseong and Mirik, with the forest villages of Lava, Lolegaon and Rishop and the Sandakphu trek on the Singalila ridge. March to May and October to December are the best months, with the clearest Kanchenjunga views in autumn. The gateways are Bagdogra airport and New Jalpaiguri station, about three hours below Darjeeling.",
+  "takeaways": [
+    "Darjeeling is the main base, with tea gardens, Tiger Hill and the toy train.",
+    "Kalimpong is quieter, with monasteries, nurseries and old colonial buildings.",
+    "Sandakphu offers views of four of the world's five highest peaks in clear weather.",
+    "October to December has the clearest mountain views.",
+    "Most travellers combine the Darjeeling hills with Sikkim."
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "heading": "At a glance",
+      "table": {
+        "columns": [
+          "Place",
+          "Known for",
+          "From Siliguri or NJP"
+        ],
+        "rows": [
+          [
+            "Darjeeling",
+            "Tea, Tiger Hill, toy train, Batasia Loop",
+            "About three hours"
+          ],
+          [
+            "Kalimpong",
+            "Monasteries, nurseries, Deolo Hill",
+            "About two and a half hours"
+          ],
+          [
+            "Kurseong",
+            "Tea estates and a quieter town",
+            "About one and a half hours"
+          ],
+          [
+            "Mirik",
+            "Lake and tea gardens",
+            "About two hours"
+          ],
+          [
+            "Lava and Lolegaon",
+            "Forests, Neora Valley",
+            "Via Kalimpong"
+          ],
+          [
+            "Sandakphu",
+            "Ridge trek with Everest and Kanchenjunga views",
+            "From Manebhanjan"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "darjeeling",
+      "heading": "Darjeeling",
+      "items": [
+        {
+          "name": "Darjeeling",
+          "body": [
+            "Tiger Hill at dawn, the Batasia Loop, tea estates such as Happy Valley, the Himalayan Mountaineering Institute and the toy train."
+          ],
+          "links": [
+            {
+              "label": "Darjeeling guide",
+              "href": "/blog/darjeeling-travel-guide"
+            },
+            {
+              "label": "Things to do in Darjeeling",
+              "href": "/blog/things-to-do-in-darjeeling"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/darjeeling/batasia-loop-war-memorial-darjeeling.webp",
+            "alt": "The Batasia Loop and war memorial, Darjeeling",
+            "caption": "Batasia Loop"
+          }
+        },
+        {
+          "name": "The toy train",
+          "body": [
+            "The Darjeeling Himalayan Railway, a UNESCO World Heritage Site, with joy rides from Darjeeling towards Ghum."
+          ],
+          "links": [
+            {
+              "label": "Mountain railways of India",
+              "href": "/blog/mountain-railways-of-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kalimpong",
+      "heading": "Kalimpong and the smaller hills",
+      "items": [
+        {
+          "name": "Kalimpong",
+          "body": [
+            "Durpin and Zang Dhok Palri monasteries, flower nurseries and Deolo Hill."
+          ],
+          "links": [
+            {
+              "label": "Kalimpong guide",
+              "href": "/blog/kalimpong-travel-guide"
+            },
+            {
+              "label": "Things to do in Kalimpong",
+              "href": "/blog/things-to-do-in-kalimpong"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/kalimpong/durpin-monastery-kalimpong.webp",
+            "alt": "Durpin Monastery, Kalimpong",
+            "caption": "Durpin Monastery"
+          }
+        },
+        {
+          "name": "Kurseong, Mirik, Lava and Rishop",
+          "body": [
+            "Tea-country towns and forest villages for quieter stays."
+          ]
+        },
+        {
+          "name": "Sandakphu",
+          "body": [
+            "A multi-day trek or permitted vehicle trip along the Singalila ridge."
+          ],
+          "links": [
+            {
+              "label": "Sandakphu guide",
+              "href": "/blog/sandakphu-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "heading": "Tea",
+      "paras": [
+        "Darjeeling tea is grown on estates across these hills, and many welcome visitors for factory tours and tastings, especially in the first flush (spring) and second flush (early summer) seasons. Some estates also have bungalow stays."
+      ],
+      "items": [
+        {
+          "name": "Tea tourism",
+          "body": [
+            "More on tea."
+          ],
+          "links": [
+            {
+              "label": "Tea tourism in India",
+              "href": "/blog/tea-tourism-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "A little history",
+      "paras": [
+        "Darjeeling was acquired by the East India Company from the Chogyal of Sikkim in 1835 and developed as a sanatorium, and tea planting began in the 1840s and 1850s. The Darjeeling Himalayan Railway opened in 1881. Kalimpong, once part of Bhutan, became a trading town on the route to Tibet. The hills are home to Nepali-speaking Gorkha, Lepcha and Bhutia communities, whose festivals and food shape the region."
+      ]
+    },
+    {
+      "id": "stays",
+      "heading": "Where to stay",
+      "paras": [
+        "In Darjeeling, stays near the Chowrasta and Mall are walkable, while tea estate bungalows below the town offer quiet. Kalimpong has heritage hotels and homestays. Lava, Lolegaon and Rishop have simple lodges and homestays in forest settings. Book ahead for October, the Puja holidays and the summer rush from Kolkata."
+      ]
+    },
+    {
+      "id": "combos",
+      "heading": "Good combinations",
+      "list": [
+        "Darjeeling and Kalimpong in four to five days.",
+        "Darjeeling with Gangtok and Pelling in a week.",
+        "Darjeeling with the Dooars forests and tea gardens below.",
+        "Kurseong or Mirik for a quiet night on the way up or down."
+      ],
+      "items": [
+        {
+          "name": "The Dooars",
+          "body": [
+            "Forests and tea below the hills."
+          ],
+          "links": [
+            {
+              "label": "Dooars guide",
+              "href": "/blog/dooars-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-there",
+      "heading": "Getting there",
+      "paras": [
+        "Bagdogra airport and New Jalpaiguri (NJP) station near Siliguri are the gateways. Shared jeeps and taxis run to Darjeeling, Kalimpong and Mirik; the drive to Darjeeling takes about three hours. The toy train also runs from NJP to Darjeeling, but it takes most of a day, so most visitors take the short joy ride from Darjeeling instead."
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When to go",
+      "list": [
+        "March to May: spring flowers and first-flush tea; some haze.",
+        "June to September: monsoon rain and landslides.",
+        "October to December: the clearest Kanchenjunga views.",
+        "January to February: cold; occasional snow at Sandakphu and higher places."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road and weather updates, and avoid driving after dark.",
+    "Permits, e-passes, ropeways and pass openings change; check official portals before you travel.",
+    "Carry warm layers even in summer; nights in the hills are cool."
+  ],
+  "packing": [
+    "Warm layers and a waterproof jacket",
+    "Walking shoes with grip",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best hill station in West Bengal?",
+      "a": "Darjeeling is the best known; Kalimpong and Kurseong are quieter."
+    },
+    {
+      "q": "How far is Darjeeling from Kolkata?",
+      "a": "Fly to Bagdogra or take an overnight train to New Jalpaiguri, then about three hours by road."
+    },
+    {
+      "q": "When is the best time to see Kanchenjunga from Darjeeling?",
+      "a": "October to December usually has the clearest skies."
+    },
+    {
+      "q": "Can I see Everest from Sandakphu?",
+      "a": "Yes, in clear weather, along with Kanchenjunga, Lhotse and Makalu."
+    },
+    {
+      "q": "Can I combine Darjeeling with Sikkim?",
+      "a": "Yes; Gangtok is about four hours from Darjeeling by road."
+    },
+    {
+      "q": "Is Kalimpong worth visiting?",
+      "a": "Yes, for a quieter base with monasteries, nurseries and views across the Teesta valley."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Darjeeling and Sikkim itinerary",
+      "href": "/blog/darjeeling-sikkim-itinerary"
+    },
+    {
+      "label": "Hill stations near Kolkata",
+      "href": "/blog/hill-stations-near-kolkata"
+    },
+    {
+      "label": "West Bengal travel guide",
+      "href": "/blog/west-bengal-travel-guide"
+    },
+    {
+      "label": "West Bengal tour packages",
+      "href": "/packages/west-bengal"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hill stations in Sikkim",
+      "href": "/blog/hill-stations-in-sikkim",
+      "note": "next door"
+    },
+    {
+      "name": "Tea tourism in India",
+      "href": "/blog/tea-tourism-in-india",
+      "note": "Darjeeling tea"
+    },
+    {
+      "name": "Heritage tourism in West Bengal",
+      "href": "/blog/heritage-tourism-in-west-bengal",
+      "note": "the state's heritage"
+    }
+  ],
+  "places": [
+    "Darjeeling",
+    "Kalimpong",
+    "Kurseong",
+    "Mirik",
+    "Lava",
+    "Lolegaon",
+    "Rishop",
+    "Sandakphu"
+  ],
+  "styles": [
+    "hill-station-holidays",
+    "family-holidays"
+  ],
+  "planDestination": "West Bengal",
+  "updated": "2026-09-26"
+}

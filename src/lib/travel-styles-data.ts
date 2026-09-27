@@ -92,8 +92,17 @@ export const travelStylesData: TravelStylePackage[] = [
     desc: "Himalayan towns, tea hills, snow",
     intro:
       "Hill holidays work best when the season, the roads and the pace are right: the right hill for the month, realistic mountain driving days, and stays that suit who is travelling.",
-    image: "/images/blogs/sikkim/pelling/kanchenjunga-peak-view-from-pelling-sikkim.webp",
+    image: "/images/blogs/sikkim/sikkim/kanchenjunga-peak-view-from-pelling-sikkim.webp",
     relatedStates: ["himachal-pradesh", "uttarakhand", "kashmir", "sikkim"],
+  },
+  {
+    slug: "nature-holidays",
+    name: "Nature Holidays",
+    desc: "Forests, waterfalls, valleys",
+    intro:
+      "Nature trips work best when the season is right for the landscape: waterfalls after the rains, valleys in bloom, clear skies for mountain views, and stays close to the forest rather than the highway.",
+    image: "/images/blogs/kerala/munnar/eravikulam-national-park-munnar.webp",
+    relatedStates: ["kerala", "meghalaya", "uttarakhand", "karnataka"],
   },
   {
     slug: "luxury-holidays",
