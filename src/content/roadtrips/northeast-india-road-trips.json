@@ -1,0 +1,379 @@
+{
+  "slug": "northeast-india-road-trips",
+  "kind": "pillar",
+  "short": "Northeast India road trips",
+  "title": "Northeast India Road Trips: Meghalaya, Assam, Arunachal and Sikkim",
+  "seoTitle": "Northeast India Road Trips: Meghalaya, Assam, Arunachal | Kudozz Club",
+  "metaDescription": "Northeast India road trips: Guwahati to Shillong and Sohra, Kaziranga and Majuli, Tawang, Ziro, Sikkim and Nagaland, with permits, rentals and seasons.",
+  "description": "A guide to road trips in Northeast India: Guwahati to Shillong, Sohra and Dawki in Meghalaya, Kaziranga and Majuli in Assam, Guwahati to Tawang and Ziro in Arunachal Pradesh, the Siliguri–Gangtok road and North Sikkim, and Dimapur to Kohima in Nagaland, with Inner Line Permits, local-vehicle rules, landslides and the best seasons.",
+  "dek": "Northeast India's road trips cross river plains, rain-soaked plateaus and high Himalayan passes, often through permit-controlled country.",
+  "primaryKeyword": "Northeast India road trip",
+  "secondaryKeywords": [
+    "Northeast road trip itinerary",
+    "Meghalaya road trip",
+    "Assam road trip"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "hills",
+    "river plains",
+    "mountains",
+    "forest"
+  ],
+  "regions": [
+    "Assam",
+    "Meghalaya",
+    "Arunachal Pradesh",
+    "Sikkim",
+    "Nagaland"
+  ],
+  "seasons": [
+    "autumn",
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Northeast India",
+    "Road trips",
+    "Meghalaya",
+    "Arunachal Pradesh",
+    "Assam"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/northeast-road-trips-meghalaya-road.webp",
+    "alt": "A road through green hills near Sohra (Cherrapunji), Meghalaya"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Northeast India road trips",
+    "containedIn": "Northeast India"
+  },
+  "intro": [
+    "Guwahati is the hub for most Northeast road trips. From there, a short drive climbs to Shillong and the Meghalaya plateau; the highway east follows the Brahmaputra to Kaziranga and Jorhat; and routes north cross into Arunachal Pradesh for Tawang and Ziro. Sikkim is reached separately, from Bagdogra and Siliguri in West Bengal.",
+    "Distances look short on a map but roads are slow, weather is wet for much of the year, and several states require Inner Line Permits. Many travellers hire local cars and drivers, and some areas restrict outside vehicles."
+  ],
+  "quickAnswer": "The best Northeast India road trips are Guwahati–Shillong–Sohra–Dawki in Meghalaya, Guwahati–Kaziranga–Majuli in Assam, Guwahati–Bomdila–Dirang–Tawang in Arunachal Pradesh, Guwahati to Ziro, and Siliguri–Gangtok with North Sikkim. October to April is best. Arunachal Pradesh and Nagaland need Inner Line Permits for Indian visitors, and North Sikkim needs permits and usually local vehicles.",
+  "takeaways": [
+    "Guwahati is the gateway for Meghalaya, Assam and Arunachal; Bagdogra for Sikkim.",
+    "Indian visitors need Inner Line Permits for Arunachal Pradesh, Nagaland, Mizoram and Manipur.",
+    "Protected areas in Sikkim need permits, and some routes allow only local vehicles and drivers.",
+    "Roads are slow and landslide-prone in the monsoon; allow buffer days.",
+    "Hiring a local car and driver is often simpler than self-driving."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Northeast road trips at a glance",
+      "table": {
+        "columns": [
+          "Route",
+          "Approx. distance",
+          "Typical days",
+          "Permits"
+        ],
+        "rows": [
+          [
+            "Guwahati–Shillong–Sohra–Dawki",
+            "About 250 km loop",
+            "4 to 6",
+            "None for Indians"
+          ],
+          [
+            "Guwahati–Kaziranga–Jorhat–Majuli",
+            "About 330 km",
+            "4 to 5",
+            "None for Indians"
+          ],
+          [
+            "Guwahati–Bomdila–Dirang–Tawang",
+            "About 450 to 500 km",
+            "6 to 8 return",
+            "Arunachal ILP"
+          ],
+          [
+            "Guwahati–Ziro",
+            "About 430 km",
+            "5 to 6 return",
+            "Arunachal ILP"
+          ],
+          [
+            "Siliguri–Gangtok–North Sikkim",
+            "About 125 km to Gangtok",
+            "5 to 7",
+            "Permits for protected areas"
+          ],
+          [
+            "Dimapur–Kohima–Khonoma",
+            "About 95 km",
+            "3 to 4",
+            "Nagaland ILP"
+          ]
+        ],
+        "caption": "Distances are approximate."
+      }
+    },
+    {
+      "id": "meghalaya",
+      "heading": "Meghalaya",
+      "paras": [
+        "Shillong is about 100 km and three hours from Guwahati via Umiam lake. From Shillong, Sohra (Cherrapunji) is about 55 km south, and Dawki and Mawlynnong lie on the Bangladesh border to the east. The roads are good but winding, and fog is common."
+      ],
+      "items": [
+        {
+          "name": "Meghalaya",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Meghalaya nature itinerary",
+              "href": "/blog/meghalaya-nature-itinerary"
+            },
+            {
+              "label": "Shillong guide",
+              "href": "/blog/shillong-travel-guide"
+            },
+            {
+              "label": "Cherrapunji guide",
+              "href": "/blog/cherrapunji-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/meghalaya/umiam-lake/umiam-lake.webp",
+            "alt": "Umiam lake on the Guwahati–Shillong road",
+            "caption": "Umiam lake"
+          }
+        }
+      ]
+    },
+    {
+      "id": "assam",
+      "heading": "Assam",
+      "paras": [
+        "The highway east from Guwahati reaches Kaziranga in about five hours, passing tea gardens and the Karbi hills. Further east, Jorhat is the jumping-off point for the ferry to Majuli, the Brahmaputra's river island. Parts of the Kaziranga highway pass through wildlife corridors with speed limits."
+      ],
+      "items": [
+        {
+          "name": "Assam",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Kaziranga guide",
+              "href": "/blog/kaziranga-travel-guide"
+            },
+            {
+              "label": "Majuli guide",
+              "href": "/blog/majuli-travel-guide"
+            },
+            {
+              "label": "Wildlife tourism in Assam",
+              "href": "/blog/wildlife-tourism-in-assam"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arunachal",
+      "heading": "Arunachal Pradesh",
+      "items": [
+        {
+          "name": "Tawang",
+          "body": [
+            "Over Sela, with overnight stops at Dirang or Bomdila."
+          ],
+          "links": [
+            {
+              "label": "Guwahati to Tawang road trip",
+              "href": "/blog/guwahati-to-tawang-road-trip"
+            },
+            {
+              "label": "Tawang guide",
+              "href": "/blog/tawang-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Ziro",
+          "body": [
+            "A long drive via North Lakhimpur to the Apatani valley."
+          ],
+          "links": [
+            {
+              "label": "Ziro guide",
+              "href": "/blog/ziro-valley-arunachal-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sikkim",
+      "heading": "Sikkim",
+      "paras": [
+        "Sikkim is reached from Bagdogra airport or New Jalpaiguri station via Siliguri and the Teesta valley road (NH10), which is prone to landslides and closures in the monsoon. North Sikkim (Lachung, Lachen, Yumthang) and East Sikkim (Tsomgo, Nathu La) need permits, and tourist trips there usually use Sikkim-registered vehicles with local drivers."
+      ],
+      "items": [
+        {
+          "name": "Sikkim",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Darjeeling and Sikkim itinerary",
+              "href": "/blog/darjeeling-sikkim-itinerary"
+            },
+            {
+              "label": "Gangtok guide",
+              "href": "/blog/gangtok-travel-guide"
+            },
+            {
+              "label": "Lachung guide",
+              "href": "/blog/lachung-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "permits",
+      "heading": "Permits and vehicles",
+      "list": [
+        "Inner Line Permits (ILP) for Indian visitors: Arunachal Pradesh, Nagaland, Mizoram and Manipur; apply online in advance.",
+        "Sikkim: permits for North and East Sikkim's protected areas, usually arranged through registered operators.",
+        "Foreign nationals need Protected Area Permits in several areas.",
+        "Outside vehicles can face restrictions in some tourist areas; check with your hotel or operator."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to April is best: dry, clear and cool, with snow at Sela and Tawang from December to February. The monsoon (May or June to September) brings very heavy rain to Meghalaya and Assam, Brahmaputra floods around Kaziranga, and landslides on hill roads. Kaziranga's core zones usually close during the monsoon."
+      ]
+    }
+  ],
+  "safety": [
+    "Above about 3,000 m, ascend gradually, rest on arrival and see a doctor before travel if you have heart, lung or blood-pressure conditions.",
+    "Allow buffer days; landslides can close roads for a day or more.",
+    "Avoid driving after dark on hill roads.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Rain jacket and umbrella",
+    "Warm layers for Tawang and Sikkim",
+    "Printed permits and ID copies",
+    "Cash for areas with patchy card and ATM access"
+  ],
+  "faqs": [
+    {
+      "q": "What is the best road trip in Northeast India?",
+      "a": "Guwahati to Shillong and Sohra for a short trip, and Guwahati to Tawang for a longer, high-altitude drive."
+    },
+    {
+      "q": "Do I need a permit for a Northeast road trip?",
+      "a": "Indian visitors need Inner Line Permits for Arunachal Pradesh, Nagaland, Mizoram and Manipur, and permits for protected areas of Sikkim."
+    },
+    {
+      "q": "Can I self-drive in Northeast India?",
+      "a": "It is possible in Assam and Meghalaya, but many travellers hire local cars and drivers; some areas restrict outside vehicles."
+    },
+    {
+      "q": "When is the best time for a Northeast road trip?",
+      "a": "October to April."
+    },
+    {
+      "q": "How many days do I need?",
+      "a": "Five days for Meghalaya, a week for Tawang, and two weeks to combine several states."
+    },
+    {
+      "q": "Is the Northeast safe to drive in the monsoon?",
+      "a": "Roads stay open with interruptions, but landslides and floods are frequent; keep plans flexible."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Guwahati to Tawang road trip",
+      "href": "/blog/guwahati-to-tawang-road-trip"
+    },
+    {
+      "label": "Nature travel in Northeast India",
+      "href": "/blog/nature-travel-in-northeast-india"
+    },
+    {
+      "label": "Hill stations in Northeast India",
+      "href": "/blog/hill-stations-in-northeast-india"
+    },
+    {
+      "label": "Northeast India tour",
+      "href": "/packages/northeast-india"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Meghalaya nature itinerary",
+      "href": "/blog/meghalaya-nature-itinerary",
+      "note": "six days"
+    },
+    {
+      "name": "Wildlife tourism in Assam",
+      "href": "/blog/wildlife-tourism-in-assam",
+      "note": "Kaziranga and more"
+    },
+    {
+      "name": "Tribal tourism in India",
+      "href": "/blog/tribal-tourism-in-india",
+      "note": "culture along the way"
+    }
+  ],
+  "places": [
+    "Guwahati",
+    "Shillong",
+    "Sohra",
+    "Dawki",
+    "Mawlynnong",
+    "Kaziranga",
+    "Jorhat",
+    "Majuli",
+    "Tezpur",
+    "Bomdila",
+    "Dirang",
+    "Tawang",
+    "Ziro",
+    "Siliguri",
+    "Gangtok",
+    "Lachung",
+    "Dimapur",
+    "Kohima"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "nature-holidays"
+  ],
+  "planDestination": "Northeast India",
+  "updated": "2026-09-26"
+}

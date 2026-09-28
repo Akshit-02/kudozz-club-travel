@@ -1,0 +1,371 @@
+{
+  "slug": "monsoon-road-trips-in-india",
+  "kind": "pillar",
+  "short": "Monsoon road trips in India",
+  "title": "Monsoon Road Trips in India: Where to Drive and What to Avoid",
+  "seoTitle": "Monsoon Road Trips in India: Where to Drive and Avoid | Kudozz Club",
+  "metaDescription": "Monsoon road trips in India: Western Ghats ghat roads, Coorg, Kerala, Meghalaya and the rain-shadow drives to Ladakh and Spiti, with safety and what to avoid.",
+  "description": "A guide to monsoon road trips in India: where the rains make driving beautiful (the Western Ghats around Mumbai and Pune, the Konkan, Coorg and Chikmagalur, Kerala and Meghalaya), where the rain shadow keeps roads dry (Ladakh, Spiti and Lahaul), where to avoid in peak monsoon (Himachal and Uttarakhand's landslide zones), and how to drive safely in the rain.",
+  "dek": "The monsoon turns India's ghats and hills a brilliant green, but it also brings landslides, floods and fog. Choose your route carefully.",
+  "primaryKeyword": "monsoon road trips in India",
+  "secondaryKeywords": [
+    "rainy season road trips",
+    "monsoon drives India",
+    "Western Ghats monsoon drives"
+  ],
+  "searchIntent": "Seasonal discovery",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "Western Ghats",
+    "hills",
+    "high desert"
+  ],
+  "regions": [
+    "Maharashtra",
+    "Karnataka",
+    "Kerala",
+    "Meghalaya",
+    "Ladakh",
+    "Himachal Pradesh"
+  ],
+  "seasons": [
+    "monsoon"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "photographers"
+  ],
+  "tags": [
+    "Monsoon",
+    "Road trips",
+    "Western Ghats",
+    "Rain",
+    "Safety"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/monsoon-road-trips-western-ghats.webp",
+    "alt": "Monsoon clouds over the Western Ghats and a highway below"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Monsoon road trips in India"
+  },
+  "intro": [
+    "The south-west monsoon reaches Kerala around early June and covers most of India by July, lasting until September in the north. For road-trippers it is a double-edged season. In the Western Ghats, Kerala and Meghalaya, waterfalls appear on every cliff and the hills turn vivid green. In the Himalayan states, the same rains bring landslides that close roads for days.",
+    "Meanwhile, the high-altitude desert beyond the Great Himalaya lies in the rain shadow, making July and August the peak season for Ladakh and Spiti, even though the roads to reach them cross rain-affected country."
+  ],
+  "quickAnswer": "The best monsoon road trips in India are the Western Ghats around Mumbai and Pune (Malshej, Tamhini, Lonavala, Mahabaleshwar), the Konkan coast, Coorg and Chikmagalur, Kerala's hills, Meghalaya around Shillong and Sohra, and, in the rain shadow, Ladakh and Spiti. Avoid Himachal's and Uttarakhand's landslide-prone valleys in peak monsoon. Drive in daylight and check weather alerts daily.",
+  "takeaways": [
+    "The Western Ghats and Kerala are at their most beautiful from July to September.",
+    "Ladakh and Spiti stay mostly dry, but the approach roads can be hit by rain.",
+    "Himachal and Uttarakhand see frequent, sometimes severe landslides in July and August.",
+    "Check India Meteorological Department alerts and district advisories every day.",
+    "Never drive through flooded causeways or stop below unstable slopes."
+  ],
+  "sections": [
+    {
+      "id": "where",
+      "heading": "Where to drive in the monsoon",
+      "table": {
+        "columns": [
+          "Route",
+          "Why",
+          "Watch out for"
+        ],
+        "rows": [
+          [
+            "Malshej, Tamhini, Lonavala",
+            "Waterfalls and mist near Mumbai and Pune",
+            "Weekend crowds, restricted spots"
+          ],
+          [
+            "Mahabaleshwar–Pratapgad",
+            "Clouds and cliffs",
+            "Heavy rain; some points close"
+          ],
+          [
+            "Amboli ghat",
+            "Among the wettest spots in Maharashtra",
+            "Fog and slippery bends"
+          ],
+          [
+            "Coorg and Chikmagalur",
+            "Misty coffee estates",
+            "Landslides on some ghat roads"
+          ],
+          [
+            "Kerala hills",
+            "Waterfalls on the Munnar road",
+            "Red-alert closures"
+          ],
+          [
+            "Meghalaya",
+            "Sohra's giant waterfalls",
+            "Very heavy rain, low visibility"
+          ],
+          [
+            "Ladakh and Spiti",
+            "Rain shadow, dry and clear",
+            "Slides on the approach roads"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ghats",
+      "heading": "The Western Ghats",
+      "paras": [
+        "Around Mumbai and Pune, the monsoon is the main road-trip season. Waterfalls pour off the Sahyadri at Malshej and Tamhini, and hill forts disappear into cloud. At weekends in July and August, local authorities often restrict access to crowded waterfalls and viewpoints, and some have banned swimming. Weekdays are far better."
+      ],
+      "items": [
+        {
+          "name": "Ghats",
+          "body": [
+            "More ghat drives."
+          ],
+          "links": [
+            {
+              "label": "Western Ghats road trips",
+              "href": "/blog/western-ghats-road-trips"
+            },
+            {
+              "label": "Road trips from Mumbai and Pune",
+              "href": "/blog/road-trips-from-mumbai"
+            },
+            {
+              "label": "Monsoon hill stations",
+              "href": "/blog/monsoon-hill-stations-in-india"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/maharashtra/mahabaleshwar-needle-hole-point-rock-formation.webp",
+            "alt": "Cliffs near Mahabaleshwar",
+            "caption": "The Sahyadri"
+          }
+        }
+      ]
+    },
+    {
+      "id": "south",
+      "heading": "Karnataka and Kerala",
+      "paras": [
+        "Coorg, Chikmagalur and Sakleshpur turn misty and green, and Jog Falls is at its fullest. In Kerala, the Kochi–Munnar road passes waterfalls, and Athirappilly roars. Heavy rain can trigger landslides; Wayanad suffered a devastating one in July 2024, and district authorities close roads and viewpoints on red-alert days."
+      ],
+      "items": [
+        {
+          "name": "South",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Bengaluru to Coorg road trip",
+              "href": "/blog/bengaluru-to-coorg-road-trip"
+            },
+            {
+              "label": "Kochi to Munnar road trip",
+              "href": "/blog/kochi-to-munnar-road-trip"
+            },
+            {
+              "label": "Waterfalls in India",
+              "href": "/blog/waterfalls-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "northeast",
+      "heading": "Meghalaya",
+      "paras": [
+        "Sohra and Mawsynram are among the wettest places on earth. The monsoon brings enormous waterfalls, but also days of fog when viewpoints show nothing. Roads from Guwahati usually stay open, but landslides happen."
+      ],
+      "items": [
+        {
+          "name": "Meghalaya",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Northeast India road trips",
+              "href": "/blog/northeast-india-road-trips"
+            },
+            {
+              "label": "Nature travel in Meghalaya",
+              "href": "/blog/nature-travel-in-meghalaya"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rain-shadow",
+      "heading": "The rain shadow: Ladakh and Spiti",
+      "paras": [
+        "Behind the Great Himalaya, Ladakh and Spiti get little monsoon rain, so July and August are peak season there. The catch is getting in: the Manali side and Kinnaur can see landslides and swollen streams. Flying to Leh and driving within Ladakh avoids the riskiest approach roads."
+      ],
+      "items": [
+        {
+          "name": "High desert",
+          "body": [
+            "Route guides."
+          ],
+          "links": [
+            {
+              "label": "Manali to Leh road trip",
+              "href": "/blog/manali-to-leh-road-trip"
+            },
+            {
+              "label": "Spiti Valley road trip",
+              "href": "/blog/spiti-valley-road-trip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avoid",
+      "heading": "Where to avoid in peak monsoon",
+      "list": [
+        "Himachal's Beas valley between Mandi and Manali, and Kinnaur along the Sutlej.",
+        "Uttarakhand's Char Dham valleys and the Kumaon hills during heavy spells.",
+        "The Teesta valley road to Sikkim, which often closes.",
+        "Low-lying coastal roads during cyclone or flood warnings."
+      ]
+    },
+    {
+      "id": "driving",
+      "heading": "Driving safely in the rain",
+      "list": [
+        "Drive only in daylight and slow down; stopping distances are much longer on wet roads.",
+        "Switch on headlights in rain and fog; do not use hazard lights while moving.",
+        "Never cross a flooded causeway or stream; the depth and current are hard to judge.",
+        "Do not stop or park below cut slopes or loose rock.",
+        "Keep wipers, tyres and brakes in good condition, and carry a torch and first-aid kit."
+      ],
+      "items": [
+        {
+          "name": "Safety",
+          "body": [
+            "More reading."
+          ],
+          "links": [
+            {
+              "label": "Road trip safety in India",
+              "href": "/blog/road-trip-safety-in-india"
+            },
+            {
+              "label": "Road trip packing list",
+              "href": "/blog/road-trip-packing-list"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety": [
+    "Check India Meteorological Department warnings and district alerts daily, and change plans on red-alert days.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Rain jackets and umbrellas",
+    "Microfibre cloths for fogged windows",
+    "Spare dry clothes in a waterproof bag",
+    "Torch and power bank"
+  ],
+  "faqs": [
+    {
+      "q": "Where can I go on a road trip in the monsoon in India?",
+      "a": "The Western Ghats around Mumbai and Pune, Coorg, Kerala, Meghalaya, and, in the rain shadow, Ladakh and Spiti."
+    },
+    {
+      "q": "Is it safe to drive in the hills during the monsoon?",
+      "a": "It can be risky. Himachal and Uttarakhand see frequent landslides; check alerts and keep plans flexible."
+    },
+    {
+      "q": "Is Ladakh good in the monsoon?",
+      "a": "Yes; Ladakh is in the rain shadow and July to August is peak season, but approach roads can be affected."
+    },
+    {
+      "q": "What is the best monsoon drive near Mumbai?",
+      "a": "Malshej, Tamhini and Lonavala on weekdays."
+    },
+    {
+      "q": "How do I drive safely in heavy rain?",
+      "a": "Slow down, drive in daylight, use headlights and never cross flooded roads."
+    },
+    {
+      "q": "When does the monsoon end?",
+      "a": "Usually by late September in the north and west; the east coast gets rain later, from October to December."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Western Ghats road trips",
+      "href": "/blog/western-ghats-road-trips"
+    },
+    {
+      "label": "Road trip safety in India",
+      "href": "/blog/road-trip-safety-in-india"
+    },
+    {
+      "label": "Monsoon hill stations",
+      "href": "/blog/monsoon-hill-stations-in-india"
+    },
+    {
+      "label": "Road trip holidays",
+      "href": "/packages/road-trip-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Monsoon treks",
+      "href": "/blog/monsoon-treks-in-india",
+      "note": "on foot"
+    },
+    {
+      "name": "Waterfalls in India",
+      "href": "/blog/waterfalls-in-india",
+      "note": "where the water goes"
+    },
+    {
+      "name": "Winter road trips",
+      "href": "/blog/winter-road-trips-in-india",
+      "note": "the other season"
+    }
+  ],
+  "places": [
+    "Malshej",
+    "Tamhini",
+    "Lonavala",
+    "Mahabaleshwar",
+    "Amboli",
+    "Coorg",
+    "Chikmagalur",
+    "Munnar",
+    "Sohra",
+    "Ladakh",
+    "Spiti"
+  ],
+  "styles": [
+    "road-trip-holidays"
+  ],
+  "planDestination": "a monsoon road trip",
+  "updated": "2026-09-26"
+}

@@ -8,7 +8,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 SITE = "https://club.kudozz.in"
 OUT = os.path.join(ROOT, ".next/server/app")
 CLUSTER = sys.argv[sys.argv.index("--cluster") + 1] if "--cluster" in sys.argv else "adventure"
-HUB = {"adventure": "adventure-travel", "beach": "beach-travel", "wildlife": "wildlife-tourism", "spiritual": "spiritual-tourism", "heritage": "heritage-cultural-tourism", "hills": "hill-station-travel", "nature": "nature-travel"}[CLUSTER]
+HUB = {"adventure": "adventure-travel", "beach": "beach-travel", "wildlife": "wildlife-tourism", "spiritual": "spiritual-tourism", "heritage": "heritage-cultural-tourism", "hills": "hill-station-travel", "nature": "nature-travel", "roadtrips": "road-trips"}[CLUSTER]
 slugs = [f[:-5] for f in os.listdir(os.path.join(ROOT, "src/content", CLUSTER)) if f.endswith(".json")]
 built = {os.path.relpath(p, OUT)[:-5] for p in glob.glob(os.path.join(OUT, "**/*.html"), recursive=True)}
 problems = []
@@ -46,7 +46,7 @@ def check(path, url, required, name):
     need("aggregateRating" not in t and '"Review"' not in t, "rating or review markup present")
     for src in set(re.findall(r'(?:src|href)="(/images/[^"?]+)', t)):
         need(os.path.exists(os.path.join(ROOT, "public", html.unescape(src).lstrip("/"))), f"missing image {src}")
-    for href in set(re.findall(r'href="(/(?:blog|packages)/[a-z0-9-]+|/adventure-travel|/beach-travel|/wildlife-tourism|/spiritual-tourism|/heritage-cultural-tourism|/hill-station-travel|/nature-travel|/plan-your-trip)(?:[#?][^"]*)?"', t)):
+    for href in set(re.findall(r'href="(/(?:blog|packages)/[a-z0-9-]+|/adventure-travel|/beach-travel|/wildlife-tourism|/spiritual-tourism|/heritage-cultural-tourism|/hill-station-travel|/nature-travel|/road-trips|/plan-your-trip)(?:[#?][^"]*)?"', t)):
         need(href.lstrip("/") in built, f"link to unbuilt page {href}")
     return title, d
 

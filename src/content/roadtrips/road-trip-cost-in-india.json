@@ -1,0 +1,304 @@
+{
+  "slug": "road-trip-cost-in-india",
+  "kind": "planning",
+  "short": "Road trip cost in India",
+  "title": "Road Trip Cost in India: Fuel, Tolls, Stays and Rental Explained",
+  "seoTitle": "Road Trip Cost in India: Fuel, Tolls, Stays and Rentals | Kudozz Club",
+  "metaDescription": "Road trip cost in India explained: how to estimate fuel, tolls and the FASTag annual pass, stays, food, rental or driver charges, entry fees and a bike trip budget.",
+  "description": "A guide to the cost of a road trip in India, built on components rather than fixed prices: how to estimate fuel from distance and mileage, national highway tolls and the FASTag annual pass, state entry taxes and green fees, accommodation, food, self-drive rental charges and deposits, driver allowances, permits, parking, and how a motorcycle trip differs, with ways to save.",
+  "dek": "Road trip costs in India depend on a handful of components you can estimate before you leave.",
+  "primaryKeyword": "road trip cost in India",
+  "secondaryKeywords": [
+    "road trip budget India",
+    "fuel cost road trip",
+    "toll cost India"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "mountains",
+    "plains",
+    "coast"
+  ],
+  "regions": [
+    "India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer",
+    "monsoon",
+    "autumn"
+  ],
+  "travellers": [
+    "self-drivers",
+    "families",
+    "couples",
+    "first-timers"
+  ],
+  "tags": [
+    "Cost",
+    "Budget",
+    "Road trips",
+    "Tolls",
+    "Fuel"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/road-trip-cost-toll-plaza.webp",
+    "alt": "A toll plaza on a national highway in Tamil Nadu"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Road trip cost in India"
+  },
+  "intro": [
+    "Prices for fuel, tolls, rentals and stays change often, and vary from region to region, so this guide does not quote a single budget. Instead, it breaks a road trip into its components and shows how to estimate each one for your route.",
+    "For a quote on a planned trip, including stays and a car with a driver, ask us through Plan My Trip."
+  ],
+  "quickAnswer": "The cost of a road trip in India is mainly fuel (distance divided by your car's mileage, multiplied by the local fuel price), tolls (national highway and expressway fees, or the FASTag annual pass), stays, food, and either rental charges or driver allowances. Add state entry taxes, permits, parking and a buffer of 10 to 15 per cent. Mountain driving uses more fuel per kilometre than highway driving.",
+  "takeaways": [
+    "Estimate fuel as distance ÷ mileage × fuel price, and add 15 to 25 per cent for hills and city traffic.",
+    "Tolls add up on expressways; a FASTag annual pass can suit frequent highway drivers.",
+    "Stays are usually the largest cost; homestays and small towns are cheaper than hill-station centres.",
+    "If you hire a car with a driver, budget for the driver's daily allowance and any night charges.",
+    "Add a buffer of 10 to 15 per cent for surprises."
+  ],
+  "sections": [
+    {
+      "id": "components",
+      "heading": "Cost components at a glance",
+      "table": {
+        "columns": [
+          "Component",
+          "How to estimate",
+          "Varies with"
+        ],
+        "rows": [
+          [
+            "Fuel",
+            "Distance ÷ mileage × fuel price",
+            "Car, terrain, traffic, state fuel prices"
+          ],
+          [
+            "Tolls",
+            "Sum of toll plazas on the route, or an annual pass",
+            "Expressways, vehicle type"
+          ],
+          [
+            "State entry taxes and green fees",
+            "Per vehicle, per state or town",
+            "Out-of-state registration"
+          ],
+          [
+            "Stays",
+            "Nights × room rate",
+            "Season, town, type of stay"
+          ],
+          [
+            "Food",
+            "Meals per day × people",
+            "Dhabas vs restaurants"
+          ],
+          [
+            "Rental or driver",
+            "Daily rental + deposit, or car hire + driver allowance",
+            "Car type, distance limits"
+          ],
+          [
+            "Permits and entry fees",
+            "Per person or vehicle",
+            "Ladakh, Arunachal, Rohtang, parks"
+          ],
+          [
+            "Parking and incidentals",
+            "Small daily amounts",
+            "Cities and tourist spots"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fuel",
+      "heading": "Fuel",
+      "paras": [
+        "Work out the total distance of your route, including local sightseeing, and divide by your car's real-world mileage. Multiply by the current fuel price, which varies by state. On mountain roads and in city traffic, cars use noticeably more fuel than on highways, so add 15 to 25 per cent. Diesel and petrol prices differ, and CNG is not available on many remote routes."
+      ]
+    },
+    {
+      "id": "tolls",
+      "heading": "Tolls and the FASTag annual pass",
+      "paras": [
+        "National highways and expressways are tolled, and a FASTag is required. Vehicles without a valid FASTag pay a higher fee. For frequent highway drivers, NHAI's FASTag annual pass for private cars covers 200 toll crossings or one year, whichever comes first, at designated national highway and expressway plazas; for the 2026–27 financial year its fee was set at ₹3,075. State highways and some expressways may not be covered, so check before relying on it."
+      ]
+    },
+    {
+      "id": "state-fees",
+      "heading": "State entry taxes and local fees",
+      "list": [
+        "Some states and hill towns charge out-of-state vehicles an entry toll or green tax, such as Himachal's entry toll and Manali's green tax.",
+        "Permit fees apply in places such as Ladakh's protected areas (an environment fee for Indian visitors), Rohtang Pass and Arunachal Pradesh.",
+        "National parks charge entry and safari fees, booked separately."
+      ]
+    },
+    {
+      "id": "stays-food",
+      "heading": "Stays and food",
+      "paras": [
+        "Accommodation is usually the largest cost. It rises sharply at weekends, on long holidays and in peak season. Staying in smaller towns or homestays a little outside busy centres can save a lot. Food on the road is inexpensive at dhabas and local restaurants, and costs more at resorts and tourist cafés."
+      ]
+    },
+    {
+      "id": "rental",
+      "heading": "Self-drive rental or a car with a driver",
+      "list": [
+        "Self-drive: a daily rental rate, a refundable deposit, extra-kilometre charges and fuel.",
+        "Car with a driver: a per-kilometre or per-day rate, plus a daily driver allowance and sometimes night charges, tolls, parking and state taxes.",
+        "One-way trips may carry a return charge for the car."
+      ],
+      "items": [
+        {
+          "name": "Self-drive",
+          "body": [
+            "Our guide."
+          ],
+          "links": [
+            {
+              "label": "Self-drive trips in India",
+              "href": "/blog/self-drive-trips-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bike",
+      "heading": "Motorcycle trips",
+      "paras": [
+        "On a motorcycle, fuel costs are much lower, but rentals for touring bikes, riding gear, a backup vehicle on high-altitude tours and extra rest days add up. Our Adventure guides cover motorcycle trips in detail."
+      ],
+      "items": [
+        {
+          "name": "Riding",
+          "body": [
+            "Our guide."
+          ],
+          "links": [
+            {
+              "label": "Best motorcycle trips in India",
+              "href": "/blog/best-motorcycle-trips-in-india"
+            },
+            {
+              "label": "Spiti Valley bike trip",
+              "href": "/blog/spiti-valley-bike-trip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "save",
+      "heading": "Ways to save",
+      "list": [
+        "Travel outside long weekends and peak holidays.",
+        "Share the car: costs per person fall sharply with four travellers.",
+        "Stay in homestays and eat at local restaurants.",
+        "Plan loops that avoid repeating toll roads.",
+        "Keep tyres properly inflated and drive smoothly to save fuel."
+      ]
+    }
+  ],
+  "safety": [
+    "Do not cut corners on vehicle servicing or tyres to save money; they matter most on long drives.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "FASTag with enough balance",
+    "Cash for barriers and small towns",
+    "A notebook or app to track spending",
+    "Copies of permits and receipts"
+  ],
+  "faqs": [
+    {
+      "q": "How much does a road trip in India cost?",
+      "a": "It depends on distance, car, stays and season. Estimate fuel, tolls, stays, food and rental or driver charges, then add a 10 to 15 per cent buffer."
+    },
+    {
+      "q": "How do I calculate fuel cost for a road trip?",
+      "a": "Divide total distance by your car's mileage and multiply by the fuel price; add extra for hills and traffic."
+    },
+    {
+      "q": "What is the FASTag annual pass?",
+      "a": "An NHAI pass for private cars covering 200 toll crossings or one year at designated national highway plazas; the 2026–27 fee is ₹3,075."
+    },
+    {
+      "q": "Are there state entry taxes for cars?",
+      "a": "Some states and towns charge out-of-state vehicles, such as Himachal's entry toll and Manali's green tax."
+    },
+    {
+      "q": "Is a car with a driver expensive?",
+      "a": "It costs more than self-drive, including the driver's allowance, but saves stress on hill roads and in cities."
+    },
+    {
+      "q": "How can I make a road trip cheaper?",
+      "a": "Travel off-peak, share the car, stay in homestays and avoid repeating toll roads."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "How to plan a road trip in India",
+      "href": "/blog/how-to-plan-a-road-trip-in-india"
+    },
+    {
+      "label": "Self-drive trips in India",
+      "href": "/blog/self-drive-trips-in-india"
+    },
+    {
+      "label": "Budget hill stations",
+      "href": "/blog/budget-hill-stations-in-india"
+    },
+    {
+      "label": "Budget holidays",
+      "href": "/packages/budget-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Road trip packing list",
+      "href": "/blog/road-trip-packing-list",
+      "note": "what to carry"
+    },
+    {
+      "name": "Best road trips in India",
+      "href": "/blog/best-road-trips-in-india",
+      "note": "where to go"
+    },
+    {
+      "name": "Spiti Valley road trip",
+      "href": "/blog/spiti-valley-road-trip",
+      "note": "a costed circuit"
+    }
+  ],
+  "places": [
+    "India"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "budget-holidays"
+  ],
+  "planDestination": "a road trip",
+  "updated": "2026-09-26"
+}

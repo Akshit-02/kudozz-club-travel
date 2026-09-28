@@ -105,6 +105,15 @@ export const travelStylesData: TravelStylePackage[] = [
     relatedStates: ["kerala", "meghalaya", "uttarakhand", "karnataka"],
   },
   {
+    slug: "road-trip-holidays",
+    name: "Road Trips",
+    desc: "Routes, drives, overnight stops",
+    intro:
+      "A good road trip is planned around realistic driving days: the right route for the season, overnight stops before the long climbs, and stays that make the journey part of the holiday rather than the gap between destinations.",
+    image: "/images/adventure/spiti-valley-road-kaza.webp",
+    relatedStates: ["himachal-pradesh", "rajasthan", "kerala", "leh-ladakh"],
+  },
+  {
     slug: "luxury-holidays",
     name: "Luxury Holidays",
     desc: "Premium stays, private transport",

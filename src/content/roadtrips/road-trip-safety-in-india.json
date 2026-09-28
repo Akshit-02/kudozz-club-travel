@@ -1,0 +1,288 @@
+{
+  "slug": "road-trip-safety-in-india",
+  "kind": "planning",
+  "short": "Road trip safety in India",
+  "title": "Road Trip Safety in India: Mountains, Monsoon and Responsible Travel",
+  "seoTitle": "Road Trip Safety in India: Mountains and Monsoon | Kudozz Club",
+  "metaDescription": "Road trip safety in India: driving habits, mountain and ghat roads, monsoon and fog, night driving, wildlife corridors, altitude and responsible travel.",
+  "description": "A practical guide to road trip safety in India: general driving habits, seat belts and helmets, mountain and ghat roads, the monsoon and landslides, fog, night driving, wildlife corridors, altitude, emergencies, and responsible road travel, including respecting local communities, reducing waste and not driving off-road or on beaches.",
+  "dek": "Most road-trip problems in India are avoidable with a few simple habits: daylight driving, patience on mountain roads and respect for the weather.",
+  "primaryKeyword": "road trip safety tips India",
+  "secondaryKeywords": [
+    "mountain driving safety",
+    "monsoon driving India",
+    "responsible road travel"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "mountains",
+    "plains",
+    "coast"
+  ],
+  "regions": [
+    "India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer",
+    "monsoon",
+    "autumn"
+  ],
+  "travellers": [
+    "self-drivers",
+    "families",
+    "couples",
+    "first-timers"
+  ],
+  "tags": [
+    "Safety",
+    "Road trips",
+    "Mountain driving",
+    "Monsoon",
+    "Responsible travel"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/road-trip-safety-bro-sign.webp",
+    "alt": "A Border Roads Organisation sign beside the road in the Nubra valley, Ladakh"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Road trip safety in India"
+  },
+  "intro": [
+    "India's roads are varied and busy, with trucks, buses, two-wheelers, pedestrians and animals sharing the same space, and conditions that change sharply with terrain and season. The advice below covers habits that make road trips safer everywhere, then specific guidance for mountains, the monsoon, fog, night driving and wildlife areas.",
+    "It is general guidance, not legal advice. Follow local traffic rules, police instructions and official advisories."
+  ],
+  "quickAnswer": "To stay safe on a road trip in India, drive in daylight, keep daily distances realistic, make sure everyone wears a seat belt (and helmets on two-wheelers), never drink and drive, and take breaks every two hours. In the mountains, use low gears, give way to uphill traffic and sound your horn on blind bends. In the monsoon and fog, slow down and check alerts. Call 112 in an emergency.",
+  "takeaways": [
+    "Drive in daylight and plan to arrive before dark.",
+    "Everyone should wear a seat belt, including in the back; riders and pillions need helmets.",
+    "Take a break every two hours and switch drivers if you can.",
+    "Follow weather alerts and change plans on red-alert days.",
+    "112 is India's emergency number."
+  ],
+  "sections": [
+    {
+      "id": "general",
+      "heading": "General driving habits",
+      "list": [
+        "Plan realistic daily distances and start early.",
+        "Keep a safe following distance; trucks and buses stop suddenly.",
+        "Overtake only with clear sight lines; never on bends or crests.",
+        "Watch for two-wheelers, pedestrians, cattle and wrong-side traffic.",
+        "Do not use a handheld phone while driving.",
+        "Never drive after drinking alcohol."
+      ]
+    },
+    {
+      "id": "mountain",
+      "heading": "Mountain and ghat roads",
+      "list": [
+        "Use low gears downhill rather than riding the brakes.",
+        "Give way to vehicles coming uphill on narrow stretches.",
+        "Sound your horn on blind bends and keep left.",
+        "Do not park or stop on bends or below loose slopes.",
+        "Watch for falling rocks, black ice in shade and water crossings.",
+        "Cross streams early in the day, when snow-melt is lower."
+      ],
+      "items": [
+        {
+          "name": "Mountains",
+          "body": [
+            "Route guides."
+          ],
+          "links": [
+            {
+              "label": "Mountain road trips",
+              "href": "/blog/mountain-road-trips-in-india"
+            },
+            {
+              "label": "Responsible mountain travel",
+              "href": "/blog/responsible-mountain-travel-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "altitude",
+      "heading": "Altitude",
+      "paras": [
+        "On routes such as Manali–Leh and Spiti, much of the driving is above 4,000 m. Ascend gradually, sleep lower where possible, drink plenty of water, avoid alcohol, and descend if symptoms such as severe headache, breathlessness at rest or confusion appear. See a doctor before travel if you have health conditions."
+      ]
+    },
+    {
+      "id": "monsoon",
+      "heading": "Monsoon, landslides and fog",
+      "list": [
+        "Check India Meteorological Department and district alerts daily.",
+        "Avoid landslide-prone valleys in heavy rain, and never cross flooded causeways.",
+        "In fog, slow down, use low beams and fog lamps, and do not use hazard lights while moving.",
+        "Delay early starts on the northern plains in December and January until visibility improves."
+      ],
+      "items": [
+        {
+          "name": "Monsoon",
+          "body": [
+            "Our guide."
+          ],
+          "links": [
+            {
+              "label": "Monsoon road trips",
+              "href": "/blog/monsoon-road-trips-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "night",
+      "heading": "Night driving",
+      "paras": [
+        "Night driving is riskier in India: unlit vehicles, animals, pedestrians, glare from high beams and tired truck drivers. Plan to reach your stop before dark, especially on rural and mountain roads."
+      ]
+    },
+    {
+      "id": "wildlife",
+      "heading": "Wildlife corridors",
+      "list": [
+        "Keep to speed limits through parks and corridors.",
+        "Do not stop, step out, feed or chase animals.",
+        "Respect night closures on forest highways."
+      ]
+    },
+    {
+      "id": "emergencies",
+      "heading": "In an emergency",
+      "list": [
+        "Call 112 for police, fire and ambulance anywhere in India.",
+        "Note the nearest hospital on long routes; save your rental's roadside assistance number.",
+        "Keep a first-aid kit and a charged power bank in the car."
+      ]
+    },
+    {
+      "id": "responsible",
+      "heading": "Responsible road travel",
+      "list": [
+        "Carry all waste back to a town with proper disposal; avoid single-use plastic.",
+        "Do not drive off-road on meadows, dunes or beaches; it damages fragile habitats and turtle nesting sites.",
+        "Keep music and horns down in villages, forests and sacred places.",
+        "Ask before photographing people, and follow local rules at villages and sacred sites.",
+        "Buy locally: stay in homestays, eat at local restaurants and hire local guides."
+      ],
+      "items": [
+        {
+          "name": "Responsible travel",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Eco tourism in India",
+              "href": "/blog/eco-tourism-in-india"
+            },
+            {
+              "label": "Responsible wildlife tourism",
+              "href": "/blog/responsible-wildlife-tourism-in-india"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety": [
+    "Do not rely on this page for legal advice; follow current traffic laws and official advisories.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "First-aid kit",
+    "Warning triangle and reflective vest",
+    "Torch",
+    "Charged power bank"
+  ],
+  "faqs": [
+    {
+      "q": "Is it safe to go on a road trip in India?",
+      "a": "Generally yes, with daylight driving, realistic distances and attention to weather and local rules."
+    },
+    {
+      "q": "What is the emergency number in India?",
+      "a": "112, for police, fire and ambulance."
+    },
+    {
+      "q": "How should I drive on mountain roads?",
+      "a": "Use low gears downhill, give way to uphill traffic, sound your horn on blind bends and avoid stopping on curves."
+    },
+    {
+      "q": "Should I drive at night in India?",
+      "a": "It is best avoided, especially on rural and mountain roads."
+    },
+    {
+      "q": "Is it safe to drive in the monsoon?",
+      "a": "With care; check alerts daily and avoid landslide-prone areas in heavy rain."
+    },
+    {
+      "q": "How can I make my road trip more responsible?",
+      "a": "Carry waste back, stay off meadows and beaches, keep noise down and support local businesses."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "How to plan a road trip in India",
+      "href": "/blog/how-to-plan-a-road-trip-in-india"
+    },
+    {
+      "label": "Road trip packing list",
+      "href": "/blog/road-trip-packing-list"
+    },
+    {
+      "label": "Responsible mountain travel",
+      "href": "/blog/responsible-mountain-travel-in-india"
+    },
+    {
+      "label": "Road trip holidays",
+      "href": "/packages/road-trip-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Self-drive trips in India",
+      "href": "/blog/self-drive-trips-in-india",
+      "note": "rental tips"
+    },
+    {
+      "name": "Mountain road trips",
+      "href": "/blog/mountain-road-trips-in-india",
+      "note": "Himalayan drives"
+    },
+    {
+      "name": "Monsoon road trips",
+      "href": "/blog/monsoon-road-trips-in-india",
+      "note": "rainy-season drives"
+    }
+  ],
+  "places": [
+    "India"
+  ],
+  "styles": [
+    "road-trip-holidays"
+  ],
+  "planDestination": "a road trip",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,345 @@
+{
+  "slug": "delhi-to-shimla-road-trip",
+  "kind": "destination",
+  "short": "Delhi to Shimla road trip",
+  "title": "Delhi to Shimla Road Trip: Route, Stops and Timing",
+  "seoTitle": "Delhi to Shimla Road Trip: Route, Stops and Timing | Kudozz Club",
+  "metaDescription": "Delhi to Shimla by road: the route via Chandigarh, Parwanoo and Solan, distance and driving time, stops such as Pinjore and Kasauli, fees and the best season.",
+  "description": "A route guide to the Delhi to Shimla road trip: the route via Panipat, Ambala, Chandigarh, Parwanoo and Solan, approximate distance and driving time, stops including Pinjore, Kasauli, Barog and Solan, the Kalka–Shimla toy train as an alternative, overnight options, Himachal entry toll, winter snow and a weekend plan.",
+  "dek": "Shimla is the easiest Himalayan hill town to drive to from Delhi: the plains to Chandigarh, then a steady climb through the Shivaliks.",
+  "primaryKeyword": "Delhi to Shimla road trip",
+  "secondaryKeywords": [
+    "Delhi to Shimla by road",
+    "Delhi to Shimla distance",
+    "Delhi Shimla route"
+  ],
+  "searchIntent": "Route planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "plains",
+    "hills"
+  ],
+  "regions": [
+    "Delhi",
+    "Haryana",
+    "Himachal Pradesh"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Delhi to Shimla",
+    "Road trip",
+    "Himachal Pradesh",
+    "Weekend",
+    "Self-drive"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/delhi-shimla-road-trip-solan-road.webp",
+    "alt": "A bend on the Kalka–Shimla highway (NH5), Himachal Pradesh"
+  },
+  "parent": {
+    "label": "Road Trips in Himachal Pradesh",
+    "href": "/blog/road-trips-in-himachal-pradesh"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Delhi to Shimla road trip",
+    "containedIn": "Himachal Pradesh"
+  },
+  "intro": [
+    "The drive from Delhi to Shimla is one of the most familiar in North India: NH44 north to Ambala and the Chandigarh area, then NH5 up from Parwanoo through Dharampur and Solan to Shimla. Much of the hill section has been widened to four lanes, which has cut the time on the climb, though bottlenecks remain near towns.",
+    "It makes a good weekend drive, and it is also the first leg of longer trips to Kinnaur, Spiti and Manali. Our Shimla guide covers what to see once you are there."
+  ],
+  "quickAnswer": "Delhi to Shimla is about 350 km by road via Panipat, Ambala, Chandigarh (Zirakpur), Parwanoo and Solan, and usually takes 7 to 9 hours. It is easily done in a day. Good stops include Pinjore Gardens, Kasauli, Barog and Solan. Spring, autumn and winter are pleasant; snow is likely in and around Shimla in mid-winter but never guaranteed.",
+  "takeaways": [
+    "The route is Delhi–Ambala–Zirakpur–Parwanoo–Solan–Shimla, about 350 km.",
+    "Much of the hill road from Parwanoo is now four-lane, but traffic builds near Solan and Shimla.",
+    "Kasauli and Chail are easy detours off the main road.",
+    "The Kalka–Shimla toy train is a scenic alternative for the hill section.",
+    "Weekend traffic into Shimla can be heavy; start early."
+  ],
+  "sections": [
+    {
+      "id": "route",
+      "heading": "The route at a glance",
+      "table": {
+        "columns": [
+          "Leg",
+          "Approx. distance",
+          "What to expect"
+        ],
+        "rows": [
+          [
+            "Delhi–Panipat–Ambala",
+            "200 km",
+            "NH44, busy but fast"
+          ],
+          [
+            "Ambala–Zirakpur–Pinjore–Parwanoo",
+            "60 km",
+            "Chandigarh suburbs, Pinjore Gardens"
+          ],
+          [
+            "Parwanoo–Dharampur–Solan",
+            "45 km",
+            "The climb begins; Kasauli turn-off"
+          ],
+          [
+            "Solan–Shimla",
+            "45 km",
+            "Winding road past Kandaghat and Shoghi"
+          ]
+        ],
+        "caption": "Distances are approximate."
+      }
+    },
+    {
+      "id": "stops",
+      "heading": "Stops along the way",
+      "items": [
+        {
+          "name": "Pinjore Gardens",
+          "body": [
+            "Terraced Mughal-style gardens just before the hills."
+          ]
+        },
+        {
+          "name": "Kasauli",
+          "body": [
+            "A quiet cantonment town about 30 minutes off the highway from Dharampur."
+          ],
+          "links": [
+            {
+              "label": "Kasauli guide",
+              "href": "/blog/kasauli-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/chandigarh/chandigarh/kasauli-hill-town-pine-forest-shivalik.webp",
+            "alt": "Kasauli among pine forest in the Shivaliks",
+            "caption": "Kasauli"
+          }
+        },
+        {
+          "name": "Barog and Solan",
+          "body": [
+            "Small towns on the climb; Barog is known for its railway tunnel on the toy-train line."
+          ]
+        },
+        {
+          "name": "Chail",
+          "body": [
+            "A detour from Kandaghat to an old palace town on a ridge."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toy-train",
+      "heading": "The toy train alternative",
+      "paras": [
+        "The Kalka–Shimla Railway, part of the Mountain Railways of India UNESCO World Heritage Site, climbs the same hills more slowly through more than a hundred tunnels. Some travellers drive to Kalka and take the train up, which needs advance booking."
+      ],
+      "items": [
+        {
+          "name": "Railways",
+          "body": [
+            "More reading."
+          ],
+          "links": [
+            {
+              "label": "Mountain railways of India",
+              "href": "/blog/mountain-railways-of-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "heading": "Weekend plans",
+      "table": {
+        "columns": [
+          "Days",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "2",
+            "Drive up via Kasauli; Mall Road, the Ridge and Jakhoo; drive back"
+          ],
+          [
+            "3",
+            "Add Kufri or Chail, or Narkanda for the forest road beyond Shimla"
+          ],
+          [
+            "4 to 5",
+            "Continue to Sarahan and the Sangla valley in Kinnaur"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "arrive",
+      "heading": "Once you arrive",
+      "items": [
+        {
+          "name": "Shimla",
+          "body": [
+            "What to do in Shimla."
+          ],
+          "links": [
+            {
+              "label": "Shimla guide",
+              "href": "/blog/shimla-travel-guide"
+            },
+            {
+              "label": "Things to do in Shimla",
+              "href": "/blog/things-to-do-in-shimla"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/himachal-pradesh/christ-church-mall-road-shimla.webp",
+            "alt": "Christ Church on the Ridge, Shimla",
+            "caption": "Shimla's Ridge"
+          }
+        }
+      ]
+    },
+    {
+      "id": "driving",
+      "heading": "Driving considerations",
+      "list": [
+        "Start from Delhi before 6 am to clear the NH44 traffic and reach the hills by early afternoon.",
+        "Himachal collects an entry toll from out-of-state vehicles at Parwanoo; keep the receipt.",
+        "Parking in central Shimla is limited and much of the Mall is closed to private cars; use hotel parking or the public parking lots.",
+        "In winter, carry snow chains or check with your hotel before driving above Shimla to Kufri or Narkanda."
+      ]
+    },
+    {
+      "id": "food-fuel",
+      "heading": "Food and fuel",
+      "paras": [
+        "Fuel is easy to find all the way to Shimla. The dhabas at Murthal and the food courts near Karnal and Ambala are the usual breakfast stops on NH44, and there are plenty of cafés at Dharampur and Solan once you start climbing."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "March to June is busy and pleasant; October and November are clear and quieter. Snow is likely in and around Shimla, Kufri and Narkanda in January and February, but it is never guaranteed, and snowfall can close roads for hours. The monsoon brings slips and fog on the hill section."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Shimla from Delhi by road?",
+      "a": "About 350 km via Chandigarh, Parwanoo and Solan."
+    },
+    {
+      "q": "How long is the drive from Delhi to Shimla?",
+      "a": "Usually 7 to 9 hours, depending on traffic and stops."
+    },
+    {
+      "q": "Is the Delhi to Shimla road good?",
+      "a": "Mostly yes; much of the hill section is now four-lane, with slower stretches near towns."
+    },
+    {
+      "q": "What are good stops between Delhi and Shimla?",
+      "a": "Murthal for food, Pinjore Gardens, Kasauli, Barog and Solan."
+    },
+    {
+      "q": "Can I see snow on a Delhi to Shimla road trip?",
+      "a": "Snow is likely in January and February in and around Shimla, but never guaranteed."
+    },
+    {
+      "q": "Is Shimla good for a weekend road trip from Delhi?",
+      "a": "Yes, with an early start; a third day makes it more relaxed."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Shimla guide",
+      "href": "/blog/shimla-travel-guide"
+    },
+    {
+      "label": "Road trips in Himachal Pradesh",
+      "href": "/blog/road-trips-in-himachal-pradesh"
+    },
+    {
+      "label": "Road trips from Delhi",
+      "href": "/blog/road-trips-from-delhi"
+    },
+    {
+      "label": "Himachal tour packages",
+      "href": "/packages/himachal-pradesh"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Delhi to Manali road trip",
+      "href": "/blog/delhi-to-manali-road-trip",
+      "note": "go further"
+    },
+    {
+      "name": "Winter hill stations",
+      "href": "/blog/winter-hill-stations-in-india",
+      "note": "snow season"
+    },
+    {
+      "name": "Spiti Valley road trip",
+      "href": "/blog/spiti-valley-road-trip",
+      "note": "via Kinnaur"
+    }
+  ],
+  "places": [
+    "Delhi",
+    "Panipat",
+    "Ambala",
+    "Zirakpur",
+    "Pinjore",
+    "Parwanoo",
+    "Kasauli",
+    "Dharampur",
+    "Barog",
+    "Solan",
+    "Chail",
+    "Shimla",
+    "Kufri"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "hill-station-holidays"
+  ],
+  "planDestination": "Shimla",
+  "updated": "2026-09-26"
+}

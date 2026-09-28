@@ -26,6 +26,7 @@ import { spiritualIndex, spiritualForPackage, spiritualEntry } from "@/lib/spiri
 import { heritageIndex, heritageForPackage, heritageEntry } from "@/lib/heritage-links";
 import { hillsIndex, hillsForPackage, hillsEntry } from "@/lib/hills-links";
 import { natureIndex, natureForPackage, natureEntry } from "@/lib/nature-links";
+import { roadtripsIndex, roadtripsForPackage, roadtripsEntry } from "@/lib/roadtrips-links";
 
 // Travel-style pages that get a "Beach ideas" block (Beach Travel cluster).
 const BEACH_FOR_STYLE: Record<string, string[]> = {
@@ -81,6 +82,27 @@ const NATURE_FOR_STYLE: Record<string, string[]> = {
 // Combo packages that get a block of nature planning guides.
 const NATURE_FOR_COMBO: Record<string, string[]> = {
   "northeast-india": ["nature-travel-in-northeast-india", "nature-travel-in-meghalaya", "meghalaya-nature-itinerary"],
+};
+
+// Travel-style pages that get a "Road trip ideas" block (Road Trips cluster).
+const ROADTRIPS_FOR_STYLE: Record<string, string[]> = {
+  "family-holidays": ["road-trips-for-families-in-india", "delhi-to-shimla-road-trip", "bengaluru-to-coorg-road-trip"],
+  honeymoon: ["road-trips-for-couples-in-india", "coastal-road-trips-in-india", "kerala-road-trip"],
+  "weekend-getaways": ["road-trips-from-delhi", "road-trips-from-mumbai", "road-trips-from-bengaluru", "road-trips-from-chennai", "road-trips-from-hyderabad", "road-trips-from-kolkata"],
+  "adventure-tours": ["manali-to-leh-road-trip", "spiti-valley-road-trip", "guwahati-to-tawang-road-trip"],
+  "budget-holidays": ["road-trip-cost-in-india", "self-drive-trips-in-india"],
+  "luxury-holidays": ["rajasthan-road-trip", "kerala-road-trip"],
+  "group-tours": ["best-road-trips-in-india", "rajasthan-road-trip", "spiti-valley-road-trip"],
+  "wildlife-tours": ["wildlife-road-trips-in-india"],
+  "heritage-tours": ["rajasthan-road-trip", "road-trips-from-chennai"],
+  "hill-station-holidays": ["road-trips-in-himachal-pradesh", "road-trips-in-uttarakhand", "delhi-to-manali-road-trip"],
+  "nature-holidays": ["western-ghats-road-trips", "monsoon-road-trips-in-india"],
+};
+
+// Combo packages that get a block of road-trip guides.
+const ROADTRIPS_FOR_COMBO: Record<string, string[]> = {
+  "northeast-india": ["northeast-india-road-trips", "guwahati-to-tawang-road-trip"],
+  "golden-triangle": ["road-trips-from-delhi", "rajasthan-road-trip"],
 };
 
 // Travel-style pages that get a "Heritage ideas" block (Heritage & Cultural Tourism cluster).
@@ -562,6 +584,36 @@ function SpiritualLinks({ slug, name }: { slug: string; name: string }) {
   );
 }
 
+function RoadtripsLinks({ slug, name }: { slug: string; name: string }) {
+  const items = roadtripsForPackage(slug);
+  if (!items.length) return null;
+  return (
+    <section className="bg-white pb-16 md:pb-20">
+      <div className="container-site">
+        <SectionTitle
+          eyebrow="Road trips"
+          title={`Road trips in ${name}`}
+          intro="Routes, driving times, overnight stops and the seasons to go."
+        />
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {items.map((e) => (
+            <li key={e.slug}>
+              <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-3.5 py-1.5 font-sans text-sm text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                {e.short}
+              </Link>
+            </li>
+          ))}
+          <li>
+            <Link href="/road-trips" className="inline-block rounded-full px-3.5 py-1.5 font-sans text-sm font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+              All road trips →
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
 function NatureLinks({ slug, name }: { slug: string; name: string }) {
   const items = natureForPackage(slug);
   if (!items.length) return null;
@@ -958,6 +1010,7 @@ function StatePackageView({ state }: { state: StatePackage }) {
         <HeritageLinks slug={state.slug} name={name} />
         <HillsLinks slug={state.slug} name={name} />
         <NatureLinks slug={state.slug} name={name} />
+        <RoadtripsLinks slug={state.slug} name={name} />
 
         {profile && (
           <section className="bg-white pb-16 md:pb-20">
@@ -1133,6 +1186,30 @@ function ComboPackageView({ combo }: { combo: ComboPackage }) {
                 <li>
                   <Link href="/nature-travel" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
                     Nature travel in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {ROADTRIPS_FOR_COMBO[combo.slug] && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle eyebrow="Road trip guides" title={`${combo.name} by road`} intro="Routes, permits, driving times and overnight stops." />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {ROADTRIPS_FOR_COMBO[combo.slug]
+                  .map((slug) => roadtripsEntry(slug))
+                  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+                <li>
+                  <Link href="/road-trips" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Road trips in India →
                   </Link>
                 </li>
               </ul>
@@ -1379,6 +1456,55 @@ function StylePackageView({ style }: { style: TravelStylePackage }) {
                 <li>
                   <Link href="/nature-travel" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
                     Nature travel in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {ROADTRIPS_FOR_STYLE[style.slug] && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle eyebrow="Road trip ideas" title={`Road trips for ${lower}`} intro="Routes and planning guides to help choose the drive, the season and the pace." />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {ROADTRIPS_FOR_STYLE[style.slug]
+                  .map((slug) => roadtripsEntry(slug))
+                  .filter((e): e is NonNullable<typeof e> => Boolean(e))
+                  .map((e) => (
+                    <li key={e.slug}>
+                      <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                        {e.short}
+                      </Link>
+                    </li>
+                  ))}
+                <li>
+                  <Link href="/road-trips" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Road trips in India →
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
+        )}
+        {style.slug === "road-trip-holidays" && (
+          <section className="bg-white pb-16 md:pb-20">
+            <div className="container-site">
+              <SectionTitle
+                eyebrow="Road trip guides"
+                title="Choose your road trip"
+                intro="Routes, regions, city weekends, seasons and planning guides, to help you choose before you plan the trip."
+              />
+              <ul className="flex flex-wrap gap-2 font-sans text-sm">
+                {roadtripsIndex.map((e) => (
+                  <li key={e.slug}>
+                    <Link href={`/blog/${e.slug}`} className="inline-block rounded-full bg-stone-50 px-4 py-2 font-medium text-stone-700 ring-1 ring-stone-200 hover:text-forest-700 hover:ring-forest-300">
+                      {e.short}
+                    </Link>
+                  </li>
+                ))}
+                <li>
+                  <Link href="/road-trips" className="inline-block rounded-full px-4 py-2 font-semibold text-forest-700 ring-1 ring-forest-200 hover:ring-forest-400">
+                    Road trips in India →
                   </Link>
                 </li>
               </ul>

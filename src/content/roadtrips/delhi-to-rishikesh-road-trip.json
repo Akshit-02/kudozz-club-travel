@@ -1,0 +1,333 @@
+{
+  "slug": "delhi-to-rishikesh-road-trip",
+  "kind": "destination",
+  "short": "Delhi to Rishikesh road trip",
+  "title": "Delhi to Rishikesh Road Trip: Expressway, Old Route and Stops",
+  "seoTitle": "Delhi to Rishikesh Road Trip: Expressway and Old Route | Kudozz Club",
+  "metaDescription": "Delhi to Rishikesh by road: the new Delhi–Dehradun Expressway and the old route via Meerut and Haridwar, distance, time, stops and the best season.",
+  "description": "A route guide to the Delhi to Rishikesh road trip: the Delhi–Dehradun Expressway, inaugurated in April 2026, and the older route via Meerut, Muzaffarnagar, Roorkee and Haridwar, with approximate distances and driving times, stops, Kanwar Yatra and Char Dham traffic, and short plans that combine Rishikesh with Haridwar, Mussoorie or Rajaji.",
+  "dek": "Rishikesh is now one of the fastest Himalayan-foothill drives from Delhi, thanks to a new expressway through the Shivaliks.",
+  "primaryKeyword": "Delhi to Rishikesh road trip",
+  "secondaryKeywords": [
+    "Delhi to Rishikesh by road",
+    "Delhi to Rishikesh distance",
+    "Delhi Dehradun expressway Rishikesh"
+  ],
+  "searchIntent": "Route planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "plains",
+    "foothills",
+    "river"
+  ],
+  "regions": [
+    "Delhi",
+    "Uttar Pradesh",
+    "Uttarakhand"
+  ],
+  "seasons": [
+    "spring",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Delhi to Rishikesh",
+    "Road trip",
+    "Uttarakhand",
+    "Weekend",
+    "Expressway"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/delhi-rishikesh-road-trip-ganga.webp",
+    "alt": "The Ganga at Rishikesh, Uttarakhand"
+  },
+  "parent": {
+    "label": "Road Trips in Uttarakhand",
+    "href": "/blog/road-trips-in-uttarakhand"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Delhi to Rishikesh road trip",
+    "containedIn": "Uttarakhand"
+  },
+  "intro": [
+    "There are now two ways to drive from Delhi to Rishikesh. The Delhi–Dehradun Expressway, inaugurated in April 2026, runs via Baghpat, Shamli and Saharanpur and crosses the Shivaliks on an elevated wildlife corridor through Rajaji; from Dehradun, Rishikesh is a short drive on. The older route follows NH334 through Meerut, Muzaffarnagar and Roorkee to Haridwar, then up the Ganga to Rishikesh.",
+    "Rishikesh is a natural first stop for trips further into Garhwal. Our Rishikesh guides cover rafting, yoga and the town itself."
+  ],
+  "quickAnswer": "Delhi to Rishikesh is roughly 240 km. The fastest option is the Delhi–Dehradun Expressway (opened in April 2026) to Dehradun and on to Rishikesh; the older route via Meerut, Muzaffarnagar, Roorkee and Haridwar usually takes 5 to 6 hours. Avoid the Kanwar Yatra period in July, when highways around Haridwar see diversions. October to April is the most pleasant season.",
+  "takeaways": [
+    "The Delhi–Dehradun Expressway, opened in April 2026, is the fastest way to the foothills.",
+    "The older route via Meerut and Haridwar still suits a stop at Haridwar.",
+    "The Kanwar Yatra (usually July) brings heavy diversions on routes to Haridwar.",
+    "Char Dham season adds traffic beyond Rishikesh in May and June.",
+    "Rishikesh combines well with Haridwar, Mussoorie or Rajaji."
+  ],
+  "sections": [
+    {
+      "id": "route",
+      "heading": "Route options at a glance",
+      "table": {
+        "columns": [
+          "Route",
+          "Via",
+          "What to expect"
+        ],
+        "rows": [
+          [
+            "Expressway route",
+            "Baghpat, Shamli, Saharanpur, Dehradun",
+            "Access-controlled expressway, elevated section over Rajaji; tolls"
+          ],
+          [
+            "Old route",
+            "Meerut, Muzaffarnagar, Roorkee, Haridwar",
+            "Busier NH334; good for a Haridwar stop"
+          ]
+        ],
+        "caption": "Choose by where you want to stop."
+      }
+    },
+    {
+      "id": "stops",
+      "heading": "Stops along the way",
+      "items": [
+        {
+          "name": "Haridwar",
+          "body": [
+            "The evening aarti at Har ki Pauri, a short drive before Rishikesh."
+          ],
+          "links": [
+            {
+              "label": "Haridwar guide",
+              "href": "/blog/haridwar-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp",
+            "alt": "Evening Ganga aarti at Har ki Pauri, Haridwar",
+            "caption": "Haridwar"
+          }
+        },
+        {
+          "name": "Rajaji National Park",
+          "body": [
+            "Forest between Haridwar, Dehradun and Rishikesh; safaris from Chilla and Motichur."
+          ],
+          "links": [
+            {
+              "label": "Wildlife road trips",
+              "href": "/blog/wildlife-road-trips-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Dehradun",
+          "body": [
+            "The gateway for Mussoorie, if you take the expressway."
+          ],
+          "links": [
+            {
+              "label": "Mussoorie guide",
+              "href": "/blog/mussoorie-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "traffic",
+      "heading": "Festival and yatra traffic",
+      "list": [
+        "Kanwar Yatra: during the month of Sawan (usually July), highways into Haridwar see diversions and closures for days.",
+        "Char Dham season: from May to June and in autumn, roads beyond Rishikesh fill with pilgrims.",
+        "Long weekends: expect queues at Rishikesh's bridges and parking."
+      ]
+    },
+    {
+      "id": "plans",
+      "heading": "Short plans",
+      "table": {
+        "columns": [
+          "Days",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "2",
+            "Drive up; Ganga aarti; Laxman Jhula and cafés; drive back"
+          ],
+          [
+            "3",
+            "Add rafting or a Rajaji safari"
+          ],
+          [
+            "4 to 5",
+            "Continue to Mussoorie, or up the Ganga to Devprayag"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "arrive",
+      "heading": "Once you arrive",
+      "items": [
+        {
+          "name": "Rishikesh",
+          "body": [
+            "What to do in Rishikesh."
+          ],
+          "links": [
+            {
+              "label": "Rishikesh guide",
+              "href": "/blog/rishikesh-adventure-travel-guide"
+            },
+            {
+              "label": "Things to do in Rishikesh",
+              "href": "/blog/things-to-do-in-rishikesh"
+            },
+            {
+              "label": "River rafting in Rishikesh",
+              "href": "/blog/river-rafting-in-rishikesh"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/rishikesh/rishikesh-ram-jhula-bridge-ganga.webp",
+            "alt": "Ram Jhula over the Ganga, Rishikesh",
+            "caption": "Rishikesh"
+          }
+        }
+      ]
+    },
+    {
+      "id": "driving",
+      "heading": "Driving considerations",
+      "list": [
+        "The expressway is access-controlled and tolled; slow vehicles and two-wheelers may be restricted on some sections, so check the current rules.",
+        "On the old route, towns such as Meerut, Muzaffarnagar and Roorkee have bypasses, but traffic still builds on weekends and festival days.",
+        "Rishikesh's main areas around Laxman Jhula and Tapovan have narrow lanes and limited parking; many hotels are a short walk from where you can park.",
+        "Winter fog on the plains can cut visibility to a few metres in the early morning; wait for it to lift.",
+        "Fuel and food are easy to find on both routes; the old route has more dhabas, the expressway has fewer but larger wayside stops."
+      ]
+    },
+    {
+      "id": "combine",
+      "heading": "Combining Rishikesh with other places",
+      "paras": [
+        "Rishikesh sits where the Ganga leaves the hills, so it combines naturally with Haridwar downstream, Rajaji's forests along the foothills, and Mussoorie and Dehradun to the west. For a week, continue up the Ganga to Devprayag and Rudraprayag, then to Chopta for meadows and Tungnath, returning the same way.",
+        "In the Char Dham season, roads north of Rishikesh are busy with pilgrim traffic and registration checks; start early and allow extra time."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to April is pleasant; winter mornings bring fog on the plains, so start after it lifts. Summer is hot in the foothills. The monsoon swells the Ganga, and rafting usually pauses in the peak rains."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Rishikesh from Delhi?",
+      "a": "Roughly 240 km, depending on the route."
+    },
+    {
+      "q": "What is the fastest route from Delhi to Rishikesh?",
+      "a": "The Delhi–Dehradun Expressway to Dehradun, then on to Rishikesh."
+    },
+    {
+      "q": "When is the Delhi–Dehradun Expressway open?",
+      "a": "It was inaugurated in April 2026 and is fully open."
+    },
+    {
+      "q": "Should I avoid driving to Rishikesh in July?",
+      "a": "The Kanwar Yatra brings heavy diversions, so plan around it."
+    },
+    {
+      "q": "Is Rishikesh good for a weekend road trip from Delhi?",
+      "a": "Yes; it is one of the easiest foothill trips from Delhi."
+    },
+    {
+      "q": "Can I combine Rishikesh and Mussoorie?",
+      "a": "Yes, via Dehradun; allow at least four days."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Rishikesh guide",
+      "href": "/blog/rishikesh-adventure-travel-guide"
+    },
+    {
+      "label": "Road trips in Uttarakhand",
+      "href": "/blog/road-trips-in-uttarakhand"
+    },
+    {
+      "label": "Road trips from Delhi",
+      "href": "/blog/road-trips-from-delhi"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "River rafting in Rishikesh",
+      "href": "/blog/river-rafting-in-rishikesh",
+      "note": "on the Ganga"
+    },
+    {
+      "name": "Yoga in Rishikesh",
+      "href": "/blog/yoga-in-rishikesh",
+      "note": "ashrams and courses"
+    },
+    {
+      "name": "Hill stations near Delhi",
+      "href": "/blog/hill-stations-near-delhi",
+      "note": "other escapes"
+    }
+  ],
+  "places": [
+    "Delhi",
+    "Baghpat",
+    "Shamli",
+    "Saharanpur",
+    "Dehradun",
+    "Meerut",
+    "Muzaffarnagar",
+    "Roorkee",
+    "Haridwar",
+    "Rajaji",
+    "Rishikesh"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "hill-station-holidays"
+  ],
+  "planDestination": "Rishikesh",
+  "updated": "2026-09-26"
+}

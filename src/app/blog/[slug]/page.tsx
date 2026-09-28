@@ -6,7 +6,8 @@
 // src/content/spiritual/<slug>.json, and Heritage & Cultural Tourism articles from
 // src/content/heritage/<slug>.json, and Hill Station Travel articles from
 // src/content/hills/<slug>.json, and Nature Travel articles from
-// src/content/nature/<slug>.json. Static guide folders in src/app/blog
+// src/content/nature/<slug>.json, and Road Trips articles from
+// src/content/roadtrips/<slug>.json. Static guide folders in src/app/blog
 // take precedence over this dynamic segment, and dynamicParams = false means
 // only slugs with a content file are served (anything else is a 404).
 import type { Metadata } from "next";
@@ -37,6 +38,8 @@ import { getAllHills, getHill } from "@/lib/hills";
 import { relatedHills } from "@/lib/hills-links";
 import { getAllNature, getNature } from "@/lib/nature";
 import { relatedNature } from "@/lib/nature-links";
+import { getAllRoadtrips, getRoadtrips } from "@/lib/roadtrips";
+import { relatedRoadtrips } from "@/lib/roadtrips-links";
 
 const HERITAGE_CLUSTER: ClusterConfig = {
   hub: { label: "Heritage & Culture", href: "/heritage-cultural-tourism", name: "Heritage & Cultural Tourism in India" },
@@ -72,6 +75,18 @@ const NATURE_CLUSTER: ClusterConfig = {
   sidebarTitle: "More nature travel guides",
   allLabel: "All nature travel \u2192",
   planTitle: "Want the forests, waterfalls and viewpoints woven into one trip?",
+};
+
+const ROADTRIPS_CLUSTER: ClusterConfig = {
+  hub: { label: "Road Trips", href: "/road-trips", name: "Road Trips in India" },
+  tripType: "Road Trip Holidays",
+  cta: {
+    title: "Planning a road trip?",
+    text: "Kudozz Club can help turn a route idea into a practical plan: realistic driving days, good overnight stops and stays that suit who is travelling.",
+  },
+  sidebarTitle: "More road trip guides",
+  allLabel: "All road trips \u2192",
+  planTitle: "Want the route, stops and stays planned around your dates?",
 };
 
 const SPIRITUAL_CLUSTER: ClusterConfig = {
@@ -112,11 +127,11 @@ const BEACH_CLUSTER: ClusterConfig = {
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return [...getAllThingsToDo(), ...getAllAdventure(), ...getAllBeach(), ...getAllWildlife(), ...getAllSpiritual(), ...getAllHeritage(), ...getAllHills(), ...getAllNature()].map((a) => ({ slug: a.slug }));
+  return [...getAllThingsToDo(), ...getAllAdventure(), ...getAllBeach(), ...getAllWildlife(), ...getAllSpiritual(), ...getAllHeritage(), ...getAllHills(), ...getAllNature(), ...getAllRoadtrips()].map((a) => ({ slug: a.slug }));
 }
 
 function adventureMetadata(slug: string): Metadata | null {
-  const a = getAdventure(slug) ?? getBeach(slug) ?? getWildlife(slug) ?? getSpiritual(slug) ?? getHeritage(slug) ?? getHill(slug) ?? getNature(slug);
+  const a = getAdventure(slug) ?? getBeach(slug) ?? getWildlife(slug) ?? getSpiritual(slug) ?? getHeritage(slug) ?? getHill(slug) ?? getNature(slug) ?? getRoadtrips(slug);
   if (!a) return null;
   const url = `${SITE_URL}/blog/${a.slug}`;
   return {
@@ -240,6 +255,8 @@ export default function ThingsToDoPage({ params }: { params: { slug: string } })
   if (hill) return <ClusterArticleView a={hill} c={HILLS_CLUSTER} sidebar={relatedHills(hill.slug, 6)} />;
   const nat = getNature(params.slug);
   if (nat) return <ClusterArticleView a={nat} c={NATURE_CLUSTER} sidebar={relatedNature(nat.slug, 6)} />;
+  const road = getRoadtrips(params.slug);
+  if (road) return <ClusterArticleView a={road} c={ROADTRIPS_CLUSTER} sidebar={relatedRoadtrips(road.slug, 6)} />;
   const a = getThingsToDo(params.slug);
   if (!a) notFound();
   const e = thingsToDoEntry(a.slug);

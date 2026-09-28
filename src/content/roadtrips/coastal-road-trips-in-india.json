@@ -1,0 +1,430 @@
+{
+  "slug": "coastal-road-trips-in-india",
+  "kind": "pillar",
+  "short": "Coastal road trips in India",
+  "title": "Coastal Road Trips in India: Konkan, Kerala, Coromandel and More",
+  "seoTitle": "Coastal Road Trips in India: Konkan, Kerala and the ECR | Kudozz Club",
+  "metaDescription": "Coastal road trips in India: the Konkan, Goa and Karnataka coast, Kerala's NH66, Tamil Nadu's East Coast Road, Odisha's marine drive and Gujarat's Saurashtra.",
+  "description": "A guide to coastal road trips in India: the Konkan coast from Mumbai to Goa, the Karnataka coast from Karwar to Mangaluru, Kerala's coast along NH66, the East Coast Road from Chennai to Rameswaram, Odisha's Puri–Konark marine drive, the Saurashtra coast of Gujarat and West Bengal's Digha coast, with seasons, ferries and cyclone cautions.",
+  "dek": "India's coasts make for slow, rewarding drives: fishing villages, forts, temples and beaches, one after another.",
+  "primaryKeyword": "coastal road trips in India",
+  "secondaryKeywords": [
+    "coastal drives India",
+    "Konkan coastal road trip",
+    "East Coast Road trip"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "coast",
+    "beaches"
+  ],
+  "regions": [
+    "Maharashtra",
+    "Goa",
+    "Karnataka",
+    "Kerala",
+    "Tamil Nadu",
+    "Odisha",
+    "Gujarat",
+    "West Bengal"
+  ],
+  "seasons": [
+    "winter",
+    "autumn"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Coastal road trips",
+    "Konkan",
+    "ECR",
+    "NH66",
+    "Beaches"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/coastal-road-trips-konkan-coast.webp",
+    "alt": "The cliffs and beach at Varkala, Kerala"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Coastal road trips in India",
+    "containedIn": "India"
+  },
+  "intro": [
+    "India's long coastline, on both the Arabian Sea and the Bay of Bengal, offers several stretches that make excellent road trips. On the west coast, NH66 runs from Mumbai through the Konkan, Goa, coastal Karnataka and Kerala. On the east coast, the East Coast Road links Chennai with Pondicherry and the Chola country, and Odisha's marine drive connects Puri with Konark. Gujarat's Saurashtra coast links Dwarka, Porbandar, Somnath and Diu.",
+    "This page is about the journeys. Our Beach cluster owns the beaches themselves."
+  ],
+  "quickAnswer": "The best coastal road trips in India are the Konkan from Mumbai to Goa, the Karnataka coast from Karwar to Udupi, Kerala's coast from Kasaragod to Varkala, the East Coast Road from Chennai to Pondicherry and on to Tranquebar, Odisha's Puri–Konark marine drive, and Gujarat's Saurashtra coast from Dwarka to Diu. November to March is best; avoid the monsoon and cyclone seasons.",
+  "takeaways": [
+    "NH66 runs the length of the west coast; widening works continue in parts of Maharashtra.",
+    "The east coast's main rains come with the north-east monsoon (October to December).",
+    "Coastal villages often need detours from the main highway; allow extra time.",
+    "Small ferries on the Konkan and Kerala backwaters depend on tides and season.",
+    "Swim only at lifeguarded beaches; currents can be strong."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Coastal drives at a glance",
+      "table": {
+        "columns": [
+          "Coast",
+          "Route",
+          "Typical days",
+          "Highlights"
+        ],
+        "rows": [
+          [
+            "Konkan",
+            "Alibaug–Murud–Dapoli–Ganpatipule–Malvan–Goa",
+            "4 to 6",
+            "Sea forts, beaches, Alphonso country"
+          ],
+          [
+            "Karnataka",
+            "Karwar–Gokarna–Murudeshwar–Udupi–Mangaluru",
+            "3 to 4",
+            "Temples and beaches"
+          ],
+          [
+            "Kerala",
+            "Kasaragod–Bekal–Kannur–Kozhikode, or Kochi–Alappuzha–Varkala",
+            "4 to 6",
+            "Forts, backwaters, cliffs"
+          ],
+          [
+            "Coromandel",
+            "Chennai–Mahabalipuram–Pondicherry–Tranquebar",
+            "3 to 5",
+            "Pallava and Chola heritage"
+          ],
+          [
+            "Odisha",
+            "Bhubaneswar–Puri–Konark–Chilika",
+            "3 to 4",
+            "Sun Temple, lagoon"
+          ],
+          [
+            "Saurashtra",
+            "Dwarka–Porbandar–Somnath–Diu",
+            "4 to 6",
+            "Temples, Gandhi's birthplace, Diu fort"
+          ]
+        ],
+        "caption": "Days include sightseeing."
+      }
+    },
+    {
+      "id": "west",
+      "heading": "The west coast",
+      "items": [
+        {
+          "name": "Konkan",
+          "body": [
+            "NH66 or the slower coastal road from Mumbai to Goa."
+          ],
+          "links": [
+            {
+              "label": "Mumbai to Goa road trip",
+              "href": "/blog/mumbai-to-goa-road-trip"
+            },
+            {
+              "label": "Best beaches in Maharashtra",
+              "href": "/blog/best-beaches-in-maharashtra"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/maharashtra/sindhudurg-fort-island-malvan-coast.webp",
+            "alt": "Sindhudurg fort off the Malvan coast",
+            "caption": "The Konkan"
+          }
+        },
+        {
+          "name": "Karnataka",
+          "body": [
+            "From Karwar past Gokarna, Murudeshwar and Udupi to Mangaluru."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in Karnataka",
+              "href": "/blog/best-beaches-in-karnataka"
+            },
+            {
+              "label": "Udupi guide",
+              "href": "/blog/udupi-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kerala",
+          "body": [
+            "North from Kozhikode to Bekal's fort, or south from Kochi to Varkala."
+          ],
+          "links": [
+            {
+              "label": "Kerala road trip",
+              "href": "/blog/kerala-road-trip"
+            },
+            {
+              "label": "Bekal guide",
+              "href": "/blog/bekal-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "heading": "The east coast",
+      "items": [
+        {
+          "name": "The East Coast Road",
+          "body": [
+            "Chennai to Pondicherry and on to Chidambaram and Tranquebar."
+          ],
+          "links": [
+            {
+              "label": "Chennai to Pondicherry road trip",
+              "href": "/blog/chennai-to-pondicherry-road-trip"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp",
+            "alt": "The Shore Temple at Mahabalipuram",
+            "caption": "The Coromandel coast"
+          }
+        },
+        {
+          "name": "Odisha",
+          "body": [
+            "The marine drive between Puri and Konark, and Chilika's shore."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Puri",
+              "href": "/blog/things-to-do-in-puri"
+            },
+            {
+              "label": "Chilika Lake guide",
+              "href": "/blog/chilika-lake-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "West Bengal",
+          "body": [
+            "Digha and Mandarmani from Kolkata."
+          ],
+          "links": [
+            {
+              "label": "Road trips from Kolkata",
+              "href": "/blog/road-trips-from-kolkata"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gujarat",
+      "heading": "Gujarat's Saurashtra coast",
+      "paras": [
+        "From Dwarka, the coastal highway runs south-east to Porbandar, Mahatma Gandhi's birthplace, then to Somnath and Diu, a former Portuguese enclave with a sea fort. It combines well with Gir's lions inland and makes a good winter trip."
+      ],
+      "items": [
+        {
+          "name": "Gujarat",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Dwarka guide",
+              "href": "/blog/dwarka-travel-guide"
+            },
+            {
+              "label": "Somnath guide",
+              "href": "/blog/somnath-travel-guide"
+            },
+            {
+              "label": "Diu guide",
+              "href": "/blog/diu-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Coastal driving tips",
+      "list": [
+        "Villages and fish markets slow traffic; drive gently and watch for pedestrians.",
+        "Check ferry timings for Konkan creek crossings and Kerala backwaters locally.",
+        "Do not drive onto beaches; sand traps cars and damages turtle nesting sites.",
+        "Keep an eye on cyclone and heavy-rain warnings, especially on the east coast."
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Coastal food along the way",
+      "paras": [
+        "Each coast has its own seafood: Malvani fish curries and sol kadhi on the Konkan, Goan xacuti and recheado, Mangalorean fish thalis and ghee roast, Kerala's karimeen and appam, Chettinad and Pondicherry's Creole dishes on the east coast, and Odisha's machha besara. Look for busy local restaurants near fish markets rather than beachfront shacks for the freshest catch."
+      ]
+    },
+    {
+      "id": "combine",
+      "heading": "Combining coast and hills",
+      "paras": [
+        "Coastal routes combine well with short climbs into the Western Ghats: Amboli from the Konkan, Agumbe from Udupi, Coorg from Mangaluru, and Munnar from Kochi. A few days at the coast followed by two nights in the hills makes a well-balanced week."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "November to March is best on both coasts. The west coast's heavy south-west monsoon runs from June to September, when seas are rough and many beach businesses close. The east coast gets most of its rain from the north-east monsoon (October to December), and cyclones can affect Odisha, Andhra and Tamil Nadu in the pre- and post-monsoon months."
+      ],
+      "items": [
+        {
+          "name": "Beaches",
+          "body": [
+            "The Beach cluster."
+          ],
+          "links": [
+            {
+              "label": "Best beaches in India",
+              "href": "/blog/best-beaches-in-india"
+            },
+            {
+              "label": "Coastal tourism in India",
+              "href": "/blog/coastal-tourism-in-india"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety": [
+    "Swim only at beaches with lifeguards, inside flagged zones, and never in rough seas or the monsoon.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "What is the best coastal road trip in India?",
+      "a": "The Konkan from Mumbai to Goa, the East Coast Road from Chennai to Pondicherry, and Kerala's coast."
+    },
+    {
+      "q": "When is the best time for a coastal road trip?",
+      "a": "November to March on both coasts."
+    },
+    {
+      "q": "Is there a coastal road along the whole west coast?",
+      "a": "NH66 runs from Mumbai to Kanyakumari, but it often runs a few kilometres inland; coastal villages need detours."
+    },
+    {
+      "q": "Can I drive along the Konkan coast in the monsoon?",
+      "a": "You can, but seas are rough, roads are wet and many beach businesses close."
+    },
+    {
+      "q": "Which coastal drive is best from Chennai?",
+      "a": "The East Coast Road to Mahabalipuram and Pondicherry."
+    },
+    {
+      "q": "Are there ferries on coastal routes?",
+      "a": "Yes, especially on the Konkan and in Kerala's backwaters; check timings locally."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Mumbai to Goa road trip",
+      "href": "/blog/mumbai-to-goa-road-trip"
+    },
+    {
+      "label": "Chennai to Pondicherry road trip",
+      "href": "/blog/chennai-to-pondicherry-road-trip"
+    },
+    {
+      "label": "Best beaches in India",
+      "href": "/blog/best-beaches-in-india"
+    },
+    {
+      "label": "Road trip holidays",
+      "href": "/packages/road-trip-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Beach trips in India",
+      "href": "/blog/beach-trips-in-india",
+      "note": "by the sea"
+    },
+    {
+      "name": "Winter road trips",
+      "href": "/blog/winter-road-trips-in-india",
+      "note": "coastal winters"
+    },
+    {
+      "name": "Road trips for couples",
+      "href": "/blog/road-trips-for-couples-in-india",
+      "note": "slow drives"
+    }
+  ],
+  "places": [
+    "Alibaug",
+    "Murud",
+    "Dapoli",
+    "Ganpatipule",
+    "Malvan",
+    "Goa",
+    "Karwar",
+    "Gokarna",
+    "Murudeshwar",
+    "Udupi",
+    "Mangaluru",
+    "Kasaragod",
+    "Bekal",
+    "Kannur",
+    "Kozhikode",
+    "Varkala",
+    "Chennai",
+    "Mahabalipuram",
+    "Pondicherry",
+    "Tranquebar",
+    "Puri",
+    "Konark",
+    "Dwarka",
+    "Porbandar",
+    "Somnath",
+    "Diu"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "honeymoon"
+  ],
+  "planDestination": "a coastal road trip",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,382 @@
+{
+  "slug": "delhi-to-manali-road-trip",
+  "kind": "destination",
+  "short": "Delhi to Manali road trip",
+  "title": "Delhi to Manali Road Trip: Route, Stops and Itinerary",
+  "seoTitle": "Delhi to Manali Road Trip: Route, Stops and Itinerary | Kudozz Club",
+  "metaDescription": "Delhi to Manali by road: the route via Chandigarh, Kiratpur, Mandi and Kullu, distance and driving time, where to stop overnight, fees and the best season.",
+  "description": "A route guide to the Delhi to Manali road trip: the main route via Chandigarh, Kiratpur, Bilaspur, Mandi and Kullu, approximate distance and driving time, the new four-lane highway and tunnels, stops along the way, overnight options, Himachal entry toll and Manali green tax, seasons and a two- to five-day plan.",
+  "dek": "The drive from Delhi to Manali climbs from the Punjab plains to the Beas gorge and the Kullu valley in one long day, or two easy ones.",
+  "primaryKeyword": "Delhi to Manali road trip",
+  "secondaryKeywords": [
+    "Delhi to Manali by road",
+    "Delhi to Manali distance",
+    "Delhi Manali route"
+  ],
+  "searchIntent": "Route planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "plains",
+    "mountains",
+    "river valleys"
+  ],
+  "regions": [
+    "Delhi",
+    "Punjab",
+    "Himachal Pradesh"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Delhi to Manali",
+    "Road trip",
+    "Himachal Pradesh",
+    "Kullu valley",
+    "Self-drive"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/delhi-manali-road-trip-kullu-beas.webp",
+    "alt": "The Beas river gorge beside the Kullu–Manali highway"
+  },
+  "parent": {
+    "label": "Road Trips in Himachal Pradesh",
+    "href": "/blog/road-trips-in-himachal-pradesh"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Delhi to Manali road trip",
+    "containedIn": "Himachal Pradesh"
+  },
+  "intro": [
+    "Delhi to Manali is India's most popular mountain road trip, usually driven in a single long day or broken with a night in Chandigarh, Mandi or Kullu. The route follows the Grand Trunk Road north to Ambala and Chandigarh or Kiratpur, then climbs into Himachal through Bilaspur and Mandi before following the Beas through its gorge to Kullu and Manali.",
+    "The Kiratpur–Manali four-lane highway, with several new tunnels between Bilaspur, Mandi and Kullu, has shortened the drive noticeably, though some stretches remain landslide-prone. This page covers the journey; our Manali guide covers what to do once you arrive."
+  ],
+  "quickAnswer": "Delhi to Manali is about 530 km by road via Chandigarh or Kiratpur, Bilaspur, Mandi and Kullu, and usually takes 11 to 14 hours of driving depending on traffic and road works. Most people either leave before dawn and drive through, or stop overnight in Chandigarh, Mandi or Kullu. March to June and September to November are best; avoid the peak monsoon.",
+  "takeaways": [
+    "The main route is Delhi–Ambala–Kiratpur–Bilaspur–Mandi–Kullu–Manali, about 530 km.",
+    "The new four-lane highway and tunnels have cut driving time, but check for landslide closures.",
+    "Break the drive at Chandigarh, Mandi or Kullu if you prefer daylight driving.",
+    "Out-of-state cars pay Himachal's entry toll and Manali's green tax.",
+    "The Pandoh to Aut stretch along the Beas is the most landslide-prone section."
+  ],
+  "sections": [
+    {
+      "id": "route",
+      "heading": "The route at a glance",
+      "table": {
+        "columns": [
+          "Leg",
+          "Approx. distance",
+          "What to expect"
+        ],
+        "rows": [
+          [
+            "Delhi–Murthal–Panipat–Ambala",
+            "200 km",
+            "Expressway-standard NH44, dhabas at Murthal"
+          ],
+          [
+            "Ambala–Kiratpur",
+            "100 km",
+            "Plains, entry into the Shivalik foothills"
+          ],
+          [
+            "Kiratpur–Bilaspur–Mandi",
+            "About 110 km",
+            "Four-lane with tunnels, Gobind Sagar reservoir"
+          ],
+          [
+            "Mandi–Pandoh–Aut–Kullu",
+            "About 70 km",
+            "Beas gorge, tunnels, landslide-prone"
+          ],
+          [
+            "Kullu–Manali",
+            "40 km",
+            "Valley road through apple orchards"
+          ]
+        ],
+        "caption": "Distances are approximate and change as new bypasses open."
+      }
+    },
+    {
+      "id": "options",
+      "heading": "Route options",
+      "items": [
+        {
+          "name": "Via Kiratpur (main route)",
+          "body": [
+            "The fastest route today, using the new four-lane highway through Bilaspur and Mandi."
+          ]
+        },
+        {
+          "name": "Via Chandigarh and Swarghat",
+          "body": [
+            "The older route through Ropar and Swarghat; still used when there are closures."
+          ]
+        },
+        {
+          "name": "Via Shimla",
+          "body": [
+            "A longer route up to Shimla and then down to Mandi via Tattapani and Sundernagar, useful if you want to combine both towns."
+          ],
+          "links": [
+            {
+              "label": "Shimla Manali itinerary",
+              "href": "/blog/shimla-manali-itinerary"
+            },
+            {
+              "label": "Delhi to Shimla road trip",
+              "href": "/blog/delhi-to-shimla-road-trip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stops",
+      "heading": "Stops along the way",
+      "items": [
+        {
+          "name": "Murthal",
+          "body": [
+            "Famous highway dhabas about an hour north of Delhi."
+          ],
+          "links": [
+            {
+              "label": "Murthal guide",
+              "href": "/blog/murthal-travel-guide"
+            },
+            {
+              "label": "Food road trips",
+              "href": "/blog/food-road-trips-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Chandigarh",
+          "body": [
+            "A good first-night stop with the Rock Garden and Sukhna Lake."
+          ],
+          "links": [
+            {
+              "label": "Chandigarh guide",
+              "href": "/blog/chandigarh-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Mandi",
+          "body": [
+            "An old temple town on the Beas, halfway into the hills."
+          ]
+        },
+        {
+          "name": "Kullu",
+          "body": [
+            "Rafting and paragliding on the Beas, and a detour to Naggar."
+          ],
+          "links": [
+            {
+              "label": "Kullu guide",
+              "href": "/blog/kullu-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/kullu/kullu-view.webp",
+            "alt": "The Kullu valley and the Beas",
+            "caption": "Kullu"
+          }
+        }
+      ]
+    },
+    {
+      "id": "overnight",
+      "heading": "Where to stop overnight",
+      "list": [
+        "Chandigarh: for an evening start from Delhi; the hill drive then starts fresh.",
+        "Mandi: roughly two-thirds of the way, leaving a short final day.",
+        "Kullu or Naggar: for a relaxed arrival, especially with children."
+      ]
+    },
+    {
+      "id": "plans",
+      "heading": "Two- to five-day plans",
+      "table": {
+        "columns": [
+          "Days",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "2",
+            "Drive up with a night in Mandi; one day in Manali; drive back overnight or next day"
+          ],
+          [
+            "3",
+            "Drive up; Old Manali and Hadimba; Solang or the Atal Tunnel to Sissu"
+          ],
+          [
+            "5",
+            "Add Naggar and Kasol, or a day at Tirthan via Aut"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "arrive",
+      "heading": "Once you arrive",
+      "items": [
+        {
+          "name": "Manali",
+          "body": [
+            "What to do in Manali."
+          ],
+          "links": [
+            {
+              "label": "Manali guide",
+              "href": "/blog/manali-travel-guide"
+            },
+            {
+              "label": "Things to do in Manali",
+              "href": "/blog/things-to-do-in-manali"
+            },
+            {
+              "label": "Adventure activities in Manali",
+              "href": "/blog/adventure-activities-in-manali"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/manali/solang-valley-manali.webp",
+            "alt": "Solang valley near Manali",
+            "caption": "Solang valley"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food-fuel",
+      "heading": "Food and fuel",
+      "paras": [
+        "Fuel is available all along the route, including in Mandi, Kullu and Manali. Murthal's dhabas and the highway food courts near Karnal are popular breakfast stops, and there are good roadside cafés around Bilaspur and Mandi."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "March to June is the peak season, with long queues into Manali on weekends. September to November is quieter and clearer. The monsoon brings landslides between Mandi and Kullu; in recent years floods on the Beas have closed the highway for days. From December to February, snow is likely beyond Manali, and roads to Solang and the Atal Tunnel may be restricted."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Manali from Delhi by road?",
+      "a": "About 530 km via Kiratpur, Mandi and Kullu."
+    },
+    {
+      "q": "How long does it take to drive from Delhi to Manali?",
+      "a": "Usually 11 to 14 hours, depending on traffic, weather and road works."
+    },
+    {
+      "q": "Where should I stop overnight between Delhi and Manali?",
+      "a": "Chandigarh, Mandi or Kullu are the usual choices."
+    },
+    {
+      "q": "Is the Delhi to Manali road good?",
+      "a": "Most of it is now a wide highway, but the Beas gorge section is prone to landslides, especially in the monsoon."
+    },
+    {
+      "q": "Do I need to pay any fees to enter Manali by car?",
+      "a": "Yes. Out-of-state vehicles pay Himachal's entry toll and Manali's green tax. Check current rates."
+    },
+    {
+      "q": "Can I drive from Delhi to Manali in winter?",
+      "a": "Yes, the road to Manali usually stays open; beyond Manali, snow may restrict access."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Manali guide",
+      "href": "/blog/manali-travel-guide"
+    },
+    {
+      "label": "Road trips in Himachal Pradesh",
+      "href": "/blog/road-trips-in-himachal-pradesh"
+    },
+    {
+      "label": "Manali to Leh road trip",
+      "href": "/blog/manali-to-leh-road-trip"
+    },
+    {
+      "label": "Himachal tour packages",
+      "href": "/packages/himachal-pradesh"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Shimla Manali itinerary",
+      "href": "/blog/shimla-manali-itinerary",
+      "note": "add Shimla"
+    },
+    {
+      "name": "Road trips from Delhi",
+      "href": "/blog/road-trips-from-delhi",
+      "note": "other drives"
+    },
+    {
+      "name": "Hill stations in Himachal Pradesh",
+      "href": "/blog/hill-stations-in-himachal-pradesh",
+      "note": "where to stay"
+    }
+  ],
+  "places": [
+    "Delhi",
+    "Murthal",
+    "Ambala",
+    "Chandigarh",
+    "Kiratpur",
+    "Bilaspur",
+    "Mandi",
+    "Pandoh",
+    "Aut",
+    "Kullu",
+    "Naggar",
+    "Manali"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "hill-station-holidays"
+  ],
+  "planDestination": "Manali",
+  "updated": "2026-09-26"
+}

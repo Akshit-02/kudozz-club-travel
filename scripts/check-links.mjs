@@ -29,7 +29,7 @@ const advSlugs = new Set(
   fs.existsSync(advDir) ? fs.readdirSync(advDir).filter((f) => f.endsWith(".json")).map((f) => f.slice(0, -5)) : [],
 );
 // Beach Travel, Wildlife Tourism and Spiritual Tourism articles (same system).
-for (const cluster of ["beach", "wildlife", "spiritual", "heritage", "hills", "nature"]) {
+for (const cluster of ["beach", "wildlife", "spiritual", "heritage", "hills", "nature", "roadtrips"]) {
   const dir = path.join(root, "src", "content", cluster);
   for (const f of fs.existsSync(dir) ? fs.readdirSync(dir) : []) if (f.endsWith(".json")) advSlugs.add(f.slice(0, -5));
 }
@@ -110,7 +110,7 @@ for (const f of ["destination-profiles.ts", "travel-styles-data.ts", "combo-pack
   }
 }
 
-console.log(`Checked ${checked} references across ${files.length} files (${blogSlugs.size} guides, ${ttdSlugs.size} things-to-do articles, ${advSlugs.size} adventure, beach, wildlife, spiritual, heritage, hill-station and nature articles, ${pkgSlugs.size} package pages).`);
+console.log(`Checked ${checked} references across ${files.length} files (${blogSlugs.size} guides, ${ttdSlugs.size} things-to-do articles, ${advSlugs.size} adventure, beach, wildlife, spiritual, heritage, hill-station, nature and road-trip articles, ${pkgSlugs.size} package pages).`);
 if (errors.length) {
   console.error(`\n${errors.length} broken reference(s):`);
   for (const e of [...new Set(errors)]) console.error("  " + e);

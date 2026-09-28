@@ -1,0 +1,366 @@
+{
+ "manali-travel-guide": {
+  "slug": "delhi-to-manali-road-trip",
+  "label": "the Delhi to Manali road trip"
+ },
+ "kullu-travel-guide": {
+  "slug": "delhi-to-manali-road-trip",
+  "label": "the Delhi to Manali road trip"
+ },
+ "shimla-travel-guide": {
+  "slug": "delhi-to-shimla-road-trip",
+  "label": "the Delhi to Shimla road trip"
+ },
+ "kasauli-travel-guide": {
+  "slug": "delhi-to-shimla-road-trip",
+  "label": "the Delhi to Shimla road trip"
+ },
+ "rishikesh-adventure-travel-guide": {
+  "slug": "delhi-to-rishikesh-road-trip",
+  "label": "the Delhi to Rishikesh road trip"
+ },
+ "haridwar-travel-guide": {
+  "slug": "delhi-to-rishikesh-road-trip",
+  "label": "the Delhi to Rishikesh road trip"
+ },
+ "leh-travel-guide": {
+  "slug": "manali-to-leh-road-trip",
+  "label": "the Manali to Leh road trip"
+ },
+ "kargil-travel-guide": {
+  "slug": "srinagar-to-leh-road-trip",
+  "label": "the Srinagar to Leh road trip"
+ },
+ "drass-travel-guide": {
+  "slug": "srinagar-to-leh-road-trip",
+  "label": "the Srinagar to Leh road trip"
+ },
+ "lamayuru-travel-guide": {
+  "slug": "srinagar-to-leh-road-trip",
+  "label": "the Srinagar to Leh road trip"
+ },
+ "sonamarg-travel-guide": {
+  "slug": "srinagar-to-leh-road-trip",
+  "label": "the Srinagar to Leh road trip"
+ },
+ "spiti-valley-travel-guide": {
+  "slug": "spiti-valley-road-trip",
+  "label": "the Spiti Valley road trip"
+ },
+ "kinnaur-travel-guide": {
+  "slug": "spiti-valley-road-trip",
+  "label": "the Spiti Valley road trip"
+ },
+ "chitkul-travel-guide": {
+  "slug": "spiti-valley-road-trip",
+  "label": "the Spiti Valley road trip"
+ },
+ "jaipur-travel-guide": {
+  "slug": "rajasthan-road-trip",
+  "label": "the Rajasthan road trip"
+ },
+ "jodhpur-travel-guide": {
+  "slug": "rajasthan-road-trip",
+  "label": "the Rajasthan road trip"
+ },
+ "udaipur-city-of-lakes-travel-guide": {
+  "slug": "rajasthan-road-trip",
+  "label": "the Rajasthan road trip"
+ },
+ "bikaner-travel-guide": {
+  "slug": "rajasthan-road-trip",
+  "label": "the Rajasthan road trip"
+ },
+ "pushkar-travel-guide": {
+  "slug": "rajasthan-road-trip",
+  "label": "the Rajasthan road trip"
+ },
+ "chittorgarh-travel-guide": {
+  "slug": "rajasthan-road-trip",
+  "label": "the Rajasthan road trip"
+ },
+ "kumbhalgarh-travel-guide": {
+  "slug": "rajasthan-road-trip",
+  "label": "the Rajasthan road trip"
+ },
+ "mandawa-travel-guide": {
+  "slug": "rajasthan-road-trip",
+  "label": "the Rajasthan road trip"
+ },
+ "bundi-travel-guide": {
+  "slug": "rajasthan-road-trip",
+  "label": "the Rajasthan road trip"
+ },
+ "coorg-travel-guide": {
+  "slug": "bengaluru-to-coorg-road-trip",
+  "label": "the Bengaluru to Coorg road trip"
+ },
+ "mysuru-travel-guide": {
+  "slug": "bengaluru-to-coorg-road-trip",
+  "label": "the Bengaluru to Coorg road trip"
+ },
+ "ooty-travel-guide": {
+  "slug": "bengaluru-to-ooty-road-trip",
+  "label": "the Bengaluru to Ooty road trip"
+ },
+ "bandipur-travel-guide": {
+  "slug": "bengaluru-to-ooty-road-trip",
+  "label": "the Bengaluru to Ooty road trip"
+ },
+ "munnar-travel-guide": {
+  "slug": "kochi-to-munnar-road-trip",
+  "label": "the Kochi to Munnar road trip"
+ },
+ "thekkady-travel-guide": {
+  "slug": "kerala-road-trip",
+  "label": "the Kerala road trip"
+ },
+ "alappuzha-travel-guide": {
+  "slug": "kerala-road-trip",
+  "label": "the Kerala road trip"
+ },
+ "kumarakom-travel-guide": {
+  "slug": "kerala-road-trip",
+  "label": "the Kerala road trip"
+ },
+ "varkala-travel-guide": {
+  "slug": "kerala-road-trip",
+  "label": "the Kerala road trip"
+ },
+ "mahabalipuram-travel-guide": {
+  "slug": "chennai-to-pondicherry-road-trip",
+  "label": "the Chennai to Pondicherry road trip"
+ },
+ "puducherry-french-quarter-travel-guide": {
+  "slug": "chennai-to-pondicherry-road-trip",
+  "label": "the Chennai to Pondicherry road trip"
+ },
+ "ganpatipule-travel-guide": {
+  "slug": "mumbai-to-goa-road-trip",
+  "label": "the Mumbai to Goa road trip"
+ },
+ "tarkarli-travel-guide": {
+  "slug": "mumbai-to-goa-road-trip",
+  "label": "the Mumbai to Goa road trip"
+ },
+ "goa-beaches-travel-guide": {
+  "slug": "mumbai-to-goa-road-trip",
+  "label": "the Mumbai to Goa road trip"
+ },
+ "gokarna-beaches-travel-guide": {
+  "slug": "bengaluru-to-goa-road-trip",
+  "label": "the Bengaluru to Goa road trip"
+ },
+ "dandeli-travel-guide": {
+  "slug": "bengaluru-to-goa-road-trip",
+  "label": "the Bengaluru to Goa road trip"
+ },
+ "tawang-travel-guide": {
+  "slug": "guwahati-to-tawang-road-trip",
+  "label": "the Guwahati to Tawang road trip"
+ },
+ "bomdila-travel-guide": {
+  "slug": "guwahati-to-tawang-road-trip",
+  "label": "the Guwahati to Tawang road trip"
+ },
+ "dirang-travel-guide": {
+  "slug": "guwahati-to-tawang-road-trip",
+  "label": "the Guwahati to Tawang road trip"
+ },
+ "sela-pass-travel-guide": {
+  "slug": "guwahati-to-tawang-road-trip",
+  "label": "the Guwahati to Tawang road trip"
+ },
+ "tezpur-travel-guide": {
+  "slug": "guwahati-to-tawang-road-trip",
+  "label": "the Guwahati to Tawang road trip"
+ },
+ "shillong-travel-guide": {
+  "slug": "northeast-india-road-trips",
+  "label": "road trips in Northeast India"
+ },
+ "cherrapunji-travel-guide": {
+  "slug": "northeast-india-road-trips",
+  "label": "road trips in Northeast India"
+ },
+ "dawki-travel-guide": {
+  "slug": "northeast-india-road-trips",
+  "label": "road trips in Northeast India"
+ },
+ "guwahati-travel-guide": {
+  "slug": "northeast-india-road-trips",
+  "label": "road trips in Northeast India"
+ },
+ "mussoorie-travel-guide": {
+  "slug": "road-trips-in-uttarakhand",
+  "label": "road trips in Uttarakhand"
+ },
+ "lansdowne-travel-guide": {
+  "slug": "road-trips-in-uttarakhand",
+  "label": "road trips in Uttarakhand"
+ },
+ "nainital-travel-guide": {
+  "slug": "road-trips-in-uttarakhand",
+  "label": "road trips in Uttarakhand"
+ },
+ "kausani-travel-guide": {
+  "slug": "road-trips-in-uttarakhand",
+  "label": "road trips in Uttarakhand"
+ },
+ "munsiyari-travel-guide": {
+  "slug": "road-trips-in-uttarakhand",
+  "label": "road trips in Uttarakhand"
+ },
+ "chopta-travel-guide": {
+  "slug": "road-trips-in-uttarakhand",
+  "label": "road trips in Uttarakhand"
+ },
+ "dharamshala-travel-guide": {
+  "slug": "road-trips-in-himachal-pradesh",
+  "label": "road trips in Himachal Pradesh"
+ },
+ "dalhousie-travel-guide": {
+  "slug": "road-trips-in-himachal-pradesh",
+  "label": "road trips in Himachal Pradesh"
+ },
+ "tirthan-valley-travel-guide": {
+  "slug": "road-trips-in-himachal-pradesh",
+  "label": "road trips in Himachal Pradesh"
+ },
+ "jibhi-travel-guide": {
+  "slug": "road-trips-in-himachal-pradesh",
+  "label": "road trips in Himachal Pradesh"
+ },
+ "lonavala-travel-guide": {
+  "slug": "road-trips-from-mumbai",
+  "label": "road trips from Mumbai and Pune"
+ },
+ "mahabaleshwar-travel-guide": {
+  "slug": "road-trips-from-mumbai",
+  "label": "road trips from Mumbai and Pune"
+ },
+ "nashik-travel-guide": {
+  "slug": "road-trips-from-mumbai",
+  "label": "road trips from Mumbai and Pune"
+ },
+ "bhandardara-travel-guide": {
+  "slug": "road-trips-from-mumbai",
+  "label": "road trips from Mumbai and Pune"
+ },
+ "alibaug-travel-guide": {
+  "slug": "road-trips-from-mumbai",
+  "label": "road trips from Mumbai and Pune"
+ },
+ "nandi-hills-travel-guide": {
+  "slug": "road-trips-from-bengaluru",
+  "label": "road trips from Bengaluru"
+ },
+ "chikmagalur-travel-guide": {
+  "slug": "road-trips-from-bengaluru",
+  "label": "road trips from Bengaluru"
+ },
+ "sakleshpur-travel-guide": {
+  "slug": "road-trips-from-bengaluru",
+  "label": "road trips from Bengaluru"
+ },
+ "kabini-travel-guide": {
+  "slug": "road-trips-from-bengaluru",
+  "label": "road trips from Bengaluru"
+ },
+ "hampi-travel-guide": {
+  "slug": "road-trips-from-bengaluru",
+  "label": "road trips from Bengaluru"
+ },
+ "kanchipuram-travel-guide": {
+  "slug": "road-trips-from-chennai",
+  "label": "road trips from Chennai"
+ },
+ "yelagiri-travel-guide": {
+  "slug": "road-trips-from-chennai",
+  "label": "road trips from Chennai"
+ },
+ "chettinad-travel-guide": {
+  "slug": "road-trips-from-chennai",
+  "label": "road trips from Chennai"
+ },
+ "warangal-travel-guide": {
+  "slug": "road-trips-from-hyderabad",
+  "label": "road trips from Hyderabad"
+ },
+ "srisailam-travel-guide": {
+  "slug": "road-trips-from-hyderabad",
+  "label": "road trips from Hyderabad"
+ },
+ "nagarjuna-sagar-travel-guide": {
+  "slug": "road-trips-from-hyderabad",
+  "label": "road trips from Hyderabad"
+ },
+ "ananthagiri-hills-travel-guide": {
+  "slug": "road-trips-from-hyderabad",
+  "label": "road trips from Hyderabad"
+ },
+ "laknavaram-travel-guide": {
+  "slug": "road-trips-from-hyderabad",
+  "label": "road trips from Hyderabad"
+ },
+ "digha-travel-guide": {
+  "slug": "road-trips-from-kolkata",
+  "label": "road trips from Kolkata"
+ },
+ "mandarmani-travel-guide": {
+  "slug": "road-trips-from-kolkata",
+  "label": "road trips from Kolkata"
+ },
+ "bishnupur-travel-guide": {
+  "slug": "road-trips-from-kolkata",
+  "label": "road trips from Kolkata"
+ },
+ "santiniketan-travel-guide": {
+  "slug": "road-trips-from-kolkata",
+  "label": "road trips from Kolkata"
+ },
+ "agra-travel-guide": {
+  "slug": "road-trips-from-delhi",
+  "label": "road trips from Delhi"
+ },
+ "rann-of-kutch-travel-guide": {
+  "slug": "winter-road-trips-in-india",
+  "label": "winter road trips in India"
+ },
+ "dholavira-travel-guide": {
+  "slug": "winter-road-trips-in-india",
+  "label": "winter road trips in India"
+ },
+ "kanha-travel-guide": {
+  "slug": "wildlife-road-trips-in-india",
+  "label": "wildlife road trips in India"
+ },
+ "tadoba-travel-guide": {
+  "slug": "wildlife-road-trips-in-india",
+  "label": "wildlife road trips in India"
+ },
+ "bandhavgarh-travel-guide": {
+  "slug": "wildlife-road-trips-in-india",
+  "label": "wildlife road trips in India"
+ },
+ "murthal-travel-guide": {
+  "slug": "food-road-trips-in-india",
+  "label": "food road trips in India"
+ },
+ "amritsar-travel-guide": {
+  "slug": "food-road-trips-in-india",
+  "label": "food road trips in India"
+ },
+ "valparai-travel-guide": {
+  "slug": "western-ghats-road-trips",
+  "label": "Western Ghats road trips"
+ },
+ "leh-ladakh-road-trip-travel-guide": {
+  "slug": "manali-to-leh-road-trip",
+  "label": "the Manali to Leh road trip"
+ },
+ "srinagar-travel-guide": {
+  "slug": "srinagar-to-leh-road-trip",
+  "label": "the Srinagar to Leh road trip"
+ }
+}

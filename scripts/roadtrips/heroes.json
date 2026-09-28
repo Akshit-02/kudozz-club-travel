@@ -1,0 +1,162 @@
+{
+ "road-hub": {
+  "src": "/images/roadtrips/road-trips-india-manali-leh-highway.webp",
+  "alt": "Herders move sheep along the Manali–Leh highway above Manali, Himachal Pradesh"
+ },
+ "best-road-trips-in-india": {
+  "src": "/images/roadtrips/best-road-trips-india-chang-la-road.webp",
+  "alt": "The road climbing towards Chang La, Ladakh"
+ },
+ "road-trips-in-himachal-pradesh": {
+  "src": "/images/roadtrips/himachal-road-trip-kinnaur-road.webp",
+  "alt": "The Hindustan–Tibet road cut into the cliffs of Kinnaur, Himachal Pradesh"
+ },
+ "road-trips-in-uttarakhand": {
+  "src": "/images/roadtrips/uttarakhand-road-trip-garhwal-road.webp",
+  "alt": "The Garhwal Himalaya above the road from Rudraprayag to Ukhimath, Uttarakhand"
+ },
+ "delhi-to-manali-road-trip": {
+  "src": "/images/roadtrips/delhi-manali-road-trip-kullu-beas.webp",
+  "alt": "The Beas river gorge beside the Kullu–Manali highway"
+ },
+ "delhi-to-shimla-road-trip": {
+  "src": "/images/roadtrips/delhi-shimla-road-trip-solan-road.webp",
+  "alt": "A bend on the Kalka–Shimla highway (NH5), Himachal Pradesh"
+ },
+ "delhi-to-rishikesh-road-trip": {
+  "src": "/images/roadtrips/delhi-rishikesh-road-trip-ganga.webp",
+  "alt": "The Ganga at Rishikesh, Uttarakhand"
+ },
+ "manali-to-leh-road-trip": {
+  "src": "/images/roadtrips/manali-leh-road-trip-more-plains.webp",
+  "alt": "The Gata Loops and the Tsarap valley on the Manali–Leh highway"
+ },
+ "srinagar-to-leh-road-trip": {
+  "src": "/images/roadtrips/srinagar-leh-road-trip-zojila.webp",
+  "alt": "A truck on the cliff road over Zojila, between Sonamarg and Drass"
+ },
+ "spiti-valley-road-trip": {
+  "src": "/images/roadtrips/spiti-road-trip-kaza-road.webp",
+  "alt": "The road above the Spiti river, Lahaul and Spiti, Himachal Pradesh"
+ },
+ "rajasthan-road-trip": {
+  "src": "/images/roadtrips/rajasthan-road-trip-jaisalmer-desert-road.webp",
+  "alt": "The road into the Thar desert near Jaisalmer, Rajasthan"
+ },
+ "south-india-road-trips": {
+  "src": "/images/roadtrips/south-india-road-trips-nilgiris-road.webp",
+  "alt": "A bus on a forested ghat road in the Nilgiris"
+ },
+ "kerala-road-trip": {
+  "src": "/images/roadtrips/kerala-road-trip-munnar-road.webp",
+  "alt": "A road through the tea estates of Munnar, Kerala"
+ },
+ "bengaluru-to-coorg-road-trip": {
+  "src": "/images/roadtrips/bengaluru-coorg-road-trip-madikeri.webp",
+  "alt": "A lane through a coffee estate in Coorg, Karnataka"
+ },
+ "bengaluru-to-ooty-road-trip": {
+  "src": "/images/roadtrips/bengaluru-ooty-road-trip-mudumalai-road.webp",
+  "alt": "The winding road up to Ooty in the Nilgiris"
+ },
+ "chennai-to-pondicherry-road-trip": {
+  "src": "/images/roadtrips/chennai-pondicherry-road-trip-ecr.webp",
+  "alt": "The East Coast Road between Chennai and Mahabalipuram"
+ },
+ "kochi-to-munnar-road-trip": {
+  "src": "/images/roadtrips/kochi-munnar-road-trip-cheeyappara.webp",
+  "alt": "Cheeyappara falls beside the Kochi–Munnar road, Idukki, Kerala"
+ },
+ "mumbai-to-goa-road-trip": {
+  "src": "/images/roadtrips/mumbai-goa-road-trip-konkan.webp",
+  "alt": "The beach and temple at Ganpatipule on the Konkan coast, Maharashtra"
+ },
+ "bengaluru-to-goa-road-trip": {
+  "src": "/images/roadtrips/bengaluru-goa-road-trip-anmod-ghat.webp",
+  "alt": "The road through Chorla Ghat on the Karnataka–Goa border"
+ },
+ "western-ghats-road-trips": {
+  "src": "/images/roadtrips/western-ghats-road-trips-ghat-road.webp",
+  "alt": "Monsoon cloud over the road at Amboli Ghat, Maharashtra"
+ },
+ "coastal-road-trips-in-india": {
+  "src": "/images/roadtrips/coastal-road-trips-konkan-coast.webp",
+  "alt": "The cliffs and beach at Varkala, Kerala"
+ },
+ "northeast-india-road-trips": {
+  "src": "/images/roadtrips/northeast-road-trips-meghalaya-road.webp",
+  "alt": "A road through green hills near Sohra (Cherrapunji), Meghalaya"
+ },
+ "guwahati-to-tawang-road-trip": {
+  "src": "/images/roadtrips/guwahati-tawang-road-trip-sela-pass.webp",
+  "alt": "Snow on the slopes at Sela Pass, Arunachal Pradesh"
+ },
+ "road-trips-from-delhi": {
+  "src": "/images/roadtrips/road-trips-delhi-yamuna-expressway.webp",
+  "alt": "The Yamuna Expressway between Greater Noida and Agra"
+ },
+ "road-trips-from-mumbai": {
+  "src": "/images/roadtrips/road-trips-mumbai-pune-expressway.webp",
+  "alt": "The Mumbai–Pune Expressway winding through the Western Ghats"
+ },
+ "road-trips-from-bengaluru": {
+  "src": "/images/roadtrips/road-trips-bengaluru-nandi-hills-road.webp",
+  "alt": "The road up Nandi Hills near Bengaluru"
+ },
+ "road-trips-from-chennai": {
+  "src": "/images/roadtrips/road-trips-chennai-mahabalipuram.webp",
+  "alt": "The Shore Temple at Mahabalipuram, south of Chennai"
+ },
+ "road-trips-from-hyderabad": {
+  "src": "/images/roadtrips/road-trips-hyderabad-srisailam-ghat.webp",
+  "alt": "The Nallamala hills on the road to Srisailam"
+ },
+ "road-trips-from-kolkata": {
+  "src": "/images/roadtrips/road-trips-kolkata-bishnupur.webp",
+  "alt": "The Jor Bangla terracotta temple at Bishnupur, West Bengal"
+ },
+ "self-drive-trips-in-india": {
+  "src": "/images/roadtrips/self-drive-india-ladakh-car-road.webp",
+  "alt": "An empty road through the mountains near Leh, Ladakh"
+ },
+ "road-trips-for-families-in-india": {
+  "src": "/images/roadtrips/family-road-trips-nilgiris-tea-road.webp",
+  "alt": "The Kotagiri–Coonoor road in the Nilgiris"
+ },
+ "road-trips-for-couples-in-india": {
+  "src": "/images/roadtrips/couples-road-trips-munnar-hills.webp",
+  "alt": "A hill road winding through the Munnar hills, Kerala"
+ },
+ "monsoon-road-trips-in-india": {
+  "src": "/images/roadtrips/monsoon-road-trips-western-ghats.webp",
+  "alt": "Monsoon clouds over the Western Ghats and a highway below"
+ },
+ "winter-road-trips-in-india": {
+  "src": "/images/roadtrips/winter-road-trips-rann-of-kutch-road.webp",
+  "alt": "A state highway across the Rann of Kutch, Gujarat"
+ },
+ "wildlife-road-trips-in-india": {
+  "src": "/images/roadtrips/wildlife-road-trips-kanha-road.webp",
+  "alt": "A forest road through Pench, Madhya Pradesh"
+ },
+ "food-road-trips-in-india": {
+  "src": "/images/roadtrips/food-road-trips-dhaba.webp",
+  "alt": "Cooking pots at a highway dhaba on NH 76"
+ },
+ "how-to-plan-a-road-trip-in-india": {
+  "src": "/images/roadtrips/plan-road-trip-india-mountain-road.webp",
+  "alt": "Hairpin bends on the Thamarassery ghat road to Wayanad, Kerala"
+ },
+ "road-trip-cost-in-india": {
+  "src": "/images/roadtrips/road-trip-cost-toll-plaza.webp",
+  "alt": "A toll plaza on a national highway in Tamil Nadu"
+ },
+ "road-trip-packing-list": {
+  "src": "/images/roadtrips/road-trip-packing-car-mountain.webp",
+  "alt": "The north portal of the Atal Tunnel, Rohtang, Himachal Pradesh"
+ },
+ "road-trip-safety-in-india": {
+  "src": "/images/roadtrips/road-trip-safety-bro-sign.webp",
+  "alt": "A Border Roads Organisation sign beside the road in the Nubra valley, Ladakh"
+ }
+}

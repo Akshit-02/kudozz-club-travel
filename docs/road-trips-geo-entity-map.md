@@ -1,0 +1,63 @@
+# Road Trips: GEO entity map
+
+Generated 2026-09-28. Each article's `BlogPosting` names its main entity in `about` (a `TouristDestination` for a route, state or region, or a `Thing` for a planning topic), lists stops and places in `mentions`, and adds an `ItemList`. Breadcrumbs place every page under Road Trips and its parent (a state or regional page, or an existing owner such as the Leh Ladakh guide).
+
+## Relationship chains
+
+- India → North India → Delhi → Delhi to Manali road trip → Murthal, Chandigarh, Bilaspur, Mandi, Kullu → Manali → Solang valley, Atal Tunnel → Adventure activities in Manali → Shimla Manali itinerary → `/packages/himachal-pradesh` → Plan My Trip.
+- India → Himachal Pradesh → Shimla → Spiti Valley road trip → Narkanda, Rampur, Sangla, Kalpa, Nako, Tabo, Kaza → Key, Kibber, Langza → Kunzum → Chandratal → Atal Tunnel → Manali → `/packages/himachal-pradesh`.
+- India → Ladakh → Manali → Manali to Leh road trip → Jispa, Baralacha La, Sarchu, Pang, Tanglang La → Leh → Leh Ladakh road trip guide → Things to do in Leh → `/packages/leh-ladakh`.
+- India → Jammu and Kashmir → Srinagar → Srinagar to Leh road trip → Sonamarg, Zojila, Drass, Kargil, Lamayuru → Leh → `/packages/leh-ladakh`.
+- India → Rajasthan → Delhi → Rajasthan road trip → Jaipur → Pushkar → Jodhpur → Jaisalmer → Ranakpur, Kumbhalgarh → Udaipur → Rajasthan heritage itinerary → `/packages/rajasthan`.
+- India → Maharashtra and Goa → Mumbai → Mumbai to Goa road trip → Mahad, Chiplun, Ratnagiri, Ganpatipule, Malvan → Goa → Things to do in Goa → `/packages/goa`.
+- India → Karnataka → Bengaluru → Bengaluru to Coorg road trip → Srirangapatna, Bylakuppe, Kushalnagar → Madikeri → Things to do in Coorg → `/packages/karnataka`.
+- India → Tamil Nadu → Bengaluru → Bengaluru to Ooty road trip → Mysuru, Bandipur, Mudumalai, Gudalur → Ooty → `/packages/tamil-nadu`.
+- India → Tamil Nadu → Chennai → Chennai to Pondicherry road trip → Mahabalipuram → Pondicherry → Auroville → `/packages/tamil-nadu`.
+- India → Kerala → Kochi → Kochi to Munnar road trip → Kothamangalam, Cheeyappara, Adimali → Munnar → Kerala road trip → `/packages/kerala`.
+- India → Arunachal Pradesh → Guwahati → Guwahati to Tawang road trip → Tezpur, Bhalukpong, Bomdila, Dirang, Sela → Tawang → `/packages/arunachal-pradesh`.
+
+Cross-topic links: road trip → Nature (Western Ghats, waterfalls) → Adventure (motorcycle trips, camping) → Wildlife (tiger reserves) → Hills (mountain road trips, hill stations near cities) → Heritage (Rajasthan and South India itineraries, food heritage) → Beach (coasts) → packages (road trip holidays, family, honeymoon, weekend getaways).
+
+## Entities by page
+
+| Page | Main entity (schema type) | Within | Regions | Places mentioned |
+| --- | --- | --- | --- | --- |
+| `/blog/bengaluru-to-coorg-road-trip` | Bengaluru to Coorg road trip (TouristDestination) | Karnataka → India | Karnataka | Bengaluru, Srirangapatna, Mysuru, Hunsur, Periyapatna, Bylakuppe, Kushalnagar, Dubare, Harangi, Madikeri |
+| `/blog/bengaluru-to-goa-road-trip` | Bengaluru to Goa road trip (TouristDestination) | Goa → India | Karnataka, Goa | Bengaluru, Tumakuru, Chitradurga, Davanagere, Hubballi, Dharwad, Belagavi, Chorla, Ramnagar, Anmod, Karwar, Gokarna, Hampi, Dandeli, Goa |
+| `/blog/bengaluru-to-ooty-road-trip` | Bengaluru to Ooty road trip (TouristDestination) | Tamil Nadu → India | Karnataka, Tamil Nadu | Bengaluru, Mysuru, Nanjangud, Gundlupet, Bandipur, Mudumalai, Theppakadu, Masinagudi, Gudalur, Naduvattam, Ooty |
+| `/blog/best-road-trips-in-india` | Best road trips in India (Thing) | India | India | Manali, Leh, Srinagar, Spiti, Jaipur, Jaisalmer, Udaipur, Goa, Munnar, Ooty, Pondicherry, Tawang, Kutch |
+| `/blog/chennai-to-pondicherry-road-trip` | Chennai to Pondicherry road trip (TouristDestination) | Tamil Nadu → India | Tamil Nadu, Puducherry | Chennai, Covelong, Muttukadu, DakshinaChitra, Mahabalipuram, Alamparai, Marakkanam, Auroville, Pondicherry |
+| `/blog/coastal-road-trips-in-india` | Coastal road trips in India (TouristDestination) | India → India | Maharashtra, Goa, Karnataka, Kerala, Tamil Nadu, Odisha, Gujarat, West Bengal | Alibaug, Murud, Dapoli, Ganpatipule, Malvan, Goa, Karwar, Gokarna, Murudeshwar, Udupi, Mangaluru, Kasaragod, Bekal, Kannur, Kozhikode, Varkala, Chennai, Mahabalipuram, Pondicherry, Tranquebar, Puri, Konark, Dwarka, Porbandar, Somnath, Diu |
+| `/blog/delhi-to-manali-road-trip` | Delhi to Manali road trip (TouristDestination) | Himachal Pradesh → India | Delhi, Punjab, Himachal Pradesh | Delhi, Murthal, Ambala, Chandigarh, Kiratpur, Bilaspur, Mandi, Pandoh, Aut, Kullu, Naggar, Manali |
+| `/blog/delhi-to-rishikesh-road-trip` | Delhi to Rishikesh road trip (TouristDestination) | Uttarakhand → India | Delhi, Uttar Pradesh, Uttarakhand | Delhi, Baghpat, Shamli, Saharanpur, Dehradun, Meerut, Muzaffarnagar, Roorkee, Haridwar, Rajaji, Rishikesh |
+| `/blog/delhi-to-shimla-road-trip` | Delhi to Shimla road trip (TouristDestination) | Himachal Pradesh → India | Delhi, Haryana, Himachal Pradesh | Delhi, Panipat, Ambala, Zirakpur, Pinjore, Parwanoo, Kasauli, Dharampur, Barog, Solan, Chail, Shimla, Kufri |
+| `/blog/food-road-trips-in-india` | Food road trips in India (Thing) | India | Punjab, Haryana, Rajasthan, Maharashtra, Karnataka, Kerala, Tamil Nadu, Telangana, West Bengal | Murthal, Amritsar, Jaipur, Jodhpur, Bikaner, Malvan, Goa, Udupi, Mangaluru, Kochi, Alappuzha, Karaikudi, Hyderabad, Kolkata |
+| `/blog/guwahati-to-tawang-road-trip` | Guwahati to Tawang road trip (TouristDestination) | Arunachal Pradesh → India | Assam, Arunachal Pradesh | Guwahati, Tezpur, Bhalukpong, Tenga, Bomdila, Dirang, Sela Pass, Jang, Tawang, Bum La |
+| `/blog/how-to-plan-a-road-trip-in-india` | Planning a road trip in India (Thing) | India | India | Delhi, Jaipur, Bengaluru, Coorg, Chennai, Pondicherry, Manali, Leh, Spiti |
+| `/blog/kerala-road-trip` | Kerala road trip (TouristDestination) | Kerala → India | Kerala | Kochi, Adimali, Munnar, Thekkady, Vagamon, Kumarakom, Alappuzha, Varkala, Thiruvananthapuram, Kozhikode, Wayanad |
+| `/blog/kochi-to-munnar-road-trip` | Kochi to Munnar road trip (TouristDestination) | Kerala → India | Kerala | Kochi, Muvattupuzha, Kothamangalam, Thattekad, Neriamangalam, Cheeyappara, Valara, Adimali, Munnar |
+| `/blog/manali-to-leh-road-trip` | Manali to Leh road trip (TouristDestination) | Ladakh → India | Himachal Pradesh, Ladakh | Manali, Atal Tunnel, Sissu, Keylong, Jispa, Darcha, Baralacha La, Sarchu, Gata Loops, Nakee La, Lachulung La, Pang, More Plains, Tanglang La, Upshi, Leh |
+| `/blog/monsoon-road-trips-in-india` | Monsoon road trips in India (Thing) | India | Maharashtra, Karnataka, Kerala, Meghalaya, Ladakh, Himachal Pradesh | Malshej, Tamhini, Lonavala, Mahabaleshwar, Amboli, Coorg, Chikmagalur, Munnar, Sohra, Ladakh, Spiti |
+| `/blog/mumbai-to-goa-road-trip` | Mumbai to Goa road trip (TouristDestination) | Goa → India | Maharashtra, Goa | Mumbai, Panvel, Mangaon, Mahad, Chiplun, Ratnagiri, Ganpatipule, Kankavli, Kudal, Malvan, Tarkarli, Pune, Kolhapur, Amboli, Goa |
+| `/blog/northeast-india-road-trips` | Northeast India road trips (TouristDestination) | Northeast India → India | Assam, Meghalaya, Arunachal Pradesh, Sikkim, Nagaland | Guwahati, Shillong, Sohra, Dawki, Mawlynnong, Kaziranga, Jorhat, Majuli, Tezpur, Bomdila, Dirang, Tawang, Ziro, Siliguri, Gangtok, Lachung, Dimapur, Kohima |
+| `/blog/rajasthan-road-trip` | Rajasthan road trip (TouristDestination) | Rajasthan → India | Rajasthan | Delhi, Jaipur, Pushkar, Ajmer, Jodhpur, Osian, Pokhran, Jaisalmer, Sam, Ranakpur, Kumbhalgarh, Udaipur, Bikaner, Mandawa, Chittorgarh, Bundi |
+| `/blog/road-trip-cost-in-india` | Road trip cost in India (Thing) | India | India | India |
+| `/blog/road-trip-packing-list` | Road trip packing list for India (Thing) | India | India | India |
+| `/blog/road-trip-safety-in-india` | Road trip safety in India (Thing) | India | India | India |
+| `/blog/road-trips-for-couples-in-india` | Road trips for couples in India (Thing) | India | India | Konkan, Goa, Mahabalipuram, Pondicherry, Munnar, Thekkady, Coorg, Udaipur, Kumbhalgarh, Mount Abu, Kausani, Munsiyari, Tirthan, Spiti |
+| `/blog/road-trips-for-families-in-india` | Family road trips in India (Thing) | India | India | Shimla, Jaipur, Nainital, Mahabaleshwar, Mysuru, Coorg, Pondicherry, Munnar, Kutch |
+| `/blog/road-trips-from-bengaluru` | Road trips from Bengaluru (TouristDestination) | South India → India | Karnataka, Kerala, Tamil Nadu, Goa | Nandi Hills, Mysuru, Kabini, Sakleshpur, Chikmagalur, Coorg, Ooty, Wayanad, Yercaud, Hampi, Gokarna, Goa, Pondicherry |
+| `/blog/road-trips-from-chennai` | Road trips from Chennai (TouristDestination) | Tamil Nadu → India | Tamil Nadu, Puducherry | Mahabalipuram, Pulicat, Kanchipuram, Pondicherry, Tiruvannamalai, Yelagiri, Tranquebar, Chidambaram, Thanjavur, Kumbakonam, Chettinad, Madurai, Kodaikanal, Ooty |
+| `/blog/road-trips-from-delhi` | Road trips from Delhi (TouristDestination) | North India → India | Delhi, Uttar Pradesh, Rajasthan, Uttarakhand, Himachal Pradesh | Agra, Mathura, Vrindavan, Neemrana, Sariska, Jaipur, Rishikesh, Lansdowne, Mussoorie, Nainital, Kasauli, Shimla, Manali, Corbett |
+| `/blog/road-trips-from-hyderabad` | Road trips from Hyderabad (TouristDestination) | Telangana → India | Telangana, Andhra Pradesh, Karnataka, Goa | Pochampally, Ananthagiri, Bidar, Warangal, Ramappa, Nagarjuna Sagar, Srisailam, Laknavaram, Bhadrachalam, Hampi, Gandikota, Belum, Goa |
+| `/blog/road-trips-from-kolkata` | Road trips from Kolkata (TouristDestination) | West Bengal → India | West Bengal, Odisha | Kolkata, Sundarbans, Bishnupur, Santiniketan, Mandarmani, Digha, Tajpur, Mukutmanipur, Purulia, Ajodhya Hills, Puri, Darjeeling |
+| `/blog/road-trips-from-mumbai` | Road trips from Mumbai and Pune (TouristDestination) | Maharashtra → India | Maharashtra, Goa | Mumbai, Pune, Lonavala, Khandala, Matheran, Alibaug, Mahabaleshwar, Panchgani, Nashik, Igatpuri, Bhandardara, Malshej, Dapoli, Ganpatipule, Tarkarli, Kolhapur, Goa |
+| `/blog/road-trips-in-himachal-pradesh` | Road trips in Himachal Pradesh (TouristDestination) | Himachal Pradesh → India | Himachal Pradesh | Shimla, Solan, Manali, Kullu, Mandi, Bilaspur, Narkanda, Rampur, Reckong Peo, Nako, Kaza, Dharamshala, Dalhousie, Chamba, Jibhi, Jalori Pass, Sissu, Keylong |
+| `/blog/road-trips-in-uttarakhand` | Road trips in Uttarakhand (TouristDestination) | Uttarakhand → India | Uttarakhand | Rishikesh, Dehradun, Mussoorie, Devprayag, Rudraprayag, Chopta, Joshimath, Lansdowne, Nainital, Almora, Kausani, Munsiyari, Ramnagar |
+| `/blog/self-drive-trips-in-india` | Self-drive trips in India (Thing) | India | India | Delhi, Jaipur, Agra, Bengaluru, Mysuru, Coorg, Chennai, Pondicherry, Pune, Mahabaleshwar, Manali, Leh |
+| `/blog/south-india-road-trips` | South India road trips (TouristDestination) | South India → India | Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, Telangana, Goa | Bengaluru, Mysuru, Coorg, Chikmagalur, Hampi, Ooty, Coonoor, Kodaikanal, Kochi, Munnar, Thekkady, Alappuzha, Chennai, Mahabalipuram, Pondicherry, Thanjavur, Madurai, Goa |
+| `/blog/spiti-valley-road-trip` | Spiti Valley road trip (TouristDestination) | Himachal Pradesh → India | Himachal Pradesh | Shimla, Narkanda, Rampur, Sarahan, Sangla, Chitkul, Reckong Peo, Kalpa, Nako, Tabo, Dhankar, Kaza, Key, Kibber, Langza, Losar, Kunzum, Chandratal, Batal, Manali |
+| `/blog/srinagar-to-leh-road-trip` | Srinagar to Leh road trip (TouristDestination) | Ladakh → India | Jammu and Kashmir, Ladakh | Srinagar, Kangan, Sonamarg, Zojila, Drass, Kargil, Mulbekh, Namika La, Fotu La, Lamayuru, Alchi, Nimmu, Leh |
+| `/blog/western-ghats-road-trips` | Western Ghats road trips (TouristDestination) | Western and South India → India | Maharashtra, Goa, Karnataka, Kerala, Tamil Nadu | Malshej, Tamhini, Mahabaleshwar, Amboli, Chorla, Anmod, Agumbe, Charmadi, Kudremukh, Thamarassery, Munnar, Valparai, Kodaikanal, Ooty |
+| `/blog/wildlife-road-trips-in-india` | Wildlife road trips in India (Thing) | India | Madhya Pradesh, Maharashtra, Karnataka, Tamil Nadu, Kerala, Uttarakhand, Assam, Gujarat, Rajasthan | Jabalpur, Bandhavgarh, Kanha, Pench, Nagpur, Tadoba, Kabini, Nagarhole, Wayanad, Bandipur, Mudumalai, Corbett, Rajaji, Kaziranga, Nameri, Gir, Dasada, Ranthambore, Sariska |
+| `/blog/winter-road-trips-in-india` | Winter road trips in India (Thing) | India | Rajasthan, Gujarat, Goa, Kerala, Tamil Nadu, Karnataka, Madhya Pradesh | Jaipur, Jaisalmer, Kutch, Dholavira, Dwarka, Somnath, Diu, Goa, Kerala, Pondicherry, Hampi, Badami, Kanha, Shimla, Manali, Gulmarg |

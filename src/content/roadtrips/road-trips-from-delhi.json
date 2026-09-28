@@ -1,0 +1,448 @@
+{
+  "slug": "road-trips-from-delhi",
+  "kind": "weekend",
+  "short": "Road trips from Delhi",
+  "title": "Road Trips from Delhi: Hills, Rajasthan and Weekend Drives",
+  "seoTitle": "Road Trips from Delhi: Hills, Rajasthan, Weekend Drives | Kudozz Club",
+  "metaDescription": "Road trips from Delhi: weekend drives to Agra, Jaipur, Rishikesh, Lansdowne and Kasauli, and longer trips to Manali, Nainital, Dharamshala and Spiti.",
+  "description": "A guide to road trips from Delhi, grouped by time: short drives to Agra, Mathura–Vrindavan, Neemrana and Sariska; weekend trips to Jaipur, Rishikesh, Mussoorie, Lansdowne, Kasauli and Nainital; and longer trips to Shimla, Manali, Dharamshala, Corbett, Spiti, Ladakh and the Rajasthan circuit, with approximate distances, expressways, fog and holiday traffic.",
+  "dek": "Delhi sits at the hub of North India's highways, with the Himalayan foothills, Rajasthan and the Taj Mahal all within a day's drive.",
+  "primaryKeyword": "road trips from Delhi",
+  "secondaryKeywords": [
+    "weekend road trips from Delhi",
+    "long drives from Delhi",
+    "road trip near Delhi"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "road trips",
+    "weekend getaways",
+    "self-drive"
+  ],
+  "terrain": [
+    "plains",
+    "hills",
+    "desert"
+  ],
+  "regions": [
+    "Delhi",
+    "Uttar Pradesh",
+    "Rajasthan",
+    "Uttarakhand",
+    "Himachal Pradesh"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn",
+    "summer"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "weekenders"
+  ],
+  "tags": [
+    "Delhi",
+    "Road trips",
+    "Weekend getaways",
+    "Expressways",
+    "Self-drive"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/road-trips-delhi-yamuna-expressway.webp",
+    "alt": "The Yamuna Expressway between Greater Noida and Agra"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Road trips from Delhi",
+    "containedIn": "North India"
+  },
+  "intro": [
+    "Few Indian cities have as many road trips within reach as Delhi. Expressways lead south-east to Agra, south-west to Jaipur, and north-east to Dehradun, while the Grand Trunk Road runs north to Chandigarh and the Himalaya. In a weekend you can reach a Mughal monument, a Rajasthani fort city or a Himalayan foothill town; with a week, you can drive to Manali, Kumaon or Rajasthan's desert.",
+    "Plan around three things: winter fog on the plains, long-weekend traffic out of the city, and monsoon landslides in the hills."
+  ],
+  "quickAnswer": "The best road trips from Delhi are Agra (about 230 km via the Yamuna Expressway), Jaipur (about 280 km), Rishikesh (about 240 km), Lansdowne (about 250 km), Mussoorie (about 290 km), Kasauli and Shimla (300 to 350 km) and Nainital (about 300 km) for weekends, and Manali, Dharamshala, Corbett, Spiti and the Rajasthan circuit for longer trips. October to March suits the plains; March to June the hills.",
+  "takeaways": [
+    "Expressways to Agra, Jaipur and Dehradun make several destinations easy weekend drives.",
+    "Start before 6 am to clear the city and reach the hills in daylight.",
+    "Winter fog (December to January) can delay early starts on the plains.",
+    "Long weekends bring very heavy traffic to Shimla, Manali, Mussoorie and Nainital.",
+    "Avoid the hills in the peak monsoon, when landslides are common."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Road trips from Delhi at a glance",
+      "table": {
+        "columns": [
+          "Destination",
+          "Approx. distance",
+          "Typical drive",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Agra",
+            "230 km",
+            "3.5 to 4 hours",
+            "Taj Mahal, Mughal heritage"
+          ],
+          [
+            "Mathura–Vrindavan",
+            "160 km",
+            "3 hours",
+            "Temples"
+          ],
+          [
+            "Neemrana and Sariska",
+            "120 to 200 km",
+            "2 to 4 hours",
+            "Fort stays, tiger reserve"
+          ],
+          [
+            "Jaipur",
+            "280 km",
+            "4 to 5 hours",
+            "Forts and palaces"
+          ],
+          [
+            "Rishikesh",
+            "240 km",
+            "4 to 5 hours",
+            "Ganga, rafting, yoga"
+          ],
+          [
+            "Lansdowne",
+            "250 km",
+            "6 hours",
+            "Quiet hills and forest"
+          ],
+          [
+            "Mussoorie",
+            "290 km",
+            "6 hours",
+            "Hill town"
+          ],
+          [
+            "Nainital",
+            "300 km",
+            "7 hours",
+            "Kumaon lakes"
+          ],
+          [
+            "Kasauli and Shimla",
+            "300 to 350 km",
+            "6 to 8 hours",
+            "Colonial hill towns"
+          ],
+          [
+            "Manali",
+            "530 km",
+            "11 to 14 hours",
+            "Kullu valley, Solang"
+          ]
+        ],
+        "caption": "Distances and times are approximate."
+      }
+    },
+    {
+      "id": "short",
+      "heading": "Short trips and day drives",
+      "items": [
+        {
+          "name": "Agra",
+          "body": [
+            "The Yamuna Expressway makes Agra an easy day or overnight trip."
+          ],
+          "links": [
+            {
+              "label": "Agra guide",
+              "href": "/blog/agra-travel-guide"
+            },
+            {
+              "label": "Golden Triangle itinerary",
+              "href": "/blog/golden-triangle-itinerary"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp",
+            "alt": "The Taj Mahal across the Yamuna",
+            "caption": "Agra"
+          }
+        },
+        {
+          "name": "Mathura and Vrindavan",
+          "body": [
+            "Temple towns on the way to Agra."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Vrindavan",
+              "href": "/blog/things-to-do-in-vrindavan"
+            }
+          ]
+        },
+        {
+          "name": "Neemrana and Sariska",
+          "body": [
+            "A hilltop fort hotel and a tiger reserve in the Aravallis."
+          ],
+          "links": [
+            {
+              "label": "Sariska Tiger Reserve",
+              "href": "/blog/sariska-tiger-reserve"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hills",
+      "heading": "Weekend hill drives",
+      "items": [
+        {
+          "name": "Rishikesh and Mussoorie",
+          "body": [
+            "Via the new Delhi–Dehradun Expressway."
+          ],
+          "links": [
+            {
+              "label": "Delhi to Rishikesh road trip",
+              "href": "/blog/delhi-to-rishikesh-road-trip"
+            },
+            {
+              "label": "Mussoorie guide",
+              "href": "/blog/mussoorie-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Lansdowne and Nainital",
+          "body": [
+            "Quiet cantonment hills and Kumaon's lakes."
+          ],
+          "links": [
+            {
+              "label": "Lansdowne guide",
+              "href": "/blog/lansdowne-travel-guide"
+            },
+            {
+              "label": "Nainital guide",
+              "href": "/blog/nainital-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kasauli and Shimla",
+          "body": [
+            "Up NH44 and the Parwanoo climb."
+          ],
+          "links": [
+            {
+              "label": "Delhi to Shimla road trip",
+              "href": "/blog/delhi-to-shimla-road-trip"
+            },
+            {
+              "label": "Kasauli guide",
+              "href": "/blog/kasauli-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "heading": "Longer road trips",
+      "items": [
+        {
+          "name": "Manali and Himachal",
+          "body": [
+            "Four to seven days."
+          ],
+          "links": [
+            {
+              "label": "Delhi to Manali road trip",
+              "href": "/blog/delhi-to-manali-road-trip"
+            },
+            {
+              "label": "Road trips in Himachal Pradesh",
+              "href": "/blog/road-trips-in-himachal-pradesh"
+            }
+          ]
+        },
+        {
+          "name": "Rajasthan",
+          "body": [
+            "Seven to twelve days through Jaipur, Jodhpur, Jaisalmer and Udaipur."
+          ],
+          "links": [
+            {
+              "label": "Rajasthan road trip",
+              "href": "/blog/rajasthan-road-trip"
+            }
+          ]
+        },
+        {
+          "name": "Kumaon and Corbett",
+          "body": [
+            "Five to seven days."
+          ],
+          "links": [
+            {
+              "label": "Road trips in Uttarakhand",
+              "href": "/blog/road-trips-in-uttarakhand"
+            },
+            {
+              "label": "Jim Corbett guide",
+              "href": "/blog/jim-corbett-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Spiti and Ladakh",
+          "body": [
+            "Ten days or more, in summer."
+          ],
+          "links": [
+            {
+              "label": "Spiti Valley road trip",
+              "href": "/blog/spiti-valley-road-trip"
+            },
+            {
+              "label": "Manali to Leh road trip",
+              "href": "/blog/manali-to-leh-road-trip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for driving out of Delhi",
+      "list": [
+        "Leave before dawn to avoid city traffic and reach the hills in daylight.",
+        "Check for fog advisories in winter and delay starts until visibility improves.",
+        "Expressways are tolled; a FASTag is mandatory and an annual pass may suit frequent drivers.",
+        "Weekend returns into Delhi on Sunday evenings are slow; return on Monday morning or early Sunday."
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food on the highway",
+      "paras": [
+        "Murthal's parantha dhabas on the road north, the Yamuna Expressway's food courts towards Agra, and the roadside kachori stalls on the way to Jaipur are part of the ritual. For hill drives, Kathgodam and Haldwani are good last stops before the climb to Nainital."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to March is best for Agra, Jaipur and the Rajasthan circuit. March to June suits the hills, though they are busy. September to November is excellent everywhere, with clear skies after the monsoon. Avoid the hills in July and August, when landslides are common."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "What are the best road trips from Delhi for a weekend?",
+      "a": "Agra, Jaipur, Rishikesh, Lansdowne, Mussoorie, Kasauli, Shimla and Nainital."
+    },
+    {
+      "q": "Which hill station is closest to Delhi by road?",
+      "a": "Kasauli, Lansdowne and Mussoorie are among the closest, about five to six hours away."
+    },
+    {
+      "q": "What is the best long road trip from Delhi?",
+      "a": "Delhi to Manali or a Rajasthan circuit; in summer, Spiti and Ladakh."
+    },
+    {
+      "q": "When should I avoid driving out of Delhi?",
+      "a": "On long-weekend Friday evenings, in dense winter fog, and to the hills in the peak monsoon."
+    },
+    {
+      "q": "Is a FASTag required?",
+      "a": "Yes; toll plazas on national highways and expressways require a FASTag."
+    },
+    {
+      "q": "How far is Jaipur from Delhi by road?",
+      "a": "About 280 km, usually four to five hours."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Delhi to Manali road trip",
+      "href": "/blog/delhi-to-manali-road-trip"
+    },
+    {
+      "label": "Rajasthan road trip",
+      "href": "/blog/rajasthan-road-trip"
+    },
+    {
+      "label": "Hill stations near Delhi",
+      "href": "/blog/hill-stations-near-delhi"
+    },
+    {
+      "label": "Weekend getaways",
+      "href": "/packages/weekend-getaways"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Weekend adventure trips from Delhi",
+      "href": "/blog/weekend-adventure-trips-from-delhi",
+      "note": "active weekends"
+    },
+    {
+      "name": "Pilgrimage trips from Delhi",
+      "href": "/blog/pilgrimage-trips-from-delhi",
+      "note": "temple towns"
+    },
+    {
+      "name": "Things to do in Delhi",
+      "href": "/blog/things-to-do-in-delhi",
+      "note": "before you leave"
+    }
+  ],
+  "places": [
+    "Agra",
+    "Mathura",
+    "Vrindavan",
+    "Neemrana",
+    "Sariska",
+    "Jaipur",
+    "Rishikesh",
+    "Lansdowne",
+    "Mussoorie",
+    "Nainital",
+    "Kasauli",
+    "Shimla",
+    "Manali",
+    "Corbett"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "weekend-getaways"
+  ],
+  "planDestination": "a road trip from Delhi",
+  "updated": "2026-09-26"
+}

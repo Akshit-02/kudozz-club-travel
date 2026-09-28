@@ -1,0 +1,374 @@
+{
+  "slug": "spiti-valley-road-trip",
+  "kind": "destination",
+  "short": "Spiti Valley road trip",
+  "title": "Spiti Valley Road Trip: Routes, Circuit and Best Time",
+  "seoTitle": "Spiti Valley Road Trip: Routes, Circuit and Best Time | Kudozz Club",
+  "metaDescription": "Spiti Valley by road: the Shimla–Kinnaur route, the Manali–Kunzum route, the full circuit, a 7 to 10 day plan, cost components, season and acclimatisation.",
+  "description": "A route guide to the Spiti Valley road trip: the approaches from Delhi, Shimla and Manali, the Shimla–Kinnaur–Nako–Tabo–Kaza road, the Kaza–Kunzum–Atal Tunnel road to Manali, the full circuit and which way to drive it, a seven- to ten-day plan, Chandratal, fuel and network, what drives the cost, the best season and acclimatisation.",
+  "dek": "A Spiti road trip is a loop through the Himalaya: up the Sutlej through Kinnaur, into the high desert of Spiti, and out over Kunzum to Manali.",
+  "primaryKeyword": "Spiti Valley road trip",
+  "secondaryKeywords": [
+    "Spiti road trip itinerary",
+    "Spiti circuit",
+    "Delhi to Spiti road trip"
+  ],
+  "searchIntent": "Route planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "high-altitude desert",
+    "mountains",
+    "river valleys"
+  ],
+  "regions": [
+    "Himachal Pradesh"
+  ],
+  "seasons": [
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Spiti Valley",
+    "Road trip",
+    "Kinnaur",
+    "Himachal Pradesh",
+    "High desert"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/spiti-road-trip-kaza-road.webp",
+    "alt": "The road above the Spiti river, Lahaul and Spiti, Himachal Pradesh"
+  },
+  "parent": {
+    "label": "Road Trips in Himachal Pradesh",
+    "href": "/blog/road-trips-in-himachal-pradesh"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Spiti Valley road trip",
+    "containedIn": "Himachal Pradesh"
+  },
+  "intro": [
+    "Spiti lies in the rain shadow of the Great Himalaya, a high, dry valley of monasteries, fossil-bearing slopes and tiny villages. There are two ways in by road. The Shimla side follows the Hindustan–Tibet road (NH5) up the Sutlej through Kinnaur to Nako, Tabo and Kaza; it stays open for more of the year. The Manali side runs through the Atal Tunnel, along the Chandra river to Batal and over Kunzum Pass to Losar and Kaza; it opens only in summer.",
+    "Driving in from Shimla and out via Manali makes a circuit, and spreads the altitude gain more gently. For bike-specific advice, see our Spiti bike trip guide."
+  ],
+  "quickAnswer": "The classic Spiti Valley road trip is a circuit: Delhi or Chandigarh to Shimla, then through Kinnaur (Sarahan, Sangla, Kalpa) to Nako, Tabo and Kaza, and out over Kunzum Pass and through the Atal Tunnel to Manali. It is about 650 km from Shimla to Manali and needs seven to ten days. The Kinnaur side is open longer; Kunzum usually opens between late May and June and closes by November.",
+  "takeaways": [
+    "Drive in via Shimla and Kinnaur and out via Manali for gentler acclimatisation.",
+    "The Kunzum side opens only in summer; in 2026 it reopened in the second half of May.",
+    "Kinnaur has landslide-prone stretches along the Sutlej; drive in daylight.",
+    "Fuel is available in Reckong Peo and Kaza; fill up whenever you can.",
+    "Indian visitors do not need a permit for Spiti; foreign nationals need one for the Kinnaur border stretch."
+  ],
+  "sections": [
+    {
+      "id": "routes",
+      "heading": "The two approaches",
+      "table": {
+        "columns": [
+          "Route",
+          "Approx. distance to Kaza",
+          "Open",
+          "Character"
+        ],
+        "rows": [
+          [
+            "Shimla–Narkanda–Rampur–Reckong Peo–Nako–Tabo–Kaza",
+            "About 420 km",
+            "Most of the year, with interruptions",
+            "Gradual climb through Kinnaur; cliff roads"
+          ],
+          [
+            "Manali–Atal Tunnel–Gramphu–Batal–Kunzum–Losar–Kaza",
+            "About 200 km",
+            "Roughly June to October",
+            "Rough, high and remote; stream crossings"
+          ]
+        ],
+        "caption": "Distances are approximate."
+      }
+    },
+    {
+      "id": "circuit",
+      "heading": "The circuit, day by day",
+      "table": {
+        "columns": [
+          "Day",
+          "Route",
+          "Overnight"
+        ],
+        "rows": [
+          [
+            "1",
+            "Delhi or Chandigarh to Shimla or Narkanda",
+            "Shimla or Narkanda"
+          ],
+          [
+            "2",
+            "Narkanda–Rampur–Sarahan–Sangla",
+            "Sangla or Chitkul"
+          ],
+          [
+            "3",
+            "Sangla–Reckong Peo–Kalpa",
+            "Kalpa"
+          ],
+          [
+            "4",
+            "Kalpa–Khab–Nako",
+            "Nako"
+          ],
+          [
+            "5",
+            "Nako–Tabo–Dhankar–Kaza",
+            "Kaza"
+          ],
+          [
+            "6",
+            "Key, Kibber, Langza, Hikkim, Komic",
+            "Kaza"
+          ],
+          [
+            "7",
+            "Kaza–Losar–Kunzum–Chandratal",
+            "Chandratal camps"
+          ],
+          [
+            "8",
+            "Chandratal–Batal–Atal Tunnel–Manali",
+            "Manali"
+          ]
+        ],
+        "caption": "Add rest days at Kalpa and Kaza if you can."
+      }
+    },
+    {
+      "id": "stops",
+      "heading": "Highlights along the way",
+      "items": [
+        {
+          "name": "Kinnaur",
+          "body": [
+            "Sarahan's temple, the Sangla valley and Chitkul, and Kalpa facing the Kinner Kailash range."
+          ],
+          "links": [
+            {
+              "label": "Kinnaur guide",
+              "href": "/blog/kinnaur-travel-guide"
+            },
+            {
+              "label": "Chitkul guide",
+              "href": "/blog/chitkul-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/kinnaur/kalpa-kinnaur.webp",
+            "alt": "Kalpa below the Kinner Kailash range",
+            "caption": "Kalpa"
+          }
+        },
+        {
+          "name": "Nako and Tabo",
+          "body": [
+            "A lake village near the Tibet border, and Tabo's thousand-year-old monastery."
+          ]
+        },
+        {
+          "name": "Kaza and around",
+          "body": [
+            "Key monastery, Kibber, Langza's fossils, Hikkim's post office and Komic."
+          ],
+          "links": [
+            {
+              "label": "Spiti Valley guide",
+              "href": "/blog/spiti-valley-travel-guide"
+            },
+            {
+              "label": "Things to do in Spiti",
+              "href": "/blog/things-to-do-in-spiti-valley"
+            }
+          ],
+          "image": {
+            "src": "/images/adventure/spiti-valley-road-kaza.webp",
+            "alt": "The road near Kaza, Spiti",
+            "caption": "Near Kaza"
+          }
+        },
+        {
+          "name": "Chandratal",
+          "body": [
+            "A glacial lake a short detour from Batal, with seasonal camps set back from the shore."
+          ],
+          "links": [
+            {
+              "label": "Lakes in India",
+              "href": "/blog/lakes-in-india"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/spiti-valley/chandratal-lake-turquoise-mountains-spiti.webp",
+            "alt": "Chandratal lake",
+            "caption": "Chandratal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cost",
+      "heading": "What drives the cost",
+      "list": [
+        "Transport: your own car, a rented self-drive vehicle, or a car with a local driver (often required for rented taxis crossing state lines).",
+        "Days: a longer trip with rest days costs more but is safer for altitude.",
+        "Stays: homestays in villages are simple and good value; hotels in Kaza and Kalpa cost more.",
+        "Fuel: long mountain distances at low gears use more fuel than plains driving.",
+        "We do not quote fixed prices; ask us for a current estimate."
+      ],
+      "items": [
+        {
+          "name": "Costs",
+          "body": [
+            "Our guide."
+          ],
+          "links": [
+            {
+              "label": "Road trip cost in India",
+              "href": "/blog/road-trip-cost-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "practical",
+      "heading": "Fuel, network and permits",
+      "list": [
+        "Fuel: Reckong Peo and Kaza have pumps; fill up at each and carry a reserve as your rental allows.",
+        "Network: BSNL and some Jio coverage around Kaza and larger villages; none on long stretches.",
+        "Permits: Indian nationals need no permit; foreign nationals need a Protected Area Permit for the stretch near the Tibet border.",
+        "Cash: ATMs are limited to Reckong Peo and Kaza."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "June to September is the main season, when both approaches are usually open. The Kinnaur side is open for more of the year, but winter brings snow, black ice and frequent closures. July and August bring monsoon rain to Kinnaur and the Manali side, raising landslide and stream-crossing risks, though Spiti itself is dry. Late September and early October are clear, cold and quiet."
+      ]
+    }
+  ],
+  "safety": [
+    "Above about 3,000 m, ascend gradually, rest on arrival and see a doctor before travel if you have heart, lung or blood-pressure conditions.",
+    "Cross streams on the Batal–Losar stretch early in the day, when water is lower, and walk them first if unsure.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Warm layers for cold nights even in summer",
+    "Sunscreen and sunglasses",
+    "Spare tyre, puncture kit and tow rope",
+    "Basic medicines and a doctor's advice on altitude"
+  ],
+  "faqs": [
+    {
+      "q": "Which is the best route for a Spiti road trip?",
+      "a": "Drive in via Shimla and Kinnaur and out via Kunzum and Manali."
+    },
+    {
+      "q": "How many days do I need for Spiti by road?",
+      "a": "Seven to ten days for the full circuit from Shimla to Manali."
+    },
+    {
+      "q": "When does the Kunzum Pass road open?",
+      "a": "Usually between late May and June, closing by November. In 2026 it reopened in the second half of May."
+    },
+    {
+      "q": "Do I need a permit for Spiti?",
+      "a": "Indian nationals do not; foreign nationals need a Protected Area Permit for the Kinnaur border stretch."
+    },
+    {
+      "q": "Is Spiti safe to drive in the monsoon?",
+      "a": "Spiti itself is dry, but the roads through Kinnaur and from Manali can see landslides and swollen streams."
+    },
+    {
+      "q": "Can I drive to Spiti in a normal car?",
+      "a": "Yes on the Kinnaur side in the dry season; the Manali side is rough, so good ground clearance helps."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Spiti Valley guide",
+      "href": "/blog/spiti-valley-travel-guide"
+    },
+    {
+      "label": "Road trips in Himachal Pradesh",
+      "href": "/blog/road-trips-in-himachal-pradesh"
+    },
+    {
+      "label": "Spiti Valley bike trip",
+      "href": "/blog/spiti-valley-bike-trip"
+    },
+    {
+      "label": "Himachal tour packages",
+      "href": "/packages/himachal-pradesh"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Delhi to Shimla road trip",
+      "href": "/blog/delhi-to-shimla-road-trip",
+      "note": "the first leg"
+    },
+    {
+      "name": "Himalayan nature travel",
+      "href": "/blog/himalayan-nature-travel",
+      "note": "the landscape"
+    },
+    {
+      "name": "Village tourism in India",
+      "href": "/blog/village-tourism-in-india",
+      "note": "Spiti homestays"
+    }
+  ],
+  "places": [
+    "Shimla",
+    "Narkanda",
+    "Rampur",
+    "Sarahan",
+    "Sangla",
+    "Chitkul",
+    "Reckong Peo",
+    "Kalpa",
+    "Nako",
+    "Tabo",
+    "Dhankar",
+    "Kaza",
+    "Key",
+    "Kibber",
+    "Langza",
+    "Losar",
+    "Kunzum",
+    "Chandratal",
+    "Batal",
+    "Manali"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "adventure-tours"
+  ],
+  "planDestination": "Spiti Valley",
+  "updated": "2026-09-26"
+}

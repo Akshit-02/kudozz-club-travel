@@ -69,6 +69,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/heritage-cultural-tourism`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/hill-station-travel`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/nature-travel`, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/road-trips`, changeFrequency: "weekly", priority: 0.8 },
     {
       url: `${BASE_URL}/plan-your-trip`,
       changeFrequency: "monthly",

@@ -1,0 +1,395 @@
+{
+  "slug": "road-trips-from-kolkata",
+  "kind": "weekend",
+  "short": "Road trips from Kolkata",
+  "title": "Road Trips from Kolkata: Coast, Terracotta Towns and the Hills",
+  "seoTitle": "Road Trips from Kolkata: Coast, Terracotta and Hills | Kudozz Club",
+  "metaDescription": "Road trips from Kolkata: Digha, Mandarmani and Tajpur, Bishnupur, Santiniketan, Mukutmanipur, Purulia's Ajodhya Hills, the Sundarbans, Puri and Darjeeling.",
+  "description": "A guide to road trips from Kolkata: the Bay of Bengal beaches at Digha, Mandarmani and Tajpur, the terracotta temples of Bishnupur, Santiniketan, the Mukutmanipur reservoir and Purulia's Ajodhya Hills, the drive to the Sundarbans jetties, and longer trips to Puri and Darjeeling, with approximate distances, seasons and cyclone cautions.",
+  "dek": "From Kolkata, weekend drives lead to the seaside, to Bengal's terracotta towns and to the red-soil hills of Purulia.",
+  "primaryKeyword": "road trips from Kolkata",
+  "secondaryKeywords": [
+    "weekend road trips from Kolkata",
+    "long drives from Kolkata",
+    "road trip near Kolkata"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "road trips",
+    "weekend getaways",
+    "self-drive"
+  ],
+  "terrain": [
+    "plains",
+    "coast",
+    "hills"
+  ],
+  "regions": [
+    "West Bengal",
+    "Odisha"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "autumn"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "weekenders"
+  ],
+  "tags": [
+    "Kolkata",
+    "Road trips",
+    "Weekend getaways",
+    "West Bengal",
+    "Bishnupur"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/road-trips-kolkata-bishnupur.webp",
+    "alt": "The Jor Bangla terracotta temple at Bishnupur, West Bengal"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Road trips from Kolkata",
+    "containedIn": "West Bengal"
+  },
+  "intro": [
+    "Kolkata's weekend drives head in three directions. South-west, NH16 and state roads reach the beaches at Digha, Mandarmani and Tajpur. West, the roads lead to Bishnupur's terracotta temples, Santiniketan's university town, and the reservoirs and hills of Bankura and Purulia. South, a short drive reaches the jetties for the Sundarbans, where boats take over.",
+    "For longer trips, Puri in Odisha and Darjeeling in the Himalaya are both reachable by road, though many travellers fly or take the train for the Darjeeling leg."
+  ],
+  "quickAnswer": "The best road trips from Kolkata are Mandarmani (about 170 km), Digha (about 185 km), Bishnupur (about 150 km), Santiniketan (about 160 km), Mukutmanipur (about 230 km), Purulia's Ajodhya Hills (about 300 km), the Sundarbans (about 100 km to the jetties, then by boat) and, for longer trips, Puri (about 500 km) and Darjeeling (about 600 km). October to March is best; avoid cyclone warnings on the coast.",
+  "takeaways": [
+    "Digha and Mandarmani are the classic weekend beach drives.",
+    "Bishnupur and Santiniketan combine well in a long weekend.",
+    "Purulia's Ajodhya Hills are best in winter and spring, when the palash flowers bloom.",
+    "For the Sundarbans, drive to Godkhali or a similar jetty and continue by boat.",
+    "The Bay of Bengal's cyclone seasons can disrupt coastal trips."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Road trips from Kolkata at a glance",
+      "table": {
+        "columns": [
+          "Destination",
+          "Approx. distance",
+          "Typical drive",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Sundarbans (Godkhali jetty)",
+            "100 km",
+            "3 hours",
+            "Mangroves by boat"
+          ],
+          [
+            "Bishnupur",
+            "150 km",
+            "4 hours",
+            "Terracotta temples, Baluchari saris"
+          ],
+          [
+            "Santiniketan",
+            "160 km",
+            "4 hours",
+            "Tagore's university town"
+          ],
+          [
+            "Mandarmani",
+            "170 km",
+            "4 hours",
+            "Beach"
+          ],
+          [
+            "Digha",
+            "185 km",
+            "4 to 5 hours",
+            "Beach town"
+          ],
+          [
+            "Mukutmanipur",
+            "230 km",
+            "5 hours",
+            "Reservoir and hills"
+          ],
+          [
+            "Ajodhya Hills, Purulia",
+            "300 km",
+            "6 to 7 hours",
+            "Red-soil hills, palash forests"
+          ],
+          [
+            "Puri",
+            "500 km",
+            "9 to 10 hours",
+            "Temple and beach"
+          ]
+        ],
+        "caption": "Distances and times are approximate."
+      }
+    },
+    {
+      "id": "coast",
+      "heading": "The coast",
+      "items": [
+        {
+          "name": "Digha, Mandarmani and Tajpur",
+          "body": [
+            "Wide beaches on the Bay of Bengal, busy at weekends."
+          ],
+          "links": [
+            {
+              "label": "Digha guide",
+              "href": "/blog/digha-travel-guide"
+            },
+            {
+              "label": "Mandarmani guide",
+              "href": "/blog/mandarmani-travel-guide"
+            },
+            {
+              "label": "Best beaches in West Bengal",
+              "href": "/blog/best-beaches-in-west-bengal"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/digha/new-digha-beach-promenade-boulder-embankment.webp",
+            "alt": "The promenade at New Digha",
+            "caption": "Digha"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "heading": "Terracotta and Tagore",
+      "items": [
+        {
+          "name": "Bishnupur",
+          "body": [
+            "Seventeenth-century Malla-era temples in brick and laterite."
+          ],
+          "links": [
+            {
+              "label": "Bishnupur guide",
+              "href": "/blog/bishnupur-travel-guide"
+            },
+            {
+              "label": "Heritage tourism in West Bengal",
+              "href": "/blog/heritage-tourism-in-west-bengal"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/west-bengal/bishnupur/rasmancha-laterite-pyramidal-temple-bishnupur.webp",
+            "alt": "The Rasmancha at Bishnupur",
+            "caption": "Bishnupur"
+          }
+        },
+        {
+          "name": "Santiniketan",
+          "body": [
+            "Rabindranath Tagore's university town, a UNESCO World Heritage Site since 2023."
+          ],
+          "links": [
+            {
+              "label": "Santiniketan guide",
+              "href": "/blog/santiniketan-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "west",
+      "heading": "Bankura and Purulia",
+      "paras": [
+        "West of Bishnupur, Mukutmanipur's reservoir and the Susunia and Joychandi hills lead on to Purulia's Ajodhya Hills, a plateau of red soil, dams and forest where palash trees flower in late winter and spring. Roads are quieter here, and homestays are simple."
+      ]
+    },
+    {
+      "id": "sundarbans",
+      "heading": "The Sundarbans",
+      "paras": [
+        "The Sundarbans are reached by driving to a jetty such as Godkhali or Sonakhali, then continuing by boat; the forest itself has no roads. Most visitors book boat tours with permits included."
+      ],
+      "items": [
+        {
+          "name": "Sundarbans",
+          "body": [
+            "Our guide."
+          ],
+          "links": [
+            {
+              "label": "Sundarbans guide",
+              "href": "/blog/sundarbans-travel-guide"
+            },
+            {
+              "label": "Wildlife tourism in West Bengal",
+              "href": "/blog/wildlife-tourism-in-west-bengal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "heading": "Longer drives",
+      "items": [
+        {
+          "name": "Puri and Konark",
+          "body": [
+            "Down NH16 through Odisha."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Puri",
+              "href": "/blog/things-to-do-in-puri"
+            }
+          ]
+        },
+        {
+          "name": "Darjeeling",
+          "body": [
+            "A long drive north via Siliguri, better split over two days."
+          ],
+          "links": [
+            {
+              "label": "Darjeeling guide",
+              "href": "/blog/darjeeling-travel-guide"
+            },
+            {
+              "label": "Hill stations near Kolkata",
+              "href": "/blog/hill-stations-near-kolkata"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for driving out of Kolkata",
+      "list": [
+        "Leave early to clear the Vidyasagar Setu and Kona Expressway before traffic builds.",
+        "Check cyclone warnings before coastal trips from April to June and October to December.",
+        "Purulia is hot from April to June; go in winter or spring."
+      ]
+    },
+    {
+      "id": "long-weekend",
+      "heading": "Planning a long weekend",
+      "paras": [
+        "With three days, combine Bishnupur with Mukutmanipur, or Santiniketan with a village crafts tour. For the coast, spend two nights at Mandarmani or Tajpur, which are quieter than Digha. With four or five days, continue from Digha into Odisha to Chandipur, where the sea retreats kilometres at low tide, or head west to Purulia's hills.",
+        "Bengali food is part of every trip: fish fry and rolls on the highway, and sweets at the old shops in Bishnupur and Santiniketan."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to March is best, with pleasant weather for the coast and the plateau. Spring brings palash blooms to Purulia. Summer is hot and humid, and the monsoon (June to September) brings heavy rain; the coast is rough and cyclones are possible in the shoulder months."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "What are the best weekend road trips from Kolkata?",
+      "a": "Mandarmani, Digha, Bishnupur, Santiniketan and the Sundarbans."
+    },
+    {
+      "q": "How far is Digha from Kolkata?",
+      "a": "About 185 km, usually four to five hours."
+    },
+    {
+      "q": "Can I drive to the Sundarbans?",
+      "a": "Only to the jetties; the rest of the trip is by boat."
+    },
+    {
+      "q": "When is the best time to visit Purulia?",
+      "a": "Winter and spring, especially when the palash flowers bloom."
+    },
+    {
+      "q": "Is Darjeeling a good road trip from Kolkata?",
+      "a": "It is long, about 600 km; split it over two days or combine a train with a drive from Siliguri."
+    },
+    {
+      "q": "Is Santiniketan a UNESCO site?",
+      "a": "Yes; it was inscribed in 2023."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Bishnupur guide",
+      "href": "/blog/bishnupur-travel-guide"
+    },
+    {
+      "label": "Coastal road trips",
+      "href": "/blog/coastal-road-trips-in-india"
+    },
+    {
+      "label": "Hill stations near Kolkata",
+      "href": "/blog/hill-stations-near-kolkata"
+    },
+    {
+      "label": "West Bengal tour packages",
+      "href": "/packages/west-bengal"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Things to do in Kolkata",
+      "href": "/blog/things-to-do-in-kolkata",
+      "note": "in the city"
+    },
+    {
+      "name": "Things to do in Digha",
+      "href": "/blog/things-to-do-in-digha",
+      "note": "by the sea"
+    },
+    {
+      "name": "Heritage tourism in West Bengal",
+      "href": "/blog/heritage-tourism-in-west-bengal",
+      "note": "terracotta and more"
+    }
+  ],
+  "places": [
+    "Kolkata",
+    "Sundarbans",
+    "Bishnupur",
+    "Santiniketan",
+    "Mandarmani",
+    "Digha",
+    "Tajpur",
+    "Mukutmanipur",
+    "Purulia",
+    "Ajodhya Hills",
+    "Puri",
+    "Darjeeling"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "weekend-getaways"
+  ],
+  "planDestination": "a road trip from Kolkata",
+  "updated": "2026-09-26"
+}

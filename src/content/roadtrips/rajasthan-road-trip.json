@@ -1,0 +1,439 @@
+{
+  "slug": "rajasthan-road-trip",
+  "kind": "state",
+  "short": "Rajasthan road trip",
+  "title": "Rajasthan Road Trip: Routes, Circuits and Itinerary",
+  "seoTitle": "Rajasthan Road Trip: Routes, Circuits and Itinerary | Kudozz Club",
+  "metaDescription": "A Rajasthan road trip from Delhi: the Jaipur–Jodhpur–Jaisalmer–Udaipur circuit, drive times, route options, a 7 to 12 day itinerary and the winter season.",
+  "description": "A route guide to a Rajasthan road trip: the classic circuit from Delhi via Jaipur, Pushkar, Jodhpur and Jaisalmer to Udaipur, approximate distances and drive times for each leg, route variations through Bikaner, Shekhawati, Ranakpur, Kumbhalgarh, Chittorgarh and Bundi, a seven- to twelve-day plan, desert driving considerations and the winter season.",
+  "dek": "Rajasthan is made for road trips: long, open highways between fort cities, with desert, lakes and hill forts along the way.",
+  "primaryKeyword": "Rajasthan road trip",
+  "secondaryKeywords": [
+    "Rajasthan road trip itinerary",
+    "Rajasthan road trip route",
+    "Rajasthan road trip from Delhi",
+    "Jaipur Jodhpur Jaisalmer road trip"
+  ],
+  "searchIntent": "Route planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "desert",
+    "plains",
+    "Aravalli hills"
+  ],
+  "regions": [
+    "Rajasthan"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Rajasthan",
+    "Road trip",
+    "Desert",
+    "Heritage",
+    "Self-drive"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/rajasthan-road-trip-jaisalmer-desert-road.webp",
+    "alt": "The road into the Thar desert near Jaisalmer, Rajasthan"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Rajasthan road trip",
+    "containedIn": "Rajasthan"
+  },
+  "intro": [
+    "Rajasthan's distances are large but its highways are mostly good, which makes it one of India's easiest states to explore by car. The classic circuit starts in Delhi, heads to Jaipur, swings west through Pushkar and Jodhpur to Jaisalmer in the Thar, and returns east to Udaipur via the Aravalli forts at Ranakpur and Kumbhalgarh. From Udaipur, you can drive back to Delhi or continue to Gujarat.",
+    "This page focuses on the route: legs, drive times and where to break the journey. Our Heritage cluster covers the forts and palaces in depth."
+  ],
+  "quickAnswer": "The classic Rajasthan road trip runs Delhi–Jaipur–Pushkar–Jodhpur–Jaisalmer–Jodhpur–Udaipur, about 1,500 to 1,800 km in total, over 8 to 12 days. Typical legs are Delhi to Jaipur (about 280 km), Jaipur to Jodhpur (about 340 km), Jodhpur to Jaisalmer (about 280 km) and Jodhpur to Udaipur via Ranakpur (about 260 km). October to March is best; summer is very hot.",
+  "takeaways": [
+    "Plan for 250 to 350 km a day on most legs; allow time for city traffic.",
+    "The Delhi–Mumbai Expressway and its Jaipur link have shortened the Delhi–Jaipur leg.",
+    "Jaisalmer is a dead end; you return via Jodhpur or Pokhran, or drive north to Bikaner.",
+    "Ranakpur and Kumbhalgarh break the Jodhpur–Udaipur drive beautifully.",
+    "Winter mornings can be foggy on the plains near Delhi and Jaipur."
+  ],
+  "sections": [
+    {
+      "id": "route",
+      "heading": "The classic circuit at a glance",
+      "table": {
+        "columns": [
+          "Leg",
+          "Approx. distance",
+          "Typical drive",
+          "Worth a stop"
+        ],
+        "rows": [
+          [
+            "Delhi–Jaipur",
+            "280 km",
+            "4 to 5 hours",
+            "Neemrana, Bhangarh detour"
+          ],
+          [
+            "Jaipur–Pushkar/Ajmer",
+            "150 km",
+            "3 hours",
+            "Kishangarh"
+          ],
+          [
+            "Pushkar–Jodhpur",
+            "190 km",
+            "4 hours",
+            "Rural Marwar"
+          ],
+          [
+            "Jodhpur–Jaisalmer",
+            "280 km",
+            "5 hours",
+            "Pokhran, Osian detour"
+          ],
+          [
+            "Jaisalmer–Jodhpur",
+            "280 km",
+            "5 hours",
+            "Return leg"
+          ],
+          [
+            "Jodhpur–Ranakpur–Kumbhalgarh–Udaipur",
+            "About 260 km",
+            "6 hours with stops",
+            "Jain temple, fort walls"
+          ],
+          [
+            "Udaipur–Delhi",
+            "About 660 km",
+            "2 days",
+            "Chittorgarh, Bundi or Ajmer"
+          ]
+        ],
+        "caption": "Distances and times are approximate."
+      }
+    },
+    {
+      "id": "variations",
+      "heading": "Route variations",
+      "items": [
+        {
+          "name": "The northern loop",
+          "body": [
+            "Delhi–Shekhawati (Mandawa)–Bikaner–Jaisalmer, for painted havelis and the Junagarh fort."
+          ],
+          "links": [
+            {
+              "label": "Mandawa guide",
+              "href": "/blog/mandawa-travel-guide"
+            },
+            {
+              "label": "Bikaner guide",
+              "href": "/blog/bikaner-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "The southern forts",
+          "body": [
+            "Udaipur–Chittorgarh–Bundi–Ranthambore–Jaipur, for hill forts, stepwells and tigers."
+          ],
+          "links": [
+            {
+              "label": "Chittorgarh guide",
+              "href": "/blog/chittorgarh-travel-guide"
+            },
+            {
+              "label": "Bundi guide",
+              "href": "/blog/bundi-travel-guide"
+            },
+            {
+              "label": "Ranthambore guide",
+              "href": "/blog/ranthambore-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Mount Abu",
+          "body": [
+            "A hill-station detour from Udaipur, about three to four hours away."
+          ],
+          "links": [
+            {
+              "label": "Mount Abu guide",
+              "href": "/blog/mount-abu-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cities",
+      "heading": "The cities along the route",
+      "items": [
+        {
+          "name": "Jaipur",
+          "body": [
+            "Amber Fort, the City Palace and Hawa Mahal."
+          ],
+          "links": [
+            {
+              "label": "Jaipur guide",
+              "href": "/blog/jaipur-travel-guide"
+            },
+            {
+              "label": "Things to do in Jaipur",
+              "href": "/blog/things-to-do-in-jaipur"
+            }
+          ],
+          "image": {
+            "src": "/images/heritage/amber-fort-jaipur.webp",
+            "alt": "Amber Fort above the road into Jaipur",
+            "caption": "Amber Fort"
+          }
+        },
+        {
+          "name": "Jodhpur",
+          "body": [
+            "Mehrangarh above the blue city."
+          ],
+          "links": [
+            {
+              "label": "Jodhpur guide",
+              "href": "/blog/jodhpur-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/rajasthan/rajasthan/mehrangarh-fort-blue-city-jodhpur.webp",
+            "alt": "Mehrangarh above Jodhpur",
+            "caption": "Jodhpur"
+          }
+        },
+        {
+          "name": "Jaisalmer",
+          "body": [
+            "The living fort and the dunes at Sam and Khuri."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Jaisalmer",
+              "href": "/blog/things-to-do-in-jaisalmer"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/rajasthan/rajasthan/jaisalmer-fort-sunrise-golden-city.webp",
+            "alt": "Jaisalmer fort at sunrise",
+            "caption": "Jaisalmer"
+          }
+        },
+        {
+          "name": "Udaipur",
+          "body": [
+            "Lakes, palaces and the Aravalli hills."
+          ],
+          "links": [
+            {
+              "label": "Udaipur guide",
+              "href": "/blog/udaipur-city-of-lakes-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "heading": "Seven- to twelve-day plans",
+      "table": {
+        "columns": [
+          "Days",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "7",
+            "Delhi–Jaipur (2 nights)–Jodhpur (1)–Jaisalmer (2)–Jodhpur–Udaipur (2), fly or train back"
+          ],
+          [
+            "10",
+            "Add Pushkar, Ranakpur and a night at Kumbhalgarh"
+          ],
+          [
+            "12",
+            "Add Bikaner or Shekhawati in the north, or Chittorgarh and Bundi on the way back"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "driving",
+      "heading": "Driving considerations",
+      "list": [
+        "Highways are mostly good, but expect cattle, tractors and camel carts on smaller roads.",
+        "Avoid driving after dark on rural roads; animals and unlit vehicles are common.",
+        "Carry water and keep the fuel tank above half in the desert west of Jodhpur.",
+        "City centres in Jaipur, Jodhpur and Udaipur have narrow lanes; park at the hotel and use autos.",
+        "Fog can delay early starts near Delhi and Jaipur in December and January."
+      ]
+    },
+    {
+      "id": "self-drive",
+      "heading": "Self-drive or car with a driver",
+      "paras": [
+        "Many visitors to Rajasthan hire a car with a driver for the whole circuit, which removes the stress of city traffic and parking in old towns, and lets you enjoy the long desert legs. Self-drive works well if you are used to Indian highways; rental cars from Delhi or Jaipur can usually cross into neighbouring states, but check the rental terms.",
+        "Either way, keep driving days to a comfortable length. The circuit is at its best when you stop for a stepwell, a village crafts centre or a dhaba lunch rather than racing from one fort city to the next."
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food along the way",
+      "paras": [
+        "Highway dhabas serve dal-baati, kachoris and Rajasthani thalis; Jodhpur is known for mirchi vadas, Jaisalmer for desert cooking, and Pushkar for vegetarian cafés. Our food road trips guide has more ideas."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to March is the best season, with warm days and cool nights; December and January can be cold in the desert. Summer (April to June) is very hot, with temperatures often above 40°C. The monsoon brings some rain to the south and east, and turns the Aravallis around Udaipur green."
+      ],
+      "items": [
+        {
+          "name": "Heritage",
+          "body": [
+            "Deeper reading."
+          ],
+          "links": [
+            {
+              "label": "Rajasthan heritage itinerary",
+              "href": "/blog/rajasthan-heritage-itinerary"
+            },
+            {
+              "label": "Forts of Rajasthan",
+              "href": "/blog/forts-of-rajasthan"
+            },
+            {
+              "label": "Winter road trips",
+              "href": "/blog/winter-road-trips-in-india"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate",
+    "Sun hat, sunscreen and sunglasses",
+    "A warm layer for desert nights in winter",
+    "Water and snacks for long legs"
+  ],
+  "faqs": [
+    {
+      "q": "What is the best route for a Rajasthan road trip?",
+      "a": "Delhi–Jaipur–Pushkar–Jodhpur–Jaisalmer–Jodhpur–Udaipur, via Ranakpur and Kumbhalgarh."
+    },
+    {
+      "q": "How many days do I need for a Rajasthan road trip?",
+      "a": "Seven days for the main cities; ten to twelve for a relaxed circuit with smaller towns."
+    },
+    {
+      "q": "How far is Jaisalmer from Jodhpur by road?",
+      "a": "About 280 km, usually around five hours."
+    },
+    {
+      "q": "Is it safe to drive in Rajasthan?",
+      "a": "Highways are generally good; avoid night driving on rural roads and watch for animals."
+    },
+    {
+      "q": "When is the best time for a Rajasthan road trip?",
+      "a": "October to March."
+    },
+    {
+      "q": "Can I start a Rajasthan road trip from Jaipur?",
+      "a": "Yes. Jaipur has a good airport and many rental options."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Jaipur",
+      "href": "/blog/things-to-do-in-jaipur"
+    },
+    {
+      "label": "Rajasthan heritage itinerary",
+      "href": "/blog/rajasthan-heritage-itinerary"
+    },
+    {
+      "label": "Road trips from Delhi",
+      "href": "/blog/road-trips-from-delhi"
+    },
+    {
+      "label": "Rajasthan tour packages",
+      "href": "/packages/rajasthan"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Heritage tourism in Rajasthan",
+      "href": "/blog/heritage-tourism-in-rajasthan",
+      "note": "forts and palaces"
+    },
+    {
+      "name": "Wildlife tourism in Rajasthan",
+      "href": "/blog/wildlife-tourism-in-rajasthan",
+      "note": "Ranthambore and Sariska"
+    },
+    {
+      "name": "Desert adventures in India",
+      "href": "/blog/desert-adventures-in-india",
+      "note": "dunes and camps"
+    }
+  ],
+  "places": [
+    "Delhi",
+    "Jaipur",
+    "Pushkar",
+    "Ajmer",
+    "Jodhpur",
+    "Osian",
+    "Pokhran",
+    "Jaisalmer",
+    "Sam",
+    "Ranakpur",
+    "Kumbhalgarh",
+    "Udaipur",
+    "Bikaner",
+    "Mandawa",
+    "Chittorgarh",
+    "Bundi"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "heritage-tours"
+  ],
+  "planDestination": "Rajasthan",
+  "updated": "2026-09-26"
+}

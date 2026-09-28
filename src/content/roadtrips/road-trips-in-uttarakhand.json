@@ -1,0 +1,384 @@
+{
+  "slug": "road-trips-in-uttarakhand",
+  "kind": "state",
+  "short": "Road trips in Uttarakhand",
+  "title": "Road Trips in Uttarakhand: Garhwal and Kumaon Drives",
+  "seoTitle": "Road Trips in Uttarakhand: Garhwal and Kumaon Drives | Kudozz Club",
+  "metaDescription": "Road trips in Uttarakhand: Delhi to Rishikesh and Mussoorie, Kumaon's Nainital–Almora–Munsiyari road, the Char Dham valleys and Chopta, with seasons.",
+  "description": "A guide to road trips in Uttarakhand: the new Delhi–Dehradun expressway, Rishikesh and Mussoorie, the Char Dham valleys of Garhwal, the Chopta road, Lansdowne, Kumaon's Nainital, Almora, Kausani and Munsiyari, and the Corbett foothills, with seasons, yatra traffic and monsoon cautions.",
+  "dek": "Uttarakhand's two regions offer very different drives: Garhwal's deep river valleys and Kumaon's gentler ridges.",
+  "primaryKeyword": "Uttarakhand road trip",
+  "secondaryKeywords": [
+    "road trip in Uttarakhand",
+    "Uttarakhand self drive",
+    "Kumaon road trip"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "mountains",
+    "valleys",
+    "rivers",
+    "forest"
+  ],
+  "regions": [
+    "Uttarakhand"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Uttarakhand",
+    "Road trips",
+    "Garhwal",
+    "Kumaon",
+    "Self-drive"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/uttarakhand-road-trip-garhwal-road.webp",
+    "alt": "The Garhwal Himalaya above the road from Rudraprayag to Ukhimath, Uttarakhand"
+  },
+  "parent": {
+    "label": "Mountain Road Trips",
+    "href": "/blog/mountain-road-trips-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Road trips in Uttarakhand",
+    "containedIn": "Uttarakhand"
+  },
+  "intro": [
+    "Uttarakhand is the closest Himalayan state to Delhi, and most of its road trips start there. Garhwal, in the west, is entered through Dehradun, Haridwar and Rishikesh, with roads that follow the Bhagirathi and Alaknanda deep into the mountains. Kumaon, in the east, is reached via Kathgodam and Haldwani, with ridge roads linking Nainital, Almora, Kausani and Munsiyari.",
+    "The Delhi–Dehradun Expressway, fully opened in April 2026, has shortened the first leg into Garhwal considerably."
+  ],
+  "quickAnswer": "The best road trips in Uttarakhand are Delhi to Rishikesh and Mussoorie via the new expressway, the Rishikesh–Rudraprayag–Chopta road, the Char Dham valleys, Lansdowne, and Kumaon's Nainital–Almora–Kausani–Munsiyari route. March to June and late September to November are best; avoid the monsoon and check for yatra traffic in May and June.",
+  "takeaways": [
+    "The Delhi–Dehradun Expressway, inaugurated in April 2026, cuts the drive to Dehradun to a few hours.",
+    "Garhwal roads to the Char Dham are busy with pilgrims from May to June and in autumn.",
+    "Kumaon's ridge roads are gentler and good for a first mountain drive.",
+    "The monsoon brings landslides, especially in Garhwal.",
+    "The Kanwar Yatra in July brings heavy diversions around Haridwar and western Uttar Pradesh."
+  ],
+  "sections": [
+    {
+      "id": "routes",
+      "heading": "Uttarakhand's main road trips at a glance",
+      "table": {
+        "columns": [
+          "Route",
+          "Approx. distance from Delhi",
+          "Typical days",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Delhi–Rishikesh",
+            "240 km",
+            "1",
+            "River town, first stop into Garhwal"
+          ],
+          [
+            "Delhi–Mussoorie",
+            "290 km",
+            "1",
+            "A classic hill town"
+          ],
+          [
+            "Delhi–Lansdowne",
+            "250 km",
+            "1",
+            "Quiet cantonment and forests"
+          ],
+          [
+            "Delhi–Nainital",
+            "300 km",
+            "1",
+            "Kumaon lakes"
+          ],
+          [
+            "Nainital–Almora–Kausani–Munsiyari",
+            "About 280 km",
+            "4 to 6",
+            "Himalayan views"
+          ],
+          [
+            "Rishikesh–Rudraprayag–Chopta",
+            "About 200 km",
+            "2 to 3",
+            "Meadows and Tungnath"
+          ]
+        ],
+        "caption": "Distances are approximate."
+      }
+    },
+    {
+      "id": "garhwal",
+      "heading": "Garhwal: the river valleys",
+      "paras": [
+        "From Rishikesh, NH7 follows the Ganga to Devprayag, where the Bhagirathi and Alaknanda meet, then the Alaknanda to Srinagar, Rudraprayag and Joshimath. At Rudraprayag a branch leads up the Mandakini towards Kedarnath and to Ukhimath and Chopta. Another road climbs the Bhagirathi to Uttarkashi and Gangotri. These are the Char Dham roads, widened in recent years but still prone to slides."
+      ],
+      "items": [
+        {
+          "name": "Garhwal",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Delhi to Rishikesh road trip",
+              "href": "/blog/delhi-to-rishikesh-road-trip"
+            },
+            {
+              "label": "Chopta guide",
+              "href": "/blog/chopta-travel-guide"
+            },
+            {
+              "label": "Kedarnath and Badrinath yatra",
+              "href": "/blog/kedarnath-badrinath-yatra"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/chopta/chopta-meadow-camping-himalayan-view.webp",
+            "alt": "Meadows at Chopta with Himalayan peaks",
+            "caption": "Chopta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mussoorie-lansdowne",
+      "heading": "Mussoorie and Lansdowne",
+      "items": [
+        {
+          "name": "Mussoorie",
+          "body": [
+            "A steep climb from Dehradun to the ridge town and Landour."
+          ],
+          "links": [
+            {
+              "label": "Mussoorie guide",
+              "href": "/blog/mussoorie-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Lansdowne",
+          "body": [
+            "A quiet cantonment town reached via Kotdwar, with oak and pine forest."
+          ],
+          "links": [
+            {
+              "label": "Lansdowne guide",
+              "href": "/blog/lansdowne-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/lansdowne/bhulla-tal-lake-bridge-lansdowne.webp",
+            "alt": "Bhulla Tal at Lansdowne",
+            "caption": "Lansdowne"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kumaon",
+      "heading": "Kumaon: the ridge roads",
+      "paras": [
+        "From Kathgodam the road climbs to Nainital and Bhimtal. Beyond, a ridge route links Almora, Kausani and Bageshwar, and continues through Thal and Birthi to Munsiyari, facing the Panchachuli peaks. Distances are modest, but roads are narrow and winding, so allow a full day for 120 to 150 km."
+      ],
+      "items": [
+        {
+          "name": "Kumaon",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Nainital guide",
+              "href": "/blog/nainital-travel-guide"
+            },
+            {
+              "label": "Kausani guide",
+              "href": "/blog/kausani-travel-guide"
+            },
+            {
+              "label": "Munsiyari guide",
+              "href": "/blog/munsiyari-travel-guide"
+            },
+            {
+              "label": "Uttarakhand hill stations itinerary",
+              "href": "/blog/uttarakhand-hill-stations-itinerary"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/uttarakhand/kausani/nanda-devi-trisul-himalayan-range-kausani.webp",
+            "alt": "Nanda Devi and Trishul seen from Kausani",
+            "caption": "Kausani's view"
+          }
+        }
+      ]
+    },
+    {
+      "id": "corbett",
+      "heading": "The Corbett foothills",
+      "paras": [
+        "Ramnagar, the gateway to Corbett, is about five to six hours from Delhi and combines well with Nainital. Safaris are booked separately through the official portal."
+      ],
+      "items": [
+        {
+          "name": "Corbett",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Jim Corbett guide",
+              "href": "/blog/jim-corbett-travel-guide"
+            },
+            {
+              "label": "Wildlife road trips",
+              "href": "/blog/wildlife-road-trips-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "traffic",
+      "heading": "Yatra and festival traffic",
+      "list": [
+        "Char Dham season (roughly May to June and September to October) brings heavy traffic and registration checks on Garhwal roads.",
+        "The Kanwar Yatra in the month of Sawan (usually July) diverts traffic around Haridwar and on highways from Delhi.",
+        "Weekends and holidays bring long queues into Mussoorie and Nainital; some towns restrict vehicles in peak periods."
+      ]
+    },
+    {
+      "id": "overnight",
+      "heading": "Good overnight stops",
+      "list": [
+        "Rishikesh or Dehradun on the first night from Delhi, before the long valley roads.",
+        "Rudraprayag or Ukhimath before Chopta and Tungnath.",
+        "Bhimtal or Nainital on the way into Kumaon.",
+        "Almora or Kausani to break the long drive to Munsiyari.",
+        "Ramnagar for Corbett, which also works as a stop on the way to Nainital."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "March to June is pleasant but busy. Late September to November gives the clearest mountain views and emptier roads. The monsoon (July to mid-September) is the riskiest time for landslides. Winter brings snow to Auli, Chopta and Munsiyari; some roads close and ice is common in shaded bends."
+      ]
+    }
+  ],
+  "safety": [
+    "Above about 3,000 m, ascend gradually, rest on arrival and see a doctor before travel if you have heart, lung or blood-pressure conditions.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "What is the best road trip in Uttarakhand?",
+      "a": "Kumaon's Nainital–Almora–Kausani–Munsiyari route for views, and Rishikesh to Chopta for Garhwal's valleys."
+    },
+    {
+      "q": "How long does it take to drive from Delhi to Dehradun?",
+      "a": "With the Delhi–Dehradun Expressway, a few hours, traffic permitting."
+    },
+    {
+      "q": "Is it safe to drive in Uttarakhand in the monsoon?",
+      "a": "Landslides are frequent, especially in Garhwal. Avoid if you can, or keep plans flexible."
+    },
+    {
+      "q": "When is Char Dham traffic heaviest?",
+      "a": "May and June, and again in September and October."
+    },
+    {
+      "q": "How many days do I need for a Kumaon road trip?",
+      "a": "Five to six days from Delhi covers Nainital, Almora, Kausani and Munsiyari."
+    },
+    {
+      "q": "Do I need a four-wheel drive?",
+      "a": "Not for the main routes in the dry season; higher and snowbound roads may need one."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Delhi to Rishikesh road trip",
+      "href": "/blog/delhi-to-rishikesh-road-trip"
+    },
+    {
+      "label": "Road trips from Delhi",
+      "href": "/blog/road-trips-from-delhi"
+    },
+    {
+      "label": "Hill stations in Uttarakhand",
+      "href": "/blog/hill-stations-in-uttarakhand"
+    },
+    {
+      "label": "Uttarakhand tour packages",
+      "href": "/packages/uttarakhand"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Nature travel in Uttarakhand",
+      "href": "/blog/nature-travel-in-uttarakhand",
+      "note": "meadows and forests"
+    },
+    {
+      "name": "Spiritual tourism in Uttarakhand",
+      "href": "/blog/spiritual-tourism-in-uttarakhand",
+      "note": "the Char Dham"
+    },
+    {
+      "name": "Mountain road trips",
+      "href": "/blog/mountain-road-trips-in-india",
+      "note": "Himalayan drives"
+    }
+  ],
+  "places": [
+    "Rishikesh",
+    "Dehradun",
+    "Mussoorie",
+    "Devprayag",
+    "Rudraprayag",
+    "Chopta",
+    "Joshimath",
+    "Lansdowne",
+    "Nainital",
+    "Almora",
+    "Kausani",
+    "Munsiyari",
+    "Ramnagar"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "hill-station-holidays"
+  ],
+  "planDestination": "Uttarakhand",
+  "updated": "2026-09-26"
+}

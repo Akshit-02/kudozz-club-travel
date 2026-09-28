@@ -1,0 +1,345 @@
+{
+  "slug": "manali-to-leh-road-trip",
+  "kind": "destination",
+  "short": "Manali to Leh road trip",
+  "title": "Manali to Leh Road Trip: Passes, Stops and Acclimatisation",
+  "seoTitle": "Manali to Leh Road Trip: Passes, Stops, Altitude | Kudozz Club",
+  "metaDescription": "Manali to Leh by road: the route via the Atal Tunnel, Jispa, Baralacha La, Sarchu and Tanglang La, overnight stops, fuel, altitude, permits and the season.",
+  "description": "A route guide to the Manali to Leh road trip: the route through the Atal Tunnel, Keylong and Jispa, over Baralacha La, Nakee La, Lachulung La and Tanglang La via Sarchu, Pang and the More Plains, approximate distance and driving time, where to stop overnight, fuel planning, altitude and acclimatisation, the opening season, the Delhi approach and how the route fits into a Ladakh trip.",
+  "dek": "The Manali–Leh highway crosses some of the highest motorable passes in the Himalaya over two long days of empty, spectacular country.",
+  "primaryKeyword": "Manali to Leh road trip",
+  "secondaryKeywords": [
+    "Manali Leh highway",
+    "Delhi to Leh road trip",
+    "Manali to Leh distance"
+  ],
+  "searchIntent": "Route planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "high mountains",
+    "high-altitude plateau",
+    "passes"
+  ],
+  "regions": [
+    "Himachal Pradesh",
+    "Ladakh"
+  ],
+  "seasons": [
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Manali to Leh",
+    "Road trip",
+    "Ladakh",
+    "High passes",
+    "Self-drive"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/manali-leh-road-trip-more-plains.webp",
+    "alt": "The Gata Loops and the Tsarap valley on the Manali–Leh highway"
+  },
+  "parent": {
+    "label": "Leh Ladakh Road Trip",
+    "href": "/blog/leh-ladakh-road-trip-travel-guide"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Manali to Leh road trip",
+    "containedIn": "Ladakh"
+  },
+  "intro": [
+    "The Manali–Leh highway runs for about 425 km from the Kullu valley to the Indus at Leh. It passes through the Atal Tunnel into Lahaul, follows the Bhaga river past Keylong and Jispa, then climbs over Baralacha La into the high, barren country of Sarchu, the Gata Loops, Nakee La and Lachulung La, the canyon at Pang and the wide More Plains, before the final climb over Tanglang La and the descent to Upshi and Leh.",
+    "The road is open only in summer, typically from around late May or June until October or November, after the Border Roads Organisation clears the snow. In 2026 the road was reported cleared in mid-May. Our Leh Ladakh road trip guide covers the whole region; this page focuses on this one route."
+  ],
+  "quickAnswer": "Manali to Leh is about 425 km via the Atal Tunnel, Keylong, Jispa, Baralacha La, Sarchu, Pang and Tanglang La, and is usually driven over two days with a night at Jispa or Sarchu. The road is open roughly from late May or June to October, depending on snow. Many travellers enter Ladakh via Srinagar and leave via Manali for better acclimatisation. From Delhi, add a day or two to reach Manali.",
+  "takeaways": [
+    "Plan two driving days with a night at Jispa or Keylong (lower, better for sleep) or Sarchu (higher).",
+    "The road opens only in summer; check BRO and district updates for the current status.",
+    "Fuel up fully near Keylong; pumps are very scarce until you reach the Leh side.",
+    "Sleeping low before the high passes helps acclimatisation; Srinagar–Leh is the gentler way in.",
+    "Indian visitors to Ladakh's protected areas pay an environment fee online; check the current rules."
+  ],
+  "sections": [
+    {
+      "id": "route",
+      "heading": "The route at a glance",
+      "table": {
+        "columns": [
+          "Leg",
+          "Approx. distance",
+          "Highest point",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Manali–Atal Tunnel–Sissu–Keylong–Jispa",
+            "About 100 km",
+            "Tunnel at around 3,000 m",
+            "Green Lahaul valley"
+          ],
+          [
+            "Jispa–Darcha–Zingzingbar–Baralacha La",
+            "About 50 km",
+            "Baralacha La, about 4,900 m",
+            "Snow walls early in the season"
+          ],
+          [
+            "Baralacha La–Sarchu–Gata Loops",
+            "About 45 km",
+            "Sarchu about 4,300 m",
+            "Tent camps; Himachal–Ladakh boundary"
+          ],
+          [
+            "Nakee La–Lachulung La–Pang",
+            "About 80 km",
+            "Lachulung La, about 5,000 m",
+            "Pang's canyon and army camp"
+          ],
+          [
+            "More Plains–Tanglang La–Upshi–Leh",
+            "About 150 km",
+            "Tanglang La, about 5,300 m",
+            "Longest high stretch; descent to the Indus"
+          ]
+        ],
+        "caption": "Altitudes are rounded; distances are approximate."
+      }
+    },
+    {
+      "id": "overnight",
+      "heading": "Where to stop overnight",
+      "items": [
+        {
+          "name": "Jispa or Keylong",
+          "body": [
+            "At about 3,100 to 3,300 m, these are the best places to sleep for acclimatisation, with guesthouses and hotels."
+          ]
+        },
+        {
+          "name": "Sarchu",
+          "body": [
+            "Seasonal tent camps at about 4,300 m. Convenient for splitting the drive evenly, but many people sleep badly at this height."
+          ]
+        },
+        {
+          "name": "Pang",
+          "body": [
+            "Very basic camps at a high altitude; best used only for a meal stop."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuel",
+      "heading": "Fuel, food and network",
+      "list": [
+        "Fill up fully around Keylong or Tandi before the passes; there is a very long gap before the next reliable pump near Leh.",
+        "Carry extra fuel only in approved containers and as your rental company allows.",
+        "Seasonal dhabas at Darcha, Zingzingbar, Sarchu, Pang and Debring serve simple food.",
+        "Mobile signal is patchy or absent between Jispa and Upshi; postpaid connections work best in Ladakh."
+      ]
+    },
+    {
+      "id": "altitude",
+      "heading": "Altitude and acclimatisation",
+      "paras": [
+        "Most of this route lies above 4,000 m, and several passes are above 5,000 m. Driving from Manali to Leh gains height quickly, which is why many travellers fly or drive into Leh via Srinagar and use Manali as the exit. If you do drive this way, sleep low at Jispa, drink plenty of water, avoid alcohol, and rest for at least a day in Leh before going higher to Khardung La, Pangong or Tso Moriri."
+      ],
+      "items": [
+        {
+          "name": "Ladakh",
+          "body": [
+            "Our main guide."
+          ],
+          "links": [
+            {
+              "label": "Leh Ladakh road trip guide",
+              "href": "/blog/leh-ladakh-road-trip-travel-guide"
+            },
+            {
+              "label": "Srinagar to Leh road trip",
+              "href": "/blog/srinagar-to-leh-road-trip"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/ladakh/leh-ladakh-road-trip/manali-leh-highway-leh-ladakh.webp",
+            "alt": "The Manali–Leh highway in Ladakh",
+            "caption": "On the Manali–Leh highway"
+          }
+        }
+      ]
+    },
+    {
+      "id": "delhi",
+      "heading": "Starting from Delhi",
+      "paras": [
+        "Delhi to Leh via Manali is about 950 km. Allow at least four days: one or two to Manali, one to Jispa and one to Leh. A common loop drives in via Jammu, Srinagar and Kargil and out via Manali, which spreads the altitude gain more gently."
+      ],
+      "items": [
+        {
+          "name": "First leg",
+          "body": [
+            "Delhi to Manali."
+          ],
+          "links": [
+            {
+              "label": "Delhi to Manali road trip",
+              "href": "/blog/delhi-to-manali-road-trip"
+            },
+            {
+              "label": "Road trips from Delhi",
+              "href": "/blog/road-trips-from-delhi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vehicle",
+      "heading": "Car or bike",
+      "paras": [
+        "A car with good ground clearance is recommended; a four-wheel drive helps early and late in the season, when snow melt floods stretches below Baralacha La and near Pang. Riding is hugely popular; our Adventure guides cover motorcycle planning."
+      ],
+      "items": [
+        {
+          "name": "Riding",
+          "body": [
+            "For bikers."
+          ],
+          "links": [
+            {
+              "label": "Best motorcycle trips in India",
+              "href": "/blog/best-motorcycle-trips-in-india"
+            },
+            {
+              "label": "Self-drive trips in India",
+              "href": "/blog/self-drive-trips-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "The road usually opens around late May or June and closes with heavy snow in October or November. June and September are good compromises between open passes and fewer crowds. In July and August, monsoon rain on the Himachal side can cause slides around Manali and Lahaul, while Ladakh itself stays mostly dry. Early and late in the season, expect snow on the passes and cold nights."
+      ]
+    }
+  ],
+  "safety": [
+    "Above about 3,000 m, ascend gradually, rest on arrival and see a doctor before travel if you have heart, lung or blood-pressure conditions.",
+    "Symptoms of altitude sickness include headache, nausea, breathlessness at rest and confusion; descend and seek medical help if they worsen.",
+    "Cross the water crossings early in the day, when snow-melt streams are lower.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Warm layers, gloves and a windproof jacket even in August",
+    "Sunscreen and good sunglasses",
+    "Basic medicines, and a doctor's advice on altitude medication",
+    "Spare tyre, tow rope and puncture kit",
+    "Snacks and water for long gaps between stops"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Leh from Manali by road?",
+      "a": "About 425 km via the Atal Tunnel, Baralacha La and Tanglang La."
+    },
+    {
+      "q": "How many days does the Manali to Leh drive take?",
+      "a": "Usually two, with a night at Jispa, Keylong or Sarchu."
+    },
+    {
+      "q": "When is the Manali–Leh highway open?",
+      "a": "Roughly from late May or June to October or November, depending on snow. Check current BRO and district updates."
+    },
+    {
+      "q": "Do I need a permit for the Manali to Leh route?",
+      "a": "Indian visitors do not need an Inner Line Permit for the highway; an environment fee applies for Ladakh's protected areas. Rohtang Pass permits are not needed via the Atal Tunnel."
+    },
+    {
+      "q": "Is it better to go to Leh via Manali or Srinagar?",
+      "a": "Srinagar is gentler for acclimatisation; many travellers go in via Srinagar and out via Manali."
+    },
+    {
+      "q": "Where is the last petrol pump before Leh?",
+      "a": "Fill up fully around Keylong or Tandi; fuel is very scarce until near Leh."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Leh Ladakh road trip guide",
+      "href": "/blog/leh-ladakh-road-trip-travel-guide"
+    },
+    {
+      "label": "Srinagar to Leh road trip",
+      "href": "/blog/srinagar-to-leh-road-trip"
+    },
+    {
+      "label": "Things to do in Leh",
+      "href": "/blog/things-to-do-in-leh"
+    },
+    {
+      "label": "Leh Ladakh tour packages",
+      "href": "/packages/leh-ladakh"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Mountain road trips",
+      "href": "/blog/mountain-road-trips-in-india",
+      "note": "other Himalayan drives"
+    },
+    {
+      "name": "Adventure activities in Ladakh",
+      "href": "/blog/adventure-activities-in-ladakh",
+      "note": "once you are there"
+    },
+    {
+      "name": "Road trip safety",
+      "href": "/blog/road-trip-safety-in-india",
+      "note": "mountain driving"
+    }
+  ],
+  "places": [
+    "Manali",
+    "Atal Tunnel",
+    "Sissu",
+    "Keylong",
+    "Jispa",
+    "Darcha",
+    "Baralacha La",
+    "Sarchu",
+    "Gata Loops",
+    "Nakee La",
+    "Lachulung La",
+    "Pang",
+    "More Plains",
+    "Tanglang La",
+    "Upshi",
+    "Leh"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "adventure-tours"
+  ],
+  "planDestination": "Ladakh",
+  "updated": "2026-09-26"
+}

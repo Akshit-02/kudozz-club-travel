@@ -1,0 +1,441 @@
+{
+  "slug": "south-india-road-trips",
+  "kind": "pillar",
+  "short": "South India road trips",
+  "title": "South India Road Trips: Ghats, Coasts and Temple Towns",
+  "seoTitle": "South India Road Trips: Ghats, Coasts and Temple Towns | Kudozz Club",
+  "metaDescription": "South India road trips: Bengaluru to Coorg and Ooty, the Nilgiris, Kerala's hills and backwaters, the East Coast Road, Hampi and Goa, with seasons and tips.",
+  "description": "A guide to road trips in South India: the Bengaluru–Mysuru expressway and the coffee hills of Coorg and Chikmagalur, the Nilgiris via Bandipur and Mudumalai, Kerala's hill and backwater roads, the Tamil Nadu coast along the East Coast Road, the Chettinad and temple towns, the Deccan to Hampi and Badami, and the drive to Goa, with seasons, forest night bans and ghat-road tips.",
+  "dek": "South India's roads link coffee hills, tea country, temple towns and two coasts, often within a day's drive of each other.",
+  "primaryKeyword": "South India road trips",
+  "secondaryKeywords": [
+    "road trips in South India",
+    "South India road trip itinerary",
+    "South India self drive"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "hills",
+    "coast",
+    "plains",
+    "forest"
+  ],
+  "regions": [
+    "Karnataka",
+    "Kerala",
+    "Tamil Nadu",
+    "Andhra Pradesh",
+    "Telangana",
+    "Goa"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "monsoon"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "South India",
+    "Road trips",
+    "Western Ghats",
+    "Nilgiris",
+    "Self-drive"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/south-india-road-trips-nilgiris-road.webp",
+    "alt": "A bus on a forested ghat road in the Nilgiris"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "South India road trips",
+    "containedIn": "South India"
+  },
+  "intro": [
+    "South India is ideal road-trip country. Good highways link the big cities of Bengaluru, Chennai, Hyderabad and Kochi, and short drives lead into the Western Ghats, where ghat roads climb in hairpin bends to coffee and tea country. On the coasts, the East Coast Road in Tamil Nadu and NH66 along the west coast connect beaches, fishing towns and heritage sites.",
+    "The main planning points are the forest night bans on roads through tiger reserves, ghat-road landslides in the monsoon, and e-pass rules for vehicles entering the Nilgiris and Kodaikanal."
+  ],
+  "quickAnswer": "The best road trips in South India are Bengaluru to Coorg and Chikmagalur, Bengaluru or Mysuru to Ooty via Bandipur and Mudumalai, Kochi to Munnar and Thekkady, Chennai to Pondicherry on the East Coast Road, Bengaluru to Hampi, and Bengaluru to Goa. October to March suits most routes; the monsoon makes the ghats lush but slippery. Plan around forest night bans and hill e-passes.",
+  "takeaways": [
+    "The Bengaluru–Mysuru expressway speeds up trips to Coorg, Ooty and Wayanad.",
+    "Roads through Bandipur and Mudumalai close to most traffic at night.",
+    "Ooty and Kodaikanal require e-passes for vehicles from outside the districts; check current rules.",
+    "Ghat roads have many hairpins; use low gears and avoid overtaking on bends.",
+    "The monsoon (June to September) brings landslide risks on ghat roads."
+  ],
+  "sections": [
+    {
+      "id": "routes",
+      "heading": "South India's road trips at a glance",
+      "table": {
+        "columns": [
+          "Route",
+          "Approx. distance",
+          "Typical time",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Bengaluru–Coorg",
+            "250 to 270 km",
+            "5 to 6 hours",
+            "Coffee estates"
+          ],
+          [
+            "Bengaluru–Ooty",
+            "About 270 km",
+            "7 to 8 hours",
+            "Forests and the Nilgiris"
+          ],
+          [
+            "Bengaluru–Chikmagalur",
+            "About 245 km",
+            "5 hours",
+            "Peaks and grasslands"
+          ],
+          [
+            "Bengaluru–Hampi",
+            "About 340 km",
+            "6 hours",
+            "Boulders and ruins"
+          ],
+          [
+            "Chennai–Pondicherry (ECR)",
+            "About 150 km",
+            "3 to 4 hours",
+            "Coast and French quarter"
+          ],
+          [
+            "Kochi–Munnar",
+            "About 130 km",
+            "4 to 5 hours",
+            "Tea hills and waterfalls"
+          ],
+          [
+            "Bengaluru–Goa",
+            "About 560 to 600 km",
+            "10 to 11 hours",
+            "Beaches via the ghats"
+          ]
+        ],
+        "caption": "Distances and times are approximate."
+      }
+    },
+    {
+      "id": "karnataka",
+      "heading": "Karnataka's coffee hills",
+      "items": [
+        {
+          "name": "Coorg",
+          "body": [
+            "Via the Mysuru expressway and Kushalnagar."
+          ],
+          "links": [
+            {
+              "label": "Bengaluru to Coorg road trip",
+              "href": "/blog/bengaluru-to-coorg-road-trip"
+            },
+            {
+              "label": "Coorg guide",
+              "href": "/blog/coorg-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Chikmagalur and Sakleshpur",
+          "body": [
+            "Via Hassan; Mullayanagiri and Kemmangundi above the town."
+          ],
+          "links": [
+            {
+              "label": "Chikmagalur guide",
+              "href": "/blog/chikmagalur-travel-guide"
+            },
+            {
+              "label": "Sakleshpur guide",
+              "href": "/blog/sakleshpur-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/chikmagalur/mullayanagiri-chikmagalur.webp",
+            "alt": "Grassland slopes near Mullayanagiri",
+            "caption": "Chikmagalur"
+          }
+        },
+        {
+          "name": "Hampi",
+          "body": [
+            "A long, flat drive north to the Deccan's boulder country."
+          ],
+          "links": [
+            {
+              "label": "Hampi guide",
+              "href": "/blog/hampi-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nilgiris",
+      "heading": "The Nilgiris",
+      "paras": [
+        "Ooty is reached from Mysuru via Bandipur, Mudumalai and Gudalur, or from Coimbatore via Mettupalayam and Coonoor. The forest stretch is closed to most traffic at night, and outside vehicles need an e-pass to enter the Nilgiris district. Kodaikanal, in the Palani hills, has similar e-pass rules."
+      ],
+      "items": [
+        {
+          "name": "Nilgiris",
+          "body": [
+            "Route details."
+          ],
+          "links": [
+            {
+              "label": "Bengaluru to Ooty road trip",
+              "href": "/blog/bengaluru-to-ooty-road-trip"
+            },
+            {
+              "label": "Ooty guide",
+              "href": "/blog/ooty-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/ooty/tea-plantation-nilgiri-hills-ooty.webp",
+            "alt": "Tea gardens in the Nilgiris",
+            "caption": "The Nilgiris"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kerala",
+      "heading": "Kerala",
+      "items": [
+        {
+          "name": "Hills and backwaters",
+          "body": [
+            "Kochi–Munnar–Thekkady–Alappuzha is Kerala's classic loop; Wayanad is reached via the Thamarassery ghat."
+          ],
+          "links": [
+            {
+              "label": "Kerala road trip",
+              "href": "/blog/kerala-road-trip"
+            },
+            {
+              "label": "Kochi to Munnar road trip",
+              "href": "/blog/kochi-to-munnar-road-trip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tamil-nadu",
+      "heading": "Tamil Nadu's coast and temple towns",
+      "paras": [
+        "The East Coast Road runs south from Chennai past Mahabalipuram to Pondicherry, and can be extended to Chidambaram, Tranquebar and the Chola temples around Thanjavur and Kumbakonam. Further south, Chettinad's mansions and Madurai make a good winter loop."
+      ],
+      "items": [
+        {
+          "name": "Coast",
+          "body": [
+            "Route details."
+          ],
+          "links": [
+            {
+              "label": "Chennai to Pondicherry road trip",
+              "href": "/blog/chennai-to-pondicherry-road-trip"
+            },
+            {
+              "label": "Coastal road trips",
+              "href": "/blog/coastal-road-trips-in-india"
+            },
+            {
+              "label": "Chettinad guide",
+              "href": "/blog/chettinad-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goa",
+      "heading": "To Goa",
+      "items": [
+        {
+          "name": "Goa by road",
+          "body": [
+            "From Bengaluru via Hubballi and the ghats, or from Mumbai down the Konkan."
+          ],
+          "links": [
+            {
+              "label": "Bengaluru to Goa road trip",
+              "href": "/blog/bengaluru-to-goa-road-trip"
+            },
+            {
+              "label": "Mumbai to Goa road trip",
+              "href": "/blog/mumbai-to-goa-road-trip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "circuits",
+      "heading": "Circuits that work",
+      "table": {
+        "columns": [
+          "Days",
+          "Circuit"
+        ],
+        "rows": [
+          [
+            "5",
+            "Bengaluru–Mysuru–Coorg–Chikmagalur–Bengaluru"
+          ],
+          [
+            "7",
+            "Bengaluru–Mysuru–Ooty–Coonoor–Coimbatore–Munnar–Kochi"
+          ],
+          [
+            "7",
+            "Kochi–Munnar–Thekkady–Alappuzha–Varkala"
+          ],
+          [
+            "8",
+            "Chennai–Mahabalipuram–Pondicherry–Tranquebar–Thanjavur–Chettinad–Madurai"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "rentals",
+      "heading": "Cars, drivers and interstate travel",
+      "paras": [
+        "Self-drive rentals are widely available in Bengaluru, Chennai, Hyderabad and Kochi, and most operators allow travel into neighbouring states; check whether you need to inform them in advance. Many travellers prefer a car with a driver for hill roads and busy town centres. Out-of-state tourist vehicles may be charged entry tax at some state borders."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to March is best across the south, with pleasant hill weather and dry coasts. April and May are hot on the plains and busy in the hill stations. The south-west monsoon (June to September) makes the ghats and Kerala lush but brings landslides and slippery hairpins; Tamil Nadu's coast gets most of its rain from October to December."
+      ]
+    }
+  ],
+  "safety": [
+    "On forest roads through tiger reserves, keep to the speed limit, do not stop or get out of the car, and never feed animals.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "What is the best road trip in South India?",
+      "a": "Bengaluru to Coorg, Bengaluru to Ooty via Bandipur, Kochi to Munnar, and Chennai to Pondicherry on the East Coast Road."
+    },
+    {
+      "q": "Can I drive through Bandipur at night?",
+      "a": "No. The forest stretch is closed to most traffic at night; check current timings."
+    },
+    {
+      "q": "Do I need an e-pass for Ooty?",
+      "a": "Vehicles from outside the Nilgiris district need an e-pass; check the current rules."
+    },
+    {
+      "q": "When is the best time for a South India road trip?",
+      "a": "October to March."
+    },
+    {
+      "q": "How many days do I need?",
+      "a": "Five to seven days for one region; two weeks to combine Karnataka, the Nilgiris and Kerala."
+    },
+    {
+      "q": "Are ghat roads difficult?",
+      "a": "They are winding but well used; drive slowly, use low gears and avoid night driving."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Road trips from Bengaluru",
+      "href": "/blog/road-trips-from-bengaluru"
+    },
+    {
+      "label": "Kerala road trip",
+      "href": "/blog/kerala-road-trip"
+    },
+    {
+      "label": "Hill stations in South India",
+      "href": "/blog/hill-stations-in-south-india"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "South India heritage itinerary",
+      "href": "/blog/south-india-heritage-itinerary",
+      "note": "temples and towns"
+    },
+    {
+      "name": "Western Ghats road trips",
+      "href": "/blog/western-ghats-road-trips",
+      "note": "ghat roads"
+    },
+    {
+      "name": "South India hill stations itinerary",
+      "href": "/blog/south-india-hill-stations-itinerary",
+      "note": "Ooty to Munnar"
+    }
+  ],
+  "places": [
+    "Bengaluru",
+    "Mysuru",
+    "Coorg",
+    "Chikmagalur",
+    "Hampi",
+    "Ooty",
+    "Coonoor",
+    "Kodaikanal",
+    "Kochi",
+    "Munnar",
+    "Thekkady",
+    "Alappuzha",
+    "Chennai",
+    "Mahabalipuram",
+    "Pondicherry",
+    "Thanjavur",
+    "Madurai",
+    "Goa"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "hill-station-holidays"
+  ],
+  "planDestination": "South India",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,376 @@
+{
+  "slug": "bengaluru-to-goa-road-trip",
+  "kind": "destination",
+  "short": "Bengaluru to Goa road trip",
+  "title": "Bengaluru to Goa Road Trip: Routes via Hubballi and the Ghats",
+  "seoTitle": "Bengaluru to Goa Road Trip: Via Hubballi and the Ghats | Kudozz Club",
+  "metaDescription": "Bengaluru to Goa by road: NH48 via Chitradurga and Hubballi, then Belagavi and Chorla ghat or the Anmod route, with detours to Hampi, Dandeli and Gokarna.",
+  "description": "A route guide to the Bengaluru to Goa road trip: NH48 via Tumakuru, Chitradurga, Davanagere and Hubballi–Dharwad, then into Goa via Belagavi and the Chorla ghat or via Ramnagar and the Anmod ghat, or down to the coast at Karwar, with approximate distance and time, detours to Hampi, Dandeli, Jog Falls and Gokarna, and seasons.",
+  "dek": "Bengaluru to Goa is a long but easy highway drive across the Deccan, finishing with a descent through the Western Ghats.",
+  "primaryKeyword": "Bangalore to Goa road trip",
+  "secondaryKeywords": [
+    "Bangalore to Goa by road",
+    "Bangalore to Goa distance",
+    "Bengaluru Goa route"
+  ],
+  "searchIntent": "Route planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "plateau",
+    "Western Ghats",
+    "coast"
+  ],
+  "regions": [
+    "Karnataka",
+    "Goa"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "monsoon"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Bengaluru to Goa",
+    "Road trip",
+    "Karnataka",
+    "Goa",
+    "Western Ghats"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/bengaluru-goa-road-trip-anmod-ghat.webp",
+    "alt": "The road through Chorla Ghat on the Karnataka–Goa border"
+  },
+  "parent": {
+    "label": "South India Road Trips",
+    "href": "/blog/south-india-road-trips"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Bengaluru to Goa road trip",
+    "containedIn": "Goa"
+  },
+  "intro": [
+    "Most drivers go from Bengaluru to Goa on NH48, the Mumbai highway, through Tumakuru, Chitradurga, Davanagere and Hubballi–Dharwad. From there, the choice is how to cross the Western Ghats: via Belagavi and the Chorla ghat into north Goa, via Ramnagar and the Anmod ghat towards Ponda and south Goa, or west to Karwar and along the coast. The Deccan stretch is fast and flat; the ghats are slower and forested.",
+    "With detours to Hampi, Dandeli or Gokarna, the drive becomes a satisfying three- to five-day trip."
+  ],
+  "quickAnswer": "Bengaluru to Goa is about 560 to 600 km and usually takes 10 to 11 hours via NH48 to Hubballi–Dharwad, then through the Western Ghats via Belagavi and Chorla, or via the Anmod ghat. Good detours include Chitradurga fort, Hampi, Dandeli and Gokarna via the coast. October to March is best; the ghat sections can be slow in the monsoon, and the Anmod route has seen repair closures.",
+  "takeaways": [
+    "NH48 to Hubballi is a fast four- and six-lane highway.",
+    "Choose your ghat: Chorla via Belagavi, Anmod via Ramnagar, or the coast via Karwar.",
+    "Check the status of the Anmod ghat, which has had repair closures.",
+    "Hampi, Dandeli and Gokarna turn the drive into a multi-day trip.",
+    "Fuel and food are easy on NH48; ghat sections have fewer services."
+  ],
+  "sections": [
+    {
+      "id": "route",
+      "heading": "The route at a glance",
+      "table": {
+        "columns": [
+          "Leg",
+          "Approx. distance",
+          "What to expect"
+        ],
+        "rows": [
+          [
+            "Bengaluru–Tumakuru–Chitradurga",
+            "About 200 km",
+            "Fast highway; Chitradurga's stone fort"
+          ],
+          [
+            "Chitradurga–Davanagere–Hubballi",
+            "About 210 km",
+            "Deccan plateau, open farmland"
+          ],
+          [
+            "Hubballi–Dharwad–Belagavi–Chorla–Goa",
+            "About 170 km",
+            "Forest ghat into north Goa"
+          ],
+          [
+            "Alternative: Dharwad–Ramnagar–Anmod–Goa",
+            "About 150 km",
+            "Towards Ponda and south Goa"
+          ],
+          [
+            "Alternative: Hubballi–Yellapur–Karwar–Goa",
+            "About 220 km",
+            "Ghats to the coast, then north into Goa"
+          ]
+        ],
+        "caption": "Distances are approximate."
+      }
+    },
+    {
+      "id": "detours",
+      "heading": "Detours worth making",
+      "items": [
+        {
+          "name": "Chitradurga",
+          "body": [
+            "A huge stone fort of the Nayakas spread over granite hills just off NH48, worth an hour or two."
+          ]
+        },
+        {
+          "name": "Hampi",
+          "body": [
+            "Around 180 km north-east of Chitradurga; worth a night or two."
+          ],
+          "links": [
+            {
+              "label": "Hampi guide",
+              "href": "/blog/hampi-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/hampi/matanga-hill-sunrise-panorama-hampi.webp",
+            "alt": "Sunrise over Hampi from Matanga hill",
+            "caption": "Hampi"
+          }
+        },
+        {
+          "name": "Dandeli",
+          "body": [
+            "Forest and the Kali river, between Dharwad and the Anmod ghat."
+          ],
+          "links": [
+            {
+              "label": "Dandeli guide",
+              "href": "/blog/dandeli-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Gokarna",
+          "body": [
+            "Beaches on the coastal route south of Karwar."
+          ],
+          "links": [
+            {
+              "label": "Gokarna guide",
+              "href": "/blog/gokarna-beaches-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/karnataka/gokarna/om-beach-gokarna.webp",
+            "alt": "Om Beach at Gokarna",
+            "caption": "Gokarna"
+          }
+        },
+        {
+          "name": "Jog Falls",
+          "body": [
+            "A detour from Sirsi on the coastal route, fullest in the monsoon."
+          ],
+          "links": [
+            {
+              "label": "Jog Falls guide",
+              "href": "/blog/jog-falls-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ghats",
+      "heading": "Crossing the Western Ghats",
+      "paras": [
+        "The Chorla ghat links Belagavi with north Goa through forest and is popular in the monsoon for its mist and waterfalls. The Anmod ghat on NH748 has had periods of repair and restrictions on heavy vehicles; check its status before choosing it. The Karwar route adds the coast and is the natural choice if you want Gokarna."
+      ],
+      "items": [
+        {
+          "name": "Ghats",
+          "body": [
+            "More ghat roads."
+          ],
+          "links": [
+            {
+              "label": "Western Ghats road trips",
+              "href": "/blog/western-ghats-road-trips"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "heading": "Plans",
+      "table": {
+        "columns": [
+          "Days",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "1",
+            "Drive straight through via Belagavi and Chorla, leaving before dawn"
+          ],
+          [
+            "3",
+            "Chitradurga and Hampi (1 night), then Hubballi and Chorla into Goa"
+          ],
+          [
+            "5",
+            "Hampi, Dandeli, then Karwar and Gokarna before Goa"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "arrive",
+      "heading": "Once you arrive",
+      "items": [
+        {
+          "name": "Goa",
+          "body": [
+            "What to do in Goa."
+          ],
+          "links": [
+            {
+              "label": "Things to do in Goa",
+              "href": "/blog/things-to-do-in-goa"
+            },
+            {
+              "label": "Best beaches in Goa",
+              "href": "/blog/best-beaches-in-goa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "driving",
+      "heading": "Driving considerations",
+      "list": [
+        "Leave Bengaluru early to clear the city before Tumakuru.",
+        "NH48 carries heavy trucks; keep a safe distance and avoid tired late-night driving.",
+        "Ghat roads are narrow; give way to uphill traffic and avoid overtaking on bends.",
+        "Goa's roads are narrow and busy with scooters; drive slowly in villages."
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food along the way",
+      "paras": [
+        "Davanagere is famous for benne dosa, and Hubballi–Dharwad for Dharwad pedha. In Goa, fish thali, xacuti and bebinca await at the end of the drive."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to March is best, with dry roads and pleasant Goa weather. The monsoon (June to September) makes the ghats beautiful but slippery, with occasional landslides and fog. Hampi is hot from April to June."
+      ]
+    }
+  ],
+  "safety": [
+    "On ghat roads, use low gears downhill, give way to uphill traffic where the road is narrow, and do not overtake on blind bends.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Goa from Bengaluru by road?",
+      "a": "About 560 to 600 km, depending on the route."
+    },
+    {
+      "q": "How long does the drive take?",
+      "a": "Usually 10 to 11 hours without long stops."
+    },
+    {
+      "q": "Which ghat is best into Goa from Bengaluru?",
+      "a": "Chorla via Belagavi is the most common; check the Anmod ghat's status before using it."
+    },
+    {
+      "q": "Can I visit Hampi on the way to Goa?",
+      "a": "Yes; it is a detour of a few hours and worth a night."
+    },
+    {
+      "q": "Is the Bengaluru–Goa drive good in the monsoon?",
+      "a": "The ghats are beautiful but slower and slippery; drive in daylight."
+    },
+    {
+      "q": "Can I drive along the coast from Karwar to Goa?",
+      "a": "Yes; the coastal route via Karwar suits a stop at Gokarna."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa"
+    },
+    {
+      "label": "Road trips from Bengaluru",
+      "href": "/blog/road-trips-from-bengaluru"
+    },
+    {
+      "label": "South India road trips",
+      "href": "/blog/south-india-road-trips"
+    },
+    {
+      "label": "Goa tour packages",
+      "href": "/packages/goa"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Mumbai to Goa road trip",
+      "href": "/blog/mumbai-to-goa-road-trip",
+      "note": "from the north"
+    },
+    {
+      "name": "Best beaches in Karnataka",
+      "href": "/blog/best-beaches-in-karnataka",
+      "note": "Gokarna and more"
+    },
+    {
+      "name": "Heritage tourism in Karnataka",
+      "href": "/blog/heritage-tourism-in-karnataka",
+      "note": "Hampi and the Deccan"
+    }
+  ],
+  "places": [
+    "Bengaluru",
+    "Tumakuru",
+    "Chitradurga",
+    "Davanagere",
+    "Hubballi",
+    "Dharwad",
+    "Belagavi",
+    "Chorla",
+    "Ramnagar",
+    "Anmod",
+    "Karwar",
+    "Gokarna",
+    "Hampi",
+    "Dandeli",
+    "Goa"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "hill-station-holidays"
+  ],
+  "planDestination": "Goa",
+  "updated": "2026-09-26"
+}

@@ -1,0 +1,422 @@
+{
+  "slug": "road-trips-from-chennai",
+  "kind": "weekend",
+  "short": "Road trips from Chennai",
+  "title": "Road Trips from Chennai: Coast, Hills and Temple Towns",
+  "seoTitle": "Road Trips from Chennai: Coast, Hills and Temple Towns | Kudozz Club",
+  "metaDescription": "Road trips from Chennai: Mahabalipuram, Pondicherry, Kanchipuram, Pulicat, Yelagiri, Tiruvannamalai, Tranquebar, Thanjavur, Chettinad and the hills.",
+  "description": "A guide to road trips from Chennai: short drives to Mahabalipuram, Kanchipuram and Pulicat, weekend trips to Pondicherry, Yelagiri, Vellore and Tiruvannamalai, and longer trips to Tranquebar, the Chola temples of Thanjavur, Chettinad and Madurai, Kodaikanal and Ooty, with approximate distances, the East Coast Road, monsoon cautions and seasons.",
+  "dek": "From Chennai, road trips follow the coast south, the temple roads inland, and the long highways west to the hills.",
+  "primaryKeyword": "road trips from Chennai",
+  "secondaryKeywords": [
+    "weekend road trips from Chennai",
+    "long drives from Chennai",
+    "road trip near Chennai"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "road trips",
+    "weekend getaways",
+    "self-drive"
+  ],
+  "terrain": [
+    "coast",
+    "plains",
+    "hills"
+  ],
+  "regions": [
+    "Tamil Nadu",
+    "Puducherry"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "weekenders"
+  ],
+  "tags": [
+    "Chennai",
+    "Road trips",
+    "Weekend getaways",
+    "East Coast Road",
+    "Temple towns"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/road-trips-chennai-mahabalipuram.webp",
+    "alt": "The Shore Temple at Mahabalipuram, south of Chennai"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Road trips from Chennai",
+    "containedIn": "Tamil Nadu"
+  },
+  "intro": [
+    "Chennai's road trips fall into three groups. South along the coast, the East Coast Road leads to Mahabalipuram, Pondicherry and eventually the old Danish town of Tranquebar. Inland, the temple towns of Kanchipuram, Tiruvannamalai and, further south, Thanjavur and Kumbakonam make rewarding drives. To the west, the Eastern Ghats rise at Yelagiri, and the long highways lead to Kodaikanal and Ooty.",
+    "Tamil Nadu's roads are generally good, but summer heat and the north-east monsoon (October to December) need planning."
+  ],
+  "quickAnswer": "The best road trips from Chennai are Mahabalipuram (about 55 km), Kanchipuram (about 75 km), Pulicat (about 60 km), Pondicherry (about 150 km on the East Coast Road), Yelagiri (about 230 km), Tiruvannamalai (about 190 km), Tranquebar (about 280 km), Thanjavur (about 350 km), Chettinad (about 400 km), and Kodaikanal or Ooty (530 to 560 km). November to February is best; avoid the heavy north-east monsoon and summer heat.",
+  "takeaways": [
+    "The East Coast Road is Chennai's classic coastal drive.",
+    "Kanchipuram and Mahabalipuram make an easy day loop.",
+    "Yelagiri is the nearest hill station, about four to five hours away.",
+    "Kodaikanal and Ooty need e-passes for outside vehicles.",
+    "The north-east monsoon (October to December) brings heavy rain and occasional cyclones."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Road trips from Chennai at a glance",
+      "table": {
+        "columns": [
+          "Destination",
+          "Approx. distance",
+          "Typical drive",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Mahabalipuram",
+            "55 km",
+            "1.5 hours",
+            "Pallava monuments, beach"
+          ],
+          [
+            "Pulicat",
+            "60 km",
+            "1.5 hours",
+            "Lagoon, flamingos in season"
+          ],
+          [
+            "Kanchipuram",
+            "75 km",
+            "2 hours",
+            "Temples, silk"
+          ],
+          [
+            "Pondicherry",
+            "150 km",
+            "3 to 4 hours",
+            "French quarter, Auroville"
+          ],
+          [
+            "Tiruvannamalai",
+            "190 km",
+            "4 hours",
+            "Arunachaleswarar temple, Girivalam"
+          ],
+          [
+            "Yelagiri",
+            "230 km",
+            "4 to 5 hours",
+            "Nearest hill station"
+          ],
+          [
+            "Tranquebar",
+            "280 km",
+            "5 to 6 hours",
+            "Danish fort, quiet coast"
+          ],
+          [
+            "Thanjavur",
+            "350 km",
+            "6 to 7 hours",
+            "Chola temples"
+          ],
+          [
+            "Chettinad",
+            "400 km",
+            "7 hours",
+            "Mansions, cuisine"
+          ]
+        ],
+        "caption": "Distances and times are approximate."
+      }
+    },
+    {
+      "id": "coast",
+      "heading": "The coast",
+      "items": [
+        {
+          "name": "Mahabalipuram and Pondicherry",
+          "body": [
+            "The East Coast Road's classic pairing."
+          ],
+          "links": [
+            {
+              "label": "Chennai to Pondicherry road trip",
+              "href": "/blog/chennai-to-pondicherry-road-trip"
+            },
+            {
+              "label": "Mahabalipuram guide",
+              "href": "/blog/mahabalipuram-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/mahabalipuram/pancha-rathas-rock-cut-monuments-mahabalipuram.webp",
+            "alt": "The Five Rathas at Mahabalipuram",
+            "caption": "Mahabalipuram"
+          }
+        },
+        {
+          "name": "Tranquebar and beyond",
+          "body": [
+            "The Danish fort at Tharangambadi, Karaikal and Velankanni further south."
+          ],
+          "links": [
+            {
+              "label": "Coastal road trips",
+              "href": "/blog/coastal-road-trips-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temples",
+      "heading": "Temple towns",
+      "items": [
+        {
+          "name": "Kanchipuram",
+          "body": [
+            "Pallava and Chola temples and silk weaving."
+          ],
+          "links": [
+            {
+              "label": "Kanchipuram guide",
+              "href": "/blog/kanchipuram-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Thanjavur and Kumbakonam",
+          "body": [
+            "The great Chola temples, part of a UNESCO site."
+          ],
+          "links": [
+            {
+              "label": "Thanjavur guide",
+              "href": "/blog/thanjavur-travel-guide"
+            },
+            {
+              "label": "Heritage tourism in Tamil Nadu",
+              "href": "/blog/heritage-tourism-in-tamil-nadu"
+            }
+          ]
+        },
+        {
+          "name": "Chettinad and Madurai",
+          "body": [
+            "Mansions, food and the Meenakshi temple."
+          ],
+          "links": [
+            {
+              "label": "Chettinad guide",
+              "href": "/blog/chettinad-travel-guide"
+            },
+            {
+              "label": "Madurai guide",
+              "href": "/blog/madurai-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hills",
+      "heading": "The hills",
+      "items": [
+        {
+          "name": "Yelagiri",
+          "body": [
+            "A small plateau hill station with a lake, reached via hairpin bends."
+          ],
+          "links": [
+            {
+              "label": "Yelagiri guide",
+              "href": "/blog/yelagiri-travel-guide"
+            },
+            {
+              "label": "Hill stations near Chennai",
+              "href": "/blog/hill-stations-near-chennai"
+            }
+          ]
+        },
+        {
+          "name": "Kodaikanal and Ooty",
+          "body": [
+            "Long drives, better with an overnight stop."
+          ],
+          "links": [
+            {
+              "label": "Kodaikanal guide",
+              "href": "/blog/kodaikanal-travel-guide"
+            },
+            {
+              "label": "Ooty guide",
+              "href": "/blog/ooty-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long-weekend",
+      "heading": "Planning a long weekend",
+      "paras": [
+        "With three days, pair Mahabalipuram with Pondicherry, or Kanchipuram with Tiruvannamalai. With four or five days, continue down the coast from Pondicherry to Chidambaram and Tranquebar, then inland to Thanjavur, returning via Tiruchirappalli. For the hills, Yelagiri is a weekend trip; Kodaikanal needs at least four days by road."
+      ],
+      "items": [
+        {
+          "name": "Heritage",
+          "body": [
+            "A longer route."
+          ],
+          "links": [
+            {
+              "label": "South India heritage itinerary",
+              "href": "/blog/south-india-heritage-itinerary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for driving out of Chennai",
+      "list": [
+        "Leave early to beat traffic on the ECR, GST Road and the Bengaluru highway.",
+        "Carry water and plan midday breaks from April to June, when heat is intense.",
+        "Check cyclone and rain warnings from October to December.",
+        "Temple towns have dress codes and footwear rules; keep a change of clothes in the car."
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food on the road",
+      "paras": [
+        "Chennai's highways are lined with vegetarian hotels serving idli, pongal and filter coffee for breakfast and banana-leaf meals at lunch. Karaikudi and the Chettinad villages are famous for their spiced meat and vegetable dishes, Pondicherry for its cafés and Creole cooking, and the ECR for fresh seafood at simple shacks near the fishing villages."
+      ]
+    },
+    {
+      "id": "returning",
+      "heading": "Coming back",
+      "list": [
+        "Return traffic on the ECR and GST Road is heavy on Sunday evenings; start back after lunch or on Monday morning.",
+        "Keep the FASTag topped up for the ECR and national highway tolls."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "November to February is best, with mild temperatures; November can still be wet. March to June is hot and humid. The north-east monsoon (October to December) brings Chennai's heaviest rain, with flooding and cyclones in some years."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "What are the best weekend road trips from Chennai?",
+      "a": "Mahabalipuram, Pondicherry, Kanchipuram, Tiruvannamalai and Yelagiri."
+    },
+    {
+      "q": "Which hill station is nearest to Chennai by road?",
+      "a": "Yelagiri, about four to five hours away."
+    },
+    {
+      "q": "How far is Pondicherry from Chennai?",
+      "a": "About 150 km via the East Coast Road."
+    },
+    {
+      "q": "What is a good long road trip from Chennai?",
+      "a": "The coast to Tranquebar and inland to Thanjavur and Chettinad."
+    },
+    {
+      "q": "When should I avoid road trips from Chennai?",
+      "a": "During heavy north-east monsoon rain and in the peak heat of May."
+    },
+    {
+      "q": "Do I need an e-pass for Kodaikanal?",
+      "a": "Yes, for vehicles from outside the district; check current rules."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Chennai to Pondicherry road trip",
+      "href": "/blog/chennai-to-pondicherry-road-trip"
+    },
+    {
+      "label": "South India road trips",
+      "href": "/blog/south-india-road-trips"
+    },
+    {
+      "label": "Hill stations near Chennai",
+      "href": "/blog/hill-stations-near-chennai"
+    },
+    {
+      "label": "Tamil Nadu tour packages",
+      "href": "/packages/tamil-nadu"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best beaches in Tamil Nadu",
+      "href": "/blog/best-beaches-in-tamil-nadu",
+      "note": "the coast"
+    },
+    {
+      "name": "Spiritual tourism in Tamil Nadu",
+      "href": "/blog/spiritual-tourism-in-tamil-nadu",
+      "note": "temple towns"
+    },
+    {
+      "name": "Things to do in Chennai",
+      "href": "/blog/things-to-do-in-chennai",
+      "note": "in the city"
+    }
+  ],
+  "places": [
+    "Mahabalipuram",
+    "Pulicat",
+    "Kanchipuram",
+    "Pondicherry",
+    "Tiruvannamalai",
+    "Yelagiri",
+    "Tranquebar",
+    "Chidambaram",
+    "Thanjavur",
+    "Kumbakonam",
+    "Chettinad",
+    "Madurai",
+    "Kodaikanal",
+    "Ooty"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "weekend-getaways"
+  ],
+  "planDestination": "a road trip from Chennai",
+  "updated": "2026-09-26"
+}

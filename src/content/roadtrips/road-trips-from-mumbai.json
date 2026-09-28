@@ -1,0 +1,385 @@
+{
+  "slug": "road-trips-from-mumbai",
+  "kind": "weekend",
+  "short": "Road trips from Mumbai and Pune",
+  "title": "Road Trips from Mumbai and Pune: Ghats, Konkan and Weekend Drives",
+  "seoTitle": "Road Trips from Mumbai and Pune: Ghats, Konkan, Weekends | Kudozz Club",
+  "metaDescription": "Road trips from Mumbai and Pune: Lonavala, Matheran, Alibaug, Mahabaleshwar, Nashik, Bhandardara, the Konkan coast, Kolhapur and Goa, with distances and seasons.",
+  "description": "A guide to road trips from Mumbai and Pune: short drives to Lonavala, Matheran and Alibaug, weekend trips to Mahabaleshwar, Panchgani, Nashik, Igatpuri, Bhandardara and Malshej, coastal drives to Dapoli, Ganpatipule and Tarkarli, and longer trips to Kolhapur, Ajanta–Ellora and Goa, with approximate distances, the expressways, monsoon crowds and ghat safety.",
+  "dek": "Mumbai and Pune sit on either side of the Sahyadri, with ghats, forts, hill stations and the Konkan coast all within a weekend's drive.",
+  "primaryKeyword": "road trips from Mumbai",
+  "secondaryKeywords": [
+    "weekend road trips from Mumbai",
+    "long drives from Mumbai",
+    "road trip near Mumbai"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "road trips",
+    "weekend getaways",
+    "self-drive"
+  ],
+  "terrain": [
+    "Western Ghats",
+    "coast",
+    "plateau"
+  ],
+  "regions": [
+    "Maharashtra",
+    "Goa"
+  ],
+  "seasons": [
+    "monsoon",
+    "winter",
+    "autumn"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "weekenders"
+  ],
+  "tags": [
+    "Mumbai",
+    "Pune",
+    "Road trips",
+    "Weekend getaways",
+    "Western Ghats"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/road-trips-mumbai-pune-expressway.webp",
+    "alt": "The Mumbai–Pune Expressway winding through the Western Ghats"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Road trips from Mumbai and Pune",
+    "containedIn": "Maharashtra"
+  },
+  "intro": [
+    "Mumbai and Pune share most of their road trips. The Mumbai–Pune Expressway climbs the Bhor ghat past Lonavala and Khandala; south of Pune, NH48 leads to Satara, Mahabaleshwar and Kolhapur; the old Mumbai–Nashik highway climbs to Igatpuri and the wine country; and NH66 runs down the Konkan coast towards Goa. The Samruddhi Expressway to Nagpur has also made Shirdi and Chhatrapati Sambhajinagar (Aurangabad) quicker to reach.",
+    "The monsoon is the region's signature road-trip season, when the Sahyadri turn green and waterfalls pour off the cliffs, but weekend crowds and slippery ghats need care."
+  ],
+  "quickAnswer": "The best road trips from Mumbai and Pune are Lonavala and Khandala (about 85 km from Mumbai), Matheran, Alibaug, Mahabaleshwar and Panchgani (about 250 km from Mumbai, 120 km from Pune), Nashik and Igatpuri, Bhandardara, Malshej ghat, the Konkan coast to Dapoli, Ganpatipule and Tarkarli, and Goa (about 590 km). The monsoon (July to September) is greenest; October to February is best for the coast.",
+  "takeaways": [
+    "The Mumbai–Pune Expressway is the gateway to Lonavala, Pune and the south.",
+    "Matheran is car-free; park at Dasturi and walk or ride in.",
+    "Monsoon weekends bring huge crowds and police restrictions at waterfalls and ghats.",
+    "The Konkan coast is best from October to February.",
+    "NH66 to Goa has ongoing works in Raigad; the Kolhapur route is an alternative."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Road trips from Mumbai and Pune at a glance",
+      "table": {
+        "columns": [
+          "Destination",
+          "From Mumbai",
+          "From Pune",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Lonavala and Khandala",
+            "85 km",
+            "65 km",
+            "Monsoon views, forts"
+          ],
+          [
+            "Matheran",
+            "85 km (to Dasturi)",
+            "120 km",
+            "Car-free hill station"
+          ],
+          [
+            "Alibaug",
+            "95 km by road",
+            "140 km",
+            "Beaches, forts"
+          ],
+          [
+            "Mahabaleshwar and Panchgani",
+            "250 km",
+            "120 km",
+            "Strawberries, viewpoints"
+          ],
+          [
+            "Nashik and Igatpuri",
+            "120 to 170 km",
+            "210 km",
+            "Vineyards, ghats"
+          ],
+          [
+            "Bhandardara",
+            "180 km",
+            "170 km",
+            "Lake, Arthur's Seat, fireflies in May–June"
+          ],
+          [
+            "Dapoli and Ganpatipule",
+            "220 to 340 km",
+            "200 to 320 km",
+            "Konkan beaches"
+          ],
+          [
+            "Goa",
+            "590 km",
+            "450 km",
+            "Beaches"
+          ]
+        ],
+        "caption": "Distances are approximate."
+      }
+    },
+    {
+      "id": "sahyadri",
+      "heading": "The Sahyadri",
+      "items": [
+        {
+          "name": "Lonavala",
+          "body": [
+            "Forts, viewpoints and monsoon waterfalls off the expressway."
+          ],
+          "links": [
+            {
+              "label": "Lonavala guide",
+              "href": "/blog/lonavala-travel-guide"
+            },
+            {
+              "label": "Things to do in Lonavala",
+              "href": "/blog/things-to-do-in-lonavala"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/maharashtra/lonavala-valley-misty-hills-sahyadri.webp",
+            "alt": "Misty valleys near Lonavala",
+            "caption": "Lonavala"
+          }
+        },
+        {
+          "name": "Mahabaleshwar",
+          "body": [
+            "Viewpoints, Venna lake and strawberry farms."
+          ],
+          "links": [
+            {
+              "label": "Mahabaleshwar guide",
+              "href": "/blog/mahabaleshwar-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Bhandardara and Malshej",
+          "body": [
+            "Lakes, waterfalls and flamingos in season."
+          ],
+          "links": [
+            {
+              "label": "Bhandardara guide",
+              "href": "/blog/bhandardara-travel-guide"
+            },
+            {
+              "label": "Western Ghats road trips",
+              "href": "/blog/western-ghats-road-trips"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coast",
+      "heading": "The Konkan coast",
+      "items": [
+        {
+          "name": "Alibaug and Murud",
+          "body": [
+            "Beaches and sea forts near Mumbai."
+          ],
+          "links": [
+            {
+              "label": "Alibaug guide",
+              "href": "/blog/alibaug-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Ganpatipule and Tarkarli",
+          "body": [
+            "Longer coastal drives with temple towns and clear water."
+          ],
+          "links": [
+            {
+              "label": "Ganpatipule guide",
+              "href": "/blog/ganpatipule-travel-guide"
+            },
+            {
+              "label": "Tarkarli guide",
+              "href": "/blog/tarkarli-travel-guide"
+            },
+            {
+              "label": "Mumbai to Goa road trip",
+              "href": "/blog/mumbai-to-goa-road-trip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "north-east",
+      "heading": "North and east",
+      "items": [
+        {
+          "name": "Nashik, Shirdi and Ajanta–Ellora",
+          "body": [
+            "Vineyards and temples; the Samruddhi Expressway has shortened drives towards Shirdi and Chhatrapati Sambhajinagar."
+          ],
+          "links": [
+            {
+              "label": "Nashik guide",
+              "href": "/blog/nashik-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "heading": "Tips for driving out of Mumbai and Pune",
+      "list": [
+        "Leave early; exits from Mumbai via Vashi and Panvel are slow after 8 am.",
+        "On the expressway, keep to lane discipline; heavy vehicles use the left lanes.",
+        "In the monsoon, avoid stopping at unofficial waterfall spots and follow local bans.",
+        "Parking at popular viewpoints fills quickly at weekends."
+      ]
+    },
+    {
+      "id": "overnight",
+      "heading": "Planning a long weekend",
+      "paras": [
+        "With three days, pair a hill station with the coast or a heritage stop: Mahabaleshwar with Pratapgad and Wai, Nashik's vineyards with Trimbakeshwar and Igatpuri, or Alibaug with Murud and Kashid. With four or five days, drive down the Konkan to Ganpatipule and Ratnagiri, or head to Kolhapur and the Amboli ghat.",
+        "Food is part of the fun: vada pav and misal on the expressway food courts, Malvani seafood on the coast, and Kolhapuri thalis in the south."
+      ]
+    },
+    {
+      "id": "returning",
+      "heading": "Coming back",
+      "list": [
+        "Sunday evening traffic at the Khalapur and Vashi toll plazas is heavy; return early.",
+        "In the monsoon, check expressway advisories for landslide or waterlogging diversions."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "July to September is the greenest and most popular time for ghat drives, with fog, waterfalls and crowds. October to February is best for the coast, forts and Mahabaleshwar. March to May is hot, though hill stations and Bhandardara's firefly season (around May and June) draw visitors."
+      ]
+    }
+  ],
+  "safety": [
+    "On ghat roads, use low gears downhill and avoid overtaking on bends, especially in fog.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "What are the best road trips from Mumbai for a weekend?",
+      "a": "Lonavala, Matheran, Alibaug, Mahabaleshwar, Nashik, Igatpuri and Bhandardara."
+    },
+    {
+      "q": "What are good road trips from Pune?",
+      "a": "Mahabaleshwar, Panchgani, Lonavala, Tamhini ghat, Kolhapur and the Konkan coast."
+    },
+    {
+      "q": "Can I drive to Matheran?",
+      "a": "Only to Dasturi; Matheran itself is car-free."
+    },
+    {
+      "q": "When is the best time for monsoon drives near Mumbai?",
+      "a": "July to September, preferably on weekdays."
+    },
+    {
+      "q": "How far is Goa from Mumbai by road?",
+      "a": "About 590 km, usually 10 to 12 hours."
+    },
+    {
+      "q": "Is the Mumbai–Goa highway ready?",
+      "a": "Most of it has been widened, but works continued in Raigad through 2026."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Mumbai to Goa road trip",
+      "href": "/blog/mumbai-to-goa-road-trip"
+    },
+    {
+      "label": "Western Ghats road trips",
+      "href": "/blog/western-ghats-road-trips"
+    },
+    {
+      "label": "Hill stations near Mumbai and Pune",
+      "href": "/blog/hill-stations-near-mumbai"
+    },
+    {
+      "label": "Maharashtra tour packages",
+      "href": "/packages/maharashtra"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Weekend adventure trips from Mumbai",
+      "href": "/blog/weekend-adventure-trips-from-mumbai",
+      "note": "treks and camping"
+    },
+    {
+      "name": "Best beaches in Maharashtra",
+      "href": "/blog/best-beaches-in-maharashtra",
+      "note": "the Konkan"
+    },
+    {
+      "name": "Forts in Maharashtra",
+      "href": "/blog/forts-in-maharashtra",
+      "note": "history on the way"
+    }
+  ],
+  "places": [
+    "Mumbai",
+    "Pune",
+    "Lonavala",
+    "Khandala",
+    "Matheran",
+    "Alibaug",
+    "Mahabaleshwar",
+    "Panchgani",
+    "Nashik",
+    "Igatpuri",
+    "Bhandardara",
+    "Malshej",
+    "Dapoli",
+    "Ganpatipule",
+    "Tarkarli",
+    "Kolhapur",
+    "Goa"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "weekend-getaways"
+  ],
+  "planDestination": "a road trip from Mumbai or Pune",
+  "updated": "2026-09-26"
+}

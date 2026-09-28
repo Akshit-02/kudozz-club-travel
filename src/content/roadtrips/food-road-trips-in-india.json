@@ -1,0 +1,405 @@
+{
+  "slug": "food-road-trips-in-india",
+  "kind": "pillar",
+  "short": "Food road trips in India",
+  "title": "Food Road Trips in India: Highway Dhabas and Regional Food Trails",
+  "seoTitle": "Food Road Trips in India: Highway Dhabas and Food Trails | Kudozz Club",
+  "metaDescription": "Food road trips in India: Murthal's dhabas and Amritsar, Rajasthan's highways, the Konkan and Malvan, Mangaluru, Kerala, Chettinad, Hyderabad and Bengal.",
+  "description": "A guide to food road trips in India: the Grand Trunk Road's dhabas from Murthal to Amritsar, Rajasthan's dal-baati and kachori stops, Malvani and Konkani seafood on the west coast, Mangaluru and coastal Karnataka, Kerala's toddy-shop cooking, Chettinad in Tamil Nadu, Hyderabad and the Deccan, and Bengal, with tips on eating safely on the road.",
+  "dek": "In India, what you eat on the road is often the most memorable part of the drive.",
+  "primaryKeyword": "food road trips in India",
+  "secondaryKeywords": [
+    "highway food India",
+    "dhaba road trip",
+    "food trail road trip"
+  ],
+  "searchIntent": "Discovery",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "plains",
+    "coast",
+    "desert"
+  ],
+  "regions": [
+    "Punjab",
+    "Haryana",
+    "Rajasthan",
+    "Maharashtra",
+    "Karnataka",
+    "Kerala",
+    "Tamil Nadu",
+    "Telangana",
+    "West Bengal"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "spring"
+  ],
+  "travellers": [
+    "food lovers",
+    "friends",
+    "couples",
+    "families"
+  ],
+  "tags": [
+    "Food",
+    "Road trips",
+    "Dhabas",
+    "Regional cuisine",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/food-road-trips-dhaba.webp",
+    "alt": "Cooking pots at a highway dhaba on NH 76"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Food road trips in India"
+  },
+  "intro": [
+    "India's highways are lined with dhabas, roadside kitchens and small-town restaurants that serve some of the country's best regional food. Planning a road trip around food means timing your drive so that breakfast, lunch and tea fall at the places worth stopping for, and choosing routes that pass through the regions whose cooking you want to try.",
+    "We do not rank or name individual restaurants, which change often. Instead, this guide points to the towns and regions known for particular dishes."
+  ],
+  "quickAnswer": "The best food road trips in India include the Grand Trunk Road from Delhi through Murthal to Amritsar for parathas and Punjabi food, Rajasthan's highways for kachoris, dal-baati and Jodhpur's mirchi vadas, the Konkan and Malvan coast for seafood, coastal Karnataka for Mangalorean dishes, Kerala's backwaters for fish curries, Karaikudi for Chettinad cooking, Hyderabad for biryani, and Bengal's highways for fish and sweets.",
+  "takeaways": [
+    "Plan the drive around meal stops in towns known for particular dishes.",
+    "Busy dhabas with high turnover are usually the safest choice.",
+    "Drink bottled or filtered water and carry your own.",
+    "Coastal seafood is best in the dry season, outside the monsoon fishing ban.",
+    "Regional specialities often differ from what city restaurants call by the same name."
+  ],
+  "sections": [
+    {
+      "id": "list",
+      "heading": "Food road trips at a glance",
+      "table": {
+        "columns": [
+          "Route",
+          "What to try"
+        ],
+        "rows": [
+          [
+            "Delhi–Murthal–Amritsar (NH44)",
+            "Stuffed parathas, Amritsari kulcha, lassi"
+          ],
+          [
+            "Delhi–Jaipur–Jodhpur",
+            "Kachori, dal-baati-churma, mirchi vada"
+          ],
+          [
+            "Mumbai–Konkan–Goa",
+            "Malvani fish curry, sol kadhi, Goan xacuti"
+          ],
+          [
+            "Udupi–Mangaluru",
+            "Udupi vegetarian meals, Mangalorean ghee roast"
+          ],
+          [
+            "Kochi–Alappuzha–Kumarakom",
+            "Karimeen, appam, stew, toddy-shop cooking"
+          ],
+          [
+            "Chennai–Karaikudi",
+            "Chettinad chicken and vegetable curries"
+          ],
+          [
+            "Hyderabad and the Deccan",
+            "Biryani, haleem (in Ramzan), Irani chai"
+          ],
+          [
+            "Kolkata–Digha–Bishnupur",
+            "Fish, rolls and Bengali sweets"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "north",
+      "heading": "The Grand Trunk Road",
+      "paras": [
+        "North of Delhi, the famous dhabas at Murthal are a classic first stop, and the road on through Haryana and Punjab to Amritsar is lined with places serving parathas, dal makhani and lassi. In Amritsar, kulchas and the langar at the Golden Temple are highlights."
+      ],
+      "items": [
+        {
+          "name": "North",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Murthal guide",
+              "href": "/blog/murthal-travel-guide"
+            },
+            {
+              "label": "Amritsar guide",
+              "href": "/blog/amritsar-travel-guide"
+            },
+            {
+              "label": "Delhi to Manali road trip",
+              "href": "/blog/delhi-to-manali-road-trip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rajasthan",
+      "heading": "Rajasthan",
+      "paras": [
+        "Rajasthani highway food is simple and filling: kachoris for breakfast, dal-baati-churma and gatte for lunch, and chai stops in small towns. Jodhpur is known for mirchi vadas and makhaniya lassi, Bikaner for bhujia, and Pushkar for vegetarian cafés."
+      ],
+      "items": [
+        {
+          "name": "Rajasthan",
+          "body": [
+            "Route guide."
+          ],
+          "links": [
+            {
+              "label": "Rajasthan road trip",
+              "href": "/blog/rajasthan-road-trip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "west-coast",
+      "heading": "The west coast",
+      "items": [
+        {
+          "name": "Konkan and Malvan",
+          "body": [
+            "Coconut-based fish curries, sol kadhi and fried bombil."
+          ],
+          "links": [
+            {
+              "label": "Mumbai to Goa road trip",
+              "href": "/blog/mumbai-to-goa-road-trip"
+            }
+          ]
+        },
+        {
+          "name": "Udupi and Mangaluru",
+          "body": [
+            "The original Udupi vegetarian meals, and Mangalorean seafood."
+          ],
+          "links": [
+            {
+              "label": "Udupi guide",
+              "href": "/blog/udupi-travel-guide"
+            },
+            {
+              "label": "Coastal road trips",
+              "href": "/blog/coastal-road-trips-in-india"
+            }
+          ]
+        },
+        {
+          "name": "Kerala",
+          "body": [
+            "Fish curries, appam and stew, and kappa (tapioca)."
+          ],
+          "links": [
+            {
+              "label": "Kerala road trip",
+              "href": "/blog/kerala-road-trip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-east",
+      "heading": "Tamil Nadu, the Deccan and Bengal",
+      "items": [
+        {
+          "name": "Chettinad",
+          "body": [
+            "Richly spiced dishes in the mansion towns around Karaikudi."
+          ],
+          "links": [
+            {
+              "label": "Chettinad guide",
+              "href": "/blog/chettinad-travel-guide"
+            },
+            {
+              "label": "Road trips from Chennai",
+              "href": "/blog/road-trips-from-chennai"
+            }
+          ]
+        },
+        {
+          "name": "Hyderabad",
+          "body": [
+            "Biryani and Irani chai before you set off."
+          ],
+          "links": [
+            {
+              "label": "Road trips from Hyderabad",
+              "href": "/blog/road-trips-from-hyderabad"
+            }
+          ]
+        },
+        {
+          "name": "Bengal",
+          "body": [
+            "Fish, rolls and sweets on the way to the coast or Bishnupur."
+          ],
+          "links": [
+            {
+              "label": "Road trips from Kolkata",
+              "href": "/blog/road-trips-from-kolkata"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safely",
+      "heading": "Eating safely on the road",
+      "list": [
+        "Choose busy places where food is cooked fresh and turnover is high.",
+        "Drink sealed bottled or filtered water, and carry your own.",
+        "Go easy on raw salads and cut fruit from roadside stalls.",
+        "Carry oral rehydration salts and basic stomach medicines.",
+        "Ask about spice levels; highway kitchens cook for local tastes."
+      ],
+      "items": [
+        {
+          "name": "Food heritage",
+          "body": [
+            "Deeper reading."
+          ],
+          "links": [
+            {
+              "label": "Food heritage of India",
+              "href": "/blog/food-heritage-of-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning a food-focused drive",
+      "paras": [
+        "Time your departure so that breakfast falls at a town known for it: Murthal from Delhi, Maddur or Srirangapatna from Bengaluru, or Mahabalipuram from Chennai. Plan lunch in a district town rather than on an empty stretch of expressway, where choices are limited. Keep an evening free in food cities such as Amritsar, Jodhpur, Hyderabad and Karaikudi to walk the old bazaars.",
+        "Carry a cool box for sweets and snacks to take home, and ask locally about seasonal specialities such as mangoes in the Konkan in April and May, or winter sarson ka saag in Punjab."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to March is best for most food road trips, with comfortable driving weather. Seafood on the west coast is best outside the monsoon, when a fishing ban usually applies from about June to July. Ramzan brings special dishes such as haleem to Hyderabad and other cities."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "What is the best food road trip in India?",
+      "a": "The Grand Trunk Road from Delhi to Amritsar, and the Konkan coast from Mumbai to Goa."
+    },
+    {
+      "q": "Is highway dhaba food safe?",
+      "a": "Busy dhabas with fresh cooking are generally safe; drink bottled or filtered water."
+    },
+    {
+      "q": "Where can I try Chettinad food?",
+      "a": "In and around Karaikudi in Tamil Nadu."
+    },
+    {
+      "q": "When is the best time for a seafood road trip?",
+      "a": "Outside the monsoon, from about October to May."
+    },
+    {
+      "q": "Do you recommend specific restaurants?",
+      "a": "We point to towns and dishes rather than individual restaurants, which change often."
+    },
+    {
+      "q": "Can I combine food and heritage on a road trip?",
+      "a": "Yes; Rajasthan, Chettinad and Hyderabad are especially good for both."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Food heritage of India",
+      "href": "/blog/food-heritage-of-india"
+    },
+    {
+      "label": "Best road trips in India",
+      "href": "/blog/best-road-trips-in-india"
+    },
+    {
+      "label": "Road trips from Delhi",
+      "href": "/blog/road-trips-from-delhi"
+    },
+    {
+      "label": "Road trip holidays",
+      "href": "/packages/road-trip-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Rajasthan road trip",
+      "href": "/blog/rajasthan-road-trip",
+      "note": "dal-baati country"
+    },
+    {
+      "name": "Coastal road trips",
+      "href": "/blog/coastal-road-trips-in-india",
+      "note": "seafood coasts"
+    },
+    {
+      "name": "Kerala road trip",
+      "href": "/blog/kerala-road-trip",
+      "note": "backwater kitchens"
+    }
+  ],
+  "places": [
+    "Murthal",
+    "Amritsar",
+    "Jaipur",
+    "Jodhpur",
+    "Bikaner",
+    "Malvan",
+    "Goa",
+    "Udupi",
+    "Mangaluru",
+    "Kochi",
+    "Alappuzha",
+    "Karaikudi",
+    "Hyderabad",
+    "Kolkata"
+  ],
+  "styles": [
+    "road-trip-holidays"
+  ],
+  "planDestination": "a food road trip",
+  "updated": "2026-09-26"
+}

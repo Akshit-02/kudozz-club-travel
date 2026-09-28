@@ -29,6 +29,7 @@ const footerLinks = {
     { label: "Heritage & Culture", href: "/heritage-cultural-tourism" },
     { label: "Hill Stations", href: "/hill-station-travel" },
     { label: "Nature Travel", href: "/nature-travel" },
+    { label: "Road Trips", href: "/road-trips" },
     { label: "Rajasthan Travel Guide", href: "/blog/rajasthan-travel-guide" },
     { label: "Kashmir Travel Guide", href: "/blog/jammu-kashmir-travel-guide" },
     { label: "Ladakh Road Trip Guide", href: "/blog/leh-ladakh-road-trip-travel-guide" },

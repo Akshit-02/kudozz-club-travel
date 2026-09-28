@@ -1,0 +1,353 @@
+{
+  "slug": "srinagar-to-leh-road-trip",
+  "kind": "destination",
+  "short": "Srinagar to Leh road trip",
+  "title": "Srinagar to Leh Road Trip: Zojila, Kargil and Lamayuru",
+  "seoTitle": "Srinagar to Leh Road Trip: Zojila, Kargil and Lamayuru | Kudozz Club",
+  "metaDescription": "Srinagar to Leh by road: the route via Sonamarg, Zojila, Drass, Kargil and Lamayuru, overnight in Kargil, stops, the Zojila tunnel and the best season.",
+  "description": "A route guide to the Srinagar to Leh road trip: the route via Sonamarg and the Z-Morh tunnel, over Zojila to Drass and Kargil, then via Mulbekh, Namika La, Fotu La and Lamayuru to Alchi and Leh, with approximate distance, the overnight stop in Kargil, stops along the way, acclimatisation benefits, Zojila opening and tunnel progress, the Jammu approach and advisories.",
+  "dek": "The Srinagar–Leh highway climbs from Kashmir's pine valleys over Zojila into the stark, sunlit landscapes of Ladakh.",
+  "primaryKeyword": "Srinagar to Leh road trip",
+  "secondaryKeywords": [
+    "Srinagar Leh highway",
+    "Srinagar to Leh distance",
+    "Kargil route"
+  ],
+  "searchIntent": "Route planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "mountains",
+    "passes",
+    "high-altitude desert"
+  ],
+  "regions": [
+    "Jammu and Kashmir",
+    "Ladakh"
+  ],
+  "seasons": [
+    "summer",
+    "autumn"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Srinagar to Leh",
+    "Road trip",
+    "Ladakh",
+    "Zojila",
+    "Kargil"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/srinagar-leh-road-trip-zojila.webp",
+    "alt": "A truck on the cliff road over Zojila, between Sonamarg and Drass"
+  },
+  "parent": {
+    "label": "Leh Ladakh Road Trip",
+    "href": "/blog/leh-ladakh-road-trip-travel-guide"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Srinagar to Leh road trip",
+    "containedIn": "Ladakh"
+  },
+  "intro": [
+    "The Srinagar–Leh highway (NH1) runs about 420 km from Kashmir to Leh. It follows the Sindh valley to Sonamarg, climbs over Zojila, the pass that divides green Kashmir from arid Ladakh, and continues through Drass and Kargil. Beyond Kargil it crosses Namika La and Fotu La, passes the monastery and eroded 'moonland' at Lamayuru, then follows the Indus past Alchi and Nimmu to Leh.",
+    "Because it gains height more gradually than the Manali road, it is the preferred way into Ladakh for acclimatisation. The Z-Morh tunnel near Sonamarg opened in 2025, and the Zojila tunnel achieved its excavation breakthrough in June 2026, with full operation still some way off."
+  ],
+  "quickAnswer": "Srinagar to Leh is about 420 km via Sonamarg, Zojila, Drass, Kargil, Lamayuru and Alchi, and is usually driven over two days with a night in Kargil. It gains altitude more gradually than the Manali–Leh route, making it the better way into Ladakh. The road is busiest from May to October; Zojila can close for snow or repairs, so check the current status and any Kashmir travel advisories before you go.",
+  "takeaways": [
+    "Split the drive with a night in Kargil, roughly halfway.",
+    "Enter Ladakh this way and leave via Manali for gentler acclimatisation.",
+    "Zojila is the key pass; it can close for snow, slides or one-way traffic schedules.",
+    "The Zojila tunnel is under construction; until it opens, the pass road is the only route.",
+    "Check Jammu and Kashmir travel advisories before travelling."
+  ],
+  "sections": [
+    {
+      "id": "route",
+      "heading": "The route at a glance",
+      "table": {
+        "columns": [
+          "Leg",
+          "Approx. distance",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Srinagar–Kangan–Sonamarg",
+            "80 km",
+            "Sindh valley; Z-Morh tunnel"
+          ],
+          [
+            "Sonamarg–Zojila–Drass",
+            "60 km",
+            "Zojila, about 3,500 m; Drass war memorial"
+          ],
+          [
+            "Drass–Kargil",
+            "60 km",
+            "Suru and Drass rivers; overnight in Kargil"
+          ],
+          [
+            "Kargil–Mulbekh–Namika La–Fotu La–Lamayuru",
+            "About 110 km",
+            "Maitreya carving at Mulbekh; Fotu La, about 4,100 m"
+          ],
+          [
+            "Lamayuru–Alchi–Nimmu–Leh",
+            "About 120 km",
+            "Indus valley; Sangam and Magnetic Hill near Leh"
+          ]
+        ],
+        "caption": "Distances are approximate."
+      }
+    },
+    {
+      "id": "stops",
+      "heading": "Stops along the way",
+      "items": [
+        {
+          "name": "Sonamarg",
+          "body": [
+            "Meadows and glaciers below Zojila."
+          ],
+          "links": [
+            {
+              "label": "Sonamarg guide",
+              "href": "/blog/sonamarg-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/jammu-and-kashmir/sonamarg/zoji-la-pass-valley-view.webp",
+            "alt": "The valley below Zoji La",
+            "caption": "Zojila"
+          }
+        },
+        {
+          "name": "Drass",
+          "body": [
+            "The Kargil War Memorial, and one of the coldest inhabited places in India."
+          ],
+          "links": [
+            {
+              "label": "Drass guide",
+              "href": "/blog/drass-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Kargil",
+          "body": [
+            "The usual overnight stop, on the Suru river."
+          ],
+          "links": [
+            {
+              "label": "Kargil guide",
+              "href": "/blog/kargil-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/ladakh/kargil/kargil-town-suru-river-valley.webp",
+            "alt": "Kargil on the Suru river",
+            "caption": "Kargil"
+          }
+        },
+        {
+          "name": "Mulbekh and Lamayuru",
+          "body": [
+            "A rock-cut Maitreya at Mulbekh, and Lamayuru's monastery above eroded badlands."
+          ],
+          "links": [
+            {
+              "label": "Lamayuru guide",
+              "href": "/blog/lamayuru-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/ladakh/lamayuru/lamayuru-moonscape-eroded-badlands.webp",
+            "alt": "The eroded moonland near Lamayuru",
+            "caption": "Lamayuru"
+          }
+        },
+        {
+          "name": "Alchi",
+          "body": [
+            "A detour across the Indus to one of Ladakh's oldest monastery complexes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zojila",
+      "heading": "Zojila and the tunnels",
+      "paras": [
+        "Zojila is narrow, unpaved in places and steep, with traffic often run one way at a time at set hours. The Z-Morh tunnel near Sonamarg, opened in January 2025, keeps Sonamarg reachable in winter. The much longer Zojila tunnel, whose excavation broke through in June 2026, will eventually bypass the pass, but finishing work continues and it is not yet open to traffic. Until then, snow and repairs can close the pass without much notice."
+      ]
+    },
+    {
+      "id": "jammu",
+      "heading": "Starting from Delhi or Jammu",
+      "paras": [
+        "From Delhi, most people drive to Jammu, then take the Jammu–Srinagar highway through the Chenani–Nashri tunnel and Banihal to Srinagar, spending a night or two in Kashmir before heading to Ladakh. Delhi to Leh via Srinagar is about 1,000 km; allow five days or more with rest days."
+      ],
+      "items": [
+        {
+          "name": "Kashmir",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Srinagar guide",
+              "href": "/blog/srinagar-travel-guide"
+            },
+            {
+              "label": "Kashmir itinerary",
+              "href": "/blog/kashmir-itinerary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "altitude",
+      "heading": "Why this route suits acclimatisation",
+      "paras": [
+        "The climb from Srinagar (about 1,600 m) to Kargil (about 2,700 m) and then Leh (about 3,500 m) spreads the altitude gain over two days, compared with the high passes of the Manali route. Rest for at least a day in Leh before going higher."
+      ],
+      "items": [
+        {
+          "name": "Ladakh",
+          "body": [
+            "Plan the rest of the trip."
+          ],
+          "links": [
+            {
+              "label": "Leh Ladakh road trip guide",
+              "href": "/blog/leh-ladakh-road-trip-travel-guide"
+            },
+            {
+              "label": "Manali to Leh road trip",
+              "href": "/blog/manali-to-leh-road-trip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "Traffic is heaviest from May to October. Zojila is usually cleared by April or May; reports suggest it stayed open for longer than usual in the 2025–26 winter, but closures still occur. July and August bring the Amarnath Yatra, which adds traffic and security arrangements around Sonamarg and Baltal. Late autumn is quiet and clear but cold."
+      ]
+    }
+  ],
+  "safety": [
+    "Above about 3,000 m, ascend gradually, rest on arrival and see a doctor before travel if you have heart, lung or blood-pressure conditions.",
+    "Follow traffic schedules and police instructions at Zojila.",
+    "Check Jammu and Kashmir and Ladakh advisories before travel.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Warm layers and a windproof jacket",
+    "Sunscreen and sunglasses",
+    "Documents and ID for checkpoints",
+    "Snacks and water for delays at Zojila"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Leh from Srinagar by road?",
+      "a": "About 420 km via Sonamarg, Zojila, Kargil and Lamayuru."
+    },
+    {
+      "q": "How long does the Srinagar to Leh drive take?",
+      "a": "Two days, usually with a night in Kargil."
+    },
+    {
+      "q": "Is Srinagar to Leh better than Manali to Leh?",
+      "a": "It is gentler for acclimatisation. Many travellers go in via Srinagar and return via Manali."
+    },
+    {
+      "q": "Is the Zojila tunnel open?",
+      "a": "Not yet. Excavation broke through in June 2026, but the tunnel is still being finished."
+    },
+    {
+      "q": "When is the Srinagar–Leh highway open?",
+      "a": "Mainly from about April or May to November; check the current status of Zojila."
+    },
+    {
+      "q": "Where should I stop overnight on the way to Leh?",
+      "a": "Kargil is the usual halfway stop."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Leh Ladakh road trip guide",
+      "href": "/blog/leh-ladakh-road-trip-travel-guide"
+    },
+    {
+      "label": "Manali to Leh road trip",
+      "href": "/blog/manali-to-leh-road-trip"
+    },
+    {
+      "label": "Things to do in Leh",
+      "href": "/blog/things-to-do-in-leh"
+    },
+    {
+      "label": "Leh Ladakh tour packages",
+      "href": "/packages/leh-ladakh"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Kashmir itinerary",
+      "href": "/blog/kashmir-itinerary",
+      "note": "before Ladakh"
+    },
+    {
+      "name": "Hill stations in Jammu and Kashmir",
+      "href": "/blog/hill-stations-in-jammu-and-kashmir",
+      "note": "Sonamarg and more"
+    },
+    {
+      "name": "Mountain road trips",
+      "href": "/blog/mountain-road-trips-in-india",
+      "note": "other Himalayan drives"
+    }
+  ],
+  "places": [
+    "Srinagar",
+    "Kangan",
+    "Sonamarg",
+    "Zojila",
+    "Drass",
+    "Kargil",
+    "Mulbekh",
+    "Namika La",
+    "Fotu La",
+    "Lamayuru",
+    "Alchi",
+    "Nimmu",
+    "Leh"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "adventure-tours"
+  ],
+  "planDestination": "Ladakh",
+  "updated": "2026-09-26"
+}

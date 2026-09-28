@@ -1,0 +1,321 @@
+{
+  "slug": "road-trip-packing-list",
+  "kind": "planning",
+  "short": "Road trip packing list",
+  "title": "Road Trip Packing List for India: Car, Mountain and Monsoon",
+  "seoTitle": "Road Trip Packing List: Car, Mountains, Monsoon | Kudozz Club",
+  "metaDescription": "A road trip packing list for India: documents, car kit, first aid, food and water, and extra lists for mountain, monsoon, winter, family and bike road trips.",
+  "description": "A practical road trip packing list for India: documents and FASTag, a car emergency kit, first aid and medicines, food, water and comfort items, electronics and navigation, and extra lists for mountain and high-altitude drives, monsoon trips, winter and snow, family road trips and motorcycle trips.",
+  "dek": "Pack for the road as much as for the destination: the right kit makes breakdowns, delays and weather much easier to handle.",
+  "primaryKeyword": "road trip packing list",
+  "secondaryKeywords": [
+    "car road trip essentials",
+    "road trip checklist India",
+    "what to pack for a road trip"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "mountains",
+    "plains",
+    "coast"
+  ],
+  "regions": [
+    "India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer",
+    "monsoon",
+    "autumn"
+  ],
+  "travellers": [
+    "self-drivers",
+    "families",
+    "couples",
+    "first-timers"
+  ],
+  "tags": [
+    "Packing list",
+    "Road trips",
+    "Car essentials",
+    "Mountains",
+    "Monsoon"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/road-trip-packing-car-mountain.webp",
+    "alt": "The north portal of the Atal Tunnel, Rohtang, Himachal Pradesh"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Road trip packing list for India"
+  },
+  "intro": [
+    "A road trip packing list has two parts: what the car needs, and what the people in it need. On India's roads, where help can be hours away in the mountains and delays are common in the monsoon, a well-stocked car kit is as important as your clothes.",
+    "Start with the core lists below, then add the extras for your route and season."
+  ],
+  "quickAnswer": "For a road trip in India, pack your driving licence, car papers and FASTag; a car kit with a spare tyre, jack, tow rope, jump leads, torch and warning triangle; a first-aid kit and medicines; water, snacks and a cool box; phone chargers, a power bank and offline maps; and cash. Add warm layers and altitude medicines advised by a doctor for the mountains, and rain gear for the monsoon.",
+  "takeaways": [
+    "Check the spare tyre, jack and wheel spanner before you leave.",
+    "Carry cash; network and card machines fail in remote areas.",
+    "Download offline maps for areas with weak signal.",
+    "Carry more water than you think you need.",
+    "Tailor extras to the route: mountains, monsoon, winter or family."
+  ],
+  "sections": [
+    {
+      "id": "documents",
+      "heading": "Documents and money",
+      "list": [
+        "Driving licence and ID for all adults.",
+        "Registration certificate, insurance and pollution certificate (originals or DigiLocker copies).",
+        "Rental agreement, if applicable.",
+        "FASTag with enough balance.",
+        "Permits for Ladakh, Arunachal, Sikkim or Rohtang, printed and on your phone.",
+        "Cash in small notes, plus cards and UPI."
+      ]
+    },
+    {
+      "id": "car-kit",
+      "heading": "Car emergency kit",
+      "list": [
+        "Inflated spare tyre, jack and wheel spanner.",
+        "Puncture repair kit or tyre inflator.",
+        "Tow rope and jump leads.",
+        "Torch with spare batteries.",
+        "Warning triangle and a reflective vest.",
+        "Basic tools, spare fuses and a bottle of coolant.",
+        "Microfibre cloths and a windscreen cleaner.",
+        "A small fire extinguisher, if your car has space for one."
+      ]
+    },
+    {
+      "id": "people",
+      "heading": "First aid, food and comfort",
+      "list": [
+        "First-aid kit with bandages, antiseptic, pain relief and personal medicines.",
+        "Motion-sickness tablets, oral rehydration salts and stomach medicines.",
+        "Plenty of drinking water, snacks and a cool box.",
+        "Tissues, wet wipes, hand sanitiser and waste bags.",
+        "Sunglasses, sunscreen and a hat.",
+        "A light blanket and neck pillow."
+      ]
+    },
+    {
+      "id": "electronics",
+      "heading": "Electronics and navigation",
+      "list": [
+        "Phone mount and car charger.",
+        "Power bank.",
+        "Offline maps and saved stay contacts.",
+        "Downloaded music, podcasts or audiobooks for areas without signal."
+      ]
+    },
+    {
+      "id": "mountain",
+      "heading": "Extras for mountain and high-altitude drives",
+      "list": [
+        "Warm layers, a windproof jacket, gloves and a woollen cap, even in summer.",
+        "Medicines for altitude sickness only as advised by a doctor.",
+        "Lip balm and strong sunscreen.",
+        "Snow chains or local advice in winter.",
+        "Extra food and water for long gaps between stops."
+      ],
+      "items": [
+        {
+          "name": "Mountains",
+          "body": [
+            "Route guides."
+          ],
+          "links": [
+            {
+              "label": "Manali to Leh road trip",
+              "href": "/blog/manali-to-leh-road-trip"
+            },
+            {
+              "label": "Hill station packing list",
+              "href": "/blog/hill-station-packing-list"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monsoon",
+      "heading": "Extras for the monsoon",
+      "list": [
+        "Rain jackets and umbrellas for everyone.",
+        "Spare dry clothes in a waterproof bag.",
+        "Anti-fog cloth or spray for windows.",
+        "Newspaper or mats for wet shoes."
+      ],
+      "items": [
+        {
+          "name": "Monsoon",
+          "body": [
+            "Our guide."
+          ],
+          "links": [
+            {
+              "label": "Monsoon road trips",
+              "href": "/blog/monsoon-road-trips-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "winter",
+      "heading": "Extras for winter and snow",
+      "list": [
+        "Thermals and a warm jacket.",
+        "A thermos for hot drinks.",
+        "De-icer or a scraper for early mornings in the hills.",
+        "Snow chains where they may be required."
+      ]
+    },
+    {
+      "id": "family",
+      "heading": "Extras for family road trips",
+      "list": [
+        "Child car seat.",
+        "Games, books and downloaded entertainment.",
+        "Sick bags and a change of clothes for children.",
+        "Favourite snacks and a small treat for each day."
+      ],
+      "items": [
+        {
+          "name": "Families",
+          "body": [
+            "Our guide."
+          ],
+          "links": [
+            {
+              "label": "Family road trips in India",
+              "href": "/blog/road-trips-for-families-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bike",
+      "heading": "For motorcycle trips",
+      "paras": [
+        "Riders need a certified helmet, riding jacket, gloves, boots and rain gear, plus a tool kit, spare tubes or a puncture kit, and luggage straps. Our Adventure guides cover riding kit in more detail."
+      ],
+      "items": [
+        {
+          "name": "Riding",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Best motorcycle trips in India",
+              "href": "/blog/best-motorcycle-trips-in-india"
+            },
+            {
+              "label": "Adventure travel packing list",
+              "href": "/blog/adventure-travel-packing-list-india"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety": [
+    "Keep heavy luggage in the boot or tied down; loose items can injure passengers in a sudden stop.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "What should I pack for a road trip in India?",
+      "a": "Documents and FASTag, a car emergency kit, first aid, water and snacks, chargers and offline maps, and cash."
+    },
+    {
+      "q": "What car essentials should I carry?",
+      "a": "A spare tyre, jack, wheel spanner, tow rope, jump leads, torch and warning triangle."
+    },
+    {
+      "q": "What should I pack for a mountain road trip?",
+      "a": "Warm layers even in summer, sunscreen, and altitude medicines only as advised by a doctor."
+    },
+    {
+      "q": "What should I pack for a monsoon road trip?",
+      "a": "Rain jackets, umbrellas, dry clothes in a waterproof bag and anti-fog cloths."
+    },
+    {
+      "q": "What should I pack for a family road trip?",
+      "a": "A child seat, entertainment, snacks, sick bags and spare clothes for children."
+    },
+    {
+      "q": "Do I need cash on a road trip in India?",
+      "a": "Yes; card machines and UPI can fail where the network is weak."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "How to plan a road trip in India",
+      "href": "/blog/how-to-plan-a-road-trip-in-india"
+    },
+    {
+      "label": "Road trip safety in India",
+      "href": "/blog/road-trip-safety-in-india"
+    },
+    {
+      "label": "Road trip cost in India",
+      "href": "/blog/road-trip-cost-in-india"
+    },
+    {
+      "label": "Road trip holidays",
+      "href": "/packages/road-trip-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hill station packing list",
+      "href": "/blog/hill-station-packing-list",
+      "note": "for the hills"
+    },
+    {
+      "name": "Adventure travel packing list",
+      "href": "/blog/adventure-travel-packing-list-india",
+      "note": "for active trips"
+    },
+    {
+      "name": "Self-drive trips in India",
+      "href": "/blog/self-drive-trips-in-india",
+      "note": "rental tips"
+    }
+  ],
+  "places": [
+    "India"
+  ],
+  "styles": [
+    "road-trip-holidays"
+  ],
+  "planDestination": "a road trip",
+  "updated": "2026-09-26"
+}

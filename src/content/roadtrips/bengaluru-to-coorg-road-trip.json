@@ -1,0 +1,341 @@
+{
+  "slug": "bengaluru-to-coorg-road-trip",
+  "kind": "destination",
+  "short": "Bengaluru to Coorg road trip",
+  "title": "Bengaluru to Coorg Road Trip: Route, Stops and Weekend Plan",
+  "seoTitle": "Bengaluru to Coorg Road Trip: Route, Stops, Weekend Plan | Kudozz Club",
+  "metaDescription": "Bengaluru to Coorg by road: the Mysuru expressway, Srirangapatna, Bylakuppe and Kushalnagar to Madikeri, distance, driving time, stops and a weekend plan.",
+  "description": "A route guide to the Bengaluru to Coorg road trip: the Bengaluru–Mysuru expressway, the routes via Hunsur or Kushalnagar to Madikeri, approximate distance and driving time, stops at Srirangapatna, Bylakuppe, Dubare and the Harangi backwaters, two-wheeler rules on the expressway, the monsoon and a two- to four-day plan.",
+  "dek": "Coorg is Bengaluru's favourite weekend drive: an expressway to Mysuru, then country roads into coffee and forest.",
+  "primaryKeyword": "Bangalore to Coorg road trip",
+  "secondaryKeywords": [
+    "Bangalore to Coorg by road",
+    "Bangalore to Coorg distance",
+    "Bengaluru Coorg route"
+  ],
+  "searchIntent": "Route planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "plains",
+    "hills",
+    "coffee estates"
+  ],
+  "regions": [
+    "Karnataka"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "monsoon"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Bengaluru to Coorg",
+    "Road trip",
+    "Karnataka",
+    "Weekend",
+    "Coffee"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/bengaluru-coorg-road-trip-madikeri.webp",
+    "alt": "A lane through a coffee estate in Coorg, Karnataka"
+  },
+  "parent": {
+    "label": "South India Road Trips",
+    "href": "/blog/south-india-road-trips"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Bengaluru to Coorg road trip",
+    "containedIn": "Karnataka"
+  },
+  "intro": [
+    "The drive from Bengaluru to Coorg (Kodagu) takes the Bengaluru–Mysuru expressway to Srirangapatna, then heads west through Hunsur and Periyapatna or via Kushalnagar to Madikeri, the district town. The last stretch climbs gently through coffee estates and forest.",
+    "It is short enough for a weekend but rewards a longer stay. Our Coorg guide covers what to do there; this page covers the drive."
+  ],
+  "quickAnswer": "Bengaluru to Coorg (Madikeri) is about 250 to 270 km and usually takes 5 to 6 hours via the Bengaluru–Mysuru expressway, Srirangapatna and Kushalnagar. Good stops include Srirangapatna, the Tibetan settlement at Bylakuppe, Dubare's elephant camp and the Harangi backwaters. Two-wheelers are not allowed on the expressway's main carriageway. October to March is most pleasant; the monsoon is lush but wet.",
+  "takeaways": [
+    "The expressway cuts the Bengaluru–Mysuru leg to under two hours in light traffic.",
+    "Two- and three-wheelers must use the service roads, not the expressway's main carriageway.",
+    "Kushalnagar is the natural gateway, with Bylakuppe and Dubare nearby.",
+    "Many Coorg homestays are down estate roads; check access if driving a low car.",
+    "The monsoon (June to September) brings very heavy rain and occasional landslides."
+  ],
+  "sections": [
+    {
+      "id": "route",
+      "heading": "The route at a glance",
+      "table": {
+        "columns": [
+          "Leg",
+          "Approx. distance",
+          "What to expect"
+        ],
+        "rows": [
+          [
+            "Bengaluru–Srirangapatna (expressway)",
+            "About 120 km",
+            "Access-controlled, tolled"
+          ],
+          [
+            "Srirangapatna–Hunsur–Periyapatna",
+            "About 80 km",
+            "Two-lane state roads through farmland"
+          ],
+          [
+            "Periyapatna–Bylakuppe–Kushalnagar",
+            "About 25 km",
+            "Tibetan settlement, Namdroling monastery"
+          ],
+          [
+            "Kushalnagar–Madikeri",
+            "About 30 km",
+            "Climb into coffee country"
+          ]
+        ],
+        "caption": "Distances are approximate; the Hunsur and Mysuru city routes are alternatives."
+      }
+    },
+    {
+      "id": "stops",
+      "heading": "Stops along the way",
+      "items": [
+        {
+          "name": "Srirangapatna",
+          "body": [
+            "Tipu Sultan's island fortress on the Kaveri, just off the expressway."
+          ]
+        },
+        {
+          "name": "Mysuru",
+          "body": [
+            "A detour for the palace, or a night on the way back."
+          ],
+          "links": [
+            {
+              "label": "Mysuru guide",
+              "href": "/blog/mysuru-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Bylakuppe",
+          "body": [
+            "The Namdroling monastery in one of India's largest Tibetan settlements."
+          ]
+        },
+        {
+          "name": "Dubare and Harangi",
+          "body": [
+            "An elephant camp on the Kaveri and the reservoir backwaters near Kushalnagar."
+          ],
+          "image": {
+            "src": "/images/destinations/coorg/dubare-elephant-camp-kaveri-river.webp",
+            "alt": "The Kaveri at Dubare",
+            "caption": "Dubare"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "heading": "Two- to four-day plans",
+      "table": {
+        "columns": [
+          "Days",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "2",
+            "Drive via Bylakuppe; Raja's Seat and Abbey Falls; estate walk and drive back"
+          ],
+          [
+            "3",
+            "Add Talakaveri and Bhagamandala, or Iruppu Falls in south Coorg"
+          ],
+          [
+            "4",
+            "Continue to Chikmagalur or Wayanad"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "driving",
+      "heading": "Driving considerations",
+      "list": [
+        "Leave Bengaluru early to avoid city traffic; the expressway itself moves quickly.",
+        "Tolls on the expressway accept FASTag.",
+        "Roads within Coorg are narrow and winding; allow time between estates.",
+        "Estate roads can be steep, rough or muddy in the monsoon."
+      ]
+    },
+    {
+      "id": "arrive",
+      "heading": "Once you arrive",
+      "items": [
+        {
+          "name": "Coorg",
+          "body": [
+            "What to do in Coorg."
+          ],
+          "links": [
+            {
+              "label": "Coorg guide",
+              "href": "/blog/coorg-travel-guide"
+            },
+            {
+              "label": "Things to do in Coorg",
+              "href": "/blog/things-to-do-in-coorg"
+            },
+            {
+              "label": "Coffee plantation tourism",
+              "href": "/blog/coffee-plantation-tourism-in-india"
+            }
+          ],
+          "image": {
+            "src": "/images/destinations/coorg/rajas-seat-viewpoint-madikeri.webp",
+            "alt": "Raja's Seat viewpoint, Madikeri",
+            "caption": "Madikeri"
+          }
+        }
+      ]
+    },
+    {
+      "id": "routes",
+      "heading": "Choosing your route",
+      "paras": [
+        "The Kushalnagar route through Periyapatna and Bylakuppe is the most common way in, and suits north and central Coorg around Madikeri. For south Coorg, around Virajpet, Gonikoppal and Iruppu Falls, many drivers go from Mysuru via Hunsur and Gonikoppal instead. Returning a different way turns the drive into a loop and lets you see more of the district.",
+        "If you have extra time, break the journey in Mysuru on the way back; the palace is lit up on Sunday evenings and public holidays."
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food along the way",
+      "paras": [
+        "The Kamat and Maddur vada stops on the old Mysuru road are still popular, even though the expressway bypasses Maddur. In Coorg, try pandi curry, kadambuttu and akki roti at homestays, and pick up coffee and spices from estate shops."
+      ]
+    },
+    {
+      "id": "extend",
+      "heading": "Extending the trip",
+      "list": [
+        "Continue north to Sakleshpur and Chikmagalur for more coffee country and higher viewpoints.",
+        "Drive south-west into Kerala's Wayanad via Kutta and Mananthavady.",
+        "Add a night at Kabini or Nagarhole for a forest stay; safaris are booked separately.",
+        "Return via Mysuru and Srirangapatna for palaces and the Kaveri."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to March is pleasant, and February to March brings coffee blossom. April and May are warm but fine. The monsoon (June to September) makes Coorg misty and green, with full waterfalls, but heavy rain can close some roads and viewpoints."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Coorg from Bengaluru by road?",
+      "a": "About 250 to 270 km to Madikeri."
+    },
+    {
+      "q": "How long is the drive from Bengaluru to Coorg?",
+      "a": "Usually 5 to 6 hours via the Mysuru expressway and Kushalnagar."
+    },
+    {
+      "q": "Can I ride a bike to Coorg on the Bengaluru–Mysuru expressway?",
+      "a": "Two- and three-wheelers must use the service roads, not the main carriageway."
+    },
+    {
+      "q": "What are good stops on the way to Coorg?",
+      "a": "Srirangapatna, Mysuru, Bylakuppe, Dubare and Harangi."
+    },
+    {
+      "q": "Is Coorg good for a weekend road trip?",
+      "a": "Yes; two nights is ideal."
+    },
+    {
+      "q": "Is it safe to drive to Coorg in the monsoon?",
+      "a": "Main roads stay open, but heavy rain can slow travel; check local alerts."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Coorg guide",
+      "href": "/blog/coorg-travel-guide"
+    },
+    {
+      "label": "Road trips from Bengaluru",
+      "href": "/blog/road-trips-from-bengaluru"
+    },
+    {
+      "label": "South India road trips",
+      "href": "/blog/south-india-road-trips"
+    },
+    {
+      "label": "Karnataka tour packages",
+      "href": "/packages/karnataka"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hill stations near Bengaluru",
+      "href": "/blog/hill-stations-near-bengaluru",
+      "note": "other escapes"
+    },
+    {
+      "name": "Nature travel in Karnataka",
+      "href": "/blog/nature-travel-in-karnataka",
+      "note": "waterfalls and forests"
+    },
+    {
+      "name": "Bengaluru to Ooty road trip",
+      "href": "/blog/bengaluru-to-ooty-road-trip",
+      "note": "the Nilgiris"
+    }
+  ],
+  "places": [
+    "Bengaluru",
+    "Srirangapatna",
+    "Mysuru",
+    "Hunsur",
+    "Periyapatna",
+    "Bylakuppe",
+    "Kushalnagar",
+    "Dubare",
+    "Harangi",
+    "Madikeri"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "hill-station-holidays"
+  ],
+  "planDestination": "Coorg",
+  "updated": "2026-09-26"
+}

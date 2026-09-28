@@ -1,0 +1,416 @@
+{
+  "slug": "road-trips-in-himachal-pradesh",
+  "kind": "state",
+  "short": "Road trips in Himachal Pradesh",
+  "title": "Road Trips in Himachal Pradesh: Routes, Passes and Where to Stop",
+  "seoTitle": "Road Trips in Himachal Pradesh: Routes and Passes | Kudozz Club",
+  "metaDescription": "Road trips in Himachal Pradesh: Delhi to Shimla and Manali, the Kinnaur–Spiti circuit, Dharamshala and Kangra, Tirthan and Jalori, with seasons and tips.",
+  "description": "A guide to road trips in Himachal Pradesh: the main routes from Delhi and Chandigarh, the Shimla and Manali corridors, the Kinnaur and Spiti circuit, the Kangra valley and Dharamshala, the Jalori Pass and Tirthan valley, Chamba and Dalhousie, and the Atal Tunnel to Lahaul, with seasons, entry fees, overnight stops and monsoon cautions.",
+  "dek": "Himachal is India's most driven mountain state: a web of valley roads, high passes and river gorges within a day of Delhi.",
+  "primaryKeyword": "Himachal road trip",
+  "secondaryKeywords": [
+    "Himachal Pradesh road trip",
+    "road trip in Himachal",
+    "Himachal self drive"
+  ],
+  "searchIntent": "Discovery/planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "mountains",
+    "valleys",
+    "rivers"
+  ],
+  "regions": [
+    "Himachal Pradesh"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Himachal Pradesh",
+    "Road trips",
+    "Himalaya",
+    "Self-drive",
+    "Mountain roads"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/himachal-road-trip-kinnaur-road.webp",
+    "alt": "The Hindustan–Tibet road cut into the cliffs of Kinnaur, Himachal Pradesh"
+  },
+  "parent": {
+    "label": "Mountain Road Trips",
+    "href": "/blog/mountain-road-trips-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Road trips in Himachal Pradesh",
+    "containedIn": "Himachal Pradesh"
+  },
+  "intro": [
+    "Most road trips into Himachal start from Delhi or Chandigarh and follow one of three corridors: the Shimla road up through Parwanoo and Solan, the Manali road up the Sutlej and Beas valleys via Bilaspur and Mandi, and the Kangra road to Dharamshala via Pathankot or Una. From these trunk roads, smaller routes lead to Kinnaur and Spiti, Tirthan and the Jalori Pass, Chamba and Dalhousie, and, through the Atal Tunnel, to Lahaul.",
+    "This guide is about the routes themselves. For what to do once you arrive, follow the links to our destination guides and hill-station pages."
+  ],
+  "quickAnswer": "The best road trips in Himachal Pradesh are Delhi to Manali via Mandi and Kullu, Delhi to Shimla via Solan, the Kinnaur–Spiti circuit from Shimla to Manali, the Kangra valley to Dharamshala, the Jalori Pass and Tirthan valley loop, and Chamba–Dalhousie. March to June and September to November are best; the monsoon brings landslides and winter closes the high passes.",
+  "takeaways": [
+    "Plan realistic days: 150 to 250 km is a full day on most mountain roads.",
+    "Out-of-state vehicles pay a state entry toll, and Manali levies a separate green tax; check current rates.",
+    "The Atal Tunnel has made Lahaul reachable without crossing Rohtang Pass.",
+    "Spiti via Kinnaur is open for more of the year than the Kunzum route from Manali.",
+    "The monsoon (July to mid-September) is the riskiest season for landslides."
+  ],
+  "sections": [
+    {
+      "id": "routes",
+      "heading": "Himachal's main road trips at a glance",
+      "table": {
+        "columns": [
+          "Route",
+          "Approx. distance",
+          "Typical days",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Delhi–Shimla",
+            "350 km",
+            "1",
+            "A first hill drive"
+          ],
+          [
+            "Delhi–Manali",
+            "530 km",
+            "1 to 2",
+            "Kullu valley, Solang, Lahaul"
+          ],
+          [
+            "Delhi–Dharamshala",
+            "470 km",
+            "1 to 2",
+            "Kangra valley, Dhauladhar views"
+          ],
+          [
+            "Shimla–Kinnaur–Spiti–Manali",
+            "About 650 km",
+            "7 to 10",
+            "High desert and monasteries"
+          ],
+          [
+            "Aut–Jalori Pass–Tirthan",
+            "Short loop",
+            "2 to 3",
+            "Forests and village stays"
+          ],
+          [
+            "Pathankot–Dalhousie–Chamba",
+            "About 120 km",
+            "2 to 3",
+            "Old hill towns and the Ravi valley"
+          ]
+        ],
+        "caption": "Distances are approximate and change with new bypasses and tunnels."
+      }
+    },
+    {
+      "id": "shimla-manali",
+      "heading": "The Shimla and Manali corridors",
+      "items": [
+        {
+          "name": "Delhi to Shimla",
+          "body": [
+            "Via Chandigarh, Parwanoo and Solan, with much of the climb now on a wider highway."
+          ],
+          "links": [
+            {
+              "label": "Delhi to Shimla road trip",
+              "href": "/blog/delhi-to-shimla-road-trip"
+            },
+            {
+              "label": "Shimla guide",
+              "href": "/blog/shimla-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Delhi to Manali",
+          "body": [
+            "Via Kiratpur, Bilaspur, Mandi and Kullu, along the Beas gorge."
+          ],
+          "links": [
+            {
+              "label": "Delhi to Manali road trip",
+              "href": "/blog/delhi-to-manali-road-trip"
+            },
+            {
+              "label": "Manali guide",
+              "href": "/blog/manali-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/himachal-pradesh/manali-and-kullu-valley-himachal-pradesh.webp",
+            "alt": "The Kullu valley near Manali",
+            "caption": "The Kullu valley"
+          }
+        },
+        {
+          "name": "Shimla to Manali",
+          "body": [
+            "The classic combined circuit, usually via Mandi."
+          ],
+          "links": [
+            {
+              "label": "Shimla Manali itinerary",
+              "href": "/blog/shimla-manali-itinerary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spiti-kinnaur",
+      "heading": "Kinnaur and Spiti",
+      "paras": [
+        "The Hindustan–Tibet road (NH5) climbs from Shimla past Narkanda and Rampur into Kinnaur, where parts of the road are cut into cliffs above the Sutlej. From Reckong Peo it continues to Nako, Tabo and Kaza. Returning via Kunzum Pass and the Atal Tunnel completes a circuit, but that side opens only in summer."
+      ],
+      "items": [
+        {
+          "name": "Spiti",
+          "body": [
+            "Route details."
+          ],
+          "links": [
+            {
+              "label": "Spiti Valley road trip",
+              "href": "/blog/spiti-valley-road-trip"
+            },
+            {
+              "label": "Kinnaur guide",
+              "href": "/blog/kinnaur-travel-guide"
+            },
+            {
+              "label": "Chitkul guide",
+              "href": "/blog/chitkul-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/kinnaur/sangla-valley-kinnaur.webp",
+            "alt": "The Sangla valley in Kinnaur",
+            "caption": "Kinnaur's Baspa valley"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kangra",
+      "heading": "Kangra, Dharamshala and Chamba",
+      "paras": [
+        "The road from Pathankot or Una into the Kangra valley runs beneath the Dhauladhar range to Dharamshala and McLeod Ganj, with Bir and Palampur a short drive east. North of Pathankot, a winding road climbs to Dalhousie and down to Chamba on the Ravi; Khajjiar lies between them."
+      ],
+      "items": [
+        {
+          "name": "Kangra",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Dharamshala guide",
+              "href": "/blog/dharamshala-travel-guide"
+            },
+            {
+              "label": "Bir Billing guide",
+              "href": "/blog/bir-billing-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jalori",
+      "heading": "Jalori Pass and Tirthan",
+      "paras": [
+        "From Aut on the Manali highway, a side road follows the Tirthan river to Banjar, Jibhi and the Jalori Pass. It is narrow and steep near the top, and snow closes the pass in winter. Most people stay in riverside homestays and explore on foot."
+      ],
+      "items": [
+        {
+          "name": "Tirthan",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Tirthan valley guide",
+              "href": "/blog/tirthan-valley-travel-guide"
+            },
+            {
+              "label": "Jibhi guide",
+              "href": "/blog/jibhi-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/himachal-pradesh/tirthan-valley/jalori-pass-tirthan-valley.webp",
+            "alt": "Forest near the Jalori Pass",
+            "caption": "Near Jalori Pass"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lahaul",
+      "heading": "Through the Atal Tunnel to Lahaul",
+      "paras": [
+        "The Atal Tunnel under the Rohtang ridge links Manali with Sissu, Keylong and Jispa in Lahaul, and is the start of the Manali–Leh highway. Rohtang Pass itself now needs an online permit and is a separate excursion."
+      ],
+      "items": [
+        {
+          "name": "Lahaul",
+          "body": [
+            "Onward routes."
+          ],
+          "links": [
+            {
+              "label": "Manali to Leh road trip",
+              "href": "/blog/manali-to-leh-road-trip"
+            },
+            {
+              "label": "Mountain road trips",
+              "href": "/blog/mountain-road-trips-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fees",
+      "heading": "Entry fees and paperwork",
+      "list": [
+        "Himachal collects an entry toll from out-of-state vehicles at the first barrier; the receipt covers a set period.",
+        "Manali has a separate green tax for vehicles not registered in Himachal.",
+        "Rohtang Pass needs an online permit; the Atal Tunnel route to Lahaul does not.",
+        "Carry your driving licence, registration, insurance and pollution certificate."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "March to June is the busiest season, with pleasant days and open roads. September to November brings clear skies and fewer crowds. The monsoon causes frequent landslides, especially between Mandi and Kullu and in Kinnaur; recent monsoons have closed hundreds of roads for days. Winter brings snow to Shimla, Manali and higher villages; high passes close, and some roads need chains or four-wheel drive."
+      ]
+    }
+  ],
+  "safety": [
+    "Above about 3,000 m, ascend gradually, rest on arrival and see a doctor before travel if you have heart, lung or blood-pressure conditions.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "What is the best road trip in Himachal Pradesh?",
+      "a": "Delhi to Manali for a first trip, and the Kinnaur–Spiti circuit for a longer, more remote drive."
+    },
+    {
+      "q": "Is it safe to drive in Himachal during the monsoon?",
+      "a": "It is risky. Landslides often block roads for hours or days; travel only with flexible plans and check updates daily."
+    },
+    {
+      "q": "Do I need a permit to drive to Lahaul?",
+      "a": "Not via the Atal Tunnel. Rohtang Pass needs an online permit."
+    },
+    {
+      "q": "Do outside vehicles pay a fee in Himachal?",
+      "a": "Yes. There is a state entry toll, and Manali charges a separate green tax. Check current rates."
+    },
+    {
+      "q": "How many days do I need for a Himachal road trip?",
+      "a": "Four to five days for Shimla and Manali; seven to ten days for Spiti."
+    },
+    {
+      "q": "Can I drive to Spiti in winter?",
+      "a": "The Shimla–Kinnaur route usually stays open with interruptions, but conditions are harsh. Most drivers should go between May and October."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Delhi to Manali road trip",
+      "href": "/blog/delhi-to-manali-road-trip"
+    },
+    {
+      "label": "Spiti Valley road trip",
+      "href": "/blog/spiti-valley-road-trip"
+    },
+    {
+      "label": "Hill stations in Himachal Pradesh",
+      "href": "/blog/hill-stations-in-himachal-pradesh"
+    },
+    {
+      "label": "Himachal tour packages",
+      "href": "/packages/himachal-pradesh"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Road trips from Delhi",
+      "href": "/blog/road-trips-from-delhi",
+      "note": "weekend drives"
+    },
+    {
+      "name": "Adventure activities in Himachal",
+      "href": "/blog/adventure-activities-in-himachal-pradesh",
+      "note": "along the way"
+    },
+    {
+      "name": "Nature travel in Himachal Pradesh",
+      "href": "/blog/nature-travel-in-himachal-pradesh",
+      "note": "valleys and lakes"
+    }
+  ],
+  "places": [
+    "Shimla",
+    "Solan",
+    "Manali",
+    "Kullu",
+    "Mandi",
+    "Bilaspur",
+    "Narkanda",
+    "Rampur",
+    "Reckong Peo",
+    "Nako",
+    "Kaza",
+    "Dharamshala",
+    "Dalhousie",
+    "Chamba",
+    "Jibhi",
+    "Jalori Pass",
+    "Sissu",
+    "Keylong"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "hill-station-holidays"
+  ],
+  "planDestination": "Himachal Pradesh",
+  "updated": "2026-09-26"
+}

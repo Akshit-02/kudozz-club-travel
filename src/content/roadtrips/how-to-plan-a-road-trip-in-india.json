@@ -1,0 +1,368 @@
+{
+  "slug": "how-to-plan-a-road-trip-in-india",
+  "kind": "planning",
+  "short": "How to plan a road trip in India",
+  "title": "How to Plan a Road Trip in India: Route, Days, Stops and Checks",
+  "seoTitle": "How to Plan a Road Trip in India: Route, Days, Stops | Kudozz Club",
+  "metaDescription": "How to plan a road trip in India: choosing a route and season, how many days, daily distances, fuel and overnight stops, permits, first-timers, solo and families.",
+  "description": "A step-by-step guide to planning a road trip in India: choosing a route and the right season, deciding how many days, realistic daily distances on plains and mountain roads, planning fuel stops and overnight stops, permits and entry fees, choosing between self-drive and a driver, tips for first-timers, solo travellers and families, and a pre-departure checklist.",
+  "dek": "A good Indian road trip is mostly planning: the right route for the season, realistic driving days and a few spare hours for the unexpected.",
+  "primaryKeyword": "how to plan a road trip in India",
+  "secondaryKeywords": [
+    "road trip planning India",
+    "road trip tips India",
+    "first road trip India"
+  ],
+  "searchIntent": "Informational",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "mountains",
+    "plains",
+    "coast"
+  ],
+  "regions": [
+    "India"
+  ],
+  "seasons": [
+    "winter",
+    "spring",
+    "summer",
+    "monsoon",
+    "autumn"
+  ],
+  "travellers": [
+    "self-drivers",
+    "families",
+    "couples",
+    "first-timers"
+  ],
+  "tags": [
+    "Planning",
+    "Road trips",
+    "First-timers",
+    "Solo travel",
+    "India"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/plan-road-trip-india-mountain-road.webp",
+    "alt": "Hairpin bends on the Thamarassery ghat road to Wayanad, Kerala"
+  },
+  "parent": {
+    "label": "Road Trips",
+    "href": "/road-trips"
+  },
+  "about": {
+    "type": "Thing",
+    "name": "Planning a road trip in India"
+  },
+  "intro": [
+    "Most road trips in India go wrong for predictable reasons: trying to cover too much, driving the wrong route for the season, or running into permits, closures or festival traffic that could have been checked in advance. This guide walks through the decisions in order.",
+    "It suits first-time road-trippers, solo travellers and families. For specific routes, see our regional and route guides."
+  ],
+  "quickAnswer": "To plan a road trip in India, choose a route that suits the season, then set realistic daily distances (about 300 to 450 km on plains highways, 150 to 250 km in the mountains), plan overnight stops before long climbs, note fuel stops on remote stretches, check permits, tolls and entry fees, and keep one buffer day per week. Start early each day and avoid driving after dark.",
+  "takeaways": [
+    "Choose the route by season first: mountains in summer, deserts and coasts in winter.",
+    "Plan 300 to 450 km a day on plains highways and 150 to 250 km in the hills.",
+    "Start early and aim to arrive before dark.",
+    "Fill up whenever you can on remote stretches, and carry cash.",
+    "Keep a buffer day for weather, landslides or simply resting."
+  ],
+  "sections": [
+    {
+      "id": "steps",
+      "heading": "Plan in seven steps",
+      "table": {
+        "columns": [
+          "Step",
+          "Decide",
+          "Tip"
+        ],
+        "rows": [
+          [
+            "1. Season",
+            "Which regions are at their best",
+            "See the best road trips by season"
+          ],
+          [
+            "2. Route",
+            "A loop or one-way; which stops",
+            "Avoid backtracking where you can"
+          ],
+          [
+            "3. Days",
+            "Total days and driving days",
+            "Add rest days on long trips"
+          ],
+          [
+            "4. Daily distances",
+            "How far per day",
+            "Mountains take twice as long per km"
+          ],
+          [
+            "5. Overnight stops",
+            "Where to sleep",
+            "Stop before long climbs or passes"
+          ],
+          [
+            "6. Paperwork",
+            "Permits, entry fees, FASTag",
+            "Check official portals"
+          ],
+          [
+            "7. Vehicle",
+            "Self-drive or driver; car type",
+            "Ground clearance for the mountains"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "route",
+      "heading": "Choosing a route",
+      "paras": [
+        "Start with the season. Himalayan routes such as Ladakh and Spiti are summer drives; Rajasthan, Kutch and the coasts are winter drives; the Western Ghats are at their greenest in the monsoon. Then decide between a loop, which avoids repeating roads, and a one-way route, which may need a flight or train back."
+      ],
+      "items": [
+        {
+          "name": "Ideas",
+          "body": [
+            "Where to go."
+          ],
+          "links": [
+            {
+              "label": "Best road trips in India",
+              "href": "/blog/best-road-trips-in-india"
+            },
+            {
+              "label": "Monsoon road trips",
+              "href": "/blog/monsoon-road-trips-in-india"
+            },
+            {
+              "label": "Winter road trips",
+              "href": "/blog/winter-road-trips-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "days",
+      "heading": "How many days",
+      "table": {
+        "columns": [
+          "Trip",
+          "Days"
+        ],
+        "rows": [
+          [
+            "Weekend from a city",
+            "2 to 3"
+          ],
+          [
+            "One region (Kerala, Coorg, Kumaon)",
+            "5 to 7"
+          ],
+          [
+            "A circuit (Rajasthan, Kerala loop)",
+            "7 to 12"
+          ],
+          [
+            "High Himalaya (Spiti, Ladakh)",
+            "8 to 14 including acclimatisation"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fuel",
+      "heading": "Planning fuel stops",
+      "list": [
+        "On highways, fuel is plentiful; on remote mountain roads, pumps can be far apart.",
+        "Fill up whenever you pass a pump on routes such as Manali–Leh, Spiti and parts of the Northeast.",
+        "Carry extra fuel only in approved containers, and only if your rental allows it.",
+        "Keep cash; card machines and UPI can fail where the network is weak."
+      ]
+    },
+    {
+      "id": "overnight",
+      "heading": "Planning overnight stops",
+      "list": [
+        "Sleep lower than the highest point you will cross the next day on mountain routes.",
+        "Break long plains drives in a town with good stays and food, rather than a highway motel.",
+        "Book ahead on weekends, holidays and festival dates.",
+        "Choose stays with parking; many old town centres have none."
+      ]
+    },
+    {
+      "id": "first-solo",
+      "heading": "First-timers and solo travellers",
+      "list": [
+        "Start with a well-travelled route such as Delhi–Jaipur or Bengaluru–Coorg.",
+        "Share your route and daily plan with someone at home.",
+        "Avoid driving alone at night, especially on rural or mountain roads.",
+        "Keep emergency numbers handy: 112 for emergencies across India, and your rental's roadside assistance."
+      ],
+      "items": [
+        {
+          "name": "Safety",
+          "body": [
+            "Our guide."
+          ],
+          "links": [
+            {
+              "label": "Road trip safety in India",
+              "href": "/blog/road-trip-safety-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "families",
+      "heading": "If you are travelling with family",
+      "paras": [
+        "Shorten driving days to four or five hours, stop every two hours, and plan one main outing a day. See our family road trips guide for routes and tips."
+      ],
+      "items": [
+        {
+          "name": "Families",
+          "body": [
+            "Our guide."
+          ],
+          "links": [
+            {
+              "label": "Family road trips in India",
+              "href": "/blog/road-trips-for-families-in-india"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "checklist",
+      "heading": "Before you leave",
+      "list": [
+        "Service the car: tyres, spare, brakes, wipers, lights and coolant.",
+        "Check documents, FASTag balance and any permits.",
+        "Download offline maps and save your stays' contact numbers.",
+        "Check weather, road status and festival or yatra traffic for your route."
+      ],
+      "items": [
+        {
+          "name": "Packing",
+          "body": [
+            "Our checklist."
+          ],
+          "links": [
+            {
+              "label": "Road trip packing list",
+              "href": "/blog/road-trip-packing-list"
+            },
+            {
+              "label": "Road trip cost in India",
+              "href": "/blog/road-trip-cost-in-india"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "safety": [
+    "Carry your driving licence, registration certificate, valid insurance and pollution (PUC) certificate; digital copies in DigiLocker or mParivahan are generally accepted.",
+    "Avoid driving after dark on rural and mountain roads.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Documents and FASTag",
+    "Offline maps",
+    "First-aid kit",
+    "Water and snacks"
+  ],
+  "faqs": [
+    {
+      "q": "How do I plan a road trip in India?",
+      "a": "Choose a route for the season, set realistic daily distances, plan overnight and fuel stops, check permits and keep a buffer day."
+    },
+    {
+      "q": "How far can I drive in a day in India?",
+      "a": "About 300 to 450 km on plains highways, and 150 to 250 km on mountain roads."
+    },
+    {
+      "q": "How do I plan fuel stops?",
+      "a": "Fill up whenever you can on remote routes, and carry cash in case card machines fail."
+    },
+    {
+      "q": "How do I plan overnight stops?",
+      "a": "Stop in towns with good stays, book ahead on busy dates, and sleep lower before high passes."
+    },
+    {
+      "q": "What are good road trips for beginners?",
+      "a": "Delhi to Jaipur, Bengaluru to Coorg, Chennai to Pondicherry and Pune to Mahabaleshwar."
+    },
+    {
+      "q": "How many days should I plan?",
+      "a": "Two to three for a weekend route, five to seven for a region and up to two weeks for the high Himalaya."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Road trip cost in India",
+      "href": "/blog/road-trip-cost-in-india"
+    },
+    {
+      "label": "Road trip packing list",
+      "href": "/blog/road-trip-packing-list"
+    },
+    {
+      "label": "Self-drive trips in India",
+      "href": "/blog/self-drive-trips-in-india"
+    },
+    {
+      "label": "Road trip holidays",
+      "href": "/packages/road-trip-holidays"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best road trips in India",
+      "href": "/blog/best-road-trips-in-india",
+      "note": "where to go"
+    },
+    {
+      "name": "How to plan a hill station trip",
+      "href": "/blog/how-to-plan-a-hill-station-trip",
+      "note": "hill trips"
+    },
+    {
+      "name": "Road trips from Delhi",
+      "href": "/blog/road-trips-from-delhi",
+      "note": "city starts"
+    }
+  ],
+  "places": [
+    "Delhi",
+    "Jaipur",
+    "Bengaluru",
+    "Coorg",
+    "Chennai",
+    "Pondicherry",
+    "Manali",
+    "Leh",
+    "Spiti"
+  ],
+  "styles": [
+    "road-trip-holidays"
+  ],
+  "planDestination": "a road trip",
+  "updated": "2026-09-26"
+}

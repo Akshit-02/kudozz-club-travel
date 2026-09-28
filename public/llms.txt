@@ -18,6 +18,7 @@ Official website: https://club.kudozz.in (also searched as "Kudoz Club", "Kudos 
 - [Heritage & Cultural Tourism in India](https://club.kudozz.in/heritage-cultural-tourism): hub for UNESCO sites, monuments, forts, palaces, caves, archaeological sites, historic cities, museums, crafts, textiles, dance and music, festivals, food heritage, state heritage guides and itineraries.
 - [Hill Station Travel in India](https://club.kudozz.in/hill-station-travel): hub for the best hill stations by region, state and season, snow and monsoon trips, couples, families, budget and luxury, hill stations near major cities, road trips, tea and coffee country, and itineraries.
 - [Nature Travel in India](https://club.kudozz.in/nature-travel): hub for the best nature destinations and natural wonders, forests, waterfalls, lakes, rivers, valleys and caves, the Himalaya, Western Ghats and Northeast, state nature guides, eco tourism, biodiversity, flower blooms, village stays, retreats, seasons and itineraries.
+- [Road Trips in India](https://club.kudozz.in/road-trips): hub for the best road trips and route guides (Delhi to Manali and Shimla, Manali and Srinagar to Leh, Spiti, Rajasthan, Mumbai to Goa, Bengaluru to Coorg and Ooty, Chennai to Pondicherry, Kochi to Munnar, Guwahati to Tawang), regional and state road trips, weekend drives from six cities, self-drive, seasons, costs, packing and safety.
 - [About](https://club.kudozz.in/about): who Kudozz Club is, how trip planning works, editorial independence.
 - [Contact](https://club.kudozz.in/contact): trip enquiries and other contact.
 
@@ -43,6 +44,8 @@ A Heritage & Cultural Tourism cluster, with its hub at /heritage-cultural-touris
 A Hill Station Travel cluster, with its hub at /hill-station-travel, covers the best hill stations and mountain destinations in India, four regional pages (Himalayan, Northeast, South, and western and central India), one guide per major hill state (/blog/hill-stations-in-<state>), seasonal pages (summer, winter, places to see snow, monsoon), couples, families, budget and luxury, hill stations near Delhi, Mumbai and Pune, Bengaluru, Chennai and Kolkata, mountain road trips, tea and coffee plantation tourism, planning, packing and responsible travel, and five multi-destination itineraries. Existing destination guides (such as Shimla, Manali, Darjeeling, Ooty and Munnar) remain the main page for each hill station, including its best time and short day plans. Snowfall is described as likely rather than guaranteed; permits, e-passes, pass openings and advisories are stated as current at the time of writing and should be checked before travel.
 
 A Nature Travel cluster, with its hub at /nature-travel, covers the best nature destinations and natural wonders of India, landscape guides (forests, waterfalls, lakes, riverside destinations, valleys and natural caves), the Himalaya, the Western Ghats and Northeast India, one guide per major nature state (/blog/nature-travel-in-<state>), eco tourism, biodiversity hotspots, flower valleys and blooms, village tourism, nature retreats (including budget and luxury stays), nature photography, offbeat places, a month-by-month calendar, planning, couples and families, and three itineraries (Meghalaya, Kerala and the Western Ghats of Karnataka). Existing destination guides (such as the Valley of Flowers, Jog Falls, Pangong Lake and Chilika Lake) remain the main page for each place; birdwatching, parks and safaris stay with the Wildlife cluster, hill towns with the Hill Station cluster, and treks and rafting with the Adventure cluster. Blooms, water levels and sightings are never guaranteed; permits, park openings and seasonal closures are stated as current at the time of writing and should be checked before travel.
+
+A Road Trips cluster, with its hub at /road-trips, covers the best road trips in India and route guides that focus on the journey rather than the destination: route options, approximate distances and driving times, stops, overnight options, seasons, permits and fees. It includes Himalayan routes (Delhi to Manali, Shimla and Rishikesh, Manali to Leh, Srinagar to Leh and the Spiti circuit), Himachal and Uttarakhand state guides, the Rajasthan circuit, South India, Kerala and routes from Bengaluru, Chennai and Kochi, Mumbai to Goa and Bengaluru to Goa, the Western Ghats and coastal road trips, Northeast India and Guwahati to Tawang, road trips from Delhi, Mumbai and Pune, Bengaluru, Chennai, Hyderabad and Kolkata, monsoon and winter road trips, wildlife and food road trips, family and couples' road trips, self-drive, and guides to planning, cost, packing and safety. Destination guides remain the main page for what to do on arrival; the Leh Ladakh road trip guide remains the main Ladakh page, the Hill Station cluster owns mountain road trips, and the Adventure cluster owns motorcycle trips. Driving times, road status, permits, tolls and fees are stated as approximate or current at the time of writing and should be checked before travel. The Road Trips travel style (/packages/road-trip-holidays) and state package pages lead to Plan My Trip.
 
 For 143 major destinations, a "Things to do in <place>" article (/blog/things-to-do-in-<place>) sits beside the destination guide. It focuses on activities and experiences, grouped by type, with practical facts, suitability notes and FAQs, and links back to the guide for planning details.
 
@@ -457,6 +460,66 @@ For 143 major destinations, a "Things to do in <place>" article (/blog/things-to
 - [Meghalaya Nature Itinerary: Six Days of Waterfalls, Caves and Root Bridges](https://club.kudozz.in/blog/meghalaya-nature-itinerary)
 - [Kerala Nature Itinerary: Hills, Forests, Waterfalls and Backwaters](https://club.kudozz.in/blog/kerala-nature-itinerary)
 - [Western Ghats Nature Itinerary: Coorg, Chikmagalur, Jog Falls and Dandeli](https://club.kudozz.in/blog/western-ghats-nature-itinerary)
+## Road trips
+
+- [Road Trips in India](https://club.kudozz.in/road-trips): the hub page.
+
+### Overviews and planning
+
+- [Best Road Trips in India: Routes for Every Region and Season](https://club.kudozz.in/blog/best-road-trips-in-india)
+- [How to Plan a Road Trip in India: Route, Days, Stops and Checks](https://club.kudozz.in/blog/how-to-plan-a-road-trip-in-india)
+- [Self-Drive Trips in India: Routes, Rentals and What to Know](https://club.kudozz.in/blog/self-drive-trips-in-india)
+- [Road Trip Cost in India: Fuel, Tolls, Stays and Rental Explained](https://club.kudozz.in/blog/road-trip-cost-in-india)
+- [Road Trip Packing List for India: Car, Mountain and Monsoon](https://club.kudozz.in/blog/road-trip-packing-list)
+- [Road Trip Safety in India: Mountains, Monsoon and Responsible Travel](https://club.kudozz.in/blog/road-trip-safety-in-india)
+
+### Himalayan road trips
+
+- [Road Trips in Himachal Pradesh: Routes, Passes and Where to Stop](https://club.kudozz.in/blog/road-trips-in-himachal-pradesh)
+- [Road Trips in Uttarakhand: Garhwal and Kumaon Drives](https://club.kudozz.in/blog/road-trips-in-uttarakhand)
+- [Delhi to Manali Road Trip: Route, Stops and Itinerary](https://club.kudozz.in/blog/delhi-to-manali-road-trip)
+- [Delhi to Shimla Road Trip: Route, Stops and Timing](https://club.kudozz.in/blog/delhi-to-shimla-road-trip)
+- [Delhi to Rishikesh Road Trip: Expressway, Old Route and Stops](https://club.kudozz.in/blog/delhi-to-rishikesh-road-trip)
+- [Manali to Leh Road Trip: Passes, Stops and Acclimatisation](https://club.kudozz.in/blog/manali-to-leh-road-trip)
+- [Srinagar to Leh Road Trip: Zojila, Kargil and Lamayuru](https://club.kudozz.in/blog/srinagar-to-leh-road-trip)
+- [Spiti Valley Road Trip: Routes, Circuit and Best Time](https://club.kudozz.in/blog/spiti-valley-road-trip)
+
+### Rajasthan, South India and the Northeast
+
+- [Rajasthan Road Trip: Routes, Circuits and Itinerary](https://club.kudozz.in/blog/rajasthan-road-trip)
+- [South India Road Trips: Ghats, Coasts and Temple Towns](https://club.kudozz.in/blog/south-india-road-trips)
+- [Kerala Road Trip: Hills, Backwaters and Coast by Road](https://club.kudozz.in/blog/kerala-road-trip)
+- [Bengaluru to Coorg Road Trip: Route, Stops and Weekend Plan](https://club.kudozz.in/blog/bengaluru-to-coorg-road-trip)
+- [Bengaluru to Ooty Road Trip: Via Mysuru, Bandipur and Mudumalai](https://club.kudozz.in/blog/bengaluru-to-ooty-road-trip)
+- [Kochi to Munnar Road Trip: Route, Waterfalls and Stops](https://club.kudozz.in/blog/kochi-to-munnar-road-trip)
+- [Chennai to Pondicherry Road Trip: The East Coast Road and Stops](https://club.kudozz.in/blog/chennai-to-pondicherry-road-trip)
+- [Bengaluru to Goa Road Trip: Routes via Hubballi and the Ghats](https://club.kudozz.in/blog/bengaluru-to-goa-road-trip)
+- [Northeast India Road Trips: Meghalaya, Assam, Arunachal and Sikkim](https://club.kudozz.in/blog/northeast-india-road-trips)
+- [Guwahati to Tawang Road Trip: Route, Stops and Sela Tunnel](https://club.kudozz.in/blog/guwahati-to-tawang-road-trip)
+
+### Western Ghats and coastal road trips
+
+- [Western Ghats Road Trips: Ghat Roads, Waterfalls and Forest Drives](https://club.kudozz.in/blog/western-ghats-road-trips)
+- [Coastal Road Trips in India: Konkan, Kerala, Coromandel and More](https://club.kudozz.in/blog/coastal-road-trips-in-india)
+- [Mumbai to Goa Road Trip: NH66, the Konkan and Ghat Routes](https://club.kudozz.in/blog/mumbai-to-goa-road-trip)
+
+### Road trips from the big cities
+
+- [Road Trips from Delhi: Hills, Rajasthan and Weekend Drives](https://club.kudozz.in/blog/road-trips-from-delhi)
+- [Road Trips from Mumbai and Pune: Ghats, Konkan and Weekend Drives](https://club.kudozz.in/blog/road-trips-from-mumbai)
+- [Road Trips from Bengaluru: Coffee Hills, Coast and Weekend Drives](https://club.kudozz.in/blog/road-trips-from-bengaluru)
+- [Road Trips from Chennai: Coast, Hills and Temple Towns](https://club.kudozz.in/blog/road-trips-from-chennai)
+- [Road Trips from Hyderabad: Heritage, Forests and Long Drives](https://club.kudozz.in/blog/road-trips-from-hyderabad)
+- [Road Trips from Kolkata: Coast, Terracotta Towns and the Hills](https://club.kudozz.in/blog/road-trips-from-kolkata)
+
+### Seasons, themes and travellers
+
+- [Monsoon Road Trips in India: Where to Drive and What to Avoid](https://club.kudozz.in/blog/monsoon-road-trips-in-india)
+- [Winter Road Trips in India: Deserts, Coasts and the South](https://club.kudozz.in/blog/winter-road-trips-in-india)
+- [Wildlife Road Trips in India: Driving Between Parks and Reserves](https://club.kudozz.in/blog/wildlife-road-trips-in-india)
+- [Food Road Trips in India: Highway Dhabas and Regional Food Trails](https://club.kudozz.in/blog/food-road-trips-in-india)
+- [Family Road Trips in India: Easy Routes and Planning Tips](https://club.kudozz.in/blog/road-trips-for-families-in-india)
+- [Road Trips for Couples in India: Scenic Routes and Slow Stays](https://club.kudozz.in/blog/road-trips-for-couples-in-india)
 ## Popular circuits
 
 - [Golden Triangle Tour Packages](https://club.kudozz.in/packages/golden-triangle): Delhi, Agra and Jaipur; 5–6 days typical.

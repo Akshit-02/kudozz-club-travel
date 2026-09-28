@@ -1,0 +1,358 @@
+{
+  "slug": "mumbai-to-goa-road-trip",
+  "kind": "destination",
+  "short": "Mumbai to Goa road trip",
+  "title": "Mumbai to Goa Road Trip: NH66, the Konkan and Ghat Routes",
+  "seoTitle": "Mumbai to Goa Road Trip: NH66, Konkan and Ghat Routes | Kudozz Club",
+  "metaDescription": "Mumbai to Goa by road: NH66 through the Konkan, the coastal route with ferries, and the Pune–Kolhapur–Amboli route, with distance, time, stops and seasons.",
+  "description": "A route guide to the Mumbai to Goa road trip: the NH66 Konkan route via Panvel, Mahad, Chiplun, Ratnagiri and Kudal, the slower coastal route with ferries past Alibaug, Murud, Dapoli, Ganpatipule, Tarkarli and Malvan, and the inland route via Pune, Satara, Kolhapur and Amboli, with approximate distances and times, NH66 widening, Ganesh festival traffic, monsoon cautions and stops.",
+  "dek": "There are three ways to drive from Mumbai to Goa: the Konkan highway, the slow coastal road, or inland over the Sahyadri.",
+  "primaryKeyword": "Mumbai to Goa road trip",
+  "secondaryKeywords": [
+    "Mumbai to Goa by road",
+    "Mumbai to Goa distance",
+    "Konkan road trip"
+  ],
+  "searchIntent": "Route planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "coast",
+    "Western Ghats",
+    "plains"
+  ],
+  "regions": [
+    "Maharashtra",
+    "Goa"
+  ],
+  "seasons": [
+    "winter",
+    "autumn",
+    "monsoon"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Mumbai to Goa",
+    "Road trip",
+    "Konkan",
+    "NH66",
+    "Coastal"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/mumbai-goa-road-trip-konkan.webp",
+    "alt": "The beach and temple at Ganpatipule on the Konkan coast, Maharashtra"
+  },
+  "parent": {
+    "label": "Coastal Road Trips in India",
+    "href": "/blog/coastal-road-trips-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Mumbai to Goa road trip",
+    "containedIn": "Goa"
+  },
+  "intro": [
+    "The direct route from Mumbai to Goa is NH66, which runs south through the Konkan between the Sahyadri and the sea, via Panvel, Mangaon, Mahad, Chiplun, Ratnagiri district, Kankavli and Kudal to Goa. Its long-running four-laning has been largely completed in Ratnagiri and Sindhudurg, but work continued in Raigad through 2026, with completion targeted for late 2026 or early 2027.",
+    "For a slower trip, coastal roads with short ferry crossings link beach villages such as Kashid, Murud, Harihareshwar, Dapoli, Ganpatipule and Malvan. The inland alternative uses the Mumbai–Pune Expressway and NH48 to Kolhapur, then descends the Amboli ghat to Goa."
+  ],
+  "quickAnswer": "Mumbai to Goa is about 590 km by road. NH66 through the Konkan (Panvel, Mahad, Chiplun, Kudal) usually takes 10 to 12 hours while widening work continues in Raigad. The inland route via Pune, Kolhapur and Amboli is similar in distance and often steadier. The coastal route with ferries takes three to five days and is the most scenic. October to March is best; avoid Ganesh festival traffic.",
+  "takeaways": [
+    "NH66 four-laning is largely complete in the south, with work continuing in Raigad; expect diversions.",
+    "The inland route via Pune and Kolhapur is a reliable alternative.",
+    "The coastal route is a multi-day trip with small ferries; check ferry timings.",
+    "Ganesh Chaturthi brings very heavy traffic into the Konkan.",
+    "The monsoon is beautiful in the Konkan but brings landslides and flooding."
+  ],
+  "sections": [
+    {
+      "id": "routes",
+      "heading": "Route options at a glance",
+      "table": {
+        "columns": [
+          "Route",
+          "Via",
+          "Approx. time",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "NH66 Konkan highway",
+            "Panvel, Mahad, Chiplun, Sangameshwar, Kankavli, Kudal",
+            "10 to 12 hours",
+            "The direct coastal route"
+          ],
+          [
+            "Inland via Pune",
+            "Pune, Satara, Kolhapur, Amboli or Belagavi",
+            "10 to 11 hours",
+            "Expressway and NH48; Amboli ghat"
+          ],
+          [
+            "Coastal villages",
+            "Alibaug, Murud, Dapoli, Ganpatipule, Malvan",
+            "3 to 5 days",
+            "Beaches, forts and slow travel"
+          ]
+        ],
+        "caption": "Times are approximate and depend on road works and traffic."
+      }
+    },
+    {
+      "id": "konkan",
+      "heading": "Stops on the Konkan",
+      "items": [
+        {
+          "name": "Ganpatipule and Ratnagiri",
+          "body": [
+            "A temple on the beach and Ratnagiri's Alphonso country, a detour from NH66."
+          ],
+          "links": [
+            {
+              "label": "Ganpatipule guide",
+              "href": "/blog/ganpatipule-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/ganpatipule/ratnagiri-town-ganpatipule.webp",
+            "alt": "Ratnagiri town near Ganpatipule",
+            "caption": "Ratnagiri"
+          }
+        },
+        {
+          "name": "Tarkarli and Malvan",
+          "body": [
+            "Clear water, snorkelling and the sea fort of Sindhudurg."
+          ],
+          "links": [
+            {
+              "label": "Tarkarli guide",
+              "href": "/blog/tarkarli-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/maharashtra/maharashtra/sindhudurg-fort-island-malvan-coast.webp",
+            "alt": "Sindhudurg fort off Malvan",
+            "caption": "Sindhudurg"
+          }
+        },
+        {
+          "name": "Alibaug and Murud",
+          "body": [
+            "Beaches and the island fort of Janjira, near Mumbai."
+          ],
+          "links": [
+            {
+              "label": "Alibaug guide",
+              "href": "/blog/alibaug-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inland",
+      "heading": "The inland route",
+      "paras": [
+        "From Mumbai, the expressway to Pune and NH48 to Satara and Kolhapur are fast and well-maintained. From Kolhapur, the road descends the Amboli ghat through forest and waterfalls to Sawantwadi and Goa, or continues via Belagavi and the Chorla ghat. This route suits drivers who want predictable highways and a stop at Kolhapur's Mahalaxmi temple."
+      ],
+      "items": [
+        {
+          "name": "Ghats",
+          "body": [
+            "More ghat drives."
+          ],
+          "links": [
+            {
+              "label": "Western Ghats road trips",
+              "href": "/blog/western-ghats-road-trips"
+            },
+            {
+              "label": "Kolhapur guide",
+              "href": "/blog/kolhapur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coastal",
+      "heading": "The coastal route",
+      "paras": [
+        "Following the coast means small roads, short ferry crossings (for example at Dighi–Agardanda or Bagmandla–Veshvi) and many detours to beaches and forts. Ferry schedules change with the tide and season, so check timings locally. It is best done over three to five days with nights in Murud, Dapoli, Ganpatipule and Malvan."
+      ],
+      "items": [
+        {
+          "name": "Coast",
+          "body": [
+            "More coastal drives."
+          ],
+          "links": [
+            {
+              "label": "Coastal road trips",
+              "href": "/blog/coastal-road-trips-in-india"
+            },
+            {
+              "label": "Best beaches in Maharashtra",
+              "href": "/blog/best-beaches-in-maharashtra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrive",
+      "heading": "Once you arrive",
+      "items": [
+        {
+          "name": "Goa",
+          "body": [
+            "What to do in Goa."
+          ],
+          "links": [
+            {
+              "label": "Goa beaches guide",
+              "href": "/blog/goa-beaches-travel-guide"
+            },
+            {
+              "label": "Things to do in Goa",
+              "href": "/blog/things-to-do-in-goa"
+            },
+            {
+              "label": "Best beaches in Goa",
+              "href": "/blog/best-beaches-in-goa"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/goa/goa/chapora-fort-vagator-goa.webp",
+            "alt": "Chapora fort above Vagator, Goa",
+            "caption": "North Goa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "driving",
+      "heading": "Driving considerations",
+      "list": [
+        "Expect diversions and single-lane stretches where NH66 work is ongoing.",
+        "Kashedi ghat and other short climbs can be slow behind trucks.",
+        "Ganesh Chaturthi (usually August or September) brings huge traffic into the Konkan; avoid those days.",
+        "Night driving on NH66 is best avoided because of works and unlit stretches."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to March is best, with dry roads and pleasant weather. The monsoon (June to September) is spectacular in the Konkan and on the Amboli ghat, but heavy rain brings landslides, waterlogging and slower travel. April and May are hot and humid, but mango season in Ratnagiri and Devgad."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Goa from Mumbai by road?",
+      "a": "About 590 km via NH66 or the inland route through Kolhapur."
+    },
+    {
+      "q": "How long does the Mumbai to Goa drive take?",
+      "a": "Usually 10 to 12 hours, depending on the route and road works."
+    },
+    {
+      "q": "Is the Mumbai–Goa highway complete?",
+      "a": "Most of NH66 has been widened, but work continued in Raigad through 2026, with completion targeted for late 2026 or early 2027."
+    },
+    {
+      "q": "Which is better, NH66 or the Kolhapur route?",
+      "a": "NH66 is more direct; the Kolhapur route often has steadier highways and the Amboli ghat."
+    },
+    {
+      "q": "Can I drive along the coast from Mumbai to Goa?",
+      "a": "Yes, over three to five days, using small ferries and coastal roads."
+    },
+    {
+      "q": "When should I avoid driving to Goa?",
+      "a": "During Ganesh Chaturthi and on heavy monsoon days."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Goa",
+      "href": "/blog/things-to-do-in-goa"
+    },
+    {
+      "label": "Road trips from Mumbai",
+      "href": "/blog/road-trips-from-mumbai"
+    },
+    {
+      "label": "Coastal road trips",
+      "href": "/blog/coastal-road-trips-in-india"
+    },
+    {
+      "label": "Goa tour packages",
+      "href": "/packages/goa"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best beaches in Goa",
+      "href": "/blog/best-beaches-in-goa",
+      "note": "where to stay"
+    },
+    {
+      "name": "Monsoon road trips",
+      "href": "/blog/monsoon-road-trips-in-india",
+      "note": "rainy-season drives"
+    },
+    {
+      "name": "Bengaluru to Goa road trip",
+      "href": "/blog/bengaluru-to-goa-road-trip",
+      "note": "from the south"
+    }
+  ],
+  "places": [
+    "Mumbai",
+    "Panvel",
+    "Mangaon",
+    "Mahad",
+    "Chiplun",
+    "Ratnagiri",
+    "Ganpatipule",
+    "Kankavli",
+    "Kudal",
+    "Malvan",
+    "Tarkarli",
+    "Pune",
+    "Kolhapur",
+    "Amboli",
+    "Goa"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "weekend-getaways"
+  ],
+  "planDestination": "Goa",
+  "updated": "2026-09-26"
+}

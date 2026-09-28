@@ -4118,5 +4118,622 @@
   "alt": "",
   "usedIn": "/blog/western-ghats-nature-itinerary",
   "n": 6
+ },
+ "road-hub": {
+  "stem": "road-trips-india-manali-leh-highway",
+  "queries": [
+   "Manali Leh highway road",
+   "Leh Manali Highway"
+  ],
+  "must": [
+   "leh",
+   "manali"
+  ],
+  "alt": "",
+  "usedIn": "/road-trips",
+  "n": 6
+ },
+ "best-road-trips-in-india": {
+  "stem": "best-road-trips-india-chang-la-road",
+  "queries": [
+   "Chang La road Ladakh",
+   "Ladakh road mountains"
+  ],
+  "must": [
+   "road",
+   "ladakh",
+   "chang"
+  ],
+  "alt": "",
+  "usedIn": "/blog/best-road-trips-in-india",
+  "n": 6
+ },
+ "road-trips-in-himachal-pradesh": {
+  "stem": "himachal-road-trip-kinnaur-road",
+  "queries": [
+   "Kinnaur road cliff",
+   "Hindustan Tibet road Kinnaur"
+  ],
+  "must": [
+   "kinnaur",
+   "road"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trips-in-himachal-pradesh",
+  "n": 6
+ },
+ "road-trips-in-uttarakhand": {
+  "stem": "uttarakhand-road-trip-garhwal-road",
+  "queries": [
+   "Rishikesh Badrinath road",
+   "road Garhwal Himalaya Uttarakhand"
+  ],
+  "must": [
+   "road",
+   "uttarakhand",
+   "garhwal",
+   "badrinath",
+   "kedarnath"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trips-in-uttarakhand",
+  "n": 6
+ },
+ "delhi-to-manali-road-trip": {
+  "stem": "delhi-manali-road-trip-kullu-beas",
+  "queries": [
+   "Kullu valley Beas river road",
+   "Mandi Kullu highway"
+  ],
+  "must": [
+   "kullu",
+   "beas",
+   "mandi"
+  ],
+  "alt": "",
+  "usedIn": "/blog/delhi-to-manali-road-trip",
+  "n": 6
+ },
+ "delhi-to-shimla-road-trip": {
+  "stem": "delhi-shimla-road-trip-solan-road",
+  "queries": [
+   "Kalka Shimla highway",
+   "Shimla road hills"
+  ],
+  "must": [
+   "shimla",
+   "solan",
+   "kalka",
+   "parwanoo"
+  ],
+  "alt": "",
+  "usedIn": "/blog/delhi-to-shimla-road-trip",
+  "n": 6
+ },
+ "delhi-to-rishikesh-road-trip": {
+  "stem": "delhi-rishikesh-road-trip-ganga",
+  "queries": [
+   "Rishikesh Ganga hills",
+   "Laxman Jhula Rishikesh"
+  ],
+  "must": [
+   "rishikesh"
+  ],
+  "alt": "",
+  "usedIn": "/blog/delhi-to-rishikesh-road-trip",
+  "n": 6
+ },
+ "manali-to-leh-road-trip": {
+  "stem": "manali-leh-road-trip-more-plains",
+  "queries": [
+   "More Plains Ladakh",
+   "Gata Loops",
+   "Tanglang La"
+  ],
+  "must": [
+   "more plains",
+   "gata",
+   "tanglang",
+   "sarchu",
+   "baralacha"
+  ],
+  "alt": "",
+  "usedIn": "/blog/manali-to-leh-road-trip",
+  "n": 6
+ },
+ "srinagar-to-leh-road-trip": {
+  "stem": "srinagar-leh-road-trip-zojila",
+  "queries": [
+   "Zoji La pass road",
+   "Srinagar Leh highway Kargil"
+  ],
+  "must": [
+   "zoji",
+   "zojila",
+   "kargil",
+   "drass",
+   "lamayuru"
+  ],
+  "alt": "",
+  "usedIn": "/blog/srinagar-to-leh-road-trip",
+  "n": 6
+ },
+ "spiti-valley-road-trip": {
+  "stem": "spiti-road-trip-kaza-road",
+  "queries": [
+   "Spiti valley road",
+   "Nako Spiti road",
+   "Kunzum pass road"
+  ],
+  "must": [
+   "spiti",
+   "kunzum",
+   "nako",
+   "kaza",
+   "tabo"
+  ],
+  "alt": "",
+  "usedIn": "/blog/spiti-valley-road-trip",
+  "n": 6
+ },
+ "rajasthan-road-trip": {
+  "stem": "rajasthan-road-trip-jaisalmer-desert-road",
+  "queries": [
+   "Jaisalmer road desert",
+   "Rajasthan highway desert"
+  ],
+  "must": [
+   "jaisalmer",
+   "rajasthan",
+   "thar"
+  ],
+  "alt": "",
+  "usedIn": "/blog/rajasthan-road-trip",
+  "n": 6
+ },
+ "south-india-road-trips": {
+  "stem": "south-india-road-trips-nilgiris-road",
+  "queries": [
+   "Nilgiris ghat road",
+   "Kalhatti ghat road",
+   "Valparai hairpin"
+  ],
+  "must": [
+   "nilgiri",
+   "kalhatti",
+   "valparai",
+   "ghat road",
+   "hairpin"
+  ],
+  "alt": "",
+  "usedIn": "/blog/south-india-road-trips",
+  "n": 6
+ },
+ "kerala-road-trip": {
+  "stem": "kerala-road-trip-munnar-road",
+  "queries": [
+   "Munnar road tea",
+   "road Idukki Kerala"
+  ],
+  "must": [
+   "munnar",
+   "idukki",
+   "kerala"
+  ],
+  "alt": "",
+  "usedIn": "/blog/kerala-road-trip",
+  "n": 6
+ },
+ "bengaluru-to-coorg-road-trip": {
+  "stem": "bengaluru-coorg-road-trip-madikeri",
+  "queries": [
+   "Coorg road coffee",
+   "Madikeri road"
+  ],
+  "must": [
+   "coorg",
+   "kodagu",
+   "madikeri"
+  ],
+  "alt": "",
+  "usedIn": "/blog/bengaluru-to-coorg-road-trip",
+  "n": 6
+ },
+ "bengaluru-to-ooty-road-trip": {
+  "stem": "bengaluru-ooty-road-trip-mudumalai-road",
+  "queries": [
+   "Mudumalai road",
+   "Bandipur road"
+  ],
+  "must": [
+   "mudumalai",
+   "bandipur"
+  ],
+  "alt": "",
+  "usedIn": "/blog/bengaluru-to-ooty-road-trip",
+  "n": 6
+ },
+ "chennai-to-pondicherry-road-trip": {
+  "stem": "chennai-pondicherry-road-trip-ecr",
+  "queries": [
+   "East Coast Road Chennai",
+   "Pondicherry promenade"
+  ],
+  "must": [
+   "east coast road",
+   "ecr",
+   "pondicherry",
+   "puducherry"
+  ],
+  "alt": "",
+  "usedIn": "/blog/chennai-to-pondicherry-road-trip",
+  "n": 6
+ },
+ "kochi-to-munnar-road-trip": {
+  "stem": "kochi-munnar-road-trip-cheeyappara",
+  "queries": [
+   "Cheeyappara waterfalls",
+   "Valara waterfalls"
+  ],
+  "must": [
+   "cheeyappara",
+   "valara"
+  ],
+  "alt": "",
+  "usedIn": "/blog/kochi-to-munnar-road-trip",
+  "n": 6
+ },
+ "mumbai-to-goa-road-trip": {
+  "stem": "mumbai-goa-road-trip-konkan",
+  "queries": [
+   "Kashedi Ghat",
+   "Mumbai Goa highway",
+   "Ganpatipule"
+  ],
+  "must": [
+   "kashedi",
+   "mumbai goa",
+   "ganpatipule",
+   "konkan"
+  ],
+  "alt": "",
+  "usedIn": "/blog/mumbai-to-goa-road-trip",
+  "n": 6
+ },
+ "bengaluru-to-goa-road-trip": {
+  "stem": "bengaluru-goa-road-trip-anmod-ghat",
+  "queries": [
+   "Anmod ghat",
+   "Chorla ghat",
+   "Dharwad highway"
+  ],
+  "must": [
+   "anmod",
+   "chorla",
+   "dharwad",
+   "hubli"
+  ],
+  "alt": "",
+  "usedIn": "/blog/bengaluru-to-goa-road-trip",
+  "n": 6
+ },
+ "western-ghats-road-trips": {
+  "stem": "western-ghats-road-trips-ghat-road",
+  "queries": [
+   "Amboli ghat",
+   "Malshej ghat",
+   "Tamhini ghat"
+  ],
+  "must": [
+   "amboli",
+   "malshej",
+   "tamhini",
+   "ghat"
+  ],
+  "alt": "",
+  "usedIn": "/blog/western-ghats-road-trips",
+  "n": 6
+ },
+ "coastal-road-trips-in-india": {
+  "stem": "coastal-road-trips-konkan-coast",
+  "queries": [
+   "Kasaragod coast",
+   "Varkala cliff",
+   "Malpe beach",
+   "Tharangambadi"
+  ],
+  "must": [
+   "varkala",
+   "kasaragod",
+   "malpe",
+   "tharangambadi",
+   "coast"
+  ],
+  "alt": "",
+  "usedIn": "/blog/coastal-road-trips-in-india",
+  "n": 6
+ },
+ "northeast-india-road-trips": {
+  "stem": "northeast-road-trips-meghalaya-road",
+  "queries": [
+   "Meghalaya road",
+   "Shillong Sohra road"
+  ],
+  "must": [
+   "meghalaya",
+   "sohra",
+   "shillong",
+   "cherrapunji"
+  ],
+  "alt": "",
+  "usedIn": "/blog/northeast-india-road-trips",
+  "n": 6
+ },
+ "guwahati-to-tawang-road-trip": {
+  "stem": "guwahati-tawang-road-trip-sela-pass",
+  "queries": [
+   "Sela Pass",
+   "Sela Lake Tawang"
+  ],
+  "must": [
+   "sela"
+  ],
+  "alt": "",
+  "usedIn": "/blog/guwahati-to-tawang-road-trip",
+  "n": 6
+ },
+ "road-trips-from-delhi": {
+  "stem": "road-trips-delhi-yamuna-expressway",
+  "queries": [
+   "Yamuna Expressway",
+   "Delhi highway"
+  ],
+  "must": [
+   "expressway",
+   "highway",
+   "yamuna"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trips-from-delhi",
+  "n": 6
+ },
+ "road-trips-from-mumbai": {
+  "stem": "road-trips-mumbai-pune-expressway",
+  "queries": [
+   "Mumbai Pune Expressway",
+   "Bhor ghat"
+  ],
+  "must": [
+   "expressway",
+   "bhor",
+   "khandala"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trips-from-mumbai",
+  "n": 6
+ },
+ "road-trips-from-bengaluru": {
+  "stem": "road-trips-bengaluru-nandi-hills-road",
+  "queries": [
+   "Nandi Hills road",
+   "Bangalore Mysore highway"
+  ],
+  "must": [
+   "nandi",
+   "mysore",
+   "mysuru"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trips-from-bengaluru",
+  "n": 6
+ },
+ "road-trips-from-chennai": {
+  "stem": "road-trips-chennai-mahabalipuram",
+  "queries": [
+   "Mahabalipuram shore",
+   "Yelagiri road"
+  ],
+  "must": [
+   "mahabalipuram",
+   "mamallapuram",
+   "yelagiri"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trips-from-chennai",
+  "n": 6
+ },
+ "road-trips-from-hyderabad": {
+  "stem": "road-trips-hyderabad-srisailam-ghat",
+  "queries": [
+   "Srisailam ghat road",
+   "Nallamala forest road",
+   "Srisailam dam"
+  ],
+  "must": [
+   "srisailam",
+   "nallamala"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trips-from-hyderabad",
+  "n": 6
+ },
+ "road-trips-from-kolkata": {
+  "stem": "road-trips-kolkata-bishnupur",
+  "queries": [
+   "Bishnupur temple",
+   "Digha beach",
+   "Mandarmani"
+  ],
+  "must": [
+   "bishnupur",
+   "digha",
+   "mandarmani"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trips-from-kolkata",
+  "n": 6
+ },
+ "self-drive-trips-in-india": {
+  "stem": "self-drive-india-ladakh-car-road",
+  "queries": [
+   "car on mountain road Ladakh",
+   "Ladakh car road"
+  ],
+  "must": [
+   "ladakh",
+   "road",
+   "car"
+  ],
+  "alt": "",
+  "usedIn": "/blog/self-drive-trips-in-india",
+  "n": 6
+ },
+ "road-trips-for-families-in-india": {
+  "stem": "family-road-trips-nilgiris-tea-road",
+  "queries": [
+   "Ooty tea garden road",
+   "Coonoor road tea"
+  ],
+  "must": [
+   "ooty",
+   "coonoor",
+   "nilgiri"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trips-for-families-in-india",
+  "n": 6
+ },
+ "road-trips-for-couples-in-india": {
+  "stem": "couples-road-trips-munnar-hills",
+  "queries": [
+   "Munnar hills road",
+   "Vagamon road"
+  ],
+  "must": [
+   "munnar",
+   "vagamon"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trips-for-couples-in-india",
+  "n": 6
+ },
+ "monsoon-road-trips-in-india": {
+  "stem": "monsoon-road-trips-western-ghats",
+  "queries": [
+   "Western Ghats monsoon road",
+   "Malshej ghat monsoon",
+   "monsoon Sahyadri"
+  ],
+  "must": [
+   "monsoon",
+   "malshej",
+   "ghat"
+  ],
+  "alt": "",
+  "usedIn": "/blog/monsoon-road-trips-in-india",
+  "n": 6
+ },
+ "winter-road-trips-in-india": {
+  "stem": "winter-road-trips-rann-of-kutch-road",
+  "queries": [
+   "Road to Heaven Kutch",
+   "Rann of Kutch road",
+   "Dholavira road"
+  ],
+  "must": [
+   "kutch",
+   "rann",
+   "dholavira"
+  ],
+  "alt": "",
+  "usedIn": "/blog/winter-road-trips-in-india",
+  "n": 6
+ },
+ "wildlife-road-trips-in-india": {
+  "stem": "wildlife-road-trips-kanha-road",
+  "queries": [
+   "Kanha forest road",
+   "Pench forest road",
+   "Tadoba road"
+  ],
+  "must": [
+   "kanha",
+   "pench",
+   "tadoba"
+  ],
+  "alt": "",
+  "usedIn": "/blog/wildlife-road-trips-in-india",
+  "n": 6
+ },
+ "food-road-trips-in-india": {
+  "stem": "food-road-trips-dhaba",
+  "queries": [
+   "dhaba India highway",
+   "Murthal dhaba",
+   "roadside dhaba"
+  ],
+  "must": [
+   "dhaba"
+  ],
+  "alt": "",
+  "usedIn": "/blog/food-road-trips-in-india",
+  "n": 6
+ },
+ "how-to-plan-a-road-trip-in-india": {
+  "stem": "plan-road-trip-india-mountain-road",
+  "queries": [
+   "Himalayan road hairpin",
+   "mountain road India hairpin"
+  ],
+  "must": [
+   "road",
+   "hairpin",
+   "india"
+  ],
+  "alt": "",
+  "usedIn": "/blog/how-to-plan-a-road-trip-in-india",
+  "n": 6
+ },
+ "road-trip-cost-in-india": {
+  "stem": "road-trip-cost-toll-plaza",
+  "queries": [
+   "toll plaza India",
+   "FASTag toll plaza"
+  ],
+  "must": [
+   "toll"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trip-cost-in-india",
+  "n": 6
+ },
+ "road-trip-packing-list": {
+  "stem": "road-trip-packing-car-mountain",
+  "queries": [
+   "car Rohtang road",
+   "Rohtang pass road"
+  ],
+  "must": [
+   "rohtang",
+   "road"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trip-packing-list",
+  "n": 6
+ },
+ "road-trip-safety-in-india": {
+  "stem": "road-trip-safety-bro-sign",
+  "queries": [
+   "Border Roads Organisation sign",
+   "BRO road sign Ladakh"
+  ],
+  "must": [
+   "border roads",
+   "bro",
+   "sign"
+  ],
+  "alt": "",
+  "usedIn": "/blog/road-trip-safety-in-india",
+  "n": 6
  }
 }

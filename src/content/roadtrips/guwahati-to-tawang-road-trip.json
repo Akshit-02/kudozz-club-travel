@@ -1,0 +1,381 @@
+{
+  "slug": "guwahati-to-tawang-road-trip",
+  "kind": "destination",
+  "short": "Guwahati to Tawang road trip",
+  "title": "Guwahati to Tawang Road Trip: Route, Stops and Sela Tunnel",
+  "seoTitle": "Guwahati to Tawang Road Trip: Route, Stops, Sela Tunnel | Kudozz Club",
+  "metaDescription": "Guwahati to Tawang by road: via Tezpur, Bhalukpong, Bomdila, Dirang and the Sela tunnel, with overnight stops, ILP, altitude, snow season and a week-long plan.",
+  "description": "A route guide to the Guwahati to Tawang road trip: via Tezpur and Bhalukpong into Arunachal Pradesh, then Tenga, Bomdila, Dirang, the Sela tunnel and Sela Pass, and Jang to Tawang, with approximate distances, overnight stops at Dirang or Bomdila, the Inner Line Permit, altitude, winter snow, Bum La permits and a six- to eight-day return plan.",
+  "dek": "The road to Tawang climbs from the Brahmaputra plains to the high passes of western Arunachal Pradesh, via monasteries, orchards and a new tunnel under Sela.",
+  "primaryKeyword": "Guwahati to Tawang road trip",
+  "secondaryKeywords": [
+    "Guwahati to Tawang by road",
+    "Tawang road trip itinerary",
+    "Arunachal road trip"
+  ],
+  "searchIntent": "Route planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "plains",
+    "mountains",
+    "high passes"
+  ],
+  "regions": [
+    "Assam",
+    "Arunachal Pradesh"
+  ],
+  "seasons": [
+    "autumn",
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Guwahati to Tawang",
+    "Road trip",
+    "Arunachal Pradesh",
+    "Sela Pass",
+    "Himalaya"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/guwahati-tawang-road-trip-sela-pass.webp",
+    "alt": "Snow on the slopes at Sela Pass, Arunachal Pradesh"
+  },
+  "parent": {
+    "label": "Northeast India Road Trips",
+    "href": "/blog/northeast-india-road-trips"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Guwahati to Tawang road trip",
+    "containedIn": "Arunachal Pradesh"
+  },
+  "intro": [
+    "The drive from Guwahati to Tawang covers roughly 450 to 500 km. It crosses the Brahmaputra plains to Tezpur, enters Arunachal Pradesh at Bhalukpong, and climbs through forested hills to Tenga, Bomdila and the Dirang valley. The final day crosses the high country around Sela, now mostly through the Sela tunnel, which opened in March 2024, and descends past Jang to Tawang and its great monastery.",
+    "Almost everyone breaks the journey at Dirang or Bomdila, which also helps with acclimatisation before the high passes."
+  ],
+  "quickAnswer": "Guwahati to Tawang is about 450 to 500 km via Tezpur, Bhalukpong, Bomdila, Dirang and the Sela tunnel, and is usually driven over two days with a night at Dirang or Bomdila. Indian visitors need an Arunachal Pradesh Inner Line Permit. October to April is best; Sela Pass has snow from about December to February. Bum La, near the border, needs a separate permit from Tawang.",
+  "takeaways": [
+    "Plan two days each way, with a night at Dirang or Bomdila.",
+    "The Sela tunnel (opened March 2024) makes the route more reliable in winter.",
+    "Get your Arunachal Inner Line Permit online before travelling; it is checked at Bhalukpong.",
+    "Snow is likely around Sela from December to February, but not guaranteed.",
+    "Bum La and some areas near the border need extra permits from the district administration."
+  ],
+  "sections": [
+    {
+      "id": "route",
+      "heading": "The route at a glance",
+      "table": {
+        "columns": [
+          "Leg",
+          "Approx. distance",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Guwahati–Tezpur",
+            "About 180 km",
+            "Brahmaputra plains; Tezpur's temples and parks"
+          ],
+          [
+            "Tezpur–Bhalukpong",
+            "About 60 km",
+            "ILP check at the Arunachal border"
+          ],
+          [
+            "Bhalukpong–Tenga–Bomdila",
+            "About 100 km",
+            "Forested climb; Bomdila monastery"
+          ],
+          [
+            "Bomdila–Dirang",
+            "About 40 km",
+            "Apple and kiwi orchards; hot springs"
+          ],
+          [
+            "Dirang–Sela tunnel–Jang–Tawang",
+            "About 135 km",
+            "Sela lake and pass; Jang (Nuranang) falls"
+          ]
+        ],
+        "caption": "Distances are approximate."
+      }
+    },
+    {
+      "id": "stops",
+      "heading": "Stops along the way",
+      "items": [
+        {
+          "name": "Tezpur",
+          "body": [
+            "A pleasant riverside town, often the first-night stop from Guwahati."
+          ],
+          "links": [
+            {
+              "label": "Tezpur guide",
+              "href": "/blog/tezpur-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Bomdila",
+          "body": [
+            "A hill town with a Buddhist monastery and views of the Himalaya."
+          ],
+          "links": [
+            {
+              "label": "Bomdila guide",
+              "href": "/blog/bomdila-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/arunachal-pradesh/arunachal-pradesh/bomdila-monastery-arunachal-pradesh.webp",
+            "alt": "Bomdila monastery",
+            "caption": "Bomdila"
+          }
+        },
+        {
+          "name": "Dirang",
+          "body": [
+            "A valley of orchards, a dzong and a sheep-breeding farm; the best place to sleep before Sela."
+          ],
+          "links": [
+            {
+              "label": "Dirang guide",
+              "href": "/blog/dirang-travel-guide"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/arunachal-pradesh/arunachal-pradesh/dirang-valley-apple-orchards-arunachal-pradesh.webp",
+            "alt": "Apple orchards in the Dirang valley",
+            "caption": "Dirang"
+          }
+        },
+        {
+          "name": "Sela Pass and lake",
+          "body": [
+            "A high pass and lake that are often frozen in winter; the tunnel bypasses the top."
+          ],
+          "links": [
+            {
+              "label": "Sela Pass guide",
+              "href": "/blog/sela-pass-travel-guide"
+            }
+          ]
+        },
+        {
+          "name": "Jang",
+          "body": [
+            "Nuranang (Jang) falls, a short detour before Tawang."
+          ],
+          "image": {
+            "src": "/images/blogs/arunachal-pradesh/tawang/nuranang-falls-tawang.webp",
+            "alt": "Nuranang falls near Jang",
+            "caption": "Nuranang falls"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "heading": "A week-long return plan",
+      "table": {
+        "columns": [
+          "Day",
+          "Route",
+          "Overnight"
+        ],
+        "rows": [
+          [
+            "1",
+            "Guwahati–Tezpur or Bhalukpong",
+            "Tezpur or Bhalukpong"
+          ],
+          [
+            "2",
+            "Bhalukpong–Bomdila–Dirang",
+            "Dirang"
+          ],
+          [
+            "3",
+            "Dirang–Sela–Jang–Tawang",
+            "Tawang"
+          ],
+          [
+            "4",
+            "Tawang monastery, war memorial; Bum La with permit",
+            "Tawang"
+          ],
+          [
+            "5",
+            "Tawang–Dirang",
+            "Dirang"
+          ],
+          [
+            "6",
+            "Dirang–Guwahati (long day) or via Nameri",
+            "Guwahati or Nameri"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "permits",
+      "heading": "Permits",
+      "list": [
+        "Indian visitors need an Arunachal Pradesh Inner Line Permit, available online; carry printed copies.",
+        "Bum La and some border areas need an additional permit arranged in Tawang, usually a day ahead.",
+        "Foreign nationals need a Protected Area Permit.",
+        "Rules change; check the official Arunachal portal before travel."
+      ]
+    },
+    {
+      "id": "arrive",
+      "heading": "Once you arrive",
+      "items": [
+        {
+          "name": "Tawang",
+          "body": [
+            "What to do in Tawang."
+          ],
+          "links": [
+            {
+              "label": "Tawang guide",
+              "href": "/blog/tawang-travel-guide"
+            },
+            {
+              "label": "Things to do in Tawang",
+              "href": "/blog/things-to-do-in-tawang"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/arunachal-pradesh/tawang/tawang-monastery.webp",
+            "alt": "Tawang monastery",
+            "caption": "Tawang monastery"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vehicles",
+      "heading": "Car, driver and fuel",
+      "paras": [
+        "Most travellers hire a car with a driver from Guwahati or Tezpur, as drivers know the road, the checkposts and the weather. Fuel is available in Tezpur, Bhalukpong, Bomdila, Dirang and Tawang, but fill up whenever you can. Mobile networks work in towns but drop out on long stretches, especially around Sela."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "October to April is best, with clear skies from October to December. Snow is likely around Sela and Tawang from December to February, which is beautiful but cold; the tunnel has improved winter access, but ice and snow can still slow the road. The monsoon (June to September) brings landslides on the lower sections between Bhalukpong and Bomdila."
+      ]
+    }
+  ],
+  "safety": [
+    "Above about 3,000 m, ascend gradually, rest on arrival and see a doctor before travel if you have heart, lung or blood-pressure conditions.",
+    "Carry snow chains or check conditions in winter.",
+    "Do not stop in restricted military areas or photograph installations.",
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Warm layers, gloves and a warm hat",
+    "Printed ILP and ID copies",
+    "Sunscreen and sunglasses for snow",
+    "Cash; ATMs are limited beyond Bomdila"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Tawang from Guwahati by road?",
+      "a": "About 450 to 500 km via Tezpur, Bomdila, Dirang and the Sela tunnel."
+    },
+    {
+      "q": "How many days does the drive take?",
+      "a": "Two days each way, with a night at Dirang or Bomdila."
+    },
+    {
+      "q": "Do I need a permit for Tawang?",
+      "a": "Yes. Indian visitors need an Arunachal Pradesh Inner Line Permit; Bum La needs an additional permit."
+    },
+    {
+      "q": "Is the Sela tunnel open?",
+      "a": "Yes. It opened in March 2024."
+    },
+    {
+      "q": "When can I see snow on the way to Tawang?",
+      "a": "Usually from December to February around Sela, though it is never guaranteed."
+    },
+    {
+      "q": "Is the Guwahati to Tawang road good?",
+      "a": "It is mostly paved but winding and slow, with landslides in the monsoon."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Tawang guide",
+      "href": "/blog/tawang-travel-guide"
+    },
+    {
+      "label": "Northeast India road trips",
+      "href": "/blog/northeast-india-road-trips"
+    },
+    {
+      "label": "Things to do in Tawang",
+      "href": "/blog/things-to-do-in-tawang"
+    },
+    {
+      "label": "Arunachal tour packages",
+      "href": "/packages/arunachal-pradesh"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Hill stations in Northeast India",
+      "href": "/blog/hill-stations-in-northeast-india",
+      "note": "Tawang and more"
+    },
+    {
+      "name": "Buddhist tourism in India",
+      "href": "/blog/buddhist-tourism-in-india",
+      "note": "monasteries"
+    },
+    {
+      "name": "Mountain road trips",
+      "href": "/blog/mountain-road-trips-in-india",
+      "note": "Himalayan drives"
+    }
+  ],
+  "places": [
+    "Guwahati",
+    "Tezpur",
+    "Bhalukpong",
+    "Tenga",
+    "Bomdila",
+    "Dirang",
+    "Sela Pass",
+    "Jang",
+    "Tawang",
+    "Bum La"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "adventure-tours"
+  ],
+  "planDestination": "Tawang",
+  "updated": "2026-09-26"
+}

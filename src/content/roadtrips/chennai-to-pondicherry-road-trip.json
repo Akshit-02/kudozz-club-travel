@@ -1,0 +1,348 @@
+{
+  "slug": "chennai-to-pondicherry-road-trip",
+  "kind": "destination",
+  "short": "Chennai to Pondicherry road trip",
+  "title": "Chennai to Pondicherry Road Trip: The East Coast Road and Stops",
+  "seoTitle": "Chennai to Pondicherry Road Trip: The East Coast Road | Kudozz Club",
+  "metaDescription": "Chennai to Pondicherry by road on the East Coast Road: Covelong, DakshinaChitra, Mahabalipuram and Marakkanam, distance, driving time and a weekend plan.",
+  "description": "A route guide to the Chennai to Pondicherry road trip along the East Coast Road (ECR): Covelong, DakshinaChitra, the Madras Crocodile Bank, Mahabalipuram's monuments, the backwaters at Alamparai and Marakkanam's salt pans, with approximate distance and time, the GST Road alternative, cycling and weekend traffic, and a two- to three-day plan with Auroville.",
+  "dek": "The East Coast Road hugs the Bay of Bengal from Chennai to Pondicherry, with beaches and Pallava monuments along the way.",
+  "primaryKeyword": "Chennai to Pondicherry road trip",
+  "secondaryKeywords": [
+    "ECR road trip",
+    "Chennai to Pondicherry by road",
+    "Chennai Pondicherry distance"
+  ],
+  "searchIntent": "Route planning",
+  "activities": [
+    "road trips",
+    "self-drive",
+    "sightseeing"
+  ],
+  "terrain": [
+    "coast",
+    "plains"
+  ],
+  "regions": [
+    "Tamil Nadu",
+    "Puducherry"
+  ],
+  "seasons": [
+    "winter",
+    "spring"
+  ],
+  "travellers": [
+    "couples",
+    "friends",
+    "families",
+    "self-drivers"
+  ],
+  "tags": [
+    "Chennai to Pondicherry",
+    "ECR",
+    "Road trip",
+    "Coastal",
+    "Weekend"
+  ],
+  "hero": {
+    "src": "/images/roadtrips/chennai-pondicherry-road-trip-ecr.webp",
+    "alt": "The East Coast Road between Chennai and Mahabalipuram"
+  },
+  "parent": {
+    "label": "Coastal Road Trips in India",
+    "href": "/blog/coastal-road-trips-in-india"
+  },
+  "about": {
+    "type": "TouristDestination",
+    "name": "Chennai to Pondicherry road trip",
+    "containedIn": "Tamil Nadu"
+  },
+  "intro": [
+    "The East Coast Road (ECR) runs south from Chennai along the Bay of Bengal, passing fishing villages, beach resorts and the UNESCO-listed monuments at Mahabalipuram before reaching Pondicherry. It is one of India's most popular coastal drives and an easy weekend trip.",
+    "An inland alternative via the GST Road (NH32) and Tindivanam is sometimes faster, but the ECR is the scenic choice."
+  ],
+  "quickAnswer": "Chennai to Pondicherry is about 150 km along the East Coast Road and usually takes 3 to 4 hours with a stop or two. Highlights en route include Covelong beach, DakshinaChitra, the Madras Crocodile Bank, Mahabalipuram's Shore Temple and rathas, and the salt pans near Marakkanam. November to February is the best season; avoid the peak of the north-east monsoon in October and November.",
+  "takeaways": [
+    "The ECR is the scenic coastal route; the GST Road via Tindivanam is the inland option.",
+    "Mahabalipuram is the obvious half-day stop, about 55 km from Chennai.",
+    "Weekend traffic leaving Chennai can be heavy; start early.",
+    "Cyclists and pedestrians use the ECR; drive carefully through villages.",
+    "The north-east monsoon (October to December) brings heavy rain to this coast."
+  ],
+  "sections": [
+    {
+      "id": "route",
+      "heading": "The route at a glance",
+      "table": {
+        "columns": [
+          "Stop",
+          "Approx. distance from Chennai",
+          "Why stop"
+        ],
+        "rows": [
+          [
+            "Covelong (Kovalam)",
+            "40 km",
+            "Beach and surf schools"
+          ],
+          [
+            "DakshinaChitra and the Crocodile Bank",
+            "30 to 40 km",
+            "Heritage village museum; reptile conservation"
+          ],
+          [
+            "Mahabalipuram",
+            "55 km",
+            "Shore Temple, Five Rathas, Arjuna's Penance"
+          ],
+          [
+            "Alamparai and Marakkanam",
+            "About 110 km",
+            "Old fort ruins, backwaters, salt pans"
+          ],
+          [
+            "Pondicherry",
+            "About 150 km",
+            "French quarter and promenade"
+          ]
+        ],
+        "caption": "Distances are approximate."
+      }
+    },
+    {
+      "id": "mahabalipuram",
+      "heading": "Mahabalipuram",
+      "paras": [
+        "The Pallava port town has the Shore Temple, the monolithic Five Rathas and the great relief of Arjuna's Penance, all part of a UNESCO World Heritage Site. Mornings are cooler and quieter."
+      ],
+      "items": [
+        {
+          "name": "Mahabalipuram",
+          "body": [
+            "Our guides."
+          ],
+          "links": [
+            {
+              "label": "Mahabalipuram guide",
+              "href": "/blog/mahabalipuram-travel-guide"
+            },
+            {
+              "label": "Things to do in Mahabalipuram",
+              "href": "/blog/things-to-do-in-mahabalipuram"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/tamil-nadu/mahabalipuram/shore-temple-pyramidal-tower-mahabalipuram.webp",
+            "alt": "The Shore Temple at Mahabalipuram",
+            "caption": "Mahabalipuram"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pondicherry",
+      "heading": "Pondicherry and Auroville",
+      "items": [
+        {
+          "name": "Pondicherry",
+          "body": [
+            "The French quarter, the promenade and nearby Auroville."
+          ],
+          "links": [
+            {
+              "label": "Pondicherry French quarter guide",
+              "href": "/blog/puducherry-french-quarter-travel-guide"
+            },
+            {
+              "label": "Things to do in Pondicherry",
+              "href": "/blog/things-to-do-in-pondicherry"
+            },
+            {
+              "label": "Best beaches in Puducherry",
+              "href": "/blog/best-beaches-in-puducherry"
+            }
+          ],
+          "image": {
+            "src": "/images/blogs/puducherry/puducherry/auroville-matrimandir-golden-dome.webp",
+            "alt": "The Matrimandir at Auroville",
+            "caption": "Auroville"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "heading": "Two- to three-day plans",
+      "table": {
+        "columns": [
+          "Days",
+          "Plan"
+        ],
+        "rows": [
+          [
+            "2",
+            "ECR with a morning at Mahabalipuram; evening on the promenade; French quarter and back"
+          ],
+          [
+            "3",
+            "Add Auroville and Paradise Beach, or continue to Chidambaram and Tranquebar"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "driving",
+      "heading": "Driving considerations",
+      "list": [
+        "The ECR is a busy two- and four-lane road with frequent villages; keep speeds moderate.",
+        "Toll plazas on the ECR accept FASTag.",
+        "Weekend evenings back into Chennai are slow; return early or late.",
+        "Parking in Pondicherry's French quarter is limited; use hotel parking."
+      ]
+    },
+    {
+      "id": "beyond",
+      "heading": "Going beyond Pondicherry",
+      "paras": [
+        "The ECR continues south past Cuddalore to Chidambaram, with its great Nataraja temple, and the mangroves of Pichavaram, then on to the old Danish town of Tranquebar (Tharangambadi) and Karaikal. From there, inland roads lead to the Chola temples around Kumbakonam and Thanjavur, making a satisfying week-long coastal and temple loop.",
+        "Pondicherry also makes a good base for day trips inland to Gingee fort, one of the most impressive hill forts in Tamil Nadu."
+      ],
+      "items": [
+        {
+          "name": "Temple towns",
+          "body": [
+            "Heritage beyond the coast."
+          ],
+          "links": [
+            {
+              "label": "Chidambaram guide",
+              "href": "/blog/chidambaram-travel-guide"
+            },
+            {
+              "label": "Thanjavur guide",
+              "href": "/blog/thanjavur-travel-guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "heading": "Food along the way",
+      "paras": [
+        "Seafood shacks line the ECR near Covelong and Mahabalipuram, and Pondicherry's cafés serve French-influenced bakes alongside Tamil and Creole dishes. Try filter coffee and a meals plate at a roadside hotel on the way."
+      ]
+    },
+    {
+      "id": "etiquette",
+      "heading": "Beaches and safety",
+      "list": [
+        "Many beaches along the ECR have strong currents; swim only where lifeguards are present.",
+        "Respect fishing villages; do not drive onto beaches or block landing areas.",
+        "Keep valuables out of sight when parked at popular beaches.",
+        "Watch for cyclists, cattle and pedestrians around Mahabalipuram and Marakkanam, especially after dark.",
+        "Carry water and sun protection; there is little shade at the beaches and monuments."
+      ]
+    },
+    {
+      "id": "season",
+      "heading": "When to go",
+      "paras": [
+        "November to February is best, with mild days and sea breezes, though November can be wet. March to June is hot and humid. The north-east monsoon (October to December) brings heavy rain and occasional cyclones; check forecasts."
+      ]
+    }
+  ],
+  "safety": [
+    "Mountain roads close or slow down after heavy rain, snow or landslides; check road status and weather updates each morning and avoid driving after dark.",
+    "Permits, tolls, entry fees, pass openings and road works change; check official sources shortly before you travel.",
+    "Distances and driving times are approximate and vary with traffic, weather, road works and stops."
+  ],
+  "packing": [
+    "Driving licence, RC, insurance and PUC certificate, with copies",
+    "Warm layers and a rain jacket",
+    "Motion-sickness tablets for winding roads",
+    "Cash for small towns and barriers"
+  ],
+  "faqs": [
+    {
+      "q": "How far is Pondicherry from Chennai by road?",
+      "a": "About 150 km via the East Coast Road."
+    },
+    {
+      "q": "How long does the ECR drive take?",
+      "a": "About 3 to 4 hours with a short stop."
+    },
+    {
+      "q": "Is the ECR better than the GST Road?",
+      "a": "The ECR is more scenic; the GST Road via Tindivanam can be quicker in traffic."
+    },
+    {
+      "q": "What are the best stops on the ECR?",
+      "a": "Covelong, DakshinaChitra, the Crocodile Bank, Mahabalipuram and Marakkanam."
+    },
+    {
+      "q": "Is Chennai to Pondicherry good for a weekend?",
+      "a": "Yes; two days is enough, three is relaxed."
+    },
+    {
+      "q": "When should I avoid the ECR?",
+      "a": "During heavy north-east monsoon rain or cyclone warnings."
+    }
+  ],
+  "nextSteps": [
+    {
+      "label": "Things to do in Pondicherry",
+      "href": "/blog/things-to-do-in-pondicherry"
+    },
+    {
+      "label": "Road trips from Chennai",
+      "href": "/blog/road-trips-from-chennai"
+    },
+    {
+      "label": "Coastal road trips",
+      "href": "/blog/coastal-road-trips-in-india"
+    },
+    {
+      "label": "Tamil Nadu tour packages",
+      "href": "/packages/tamil-nadu"
+    },
+    {
+      "label": "Plan your trip",
+      "href": "/plan-your-trip"
+    }
+  ],
+  "related": [
+    {
+      "name": "Best beaches in Tamil Nadu",
+      "href": "/blog/best-beaches-in-tamil-nadu",
+      "note": "the coast"
+    },
+    {
+      "name": "South India heritage itinerary",
+      "href": "/blog/south-india-heritage-itinerary",
+      "note": "temples beyond"
+    },
+    {
+      "name": "Road trips for couples",
+      "href": "/blog/road-trips-for-couples-in-india",
+      "note": "slow drives"
+    }
+  ],
+  "places": [
+    "Chennai",
+    "Covelong",
+    "Muttukadu",
+    "DakshinaChitra",
+    "Mahabalipuram",
+    "Alamparai",
+    "Marakkanam",
+    "Auroville",
+    "Pondicherry"
+  ],
+  "styles": [
+    "road-trip-holidays",
+    "weekend-getaways"
+  ],
+  "planDestination": "Pondicherry",
+  "updated": "2026-09-26"
+}
