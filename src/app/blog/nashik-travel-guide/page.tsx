@@ -1,4 +1,5 @@
 // src/app/blog/nashik-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -10,7 +11,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Nashik Travel Guide: Vineyards, Temples & Godavari Ghats",
+  title: { absolute: "Nashik Travel Guide: Vineyards, Temples & Godavari Ghats" },
   description:
     "The complete Nashik travel guide — Sula Vineyards and wine tours, Panchavati and the Godavari ghats, Trimbakeshwar Jyotirlinga temple, Pandavleni Caves, where to stay, what to eat, a 2-day itinerary, and budget breakdown.",
   keywords:
@@ -51,6 +52,8 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline: "Nashik Travel Guide: Vineyards, Temples & Godavari Ghats",
           description: "The complete Nashik travel guide.",
@@ -59,24 +62,33 @@ function ArticleSchema() {
           dateModified: "2026-09-07",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
-            logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" },
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
-          author: { "@type": "Organization", name: "Kudozz Club" },
+          author: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
           mainEntityOfPage: { "@type": "WebPage", "@id": "https://club.kudozz.in/blog/nashik-travel-guide" },
           about: {
             "@type": "Place",
             name: "Nashik",
             address: { "@type": "PostalAddress", addressRegion: "Maharashtra", addressCountry: "IN" },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-              { "@type": "ListItem", position: 2, name: "Blog", item: "https://club.kudozz.in/blog" },
-              { "@type": "ListItem", position: 3, name: "Nashik Travel Guide" },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("nashik-travel-guide", "Nashik"),
+          ],
         }),
       }}
     />
@@ -164,24 +176,7 @@ export default function NashikGuidePage() {
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
 
-          <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Nashik", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link href={crumb.href} className="hover:text-white transition-colors">{crumb.label}</Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && <span className="text-white/20">/</span>}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="nashik-travel-guide" label="Nashik" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
@@ -251,9 +246,9 @@ export default function NashikGuidePage() {
                   </p>
 
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4 className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
+                    <h3 data-box className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
                       <span>🍇</span> Nashik at a Glance
-                    </h4>
+                    </h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[
                         { icon: "📍", label: "State", value: "Maharashtra, India" },
@@ -379,7 +374,7 @@ export default function NashikGuidePage() {
                           <div className={`${d.color} text-white text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap`} style={{ fontFamily: "var(--font-dm-sans)" }}>{d.day}</div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4 className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h4>
+                          <h3 data-box className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li key={a} className="text-sm text-stone-600 flex items-start gap-2" style={{ fontFamily: "var(--font-dm-sans)" }}>
@@ -442,9 +437,9 @@ export default function NashikGuidePage() {
 
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4 className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
+                      <h3 data-box className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Book Sula tastings ahead for weekends", "Visit both the temple side and the vineyard side", "Dress modestly at Trimbakeshwar and Panchavati", "Hire a driver for the winery-hopping day", "Time your trip for the Jan–Feb harvest season", "Try Misal Pav at a local eatery"].map((item) => (
                           <li key={item} className="flex items-start gap-2">
@@ -455,9 +450,9 @@ export default function NashikGuidePage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4 className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
+                      <h3 data-box className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
                         <span>❌</span> Don't
-                      </h4>
+                      </h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Show up at Sula on a weekend without a booking", "Wear beachwear-casual clothing into the temples", "Plan a trip during Kumbh Mela without expecting crowds", "Try to self-drive between wineries after tastings", "Skip Panchavati thinking Nashik is only about wine"].map((item) => (
                           <li key={item} className="flex items-start gap-2">
@@ -475,7 +470,7 @@ export default function NashikGuidePage() {
                   <div className="space-y-5 my-6">
                     {faqs.map((f) => (
                       <div key={f.q} className="bg-white border border-stone-200 rounded-xl p-5">
-                        <h4 className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h4>
+                        <h3 data-box className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h3>
                         <p className="text-sm text-stone-600 leading-relaxed m-0" style={{ fontFamily: "var(--font-dm-sans)" }}>{f.a}</p>
                       </div>
                     ))}

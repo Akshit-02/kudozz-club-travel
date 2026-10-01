@@ -24,7 +24,10 @@ export const metadata: Metadata = {
       "Tell us where you want to go in India and our in-house team will plan the trip around your dates, budget and travel style.",
     url: "https://club.kudozz.in/plan-your-trip",
     type: "website",
+    siteName: "Kudozz Club",
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630, alt: "Kudozz Club, India travel agency" }],
   },
+  twitter: { card: "summary_large_image", images: ["/og-default.jpg"] },
 };
 
 function PlanTripSchema() {

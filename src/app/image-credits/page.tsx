@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import credits from "../../../public/images/blogs/IMAGE_CREDITS.json";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, pageSocial } from "@/lib/site";
 
 // Attribution for Creative Commons photography used across the site.
 // CC BY and CC BY-SA licences require visible credit; this page provides it.
@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description: "Photo credits and licences for Creative Commons images used on Kudozz Club.",
   alternates: { canonical: `${SITE_URL}/image-credits` },
   robots: { index: false, follow: true },
+  ...pageSocial("/image-credits", "Image Credits | Kudozz Club", "Photo credits and licences for Creative Commons images used on Kudozz Club."),
 };
 
 type Credit = {

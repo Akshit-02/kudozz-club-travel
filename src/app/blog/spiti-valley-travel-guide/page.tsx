@@ -1,4 +1,5 @@
 // src/app/blog/spiti-valley-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -11,7 +12,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Spiti Valley Travel Guide: Roads, Monasteries & Hidden Villages",
+  title: { absolute: "Spiti Valley Travel Guide: Roads, Monasteries & Hidden Villages" },
   description:
     "The most complete Spiti Valley travel guide. Discover the best places to visit, how to reach Spiti, a 10-day itinerary, where to stay, what to eat, and essential tips for this remote Himalayan desert.",
   keywords:
@@ -57,6 +58,8 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline:
             "Spiti Valley Travel Guide: Roads, Monasteries & Hidden Villages",
@@ -64,18 +67,26 @@ function ArticleSchema() {
           image:
             "https://club.kudozz.in/images/blogs/himachal-pradesh/spiti-valley/spiti-valley.webp",
           datePublished: "2026-05-18",
-          dateModified: "2026-07-12",
+          dateModified: "2026-08-31",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
@@ -90,28 +101,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Spiti Valley Travel Guide",
-              },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("spiti-valley-travel-guide", "Spiti Valley"),
+          ],
         }),
       }}
     />
@@ -231,41 +223,7 @@ export default function SpitiValleyPage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10"
-            aria-label="Breadcrumb"
-          >
-            <ol
-              className="flex items-center gap-2 text-xs text-white/55"
-              style={{ fontFamily: "var(--font-dm-sans)" }}
-            >
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                {
-                  label: "Himachal Pradesh",
-                  href: "/blog/himachal-pradesh-travel-guide",
-                },
-                { label: "Spiti Valley", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/20">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="spiti-valley-travel-guide" label="Spiti Valley" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             {/* Tags */}
@@ -375,12 +333,12 @@ export default function SpitiValleyPage() {
 
                   {/* At a Glance */}
                   <div className="bg-forest-50 border border-forest-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-forest-800 mb-4 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🏔️</span> Spiti Valley at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -918,12 +876,12 @@ export default function SpitiValleyPage() {
                           </div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4
+                          <h3 data-box
                             className="font-bold text-stone-900 mb-3"
                             style={{ fontFamily: "var(--font-playfair)" }}
                           >
                             {d.title}
-                          </h4>
+                          </h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li
@@ -1244,12 +1202,12 @@ export default function SpitiValleyPage() {
                   </ul>
 
                   <div className="bg-stone-900 text-white rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="font-bold text-white mb-3 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🩺</span> Altitude Sickness Warning Signs
-                    </h4>
+                    </h3>
                     <div
                       className="grid sm:grid-cols-2 gap-3 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1294,12 +1252,12 @@ export default function SpitiValleyPage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}

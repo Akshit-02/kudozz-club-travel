@@ -1,4 +1,5 @@
 // src/app/blog/andaman-islands-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -11,7 +12,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
+  title: { absolute: "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips" },
   description:
     "The complete Andaman & Nicobar Islands travel guide. Everything you need — how to reach Port Blair, Havelock Island, Neil Island, Radhanagar Beach, scuba diving, snorkelling, Cellular Jail, permits, ferries, and a 7-day itinerary.",
   keywords:
@@ -52,24 +53,34 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline:
             "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips",
           description: "The complete Andaman & Nicobar Islands travel guide.",
           image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/andaman-islands/andaman-islands-2.webp",
           datePublished: "2026-06-28",
-          dateModified: "2026-07-12",
+          dateModified: "2026-08-31",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
@@ -84,28 +95,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Andaman Islands Travel Guide",
-              },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("andaman-islands-travel-guide", "Andaman Islands"),
+          ],
         }),
       }}
     />
@@ -219,38 +211,7 @@ export default function AndamanIslandsPage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10"
-            aria-label="Breadcrumb"
-          >
-            <ol
-              className="flex items-center gap-2 text-xs text-white/55"
-              style={{ fontFamily: "var(--font-dm-sans)" }}
-            >
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Islands", href: "/blog/andaman-islands-travel-guide" },
-                { label: "Andaman Islands", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/20">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="andaman-islands-travel-guide" label="Andaman Islands" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
@@ -379,12 +340,12 @@ export default function AndamanIslandsPage() {
 
                   {/* At a Glance */}
                   <div className="bg-sky-50 border border-sky-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-sky-900 mb-4 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🏝️</span> Andaman Islands at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -599,12 +560,12 @@ export default function AndamanIslandsPage() {
                         key={p.zone}
                         className={`border ${p.color} rounded-xl p-5`}
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-3"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {p.zone}
-                        </h4>
+                        </h3>
                         <div
                           className="space-y-2 text-sm"
                           style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -940,12 +901,12 @@ export default function AndamanIslandsPage() {
                       >
                         <div className="flex items-start justify-between gap-3 mb-2">
                           <div>
-                            <h4
+                            <h3 data-box
                               className="font-bold text-stone-900"
                               style={{ fontFamily: "var(--font-playfair)" }}
                             >
                               {beach.name}
-                            </h4>
+                            </h3>
                             <p
                               className="text-sky-600 text-xs font-medium"
                               style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1128,12 +1089,12 @@ export default function AndamanIslandsPage() {
                           className="bg-white border border-stone-200 rounded-xl p-5"
                         >
                           <div className="text-2xl mb-3">{opt.icon}</div>
-                          <h4
+                          <h3 data-box
                             className="font-bold text-stone-900 text-sm mb-1"
                             style={{ fontFamily: "var(--font-playfair)" }}
                           >
                             {opt.type}
-                          </h4>
+                          </h3>
                           <p
                             className="text-forest-600 text-xs font-semibold mb-2"
                             style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1310,12 +1271,12 @@ export default function AndamanIslandsPage() {
                     className="bg-stone-900 text-white rounded-xl p-5 my-6"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    <h4
+                    <h3 data-box
                       className="font-bold text-white mb-3"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       📋 Cellular Jail — Practical Info
-                    </h4>
+                    </h3>
                     <div className="grid sm:grid-cols-2 gap-3 text-sm">
                       {[
                         {
@@ -1744,12 +1705,12 @@ export default function AndamanIslandsPage() {
                           </div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4
+                          <h3 data-box
                             className="font-bold text-stone-900 mb-3"
                             style={{ fontFamily: "var(--font-playfair)" }}
                           >
                             {d.title}
-                          </h4>
+                          </h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li
@@ -1930,12 +1891,12 @@ export default function AndamanIslandsPage() {
                   {/* Do & Don't */}
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1960,12 +1921,12 @@ export default function AndamanIslandsPage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-red-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>❌</span> Don't
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -2119,12 +2080,12 @@ export default function AndamanIslandsPage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}

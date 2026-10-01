@@ -25,7 +25,7 @@ export default function GuideTripCTA({ slug, hideThingsToDo = false }: { slug: s
   const hill = hillsForGuide[slug];
   const nat = natureForGuide[slug];
   const road = roadtripsForGuide[slug];
-  const samePlace = ctx.place === ctx.stateName;
+  const samePlace = ctx.place === ctx.stateName && !ctx.cityArea;
 
   return (
     <>

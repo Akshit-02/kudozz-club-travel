@@ -1,9 +1,13 @@
 {
-  "name": "Kudozz Club — Travel Guides & Itineraries",
+  "name": "Kudozz Club: India Travel Agency",
   "short_name": "Kudozz Club",
-  "description": "Discover the world's most breathtaking destinations with hand-crafted travel guides, hidden gems, detailed itineraries, and insider tips from seasoned explorers.",
+  "description": "India-focused travel agency: customized India trips and tour packages, backed by 580+ destination guides.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#6255e8"
+  "theme_color": "#255528",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/logo.png", "sizes": "512x512", "type": "image/png" }
+  ]
 }

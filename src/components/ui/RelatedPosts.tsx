@@ -2,6 +2,29 @@ import Link from "@/components/ui/Link";
 import Image from "next/image";
 import { posts, featuredPost } from "@/lib/blog-posts";
 import { getGuideContext } from "@/lib/guide-context";
+import blogLastmod from "@/lib/blog-lastmod.json";
+
+const lastmod: Record<string, string> = blogLastmod;
+
+// Visible publisher + last-updated line at the end of every guide, from the
+// same date the sitemap and the BlogPosting schema use.
+function AboutThisGuide({ slug }: { slug: string }) {
+  const d = lastmod[slug];
+  return (
+    <p className="mb-10 font-sans text-sm text-stone-500">
+      Published by the Kudozz Club editorial team
+      {d && (
+        <>
+          {" "}· Last updated{" "}
+          <time dateTime={d}>
+            {new Date(d).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })}
+          </time>
+        </>
+      )}{" "}
+      · <Link href="/editorial-policy" className="underline underline-offset-4 hover:text-forest-700">How we research our guides</Link>
+    </p>
+  );
+}
 
 type Post = {
   slug: string;
@@ -217,6 +240,7 @@ export function RelatedPostsGrid({ currentSlug, excludeSlug }: { currentSlug: st
 
   return (
     <section className="mt-16 pt-12 border-t border-stone-200">
+      <AboutThisGuide slug={excludeSlug ?? currentSlug} />
       {/* End-of-guide CTA: visible at every breakpoint (the sidebar is desktop-only). */}
       {ctx && (
         <div className="mb-14 rounded-3xl bg-stone-950 p-7 sm:p-9">

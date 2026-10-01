@@ -1,4 +1,5 @@
 // src/app/blog/tso-moriri-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -10,13 +11,13 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Tso Moriri Travel Guide: Ladakh's Most Pristine High-Altitude Lake",
+  title: { absolute: "Tso Moriri Travel Guide: Ladakh's High-Altitude Lake" },
   description:
     "The complete guide to Tso Moriri — Ladakh's remote Rupshu plateau lake at 4,522m. How to reach it, permits, Korzok village, Tso Kar, wildlife, homestays, a 2-day itinerary, and essential tips.",
   keywords:
     "Tso Moriri, Tso Moriri Ladakh, Rupshu plateau, Korzok village, Tso Kar, Ladakh lakes, Changthang wildlife sanctuary, Ladakh inner line permit, Ladakh travel guide, high altitude lake India, best time to visit Tso Moriri, how to reach Tso Moriri from Leh, Tso Moriri 2 day itinerary, Tso Moriri vs Pangong, Tso Moriri budget trip, Korzok homestay, black necked crane Ladakh",
   openGraph: {
-    title: "Tso Moriri Travel Guide: Ladakh's Most Pristine High-Altitude Lake",
+    title: "Tso Moriri Travel Guide: Ladakh's High-Altitude Lake",
     description:
       "Remote, wild, and entirely within India — the complete guide to Tso Moriri, Ladakh's most pristine high-altitude lake on the Rupshu plateau.",
     url: "https://club.kudozz.in/blog/tso-moriri-travel-guide",
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tso Moriri Travel Guide: Ladakh's Most Pristine High-Altitude Lake",
+    title: "Tso Moriri Travel Guide: Ladakh's High-Altitude Lake",
     description:
       "Remote, wild, and entirely within India — the complete guide to Tso Moriri, Ladakh's most pristine high-altitude lake.",
     images: ["/images/blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp"],
@@ -63,6 +64,8 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline:
             "Tso Moriri Travel Guide: Ladakh's Most Pristine High-Altitude Lake",
@@ -71,18 +74,26 @@ function ArticleSchema() {
           image:
             "https://club.kudozz.in/images/blogs/ladakh/tso-moriri/tso-moriri-lake-korzok-village.webp",
           datePublished: "2026-08-20",
-          dateModified: "2026-08-30",
+          dateModified: "2026-09-09",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
@@ -99,34 +110,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Ladakh",
-                item: "https://club.kudozz.in/blog/leh-ladakh-road-trip-travel-guide",
-              },
-              {
-                "@type": "ListItem",
-                position: 4,
-                name: "Tso Moriri Travel Guide",
-              },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("tso-moriri-travel-guide", "Tso Moriri"),
+          ],
         }),
       }}
     />
@@ -230,35 +216,7 @@ export default function TsoMoririPage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-4 sm:px-8 lg:px-12"
-            aria-label="Breadcrumb"
-          >
-            <ol className="flex items-center gap-2 text-xs text-white/70">
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Ladakh", href: "/blog/leh-ladakh-road-trip-travel-guide" },
-                { label: "Tso Moriri", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/50">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/30">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="tso-moriri-travel-guide" label="Tso Moriri" />
 
           {/* Hero Content */}
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-8 pb-14 pt-32">
@@ -397,12 +355,12 @@ export default function TsoMoririPage() {
                   </div>
                   {/* At a Glance */}
                   <div className="bg-forest-50 border border-forest-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-forest-800 mb-4 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🏔️</span> Tso Moriri at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -659,12 +617,12 @@ export default function TsoMoririPage() {
                         key={p.permit}
                         className={`border ${p.color} rounded-xl p-5`}
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-3"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {p.permit}
-                        </h4>
+                        </h3>
                         <div
                           className="grid sm:grid-cols-2 gap-3 text-sm"
                           style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -805,12 +763,12 @@ export default function TsoMoririPage() {
                       >
                         <div className="flex-1">
                           <div className="flex items-start justify-between gap-3 mb-2">
-                            <h4
+                            <h3 data-box
                               className="font-bold text-stone-900"
                               style={{ fontFamily: "var(--font-playfair)" }}
                             >
                               {m.name}
-                            </h4>
+                            </h3>
                             <span
                               className={`text-[10px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-full whitespace-nowrap flex-shrink-0 ${m.badgeColor}`}
                               style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1013,12 +971,12 @@ export default function TsoMoririPage() {
                           </div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4
+                          <h3 data-box
                             className="font-bold text-stone-900 mb-3"
                             style={{ fontFamily: "var(--font-playfair)" }}
                           >
                             {d.title}
-                          </h4>
+                          </h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li
@@ -1199,12 +1157,12 @@ export default function TsoMoririPage() {
                   {/* Do & Don't */}
                   <div className="grid sm:grid-cols-2 gap-5 my-6">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1228,12 +1186,12 @@ export default function TsoMoririPage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-red-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>❌</span> Don't
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1268,12 +1226,12 @@ export default function TsoMoririPage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}

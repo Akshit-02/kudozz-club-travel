@@ -1,4 +1,5 @@
 // src/app/blog/araku-valley-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -9,39 +10,58 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 export const metadata: Metadata = {
-  title: "Araku Valley Travel Guide: Coffee Hills & the Train Journey Through 58 Tunnels",
+  title: { absolute: "Araku Valley Travel Guide: Coffee Hills & Scenic Train Ride" },
   description:
     "The complete Araku Valley travel guide. The scenic Visakhapatnam-Araku train, Araku coffee, tribal markets, Borra Caves, where to stay, best time to visit, and a full itinerary.",
   keywords:
     "Araku Valley travel guide, Araku train Visakhapatnam, Araku coffee, Eastern Ghats Andhra Pradesh, best time to visit Araku Valley, how to reach Araku Valley, Borra Caves Araku",
   openGraph: {
-    title: "Araku Valley Travel Guide: Coffee Hills & the Train Journey Through 58 Tunnels",
+    title: "Araku Valley Travel Guide: Coffee Hills & Scenic Train Ride",
     description: "A coffee-growing tribal valley in the Eastern Ghats, reached by a train ride through 58 tunnels and dozens of bridges — the complete guide to Araku Valley.",
     url: "https://club.kudozz.in/blog/araku-valley-travel-guide", type: "article", siteName: "Kudozz Club",
     images: [{ url: "/images/blogs/andhra-pradesh/araku-valley/borra-caves-araku-valley-2.webp", width: 1200, height: 540, alt: "Borra Caves, Araku Valley" }],
   },
-  twitter: { card: "summary_large_image", title: "Araku Valley Travel Guide: Coffee Hills & the Train Journey Through 58 Tunnels", description: "A famous scenic train ride and coffee-growing tribal hills — the complete guide to Araku Valley.", images: ["/images/blogs/andhra-pradesh/araku-valley/borra-caves-araku-valley-2.webp"] },
+  twitter: { card: "summary_large_image", title: "Araku Valley Travel Guide: Coffee Hills & Scenic Train Ride", description: "A famous scenic train ride and coffee-growing tribal hills — the complete guide to Araku Valley.", images: ["/images/blogs/andhra-pradesh/araku-valley/borra-caves-araku-valley-2.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/araku-valley-travel-guide" },
 };
 
 function ArticleSchema() {
   return (
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-      "@context": "https://schema.org", "@type": "BlogPosting",
+          "@context": "https://schema.org",
+          "@graph": [
+          {
+      "@type": "BlogPosting",
       headline: "Araku Valley Travel Guide: Coffee Hills & the Train Journey Through 58 Tunnels",
       description: "The complete Araku Valley travel guide.",
       image: "https://club.kudozz.in/images/blogs/andhra-pradesh/araku-valley/borra-caves-araku-valley-2.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
-      publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
-      author: { "@type": "Organization", name: "Kudozz Club" },
+      publisher: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
+      author: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
       mainEntityOfPage: { "@type": "WebPage", "@id": "https://club.kudozz.in/blog/araku-valley-travel-guide" },
       about: { "@type": "Place", name: "Araku Valley", address: { "@type": "PostalAddress", addressRegion: "Andhra Pradesh", addressCountry: "IN" } },
-      breadcrumb: { "@type": "BreadcrumbList", itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-        { "@type": "ListItem", position: 2, name: "Blog", item: "https://club.kudozz.in/blog" },
-        { "@type": "ListItem", position: 3, name: "Araku Valley Travel Guide" },
-      ]},
-    })}} />
+    },
+          guideBreadcrumbSchema("araku-valley-travel-guide", "Araku Valley"),
+          ],
+        })}} />
   );
 }
 
@@ -90,16 +110,7 @@ export default function ArakuValleyGuidePage() {
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
-          <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }, { label: "Araku Valley", href: null }].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? <Link href={crumb.href} className="hover:text-white transition-colors">{crumb.label}</Link> : <span className="text-white/35">{crumb.label}</span>}
-                  {i < arr.length - 1 && <span className="text-white/20">/</span>}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="araku-valley-travel-guide" label="Araku Valley" />
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
               {["Araku Valley", "Eastern Ghats", "Off-beat", "Andhra Pradesh"].map((tag) => (
@@ -140,7 +151,7 @@ export default function ArakuValleyGuidePage() {
                     The valley itself is coffee country — Araku coffee has built a real specialty-coffee reputation in recent years — and home to a substantial tribal population (Kondh, Bagata, and other communities) whose markets and crafts give the region a distinct cultural character alongside the scenery.
                   </p>
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4 className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>☕</span> Araku Valley at a Glance</h4>
+                    <h3 data-box className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>☕</span> Araku Valley at a Glance</h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[
                         { icon: "📍", label: "State", value: "Andhra Pradesh, India" },
@@ -235,7 +246,7 @@ export default function ArakuValleyGuidePage() {
                       <div key={d.day} className="flex gap-4">
                         <div className="flex-shrink-0"><div className={`${d.color} text-white text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap`} style={{ fontFamily: "var(--font-dm-sans)" }}>{d.day}</div></div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4 className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h4>
+                          <h3 data-box className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h3>
                           <ul className="space-y-1.5 m-0">{d.activities.map((a) => (<li key={a} className="text-sm text-stone-600 flex items-start gap-2" style={{ fontFamily: "var(--font-dm-sans)" }}><span className="text-forest-500 font-bold mt-0.5 flex-shrink-0">✓</span>{a}</li>))}</ul>
                         </div>
                       </div>
@@ -278,13 +289,13 @@ export default function ArakuValleyGuidePage() {
                   </ul>
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4 className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h4>
+                      <h3 data-box className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Book the Araku train well in advance", "Visit the Coffee Museum for genuine local insight", "Combine with Borra Caves on the same trip", "Engage respectfully with tribal markets and communities", "Carry a light warm layer for cool hill mornings"].map((item) => (<li key={item} className="flex items-start gap-2"><span className="text-forest-500 mt-0.5 flex-shrink-0">→</span>{item}</li>))}
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4 className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h4>
+                      <h3 data-box className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Book the train last-minute expecting availability", "Travel during peak monsoon without checking route conditions", "Treat tribal markets as a photo-only spectacle", "Skip the Coffee Museum if coffee genuinely interests you", "Underestimate cooler hill-morning temperatures"].map((item) => (<li key={item} className="flex items-start gap-2"><span className="text-red-400 mt-0.5 flex-shrink-0">→</span>{item}</li>))}
                       </ul>
@@ -297,7 +308,7 @@ export default function ArakuValleyGuidePage() {
                   <div className="space-y-5 my-6">
                     {faqs.map((f) => (
                       <div key={f.q} className="bg-white border border-stone-200 rounded-xl p-5">
-                        <h4 className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h4>
+                        <h3 data-box className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h3>
                         <p className="text-sm text-stone-600 leading-relaxed m-0" style={{ fontFamily: "var(--font-dm-sans)" }}>{f.a}</p>
                       </div>
                     ))}

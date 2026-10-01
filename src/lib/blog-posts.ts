@@ -216,7 +216,7 @@ const guidePosts = [
     title: "Zeilad Lake Travel Guide: Tamenglong's Sacred Lake",
     excerpt:
       "A remote lake sacred to the Zeliangrong Naga people, hidden deep in Manipur's forested hill country with barely any tourist trail — the complete guide to Zeilad Lake.",
-    image: "/images/blogs/manipur/zeilad-lake/forest-fringed-lake-northeast-india.webp",
+    image: "/images/blogs/manipur/zeilad-lake/zeilad-lake-guide-cover.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Manipur", "Zeilad Lake", "Tamenglong"],
@@ -636,7 +636,7 @@ const guidePosts = [
     title: "International Dolls Museum Chandigarh: Visit Guide",
     excerpt:
       "Dolls from dozens of countries in traditional costume, tucked inside the Bal Bhavan complex — Chandigarh's quirkiest, most kid-friendly museum stop.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/international-dolls-museum-chandigarh/international-dolls-museum-chandigarh-guide-cover.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["International Dolls Museum", "Chandigarh", "Sector 23", "Family Travel"],
@@ -648,7 +648,7 @@ const guidePosts = [
     title: "Sector 22 Chandigarh: Market, Stays & Local Life Guide",
     excerpt:
       "A working residential sector with a busy everyday market — Sector 22 is where budget stays and ordinary Chandigarh life meet.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/sector-22-chandigarh/sector-22-chandigarh-guide-cover.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Sector 22", "Chandigarh", "Shopping", "Budget Stays"],
@@ -660,7 +660,7 @@ const guidePosts = [
     title: "Sector 26 Chandigarh: Grain Market Food Street Guide",
     excerpt:
       "Chandigarh's best-known late-night food street sits beside its wholesale grain and vegetable mandi — butter chicken, tikkas, and kulchas till late.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/sector-26-chandigarh/sector-26-chandigarh-guide-cover.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Sector 26", "Chandigarh", "Grain Market", "Food Street"],
@@ -672,7 +672,7 @@ const guidePosts = [
     title: "Sector 35 Chandigarh: Market, Cafés & Student Vibe Guide",
     excerpt:
       "SCO markets, casual cafés, and a younger crowd — Sector 35 is Chandigarh's most contemporary commercial strip.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/sector-35-chandigarh/sector-35-chandigarh-guide-cover.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Sector 35", "Chandigarh", "Cafes", "Shopping"],
@@ -696,7 +696,7 @@ const guidePosts = [
     title: "Shanti Kunj Chandigarh: A Quiet Garden Near Rose Garden",
     excerpt:
       "A small, low-key green pocket near the Rose Garden — Chandigarh's simplest stop for a peaceful walk away from the crowds.",
-    image: "/images/destinations/chandigarh/hero.jpg",
+    image: "/images/blogs/chandigarh/shanti-kunj-chandigarh/shanti-kunj-chandigarh-guide-cover.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Shanti Kunj", "Chandigarh", "Sector 16", "Gardens"],
@@ -720,7 +720,7 @@ const guidePosts = [
     title: "Chandigarh Botanical Garden: Sarangpur Visit Guide",
     excerpt:
       "A sprawling, research-driven botanical garden on the city's outskirts — Chandigarh's most off-beat green escape, far removed from the manicured city gardens.",
-    image: "/images/blogs/chandigarh/botanical-garden/chandigarh-forest-tree-canopy.webp",
+    image: "/images/blogs/chandigarh/chandigarh-botanical-garden/chandigarh-botanical-garden-guide-cover.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Chandigarh Botanical Garden", "Sarangpur", "Chandigarh", "Nature"],
@@ -1152,7 +1152,7 @@ const guidePosts = [
     title: "Mount Manipur (Mount Harriet) Travel Guide: Trek & Views",
     excerpt:
       "The second-highest point in the Andamans, across the harbour from Port Blair — colonial-era ruins, forest trails, and panoramic views over Ross Island and North Bay.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/mount-manipur-andaman/mount-manipur-national-park-entrance.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Mount Manipur", "Mount Harriet", "Andaman", "Trekking", "Port Blair", "Colonial History", "Viewpoint"],
@@ -1164,7 +1164,7 @@ const guidePosts = [
     title: "Rangat Andaman Travel Guide: Cuthbert Bay & Long Island",
     excerpt:
       "Middle Andaman's practical halfway town — a turtle-nesting beach, a mangrove boardwalk, and the jetty for Long Island's untouched shores.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/rangat-andaman/rangat-andaman-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Rangat", "Middle Andaman", "Cuthbert Bay", "Long Island", "Andaman Trunk Road", "North Andaman"],
@@ -1176,7 +1176,7 @@ const guidePosts = [
     title: "Mayabunder Travel Guide: Interview Island & Karmatang Beach",
     excerpt:
       "North Andaman's quietest gateway town — feral elephants on a protected island, a turtle-nesting beach, and a genuine break from the Havelock/Neil circuit.",
-    image: "/images/destinations/andaman/hero.jpg",
+    image: "/images/blogs/andaman-and-nicobar/mayabunder-andaman/mayabunder-andaman-guide-cover.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Mayabunder", "North Andaman", "Interview Island", "Karmatang Beach", "Wildlife", "Off the Beaten Path"],
@@ -2025,21 +2025,21 @@ const guidePosts = [
   },
   {
     slug: "moti-daman-fort-travel-guide",
-    title: "Moti Daman Fort: The Fort of St. Jerome, Bastion by Bastion",
+    title: "Moti Daman Fort: History and Visiting Guide, Bastion by Bastion",
     excerpt:
       "A 16th-century Portuguese fortress so large it doesn't just guard a town — it contains one. Ten bastions, a gilded church, old cannons, and a district collectorate, all inside the same set of walls.",
     image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-east-gate-inscription.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
-    tags: ["Moti Daman Fort", "Fort of St. Jerome", "Daman", "Daman and Diu", "Bom Jesus Church", "Portuguese Heritage"],
+    tags: ["Moti Daman Fort", "Moti Daman", "Daman", "Daman and Diu", "Bom Jesus Church", "Portuguese Heritage"],
     readTime: "11 min",
     featured: false,
   },
   {
     slug: "nani-daman-travel-guide",
-    title: "Nani Daman Travel Guide: Fort, Harbour & Lighthouse",
+    title: "Nani Daman Travel Guide: St. Jerome Fort, Jetty & Harbour",
     excerpt:
-      "The smaller, northern quarter of Daman town — a working fishing harbour, the Fort of St. Francis Xavier, and a lighthouse across the river from Moti Daman.",
+      "The northern quarter of Daman town, facing Moti Daman across the river: the compact Fort of St. Jerome, its church and a busy working fishing harbour.",
     image: "/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-entrance-gate.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
@@ -3324,7 +3324,7 @@ const guidePosts = [
     title: "Valparai Travel Guide: Tea Estates & Wildlife",
     excerpt:
       "A tea-plantation plateau in the Western Ghats where elephants and rare lion-tailed macaques share the road with the estates, reached by 40 hairpin bends — the complete Valparai guide.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/tamil-nadu/valparai/valparai-tea-estates.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Valparai", "Anamalai Tiger Reserve", "Tamil Nadu", "Tea Estates"],
@@ -3805,7 +3805,7 @@ const guidePosts = [
     title: "Khatu Shyam Ji Guide: Temple & Best Time",
     excerpt:
       "A legend of ultimate sacrifice, waves of devotional song, and one of Rajasthan's most intensely visited pilgrimage towns — the complete Khatu Shyam Ji guide.",
-    image: "/images/destinations/gokarna/hero.jpg",
+    image: "/images/blogs/rajasthan/khatu-shyam-ji/khatu-shyam-ji-temple.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Khatu Shyam Ji", "Shyam Baba", "Rajasthan", "Pilgrimage"],
@@ -3841,7 +3841,7 @@ const guidePosts = [
     title: "Wagah Border Guide: Beating Retreat Ceremony",
     excerpt:
       "High-kicking marches, roaring crowds on both sides of a closed border, and a nightly flag-lowering ceremony unlike anything else in the world — the complete Wagah Border guide.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/punjab/wagah-border/attari-wagah-border-ceremony-stands.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Wagah Border", "Amritsar", "Punjab", "Beating Retreat"],
@@ -3889,7 +3889,7 @@ const guidePosts = [
     title: "Mohali Travel Guide: Cricket, Stay & Tips",
     excerpt:
       "Chandigarh's modern satellite city, home to one of India's biggest cricket stadiums and a genuinely comfortable base for exploring the tricity area.",
-    image: "/images/destinations/puducherry/hero.jpg",
+    image: "/images/blogs/punjab/mohali/mohali-guide-cover.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Mohali", "Punjab", "Cricket Stadium", "Chandigarh"],
@@ -3925,7 +3925,7 @@ const guidePosts = [
     title: "Sultanpur Lodhi Guide: Guru Nanak's Sacred Town",
     excerpt:
       "The rivulet where Guru Nanak is believed to have found spiritual enlightenment, and a restored waterway with a genuine conservation story — the complete Sultanpur Lodhi guide.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/punjab/sultanpur-lodhi/sultanpur-lodhi-guide-cover.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Sultanpur Lodhi", "Guru Nanak", "Punjab", "Kapurthala District"],
@@ -4033,7 +4033,7 @@ const guidePosts = [
     title: "Similipal Tiger Reserve: Safari Guide & Tips",
     excerpt:
       "One of India's largest tiger reserves, home to the rare melanistic black tiger, dense sal forests, and two of the country's most dramatic waterfalls.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/odisha/similipal/similipal-guide-cover.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Similipal", "Tiger Reserve", "Odisha", "Mayurbhanj"],
@@ -4045,7 +4045,7 @@ const guidePosts = [
     title: "Bhitarkanika Guide: Mangroves & Crocodiles",
     excerpt:
       "India's second-largest mangrove ecosystem, home to some of the country's largest saltwater crocodiles and a globally significant sea-turtle nesting beach.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/odisha/bhitarkanika/bhitarkanika-mangrove-creek.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Bhitarkanika", "Mangroves", "Odisha", "Saltwater Crocodiles"],
@@ -4057,7 +4057,7 @@ const guidePosts = [
     title: "Satkosia Gorge Guide: Tiger Reserve & Safari",
     excerpt:
       "A dramatic gorge carved by the Mahanadi river through the Eastern Ghats, explored by boat rather than jeep — one of Odisha's quietest, most scenic reserves.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/odisha/satkosia/satkosia-mahanadi-gorge-tikarpara.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Satkosia", "Mahanadi River", "Odisha", "Tiger Reserve"],
@@ -4081,7 +4081,7 @@ const guidePosts = [
     title: "Daringbadi Guide: The Kashmir of Odisha",
     excerpt:
       "Pine forests, coffee plantations, and winter frost in a state almost entirely defined by its coastline — the complete guide to Odisha's most unexpected hill station.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/odisha/daringbadi/daringbadi-hill-road.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Daringbadi", "Kandhamal District", "Odisha", "Hill Station"],
@@ -4093,7 +4093,7 @@ const guidePosts = [
     title: "Koraput Travel Guide: Tribal Culture & Coffee",
     excerpt:
       "Coffee plantations climbing the Eastern Ghats and weekly markets where some of India's most distinct tribal communities gather — the complete Koraput guide.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/odisha/koraput/koraput-eastern-ghats-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Koraput", "Tribal Culture", "Odisha", "Eastern Ghats"],
@@ -4105,7 +4105,7 @@ const guidePosts = [
     title: "Deomali Trek Guide: Odisha's Highest Peak",
     excerpt:
       "A quiet, forested climb to Odisha's highest point, through tribal villages and Eastern Ghats woodland — far from any crowded trekking circuit.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/odisha/deomali/deomali-peak-grassy-slopes.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Deomali", "Odisha's Highest Peak", "Koraput", "Trekking"],
@@ -4225,7 +4225,7 @@ const guidePosts = [
     title: "Mon Travel Guide: Konyak Naga Heritage",
     excerpt:
       "The last generation of tattooed Konyak warriors, traditional longhouse villages, and one of the most remote, rewarding districts in Northeast India.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/nagaland/mon/mon-guide-cover.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Mon", "Konyak Naga", "Nagaland", "Tribal Heritage"],
@@ -4237,7 +4237,7 @@ const guidePosts = [
     title: "Longwa Village Guide: India-Myanmar Border",
     excerpt:
       "A chief's house that sits in two countries at once, and tattooed Konyak elders — one of India's most unusual, unforgettable village visits.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/blogs/nagaland/longwa/longwa-guide-cover.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Longwa", "Mon District", "Nagaland", "Myanmar Border"],
@@ -4297,7 +4297,7 @@ const guidePosts = [
     title: "Mount Saramati Trek: Nagaland's Highest Peak",
     excerpt:
       "A remote, expedition-level climb to 3,826 metres near the India-Myanmar border — rarely attempted, and genuinely demanding, the complete Mount Saramati guide.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/nagaland/mount-saramati/mount-saramati-guide-cover.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Mount Saramati", "Nagaland's Highest Peak", "Kiphire District", "Trekking"],
@@ -4321,7 +4321,7 @@ const guidePosts = [
     title: "Peren Travel Guide: Intanki National Park & Tips",
     excerpt:
       "Nagaland's greenest, least-developed district — gateway to hoolock gibbons at Intanki National Park and the wider Barail Range, the complete Peren guide.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/nagaland/peren/peren-guide-cover.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Peren", "Intanki National Park", "Nagaland", "Barail Range"],
@@ -4381,7 +4381,7 @@ const guidePosts = [
     title: "Thenzawl Travel Guide: Handloom & Tips",
     excerpt:
       "A handloom-weaving town and the practical base for two of central Mizoram's biggest natural draws — Tamdil Lake and Vantawng Falls.",
-    image: "/images/destinations/kasol/kasol.jpg",
+    image: "/images/blogs/mizoram/thenzawl/thenzawl-hillside-log-cottages.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Thenzawl", "Mizoram", "Handloom Weaving", "Puan Textiles"],
@@ -4429,7 +4429,7 @@ const guidePosts = [
     title: "Palak Dil Guide: Mizoram's Largest Lake",
     excerpt:
       "Mizoram's largest natural lake, born — local legend says — from a village lost to a flood, deep in remote Saiha district near the Myanmar border.",
-    image: "/images/destinations/kerala/alleppey.jpg",
+    image: "/images/blogs/mizoram/palak-dil/palak-dil-lake-misty-sunrise.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Palak Dil", "Mizoram", "Largest Lake", "Saiha District"],
@@ -4441,7 +4441,7 @@ const guidePosts = [
     title: "Dampa Tiger Reserve: Safari Guide & Tips",
     excerpt:
       "A bamboo-forest reserve on the Bangladesh border where hoolock gibbons and birdlife, not guaranteed tiger sightings, are the honest main draw.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/mizoram/dampa-tiger-reserve/dampa-tiger-reserve-guide-cover.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Dampa Tiger Reserve", "Mizoram", "Mamit District", "Wildlife Safari"],
@@ -4453,7 +4453,7 @@ const guidePosts = [
     title: "Murlen National Park: Biodiversity & Tips",
     excerpt:
       "A relatively unexplored park within the Indo-Myanmar biodiversity hotspot near Champhai, rich in flora and fauna most Indian reserves can't match.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
+    image: "/images/blogs/mizoram/murlen/murlen-guide-cover.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Murlen National Park", "Mizoram", "Champhai", "Biodiversity"],
@@ -4765,7 +4765,7 @@ const guidePosts = [
     title: "Shirdi Travel Guide: Sai Baba Temple, Timings & How to Reach",
     excerpt:
       "One of India's most-visited pilgrimage towns, built around the shrine of Sai Baba — the complete guide to darshan timings, stays, and getting to Shirdi.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
+    image: "/images/blogs/maharashtra/shirdi/shirdi-guide-cover.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Shirdi", "Sai Baba Temple", "Maharashtra"],
@@ -5029,7 +5029,7 @@ const guidePosts = [
     title: "Kuno National Park Travel Guide: Cheetahs, Safaris & Best Time",
     excerpt:
       "The forest chosen to bring cheetahs back to India after seven decades of local extinction — the complete guide to Kuno National Park.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/madhya-pradesh/kuno/kuno-river-national-park.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Kuno National Park", "Madhya Pradesh", "Cheetah Safari"],
@@ -5353,7 +5353,7 @@ const guidePosts = [
     title: "Nandi Hills Travel Guide: Sunrise Point Near Bengaluru",
     excerpt:
       "A fortified hilltop just outside Bengaluru, famous for sunrise views above a sea of clouds — the complete guide to Nandi Hills.",
-    image: "/images/destinations/manali/rohtang-pass.jpg",
+    image: "/images/blogs/karnataka/nandi-hills/nandi-hills-sunrise-sea-of-clouds.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Nandi Hills", "Karnataka", "Sunrise Point"],
@@ -5497,7 +5497,7 @@ const guidePosts = [
     title: "Saranda Forest Travel Guide: Asia's Largest Sal Forest",
     excerpt:
       "A dense, largely untouched sal forest covering nearly a thousand square kilometres of Jharkhand's mineral-rich hills — the complete guide to Saranda Forest.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/jharkhand/saranda-forest/saranda-forest-guide-cover.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Saranda Forest", "Jharkhand", "Sal Forest"],
@@ -5674,10 +5674,10 @@ const guidePosts = [
   },
   {
     slug: "gurugram-travel-guide",
-    title: "Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls",
+    title: "Gurugram Travel Guide: Cyber Hub, Malls, Food & Aravallis",
     excerpt:
-      "A farmland-turned-skyline transformed into India's corporate hub in a generation, with a Bollywood-themed live entertainment venue unlike anything else in North India — the complete guide to Gurugram.",
-    image: "/images/blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp",
+      "A farmland-turned-skyline that became India's corporate hub in a generation: Cyber Hub's food scene, big malls and the Aravalli hills on its edge.",
+    image: "/images/blogs/haryana/gurugram/cyber-hub-gurugram.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Gurugram", "Haryana", "Cyber City"],
@@ -5737,7 +5737,7 @@ const guidePosts = [
     title: "Murthal Travel Guide: The Parathas That Built a Highway Legend",
     excerpt:
       "A cluster of highway dhabas on NH44 that turned parathas and lassi into a genuine road-trip pilgrimage — the complete guide to Murthal.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/haryana/murthal/murthal-aloo-paratha-dhaba.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Murthal", "Haryana", "Dhaba Food"],
@@ -5749,7 +5749,7 @@ const guidePosts = [
     title: "Surajkund Travel Guide: Crafts Mela & Ancient Sun Reservoir",
     excerpt:
       "A thousand-year-old amphitheatre-shaped reservoir that hosts one of Asia's largest crafts fairs every February — the complete guide to Surajkund.",
-    image: "/images/destinations/udaipur/saheliyon.jpg",
+    image: "/images/blogs/haryana/surajkund/surajkund-crafts-mela-folk-dancers.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Surajkund", "Haryana", "Surajkund Mela"],
@@ -5809,7 +5809,7 @@ const guidePosts = [
     title: "Bhindawas Wildlife Sanctuary Travel Guide: Haryana's Largest Wetland",
     excerpt:
       "A reservoir-fed wetland sanctuary drawing thousands of migratory waterbirds, and Haryana's largest protected wetland — the complete guide to Bhindawas.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/haryana/bhindawas/bhindawas-guide-cover.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Bhindawas", "Haryana", "Wildlife Sanctuary"],
@@ -6025,7 +6025,7 @@ const guidePosts = [
     title: "Panjim Travel Guide: Fontainhas, Latin Quarter & Goa's Capital",
     excerpt:
       "Pastel-colored Portuguese townhouses lining narrow lanes in Fontainhas, and a riverside capital that still moves at old-Goa pace — the complete guide to Panjim.",
-    image: "/images/destinations/goa/hero.jpg",
+    image: "/images/blogs/goa/panjim/panjim-guide-cover.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Panjim", "Goa", "Fontainhas"],
@@ -6157,7 +6157,7 @@ const guidePosts = [
     title: "Morjim Beach Travel Guide: Turtle Nesting & Quiet North Goa",
     excerpt:
       "A quiet, olive-ridley-turtle-nesting beach at the mellow northern edge of Goa's party coast — the complete guide to Morjim.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/goa/morjim/morjim-beach-evening.webp",
     category: "Beaches",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Morjim", "Goa", "North Goa"],
@@ -6181,7 +6181,7 @@ const guidePosts = [
     title: "Canacona Travel Guide: South Goa's Quiet Taluka & Beach Cluster",
     excerpt:
       "The South Goa taluka behind Palolem, Agonda, and Galgibaga — beaches, forest, and a slower pace than the North Goa strip — the complete guide to Canacona.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/goa/goa/palolem-beach-south-goa.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Canacona", "Goa", "South Goa"],
@@ -6229,7 +6229,7 @@ const guidePosts = [
     title: "Tirathgarh Falls Travel Guide: Multi-Tiered Cascade in Kanger Valley",
     excerpt:
       "A waterfall that splits into multiple staggered tiers as it drops through dense sal forest inside Kanger Valley National Park — the complete guide to Tirathgarh.",
-    image: "/images/destinations/coorg/coorg.jpg",
+    image: "/images/blogs/chhattisgarh/tirathgarh/tirathgarh-falls-rock-terraces.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Tirathgarh Falls", "Chhattisgarh", "Kanger Valley"],
@@ -6241,7 +6241,7 @@ const guidePosts = [
     title: "Kanger Valley National Park Travel Guide: Caves, Falls & Wildlife",
     excerpt:
       "A national park with limestone caves, two major waterfalls, and one of India's few forests dense enough to still hide wild buffalo — the complete guide to Kanger Valley.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/chhattisgarh/kanger-valley/kanger-valley-forested-hills.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Kanger Valley National Park", "Chhattisgarh", "Bastar"],
@@ -6253,7 +6253,7 @@ const guidePosts = [
     title: "Mainpat Travel Guide: Chhattisgarh's Tibetan Plateau Retreat",
     excerpt:
       "A cool plateau nicknamed the 'Shimla of Chhattisgarh', home to a Tibetan refugee settlement and monastery since the 1960s — the complete guide to Mainpat.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/chhattisgarh/mainpat/mainpat-plateau-grassland.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Mainpat", "Chhattisgarh", "Tibetan Settlement"],
@@ -6313,7 +6313,7 @@ const guidePosts = [
     title: "Danteshwari Temple Travel Guide: Bastar's Shakti Peetha",
     excerpt:
       "The presiding deity temple of the former Bastar kingdom, and one of the 52 Shakti Peethas of Hindu tradition — the complete guide to Danteshwari Temple.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
+    image: "/images/blogs/chhattisgarh/danteshwari-temple/danteshwari-temple-dantewada.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Danteshwari Temple", "Chhattisgarh", "Dantewada"],
@@ -6325,7 +6325,7 @@ const guidePosts = [
     title: "Kanker Travel Guide: Palace Stays & Gateway to Interior Bastar",
     excerpt:
       "A former princely palace turned heritage hotel, and one of the quieter entry points into Chhattisgarh's tribal heartland — the complete guide to Kanker.",
-    image: "/images/destinations/udaipur/saheliyon.jpg",
+    image: "/images/blogs/chhattisgarh/kanker/kanker-hills-farmland.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Kanker", "Chhattisgarh", "Bastar"],
@@ -6337,7 +6337,7 @@ const guidePosts = [
     title: "Barnawapara Wildlife Sanctuary Travel Guide: Safari Near Raipur",
     excerpt:
       "A leopard and sloth-bear sanctuary close enough to Raipur for a weekend safari, without the crowds of India's bigger reserves — the complete guide to Barnawapara.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/chhattisgarh/barnawapara/barnawapara-guide-cover.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Barnawapara", "Chhattisgarh", "Wildlife Sanctuary"],
@@ -6349,7 +6349,7 @@ const guidePosts = [
     title: "Achanakmar Tiger Reserve Travel Guide: Safari & Best Time",
     excerpt:
       "A tiger reserve inside the Achanakmar-Amarkantak Biosphere Reserve, bordering Madhya Pradesh's forested plateau country — the complete guide to Achanakmar.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
+    image: "/images/blogs/chhattisgarh/achanakmar/achanakmar-tiger-reserve-forest-tree-house.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Achanakmar Tiger Reserve", "Chhattisgarh", "Tiger Safari"],
@@ -6481,7 +6481,7 @@ const guidePosts = [
     title: "Valmiki Nagar Travel Guide: Tiger Reserve & Himalayan Foothills",
     excerpt:
       "Bihar's only tiger reserve, tucked into the Himalayan foothills where the Gandak River enters India from Nepal — the complete guide to Valmiki Nagar.",
-    image: "/images/destinations/ziro/hero.jpg",
+    image: "/images/blogs/bihar/valmiki-nagar/valmiki-tiger-reserve-forest-road.webp",
     category: "Adventure",
     categoryColor: "bg-amber-100 text-amber-700",
     tags: ["Valmiki Nagar", "Bihar", "Tiger Reserve"],
@@ -6601,7 +6601,7 @@ const guidePosts = [
     title: "Jorhat Travel Guide: Tea Estates & Gateway to Majuli",
     excerpt:
       "Upper Assam's tea and culture hub, and the main departure point for ferries to Majuli Island — the complete guide to Jorhat.",
-    image: "/images/destinations/coorg/abbey-falls.jpg",
+    image: "/images/blogs/assam/jorhat/jorhat-tea-estate-heritage-bungalow.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Jorhat", "Assam", "Tea Estates"],
@@ -6637,7 +6637,7 @@ const guidePosts = [
     title: "Haflong Travel Guide: Assam's Only Hill Station",
     excerpt:
       "A lake-centred hill town in the North Cachar Hills, home to a genuinely diverse mix of hill tribes rarely visited by outside travelers — the complete guide to Haflong.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/assam/haflong/haflong-synod-viewpoint-town-view.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Haflong", "Assam", "North Cachar Hills"],
@@ -6685,7 +6685,7 @@ const guidePosts = [
     title: "Silchar Travel Guide: Gateway to the Barak Valley",
     excerpt:
       "The main city of Assam's Bengali-speaking Barak Valley, and the practical gateway to Mizoram, Tripura, and Manipur — the complete guide to Silchar.",
-    image: "/images/destinations/udaipur/hero.jpg",
+    image: "/images/blogs/assam/silchar/silchar-barak-river-boats.webp",
     category: "Destination Guide",
     categoryColor: "bg-sky-100 text-sky-700",
     tags: ["Silchar", "Assam", "Barak Valley"],
@@ -6805,7 +6805,7 @@ const guidePosts = [
     title: "Roing Travel Guide: Mehao Lake & Bhismaknagar Ruins",
     excerpt:
       "A quiet valley town beside a forested lake, with brick fort ruins linked to Mahabharata legend hidden in the jungle nearby — the complete guide to Roing.",
-    image: "/images/destinations/meghalaya/hero.jpg",
+    image: "/images/blogs/arunachal-pradesh/roing/roing-guide-cover.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Roing", "Arunachal Pradesh", "Mehao Lake"],
@@ -6829,7 +6829,7 @@ const guidePosts = [
     title: "Walong Travel Guide: The Easternmost Battlefield of the 1962 War",
     excerpt:
       "One of India's easternmost inhabited towns, site of a fierce 1962 war battle, deep in the Lohit Valley near the China border — the complete guide to Walong.",
-    image: "/images/destinations/leh-ladakh/leh-ladakh.jpg",
+    image: "/images/blogs/arunachal-pradesh/walong/lower-walong-grassland.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Walong", "Arunachal Pradesh", "Lohit Valley"],
@@ -6925,7 +6925,7 @@ const guidePosts = [
     title: "Amaravati Travel Guide: Ancient Buddhist Stupa & New Capital",
     excerpt:
       "A 2,000-year-old Buddhist stupa site that gave its name to a distinct school of sculpture, now also the site of Andhra Pradesh's planned new capital — the complete guide to Amaravati.",
-    image: "/images/destinations/hampi/hero.jpg",
+    image: "/images/blogs/andhra-pradesh/amaravati/amaravati-stupa-excavated-drum.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["Amaravati", "Andhra Pradesh", "Buddhist Heritage"],
@@ -6961,7 +6961,7 @@ const guidePosts = [
     title: "Lambasingi Travel Guide: The Kashmir of Andhra Pradesh",
     excerpt:
       "A high-altitude village that drops below freezing on winter mornings, earning it the nickname 'Kashmir of Andhra Pradesh' — the complete guide to Lambasingi.",
-    image: "/images/destinations/manali/solang-valley.jpg",
+    image: "/images/blogs/andhra-pradesh/lambasingi/lambasingi-misty-hills-sunrise.webp",
     category: "Off-beat",
     categoryColor: "bg-forest-100 text-forest-700",
     tags: ["Lambasingi", "Andhra Pradesh", "Eastern Ghats"],

@@ -28,10 +28,17 @@ export const metadata: Metadata = {
       "We know India. Now let us plan your trip. How Kudozz Club went from travel guides to trip planning.",
     url: `${SITE_URL}/about`,
     type: "website",
+    siteName: "Kudozz Club",
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630, alt: "Kudozz Club, India travel agency" }],
   },
+  twitter: { card: "summary_large_image", images: ["/og-default.jpg"] },
 };
 
 const brandFaqs = [
+  {
+    q: "Is Kudozz Club a travel agency or a travel blog?",
+    a: "A travel agency. Kudozz Club plans customized trips across India for travellers, and also publishes a free library of India travel guides. The guides are the destination research behind the trips we plan.",
+  },
   {
     q: "What is Kudozz Club?",
     a: `Kudozz Club is an India-focused travel agency that plans customized trips across India. It also publishes ${guideCountLabel} free travel guides covering all ${stateCount} Indian states and union territories.`,
@@ -43,6 +50,10 @@ const brandFaqs = [
   {
     q: "Is Kudozz Club affiliated with any other 'Kudos' or 'Kudoz' travel brand?",
     a: "No. Kudozz Club is independent. The only official site is club.kudozz.in.",
+  },
+  {
+    q: "How do I contact Kudozz Club?",
+    a: "For a trip, use the Plan My Trip form at club.kudozz.in/plan-your-trip. For anything else, email connect@kudozz.in. Our official Instagram account is @kudozz.in.",
   },
   {
     q: "Are the travel guides influenced by the trips you sell?",
@@ -295,6 +306,15 @@ export default function AboutPage() {
               part of the business: guides link to it where it&rsquo;s useful, but
               what a guide recommends isn&rsquo;t changed to sell a trip. If you
               only want the guides, they&rsquo;re free to read.
+            </p>
+            <p className="mt-4 font-sans text-base leading-relaxed text-stone-700">
+              How we research, source, date and correct the guides is set out in
+              our <Link href="/editorial-policy" className="text-link">editorial policy</Link>.
+              Comparing agencies? Our guide to{" "}
+              <Link href="/best-travel-agency-in-india" className="text-link">
+                choosing the best travel agency in India
+              </Link>{" "}
+              has a checklist that applies to us too.
             </p>
           </div>
         </section>

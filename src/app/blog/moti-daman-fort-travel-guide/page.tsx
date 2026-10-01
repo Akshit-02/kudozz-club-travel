@@ -1,4 +1,5 @@
 // src/app/blog/moti-daman-fort-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -10,15 +11,15 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Moti Daman Fort: St. Jerome Fort History & Guide",
+  title: "Moti Daman Fort: History, Bastions & Visiting Guide",
   description:
-    "Moti Daman Fort (Fort of St. Jerome) guide — history, ten bastions, cannons, Bom Jesus Church's gilded altar, the collectorate, sea views and visiting tips.",
+    "Moti Daman Fort guide: the 1559–1581 Portuguese walls, ten bastions and cannons, Bom Jesus Church, sea views, timings and visiting tips.",
   keywords:
-    "Moti Daman Fort, Fort of St Jerome, Daman fort history, Bom Jesus Church Daman, Daman Portuguese fort, Moti Daman Fort bastions, Daman Ganga estuary, Portuguese fort India, Daman collectorate, Moti Daman Fort visiting guide",
+    "Moti Daman Fort, Moti Daman Fort timings, Daman fort history, Bom Jesus Church Daman, Daman Portuguese fort, Moti Daman Fort bastions, Daman Ganga estuary, Portuguese fort India, Daman collectorate, Moti Daman Fort visiting guide",
   openGraph: {
-    title: "Moti Daman Fort: St. Jerome Fort History & Guide",
+    title: "Moti Daman Fort: History, Bastions & Visiting Guide",
     description:
-      "A deep dive into Moti Daman Fort — the Fort of St. Jerome — its ten bastions, cannons, Bom Jesus Church, the collectorate, and how to visit today.",
+      "Moti Daman Fort in depth: ten bastions, cannons, Bom Jesus Church and the collectorate, and how to visit today.",
     url: "https://club.kudozz.in/blog/moti-daman-fort-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
@@ -37,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Moti Daman Fort: St. Jerome Fort History & Guide",
+    title: "Moti Daman Fort: History, Bastions & Visiting Guide",
     description:
-      "A deep dive into Moti Daman Fort — the Fort of St. Jerome — its ten bastions, cannons, Bom Jesus Church, the collectorate, and how to visit today.",
+      "Moti Daman Fort in depth: ten bastions, cannons, Bom Jesus Church and the collectorate, and how to visit today.",
     images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-east-gate-inscription.webp"],
   },
   alternates: {
@@ -55,31 +56,41 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
-          headline: "Moti Daman Fort: St. Jerome Fort History & Guide",
+          headline: "Moti Daman Fort: History, Bastions & Visiting Guide",
           description:
-            "Moti Daman Fort (Fort of St. Jerome) guide — history, ten bastions, cannons, Bom Jesus Church's gilded altar, the collectorate, sea views and visiting tips.",
+            "Moti Daman Fort guide: the 1559–1581 Portuguese walls, ten bastions and cannons, Bom Jesus Church, sea views, timings and visiting tips.",
           image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-east-gate-inscription.webp",
           datePublished: "2026-08-30",
-          dateModified: "2026-08-30",
+          dateModified: "2026-09-30",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
             "@id": "https://club.kudozz.in/blog/moti-daman-fort-travel-guide",
           },
           keywords:
-            "Moti Daman Fort, Fort of St Jerome, Daman fort history, Bom Jesus Church Daman, Daman Portuguese fort, Moti Daman Fort bastions",
+            "Moti Daman Fort, Moti Daman Fort timings, Daman fort history, Bom Jesus Church Daman, Daman Portuguese fort, Moti Daman Fort bastions",
           about: {
             "@type": "Place",
             name: "Moti Daman Fort",
@@ -90,34 +101,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Daman & Diu",
-                item: "https://club.kudozz.in/blog/dadra-nagar-haveli-daman-diu-travel-guide",
-              },
-              {
-                "@type": "ListItem",
-                position: 4,
-                name: "Moti Daman Fort",
-              },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("moti-daman-fort-travel-guide", "Moti Daman Fort"),
+          ],
         }),
       }}
     />
@@ -140,11 +126,11 @@ const faqs = [
   },
   {
     q: "How old is Moti Daman Fort?",
-    a: "Moti Daman Fort dates back to the Portuguese colonial era, with construction beginning in the mid-to-late 16th century, roughly the 1550s–70s, and continuing in phases over the following decades as the fortifications were expanded and strengthened. That makes it well over 400 years old, and one of the largest surviving Portuguese-built fortifications anywhere on India's west coast.",
+    a: "Moti Daman Fort dates back to the Portuguese colonial era, with construction beginning in 1559 and completed in 1581. That makes it more than 440 years old, and one of the largest surviving Portuguese-built fortifications anywhere on India's west coast.",
   },
   {
     q: "Is Moti Daman Fort the same as the Fort of St. Jerome?",
-    a: "Yes — Moti Daman Fort and the Fort of St. Jerome are the same structure. \"Fort of St. Jerome\" is the fort's original Portuguese-era name, and \"Moti Daman Fort\" is the more common name used locally today, referring to the Moti Daman (literally \"Big Daman\") quarter of the town that the fort encloses.",
+    a: "No. They are two different forts facing each other across the Daman Ganga. Moti Daman Fort (1559–1581) is the large walled fort on the south bank that encloses the Moti Daman quarter. The Fort of St. Jerome, also called Nani Daman Fort (1615–1627), is the smaller fort on the north bank, with a statue of St. Jerome over its gateway and the Church of Our Lady of the Sea inside.",
   },
   {
     q: "How much time do you need to visit Moti Daman Fort?",
@@ -180,7 +166,7 @@ function FAQSchema() {
 
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
-  { id: "introduction", title: "Moti Daman Fort: Fort of St. Jerome", level: 2 },
+  { id: "introduction", title: "Moti Daman Fort: An Overview", level: 2 },
   { id: "best-time", title: "Best Time to Visit", level: 2 },
   { id: "how-to-reach", title: "How to Reach the Fort", level: 2 },
   { id: "ramparts-bastions", title: "Ramparts & Ten Bastions", level: 2 },
@@ -220,47 +206,13 @@ export default function MotiDamanFortGuidePage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10"
-            aria-label="Breadcrumb"
-          >
-            <ol
-              className="flex items-center gap-2 text-xs text-white/55"
-              style={{ fontFamily: "var(--font-dm-sans)" }}
-            >
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                {
-                  label: "Daman & Diu",
-                  href: "/blog/dadra-nagar-haveli-daman-diu-travel-guide",
-                },
-                { label: "Moti Daman Fort", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/20">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="moti-daman-fort-travel-guide" label="Moti Daman Fort" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
               {[
                 "Moti Daman Fort",
-                "Fort of St. Jerome",
+                "Bom Jesus Church",
                 "Daman",
                 "Portuguese Heritage",
                 "History",
@@ -279,7 +231,7 @@ export default function MotiDamanFortGuidePage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Moti Daman Fort: The Fort of St. Jerome, Bastion by Bastion
+              Moti Daman Fort: History and Visiting Guide, Bastion by Bastion
             </h1>
 
             <p
@@ -345,19 +297,19 @@ export default function MotiDamanFortGuidePage() {
               <div className="prose-travel">
                 {/* ── Introduction ──────────────────────────────────────── */}
                 <section id="introduction">
-                  <h2>Moti Daman Fort: The Fort of St. Jerome</h2>
+                  <h2>Moti Daman Fort: An Overview</h2>
                   <p>
-                    <strong>Moti Daman Fort</strong> — also known by its
-                    original Portuguese name, the{" "}
-                    <strong>Fort of St. Jerome</strong> — is the single
+                    <strong>Moti Daman Fort</strong> is the single
                     largest piece of Portuguese military architecture on
                     Daman's coastline, and one of the largest and
                     best-preserved Portuguese forts anywhere on India's west
-                    coast. Construction began under Portuguese rule in the
-                    mid-to-late 16th century, roughly the 1550s–70s, and the
-                    fortifications were expanded and strengthened in phases
-                    over the decades that followed, as Daman grew into an
-                    important Portuguese trading and administrative outpost.
+                    coast. The Portuguese began building it in 1559, the year
+                    Daman was formally handed to them, and completed it in
+                    1581. It covers about 30,000 square metres. It is often
+                    confused with the smaller{" "}
+                    <Link href="/blog/nani-daman-travel-guide">Fort of St. Jerome</Link>{" "}
+                    in Nani Daman, across the river, which was built later
+                    (1615–1627).
                   </p>
                   <p>
                     What sets Moti Daman Fort apart from most Indian forts is
@@ -397,12 +349,12 @@ export default function MotiDamanFortGuidePage() {
 
                   {/* At a Glance */}
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🏰</span> Moti Daman Fort at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -416,12 +368,12 @@ export default function MotiDamanFortGuidePage() {
                         {
                           icon: "🏗️",
                           label: "Built",
-                          value: "From the 1550s–70s, Portuguese era",
+                          value: "1559–1581, Portuguese era",
                         },
                         {
                           icon: "🛡️",
-                          label: "Also Known As",
-                          value: "Fort of St. Jerome",
+                          label: "Area",
+                          value: "About 30,000 sq m",
                         },
                         {
                           icon: "🧱",
@@ -912,12 +864,12 @@ export default function MotiDamanFortGuidePage() {
                           </div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4
+                          <h3 data-box
                             className="font-bold text-stone-900 mb-3"
                             style={{ fontFamily: "var(--font-playfair)" }}
                           >
                             {d.title}
-                          </h4>
+                          </h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li
@@ -1081,12 +1033,12 @@ export default function MotiDamanFortGuidePage() {
                   {/* Do & Don't */}
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1109,12 +1061,12 @@ export default function MotiDamanFortGuidePage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-red-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>❌</span> Don't
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1165,12 +1117,12 @@ export default function MotiDamanFortGuidePage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1187,7 +1139,6 @@ export default function MotiDamanFortGuidePage() {
               <div className="mt-10 flex flex-wrap gap-2">
                 {[
                   "Moti Daman Fort",
-                  "Fort of St. Jerome",
                   "Daman",
                   "Daman and Diu",
                   "Bom Jesus Church",

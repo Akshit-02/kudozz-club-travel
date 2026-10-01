@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageSocial } from "@/lib/site";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import ContactPageClient from "@/components/contact/ContactPageClient";
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
     "report an error travel guide",
   ],
   alternates: { canonical: "https://club.kudozz.in/contact" },
+  ...pageSocial("/contact", "Contact Kudozz Club | Plan Your Next Trip", "Planning an India trip? Tell Kudozz Club where you want to go and we'll take it from there. Or email connect@kudozz.in about guides and collaborations."),
 };
 
 function FaqSchema() {

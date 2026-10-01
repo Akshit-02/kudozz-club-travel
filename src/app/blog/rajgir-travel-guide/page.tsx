@@ -1,4 +1,5 @@
 // src/app/blog/rajgir-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -10,7 +11,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
-  title: "Rajgir Travel Guide: Hot Springs, Ropeway & Buddhist Heritage",
+  title: { absolute: "Rajgir Travel Guide: Hot Springs, Ropeway & Buddhist Heritage" },
   description:
     "The complete Rajgir travel guide. Griddhakuta Hill, the Rajgir Ropeway, Vishwa Shanti Stupa, natural hot springs, where to stay, best time to visit, and a full itinerary through this hill-ringed Buddhist and Jain heritage town.",
   keywords:
@@ -35,21 +36,40 @@ export const metadata: Metadata = {
 function ArticleSchema() {
   return (
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-      "@context": "https://schema.org", "@type": "BlogPosting",
+          "@context": "https://schema.org",
+          "@graph": [
+          {
+      "@type": "BlogPosting",
       headline: "Rajgir Travel Guide: Hot Springs, Ropeway & Buddhist Heritage",
       description: "The complete Rajgir travel guide.",
       image: "https://club.kudozz.in/images/blogs/bihar/rajgir/rajgir.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
-      publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
-      author: { "@type": "Organization", name: "Kudozz Club" },
+      publisher: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
+      author: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
       mainEntityOfPage: { "@type": "WebPage", "@id": "https://club.kudozz.in/blog/rajgir-travel-guide" },
       about: { "@type": "Place", name: "Rajgir", address: { "@type": "PostalAddress", addressRegion: "Bihar", addressCountry: "IN" } },
-      breadcrumb: { "@type": "BreadcrumbList", itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-        { "@type": "ListItem", position: 2, name: "Blog", item: "https://club.kudozz.in/blog" },
-        { "@type": "ListItem", position: 3, name: "Rajgir Travel Guide" },
-      ]},
-    })}} />
+    },
+          guideBreadcrumbSchema("rajgir-travel-guide", "Rajgir"),
+          ],
+        })}} />
   );
 }
 
@@ -96,16 +116,7 @@ export default function RajgirGuidePage() {
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
-          <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }, { label: "Rajgir", href: null }].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? <Link href={crumb.href} className="hover:text-white transition-colors">{crumb.label}</Link> : <span className="text-white/35">{crumb.label}</span>}
-                  {i < arr.length - 1 && <span className="text-white/20">/</span>}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="rajgir-travel-guide" label="Rajgir" />
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
               {["Rajgir", "Buddhist Heritage", "Jain Heritage", "Bihar"].map((tag) => (
@@ -146,7 +157,7 @@ export default function RajgirGuidePage() {
                     Beyond the religious heritage, Rajgir has a genuinely old aerial ropeway — one of the earliest in India — carrying visitors up to hilltop viewpoints, plus natural hot springs considered sacred by many who visit. It's a compact, easy town to explore, and pairs naturally with nearby Nalanda.
                   </p>
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4 className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>🚡</span> Rajgir at a Glance</h4>
+                    <h3 data-box className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>🚡</span> Rajgir at a Glance</h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[
                         { icon: "📍", label: "State", value: "Bihar, India" },
@@ -248,7 +259,7 @@ export default function RajgirGuidePage() {
                       <div key={d.day} className="flex gap-4">
                         <div className="flex-shrink-0"><div className={`${d.color} text-white text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap`} style={{ fontFamily: "var(--font-dm-sans)" }}>{d.day}</div></div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4 className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h4>
+                          <h3 data-box className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h3>
                           <ul className="space-y-1.5 m-0">{d.activities.map((a) => (<li key={a} className="text-sm text-stone-600 flex items-start gap-2" style={{ fontFamily: "var(--font-dm-sans)" }}><span className="text-forest-500 font-bold mt-0.5 flex-shrink-0">✓</span>{a}</li>))}</ul>
                         </div>
                       </div>
@@ -292,13 +303,13 @@ export default function RajgirGuidePage() {
                   </ul>
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4 className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h4>
+                      <h3 data-box className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Take the ropeway early in the day", "Combine Rajgir with Nalanda", "Check hot spring conditions before bathing", "Wear proper footwear for Griddhakuta Hill", "Visit Vishwa Shanti Stupa for the panoramic views"].map((item) => (<li key={item} className="flex items-start gap-2"><span className="text-forest-500 mt-0.5 flex-shrink-0">→</span>{item}</li>))}
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4 className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h4>
+                      <h3 data-box className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Visit the ropeway late and wait in long queues", "Skip Nalanda given how close it is", "Bathe in the hot springs without checking current conditions", "Underestimate the Griddhakuta Hill climb", "Rush through in a few hours"].map((item) => (<li key={item} className="flex items-start gap-2"><span className="text-red-400 mt-0.5 flex-shrink-0">→</span>{item}</li>))}
                       </ul>
@@ -311,7 +322,7 @@ export default function RajgirGuidePage() {
                   <div className="space-y-5 my-6">
                     {faqs.map((f) => (
                       <div key={f.q} className="bg-white border border-stone-200 rounded-xl p-5">
-                        <h4 className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h4>
+                        <h3 data-box className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h3>
                         <p className="text-sm text-stone-600 leading-relaxed m-0" style={{ fontFamily: "var(--font-dm-sans)" }}>{f.a}</p>
                       </div>
                     ))}

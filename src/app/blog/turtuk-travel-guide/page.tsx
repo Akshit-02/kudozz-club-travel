@@ -1,4 +1,5 @@
 // src/app/blog/turtuk-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -10,7 +11,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Turtuk Travel Guide: Ladakh's Last Balti Village Before the LOC",
+  title: { absolute: "Turtuk Travel Guide: Ladakh's Last Balti Village Before the LOC" },
   description:
     "A complete guide to Turtuk, Ladakh — the Balti village opened to tourists only in 2010. Best time to visit, how to reach via Nubra Valley, ILP permits, Farol & Chutang villages, apricot orchards, homestays, and essential tips.",
   keywords:
@@ -56,6 +57,8 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline:
             "Turtuk Travel Guide: Ladakh's Last Balti Village Before the LOC",
@@ -64,18 +67,26 @@ function ArticleSchema() {
           image:
             "https://club.kudozz.in/images/blogs/ladakh/turtuk/turtuk-village-shyok-valley.webp",
           datePublished: "2026-08-30",
-          dateModified: "2026-08-30",
+          dateModified: "2026-09-09",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
@@ -90,28 +101,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Turtuk Travel Guide",
-              },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("turtuk-travel-guide", "Turtuk"),
+          ],
         }),
       }}
     />
@@ -214,38 +206,7 @@ export default function TurtukPage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10"
-            aria-label="Breadcrumb"
-          >
-            <ol
-              className="flex items-center gap-2 text-xs text-white/55"
-              style={{ fontFamily: "var(--font-dm-sans)" }}
-            >
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Ladakh", href: "/blog/leh-ladakh-road-trip-travel-guide" },
-                { label: "Turtuk", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/20">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="turtuk-travel-guide" label="Turtuk" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
@@ -385,12 +346,12 @@ export default function TurtukPage() {
 
                   {/* At a Glance */}
                   <div className="bg-forest-50 border border-forest-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-forest-800 mb-4 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🍑</span> Turtuk at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -605,12 +566,12 @@ export default function TurtukPage() {
                         key={p.permit}
                         className={`border ${p.color} rounded-xl p-5`}
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-3"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {p.permit}
-                        </h4>
+                        </h3>
                         <div
                           className="grid sm:grid-cols-2 gap-3 text-sm"
                           style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -654,12 +615,12 @@ export default function TurtukPage() {
                     className="bg-stone-900 text-white rounded-xl p-5 my-6"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    <h4
+                    <h3 data-box
                       className="font-bold text-white mb-3 text-sm"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       📋 Border-zone etiquette
-                    </h4>
+                    </h3>
                     <div className="grid sm:grid-cols-2 gap-2 text-sm">
                       {[
                         "Do not photograph army installations, bunkers, or checkposts",
@@ -1124,12 +1085,12 @@ export default function TurtukPage() {
                   {/* Do & Don't */}
                   <div className="grid sm:grid-cols-2 gap-5 my-6">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1153,12 +1114,12 @@ export default function TurtukPage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-red-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>❌</span> Don't
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1193,12 +1154,12 @@ export default function TurtukPage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}

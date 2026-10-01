@@ -1,5 +1,6 @@
 // src/app/blog/page.tsx
 import type { Metadata } from "next";
+import { pageSocial } from "@/lib/site";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import BlogPageClient from "@/components/blog/BlogPageClient";
@@ -8,7 +9,7 @@ import { featuredPost, posts } from "@/lib/blog-posts";
 export const metadata: Metadata = {
   title: "India Travel Guides: Itineraries, Best Time & Budgets",
   description:
-    "580+ India travel guides from Kudozz Club: destination deep-dives, itineraries, best time to visit, how to reach and budget breakdowns for every state.",
+    "1,000+ India travel guides from Kudozz Club: destination guides, things to do, itineraries, best time to visit and budgets for every state and UT.",
   keywords: [
     "India travel blog",
     "travel guides India",
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
     "India destination guides",
   ],
   alternates: { canonical: "https://club.kudozz.in/blog" },
+  ...pageSocial("/blog", "India Travel Guides: Itineraries, Best Time & Budgets | Kudozz Club", "1,000+ India travel guides from Kudozz Club: destination guides, things to do, itineraries, best time to visit and budgets for every state and UT."),
 };
 
 function BlogSchema({

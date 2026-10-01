@@ -640,7 +640,7 @@ export default function BlogPageClient() {
                 {/* Stats */}
                 <div className="grid grid-cols-2 gap-3">
                   {[
-                    { value: "580+", label: "Guides" },
+                    { value: "1,000+", label: "Guides" },
                     { value: "36", label: "States & UTs" },
                     { value: "6", label: "Regions" },
                     { value: "In-house", label: "Trip planning" },

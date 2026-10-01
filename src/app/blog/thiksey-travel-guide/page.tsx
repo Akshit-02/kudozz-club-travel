@@ -1,4 +1,5 @@
 // src/app/blog/thiksey-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -10,7 +11,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── Per-page SEO metadata ─────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Thiksey Travel Guide: Monastery, Morning Prayers & Maitreya Buddha",
+  title: { absolute: "Thiksey Monastery Guide: Morning Prayers & Maitreya" },
   description:
     "The complete guide to Thiksey Monastery, Ladakh — the 12-storey gompa that mirrors Lhasa's Potala Palace. Best time to visit, how to reach, the famous 6 AM prayers, the 15m Maitreya Buddha, and nearby Shey Palace and Stakna.",
   keywords: [
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
     "things to do near Leh",
   ].join(", "),
   openGraph: {
-    title: "Thiksey Travel Guide: Monastery, Morning Prayers & Maitreya Buddha",
+    title: "Thiksey Monastery Guide: Morning Prayers & Maitreya",
     description:
       "The 12-storey monastery that mirrors the Potala Palace — a complete guide to Thiksey's morning prayers, giant Buddha statue, and Indus valley views.",
     url: "https://club.kudozz.in/blog/thiksey-travel-guide",
@@ -60,7 +61,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Thiksey Travel Guide: Monastery, Morning Prayers & Maitreya Buddha",
+    title: "Thiksey Monastery Guide: Morning Prayers & Maitreya",
     description:
       "The 12-storey monastery that mirrors the Potala Palace — everything you need for Thiksey's morning prayers, giant Buddha statue, and views over the Indus.",
     images: ["/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp"],
@@ -78,6 +79,8 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline:
             "Thiksey Travel Guide: Monastery, Morning Prayers & Maitreya Buddha",
@@ -86,18 +89,26 @@ function ArticleSchema() {
           image:
             "https://club.kudozz.in/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp",
           datePublished: "2026-06-10",
-          dateModified: "2026-08-20",
+          dateModified: "2026-09-09",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
@@ -129,30 +140,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Ladakh",
-                item: "https://club.kudozz.in/blog/leh-ladakh-road-trip-travel-guide",
-              },
-              { "@type": "ListItem", position: 4, name: "Thiksey" },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("thiksey-travel-guide", "Thiksey"),
+          ],
         }),
       }}
     />
@@ -255,35 +245,7 @@ export default function ThikseyPage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-4 sm:px-8 lg:px-12"
-            aria-label="Breadcrumb"
-          >
-            <ol className="flex items-center gap-2 text-xs text-white/70">
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Ladakh", href: "/blog/leh-ladakh-road-trip-travel-guide" },
-                { label: "Thiksey", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/50">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/30">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="thiksey-travel-guide" label="Thiksey" />
 
           {/* Hero Content */}
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-8 pb-14 pt-32">
@@ -391,12 +353,12 @@ export default function ThikseyPage() {
 
                   {/* Info box */}
                   <div className="bg-forest-50 border border-forest-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-forest-800 mb-3 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🏯</span> Thiksey at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 gap-3 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -592,12 +554,12 @@ export default function ThikseyPage() {
                     className="bg-forest-50 border border-forest-200 rounded-xl p-5 my-6"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    <h4
+                    <h3 data-box
                       className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🙏</span> Attending the Prayers: Practical Notes
-                    </h4>
+                    </h3>
                     <ul className="space-y-2 text-sm text-stone-600 m-0">
                       <li>
                         <strong>Timing:</strong> Ceremony typically runs
@@ -761,12 +723,12 @@ export default function ThikseyPage() {
 
                   <div className="space-y-4 my-6">
                     <div className="bg-white border border-stone-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-stone-900 mb-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         Shey Palace
-                      </h4>
+                      </h3>
                       <div className="relative w-full rounded-lg mb-3 h-56 overflow-hidden shadow-sm">
                         <Image
                           src="/images/blogs/ladakh/thiksey/shey-palace-prayer-flags-stupas-mountains.webp"
@@ -787,12 +749,12 @@ export default function ThikseyPage() {
                       </p>
                     </div>
                     <div className="bg-white border border-stone-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-stone-900 mb-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         Stakna Monastery
-                      </h4>
+                      </h3>
                       <div className="relative w-full rounded-lg mb-3 h-56 overflow-hidden shadow-sm">
                         <Image
                           src="/images/blogs/ladakh/hemis/stakna-monastery-indus-river.webp"
@@ -1038,12 +1000,12 @@ export default function ThikseyPage() {
 
                   <div className="grid sm:grid-cols-2 gap-5 my-6">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1067,12 +1029,12 @@ export default function ThikseyPage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-red-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>❌</span> Don't
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1107,12 +1069,12 @@ export default function ThikseyPage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}

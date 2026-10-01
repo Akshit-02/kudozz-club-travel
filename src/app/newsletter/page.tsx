@@ -1,5 +1,6 @@
 // src/app/newsletter/page.tsx
 import type { Metadata } from "next";
+import { pageSocial } from "@/lib/site";
 import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
@@ -18,6 +19,7 @@ export const metadata: Metadata = {
     "hidden gems India newsletter",
   ],
   alternates: { canonical: "https://club.kudozz.in/newsletter" },
+  ...pageSocial("/newsletter", "Kudozz Club Newsletter: Free India Travel Guides by Email", "Get weekly travel guides, hidden gems, and curated itineraries delivered to your inbox. Join the Kudozz Club newsletter."),
 };
 
 const perks = [

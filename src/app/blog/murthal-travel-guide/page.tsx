@@ -1,4 +1,5 @@
 // src/app/blog/murthal-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -9,7 +10,7 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 export const metadata: Metadata = {
-  title: "Murthal Travel Guide: The Parathas That Built a Highway Legend",
+  title: { absolute: "Murthal Travel Guide: The Parathas That Built a Highway Legend" },
   description:
     "The complete Murthal travel guide. NH44's famous paratha dhabas, thick lassi, which dhabas to pick, best time to stop, and honest practical advice for a highway food pilgrimage.",
   keywords:
@@ -20,13 +21,13 @@ export const metadata: Metadata = {
     url: "https://club.kudozz.in/blog/murthal-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/destinations/udaipur/hero.jpg", width: 2560, height: 1707, alt: "Highway dhaba scene representative of Murthal, Haryana" }],
+    images: [{ url: "/images/blogs/haryana/murthal/murthal-aloo-paratha-dhaba.webp", width: 2560, height: 1707, alt: "Aloo paratha with white butter at the Amrik Sukhdev dhaba, Murthal, Haryana" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Murthal Travel Guide: The Parathas That Built a Highway Legend",
     description: "NH44's most famous food stop — the complete guide to Murthal's dhabas.",
-    images: ["/images/destinations/udaipur/hero.jpg"],
+    images: ["/images/blogs/haryana/murthal/murthal-aloo-paratha-dhaba.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/murthal-travel-guide" },
 };
@@ -38,32 +39,43 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline: "Murthal Travel Guide: The Parathas That Built a Highway Legend",
           description: "The complete Murthal travel guide.",
-          image: "https://club.kudozz.in/images/destinations/udaipur/hero.jpg",
+          image: "https://club.kudozz.in/images/blogs/haryana/murthal/murthal-aloo-paratha-dhaba.webp",
           datePublished: "2026-09-07",
-          dateModified: "2026-09-07",
+          dateModified: "2026-09-30",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
-            logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" },
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
-          author: { "@type": "Organization", name: "Kudozz Club" },
+          author: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
           mainEntityOfPage: { "@type": "WebPage", "@id": "https://club.kudozz.in/blog/murthal-travel-guide" },
           about: {
             "@type": "Place",
             name: "Murthal",
             address: { "@type": "PostalAddress", addressRegion: "Haryana", addressCountry: "IN" },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-              { "@type": "ListItem", position: 2, name: "Blog", item: "https://club.kudozz.in/blog" },
-              { "@type": "ListItem", position: 3, name: "Murthal Travel Guide" },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("murthal-travel-guide", "Murthal"),
+          ],
         }),
       }}
     />
@@ -143,8 +155,8 @@ export default function MurthalGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/destinations/udaipur/hero.jpg"
-              alt="Highway dhaba scene representative of Murthal, Haryana"
+              src="/images/blogs/haryana/murthal/murthal-aloo-paratha-dhaba.webp"
+              alt="Aloo paratha with white butter at the Amrik Sukhdev dhaba, Murthal, Haryana"
               fill
               priority
               sizes="100vw"
@@ -154,26 +166,7 @@ export default function MurthalGuidePage() {
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
 
-          <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Murthal", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link href={crumb.href} className="hover:text-white transition-colors">
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && <span className="text-white/20">/</span>}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="murthal-travel-guide" label="Murthal" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
@@ -253,12 +246,12 @@ export default function MurthalGuidePage() {
                   </p>
 
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🫓</span> Murthal at a Glance
-                    </h4>
+                    </h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[
                         { icon: "📍", label: "State", value: "Haryana, India" },
@@ -415,9 +408,9 @@ export default function MurthalGuidePage() {
                           </div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4 className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+                          <h3 data-box className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                             {d.title}
-                          </h4>
+                          </h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li key={a} className="text-sm text-stone-600 flex items-start gap-2" style={{ fontFamily: "var(--font-dm-sans)" }}>
@@ -484,12 +477,12 @@ export default function MurthalGuidePage() {
 
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {[
                           "Pick a well-established, busy dhaba",
@@ -505,12 +498,12 @@ export default function MurthalGuidePage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-red-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>❌</span> Don't
-                      </h4>
+                      </h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {[
                           "Expect any sightseeing beyond the dhabas",
@@ -533,9 +526,9 @@ export default function MurthalGuidePage() {
                   <div className="space-y-5 my-6">
                     {faqs.map((f) => (
                       <div key={f.q} className="bg-white border border-stone-200 rounded-xl p-5">
-                        <h4 className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>
+                        <h3 data-box className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>
                           {f.q}
-                        </h4>
+                        </h3>
                         <p className="text-sm text-stone-600 leading-relaxed m-0" style={{ fontFamily: "var(--font-dm-sans)" }}>
                           {f.a}
                         </p>

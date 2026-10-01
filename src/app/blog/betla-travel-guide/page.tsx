@@ -1,4 +1,5 @@
 // src/app/blog/betla-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -9,7 +10,7 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 export const metadata: Metadata = {
-  title: "Betla National Park Travel Guide: Tiger Safari & Palamu Forts",
+  title: { absolute: "Betla National Park Travel Guide: Tiger Safari & Palamu Forts" },
   description:
     "The complete Betla National Park travel guide. Palamu Tiger Reserve, jeep safaris, the ruined Old and New Palamu Forts, where to stay, best time to visit, and honest planning advice for this Jharkhand reserve.",
   keywords:
@@ -38,24 +39,39 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline: "Betla National Park Travel Guide: Tiger Safari & Palamu Forts",
           description: "The complete Betla National Park travel guide.",
           image: "https://club.kudozz.in/images/blogs/jharkhand/betla/betla-national-park-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
-          publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
-          author: { "@type": "Organization", name: "Kudozz Club" },
+          publisher: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
+          author: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
           mainEntityOfPage: { "@type": "WebPage", "@id": "https://club.kudozz.in/blog/betla-travel-guide" },
           about: { "@type": "Place", name: "Betla National Park", address: { "@type": "PostalAddress", addressRegion: "Jharkhand", addressCountry: "IN" } },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-              { "@type": "ListItem", position: 2, name: "Blog", item: "https://club.kudozz.in/blog" },
-              { "@type": "ListItem", position: 3, name: "Betla National Park Travel Guide" },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("betla-travel-guide", "Betla National Park"),
+          ],
         }),
       }}
     />
@@ -113,16 +129,7 @@ export default function BetlaGuidePage() {
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
-          <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }, { label: "Betla National Park", href: null }].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? <Link href={crumb.href} className="hover:text-white transition-colors">{crumb.label}</Link> : <span className="text-white/35">{crumb.label}</span>}
-                  {i < arr.length - 1 && <span className="text-white/20">/</span>}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="betla-travel-guide" label="Betla National Park" />
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
               {["Betla National Park", "Tiger Safari", "Adventure", "Jharkhand"].map((tag) => (
@@ -167,7 +174,7 @@ export default function BetlaGuidePage() {
                     We'd rather be upfront than oversell this: tiger numbers here have historically been very low compared to reserves like Kanha or Bandhavgarh, so if a tiger sighting is your top priority, those reserves are a better bet. Betla rewards visitors who come for the broader wildlife, the forest, and the fort ruins rather than a guaranteed tiger encounter.
                   </p>
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4 className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>🐘</span> Betla at a Glance</h4>
+                    <h3 data-box className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>🐘</span> Betla at a Glance</h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[
                         { icon: "📍", label: "State", value: "Jharkhand, India" },
@@ -261,7 +268,7 @@ export default function BetlaGuidePage() {
                       <div key={d.day} className="flex gap-4">
                         <div className="flex-shrink-0"><div className={`${d.color} text-white text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap`} style={{ fontFamily: "var(--font-dm-sans)" }}>{d.day}</div></div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4 className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h4>
+                          <h3 data-box className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h3>
                           <ul className="space-y-1.5 m-0">{d.activities.map((a) => (<li key={a} className="text-sm text-stone-600 flex items-start gap-2" style={{ fontFamily: "var(--font-dm-sans)" }}><span className="text-forest-500 font-bold mt-0.5 flex-shrink-0">✓</span>{a}</li>))}</ul>
                         </div>
                       </div>
@@ -304,13 +311,13 @@ export default function BetlaGuidePage() {
                   </ul>
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4 className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h4>
+                      <h3 data-box className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Book safaris through the Forest Department ahead", "Visit the Palamu Forts alongside a safari", "Go with realistic tiger-sighting expectations", "Verify current park/safari-season dates", "Combine with Netarhat for a longer trip"].map((item) => (<li key={item} className="flex items-start gap-2"><span className="text-forest-500 mt-0.5 flex-shrink-0">→</span>{item}</li>))}
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4 className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h4>
+                      <h3 data-box className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Plan a trip around a guaranteed tiger sighting", "Expect Kanha/Bandhavgarh-level luxury lodges", "Skip verifying current monsoon closure dates", "Overlook the Palamu Forts — they're the park's most distinctive feature", "Wear bright colors on the jeep safari"].map((item) => (<li key={item} className="flex items-start gap-2"><span className="text-red-400 mt-0.5 flex-shrink-0">→</span>{item}</li>))}
                       </ul>
@@ -323,7 +330,7 @@ export default function BetlaGuidePage() {
                   <div className="space-y-5 my-6">
                     {faqs.map((f) => (
                       <div key={f.q} className="bg-white border border-stone-200 rounded-xl p-5">
-                        <h4 className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h4>
+                        <h3 data-box className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h3>
                         <p className="text-sm text-stone-600 leading-relaxed m-0" style={{ fontFamily: "var(--font-dm-sans)" }}>{f.a}</p>
                       </div>
                     ))}

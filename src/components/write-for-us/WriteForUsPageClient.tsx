@@ -233,7 +233,7 @@ export default function WriteForUsPageClient() {
               {/* Quick stats */}
               <div className="flex flex-wrap gap-6 mt-8">
                 {[
-                  { value: "580+", label: "Guides published" },
+                  { value: "1,000+", label: "Guides published" },
                   { value: "Free", label: "No fees to submit" },
                 ].map((s) => (
                   <div key={s.label}>

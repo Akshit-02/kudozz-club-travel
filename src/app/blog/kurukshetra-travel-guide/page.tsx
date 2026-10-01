@@ -1,4 +1,5 @@
 // src/app/blog/kurukshetra-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -9,13 +10,13 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 export const metadata: Metadata = {
-  title: "Kurukshetra Travel Guide: Bhagavad Gita's Battlefield & Brahma Sarovar",
+  title: { absolute: "Kurukshetra Travel Guide: Brahma Sarovar & Gita Sites" },
   description:
     "The complete Kurukshetra travel guide. Jyotisar, Brahma Sarovar, the Kurukshetra Panorama Science Centre, where to stay, best time to visit, and a full itinerary through the legendary Mahabharata battlefield.",
   keywords:
     "Kurukshetra travel guide, Jyotisar, Brahma Sarovar, Bhagavad Gita site, Gita Jayanti, Kurukshetra Panorama Science Centre, best time to visit Kurukshetra, how to reach Kurukshetra",
   openGraph: {
-    title: "Kurukshetra Travel Guide: Bhagavad Gita's Battlefield & Brahma Sarovar",
+    title: "Kurukshetra Travel Guide: Brahma Sarovar & Gita Sites",
     description: "The ground where the Bhagavad Gita is said to have been spoken, and a sacred tank where millions gather for a solar-eclipse bathing ritual — the complete guide to Kurukshetra.",
     url: "https://club.kudozz.in/blog/kurukshetra-travel-guide",
     type: "article",
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kurukshetra Travel Guide: Bhagavad Gita's Battlefield & Brahma Sarovar",
+    title: "Kurukshetra Travel Guide: Brahma Sarovar & Gita Sites",
     description: "Jyotisar, Brahma Sarovar, and the legendary Mahabharata battlefield — the complete guide to Kurukshetra.",
     images: ["/images/blogs/haryana/kurukshetra/brahma-sarovar-kurukshetra.webp"],
   },
@@ -38,24 +39,39 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline: "Kurukshetra Travel Guide: Bhagavad Gita's Battlefield & Brahma Sarovar",
           description: "The complete Kurukshetra travel guide.",
           image: "https://club.kudozz.in/images/blogs/haryana/kurukshetra/brahma-sarovar-kurukshetra.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
-          publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
-          author: { "@type": "Organization", name: "Kudozz Club" },
+          publisher: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
+          author: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
           mainEntityOfPage: { "@type": "WebPage", "@id": "https://club.kudozz.in/blog/kurukshetra-travel-guide" },
           about: { "@type": "Place", name: "Kurukshetra", address: { "@type": "PostalAddress", addressRegion: "Haryana", addressCountry: "IN" } },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-              { "@type": "ListItem", position: 2, name: "Blog", item: "https://club.kudozz.in/blog" },
-              { "@type": "ListItem", position: 3, name: "Kurukshetra Travel Guide" },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("kurukshetra-travel-guide", "Kurukshetra"),
+          ],
         }),
       }}
     />
@@ -143,24 +159,7 @@ export default function KurukshetraGuidePage() {
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
 
-          <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Kurukshetra", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link href={crumb.href} className="hover:text-white transition-colors">{crumb.label}</Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && <span className="text-white/20">/</span>}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="kurukshetra-travel-guide" label="Kurukshetra" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
@@ -221,9 +220,9 @@ export default function KurukshetraGuidePage() {
                   </p>
 
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4 className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
+                    <h3 data-box className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
                       <span>🛕</span> Kurukshetra at a Glance
-                    </h4>
+                    </h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[
                         { icon: "📍", label: "State", value: "Haryana, India" },
@@ -337,7 +336,7 @@ export default function KurukshetraGuidePage() {
                           <div className={`${d.color} text-white text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap`} style={{ fontFamily: "var(--font-dm-sans)" }}>{d.day}</div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4 className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h4>
+                          <h3 data-box className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li key={a} className="text-sm text-stone-600 flex items-start gap-2" style={{ fontFamily: "var(--font-dm-sans)" }}>
@@ -394,7 +393,7 @@ export default function KurukshetraGuidePage() {
 
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4 className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h4>
+                      <h3 data-box className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Verify current festival/eclipse dates before planning around them", "Dress modestly throughout the town", "Visit Brahma Sarovar early morning for a calmer experience", "Combine with a Panipat stop on the same route", "Try local Haryanvi vegetarian fare"].map((item) => (
                           <li key={item} className="flex items-start gap-2"><span className="text-forest-500 mt-0.5 flex-shrink-0">→</span>{item}</li>
@@ -402,7 +401,7 @@ export default function KurukshetraGuidePage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4 className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h4>
+                      <h3 data-box className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Assume major festivals follow fixed Gregorian dates every year", "Wear beachwear-style clothing near the temples/ghats", "Visit expecting Himachal-scale luxury stays", "Skip advance planning if traveling during Gita Jayanti", "Ignore crowd-management guidance during eclipse dates"].map((item) => (
                           <li key={item} className="flex items-start gap-2"><span className="text-red-400 mt-0.5 flex-shrink-0">→</span>{item}</li>
@@ -417,7 +416,7 @@ export default function KurukshetraGuidePage() {
                   <div className="space-y-5 my-6">
                     {faqs.map((f) => (
                       <div key={f.q} className="bg-white border border-stone-200 rounded-xl p-5">
-                        <h4 className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h4>
+                        <h3 data-box className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h3>
                         <p className="text-sm text-stone-600 leading-relaxed m-0" style={{ fontFamily: "var(--font-dm-sans)" }}>{f.a}</p>
                       </div>
                     ))}

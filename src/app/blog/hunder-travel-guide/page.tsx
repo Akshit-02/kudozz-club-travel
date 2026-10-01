@@ -1,3 +1,4 @@
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import SiteFooter from "@/components/layout/SiteFooter";
 import SiteHeader from "@/components/layout/SiteHeader";
 import { RelatedPostsGrid, RelatedSidebar } from "@/components/ui/RelatedPosts";
@@ -9,7 +10,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── Per-page SEO metadata ─────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Hunder Travel Guide: Nubra Valley's Sand Dunes & Camel Safari",
+  title: { absolute: "Hunder Travel Guide: Nubra Valley's Sand Dunes & Camel Safari" },
   description:
     "A complete guide to Hunder in Nubra Valley, Ladakh — cold desert sand dunes, double-humped Bactrian camel safaris, Diskit Monastery, permits, budget, and camping under the stars.",
   keywords: [
@@ -76,6 +77,8 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline:
             "Hunder Travel Guide: Nubra Valley's Sand Dunes & Camel Safari",
@@ -83,19 +86,27 @@ function ArticleSchema() {
             "A complete guide to Hunder in Nubra Valley, Ladakh — cold desert sand dunes, double-humped Bactrian camel safaris, Diskit Monastery, permits, budget, and camping under the stars.",
           image: "https://club.kudozz.in/images/blogs/ladakh/hunder/hunder-sand-dunes-aerial-view.webp",
           datePublished: "2026-08-30",
-          dateModified: "2026-08-30",
+          dateModified: "2026-09-09",
 
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
@@ -126,30 +137,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Ladakh",
-                item: "https://club.kudozz.in/blog/leh-ladakh-road-trip-travel-guide",
-              },
-              { "@type": "ListItem", position: 4, name: "Hunder Travel Guide" },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("hunder-travel-guide", "Hunder"),
+          ],
         }),
       }}
     />
@@ -252,35 +242,7 @@ export default function HunderPage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-4 sm:px-8 lg:px-12"
-            aria-label="Breadcrumb"
-          >
-            <ol className="flex items-center gap-2 text-xs text-white/70">
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Ladakh", href: "/blog/leh-ladakh-road-trip-travel-guide" },
-                { label: "Hunder", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/50">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/30">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="hunder-travel-guide" label="Hunder" />
 
           {/* Hero Content */}
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-8 pb-14 pt-32">
@@ -390,12 +352,12 @@ export default function HunderPage() {
 
                   {/* Info box */}
                   <div className="bg-forest-50 border border-forest-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-forest-800 mb-3 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🐫</span> Hunder at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 gap-3 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -787,12 +749,12 @@ export default function HunderPage() {
                           </div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4
+                          <h3 data-box
                             className="font-bold text-stone-900 mb-3"
                             style={{ fontFamily: "var(--font-playfair)" }}
                           >
                             {d.title}
-                          </h4>
+                          </h3>
                           <ul className="space-y-1 m-0">
                             {d.activities.map((a) => (
                               <li
@@ -1000,12 +962,12 @@ export default function HunderPage() {
                   <h2>Essential Travel Tips</h2>
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul className="space-y-2 m-0">
                         {[
                           "Acclimatise 1–2 days in Leh before crossing Khardung La",
@@ -1025,12 +987,12 @@ export default function HunderPage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-red-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>❌</span> Don&apos;t
-                      </h4>
+                      </h3>
                       <ul className="space-y-2 m-0">
                         {[
                           "Don't rush from Leh airport straight to Khardung La",
@@ -1080,12 +1042,12 @@ export default function HunderPage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}

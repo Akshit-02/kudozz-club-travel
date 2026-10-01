@@ -62,6 +62,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     { url: `${BASE_URL}/packages`, changeFrequency: "weekly", priority: 0.9 },
+    {
+      url: `${BASE_URL}/best-travel-agency-in-india`,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
     { url: `${BASE_URL}/adventure-travel`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/beach-travel`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/wildlife-tourism`, changeFrequency: "weekly", priority: 0.8 },
@@ -76,6 +81,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     { url: `${BASE_URL}/about`, changeFrequency: "monthly", priority: 0.5 },
+    {
+      url: `${BASE_URL}/editorial-policy`,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
     { url: `${BASE_URL}/contact`, changeFrequency: "monthly", priority: 0.4 },
     {
       url: `${BASE_URL}/newsletter`,

@@ -1,4 +1,5 @@
 // src/app/blog/nani-daman-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -10,15 +11,15 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Nani Daman Travel Guide: Fort, Harbour & Lighthouse",
+  title: { absolute: "Nani Daman Travel Guide: St. Jerome Fort, Jetty & Harbour" },
   description:
-    "Nani Daman travel guide — the smaller northern quarter of Daman town, home to the Fort of St. Francis Xavier, a working fishing harbour, and the lighthouse.",
+    "Nani Daman guide: the Fort of St. Jerome and its riverside gateway, the Church of Our Lady of the Sea, the fishing jetty and harbour, plus timings and tips.",
   keywords:
-    "Nani Daman, Nani Daman travel guide, Fort of St. Francis Xavier, Daman fishing harbour, Daman lighthouse, Nani Daman jetty, Daman and Diu travel, Moti Daman vs Nani Daman, Daman Ganga river, Daman tourism",
+    "Nani Daman, Nani Daman travel guide, Fort of St. Jerome, Nani Daman Fort, Our Lady of the Sea church Daman, Daman fishing harbour, Nani Daman jetty, Daman and Diu travel, Moti Daman vs Nani Daman, Daman Ganga river, Daman tourism",
   openGraph: {
-    title: "Nani Daman Travel Guide: Fort, Harbour & Lighthouse",
+    title: "Nani Daman Travel Guide: St. Jerome Fort, Jetty & Harbour",
     description:
-      "The smaller, northern quarter of Daman town — a working fishing harbour, the Fort of St. Francis Xavier, and a lighthouse across the river from Moti Daman.",
+      "The northern quarter of Daman town: the Fort of St. Jerome with its statue-topped gateway, the Church of Our Lady of the Sea and a busy fishing harbour.",
     url: "https://club.kudozz.in/blog/nani-daman-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
@@ -37,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nani Daman Travel Guide: Fort, Harbour & Lighthouse",
+    title: "Nani Daman Travel Guide: St. Jerome Fort, Jetty & Harbour",
     description:
-      "The smaller, northern quarter of Daman town — a working fishing harbour, the Fort of St. Francis Xavier, and a lighthouse across the river from Moti Daman.",
+      "The northern quarter of Daman town: the Fort of St. Jerome with its statue-topped gateway, the Church of Our Lady of the Sea and a busy fishing harbour.",
     images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-entrance-gate.webp"],
   },
   alternates: {
@@ -55,31 +56,41 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
-          headline: "Nani Daman Travel Guide: Fort, Harbour & Lighthouse",
+          headline: "Nani Daman Travel Guide: St. Jerome Fort, Jetty & Harbour",
           description:
-            "Nani Daman travel guide — the smaller northern quarter of Daman town, home to the Fort of St. Francis Xavier, a working fishing harbour, and the lighthouse.",
+            "Nani Daman guide: the Fort of St. Jerome and its riverside gateway, the Church of Our Lady of the Sea, the fishing jetty and harbour, plus timings and tips.",
           image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-entrance-gate.webp",
           datePublished: "2026-08-30",
-          dateModified: "2026-08-30",
+          dateModified: "2026-09-30",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
             "@id": "https://club.kudozz.in/blog/nani-daman-travel-guide",
           },
           keywords:
-            "Nani Daman, Fort of St. Francis Xavier, Daman fishing harbour, Daman lighthouse, Moti Daman vs Nani Daman",
+            "Nani Daman, Fort of St. Jerome, Nani Daman Fort, Daman fishing harbour, Moti Daman vs Nani Daman",
           about: {
             "@type": "Place",
             name: "Nani Daman",
@@ -90,34 +101,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Daman & Diu",
-                item: "https://club.kudozz.in/blog/dadra-nagar-haveli-daman-diu-travel-guide",
-              },
-              {
-                "@type": "ListItem",
-                position: 4,
-                name: "Nani Daman",
-              },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("nani-daman-travel-guide", "Nani Daman"),
+          ],
         }),
       }}
     />
@@ -128,15 +114,15 @@ function ArticleSchema() {
 const faqs = [
   {
     q: "What is the difference between Moti Daman and Nani Daman?",
-    a: "They're the two halves of Daman town, split by the Daman Ganga river. Moti Daman (\"Big Daman\") sits on the south bank and is the larger, more formal quarter — home to the main Portuguese fort, government offices, and Bom Jesus Church. Nani Daman (\"Small Daman\") sits on the north bank and is smaller and more workaday — a fishing-harbour town with its own modest fort, a busy jetty, and a lighthouse. Moti Daman feels administrative and monumental; Nani Daman feels lived-in and salty.",
+    a: "They're the two halves of Daman town, split by the Daman Ganga river. Moti Daman (\"Big Daman\") sits on the south bank and is the larger, more formal quarter — home to the main Portuguese fort, government offices, and Bom Jesus Church. Nani Daman (\"Small Daman\") sits on the north bank and is smaller and more workaday — a fishing-harbour town with the compact Fort of St. Jerome and a busy jetty. Moti Daman feels administrative and monumental; Nani Daman feels lived-in and salty.",
   },
   {
     q: "Is Nani Daman worth visiting?",
-    a: "Yes, if you enjoy an authentic, unpolished slice of coastal life rather than a polished heritage site. Nani Daman's fort remnants are modest compared to Moti Daman's, but the fishing harbour — with its packed rows of boats, the daily catch coming in, and the whole rhythm of a working port — is genuinely worth an hour or two, especially paired with a walk out to the lighthouse.",
+    a: "Yes, if you enjoy an authentic, unpolished slice of coastal life rather than a polished heritage site. The Fort of St. Jerome is smaller than Moti Daman Fort but well preserved, and the fishing harbour — with its packed rows of boats, the daily catch coming in, and the whole rhythm of a working port — is genuinely worth an hour or two, especially paired with a walk along the fort's riverside ramparts.",
   },
   {
     q: "What is there to see in Nani Daman?",
-    a: "The main draws are the Fort of St. Francis Xavier (partially standing walls now largely absorbed into the town), the fishing harbour and jetty with its colourful wooden trawlers, and the Daman lighthouse near the river mouth. None of these are large sights individually, but together they make for a pleasant, low-key half-day walk.",
+    a: "The main draws are the Fort of St. Jerome (Nani Daman Fort), with its riverside gateway, statue of St. Jerome and the Church of Our Lady of the Sea inside; the fishing harbour and jetty with its colourful wooden trawlers; and the view across the river to Moti Daman Fort. Together they make a pleasant, low-key half-day walk.",
   },
   {
     q: "Is the Nani Daman fishing harbour open to visitors?",
@@ -147,12 +133,12 @@ const faqs = [
     a: "They're connected by a bridge over the Daman Ganga river, right within Daman town — the crossing takes just a few minutes by auto-rickshaw, taxi, or on foot. Most visitors base themselves in either half and cover both on the same day, since the whole town is compact.",
   },
   {
-    q: "What is the Fort of St. Francis Xavier in Nani Daman?",
-    a: "It's Nani Daman's own, smaller Portuguese-era fort, built to guard the north bank of the river mouth alongside the larger Moti Daman Fort on the south bank. Much of its original extent has been absorbed into the town over the centuries, and today only sections of wall and bastion remain visible among the houses and streets — a quieter, less-restored counterpart to Moti Daman's fort.",
+    q: "What is the Fort of St. Jerome in Nani Daman?",
+    a: "It's Nani Daman's Portuguese fort, also called Nani Daman Fort. Built between 1615 and 1627 on the north bank of the Daman Ganga, it covers about 12,250 sq m, with high stone walls, three bastions and two gateways. The riverside gateway carries a large statue of St. Jerome, and the Church of Our Lady of the Sea stands inside. It is smaller than Moti Daman Fort (1559–1581) on the south bank.",
   },
   {
     q: "What is the best time to visit Nani Daman?",
-    a: "October to March, when the weather is dry and pleasantly warm rather than humid — ideal for walking the harbour front and the fort remnants without the discomfort of Daman's peak summer heat or the monsoon's rough seas and slippery jetty surfaces.",
+    a: "October to March, when the weather is dry and pleasantly warm rather than humid — ideal for walking the harbour front and the fort ramparts without the discomfort of Daman's peak summer heat or the monsoon's rough seas and slippery jetty surfaces.",
   },
 ];
 
@@ -183,9 +169,9 @@ const tableOfContents = [
   { id: "introduction", title: "Nani Daman: Small Daman", level: 2 },
   { id: "best-time", title: "Best Time to Visit", level: 2 },
   { id: "how-to-reach", title: "How to Reach", level: 2 },
-  { id: "fort", title: "Fort of St. Francis Xavier", level: 2 },
+  { id: "fort", title: "Fort of St. Jerome", level: 2 },
   { id: "harbour", title: "The Fishing Harbour & Jetty", level: 2 },
-  { id: "lighthouse", title: "Daman Lighthouse", level: 2 },
+  { id: "lighthouse", title: "Views Across to Moti Daman", level: 2 },
   { id: "food-guide", title: "Local Seafood & Where to Eat", level: 2 },
   { id: "itinerary", title: "Suggested Half-Day Visit", level: 2 },
   { id: "budget", title: "Budget Breakdown", level: 2 },
@@ -218,41 +204,7 @@ export default function NaniDamanGuidePage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10"
-            aria-label="Breadcrumb"
-          >
-            <ol
-              className="flex items-center gap-2 text-xs text-white/55"
-              style={{ fontFamily: "var(--font-dm-sans)" }}
-            >
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                {
-                  label: "Daman & Diu",
-                  href: "/blog/dadra-nagar-haveli-daman-diu-travel-guide",
-                },
-                { label: "Nani Daman", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/20">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="nani-daman-travel-guide" label="Nani Daman" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
@@ -277,7 +229,7 @@ export default function NaniDamanGuidePage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Nani Daman Travel Guide: Fort, Harbour & Lighthouse
+              Nani Daman Travel Guide: St. Jerome Fort, Jetty & Harbour
             </h1>
 
             <p
@@ -285,9 +237,9 @@ export default function NaniDamanGuidePage() {
               style={{ fontFamily: "var(--font-source-serif)" }}
             >
               Across the river from Moti Daman's grand fort lies its
-              smaller, saltier sibling — a working fishing harbour, a
-              modest Portuguese fort folded into the town, and a lighthouse
-              watching over the river mouth.
+              smaller, saltier sibling: a working fishing harbour and the
+              compact Fort of St. Jerome, its gateway guarded by a statue of
+              the saint.
             </p>
 
             <div
@@ -363,16 +315,13 @@ export default function NaniDamanGuidePage() {
                   <p>
                     The Portuguese, who held Daman for nearly four and a half
                     centuries until 1961, fortified both banks of the river
-                    mouth to guard the harbour entrance. Moti Daman got the
-                    larger, more elaborate fortification; Nani Daman got its
-                    own, more modest one — the{" "}
-                    <strong>Fort of St. Francis Xavier</strong> — along with
-                    a lighthouse to guide boats safely in. Centuries later,
-                    the fort's walls have largely been absorbed into the
-                    town that grew up around them, while the harbour it once
-                    protected is still very much alive, packed with wooden
-                    fishing trawlers and the everyday business of a coastal
-                    livelihood.
+                    mouth. Moti Daman got the larger fortification (built
+                    1559–1581); Nani Daman got the smaller{" "}
+                    <strong>Fort of St. Jerome</strong>, built between 1615
+                    and 1627 to guard the north bank. Its walls still stand,
+                    and the harbour it once protected is very much alive,
+                    packed with wooden fishing trawlers and the everyday
+                    business of a coastal livelihood.
                   </p>
                   <p>
                     This is what makes Nani Daman worth the short walk or
@@ -390,12 +339,12 @@ export default function NaniDamanGuidePage() {
 
                   {/* At a Glance */}
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>⚓</span> Nani Daman at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -414,7 +363,7 @@ export default function NaniDamanGuidePage() {
                         {
                           icon: "🏰",
                           label: "Landmark",
-                          value: "Fort of St. Francis Xavier",
+                          value: "Fort of St. Jerome",
                         },
                         {
                           icon: "🎣",
@@ -452,7 +401,7 @@ export default function NaniDamanGuidePage() {
                   <h2>Best Time to Visit</h2>
                   <p>
                     Nani Daman shares Daman's warm, humid coastal climate, so
-                    the harbour walk and fort ramble are far more pleasant
+                    the harbour walk and fort visit are far more pleasant
                     outside peak summer heat.
                   </p>
 
@@ -463,7 +412,7 @@ export default function NaniDamanGuidePage() {
                         emoji: "☀️",
                         color: "bg-forest-50 border-forest-200",
                         mood: "Best time — our pick",
-                        text: "Dry, pleasant weather (18–30°C) makes walking the jetty and exploring the fort remnants genuinely comfortable, with harbour activity at its most photogenic in the cool morning light.",
+                        text: "Dry, pleasant weather (18–30°C) makes walking the jetty and the fort ramparts genuinely comfortable, with harbour activity at its most photogenic in the cool morning light.",
                       },
                       {
                         season: "Mar – May",
@@ -554,8 +503,8 @@ export default function NaniDamanGuidePage() {
                     <li>
                       <strong>Getting around locally:</strong> Nani Daman
                       itself is compact and very walkable once you're there
-                      — the fort remnants, harbour, and lighthouse are all
-                      within a short walk of one another.
+                      — the fort, harbour and jetty are all within a short
+                      walk of one another.
                     </li>
                   </ul>
                   <div
@@ -573,42 +522,51 @@ export default function NaniDamanGuidePage() {
 
                 {/* ── Fort ──────────────────────────────────────────────── */}
                 <section id="fort">
-                  <h2>Fort of St. Francis Xavier</h2>
+                  <h2>Fort of St. Jerome (Nani Daman Fort)</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
                       src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/nani-daman-fort-archway-stairway.webp"
-                      alt="A weathered stone archway and stairway inside Nani Daman Fort, part of its surviving Portuguese-era walls"
+                      alt="A weathered stone archway and stairway inside Nani Daman Fort (Fort of St. Jerome)"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
                     />
                   </div>
                   <p>
-                    Nani Daman's own Portuguese-era fort, built to guard the
-                    north bank of the river mouth alongside Moti Daman
-                    Fort's more imposing walls across the water. It was
-                    always the smaller of the two fortifications, and today
-                    it shows — much of its original perimeter has been
-                    absorbed into the streets and houses of the town that
-                    grew up around it over the centuries.
+                    The <strong>Fort of St. Jerome</strong>, usually called
+                    Nani Daman Fort, stands on the north bank of the Daman
+                    Ganga facing Moti Daman Fort across the water. The
+                    Portuguese built it between 1615 and 1627, more than
+                    thirty years after they finished the larger fort on the
+                    south bank. It is compact, about 12,250 square metres,
+                    with high stone walls, three bastions and two gateways.
                   </p>
                   <p>
-                    What remains are scattered sections of laterite wall and
-                    the outline of former bastions, visible in places along
-                    the riverfront and woven into the town's older lanes
-                    rather than preserved as a single walkable monument the
-                    way Moti Daman Fort is. It's less a "sight" in the
-                    conventional sense than a layer of history to notice as
-                    you walk — old stone amid newer construction, a reminder
-                    that this workaday harbour town was once a defended
-                    Portuguese outpost in its own right.
+                    The riverside gateway is the part most visitors
+                    photograph: a large statue of St. Jerome, the fort's
+                    namesake, stands above it, flanked by carved figures.
+                    Inside, the main building is the{" "}
+                    <strong>Church of Our Lady of the Sea</strong>, known for
+                    its panelled altar. Walk up onto the ramparts for views
+                    over the fish market and the fishing fleet moored along
+                    the river.
                   </p>
                   <p>
-                    Come here without expecting a restored, ticketed
-                    monument, and the fort remnants make more sense: they're
-                    best appreciated as part of a wider walk through Nani
-                    Daman's older riverside streets, rather than a single
-                    standalone stop.
+                    Allow 30 to 45 minutes. It is small enough to combine
+                    easily with the harbour walk, and it makes a good
+                    contrast with the much larger walled fort in Moti Daman.
+                    Entry and opening hours can change, so check locally
+                    before you go.
+                  </p>
+                  <p
+                    className="text-sm text-stone-500"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    Source: Daman administration,{" "}
+                    <a href="https://ddd.gov.in/places-centres/fort-of-st-jerome-daman/" rel="noopener" target="_blank">
+                      Fort of St. Jerome
+                    </a>
+                    .
                   </p>
                 </section>
 
@@ -663,7 +621,7 @@ export default function NaniDamanGuidePage() {
                     </li>
                   </ul>
                   <blockquote>
-                    Skip the fort remnants if you're short on time, but
+                    Skip the fort if you're short on time, but
                     don't skip the harbour — half an hour spent simply
                     watching the boats come and go tells you more about
                     Nani Daman's character than any single monument would.
@@ -672,33 +630,30 @@ export default function NaniDamanGuidePage() {
 
                 {/* ── Lighthouse ────────────────────────────────────────── */}
                 <section id="lighthouse">
-                  <h2>Daman Lighthouse</h2>
+                  <h2>Views Across to Moti Daman</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
                       src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/nani-daman/daman-lighthouse-old-and-new-towers.webp"
-                      alt="The old and new Daman lighthouse towers standing side by side near the river mouth"
+                      alt="The old and new Daman lighthouse towers inside Moti Daman Fort"
                       fill
                       sizes="(min-width: 1280px) 768px, (min-width: 1024px) 640px, 100vw"
                       className="object-cover"
                     />
                   </div>
                   <p>
-                    Standing near the river mouth on the Nani Daman side,
-                    the <strong>lighthouse</strong> has quietly done the job
-                    of guiding fishing boats and coastal traffic safely
-                    past the harbour entrance for generations — a
-                    functional counterpart to the fort's old defensive
-                    role, and every bit as tied to Nani Daman's identity as
-                    a working port town.
+                    From the Nani Daman riverfront you look straight across
+                    the Daman Ganga to the walls of Moti Daman Fort. Daman's
+                    old and new <strong>lighthouse</strong> towers stand
+                    inside that fort, on the south bank, so they belong to a
+                    Moti Daman visit rather than this one.
                   </p>
                   <p>
-                    It's a modest structure rather than a dramatic one, and
-                    the appeal here is less about the lighthouse itself and
-                    more about the setting — the open view up and down the
-                    river mouth, boats passing in and out of the harbour,
-                    and a quiet vantage point away from the busier jetty
-                    activity nearby. It pairs naturally with a harbour walk,
-                    a short extension rather than a separate trip.
+                    The riverfront is still worth a few minutes: boats
+                    passing in and out of the harbour, the two forts facing
+                    each other across the estuary, and a quieter vantage
+                    point away from the busier jetty. To see the lighthouse
+                    up close, cross the bridge and walk through{" "}
+                    <Link href="/blog/moti-daman-fort-travel-guide">Moti Daman Fort</Link>.
                   </p>
                 </section>
 
@@ -766,16 +721,16 @@ export default function NaniDamanGuidePage() {
                         color: "bg-forest-600",
                         activities: [
                           "Wander the older streets near the riverfront",
-                          "Spot the surviving wall sections of the Fort of St. Francis Xavier",
+                          "Visit the Fort of St. Jerome: the statue-topped gateway, the church and the ramparts",
                           "Take in the view across the river to Moti Daman",
                         ],
                       },
                       {
                         day: "Midday",
-                        title: "Lighthouse & Lunch",
+                        title: "Riverfront & Lunch",
                         color: "bg-sky-600",
                         activities: [
-                          "Short walk to the lighthouse near the river mouth",
+                          "Walk the riverfront for views across to Moti Daman Fort",
                           "Lunch at a local eatery near the harbour — fresh seafood",
                           "Cross the bridge to Moti Daman for the afternoon, if continuing",
                         ],
@@ -791,12 +746,12 @@ export default function NaniDamanGuidePage() {
                           </div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4
+                          <h3 data-box
                             className="font-bold text-stone-900 mb-3"
                             style={{ fontFamily: "var(--font-playfair)" }}
                           >
                             {d.title}
-                          </h4>
+                          </h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li
@@ -838,9 +793,10 @@ export default function NaniDamanGuidePage() {
                   <h2>Budget Breakdown (Nani Daman, per day)</h2>
                   <p>
                     Nani Daman itself costs very little to explore — most of
-                    a visitor's spend here goes toward food, since the fort
-                    remnants, harbour, and lighthouse are all free to walk
-                    around.
+                    a visitor's spend here goes toward food. The harbour and
+                    riverfront are free to walk, and the fort has no
+                    significant entry cost (check locally, as this can
+                    change).
                   </p>
                   <div className="overflow-x-auto my-6">
                     <table
@@ -876,7 +832,7 @@ export default function NaniDamanGuidePage() {
                             "₹400",
                             "₹1,000",
                           ],
-                          ["Sightseeing (fort, harbour, lighthouse)", "Free", "Free", "Free"],
+                          ["Sightseeing (fort, harbour, riverfront)", "Free", "Free", "Free"],
                           [
                             "Half-day total (approx.)",
                             "₹600",
@@ -938,10 +894,9 @@ export default function NaniDamanGuidePage() {
                       and uneven — this isn't a promenade walk.
                     </li>
                     <li>
-                      <strong>Don't expect a restored fort:</strong> The
-                      Fort of St. Francis Xavier survives only in fragments
-                      woven into the town — go in looking for atmosphere and
-                      old stonework, not a polished monument.
+                      <strong>Keep the fort short:</strong> The Fort of St.
+                      Jerome is compact; 30 to 45 minutes covers the gateway,
+                      the church and a walk on the ramparts.
                     </li>
                     <li>
                       <strong>Combine with Moti Daman:</strong> The bridge
@@ -959,19 +914,19 @@ export default function NaniDamanGuidePage() {
                   {/* Do & Don't */}
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
                       >
                         {[
                           "Visit the harbour early morning for the most activity",
-                          "Walk out to the lighthouse for river-mouth views",
+                          "Walk the Fort of St. Jerome ramparts for river views",
                           "Try freshly caught seafood at a harbourside eatery",
                           "Combine the visit with Moti Daman across the bridge",
                           "Stay mindful of fishing operations on the jetty",
@@ -987,18 +942,18 @@ export default function NaniDamanGuidePage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-red-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>❌</span> Don't
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
                       >
                         {[
-                          "Expect a large, restored fort like Moti Daman's",
+                          "Expect a fort as large as Moti Daman's: this one is compact",
                           "Walk through nets, catch, or loading areas uninvited",
                           "Visit the jetty in your best shoes or clothes",
                           "Skip Moti Daman — the bridge crossing takes minutes",
@@ -1046,12 +1001,12 @@ export default function NaniDamanGuidePage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1070,9 +1025,9 @@ export default function NaniDamanGuidePage() {
                   "Nani Daman",
                   "Daman",
                   "Daman and Diu",
-                  "Fort of St. Francis Xavier",
+                  "Fort of St. Jerome",
                   "Fishing Harbour",
-                  "Daman Lighthouse",
+                  "Church of Our Lady of the Sea",
                   "Portuguese Heritage",
                 ].map((tag) => (
                   <Link

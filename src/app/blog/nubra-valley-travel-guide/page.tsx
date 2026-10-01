@@ -1,3 +1,4 @@
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import SiteFooter from "@/components/layout/SiteFooter";
 import SiteHeader from "@/components/layout/SiteHeader";
 import { RelatedPostsGrid, RelatedSidebar } from "@/components/ui/RelatedPosts";
@@ -9,7 +10,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── Per-page SEO metadata ─────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert",
+  title: { absolute: "Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert" },
   description:
     "The complete Nubra Valley travel guide — crossing Khardung La, Diskit Monastery's giant Maitreya Buddha, Hunder's Bactrian camels, permits, a 2-day itinerary, stays, food and budget for Ladakh's high-altitude desert.",
   keywords: [
@@ -77,25 +78,35 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline: "Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert",
           description:
             "The complete Nubra Valley travel guide — crossing Khardung La, Diskit Monastery's giant Maitreya Buddha, Hunder's Bactrian camels, permits, a 2-day itinerary, stays, food and budget for Ladakh's high-altitude desert.",
           image: "https://club.kudozz.in/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp",
           datePublished: "2026-07-22",
-          dateModified: "2026-08-30",
+          dateModified: "2026-09-09",
 
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
@@ -127,34 +138,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Ladakh",
-                item: "https://club.kudozz.in/blog/leh-ladakh-road-trip-travel-guide",
-              },
-              {
-                "@type": "ListItem",
-                position: 4,
-                name: "Nubra Valley Travel Guide",
-              },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("nubra-valley-travel-guide", "Nubra Valley"),
+          ],
         }),
       }}
     />
@@ -259,35 +245,7 @@ export default function NubraValleyPage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-4 sm:px-8 lg:px-12"
-            aria-label="Breadcrumb"
-          >
-            <ol className="flex items-center gap-2 text-xs text-white/70">
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Ladakh", href: "/blog/leh-ladakh-road-trip-travel-guide" },
-                { label: "Nubra Valley", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/50">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/30">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="nubra-valley-travel-guide" label="Nubra Valley" />
 
           {/* Hero Content */}
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-8 pb-14 pt-32">
@@ -397,12 +355,12 @@ export default function NubraValleyPage() {
 
                   {/* Info box */}
                   <div className="bg-forest-50 border border-forest-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-forest-800 mb-3 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🐫</span> Nubra Valley at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 gap-3 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -892,12 +850,12 @@ export default function NubraValleyPage() {
                           </div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4
+                          <h3 data-box
                             className="font-bold text-stone-900 mb-3"
                             style={{ fontFamily: "var(--font-playfair)" }}
                           >
                             {d.title}
-                          </h4>
+                          </h3>
                           <ul className="space-y-1 m-0">
                             {d.activities.map((a) => (
                               <li
@@ -1118,12 +1076,12 @@ export default function NubraValleyPage() {
 
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="text-sm font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✓</span> Do
-                      </h4>
+                      </h3>
                       <ul className="space-y-2 m-0">
                         {[
                           "Acclimatise 1–2 days in Leh before crossing Khardung La",
@@ -1144,12 +1102,12 @@ export default function NubraValleyPage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="text-sm font-bold text-red-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✗</span> Don't
-                      </h4>
+                      </h3>
                       <ul className="space-y-2 m-0">
                         {[
                           "Linger more than 20–30 minutes at Khardung La summit",
@@ -1190,12 +1148,12 @@ export default function NubraValleyPage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}

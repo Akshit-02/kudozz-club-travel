@@ -1,4 +1,5 @@
 // src/app/blog/drass-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -10,7 +11,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Drass Travel Guide: Kargil War Memorial, Gateway to Ladakh",
+  title: { absolute: "Drass Travel Guide: Kargil War Memorial, Gateway to Ladakh" },
   description:
     "A complete travel guide to Drass, Ladakh — the second-coldest inhabited place on Earth and site of the Kargil War Memorial. Best time to visit, how to reach via Zoji La, Tiger Hill, Mushkoh Valley, where to stay, and essential tips.",
   keywords:
@@ -56,6 +57,8 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline: "Drass Travel Guide: Kargil War Memorial, Gateway to Ladakh",
           description:
@@ -63,18 +66,26 @@ function ArticleSchema() {
           image:
             "https://club.kudozz.in/images/blogs/ladakh/drass/kargil-war-memorial-flag-drass.webp",
           datePublished: "2026-08-20",
-          dateModified: "2026-08-30",
+          dateModified: "2026-09-09",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
@@ -91,30 +102,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Ladakh",
-                item: "https://club.kudozz.in/blog/leh-ladakh-road-trip-travel-guide",
-              },
-              { "@type": "ListItem", position: 4, name: "Drass" },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("drass-travel-guide", "Drass"),
+          ],
         }),
       }}
     />
@@ -215,35 +205,7 @@ export default function DrassPage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-4 sm:px-8 lg:px-12"
-            aria-label="Breadcrumb"
-          >
-            <ol className="flex items-center gap-2 text-xs text-white/70">
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Ladakh", href: "/blog/leh-ladakh-road-trip-travel-guide" },
-                { label: "Drass", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/50">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/30">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="drass-travel-guide" label="Drass" />
 
           {/* Hero Content */}
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-8 pb-14 pt-32">
@@ -354,12 +316,12 @@ export default function DrassPage() {
 
                   {/* Info box */}
                   <div className="bg-forest-50 border border-forest-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-forest-800 mb-3 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🏔️</span> Drass at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 gap-3 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -581,12 +543,12 @@ export default function DrassPage() {
                     identity.
                   </p>
                   <div className="bg-forest-50 border border-forest-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-forest-800 mb-3 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🎖️</span> Visiting the Memorial
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 gap-3 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -614,12 +576,12 @@ export default function DrassPage() {
                     className="bg-stone-900 text-white rounded-xl p-5 my-6"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    <h4
+                    <h3 data-box
                       className="font-bold text-white mb-3 text-sm"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       🙏 Visiting with respect
-                    </h4>
+                    </h3>
                     <p className="text-sm text-stone-300 leading-relaxed m-0">
                       This is an active military memorial, not a tourist
                       photo-op. Dress modestly, keep noise to a minimum near
@@ -879,12 +841,12 @@ export default function DrassPage() {
                   <h2>Essential Travel Tips</h2>
                   <div className="grid sm:grid-cols-2 gap-4 my-6">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul className="space-y-2 m-0">
                         {[
                           "Carry heavy layers even in summer — nights drop close to freezing and the wind off the ridgelines is sharp.",
@@ -907,12 +869,12 @@ export default function DrassPage() {
                       </ul>
                     </div>
                     <div className="bg-rose-50 border border-rose-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-rose-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>🚫</span> Don't
-                      </h4>
+                      </h3>
                       <ul className="space-y-2 m-0">
                         {[
                           "Don't treat the War Memorial as a casual selfie stop — it's a place of remembrance for an active military.",
@@ -955,12 +917,12 @@ export default function DrassPage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}

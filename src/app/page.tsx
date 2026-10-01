@@ -13,16 +13,16 @@ import {
 } from "@/lib/destination-profiles";
 import { SITE_URL, guideCountLabel, stateCount, trustStats } from "@/lib/site";
 
-const TITLE = "Best Travel Agency in India | Customized Trips | Kudozz Club";
+const TITLE = "Kudozz Club: India Travel Agency for Customized Trips & Tours";
 const DESCRIPTION =
-  "Customized India trips planned around your dates, budget and travel style. Tour packages for Kashmir, Rajasthan, Kerala, Goa and more, backed by 580+ guides.";
+  "India travel agency for customized trips and tour packages: Kashmir, Rajasthan, Kerala, Goa and all 36 states, planned in-house around your dates and budget.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   keywords: [
-    "best travel agency in India",
     "travel agency in India",
+    "India travel agency",
     "India tour packages",
     "customized tour packages India",
     "India holiday packages",
@@ -217,6 +217,10 @@ const homeFaqs = [
     a: "It depends on the destination, season, hotel category and how you travel between places, so we don't publish fixed prices. Tell us your budget range in the enquiry form and we plan within it. Each destination guide also includes an indicative budget breakdown.",
   },
   {
+    q: "Is Kudozz Club the best travel agency in India?",
+    a: "The best travel agency depends on your trip. Kudozz Club is built for customized, private India trips planned in-house around your dates and budget, rather than fixed group departures. Our guide to choosing the best travel agency in India explains how to compare agencies, with a checklist that applies to us too.",
+  },
+  {
     q: "How do I get started?",
     a: "Fill in the Plan My Trip form with where you want to go (or ask us to suggest somewhere), your dates, number of travellers and budget. We reply by email to discuss the plan.",
   },
@@ -336,7 +340,7 @@ export default function HomePage() {
             <div className="max-w-2xl">
               <p className="eyebrow eyebrow-light">Kudozz Club · India travel agency</p>
               <h1 className="mt-5 font-display text-[2.35rem] font-bold leading-[1.06] tracking-[-0.015em] text-white sm:text-6xl lg:text-[4.1rem]">
-                Best Travel Agency in India for Trips Made Around You
+                India Travel Agency for Trips Planned Around You
               </h1>
               <p className="mt-6 max-w-xl font-sans text-base leading-relaxed text-stone-200 sm:text-lg">
                 From weekend escapes to long India holidays, Kudozz Club plans
@@ -711,9 +715,14 @@ export default function HomePage() {
                   </li>
                 ))}
               </ul>
-              <Link href="/about" className="text-link mt-8 inline-block text-sm">
-                Read how Kudozz Club works
-              </Link>
+              <p className="mt-8 flex flex-col gap-2 text-sm sm:flex-row sm:gap-6">
+                <Link href="/about" className="text-link">
+                  Read how Kudozz Club works
+                </Link>
+                <Link href="/best-travel-agency-in-india" className="text-link">
+                  How to choose the best travel agency in India
+                </Link>
+              </p>
             </div>
             <div>
               <h2 className="font-display text-2xl font-bold text-stone-950">Common questions</h2>

@@ -1,4 +1,5 @@
 // src/app/blog/maredumilli-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -9,39 +10,58 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 export const metadata: Metadata = {
-  title: "Maredumilli Travel Guide: Rainforest Eco-Tourism in the Eastern Ghats",
+  title: { absolute: "Maredumilli Travel Guide: Eastern Ghats Rainforest Trip" },
   description:
     "The complete Maredumilli travel guide. Forest Department eco-camps, waterfalls, hot springs, tribal community-based tourism, where to stay, best time to visit, and a full itinerary.",
   keywords:
     "Maredumilli travel guide, Maredumilli eco tourism, Maredumilli waterfalls, Maredumilli hot springs, best time to visit Maredumilli, how to reach Maredumilli, Andhra Pradesh Eastern Ghats forest",
   openGraph: {
-    title: "Maredumilli Travel Guide: Rainforest Eco-Tourism in the Eastern Ghats",
+    title: "Maredumilli Travel Guide: Eastern Ghats Rainforest Trip",
     description: "A genuinely dense rainforest pocket of the Eastern Ghats, with waterfalls, hot springs, and tribal eco-tourism camps largely undiscovered by mainstream travelers — the complete guide to Maredumilli.",
     url: "https://club.kudozz.in/blog/maredumilli-travel-guide", type: "article", siteName: "Kudozz Club",
     images: [{ url: "/images/blogs/andhra-pradesh/maredumilli/maredumilli.webp", width: 1200, height: 505, alt: "Maredumilli, Andhra Pradesh" }],
   },
-  twitter: { card: "summary_large_image", title: "Maredumilli Travel Guide: Rainforest Eco-Tourism in the Eastern Ghats", description: "Forest eco-tourism, waterfalls, and hot springs — the complete guide to Maredumilli.", images: ["/images/blogs/andhra-pradesh/maredumilli/maredumilli.webp"] },
+  twitter: { card: "summary_large_image", title: "Maredumilli Travel Guide: Eastern Ghats Rainforest Trip", description: "Forest eco-tourism, waterfalls, and hot springs — the complete guide to Maredumilli.", images: ["/images/blogs/andhra-pradesh/maredumilli/maredumilli.webp"] },
   alternates: { canonical: "https://club.kudozz.in/blog/maredumilli-travel-guide" },
 };
 
 function ArticleSchema() {
   return (
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-      "@context": "https://schema.org", "@type": "BlogPosting",
+          "@context": "https://schema.org",
+          "@graph": [
+          {
+      "@type": "BlogPosting",
       headline: "Maredumilli Travel Guide: Rainforest Eco-Tourism in the Eastern Ghats",
       description: "The complete Maredumilli travel guide.",
       image: "https://club.kudozz.in/images/blogs/andhra-pradesh/maredumilli/maredumilli.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
-      publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
-      author: { "@type": "Organization", name: "Kudozz Club" },
+      publisher: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
+      author: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
       mainEntityOfPage: { "@type": "WebPage", "@id": "https://club.kudozz.in/blog/maredumilli-travel-guide" },
       about: { "@type": "Place", name: "Maredumilli", address: { "@type": "PostalAddress", addressRegion: "Andhra Pradesh", addressCountry: "IN" } },
-      breadcrumb: { "@type": "BreadcrumbList", itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-        { "@type": "ListItem", position: 2, name: "Blog", item: "https://club.kudozz.in/blog" },
-        { "@type": "ListItem", position: 3, name: "Maredumilli Travel Guide" },
-      ]},
-    })}} />
+    },
+          guideBreadcrumbSchema("maredumilli-travel-guide", "Maredumilli"),
+          ],
+        })}} />
   );
 }
 
@@ -90,16 +110,7 @@ export default function MaredumilliGuidePage() {
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
-          <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }, { label: "Maredumilli", href: null }].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? <Link href={crumb.href} className="hover:text-white transition-colors">{crumb.label}</Link> : <span className="text-white/35">{crumb.label}</span>}
-                  {i < arr.length - 1 && <span className="text-white/20">/</span>}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="maredumilli-travel-guide" label="Maredumilli" />
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
               {["Maredumilli", "Eastern Ghats", "Off-beat", "Andhra Pradesh"].map((tag) => (
@@ -140,7 +151,7 @@ export default function MaredumilliGuidePage() {
                     Minimal tourist infrastructure here is by design. This isn't a resort destination — it's forest trekking trails, waterfalls, and natural hot springs, appealing to travelers who want genuine forest immersion over polished amenities.
                   </p>
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4 className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>🌳</span> Maredumilli at a Glance</h4>
+                    <h3 data-box className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>🌳</span> Maredumilli at a Glance</h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[
                         { icon: "📍", label: "State", value: "Andhra Pradesh, India" },
@@ -233,7 +244,7 @@ export default function MaredumilliGuidePage() {
                       <div key={d.day} className="flex gap-4">
                         <div className="flex-shrink-0"><div className={`${d.color} text-white text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap`} style={{ fontFamily: "var(--font-dm-sans)" }}>{d.day}</div></div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4 className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h4>
+                          <h3 data-box className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h3>
                           <ul className="space-y-1.5 m-0">{d.activities.map((a) => (<li key={a} className="text-sm text-stone-600 flex items-start gap-2" style={{ fontFamily: "var(--font-dm-sans)" }}><span className="text-forest-500 font-bold mt-0.5 flex-shrink-0">✓</span>{a}</li>))}</ul>
                         </div>
                       </div>
@@ -276,13 +287,13 @@ export default function MaredumilliGuidePage() {
                   </ul>
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4 className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h4>
+                      <h3 data-box className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Book Forest Department eco-camps and permits ahead", "Try the trekking trails through bamboo and teak forest", "Respect local tribal communities and their tourism model", "Carry insect repellent and a rain layer", "Combine with Rajahmundry and Papi Hills"].map((item) => (<li key={item} className="flex items-start gap-2"><span className="text-forest-500 mt-0.5 flex-shrink-0">→</span>{item}</li>))}
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4 className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h4>
+                      <h3 data-box className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Expect resort-level amenities", "Show up without booking eco-camp accommodation", "Skip insect repellent given the dense forest setting", "Attempt trails in heavy monsoon without caution", "Treat local tribal communities as a photo-op rather than genuine hosts"].map((item) => (<li key={item} className="flex items-start gap-2"><span className="text-red-400 mt-0.5 flex-shrink-0">→</span>{item}</li>))}
                       </ul>
@@ -295,7 +306,7 @@ export default function MaredumilliGuidePage() {
                   <div className="space-y-5 my-6">
                     {faqs.map((f) => (
                       <div key={f.q} className="bg-white border border-stone-200 rounded-xl p-5">
-                        <h4 className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h4>
+                        <h3 data-box className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h3>
                         <p className="text-sm text-stone-600 leading-relaxed m-0" style={{ fontFamily: "var(--font-dm-sans)" }}>{f.a}</p>
                       </div>
                     ))}

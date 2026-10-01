@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageSocial } from "@/lib/site";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import WriteForUsPageClient from "@/components/write-for-us/WriteForUsPageClient";
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
     "travel writing submissions India",
   ],
   alternates: { canonical: "https://club.kudozz.in/write-for-us" },
+  ...pageSocial("/write-for-us", "Write for Kudozz Club: Contribute an India Travel Guide", "Pitch an original, first-hand India travel guide to Kudozz Club and get published with an author bio link."),
 };
 
 export default function WriteForUsPage() {

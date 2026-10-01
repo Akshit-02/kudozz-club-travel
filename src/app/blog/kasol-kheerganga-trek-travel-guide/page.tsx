@@ -1,4 +1,5 @@
 // src/app/blog/kasol-kheerganga-trek-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -10,7 +11,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Kasol & Kheerganga Trek Guide: The Complete Parvati Valley Trail",
+  title: { absolute: "Kasol & Kheerganga Trek Guide: The Complete Parvati Valley Trail" },
   description:
     "The complete guide to Kasol and the Kheerganga trek. Everything you need — how to get there, the trek route, camping at Kheerganga hot springs, Chalal, Tosh, Malana, where to stay, best cafes, and honest tips for the Parvati Valley trail.",
   keywords:
@@ -56,6 +57,8 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
 
           headline:
@@ -63,18 +66,26 @@ function ArticleSchema() {
           description: "The complete guide to Kasol and the Kheerganga trek.",
           image: "https://club.kudozz.in/images/blogs/himachal-pradesh/kasol-kheerganga-trek/kasol-and-kheerganga.webp",
           datePublished: "2026-05-22",
-          dateModified: "2026-07-12",
+          dateModified: "2026-08-31",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
@@ -89,28 +100,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Kasol & Kheerganga Trek Guide",
-              },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("kasol-kheerganga-trek-travel-guide", "Kasol & Kheerganga"),
+          ],
         }),
       }}
     />
@@ -220,41 +212,7 @@ export default function KasolKheergangaPage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10"
-            aria-label="Breadcrumb"
-          >
-            <ol
-              className="flex items-center gap-2 text-xs text-white/55"
-              style={{ fontFamily: "var(--font-dm-sans)" }}
-            >
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                {
-                  label: "Himachal Pradesh",
-                  href: "/blog/himachal-pradesh-travel-guide",
-                },
-                { label: "Kasol & Kheerganga", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/20">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="kasol-kheerganga-trek-travel-guide" label="Kasol & Kheerganga" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
@@ -384,12 +342,12 @@ export default function KasolKheergangaPage() {
 
                   {/* At a Glance */}
                   <div className="bg-forest-50 border border-forest-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-forest-800 mb-4 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>🏔️</span> Kasol & Kheerganga at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -655,12 +613,12 @@ export default function KasolKheergangaPage() {
                           className="bg-white border border-stone-200 rounded-xl p-5 hover:border-forest-200 hover:shadow-sm transition-all"
                         >
                           <div className="flex items-start justify-between gap-3 mb-2">
-                            <h4
+                            <h3 data-box
                               className="font-bold text-stone-900"
                               style={{ fontFamily: "var(--font-playfair)" }}
                             >
                               {cafe.name}
-                            </h4>
+                            </h3>
                             <span
                               className={`text-[10px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-full whitespace-nowrap flex-shrink-0 ${cafe.tagColor}`}
                               style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -899,12 +857,12 @@ export default function KasolKheergangaPage() {
                           className="bg-white border border-stone-200 rounded-xl p-5"
                         >
                           <div className="flex items-center justify-between gap-2 mb-3">
-                            <h4
+                            <h3 data-box
                               className="font-bold text-stone-900"
                               style={{ fontFamily: "var(--font-playfair)" }}
                             >
                               {route.name}
-                            </h4>
+                            </h3>
                             <span
                               className={`text-[10px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-full ${route.badgeColor}`}
                               style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1029,12 +987,12 @@ export default function KasolKheergangaPage() {
                             </div>
                           </div>
                           <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                            <h4
+                            <h3 data-box
                               className="font-bold text-stone-900 mb-2"
                               style={{ fontFamily: "var(--font-playfair)" }}
                             >
                               {seg.title}
-                            </h4>
+                            </h3>
                             <p
                               className="text-sm text-stone-600 leading-relaxed m-0"
                               style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1356,12 +1314,12 @@ export default function KasolKheergangaPage() {
                           </div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4
+                          <h3 data-box
                             className="font-bold text-stone-900 mb-3"
                             style={{ fontFamily: "var(--font-playfair)" }}
                           >
                             {d.title}
-                          </h4>
+                          </h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li
@@ -1518,12 +1476,12 @@ export default function KasolKheergangaPage() {
                   {/* Do & Don't */}
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1548,12 +1506,12 @@ export default function KasolKheergangaPage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-red-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>❌</span> Don't
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1589,12 +1547,12 @@ export default function KasolKheergangaPage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}

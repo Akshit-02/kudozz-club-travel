@@ -1,6 +1,6 @@
 import Link from "@/components/ui/Link";
 import NewsletterFooterForm from "./NewsletterFooterForm";
-import { guideCountLabel, stateCount } from "@/lib/site";
+import { destinationGuideLabel, stateCount } from "@/lib/site";
 
 const footerLinks = {
   "Tour Packages": [
@@ -17,7 +17,10 @@ const footerLinks = {
     { label: "Honeymoon", href: "/packages/honeymoon" },
     { label: "Luxury Holidays", href: "/packages/luxury-holidays" },
     { label: "Weekend Getaways", href: "/packages/weekend-getaways" },
+    { label: "Adventure Trips", href: "/packages/adventure-tours" },
+    { label: "Wildlife Safaris", href: "/packages/wildlife-tours" },
     { label: "Char Dham Yatra", href: "/packages/char-dham-yatra" },
+    { label: "Northeast India", href: "/packages/northeast-india" },
   ],
   Explore: [
     { label: "All Destinations", href: "/destinations" },
@@ -37,6 +40,8 @@ const footerLinks = {
   Company: [
     { label: "Plan Your Trip", href: "/plan-your-trip" },
     { label: "About Us", href: "/about" },
+    { label: "Choosing a Travel Agency", href: "/best-travel-agency-in-india" },
+    { label: "Editorial Policy", href: "/editorial-policy" },
     { label: "Contact", href: "/contact" },
     { label: "Newsletter", href: "/newsletter" },
     { label: "Write for Us", href: "/write-for-us" },
@@ -111,7 +116,7 @@ export default function SiteFooter() {
             >
               An India-focused travel agency planning customized trips across
               all {stateCount} states and union territories, backed by{" "}
-              {guideCountLabel} in-depth destination guides.
+              {destinationGuideLabel} in-depth destination guides.
             </p>
 
             {/* Email contact */}
@@ -148,6 +153,14 @@ export default function SiteFooter() {
                   connect@kudozz.in
                 </span>
               </div>
+            </a>
+            <a
+              href="https://www.instagram.com/kudozz.in/"
+              target="_blank"
+              rel="noopener me"
+              className="mt-4 block w-fit font-sans text-sm text-stone-400 underline-offset-4 hover:text-forest-400 hover:underline"
+            >
+              Instagram: @kudozz.in
             </a>
           </div>
 

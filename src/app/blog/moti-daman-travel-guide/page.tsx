@@ -1,4 +1,5 @@
 // src/app/blog/moti-daman-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -12,13 +13,13 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Moti Daman Travel Guide: Old Town, Churches & Fort",
   description:
-    "A complete guide to Moti Daman, Daman's walled old town — Bom Jesus Church's gilded altar, colonial buildings, quiet lanes, and the Fort of St. Jerome.",
+    "A complete guide to Moti Daman, Daman's walled old town — Bom Jesus Church's gilded altar, colonial buildings, quiet lanes, and the Moti Daman Fort.",
   keywords:
-    "Moti Daman, Moti Daman travel guide, Moti Daman Daman, Bom Jesus Church Daman, Fort of St Jerome, Daman old town, Moti Daman churches, Daman Portuguese heritage, Nani Daman vs Moti Daman, Daman collectorate, Daman Ganga river",
+    "Moti Daman, Moti Daman travel guide, Moti Daman Daman, Bom Jesus Church Daman, Moti Daman Fort, Daman old town, Moti Daman churches, Daman Portuguese heritage, Nani Daman vs Moti Daman, Daman collectorate, Daman Ganga river",
   openGraph: {
     title: "Moti Daman Travel Guide: Old Town, Churches & Fort",
     description:
-      "The seat of old Portuguese Daman — Bom Jesus Church, colonial government buildings, and the massive walls of the Fort of St. Jerome, all in one walkable old town.",
+      "The seat of old Portuguese Daman — Bom Jesus Church, colonial government buildings, and the massive walls of the Moti Daman Fort, all in one walkable old town.",
     url: "https://club.kudozz.in/blog/moti-daman-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Moti Daman Travel Guide: Old Town, Churches & Fort",
     description:
-      "The seat of old Portuguese Daman — Bom Jesus Church, colonial government buildings, and the massive walls of the Fort of St. Jerome, all in one walkable old town.",
+      "The seat of old Portuguese Daman — Bom Jesus Church, colonial government buildings, and the massive walls of the Moti Daman Fort, all in one walkable old town.",
     images: ["/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp"],
   },
   alternates: {
@@ -55,31 +56,41 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline: "Moti Daman Travel Guide: Old Town, Churches & Fort",
           description:
-            "A complete guide to Moti Daman, Daman's walled old town — Bom Jesus Church's gilded altar, colonial buildings, quiet lanes, and the Fort of St. Jerome.",
+            "A complete guide to Moti Daman, Daman's walled old town — Bom Jesus Church's gilded altar, colonial buildings, quiet lanes, and the Moti Daman Fort.",
           image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/bom-jesus-church-interior-altar.webp",
           datePublished: "2026-08-30",
-          dateModified: "2026-08-30",
+          dateModified: "2026-09-30",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
             "@id": "https://club.kudozz.in/blog/moti-daman-travel-guide",
           },
           keywords:
-            "Moti Daman, Moti Daman travel guide, Bom Jesus Church Daman, Fort of St Jerome, Daman old town, Moti Daman churches, Daman Portuguese heritage",
+            "Moti Daman, Moti Daman travel guide, Bom Jesus Church Daman, Moti Daman Fort, Daman old town, Moti Daman churches, Daman Portuguese heritage",
           about: {
             "@type": "Place",
             name: "Moti Daman",
@@ -90,34 +101,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Daman & Diu",
-                item: "https://club.kudozz.in/blog/dadra-nagar-haveli-daman-diu-travel-guide",
-              },
-              {
-                "@type": "ListItem",
-                position: 4,
-                name: "Moti Daman",
-              },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("moti-daman-travel-guide", "Moti Daman"),
+          ],
         }),
       }}
     />
@@ -128,7 +114,7 @@ function ArticleSchema() {
 const faqs = [
   {
     q: "What is the difference between Moti Daman and Nani Daman?",
-    a: "Daman town is split by the Daman Ganga river into two historic quarters. Moti Daman ('Big/Great Daman') sits on the south bank and is the larger, more formal quarter — home to the Fort of St. Jerome, Bom Jesus Church, and the old Portuguese administrative buildings, now the district collectorate. Nani Daman ('Small Daman') sits on the north bank and has a scrappier, working fishing-harbour character, with its own smaller fort and a bustling boat jetty. Most visitors treat them as a single half-day-plus-half-day pairing, connected by a short bridge or ferry crossing.",
+    a: "Daman town is split by the Daman Ganga river into two historic quarters. Moti Daman ('Big/Great Daman') sits on the south bank and is the larger, more formal quarter — home to the Moti Daman Fort, Bom Jesus Church, and the old Portuguese administrative buildings, now the district collectorate. Nani Daman ('Small Daman') sits on the north bank and has a scrappier, working fishing-harbour character, with its own smaller fort and a bustling boat jetty. Most visitors treat them as a single half-day-plus-half-day pairing, connected by a short bridge or ferry crossing.",
   },
   {
     q: "Is Moti Daman worth visiting?",
@@ -136,15 +122,15 @@ const faqs = [
   },
   {
     q: "What is inside Moti Daman?",
-    a: "The walled quarter contains the Fort of St. Jerome (whose ramparts largely define the old town's boundary), Bom Jesus Church with its ornate gilded altar, one or two smaller colonial-era chapels, the old Portuguese Secretariat and Governor's residence — now government and collectorate offices — plus residential lanes of pastel colonial houses, a few old bastions with cannons, and small local shops and eateries along the main roads leading in.",
+    a: "The walled quarter contains the Moti Daman Fort (whose ramparts largely define the old town's boundary), Bom Jesus Church with its ornate gilded altar, one or two smaller colonial-era chapels, the old Portuguese Secretariat and Governor's residence — now government and collectorate offices — plus residential lanes of pastel colonial houses, a few old bastions with cannons, and small local shops and eateries along the main roads leading in.",
   },
   {
     q: "How much time do I need for Moti Daman?",
-    a: "Budget two to three hours for an unhurried walk covering the fort's exterior walls and gate, Bom Jesus Church, the government buildings area, and a wander through the old residential lanes. Photography enthusiasts or anyone doing the deeper Fort of St. Jerome exploration should allow closer to half a day.",
+    a: "Budget two to three hours for an unhurried walk covering the fort's exterior walls and gate, Bom Jesus Church, the government buildings area, and a wander through the old residential lanes. Photography enthusiasts or anyone doing the deeper Moti Daman Fort exploration should allow closer to half a day.",
   },
   {
-    q: "Is the Fort of St. Jerome the same as Moti Daman?",
-    a: "Not quite — the Fort of St. Jerome is the fortification, with its bastions and thick perimeter walls, and much of Moti Daman's old town sits inside or immediately around it. Moti Daman is the broader neighbourhood: the churches, government buildings, and residential streets that grew up within and beside the fort over roughly four centuries of Portuguese rule. For a structure-by-structure deep dive into the fort itself — its bastions, gates, and history — see our dedicated Fort of St. Jerome guide.",
+    q: "Is Moti Daman Fort the same as the Fort of St. Jerome?",
+    a: "No. Moti Daman Fort (1559–1581) is the large walled fort on the south bank whose ramparts define the Moti Daman old town. The Fort of St. Jerome, also called Nani Daman Fort (1615–1627), is the smaller fort across the river in Nani Daman, with a statue of St. Jerome over its gateway.",
   },
   {
     q: "Can you enter Bom Jesus Church for free?",
@@ -183,7 +169,7 @@ const tableOfContents = [
   { id: "introduction", title: "Moti Daman: The Old Town", level: 2 },
   { id: "best-time", title: "Best Time to Visit", level: 2 },
   { id: "how-to-reach", title: "How to Reach Moti Daman", level: 2 },
-  { id: "fort-of-st-jerome", title: "The Fort of St. Jerome", level: 2 },
+  { id: "moti-daman-fort", title: "The Moti Daman Fort", level: 2 },
   { id: "bom-jesus-church", title: "Bom Jesus Church", level: 2 },
   { id: "other-churches", title: "Other Colonial Churches", level: 2 },
   { id: "government-buildings", title: "Old Government Buildings", level: 2 },
@@ -220,41 +206,7 @@ export default function MotiDamanGuidePage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10"
-            aria-label="Breadcrumb"
-          >
-            <ol
-              className="flex items-center gap-2 text-xs text-white/55"
-              style={{ fontFamily: "var(--font-dm-sans)" }}
-            >
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                {
-                  label: "Daman & Diu",
-                  href: "/blog/dadra-nagar-haveli-daman-diu-travel-guide",
-                },
-                { label: "Moti Daman", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/20">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="moti-daman-travel-guide" label="Moti Daman" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
@@ -377,12 +329,12 @@ export default function MotiDamanGuidePage() {
                   <p>
                     This guide covers Moti Daman as a neighbourhood — what to
                     see, how to plan a heritage walk through it, and where it
-                    fits into a broader Daman trip. The fort itself, the{" "}
-                    <strong>Fort of St. Jerome</strong>, whose walls define
+                    fits into a broader Daman trip. The fort itself,{" "}
+                    <strong>Moti Daman Fort</strong>, whose walls define
                     much of the old town's boundary, gets a brief overview
                     here with a link to our dedicated{" "}
                     <Link href="/blog/moti-daman-fort-travel-guide">
-                      Fort of St. Jerome guide
+                      Moti Daman Fort guide
                     </Link>{" "}
                     for anyone who wants the full structural deep dive — its
                     bastions, gates, and building-by-building history. For the
@@ -395,12 +347,12 @@ export default function MotiDamanGuidePage() {
 
                   {/* At a Glance */}
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>⛪</span> Moti Daman at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -414,7 +366,7 @@ export default function MotiDamanGuidePage() {
                         {
                           icon: "🏰",
                           label: "Known For",
-                          value: "Fort of St. Jerome, Bom Jesus Church",
+                          value: "Moti Daman Fort, Bom Jesus Church",
                         },
                         {
                           icon: "🏛️",
@@ -574,9 +526,9 @@ export default function MotiDamanGuidePage() {
                   </div>
                 </section>
 
-                {/* ── Fort of St. Jerome (teaser) ────────────────────────── */}
-                <section id="fort-of-st-jerome">
-                  <h2>The Fort of St. Jerome</h2>
+                {/* ── Moti Daman Fort (teaser) ────────────────────────── */}
+                <section id="moti-daman-fort">
+                  <h2>The Moti Daman Fort</h2>
                   <div className="relative w-full rounded-xl my-6 h-72 overflow-hidden shadow-md">
                     <Image
                       src="/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman/moti-daman-fort-gate-arch.webp"
@@ -588,8 +540,8 @@ export default function MotiDamanGuidePage() {
                   </div>
                   <p>
                     You can't really separate Moti Daman from its fort — the{" "}
-                    <strong>Fort of St. Jerome</strong> (also known locally
-                    simply as Moti Daman Fort) is what the entire old town
+                    <strong>Moti Daman Fort</strong>, built by the Portuguese
+                    between 1559 and 1581, is what the entire old town
                     grew up inside. Its massive laterite-stone walls, studded
                     with bastions and a handful of surviving cannons, enclose
                     most of the historic quarter, so walking through Moti
@@ -602,7 +554,7 @@ export default function MotiDamanGuidePage() {
                     explore it structure by structure in a dedicated guide —
                     read the{" "}
                     <Link href="/blog/moti-daman-fort-travel-guide">
-                      Fort of St. Jerome travel guide
+                      Moti Daman Fort guide
                     </Link>{" "}
                     if that's your main reason for visiting. For this
                     neighbourhood-level guide, think of the fort as the
@@ -842,7 +794,7 @@ export default function MotiDamanGuidePage() {
                         color: "bg-stone-600",
                         activities: [
                           "Head back across the river toward Nani Daman or the beaches",
-                          "Or continue to a fuller Fort of St. Jerome exploration if time allows",
+                          "Or continue to a fuller Moti Daman Fort exploration if time allows",
                         ],
                       },
                     ].map((d) => (
@@ -856,12 +808,12 @@ export default function MotiDamanGuidePage() {
                           </div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4
+                          <h3 data-box
                             className="font-bold text-stone-900 mb-3"
                             style={{ fontFamily: "var(--font-playfair)" }}
                           >
                             {d.title}
-                          </h4>
+                          </h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li
@@ -1056,12 +1008,12 @@ export default function MotiDamanGuidePage() {
                   {/* Do & Don't */}
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1084,12 +1036,12 @@ export default function MotiDamanGuidePage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-red-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>❌</span> Don't
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1140,12 +1092,12 @@ export default function MotiDamanGuidePage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1165,7 +1117,7 @@ export default function MotiDamanGuidePage() {
                   "Daman",
                   "Daman and Diu",
                   "Bom Jesus Church",
-                  "Fort of St Jerome",
+                  "Moti Daman Fort",
                   "Portuguese Heritage",
                   "Old Town",
                 ].map((tag) => (

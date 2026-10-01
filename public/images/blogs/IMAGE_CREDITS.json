@@ -4136,7 +4136,8 @@
     {
       "path": "blogs/goa/goa/palolem-beach-south-goa.webp",
       "usedIn": [
-        "goa-beaches-travel-guide"
+        "goa-beaches-travel-guide",
+        "canacona-travel-guide (hero)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Palolem_Beach,_South_Goa.jpg",
@@ -19161,7 +19162,8 @@
     {
       "path": "blogs/andaman-and-nicobar/rangat-andaman/rangat-andaman-view.webp",
       "usedIn": [
-        "rangat-andaman-travel-guide (Best Time to Visit Rangat section)"
+        "rangat-andaman-travel-guide (Best Time to Visit Rangat section)",
+        "rangat-andaman-travel-guide (hero)"
       ],
       "source": "Wikimedia Commons",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunset_at_Rangat_Bay_Andaman.jpg",
@@ -24472,6 +24474,630 @@
       "attribution": "Photo by Saippuakauppias, CC BY-SA 3.0, via Wikimedia Commons",
       "location": "A Border Roads Organisation sign beside the road in the Nubra valley, Ladakh",
       "accessed": "2026-09-26"
+    },
+    {
+      "path": "blogs/assam/haflong/haflong-synod-viewpoint-town-view.webp",
+      "usedIn": [
+        "haflong-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Synod_view_point,_Haflong.jpg",
+      "originalFile": "Synod_view_point,_Haflong.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "JyotiPN",
+      "attribution": "Photo by JyotiPN, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/odisha/daringbadi/daringbadi-hill-road.webp",
+      "usedIn": [
+        "daringbadi-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Daringbadi,orissa.jpg",
+      "originalFile": "Daringbadi,orissa.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Sakar Tiwari",
+      "attribution": "Photo by Sakar Tiwari, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chhattisgarh/mainpat/mainpat-plateau-grassland.webp",
+      "usedIn": [
+        "mainpat-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:MAINPAT_LANDSCAPE.jpg",
+      "originalFile": "MAINPAT_LANDSCAPE.jpg",
+      "license": "CC BY 4.0",
+      "author": "Xtra Click",
+      "attribution": "Photo by Xtra Click, CC BY 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/andhra-pradesh/lambasingi/lambasingi-misty-hills-sunrise.webp",
+      "usedIn": [
+        "lambasingi-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lambasingi_Sunrise.jpg",
+      "originalFile": "Lambasingi_Sunrise.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ksgsarma",
+      "attribution": "Photo by Ksgsarma, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chhattisgarh/achanakmar/achanakmar-tiger-reserve-forest-tree-house.webp",
+      "usedIn": [
+        "achanakmar-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:TREE_HOUSE_OF_ACHANAKMAR_,_TIGER_RESERVE,CHHATISGARH,_(INDIA0.jpg",
+      "originalFile": "TREE_HOUSE_OF_ACHANAKMAR_,_TIGER_RESERVE,CHHATISGARH,_(INDIA0.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Singhonkarnath",
+      "attribution": "Photo by Singhonkarnath, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/andhra-pradesh/amaravati/amaravati-stupa-excavated-drum.webp",
+      "usedIn": [
+        "amaravati-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Amaravati_stupa._at_Amaravati._A_total_view.JPG",
+      "originalFile": "Amaravati_stupa._at_Amaravati._A_total_view.JPG",
+      "license": "CC BY-SA 4.0",
+      "author": "Bhaskaranaidu",
+      "attribution": "Photo by Bhaskaranaidu, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chhattisgarh/barnawapara/barnawapara-guide-cover.webp",
+      "usedIn": [
+        "barnawapara-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/haryana/bhindawas/bhindawas-guide-cover.webp",
+      "usedIn": [
+        "bhindawas-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/odisha/bhitarkanika/bhitarkanika-mangrove-creek.webp",
+      "usedIn": [
+        "bhitarkanika-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mangrove_Bhitarkanika_2.jpg",
+      "originalFile": "Mangrove_Bhitarkanika_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Shubhamg81095",
+      "attribution": "Photo by Shubhamg81095, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/mizoram/dampa-tiger-reserve/dampa-tiger-reserve-guide-cover.webp",
+      "usedIn": [
+        "dampa-tiger-reserve-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/chhattisgarh/danteshwari-temple/danteshwari-temple-dantewada.webp",
+      "usedIn": [
+        "danteshwari-temple-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:0011122_Dantewada_Danteswari_Mata_Mandir_Chattisgarh_060.jpg",
+      "originalFile": "0011122_Dantewada_Danteswari_Mata_Mandir_Chattisgarh_060.jpg",
+      "license": "CC0",
+      "author": "Ms Sarah Welch",
+      "attribution": "Photo by Ms Sarah Welch, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/odisha/deomali/deomali-peak-grassy-slopes.webp",
+      "usedIn": [
+        "deomali-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Deomali.jpg",
+      "originalFile": "Deomali.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Praptipanigrahi",
+      "attribution": "Photo by Praptipanigrahi, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/assam/jorhat/jorhat-tea-estate-heritage-bungalow.webp",
+      "usedIn": [
+        "jorhat-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Heritage_amid_Sengsua_Tea_Garden,_Jorhat,_Assam.jpg",
+      "originalFile": "Heritage_amid_Sengsua_Tea_Garden,_Jorhat,_Assam.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "JyotiPN",
+      "attribution": "Photo by JyotiPN, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chhattisgarh/kanger-valley/kanger-valley-forested-hills.webp",
+      "usedIn": [
+        "kanger-valley-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kanger_valley_National_park.jpg",
+      "originalFile": "Kanger_valley_National_park.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Harminder singh saini",
+      "attribution": "Photo by Harminder singh saini, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chhattisgarh/kanker/kanker-hills-farmland.webp",
+      "usedIn": [
+        "kanker-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kanker_view_from_DIET.jpg",
+      "originalFile": "Kanker_view_from_DIET.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Iamg",
+      "attribution": "Photo by Iamg, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/rajasthan/khatu-shyam-ji/khatu-shyam-ji-temple.webp",
+      "usedIn": [
+        "khatu-shyam-ji-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Khatu_Shyam_Ji_-_panoramio.jpg",
+      "originalFile": "Khatu_Shyam_Ji_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Indrapal Jangid",
+      "attribution": "Photo by Indrapal Jangid, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/odisha/koraput/koraput-eastern-ghats-view.webp",
+      "usedIn": [
+        "koraput-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_from_table_mountain_Koraput.jpg",
+      "originalFile": "View_from_table_mountain_Koraput.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Panigrahiasmitku",
+      "attribution": "Photo by Panigrahiasmitku, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/madhya-pradesh/kuno/kuno-river-national-park.webp",
+      "usedIn": [
+        "kuno-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kuno_river.jpg",
+      "originalFile": "Kuno_river.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "M G Chandrasekr",
+      "attribution": "Photo by M G Chandrasekr, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/nagaland/longwa/longwa-guide-cover.webp",
+      "usedIn": [
+        "longwa-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/andaman-and-nicobar/mayabunder-andaman/mayabunder-andaman-guide-cover.webp",
+      "usedIn": [
+        "mayabunder-andaman-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/punjab/mohali/mohali-guide-cover.webp",
+      "usedIn": [
+        "mohali-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/nagaland/mon/mon-guide-cover.webp",
+      "usedIn": [
+        "mon-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/goa/morjim/morjim-beach-evening.webp",
+      "usedIn": [
+        "morjim-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunset_at_Morjim_Beach,_Goa.jpg",
+      "originalFile": "Sunset_at_Morjim_Beach,_Goa.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rodrick rajive lal",
+      "attribution": "Photo by Rodrick rajive lal, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/andaman-and-nicobar/mount-manipur-andaman/mount-manipur-national-park-entrance.webp",
+      "usedIn": [
+        "mount-manipur-andaman-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mount_harriet.jpg_2.jpg",
+      "originalFile": "Mount_harriet.jpg_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "SandhyaresidencyAndaman",
+      "attribution": "Photo by SandhyaresidencyAndaman, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/nagaland/mount-saramati/mount-saramati-guide-cover.webp",
+      "usedIn": [
+        "mount-saramati-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/mizoram/murlen/murlen-guide-cover.webp",
+      "usedIn": [
+        "murlen-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/haryana/murthal/murthal-aloo-paratha-dhaba.webp",
+      "usedIn": [
+        "murthal-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aloo_Parantha_at_Amrik_Sukhdev.jpg",
+      "originalFile": "Aloo_Parantha_at_Amrik_Sukhdev.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Aditya Kumar",
+      "attribution": "Photo by Aditya Kumar, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/karnataka/nandi-hills/nandi-hills-sunrise-sea-of-clouds.webp",
+      "usedIn": [
+        "nandi-hills-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sun_rising_over_a_blanket_of_clouds,_Nandi_Hills,_Karnataka_(edit).jpg",
+      "originalFile": "Sun_rising_over_a_blanket_of_clouds,_Nandi_Hills,_Karnataka_(edit).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Original: Sri Chakra Pranav Derivative work: UnpetitproleX",
+      "attribution": "Photo by Original: Sri Chakra Pranav Derivative work: UnpetitproleX, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/mizoram/palak-dil/palak-dil-lake-misty-sunrise.webp",
+      "usedIn": [
+        "palak-dil-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Palak_lake_Tokalo_IMG_7471_05.jpg",
+      "originalFile": "Palak_lake_Tokalo_IMG_7471_05.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rohit Naniwadekar",
+      "attribution": "Photo by Rohit Naniwadekar, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/nagaland/peren/peren-guide-cover.webp",
+      "usedIn": [
+        "peren-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/arunachal-pradesh/roing/roing-guide-cover.webp",
+      "usedIn": [
+        "roing-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/jharkhand/saranda-forest/saranda-forest-guide-cover.webp",
+      "usedIn": [
+        "saranda-forest-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/odisha/satkosia/satkosia-mahanadi-gorge-tikarpara.webp",
+      "usedIn": [
+        "satkosia-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mahanadi_River_view_from_Tikarpara.jpg",
+      "originalFile": "Mahanadi_River_view_from_Tikarpara.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rusa2006",
+      "attribution": "Photo by Rusa2006, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/maharashtra/shirdi/shirdi-guide-cover.webp",
+      "usedIn": [
+        "shirdi-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/assam/silchar/silchar-barak-river-boats.webp",
+      "usedIn": [
+        "silchar-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Barak_River_in_Silchar.jpg",
+      "originalFile": "Barak_River_in_Silchar.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Konwar.anupam",
+      "attribution": "Photo by Konwar.anupam, CC BY-SA 3.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/odisha/similipal/similipal-guide-cover.webp",
+      "usedIn": [
+        "similipal-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/punjab/sultanpur-lodhi/sultanpur-lodhi-guide-cover.webp",
+      "usedIn": [
+        "sultanpur-lodhi-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/haryana/surajkund/surajkund-crafts-mela-folk-dancers.webp",
+      "usedIn": [
+        "surajkund-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bihu_Dancers_from_Assam_01.jpg",
+      "originalFile": "Bihu_Dancers_from_Assam_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Rodrick rajive lal",
+      "attribution": "Photo by Rodrick rajive lal, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/mizoram/thenzawl/thenzawl-hillside-log-cottages.webp",
+      "usedIn": [
+        "thenzawl-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Thenzawl_gold_course_log_house.jpg",
+      "originalFile": "Thenzawl_gold_course_log_house.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Joseph Lalrintluanga",
+      "attribution": "Photo by Joseph Lalrintluanga, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/chhattisgarh/tirathgarh/tirathgarh-falls-rock-terraces.webp",
+      "usedIn": [
+        "tirathgarh-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tirathgarh,_Jagdalpur,_Bastar.jpg",
+      "originalFile": "Tirathgarh,_Jagdalpur,_Bastar.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jitendranakka1986",
+      "attribution": "Photo by Jitendranakka1986, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/bihar/valmiki-nagar/valmiki-tiger-reserve-forest-road.webp",
+      "usedIn": [
+        "valmiki-nagar-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Valmiki_Nagar_Tiger_Reserve.jpg",
+      "originalFile": "Valmiki_Nagar_Tiger_Reserve.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Saddam19",
+      "attribution": "Photo by Saddam19, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/tamil-nadu/valparai/valparai-tea-estates.webp",
+      "usedIn": [
+        "valparai-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tea_Estates_in_Valparai.jpg",
+      "originalFile": "Tea_Estates_in_Valparai.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Kkdi63",
+      "attribution": "Photo by Kkdi63, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/punjab/wagah-border/attari-wagah-border-ceremony-stands.webp",
+      "usedIn": [
+        "wagah-border-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_Wagah_Attari_border_arena_-Wagah_-Punjab_-20190605_172115.jpg",
+      "originalFile": "Indian_Wagah_Attari_border_arena_-Wagah_-Punjab_-20190605_172115.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Schüler1000",
+      "attribution": "Photo by Schüler1000, CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/arunachal-pradesh/walong/lower-walong-grassland.webp",
+      "usedIn": [
+        "walong-travel-guide (hero)"
+      ],
+      "source": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lower_Walong_2073_01.JPG",
+      "originalFile": "Lower_Walong_2073_01.JPG",
+      "license": "CC0",
+      "author": "Pedro Xing",
+      "attribution": "Photo by Pedro Xing, CC0, via Wikimedia Commons"
+    },
+    {
+      "path": "blogs/manipur/zeilad-lake/zeilad-lake-guide-cover.webp",
+      "usedIn": [
+        "zeilad-lake-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/goa/panjim/panjim-guide-cover.webp",
+      "usedIn": [
+        "panjim-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/chandigarh/sector-22-chandigarh/sector-22-chandigarh-guide-cover.webp",
+      "usedIn": [
+        "sector-22-chandigarh-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/chandigarh/sector-26-chandigarh/sector-26-chandigarh-guide-cover.webp",
+      "usedIn": [
+        "sector-26-chandigarh-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/chandigarh/sector-35-chandigarh/sector-35-chandigarh-guide-cover.webp",
+      "usedIn": [
+        "sector-35-chandigarh-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/chandigarh/shanti-kunj-chandigarh/shanti-kunj-chandigarh-guide-cover.webp",
+      "usedIn": [
+        "shanti-kunj-chandigarh-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/chandigarh/international-dolls-museum-chandigarh/international-dolls-museum-chandigarh-guide-cover.webp",
+      "usedIn": [
+        "international-dolls-museum-chandigarh-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
+    },
+    {
+      "path": "blogs/chandigarh/chandigarh-botanical-garden/chandigarh-botanical-garden-guide-cover.webp",
+      "usedIn": [
+        "chandigarh-botanical-garden-travel-guide (Open Graph, card)"
+      ],
+      "source": "Kudozz Club",
+      "sourcePage": "",
+      "originalFile": "",
+      "license": "Kudozz Club (own graphic)",
+      "author": "Kudozz Club",
+      "attribution": "Kudozz Club graphic: no photo of this place with a free licence was available"
     }
   ]
 }

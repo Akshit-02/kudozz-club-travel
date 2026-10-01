@@ -1,4 +1,5 @@
 // src/app/blog/bir-billing-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -9,7 +10,7 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 export const metadata: Metadata = {
-  title: "Bir Billing Travel Guide: Paragliding Capital of India",
+  title: { absolute: "Bir Billing Travel Guide: Paragliding Capital of India" },
   description:
     "The complete Bir Billing travel guide. Tandem paragliding, Billing takeoff site, Bir's Tibetan colony, where to stay, best time to visit, and a full itinerary.",
   keywords:
@@ -34,21 +35,40 @@ export const metadata: Metadata = {
 function ArticleSchema() {
   return (
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-      "@context": "https://schema.org", "@type": "BlogPosting",
+          "@context": "https://schema.org",
+          "@graph": [
+          {
+      "@type": "BlogPosting",
       headline: "Bir Billing Travel Guide: Paragliding Capital of India",
       description: "The complete Bir Billing travel guide.",
       image: "https://club.kudozz.in/images/blogs/himachal-pradesh/bir-billing/chokling-monastery-bir.webp",
       datePublished: "2026-09-07", dateModified: "2026-09-07",
-      publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
-      author: { "@type": "Organization", name: "Kudozz Club" },
+      publisher: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
+      author: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
       mainEntityOfPage: { "@type": "WebPage", "@id": "https://club.kudozz.in/blog/bir-billing-travel-guide" },
       about: { "@type": "Place", name: "Bir Billing", address: { "@type": "PostalAddress", addressRegion: "Himachal Pradesh", addressCountry: "IN" } },
-      breadcrumb: { "@type": "BreadcrumbList", itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-        { "@type": "ListItem", position: 2, name: "Blog", item: "https://club.kudozz.in/blog" },
-        { "@type": "ListItem", position: 3, name: "Bir Billing Travel Guide" },
-      ]},
-    })}} />
+    },
+          guideBreadcrumbSchema("bir-billing-travel-guide", "Bir Billing"),
+          ],
+        })}} />
   );
 }
 
@@ -95,16 +115,7 @@ export default function BirBillingGuidePage() {
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
-          <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }, { label: "Bir Billing", href: null }].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? <Link href={crumb.href} className="hover:text-white transition-colors">{crumb.label}</Link> : <span className="text-white/35">{crumb.label}</span>}
-                  {i < arr.length - 1 && <span className="text-white/20">/</span>}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="bir-billing-travel-guide" label="Bir Billing" />
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
               {["Bir Billing", "Paragliding", "Adventure", "Himachal Pradesh"].map((tag) => (
@@ -145,7 +156,7 @@ export default function BirBillingGuidePage() {
                     But Bir has a quieter second identity too: it's home to a settled Tibetan colony with working monasteries, and a cafe and meditation-retreat scene that's grown up around it — the adventure-sports crowd up at Billing and the calmer spiritual pace down in Bir village coexist just a short drive apart.
                   </p>
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4 className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>🪂</span> Bir Billing at a Glance</h4>
+                    <h3 data-box className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>🪂</span> Bir Billing at a Glance</h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[
                         { icon: "📍", label: "State", value: "Himachal Pradesh, India" },
@@ -242,7 +253,7 @@ export default function BirBillingGuidePage() {
                       <div key={d.day} className="flex gap-4">
                         <div className="flex-shrink-0"><div className={`${d.color} text-white text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap`} style={{ fontFamily: "var(--font-dm-sans)" }}>{d.day}</div></div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4 className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h4>
+                          <h3 data-box className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h3>
                           <ul className="space-y-1.5 m-0">{d.activities.map((a) => (<li key={a} className="text-sm text-stone-600 flex items-start gap-2" style={{ fontFamily: "var(--font-dm-sans)" }}><span className="text-forest-500 font-bold mt-0.5 flex-shrink-0">✓</span>{a}</li>))}</ul>
                         </div>
                       </div>
@@ -284,13 +295,13 @@ export default function BirBillingGuidePage() {
                   </ul>
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4 className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h4>
+                      <h3 data-box className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Book a certified, licensed paragliding operator", "Wear closed-toe shoes for the flight", "Pack warm layers for Billing's altitude", "Visit Bir's Tibetan colony beyond just flying", "Stay flexible on exact flight timing"].map((item) => (<li key={item} className="flex items-start gap-2"><span className="text-forest-500 mt-0.5 flex-shrink-0">→</span>{item}</li>))}
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4 className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h4>
+                      <h3 data-box className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Book an unlicensed or unverified paragliding operator", "Wear open-toe footwear expecting to still fly", "Assume flights are guaranteed regardless of weather", "Skip visiting Bir village beyond the flight", "Underestimate the cold at Billing's takeoff altitude"].map((item) => (<li key={item} className="flex items-start gap-2"><span className="text-red-400 mt-0.5 flex-shrink-0">→</span>{item}</li>))}
                       </ul>
@@ -303,7 +314,7 @@ export default function BirBillingGuidePage() {
                   <div className="space-y-5 my-6">
                     {faqs.map((f) => (
                       <div key={f.q} className="bg-white border border-stone-200 rounded-xl p-5">
-                        <h4 className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h4>
+                        <h3 data-box className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h3>
                         <p className="text-sm text-stone-600 leading-relaxed m-0" style={{ fontFamily: "var(--font-dm-sans)" }}>{f.a}</p>
                       </div>
                     ))}

@@ -5,12 +5,15 @@ import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";
 import { posts as blogPosts } from "@/lib/blog-posts";
-import { regionCount } from "@/lib/site";
+import { regionCount, pageSocial } from "@/lib/site";
+import { allStatePackages } from "@/lib/all-states-data";
+import { thingsToDoForGuide } from "@/lib/things-to-do-links";
+import { placeNameFromTitle } from "@/lib/guide-context";
 
 export const metadata: Metadata = {
-  title: "India Travel Destinations by State",
+  title: "India Travel Destinations by Region & State",
   description:
-    "Hill stations, beaches, heritage cities, national parks and off-beat places across all 36 Indian states and UTs, with guides and trip planning from Kudozz Club.",
+    "Places to visit in India, state by state: 580+ destination guides across all 36 states and UTs, grouped by region, with tour packages and things to do.",
   keywords: [
     "India travel destinations",
     "best places to visit in India",
@@ -25,49 +28,45 @@ export const metadata: Metadata = {
     "state-wise travel guide India",
   ],
   alternates: { canonical: "https://club.kudozz.in/destinations" },
+  ...pageSocial("/destinations", "India Travel Destinations by Region & State | Kudozz Club", "Places to visit in India, state by state: 580+ destination guides across all 36 states and UTs, grouped by region, with tour packages and things to do.", "/images/destinations/manali/hero.jpg", "Snow-capped Himalayan peaks above the Manali valley, Himachal Pradesh"),
 };
 
-function DestinationsSchema({
-  destinations,
-}: {
-  destinations: { slug: string; title: string; state: string }[];
-}) {
+function DestinationsSchema() {
+  const graph = [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://club.kudozz.in/destinations#webpage",
+      name: "India Travel Destinations by Region and State",
+      url: "https://club.kudozz.in/destinations",
+      isPartOf: { "@id": "https://club.kudozz.in/#website" },
+      publisher: { "@id": "https://club.kudozz.in/#organization" },
+      mainEntity: {
+        "@type": "ItemList",
+        name: "Indian states and union territories",
+        numberOfItems: allStatePackages.length,
+        itemListElement: regions
+          .flatMap((r) => r.states)
+          .map((st, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            name: st.name,
+            url: `https://club.kudozz.in/blog/${st.hubSlug}`,
+          })),
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
+        { "@type": "ListItem", position: 2, name: "Destinations", item: "https://club.kudozz.in/destinations" },
+      ],
+    },
+  ];
   return (
     <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "CollectionPage",
-          name: "India Travel Destinations",
-          url: "https://club.kudozz.in/destinations",
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Destinations",
-                item: "https://club.kudozz.in/destinations",
-              },
-            ],
-          },
-          mainEntity: {
-            "@type": "ItemList",
-            itemListElement: destinations.map((d, i) => ({
-              "@type": "ListItem",
-              position: i + 1,
-              url: `https://club.kudozz.in/blog/${d.slug}`,
-              name: `${d.title}, ${d.state}`,
-            })),
-          },
-        }),
+        __html: JSON.stringify({ "@context": "https://schema.org", "@graph": graph }),
       }}
     />
   );
@@ -168,856 +167,6 @@ const featured = [
   },
 ];
 
-const allDestinations = [
-  ...featured,
-  {
-    slug: "kasol-kheerganga-trek-travel-guide",
-    title: "Kasol & Kheerganga",
-    state: "Himachal Pradesh",
-    tagline: "The Parvati Valley trail",
-    description:
-      "Follow the Parvati River to steaming hot springs through pine forests, tiny Himalayan villages and backpacker cafes.",
-    image: "/images/destinations/kasol/kasol.jpg",
-    category: "Trekking",
-    region: "north",
-    tags: ["mountains", "adventure"],
-    readTime: "12 min",
-    highlight: "Kheerganga hot springs",
-    bestTime: "Mar – Jun, Sep – Nov",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "valley-of-flowers-travel-guide",
-    title: "Valley of Flowers",
-    state: "Uttarakhand",
-    tagline: "A meadow of 300 wildflowers",
-    description:
-      "A UNESCO World Heritage Site that blooms briefly each monsoon with hundreds of Himalayan wildflower species.",
-    image: "/images/destinations/manali/hero.jpg",
-    category: "Trekking",
-    region: "north",
-    tags: ["mountains", "offbeat"],
-    readTime: "10 min",
-    highlight: "July bloom at peak season",
-    bestTime: "Jul – Aug",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "andaman-islands-travel-guide",
-    title: "Andaman Islands",
-    state: "Andaman & Nicobar",
-    tagline: "Where the Bay meets paradise",
-    description:
-      "Crystal-clear waters, pristine coral reefs, white sand beaches and the haunting history of Cellular Jail.",
-    image: "/images/destinations/andaman/hero.jpg",
-    category: "Beaches",
-    region: "islands",
-    tags: ["beaches", "adventure"],
-    readTime: "20 min",
-    highlight: "Radhanagar Beach at sunset",
-    bestTime: "Nov – May",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "hampi-travel-guide",
-    title: "Hampi",
-    state: "Karnataka",
-    tagline: "Ruins of a lost empire",
-    description:
-      "The extraordinary ruins of the Vijayanagara Empire scattered across a surreal boulder landscape — one of India's most unique heritage sites.",
-    image: "/images/destinations/hampi/hero.jpg",
-    category: "Heritage",
-    region: "south",
-    tags: ["heritage", "offbeat"],
-    readTime: "14 min",
-    highlight: "Virupaksha Temple at sunrise",
-    bestTime: "Oct – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "kerala-backwaters-travel-guide",
-    title: "Kerala Backwaters",
-    state: "Kerala",
-    tagline: "Life on the waterways",
-    description:
-      "A 900-km network of lagoons, canals and lakes explored by houseboat — coconut palms, toddy shops and village life at water level.",
-    image: "/images/destinations/kerala/hero.jpg",
-    category: "Nature",
-    region: "south",
-    tags: ["offbeat"],
-    readTime: "15 min",
-    highlight: "Overnight houseboat in Alleppey",
-    bestTime: "Sep – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "rajasthan-desert-travel-guide",
-    title: "Jaisalmer",
-    state: "Rajasthan",
-    tagline: "The golden city of sand",
-    description:
-      "A living medieval fort rising from the Thar Desert, camel safaris into the dunes and the most spectacular havelis in Rajasthan.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
-    category: "Heritage",
-    region: "west",
-    tags: ["heritage", "adventure"],
-    readTime: "13 min",
-    highlight: "Sunrise camel safari in Sam dunes",
-    bestTime: "Oct – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "meghalaya-travel-guide",
-    title: "Meghalaya",
-    state: "Meghalaya",
-    tagline: "The abode of clouds",
-    description:
-      "Double-decker living root bridges, Asia's cleanest village, and a river so clear boats appear to float on air.",
-    image: "/images/destinations/meghalaya/hero.jpg",
-    category: "Nature",
-    region: "northeast",
-    tags: ["offbeat", "adventure"],
-    readTime: "20 min",
-    highlight: "Umngot River at Dawki",
-    bestTime: "Oct – Apr",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "ziro-valley-arunachal-travel-guide",
-    title: "Ziro Valley",
-    state: "Arunachal Pradesh",
-    tagline: "India's most untouched valley",
-    description:
-      "A UNESCO tentative heritage site in Arunachal — home to the Apatani tribe, terraced rice fields and one of India's best music festivals.",
-    image: "/images/destinations/meghalaya/hero.jpg",
-    category: "Off-beat",
-    region: "northeast",
-    tags: ["offbeat", "heritage"],
-    readTime: "11 min",
-    highlight: "Ziro Music Festival (September)",
-    bestTime: "Mar – Oct",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "gokarna-beaches-travel-guide",
-    title: "Gokarna",
-    state: "Karnataka",
-    tagline: "Quieter than Goa",
-    description:
-      "A temple town with world-class beaches — Om Beach, Half Moon, and Paradise — without Goa's commercialisation.",
-    image: "/images/destinations/coorg/coorg.jpg",
-    category: "Beaches",
-    region: "south",
-    tags: ["beaches", "spiritual"],
-    readTime: "9 min",
-    highlight: "Om Beach at low tide",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "udaipur-city-of-lakes-travel-guide",
-    title: "Udaipur",
-    state: "Rajasthan",
-    tagline: "The city of lakes",
-    description:
-      "Palaces floating on still water, whitewashed havelis and the most romantic skyline in Rajasthan.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
-    category: "Heritage",
-    region: "west",
-    tags: ["heritage", "spiritual"],
-    readTime: "10 min",
-    highlight: "Sunset boat ride on Lake Pichola",
-    bestTime: "Sep – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "goa-beaches-travel-guide",
-    title: "Goa",
-    state: "Goa",
-    tagline: "Sun, sand and susegad",
-    description:
-      "Portuguese-era churches, beach shacks, and a coastline that switches from party-loud to monastery-quiet within a few kilometres.",
-    image: "/images/destinations/andaman/hero.jpg",
-    category: "Beaches",
-    region: "west",
-    tags: ["beaches", "adventure"],
-    readTime: "12 min",
-    highlight: "Sunset at Palolem Beach",
-    bestTime: "Nov – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "puducherry-french-quarter-travel-guide",
-    title: "Puducherry",
-    state: "Puducherry",
-    tagline: "India's most European town",
-    description:
-      "Mustard-yellow colonial villas, a seafront promenade closed to traffic, and the golden Matrimandir at Auroville nearby.",
-    image: "/images/destinations/puducherry/hero.jpg",
-    category: "Heritage",
-    region: "south",
-    tags: ["heritage", "beaches"],
-    readTime: "10 min",
-    highlight: "Sunset walk on Promenade Beach",
-    bestTime: "Oct – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "puducherry-district-travel-guide",
-    title: "Puducherry District",
-    state: "Puducherry",
-    tagline: "Seven towns beyond the French Quarter",
-    description:
-      "Villianur's ancient Shiva temple, Ariyankuppam's Arikamedu ruins and Chunnambar boat rides, Bahour's lake, Nettapakkam, and Oulgaret.",
-    image: "/images/destinations/puducherry/hero.jpg",
-    category: "Heritage",
-    region: "south",
-    tags: ["heritage", "temples"],
-    readTime: "15 min",
-    highlight: "Ancient Arikamedu trading port at Ariyankuppam",
-    bestTime: "Oct – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "karaikal-district-travel-guide",
-    title: "Karaikal District",
-    state: "Puducherry",
-    tagline: "A Shani pilgrimage temple and Cauvery delta villages",
-    description:
-      "Tirunallar's famous Saneeswaran Temple and Nala Theertham, Karaikal town's beach and lighthouse, and the quiet delta villages around them.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
-    category: "Spiritual",
-    region: "south",
-    tags: ["temples", "pilgrimage"],
-    readTime: "12 min",
-    highlight: "Saneeswaran Temple and Nala Theertham at Tirunallar",
-    bestTime: "Nov – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "mahe-district-travel-guide",
-    title: "Mahe District",
-    state: "Puducherry",
-    tagline: "A French riverfront enclave on the Malabar coast",
-    description:
-      "Mahe's riverfront walkway, St. Teresa's Shrine, and the quiet river villages of Palloor, Pandakkal, Chalakkara, and Parakkal.",
-    image: "/images/destinations/kerala/hero.jpg",
-    category: "Heritage",
-    region: "south",
-    tags: ["heritage", "riverfront"],
-    readTime: "10 min",
-    highlight: "Evening walk on the Mahe Walkway",
-    bestTime: "Nov – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "yanam-district-travel-guide",
-    title: "Yanam District",
-    state: "Puducherry",
-    tagline: "A French enclave on the Godavari delta",
-    description:
-      "St. Ann's Church, the Yanam Ferry Road, and the quiet Godavari delta villages of Mettakur, Kolanka, and Kanakalapeta.",
-    image: "/images/destinations/kerala/alleppey.jpg",
-    category: "Heritage",
-    region: "south",
-    tags: ["heritage", "riverfront"],
-    readTime: "9 min",
-    highlight: "Evening walk along the Yanam Ferry Road",
-    bestTime: "Nov – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "kavaratti-island-travel-guide",
-    title: "Kavaratti",
-    state: "Lakshadweep",
-    tagline: "Lakshadweep's capital island",
-    description:
-      "A turquoise lagoon, the driftwood-ceilinged Ujra Mosque, and some of the archipelago's most accessible diving and water sports.",
-    image: "/images/destinations/lakshadweep/hero.jpg",
-    category: "Beaches",
-    region: "islands",
-    tags: ["beaches", "diving"],
-    readTime: "11 min",
-    highlight: "Scuba diving and snorkelling in Kavaratti Lagoon",
-    bestTime: "Oct – May",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "agatti-island-travel-guide",
-    title: "Agatti",
-    state: "Lakshadweep",
-    tagline: "Lakshadweep's gateway island",
-    description:
-      "A famously vast lagoon visible from the air, healthy coral reefs, and some of the archipelago's most popular diving and snorkelling.",
-    image: "/images/destinations/lakshadweep/hero.jpg",
-    category: "Beaches",
-    region: "islands",
-    tags: ["beaches", "diving"],
-    readTime: "11 min",
-    highlight: "Sunset lagoon cruise",
-    bestTime: "Oct – May",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "lakshadweep-island-travel-guide",
-    title: "Lakshadweep",
-    state: "Lakshadweep",
-    tagline: "India's coral atoll islands",
-    description:
-      "Turquoise lagoons, permit-only islands, and some of the clearest diving water in the Indian Ocean.",
-    image: "/images/destinations/lakshadweep/hero.jpg",
-    category: "Beaches",
-    region: "islands",
-    tags: ["beaches", "offbeat"],
-    readTime: "12 min",
-    highlight: "Snorkeling the Bangaram lagoon",
-    bestTime: "Oct – May",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "jammu-kashmir-travel-guide",
-    title: "Jammu & Kashmir",
-    state: "Jammu & Kashmir",
-    tagline: "Paradise on Earth",
-    description:
-      "Houseboats on Dal Lake, gondola rides above the snow line, and valleys that inspired the region's old Mughal-era name.",
-    image: "/images/destinations/jammu-kashmir/hero.jpg",
-    category: "Mountains",
-    region: "north",
-    tags: ["mountains", "heritage"],
-    readTime: "15 min",
-    highlight: "Gulmarg Gondola above the snow line",
-    bestTime: "Apr – Jun, Sep – Oct",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "dadra-nagar-haveli-daman-diu-travel-guide",
-    title: "Daman & Diu",
-    state: "Dadra & Nagar Haveli and Daman & Diu",
-    tagline: "Portuguese forts by the sea",
-    description:
-      "A 16th-century Portuguese sea fort, near-empty beaches, and duty-free shopping — India's smallest, most overlooked Union Territory.",
-    image: "/images/destinations/goa/hero.jpg",
-    category: "Heritage",
-    region: "west",
-    tags: ["heritage", "beaches"],
-    readTime: "13 min",
-    highlight: "Sunset from Diu Fort's ramparts",
-    bestTime: "Nov – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "chandigarh-travel-guide",
-    title: "Chandigarh",
-    state: "Chandigarh",
-    tagline: "India's most planned city",
-    description:
-      "Le Corbusier's modernist Capitol Complex, a rock garden built entirely from industrial waste, and a lake at the foot of the Shivaliks.",
-    image: "/images/destinations/rishikesh/rishikesh.jpg",
-    category: "Heritage",
-    region: "north",
-    tags: ["heritage", "offbeat"],
-    readTime: "11 min",
-    highlight: "Nek Chand's Rock Garden",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "delhi-travel-guide",
-    title: "Delhi",
-    state: "Delhi",
-    tagline: "Capital of layered empires",
-    description:
-      "Mughal forts, Sultanate-era minarets, colonial avenues, and one of the world's great street food scenes.",
-    image: "/images/destinations/jaisalmer/fort.jpg",
-    category: "Heritage",
-    region: "north",
-    tags: ["heritage"],
-    readTime: "16 min",
-    highlight: "Sunrise at the Red Fort",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "west-bengal-travel-guide",
-    title: "West Bengal",
-    state: "West Bengal",
-    tagline: "Kolkata to Darjeeling",
-    description:
-      "Colonial-era Kolkata, tea gardens climbing into the clouds at Darjeeling, and mangrove creeks where the Royal Bengal Tiger still roams.",
-    image: "/images/destinations/meghalaya/hero.jpg",
-    category: "Nature",
-    region: "east",
-    tags: ["heritage", "offbeat"],
-    readTime: "18 min",
-    highlight: "Toy Train to Darjeeling",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "uttarakhand-travel-guide",
-    title: "Uttarakhand",
-    state: "Uttarakhand",
-    tagline: "Dev Bhoomi, Land of the Gods",
-    description:
-      "Sacred temples above 3,000 metres, the Ganga's first rush out of the mountains, and lake towns wrapped in pine forest.",
-    image: "/images/destinations/rishikesh/rishikesh.jpg",
-    category: "Spiritual",
-    region: "north",
-    tags: ["mountains", "spiritual"],
-    readTime: "19 min",
-    highlight: "Char Dham Yatra",
-    bestTime: "Mar – Jun, Sep – Nov",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "uttar-pradesh-travel-guide",
-    title: "Uttar Pradesh",
-    state: "Uttar Pradesh",
-    tagline: "Taj Mahal to Varanasi",
-    description:
-      "The world's most famous monument to love, the ghats of Varanasi, and Lucknow's Nawabi elegance.",
-    image: "/images/destinations/udaipur/hero.jpg",
-    category: "Heritage",
-    region: "north",
-    tags: ["heritage", "spiritual"],
-    readTime: "17 min",
-    highlight: "Sunrise at the Taj Mahal",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "tripura-travel-guide",
-    title: "Tripura",
-    state: "Tripura",
-    tagline: "India's overlooked princely state",
-    description:
-      "A palace rising from the middle of a lake, giant rock-cut carvings hidden in the forest, and a royal capital barely anyone's heard of.",
-    image: "/images/destinations/ziro/hero.jpg",
-    category: "Off-beat",
-    region: "northeast",
-    tags: ["offbeat", "heritage"],
-    readTime: "12 min",
-    highlight: "Neermahal lake palace",
-    bestTime: "Nov – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "tamil-nadu-travel-guide",
-    title: "Tamil Nadu",
-    state: "Tamil Nadu",
-    tagline: "The Dravidian temple trail",
-    description:
-      "Temple towers carved with thousands of painted deities, UNESCO shore temples on the Bay of Bengal, and tea gardens in the Nilgiri hills.",
-    image: "/images/destinations/hampi/virupaksha.jpg",
-    category: "Spiritual",
-    region: "south",
-    tags: ["heritage", "spiritual"],
-    readTime: "18 min",
-    highlight: "Meenakshi Amman Temple, Madurai",
-    bestTime: "Nov – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "sikkim-travel-guide",
-    title: "Sikkim",
-    state: "Sikkim",
-    tagline: "Alpine lakes and Kanchenjunga views",
-    description:
-      "Alpine lakes above 12,000 feet, a valley that turns into a carpet of rhododendrons every spring, and unobstructed views of Kanchenjunga.",
-    image: "/images/destinations/manali/hero.jpg",
-    category: "Mountains",
-    region: "northeast",
-    tags: ["mountains", "offbeat"],
-    readTime: "16 min",
-    highlight: "Yumthang Valley in bloom",
-    bestTime: "Mar – Jun, Oct – Dec",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "rajasthan-travel-guide",
-    title: "Rajasthan",
-    state: "Rajasthan",
-    tagline: "Pink, blue and gold cities",
-    description:
-      "Pink-walled bazaars, a fort city painted entirely blue, and royal palaces still standing where maharajas built them centuries ago.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
-    category: "Heritage",
-    region: "west",
-    tags: ["heritage"],
-    readTime: "19 min",
-    highlight: "Mehrangarh Fort, Jodhpur",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "punjab-travel-guide",
-    title: "Punjab",
-    state: "Punjab",
-    tagline: "Golden Temple & Wagah Border",
-    description:
-      "A temple that shimmers gold over a sacred pool, a nightly border ceremony full of pageantry, and food that shaped how the rest of India eats.",
-    image: "/images/destinations/udaipur/hero.jpg",
-    category: "Spiritual",
-    region: "north",
-    tags: ["spiritual", "heritage"],
-    readTime: "14 min",
-    highlight: "Golden Temple at dawn",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "odisha-travel-guide",
-    title: "Odisha",
-    state: "Odisha",
-    tagline: "Konark, Puri and Chilika Lake",
-    description:
-      "A stone temple carved as a giant chariot, one of Hinduism's holiest shrines, and a lagoon where Irrawaddy dolphins surface between fishing boats.",
-    image: "/images/destinations/hampi/hero.jpg",
-    category: "Heritage",
-    region: "east",
-    tags: ["heritage", "nature"],
-    readTime: "15 min",
-    highlight: "Konark Sun Temple carvings",
-    bestTime: "Oct – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "madhya-pradesh-travel-guide",
-    title: "Madhya Pradesh",
-    state: "Madhya Pradesh",
-    tagline: "The heart of India",
-    description:
-      "Temples carved with astonishing detail, some of India's best tiger sightings, and a hilltop fortress that guarded the heart of the country.",
-    image: "/images/destinations/hampi/hero.jpg",
-    category: "Heritage",
-    region: "central",
-    tags: ["heritage", "wildlife"],
-    readTime: "17 min",
-    highlight: "Khajuraho's carved temples",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "maharashtra-travel-guide",
-    title: "Maharashtra",
-    state: "Maharashtra",
-    tagline: "Mumbai to Ajanta-Ellora",
-    description:
-      "A city that never sleeps, 2,000-year-old rock-cut cave temples, and a coastline dotted with sea forts and fishing villages.",
-    image: "/images/destinations/hampi/hero.jpg",
-    category: "Heritage",
-    region: "west",
-    tags: ["heritage", "beaches"],
-    readTime: "17 min",
-    highlight: "Kailasa Temple, Ellora",
-    bestTime: "Oct – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "gujarat-travel-guide",
-    title: "Gujarat",
-    state: "Gujarat",
-    tagline: "White desert, wild lions",
-    description:
-      "A shimmering white salt desert stretching to the horizon, temple towns steeped in mythology, and the last wild lions outside Africa.",
-    image: "/images/destinations/jaisalmer/hero.jpg",
-    category: "Heritage",
-    region: "west",
-    tags: ["heritage", "offbeat"],
-    readTime: "16 min",
-    highlight: "Rann Utsav under a full moon",
-    bestTime: "Nov – Feb",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "haryana-travel-guide",
-    title: "Haryana",
-    state: "Haryana",
-    tagline: "Delhi's easiest weekend escape",
-    description:
-      "The ground where the Bhagavad Gita is said to have been spoken, one of the world's largest craft fairs, and the easiest weekend escape from Delhi-NCR.",
-    image: "/images/destinations/chandigarh/hero.jpg",
-    category: "Heritage",
-    region: "north",
-    tags: ["heritage"],
-    readTime: "11 min",
-    highlight: "Jyotisar, Kurukshetra",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "himachal-pradesh-travel-guide",
-    title: "Himachal Pradesh",
-    state: "Himachal Pradesh",
-    tagline: "Shimla to Dharamshala",
-    description:
-      "From colonial Shimla's toy train to the Tibetan Buddhist calm of McLeod Ganj and the apple orchards of Kullu — a full state, one guide.",
-    image: "/images/destinations/manali/hero.jpg",
-    category: "Mountains",
-    region: "north",
-    tags: ["mountains"],
-    readTime: "20 min",
-    highlight: "Kalka–Shimla toy train",
-    bestTime: "Mar – Jun, Sep – Nov",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "jharkhand-travel-guide",
-    title: "Jharkhand",
-    state: "Jharkhand",
-    tagline: "The city of waterfalls",
-    description:
-      "Dense sal forests, waterfalls that thunder off laterite cliffs, and tiger territory at Betla — one of India's most underrated states.",
-    image: "/images/destinations/ziro/hero.jpg",
-    category: "Off-beat",
-    region: "east",
-    tags: ["offbeat", "nature"],
-    readTime: "13 min",
-    highlight: "Hundru Falls, Ranchi",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "karnataka-travel-guide",
-    title: "Karnataka",
-    state: "Karnataka",
-    tagline: "Bangalore to Hampi",
-    description:
-      "From Bangalore's tech-city energy to Mysore's royal palaces, the ancient ruins of Hampi, and coffee hills beyond.",
-    image: "/images/destinations/hampi/hero.jpg",
-    category: "Heritage",
-    region: "south",
-    tags: ["heritage"],
-    readTime: "19 min",
-    highlight: "Mysore Palace illuminated",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "andhra-pradesh-travel-guide",
-    title: "Andhra Pradesh",
-    state: "Andhra Pradesh",
-    tagline: "Temples, coast and coffee hills",
-    description:
-      "From the world's richest temple at Tirumala to Vizag's underrated coastline and the coffee-scented hills of Araku Valley.",
-    image: "/images/destinations/hampi/hero.jpg",
-    category: "Spiritual",
-    region: "south",
-    tags: ["spiritual", "beaches"],
-    readTime: "17 min",
-    highlight: "Tirumala's dawn queue",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "arunachal-pradesh-travel-guide",
-    title: "Arunachal Pradesh",
-    state: "Arunachal Pradesh",
-    tagline: "Tawang and beyond Ziro",
-    description:
-      "From Tawang's Himalayan monasteries to Ziro's terraced tribal valleys — India's largest and least-visited Northeastern state.",
-    image: "/images/destinations/ziro/hero.jpg",
-    category: "Off-beat",
-    region: "northeast",
-    tags: ["offbeat", "mountains"],
-    readTime: "19 min",
-    highlight: "Tawang Monastery at sunrise",
-    bestTime: "Oct – Apr",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "assam-travel-guide",
-    title: "Assam",
-    state: "Assam",
-    tagline: "Rhinos and river islands",
-    description:
-      "Rhino safaris in Kaziranga, a hilltop Shakti Peeth temple above the Brahmaputra, and the world's largest river island.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
-    category: "Nature",
-    region: "northeast",
-    tags: ["wildlife", "nature"],
-    readTime: "16 min",
-    highlight: "Jeep safari, Kaziranga",
-    bestTime: "Nov – Apr",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "bihar-travel-guide",
-    title: "Bihar",
-    state: "Bihar",
-    tagline: "Where Buddhism began",
-    description:
-      "The place where Buddha attained enlightenment, the ruins of one of the world's oldest universities, and the ancient heartland of the Magadha empire.",
-    image: "/images/destinations/hampi/hero.jpg",
-    category: "Spiritual",
-    region: "east",
-    tags: ["spiritual", "heritage"],
-    readTime: "15 min",
-    highlight: "Mahabodhi Temple, Bodh Gaya",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "chhattisgarh-travel-guide",
-    title: "Chhattisgarh",
-    state: "Chhattisgarh",
-    tagline: "Central India's overlooked forest state",
-    description:
-      "A horseshoe waterfall wider than Niagara, a tribal heartland with a 75-day festival tradition, and near-empty forest trails.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
-    category: "Off-beat",
-    region: "central",
-    tags: ["offbeat", "nature"],
-    readTime: "13 min",
-    highlight: "Chitrakote Falls in monsoon",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "manipur-travel-guide",
-    title: "Manipur",
-    state: "Manipur",
-    tagline: "Floating islands on Loktak Lake",
-    description:
-      "Floating islands drifting across a shimmering lake, the world's only floating national park, and a market run entirely by women for centuries.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
-    category: "Off-beat",
-    region: "northeast",
-    tags: ["offbeat", "nature"],
-    readTime: "14 min",
-    highlight: "Boat ride through Loktak's phumdis",
-    bestTime: "Nov – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "mizoram-travel-guide",
-    title: "Mizoram",
-    state: "Mizoram",
-    tagline: "India's cleanest hillside capital",
-    description:
-      "A hillside capital with no traffic jams, a waterfall dropping through pine-covered gorges, and one of India's cleanest, most literate states.",
-    image: "/images/destinations/meghalaya/dawki-river.jpg",
-    category: "Off-beat",
-    region: "northeast",
-    tags: ["offbeat", "mountains"],
-    readTime: "13 min",
-    highlight: "Reiek viewpoint at dawn",
-    bestTime: "Oct – Apr",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-  {
-    slug: "nagaland-travel-guide",
-    title: "Nagaland",
-    state: "Nagaland",
-    tagline: "Sixteen tribes, one festival",
-    description:
-      "A festival where sixteen tribes gather in their warrior best, a war cemetery from a WWII turning point, and a valley called the Switzerland of the East.",
-    image: "/images/destinations/meghalaya/hero.jpg",
-    category: "Off-beat",
-    region: "northeast",
-    tags: ["offbeat", "heritage"],
-    readTime: "15 min",
-    highlight: "Hornbill Festival, Kisama",
-    bestTime: "Oct – Mar",
-    featured: false,
-    large: false,
-    comingSoon: false,
-  },
-];
-
 const categoryColors: Record<string, string> = {
   Mountains: "bg-sky-100 text-sky-700",
   "Road Trip": "bg-stone-100 text-stone-700",
@@ -1031,109 +180,69 @@ const categoryColors: Record<string, string> = {
   "Destination Guide": "bg-sky-100 text-sky-700",
 };
 
-// ── Auto-generated entries ───────────────────────────────────────────────────
-// Every hand-authored destination above already has its own rich tagline,
-// highlight, and best-time copy. Everything else published under
-// src/app/blog/ (driven by src/lib/blog-posts.ts, the same source the /blog
-// index uses) gets a lighter auto-generated card here instead of being
-// missing from this page entirely — title/description/image/category all
-// come straight from that post's real metadata; only "state" is inferred
-// from its tags below, and best-time is simply omitted when unknown.
+// ── Region → State → Destination directory ───────────────────────────────────
+// Built from the same state data as the package pages (all-states-data.ts,
+// itself extracted from each state hub guide's own "Places to Explore" links),
+// so every guide appears exactly once, under its real state and region.
 
-const STATE_NAMES = [
-  "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh",
-  "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka",
-  "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya",
-  "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim",
-  "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand",
-  "West Bengal", "Andaman & Nicobar Islands", "Chandigarh",
-  "Dadra & Nagar Haveli and Daman & Diu", "Delhi", "Jammu & Kashmir",
-  "Ladakh", "Lakshadweep", "Puducherry",
-];
-const STATE_NAMES_LOWER = new Map(STATE_NAMES.map((s) => [s.toLowerCase(), s]));
+const postTitle = new Map(blogPosts.map((p) => [p.slug, p.title]));
 
-// Fallback substring aliases for tags that name a place/UT rather than the
-// exact state name (e.g. a tag of "Andaman Islands" rather than "Andaman &
-// Nicobar Islands").
-const STATE_ALIASES: [string, string][] = [
-  ["andaman", "Andaman & Nicobar Islands"],
-  ["port blair", "Andaman & Nicobar Islands"],
-  ["sri vijaya puram", "Andaman & Nicobar Islands"],
-  ["daman and diu", "Dadra & Nagar Haveli and Daman & Diu"],
-  ["dadra and nagar haveli", "Dadra & Nagar Haveli and Daman & Diu"],
-  ["jammu", "Jammu & Kashmir"],
-  ["kashmir", "Jammu & Kashmir"],
-  ["puducherry", "Puducherry"],
-  ["ladakh", "Ladakh"],
-  ["chandigarh", "Chandigarh"],
-  ["delhi", "Delhi"],
-  ["lakshadweep", "Lakshadweep"],
+const REGION_ORDER = [
+  "North India",
+  "Northeast India",
+  "East India",
+  "Central India",
+  "West India",
+  "South India",
 ];
 
-function deriveState(tags: string[]): string {
-  for (const tag of tags) {
-    const exact = STATE_NAMES_LOWER.get(tag.toLowerCase());
-    if (exact) return exact;
-  }
-  for (const tag of tags) {
-    const tagLower = tag.toLowerCase();
-    const alias = STATE_ALIASES.find(([key]) => tagLower.includes(key));
-    if (alias) return alias[1];
-  }
-  return "";
-}
-
-// "Darjeeling Travel Guide: Tea Gardens, Toy Train & Tiger Hill" -> "Darjeeling"
-function shortTitle(fullTitle: string): string {
-  return fullTitle.split(":")[0].replace(/\s+Travel Guide$/i, "").trim();
-}
-
-const handAuthoredSlugs = new Set(allDestinations.map((d) => d.slug));
-
-const derivedDestinations = blogPosts
-  .filter((post) => !handAuthoredSlugs.has(post.slug) && post.category !== "Things to Do" && post.category !== "Adventure Travel" && post.category !== "Beach Travel" && post.category !== "Wildlife Tourism" && post.category !== "Spiritual Tourism" && post.category !== "Heritage & Culture" && post.category !== "Hill Stations" && post.category !== "Nature Travel" && post.category !== "Road Trips")
-  .map((post) => ({
-    slug: post.slug,
-    title: shortTitle(post.title),
-    state: deriveState(post.tags),
-    description: post.excerpt,
-    image: post.image,
-    category: post.category,
-    categoryColor: post.categoryColor as string | undefined,
-    readTime: post.readTime,
-    bestTime: "",
-    featured: false,
-    comingSoon: false,
-  }));
-
-type GridDestination = {
-  slug: string;
-  title: string;
-  state: string;
-  description: string;
-  image: string;
-  category: string;
-  categoryColor?: string;
-  readTime: string;
-  bestTime?: string;
-  featured: boolean;
-  comingSoon: boolean;
+const REGION_INTRO: Record<string, string> = {
+  "North India":
+    "The Himalaya of Ladakh, Jammu & Kashmir, Himachal Pradesh and Uttarakhand, the Golden Triangle of Delhi, Agra and Jaipur, Rajasthan's desert forts and the pilgrimage towns of the Ganga plain.",
+  "Northeast India":
+    "Eight states between the eastern Himalaya and the Bangladesh border: Sikkim's monasteries, Meghalaya's waterfalls and root bridges, Kaziranga's rhinos and the tribal cultures of Nagaland and Arunachal. Several areas need permits.",
+  "East India":
+    "Kolkata and the Darjeeling hills in West Bengal, Odisha's temple coast and Chilika Lake, the Buddhist sites of Bihar and the forested plateau of Jharkhand.",
+  "Central India":
+    "Tiger country and temple towns: Kanha, Bandhavgarh and Khajuraho in Madhya Pradesh, and the waterfalls and tribal heartland of Chhattisgarh.",
+  "West India":
+    "Goa's beaches, Maharashtra's forts, caves and hill stations, Gujarat's Rann of Kutch and Gir, and the old Portuguese towns of Daman and Diu.",
+  "South India":
+    "Kerala's backwaters and hills, Karnataka's Hampi and Coorg, Tamil Nadu's temple cities, Andhra Pradesh and Telangana, Puducherry, and the islands of the Andamans and Lakshadweep.",
 };
 
-const combinedDestinations: GridDestination[] = [
-  ...allDestinations,
-  ...derivedDestinations,
-];
+const regionId = (r: string) => r.toLowerCase().replace(/[^a-z]+/g, "-");
+
+const regions = REGION_ORDER.map((region) => ({
+  region,
+  id: regionId(region),
+  states: allStatePackages
+    .filter((s) => s.region === region)
+    .map((s) => ({
+      name: s.name,
+      packageSlug: s.slug,
+      hubSlug: s.blogSlug,
+      hubThingsToDo: thingsToDoForGuide(s.blogSlug)?.slug,
+      places: s.children
+        .filter((c) => postTitle.has(c.slug))
+        .map((c) => ({
+          slug: c.slug,
+          name: placeNameFromTitle(postTitle.get(c.slug)!),
+          thingsToDo: thingsToDoForGuide(c.slug)?.slug,
+        }))
+        .sort((x, y) => x.name.localeCompare(y.name)),
+    })),
+}));
+
+const guideCount = new Set(
+  regions.flatMap((r) => r.states.flatMap((s) => [s.hubSlug, ...s.places.map((p) => p.slug)])),
+).size;
+const thingsToDoCount = blogPosts.filter((p) => p.category === "Things to Do").length;
 
 const stats = [
-  {
-    value: String(
-      new Set(combinedDestinations.map((d) => d.state).filter(Boolean)).size,
-    ),
-    label: "States covered",
-  },
-  { value: String(combinedDestinations.length), label: "Destinations" },
-  { value: String(combinedDestinations.length), label: "Guides published" },
+  { value: String(allStatePackages.length), label: "States & UTs" },
+  { value: String(guideCount), label: "Destination guides" },
+  { value: String(thingsToDoCount), label: "Things-to-do guides" },
   { value: String(regionCount), label: "Regions of India" },
 ];
 
@@ -1141,9 +250,7 @@ const stats = [
 export default function DestinationsPage() {
   return (
     <>
-      <DestinationsSchema
-        destinations={combinedDestinations.filter((d) => !d.comingSoon)}
-      />
+      <DestinationsSchema />
       <SiteHeader />
       <main>
         {/* ── Hero ──────────────────────────────────────────────────────── */}
@@ -1151,7 +258,7 @@ export default function DestinationsPage() {
           <div className="absolute inset-0">
             <Image
               src="/images/destinations/manali/hero.jpg"
-              alt="Destinations"
+              alt="Snow-capped Himalayan peaks above the Manali valley, Himachal Pradesh"
               fill
               sizes="100vw"
               className="object-cover"
@@ -1175,9 +282,9 @@ export default function DestinationsPage() {
                 className="text-5xl sm:text-6xl font-bold text-white mb-5 leading-tight"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
-                India Travel Destinations
+                India Travel Destinations,
                 <br />
-                <span className="text-forest-300">Explore, then plan.</span>
+                <span className="text-forest-300">State by State</span>
               </h1>
               <p
                 className="text-white/70 text-lg leading-relaxed"
@@ -1378,207 +485,89 @@ export default function DestinationsPage() {
           </div>
         </section>
 
-        {/* ── All Destinations Grid ─────────────────────────────────────── */}
-        <section className="bg-white py-20">
+        {/* ── Region → State → Destination directory ─────────────────── */}
+        <section className="bg-white py-20" aria-labelledby="by-region">
           <div className="max-w-7xl mx-auto px-6 sm:px-10">
-            <div className="flex items-end justify-between mb-12">
-              <div>
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="h-px w-8 bg-forest-500" />
-                  <span
-                    className="text-forest-600 text-xs font-bold uppercase tracking-[0.2em]"
-                    style={{ fontFamily: "var(--font-dm-sans)" }}
-                  >
-                    Complete list
-                  </span>
-                </div>
-                <h2
-                  className="text-3xl md:text-4xl font-bold text-stone-900"
-                  style={{ fontFamily: "var(--font-playfair)" }}
-                >
-                  All Destinations
-                </h2>
-              </div>
-              <span
-                className="text-stone-400 text-sm"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                {combinedDestinations.length} destinations
-              </span>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {combinedDestinations.map((dest) => {
-                const cardContent = (
-                  <>
-                    {/* Image */}
-                    <div className="relative h-48 overflow-hidden bg-stone-100">
-                      <Image
-                        src={dest.image}
-                        alt={dest.title}
-                        fill
-                        sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                        className={`object-cover transition-transform duration-500 ${dest.comingSoon ? "" : "group-hover:scale-105"}`}
-                      />
-                      {!dest.comingSoon && (
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                      )}
-                      <span
-                        className={`absolute top-3 left-3 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded-full ${dest.categoryColor ?? categoryColors[dest.category] ?? "bg-white/90 text-stone-700"}`}
-                        style={{ fontFamily: "var(--font-dm-sans)" }}
-                      >
-                        {dest.category}
-                      </span>
-                      {dest.comingSoon ? (
-                        <span
-                          className="absolute top-3 right-3 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded-full bg-stone-800 text-white"
-                          style={{ fontFamily: "var(--font-dm-sans)" }}
-                        >
-                          Coming Soon
-                        </span>
-                      ) : (
-                        dest.featured && (
-                          <span
-                            className="absolute top-3 right-3 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded-full bg-forest-500 text-white"
-                            style={{ fontFamily: "var(--font-dm-sans)" }}
-                          >
-                            Featured
-                          </span>
-                        )
-                      )}
-                    </div>
-
-                  {/* Content */}
-                  <div className="flex flex-col flex-1 p-5">
-                    <div className="flex items-start justify-between gap-2 mb-2">
-                      <div>
-                        <h3
-                          className="font-bold text-stone-900 group-hover:text-forest-700 transition-colors"
-                          style={{ fontFamily: "var(--font-playfair)" }}
-                        >
-                          {dest.title}
-                        </h3>
-                        {dest.state && (
-                          <p
-                            className="text-forest-600 text-xs font-medium"
-                            style={{ fontFamily: "var(--font-dm-sans)" }}
-                          >
-                            {dest.state}
-                          </p>
-                        )}
-                      </div>
-                    </div>
-
-                    <p
-                      className="text-stone-500 text-sm line-clamp-2 leading-relaxed flex-1 mb-4"
-                      style={{ fontFamily: "var(--font-dm-sans)" }}
-                    >
-                      {dest.description}
-                    </p>
-
-                    <div className="border-t border-stone-100 pt-3 mt-auto">
-                      <div
-                        className="flex items-center justify-between"
-                        style={{ fontFamily: "var(--font-dm-sans)" }}
-                      >
-                        <div className="flex items-center gap-3 text-xs text-stone-400">
-                          {dest.bestTime && (
-                            <span className="flex items-center gap-1">
-                              <svg
-                                className="w-3 h-3"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                                strokeWidth={2}
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                                />
-                              </svg>
-                              {dest.bestTime}
-                            </span>
-                          )}
-                          <span className="flex items-center gap-1">
-                            <svg
-                              className="w-3 h-3"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                              />
-                            </svg>
-                            {dest.readTime}
-                          </span>
-                        </div>
-                        {dest.comingSoon ? (
-                          <span className="text-xs font-semibold text-stone-400">
-                            Guide coming soon
-                          </span>
-                        ) : (
-                          <span className="text-xs font-semibold text-forest-600 flex items-center gap-1 group-hover:gap-1.5 transition-all">
-                            Read
-                            <svg
-                              className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              strokeWidth={2.5}
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M9 5l7 7-7 7"
-                              />
-                            </svg>
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                  </>
-                );
-
-                return dest.comingSoon ? (
-                  <div
-                    key={dest.slug}
-                    className="group bg-white rounded-2xl overflow-hidden border border-stone-200 opacity-70 flex flex-col cursor-default"
-                  >
-                    {cardContent}
-                  </div>
-                ) : (
-                  <Link
-                    key={dest.slug}
-                    href={`/blog/${dest.slug}`}
-                    className="group bg-white rounded-2xl overflow-hidden border border-stone-200 hover:border-forest-200 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col"
-                  >
-                    {cardContent}
-                  </Link>
-                );
-              })}
-            </div>
-
-            {/* Load more */}
-            {/* <div className="text-center mt-14">
-              <p
-                className="text-stone-400 text-sm mb-5"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Showing {combinedDestinations.length} of {combinedDestinations.length} destinations
+            <div className="max-w-3xl">
+              <p className="eyebrow">Complete list</p>
+              <h2 id="by-region" className="heading-lg mt-3">
+                Places to visit in India, by region and state
+              </h2>
+              <p className="mt-4 font-sans text-base leading-relaxed text-stone-600">
+                Every guide sits under its state. Start with a state guide for
+                the big picture (best time, how to get there, how many days),
+                then open the destinations you like. Each state also has a
+                tour package page, where you can ask us to plan the trip.
               </p>
-              <button
-                className="px-8 py-3.5 border-2 border-stone-200 text-stone-600 font-semibold rounded-full hover:border-forest-400 hover:text-forest-700 hover:bg-forest-50 transition-all text-sm"
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-              >
-                Load More Destinations
-              </button>
-            </div> */}
+            </div>
+
+            <nav aria-label="Jump to region" className="mt-8 flex flex-wrap gap-2">
+              {regions.map((r) => (
+                <a
+                  key={r.id}
+                  href={`#${r.id}`}
+                  className="rounded-full border border-stone-200 bg-stone-50 px-4 py-2 font-sans text-sm font-medium text-stone-700 hover:border-forest-300 hover:text-forest-700"
+                >
+                  {r.region}
+                </a>
+              ))}
+            </nav>
+
+            {regions.map((r) => (
+              <section key={r.id} id={r.id} className="mt-16 scroll-mt-24">
+                <h2 className="font-display text-3xl font-bold text-stone-950">{r.region}</h2>
+                <p className="mt-3 max-w-3xl font-sans text-[15px] leading-relaxed text-stone-600">
+                  {REGION_INTRO[r.region]}
+                </p>
+                <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+                  {r.states.map((st) => (
+                    <div key={st.packageSlug} className="rounded-2xl border border-stone-200 bg-stone-50/60 p-6">
+                      <h3 className="font-display text-xl font-bold text-stone-950">
+                        <Link href={`/blog/${st.hubSlug}`} className="hover:text-forest-700">
+                          {st.name}
+                        </Link>
+                      </h3>
+                      <p className="mt-2 flex flex-wrap gap-x-4 gap-y-1 font-sans text-sm">
+                        <Link href={`/blog/${st.hubSlug}`} className="font-semibold text-forest-700 underline-offset-4 hover:underline">
+                          {st.name} travel guide
+                        </Link>
+                        <Link href={`/packages/${st.packageSlug}`} className="font-semibold text-forest-700 underline-offset-4 hover:underline">
+                          {st.name} tour packages
+                        </Link>
+                        {st.hubThingsToDo && (
+                          <Link href={`/blog/${st.hubThingsToDo}`} className="font-semibold text-forest-700 underline-offset-4 hover:underline">
+                            Things to do
+                          </Link>
+                        )}
+                      </p>
+                      {st.places.length > 0 && (
+                        <ul className="mt-4 grid grid-cols-1 gap-x-4 gap-y-1.5 font-sans text-sm text-stone-700 sm:grid-cols-2">
+                          {st.places.map((p) => (
+                            <li key={p.slug}>
+                              <Link href={`/blog/${p.slug}`} className="hover:text-forest-700 hover:underline underline-offset-4">
+                                {p.name}
+                              </Link>
+                              {p.thingsToDo && (
+                                <>
+                                  {" "}
+                                  <Link
+                                    href={`/blog/${p.thingsToDo}`}
+                                    className="text-xs text-stone-500 hover:text-forest-700"
+                                    aria-label={`Things to do in ${p.name}`}
+                                  >
+                                    · things to do
+                                  </Link>
+                                </>
+                              )}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </section>
+            ))}
           </div>
         </section>
 

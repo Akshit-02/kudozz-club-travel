@@ -95,7 +95,9 @@
     @apply text-3xl font-bold text-stone-900 mt-12 mb-5 leading-tight;
   }
 
-  .prose-travel h3 {
+  /* Box headings (at-a-glance, do/don't, itinerary days, FAQ questions)
+     carry data-box and keep their own utility styles. */
+  .prose-travel h3:not([data-box]) {
     font-family: var(--font-playfair);
     @apply text-2xl font-semibold text-stone-900 mt-8 mb-4;
   }

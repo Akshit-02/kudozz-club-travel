@@ -1,4 +1,5 @@
 // src/app/blog/bandipur-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -11,7 +12,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Bandipur National Park: Tiger Safari Guide, Zones & Best Time",
+  title: { absolute: "Bandipur National Park: Tiger Safari Guide, Zones & Best Time" },
   description:
     "The complete Bandipur travel guide. Jeep and canter safaris, the Mysuru-Ooty highway night-driving ban, wildlife, where to stay, best time to visit, and a full itinerary through one of India's original Project Tiger reserves.",
   keywords:
@@ -51,6 +52,8 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline: "Bandipur National Park: Tiger Safari Guide, Zones & Best Time",
           description: "The complete Bandipur travel guide.",
@@ -59,10 +62,24 @@ function ArticleSchema() {
           dateModified: "2026-09-07",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
-            logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" },
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
-          author: { "@type": "Organization", name: "Kudozz Club" },
+          author: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
           mainEntityOfPage: {
             "@type": "WebPage",
             "@id": "https://club.kudozz.in/blog/bandipur-travel-guide",
@@ -72,14 +89,9 @@ function ArticleSchema() {
             name: "Bandipur National Park",
             address: { "@type": "PostalAddress", addressRegion: "Karnataka", addressCountry: "IN" },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-              { "@type": "ListItem", position: 2, name: "Blog", item: "https://club.kudozz.in/blog" },
-              { "@type": "ListItem", position: 3, name: "Bandipur Travel Guide" },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("bandipur-travel-guide", "Bandipur National Park"),
+          ],
         }),
       }}
     />
@@ -174,24 +186,7 @@ export default function BandipurGuidePage() {
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
 
-          <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Bandipur National Park", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link href={crumb.href} className="hover:text-white transition-colors">{crumb.label}</Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && <span className="text-white/20">/</span>}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="bandipur-travel-guide" label="Bandipur National Park" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
@@ -253,9 +248,9 @@ export default function BandipurGuidePage() {
                     A distinctive practical detail: the park's core zone is bisected by NH766, the main highway between Mysuru and Ooty, with a night-driving restriction through the stretch — a genuinely useful thing to know if you're road-tripping this route rather than only planning a dedicated wildlife stop.
                   </p>
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4 className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
+                    <h3 data-box className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
                       <span>🐅</span> Bandipur at a Glance
-                    </h4>
+                    </h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[
                         { icon: "📍", label: "State", value: "Karnataka, India" },
@@ -362,7 +357,7 @@ export default function BandipurGuidePage() {
                           <div className={`${d.color} text-white text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap`} style={{ fontFamily: "var(--font-dm-sans)" }}>{d.day}</div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4 className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h4>
+                          <h3 data-box className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li key={a} className="text-sm text-stone-600 flex items-start gap-2" style={{ fontFamily: "var(--font-dm-sans)" }}>
@@ -418,7 +413,7 @@ export default function BandipurGuidePage() {
                   </ul>
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4 className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h4>
+                      <h3 data-box className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Book safaris in advance", "Cross NH766 through the core zone before dark", "Choose a morning slot for better sighting odds", "Wear neutral safari clothing", "Combine with a Mysuru or Ooty trip"].map((item) => (
                           <li key={item} className="flex items-start gap-2"><span className="text-forest-500 mt-0.5 flex-shrink-0">→</span>{item}</li>
@@ -426,7 +421,7 @@ export default function BandipurGuidePage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4 className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h4>
+                      <h3 data-box className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Attempt to drive through the core zone after dark", "Show up expecting last-minute safari slots", "Wear bright colors on safari", "Skip checking monsoon-season closures", "Rush a road trip through without checking timing"].map((item) => (
                           <li key={item} className="flex items-start gap-2"><span className="text-red-400 mt-0.5 flex-shrink-0">→</span>{item}</li>
@@ -441,7 +436,7 @@ export default function BandipurGuidePage() {
                   <div className="space-y-5 my-6">
                     {faqs.map((f) => (
                       <div key={f.q} className="bg-white border border-stone-200 rounded-xl p-5">
-                        <h4 className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h4>
+                        <h3 data-box className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h3>
                         <p className="text-sm text-stone-600 leading-relaxed m-0" style={{ fontFamily: "var(--font-dm-sans)" }}>{f.a}</p>
                       </div>
                     ))}

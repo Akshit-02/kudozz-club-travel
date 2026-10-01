@@ -2,22 +2,32 @@
 import { useState, useEffect } from "react";
 import Link from "@/components/ui/Link";
 
+// Primary nav stays short; the eight travel-style hubs live in one
+// "Travel Styles" menu. The menu is always in the DOM (shown with CSS), so
+// every hub link is crawlable from every page.
 const navLinks = [
   { label: "Destinations", href: "/destinations" },
   { label: "Tour Packages", href: "/packages" },
-  { label: "Adventure", href: "/adventure-travel" },
-  { label: "Beaches", href: "/beach-travel" },
-  { label: "Wildlife", href: "/wildlife-tourism" },
-  { label: "Spiritual", href: "/spiritual-tourism" },
-  { label: "Heritage", href: "/heritage-cultural-tourism" },
   { label: "Travel Guides", href: "/blog" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
 
+const styleLinks = [
+  { label: "Adventure Travel", href: "/adventure-travel" },
+  { label: "Beach Travel", href: "/beach-travel" },
+  { label: "Wildlife Tourism", href: "/wildlife-tourism" },
+  { label: "Hill Stations", href: "/hill-station-travel" },
+  { label: "Nature Travel", href: "/nature-travel" },
+  { label: "Road Trips", href: "/road-trips" },
+  { label: "Spiritual Tourism", href: "/spiritual-tourism" },
+  { label: "Heritage & Culture", href: "/heritage-cultural-tourism" },
+];
+
 export default function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [stylesOpen, setStylesOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -99,7 +109,68 @@ export default function SiteHeader() {
 
             {/* ── Desktop Nav ───────────────────────────────── */}
             <nav className="hidden xl:flex items-center gap-0.5">
-              {navLinks.map((link) => (
+              {navLinks.slice(0, 2).map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`relative whitespace-nowrap px-2 py-2 text-sm font-medium tracking-wide rounded-lg transition-all duration-200 group ${
+                    scrolled
+                      ? "text-stone-600 hover:text-stone-900 hover:bg-stone-100"
+                      : "text-white/85 hover:text-white hover:bg-white/10"
+                  }`}
+                  style={{ fontFamily: "var(--font-dm-sans)" }}
+                >
+                  {link.label}
+                  {/* Underline indicator */}
+                  <span
+                    className={`absolute bottom-1 left-1/2 -translate-x-1/2 h-[1.5px] w-0 group-hover:w-4 rounded-full transition-all duration-300 ${
+                      scrolled ? "bg-forest-500" : "bg-white/70"
+                    }`}
+                  />
+                </Link>
+              ))}
+              <div
+                className="relative group"
+                onMouseLeave={() => setStylesOpen(false)}
+              >
+                <button
+                  type="button"
+                  aria-haspopup="true"
+                  aria-expanded={stylesOpen}
+                  aria-controls="nav-travel-styles"
+                  onClick={() => setStylesOpen((o) => !o)}
+                  className={`flex items-center gap-1 whitespace-nowrap px-2 py-2 text-sm font-medium tracking-wide rounded-lg transition-all duration-200 ${
+                    scrolled
+                      ? "text-stone-600 hover:text-stone-900 hover:bg-stone-100"
+                      : "text-white/85 hover:text-white hover:bg-white/10"
+                  }`}
+                  style={{ fontFamily: "var(--font-dm-sans)" }}
+                >
+                  Travel Styles
+                  <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.2} aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div
+                  id="nav-travel-styles"
+                  className={`absolute left-0 top-full z-50 pt-2 ${stylesOpen ? "block" : "hidden"} group-hover:block group-focus-within:block`}
+                >
+                  <ul className="w-60 rounded-xl bg-white p-2 shadow-xl ring-1 ring-stone-200">
+                    {styleLinks.map((l) => (
+                      <li key={l.href}>
+                        <Link
+                          href={l.href}
+                          onClick={() => setStylesOpen(false)}
+                          className="block rounded-lg px-3 py-2 font-sans text-sm text-stone-700 hover:bg-forest-50 hover:text-forest-700"
+                        >
+                          {l.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              {navLinks.slice(2).map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
@@ -287,6 +358,22 @@ export default function SiteHeader() {
               </svg>
             </Link>
           ))}
+          <p className="mt-4 px-4 pb-1 font-sans text-[11px] font-semibold uppercase tracking-[0.16em] text-stone-400">
+            Travel styles
+          </p>
+          <ul className="grid grid-cols-2 gap-1 px-1">
+            {styleLinks.map((l) => (
+              <li key={l.href}>
+                <Link
+                  href={l.href}
+                  onClick={() => setMobileOpen(false)}
+                  className="block rounded-lg px-3 py-2.5 font-sans text-sm text-stone-700 hover:bg-forest-50 hover:text-forest-700"
+                >
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </nav>
 
         {/* Drawer footer CTA */}

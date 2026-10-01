@@ -1,4 +1,5 @@
 // src/app/blog/gurugram-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -10,24 +11,24 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
-  title: "Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls",
+  title: { absolute: "Gurugram Travel Guide: Cyber Hub, Malls, Food & Aravallis" },
   description:
-    "The complete Gurugram travel guide. Cyber Hub, Kingdom of Dreams, Aravalli Biodiversity Park, where to stay, best time to visit, and a full itinerary through India's corporate capital.",
+    "Gurugram (Gurgaon) guide: Cyber Hub's food scene, the Aravalli Biodiversity Park, big malls, Sultanpur bird sanctuary nearby, where to stay and a 2-day plan.",
   keywords:
-    "Gurugram travel guide, Cyber Hub Gurugram, Kingdom of Dreams, Gurugram malls, best time to visit Gurugram, how to reach Gurugram, Gurugram itinerary, Delhi NCR travel",
+    "Gurugram travel guide, Cyber Hub Gurugram, Aravalli Biodiversity Park, Gurugram malls, best time to visit Gurugram, how to reach Gurugram, Gurugram itinerary, Delhi NCR travel",
   openGraph: {
-    title: "Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls",
-    description: "A farmland-turned-skyline transformed into India's corporate hub in a generation, with a Bollywood-themed live entertainment venue unlike anything else in North India — the complete guide to Gurugram.",
+    title: "Gurugram Travel Guide: Cyber Hub, Malls, Food & Aravallis",
+    description: "A farmland-turned-skyline transformed into India's corporate hub in a generation, with a lively dining scene, big malls and the Aravalli hills on its edge: the complete guide to Gurugram.",
     url: "https://club.kudozz.in/blog/gurugram-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
-    images: [{ url: "/images/blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp", width: 1600, height: 1082, alt: "Kingdom of Dreams, Gurugram" }],
+    images: [{ url: "/images/blogs/haryana/gurugram/cyber-hub-gurugram.webp", alt: "Cyber Hub, Gurugram" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls",
-    description: "Cyber Hub, Kingdom of Dreams, and India's corporate capital — the complete guide to Gurugram.",
-    images: ["/images/blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp"],
+    title: "Gurugram Travel Guide: Cyber Hub, Malls, Food & Aravallis",
+    description: "Cyber Hub, the Aravallis and India's corporate capital: the complete guide to Gurugram.",
+    images: ["/images/blogs/haryana/gurugram/cyber-hub-gurugram.webp"],
   },
   alternates: { canonical: "https://club.kudozz.in/blog/gurugram-travel-guide" },
 };
@@ -39,24 +40,39 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
-          headline: "Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls",
-          description: "The complete Gurugram travel guide.",
-          image: "https://club.kudozz.in/images/blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp",
+          headline: "Gurugram Travel Guide: Cyber Hub, Malls, Food & Aravallis",
+          description: "Gurugram (Gurgaon) guide: Cyber Hub, the Aravalli Biodiversity Park, malls, food, where to stay and a 2-day plan.",
+          image: "https://club.kudozz.in/images/blogs/haryana/gurugram/cyber-hub-gurugram.webp",
           datePublished: "2026-09-07",
-          dateModified: "2026-09-07",
-          publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
-          author: { "@type": "Organization", name: "Kudozz Club" },
+          dateModified: "2026-09-30",
+          publisher: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
+          author: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
           mainEntityOfPage: { "@type": "WebPage", "@id": "https://club.kudozz.in/blog/gurugram-travel-guide" },
           about: { "@type": "Place", name: "Gurugram", address: { "@type": "PostalAddress", addressRegion: "Haryana", addressCountry: "IN" } },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-              { "@type": "ListItem", position: 2, name: "Blog", item: "https://club.kudozz.in/blog" },
-              { "@type": "ListItem", position: 3, name: "Gurugram Travel Guide" },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("gurugram-travel-guide", "Gurugram"),
+          ],
         }),
       }}
     />
@@ -66,7 +82,7 @@ function ArticleSchema() {
 const faqs = [
   {
     q: "How many days do I need in Gurugram?",
-    a: "One to two days covers Cyber Hub, a mall or two, and Kingdom of Dreams comfortably. Most visitors combine it with a Delhi trip given the short metro connection.",
+    a: "One to two days covers Cyber Hub, a mall or two, and a morning in the Aravalli Biodiversity Park comfortably. Most visitors combine it with a Delhi trip given the short metro connection.",
   },
   {
     q: "What is the best time to visit Gurugram?",
@@ -78,11 +94,11 @@ const faqs = [
   },
   {
     q: "Is Gurugram worth visiting as a tourist, or is it purely a business city?",
-    a: "It's primarily a corporate and residential hub, but Kingdom of Dreams, Cyber Hub's dining scene, and its malls give it a genuine leisure dimension — worth a day or two, especially combined with Delhi sightseeing.",
+    a: "It's primarily a corporate and residential hub, but Cyber Hub's dining scene, its malls, the Aravalli Biodiversity Park and nearby Sultanpur bird sanctuary give it a genuine leisure dimension — worth a day or two, especially combined with Delhi sightseeing.",
   },
   {
-    q: "What is Kingdom of Dreams?",
-    a: "A large-scale Bollywood-themed live entertainment and cultural venue combining theatre performances, cultural shows, and a food-and-shopping zone called Culture Gully — genuinely distinctive and unlike typical mall entertainment.",
+    q: "Is Kingdom of Dreams open?",
+    a: "No. Kingdom of Dreams, the Bollywood-style theatre and food complex near IFFCO Chowk, was sealed by the Haryana Shehri Vikas Pradhikaran (HSVP) in 2022 over unpaid dues, and its shows no longer run. For an evening out, Cyber Hub is the main alternative.",
   },
   {
     q: "Is traffic a problem in Gurugram?",
@@ -90,7 +106,7 @@ const faqs = [
   },
   {
     q: "What is the budget for a trip to Gurugram?",
-    a: "A budget traveler can manage on roughly ₹1,800 a day, a mid-range trip closer to ₹4,500 a day including a Kingdom of Dreams visit and Cyber Hub dining, and a luxury stay can run ₹10,000+ a day.",
+    a: "A budget traveler can manage on roughly ₹1,800 a day, a mid-range trip closer to ₹4,000 a day including Cyber Hub dining, and a luxury stay can run ₹10,000+ a day.",
   },
 ];
 
@@ -133,8 +149,8 @@ export default function GurugramGuidePage() {
         <section className="relative min-h-[75vh] flex flex-col justify-end overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp"
-              alt="Kingdom of Dreams, Gurugram"
+              src="/images/blogs/haryana/gurugram/cyber-hub-gurugram.webp"
+              alt="Cyber Hub, Gurugram"
               fill
               priority
               sizes="100vw"
@@ -144,26 +160,7 @@ export default function GurugramGuidePage() {
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
 
-          <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Gurugram", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link href={crumb.href} className="hover:text-white transition-colors">
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && <span className="text-white/20">/</span>}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="gurugram-travel-guide" label="Gurugram" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
@@ -179,7 +176,7 @@ export default function GurugramGuidePage() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl" style={{ fontFamily: "var(--font-playfair)" }}>
-              Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls
+              Gurugram Travel Guide: Cyber Hub, Malls, Food & Aravallis
             </h1>
 
             <p className="text-lg text-white/80 max-w-2xl mb-8 leading-relaxed" style={{ fontFamily: "var(--font-source-serif)" }}>
@@ -225,18 +222,20 @@ export default function GurugramGuidePage() {
                   </p>
                   <p>
                     For visitors, the appeal isn't heritage monuments — it's Cyber Hub's dining scene, a handful of
-                    India's biggest malls, and <strong>Kingdom of Dreams</strong>, a large-scale Bollywood-themed
-                    entertainment venue that's genuinely one of a kind.
+                    India's biggest malls, and green escapes on the city's edge: the{" "}
+                    <strong>Aravalli Biodiversity Park</strong> and the{" "}
+                    <Link href="/blog/sultanpur-national-park-travel-guide">Sultanpur bird sanctuary</Link>.
+                    (Kingdom of Dreams, once the city's best-known show venue, has been closed since 2022.)
                   </p>
 
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4 className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
+                    <h3 data-box className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
                       <span>🏙️</span> Gurugram at a Glance
-                    </h4>
+                    </h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[
                         { icon: "📍", label: "State", value: "Haryana, India" },
-                        { icon: "🎭", label: "Key Site", value: "Kingdom of Dreams" },
+                        { icon: "🍽️", label: "Key Site", value: "Cyber Hub" },
                         { icon: "🌡️", label: "Best Time", value: "Oct – Mar" },
                         { icon: "✈️", label: "Nearest Airport", value: "Delhi (IGI)" },
                         { icon: "🚇", label: "Getting Around", value: "Metro, cabs, ride-hailing" },
@@ -293,7 +292,7 @@ export default function GurugramGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Gurugram</h2>
                   <ul>
-                    <li><strong>Kingdom of Dreams:</strong> A Bollywood-themed live entertainment venue combining theatre performances, cultural shows, and a food-and-shopping zone called Culture Gully — genuinely distinctive, not a typical mall attraction.</li>
+                    <li><strong>Aravalli Biodiversity Park:</strong> A former mining area restored with native Aravalli scrub and trees, with walking trails that are best early in the morning. (Kingdom of Dreams is closed: it was sealed in 2022.)</li>
                     <li><strong>Cyber Hub:</strong> Gurugram's major open-air dining and nightlife cluster, popular with the corporate crowd for evenings out.</li>
                     <li><strong>Gurugram's malls:</strong> Ambience Mall and MGF Metropolitan among the city's biggest shopping destinations.</li>
                     <li><strong>Aravalli Biodiversity Park:</strong> An urban green space and a rare pocket of nature within the built-up city.</li>
@@ -301,8 +300,7 @@ export default function GurugramGuidePage() {
                   </ul>
                   <GuidePhotoRow
                     images={[
-                      { src: "/images/blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp", alt: "Kingdom of Dreams, Gurugram", caption: "Kingdom of Dreams, Gurugram" },
-                      { src: "/images/blogs/haryana/gurugram/cyber-hub-gurugram.webp", alt: "Cyber Hub, Gurugram", caption: "Cyber Hub, Gurugram" },
+                                            { src: "/images/blogs/haryana/gurugram/cyber-hub-gurugram.webp", alt: "Cyber Hub, Gurugram", caption: "Cyber Hub, Gurugram" },
                     ]}
                   />
                 </section>
@@ -337,7 +335,7 @@ export default function GurugramGuidePage() {
                   </p>
                   <ul>
                     <li><strong>Cyber Hub dining:</strong> A wide mix of Indian and international cuisines across dozens of restaurants and bars.</li>
-                    <li><strong>Kingdom of Dreams' Culture Gully:</strong> A food street inside the venue offering regional Indian dishes.</li>
+                    <li><strong>Sector 29 and Galleria Market:</strong> Long-running clusters of restaurants and cafés beyond Cyber Hub.</li>
                     <li><strong>Murthal-style dhaba food:</strong> A short drive away on NH44, worth the detour if you want an authentic Haryanvi highway-dhaba experience.</li>
                   </ul>
                 </section>
@@ -346,7 +344,7 @@ export default function GurugramGuidePage() {
                   <h2>2-Day Gurugram Itinerary</h2>
                   <div className="space-y-4 my-8">
                     {[
-                      { day: "Day 1", title: "Malls & Kingdom of Dreams", color: "bg-amber-700", activities: ["Arrive, check in", "Afternoon: mall visit (Ambience/MGF Metropolitan)", "Evening: Kingdom of Dreams show"] },
+                      { day: "Day 1", title: "Malls & Cyber Hub", color: "bg-amber-700", activities: ["Arrive, check in", "Afternoon: mall visit (Ambience/MGF Metropolitan)", "Evening: dinner at Cyber Hub"] },
                       { day: "Day 2", title: "Cyber Hub & Green Spaces", color: "bg-forest-600", activities: ["Morning: Aravalli Biodiversity Park", "Afternoon: Sheetla Mata Mandir", "Evening: dinner at Cyber Hub"] },
                     ].map((d) => (
                       <div key={d.day} className="flex gap-4">
@@ -354,7 +352,7 @@ export default function GurugramGuidePage() {
                           <div className={`${d.color} text-white text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap`} style={{ fontFamily: "var(--font-dm-sans)" }}>{d.day}</div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4 className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h4>
+                          <h3 data-box className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li key={a} className="text-sm text-stone-600 flex items-start gap-2" style={{ fontFamily: "var(--font-dm-sans)" }}>
@@ -385,8 +383,7 @@ export default function GurugramGuidePage() {
                           ["Accommodation/night", "₹1,800", "₹4,500", "₹12,000"],
                           ["Food/day", "₹700", "₹1,800", "₹4,000"],
                           ["Local transport per day", "₹300", "₹800", "₹2,000"],
-                          ["Kingdom of Dreams entry", "₹700+", "₹1,200+", "₹2,500+"],
-                          ["Daily total", "₹1,800", "₹4,500", "₹10,500"],
+                                                    ["Daily total", "₹1,800", "₹4,500", "₹10,500"],
                           ["2-Day trip total", "₹3,600", "₹9,000", "₹21,000"],
                         ].map(([exp, b, m, l], i) => (
                           <tr key={exp} className={i % 2 === 0 ? "bg-white" : "bg-stone-50"}>
@@ -406,24 +403,24 @@ export default function GurugramGuidePage() {
                   <h2>Essential Travel Tips for Gurugram</h2>
                   <ul>
                     <li><strong>Plan around traffic:</strong> Peak-hour road congestion is a genuine factor — budget buffer time between destinations.</li>
-                    <li><strong>Book Kingdom of Dreams tickets ahead:</strong> Popular shows can sell out, especially on weekends.</li>
+                    <li><strong>Go to the Aravalli Biodiversity Park early:</strong> Mornings are cooler and quieter, and the park has little shade by midday.</li>
                     <li><strong>Use the Metro where possible:</strong> More predictable than road traffic for cross-city trips.</li>
                     <li><strong>Combine with Delhi:</strong> The short metro connection makes a combined Delhi-Gurugram trip easy to plan.</li>
                   </ul>
 
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4 className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h4>
+                      <h3 data-box className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
-                        {["Book Kingdom of Dreams tickets in advance", "Use the Metro for predictable cross-city travel", "Combine your trip with Delhi sightseeing", "Try Cyber Hub's varied dining scene", "Budget extra time for peak-hour traffic"].map((item) => (
+                        {["Walk the Aravalli Biodiversity Park in the early morning", "Use the Metro for predictable cross-city travel", "Combine your trip with Delhi sightseeing", "Try Cyber Hub's varied dining scene", "Budget extra time for peak-hour traffic"].map((item) => (
                           <li key={item} className="flex items-start gap-2"><span className="text-forest-500 mt-0.5 flex-shrink-0">→</span>{item}</li>
                         ))}
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4 className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h4>
+                      <h3 data-box className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
-                        {["Expect heritage monuments — Gurugram is a modern corporate city", "Underestimate rush-hour road traffic", "Skip booking Kingdom of Dreams tickets on weekends", "Plan a trip focused purely on outdoor sightseeing in summer", "Ignore current air-quality advisories in peak winter"].map((item) => (
+                        {["Expect heritage monuments — Gurugram is a modern corporate city", "Underestimate rush-hour road traffic", "Plan around Kingdom of Dreams: it has been closed since 2022", "Plan a trip focused purely on outdoor sightseeing in summer", "Ignore current air-quality advisories in peak winter"].map((item) => (
                           <li key={item} className="flex items-start gap-2"><span className="text-red-400 mt-0.5 flex-shrink-0">→</span>{item}</li>
                         ))}
                       </ul>
@@ -436,7 +433,7 @@ export default function GurugramGuidePage() {
                   <div className="space-y-5 my-6">
                     {faqs.map((f) => (
                       <div key={f.q} className="bg-white border border-stone-200 rounded-xl p-5">
-                        <h4 className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h4>
+                        <h3 data-box className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h3>
                         <p className="text-sm text-stone-600 leading-relaxed m-0" style={{ fontFamily: "var(--font-dm-sans)" }}>{f.a}</p>
                       </div>
                     ))}

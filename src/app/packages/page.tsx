@@ -9,7 +9,7 @@ import { comboPackages } from "@/lib/combo-packages";
 import { getDestinationProfile } from "@/lib/destination-profiles";
 
 export const metadata: Metadata = {
-  title: "India Tour Packages: Customized Holidays",
+  title: "India Tour Packages: Customized Trips by State & Style",
   description:
     "Customized India tour packages for Kashmir, Rajasthan, Kerala, Goa, Ladakh and every other state. Family, honeymoon, luxury and budget trips, planned in-house.",
   keywords: [
@@ -25,28 +25,86 @@ export const metadata: Metadata = {
       "Customized India tour packages planned in-house: every state, every travel style. Pricing quoted per enquiry.",
     url: "https://club.kudozz.in/packages",
     type: "website",
+    siteName: "Kudozz Club",
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630, alt: "Kudozz Club, India travel agency" }],
   },
+  twitter: { card: "summary_large_image", images: ["/og-default.jpg"] },
   alternates: { canonical: "https://club.kudozz.in/packages" },
 };
 
+const packagesFaqs = [
+  {
+    q: "What is a Kudozz Club tour package?",
+    a: "A starting point, not a fixed product. Each package page shows popular routes, how many days to allow, the best months and what to know before booking. We then plan and quote the trip around your dates, group, hotel category and pace, so no two trips have to be the same.",
+  },
+  {
+    q: "What is included in a tour package?",
+    a: "It depends on what you ask us to plan. Every quote lists exactly what is included for your trip, so you can compare it with other options. Tell us in the enquiry form what you would like Kudozz Club to take care of.",
+  },
+  {
+    q: "How much does an India tour package cost?",
+    a: "We don't publish fixed prices, because season, hotel category, group size and how you travel between places change the cost more than the destination does. Share a budget range when you enquire and we plan within it. Our destination guides include indicative budget breakdowns if you want a rough idea first.",
+  },
+  {
+    q: "How many days do I need for an India trip?",
+    a: "It depends on the route. Each package page recommends a trip length: for example five to six days for the Golden Triangle or the classic Srinagar, Gulmarg and Pahalgam trip in Kashmir. Multi-state circuits need more time, and we will tell you if a plan is too rushed.",
+  },
+  {
+    q: "Can I combine several states in one trip?",
+    a: "Yes. The circuit pages (Golden Triangle, Char Dham Yatra, Northeast India and the Buddhist Circuit) cover classic multi-state routes, and we can plan any other combination that works with realistic travel times.",
+  },
+  {
+    q: "Do you plan family, honeymoon and group trips?",
+    a: "Yes. Choose a travel style below (family holidays, honeymoon, group tours, luxury, budget, adventure, wildlife, spiritual, heritage, hill stations, nature, road trips or weekend getaways) or describe your trip in the Plan My Trip form.",
+  },
+];
+
 function PackagesSchema() {
+  const all = [
+    ...comboPackages.map((c) => ({ name: `${c.name} Tour Packages`, slug: c.slug })),
+    ...allStatePackages.map((p) => ({ name: `${p.name} Tour Packages`, slug: p.slug })),
+    ...travelStylesData.map((t) => ({ name: `${t.name} Packages`, slug: t.slug })),
+  ];
+  const graph = [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://club.kudozz.in/packages#webpage",
+      name: "India Tour Packages",
+      url: "https://club.kudozz.in/packages",
+      isPartOf: { "@id": "https://club.kudozz.in/#website" },
+      publisher: { "@id": "https://club.kudozz.in/#organization" },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: all.length,
+        itemListElement: all.map((p, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: p.name,
+          url: `https://club.kudozz.in/packages/${p.slug}`,
+        })),
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
+        { "@type": "ListItem", position: 2, name: "Tour Packages", item: "https://club.kudozz.in/packages" },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: packagesFaqs.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    },
+  ];
   return (
     <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "CollectionPage",
-          name: "India Tour Packages — Kudozz Club",
-          url: "https://club.kudozz.in/packages",
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-              { "@type": "ListItem", position: 2, name: "Tour Packages", item: "https://club.kudozz.in/packages" },
-            ],
-          },
-        }),
+        __html: JSON.stringify({ "@context": "https://schema.org", "@graph": graph }),
       }}
     />
   );
@@ -75,6 +133,13 @@ export default function PackagesPage() {
         {/* Hero */}
         <section className="bg-stone-950 pb-16 pt-32 sm:pt-36">
           <div className="container-site max-w-4xl">
+            <nav aria-label="Breadcrumb" className="mb-6 font-sans text-xs text-white/55">
+              <ol className="flex flex-wrap items-center gap-2">
+                <li><Link href="/" className="hover:text-white">Home</Link></li>
+                <li aria-hidden="true" className="text-white/25">/</li>
+                <li aria-current="page" className="text-white/40">Tour Packages</li>
+              </ol>
+            </nav>
             <p className="eyebrow eyebrow-light">Tour packages</p>
             <h1 className="mt-5 font-display text-4xl font-bold leading-[1.08] text-white sm:text-5xl lg:text-6xl">
               India Tour Packages
@@ -88,6 +153,33 @@ export default function PackagesPage() {
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link href="/plan-your-trip?from=/packages" className="btn-primary px-7">Plan My Trip →</Link>
               <a href="#by-style" className="btn-outline-light px-7">Browse by travel style</a>
+            </div>
+          </div>
+        </section>
+
+        {/* How packages work (answer-first) */}
+        <section className="bg-white pt-16">
+          <div className="container-site max-w-4xl">
+            <div className="rounded-2xl border border-forest-200 bg-forest-50 p-6 sm:p-8">
+              <h2 className="font-display text-2xl font-bold text-stone-950">How our India tour packages work</h2>
+              <p className="mt-3 font-sans text-[15px] leading-relaxed text-stone-700">
+                Kudozz Club&rsquo;s India tour packages are customized trips, not
+                fixed departures. There is a package page for every one of the{" "}
+                {allStatePackages.length} states and union territories, {comboPackages.length}{" "}
+                classic multi-state circuits and {travelStylesData.length} travel
+                styles. Each shows popular routes, how many days to allow and the
+                best months. We then plan and quote your trip around your dates,
+                group, hotels and pace.
+              </p>
+              <ol className="mt-4 grid gap-2 font-sans text-sm text-stone-700 sm:grid-cols-3">
+                <li><strong className="text-stone-950">1. Pick a starting point:</strong> a destination, circuit or travel style below.</li>
+                <li><strong className="text-stone-950">2. Tell us about your trip:</strong> dates, travellers, budget range and interests.</li>
+                <li><strong className="text-stone-950">3. Get your plan:</strong> a day-by-day itinerary and quote, refined with you by email.</li>
+              </ol>
+              <p className="mt-4 font-sans text-sm text-stone-600">
+                Comparing agencies first? Read{" "}
+                <Link href="/best-travel-agency-in-india" className="text-link">how to choose the best travel agency in India</Link>.
+              </p>
             </div>
           </div>
         </section>
@@ -185,6 +277,21 @@ export default function PackagesPage() {
                     {t.desc}
                   </p>
                 </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="bg-stone-50 py-20 border-t border-stone-100">
+          <div className="container-site max-w-3xl">
+            <h2 className="heading-lg">India tour packages: common questions</h2>
+            <div className="mt-8 divide-y divide-stone-200 border-y border-stone-200">
+              {packagesFaqs.map((f) => (
+                <div key={f.q} className="py-5">
+                  <h3 className="font-display text-lg font-semibold text-stone-950">{f.q}</h3>
+                  <p className="mt-2 font-sans text-[15px] leading-relaxed text-stone-600">{f.a}</p>
+                </div>
               ))}
             </div>
           </div>

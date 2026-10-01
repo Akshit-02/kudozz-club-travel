@@ -26,6 +26,11 @@ const PLACE_OVERRIDES: Record<string, string> = {
   "katra-travel-guide": "Katra",
 };
 
+// City-state hubs whose child guides are neighbourhoods, sectors, markets and
+// single attractions (Laxmi Nagar, Sector 22, Rose Garden...). Nobody plans a
+// trip to Laxmi Nagar, so their planning CTA is for the city itself.
+const CITY_HUB_PACKAGES = new Set(["delhi", "chandigarh"]);
+
 export function placeNameFromTitle(title: string) {
   return title
     .split(":")[0]
@@ -44,6 +49,7 @@ export interface GuideContext {
   packageSlug: string; // "rajasthan"
   planHref: string;
   hubSlug: string | null; // state hub guide, null when this guide IS the hub
+  cityArea: boolean; // a neighbourhood/attraction inside a city hub (CTA plans the city)
   siblings: { slug: string; place: string }[]; // nearby guides in the same state
 }
 
@@ -51,8 +57,10 @@ export function getGuideContext(slug: string): GuideContext | null {
   const post = postBySlug.get(slug);
   const pkg = getPackageLinkForSlug(slug);
   if (!post || !pkg) return null;
-  const place = PLACE_OVERRIDES[slug] ?? placeNameFromTitle(post.title);
   const stateName = getDestinationProfile(pkg.packageSlug)?.shortName ?? pkg.stateName;
+  const state0 = getStatePackage(pkg.packageSlug);
+  const cityArea = CITY_HUB_PACKAGES.has(pkg.packageSlug) && state0?.blogSlug !== slug;
+  const place = cityArea ? stateName : PLACE_OVERRIDES[slug] ?? placeNameFromTitle(post.title);
   const q = new URLSearchParams({ destination: place, from: `/blog/${slug}` });
   const state = getStatePackage(pkg.packageSlug);
   const hubSlug = state && state.blogSlug !== slug ? state.blogSlug : null;
@@ -79,6 +87,7 @@ export function getGuideContext(slug: string): GuideContext | null {
     packageSlug: pkg.packageSlug,
     planHref: `/plan-your-trip?${q.toString()}`,
     hubSlug,
+    cityArea,
     siblings,
   };
 }

@@ -1,4 +1,5 @@
 // src/app/blog/jabalpur-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -10,7 +11,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
-  title: "Jabalpur Travel Guide: Marble Rocks, Dhuandhar Falls & Bhedaghat",
+  title: { absolute: "Jabalpur Travel Guide: Marble Rocks, Dhuandhar Falls & Bhedaghat" },
   description:
     "The complete Jabalpur travel guide. Bhedaghat Marble Rocks, Dhuandhar Falls, moonlight boating, Chausath Yogini Temple, where to stay, what to eat, and a 2-day itinerary through this Narmada river town.",
   keywords:
@@ -40,24 +41,39 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline: "Jabalpur Travel Guide: Marble Rocks, Dhuandhar Falls & Bhedaghat",
           description: "The complete Jabalpur travel guide.",
           image: "https://club.kudozz.in/images/blogs/madhya-pradesh/jabalpur/dhuandhar-falls-jabalpur-2.webp",
           datePublished: "2026-09-07",
           dateModified: "2026-09-07",
-          publisher: { "@type": "Organization", name: "Kudozz Club", logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" } },
-          author: { "@type": "Organization", name: "Kudozz Club" },
+          publisher: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
+          author: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
           mainEntityOfPage: { "@type": "WebPage", "@id": "https://club.kudozz.in/blog/jabalpur-travel-guide" },
           about: { "@type": "Place", name: "Jabalpur", address: { "@type": "PostalAddress", addressRegion: "Madhya Pradesh", addressCountry: "IN" } },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-              { "@type": "ListItem", position: 2, name: "Blog", item: "https://club.kudozz.in/blog" },
-              { "@type": "ListItem", position: 3, name: "Jabalpur Travel Guide" },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("jabalpur-travel-guide", "Jabalpur"),
+          ],
         }),
       }}
     />
@@ -109,16 +125,7 @@ export default function JabalpurGuidePage() {
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/55 to-stone-800/10" />
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
-          <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }, { label: "Madhya Pradesh", href: "/blog/madhya-pradesh-travel-guide" }, { label: "Jabalpur", href: null }].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? <Link href={crumb.href} className="hover:text-white transition-colors">{crumb.label}</Link> : <span className="text-white/35">{crumb.label}</span>}
-                  {i < arr.length - 1 && <span className="text-white/20">/</span>}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="jabalpur-travel-guide" label="Jabalpur" />
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
               {["Jabalpur", "Madhya Pradesh", "Marble Rocks", "Bhedaghat", "Destination Guide"].map((tag) => (
@@ -167,7 +174,7 @@ export default function JabalpurGuidePage() {
                   </p>
 
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4 className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>🚤</span> Jabalpur at a Glance</h4>
+                    <h3 data-box className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>🚤</span> Jabalpur at a Glance</h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[{ icon: "📍", label: "State", value: "Madhya Pradesh, India" }, { icon: "🏞️", label: "Key Site", value: "Bhedaghat Marble Rocks" }, { icon: "🌡️", label: "Best Time", value: "Oct – Mar" }, { icon: "✈️", label: "Airport", value: "Jabalpur (JLR)" }, { icon: "🐅", label: "Nearby Parks", value: "Kanha, Bandhavgarh" }, { icon: "💰", label: "Budget/Day", value: "₹1,300 – ₹8,500" }].map(({ icon, label, value }) => (
                         <div key={label}><span className="text-stone-400 text-xs block">{icon} {label}</span><span className="text-stone-800 font-medium">{value}</span></div>
@@ -265,7 +272,7 @@ export default function JabalpurGuidePage() {
                       <div key={d.day} className="flex gap-4">
                         <div className="flex-shrink-0"><div className={`${d.color} text-white text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap`} style={{ fontFamily: "var(--font-dm-sans)" }}>{d.day}</div></div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4 className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h4>
+                          <h3 data-box className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h3>
                           <ul className="space-y-1.5 m-0">{d.activities.map((a) => <li key={a} className="text-sm text-stone-600 flex items-start gap-2" style={{ fontFamily: "var(--font-dm-sans)" }}><span className="text-forest-500 font-bold mt-0.5 flex-shrink-0">✓</span>{a}</li>)}</ul>
                         </div>
                       </div>
@@ -303,13 +310,13 @@ export default function JabalpurGuidePage() {
                   </ul>
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4 className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h4>
+                      <h3 data-box className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>✅</span> Do</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Check the lunar calendar for moonlight boating dates", "Take the ropeway for aerial views of Dhuandhar Falls", "Visit Chausath Yogini Temple for panoramic city views", "Go early for a calmer, quieter boat ride", "Use Jabalpur as a gateway to Kanha or Bandhavgarh"].map((item) => <li key={item} className="flex items-start gap-2"><span className="text-forest-500 mt-0.5 flex-shrink-0">→</span>{item}</li>)}
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4 className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h4>
+                      <h3 data-box className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}><span>❌</span> Don't</h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Assume moonlight boating runs every night — it's tied to the lunar cycle", "Skip checking monsoon boating status before a rainy-season visit", "Rush the boat ride — it rewards a slow, unhurried pace", "Forget a light jacket for evening boating", "Overlook Chausath Yogini Temple as just a minor stop"].map((item) => <li key={item} className="flex items-start gap-2"><span className="text-red-400 mt-0.5 flex-shrink-0">→</span>{item}</li>)}
                       </ul>
@@ -322,7 +329,7 @@ export default function JabalpurGuidePage() {
                   <div className="space-y-5 my-6">
                     {faqs.map((f) => (
                       <div key={f.q} className="bg-white border border-stone-200 rounded-xl p-5">
-                        <h4 className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h4>
+                        <h3 data-box className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h3>
                         <p className="text-sm text-stone-600 leading-relaxed m-0" style={{ fontFamily: "var(--font-dm-sans)" }}>{f.a}</p>
                       </div>
                     ))}

@@ -1,4 +1,5 @@
 // src/app/blog/kochi-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -10,7 +11,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 import { GuidePhotoRow } from "@/components/ui/GuideImages";
 
 export const metadata: Metadata = {
-  title: "Kochi Travel Guide: Fort Kochi, Chinese Nets & 3-Day Itinerary",
+  title: { absolute: "Kochi Travel Guide: Fort Kochi, Chinese Nets & 3-Day Itinerary" },
   description:
     "The complete Kochi travel guide. Fort Kochi, Chinese fishing nets, Mattancherry Palace, Jew Town synagogue, Kathakali shows, where to stay, what to eat, and a full 3-day itinerary through Kerala's most walkable old town.",
   keywords:
@@ -50,6 +51,8 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline: "Kochi Travel Guide: Fort Kochi, Chinese Nets & 3-Day Itinerary",
           description: "The complete Kochi travel guide.",
@@ -58,10 +61,24 @@ function ArticleSchema() {
           dateModified: "2026-09-07",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
-            logo: { "@type": "ImageObject", url: "https://club.kudozz.in/favicon.ico" },
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
-          author: { "@type": "Organization", name: "Kudozz Club" },
+          author: {
+            "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
+            name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
+          },
           mainEntityOfPage: {
             "@type": "WebPage",
             "@id": "https://club.kudozz.in/blog/kochi-travel-guide",
@@ -71,14 +88,9 @@ function ArticleSchema() {
             name: "Kochi",
             address: { "@type": "PostalAddress", addressRegion: "Kerala", addressCountry: "IN" },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://club.kudozz.in" },
-              { "@type": "ListItem", position: 2, name: "Blog", item: "https://club.kudozz.in/blog" },
-              { "@type": "ListItem", position: 3, name: "Kochi Travel Guide" },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("kochi-travel-guide", "Kochi"),
+          ],
         }),
       }}
     />
@@ -170,26 +182,7 @@ export default function KochiGuidePage() {
             <div className="absolute inset-0 bg-gradient-to-r from-stone-950/45 to-transparent" />
           </div>
 
-          <nav className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10" aria-label="Breadcrumb">
-            <ol className="flex items-center gap-2 text-xs text-white/55" style={{ fontFamily: "var(--font-dm-sans)" }}>
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                { label: "Kochi", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link href={crumb.href} className="hover:text-white transition-colors">
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && <span className="text-white/20">/</span>}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="kochi-travel-guide" label="Kochi" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
@@ -254,9 +247,9 @@ export default function KochiGuidePage() {
                     As Kerala's primary gateway city, Kochi is also the natural starting or ending point for a wider Kerala trip — Munnar, Alleppey, and Thekkady are all within a few hours by road, making Kochi a practical base as well as a destination in its own right.
                   </p>
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4 className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
+                    <h3 data-box className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
                       <span>⚓</span> Kochi at a Glance
-                    </h4>
+                    </h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[
                         { icon: "📍", label: "State", value: "Kerala, India" },
@@ -389,7 +382,7 @@ export default function KochiGuidePage() {
                           <div className={`${d.color} text-white text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap`} style={{ fontFamily: "var(--font-dm-sans)" }}>{d.day}</div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4 className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h4>
+                          <h3 data-box className="font-bold text-stone-900 mb-3" style={{ fontFamily: "var(--font-playfair)" }}>{d.title}</h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li key={a} className="text-sm text-stone-600 flex items-start gap-2" style={{ fontFamily: "var(--font-dm-sans)" }}>
@@ -449,9 +442,9 @@ export default function KochiGuidePage() {
 
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4 className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
+                      <h3 data-box className="font-bold text-forest-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Walk or cycle through Fort Kochi at a relaxed pace", "Catch the fishing nets in action at sunset", "Watch a Kathakali makeup demonstration and performance", "Use ferries to hop between Fort Kochi and Ernakulam", "Explore Jew Town's spice markets and synagogue"].map((item) => (
                           <li key={item} className="flex items-start gap-2"><span className="text-forest-500 mt-0.5 flex-shrink-0">→</span>{item}</li>
@@ -459,9 +452,9 @@ export default function KochiGuidePage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4 className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
+                      <h3 data-box className="font-bold text-red-800 mb-3 flex items-center gap-2" style={{ fontFamily: "var(--font-playfair)" }}>
                         <span>❌</span> Don't
-                      </h4>
+                      </h3>
                       <ul className="space-y-2 text-sm text-stone-600" style={{ fontFamily: "var(--font-dm-sans)" }}>
                         {["Wear beachwear-style clothing into churches or the synagogue", "Rush Fort Kochi in half a day — it rewards slow exploring", "Skip checking synagogue and church visiting hours", "Rely only on road transport when a ferry is faster", "Miss the spice markets in Mattancherry"].map((item) => (
                           <li key={item} className="flex items-start gap-2"><span className="text-red-400 mt-0.5 flex-shrink-0">→</span>{item}</li>
@@ -476,7 +469,7 @@ export default function KochiGuidePage() {
                   <div className="space-y-5 my-6">
                     {faqs.map((f) => (
                       <div key={f.q} className="bg-white border border-stone-200 rounded-xl p-5">
-                        <h4 className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h4>
+                        <h3 data-box className="font-bold text-stone-900 mb-2 text-base" style={{ fontFamily: "var(--font-playfair)" }}>{f.q}</h3>
                         <p className="text-sm text-stone-600 leading-relaxed m-0" style={{ fontFamily: "var(--font-dm-sans)" }}>{f.a}</p>
                       </div>
                     ))}

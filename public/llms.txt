@@ -1,15 +1,21 @@
 # Kudozz Club
 
-> Kudozz Club is an India-focused travel agency that plans customized trips across India. Travellers share where they want to go, their dates, budget and travel style through the Plan My Trip form, and the Kudozz Club team plans the itinerary in-house and refines it with them by email. Pricing is quoted per enquiry; no package prices are published. The agency is backed by a library of 582 free destination guides covering all 28 Indian states and 8 union territories, which supplies the destination knowledge behind every itinerary.
+> Kudozz Club is an India-focused travel agency that plans customized trips and tour packages across India. Travellers share where they want to go, their dates, budget and travel style through the Plan My Trip form; the Kudozz Club team plans the itinerary in-house and refines it with them by email. Pricing is quoted per enquiry; no fixed package prices are published. The agency is backed by a free library of 1,000+ India travel guides, including 580+ destination guides covering all 28 states and 8 union territories, which supply the destination knowledge behind every itinerary.
 
-Official website: https://club.kudozz.in (also searched as "Kudoz Club", "Kudos Club"). Contact: connect@kudozz.in.
+- Official website: https://club.kudozz.in (people also search for it as "Kudoz Club" or "Kudos Club")
+- What it is: a travel agency (customized India trips and tour packages) that also publishes travel guides
+- Where: India only, all 36 states and union territories
+- How to start: the Plan My Trip form at https://club.kudozz.in/plan-your-trip, or email connect@kudozz.in
+- Official social profile: https://www.instagram.com/kudozz.in/
+- Not published (unconfirmed, so not stated anywhere on the site): office address, phone number, founding team, customer numbers, ratings, awards or registrations
 
 ## Key pages
 
-- [Home](https://club.kudozz.in/): Kudozz Club, India travel agency for customized trips.
-- [Plan My Trip](https://club.kudozz.in/plan-your-trip): trip enquiry form (destination, dates, travellers, trip type, budget, accommodation, contact details). The main way to start planning.
-- [India Tour Packages](https://club.kudozz.in/packages): index of every destination, circuit and travel-style package page.
-- [Destinations](https://club.kudozz.in/destinations): every destination guide, organised by state.
+- [Home](https://club.kudozz.in/): Kudozz Club, India travel agency for customized trips and tour packages.
+- [Plan My Trip](https://club.kudozz.in/plan-your-trip): trip enquiry form (destination, dates, departure city, travellers, trip type, budget, accommodation, special requirements, contact details). The main way to start planning.
+- [Best Travel Agency in India for Customized Trips](https://club.kudozz.in/best-travel-agency-in-india): how to judge and verify a travel agency in India before paying (agency types, a checklist including the Ministry of Tourism's voluntary approval scheme), and where Kudozz Club fits. Makes no ranking or award claims.
+- [India Tour Packages](https://club.kudozz.in/packages): index of every package page: 36 states and UTs, 4 multi-state circuits (Golden Triangle, Char Dham Yatra, Northeast India, Buddhist Circuit) and 13 travel styles (family, honeymoon, weekend, group, adventure, wildlife, spiritual, heritage, hill stations, nature, road trips, luxury, budget).
+- [Destinations](https://club.kudozz.in/destinations): every destination guide, organised India → region → state/UT → place, with each state's tour package page and things-to-do guides.
 - [Travel Guides](https://club.kudozz.in/blog): the full guide library.
 - [Adventure Travel in India](https://club.kudozz.in/adventure-travel): hub for adventure activities, destinations, seasons and planning guides.
 - [Beach Travel in India](https://club.kudozz.in/beach-travel): hub for beach destinations, state-by-state beach guides, beach activities, seasons and safety.
@@ -20,7 +26,16 @@ Official website: https://club.kudozz.in (also searched as "Kudoz Club", "Kudos 
 - [Nature Travel in India](https://club.kudozz.in/nature-travel): hub for the best nature destinations and natural wonders, forests, waterfalls, lakes, rivers, valleys and caves, the Himalaya, Western Ghats and Northeast, state nature guides, eco tourism, biodiversity, flower blooms, village stays, retreats, seasons and itineraries.
 - [Road Trips in India](https://club.kudozz.in/road-trips): hub for the best road trips and route guides (Delhi to Manali and Shimla, Manali and Srinagar to Leh, Spiti, Rajasthan, Mumbai to Goa, Bengaluru to Coorg and Ooty, Chennai to Pondicherry, Kochi to Munnar, Guwahati to Tawang), regional and state road trips, weekend drives from six cities, self-drive, seasons, costs, packing and safety.
 - [About](https://club.kudozz.in/about): who Kudozz Club is, how trip planning works, editorial independence.
+- [Editorial Policy](https://club.kudozz.in/editorial-policy): how the guides are researched, sourced, dated and corrected; image licensing; no paid placements.
 - [Contact](https://club.kudozz.in/contact): trip enquiries and other contact.
+
+## Travel styles Kudozz Club plans
+
+- [Family Holidays](https://club.kudozz.in/packages/family-holidays), [Honeymoon](https://club.kudozz.in/packages/honeymoon), [Weekend Getaways](https://club.kudozz.in/packages/weekend-getaways), [Group Tours](https://club.kudozz.in/packages/group-tours)
+- [Adventure Trips](https://club.kudozz.in/packages/adventure-tours), [Wildlife Trips](https://club.kudozz.in/packages/wildlife-tours), [Hill Station Holidays](https://club.kudozz.in/packages/hill-station-holidays), [Nature Holidays](https://club.kudozz.in/packages/nature-holidays), [Road Trip Holidays](https://club.kudozz.in/packages/road-trip-holidays)
+- [Spiritual & Pilgrimage Tours](https://club.kudozz.in/packages/spiritual-tours), [Heritage & Culture Tours](https://club.kudozz.in/packages/heritage-tours)
+- [Luxury Holidays](https://club.kudozz.in/packages/luxury-holidays), [Budget Holidays](https://club.kudozz.in/packages/budget-holidays)
+- Beach holidays are planned through the state pages, such as [Goa](https://club.kudozz.in/packages/goa), [Kerala](https://club.kudozz.in/packages/kerala) and [Andaman & Nicobar](https://club.kudozz.in/packages/andaman-nicobar).
 
 ## How the site is organised
 
@@ -29,7 +44,7 @@ Content follows a geographic hierarchy and a planning funnel:
 India → Region → State/Union Territory → City/Area → Attraction
 Travel guide (informational) → Destination/state guide → Tour package page (commercial) → Plan My Trip (enquiry)
 
-Each state/UT has one hub guide (marked 🗺️ below) linking to its city and attraction guides, and one tour package page at /packages/<state> linking back to those guides. Every guide links forward to its state's package page and to Plan My Trip. The guides stay independent: Kudozz Club does not accept paid placements in guide content.
+Each state/UT has one hub guide (marked 🗺️ below) linking to its city and attraction guides, and one tour package page at /packages/<state> linking back to those guides. Every guide links forward to its state's package page and to Plan My Trip, and every guide's breadcrumb reads Home → Destinations → State → Place. The guides stay independent: Kudozz Club does not accept paid placements in guide content.
 
 An Adventure Travel cluster, with its hub at /adventure-travel, covers adventure activities (such as river rafting, paragliding, scuba diving, skiing and trekking), destination adventure hubs (such as /blog/adventure-activities-in-ladakh), weekend trips from major cities and planning guides. Each article gives seasons, difficulty, safety guidance and FAQs, and links on to the relevant destination guide, things-to-do article, itinerary, tour package and Plan My Trip. Seasonal closures (for example, Rishikesh rafting in the peak monsoon and the Bir Billing paragliding ban from 15 July to 15 September) are stated as current at the time of writing and should be checked before travel.
 
@@ -658,7 +673,7 @@ For 143 major destinations, a "Things to do in <place>" article (/blog/things-to
 - [Agroha Travel Guide: Ancient Mound & Agroha Dham](https://club.kudozz.in/blog/agroha-travel-guide): An archaeological mound linked to the legendary origin of the Agarwal community, with excavated coins and pottery dating back over two millennia — the complete guide to Agroha.
 - [Bhindawas Wildlife Sanctuary Travel Guide: Haryana's Largest Wetland](https://club.kudozz.in/blog/bhindawas-travel-guide): A reservoir-fed wetland sanctuary drawing thousands of migratory waterbirds, and Haryana's largest protected wetland — the complete guide to Bhindawas.
 - [Damdama Lake Travel Guide: Haryana's Largest Natural Lake](https://club.kudozz.in/blog/damdama-lake-travel-guide): A quiet Aravalli-ringed lake and a former paragliding hotspot, one of the easiest weekend escapes from Gurugram — the complete guide to Damdama Lake.
-- [Gurugram Travel Guide: Cyber City, Kingdom of Dreams & Malls](https://club.kudozz.in/blog/gurugram-travel-guide): A farmland-turned-skyline transformed into India's corporate hub in a generation, with a Bollywood-themed live entertainment venue unlike anything else in North India — the complete guide to Gurugram.
+- [Gurugram Travel Guide: Cyber Hub, Malls, Food & Aravallis](https://club.kudozz.in/blog/gurugram-travel-guide): A farmland-turned-skyline that became India's corporate hub in a generation: Cyber Hub's food scene, big malls and the Aravalli hills on its edge.
 - [Hisar Travel Guide: Firoz Shah Palace & Blackbuck Country](https://club.kudozz.in/blog/hisar-travel-guide): A 14th-century Tughlaq fort city that's now a gateway to some of North India's best blackbuck sightings — the complete guide to Hisar.
 - [Kurukshetra Travel Guide: Bhagavad Gita's Battlefield & Brahma Sarovar](https://club.kudozz.in/blog/kurukshetra-travel-guide): The ground where the Bhagavad Gita is said to have been spoken, and a sacred tank where millions gather for a solar-eclipse bathing ritual — the complete guide to Kurukshetra.
 - [Morni Hills Travel Guide: Haryana's Only Hill Station](https://club.kudozz.in/blog/morni-hills-travel-guide): Two natural lakes and a Shivalik-range fort ruin make up Haryana's sole hill station, an easy escape from Chandigarh and Panchkula — the complete guide to Morni Hills.
@@ -871,11 +886,11 @@ For 143 major destinations, a "Things to do in <place>" article (/blog/things-to
 - [Jampore Beach Daman: Camel Rides, Timings & Tips](https://club.kudozz.in/blog/jampore-beach-travel-guide): A long, quiet, casuarina-lined beach south of Moti Daman — camel and pony rides, sunset walks, and honest advice on swimming conditions.
 - [Khanvel Travel Guide: Gardens & Nature Escape](https://club.kudozz.in/blog/khanvel-travel-guide): A small forested town near Silvassa with a family-friendly garden, and the gateway to Satmaliya Deer Sanctuary and Madhuban Dam.
 - [Madhuban Dam Travel Guide: Reservoir, Viewpoint & Picnic Spot](https://club.kudozz.in/blog/madhuban-dam-travel-guide): A dam on the Damanganga river whose reservoir stretches to Dudhni's boat jetties — the dam viewpoint, forest and birdlife, and a half-day plan near Silvassa.
-- [Moti Daman Fort: The Fort of St. Jerome, Bastion by Bastion](https://club.kudozz.in/blog/moti-daman-fort-travel-guide): A 16th-century Portuguese fortress so large it doesn't just guard a town — it contains one. Ten bastions, a gilded church, old cannons, and a district collectorate, all inside the same set of walls.
+- [Moti Daman Fort: History and Visiting Guide, Bastion by Bastion](https://club.kudozz.in/blog/moti-daman-fort-travel-guide): A 16th-century Portuguese fortress so large it doesn't just guard a town — it contains one. Ten bastions, a gilded church, old cannons, and a district collectorate, all inside the same set of walls.
 - [Moti Daman Travel Guide: Old Town, Churches & Fort](https://club.kudozz.in/blog/moti-daman-travel-guide): Massive fort walls, a gilded church altar, and the quiet lanes of old Portuguese administration — inside Moti Daman, the grander, southern half of Daman's historic riverside old town.
 - [Nagoa Beach Diu: Water Sports, Timings & Tips](https://club.kudozz.in/blog/nagoa-beach-travel-guide): A horseshoe-shaped bay of calm water, coconut-lined promenade and Diu's only real watersports scene — everything you need for a half-day at Nagoa Beach.
 - [Naida Caves Diu: Photography Spot & Visit Guide](https://club.kudozz.in/blog/naida-caves-travel-guide): A maze of sun-dappled sandstone chambers near Diu Fort — natural skylights, root-covered walls, and one of Diu's best offbeat photography spots.
-- [Nani Daman Travel Guide: Fort, Harbour & Lighthouse](https://club.kudozz.in/blog/nani-daman-travel-guide): The smaller, northern quarter of Daman town — a working fishing harbour, the Fort of St. Francis Xavier, and a lighthouse across the river from Moti Daman.
+- [Nani Daman Travel Guide: St. Jerome Fort, Jetty & Harbour](https://club.kudozz.in/blog/nani-daman-travel-guide): The northern quarter of Daman town, facing Moti Daman across the river: the compact Fort of St. Jerome, its church and a busy working fishing harbour.
 - [Satmaliya Deer Sanctuary: Visit Guide & Tips](https://club.kudozz.in/blog/satmaliya-deer-sanctuary-travel-guide): A small, quiet forest sanctuary near Khanvel where spotted deer roam close to the trees — how to reach it, what to expect, and how to pair it with Madhuban Dam.
 - [Silvassa Travel Guide: Lakes, Forests & Tribal Culture](https://club.kudozz.in/blog/silvassa-travel-guide): Capital of Dadra & Nagar Haveli — Dudhni's lake and Tribal Museum, Khanvel's gardens, Satmaliya Deer Sanctuary, Madhuban Dam, Warli tribal art, and a full 2-day itinerary for this green, inland weekend escape near Mumbai.
 - [Vanganga Lake Garden, Daman: Complete Visit Guide](https://club.kudozz.in/blog/vanganga-lake-garden-travel-guide): A landscaped garden built around a lake, dotted with miniature replicas of famous world landmarks — one of Daman's most relaxed, easy-to-love family stops.

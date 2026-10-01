@@ -93,8 +93,6 @@ export const metadata: Metadata = {
   // Twitter / X card
   twitter: {
     card: "summary_large_image",
-    site: "@kudozz.in",
-    creator: "@kudozz.in",
     title: "Kudozz Club | India Travel Agency & Custom Trip Planning",
     description: DEFAULT_DESCRIPTION,
   },
@@ -114,13 +112,14 @@ export const metadata: Metadata = {
 
   // Icons
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
 
-  // // Manifest for PWA
-  // manifest: "/site.webmanifest",
+  manifest: "/site.webmanifest",
 
   // Canonical URLs are set per page. There is deliberately no site-wide
   // default here: a root-level canonical is inherited by any page that
@@ -150,56 +149,72 @@ export default function RootLayout({
           name="google-site-verification"
           content="0hbFb6pYWfYAfW77QdmlDy2euqOTCP7XfVqyGeac39s"
         />
-        {/* JSON-LD: Organisation schema */}
+        {/* JSON-LD: the Kudozz Club entity. Every page's article, package and
+            breadcrumb schema points back to these two nodes by @id. Only
+            verified facts: no address, phone, founding date or ratings until
+            the business confirms them (docs/human-input-required.md). */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
-              "@id": "https://club.kudozz.in/#organization",
-              name: "Kudozz Club",
-              alternateName: [
-                "Kudoz Club",
-                "Kudos Club",
-                "Kudoss Club",
-                "Kudoz",
-                "Kudos",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": "https://club.kudozz.in/#organization",
+                  name: "Kudozz Club",
+                  alternateName: ["Kudoz Club", "Kudos Club", "Kudoss Club"],
+                  description:
+                    "Kudozz Club is an India-focused travel agency that plans customized trips and tour packages across India in-house, backed by a library of 580+ destination guides covering every Indian state and union territory.",
+                  url: "https://club.kudozz.in",
+                  logo: {
+                    "@type": "ImageObject",
+                    "@id": "https://club.kudozz.in/#logo",
+                    url: "https://club.kudozz.in/logo.png",
+                    contentUrl: "https://club.kudozz.in/logo.png",
+                    width: 512,
+                    height: 512,
+                    caption: "Kudozz Club",
+                  },
+                  image: { "@id": "https://club.kudozz.in/#logo" },
+                  email: "connect@kudozz.in",
+                  contactPoint: {
+                    "@type": "ContactPoint",
+                    contactType: "reservations",
+                    email: "connect@kudozz.in",
+                    url: "https://club.kudozz.in/plan-your-trip",
+                    areaServed: "IN",
+                    availableLanguage: ["English"],
+                  },
+                  areaServed: { "@type": "Country", name: "India" },
+                  knowsAbout: [
+                    "India travel",
+                    "Customized India tours",
+                    "India tour packages",
+                    "India trip planning",
+                    "Family holidays in India",
+                    "Honeymoon trips in India",
+                    "Adventure travel in India",
+                    "Wildlife safaris in India",
+                    "Beach holidays in India",
+                    "Hill stations in India",
+                    "Road trips in India",
+                    "Pilgrimage travel in India",
+                    "Heritage and cultural tourism in India",
+                  ],
+                  publishingPrinciples: "https://club.kudozz.in/editorial-policy",
+                  sameAs: ["https://www.instagram.com/kudozz.in/"],
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://club.kudozz.in/#website",
+                  name: "Kudozz Club",
+                  alternateName: ["Kudoz Club", "Kudos Club", "Kudoss Club"],
+                  url: "https://club.kudozz.in",
+                  inLanguage: "en-IN",
+                  publisher: { "@id": "https://club.kudozz.in/#organization" },
+                },
               ],
-              description:
-                "Kudozz Club is an India-focused travel agency that plans customized trips across India in-house, backed by a library of 580+ destination guides covering every Indian state and union territory.",
-              url: "https://club.kudozz.in",
-              logo: "https://club.kudozz.in/favicon.ico",
-              email: "connect@kudozz.in",
-              areaServed: { "@type": "Country", name: "India" },
-              knowsAbout: [
-                "India Travel",
-                "Customized India Tours",
-                "India Trip Planning",
-                "Travel Itineraries",
-                "Family Holidays in India",
-                "Honeymoon Destinations in India",
-                "Pilgrimage Travel in India",
-                "Wildlife Travel in India",
-              ],
-              sameAs: [
-                "https://twitter.com/kudozz.in",
-                "https://instagram.com/kudozz.in",
-              ],
-            }),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              "@id": "https://club.kudozz.in/#website",
-              name: "Kudozz Club",
-              publisher: { "@id": "https://club.kudozz.in/#organization" },
-              alternateName: ["Kudoz Club", "Kudos Club", "Kudoss Club"],
-              url: "https://club.kudozz.in",
             }),
           }}
         />

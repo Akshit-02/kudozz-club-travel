@@ -1,4 +1,5 @@
 // src/app/blog/daman-travel-guide/page.tsx
+import GuideBreadcrumb, { guideBreadcrumbSchema } from "@/components/ui/GuideBreadcrumb";
 import type { Metadata } from "next";
 import Link from "@/components/ui/Link";
 import Image from "next/image";
@@ -55,24 +56,34 @@ function ArticleSchema() {
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
+          "@graph": [
+          {
           "@type": "BlogPosting",
           headline: "Daman Travel Guide: Forts, Beaches & Weekend Trip",
           description:
             "The complete Daman travel guide — Moti Daman Fort, Nani Daman, Devka & Jampore beaches, Vanganga Lake Garden, duty-free shopping, food, stay and a full 2-day itinerary.",
           image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/daman/fort-of-st-jerome-gate-daman.webp",
           datePublished: "2026-08-30",
-          dateModified: "2026-08-30",
+          dateModified: "2026-09-30",
           publisher: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
             logo: {
               "@type": "ImageObject",
-              url: "https://club.kudozz.in/favicon.ico",
+              url: "https://club.kudozz.in/logo.png",
             },
           },
           author: {
             "@type": "Organization",
+            "@id": "https://club.kudozz.in/#organization",
             name: "Kudozz Club",
+            url: "https://club.kudozz.in",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://club.kudozz.in/logo.png",
+            },
           },
           mainEntityOfPage: {
             "@type": "WebPage",
@@ -90,34 +101,9 @@ function ArticleSchema() {
               addressCountry: "IN",
             },
           },
-          breadcrumb: {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://club.kudozz.in",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blog",
-                item: "https://club.kudozz.in/blog",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: "Daman & Diu",
-                item: "https://club.kudozz.in/blog/dadra-nagar-haveli-daman-diu-travel-guide",
-              },
-              {
-                "@type": "ListItem",
-                position: 4,
-                name: "Daman",
-              },
-            ],
-          },
+        },
+          guideBreadcrumbSchema("daman-travel-guide", "Daman"),
+          ],
         }),
       }}
     />
@@ -144,7 +130,7 @@ const faqs = [
   },
   {
     q: "What is the difference between Moti Daman and Nani Daman?",
-    a: "The Daman Ganga river splits the town in two. Moti Daman ('Big Daman'), on the south bank, is the historic walled quarter with the Fort of St. Jerome, old government buildings and colonial-era churches. Nani Daman ('Small Daman'), on the north bank, is the livelier, more commercial side, home to the fishing harbour, the Fort of St. Francis Xavier, and most of the everyday markets and eateries.",
+    a: "The Daman Ganga river splits the town in two. Moti Daman ('Big Daman'), on the south bank, is the historic walled quarter with Moti Daman Fort, old government buildings and colonial-era churches. Nani Daman ('Small Daman'), on the north bank, is the livelier, more commercial side, home to the fishing harbour, the smaller Fort of St. Jerome, and most of the everyday markets and eateries.",
   },
   {
     q: "Was Daman a Portuguese colony?",
@@ -222,41 +208,7 @@ export default function DamanGuidePage() {
           </div>
 
           {/* Breadcrumbs */}
-          <nav
-            className="absolute top-24 left-0 right-0 z-10 px-6 sm:px-10"
-            aria-label="Breadcrumb"
-          >
-            <ol
-              className="flex items-center gap-2 text-xs text-white/55"
-              style={{ fontFamily: "var(--font-dm-sans)" }}
-            >
-              {[
-                { label: "Home", href: "/" },
-                { label: "Blog", href: "/blog" },
-                {
-                  label: "Daman & Diu",
-                  href: "/blog/dadra-nagar-haveli-daman-diu-travel-guide",
-                },
-                { label: "Daman", href: null },
-              ].map((crumb, i, arr) => (
-                <li key={i} className="flex items-center gap-2">
-                  {crumb.href ? (
-                    <Link
-                      href={crumb.href}
-                      className="hover:text-white transition-colors"
-                    >
-                      {crumb.label}
-                    </Link>
-                  ) : (
-                    <span className="text-white/35">{crumb.label}</span>
-                  )}
-                  {i < arr.length - 1 && (
-                    <span className="text-white/20">/</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
+          <GuideBreadcrumb slug="daman-travel-guide" label="Daman" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-10 pb-16 pt-36 w-full">
             <div className="flex flex-wrap gap-2 mb-6">
@@ -368,11 +320,11 @@ export default function DamanGuidePage() {
                     The town is neatly split in two by the{" "}
                     <strong>Daman Ganga river</strong>: <strong>Moti Daman</strong>{" "}
                     ("Big Daman") on the south bank is the historic walled
-                    quarter, home to the imposing Fort of St. Jerome and a
+                    quarter, home to the imposing Moti Daman Fort and a
                     cluster of colonial-era churches and government
                     buildings. <strong>Nani Daman</strong> ("Small Daman") on
                     the north bank is the livelier, more commercial side —
-                    the fishing harbour, the Fort of St. Francis Xavier, and
+                    the fishing harbour, the smaller Fort of St. Jerome, and
                     most of the everyday markets sit here.
                   </p>
                   <p>
@@ -395,7 +347,7 @@ export default function DamanGuidePage() {
                     <Link href="/blog/moti-daman-travel-guide">Moti Daman</Link>
                     , the{" "}
                     <Link href="/blog/moti-daman-fort-travel-guide">
-                      Fort of St. Jerome
+                      Moti Daman Fort
                     </Link>
                     , <Link href="/blog/nani-daman-travel-guide">Nani Daman</Link>
                     ,{" "}
@@ -415,12 +367,12 @@ export default function DamanGuidePage() {
 
                   {/* At a Glance */}
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-                    <h4
+                    <h3 data-box
                       className="text-base font-bold text-amber-900 mb-4 flex items-center gap-2"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       <span>⛪</span> Daman at a Glance
-                    </h4>
+                    </h3>
                     <div
                       className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm"
                       style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -612,9 +564,9 @@ export default function DamanGuidePage() {
                     faded Portuguese townhouses.
                   </p>
                   <p>
-                    Its centrepiece is the <strong>Fort of St. Jerome</strong>{" "}
-                    (also known as Moti Daman Fort), a large 16th-century sea
-                    fort with ten bastions that once guarded the harbour
+                    Its centrepiece is <strong>Moti Daman Fort</strong>, a large
+                    Portuguese fort built between 1559 and 1581, with ten
+                    bastions that once guarded the harbour
                     entrance — still one of the best-preserved Portuguese
                     forts on India's west coast outside Goa. We've covered
                     the fort in full detail, including its bastions, the
@@ -844,7 +796,7 @@ export default function DamanGuidePage() {
                         color: "bg-amber-700",
                         activities: [
                           "Morning: Arrive, check in, breakfast in Nani Daman",
-                          "Late morning: Explore the Fort of St. Jerome and Moti Daman's old quarter",
+                          "Late morning: Explore Moti Daman Fort and the old quarter",
                           "Afternoon: Cross the river to Nani Daman's harbour and markets",
                           "Evening: Duty-free shopping, dinner at a Nani Daman seafood eatery",
                         ],
@@ -871,12 +823,12 @@ export default function DamanGuidePage() {
                           </div>
                         </div>
                         <div className="flex-1 bg-white border border-stone-200 rounded-xl p-5">
-                          <h4
+                          <h3 data-box
                             className="font-bold text-stone-900 mb-3"
                             style={{ fontFamily: "var(--font-playfair)" }}
                           >
                             {d.title}
-                          </h4>
+                          </h3>
                           <ul className="space-y-1.5 m-0">
                             {d.activities.map((a) => (
                               <li
@@ -900,8 +852,8 @@ export default function DamanGuidePage() {
                     className="text-sm text-stone-500"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    * On a tight day trip from Mumbai or Surat, prioritise the
-                    Fort of St. Jerome in the morning and Devka Beach in the
+                    * On a tight day trip from Mumbai or Surat, prioritise
+                    Moti Daman Fort in the morning and Devka Beach in the
                     evening — the single strongest combination if you only
                     have a few hours.
                   </p>
@@ -1149,18 +1101,18 @@ export default function DamanGuidePage() {
                   {/* Do & Don't */}
                   <div className="grid sm:grid-cols-2 gap-5 my-8">
                     <div className="bg-forest-50 border border-forest-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-forest-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>✅</span> Do
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
                       >
                         {[
-                          "Walk the ramparts of the Fort of St. Jerome",
+                          "Walk the ramparts of Moti Daman Fort",
                           "Visit the Nani Daman harbour early in the morning",
                           "Book stays ahead for weekends and December–January",
                           "Carry cash for small vendors and markets",
@@ -1177,12 +1129,12 @@ export default function DamanGuidePage() {
                       </ul>
                     </div>
                     <div className="bg-red-50 border border-red-200 rounded-xl p-5">
-                      <h4
+                      <h3 data-box
                         className="font-bold text-red-800 mb-3 flex items-center gap-2"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         <span>❌</span> Don't
-                      </h4>
+                      </h3>
                       <ul
                         className="space-y-2 text-sm text-stone-600"
                         style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -1215,7 +1167,7 @@ export default function DamanGuidePage() {
                     <Link href="/blog/moti-daman-travel-guide">Moti Daman</Link>
                     ,{" "}
                     <Link href="/blog/moti-daman-fort-travel-guide">
-                      the Fort of St. Jerome
+                      Moti Daman Fort
                     </Link>
                     ,{" "}
                     <Link href="/blog/nani-daman-travel-guide">Nani Daman</Link>
@@ -1248,12 +1200,12 @@ export default function DamanGuidePage() {
                         key={f.q}
                         className="bg-white border border-stone-200 rounded-xl p-5"
                       >
-                        <h4
+                        <h3 data-box
                           className="font-bold text-stone-900 mb-2 text-base"
                           style={{ fontFamily: "var(--font-playfair)" }}
                         >
                           {f.q}
-                        </h4>
+                        </h3>
                         <p
                           className="text-sm text-stone-600 leading-relaxed m-0"
                           style={{ fontFamily: "var(--font-dm-sans)" }}
