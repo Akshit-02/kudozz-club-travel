@@ -7,6 +7,9 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/admin/"],
     },
-    sitemap: "https://club.kudozz.in/sitemap.xml",
+    sitemap: [
+      "https://club.kudozz.in/sitemap.xml",
+      "https://club.kudozz.in/sitemap-pages.xml",
+    ],
   };
 }
