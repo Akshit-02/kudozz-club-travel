@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { posts, featuredPost } from "@/lib/blog-posts";
-import blogLastmod from "@/lib/blog-lastmod.json";
+import blogLastmod from "../lib/blog-lastmod.json";
 import { allStatePackages } from "@/lib/all-states-data";
 import { travelStylesData } from "@/lib/travel-styles-data";
 import { comboPackages } from "@/lib/combo-packages";
