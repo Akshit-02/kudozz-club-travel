@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Agra Travel Guide: Taj Mahal, Fort & Fatehpur Sikri",
   description:
-    "Complete Agra guide — Taj Mahal sunrise strategy and ticket tiers, Agra Fort, Itmad-ud-Daulah, Mehtab Bagh, marble-inlay shopping, how to reach from Delhi, and a full visit plan.",
+    "Agra travel guide: Taj Mahal sunrise tips and tickets, Agra Fort, Itmad-ud-Daulah and Mehtab Bagh, how to reach from Delhi and a 2-day plan.",
   keywords:
     "Agra travel guide, Taj Mahal, Agra Fort, Itmad-ud-Daulah, Baby Taj, Mehtab Bagh, Fatehpur Sikri day trip, how to reach Agra from Delhi, Gatimaan Express, pietra dura marble inlay, Agra best time to visit, Uttar Pradesh tourism",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Agra Travel Guide: Taj Mahal, Fort & Fatehpur Sikri",
           description:
-            "Complete Agra guide — Taj Mahal sunrise strategy and ticket tiers, Agra Fort, Itmad-ud-Daulah, Mehtab Bagh, marble-inlay shopping, how to reach from Delhi, and a full visit plan.",
+            "Agra travel guide: Taj Mahal sunrise tips and tickets, Agra Fort, Itmad-ud-Daulah and Mehtab Bagh, how to reach from Delhi and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/uttar-pradesh/agra/taj-mahal-reflection-river-yamuna-agra.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

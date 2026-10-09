@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Sabroom Travel Guide: Maitri Setu Bridge & Tips",
   description:
-    "Complete Sabroom guide — the Maitri Setu Friendship Bridge over the Feni river, Baikhora archaeological site, Rabindra Kanan, how to reach from Agartala, and a South Tripura visit plan.",
+    "Sabroom, South Tripura: the Maitri Setu bridge to Bangladesh over the Feni, the Baikhora site and Rabindra Kanan, how to reach from Agartala.",
   keywords:
     "Sabroom travel guide, Maitri Setu bridge, Feni river Tripura, Baikhora archaeological site, South Tripura, Belonia, Bangladesh border Tripura, how to reach Sabroom, Act East policy Tripura",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sabroom Travel Guide: Maitri Setu Bridge & Tips",
           description:
-            "Complete Sabroom guide — the Maitri Setu Friendship Bridge over the Feni river, Baikhora archaeological site, Rabindra Kanan, how to reach from Agartala, and a South Tripura visit plan.",
+            "Sabroom, South Tripura: the Maitri Setu bridge to Bangladesh over the Feni, the Baikhora site and Rabindra Kanan, how to reach from Agartala.",
           image: "https://club.kudozz.in/images/blogs/tripura/sabroom/sabroom-railway-station-platform-sunset.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

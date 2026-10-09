@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Ahmedabad Travel Guide: Heritage Walk, Sabarmati Ashram & Food" },
   description:
-    "The complete Ahmedabad travel guide. Sabarmati Ashram, the old city heritage walk, Sidi Saiyyed Mosque, Manek Chowk street food, where to stay, best time to visit, and a full itinerary.",
+    "Ahmedabad travel guide: the UNESCO old city heritage walk, Sabarmati Ashram, Sidi Saiyyed Mosque, Manek Chowk food and a 3-day itinerary.",
   keywords:
     "Ahmedabad travel guide, Sabarmati Ashram, Ahmedabad heritage walk, Sidi Saiyyed Mosque, Manek Chowk, best time to visit Ahmedabad, how to reach Ahmedabad, Ahmedabad street food, Gujarat UNESCO heritage city",
   openGraph: {

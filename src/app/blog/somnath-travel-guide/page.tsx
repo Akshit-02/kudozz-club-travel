@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Somnath Temple Travel Guide: History, Timings & Light Show" },
   description:
-    "The complete Somnath travel guide. Temple history, the evening light-and-sound show, Triveni Sangam, Bhalka Tirth, where to stay, best time to visit, and a full itinerary through Gujarat's most storied pilgrimage town.",
+    "Somnath Temple, the first Jyotirlinga: its history, darshan and the evening light show, Triveni Sangam and Bhalka Tirth, where to stay and a day plan.",
   keywords:
     "Somnath travel guide, Somnath temple history, Somnath light and sound show, Jyotirlinga Somnath, best time to visit Somnath, how to reach Somnath, Somnath Dwarka itinerary, Gujarat pilgrimage",
   openGraph: {

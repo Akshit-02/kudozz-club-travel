@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kolhapur Travel Guide: Mahalaxmi Temple, Palace & Kolhapuri Food" },
   description:
-    "The complete Kolhapur travel guide. Mahalaxmi (Ambabai) Temple, New Palace, Panhala Fort, Rankala Lake, Kolhapuri chappals shopping, tambda-pandhra rassa, where to stay, and a 2-day itinerary for Maharashtra's Shakti Peeth city.",
+    "Kolhapur guide: Mahalaxmi (Ambabai) Temple, New Palace, Panhala Fort, Rankala Lake, Kolhapuri food and chappals, where to stay and a 2-day plan.",
   keywords:
     "Kolhapur travel guide, Mahalaxmi Temple Kolhapur, Ambabai Temple, New Palace Kolhapur, Panhala Fort, Rankala Lake, Kolhapuri chappal shopping, tambda rassa pandhra rassa, Kolhapur itinerary, Kolhapur best time to visit, Kolhapur Maharashtra",
   openGraph: {

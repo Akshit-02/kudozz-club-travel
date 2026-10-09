@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Nongriat Trek Guide: Living Root Bridge",
   description:
-    "Complete Nongriat guide — the Umshiang Double-Decker Living Root Bridge, the demanding 3,500+ step trek, Rainbow Falls, how to reach via Cherrapunji, and a full visit plan.",
+    "Nongriat and the double-decker living root bridge: the 3,500-step trek from Tyrna, Rainbow Falls, where to stay in the village and a visit plan.",
   keywords:
     "Nongriat travel guide, living root bridge, Umshiang double decker root bridge, Nongriat trek steps, Rainbow Falls Meghalaya, Cherrapunji root bridge trek, Khasi living root bridges",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Nongriat Trek Guide: Living Root Bridge",
           description:
-            "Complete Nongriat guide — the Umshiang Double-Decker Living Root Bridge, the demanding 3,500+ step trek, Rainbow Falls, how to reach via Cherrapunji, and a full visit plan.",
+            "Nongriat and the double-decker living root bridge: the 3,500-step trek from Tyrna, Rainbow Falls, where to stay in the village and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/meghalaya/nongriat/nongriat.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",

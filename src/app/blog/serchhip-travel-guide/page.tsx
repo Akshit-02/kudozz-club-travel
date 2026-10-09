@@ -65,7 +65,7 @@ function ArticleSchema() {
             "Complete Serchhip guide — the practical base town for Vantawng Falls, Thenzawl, and Tamdil Lake, how to reach from Aizawl, and a full visit plan for central Mizoram.",
           image: "https://club.kudozz.in/images/blogs/mizoram/serchhip/vantawng-falls-serchhip.webp",
           datePublished: "2026-09-04",
-          dateModified: "2026-09-04",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -370,6 +370,12 @@ export default function SerchhipGuidePage() {
                       road transfer onward to Serchhip.
                     </li>
                   </ul>
+                  <div
+                    className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    <strong>📋 Inner Line Permit:</strong> Indian visitors from outside Mizoram need an Inner Line Permit (ILP) to enter the state. Apply on the Mizoram government's official portal (ilp.mizoram.gov.in) before you travel and carry a copy. Foreign nationals need a Protected Area Permit, which was reinstated for Mizoram in December 2024.
+                  </div>
                   <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                     <strong>💡 Pro Tip:</strong> Stock up on any supplies you
                     need in Serchhip before heading further into central

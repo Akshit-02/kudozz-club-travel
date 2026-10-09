@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Kolli Hills Travel Guide: 70 Hairpin Bends & Tips",
   description:
-    "Complete Kolli Hills guide — the famous 70-hairpin-bend ghat road, Agaya Gangai waterfall, Arapaleeswarar Temple, local millet culture, how to reach from Namakkal, and a full visit plan.",
+    "Kolli Hills, Namakkal: the 70-hairpin ghat road, Agaya Gangai falls, Arapaleeswarar Temple and millet farming, how to reach and a 1-2 day plan.",
   keywords:
     "Kolli Hills travel guide, Kolli Hills hairpin bends, Agaya Gangai waterfall, Namakkal district hills, Tamil Nadu offbeat hill station, Arapaleeswarar Temple, how to reach Kolli Hills, millet hills Tamil Nadu",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kolli Hills Travel Guide: 70 Hairpin Bends & Tips",
           description:
-            "Complete Kolli Hills guide — the famous 70-hairpin-bend ghat road, Agaya Gangai waterfall, Arapaleeswarar Temple, local millet culture, how to reach from Namakkal, and a full visit plan.",
+            "Kolli Hills, Namakkal: the 70-hairpin ghat road, Agaya Gangai falls, Arapaleeswarar Temple and millet farming, how to reach and a 1-2 day plan.",
           image: "https://club.kudozz.in/images/blogs/tamil-nadu/kolli-hills/kolli-hills.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

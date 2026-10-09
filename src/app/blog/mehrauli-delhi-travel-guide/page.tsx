@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Mehrauli Travel Guide: Qutub Minar & Ancient Delhi",
   description:
-    "Complete Mehrauli travel guide — Qutub Minar, the rust-resistant Iron Pillar, Mehrauli Archaeological Park, Jamali Kamali, Rajon ki Baoli, the Qutub Festival, and a half-day walking itinerary through Delhi's oldest settlement.",
+    "Mehrauli, Delhi's oldest quarter: Qutub Minar and the Iron Pillar, the archaeological park, Jamali Kamali, Rajon ki Baoli and a half-day walk.",
   keywords:
     "Mehrauli travel guide, Qutub Minar, Mehrauli Archaeological Park, Iron Pillar Delhi, Jamali Kamali Mosque, Rajon ki Baoli, Balban's Tomb, Qutub Festival, Dargah Qutub Sahib, oldest inhabited area Delhi, Qutb al-Din Aibak, Alai Darwaza",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mehrauli Travel Guide: Qutub Minar & Ancient Delhi",
           description:
-            "Complete Mehrauli travel guide — Qutub Minar, the rust-resistant Iron Pillar, Mehrauli Archaeological Park, Jamali Kamali, Rajon ki Baoli, the Qutub Festival, and a half-day walking itinerary through Delhi's oldest settlement.",
+            "Mehrauli, Delhi's oldest quarter: Qutub Minar and the Iron Pillar, the archaeological park, Jamali Kamali, Rajon ki Baoli and a half-day walk.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/mehrauli/qutub-minar-tower-ruins-mehrauli.webp",
           datePublished: "2026-08-30",

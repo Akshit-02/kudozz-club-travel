@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Hyderabad Travel Guide: Charminar, Golconda & Food",
   description:
-    "Complete Hyderabad guide — Charminar, Golconda Fort, Hussain Sagar, Ramoji Film City, the Nizam-era palaces, Hyderabadi biryani, where to stay, and a full 2-3 day itinerary.",
+    "Hyderabad travel guide: Charminar, Golconda Fort, Qutb Shahi tombs, the Nizams' palaces and biryani, where to stay and a 3-day plan.",
   keywords:
     "Hyderabad travel guide, Charminar, Golconda Fort, Hyderabad biryani, Hussain Sagar, Ramoji Film City, Salar Jung Museum, Old City Hyderabad, Telangana capital, how to reach Hyderabad, Hyderabad itinerary, Irani chai",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Hyderabad Travel Guide: Charminar, Golconda & Food",
           description:
-            "Complete Hyderabad guide — Charminar, Golconda Fort, Hussain Sagar, Ramoji Film City, the Nizam-era palaces, Hyderabadi biryani, where to stay, and a full 2-3 day itinerary.",
+            "Hyderabad travel guide: Charminar, Golconda Fort, Qutb Shahi tombs, the Nizams' palaces and biryani, where to stay and a 3-day plan.",
           image: "https://club.kudozz.in/images/blogs/telangana/hyderabad/hussain-sagar-buddha-statue-night-hyderabad.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

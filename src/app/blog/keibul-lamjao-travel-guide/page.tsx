@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Keibul Lamjao National Park Guide: Floating Park & Sangai Deer" },
   description:
-    "Complete guide to Keibul Lamjao National Park — the world's only floating national park inside Loktak Lake, home to the endangered Sangai deer. Boat safaris, best time to visit, how to reach via Moirang, and full trip planning.",
+    "Keibul Lamjao, the floating national park on Loktak Lake, home of the endangered sangai deer: boat visits, best time, how to reach via Moirang.",
   keywords:
     "Keibul Lamjao National Park, floating national park, Sangai deer, brow-antlered deer, Loktak Lake Manipur, Moirah phumdi, Manipur wildlife, Keibul Lamjao boat safari, Manipur travel guide",
   openGraph: {

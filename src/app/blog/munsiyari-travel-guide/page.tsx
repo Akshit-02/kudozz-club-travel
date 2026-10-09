@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Munsiyari Travel Guide: Panchachuli Views & Treks",
   description:
-    "Complete Munsiyari guide — Panchachuli peak views, Betuli Dhar, Thamri Kund, Milam Glacier trek logistics, how to reach this remote Kumaon town, where to stay, and a full visit plan.",
+    "Munsiyari, Kumaon: Panchachuli views, Betuli Dhar and Thamri Kund, the Milam Glacier trek, how to reach, where to stay and a 3-4 day plan.",
   keywords:
     "Munsiyari, Munsiyari Uttarakhand, Panchachuli peaks, Milam Glacier trek, Ralam Glacier, Namik Glacier, Betuli Dhar, Thamri Kund, Munsiyari best time to visit, how to reach Munsiyari, Pithoragarh, Kumaon off-beat, Adi Kailash route",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Munsiyari Travel Guide: Panchachuli Views & Treks",
           description:
-            "Complete Munsiyari guide — Panchachuli peak views, Betuli Dhar, Thamri Kund, Milam Glacier trek logistics, how to reach this remote Kumaon town, where to stay, and a full visit plan.",
+            "Munsiyari, Kumaon: Panchachuli views, Betuli Dhar and Thamri Kund, the Milam Glacier trek, how to reach, where to stay and a 3-4 day plan.",
           image: "https://club.kudozz.in/images/blogs/uttarakhand/munsiyari/panchachuli-peak-golden-light-munsiyari.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

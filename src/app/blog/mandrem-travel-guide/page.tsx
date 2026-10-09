@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Mandrem Beach Travel Guide: Yoga Retreats & River-Meets-Sea Views" },
   description:
-    "The complete Mandrem travel guide. Mandrem River meeting the sea, yoga and wellness retreats, Ashwem Beach, where to stay, what to eat, best time to visit, and a full itinerary through North Goa's quietest wellness beach.",
+    "Mandrem, North Goa: the river meeting the sea, yoga retreats, nearby Ashwem, where to stay, what to eat, best time and a 2-day itinerary.",
   keywords:
     "Mandrem travel guide, Mandrem beach, Mandrem yoga retreat, Ashwem beach Goa, best time to visit Mandrem, how to reach Mandrem, North Goa quiet beaches, Mandrem river",
   openGraph: {

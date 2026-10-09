@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Netarhat Travel Guide: Sunrise Point & Chotanagpur's Hill Queen" },
   description:
-    "The complete Netarhat travel guide. Koel View Point, Magnolia Sunset Point, Upper and Lower Ghaghri Falls, where to stay, best time to visit, and a full 2-day itinerary through Jharkhand's favourite hill station.",
+    "Netarhat, Jharkhand: Koel View Point, Magnolia Sunset Point, Upper and Lower Ghaghri falls, best time, where to stay and a 2-day itinerary.",
   keywords:
     "Netarhat travel guide, Netarhat sunrise point, Koel View Point, Magnolia Sunset Point, Ghaghri Falls, Chotanagpur plateau, best time to visit Netarhat, how to reach Netarhat, Jharkhand hill station",
   openGraph: {

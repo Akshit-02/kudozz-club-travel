@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Kanker Travel Guide: Palace Stays & Gateway to Interior Bastar" },
   description:
-    "The complete Kanker travel guide. Kanker Palace heritage stay, tribal villages, the quieter northern route into Bastar, where to stay, best time to visit, and a full itinerary.",
+    "Kanker, Chhattisgarh: the palace heritage stay, tribal villages and the quiet northern route into Bastar, best time, where to stay and a 2-day plan.",
   keywords:
     "Kanker travel guide, Kanker Palace, Bastar tribal villages, how to reach Kanker, best time to visit Kanker Chhattisgarh, interior Bastar",
   openGraph: {

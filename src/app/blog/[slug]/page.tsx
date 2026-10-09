@@ -19,6 +19,7 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import TableOfContents from "@/components/ui/TableOfContents";
 import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
+import { guideCrumbs } from "@/components/ui/GuideBreadcrumb";
 import { GuideFigure } from "@/components/ui/GuideImages";
 import { getAllThingsToDo, getThingsToDo, wordCount, type ThingsToDoArticle } from "@/lib/things-to-do";
 import { thingsToDoEntry, thingsToDoInState } from "@/lib/things-to-do-links";
@@ -177,6 +178,15 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
 
 const PUBLISHED = "2026-09-25";
 
+// Home › Destinations › State › Place › Things to Do: the destination guide's
+// own trail (shared with every guide and the package pages) plus this page,
+// so the visible breadcrumb and the BreadcrumbList schema always agree.
+function thingsToDoCrumbs(a: ThingsToDoArticle) {
+  const base = guideCrumbs(a.guide, a.destination);
+  const trail = base.map((c, i) => (i === base.length - 1 ? { ...c, href: `/blog/${a.guide}` } : c));
+  return [...trail, { name: "Things to Do", href: null as string | null }];
+}
+
 function Schema({ a }: { a: ThingsToDoArticle }) {
   const url = `${SITE_URL}/blog/${a.slug}`;
   const e = thingsToDoEntry(a.slug);
@@ -189,7 +199,7 @@ function Schema({ a }: { a: ThingsToDoArticle }) {
       image: `${SITE_URL}${a.hero.src}`,
       datePublished: PUBLISHED,
       dateModified: PUBLISHED,
-      author: { "@type": "Organization", name: "Kudozz Club", url: SITE_URL },
+      author: { "@id": `${SITE_URL}/#organization` },
       publisher: { "@id": `${SITE_URL}/#organization` },
       mainEntityOfPage: { "@type": "WebPage", "@id": url },
       about: {
@@ -202,12 +212,12 @@ function Schema({ a }: { a: ThingsToDoArticle }) {
     },
     {
       "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-        { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
-        { "@type": "ListItem", position: 3, name: `${a.destination} Travel Guide`, item: `${SITE_URL}/blog/${a.guide}` },
-        { "@type": "ListItem", position: 4, name: `Things to Do in ${a.destination}`, item: url },
-      ],
+      itemListElement: thingsToDoCrumbs(a).map((c, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: c.href ? c.name : `Things to Do in ${a.destination}`,
+        item: c.href ? `${SITE_URL}${c.href === "/" ? "" : c.href}` : url,
+      })),
     },
     {
       "@type": "ItemList",
@@ -277,13 +287,7 @@ export default function ThingsToDoPage({ params }: { params: { slug: string } })
     ...(a.nearby.length ? [{ id: "nearby", title: "Nearby", level: 2 }] : []),
   ];
 
-  const crumbs = [
-    { label: "Home", href: "/" },
-    { label: "Blog", href: "/blog" },
-    ...(e?.stateGuide && e.stateGuide !== a.guide ? [{ label: e.state, href: `/blog/${e.stateGuide}` }] : []),
-    { label: a.destination, href: `/blog/${a.guide}` },
-    { label: "Things to Do", href: null },
-  ];
+  const crumbs = thingsToDoCrumbs(a).map((c) => ({ label: c.name, href: c.href }));
 
   return (
     <>
@@ -303,9 +307,9 @@ export default function ThingsToDoPage({ params }: { params: { slug: string } })
                   {c.href ? (
                     <Link href={c.href} className="transition-colors hover:text-white">{c.label}</Link>
                   ) : (
-                    <span className="text-white/35">{c.label}</span>
+                    <span className="text-white/35" aria-current="page">{c.label}</span>
                   )}
-                  {i < crumbs.length - 1 && <span className="text-white/20">/</span>}
+                  {i < crumbs.length - 1 && <span className="text-white/20" aria-hidden="true">/</span>}
                 </li>
               ))}
             </ol>

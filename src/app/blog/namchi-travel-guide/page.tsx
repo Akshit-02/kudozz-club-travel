@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Namchi Travel Guide: Char Dham & Samdruptse",
   description:
-    "Complete Namchi guide — the Char Dham replica pilgrimage complex, the giant Samdruptse Guru Padmasambhava statue, the Rock Garden, how to reach from Gangtok, and a full visit plan.",
+    "Namchi, South Sikkim: the Char Dham complex, the Samdruptse Guru Padmasambhava statue and Rock Garden, how to reach from Gangtok and a visit plan.",
   keywords:
     "Namchi travel guide, Char Dham Sikkim, Siddhesvara Dham, Samdruptse statue, Guru Padmasambhava statue Sikkim, South Sikkim, how to reach Namchi, Namchi Rock Garden",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Namchi Travel Guide: Char Dham & Samdruptse",
           description:
-            "Complete Namchi guide — the Char Dham replica pilgrimage complex, the giant Samdruptse Guru Padmasambhava statue, the Rock Garden, how to reach from Gangtok, and a full visit plan.",
+            "Namchi, South Sikkim: the Char Dham complex, the Samdruptse Guru Padmasambhava statue and Rock Garden, how to reach from Gangtok and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/sikkim/namchi/namchi.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

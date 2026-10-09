@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Lakshadweep Travel Guide: Permits, Islands & Best Time to Visit" },
   description:
-    "The complete Lakshadweep travel guide. Entry permits, how to reach Agatti and Kavaratti, the best islands for lagoons and diving, where to stay, what to eat, and a full 4-day itinerary through India's coral atoll islands.",
+    "Lakshadweep travel guide: the entry permit, reaching Agatti and Kavaratti, which islands to choose, diving and lagoons, where to stay and a 4-day plan.",
   keywords:
     "Lakshadweep travel guide, Lakshadweep permit, Agatti island, Kavaratti, Bangaram island, Lakshadweep scuba diving, Lakshadweep itinerary, Lakshadweep entry pass, India coral islands, best time to visit Lakshadweep, how to reach Lakshadweep from Kochi, Lakshadweep budget trip, which Lakshadweep island to choose, Lakshadweep 4 day itinerary, is Lakshadweep safe for solo travellers, Kadmat island diving",
   openGraph: {

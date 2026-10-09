@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Khatu Shyam Ji Guide: Temple & Best Time",
   description:
-    "Complete Khatu Shyam Ji guide — the Shyam Baba/Barbarika legend, temple rituals, the Falgun Mela, how to reach from Jaipur, crowd tips, and a full pilgrimage visit plan.",
+    "Khatu Shyam Ji, Sikar: the Shyam Baba (Barbarika) legend, temple rituals, the Falgun Mela, how to reach from Jaipur and crowd tips for darshan.",
   keywords:
     "Khatu Shyam Ji travel guide, Shyam Baba temple, Barbarika legend, Khatu Shyam Ji Sikar, Falgun Mela Khatu, how to reach Khatu Shyam Ji from Jaipur, Rajasthan pilgrimage sites",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Khatu Shyam Ji Guide: Temple & Best Time",
           description:
-            "Complete Khatu Shyam Ji guide — the Shyam Baba/Barbarika legend, temple rituals, the Falgun Mela, how to reach from Jaipur, crowd tips, and a full pilgrimage visit plan.",
+            "Khatu Shyam Ji, Sikar: the Shyam Baba (Barbarika) legend, temple rituals, the Falgun Mela, how to reach from Jaipur and crowd tips for darshan.",
           image: "https://club.kudozz.in/images/blogs/rajasthan/khatu-shyam-ji/khatu-shyam-ji-temple.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-30",

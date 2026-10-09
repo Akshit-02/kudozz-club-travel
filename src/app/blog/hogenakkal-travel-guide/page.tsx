@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Hogenakkal Falls Guide: Boating & Best Time",
   description:
-    "Complete Hogenakkal guide — coracle rides through the Kaveri river gorge, the riverside fish and oil massage tradition, how to reach from Dharmapuri or Bangalore, and a full visit plan.",
+    "Hogenakkal Falls on the Kaveri: coracle rides through the gorge, best time by water level, how to reach from Bangalore or Dharmapuri, and a day plan.",
   keywords:
     "Hogenakkal travel guide, Hogenakkal Falls, Kaveri river gorge, coracle ride Hogenakkal, Niagara of India, Hogenakkal fish massage, how to reach Hogenakkal, Dharmapuri waterfalls",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Hogenakkal Falls Guide: Boating & Best Time",
           description:
-            "Complete Hogenakkal guide — coracle rides through the Kaveri river gorge, the riverside fish and oil massage tradition, how to reach from Dharmapuri or Bangalore, and a full visit plan.",
+            "Hogenakkal Falls on the Kaveri: coracle rides through the gorge, best time by water level, how to reach from Bangalore or Dharmapuri, and a day plan.",
           image:
             "https://club.kudozz.in/images/blogs/tamil-nadu/hogenakkal/hogenakkal-falls.webp",
           datePublished: "2026-09-03",

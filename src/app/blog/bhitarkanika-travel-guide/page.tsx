@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Bhitarkanika Guide: Mangroves & Crocodiles",
   description:
-    "Complete Bhitarkanika guide — India's second-largest mangrove ecosystem, saltwater crocodile boat safaris, Gahirmatha's Olive Ridley turtle nesting, and a full visit plan.",
+    "Bhitarkanika guide: India's second-largest mangrove forest, saltwater crocodile boat safaris, olive ridley turtles at Gahirmatha and a 2-day plan.",
   keywords:
     "Bhitarkanika travel guide, Bhitarkanika mangroves, saltwater crocodile Odisha, Gahirmatha turtle nesting, Olive Ridley turtles, Kendrapara, how to reach Bhitarkanika, Odisha wildlife",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bhitarkanika Guide: Mangroves & Crocodiles",
           description:
-            "Complete Bhitarkanika guide — India's second-largest mangrove ecosystem, saltwater crocodile boat safaris, Gahirmatha's Olive Ridley turtle nesting, and a full visit plan.",
+            "Bhitarkanika guide: India's second-largest mangrove forest, saltwater crocodile boat safaris, olive ridley turtles at Gahirmatha and a 2-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/odisha/bhitarkanika/bhitarkanika-mangrove-creek.webp",
           datePublished: "2026-09-04",

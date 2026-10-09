@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Rewari Travel Guide: Brass Town & 1857 Rebellion History" },
   description:
-    "The complete Rewari travel guide. Brass markets, the Rewari Railway Heritage Museum, 1857 rebellion history, where to stay, best time to visit, and a full day itinerary.",
+    "Rewari, Haryana: the brass bazaars, the Rewari Railway Heritage Museum and the town's 1857 history, how to reach and a one-day plan.",
   keywords:
     "Rewari travel guide, Rewari brass market, Rewari Railway Heritage Museum, 1857 rebellion Rewari, best time to visit Rewari, how to reach Rewari, Haryana heritage towns",
   openGraph: {

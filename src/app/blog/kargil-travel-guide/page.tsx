@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Kargil Travel Guide: Gateway to Zanskar & Ladakh" },
   description:
-    "The complete Kargil travel guide — how to reach Kargil on the Srinagar-Leh highway, the Mulbekh rock-cut Buddha, Kargil War Memorial at Dras, Balti culture, Suru Valley, the road to Zanskar, where to stay, what to eat, and essential tips.",
+    "Kargil guide: the Kargil War Memorial at Dras, the Mulbekh Buddha, Suru Valley and the road to Zanskar, how to reach, where to stay and tips.",
   keywords:
     "Kargil travel guide, Kargil Ladakh, Srinagar Leh highway, Kargil War Memorial, Dras war memorial, Mulbekh Chamba statue, Suru Valley, Zanskar road, Balti culture Ladakh, Kargil to Leh, best time to visit Kargil, how to reach Kargil, Kargil to Zanskar distance, Kargil budget trip, Nun Kun massif, things to do in Kargil",
   openGraph: {

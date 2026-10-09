@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Candolim Beach Travel Guide: Quiet Sands Near the Nightlife" },
   description:
-    "The complete Candolim travel guide. Fort Aguada, a calmer North Goa beach, where to stay, best time to visit, and a full itinerary near Calangute and Baga's nightlife.",
+    "Candolim, a calmer North Goa beach beside Fort Aguada and near Calangute's nightlife: best time, where to stay, what to eat and a 2-day plan.",
   keywords:
     "Candolim travel guide, Candolim Beach, Fort Aguada, best time to visit Candolim, how to reach Candolim, North Goa beaches, River Princess wreck Goa",
   openGraph: {

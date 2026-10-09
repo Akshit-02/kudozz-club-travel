@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Gandikota Travel Guide: India's Grand Canyon",
   description:
-    "The complete Gandikota travel guide. The Pennar River gorge, Gandikota Fort, camping, where to stay, best time to visit, and a full itinerary through Andhra Pradesh's Grand Canyon.",
+    "Gandikota, 'India's Grand Canyon': the Pennar gorge, Gandikota Fort, camping, best time, where to stay and a 2-day plan in Andhra Pradesh.",
   keywords:
     "Gandikota travel guide, Grand Canyon of India, Gandikota Fort, Pennar River gorge, best time to visit Gandikota, how to reach Gandikota, Gandikota camping",
   openGraph: {

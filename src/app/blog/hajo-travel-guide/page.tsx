@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Hajo Travel Guide: A Temple Town Sacred to Four Religions" },
   description:
-    "The complete Hajo travel guide. Hayagriva Madhava Temple, Poa Mecca, the town's bell-metal craft tradition, how to combine with Guwahati and Kamakhya, where to stay, best time to visit, and a full itinerary.",
+    "Hajo, Assam: a pilgrimage town sacred to Hindus, Buddhists and Muslims, the Hayagriva Madhava temple, Poa Mecca and bell-metal craft, with a plan.",
   keywords:
     "Hajo travel guide, Hayagriva Madhava Temple, Poa Mecca, Hajo bell metal, best time to visit Hajo, how to reach Hajo, Guwahati day trip, multi faith pilgrimage Assam",
   openGraph: {

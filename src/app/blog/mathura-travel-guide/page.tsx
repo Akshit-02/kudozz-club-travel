@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Mathura Travel Guide: Krishna Janmabhoomi & Temples",
   description:
-    "Complete Mathura travel guide — Krishna Janmabhoomi Temple, Vishram Ghat aarti, Dwarkadhish Temple, Mathura Museum, how to reach, where to stay, and a full visit plan for the Braj region.",
+    "Mathura guide: Krishna Janmabhoomi, Vishram Ghat aarti, Dwarkadhish Temple and the museum, how to reach, where to stay and a 1-2 day Braj plan.",
   keywords:
     "Mathura travel guide, Krishna Janmabhoomi Temple, Mathura Uttar Pradesh, Vishram Ghat, Dwarkadhish Temple, Mathura Museum, Braj region, Mathura Holi, how to reach Mathura, Mathura Vrindavan tour",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mathura Travel Guide: Krishna Janmabhoomi & Temples",
           description:
-            "Complete Mathura travel guide — Krishna Janmabhoomi Temple, Vishram Ghat aarti, Dwarkadhish Temple, Mathura Museum, how to reach, where to stay, and a full visit plan for the Braj region.",
+            "Mathura guide: Krishna Janmabhoomi, Vishram Ghat aarti, Dwarkadhish Temple and the museum, how to reach, where to stay and a 1-2 day Braj plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttar-pradesh/mathura/vishram-ghat-evening-yamuna-mathura.webp",
           datePublished: "2026-09-03",

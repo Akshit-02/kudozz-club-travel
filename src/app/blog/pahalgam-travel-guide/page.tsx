@@ -65,7 +65,7 @@ function ArticleSchema() {
           image:
             "https://club.kudozz.in/images/blogs/jammu-and-kashmir/pahalgam/pahalgam.webp",
           datePublished: "2026-08-30",
-          dateModified: "2026-08-30",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -125,7 +125,7 @@ function FAQSchema() {
               name: "How many days are needed for Pahalgam?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Two to three days is enough to cover Betaab Valley, Aru Valley, Chandanwari, and Baisaran meadow at a relaxed pace, with a night or two spent along the Lidder River. A single day trip from Srinagar is possible but only allows time for one or two of the valleys.",
+                text: "Two to three days is enough to cover Betaab Valley, Aru Valley and Chandanwari at a relaxed pace, with a night or two spent along the Lidder River. A single day trip from Srinagar is possible but only allows time for one or two of the valleys.",
               },
             },
             {
@@ -157,7 +157,7 @@ function FAQSchema() {
               name: "What is famous in Pahalgam?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Pahalgam is best known for Betaab Valley (named after the 1983 Bollywood film shot there), Aru Valley as a trekking base, Chandanwari as the traditional starting point of the Amarnath Yatra, the Lidder River, and Baisaran meadow, often called 'mini Switzerland'. It has also been a backdrop for dozens of Hindi films over the decades.",
+                text: "Pahalgam is best known for Betaab Valley (named after the 1983 Bollywood film shot there), Aru Valley as a trekking base, Chandanwari as the traditional starting point of the Amarnath Yatra, the Lidder River, and Baisaran meadow, often called 'mini Switzerland' (closed to tourists since April 2025). It has also been a backdrop for dozens of Hindi films over the decades.",
               },
             },
             {
@@ -714,9 +714,11 @@ export default function PahalgamGuidePage() {
                       <strong>Baisaran Meadow:</strong> A forested plateau
                       reached by a roughly 5 km pony or walking trail above
                       Pahalgam town, often nicknamed "mini Switzerland" for its
-                      open rolling meadow ringed by pine forest. A popular
-                      half-day outing on its own, with paragliding available
-                      seasonally.
+                      open rolling meadow ringed by pine forest. It was long a
+                      popular half-day outing, but it has been closed to
+                      tourists since the April 2025 attack there, and local
+                      reports in April 2026 said it remained shut. Check with
+                      J&K Tourism or your hotel before planning it.
                     </li>
                     <li>
                       <strong>Lidder River:</strong> The glacial river that
@@ -934,11 +936,11 @@ export default function PahalgamGuidePage() {
                     {[
                       {
                         day: "Day 1",
-                        title: "Arrival & Baisaran Meadow",
+                        title: "Arrival & the Lidder Riverside",
                         color: "bg-amber-700",
                         activities: [
                           "Arrive from Srinagar, check into your hotel",
-                          "Afternoon: Pony or walking trek to Baisaran meadow",
+                          "Afternoon: Settle in and ask locally which trails are open",
                           "Evening: Riverside walk along the Lidder in town",
                         ],
                       },
@@ -1148,7 +1150,7 @@ export default function PahalgamGuidePage() {
                           "Spend at least one night to cover all three valleys",
                           "Carry a warm layer even for a summer Chandanwari trip",
                           "Confirm pony and taxi rates before starting out",
-                          "Visit Baisaran meadow for a quieter half-day option",
+                          "Baisaran meadow has been closed since April 2025; check before planning it",
                           "Check current travel advisories before booking",
                         ].map((item) => (
                           <li key={item} className="flex items-start gap-2">
@@ -1199,7 +1201,7 @@ export default function PahalgamGuidePage() {
                     {[
                       {
                         q: "How many days are needed for Pahalgam?",
-                        a: "Two to three days is enough to cover Betaab Valley, Aru Valley, Chandanwari, and Baisaran meadow at a relaxed pace, with a night or two along the Lidder River. A single day trip from Srinagar is possible but only allows time for one or two of the valleys.",
+                        a: "Two to three days is enough to cover Betaab Valley, Aru Valley and Chandanwari at a relaxed pace, with a night or two along the Lidder River. A single day trip from Srinagar is possible but only allows time for one or two of the valleys.",
                       },
                       {
                         q: "Is Pahalgam better than Gulmarg?",
@@ -1215,7 +1217,7 @@ export default function PahalgamGuidePage() {
                       },
                       {
                         q: "What is famous in Pahalgam?",
-                        a: "Pahalgam is best known for Betaab Valley (named after the 1983 Bollywood film shot there), Aru Valley as a trekking base, Chandanwari as the traditional starting point of the Amarnath Yatra, the Lidder River, and Baisaran meadow, often called 'mini Switzerland'. It has also been a backdrop for dozens of Hindi films over the decades.",
+                        a: "Pahalgam is best known for Betaab Valley (named after the 1983 Bollywood film shot there), Aru Valley as a trekking base, Chandanwari as the traditional starting point of the Amarnath Yatra, the Lidder River, and Baisaran meadow, often called 'mini Switzerland' (closed to tourists since April 2025). It has also been a backdrop for dozens of Hindi films over the decades.",
                       },
                       {
                         q: "Can I visit Chandanwari without joining the Amarnath Yatra?",

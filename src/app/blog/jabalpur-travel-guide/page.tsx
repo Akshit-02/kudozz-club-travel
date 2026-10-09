@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Jabalpur Travel Guide: Marble Rocks, Dhuandhar Falls & Bhedaghat" },
   description:
-    "The complete Jabalpur travel guide. Bhedaghat Marble Rocks, Dhuandhar Falls, moonlight boating, Chausath Yogini Temple, where to stay, what to eat, and a 2-day itinerary through this Narmada river town.",
+    "Jabalpur travel guide: Bhedaghat's marble rocks, Dhuandhar Falls, boating on the Narmada, Chausath Yogini Temple, where to stay and a 2-day plan.",
   keywords:
     "Jabalpur travel guide, Bhedaghat Marble Rocks, Dhuandhar Falls, moonlight boating Jabalpur, Chausath Yogini Temple, Jabalpur itinerary, best time to visit Jabalpur, how to reach Jabalpur, Jabalpur Kanha, Jabalpur Bandhavgarh, Jabalpur Madhya Pradesh",
   openGraph: {

@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Tirthan Valley Travel Guide: Trout Fishing & GHNP Gateway" },
   description:
-    "The complete Tirthan Valley travel guide. Great Himalayan National Park, trout fishing, riverside homestays, Chhoie Waterfall, Jalori Pass, where to stay, best time to visit, and a full 2-day itinerary.",
+    "Tirthan Valley: the Great Himalayan National Park gateway, trout fishing, riverside homestays, Chhoie Waterfall, Jalori Pass and a 2-day plan.",
   keywords:
     "Tirthan Valley travel guide, Great Himalayan National Park, trout fishing Tirthan, Gushaini, Chhoie Waterfall, Jalori Pass, best time to visit Tirthan Valley, how to reach Tirthan Valley, Himachal homestays",
   openGraph: {

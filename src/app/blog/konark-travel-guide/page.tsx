@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Konark Sun Temple Guide: History & Tips",
   description:
-    "Complete Konark guide — the UNESCO-listed Sun Temple's chariot design, 24 carved wheels, Chandrabhaga Beach, the Konark Dance Festival, how to reach, and a full visit plan.",
+    "Konark Sun Temple: the UNESCO-listed chariot temple and its 24 wheels, Chandrabhaga Beach, the dance festival, how to reach from Puri and a plan.",
   keywords:
     "Konark travel guide, Konark Sun Temple, UNESCO World Heritage Odisha, Chandrabhaga Beach, Konark Dance Festival, Golden Triangle Odisha, how to reach Konark, Sun Temple wheels",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Konark Sun Temple Guide: History & Tips",
           description:
-            "Complete Konark guide — the UNESCO-listed Sun Temple's chariot design, 24 carved wheels, Chandrabhaga Beach, the Konark Dance Festival, how to reach, and a full visit plan.",
+            "Konark Sun Temple: the UNESCO-listed chariot temple and its 24 wheels, Chandrabhaga Beach, the dance festival, how to reach from Puri and a plan.",
           image:
             "https://club.kudozz.in/images/blogs/odisha/konark/konark-sun-temple.webp",
           datePublished: "2026-09-04",

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Srisailam Travel Guide: Jyotirlinga & Nallamala",
   description:
-    "Complete Srisailam guide — the Mallikarjuna Jyotirlinga and Bhramaramba Shakti Peetha, Patala Ganga, the Krishna river gorge through Nallamala forest, how to reach from Hyderabad, and a full visit plan.",
+    "Srisailam: the Mallikarjuna Jyotirlinga and Bhramaramba Shakti Peetha, Patala Ganga and the Krishna gorge in the Nallamala, and a 2-day plan.",
   keywords:
     "Srisailam travel guide, Mallikarjuna Jyotirlinga, Bhramaramba Shakti Peetha, Srisailam temple, Patala Ganga, Nallamala forest, Krishna river gorge, Srisailam dam, how to reach Srisailam, Srisailam from Hyderabad",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Srisailam Travel Guide: Jyotirlinga & Nallamala",
           description:
-            "Complete Srisailam guide — the Mallikarjuna Jyotirlinga and Bhramaramba Shakti Peetha, Patala Ganga, the Krishna river gorge through Nallamala forest, how to reach from Hyderabad, and a full visit plan.",
+            "Srisailam: the Mallikarjuna Jyotirlinga and Bhramaramba Shakti Peetha, Patala Ganga and the Krishna gorge in the Nallamala, and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/telangana/srisailam/mallikarjuna-bhramaramba-temple-gopuram-srisailam.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

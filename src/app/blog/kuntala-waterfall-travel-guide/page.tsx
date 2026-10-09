@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Kuntala Waterfall Guide: Telangana's Tallest Falls",
   description:
-    "Complete Kuntala Waterfall guide — Telangana's tallest waterfall in remote Adilabad district, best time to visit, how to reach from Hyderabad, and how to combine it with Kawal Tiger Reserve.",
+    "Kuntala Waterfall, Adilabad: Telangana's tallest falls, best time for flow, how to reach from Hyderabad and pairing it with Kawal Tiger Reserve.",
   keywords:
     "Kuntala Waterfall, Adilabad district waterfall, Telangana tallest waterfall, Kadam river falls, how to reach Kuntala Waterfall, Nirmal Telangana, Kawal Tiger Reserve, best time Kuntala Waterfall",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kuntala Waterfall Guide: Telangana's Tallest Falls",
           description:
-            "Complete Kuntala Waterfall guide — Telangana's tallest waterfall in remote Adilabad district, best time to visit, how to reach from Hyderabad, and how to combine it with Kawal Tiger Reserve.",
+            "Kuntala Waterfall, Adilabad: Telangana's tallest falls, best time for flow, how to reach from Hyderabad and pairing it with Kawal Tiger Reserve.",
           image: "https://club.kudozz.in/images/blogs/telangana/kuntala-waterfall/kuntala-waterfall-valley-view-adilabad.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

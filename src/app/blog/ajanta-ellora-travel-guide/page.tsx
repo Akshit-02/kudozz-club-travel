@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Ajanta & Ellora Caves Travel Guide: History, Timings & Tips" },
   description:
-    "The complete guide to Ajanta and Ellora Caves — 2,000-year-old Buddhist frescoes, the monolithic Kailasa Temple, how to reach both UNESCO sites from Chhatrapati Sambhajinagar, timings, entry rules, a 2-day itinerary, and budget breakdown.",
+    "Ajanta and Ellora Caves guide: Buddhist frescoes, the Kailasa temple, timings and closing days, how to reach from Chhatrapati Sambhajinagar, 2-day plan.",
   keywords:
     "Ajanta Caves, Ellora Caves, Ajanta Ellora travel guide, Kailasa Temple, Cave 16 Ellora, Ajanta cave paintings, UNESCO World Heritage Maharashtra, Ajanta Ellora timings, Ajanta Ellora closed days, how to reach Ajanta caves, how to reach Ellora caves, Chhatrapati Sambhajinagar caves, Aurangabad caves day trip, Ajanta Ellora itinerary, Ajanta Ellora entry fee, best time to visit Ajanta Ellora",
   openGraph: {

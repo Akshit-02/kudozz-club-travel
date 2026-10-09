@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "North Bay Island Andaman: Coral, Sea Walking & Visit Guide" },
   description:
-    "Complete North Bay Island guide — glass-bottom boats, snorkelling, sea walking, and scuba diving a short boat ride from Port Blair. Timings, budget, and how to pair it with Ross Island.",
+    "North Bay Island off Port Blair: glass-bottom boats, snorkelling, sea walking and diving, timings, costs and pairing it with Ross Island.",
   keywords:
     "North Bay Island, North Bay Andaman, sea walking Andaman, glass bottom boat Port Blair, North Bay snorkelling, North Bay lighthouse, Ross Island North Bay tour, coral reef Port Blair, North Bay scuba diving, Andaman day trip",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "North Bay Island Andaman: Coral, Sea Walking & Visit Guide",
           description:
-            "Complete North Bay Island guide — glass-bottom boats, snorkelling, sea walking, and scuba diving a short boat ride from Port Blair. Timings, budget, and how to pair it with Ross Island.",
+            "North Bay Island off Port Blair: glass-bottom boats, snorkelling, sea walking and diving, timings, costs and pairing it with Ross Island.",
           image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/north-bay-island-andaman/north-bay-island-andaman.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",

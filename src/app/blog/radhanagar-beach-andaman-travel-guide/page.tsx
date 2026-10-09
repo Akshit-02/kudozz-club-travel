@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Radhanagar Beach Travel Guide: Timings, Sunset & Tips" },
   description:
-    "Complete Radhanagar Beach (Beach No. 7) guide — Havelock Island's famous white-sand beach once named one of Asia's best. Timings, sunset tips, rules, and how to reach it.",
+    "Radhanagar Beach (Beach No. 7), Havelock: the white-sand bay, sunset timings, swimming rules, how to reach and a half-day plan.",
   keywords:
     "Radhanagar Beach, Beach No. 7 Havelock, Radhanagar Beach timings, Radhanagar Beach sunset, Havelock Island beach, Time magazine best beach Asia, Radhanagar Beach how to reach, Swaraj Dweep beach",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Radhanagar Beach Travel Guide: Timings, Sunset & Tips",
           description:
-            "Complete Radhanagar Beach (Beach No. 7) guide — Havelock Island's famous white-sand beach once named one of Asia's best. Timings, sunset tips, rules, and how to reach it.",
+            "Radhanagar Beach (Beach No. 7), Havelock: the white-sand bay, sunset timings, swimming rules, how to reach and a half-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/andaman-and-nicobar/radhanagar-beach-andaman/radhanagar-beach.webp",
           datePublished: "2026-09-01",

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Golden Temple Guide: Timings, Langar & Tips",
   description:
-    "Complete Golden Temple guide — Sri Harmandir Sahib's history and architecture, the Amrit Sarovar, the langar community kitchen, etiquette, best time to visit, and a full visit plan.",
+    "Golden Temple (Sri Harmandir Sahib) guide: history, the sarovar, the langar kitchen, etiquette, the best time to visit and a visit plan.",
   keywords:
     "Golden Temple guide, Sri Harmandir Sahib, Amritsar, langar, Amrit Sarovar, Golden Temple timings, Golden Temple etiquette, Akal Takht, Sikh pilgrimage",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Golden Temple Guide: Timings, Langar & Tips",
           description:
-            "Complete Golden Temple guide — Sri Harmandir Sahib's history and architecture, the Amrit Sarovar, the langar community kitchen, etiquette, best time to visit, and a full visit plan.",
+            "Golden Temple (Sri Harmandir Sahib) guide: history, the sarovar, the langar kitchen, etiquette, the best time to visit and a visit plan.",
           image:
             "https://club.kudozz.in/images/blogs/punjab/golden-temple/golden-temple-2.webp",
           datePublished: "2026-09-04",

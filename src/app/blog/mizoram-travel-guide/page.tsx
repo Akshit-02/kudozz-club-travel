@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Mizoram Travel Guide: Aizawl, Reiek & Vantawng Falls" },
   description:
-    "The complete Mizoram travel guide — Aizawl's hillside markets, Reiek's viewpoint and tribal heritage village, Vantawng Falls, Mizo culture, where to stay and eat, and a full itinerary through one of India's cleanest and most orderly Northeastern states.",
+    "Mizoram travel guide: Aizawl, Reiek, Vantawng Falls, Champhai and Murlen, Mizo culture, the Inner Line Permit, where to stay and a 5-day itinerary.",
   keywords:
     "Mizoram travel guide, Aizawl travel guide, Reiek Tlang, Vantawng Falls, Mizo culture, Champhai Mizoram, Mizoram itinerary, Northeast India travel, Chapchar Kut festival, best time to visit Mizoram, how to reach Aizawl, Mizoram itinerary days, is Mizoram safe for solo travellers, Mizoram budget trip, Reiek heritage village, Vantawng Falls Thenzawl",
   openGraph: {
@@ -60,7 +60,7 @@ function ArticleSchema() {
           image:
             "https://club.kudozz.in/images/blogs/mizoram/mizoram/vantawng-falls-mizoram.webp",
           datePublished: "2026-07-22",
-          dateModified: "2026-09-09",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -115,7 +115,7 @@ const faqs = [
   },
   {
     q: "How do I reach Mizoram?",
-    a: "Lengpui Airport (AJL), about 35 km from Aizawl, has regular flights from Kolkata, Guwahati, and Imphal, and is by far the fastest way in. Mizoram has no railway station of its own — the nearest major link is Silchar in Assam, roughly 180 km from Aizawl — and road journeys from Guwahati or Silchar take the better part of a day given the terrain.",
+    a: "Lengpui Airport (AJL), about 35 km from Aizawl, has regular flights from Kolkata, Guwahati, and Imphal, and is by far the fastest way in. Since September 2025, trains also run to Sairang, roughly 20 km from Aizawl, directly from Delhi, Guwahati and Kolkata. Road journeys from Guwahati or Silchar take the better part of a day given the terrain. Indian visitors from outside the state need an Inner Line Permit, applied for on the official portal.",
   },
   {
     q: "Is Mizoram safe for solo travellers?",
@@ -455,9 +455,10 @@ export default function MizoramGuidePage() {
                       Guwahati, and Imphal — by far the fastest way in.
                     </li>
                     <li>
-                      <strong>By Rail:</strong> Mizoram has no railway
-                      station of its own — the nearest major link is
-                      Silchar (Assam), roughly 180 km from Aizawl.
+                      <strong>By Rail:</strong> Since September 2025 the
+                      Bairabi–Sairang line has brought trains to Sairang,
+                      roughly 20 km from Aizawl, with direct services to
+                      Delhi (Rajdhani Express), Guwahati and Kolkata.
                     </li>
                     <li>
                       <strong>By Road:</strong> Aizawl is connected to
@@ -469,10 +470,17 @@ export default function MizoramGuidePage() {
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    <strong>💡 Pro Tip:</strong> Flying into Aizawl via
-                    Lengpui is by far the most practical option — road
-                    journeys from Guwahati or Silchar take the better part
-                    of a day given Mizoram's terrain.
+                    <strong>📋 Inner Line Permit:</strong> Indian visitors from outside Mizoram need an Inner Line Permit (ILP) to enter the state. Apply on the Mizoram government's official portal (ilp.mizoram.gov.in) before you travel and carry a copy. Foreign nationals need a Protected Area Permit, which was reinstated for Mizoram in December 2024.
+                  </div>
+                  <div
+                    className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    <strong>💡 Pro Tip:</strong> Flying into Lengpui is the
+                    fastest way in; the train to Sairang is the new
+                    alternative from Guwahati or Kolkata. Road journeys from
+                    Guwahati or Silchar take the better part of a day given
+                    Mizoram's terrain.
                   </div>
                 </section>
 

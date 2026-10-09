@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Kangpokpi Travel Guide: Pineapple Hills Near Imphal",
   description:
-    "Complete Kangpokpi travel guide — a Kuki-Zo hill town north of Imphal on NH2, known for pineapple cultivation, forested terrain and waterfalls, how to reach, and full trip planning.",
+    "Kangpokpi, north of Imphal on NH2: a Kuki-Zo hill town known for pineapples, forests and waterfalls, how to reach and a half-day plan.",
   keywords:
     "Kangpokpi travel guide, Kangpokpi Manipur, Kuki-Zo Manipur, Kangpokpi pineapple, Manipur hill towns, NH2 Manipur, how to reach Kangpokpi, Inner Line Permit Manipur, Manipur day trips from Imphal",
   openGraph: {

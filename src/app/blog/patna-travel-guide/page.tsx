@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Patna Travel Guide: Golghar, Patna Sahib & Bihar's Capital" },
   description:
-    "The complete Patna travel guide. Golghar granary, Takht Sri Patna Sahib, Patna Museum, Kumhrar ruins, where to stay, best time to visit, and a full itinerary through Bihar's riverside capital.",
+    "Patna guide: Golghar, Takht Sri Patna Sahib, the Patna Museum and Kumhrar's ruins, best time, where to stay and a 2-day itinerary.",
   keywords:
     "Patna travel guide, Golghar Patna, Patna Sahib Gurdwara, Patna Museum, Kumhrar Pataliputra ruins, best time to visit Patna, how to reach Patna, Patna itinerary, Bihar capital",
   openGraph: {

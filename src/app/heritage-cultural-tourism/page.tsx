@@ -14,7 +14,7 @@ import { getDestinationProfile } from "@/lib/destination-profiles";
 import { SITE_URL } from "@/lib/site";
 
 const URL = `${SITE_URL}/heritage-cultural-tourism`;
-const TITLE = "Heritage & Cultural Tourism in India: Sites & Culture | Kudozz Club";
+const TITLE = "Heritage & Cultural Tourism in India: Sites & Culture";
 const DESCRIPTION =
   "Heritage and cultural tourism in India: UNESCO sites, forts, palaces, caves, historic cities, museums, crafts, textiles, dance, festivals, food and itineraries.";
 const HERO = { src: "/images/heritage/heritage-cultural-tourism-india-hampi.webp", alt: "The stone chariot of the Vittala temple at Hampi, with boulder hills behind" };

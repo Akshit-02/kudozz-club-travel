@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Ziro Valley Travel Guide: Apatani Villages & Rice Fields" },
   description:
-    "The complete Ziro Valley travel guide. Apatani tribal villages, terraced rice-fish fields, the Ziro Music Festival, permits (ILP), where to stay, what to eat, and a full 4-day itinerary through Arunachal Pradesh's most untouched valley.",
+    "Ziro Valley: Apatani villages, rice-fish fields, the Ziro Music Festival, Inner Line Permits, where to stay, food and a 4-day itinerary.",
   keywords:
     "Ziro Valley travel guide, Apatani tribe, Ziro Music Festival, Arunachal Pradesh Inner Line Permit, Ziro rice fields, Talley Valley, Ziro itinerary, Arunachal off-beat travel, best time to visit Ziro Valley, how to reach Ziro Valley, Ziro Valley budget trip, is Ziro Valley safe for solo travellers, Ziro Valley 4 day itinerary, Apatani villages Arunachal Pradesh, Hong village Ziro",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Unakoti Travel Guide: Rock Carvings & How to Reach",
   description:
-    "Complete Unakoti guide — the giant Unakotishwara Kal Bhairava carving, ancient rock-cut deities on a forested hillside, the Ashokashtami Mela, how to reach from Agartala, and a full visit plan.",
+    "Unakoti, North Tripura: the giant Kal Bhairava carving and rock-cut deities on a forest hillside, the Ashokashtami Mela and how to reach.",
   keywords:
     "Unakoti travel guide, Unakoti rock carvings, Kailashahar, Unakotishwara Kal Bhairava, Unakoti district, Tripura archaeological site, how to reach Unakoti, Ashokashtami Mela, Unakoti day trip from Agartala",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Unakoti Travel Guide: Rock Carvings & How to Reach",
           description:
-            "Complete Unakoti guide — the giant Unakotishwara Kal Bhairava carving, ancient rock-cut deities on a forested hillside, the Ashokashtami Mela, how to reach from Agartala, and a full visit plan.",
+            "Unakoti, North Tripura: the giant Kal Bhairava carving and rock-cut deities on a forest hillside, the Ashokashtami Mela and how to reach.",
           image: "https://club.kudozz.in/images/blogs/tripura/unakoti/rock-cut-carvings-unakoti.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Gaya Travel Guide: Vishnupad Temple & Pitru Paksha Pilgrimage" },
   description:
-    "The complete Gaya travel guide. Vishnupad Temple, Pind Daan ancestral rites, Pitru Paksha pilgrimage season, Brahmayoni Hill, where to stay, best time to visit, and a full itinerary.",
+    "Gaya guide: the Vishnupad temple, pind daan rites and the Pitru Paksha season, Brahmayoni Hill, where to stay and a one-day plan.",
   keywords:
     "Gaya travel guide, Vishnupad Temple, Pitru Paksha Gaya, Pind Daan, Gaya Bihar, best time to visit Gaya, how to reach Gaya, Gaya Bodh Gaya distance, Brahmayoni Hill",
   openGraph: {

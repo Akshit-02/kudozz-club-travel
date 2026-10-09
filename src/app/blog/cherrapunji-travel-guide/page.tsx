@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Cherrapunji Travel Guide: Waterfalls & Rainfall",
   description:
-    "Complete Cherrapunji (Sohra) guide — Nohkalikai Falls, Mawsmai Cave, Seven Sisters Falls, Thangkharang Park, the world-famous rainfall records, how to reach from Shillong, and a full visit plan.",
+    "Cherrapunji (Sohra) guide: Nohkalikai and Seven Sisters falls, Mawsmai Cave, root bridges nearby, how to reach from Shillong and a visit plan.",
   keywords:
     "Cherrapunji travel guide, Sohra, Nohkalikai Falls, Mawsmai Cave, Seven Sisters Falls, wettest place on earth, Meghalaya rainfall, how to reach Cherrapunji, Nongriat root bridge",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Cherrapunji Travel Guide: Waterfalls & Rainfall",
           description:
-            "Complete Cherrapunji (Sohra) guide — Nohkalikai Falls, Mawsmai Cave, Seven Sisters Falls, Thangkharang Park, the world-famous rainfall records, how to reach from Shillong, and a full visit plan.",
+            "Cherrapunji (Sohra) guide: Nohkalikai and Seven Sisters falls, Mawsmai Cave, root bridges nearby, how to reach from Shillong and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/meghalaya/cherrapunji/cherrapunji-2.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",

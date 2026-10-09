@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Aritar Travel Guide: Lake, Views & Tips",
   description:
-    "Complete Aritar guide — Aritar Lake (Lampokhari), orange orchards, Aritar Gumpa, pairing with Zuluk on the Old Silk Route, how to reach from Gangtok, and a full visit plan.",
+    "Aritar, East Sikkim: Aritar Lake, orange orchards and the gumpa, paired with Zuluk on the Old Silk Route, how to reach from Gangtok and a 2-day plan.",
   keywords:
     "Aritar travel guide, Aritar Lake, Lampokhari Lake, East Sikkim, Zuluk Aritar, Old Silk Route Sikkim, how to reach Aritar, Aritar Gumpa",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Aritar Travel Guide: Lake, Views & Tips",
           description:
-            "Complete Aritar guide — Aritar Lake (Lampokhari), orange orchards, Aritar Gumpa, pairing with Zuluk on the Old Silk Route, how to reach from Gangtok, and a full visit plan.",
+            "Aritar, East Sikkim: Aritar Lake, orange orchards and the gumpa, paired with Zuluk on the Old Silk Route, how to reach from Gangtok and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/sikkim/aritar/aritar-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

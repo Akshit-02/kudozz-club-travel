@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Pasighat Travel Guide: Arunachal's Oldest Town on the Siang River" },
   description:
-    "The complete Pasighat travel guide. The Siang River, Daying Ering Wildlife Sanctuary, river rafting, Adi tribal culture, where to stay, best time to visit, and a full itinerary.",
+    "Pasighat on the Siang: Arunachal's oldest town, Daying Ering sanctuary, river rafting and Adi culture, permits, where to stay and a 2-day plan.",
   keywords:
     "Pasighat travel guide, Siang River, Daying Ering Wildlife Sanctuary, Adi tribe Arunachal, best time to visit Pasighat, how to reach Pasighat, East Siang district",
   openGraph: {

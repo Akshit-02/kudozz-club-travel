@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Turtuk Travel Guide: Ladakh's Last Balti Village Before the LOC" },
   description:
-    "A complete guide to Turtuk, Ladakh — the Balti village opened to tourists only in 2010. Best time to visit, how to reach via Nubra Valley, ILP permits, Farol & Chutang villages, apricot orchards, homestays, and essential tips.",
+    "Turtuk, Ladakh: the Balti village opened to visitors in 2010, Farol and Chutang, apricot orchards, permits, homestays and how to reach via Nubra.",
   keywords:
     "Turtuk, Turtuk Ladakh, Turtuk village, Balti culture Ladakh, Nubra Valley Turtuk, Turtuk homestay, Turtuk travel guide, Farol Chutang village, Line of Control Ladakh, apricot village Ladakh, best time to visit Turtuk, how to reach Turtuk from Leh, Turtuk permits ILP, is Turtuk safe to visit, Turtuk budget trip, things to do in Turtuk, northernmost village in India",
   openGraph: {

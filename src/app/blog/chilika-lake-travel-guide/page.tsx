@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Chilika Lake Guide: Dolphins, Birds & Boating",
   description:
-    "Complete Chilika Lake guide — Irrawaddy dolphin spotting at Satapada, the migratory bird season at Nalabana Bird Sanctuary, Kalijai Temple, how to reach from Puri, and a full visit plan.",
+    "Chilika Lake guide: Irrawaddy dolphins at Satapada, winter birds at Nalabana, Kalijai temple, boat trips, how to reach from Puri and a visit plan.",
   keywords:
     "Chilika Lake travel guide, Irrawaddy dolphins Chilika, Satapada boat safari, Nalabana Bird Sanctuary, Kalijai Temple, Asia largest brackish water lagoon, Odisha wetland, Ramsar site Odisha",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chilika Lake Guide: Dolphins, Birds & Boating",
           description:
-            "Complete Chilika Lake guide — Irrawaddy dolphin spotting at Satapada, the migratory bird season at Nalabana Bird Sanctuary, Kalijai Temple, how to reach from Puri, and a full visit plan.",
+            "Chilika Lake guide: Irrawaddy dolphins at Satapada, winter birds at Nalabana, Kalijai temple, boat trips, how to reach from Puri and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/odisha/chilika-lake/nalabana-bird-sanctuary-chilika-lake.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

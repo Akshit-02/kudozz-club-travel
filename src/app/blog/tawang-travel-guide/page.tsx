@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Tawang Travel Guide: Monastery, War Memorial & Best Time to Visit" },
   description:
-    "The complete Tawang travel guide. Tawang Monastery, the 1962 War Memorial, Sela Pass, Bum La Pass, Inner Line Permits, where to stay, best time to visit, and a full itinerary.",
+    "Tawang guide: the monastery, the 1962 war memorial, Sela Pass and the tunnel, Bum La, Inner Line Permits, best time, where to stay and a 4-day plan.",
   keywords:
     "Tawang travel guide, Tawang Monastery, Tawang War Memorial, Bum La Pass, Inner Line Permit Tawang, best time to visit Tawang, how to reach Tawang, Sela Pass Tawang, Nuranang Falls, Arunachal Pradesh Tawang itinerary",
   openGraph: {
@@ -37,7 +37,7 @@ function ArticleSchema() {
       headline: "Tawang Travel Guide: Monastery, War Memorial & Best Time to Visit",
       description: "The complete Tawang travel guide.",
       image: "https://club.kudozz.in/images/blogs/arunachal-pradesh/tawang/tawang.webp",
-      datePublished: "2026-09-08", dateModified: "2026-09-08",
+      datePublished: "2026-09-08", dateModified: "2026-10-08",
       publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -70,7 +70,7 @@ function ArticleSchema() {
 const faqs = [
   { q: "Do I need a permit to visit Tawang?", a: "Yes — Indian citizens need an Inner Line Permit (ILP) for Arunachal Pradesh, applied for online in advance or in some cases on arrival at entry checkpoints. Foreign nationals need a Protected Area Permit (PAP), typically arranged through a registered travel agent. Verify the current application process before you go." },
   { q: "How many days do I need for Tawang?", a: "3-4 days minimum, given the multi-day road journey required to reach it via Bomdila, Dirang, and Sela Pass. Rushing the approach undercuts the experience and is genuinely tiring at altitude." },
-  { q: "What is the best time to visit Tawang?", a: "March–June and September–November offer the most reliable road access and clearest weather. Winter (December–February) brings heavy snow that can close Sela Pass and cut off road access entirely — verify current conditions before traveling in shoulder months." },
+  { q: "What is the best time to visit Tawang?", a: "March–June and September–November offer the most reliable road access and clearest weather. Winter (December–February) brings heavy snow that can close the road over Sela Pass; the Sela Tunnel, open since March 2024, keeps Tawang reachable in most conditions, but verify current road status before traveling." },
   { q: "Can I visit Bum La Pass from Tawang?", a: "Bum La Pass, near the actual India-China border, is accessible with special permits arranged locally, subject to military clearance and weather. This is a sensitive border area — verify current access status and permit process before planning around it." },
   { q: "Is there an airport in Tawang?", a: "Tenzing Airport near Tawang exists but operational status and flight frequency can vary — verify current status before relying on it. Most travelers reach Tawang by road via Guwahati, Bomdila, and Dirang." },
   { q: "Is altitude sickness a concern in Tawang?", a: "Tawang sits at roughly 3,000m, and the approach road crosses even higher passes. Acclimatize gradually via the multi-day road route rather than flying in directly if possible, stay hydrated, and know basic altitude sickness symptoms." },
@@ -176,7 +176,7 @@ export default function TawangGuidePage() {
                       { season: "Mar – Jun", emoji: "🌸", color: "bg-amber-50 border-amber-200", mood: "Reliable road access", text: "Snow clears from Sela Pass and the roads open up fully, offering clear high-altitude views before summer rains arrive." },
                       { season: "Sept – Nov", emoji: "🍂", color: "bg-orange-50 border-orange-200", mood: "Best overall — our pick", text: "Post-monsoon clarity with the most reliable road conditions and crisp mountain air." },
                       { season: "Jul – Aug", emoji: "🌧️", color: "bg-sky-50 border-sky-200", mood: "Monsoon", text: "Heavy rain brings landslide risk on the approach roads — genuinely the least reliable window for this route." },
-                      { season: "Dec – Feb", emoji: "❄️", color: "bg-purple-50 border-purple-200", mood: "Winter — road closures likely", text: "Heavy snow at Sela Pass can close the road entirely, cutting off Tawang — verify current conditions before attempting this window." },
+                      { season: "Dec – Feb", emoji: "❄️", color: "bg-purple-50 border-purple-200", mood: "Winter — road closures likely", text: "Heavy snow can close the road over Sela Pass; the Sela Tunnel (open since 2024) usually keeps Tawang reachable — verify current conditions before attempting this window." },
                     ].map((s) => (
                       <div key={s.season} className={`${s.color} border rounded-xl p-5`}>
                         <div className="flex items-center gap-2 mb-1.5"><span className="text-xl">{s.emoji}</span><span className="font-bold text-stone-800 text-sm" style={{ fontFamily: "var(--font-playfair)" }}>{s.season}</span></div>

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Jibhi Travel Guide: Waterfalls, Cafes & Himachal's Quiet Village" },
   description:
-    "The complete Jibhi travel guide. Jibhi Waterfall, Jalori Pass, Serolsar Lake, boutique cafes and homestays, where to stay, best time to visit, and a full 2-day itinerary through Himachal's quietest backpacker village.",
+    "Jibhi, Himachal: Jibhi Waterfall, Jalori Pass and Serolsar Lake, cafes and homestays, best time, how to reach and a 2-day itinerary.",
   keywords:
     "Jibhi travel guide, Jibhi waterfall, Jalori Pass, Serolsar Lake trek, Jibhi Himachal, best time to visit Jibhi, how to reach Jibhi, Tirthan Valley Jibhi, offbeat Himachal villages",
   openGraph: {

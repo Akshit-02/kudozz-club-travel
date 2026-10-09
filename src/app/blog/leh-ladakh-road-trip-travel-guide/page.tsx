@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Leh Ladakh Road Trip Guide: Routes, Permits, Passes & Tips" },
   description:
-    "The ultimate Leh Ladakh road trip guide. Everything you need — Manali-Leh and Srinagar-Leh routes, Inner Line Permits, Khardung La, Pangong Lake, Nubra Valley, monasteries, bike vs car, and a complete 14-day itinerary.",
+    "Leh Ladakh road trip: the Manali-Leh and Srinagar-Leh routes, Inner Line Permits, Khardung La, Pangong and Nubra, bike vs car and a 14-day itinerary.",
   keywords:
     "Leh Ladakh road trip, Ladakh travel guide, Manali to Leh highway, Pangong Lake, Nubra Valley, Khardung La, Ladakh inner line permit, Ladakh bike trip, Ladakh itinerary, best time to visit Leh Ladakh, how to reach Leh Ladakh, Leh Ladakh budget trip, Leh Ladakh 14 day itinerary, Ladakh bike vs car, is Khardung La the highest motorable pass",
   openGraph: {

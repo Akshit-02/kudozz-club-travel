@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Guwahati Travel Guide: Brahmaputra Sunset Cruises & City Guide" },
   description:
-    "The complete Guwahati travel guide. Brahmaputra sunset cruises, Umananda Temple, Assam State Museum, day trips to Kamakhya and Hajo, where to stay, best time to visit, and a full itinerary.",
+    "Guwahati guide: Brahmaputra sunset cruises, Kamakhya and Umananda temples, the state museum, day trips to Hajo, where to stay and a 2-day plan.",
   keywords:
     "Guwahati travel guide, Brahmaputra sunset cruise, Umananda Temple, Assam State Museum, best time to visit Guwahati, how to reach Guwahati, Guwahati itinerary, Northeast India gateway city",
   openGraph: {

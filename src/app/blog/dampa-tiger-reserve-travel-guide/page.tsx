@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Dampa Tiger Reserve: Safari Guide & Tips",
   description:
-    "Complete Dampa Tiger Reserve guide — bamboo forest ecosystem, hoolock gibbons, birdwatching, honest notes on tiger sighting odds, how to reach, and a full visit plan.",
+    "Dampa Tiger Reserve, Mizoram: bamboo forest, hoolock gibbons and birds, honest tiger-sighting odds, how to reach from Aizawl and a 2-day plan.",
   keywords:
     "Dampa Tiger Reserve, Mizoram wildlife, Mamit district, hoolock gibbon Mizoram, bamboo forest reserve, Important Bird Area Mizoram, how to reach Dampa Tiger Reserve",
   openGraph: {
@@ -61,10 +61,10 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dampa Tiger Reserve: Safari Guide & Tips",
           description:
-            "Complete Dampa Tiger Reserve guide — bamboo forest ecosystem, hoolock gibbons, birdwatching, honest notes on tiger sighting odds, how to reach, and a full visit plan.",
+            "Dampa Tiger Reserve, Mizoram: bamboo forest, hoolock gibbons and birds, honest tiger-sighting odds, how to reach from Aizawl and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/mizoram/dampa-tiger-reserve/dampa-tiger-reserve-guide-cover.webp",
           datePublished: "2026-09-04",
-          dateModified: "2026-09-30",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -380,6 +380,12 @@ export default function DampaTigerReserveGuidePage() {
                       worth arranging.
                     </li>
                   </ul>
+                  <div
+                    className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    <strong>📋 Inner Line Permit:</strong> Indian visitors from outside Mizoram need an Inner Line Permit (ILP) to enter the state. Apply on the Mizoram government's official portal (ilp.mizoram.gov.in) before you travel and carry a copy. Foreign nationals need a Protected Area Permit, which was reinstated for Mizoram in December 2024.
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}

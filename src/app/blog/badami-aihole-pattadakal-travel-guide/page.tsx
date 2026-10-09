@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Badami, Aihole & Pattadakal Travel Guide: Chalukya Cave Temples" },
   description:
-    "The complete Badami-Aihole-Pattadakal travel guide. Rock-cut cave temples, the cradle of Indian temple architecture, the UNESCO-listed Virupaksha Temple, where to stay, best time to visit, and a full 2-day itinerary.",
+    "Badami, Aihole and Pattadakal: Chalukya cave temples, the cradle of Indian temple architecture and UNESCO-listed Pattadakal, with a 2-day itinerary.",
   keywords:
     "Badami travel guide, Aihole, Pattadakal, Chalukya temples, Badami cave temples, Virupaksha Temple Pattadakal, UNESCO Karnataka, best time to visit Badami, how to reach Badami",
   openGraph: {

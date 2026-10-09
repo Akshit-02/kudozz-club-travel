@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Yadadri Temple Guide: Darshan, Timings & Tips",
   description:
-    "Complete Yadadri (Yadagirigutta) guide — the Lakshmi Narasimha Swamy temple's dramatic gold-plated redevelopment, darshan options, how to reach from Hyderabad, and a full visit plan.",
+    "Yadagirigutta (Yadadri): the rebuilt Lakshmi Narasimha Swamy temple, darshan options and timings, how to reach from Hyderabad and a half-day plan.",
   keywords:
     "Yadadri travel guide, Yadagirigutta temple, Lakshmi Narasimha Swamy, Yadadri darshan timings, Telangana temples, how to reach Yadadri, Yadadri from Hyderabad, Narasimha Jayanti",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Yadadri Temple Guide: Darshan, Timings & Tips",
           description:
-            "Complete Yadadri (Yadagirigutta) guide — the Lakshmi Narasimha Swamy temple's dramatic gold-plated redevelopment, darshan options, how to reach from Hyderabad, and a full visit plan.",
+            "Yadagirigutta (Yadadri): the rebuilt Lakshmi Narasimha Swamy temple, darshan options and timings, how to reach from Hyderabad and a half-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/telangana/yadadri/yadadri-narasimha-swamy-temple-gopuram.webp",
           datePublished: "2026-09-03",

@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Omkareshwar Travel Guide: Jyotirlinga Temple & Ghats" },
   description:
-    "The complete Omkareshwar travel guide. The Om-shaped Mandhata island temple, Mamleshwar Temple, Narmada Parikrama, riverside ghats and boating, where to stay, and a 1-day itinerary.",
+    "Omkareshwar: the Jyotirlinga temple on Mandhata island in the Narmada, Mamleshwar Temple, the ghats and boating, where to stay and a one-day plan.",
   keywords:
     "Omkareshwar travel guide, Omkareshwar Jyotirlinga, Mandhata Island, Mamleshwar Temple, Narmada Parikrama, Omkareshwar itinerary, best time to visit Omkareshwar, how to reach Omkareshwar, Omkareshwar Madhya Pradesh",
   openGraph: {

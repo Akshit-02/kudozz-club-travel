@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Benreu Village Guide: Zeliang Naga Heritage",
   description:
-    "Complete Benreu village guide — Zeliang Naga heritage and traditional architecture, community-based homestays, proximity to Barail Wildlife Sanctuary, how to reach Peren district, and what to expect.",
+    "Benreu, a Zeliang Naga village in Peren district: traditional architecture, community homestays, Barail Wildlife Sanctuary and how to get there.",
   keywords:
     "Benreu village Nagaland, Zeliang Naga, Peren district, Nagaland homestay, Barail Wildlife Sanctuary, community tourism Nagaland, Naga village visit, offbeat Nagaland",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Benreu Village Guide: Zeliang Naga Heritage",
           description:
-            "Complete Benreu village guide — Zeliang Naga heritage and traditional architecture, community-based homestays, proximity to Barail Wildlife Sanctuary, how to reach Peren district, and what to expect.",
+            "Benreu, a Zeliang Naga village in Peren district: traditional architecture, community homestays, Barail Wildlife Sanctuary and how to get there.",
           image:
             "https://club.kudozz.in/images/blogs/nagaland/nagaland/dzukou-valley-rolling-green-hills-nagaland.webp",
           datePublished: "2026-09-04",

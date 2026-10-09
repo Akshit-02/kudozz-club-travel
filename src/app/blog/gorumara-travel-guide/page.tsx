@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Gorumara National Park: Safari, Timings & Tips",
   description:
-    "Complete Gorumara National Park guide — rhino and elephant jeep safaris, watchtowers, safari timings, Murti riverside stays, Chapramari sanctuary, and how to plan your visit.",
+    "Gorumara National Park safari guide: rhinos and elephants, watchtowers and timings, Murti riverside stays, Chapramari, and how to plan a visit.",
   keywords:
     "Gorumara National Park, Gorumara safari, Gorumara jeep safari timings, Jatraprasad watchtower, Chukchuki watchtower, Murti river Lataguri, Chapramari Wildlife Sanctuary, one-horned rhinoceros Gorumara, Gorumara best time to visit, Dooars wildlife",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Gorumara National Park: Safari, Timings & Tips",
           description:
-            "Complete Gorumara National Park guide — rhino and elephant jeep safaris, watchtowers, safari timings, Murti riverside stays, Chapramari sanctuary, and how to plan your visit.",
+            "Gorumara National Park safari guide: rhinos and elephants, watchtowers and timings, Murti riverside stays, Chapramari, and how to plan a visit.",
           image: "https://club.kudozz.in/images/blogs/west-bengal/gorumara/gorumara-national-park.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

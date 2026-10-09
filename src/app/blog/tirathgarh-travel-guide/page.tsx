@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Tirathgarh Falls Travel Guide: Kanger Valley Waterfall" },
   description:
-    "The complete Tirathgarh Falls travel guide. Multi-tiered cascade, sal forest setting, swimming pools, where to stay, best time to visit, and a full itinerary through Kanger Valley National Park's signature waterfall.",
+    "Tirathgarh Falls in Kanger Valley National Park: the stepped cascade, sal forest, pools, best time, where to stay and a half-day plan.",
   keywords:
     "Tirathgarh Falls travel guide, Tirathgarh waterfall, Kanger Valley National Park falls, best time to visit Tirathgarh, how to reach Tirathgarh Falls, Bastar waterfalls, Chhattisgarh waterfalls",
   openGraph: {

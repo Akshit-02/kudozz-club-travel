@@ -12,9 +12,9 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Visakhapatnam Travel Guide: Beaches, Submarine Museum & More" },
   description:
-    "The complete Visakhapatnam travel guide. INS Kurusura Submarine Museum, RK Beach, Rushikonda Beach, Kailasagiri, where to stay, best time to visit, and a full itinerary.",
+    "Visakhapatnam (Vizag): the INS Kursura submarine museum, RK and Rushikonda beaches, Kailasagiri, where to stay and a 2-day itinerary.",
   keywords:
-    "Visakhapatnam travel guide, Vizag travel guide, INS Kurusura Submarine Museum, RK Beach, Rushikonda Beach, Kailasagiri, best time to visit Vizag, how to reach Visakhapatnam",
+    "Visakhapatnam travel guide, Vizag travel guide, INS Kursura Submarine Museum, RK Beach, Rushikonda Beach, Kailasagiri, best time to visit Vizag, how to reach Visakhapatnam",
   openGraph: {
     title: "Visakhapatnam Travel Guide: Beaches, Submarine Museum & More",
     description: "A port city where a decommissioned submarine sits beached as a museum, and the coastline curves into some of the Bay of Bengal's most underrated beaches — the complete guide to Visakhapatnam.",
@@ -69,7 +69,7 @@ const faqs = [
   { q: "How many days do I need in Visakhapatnam?", a: "Two days covers the main city sights (Submarine Museum, beaches, Kailasagiri). Add a third day if you're using Vizag as a base for a day trip to Araku Valley or Borra Caves." },
   { q: "What is the best time to visit Visakhapatnam?", a: "October to March offers the most comfortable weather. Summer (April–June) brings significant coastal heat and humidity." },
   { q: "How do I reach Visakhapatnam?", a: "Visakhapatnam Airport (VTZ) has good domestic connectivity, it's a major railway junction, and it's well connected by road as one of Andhra Pradesh's largest cities." },
-  { q: "Is the INS Kurusura Submarine Museum worth visiting?", a: "Yes — it's a genuinely unusual attraction, a decommissioned Indian Navy submarine beached and converted into a public museum, one of very few of its kind anywhere in the world." },
+  { q: "Is the INS Kursura Submarine Museum worth visiting?", a: "Yes — it's a genuinely unusual attraction, a decommissioned Indian Navy submarine beached and converted into a public museum, one of very few of its kind anywhere in the world." },
   { q: "Which beach is better — RK Beach or Rushikonda?", a: "RK Beach (Ramakrishna Beach) is the main city promenade, lively and easily walkable. Rushikonda Beach is quieter and more scenic, popular for water sports — pick based on whether you want city-beach convenience or a calmer setting." },
   { q: "Can I visit Araku Valley from Visakhapatnam?", a: "Yes — Vizag is the standard gateway city for Araku Valley, most famously via the scenic train route through numerous tunnels and bridges." },
   { q: "What is the budget for a trip to Visakhapatnam?", a: "A budget traveler can manage on roughly ₹1,800 a day, a mid-range trip closer to ₹4,500 a day. A 2-day trip totals roughly ₹3,600 on a budget and ₹9,000 mid-range." },
@@ -143,7 +143,7 @@ export default function VisakhapatnamGuidePage() {
                 <section id="introduction">
                   <h2>Why Visakhapatnam?</h2>
                   <p>
-                    <strong>Visakhapatnam</strong>, commonly called Vizag, is one of India's major eastern ports and a genuinely underrated coastal city. It's home to India's Eastern Naval Command headquarters, which gives the city a real maritime character — nowhere more so than at the <strong>INS Kurusura Submarine Museum</strong>, a decommissioned Navy submarine beached and converted into a public museum, one of very few of its kind anywhere in the world.
+                    <strong>Visakhapatnam</strong>, commonly called Vizag, is one of India's major eastern ports and a genuinely underrated coastal city. It's home to India's Eastern Naval Command headquarters, which gives the city a real maritime character — nowhere more so than at the <strong>INS Kursura Submarine Museum</strong>, a decommissioned Navy submarine beached and converted into a public museum, one of very few of its kind anywhere in the world.
                   </p>
                   <p>
                     Beyond the naval history, Vizag has a genuinely good coastline — RK Beach's city promenade, the quieter Rushikonda Beach, and hilltop views from Kailasagiri — plus its role as the standard gateway to Araku Valley and Borra Caves further inland.
@@ -153,7 +153,7 @@ export default function VisakhapatnamGuidePage() {
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                       {[
                         { icon: "📍", label: "State", value: "Andhra Pradesh, India" },
-                        { icon: "⚓", label: "Key Site", value: "INS Kurusura Submarine Museum" },
+                        { icon: "⚓", label: "Key Site", value: "INS Kursura Submarine Museum" },
                         { icon: "🌡️", label: "Best Time", value: "Oct – Mar" },
                         { icon: "✈️", label: "Airport", value: "Visakhapatnam (VTZ)" },
                         { icon: "🏖️", label: "Beaches", value: "RK Beach, Rushikonda" },
@@ -200,7 +200,7 @@ export default function VisakhapatnamGuidePage() {
                 <section id="top-attractions">
                   <h2>Top Things to Do in Visakhapatnam</h2>
                   <ul>
-                    <li><strong>INS Kurusura Submarine Museum:</strong> A decommissioned Navy submarine converted into a public museum — genuinely unusual and one of Vizag's must-see attractions.</li>
+                    <li><strong>INS Kursura Submarine Museum:</strong> A decommissioned Navy submarine converted into a public museum — genuinely unusual and one of Vizag's must-see attractions.</li>
                     <li><strong>RK Beach:</strong> The main city beach promenade, lively and easily walkable.</li>
                     <li><strong>Rushikonda Beach:</strong> A quieter, more scenic beach popular for water sports.</li>
                     <li><strong>Kailasagiri:</strong> A hilltop park reached by ropeway, with large Shiva-Parvati statues and panoramic coastline views.</li>
@@ -239,7 +239,7 @@ export default function VisakhapatnamGuidePage() {
                   <h2>2-Day Visakhapatnam Itinerary</h2>
                   <div className="space-y-4 my-8">
                     {[
-                      { day: "Day 1", title: "Naval History & Beaches", color: "bg-amber-700", activities: ["Arrive, check in", "Morning: INS Kurusura Submarine Museum", "Afternoon: RK Beach walk", "Evening: sunset at Rushikonda"] },
+                      { day: "Day 1", title: "Naval History & Beaches", color: "bg-amber-700", activities: ["Arrive, check in", "Morning: INS Kursura Submarine Museum", "Afternoon: RK Beach walk", "Evening: sunset at Rushikonda"] },
                       { day: "Day 2", title: "Kailasagiri & Temples", color: "bg-forest-600", activities: ["Morning: Kailasagiri ropeway and viewpoint", "Afternoon: Simhachalam Temple", "Evening: departure or continue to Araku Valley"] },
                     ].map((d) => (
                       <div key={d.day} className="flex gap-4">

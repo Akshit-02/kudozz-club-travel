@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Chandni Chowk Food Guide: Street Food & Shopping",
   description:
-    "Chandni Chowk travel guide — Delhi's 350-year-old bazaar built by Jahanara Begum. The legendary food walk, Kinari Bazaar, Khari Baoli spice market, and how to explore its lanes.",
+    "Chandni Chowk, Old Delhi: the famous food walk, Kinari Bazaar, the Khari Baoli spice market, Sis Ganj Sahib and how to explore the lanes.",
   keywords:
     "Chandni Chowk, Chandni Chowk Delhi, Chandni Chowk food walk, Chandni Chowk street food, Kinari Bazaar, Khari Baoli spice market, Paranthe Wali Gali, Dariba Kalan, Chawri Bazaar, Old Delhi market, Chandni Chowk shopping, Gurudwara Sis Ganj Sahib, Fatehpuri Masjid, Jahanara Begum",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chandni Chowk Food Guide: Street Food & Shopping",
           description:
-            "Chandni Chowk travel guide — Delhi's 350-year-old bazaar built by Jahanara Begum. The legendary food walk, Kinari Bazaar, Khari Baoli spice market, and how to explore its lanes.",
+            "Chandni Chowk, Old Delhi: the famous food walk, Kinari Bazaar, the Khari Baoli spice market, Sis Ganj Sahib and how to explore the lanes.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/chandni-chowk/chandni-chowk-bazaar-street-scene.webp",
           datePublished: "2026-08-30",

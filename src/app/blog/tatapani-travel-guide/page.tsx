@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Tatapani Travel Guide: Chhattisgarh's Natural Hot Springs" },
   description:
-    "The complete Tatapani travel guide. Sulphur hot springs on the Rihand River, the local temple, where to stay, best time to visit, and honest tips for this off-the-radar Chhattisgarh site.",
+    "Tatapani, Balrampur: sulphur hot springs on the Rihand river and the local temple, best time, where to stay and honest tips for an offbeat stop.",
   keywords:
     "Tatapani travel guide, Tatapani hot springs Chhattisgarh, Balrampur hot springs, best time to visit Tatapani, how to reach Tatapani, Chhattisgarh off-beat destinations",
   openGraph: {

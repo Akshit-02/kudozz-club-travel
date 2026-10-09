@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Kavaratti Island Travel Guide: Lagoon, Diving & Ujra Mosque" },
   description:
-    "The complete Kavaratti island travel guide — Lakshadweep's capital and most developed inhabited island. Kavaratti Beach and Lagoon, the Marine Aquarium, the driftwood-ceilinged Ujra Mosque, scuba diving, snorkelling, kayaking, and glass-bottom boat rides, where to stay, what to eat, and a full itinerary.",
+    "Kavaratti, Lakshadweep's capital island: the lagoon, Ujra Mosque, aquarium, diving and snorkelling, the entry permit, where to stay and a 3-day plan.",
   keywords:
     "Kavaratti island travel guide, Kavaratti Lakshadweep, Kavaratti beach, Kavaratti lagoon, Ujra mosque, Kavaratti aquarium, Kavaratti diving centre, Kavaratti water sports, Lakshadweep capital island, Lakshadweep permit, best time to visit Kavaratti, how to reach Kavaratti from Kochi, Kavaratti travel permit process, Kavaratti budget trip, things to do in Kavaratti island, Kavaratti 3 day itinerary, is Kavaratti safe for solo travellers, Kavaratti diving and snorkelling",
   openGraph: {

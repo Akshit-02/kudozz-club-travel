@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Connaught Place Guide: Shopping, Food & Nightlife",
   description:
-    "Complete Connaught Place travel guide — the Inner, Middle & Outer Circle layout, Central Park, Palika Bazaar, iconic old-school eateries, nightlife, and how to reach CP via Rajiv Chowk Metro.",
+    "Connaught Place, New Delhi: how the Inner, Middle and Outer circles work, Central Park, Palika Bazaar, classic eateries, nightlife and getting there.",
   keywords:
     "Connaught Place Delhi, CP Delhi shopping, Connaught Place restaurants, Central Park Connaught Place, things to do in Connaught Place, Rajiv Chowk metro, Palika Bazaar, Connaught Place nightlife, Connaught Place history",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Connaught Place Guide: Shopping, Food & Nightlife",
           description:
-            "Complete Connaught Place travel guide — the Inner, Middle & Outer Circle layout, Central Park, Palika Bazaar, iconic old-school eateries, nightlife, and how to reach CP via Rajiv Chowk Metro.",
+            "Connaught Place, New Delhi: how the Inner, Middle and Outer circles work, Central Park, Palika Bazaar, classic eateries, nightlife and getting there.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/connaught-place/connaught-place-colonnade-facade.webp",
           datePublished: "2026-08-30",

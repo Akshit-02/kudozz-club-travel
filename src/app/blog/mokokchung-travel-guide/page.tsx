@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Mokokchung Guide: Ao Naga Heartland",
   description:
-    "Complete Mokokchung guide — Ao Naga culture, the town's Christian mission history, traditional villages like Chuchuyimlang, how to reach from Kohima, and a full visit plan.",
+    "Mokokchung, Nagaland: Ao Naga culture, the mission history, villages such as Chuchuyimlang, how to reach from Kohima and a visit plan.",
   keywords:
     "Mokokchung travel guide, Ao Naga, Mokokchung Nagaland, Chuchuyimlang village, Naga Christian history, how to reach Mokokchung",
   openGraph: {
@@ -54,7 +54,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mokokchung Guide: Ao Naga Heartland",
           description:
-            "Complete Mokokchung guide — Ao Naga culture, the town's Christian mission history, traditional villages like Chuchuyimlang, how to reach from Kohima, and a full visit plan.",
+            "Mokokchung, Nagaland: Ao Naga culture, the mission history, villages such as Chuchuyimlang, how to reach from Kohima and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/nagaland/mokokchung/mokokchung.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

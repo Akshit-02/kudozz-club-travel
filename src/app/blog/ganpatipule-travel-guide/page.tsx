@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Ganpatipule Travel Guide: Beach, Temple & Konkan Coast" },
   description:
-    "The complete Ganpatipule travel guide. The Swayambhu Ganesh temple, Ganpatipule Beach, Prachin Konkan Museum, day trips to Ratnagiri, best time to visit, where to stay, and a 2-day itinerary along Maharashtra's Konkan coast.",
+    "Ganpatipule guide: the Swayambhu Ganesh temple and beach, the Prachin Konkan museum, Ratnagiri day trips, where to stay and a 2-day plan.",
   keywords:
     "Ganpatipule travel guide, Ganpatipule Temple, Ganpatipule Beach, Swayambhu Ganesh temple, Konkan coast Maharashtra, Ratnagiri day trip, Ganpatipule best time to visit, Ganpatipule how to reach, Prachin Konkan Museum",
   openGraph: {

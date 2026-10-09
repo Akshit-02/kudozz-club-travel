@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Vadodara Travel Guide: Laxmi Vilas Palace & Baroda's Heritage" },
   description:
-    "The complete Vadodara travel guide. Laxmi Vilas Palace, Baroda Museum, Sayaji Baug, Champaner-Pavagadh day trip, where to stay, best time to visit, and a full itinerary.",
+    "Vadodara (Baroda): Laxmi Vilas Palace, the Baroda Museum in Sayaji Baug and a day trip to Champaner-Pavagadh, where to stay and a 2-day plan.",
   keywords:
     "Vadodara travel guide, Laxmi Vilas Palace, Baroda Museum, Sayaji Baug, Champaner Pavagadh, best time to visit Vadodara, how to reach Vadodara, Gaekwad Baroda heritage",
   openGraph: {

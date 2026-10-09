@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Nandi Hills Travel Guide: Sunrise Point Near Bengaluru" },
   description:
-    "The complete Nandi Hills travel guide. Sunrise views, Tipu's Drop, Bhoga Nandeeshwara Temple, how to reach, best time to visit, and a half-day itinerary for Bengaluru's favourite early-morning escape.",
+    "Nandi Hills near Bengaluru: sunrise above the clouds, Tipu's Drop and Bhoga Nandeeshwara Temple, gate timings, how to reach and a half-day plan.",
   keywords:
     "Nandi Hills travel guide, Nandi Hills sunrise, Tipu's Drop, Bhoga Nandeeshwara Temple, best time to visit Nandi Hills, how to reach Nandi Hills from Bengaluru, Bengaluru weekend trip",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Hemis Travel Guide: Monastery, Festival & Snow Leopard Country" },
   description:
-    "The complete Hemis travel guide — Ladakh's largest and wealthiest monastery, the legendary Hemis Festival cham dances, and Hemis National Park, the snow leopard capital of the world. How to reach, best time, and insider tips.",
+    "Hemis, Ladakh: Ladakh's largest monastery, the Hemis festival cham dances, Hemis National Park's snow leopards, how to reach and the best time.",
   keywords:
     "Hemis, Hemis Monastery, Hemis Festival, Hemis National Park, snow leopard Ladakh, Drukpa Kagyu, cham dance, Leh Ladakh monasteries, Ladakh wildlife, snow leopard trek, best time to visit Hemis, how to reach Hemis from Leh, is Hemis safe for solo travellers, Hemis trip budget, top things to do in Hemis, Hemis Tsechu dates, snow leopard capital of the world, Rumbak village homestay, Stakna Monastery Ladakh, Hemis vs Thiksey monastery",
   openGraph: {

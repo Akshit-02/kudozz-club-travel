@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Palitana Travel Guide: Shatrunjaya Hill's Jain Temples" },
   description:
-    "The complete Palitana travel guide. The Shatrunjaya Hill climb, over 900 Jain marble temples, palanquin services, where to stay, best time to visit, and essential pilgrimage tips.",
+    "Palitana's Shatrunjaya Hill: the 3,500-step climb to over 900 Jain temples, palanquins, temple rules, best time, where to stay and a pilgrimage day plan.",
   keywords:
     "Palitana travel guide, Shatrunjaya Hill, Palitana Jain temples, Palitana steps climb, best time to visit Palitana, how to reach Palitana, Palitana vegetarian town, Jain pilgrimage Gujarat",
   openGraph: {

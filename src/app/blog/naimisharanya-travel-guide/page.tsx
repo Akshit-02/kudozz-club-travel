@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Naimisharanya Travel Guide: Sacred Forest & Temples",
   description:
-    "Complete Naimisharanya (Naimisaranya) guide — the sacred forest of the Puranas, Chakra Tirtha, Lalita Devi Shakti Peeth temple, Vyas Gaddi, Hanuman Garhi, how to reach, and a full visit plan.",
+    "Naimisharanya, the sacred forest of the Puranas: Chakra Tirtha, Lalita Devi temple, Vyas Gaddi and Hanuman Garhi, how to reach and a one-day plan.",
   keywords:
     "Naimisharanya travel guide, Naimisaranya, Chakra Tirtha, Lalita Devi Temple, Vyas Gaddi, sacred forest Puranas, Naimisharanya Sitapur, how to reach Naimisharanya, Naimisharanya Lucknow, Shakti Peeth Uttar Pradesh",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Naimisharanya Travel Guide: Sacred Forest & Temples",
           description:
-            "Complete Naimisharanya (Naimisaranya) guide — the sacred forest of the Puranas, Chakra Tirtha, Lalita Devi Shakti Peeth temple, Vyas Gaddi, Hanuman Garhi, how to reach, and a full visit plan.",
+            "Naimisharanya, the sacred forest of the Puranas: Chakra Tirtha, Lalita Devi temple, Vyas Gaddi and Hanuman Garhi, how to reach and a one-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttar-pradesh/naimisharanya/chakra-tirtha-sacred-pond.webp",
           datePublished: "2026-09-03",

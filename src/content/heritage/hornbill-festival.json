@@ -63,7 +63,7 @@
   "takeaways": [
     "Dates are fixed: 1 to 10 December every year.",
     "The venue is Kisama Heritage Village, about 12 km from Kohima.",
-    "Indian visitors need an Inner Line Permit; foreign visitors should check the current registration rules.",
+    "Indian visitors need an Inner Line Permit; foreign visitors need a Protected Area Permit.",
     "Book stays in Kohima or nearby homestays months ahead.",
     "December mornings and nights are cold; carry warm layers."
   ],
@@ -135,7 +135,7 @@
       "heading": "Permits and registration",
       "list": [
         "Indian citizens from outside Nagaland need an Inner Line Permit (ILP), which can be applied for online through the Nagaland government's ILP portal.",
-        "Foreign nationals do not usually need a Protected Area Permit for Nagaland but must register with the authorities; check the current rules before travel.",
+        "Foreign nationals need a Protected Area Permit for Nagaland, reinstated in December 2024; for the 2025 festival the Centre eased the process for most nationalities, so check the current rules before travel.",
         "Carry printed and digital copies of your permit and ID."
       ]
     },
@@ -259,7 +259,7 @@
     },
     {
       "q": "Do I need a permit?",
-      "a": "Indian visitors from outside Nagaland need an Inner Line Permit; foreign visitors should check registration rules."
+      "a": "Indian visitors from outside Nagaland need an Inner Line Permit; foreign visitors need a Protected Area Permit."
     },
     {
       "q": "How do I reach Kohima?",
@@ -322,5 +322,5 @@
     "group-tours"
   ],
   "planDestination": "Nagaland",
-  "updated": "2026-09-26"
+  "updated": "2026-10-08"
 }

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Bandhavgarh National Park: Tiger Safari Guide, Zones & Best Time" },
   description:
-    "The complete Bandhavgarh travel guide. Safari zones (Tala, Magadhi, Khitauli, Panpatha), Bandhavgarh Fort, best time to visit, how to book core and buffer zone permits, where to stay, and a 2-day itinerary for India's highest-tiger-density reserve.",
+    "Bandhavgarh tiger safari guide: the Tala, Magadhi, Khitauli and Panpatha zones, permit booking, the fort, best time, where to stay and a 2-day plan.",
   keywords:
     "Bandhavgarh travel guide, Bandhavgarh National Park, Bandhavgarh Tiger Reserve, Bandhavgarh safari booking, Tala zone, Magadhi zone, Bandhavgarh Fort, Bandhavgarh best time to visit, Bandhavgarh tiger sighting, Bandhavgarh Umaria, core zone vs buffer zone Bandhavgarh, Bandhavgarh safari price, Bandhavgarh national park Madhya Pradesh",
   openGraph: {

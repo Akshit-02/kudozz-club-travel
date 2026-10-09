@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Government Museum Chandigarh: Sector 10 Visit Guide",
   description:
-    "Guide to the Government Museum and Art Gallery in Sector 10, Chandigarh — its Gandhara sculpture collection, Pahari and Kangra miniature paintings, modern art section, timings, entry fee, and visit tips.",
+    "Government Museum and Art Gallery, Chandigarh: Gandhara sculpture, Pahari and Kangra miniatures, the modern art wing, timings and tips.",
   keywords:
     "Government Museum Chandigarh, Government Museum and Art Gallery Chandigarh, Sector 10 Chandigarh museum, Gandhara sculpture Chandigarh, Pahari miniature paintings, Kangra paintings Chandigarh, Chandigarh museum cluster, Chandigarh museum timings, Chandigarh museum entry fee",
   openGraph: {
@@ -63,7 +63,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Government Museum Chandigarh: Sector 10 Visit Guide",
           description:
-            "Guide to the Government Museum and Art Gallery in Sector 10, Chandigarh — its Gandhara sculpture collection, Pahari and Kangra miniature paintings, modern art section, timings, entry fee, and visit tips.",
+            "Government Museum and Art Gallery, Chandigarh: Gandhara sculpture, Pahari and Kangra miniatures, the modern art wing, timings and tips.",
           image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
           datePublished: "2026-08-31",
           dateModified: "2026-09-01",

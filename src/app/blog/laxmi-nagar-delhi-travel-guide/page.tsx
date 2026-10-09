@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Laxmi Nagar Delhi Guide: Market, Coaching & Food",
   description:
-    "A local's guide to Laxmi Nagar, Delhi — East Delhi's dense market-and-coaching neighbourhood, its UPSC/SSC institute ecosystem, PG accommodation, street food, and how to reach it by metro.",
+    "Laxmi Nagar, East Delhi: the market, the UPSC and SSC coaching hub, PG stays, street food and how to reach by metro, explained for visitors.",
   keywords:
     "Laxmi Nagar Delhi, Laxmi Nagar market, Laxmi Nagar coaching institutes, Laxmi Nagar PG accommodation, Nirman Vihar metro, Laxmi Nagar metro station, UPSC coaching Delhi, East Delhi market, Laxmi Nagar street food, Preet Vihar",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Laxmi Nagar Delhi Guide: Market, Coaching & Food",
           description:
-            "A local's guide to Laxmi Nagar, Delhi — East Delhi's dense market-and-coaching neighbourhood, its UPSC/SSC institute ecosystem, PG accommodation, street food, and how to reach it by metro.",
+            "Laxmi Nagar, East Delhi: the market, the UPSC and SSC coaching hub, PG stays, street food and how to reach by metro, explained for visitors.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/laxmi-nagar/laxmi-nagar-market-road-view.webp",
           datePublished: "2026-08-30",

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Meghamalai Guide: High Wavy Mountains & Tips",
   description:
-    "Complete Meghamalai guide — the remote High Wavy Mountains, tea and cardamom estates, wildlife-sanctuary forest, how to reach from Theni, permits, and a full visit plan.",
+    "Meghamalai, the High Wavy Mountains: tea and cardamom estates, sanctuary forest, permits, how to reach from Theni, where to stay and a 2-day plan.",
   keywords:
     "Meghamalai travel guide, High Wavy Mountains, Theni district hills, Meghamalai wildlife sanctuary, Tamil Nadu offbeat hill station, Meghamalai tea estates, how to reach Meghamalai",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Meghamalai Guide: High Wavy Mountains & Tips",
           description:
-            "Complete Meghamalai guide — the remote High Wavy Mountains, tea and cardamom estates, wildlife-sanctuary forest, how to reach from Theni, permits, and a full visit plan.",
+            "Meghamalai, the High Wavy Mountains: tea and cardamom estates, sanctuary forest, permits, how to reach from Theni, where to stay and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/tamil-nadu/meghamalai/meghamalai.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

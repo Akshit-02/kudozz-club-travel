@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Panna National Park Travel Guide: Tiger Safari & Ken River Gorge" },
   description:
-    "The complete Panna travel guide. The park's poaching-crisis-to-recovery story, jeep and Ken River boat safaris, Pandav Falls, best time to visit, where to stay, and a 1-2 day itinerary easily combined with Khajuraho.",
+    "Panna National Park: its tiger recovery story, jeep and Ken river boat safaris, Pandav Falls, best time, where to stay and pairing it with Khajuraho.",
   keywords:
     "Panna travel guide, Panna National Park, Panna Tiger Reserve, Panna safari booking, Ken River boat safari, Ken Gharial Sanctuary, Panna tiger reintroduction, Panna Khajuraho, Pandav Falls, Panna best time to visit, Panna national park Madhya Pradesh",
   openGraph: {

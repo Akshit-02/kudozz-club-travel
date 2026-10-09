@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Chennai Travel Guide: Beaches, Temples & Food",
   description:
-    "Complete Chennai guide — Marina Beach, Fort St. George, Mylapore's Kapaleeshwarar Temple, San Thome Basilica, filter coffee and dosas, how to reach, and a full 2-day visit plan.",
+    "Chennai travel guide: Marina Beach, Fort St George, Mylapore's Kapaleeshwarar temple, San Thome, filter coffee and dosas, with a 2-day plan.",
   keywords:
     "Chennai travel guide, Marina Beach, Fort St. George, Kapaleeshwarar Temple, Mylapore, San Thome Basilica, Chennai food guide, how to reach Chennai, Chennai day trips, Tamil Nadu capital",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chennai Travel Guide: Beaches, Temples & Food",
           description:
-            "Complete Chennai guide — Marina Beach, Fort St. George, Mylapore's Kapaleeshwarar Temple, San Thome Basilica, filter coffee and dosas, how to reach, and a full 2-day visit plan.",
+            "Chennai travel guide: Marina Beach, Fort St George, Mylapore's Kapaleeshwarar temple, San Thome, filter coffee and dosas, with a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/tamil-nadu/chennai/marina-beach-shoreline-waves-chennai.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

@@ -13,12 +13,12 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Sela Pass Travel Guide: One of India's Highest Motorable Passes" },
   description:
-    "The complete Sela Pass travel guide. Sela Lake, Jaswantgarh war memorial, seasonal road conditions, best time to visit, and practical tips for crossing this high-altitude Arunachal Pradesh pass.",
+    "Sela Pass, Arunachal: Sela Lake, the Jaswantgarh memorial, the old road over the top vs the Sela Tunnel, seasonal closures and tips for the drive.",
   keywords:
     "Sela Pass travel guide, Sela Lake, Jaswantgarh war memorial, Sela Pass altitude, Sela Pass road conditions, best time to visit Sela Pass, Dirang to Tawang road, Arunachal Pradesh mountain pass",
   openGraph: {
     title: "Sela Pass Travel Guide: One of India's Highest Motorable Passes",
-    description: "A high-altitude pass ringed by a sacred lake and hundreds of smaller frozen ponds, on the only road connecting Tawang to the rest of India — the complete guide to Sela Pass.",
+    description: "A high-altitude pass ringed by a sacred lake and hundreds of smaller frozen ponds, on the old road to Tawang — the complete guide to Sela Pass.",
     url: "https://club.kudozz.in/blog/sela-pass-travel-guide",
     type: "article", siteName: "Kudozz Club",
     images: [{ url: "/images/blogs/arunachal-pradesh/sela-pass/sela-pass-view.webp", width: 1200, height: 675, alt: "Sela Pass, Arunachal Pradesh" }],
@@ -37,7 +37,7 @@ function ArticleSchema() {
       headline: "Sela Pass Travel Guide: One of India's Highest Motorable Passes",
       description: "The complete Sela Pass travel guide.",
       image: "https://club.kudozz.in/images/blogs/arunachal-pradesh/sela-pass/sela-pass-view.webp",
-      datePublished: "2026-09-08", dateModified: "2026-09-08",
+      datePublished: "2026-09-08", dateModified: "2026-10-08",
       publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -70,9 +70,9 @@ function ArticleSchema() {
 const faqs = [
   { q: "How high is Sela Pass?", a: "Sela Pass is commonly cited at roughly 4,170m, making it one of the highest motorable passes in India — treat this figure as an approximate, widely-reported elevation rather than an exact survey measurement." },
   { q: "Can I stay overnight at Sela Pass?", a: "Not really — this is a pass to cross and stop at briefly rather than a base with proper accommodation. Most travelers continue on to Tawang or back to Dirang the same day." },
-  { q: "Is Sela Pass open year-round?", a: "No — heavy snow can close the pass in winter (roughly December–February), cutting off road access to Tawang. Verify current conditions before traveling, especially in shoulder months." },
+  { q: "Is Sela Pass open year-round?", a: "No — heavy snow can close the road over the pass in winter (roughly December–February). Since March 2024 the Sela Tunnel, about 400 m below the pass, keeps Tawang reachable when the top is snowed in, but to see Sela Lake you need the old road over the pass to be open. Verify current conditions before traveling." },
   { q: "What is Jaswantgarh?", a: "A war memorial near Sela Pass honoring an Indian soldier from the 1962 Sino-Indian War, a short and genuinely worthwhile detour for travelers crossing the pass." },
-  { q: "Is Sela Pass the only route to Tawang?", a: "Yes — it's the standard and essentially only road route connecting Tawang to the rest of Arunachal Pradesh, making it an unavoidable crossing for anyone visiting Tawang by road." },
+  { q: "Is Sela Pass the only route to Tawang?", a: "Not any more. The Sela Tunnel, opened in March 2024, carries the Tawang road beneath the pass, so traffic no longer has to cross the top. Most visitors still take the old road over the pass in good weather for Sela Lake and the views, then continue to Tawang." },
   { q: "Do I need a permit to cross Sela Pass?", a: "You'll need the same Inner Line Permit (Indian citizens) or Protected Area Permit (foreign nationals) required for Arunachal Pradesh generally, since the pass sits within the state — verify current requirements before traveling." },
   { q: "What should I carry for the Sela Pass crossing?", a: "Heavy warm layers regardless of season, sturdy footwear, sunscreen for high-altitude sun, and motion sickness medication if you're prone to it on winding mountain roads." },
 ];
@@ -123,7 +123,7 @@ export default function SelaPassGuidePage() {
               Sela Pass Travel Guide: One of India's Highest Motorable Passes
             </h1>
             <p className="text-lg text-white/80 max-w-2xl mb-8 leading-relaxed" style={{ fontFamily: "var(--font-source-serif)" }}>
-              A high-altitude pass ringed by a sacred lake and hundreds of smaller frozen ponds, on the only road connecting Tawang to the rest of India.
+              A high-altitude pass ringed by a sacred lake and hundreds of smaller frozen ponds, on the old road to Tawang.
             </p>
             <div className="flex flex-wrap items-center gap-4" style={{ fontFamily: "var(--font-dm-sans)" }}>
               {[
@@ -147,7 +147,7 @@ export default function SelaPassGuidePage() {
                 <section id="introduction">
                   <h2>Why Sela Pass?</h2>
                   <p>
-                    <strong>Sela Pass</strong>, at roughly 4,170m, is one of the highest motorable passes in India and the sole road route connecting Tawang (cross-reference that guide) to the rest of Arunachal Pradesh — anyone driving to Tawang crosses this pass, making it less a standalone destination and more an essential, genuinely spectacular waypoint.
+                    <strong>Sela Pass</strong>, at roughly 4,170m, is one of the highest motorable passes in India and, for decades, the only road into Tawang (cross-reference that guide). Since March 2024 the Sela Tunnel has carried through traffic beneath the pass, but most travellers still drive over the top in good weather for the lake and the views, making it less a standalone destination and more a genuinely spectacular waypoint.
                   </p>
                   <p>
                     <strong>Sela Lake</strong>, sacred locally and tied to legend involving a young woman named Sela, sits right at the pass, surrounded by dozens of smaller lakes scattered across the high-altitude terrain. A short distance away, the <strong>Jaswantgarh</strong> war memorial adds a somber, significant layer to the crossing.
@@ -178,7 +178,7 @@ export default function SelaPassGuidePage() {
                       { season: "Mar – Jun", emoji: "🌸", color: "bg-amber-50 border-amber-200", mood: "Road opens up", text: "Snow clears and the pass becomes reliably passable, with clear high-altitude views." },
                       { season: "Sept – Nov", emoji: "🍂", color: "bg-orange-50 border-orange-200", mood: "Best overall — our pick", text: "The most reliable road conditions and clearest mountain views of the year." },
                       { season: "Jul – Aug", emoji: "🌧️", color: "bg-sky-50 border-sky-200", mood: "Monsoon", text: "Landslide risk on the approach roads makes this a less predictable window for the crossing." },
-                      { season: "Dec – Feb", emoji: "❄️", color: "bg-purple-50 border-purple-200", mood: "Winter — closures likely", text: "Heavy snow can close the pass entirely, cutting off road access to Tawang — verify current status." },
+                      { season: "Dec – Feb", emoji: "❄️", color: "bg-purple-50 border-purple-200", mood: "Winter — closures likely", text: "Heavy snow can close the road over the pass; the Sela Tunnel keeps Tawang reachable, but the lake and pass top may be out of reach — verify current status." },
                     ].map((s) => (
                       <div key={s.season} className={`${s.color} border rounded-xl p-5`}>
                         <div className="flex items-center gap-2 mb-1.5"><span className="text-xl">{s.emoji}</span><span className="font-bold text-stone-800 text-sm" style={{ fontFamily: "var(--font-playfair)" }}>{s.season}</span></div>

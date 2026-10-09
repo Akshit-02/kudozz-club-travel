@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Jhansi Travel Guide: Rani Lakshmibai's Fort",
   description:
-    "Complete Jhansi guide — Jhansi Fort and Rani Mahal, the story of Rani Lakshmibai and the 1857 Revolt, the Government Museum, how to reach, and Bundelkhand add-ons like Orchha and Khajuraho.",
+    "Jhansi travel guide: Jhansi Fort, Rani Mahal and Rani Lakshmibai's 1857 story, the museum, how to reach and add-ons to Orchha and Khajuraho.",
   keywords:
     "Jhansi travel guide, Jhansi Fort, Rani Lakshmibai, 1857 Revolt, Rani Mahal Jhansi, Jhansi Government Museum, how to reach Jhansi, Bundelkhand, Orchha from Jhansi, Jhansi Junction",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Jhansi Travel Guide: Rani Lakshmibai's Fort",
           description:
-            "Complete Jhansi guide — Jhansi Fort and Rani Mahal, the story of Rani Lakshmibai and the 1857 Revolt, the Government Museum, how to reach, and Bundelkhand add-ons like Orchha and Khajuraho.",
+            "Jhansi travel guide: Jhansi Fort, Rani Mahal and Rani Lakshmibai's 1857 story, the museum, how to reach and add-ons to Orchha and Khajuraho.",
           image:
             "https://club.kudozz.in/images/blogs/uttar-pradesh/jhansi/jhansi-fort-ramparts.webp",
           datePublished: "2026-09-03",

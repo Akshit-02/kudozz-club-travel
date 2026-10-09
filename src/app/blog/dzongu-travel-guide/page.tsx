@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Dzongu Travel Guide: Permits & Lepcha Culture",
   description:
-    "Complete Dzongu guide — Sikkim's restricted Lepcha reserve, permit requirements, community homestays, forests and hot springs, how to reach from Gangtok, and a full visit plan.",
+    "Dzongu, North Sikkim: the protected Lepcha reserve, the permit you need, community homestays, forests and hot springs, and how to reach.",
   keywords:
     "Dzongu Sikkim, Dzongu permits, Lepcha reserve, North Sikkim, Lepcha culture, Dzongu homestay, how to reach Dzongu, restricted area Sikkim",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dzongu Travel Guide: Permits & Lepcha Culture",
           description:
-            "Complete Dzongu guide — Sikkim's restricted Lepcha reserve, permit requirements, community homestays, forests and hot springs, how to reach from Gangtok, and a full visit plan.",
+            "Dzongu, North Sikkim: the protected Lepcha reserve, the permit you need, community homestays, forests and hot springs, and how to reach.",
           image: "https://club.kudozz.in/images/blogs/sikkim/dzongu/dzongu.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

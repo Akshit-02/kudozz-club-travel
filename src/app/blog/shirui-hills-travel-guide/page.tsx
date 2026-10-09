@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Shirui Hills Trek Guide: Shirui Lily & Best Time to Visit" },
   description:
-    "Complete Shirui Hills trek guide — home to the rare Shirui Lily found nowhere else on Earth, Shirui Kashong Peak, the Shirui Lily Festival, best time to visit, and full trip planning from Ukhrul.",
+    "Shirui Hills near Ukhrul, the only home of the Shirui lily: the trek to Shirui Kashong, the Shirui Lily Festival, best time and a 2-day plan.",
   keywords:
     "Shirui Hills, Shirui Lily, Lilium mackliniae, Shirui Kashong Peak, Shirui National Park, Shirui Lily Festival, Manipur state flower, Ukhrul trek, best time Shirui Lily",
   openGraph: {

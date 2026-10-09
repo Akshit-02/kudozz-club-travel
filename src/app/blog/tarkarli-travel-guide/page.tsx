@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Tarkarli Travel Guide: Scuba Diving, Beaches & Malvan" },
   description:
-    "The complete Tarkarli travel guide. Scuba diving over live coral, Sindhudurg Fort, Devbagh Sangam, Malvani seafood, where to stay, and a full itinerary for the Konkan coast's clearest water.",
+    "Tarkarli, Malvan: scuba diving and snorkelling, Sindhudurg Fort, Devbagh Sangam, Malvani seafood, where to stay and a 3-day itinerary.",
   keywords:
     "Tarkarli travel guide, Tarkarli scuba diving, Sindhudurg Fort, Malvan, Devbagh beach, Tarkarli itinerary, best time to visit Tarkarli, how to reach Tarkarli, Malvani food, Konkan coast beaches, Tarkarli water sports",
   openGraph: {

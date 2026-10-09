@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Vagator Beach Travel Guide: Red Cliffs & Chapora Fort" },
   description:
-    "The complete Vagator travel guide. Red laterite cliffs, Big and Little Vagator beaches, Chapora Fort sunset views, where to stay, best time to visit, and a full itinerary.",
+    "Vagator, North Goa: red laterite cliffs, Big and Little Vagator beaches, sunset from Chapora Fort, where to stay and a one-day plan.",
   keywords:
     "Vagator travel guide, Vagator beach Goa, Chapora Fort, Little Vagator Ozran, best time to visit Vagator, how to reach Vagator, North Goa beaches",
   openGraph: {

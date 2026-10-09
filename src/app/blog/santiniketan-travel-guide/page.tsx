@@ -14,13 +14,13 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Santiniketan Travel Guide: Tagore's University Town",
   description:
-    "Complete Santiniketan guide — Vishwa-Bharati University (UNESCO World Heritage), Uttarayan, Kala Bhavana, Sonajhuri haat, Poush Mela, how to reach from Kolkata, and a full visit plan.",
+    "Santiniketan: Tagore's Visva-Bharati, a UNESCO World Heritage Site, Uttarayan, Kala Bhavana, Sonajhuri haat and Poush Mela, with a 1-2 day plan.",
   keywords:
-    "Santiniketan travel guide, Bolpur, Vishwa-Bharati University, Rabindranath Tagore, Santiniketan UNESCO, Sonajhuri haat, Poush Mela, Basanta Utsav, Uttarayan Santiniketan, Kala Bhavana, how to reach Santiniketan, West Bengal heritage",
+    "Santiniketan travel guide, Bolpur, Visva-Bharati University, Rabindranath Tagore, Santiniketan UNESCO, Sonajhuri haat, Poush Mela, Basanta Utsav, Uttarayan Santiniketan, Kala Bhavana, how to reach Santiniketan, West Bengal heritage",
   openGraph: {
     title: "Santiniketan Travel Guide: Tagore's University Town",
     description:
-      "Rabindranath Tagore's rural university town — UNESCO-listed Vishwa-Bharati, open-air classrooms, Sonajhuri's Saturday haat, and Bengal's most colourful spring festival.",
+      "Rabindranath Tagore's rural university town — UNESCO-listed Visva-Bharati, open-air classrooms, Sonajhuri's Saturday haat, and Bengal's most colourful spring festival.",
     url: "https://club.kudozz.in/blog/santiniketan-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Santiniketan Travel Guide: Tagore's University Town",
     description:
-      "UNESCO-listed Vishwa-Bharati, open-air classrooms, Sonajhuri's Saturday haat, and Bengal's most colourful spring festival.",
+      "UNESCO-listed Visva-Bharati, open-air classrooms, Sonajhuri's Saturday haat, and Bengal's most colourful spring festival.",
     images: ["/images/blogs/west-bengal/santiniketan/udayan-tagore-house-santiniketan.webp"],
   },
   alternates: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Santiniketan Travel Guide: Tagore's University Town",
           description:
-            "Complete Santiniketan guide — Vishwa-Bharati University (UNESCO World Heritage), Uttarayan, Kala Bhavana, Sonajhuri haat, Poush Mela, how to reach from Kolkata, and a full visit plan.",
+            "Santiniketan: Tagore's Visva-Bharati, a UNESCO World Heritage Site, Uttarayan, Kala Bhavana, Sonajhuri haat and Poush Mela, with a 1-2 day plan.",
           image: "https://club.kudozz.in/images/blogs/west-bengal/santiniketan/udayan-tagore-house-santiniketan.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",
@@ -91,7 +91,7 @@ function ArticleSchema() {
             "@id": "https://club.kudozz.in/blog/santiniketan-travel-guide",
           },
           keywords:
-            "Santiniketan, Bolpur, Vishwa-Bharati University, Rabindranath Tagore, UNESCO World Heritage, Sonajhuri haat, Poush Mela, Basanta Utsav",
+            "Santiniketan, Bolpur, Visva-Bharati University, Rabindranath Tagore, UNESCO World Heritage, Sonajhuri haat, Poush Mela, Basanta Utsav",
           about: {
             "@type": "Place",
             name: "Santiniketan",
@@ -119,7 +119,7 @@ const faqs = [
   },
   {
     q: "Is Santiniketan a UNESCO World Heritage Site?",
-    a: "Yes — Vishwa-Bharati University at Santiniketan was inscribed as a UNESCO World Heritage Site in September 2023, recognised for its distinctive architecture and its founding philosophy of open-air, nature-integrated education pioneered by Rabindranath Tagore in the early 20th century.",
+    a: "Yes — Visva-Bharati University at Santiniketan was inscribed as a UNESCO World Heritage Site in September 2023, recognised for its distinctive architecture and its founding philosophy of open-air, nature-integrated education pioneered by Rabindranath Tagore in the early 20th century.",
   },
   {
     q: "What is the Sonajhuri haat and when does it happen?",
@@ -204,7 +204,7 @@ export default function SantiniketanGuidePage() {
               {[
                 "Santiniketan",
                 "Rabindranath Tagore",
-                "Vishwa-Bharati",
+                "Visva-Bharati",
                 "UNESCO Heritage",
                 "Bolpur",
               ].map((tag) => (
@@ -230,7 +230,7 @@ export default function SantiniketanGuidePage() {
               style={{ fontFamily: "var(--font-source-serif)" }}
             >
               A rural campus built on the idea that education happens best
-              under open sky and trees — Rabindranath Tagore's Vishwa-Bharati,
+              under open sky and trees — Rabindranath Tagore's Visva-Bharati,
               now a UNESCO World Heritage Site, and the Saturday haat at
               Sonajhuri that draws visitors from across Bengal.
             </p>
@@ -298,7 +298,7 @@ export default function SantiniketanGuidePage() {
                     <Link href="/blog/kolkata-travel-guide">Kolkata</Link>.
                     Rabindranath expanded it into an experimental school in
                     1901 and, in 1921, founded{" "}
-                    <strong>Vishwa-Bharati University</strong> here, built on
+                    <strong>Visva-Bharati University</strong> here, built on
                     a radical-for-its-time idea: that learning happens best
                     outdoors, under trees, in close contact with nature and
                     the surrounding rural community, rather than confined to
@@ -350,7 +350,7 @@ export default function SantiniketanGuidePage() {
                         {
                           icon: "🏛️",
                           label: "Known For",
-                          value: "Vishwa-Bharati, Tagore Legacy",
+                          value: "Visva-Bharati, Tagore Legacy",
                         },
                         {
                           icon: "🛍️",
@@ -510,7 +510,7 @@ export default function SantiniketanGuidePage() {
                   <h3>Kala Bhavana</h3>
                   <GuideFigure src="/images/blogs/west-bengal/santiniketan/kala-bhavana-santiniketan.webp" alt="Kala Bhavana, Santiniketan" />
                   <p>
-                    Vishwa-Bharati's celebrated art school, whose alumni
+                    Visva-Bharati's celebrated art school, whose alumni
                     include some of modern India's most significant artists.
                     Its buildings and surrounding grounds are decorated with
                     murals and sculptures by former students and faculty,
@@ -602,7 +602,7 @@ export default function SantiniketanGuidePage() {
                         range: "₹800–₹2,000/night",
                         picks: [
                           "Guesthouses near Bolpur station",
-                          "Vishwa-Bharati guest accommodation",
+                          "Visva-Bharati guest accommodation",
                           "Simple lodges in the market area",
                         ],
                       },
@@ -961,7 +961,7 @@ export default function SantiniketanGuidePage() {
                 {[
                   "Santiniketan",
                   "Rabindranath Tagore",
-                  "Vishwa-Bharati",
+                  "Visva-Bharati",
                   "West Bengal",
                   "UNESCO Heritage",
                   "Bolpur",

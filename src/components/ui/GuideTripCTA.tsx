@@ -9,6 +9,16 @@ import { heritageForGuide } from "@/lib/heritage-links";
 import { hillsForGuide } from "@/lib/hills-links";
 import { natureForGuide } from "@/lib/nature-links";
 import { roadtripsForGuide } from "@/lib/roadtrips-links";
+import { itineraryForGuide } from "@/lib/itinerary-links";
+import { comboPackages } from "@/lib/combo-packages";
+
+// Guide → the multi-state circuit package that covers it (Golden Triangle,
+// Char Dham Yatra, Northeast India, Buddhist Circuit), from each combo's own
+// "places covered" list. First match wins.
+const comboForGuide = new Map<string, { slug: string; name: string }>();
+for (const c of comboPackages) {
+  for (const g of c.guideSlugs) if (!comboForGuide.has(g)) comboForGuide.set(g, { slug: c.slug, name: c.name });
+}
 
 // A single, quiet planning prompt placed after a guide's introduction.
 // Rendered inside .prose-travel, so it uses the .guide-cta overrides in
@@ -25,6 +35,8 @@ export default function GuideTripCTA({ slug, hideThingsToDo = false }: { slug: s
   const hill = hillsForGuide[slug];
   const nat = natureForGuide[slug];
   const road = roadtripsForGuide[slug];
+  const itin = itineraryForGuide[slug];
+  const combo = comboForGuide.get(slug);
   const samePlace = ctx.place === ctx.stateName && !ctx.cityArea;
 
   return (
@@ -33,6 +45,12 @@ export default function GuideTripCTA({ slug, hideThingsToDo = false }: { slug: s
       <p className="font-sans text-[15px]">
         Looking for activities and experiences? See our guide to the{" "}
         <Link href={`/blog/${ttd.slug}`}>best things to do in {ttd.destination}</Link>.
+      </p>
+    )}
+    {itin && (
+      <p className="font-sans text-[15px]">
+        Want a day-by-day plan? Follow{" "}
+        <Link href={`/blog/${itin.slug}`}>{itin.label}</Link>.
       </p>
     )}
     {road && (
@@ -99,6 +117,14 @@ export default function GuideTripCTA({ slug, hideThingsToDo = false }: { slug: s
               , or{" "}
               <Link href={`/packages/${ctx.packageSlug}`} className="font-semibold text-forest-700 underline underline-offset-4">
                 explore {ctx.stateName} tour packages
+              </Link>
+            </>
+          )}
+          {combo && (
+            <>
+              {samePlace ? ", or see the " : " and the "}
+              <Link href={`/packages/${combo.slug}`} className="font-semibold text-forest-700 underline underline-offset-4">
+                {combo.name} tour package
               </Link>
             </>
           )}

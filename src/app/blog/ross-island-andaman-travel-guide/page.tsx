@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Ross Island Travel Guide: Ruins, History & How to Visit" },
   description:
-    "Complete Ross Island guide — the former British capital of the Andamans, now ruins reclaimed by strangler figs. History, the Smritika museum, wildlife, timings, and how to combine it with North Bay Island.",
+    "Ross Island (Netaji Subhas Chandra Bose Dweep): British-era ruins under strangler figs, the Smritika museum, deer, timings and pairing it with North Bay.",
   keywords:
     "Ross Island, Netaji Subhas Chandra Bose Dweep, Ross Island Andaman, Ross Island history, Ross Island ruins, Ross Island ferry, Ross Island timings, Ross Island light and sound show, Port Blair day trip, North Bay Ross Island combo, Andaman colonial history, Andaman Islands travel guide FAQ",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Ross Island Travel Guide: Ruins, History & How to Visit",
           description:
-            "Complete Ross Island guide — the former British capital of the Andamans, now ruins reclaimed by strangler figs. History, the Smritika museum, wildlife, timings, and how to combine it with North Bay Island.",
+            "Ross Island (Netaji Subhas Chandra Bose Dweep): British-era ruins under strangler figs, the Smritika museum, deer, timings and pairing it with North Bay.",
           image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/ross-island-andaman/ross-island.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",

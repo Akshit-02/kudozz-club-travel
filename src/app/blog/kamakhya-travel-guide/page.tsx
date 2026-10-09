@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kamakhya Temple Travel Guide: Shakti Peetha & Ambubachi Mela" },
   description:
-    "The complete Kamakhya Temple travel guide. History, the Ambubachi Mela festival, darshan timings, Nilachal Hill, where to stay, best time to visit, and practical tips.",
+    "Kamakhya Temple, Guwahati: the Shakti Peetha on Nilachal Hill, darshan timings, the Ambubachi Mela, where to stay and a half-day plan.",
   keywords:
     "Kamakhya Temple travel guide, Kamakhya Guwahati, Shakti Peetha, Ambubachi Mela, Nilachal Hill temple, best time to visit Kamakhya, how to reach Kamakhya, Tantric temple Assam",
   openGraph: {

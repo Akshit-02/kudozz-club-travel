@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Hunder Travel Guide: Nubra Valley's Sand Dunes & Camel Safari" },
   description:
-    "A complete guide to Hunder in Nubra Valley, Ladakh — cold desert sand dunes, double-humped Bactrian camel safaris, Diskit Monastery, permits, budget, and camping under the stars.",
+    "Hunder in Ladakh's Nubra Valley: the cold-desert dunes, Bactrian camel rides, Diskit Monastery, permits, where to stay and a budget.",
   keywords: [
     "Hunder",
     "Nubra Valley",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hunder Travel Guide: Nubra Valley's Sand Dunes & Camel Safari",
     description:
-      "A complete guide to Hunder in Nubra Valley, Ladakh — cold desert sand dunes, double-humped Bactrian camel safaris, Diskit Monastery, permits, budget, and camping under the stars.",
+      "Hunder in Ladakh's Nubra Valley: the cold-desert dunes, Bactrian camel rides, Diskit Monastery, permits, where to stay and a budget.",
     url: `https://club.kudozz.in/blog/hunder-travel-guide`,
     type: "article",
     tags: [
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hunder Travel Guide: Nubra Valley's Sand Dunes & Camel Safari",
     description:
-      "A complete guide to Hunder in Nubra Valley, Ladakh — cold desert sand dunes, double-humped Bactrian camel safaris, Diskit Monastery, permits, budget, and camping under the stars.",
+      "Hunder in Ladakh's Nubra Valley: the cold-desert dunes, Bactrian camel rides, Diskit Monastery, permits, where to stay and a budget.",
     images: ["/images/blogs/ladakh/hunder/hunder-sand-dunes-aerial-view.webp"],
   },
   alternates: {
@@ -83,7 +83,7 @@ function ArticleSchema() {
           headline:
             "Hunder Travel Guide: Nubra Valley's Sand Dunes & Camel Safari",
           description:
-            "A complete guide to Hunder in Nubra Valley, Ladakh — cold desert sand dunes, double-humped Bactrian camel safaris, Diskit Monastery, permits, budget, and camping under the stars.",
+            "Hunder in Ladakh's Nubra Valley: the cold-desert dunes, Bactrian camel rides, Diskit Monastery, permits, where to stay and a budget.",
           image: "https://club.kudozz.in/images/blogs/ladakh/hunder/hunder-sand-dunes-aerial-view.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-09-09",

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Rock Garden Chandigarh: Nek Chand's Travel Guide & Tips" },
   description:
-    "Complete guide to the Rock Garden, Chandigarh — Nek Chand's 40-acre sculpture garden built secretly from industrial waste. History, timings, entry fee, the courtyards, and visit tips.",
+    "Nek Chand's Rock Garden, Chandigarh: the sculpture garden built in secret from waste, its courtyards, timings, entry fee and a 1.5-2 hour visit plan.",
   keywords:
     "Rock Garden Chandigarh, Nek Chand Rock Garden, Rock Garden Chandigarh timings, Rock Garden entry fee, Nek Chand Saini, Rock Garden Sector 1 Chandigarh, Rock Garden history, Rock Garden waste sculptures, Rock Garden Chandigarh photography, Rock Garden Sukhna Lake, Chandigarh sightseeing, best time to visit Rock Garden Chandigarh, Nek Chand sculptures, Rock Garden Chandigarh FAQ",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Rock Garden Chandigarh: Nek Chand's Travel Guide & Tips",
           description:
-            "Complete guide to the Rock Garden, Chandigarh — Nek Chand's 40-acre sculpture garden built secretly from industrial waste. History, timings, entry fee, the courtyards, and visit tips.",
+            "Nek Chand's Rock Garden, Chandigarh: the sculpture garden built in secret from waste, its courtyards, timings, entry fee and a 1.5-2 hour visit plan.",
           image:
             "https://club.kudozz.in/images/blogs/chandigarh/chandigarh/rock-garden-mosaic-sculptures-chandigarh.webp",
           datePublished: "2026-08-31",

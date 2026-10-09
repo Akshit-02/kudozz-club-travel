@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Kannauj Travel Guide: India's Perfume Capital",
   description:
-    "Complete Kannauj guide — the deg-bhapka attar-distillation tradition, working perfume workshops, Harsha's ancient capital, the Perfume Museum, temples and fort ruins, and how to reach.",
+    "Kannauj, India's perfume town: deg-bhapka attar distilling, working workshops, the perfume museum, Harsha's old capital and how to reach.",
   keywords:
     "Kannauj travel guide, Kannauj ittar, Ittar Nagri, Kannauj attar, deg bhapka, Kannauj Perfume Museum, mitti attar, Harsha Kannauj history, Someshwar Nath Temple, Tirwa Fort, how to reach Kannauj",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kannauj Travel Guide: India's Perfume Capital",
           description:
-            "Complete Kannauj guide — the deg-bhapka attar-distillation tradition, working perfume workshops, Harsha's ancient capital, the Perfume Museum, temples and fort ruins, and how to reach.",
+            "Kannauj, India's perfume town: deg-bhapka attar distilling, working workshops, the perfume museum, Harsha's old capital and how to reach.",
           image: "https://club.kudozz.in/images/blogs/uttar-pradesh/kannauj/camel-skin-attar-perfume-bottles.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

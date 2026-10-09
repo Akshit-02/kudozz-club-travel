@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Chandil Dam Travel Guide: Reservoir, Boating & Day Trip Guide" },
   description:
-    "The complete Chandil Dam travel guide. Reservoir boating, hill views, how to reach from Jamshedpur, best time to visit, and a practical half-day itinerary for this Subarnarekha River dam.",
+    "Chandil Dam on the Subarnarekha near Jamshedpur: reservoir boating, hill views, the best season, how to reach and a half-day plan.",
   keywords:
     "Chandil Dam travel guide, Chandil reservoir, Chandil boating, best time to visit Chandil, how to reach Chandil, Jamshedpur day trips, Subarnarekha River dam Jharkhand",
   openGraph: {

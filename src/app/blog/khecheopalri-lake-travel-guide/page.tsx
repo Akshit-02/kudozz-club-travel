@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Khecheopalri Lake Guide: The Wishing Lake",
   description:
-    "Complete Khecheopalri Lake guide — Sikkim's sacred wish-fulfilling lake, the bird legend, Khecheopalri Monastery, the Maghe Purnima fair, how to reach from Pelling, and a full visit plan.",
+    "Khecheopalri Lake, West Sikkim: the sacred wish-fulfilling lake, its monastery, the Maghe Purnima fair, how to reach from Pelling and a visit plan.",
   keywords:
     "Khecheopalri Lake, wishing lake Sikkim, Khecheopalri Monastery, West Sikkim, Maghe Purnima, sacred lake Sikkim, how to reach Khecheopalri Lake, Pelling day trip",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Khecheopalri Lake Guide: The Wishing Lake",
           description:
-            "Complete Khecheopalri Lake guide — Sikkim's sacred wish-fulfilling lake, the bird legend, Khecheopalri Monastery, the Maghe Purnima fair, how to reach from Pelling, and a full visit plan.",
+            "Khecheopalri Lake, West Sikkim: the sacred wish-fulfilling lake, its monastery, the Maghe Purnima fair, how to reach from Pelling and a visit plan.",
           image:
             "https://club.kudozz.in/images/blogs/sikkim/khecheopalri-lake/khecheopalri-lake.webp",
           datePublished: "2026-09-03",

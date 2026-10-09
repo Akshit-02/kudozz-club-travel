@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title:
     { absolute: "Dadra & Nagar Haveli and Daman & Diu Travel Guide" },
   description:
-    "The complete travel guide to Dadra & Nagar Haveli and Daman & Diu — Diu Fort, Nagoa Beach, Silvassa's tribal culture, INS Khukri Memorial, duty-free shopping, where to stay and eat, and a full weekend itinerary for India's quietest coastal Union Territory.",
+    "Dadra & Nagar Haveli and Daman & Diu guide: Diu Fort and Nagoa Beach, Daman's two forts, Silvassa's tribal culture and a weekend itinerary.",
   keywords:
     "Dadra Nagar Haveli travel guide, Daman Diu travel guide, Diu Fort, Nagoa Beach, Silvassa tourism, Diu weekend trip, Daman beaches, Gujarat coastal getaway, INS Khukri Memorial, Diu Portuguese heritage, best time to visit Diu, how to reach Diu from Mumbai, Diu itinerary 3 days, is Diu safe for solo travellers, Diu Daman budget trip, top things to do in Diu, Diu duty free shopping, Jampore Beach Daman, Warli art Silvassa",
   openGraph: {

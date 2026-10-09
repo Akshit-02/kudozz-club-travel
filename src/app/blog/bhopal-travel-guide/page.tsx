@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Bhopal Travel Guide: Lakes, Old City & Bhimbetka Gateway" },
   description:
-    "The complete Bhopal travel guide. Upper Lake, Taj-ul-Masajid, the old city bazaars, Van Vihar National Park, where to stay, and how to plan day trips to Bhimbetka and Sanchi from Madhya Pradesh's capital.",
+    "Bhopal travel guide: Upper Lake, Taj-ul-Masajid, the old city bazaars and Van Vihar, plus day trips to Bhimbetka and Sanchi, with a 2-day plan.",
   keywords:
     "Bhopal travel guide, Upper Lake Bhopal, Taj-ul-Masajid, Bhopal old city, Van Vihar National Park, Bhopal to Bhimbetka, Bhopal to Sanchi, Bhopal itinerary, best time to visit Bhopal, Bhopal Madhya Pradesh",
   openGraph: {

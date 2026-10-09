@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kovalam Travel Guide: Lighthouse Beach, Ayurveda & Itinerary" },
   description:
-    "The complete Kovalam travel guide. Lighthouse Beach, Hawah Beach, Samudra Beach, Ayurvedic wellness centres, where to stay, best time to visit, and a full itinerary through Kerala's original beach resort town.",
+    "Kovalam, Kerala: Lighthouse, Hawah and Samudra beaches, Ayurveda centres, best time, where to stay and a 2-day itinerary in the old beach resort.",
   keywords:
     "Kovalam travel guide, Lighthouse Beach Kovalam, Kovalam Ayurveda, Vizhinjam Lighthouse, best time to visit Kovalam, how to reach Kovalam, Trivandrum beaches, Kerala beach holiday",
   openGraph: {

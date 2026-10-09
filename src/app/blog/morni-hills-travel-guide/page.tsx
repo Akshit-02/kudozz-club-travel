@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Morni Hills Travel Guide: Haryana's Only Hill Station" },
   description:
-    "The complete Morni Hills travel guide. Tikkar Taal, Morni Fort, where to stay, best time to visit, and a full itinerary through Haryana's sole hill station near Chandigarh.",
+    "Morni Hills, Haryana's only hill station: Tikkar Taal, Morni Fort, best time, where to stay and a one-day itinerary from Chandigarh.",
   keywords:
     "Morni Hills travel guide, Tikkar Taal, Morni Fort, best time to visit Morni Hills, how to reach Morni Hills, Haryana hill station, Chandigarh weekend trip",
   openGraph: {

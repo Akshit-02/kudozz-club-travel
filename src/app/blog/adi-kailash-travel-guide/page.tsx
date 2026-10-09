@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Adi Kailash Travel Guide: Trek, Permits & Best Time",
   description:
-    "Complete Adi Kailash (Chhota Kailash) guide — the Om Parvat and Parvati Tal trek near the Nepal-Tibet border, Inner Line Permits, how to reach via Dharchula, and a full visit plan.",
+    "Adi Kailash (Chhota Kailash) and Om Parvat: Inner Line Permits, the route via Dharchula, best time, the trek and a 7–9 day plan.",
   keywords:
     "Adi Kailash, Chhota Kailash, Om Parvat, Adi Kailash trek, Pithoragarh, Dharchula, Gunji, Jolingkong, Inner Line Permit, Adi Kailash best time to visit, how to reach Adi Kailash, Parvati Tal",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Adi Kailash Travel Guide: Trek, Permits & Best Time",
           description:
-            "Complete Adi Kailash (Chhota Kailash) guide — the Om Parvat and Parvati Tal trek near the Nepal-Tibet border, Inner Line Permits, how to reach via Dharchula, and a full visit plan.",
+            "Adi Kailash (Chhota Kailash) and Om Parvat: Inner Line Permits, the route via Dharchula, best time, the trek and a 7–9 day plan.",
           image: "https://club.kudozz.in/images/blogs/uttarakhand/adi-kailash/adi-kailash-peak-parvati-kund-reflection.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

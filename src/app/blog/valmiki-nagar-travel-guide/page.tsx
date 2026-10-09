@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Valmiki Nagar Travel Guide: Tiger Reserve & Himalayan Foothills" },
   description:
-    "The complete Valmiki Nagar travel guide. Valmiki Tiger Reserve safaris, the Gandak River, Himalayan foothill scenery, where to stay, best time to visit, and a full itinerary.",
+    "Valmiki Tiger Reserve, Bihar's only tiger reserve: safaris in the terai foothills, the Gandak river, where to stay and a 2-day itinerary.",
   keywords:
     "Valmiki Nagar travel guide, Valmiki Tiger Reserve, Bihar tiger safari, Gandak River, best time to visit Valmiki Nagar, how to reach Valmiki Nagar, Bihar wildlife",
   openGraph: {

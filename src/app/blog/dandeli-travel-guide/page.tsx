@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Dandeli Travel Guide: White-Water Rafting & Wildlife Sanctuary" },
   description:
-    "The complete Dandeli travel guide. White-water rafting on the Kali River, Dandeli Wildlife Sanctuary, kayaking and zip-lining, where to stay, best time to visit, and a full 2-day itinerary through Karnataka's adventure hub.",
+    "Dandeli guide: white-water rafting on the Kali river, the wildlife sanctuary, kayaking and ziplines, the best season, where to stay and a 2-day plan.",
   keywords:
     "Dandeli travel guide, Dandeli rafting, Kali River rafting, Dandeli Wildlife Sanctuary, Syntheri Rocks, Kavala Caves, best time to visit Dandeli, how to reach Dandeli, Dandeli adventure sports",
   openGraph: {

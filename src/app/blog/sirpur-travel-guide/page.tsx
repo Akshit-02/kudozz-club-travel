@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Sirpur Travel Guide: Ancient Buddhist Ruins on the Mahanadi" },
   description:
-    "The complete Sirpur travel guide. The Buddha Vihara monastery complex, Lakshmana Temple's ancient brick architecture, Gandheshwar Temple, where to stay, best time to visit, and a full itinerary.",
+    "Sirpur on the Mahanadi: Buddhist monastery ruins, the brick Lakshmana Temple and Gandheshwar Temple, best time, where to stay and a one-day plan.",
   keywords:
     "Sirpur travel guide, Sirpur ruins, Lakshmana Temple Sirpur, Buddha Vihara Sirpur, Sirpur archaeological site, best time to visit Sirpur, how to reach Sirpur, Mahanadi river Chhattisgarh, Sirpur Buddhist monastery",
   openGraph: {

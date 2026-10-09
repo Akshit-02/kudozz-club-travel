@@ -16,7 +16,7 @@ import { SITE_URL } from "@/lib/site";
 const URL = `${SITE_URL}/beach-travel`;
 const TITLE = "Beach Travel in India: Beaches, Coasts & Planning | Kudozz Club";
 const DESCRIPTION =
-  "Beach travel in India: the best beach destinations and beaches, state by state, water activities, honeymoon, family, luxury and budget beach holidays, seasons and safety.";
+  "Beach travel in India: the best beaches state by state, island and coastal holidays, water sports, honeymoon and family beach trips, seasons and safety.";
 const HERO = { src: "/images/beach/beach-travel-india-coast.webp", alt: "People on Om Beach, Gokarna, Karnataka" };
 
 export const metadata: Metadata = {

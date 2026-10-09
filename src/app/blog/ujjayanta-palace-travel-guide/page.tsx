@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Ujjayanta Palace Guide: History, Timings & Tips",
   description:
-    "Complete Ujjayanta Palace guide — history of the Manikya royal residence, Mughal-style gardens, the Tripura State Museum galleries, timings, entry fees, photography rules, and how to visit.",
+    "Ujjayanta Palace, Agartala: the Manikya royal residence and its gardens, the Tripura State Museum galleries, timings, entry fees and photo rules.",
   keywords:
     "Ujjayanta Palace, Ujjayanta Palace Agartala, Tripura State Museum, Ujjayanta Palace timings, Ujjayanta Palace entry fee, Agartala palace, Manikya dynasty palace, Ujjayanta Palace history",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Ujjayanta Palace Guide: History, Timings & Tips",
           description:
-            "Complete Ujjayanta Palace guide — history of the Manikya royal residence, Mughal-style gardens, the Tripura State Museum galleries, timings, entry fees, photography rules, and how to visit.",
+            "Ujjayanta Palace, Agartala: the Manikya royal residence and its gardens, the Tripura State Museum galleries, timings, entry fees and photo rules.",
           image:
             "https://club.kudozz.in/images/blogs/tripura/ujjayanta-palace/ujjayanta-palace-facade.webp",
           datePublished: "2026-09-03",

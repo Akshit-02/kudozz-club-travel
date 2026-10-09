@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Khardung La Travel Guide: Height, Route, Permits & Tips" },
   description:
-    "Complete guide to Khardung La — the legendary high-altitude pass to Nubra Valley. Real altitude facts, best time to visit, how to reach from Leh, altitude sickness precautions, permits, and essential tips.",
+    "Khardung La guide: the pass's real altitude, the road from Leh, the Pullu checkpoints, permits, altitude sickness precautions and onward to Nubra.",
   keywords:
     "Khardung La, Khardung La pass, Ladakh, Nubra Valley road, Leh to Khardung La, highest motorable pass, South Pullu, North Pullu, Ladakh bike trip, BRO road, Khardung La height in metres, best time to visit Khardung La, Khardung La altitude sickness, Khardung La permit ILP, Khardung La budget, is Khardung La the highest motorable pass, Khardung La motorcycle vs car",
   openGraph: {

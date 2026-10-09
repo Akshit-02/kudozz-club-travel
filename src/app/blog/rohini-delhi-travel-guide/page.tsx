@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Rohini Delhi Guide: Japanese Park & Family Outings",
   description:
-    "A practical Rohini guide — Delhi's huge DDA residential sub-city known for Japanese Park, Adventure Island, and extensive Metro coverage, not for heritage sightseeing.",
+    "Rohini, Delhi: Japanese Park, Adventure Island and metro access in a large planned sub-city, with an honest note on what it offers visitors.",
   keywords:
     "Rohini Delhi, Rohini travel guide, Japanese Park Rohini, Adventure Island Rohini, Rohini Metro, Rohini sectors, North West Delhi, Rohini Delhi family outing, DDA Rohini, Rohini Red Line Yellow Line",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Rohini Delhi Guide: Japanese Park & Family Outings",
           description:
-            "A practical Rohini guide — Delhi's huge DDA residential sub-city known for Japanese Park, Adventure Island, and extensive Metro coverage, not for heritage sightseeing.",
+            "Rohini, Delhi: Japanese Park, Adventure Island and metro access in a large planned sub-city, with an honest note on what it offers visitors.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/rohini/japanese-park-carved-tree-sculpture-rohini.webp",
           datePublished: "2026-08-30",

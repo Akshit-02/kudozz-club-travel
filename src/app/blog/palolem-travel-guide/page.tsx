@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Palolem Beach Travel Guide: South Goa's Postcard Crescent" },
   description:
-    "The complete Palolem travel guide. The crescent bay, Butterfly and Honeymoon Beach, dolphin-spotting boat trips, Cotigao Wildlife Sanctuary, where to stay, best time to visit, and a full itinerary.",
+    "Palolem, South Goa: the crescent bay, Butterfly and Honeymoon beaches, dolphin trips, Cotigao sanctuary, best time, where to stay and a 2-day plan.",
   keywords:
     "Palolem travel guide, Palolem beach Goa, Butterfly Beach Goa, Honeymoon Beach Palolem, Cotigao Wildlife Sanctuary, best time to visit Palolem, how to reach Palolem, South Goa beaches",
   openGraph: {

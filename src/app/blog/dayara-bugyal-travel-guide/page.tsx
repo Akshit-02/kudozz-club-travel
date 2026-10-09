@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Dayara Bugyal Trek Guide: Route, Season & Tips",
   description:
-    "Complete Dayara Bugyal trek guide — route from Raithal or Barsu, best season for green meadows or winter snow, how to reach Uttarkashi, camping, and a full itinerary.",
+    "Dayara Bugyal trek: routes from Raithal or Barsu, green summer meadows or winter snow, how to reach Uttarkashi, camping and a 3-day itinerary.",
   keywords:
     "Dayara Bugyal trek, Dayara Bugyal Uttarkashi, Raithal trek, Barsu village trek, Dayara Bugyal winter trek, Dayara Bugyal best time, Bandarpoonch view trek, Uttarkashi trekking, bugyal trek Uttarakhand, beginner Himalayan trek",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dayara Bugyal Trek Guide: Route, Season & Tips",
           description:
-            "Complete Dayara Bugyal trek guide — route from Raithal or Barsu, best season for green meadows or winter snow, how to reach Uttarkashi, camping, and a full itinerary.",
+            "Dayara Bugyal trek: routes from Raithal or Barsu, green summer meadows or winter snow, how to reach Uttarkashi, camping and a 3-day itinerary.",
           image: "https://club.kudozz.in/images/blogs/uttarakhand/dayara-bugyal/alpine-meadow-himalayan-view-dayara-bugyal.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

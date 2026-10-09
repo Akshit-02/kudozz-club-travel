@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Parasnath Hill Travel Guide: Jain Temples & Trek" },
   description:
-    "The complete Parasnath (Shikharji) travel guide. Jharkhand's highest peak, a major Jain pilgrimage site where 20 Tirthankaras attained liberation, Madhuban base town, the climb, where to stay, and full planning tips.",
+    "Parasnath Hill (Sammed Shikharji): the Jain pilgrimage climb from Madhuban to the shrines of 20 Tirthankaras, where to stay and a 1-2 day plan.",
   keywords:
     "Parasnath travel guide, Shikharji, Sammed Shikharji, Madhuban Jharkhand, Jain pilgrimage Parasnath, Parasnath trek, Jharkhand highest peak, best time to visit Parasnath, how to reach Parasnath",
   openGraph: {

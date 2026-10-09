@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Chittorgarh Fort Guide: History & Tips",
   description:
-    "Complete Chittorgarh Fort guide — Vijay Stambh, Kirti Stambh, Rani Padmini's Palace and the legend of jauhar, the Meera Temple, how to reach from Udaipur, and a full visit plan.",
+    "Chittorgarh Fort guide: Vijay Stambh, Kirti Stambh, Rani Padmini's palace and the Meera temple, the fort's history, how to reach from Udaipur.",
   keywords:
     "Chittorgarh Fort travel guide, Vijay Stambh, Kirti Stambh, Rani Padmini Palace, jauhar Chittorgarh, Meera Temple Chittorgarh, how to reach Chittorgarh, Chittorgarh from Udaipur, Rajput heritage Rajasthan, UNESCO hill forts Rajasthan",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chittorgarh Fort Guide: History & Tips",
           description:
-            "Complete Chittorgarh Fort guide — Vijay Stambh, Kirti Stambh, Rani Padmini's Palace and the legend of jauhar, the Meera Temple, how to reach from Udaipur, and a full visit plan.",
+            "Chittorgarh Fort guide: Vijay Stambh, Kirti Stambh, Rani Padmini's palace and the Meera temple, the fort's history, how to reach from Udaipur.",
           image: "https://club.kudozz.in/images/blogs/rajasthan/chittorgarh/chittorgarh-fort.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-04",

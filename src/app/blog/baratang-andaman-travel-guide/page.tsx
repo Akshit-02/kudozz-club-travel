@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Baratang Island Travel Guide: Caves, Mud Volcano & Convoy Tips" },
   description:
-    "Complete Baratang Island guide — the Andaman Trunk Road convoy through the Jarawa Tribal Reserve, the Limestone Caves mangrove boat ride, the Mud Volcano, and Parrot Island. Timings, permits, budget and tips.",
+    "Baratang Island day trip: the Andaman Trunk Road convoy, limestone caves by mangrove boat, the mud volcano and Parrot Island, with timings and tips.",
   keywords:
     "Baratang Island, Baratang limestone caves, Baratang mud volcano, Andaman Trunk Road, Jarawa Tribal Reserve, Baratang convoy timings, Parrot Island Andaman, Baratang day trip from Port Blair, Baratang permit, Middle Strait ferry",
   openGraph: {

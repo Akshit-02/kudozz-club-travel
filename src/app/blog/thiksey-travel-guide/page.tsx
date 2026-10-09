@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Thiksey Monastery Guide: Morning Prayers & Maitreya" },
   description:
-    "The complete guide to Thiksey Monastery, Ladakh — the 12-storey gompa that mirrors Lhasa's Potala Palace. Best time to visit, how to reach, the famous 6 AM prayers, the 15m Maitreya Buddha, and nearby Shey Palace and Stakna.",
+    "Thiksey Monastery near Leh: the early-morning prayers, the 15 m Maitreya Buddha, the museum and rooftop views, with Shey Palace and Stakna nearby.",
   keywords: [
     "Thiksey Monastery",
     "Thiksey Gompa",
@@ -85,7 +85,7 @@ function ArticleSchema() {
           headline:
             "Thiksey Travel Guide: Monastery, Morning Prayers & Maitreya Buddha",
           description:
-            "The complete guide to Thiksey Monastery, Ladakh — the 12-storey gompa that mirrors Lhasa's Potala Palace. Best time to visit, how to reach, the famous 6 AM prayers, the 15m Maitreya Buddha, and nearby Shey Palace and Stakna.",
+            "Thiksey Monastery near Leh: the early-morning prayers, the 15 m Maitreya Buddha, the museum and rooftop views, with Shey Palace and Stakna nearby.",
           image:
             "https://club.kudozz.in/images/blogs/ladakh/thiksey/thiksey-monastery-hilltop-view.webp",
           datePublished: "2026-06-10",

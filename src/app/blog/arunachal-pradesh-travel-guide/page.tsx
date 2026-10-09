@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Arunachal Pradesh Travel Guide: Tawang, Ziro Valley & Bomdila" },
   description:
-    "The complete Arunachal Pradesh travel guide — Tawang's monastery and Himalayan frontier, Bomdila and Dirang, Ziro Valley's Apatani villages, Namdapha's rainforest, permit requirements (ILP/PAP), where to stay, what to eat, and a full itinerary through India's largest Northeastern state.",
+    "Arunachal Pradesh travel guide: Tawang, Bomdila and Dirang, Ziro Valley, Namdapha, the permits you need (ILP/PAP) and an 8-day itinerary.",
   keywords:
     "Arunachal Pradesh travel guide, Tawang Monastery, Sela Pass, Bomdila, Dirang, Ziro Valley, Namdapha National Park, Inner Line Permit Arunachal, Protected Area Permit, Arunachal Pradesh itinerary, Northeast India travel, best time to visit Arunachal Pradesh, how to reach Tawang from Guwahati, Arunachal Pradesh itinerary 8 days, is Arunachal Pradesh safe for solo travellers, Arunachal Pradesh budget trip, things to do in Tawang, Ziro Valley Apatani tribe, Bum La Pass permit, Sela Pass road trip, Arunachal Pradesh travel FAQ",
   openGraph: {

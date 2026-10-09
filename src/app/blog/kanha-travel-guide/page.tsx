@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kanha National Park: Tiger Safari Guide, Zones & Best Time" },
   description:
-    "The complete Kanha travel guide. Safari zones and gates (Kisli, Mukki, Sarhi, Khatia), the barasingha conservation story, best time to visit, how to book core and buffer zone permits, where to stay, and a 2-day itinerary for one of India's best-managed tiger reserves.",
+    "Kanha National Park: the Kisli, Mukki, Sarhi and Khatia gates, the barasingha story, best time, booking safaris, where to stay and a 2-day plan.",
   keywords:
     "Kanha travel guide, Kanha National Park, Kanha Tiger Reserve, Kanha safari booking, Kanha zones, Kisli gate, Mukki gate, Kanha best time to visit, Kanha tiger sighting, Jungle Book Kanha, barasingha Kanha, Kanha Jabalpur, core zone vs buffer zone Kanha, Kanha safari price, Kanha national park Madhya Pradesh",
   openGraph: {

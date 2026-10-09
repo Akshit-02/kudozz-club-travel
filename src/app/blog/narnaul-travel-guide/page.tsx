@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Narnaul Travel Guide: Mughal Tombs & Sher Shah Suri Connections" },
   description:
-    "The complete Narnaul travel guide. Ibrahim Khan Sur's Tomb, Jal Mahal, Chor Gumbad, where to stay, best time to visit, and a full day itinerary through an underrated Mughal-era monument town.",
+    "Narnaul, Haryana: Ibrahim Khan Sur's Tomb, Jal Mahal and Chor Gumbad, best time, where to stay and a one-day plan in this quiet monument town.",
   keywords:
     "Narnaul travel guide, Ibrahim Khan Sur tomb, Jal Mahal Narnaul, Chor Gumbad, Sher Shah Suri Narnaul, best time to visit Narnaul, how to reach Narnaul, Haryana Mughal architecture",
   openGraph: {

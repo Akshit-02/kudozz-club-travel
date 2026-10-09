@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Tura Travel Guide: Gateway to Garo Hills",
   description:
-    "Complete Tura guide — Garo Hills' main town, Nokrek National Park's citrus germplasm sanctuary, matrilineal Garo culture, the Wangala festival, how to reach, and how to use Tura as a base for Balpakram and Siju.",
+    "Tura, Garo Hills: Nokrek National Park, Garo culture and the Wangala festival, how to reach and using Tura as a base for Balpakram and Siju.",
   keywords:
     "Tura travel guide, Garo Hills, Meghalaya, Nokrek National Park, Wangala festival, West Garo Hills, Garo culture, how to reach Tura, Balpakram, Siju Cave",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Tura Travel Guide: Gateway to Garo Hills",
           description:
-            "Complete Tura guide — Garo Hills' main town, Nokrek National Park's citrus germplasm sanctuary, matrilineal Garo culture, the Wangala festival, how to reach, and how to use Tura as a base for Balpakram and Siju.",
+            "Tura, Garo Hills: Nokrek National Park, Garo culture and the Wangala festival, how to reach and using Tura as a base for Balpakram and Siju.",
           image: "https://club.kudozz.in/images/blogs/meghalaya/tura/wangala-festival-tura.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",

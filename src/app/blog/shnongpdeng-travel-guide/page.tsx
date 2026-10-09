@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Shnongpdeng Guide: Camping & River Adventure",
   description:
-    "Complete Shnongpdeng guide — riverside camping on the crystal-clear Umngot river, kayaking, cliff jumping, scuba diving, how to reach from Shillong and Dawki, and a full visit plan.",
+    "Shnongpdeng on the clear Umngot river: riverside camping, kayaking, cliff jumping and diving, how to reach from Shillong and Dawki and a 2-day plan.",
   keywords:
     "Shnongpdeng travel guide, Umngot river camping, Shnongpdeng scuba diving, Meghalaya river camping, Shnongpdeng kayaking, how to reach Shnongpdeng, Dawki Shnongpdeng",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Shnongpdeng Guide: Camping & River Adventure",
           description:
-            "Complete Shnongpdeng guide — riverside camping on the crystal-clear Umngot river, kayaking, cliff jumping, scuba diving, how to reach from Shillong and Dawki, and a full visit plan.",
+            "Shnongpdeng on the clear Umngot river: riverside camping, kayaking, cliff jumping and diving, how to reach from Shillong and Dawki and a 2-day plan.",
           image:
             "https://club.kudozz.in/images/destinations/meghalaya/dawki-river.jpg",
           datePublished: "2026-09-05",

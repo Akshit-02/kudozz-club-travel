@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Charaideo Travel Guide: The Pyramids of Assam",
   description:
-    "The complete Charaideo travel guide. The Ahom Maidams, UNESCO World Heritage inscription, the first Ahom capital, how to combine with Sivasagar, where to stay, best time to visit, and a full itinerary.",
+    "Charaideo, Assam: the Ahom royal Maidams, a UNESCO World Heritage Site since 2024, the first Ahom capital, and pairing it with Sivasagar.",
   keywords:
     "Charaideo travel guide, Ahom Maidams, Pyramids of Assam, Charaideo UNESCO, Sukaphaa capital, best time to visit Charaideo, how to reach Charaideo, Ahom dynasty burial mounds",
   openGraph: {

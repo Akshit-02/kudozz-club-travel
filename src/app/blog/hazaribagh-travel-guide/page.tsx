@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Hazaribagh Travel Guide: Wildlife Sanctuary & Hazaribagh Lake" },
   description:
-    "The complete Hazaribagh travel guide. Hazaribagh Wildlife Sanctuary, Hazaribagh Lake, Canary Hill viewpoint, where to stay, best time to visit, and a full itinerary through this cool Chotanagpur plateau town.",
+    "Hazaribagh, Jharkhand: the wildlife sanctuary, Hazaribagh Lake and Canary Hill on the Chotanagpur plateau, where to stay and a 2-day plan.",
   keywords:
     "Hazaribagh travel guide, Hazaribagh Wildlife Sanctuary, Hazaribagh Lake, Canary Hill, best time to visit Hazaribagh, how to reach Hazaribagh, Jharkhand hill towns, Chotanagpur Plateau",
   openGraph: {

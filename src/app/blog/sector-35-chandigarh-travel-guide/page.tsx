@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Sector 35 Chandigarh Guide: Market, Cafés & Student Vibe" },
   description:
-    "Complete guide to Sector 35, Chandigarh — a modern SCO market, café-and-casual-dining scene, and the city's most popular sector with students and young professionals.",
+    "Sector 35, Chandigarh: the SCO market strip, cafes and casual dining popular with students and young professionals, and a short visit plan.",
   keywords:
     "Sector 35 Chandigarh, Sector 35 market, Chandigarh cafes, Sector 35 shopping, Chandigarh student area, Sector 35 restaurants, DAV College Chandigarh, Chandigarh young crowd market",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sector 35 Chandigarh Guide: Market, Cafés & Student Vibe",
           description:
-            "Complete guide to Sector 35, Chandigarh — a modern SCO market, café-and-casual-dining scene, and the city's most popular sector with students and young professionals.",
+            "Sector 35, Chandigarh: the SCO market strip, cafes and casual dining popular with students and young professionals, and a short visit plan.",
           image: "https://club.kudozz.in/images/blogs/chandigarh/sector-35-chandigarh/sector-35-chandigarh-guide-cover.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-09-30",

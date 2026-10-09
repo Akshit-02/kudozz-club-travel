@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Agatti Island Travel Guide: Lagoon, Reefs & Diving Spots" },
   description:
-    "The complete Agatti island travel guide — Lakshadweep's gateway island and one of its most popular. Agatti Beach and Lagoon, the Agatti Island Resort, coral reefs and diving spots, snorkelling sites, kayaking, glass-bottom boat rides, lagoon cruises, and sunset views, where to stay, what to eat, and a full itinerary.",
+    "Agatti Island guide: Lakshadweep's gateway airport island, entry permits, the lagoon, reefs and snorkelling, where to stay and a 3-day plan.",
   keywords:
     "Agatti island travel guide, Agatti Lakshadweep, Agatti airport, Agatti beach, Agatti lagoon, Agatti Island Resort, Agatti coral reefs, Agatti diving spots, Lakshadweep permit, Lakshadweep gateway island, best time to visit Agatti, how to reach Agatti from Kochi, Agatti itinerary 3 days, is Agatti safe for solo travellers, Agatti budget trip, things to do in Agatti, Agatti snorkelling and kayaking, Agatti lagoon cruise sunset, Kochi to Agatti flight time, Lakshadweep travel guide",
   openGraph: {

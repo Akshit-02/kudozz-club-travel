@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Murshidabad Travel Guide: Hazarduari & Nawabi History" },
   description:
-    "Complete Murshidabad guide — Hazarduari Palace, Katra Mosque, the Battle of Plassey, Bengal's Nawabi history, silk weaving, how to reach from Kolkata, and a full visit plan.",
+    "Murshidabad: Hazarduari Palace, Katra Mosque and the Nawabs of Bengal, the Plassey story, silk weaving, how to reach from Kolkata and a 1-2 day plan.",
   keywords:
     "Murshidabad travel guide, Hazarduari Palace, Nawabs of Bengal, Battle of Plassey, Siraj-ud-Daulah, Katra Mosque, Nizamat Imambara, Kathgola Palace, Berhampore, Bengal silk, how to reach Murshidabad, West Bengal heritage",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Murshidabad Travel Guide: Hazarduari & Nawabi History",
           description:
-            "Complete Murshidabad guide — Hazarduari Palace, Katra Mosque, the Battle of Plassey, Bengal's Nawabi history, silk weaving, how to reach from Kolkata, and a full visit plan.",
+            "Murshidabad: Hazarduari Palace, Katra Mosque and the Nawabs of Bengal, the Plassey story, silk weaving, how to reach from Kolkata and a 1-2 day plan.",
           image: "https://club.kudozz.in/images/blogs/west-bengal/murshidabad/hazarduari-palace-front-lawn-murshidabad.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

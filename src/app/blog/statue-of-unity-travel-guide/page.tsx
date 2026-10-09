@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Statue of Unity Travel Guide: Timings & Visiting Tips" },
   description:
-    "The complete Statue of Unity travel guide. The viewing gallery, Sardar Sarovar Dam, the light show, valley of flowers, where to stay, best time to visit, and a full itinerary.",
+    "Statue of Unity, Kevadia: the viewing gallery, Sardar Sarovar Dam, the light show and nearby parks, timings, where to stay and a one-day plan.",
   keywords:
     "Statue of Unity travel guide, Sardar Vallabhbhai Patel statue, viewing gallery timings, Sardar Sarovar Dam, Kevadia, best time to visit Statue of Unity, how to reach Statue of Unity",
   openGraph: {

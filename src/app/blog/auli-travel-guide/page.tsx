@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Auli Travel Guide: Skiing, Cable Car & Best Time",
   description:
-    "Complete Auli guide — skiing on India's premier slopes, the Auli-Joshimath ropeway, Gorson Bugyal meadow, Nanda Devi views, how to reach, where to stay, and a full visit plan.",
+    "Auli guide: skiing season, the Joshimath ropeway, Gorson Bugyal and Nanda Devi views, how to reach, where to stay and a 2–3 day plan.",
   keywords:
     "Auli, Auli skiing, Auli Uttarakhand, Auli ropeway, Joshimath cable car, Gorson Bugyal, Nanda Devi view, Auli best time to visit, how to reach Auli, Auli ski resort, Auli Lake, winter sports India",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Auli Travel Guide: Skiing, Cable Car & Best Time",
           description:
-            "Complete Auli guide — skiing on India's premier slopes, the Auli-Joshimath ropeway, Gorson Bugyal meadow, Nanda Devi views, how to reach, where to stay, and a full visit plan.",
+            "Auli guide: skiing season, the Joshimath ropeway, Gorson Bugyal and Nanda Devi views, how to reach, where to stay and a 2–3 day plan.",
           image: "https://club.kudozz.in/images/blogs/uttarakhand/auli/auli-snow-slopes-mountain-view.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

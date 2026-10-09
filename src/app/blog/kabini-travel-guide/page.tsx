@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kabini Travel Guide: Wildlife Safari & Backwater Boat Rides" },
   description:
-    "The complete Kabini travel guide. Leopard sightings, elephant herds at the reservoir, jeep and boat safaris, where to stay, best time to visit, and a full 2-day itinerary through Karnataka's Nagarhole wildlife country.",
+    "Kabini, Nagarhole: leopards, elephant herds at the reservoir, jeep and boat safaris, best time, where to stay and a 2-day itinerary.",
   keywords:
     "Kabini travel guide, Kabini safari, Nagarhole National Park, Kabini leopard sighting, Kabini boat safari, best time to visit Kabini, how to reach Kabini, Kabini resorts, Karnataka wildlife safari",
   openGraph: {

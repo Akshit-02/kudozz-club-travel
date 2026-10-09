@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Garden of Fragrance Chandigarh: Sector 36 Visit Guide" },
   description:
-    "Garden of Fragrance guide — Chandigarh's Sector 36 scent-themed garden with plantings and signage designed for visually impaired visitors. Timings, tips, and what makes it different from the Rose Garden.",
+    "Garden of Fragrance, Chandigarh: the Sector 36 scent garden designed for visually impaired visitors, timings, and how it differs from the Rose Garden.",
   keywords:
     "Garden of Fragrance Chandigarh, Sector 36 garden Chandigarh, fragrant garden Chandigarh, Chandigarh accessible garden, Chandigarh off-beat gardens, Braille garden Chandigarh",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Garden of Fragrance Chandigarh: Sector 36 Visit Guide",
           description:
-            "Garden of Fragrance guide — Chandigarh's Sector 36 scent-themed garden with plantings and signage designed for visually impaired visitors. Timings, tips, and what makes it different from the Rose Garden.",
+            "Garden of Fragrance, Chandigarh: the Sector 36 scent garden designed for visually impaired visitors, timings, and how it differs from the Rose Garden.",
           image: "https://club.kudozz.in/images/blogs/chandigarh/garden-of-fragrance/garden-of-fragrance-lawn-flowerbeds-sector-36.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-09-01",

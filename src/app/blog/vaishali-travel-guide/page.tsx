@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Vaishali Travel Guide: Ancient Republic & Buddhist Sites" },
   description:
-    "The complete Vaishali travel guide. The Ashokan Pillar at Kolhua, the ancient Licchavi republic, Buddha's final sermon site, where to stay, best time to visit, and a full itinerary.",
+    "Vaishali, Bihar: the Ashokan pillar at Kolhua, the ancient Licchavi republic, the Buddha's last sermon here, where to stay and a one-day plan.",
   keywords:
     "Vaishali travel guide, Ashokan Pillar Kolhua, Licchavi republic, Buddha last sermon, Vaishali Bihar, best time to visit Vaishali, how to reach Vaishali, Vaishali day trip from Patna",
   openGraph: {
@@ -54,7 +54,7 @@ function ArticleSchema() {
           {
           "@type": "BlogPosting",
           headline:
-            "Vaishali Travel Guide: The World's First Republic & Buddha's Last Sermon",
+            "Vaishali Travel Guide: An Ancient Republic & Buddha's Last Sermon",
           description: "The complete Vaishali travel guide.",
           image: "https://club.kudozz.in/images/blogs/bihar/vaishali/vaishali.webp",
           datePublished: "2026-09-08",
@@ -205,7 +205,7 @@ export default function VaishaliGuidePage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Vaishali Travel Guide: The World's First Republic & Buddha's Last Sermon
+              Vaishali Travel Guide: An Ancient Republic & Buddha's Last Sermon
             </h1>
 
             <p

@@ -9,7 +9,7 @@ import { comboPackages } from "@/lib/combo-packages";
 import { getDestinationProfile } from "@/lib/destination-profiles";
 
 export const metadata: Metadata = {
-  title: "India Tour Packages: Customized Trips by State & Style",
+  title: { absolute: "India Tour Packages: Customized Trips by State & Style" },
   description:
     "Customized India tour packages for Kashmir, Rajasthan, Kerala, Goa, Ladakh and every other state. Family, honeymoon, luxury and budget trips, planned in-house.",
   keywords: [

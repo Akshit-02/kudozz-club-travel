@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Chandigarh Botanical Garden Travel Guide: Timings & Tips" },
   description:
-    "Complete Chandigarh Botanical Garden guide — the city's largest, most naturalistic green space near Sarangpur. Plant diversity, how it differs from the Rose Garden and Rock Garden, getting there, and visit tips.",
+    "Chandigarh Botanical Garden at Sarangpur: the city's largest, wildest green space, what grows there, how it differs from the Rose Garden, and access.",
   keywords:
     "Chandigarh Botanical Garden, Botanical Garden Sarangpur, Chandigarh Botanical Garden Sarangpur, Chandigarh off-beat places, Chandigarh nature walk, Chandigarh birdwatching, Chandigarh green spaces, Chandigarh outskirts attractions",
   openGraph: {
@@ -63,7 +63,7 @@ function ArticleSchema() {
           headline:
             "Chandigarh Botanical Garden Travel Guide: Timings & Tips",
           description:
-            "Complete Chandigarh Botanical Garden guide — the city's largest, most naturalistic green space near Sarangpur. Plant diversity, how it differs from the Rose Garden and Rock Garden, getting there, and visit tips.",
+            "Chandigarh Botanical Garden at Sarangpur: the city's largest, wildest green space, what grows there, how it differs from the Rose Garden, and access.",
           image:
             "https://club.kudozz.in/images/blogs/chandigarh/chandigarh-botanical-garden/chandigarh-botanical-garden-guide-cover.webp",
           datePublished: "2026-08-31",

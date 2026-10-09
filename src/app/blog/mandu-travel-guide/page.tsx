@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Mandu Travel Guide: Jahaz Mahal, Monsoon Palaces & Afghan Ruins" },
   description:
-    "The complete Mandu travel guide — Jahaz Mahal, Hoshang Shah's Tomb, Rani Roopmati's Pavilion, why Mandu is India's 'monsoon capital,' how to reach from Indore, a 2-day itinerary, and budget breakdown for this ridge-top Malwa Sultanate city.",
+    "Mandu guide: Jahaz Mahal, Hoshang Shah's Tomb and Rupmati's Pavilion on the Malwa ridge, why it's best in the monsoon, how to reach and a 2-day plan.",
   keywords:
     "Mandu travel guide, Jahaz Mahal, Hoshang Shah tomb, Rani Roopmati pavilion, Baz Bahadur palace, Mandu monsoon capital, Mandu itinerary, how to reach Mandu from Indore, Mandu Madhya Pradesh, Malwa Sultanate ruins, Mandu Jami Masjid, best time to visit Mandu",
   openGraph: {

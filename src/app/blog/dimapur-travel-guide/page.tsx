@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Dimapur Travel Guide: Gateway to Nagaland",
   description:
-    "Complete Dimapur guide — the Kachari ruins and their distinctive stone monoliths, Nagaland's only airport/rail hub, how to reach Kohima onward, and a full visit plan.",
+    "Dimapur, Nagaland's gateway: the Kachari ruins and their monoliths, the airport and railway, onward travel to Kohima and a visit plan.",
   keywords:
     "Dimapur travel guide, Kachari ruins, Dimapur airport, Nagaland gateway city, Dimapur to Kohima, Kachari Rajbari, how to reach Nagaland",
   openGraph: {

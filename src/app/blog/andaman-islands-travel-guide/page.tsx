@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Andaman Islands Travel Guide: Beaches, Diving, Permits & Tips" },
   description:
-    "The complete Andaman & Nicobar Islands travel guide. Everything you need — how to reach Port Blair, Havelock Island, Neil Island, Radhanagar Beach, scuba diving, snorkelling, Cellular Jail, permits, ferries, and a 7-day itinerary.",
+    "Andaman Islands travel guide: Port Blair, Havelock and Neil, the best beaches, diving and snorkelling, permits, ferries and a 7-day itinerary.",
   keywords:
     "Andaman Islands travel guide, Havelock Island, Radhanagar Beach, Neil Island, Andaman scuba diving, Port Blair, Cellular Jail, Andaman ferry, Andaman permit, Ross Island, Andaman itinerary, Elephant Beach snorkelling, best time to visit Andaman Islands, how to reach Andaman from Chennai, Andaman itinerary 7 days, is Andaman safe for solo travellers, Andaman budget trip, top things to do in Andaman Islands, Andaman honeymoon package, Baratang limestone caves, Barren Island volcano diving, Andaman islands FAQ",
   openGraph: {

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Jaisalmer & Thar Desert Travel Guide: Fort, Camel Safari & Tips" },
   description:
-    "The complete Jaisalmer travel guide. Everything you need — Jaisalmer Fort, Sam Sand Dunes camel safari, havelis, desert camping, where to stay, what to eat, and a complete 4-day itinerary through the golden city of the Thar Desert.",
+    "Jaisalmer and Thar Desert guide: the living fort, havelis, Sam dunes camel safaris, desert camps, Kuldhara, where to stay and a 4-day itinerary.",
   keywords:
     "Jaisalmer travel guide, Jaisalmer Fort, Sam Sand Dunes, Thar Desert camel safari, Jaisalmer havelis, Khuri desert camp, Rajasthan desert tour, Jaisalmer itinerary, Patwon ki Haveli, Kuldhara ghost village, best time to visit Jaisalmer, how to reach Jaisalmer from Jodhpur, Jaisalmer 4 day itinerary, is Jaisalmer safe for solo travellers, Jaisalmer trip budget, top things to do in Jaisalmer, camel safari cost Jaisalmer, desert camping Sam Dunes, Jaisalmer to Jodhpur distance, is Jaisalmer worth visiting",
   openGraph: {

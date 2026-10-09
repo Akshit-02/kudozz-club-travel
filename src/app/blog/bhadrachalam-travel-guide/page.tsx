@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Bhadrachalam Travel Guide: Temple & Godavari",
   description:
-    "Complete Bhadrachalam guide — the Sita Ramachandraswamy Temple, the legend of Bhakta Ramadasu, Godavari river ghats, Rama Navami Kalyanam, how to reach from Hyderabad, and a full visit plan.",
+    "Bhadrachalam guide: the Sita Ramachandraswamy temple on the Godavari, Bhakta Ramadasu's story, Sri Rama Navami Kalyanam and how to reach from Hyderabad.",
   keywords:
     "Bhadrachalam travel guide, Sita Ramachandraswamy Temple, Bhakta Ramadasu, Godavari river, Rama Navami Kalyanam, Telangana temples, how to reach Bhadrachalam, Bhadradri Kothagudem",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bhadrachalam Travel Guide: Temple & Godavari",
           description:
-            "Complete Bhadrachalam guide — the Sita Ramachandraswamy Temple, the legend of Bhakta Ramadasu, Godavari river ghats, Rama Navami Kalyanam, how to reach from Hyderabad, and a full visit plan.",
+            "Bhadrachalam guide: the Sita Ramachandraswamy temple on the Godavari, Bhakta Ramadasu's story, Sri Rama Navami Kalyanam and how to reach from Hyderabad.",
           image:
             "https://club.kudozz.in/images/blogs/telangana/bhadrachalam/bhadrachalam-sita-ramachandraswamy-temple.webp",
           datePublished: "2026-09-03",

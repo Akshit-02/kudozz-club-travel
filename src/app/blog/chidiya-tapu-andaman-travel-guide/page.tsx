@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Chidiya Tapu Travel Guide: Sunset Point, Birds & Tips" },
   description:
-    "Complete Chidiya Tapu guide — South Andaman's Bird Island and best sunset viewpoint. Munda Pahad Beach, the Biological Park, birdwatching trails, timings, and how to plan a half-day trip from Port Blair.",
+    "Chidiya Tapu, South Andaman: the Munda Pahad sunset point, birdwatching trails and the biological park, timings and a half-day trip from Port Blair.",
   keywords:
     "Chidiya Tapu, Chidiya Tapu sunset point, Munda Pahad Beach, Chidiya Tapu Biological Park, Bird Island Andaman, Chidiya Tapu Port Blair distance, best sunset spot Andaman, Chidiya Tapu birdwatching, South Andaman viewpoints, Chidiya Tapu timings",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chidiya Tapu Travel Guide: Sunset Point, Birds & Tips",
           description:
-            "Complete Chidiya Tapu guide — South Andaman's Bird Island and best sunset viewpoint. Munda Pahad Beach, the Biological Park, birdwatching trails, timings, and how to plan a half-day trip from Port Blair.",
+            "Chidiya Tapu, South Andaman: the Munda Pahad sunset point, birdwatching trails and the biological park, timings and a half-day trip from Port Blair.",
           image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/chidiya-tapu-andaman/chidiya-tapu-2.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",

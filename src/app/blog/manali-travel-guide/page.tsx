@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Manali Travel Guide: Top Places, Itinerary & Insider Tips" },
   description:
-    "The definitive guide to Manali. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+    "Manali travel guide: Old Manali, Hadimba Temple, Solang Valley, Rohtang and the Atal Tunnel, best time, how to reach, where to stay and a 5-day plan.",
   keywords: [
     "Manali",
     "Himachal Pradesh",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Manali Travel Guide: Top Places, Itinerary & Insider Tips",
     description:
-      "The definitive guide to Manali. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+      "Manali travel guide: Old Manali, Hadimba Temple, Solang Valley, Rohtang and the Atal Tunnel, best time, how to reach, where to stay and a 5-day plan.",
     url: `https://club.kudozz.in/blog/manali-travel-guide`,
     type: "article",
     tags: [
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Manali Travel Guide: Top Places, Itinerary & Insider Tips",
     description:
-      "The definitive guide to Manali. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+      "Manali travel guide: Old Manali, Hadimba Temple, Solang Valley, Rohtang and the Atal Tunnel, best time, how to reach, where to stay and a 5-day plan.",
     images: ["/images/destinations/manali/hero.jpg"],
   },
   alternates: {
@@ -83,7 +83,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Manali Travel Guide: Top Places, Itinerary & Insider Tips",
           description:
-            "The definitive guide to Manali. Discover the best places to visit, a complete 5-day itinerary, where to stay, what to eat, and all the insider tips you need.",
+            "Manali travel guide: Old Manali, Hadimba Temple, Solang Valley, Rohtang and the Atal Tunnel, best time, how to reach, where to stay and a 5-day plan.",
           image: "https://club.kudozz.in/images/destinations/manali/hero.jpg",
           datePublished: "2026-05-17",
           dateModified: "2026-08-31",

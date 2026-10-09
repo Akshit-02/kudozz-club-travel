@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Valparai Travel Guide: Tea Estates & Wildlife",
   description:
-    "Complete Valparai guide — tea and coffee estates on the Anaimalai plateau, wildlife sightings on the Anamalai Tiger Reserve buffer roads, the 40-hairpin ghat drive from Pollachi, and a full visit plan.",
+    "Valparai on the Anaimalai plateau: tea and coffee estates, wildlife on the tiger reserve buffer roads, the 40-hairpin ghat from Pollachi and a plan.",
   keywords:
     "Valparai travel guide, Valparai tea estates, Anamalai Tiger Reserve, Valparai wildlife, Sholayar Dam, Aliyar Dam, Pollachi to Valparai, Valparai hairpin bends, how to reach Valparai, lion-tailed macaque",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Valparai Travel Guide: Tea Estates & Wildlife",
           description:
-            "Complete Valparai guide — tea and coffee estates on the Anaimalai plateau, wildlife sightings on the Anamalai Tiger Reserve buffer roads, the 40-hairpin ghat drive from Pollachi, and a full visit plan.",
+            "Valparai on the Anaimalai plateau: tea and coffee estates, wildlife on the tiger reserve buffer roads, the 40-hairpin ghat from Pollachi and a plan.",
           image: "https://club.kudozz.in/images/blogs/tamil-nadu/valparai/valparai-tea-estates.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-30",

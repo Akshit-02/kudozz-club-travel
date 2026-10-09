@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Chandigarh Travel Guide: Rock Garden, Sukhna Lake & Itinerary" },
   description:
-    "The complete Chandigarh travel guide — Le Corbusier's Capitol Complex, the Rock Garden, Sukhna Lake, Sector 17 Plaza, Rose Garden, where to eat and stay, and a full 2-day itinerary for India's most planned city.",
+    "Chandigarh travel guide: the Capitol Complex, Rock Garden, Sukhna Lake, Sector 17 and Rose Garden, day trips, where to stay and a 2-day plan.",
   keywords:
     "Chandigarh travel guide, Rock Garden Chandigarh, Sukhna Lake, Capitol Complex, Sector 17 Chandigarh, Chandigarh itinerary, Rose Garden Chandigarh, Le Corbusier Chandigarh, Chandigarh weekend trip, Elante Mall, best time to visit Chandigarh, how to reach Chandigarh from Delhi, Chandigarh itinerary 2 days, is Chandigarh safe for solo travellers, Chandigarh budget trip, things to do in Chandigarh, Chandigarh day trips Kasauli, Chandigarh Capitol Complex UNESCO, Chandigarh travel FAQ",
   openGraph: {

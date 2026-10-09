@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Swaraj Dweep (Havelock Island) Travel Guide: Beaches & Diving" },
   description:
-    "Complete Swaraj Dweep (Havelock Island) guide — Radhanagar Beach, Elephant Beach snorkelling, scuba diving centres, how to reach from Port Blair, where to stay, and a full visit plan.",
+    "Swaraj Dweep (Havelock Island): Radhanagar and Elephant beaches, scuba and snorkelling, ferries from Port Blair, where to stay and a 2–3 day plan.",
   keywords:
     "Havelock Island, Swaraj Dweep, Havelock Andaman, Radhanagar Beach, Elephant Beach, Havelock scuba diving, Havelock ferry, how to reach Havelock Island, Havelock resorts, Kalapathar Beach, Havelock best time to visit, Ritchie's Archipelago",
   openGraph: {
@@ -63,7 +63,7 @@ function ArticleSchema() {
           headline:
             "Swaraj Dweep (Havelock Island) Travel Guide: Beaches & Diving",
           description:
-            "Complete Swaraj Dweep (Havelock Island) guide — Radhanagar Beach, Elephant Beach snorkelling, scuba diving centres, how to reach from Port Blair, where to stay, and a full visit plan.",
+            "Swaraj Dweep (Havelock Island): Radhanagar and Elephant beaches, scuba and snorkelling, ferries from Port Blair, where to stay and a 2–3 day plan.",
           image:
             "https://club.kudozz.in/images/blogs/andaman-and-nicobar/havelock-island-andaman/radhanagar-beach-swaraj-dweep-havelock-island.webp",
           datePublished: "2026-09-01",

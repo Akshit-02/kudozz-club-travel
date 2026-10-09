@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Tharon Cave Guide: Manipur's Longest Limestone Cave",
   description:
-    "Complete Tharon Cave travel guide — one of the longest known cave systems in Northeast India, near Tharon village in the Tamenglong-Noney hill country, stalactite formations, best time to visit, and how to arrange a guided visit.",
+    "Tharon Cave, western Manipur: a long limestone cave system near Tharon village, its formations, best time and how to arrange a guided visit.",
   keywords:
     "Tharon Cave, Tharon Cave Manipur, Tamenglong caves, Noney district caves, Northeast India caving, limestone caves Manipur, Tharon village, caving Manipur guide",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Balpakram National Park: Myths & Wildlife",
   description:
-    "Complete Balpakram guide — the 'Land of Perpetual Winds' plateau, Garo mythology and the mande burung legend, red panda reports, how to reach from Tura, and a full visit plan.",
+    "Balpakram National Park, South Garo Hills: the 'land of perpetual winds' plateau, Garo legends and wildlife, how to reach from Tura and a visit plan.",
   keywords:
     "Balpakram National Park, Land of Perpetual Winds, Garo mythology, mande burung, South Garo Hills, Meghalaya, how to reach Balpakram, red panda Meghalaya, Tura excursion",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Balpakram National Park: Myths & Wildlife",
           description:
-            "Complete Balpakram guide — the 'Land of Perpetual Winds' plateau, Garo mythology and the mande burung legend, red panda reports, how to reach from Tura, and a full visit plan.",
+            "Balpakram National Park, South Garo Hills: the 'land of perpetual winds' plateau, Garo legends and wildlife, how to reach from Tura and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/meghalaya/balpakram/balpakram-national-park-2.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",

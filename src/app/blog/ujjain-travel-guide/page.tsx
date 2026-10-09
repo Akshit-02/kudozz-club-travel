@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Ujjain Travel Guide: Mahakaleshwar Temple, Simhastha & Kumbh" },
   description:
-    "The complete Ujjain travel guide. Mahakaleshwar Jyotirlinga Temple and its Bhasma Aarti, Ram Ghat, Kal Bhairav Temple, the Simhastha Kumbh Mela, where to stay, and a 1-2 day itinerary for one of Hinduism's seven sacred cities.",
+    "Ujjain guide: Mahakaleshwar and its Bhasma Aarti, Ram Ghat, Kal Bhairav, the 2028 Simhastha, where to stay and a 1-2 day itinerary.",
   keywords:
     "Ujjain travel guide, Mahakaleshwar Temple, Bhasma Aarti timing, Ram Ghat Ujjain, Kal Bhairav Temple, Simhastha Kumbh Mela, Ujjain itinerary, best time to visit Ujjain, how to reach Ujjain, Ujjain Madhya Pradesh",
   openGraph: {

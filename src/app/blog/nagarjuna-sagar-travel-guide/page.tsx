@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Nagarjuna Sagar Guide: Dam, Island & Tips",
   description:
-    "Complete Nagarjuna Sagar guide — one of the world's largest masonry dams, the Nagarjunakonda island museum reached only by boat, Ethipothala waterfall, how to reach from Hyderabad, and a full visit plan.",
+    "Nagarjuna Sagar: the masonry dam on the Krishna, the Nagarjunakonda island museum by boat, Ethipothala falls, how to reach from Hyderabad and a plan.",
   keywords:
     "Nagarjuna Sagar travel guide, Nagarjuna Sagar dam, Nagarjunakonda island, Nagarjunakonda museum, Ethipothala waterfall, Krishna river Telangana, how to reach Nagarjuna Sagar, Nagarjuna Sagar from Hyderabad",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Nagarjuna Sagar Guide: Dam, Island & Tips",
           description:
-            "Complete Nagarjuna Sagar guide — one of the world's largest masonry dams, the Nagarjunakonda island museum reached only by boat, Ethipothala waterfall, how to reach from Hyderabad, and a full visit plan.",
+            "Nagarjuna Sagar: the masonry dam on the Krishna, the Nagarjunakonda island museum by boat, Ethipothala falls, how to reach from Hyderabad and a plan.",
           image: "https://club.kudozz.in/images/blogs/telangana/nagarjuna-sagar/nagarjuna-sagar-masonry-dam-crest-gates.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Mainpat Travel Guide: Chhattisgarh's Tibetan Plateau Retreat" },
   description:
-    "The complete Mainpat travel guide. The Tibetan settlement and monastery, Tiger Point, Machali Point, the Bermuda Triangle sinking-sand patches, where to stay, best time to visit, and a full itinerary.",
+    "Mainpat, Chhattisgarh: the Tibetan settlement and monastery, Tiger and Machali points, the marshy 'Bermuda Triangle' patches, best time and a 2-day plan.",
   keywords:
     "Mainpat travel guide, Mainpat Tibetan settlement, Tiger Point Mainpat, Machali Point, Bermuda Triangle Mainpat, best time to visit Mainpat, how to reach Mainpat, Ambikapur, Chhattisgarh hill station",
   openGraph: {

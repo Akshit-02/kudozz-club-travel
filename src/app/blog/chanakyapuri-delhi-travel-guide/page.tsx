@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Chanakyapuri Guide: Delhi's Diplomatic Enclave",
   description:
-    "An honest guide to Chanakyapuri, Delhi's diplomatic enclave — what's actually worth visiting, from Nehru Park and tree-lined boulevards to nearby Gandhi Smriti and Teen Murti Bhavan.",
+    "Chanakyapuri, Delhi's diplomatic enclave: what is worth seeing, from Nehru Park and the boulevards to Gandhi Smriti and Teen Murti Bhavan nearby.",
   keywords:
     "Chanakyapuri Delhi, Chanakyapuri travel guide, Nehru Park Delhi, Diplomatic Enclave Delhi, Chanakyapuri embassies, Gandhi Smriti, Teen Murti Bhavan, Chanakyapuri things to do, Chanakyapuri Delhi tourism",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chanakyapuri Guide: Delhi's Diplomatic Enclave",
           description:
-            "An honest guide to Chanakyapuri, Delhi's diplomatic enclave — what's actually worth visiting, from Nehru Park and tree-lined boulevards to nearby Gandhi Smriti and Teen Murti Bhavan.",
+            "Chanakyapuri, Delhi's diplomatic enclave: what is worth seeing, from Nehru Park and the boulevards to Gandhi Smriti and Teen Murti Bhavan nearby.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/chanakyapuri/gandhi-charkha-statue-gandhi-smriti.webp",
           datePublished: "2026-08-30",

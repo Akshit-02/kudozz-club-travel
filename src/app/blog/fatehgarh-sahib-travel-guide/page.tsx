@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Fatehgarh Sahib Guide: History & Tips",
   description:
-    "Complete Fatehgarh Sahib guide — Gurdwara Fatehgarh Sahib, the martyrdom of Guru Gobind Singh's younger sons, the Shaheedi Jor Mela, nearby Sirhind, and how to visit respectfully.",
+    "Fatehgarh Sahib: the gurdwara marking the martyrdom of Guru Gobind Singh's younger sons, the Shaheedi Jor Mela, Sirhind nearby and etiquette.",
   keywords:
     "Fatehgarh Sahib travel guide, Sahibzada Zorawar Singh, Sahibzada Fateh Singh, Shaheedi Jor Mela, Sirhind, Punjab Sikh history, how to reach Fatehgarh Sahib",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Fatehgarh Sahib Guide: History & Tips",
           description:
-            "Complete Fatehgarh Sahib guide — Gurdwara Fatehgarh Sahib, the martyrdom of Guru Gobind Singh's younger sons, the Shaheedi Jor Mela, nearby Sirhind, and how to visit respectfully.",
+            "Fatehgarh Sahib: the gurdwara marking the martyrdom of Guru Gobind Singh's younger sons, the Shaheedi Jor Mela, Sirhind nearby and etiquette.",
           image: "https://club.kudozz.in/images/blogs/punjab/fatehgarh-sahib/fatehgarh-sahib-2.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

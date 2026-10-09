@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "West Bengal Travel Guide: Kolkata, Darjeeling & Sundarbans" },
   description:
-    "The complete West Bengal travel guide — Kolkata's colonial architecture and food, Darjeeling's tea gardens and Toy Train, the Sundarbans mangroves and Royal Bengal Tiger, where to stay and eat, and a full itinerary connecting the plains to the hills.",
+    "West Bengal travel guide: Kolkata, Darjeeling and the toy train, the Sundarbans, Kalimpong, the Dooars and Digha, best time and a 7-day itinerary.",
   keywords:
     "West Bengal travel guide, Kolkata travel guide, Darjeeling travel guide, Sundarbans tiger safari, Toy Train Darjeeling, Victoria Memorial, Kolkata food, Kalimpong, Digha beach, West Bengal itinerary, best time to visit West Bengal, how to reach Darjeeling from Kolkata, West Bengal budget trip, is Sundarbans safe for tiger safari, top things to do in Kolkata, Darjeeling Himalayan Railway UNESCO, West Bengal 7 day itinerary",
   openGraph: {

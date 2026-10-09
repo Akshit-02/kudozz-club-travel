@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Polo Forest Travel Guide: Ruined Temples in the Aravalli Jungle" },
   description:
-    "The complete Polo Forest travel guide. 15th-century temple ruins, Harnav Dam, camping, where to stay, best time to visit, and a full itinerary through Gujarat's most off-the-radar forest destination.",
+    "Polo Forest, Gujarat: 15th-century temple ruins in the Aravalli woods, Harnav Dam, camping, best time, where to stay and a 2-day itinerary.",
   keywords:
     "Polo Forest travel guide, Vijaynagar Gujarat, Polo Forest ruins, Harnav Dam, best time to visit Polo Forest, how to reach Polo Forest, Polo Forest camping, Sabarkantha forest Gujarat",
   openGraph: {

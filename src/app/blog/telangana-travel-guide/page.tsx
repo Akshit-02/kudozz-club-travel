@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Telangana Travel Guide: Hyderabad, Warangal & Temples" },
   description:
-    "The complete Telangana travel guide — Hyderabad's Charminar and Golconda Fort, Kakatiya-era Warangal, the Yadadri-Bhadrachalam-Vemulawada-Srisailam temple circuit, Nagarjuna Sagar, waterfalls, wildlife, where to stay and eat, and a full itinerary.",
+    "Telangana travel guide: Hyderabad's Charminar and Golconda, Kakatiya Warangal and Ramappa, temple circuits, Nagarjuna Sagar and a 5-day itinerary.",
   keywords:
     "Telangana travel guide, Hyderabad travel guide, Charminar, Golconda Fort, Warangal Kakatiya heritage, Yadadri temple, Bhadrachalam, Vemulawada, Srisailam, Nagarjuna Sagar, Ananthagiri Hills, Laknavaram lake, Bogatha waterfall, Kuntala waterfall, Alampur temples, Medaram Jatara, Kawal Tiger Reserve, Telangana itinerary, best time to visit Telangana, how to reach Telangana, Telangana 5 day itinerary, Telangana budget trip",
   openGraph: {

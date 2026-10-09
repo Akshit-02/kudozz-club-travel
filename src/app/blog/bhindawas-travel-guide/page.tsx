@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Bhindawas Wildlife Sanctuary: Haryana Wetland Guide" },
   description:
-    "The complete Bhindawas Wildlife Sanctuary travel guide. Migratory waterbirds, the Jhajjar reservoir, when to go, how to reach, and honest tips for this quiet birdwatching sanctuary near Delhi.",
+    "Bhindawas Wildlife Sanctuary, Jhajjar: migratory waterbirds on Haryana's largest wetland, when to go, how to reach from Delhi and a half-day plan.",
   keywords:
     "Bhindawas Wildlife Sanctuary, Bhindawas travel guide, Haryana birdwatching, Jhajjar wetland, migratory birds Haryana, best time to visit Bhindawas, how to reach Bhindawas",
   openGraph: {

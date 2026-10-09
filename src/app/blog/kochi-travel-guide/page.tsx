@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kochi Travel Guide: Fort Kochi, Chinese Nets & 3-Day Itinerary" },
   description:
-    "The complete Kochi travel guide. Fort Kochi, Chinese fishing nets, Mattancherry Palace, Jew Town synagogue, Kathakali shows, where to stay, what to eat, and a full 3-day itinerary through Kerala's most walkable old town.",
+    "Kochi travel guide: Fort Kochi, the Chinese fishing nets, Mattancherry Palace, the synagogue and Kathakali, where to stay, food and a 3-day itinerary.",
   keywords:
     "Kochi travel guide, Cochin travel guide, Fort Kochi, Chinese fishing nets, Mattancherry Palace, Jew Town, Paradesi Synagogue, Kathakali Kochi, best time to visit Kochi, how to reach Kochi, Kochi itinerary, Kochi Muziris Biennale",
   openGraph: {

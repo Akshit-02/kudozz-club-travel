@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Trikut Hills Travel Guide: Ropeway, Trekking & Deoghar Day Trip" },
   description:
-    "The complete Trikut Hills travel guide. Ropeway rides, forest trekking, viewpoints, how to reach from Deoghar, and a simple half-day plan for one of Jharkhand's easiest scenic escapes.",
+    "Trikut Hills near Deoghar: the ropeway, forest trails and viewpoints, how to reach and a simple half-day plan in Jharkhand.",
   keywords:
     "Trikut Hills travel guide, Trikut ropeway, Trikut Deoghar, Trikut Parbat, Jharkhand hill trek, Deoghar day trip, best time to visit Trikut Hills",
   openGraph: {

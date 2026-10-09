@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Gir National Park Travel Guide: Asiatic Lion Safari & Best Time" },
   description:
-    "The complete Gir National Park travel guide. Jeep safaris, Devalia Safari Park, wildlife beyond lions, where to stay, best time to visit, and a full itinerary through the last wild home of the Asiatic lion.",
+    "Gir National Park lion safari guide: booking jeep safaris, Devalia park, wildlife beyond lions, the best months, where to stay and a 2-day plan.",
   keywords:
     "Gir National Park travel guide, Asiatic lion safari, Gir jeep safari, Devalia Safari Park, Sasan Gir, best time to visit Gir National Park, how to reach Gir, Gujarat wildlife safari",
   openGraph: {

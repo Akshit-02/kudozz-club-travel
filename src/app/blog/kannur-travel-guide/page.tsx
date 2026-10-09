@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kannur Travel Guide: Theyyam, Beaches & Handloom Heritage" },
   description:
-    "The complete Kannur travel guide. Theyyam ritual performances, Muzhappilangad Drive-in Beach, St. Angelo Fort, handloom weaving villages, where to stay, best time to visit, and a full itinerary.",
+    "Kannur, Kerala: Theyyam performances, Muzhappilangad drive-in beach, St. Angelo Fort and handloom villages, best time, where to stay and a 2-day plan.",
   keywords:
     "Kannur travel guide, Theyyam Kerala, Muzhappilangad Drive-in Beach, St. Angelo Fort, Kannur handloom, best time to visit Kannur, how to reach Kannur, North Kerala",
   openGraph: {

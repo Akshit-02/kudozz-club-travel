@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Surat Travel Guide: Diamond City, Riverfront & Street Food" },
   description:
-    "The complete Surat travel guide. The Tapi Riverfront, Surat Castle, Dutch Garden, the city's diamond and textile trade, Surati street food, where to stay, best time to visit, and a full itinerary.",
+    "Surat guide: the Tapi riverfront, Surat Castle, the Dutch Garden, the diamond and textile trade and Surati street food, with a 2-day itinerary.",
   keywords:
     "Surat travel guide, Tapi Riverfront, Surat Castle, Surat diamond city, Surati food, locho ghari, best time to visit Surat, how to reach Surat, Gujarat street food",
   openGraph: {

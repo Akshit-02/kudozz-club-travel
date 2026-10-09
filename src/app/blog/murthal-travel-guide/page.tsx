@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Murthal Travel Guide: The Parathas That Built a Highway Legend" },
   description:
-    "The complete Murthal travel guide. NH44's famous paratha dhabas, thick lassi, which dhabas to pick, best time to stop, and honest practical advice for a highway food pilgrimage.",
+    "Murthal's paratha dhabas on NH44 near Sonipat: which to pick, white butter and lassi, the best time to stop and honest advice for the food run.",
   keywords:
     "Murthal travel guide, Murthal parathas, Murthal dhaba, NH44 food stop, best dhaba Murthal, Sonipat highway food, Delhi Chandigarh road trip food",
   openGraph: {

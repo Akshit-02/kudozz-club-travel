@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Gurugram Travel Guide: Cyber Hub, Malls, Food & Aravallis" },
   description:
-    "Gurugram (Gurgaon) guide: Cyber Hub's food scene, the Aravalli Biodiversity Park, big malls, Sultanpur bird sanctuary nearby, where to stay and a 2-day plan.",
+    "Gurugram (Gurgaon) guide: Cyber Hub, the Aravalli Biodiversity Park, malls and food, where to stay, the best time and a 2-day plan.",
   keywords:
     "Gurugram travel guide, Cyber Hub Gurugram, Aravalli Biodiversity Park, Gurugram malls, best time to visit Gurugram, how to reach Gurugram, Gurugram itinerary, Delhi NCR travel",
   openGraph: {

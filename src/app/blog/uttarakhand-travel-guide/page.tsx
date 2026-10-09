@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Uttarakhand Travel Guide: Char Dham, Nainital & Rishikesh" },
   description:
-    "The complete Uttarakhand travel guide — the Char Dham Yatra, Rishikesh and Haridwar on the Ganga, Nainital's lakes, Mussoorie's hill views, Jim Corbett's tigers, where to stay and eat, and a full itinerary through Dev Bhoomi, the Land of the Gods.",
+    "Uttarakhand travel guide: the Char Dham, Rishikesh and Haridwar, Nainital, Mussoorie and Auli, Jim Corbett, best time and a 7-day itinerary.",
   keywords:
     "Uttarakhand travel guide, Char Dham Yatra, Rishikesh travel guide, Nainital travel guide, Mussoorie travel guide, Jim Corbett National Park, Kedarnath, Badrinath, Auli, Valley of Flowers, Uttarakhand itinerary, best time to visit Uttarakhand, how to reach Rishikesh from Delhi, Uttarakhand 7 day itinerary, Uttarakhand budget trip, is Char Dham Yatra difficult, top things to do in Rishikesh, Char Dham registration",
   openGraph: {

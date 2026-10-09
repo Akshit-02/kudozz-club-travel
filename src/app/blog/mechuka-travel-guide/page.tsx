@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Mechuka Travel Guide: A Hidden Valley on the Tibet Border" },
   description:
-    "The complete Mechuka travel guide. Samten Yongcha Monastery, the old suspension bridge, Memba and Ramo villages, permits (ILP/PAP), where to stay, what to eat, and a full itinerary through one of Arunachal Pradesh's most remote valleys.",
+    "Mechuka, Arunachal Pradesh: Samten Yongcha Monastery, the suspension bridge, Memba villages, ILP and PAP permits, where to stay and a 3-day plan.",
   keywords:
     "Mechuka travel guide, Menchuka Arunachal Pradesh, Samten Yongcha Monastery, Shi-Yomi district, Mechuka permit, Inner Line Permit Arunachal, how to reach Mechuka, best time to visit Mechuka, Mechuka valley, Memba tribe Arunachal, Aalo to Mechuka",
   openGraph: {

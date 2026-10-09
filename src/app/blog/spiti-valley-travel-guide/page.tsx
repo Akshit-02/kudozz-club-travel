@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Spiti Valley Travel Guide: Roads, Monasteries & Hidden Villages" },
   description:
-    "The most complete Spiti Valley travel guide. Discover the best places to visit, how to reach Spiti, a 10-day itinerary, where to stay, what to eat, and essential tips for this remote Himalayan desert.",
+    "Spiti Valley travel guide: Kaza, Key, Chandratal and the high villages, how to reach from Shimla or Manali, permits, where to stay and a 10-day plan.",
   keywords:
     "Spiti Valley, Spiti Valley travel guide, Spiti Valley itinerary, Kaza, Key Monastery, Chandratal Lake, Pin Valley, Himachal Pradesh travel, best time to visit Spiti Valley, how to reach Spiti Valley from Manali, Spiti Valley 10 day itinerary, is Spiti Valley safe for solo travellers, Spiti Valley trip budget, top things to do in Spiti Valley, Spiti Valley permit requirements, Kibber snow leopard, is Spiti Valley worth visiting, Spiti Valley altitude sickness",
   openGraph: {

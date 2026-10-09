@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Zeilad Lake Travel Guide: Tamenglong's Sacred Lake",
   description:
-    "Complete Zeilad Lake travel guide — the remote, sacred lake in Manipur's Tamenglong district, its Zeliangrong Naga heritage, forest birdlife, best time to visit, and how to plan the trip through Tamenglong.",
+    "Zeilad Lake, Tamenglong: a remote sacred lake in Zeliangrong Naga country, its forest birdlife, best time and how to plan the trip.",
   keywords:
     "Zeilad Lake, Zeilat Lake Manipur, Tamenglong district, Zeliangrong Naga, Manipur off-beat travel, Tamenglong sightseeing, sacred lake Manipur",
   openGraph: {

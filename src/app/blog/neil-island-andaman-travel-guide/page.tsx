@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Shaheed Dweep (Neil Island) Travel Guide: Beaches & Tips" },
   description:
-    "Complete Shaheed Dweep (Neil Island) guide — Bharatpur Beach, Laxmanpur's natural rock bridge, Sitapur sunrise point, how to reach it from Port Blair or Havelock, and a full day plan.",
+    "Shaheed Dweep (Neil Island): Bharatpur and Laxmanpur beaches, the natural rock bridge, Sitapur sunrise, ferries from Port Blair or Havelock and a day plan.",
   keywords:
     "Neil Island, Shaheed Dweep, Bharatpur Beach, Laxmanpur Beach, Neil Island Howrah Bridge, Sitapur Beach Neil Island, Neil Island ferry, Neil Island vs Havelock, Neil Island Andaman, Neil Island one day itinerary, Andaman Islands, Neil Island timings, Neil Island how to reach, Neil Island Andaman travel guide FAQ",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Shaheed Dweep (Neil Island) Travel Guide: Beaches & Tips",
           description:
-            "Complete Shaheed Dweep (Neil Island) guide — Bharatpur Beach, Laxmanpur's natural rock bridge, Sitapur sunrise point, how to reach it from Port Blair or Havelock, and a full day plan.",
+            "Shaheed Dweep (Neil Island): Bharatpur and Laxmanpur beaches, the natural rock bridge, Sitapur sunrise, ferries from Port Blair or Havelock and a day plan.",
           image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/neil-island-andaman/shaheed-dweep-shaheed-dweep-neil-island-2.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",

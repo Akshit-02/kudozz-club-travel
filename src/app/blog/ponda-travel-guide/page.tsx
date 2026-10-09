@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Ponda Travel Guide: Hindu Temples & Spice Plantation Tours" },
   description:
-    "The complete Ponda travel guide. Shri Mangeshi Temple, Shri Mahalsa Temple, spice plantation tours with traditional Goan lunch, where to stay, best time to visit, and a full itinerary.",
+    "Ponda, Goa's temple town: Shri Mangeshi and Shri Mahalsa temples, spice plantation tours with a Goan lunch, how to reach and a day plan.",
   keywords:
     "Ponda travel guide, Ponda temples Goa, Shri Mangeshi Temple, spice plantation tour Goa, best time to visit Ponda, how to reach Ponda, Goa temple town, Bondla Wildlife Sanctuary",
   openGraph: {

@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Walong Travel Guide: The Easternmost Battlefield of the 1962 War" },
   description:
-    "The complete Walong travel guide. The Battle of Walong war memorial, the Lohit Valley, permit requirements, best time to visit, and honest planning advice for one of India's most remote frontier towns.",
+    "Walong, Lohit Valley: the 1962 Battle of Walong memorial in one of India's easternmost towns, permits, best time and honest planning advice.",
   keywords:
     "Walong travel guide, Battle of Walong, Lohit Valley, 1962 Sino-Indian War, best time to visit Walong, how to reach Walong, Arunachal Pradesh border permits",
   openGraph: {

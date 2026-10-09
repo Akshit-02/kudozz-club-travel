@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Khonoma Guide: India's First Green Village",
   description:
-    "Complete Khonoma guide — the Battle of Khonoma history, the community-run Tragopan Sanctuary, alder-tree terrace farming, homestays, how to reach from Kohima, and a full visit plan.",
+    "Khonoma, near Kohima: the Battle of Khonoma, the community-run Tragopan Sanctuary, alder terrace farming, homestays and how to reach.",
   keywords:
     "Khonoma travel guide, Khonoma green village, Angami Naga, Khonoma Nature Conservation and Tragopan Sanctuary, Battle of Khonoma, alder tree farming Nagaland, how to reach Khonoma, Khonoma homestay",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Khonoma Guide: India's First Green Village",
           description:
-            "Complete Khonoma guide — the Battle of Khonoma history, the community-run Tragopan Sanctuary, alder-tree terrace farming, homestays, how to reach from Kohima, and a full visit plan.",
+            "Khonoma, near Kohima: the Battle of Khonoma, the community-run Tragopan Sanctuary, alder terrace farming, homestays and how to reach.",
           image: "https://club.kudozz.in/images/blogs/nagaland/khonoma/khonoma.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

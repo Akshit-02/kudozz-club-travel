@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Ranikhet Travel Guide: Cantonment Views & Golf",
   description:
-    "Complete Ranikhet guide — Upat Golf Course, Jhula Devi Temple, Chaubatia Gardens, Kumaon Regimental Centre Museum, how to reach, where to stay, and a full visit plan for this quiet Kumaon cantonment town.",
+    "Ranikhet, Kumaon: the Upat golf course, Jhula Devi Temple, Chaubatia Gardens and the regimental museum, how to reach and a 1-2 day plan.",
   keywords:
     "Ranikhet, Ranikhet Uttarakhand, Ranikhet travel guide, Upat Golf Course, Jhula Devi Temple, Chaubatia Gardens, Kumaon Regimental Centre Museum, Ranikhet best time to visit, how to reach Ranikhet, Kumaon cantonment town, Ranikhet hill station",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Ranikhet Travel Guide: Cantonment Views & Golf",
           description:
-            "Complete Ranikhet guide — Upat Golf Course, Jhula Devi Temple, Chaubatia Gardens, Kumaon Regimental Centre Museum, how to reach, where to stay, and a full visit plan for this quiet Kumaon cantonment town.",
+            "Ranikhet, Kumaon: the Upat golf course, Jhula Devi Temple, Chaubatia Gardens and the regimental museum, how to reach and a 1-2 day plan.",
           image: "https://club.kudozz.in/images/blogs/uttarakhand/ranikhet/sunset-point-himalayan-hills-ranikhet.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

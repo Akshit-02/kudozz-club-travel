@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Mahabaleshwar Travel Guide: Viewpoints, Strawberries & Itinerary" },
   description:
-    "The complete Mahabaleshwar travel guide. Venna Lake, Arthur's Seat, Pratapgad Fort, Panchgani's Table Land, strawberry farms, where to stay, and a 3-day itinerary through Maharashtra's favourite hill station.",
+    "Mahabaleshwar guide: Venna Lake, Arthur's Seat, Pratapgad Fort, Panchgani's Table Land and strawberry farms, where to stay and a 3-day itinerary.",
   keywords:
     "Mahabaleshwar travel guide, Venna Lake, Arthur's Seat, Pratapgad Fort, Panchgani, Table Land, Mahabaleshwar strawberries, Mapro Garden, Mahabaleshwar itinerary, best time to visit Mahabaleshwar, how to reach Mahabaleshwar, Mahabaleshwar Panchgani trip, Western Ghats hill station",
   openGraph: {

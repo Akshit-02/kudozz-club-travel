@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Mukutmanipur Travel Guide: Dam, Boating & Tips",
   description:
-    "Complete Mukutmanipur guide — one of India's largest earthen dams, reservoir boating, Bhairavi Temple, Pareshnath Hill, how to reach from Kolkata, and a full visit plan.",
+    "Mukutmanipur, Bankura: one of India's largest earthen dams, reservoir boating, Pareshnath Hill, how to reach from Kolkata and a 2-day plan.",
   keywords:
     "Mukutmanipur travel guide, Mukutmanipur dam, Kumari Kangsabati river, Bankura tourism, Mukutmanipur boating, Bhairavi Temple, Pareshnath Hill, Mukutmanipur deer park, how to reach Mukutmanipur, weekend getaway West Bengal",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mukutmanipur Travel Guide: Dam, Boating & Tips",
           description:
-            "Complete Mukutmanipur guide — one of India's largest earthen dams, reservoir boating, Bhairavi Temple, Pareshnath Hill, how to reach from Kolkata, and a full visit plan.",
+            "Mukutmanipur, Bankura: one of India's largest earthen dams, reservoir boating, Pareshnath Hill, how to reach from Kolkata and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/west-bengal/mukutmanipur/mukutmanipur-dam-reservoir-bankura.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

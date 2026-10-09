@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Papi Hills Travel Guide: Godavari Gorge Boat Cruise",
   description:
-    "The complete Papi Hills travel guide. Godavari gorge boat cruises, Perantalapalli waterfall, where to stay, best time to visit, and everything you need to plan a Papikondalu river trip.",
+    "Papi Hills (Papikondalu): boat cruises through the Godavari gorge, Perantalapalli and the waterfall stop, best time, where to stay and how to book.",
   keywords:
     "Papi Hills travel guide, Papikondalu, Godavari boat cruise, Perantalapalli waterfall, best time to visit Papi Hills, how to reach Papi Hills, Rajahmundry boat cruise, Godavari gorge",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Bihar Travel Guide: Bodh Gaya, Nalanda & Patna",
   description:
-    "The complete Bihar travel guide — the Mahabodhi Temple where Buddha attained enlightenment, the ruins of the ancient Nalanda university, Rajgir's Buddhist and Jain heritage, Patna's riverside history, where to stay and eat, and a full itinerary through one of India's most historically significant states.",
+    "Bihar travel guide: Bodh Gaya's Mahabodhi Temple, Nalanda and Rajgir, Vaishali, Patna and Sasaram, with where to stay and a 6-day itinerary.",
   keywords:
     "Bihar travel guide, Bodh Gaya, Mahabodhi Temple, Nalanda University ruins, Rajgir, Patna Sahib, Vaishali, Sasaram Sher Shah Suri tomb, Bihar itinerary, Buddhist pilgrimage India, best time to visit Bihar, how to reach Bodh Gaya, Bihar itinerary 6 days, is Bihar safe for solo travellers, Bihar budget trip, things to do in Bodh Gaya, Nalanda ruins Rajgir day trip, Patna sightseeing guide, Bihar travel FAQ, Bodh Gaya Gaya airport",
   openGraph: {
@@ -1138,7 +1138,7 @@ export default function BiharGuidePage() {
                         href="/blog/nalanda-travel-guide"
                         className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
                       >
-                        Nalanda Travel Guide: Ruins of the World&apos;s Oldest University
+                        Nalanda Travel Guide: Ruins of an Ancient Buddhist University
                       </Link>
                       <Link
                         href="/blog/patna-travel-guide"
@@ -1168,7 +1168,7 @@ export default function BiharGuidePage() {
                         href="/blog/vaishali-travel-guide"
                         className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
                       >
-                        Vaishali Travel Guide: The World&apos;s First Republic & Buddha&apos;s Last Sermon
+                        Vaishali Travel Guide: An Ancient Republic & Buddha&apos;s Last Sermon
                       </Link>
                       <Link
                         href="/blog/valmiki-nagar-travel-guide"

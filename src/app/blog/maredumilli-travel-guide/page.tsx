@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Maredumilli Travel Guide: Eastern Ghats Rainforest Trip" },
   description:
-    "The complete Maredumilli travel guide. Forest Department eco-camps, waterfalls, hot springs, tribal community-based tourism, where to stay, best time to visit, and a full itinerary.",
+    "Maredumilli, Eastern Ghats: Forest Department eco-camps, waterfalls, community-run tourism, best time, where to stay and a 2-day itinerary.",
   keywords:
     "Maredumilli travel guide, Maredumilli eco tourism, Maredumilli waterfalls, Maredumilli hot springs, best time to visit Maredumilli, how to reach Maredumilli, Andhra Pradesh Eastern Ghats forest",
   openGraph: {

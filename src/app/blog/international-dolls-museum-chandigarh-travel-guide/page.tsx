@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "International Dolls Museum Chandigarh: Timings & Visit Guide" },
   description:
-    "Complete guide to the International Dolls Museum, Chandigarh — a quirky collection of dolls from around the world inside the Bal Bhavan complex. Timings, entry fee, what to expect with kids, and nearby sights.",
+    "International Dolls Museum, Chandigarh: dolls from around the world in the Bal Bhavan complex, timings, entry fee, visiting with kids and nearby sights.",
   keywords:
     "International Dolls Museum Chandigarh, Dolls Museum Chandigarh timings, Bal Bhavan Chandigarh, Dolls Museum Sector 23, Chandigarh with kids, family attractions Chandigarh, Chandigarh museums, things to do in Chandigarh with children",
   openGraph: {
@@ -63,7 +63,7 @@ function ArticleSchema() {
           headline:
             "International Dolls Museum Chandigarh: Timings & Visit Guide",
           description:
-            "Complete guide to the International Dolls Museum, Chandigarh — a quirky collection of dolls from around the world inside the Bal Bhavan complex. Timings, entry fee, what to expect with kids, and nearby sights.",
+            "International Dolls Museum, Chandigarh: dolls from around the world in the Bal Bhavan complex, timings, entry fee, visiting with kids and nearby sights.",
           image:
             "https://club.kudozz.in/images/blogs/chandigarh/international-dolls-museum-chandigarh/international-dolls-museum-chandigarh-guide-cover.webp",
           datePublished: "2026-08-31",

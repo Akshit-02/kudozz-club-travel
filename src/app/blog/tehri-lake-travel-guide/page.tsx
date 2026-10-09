@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Tehri Lake Travel Guide: Water Sports & Tips",
   description:
-    "Complete Tehri Lake travel guide — jet skiing, kayaking and cable-skiing at Koti, houseboats, the Tehri Lake Festival, how to reach, where to stay, and a full visit plan.",
+    "Tehri Lake: jet skiing, kayaking and other water sports at Koti, houseboats, the lake festival, how to reach, where to stay and a 2-day plan.",
   keywords:
     "Tehri Lake, Tehri Dam, New Tehri, Tehri Lake water sports, cable skiing Koti Colony, Tehri Lake Festival, houseboat Tehri Lake, how to reach Tehri Lake, Chamba to Tehri Lake, Bhagirathi river reservoir, Uttarakhand water sports",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Tehri Lake Travel Guide: Water Sports & Tips",
           description:
-            "Complete Tehri Lake travel guide — jet skiing, kayaking and cable-skiing at Koti, houseboats, the Tehri Lake Festival, how to reach, where to stay, and a full visit plan.",
+            "Tehri Lake: jet skiing, kayaking and other water sports at Koti, houseboats, the lake festival, how to reach, where to stay and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/uttarakhand/tehri-lake/tehri-lake-reservoir-aerial-view.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

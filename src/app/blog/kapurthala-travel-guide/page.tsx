@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Kapurthala Travel Guide: The Paris of Punjab",
   description:
-    "Complete Kapurthala guide — Jagatjit Palace modeled on Versailles, the Moorish Mosque, Elysee Palace, and why this small Punjab town is nicknamed the Paris of Punjab.",
+    "Kapurthala, the Paris of Punjab: Jagatjit Palace modelled on Versailles, the Moorish Mosque, Elysee Palace, how to reach and a half-day plan.",
   keywords:
     "Kapurthala travel guide, Paris of Punjab, Jagatjit Palace, Moorish Mosque Kapurthala, Elysee Palace, Maharaja Jagatjit Singh, Kapurthala architecture, how to reach Kapurthala",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kapurthala Travel Guide: The Paris of Punjab",
           description:
-            "Complete Kapurthala guide — Jagatjit Palace modeled on Versailles, the Moorish Mosque, Elysee Palace, and why this small Punjab town is nicknamed the Paris of Punjab.",
+            "Kapurthala, the Paris of Punjab: Jagatjit Palace modelled on Versailles, the Moorish Mosque, Elysee Palace, how to reach and a half-day plan.",
           image: "https://club.kudozz.in/images/blogs/punjab/kapurthala/jagatjit-palace-kapurthala.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

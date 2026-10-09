@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Darjeeling Travel Guide: Tea Gardens, Toy Train & Tiger Hill" },
   description:
-    "Complete Darjeeling guide — Tiger Hill sunrise, the UNESCO Toy Train, tea garden tours, Batasia Loop, Peace Pagoda, monasteries, where to stay, and a full visit plan for the Queen of the Hills.",
+    "Darjeeling guide: Tiger Hill sunrise, the UNESCO toy train, tea estate tours, Batasia Loop and monasteries, where to stay and a 3-day plan.",
   keywords:
     "Darjeeling travel guide, Tiger Hill sunrise, Darjeeling Himalayan Railway, Darjeeling Toy Train, Darjeeling tea gardens, Batasia Loop, Peace Pagoda Darjeeling, Ghoom Monastery, Darjeeling best time to visit, how to reach Darjeeling, Darjeeling Mall Road, Kanchenjunga view, West Bengal hill station",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Darjeeling Travel Guide: Tea Gardens, Toy Train & Tiger Hill",
           description:
-            "Complete Darjeeling guide — Tiger Hill sunrise, the UNESCO Toy Train, tea garden tours, Batasia Loop, Peace Pagoda, monasteries, where to stay, and a full visit plan for the Queen of the Hills.",
+            "Darjeeling guide: Tiger Hill sunrise, the UNESCO toy train, tea estate tours, Batasia Loop and monasteries, where to stay and a 3-day plan.",
           image: "https://club.kudozz.in/images/blogs/west-bengal/darjeeling/tiger-hill-kanchenjunga-sunrise-darjeeling.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-09",

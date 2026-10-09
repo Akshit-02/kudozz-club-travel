@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kalipur Beach Travel Guide: Turtles, Saddle Peak & Tips" },
   description:
-    "Complete Kalipur guide — North Andaman's quiet turtle-nesting beach near Diglipur, the gateway to the Saddle Peak trek, and one of the calmest, least-visited stops on the islands.",
+    "Kalipur, North Andaman: a quiet turtle-nesting beach near Diglipur, the Saddle Peak trek, nesting season, how to reach, where to stay and costs.",
   keywords:
     "Kalipur beach, Kalipur Diglipur, Kalipur turtle nesting, Saddle Peak trek, North Andaman beach, Kalipur Andaman, turtle interpretation centre Andaman",
   openGraph: {

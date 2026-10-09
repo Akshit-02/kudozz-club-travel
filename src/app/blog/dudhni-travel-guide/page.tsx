@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Dudhni Lake Travel Guide: Boating Near Silvassa",
   description:
-    "Complete Dudhni travel guide — boating on the Madhuban Dam reservoir near Silvassa, the best time to visit, how to reach, picnic spots, and a half-day plan combining Dudhni with Madhuban Dam.",
+    "Dudhni near Silvassa: boating on the Madhuban Dam backwaters, picnic spots, the best season, how to reach and a half-day plan with Madhuban Dam.",
   keywords:
     "Dudhni travel guide, Dudhni Lake Silvassa, Dudhni boating, Madhuban Dam Dudhni, Dudhni Silvassa distance, Dadra Nagar Haveli boating, Silvassa day trip, Dudhni Island Garden, Damanganga reservoir",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dudhni Lake Travel Guide: Boating Near Silvassa",
           description:
-            "Complete Dudhni travel guide — boating on the Madhuban Dam reservoir near Silvassa, the best time to visit, how to reach, picnic spots, and a half-day plan combining Dudhni with Madhuban Dam.",
+            "Dudhni near Silvassa: boating on the Madhuban Dam backwaters, picnic spots, the best season, how to reach and a half-day plan with Madhuban Dam.",
           image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/dudhni/dudhni-lake-reservoir-boating-view.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-09-09",

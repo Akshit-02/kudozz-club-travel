@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Madhya Pradesh Travel Guide: Khajuraho, Tigers & Forts" },
   description:
-    "The complete Madhya Pradesh travel guide — the intricately carved temples of Khajuraho, tiger safaris in Bandhavgarh and Kanha, Gwalior Fort, the Sanchi Stupa, Pachmarhi's hills, where to stay and eat, and a full itinerary through the 'Heart of India.'",
+    "Madhya Pradesh travel guide: Khajuraho, Bandhavgarh and Kanha safaris, Gwalior Fort, Sanchi, Pachmarhi, best time, where to stay and a 7-day plan.",
   keywords:
     "Madhya Pradesh travel guide, Khajuraho temples, Bandhavgarh National Park, Kanha National Park, Gwalior Fort, Sanchi Stupa, Pachmarhi, Madhya Pradesh itinerary, tiger safari India, Ujjain Mahakaleshwar, best time to visit Madhya Pradesh, how to reach Khajuraho, Madhya Pradesh itinerary days, Madhya Pradesh budget trip, top things to do in Madhya Pradesh, Bandhavgarh vs Kanha tiger safari, Khajuraho dance festival, is Madhya Pradesh safe for solo travellers",
   openGraph: {

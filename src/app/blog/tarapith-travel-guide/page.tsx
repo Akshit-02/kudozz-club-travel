@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Tarapith Travel Guide: Shakti Peeth Temple & Tips",
   description:
-    "Complete Tarapith guide — the Maa Tara Shakti Peeth temple, the Mahashmashan cremation ground, Bengal's Tantric tradition, how to reach from Kolkata, and where to stay.",
+    "Tarapith, Birbhum: the Maa Tara Shakti Peeth temple, the cremation ground and Bengal's Tantric tradition, how to reach from Kolkata and where to stay.",
   keywords:
     "Tarapith, Tarapith Temple, Maa Tara Temple, Shakti Peeth, Tarapith Mahashmashan, Bamakhepa, Rampurhat, Birbhum, Tantric tradition Bengal, Tarapith how to reach, Tarapith Kali Puja",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Tarapith Travel Guide: Shakti Peeth Temple & Tips",
           description:
-            "Complete Tarapith guide — the Maa Tara Shakti Peeth temple, the Mahashmashan cremation ground, Bengal's Tantric tradition, how to reach from Kolkata, and where to stay.",
+            "Tarapith, Birbhum: the Maa Tara Shakti Peeth temple, the cremation ground and Bengal's Tantric tradition, how to reach from Kolkata and where to stay.",
           image:
             "https://club.kudozz.in/images/blogs/west-bengal/tarapith/maa-tara-temple-dome-tarapith.webp",
           datePublished: "2026-09-02",

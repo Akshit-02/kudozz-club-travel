@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Kausani Travel Guide: Himalayan Views & Tea Gardens",
   description:
-    "Complete Kausani guide — the Himalayan panorama of Trishul, Nanda Devi & Panchachuli, Anasakti Ashram, Kausani Tea Estate, Rudradhari Falls, how to reach, where to stay, and a full visit plan.",
+    "Kausani, Kumaon: the Trishul and Nanda Devi panorama, Anasakti Ashram, the tea estate and Rudradhari Falls, how to reach, where to stay and a plan.",
   keywords:
     "Kausani, Kausani Uttarakhand, Kausani travel guide, Kausani tea estate, Anasakti Ashram, Rudradhari Falls, Switzerland of India, Kausani best time to visit, how to reach Kausani, Kumaon hill station, Mahatma Gandhi Kausani",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kausani Travel Guide: Himalayan Views & Tea Gardens",
           description:
-            "Complete Kausani guide — the Himalayan panorama of Trishul, Nanda Devi & Panchachuli, Anasakti Ashram, Kausani Tea Estate, Rudradhari Falls, how to reach, where to stay, and a full visit plan.",
+            "Kausani, Kumaon: the Trishul and Nanda Devi panorama, Anasakti Ashram, the tea estate and Rudradhari Falls, how to reach, where to stay and a plan.",
           image: "https://club.kudozz.in/images/blogs/uttarakhand/kausani/nanda-devi-trisul-himalayan-range-kausani.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

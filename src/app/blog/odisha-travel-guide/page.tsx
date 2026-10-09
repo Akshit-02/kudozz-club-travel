@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Odisha Travel Guide: Konark, Puri & Chilika Lake",
   description:
-    "The complete Odisha travel guide — the Konark Sun Temple, Puri's Jagannath Temple and beach, Bhubaneswar's temple architecture, Chilika Lake's Irrawaddy dolphins, where to stay and eat, and a full itinerary through India's most underrated temple state.",
+    "Odisha travel guide: Puri's Jagannath Temple, the Konark Sun Temple, Bhubaneswar, Chilika's dolphins and tribal Odisha, where to stay and a 5-day plan.",
   keywords:
     "Odisha travel guide, Konark Sun Temple, Puri Jagannath Temple, Bhubaneswar travel guide, Chilika Lake, Puri beach, Rath Yatra, Udayagiri Khandagiri Caves, Odisha itinerary, Odia food, best time to visit Odisha, how to reach Odisha, Odisha itinerary days, is Odisha safe for solo travellers, Odisha budget trip, top things to do in Odisha, Irrawaddy dolphins Chilika, Golden Triangle Odisha",
   openGraph: {

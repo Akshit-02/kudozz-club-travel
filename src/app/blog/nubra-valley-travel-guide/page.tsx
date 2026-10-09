@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert" },
   description:
-    "The complete Nubra Valley travel guide — crossing Khardung La, Diskit Monastery's giant Maitreya Buddha, Hunder's Bactrian camels, permits, a 2-day itinerary, stays, food and budget for Ladakh's high-altitude desert.",
+    "Nubra Valley guide: over Khardung La to Diskit's Maitreya Buddha and Hunder's camels, permits, where to stay, food, budget and a 2-day itinerary.",
   keywords: [
     "Nubra Valley",
     "Ladakh",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert",
     description:
-      "The complete Nubra Valley travel guide — crossing Khardung La, Diskit Monastery's giant Maitreya Buddha, Hunder's Bactrian camels, permits, a 2-day itinerary, stays, food and budget for Ladakh's high-altitude desert.",
+      "Nubra Valley guide: over Khardung La to Diskit's Maitreya Buddha and Hunder's camels, permits, where to stay, food, budget and a 2-day itinerary.",
     url: `https://club.kudozz.in/blog/nubra-valley-travel-guide`,
     type: "article",
     tags: [
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert",
     description:
-      "The complete Nubra Valley travel guide — crossing Khardung La, Diskit Monastery's giant Maitreya Buddha, Hunder's Bactrian camels, permits, a 2-day itinerary, stays, food and budget for Ladakh's high-altitude desert.",
+      "Nubra Valley guide: over Khardung La to Diskit's Maitreya Buddha and Hunder's camels, permits, where to stay, food, budget and a 2-day itinerary.",
     images: ["/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp"],
   },
   alternates: {
@@ -83,7 +83,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Nubra Valley Travel Guide: Sand Dunes, Camels & Cold Desert",
           description:
-            "The complete Nubra Valley travel guide — crossing Khardung La, Diskit Monastery's giant Maitreya Buddha, Hunder's Bactrian camels, permits, a 2-day itinerary, stays, food and budget for Ladakh's high-altitude desert.",
+            "Nubra Valley guide: over Khardung La to Diskit's Maitreya Buddha and Hunder's camels, permits, where to stay, food, budget and a 2-day itinerary.",
           image: "https://club.kudozz.in/images/blogs/ladakh/nubra-valley/hunder-dunes-bactrian-camels-nubra-valley.webp",
           datePublished: "2026-07-22",
           dateModified: "2026-09-09",

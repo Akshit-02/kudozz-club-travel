@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Orchha Travel Guide: Cenotaphs, Palaces & Betwa River" },
   description:
-    "The complete Orchha travel guide. Orchha Fort Complex, Jahangir Mahal, Ram Raja Temple, the riverside Chhatris, where to stay, what to eat, and a 2-day itinerary through this uncrowded Bundela heritage town.",
+    "Orchha guide: the fort complex, Jahangir Mahal, Ram Raja Temple and the Betwa chhatris, where to stay, what to eat and a 2-day itinerary.",
   keywords:
     "Orchha travel guide, Orchha Fort, Jahangir Mahal, Ram Raja Temple, Orchha Chhatris, Betwa River, Orchha itinerary, best time to visit Orchha, how to reach Orchha, Orchha Jhansi, Orchha Madhya Pradesh, Orchha 2 day itinerary",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Bishnupur Travel Guide: Terracotta Temples & Baluchari" },
   description:
-    "Complete Bishnupur guide — the Malla dynasty's terracotta temples, Rasmancha, Baluchari sarees, the Bishnupur Gharana, how to reach from Kolkata, and a full visit plan.",
+    "Bishnupur guide: the Malla kings' terracotta temples and Rasmancha, Baluchari sarees and the Bishnupur gharana, how to reach from Kolkata and a plan.",
   keywords:
     "Bishnupur travel guide, Bishnupur terracotta temples, Rasmancha, Jor Bangla temple, Madan Mohan Temple, Shyam Rai Temple, Baluchari saree, Bishnupur Gharana, Malla dynasty, Bankura district, how to reach Bishnupur, West Bengal heritage",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bishnupur Travel Guide: Terracotta Temples & Baluchari",
           description:
-            "Complete Bishnupur guide — the Malla dynasty's terracotta temples, Rasmancha, Baluchari sarees, the Bishnupur Gharana, how to reach from Kolkata, and a full visit plan.",
+            "Bishnupur guide: the Malla kings' terracotta temples and Rasmancha, Baluchari sarees and the Bishnupur gharana, how to reach from Kolkata and a plan.",
           image:
             "https://club.kudozz.in/images/blogs/west-bengal/bishnupur/jor-bangla-temple-terracotta-facade-bishnupur.webp",
           datePublished: "2026-09-02",

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Janakpuri Delhi Guide: Parks, Markets & Transport",
   description:
-    "A practical guide to Janakpuri, West Delhi's planned residential colony — District Park, local markets, the Janakpuri West Metro interchange, and why it's worth knowing about.",
+    "Janakpuri, West Delhi: District Park, local markets and the Janakpuri West Metro interchange, with an honest note on what it is and isn't for visitors.",
   keywords:
     "Janakpuri Delhi, Janakpuri West Metro, District Park Janakpuri, Janakpuri C-2 Block market, West Delhi residential colony, Janakpuri District Centre, Blue Line Magenta Line interchange, Janakpuri travel guide",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Janakpuri Delhi Guide: Parks, Markets & Transport",
           description:
-            "A practical guide to Janakpuri, West Delhi's planned residential colony — District Park, local markets, the Janakpuri West Metro interchange, and why it's worth knowing about.",
+            "Janakpuri, West Delhi: District Park, local markets and the Janakpuri West Metro interchange, with an honest note on what it is and isn't for visitors.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/janakpuri/janakpuri-west-metro-interchange-signage.webp",
           datePublished: "2026-08-30",

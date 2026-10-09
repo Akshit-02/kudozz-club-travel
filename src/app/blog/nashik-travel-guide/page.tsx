@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Nashik Travel Guide: Vineyards, Temples & Godavari Ghats" },
   description:
-    "The complete Nashik travel guide — Sula Vineyards and wine tours, Panchavati and the Godavari ghats, Trimbakeshwar Jyotirlinga temple, Pandavleni Caves, where to stay, what to eat, a 2-day itinerary, and budget breakdown.",
+    "Nashik guide: Sula and the vineyards, Panchavati and the Godavari ghats, Trimbakeshwar, Pandavleni Caves, where to stay and a 2-day itinerary.",
   keywords:
     "Nashik travel guide, Sula Vineyards, Nashik wineries, Trimbakeshwar Temple, Panchavati Nashik, Godavari ghats, Nashik Kumbh Mela, Pandavleni Caves, Nashik itinerary, best time to visit Nashik, how to reach Nashik, Nashik wine tour, Nashik weekend getaway from Mumbai, Nashik weekend getaway from Pune",
   openGraph: {

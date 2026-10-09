@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Gujarat Travel Guide: Rann of Kutch, Somnath & Gir National Park" },
   description:
-    "The complete Gujarat travel guide — the white salt desert of the Rann of Kutch, the Rann Utsav festival, Somnath and Dwarka's temple towns, wild Asiatic lions in Gir National Park, Ahmedabad's UNESCO heritage, the Statue of Unity, where to stay and eat, and a full itinerary through India's westernmost state.",
+    "Gujarat travel guide: the Rann of Kutch and Rann Utsav, Somnath and Dwarka, Gir's Asiatic lions, Ahmedabad and the Statue of Unity, with 7 days.",
   keywords:
     "Gujarat travel guide, Rann of Kutch, Rann Utsav, Somnath temple, Dwarka, Gir National Park, Asiatic lions, Ahmedabad heritage, Statue of Unity, Gujarat itinerary, Gujarati food, best time to visit Gujarat, how to reach Gujarat from Ahmedabad, Gujarat 7 day itinerary, is Gujarat safe for solo travellers, Gujarat trip budget, top things to do in Gujarat, Rann of Kutch full moon walk, Gir National Park jeep safari, Sabarmati Ashram Ahmedabad, Dwarkadhish Temple",
   openGraph: {

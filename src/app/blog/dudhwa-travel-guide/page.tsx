@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Dudhwa National Park: Tiger & Rhino Safari Guide",
   description:
-    "Complete Dudhwa National Park guide — Bengal tigers, the reintroduced one-horned rhinoceros, barasingha, safari ranges, best time to visit, how to reach, and a full visit plan.",
+    "Dudhwa National Park: tigers, reintroduced one-horned rhinos and barasingha in UP's terai, safari ranges, best time, how to reach and a plan.",
   keywords:
     "Dudhwa National Park, Dudhwa Tiger Reserve, one-horned rhinoceros Dudhwa, barasingha, terai Uttar Pradesh, Dudhwa safari, Kishanpur Wildlife Sanctuary, Sonaripur, Dudhwa best time to visit, how to reach Dudhwa, Lakhimpur Kheri",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dudhwa National Park: Tiger & Rhino Safari Guide",
           description:
-            "Complete Dudhwa National Park guide — Bengal tigers, the reintroduced one-horned rhinoceros, barasingha, safari ranges, best time to visit, how to reach, and a full visit plan.",
+            "Dudhwa National Park: tigers, reintroduced one-horned rhinos and barasingha in UP's terai, safari ranges, best time, how to reach and a plan.",
           image: "https://club.kudozz.in/images/blogs/uttar-pradesh/dudhwa/swamp-deer-dudhwa-national-park.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

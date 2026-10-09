@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Bomdila Travel Guide: Monastery Town & Gateway to Tawang" },
   description:
-    "The complete Bomdila travel guide. Bomdila Monastery, panoramic Himalayan views, Monpa craft centre, where to stay, best time to visit, and a full itinerary as your first stop toward Tawang.",
+    "Bomdila guide: the monastery, Himalayan views and Monpa crafts on the way to Tawang, best time, where to stay and a one-day plan.",
   keywords:
     "Bomdila travel guide, Bomdila Monastery, Bomdila viewpoint, best time to visit Bomdila, how to reach Bomdila, Guwahati to Tawang road, Bomdila Monpa craft centre, Arunachal Pradesh gateway town",
   openGraph: {

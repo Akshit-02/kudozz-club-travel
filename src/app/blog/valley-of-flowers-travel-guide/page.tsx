@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Valley of Flowers Trek Guide: Permits, Routes, Best Time & Tips" },
   description:
-    "The complete Valley of Flowers National Park trek guide. Everything you need — how to reach Govindghat, the trek route, permits, what flowers bloom when, Hemkund Sahib, where to stay in Ghangaria, and essential tips for this UNESCO World Heritage trek in Uttarakhand.",
+    "Valley of Flowers trek: reaching Govindghat, the route via Ghangaria, permits, which flowers bloom when, Hemkund Sahib, stays and a 5-day plan.",
   keywords:
     "Valley of Flowers trek, Valley of Flowers National Park, Uttarakhand trek, Ghangaria, Govindghat, Hemkund Sahib, Valley of Flowers permit, Valley of Flowers best time, Nanda Devi Biosphere Reserve, Chamoli Uttarakhand trek, how to reach Govindghat, Valley of Flowers trek difficulty, Valley of Flowers 5 day itinerary, is Valley of Flowers trek safe for solo travellers, Valley of Flowers budget trip, best time to visit Valley of Flowers, Rishikesh to Govindghat distance",
   openGraph: {

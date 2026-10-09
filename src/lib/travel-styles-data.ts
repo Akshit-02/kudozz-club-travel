@@ -5,6 +5,9 @@
 export interface TravelStylePackage {
   slug: string;
   name: string;
+  /** Page title and H1, phrased the way people search ("family tour packages in India"). */
+  title: string;
+  metaDescription: string;
   desc: string;
   intro: string;
   image: string;
@@ -15,6 +18,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "family-holidays",
     name: "Family Holidays",
+    title: "Family Tour Packages in India",
+    metaDescription:
+      "Family tour packages in India planned around children and grandparents: shorter travel days, easy stays and routes in Kerala, Goa, Rajasthan and Himachal.",
     desc: "Kid-friendly pacing and stays",
     intro:
       "Family trips need a slower pace, shorter travel days, and stays that work for every age group — not a checklist of every attraction in a state.",
@@ -24,6 +30,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "honeymoon",
     name: "Honeymoon",
+    title: "Honeymoon Packages in India",
+    metaDescription:
+      "Honeymoon packages in India planned around privacy and pace: Kashmir houseboats, Kerala backwaters, Goa and the Andamans, with stays chosen for couples.",
     desc: "Romantic routes, privacy-first stays",
     intro:
       "From Kerala's backwaters to Kashmir's houseboats, Kudozz Club plans honeymoon routes built around privacy and pace, not a generic sightseeing list.",
@@ -33,6 +42,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "weekend-getaways",
     name: "Weekend Getaways",
+    title: "Weekend Getaway Packages in India",
+    metaDescription:
+      "Weekend getaway packages for 2-3 day trips to Uttarakhand, Chandigarh, Karnataka and Goa: tight logistics and short travel times, planned around your dates.",
     desc: "Short trips, minimal planning",
     intro:
       "For a 2–3 day trip, the plan matters more than the destination — tight logistics, minimal travel time, and a route that doesn't feel rushed.",
@@ -42,6 +54,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "group-tours",
     name: "Group Tours",
+    title: "Group Tour Packages in India",
+    metaDescription:
+      "Group tour packages in India for friends, family reunions and larger groups: coordinated transport, room plans and a pace that works for everyone.",
     desc: "Friends, family reunions, larger groups",
     intro:
       "Larger groups need coordinated transport, room configurations, and a pace everyone can keep up with — we plan around the group, not a fixed template.",
@@ -52,6 +67,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "adventure-tours",
     name: "Adventure Trips",
+    title: "Adventure Tour Packages in India",
+    metaDescription:
+      "Adventure tour packages in India: treks, rafting, high passes and road trips in Ladakh, Himachal, Uttarakhand and Meghalaya, planned around permits.",
     desc: "Trekking, rafting, road trips",
     intro:
       "High-altitude passes, white-water rafting, and multi-day treks — adventure trips need real logistics planning around permits, altitude, and season.",
@@ -61,6 +79,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "wildlife-tours",
     name: "Wildlife Trips",
+    title: "Wildlife Tour Packages in India",
+    metaDescription:
+      "Wildlife tour packages in India: tiger reserves in Madhya Pradesh and Rajasthan, Kabini, Kaziranga's rhinos, with safari zones, permits and season planned.",
     desc: "National parks and safaris",
     intro:
       "Safari zone allocation, permit timing, and choosing the right season matter as much as choosing the park — we handle both.",
@@ -71,6 +92,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "spiritual-tours",
     name: "Spiritual & Pilgrimage",
+    title: "Pilgrimage & Spiritual Tour Packages in India",
+    metaDescription:
+      "Pilgrimage tour packages in India: Char Dham, Varanasi, Amritsar, Puri and temple circuits, paced around darshan, crowds, altitude and older travellers.",
     desc: "Char Dham, temple circuits",
     intro:
       "From the Char Dham Yatra to temple circuits in the south, pilgrimage trips need careful pacing around altitude, crowds, and ritual timings.",
@@ -80,6 +104,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "heritage-tours",
     name: "Heritage & Culture",
+    title: "Heritage & Cultural Tour Packages in India",
+    metaDescription:
+      "Heritage tour packages in India: forts, palaces and UNESCO sites in Rajasthan, Gujarat, Karnataka and Madhya Pradesh, sequenced around timings and guides.",
     desc: "Forts, palaces, UNESCO sites",
     intro:
       "Heritage trips work best with the right sequence: monuments at opening time, rest in the midday heat, a guide who knows the history, and room for crafts, food and performances in between.",
@@ -89,6 +116,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "hill-station-holidays",
     name: "Hill Stations",
+    title: "Hill Station Tour Packages in India",
+    metaDescription:
+      "Hill station tour packages in India: Himachal, Uttarakhand, Kashmir and Sikkim, matched to the month, with realistic mountain driving days and good stays.",
     desc: "Himalayan towns, tea hills, snow",
     intro:
       "Hill holidays work best when the season, the roads and the pace are right: the right hill for the month, realistic mountain driving days, and stays that suit who is travelling.",
@@ -98,6 +128,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "nature-holidays",
     name: "Nature Holidays",
+    title: "Nature Holiday Packages in India",
+    metaDescription:
+      "Nature holiday packages in India: forests, waterfalls and valleys in Kerala, Meghalaya, Uttarakhand and Karnataka, timed to the right season for each.",
     desc: "Forests, waterfalls, valleys",
     intro:
       "Nature trips work best when the season is right for the landscape: waterfalls after the rains, valleys in bloom, clear skies for mountain views, and stays close to the forest rather than the highway.",
@@ -107,6 +140,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "road-trip-holidays",
     name: "Road Trips",
+    title: "Road Trip Packages in India",
+    metaDescription:
+      "Road trip packages in India: Spiti, Ladakh, Rajasthan and Kerala routes, planned with realistic driving days, good overnight stops and the right season.",
     desc: "Routes, drives, overnight stops",
     intro:
       "A good road trip is planned around realistic driving days: the right route for the season, overnight stops before the long climbs, and stays that make the journey part of the holiday rather than the gap between destinations.",
@@ -116,6 +152,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "luxury-holidays",
     name: "Luxury Holidays",
+    title: "Luxury Tour Packages in India",
+    metaDescription:
+      "Luxury tour packages in India: palace hotels in Rajasthan, Kerala retreats, Kashmir and Goa, with private transfers and a pace built around comfort.",
     desc: "Premium stays, private transport",
     intro:
       "Palace hotels, private transfers, and a pace built around comfort rather than covering ground — luxury trips planned around what actually matters to you.",
@@ -125,6 +164,9 @@ export const travelStylesData: TravelStylePackage[] = [
   {
     slug: "budget-holidays",
     name: "Budget Holidays",
+    title: "Budget Tour Packages in India",
+    metaDescription:
+      "Budget tour packages in India: smarter routing, well-chosen stays and fewer wasted costs in Himachal, Uttarakhand, Karnataka and Rajasthan.",
     desc: "Value-conscious, still well-planned",
     intro:
       "A tighter budget doesn't mean a worse trip — it means smarter routing, well-chosen stays, and cutting the costs that don't add to the experience.",

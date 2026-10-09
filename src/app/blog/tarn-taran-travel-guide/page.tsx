@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Tarn Taran Sahib Guide: The Largest Sarovar",
   description:
-    "Complete Tarn Taran Sahib guide — the gurdwara with the largest sarovar of any Sikh shrine, its founding by Guru Arjan Dev, how to reach from Amritsar, and visiting etiquette.",
+    "Tarn Taran Sahib: the gurdwara founded by Guru Arjan Dev with the largest sarovar in Sikhism, how to reach from Amritsar and visiting etiquette.",
   keywords:
     "Tarn Taran Sahib, largest sarovar Sikh gurdwara, Guru Arjan Dev, Tarn Taran travel guide, Amritsar district, Sikh heritage Punjab, how to reach Tarn Taran",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Tarn Taran Sahib Guide: The Largest Sarovar",
           description:
-            "Complete Tarn Taran Sahib guide — the gurdwara with the largest sarovar of any Sikh shrine, its founding by Guru Arjan Dev, how to reach from Amritsar, and visiting etiquette.",
+            "Tarn Taran Sahib: the gurdwara founded by Guru Arjan Dev with the largest sarovar in Sikhism, how to reach from Amritsar and visiting etiquette.",
           image: "https://club.kudozz.in/images/blogs/punjab/tarn-taran/tarn-taran-sahib.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Siju Cave Guide: Caving & Best Time",
   description:
-    "Complete Siju Cave guide — one of India's longest cave systems, bat colonies and limestone formations on the Simsang River, how to reach from Tura, and a full visit plan.",
+    "Siju Cave (Dobakkol), Garo Hills: one of India's longest cave systems on the Simsang river, how to reach from Tura and a caving visit plan.",
   keywords:
     "Siju Cave, Dobakkol, Simsang River, South Garo Hills, Meghalaya caving, how to reach Siju, Garo Hills adventure, Balpakram Siju combined trip",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Siju Cave Guide: Caving & Best Time",
           description:
-            "Complete Siju Cave guide — one of India's longest cave systems, bat colonies and limestone formations on the Simsang River, how to reach from Tura, and a full visit plan.",
+            "Siju Cave (Dobakkol), Garo Hills: one of India's longest cave systems on the Simsang river, how to reach from Tura and a caving visit plan.",
           image: "https://club.kudozz.in/images/blogs/meghalaya/siju/siju-cave.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",

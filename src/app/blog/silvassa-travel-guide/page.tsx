@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Silvassa Travel Guide: Lakes, Forests & Tribal Culture" },
   description:
-    "Complete Silvassa travel guide — capital of Dadra & Nagar Haveli. Dudhni lake, Khanvel gardens, Satmaliya Deer Sanctuary, Madhuban Dam, Warli tribal art, best time, how to reach, stay, food and a 2-day itinerary.",
+    "Silvassa, Dadra and Nagar Haveli: Dudhni lake, Khanvel, Satmaliya sanctuary, Madhuban Dam and Warli art, best time, where to stay and a 2-day plan.",
   keywords:
     "Silvassa travel guide, Dadra Nagar Haveli tourism, Silvassa tourist places, Dudhni lake Silvassa, Khanvel Silvassa, Satmaliya Deer Sanctuary, Madhuban Dam Silvassa, Warli art Silvassa, Vasona Lion Safari Park, Silvassa weekend trip from Mumbai, Silvassa near Vapi",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Silvassa Travel Guide: Lakes, Forests & Tribal Culture",
           description:
-            "Complete Silvassa travel guide — capital of Dadra & Nagar Haveli. Dudhni lake, Khanvel gardens, Satmaliya Deer Sanctuary, Madhuban Dam, Warli tribal art, best time, how to reach, stay, food and a 2-day itinerary.",
+            "Silvassa, Dadra and Nagar Haveli: Dudhni lake, Khanvel, Satmaliya sanctuary, Madhuban Dam and Warli art, best time, where to stay and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/silvassa-road-signage-khanvel-collectorate.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-09-09",

@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Manas National Park Travel Guide: Tiger Reserve & UNESCO Site" },
   description:
-    "The complete Manas National Park travel guide. Tigers, one-horned rhinos, golden langurs, the park's conservation comeback story, safari zones, where to stay, best time to visit, and a full itinerary.",
+    "Manas National Park on the Bhutan border: tigers, one-horned rhinos and golden langurs, its recovery story, safari zones, best time and a 2-day plan.",
   keywords:
     "Manas National Park travel guide, Manas tiger reserve, Manas UNESCO, golden langur Manas, Manas Bhutan border, best time to visit Manas, how to reach Manas National Park, Assam wildlife safari",
   openGraph: {

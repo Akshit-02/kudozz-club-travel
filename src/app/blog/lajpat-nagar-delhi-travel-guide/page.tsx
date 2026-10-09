@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Lajpat Nagar Travel Guide: Central Market & More",
   description:
-    "Complete Lajpat Nagar travel guide — Central Market's ethnic-wear and bridal shopping, the Tibetan Market next door, bargaining tips, food, and how to plan a half-day visit in South Delhi.",
+    "Lajpat Nagar, South Delhi: Central Market's ethnic and bridal wear, the Tibetan Market, bargaining tips, food and a half-day shopping plan.",
   keywords:
     "Lajpat Nagar travel guide, Lajpat Nagar Central Market, Lajpat Nagar Tibetan Market, Lajpat Nagar shopping, Lajpat Nagar metro, Lala Lajpat Rai, South Delhi markets, Delhi bridal shopping, Delhi ethnic wear market, Lajpat Nagar bargaining tips",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Lajpat Nagar Travel Guide: Central Market & More",
           description:
-            "Complete Lajpat Nagar travel guide — Central Market's ethnic-wear and bridal shopping, the Tibetan Market next door, bargaining tips, food, and how to plan a half-day visit in South Delhi.",
+            "Lajpat Nagar, South Delhi: Central Market's ethnic and bridal wear, the Tibetan Market, bargaining tips, food and a half-day shopping plan.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/lajpat-nagar/lajpat-nagar-central-market-street-scene.webp",
           datePublished: "2026-08-30",

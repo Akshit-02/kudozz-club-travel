@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Pangong Lake Travel Guide: Routes, Permits, Camping & Tips" },
   description:
-    "The complete Pangong Tso travel guide — how to reach via Chang La or the Nubra-Shyok route, ILP permits, the colour-changing lake, overnight camping, south vs north shore, a 2-day Leh itinerary, budget and essential tips.",
+    "Pangong Tso guide: the route over Chang La or via Shyok, permits, camping on the shore, south vs north bank, best time and a 2-day trip from Leh.",
   keywords:
     "Pangong Lake, Pangong Tso, Ladakh, Chang La pass, Pangong camping, Pangong permit, Merek, Spangmik, 3 Idiots lake, Leh to Pangong, best time to visit Pangong Lake, how to reach Pangong from Leh, Pangong Lake itinerary days, is Pangong Lake safe for solo travellers, Pangong Lake budget trip, top things to do at Pangong Lake, Nubra Shyok route to Pangong",
   openGraph: {

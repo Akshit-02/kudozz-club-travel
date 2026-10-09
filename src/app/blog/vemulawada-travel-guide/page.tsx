@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Vemulawada Temple Guide: Darshan & Tips",
   description:
-    "Complete Vemulawada guide — the Sri Raja Rajeswara Swamy temple, its dual Shiva-Vishnu shrines, Kartika Masam significance, how to reach from Hyderabad, and a full visit plan.",
+    "Vemulawada, Telangana: the Sri Raja Rajeswara Swamy temple and its Shiva and Vishnu shrines, Kartika Masam, how to reach from Hyderabad.",
   keywords:
     "Vemulawada travel guide, Sri Raja Rajeswara Swamy temple, Dakshina Kashi, Rajanna Sircilla, Telangana temples, Kartika Masam, how to reach Vemulawada",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Vemulawada Temple Guide: Darshan & Tips",
           description:
-            "Complete Vemulawada guide — the Sri Raja Rajeswara Swamy temple, its dual Shiva-Vishnu shrines, Kartika Masam significance, how to reach from Hyderabad, and a full visit plan.",
+            "Vemulawada, Telangana: the Sri Raja Rajeswara Swamy temple and its Shiva and Vishnu shrines, Kartika Masam, how to reach from Hyderabad.",
           image: "https://club.kudozz.in/images/blogs/telangana/vemulawada/raja-rajeshwara-swamy-temple-gopuram-vemulawada.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

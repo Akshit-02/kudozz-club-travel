@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Shirdi Travel Guide: Sai Baba Temple, Timings & How to Reach" },
   description:
-    "The complete Shirdi travel guide — Sai Baba Samadhi Mandir, Dwarkamai, Chavadi, darshan tips, how to reach by air, rail and road, where to stay, and a budget breakdown for pilgrims.",
+    "Shirdi guide: Sai Baba Samadhi Mandir, Dwarkamai and Chavadi, darshan and aarti tips, how to reach by air, rail and road, where to stay and costs.",
   keywords:
     "Shirdi travel guide, Sai Baba Temple Shirdi, Shirdi darshan timings, Shirdi Sansthan Trust, how to reach Shirdi, Shirdi Airport, Sainagar Shirdi railway station, Dwarkamai, Chavadi Shirdi, Shani Shingnapur, Shirdi from Mumbai, Shirdi from Nashik, Shirdi itinerary, Shirdi budget trip",
   openGraph: {

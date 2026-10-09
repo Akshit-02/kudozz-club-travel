@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Mangaluru Travel Guide: Beaches, Temples & Coastal Cuisine" },
   description:
-    "The complete Mangaluru travel guide. Panambur Beach, Kadri Manjunath Temple, St. Aloysius Chapel, Mangalorean seafood, where to stay, best time to visit, and a full itinerary through Karnataka's main port city.",
+    "Mangaluru guide: Panambur Beach, Kadri Manjunath Temple, St. Aloysius Chapel and Mangalorean seafood, best time, where to stay and a 2-day plan.",
   keywords:
     "Mangaluru travel guide, Mangalore, Panambur Beach, Kadri Manjunath Temple, St Aloysius Chapel, Mangalorean cuisine, best time to visit Mangaluru, how to reach Mangaluru, Karnataka coast",
   openGraph: {

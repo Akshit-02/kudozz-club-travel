@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Prashar Lake Trek Guide: Floating Island & Best Time to Visit" },
   description:
-    "The complete Prashar Lake trek guide. The lake's floating island, Rishi Prashar Temple, the Baggi village trailhead, overnight camping, best time to visit, and a full itinerary.",
+    "Prashar Lake trek near Mandi: the floating island, Rishi Prashar Temple, the Baggi trailhead, camping, best time and a 2-day itinerary.",
   keywords:
     "Prashar Lake trek, Prashar Lake Mandi, Rishi Prashar Temple, floating island lake Himachal, Baggi village trek, best time to visit Prashar Lake, how to reach Prashar Lake, easy Himachal treks",
   openGraph: {

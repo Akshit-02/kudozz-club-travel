@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Temi Tea Garden Guide: Sikkim's Only Estate",
   description:
-    "Complete Temi Tea Garden guide — Sikkim's only tea estate, terraced hillside views with Kanchenjunga in the backdrop, the factory tour, tea tasting, how to reach, and a full visit plan.",
+    "Temi Tea Garden, Sikkim's only tea estate: terraced slopes with Kanchenjunga views, the factory and tasting, how to reach and a visit plan.",
   keywords:
     "Temi Tea Garden, Sikkim tea estate, South Sikkim tea garden, organic tea Sikkim, Temi tea factory tour, how to reach Temi Tea Garden, Kanchenjunga tea garden view",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Temi Tea Garden Guide: Sikkim's Only Estate",
           description:
-            "Complete Temi Tea Garden guide — Sikkim's only tea estate, terraced hillside views with Kanchenjunga in the backdrop, the factory tour, tea tasting, how to reach, and a full visit plan.",
+            "Temi Tea Garden, Sikkim's only tea estate: terraced slopes with Kanchenjunga views, the factory and tasting, how to reach and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/sikkim/temi-tea-garden/temi-tea-garden.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

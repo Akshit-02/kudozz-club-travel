@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Sakleshpur Travel Guide: Coffee Trails, Railway Trek & Waterfalls" },
   description:
-    "The complete Sakleshpur travel guide. The Green Route railway trek, Manjarabad Fort, Bisle Ghat, coffee estate homestays, where to stay, best time to visit, and a full 2-day itinerary through Karnataka's coffee country.",
+    "Sakleshpur, Karnataka: the Green Route railway trek, Manjarabad Fort, Bisle Ghat and coffee estate homestays, best time and a 2-day itinerary.",
   keywords:
     "Sakleshpur travel guide, Green Route railway trek, Manjarabad Fort, Bisle Ghat, Sakleshpur coffee estate, best time to visit Sakleshpur, how to reach Sakleshpur, Karnataka weekend trip",
   openGraph: {

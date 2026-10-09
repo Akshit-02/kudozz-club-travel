@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Bandipur National Park: Tiger Safari Guide, Zones & Best Time" },
   description:
-    "The complete Bandipur travel guide. Jeep and canter safaris, the Mysuru-Ooty highway night-driving ban, wildlife, where to stay, best time to visit, and a full itinerary through one of India's original Project Tiger reserves.",
+    "Bandipur National Park safari guide: jeep and canter safaris, the Mysuru–Ooty highway night closure, best time, where to stay and a 2-day plan.",
   keywords:
     "Bandipur National Park travel guide, Bandipur safari, Bandipur tiger reserve, Mysuru Ooty highway, Bandipur night driving ban, best time to visit Bandipur, how to reach Bandipur, Karnataka wildlife safari",
   openGraph: {

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Gurudongmar Lake Guide: Permits & Altitude",
   description:
-    "Complete Gurudongmar Lake guide — one of the world's highest accessible lakes, its Buddhist and Sikh significance, altitude-sickness risk, permits, and how to reach it from Lachen.",
+    "Gurudongmar Lake, North Sikkim: one of the world's highest drivable lakes, its sacred status, altitude risk, permits and the drive from Lachen.",
   keywords:
     "Gurudongmar Lake travel guide, Gurudongmar Sikkim, highest lake in India, North Sikkim permit, Lachen to Gurudongmar, altitude sickness Sikkim, sacred lake Sikkim",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Gurudongmar Lake Guide: Permits & Altitude",
           description:
-            "Complete Gurudongmar Lake guide — one of the world's highest accessible lakes, its Buddhist and Sikh significance, altitude-sickness risk, permits, and how to reach it from Lachen.",
+            "Gurudongmar Lake, North Sikkim: one of the world's highest drivable lakes, its sacred status, altitude risk, permits and the drive from Lachen.",
           image: "https://club.kudozz.in/images/blogs/sikkim/gurudongmar-lake/gurudongmar-lake.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

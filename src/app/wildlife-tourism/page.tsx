@@ -15,9 +15,9 @@ import { getDestinationProfile } from "@/lib/destination-profiles";
 import { SITE_URL } from "@/lib/site";
 
 const URL = `${SITE_URL}/wildlife-tourism`;
-const TITLE = "Wildlife Tourism in India: Parks, Safaris & Planning | Kudozz Club";
+const TITLE = "Wildlife Tourism in India: Parks, Safaris & Planning";
 const DESCRIPTION =
-  "Wildlife tourism in India: national parks, tiger reserves and sanctuaries, safaris, where to see each species, birdwatching, state guides, seasons and responsible travel.";
+  "Wildlife tourism in India: national parks and tiger reserves, how safaris work, where to see each species, birdwatching, state guides and the best seasons.";
 const HERO = { src: "/images/wildlife/wildlife-tourism-india-tiger.webp", alt: "A Bengal tiger resting in dry grass in Ranthambore National Park" };
 
 export const metadata: Metadata = {

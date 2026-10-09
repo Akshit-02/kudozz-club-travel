@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Cellular Jail Travel Guide: History, Timings & Light Show" },
   description:
-    "Complete Cellular Jail guide — the British-era prison in Sri Vijaya Puram (Port Blair) that held India's freedom fighters. History, museum galleries, the evening Light and Sound Show, timings and tips.",
+    "Cellular Jail, Sri Vijaya Puram (Port Blair): its history, museum galleries and cell blocks, the light and sound show, timings and visiting tips.",
   keywords:
     "Cellular Jail Port Blair, Cellular Jail history, Kaala Pani, Cellular Jail Light and Sound Show, Cellular Jail timings, Cellular Jail entry fee, Veer Savarkar Cellular Jail, Andaman freedom fighters jail, Cellular Jail museum, Port Blair Cellular Jail visit guide",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Cellular Jail Travel Guide: History, Timings & Light Show",
           description:
-            "Complete Cellular Jail guide — the British-era prison in Sri Vijaya Puram (Port Blair) that held India's freedom fighters. History, museum galleries, the evening Light and Sound Show, timings and tips.",
+            "Cellular Jail, Sri Vijaya Puram (Port Blair): its history, museum galleries and cell blocks, the light and sound show, timings and visiting tips.",
           image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/cellular-jail-andaman/cellular-jail.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",

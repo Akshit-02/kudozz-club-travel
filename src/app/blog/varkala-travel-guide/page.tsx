@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Varkala Travel Guide: Cliff Beach, Yoga & Best Time to Visit" },
   description:
-    "The complete Varkala travel guide. Varkala Cliff, Papanasham Beach, Janardanaswamy Temple, yoga and Ayurveda stays, Kappil Lake, where to stay, what to eat, and a full 2-day itinerary for Kerala's only cliffside beach town.",
+    "Varkala, Kerala: the clifftop beach, Papanasham Beach and Janardanaswamy Temple, yoga and Ayurveda stays, Kappil Lake, where to stay and a 2-day plan.",
   keywords:
     "Varkala travel guide, Varkala Cliff, Papanasham Beach, Varkala best time to visit, Varkala yoga, Varkala Ayurveda, how to reach Varkala, Varkala itinerary, Kappil Lake, Janardanaswamy Temple, Varkala Kerala, Varkala beach cafes",
   openGraph: {

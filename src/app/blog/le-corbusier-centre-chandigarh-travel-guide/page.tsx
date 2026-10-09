@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Le Corbusier Centre Chandigarh: Visit Guide & Timings" },
   description:
-    "Guide to the Le Corbusier Centre in Sector 19-B, Chandigarh — original drawings, sketches and models documenting the city's master plan, plus timings, entry fee, and how to pair it with Capitol Complex.",
+    "Le Corbusier Centre, Sector 19, Chandigarh: original drawings and models of the city plan, timings, entry fee and pairing it with the Capitol Complex.",
   keywords:
     "Le Corbusier Centre Chandigarh, Le Corbusier Chandigarh museum, Chandigarh master plan museum, Pierre Jeanneret Chandigarh, Jane Drew Maxwell Fry Chandigarh, Sector 19 Chandigarh museum, Chandigarh architecture museum, Le Corbusier Centre timings, Le Corbusier Centre entry fee",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Le Corbusier Centre Chandigarh: Visit Guide & Timings",
           description:
-            "Guide to the Le Corbusier Centre in Sector 19-B, Chandigarh — original drawings, sketches and models documenting the city's master plan, plus timings, entry fee, and how to pair it with Capitol Complex.",
+            "Le Corbusier Centre, Sector 19, Chandigarh: original drawings and models of the city plan, timings, entry fee and pairing it with the Capitol Complex.",
           image: "https://club.kudozz.in/images/destinations/chandigarh/hero.jpg",
           datePublished: "2026-08-31",
           dateModified: "2026-09-01",

@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Ahobilam Travel Guide: The Nine Forms of Lord Narasimha" },
   description:
-    "The complete Ahobilam travel guide. Lower and Upper Ahobilam, the nine Narasimha shrines, Prahladavarada Temple, where to stay, best time to visit, and a full itinerary through this Nallamala forest pilgrimage site.",
+    "Ahobilam travel guide: the nine Narasimha shrines of Lower and Upper Ahobilam in the Nallamala forest, best time, where to stay and a 2-day plan.",
   keywords:
     "Ahobilam travel guide, Nava Narasimha temples, Lower Ahobilam, Upper Ahobilam, Prahladavarada Temple, best time to visit Ahobilam, how to reach Ahobilam, Nallamala forest, Andhra Pradesh pilgrimage",
   openGraph: {

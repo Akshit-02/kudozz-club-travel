@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Palak Dil Guide: Mizoram's Largest Lake",
   description:
-    "Complete Palak Dil guide — Mizoram's largest natural lake in remote Saiha district, the flood-village legend behind it, birdlife, how to reach, and a full visit plan.",
+    "Palak Dil, Mizoram's largest natural lake in remote Saiha district: the flood legend, birdlife, permits, how to reach and a visit plan.",
   keywords:
     "Palak Dil travel guide, Mizoram largest lake, Saiha district, Palak lake legend, Mizoram offbeat destinations, how to reach Palak Dil, South Mizoram travel",
   openGraph: {
@@ -61,10 +61,10 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Palak Dil Guide: Mizoram's Largest Lake",
           description:
-            "Complete Palak Dil guide — Mizoram's largest natural lake in remote Saiha district, the flood-village legend behind it, birdlife, how to reach, and a full visit plan.",
+            "Palak Dil, Mizoram's largest natural lake in remote Saiha district: the flood legend, birdlife, permits, how to reach and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/mizoram/palak-dil/palak-dil-lake-misty-sunrise.webp",
           datePublished: "2026-09-04",
-          dateModified: "2026-09-30",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -392,6 +392,12 @@ export default function PalakDilGuidePage() {
                       with the route from Saiha is strongly advisable.
                     </li>
                   </ul>
+                  <div
+                    className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    <strong>📋 Inner Line Permit:</strong> Indian visitors from outside Mizoram need an Inner Line Permit (ILP) to enter the state. Apply on the Mizoram government's official portal (ilp.mizoram.gov.in) before you travel and carry a copy. Foreign nationals need a Protected Area Permit, which was reinstated for Mizoram in December 2024.
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}

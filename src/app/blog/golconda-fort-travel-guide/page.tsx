@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Golconda Fort Guide: History, Sound Show & Tips",
   description:
-    "Complete Golconda Fort guide — Qutb Shahi history, the famous clap-and-echo acoustics, the evening sound-and-light show, the nearby Qutb Shahi Tombs, and a full visit plan.",
+    "Golconda Fort, Hyderabad: Qutb Shahi history, the clap-echo acoustics, the sound-and-light show, the Qutb Shahi tombs and a half-day plan.",
   keywords:
     "Golconda Fort travel guide, Golconda Fort history, Golconda sound and light show, Qutb Shahi Tombs, Golconda diamonds, Hyderabad fort, Golconda Fort timings, how to reach Golconda Fort",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Golconda Fort Guide: History, Sound Show & Tips",
           description:
-            "Complete Golconda Fort guide — Qutb Shahi history, the famous clap-and-echo acoustics, the evening sound-and-light show, the nearby Qutb Shahi Tombs, and a full visit plan.",
+            "Golconda Fort, Hyderabad: Qutb Shahi history, the clap-echo acoustics, the sound-and-light show, the Qutb Shahi tombs and a half-day plan.",
           image: "https://club.kudozz.in/images/blogs/telangana/golconda-fort/golconda-fort-ramparts-hyderabad.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

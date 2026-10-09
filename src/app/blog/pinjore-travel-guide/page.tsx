@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Pinjore Gardens Travel Guide: Mughal Terraces Near Chandigarh" },
   description:
-    "The complete Pinjore travel guide. Yadavindra Gardens' seven Mughal terraces, fountains and pavilions, where to stay, best time to visit, and a full half-day itinerary combined with Chandigarh.",
+    "Pinjore's Yadavindra Gardens near Chandigarh: seven Mughal-style terraces, fountains and pavilions, best time, how to reach and a half-day plan.",
   keywords:
     "Pinjore travel guide, Pinjore Gardens, Yadavindra Gardens, Mughal gardens Haryana, best time to visit Pinjore, how to reach Pinjore, Chandigarh Shimla road stop",
   openGraph: {

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Rangat Andaman Travel Guide: Cuthbert Bay & Long Island" },
   description:
-    "Rangat travel guide — Middle Andaman's halfway stopover town on the road to Diglipur. Cuthbert Bay turtle beach, the Dhaninallah Mangrove Walkway, and the boat crossing to Long Island.",
+    "Rangat, Middle Andaman: Cuthbert Bay's turtle beach, the Dhaninallah mangrove walkway and the boat to Long Island, with a simple stopover plan.",
   keywords:
     "Rangat Andaman, Rangat travel guide, Cuthbert Bay turtle nesting, Dhaninallah Mangrove Walkway, Long Island ferry Rangat, Middle Andaman, Andaman Trunk Road, Yerrata jetty, Amkunj Beach, how to reach Rangat, Rangat to Diglipur, Rangat to Mayabunder",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Rangat Andaman Travel Guide: Cuthbert Bay & Long Island",
           description:
-            "Rangat travel guide — Middle Andaman's halfway stopover town on the road to Diglipur. Cuthbert Bay turtle beach, the Dhaninallah Mangrove Walkway, and the boat crossing to Long Island.",
+            "Rangat, Middle Andaman: Cuthbert Bay's turtle beach, the Dhaninallah mangrove walkway and the boat to Long Island, with a simple stopover plan.",
           image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/rangat-andaman/rangat-andaman-view.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-30",

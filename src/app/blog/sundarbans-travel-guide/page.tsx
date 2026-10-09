@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Sundarbans Travel Guide: Tiger Safari, Permits & Tips" },
   description:
-    "Complete Sundarbans guide — Royal Bengal Tiger safaris, mangrove boat routes, permits, how to reach from Kolkata, where to stay on boat-and-lodge packages, and a full visit plan.",
+    "Sundarbans guide: tiger country by boat through the mangroves, permits, how to reach from Kolkata, boat-and-lodge stays and a 2-3 day plan.",
   keywords:
     "Sundarbans travel guide, Sundarbans Tiger Reserve, Royal Bengal Tiger safari, Sundarbans permit, Sudhanyakhali watchtower, Sajnekhali, Dobanki canopy walk, Godkhali Gosaba, how to reach Sundarbans from Kolkata, Sundarbans boat safari, mangrove forest West Bengal, Bonbibi",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sundarbans Travel Guide: Tiger Safari, Permits & Tips",
           description:
-            "Complete Sundarbans guide — Royal Bengal Tiger safaris, mangrove boat routes, permits, how to reach from Kolkata, where to stay on boat-and-lodge packages, and a full visit plan.",
+            "Sundarbans guide: tiger country by boat through the mangroves, permits, how to reach from Kolkata, boat-and-lodge stays and a 2-3 day plan.",
           image: "https://club.kudozz.in/images/blogs/west-bengal/sundarbans/tourist-boat-mangrove-forest-sundarbans-national-park.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-09",

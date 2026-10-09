@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Pakke Tiger Reserve Travel Guide: Hornbills & Foothill Forest" },
   description:
-    "The complete Pakke Tiger Reserve travel guide. The Nyishi community's Hornbill Nest Adoption Program, foothill forest wildlife, permits, best time to visit, and a full itinerary.",
+    "Pakke Tiger Reserve, Arunachal: the Nyishi community's hornbill nest adoption programme, foothill forest wildlife, permits, best time and a 2-day plan.",
   keywords:
     "Pakke Tiger Reserve travel guide, Pakke Kessang, Hornbill Nest Adoption Program, Nyishi tribe conservation, Seijosa Arunachal Pradesh, best time to visit Pakke, how to reach Pakke",
   openGraph: {

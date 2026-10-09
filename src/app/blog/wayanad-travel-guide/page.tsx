@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Wayanad Travel Guide: Waterfalls, Wildlife & Western Ghats" },
   description:
-    "The complete Wayanad travel guide. Wayanad Wildlife Sanctuary, Edakkal Caves, Chembra Peak, Soochipara & Meenmutty Falls, Banasura Sagar Dam, where to stay, best time to visit, and a full itinerary through Kerala's misty Western Ghats district.",
+    "Wayanad, Kerala: Edakkal Caves, Chembra Peak, Soochipara and Meenmutty falls, Banasura Sagar Dam and the sanctuary, where to stay and a 3-day plan.",
   keywords:
     "Wayanad travel guide, Wayanad Wildlife Sanctuary, Edakkal Caves, Chembra Peak trek, Soochipara Falls, Meenmutty Falls, Banasura Sagar Dam, best time to visit Wayanad, how to reach Wayanad, Wayanad itinerary, Kerala hill station",
   openGraph: {

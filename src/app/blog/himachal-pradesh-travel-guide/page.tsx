@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Himachal Pradesh Travel Guide: Shimla, Manali & Dharamshala" },
   description:
-    "The complete Himachal Pradesh travel guide — colonial Shimla, the Kullu Valley, Tibetan Buddhist Dharamshala and McLeod Ganj, high-altitude Spiti, Kasauli, Dalhousie, Kangra's tea gardens, where to stay and eat, and a full 9-day itinerary across India's most accessible Himalayan state.",
+    "Himachal Pradesh travel guide: Shimla, Manali and the Kullu Valley, Dharamshala, Spiti and Dalhousie, best time, how to reach and a 9-day itinerary.",
   keywords:
     "Himachal Pradesh travel guide, Shimla travel guide, Manali Himachal, Dharamshala McLeod Ganj, Kasauli, Dalhousie Chamba, Kangra Valley tea gardens, Kullu Manali, Himachal itinerary, Kalka Shimla toy train, best time to visit Himachal Pradesh, how to reach Himachal Pradesh from Delhi, Himachal Pradesh 9 day itinerary, is Himachal Pradesh safe for solo travellers, Himachal Pradesh trip budget, top things to do in Himachal Pradesh, Triund trek Dharamshala, Spiti Valley best time, Rohtang Pass permit, Himachal Pradesh vs Uttarakhand",
   openGraph: {

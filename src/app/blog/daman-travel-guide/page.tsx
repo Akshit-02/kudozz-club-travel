@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Daman Travel Guide: Forts, Beaches & Weekend Trip",
   description:
-    "The complete Daman travel guide — Moti Daman Fort, Nani Daman, Devka & Jampore beaches, Vanganga Lake Garden, duty-free shopping, food, stay and a full 2-day itinerary for this Gujarat coastal getaway.",
+    "Daman guide: Moti Daman Fort and Nani Daman's St Jerome fort, Devka and Jampore beaches, the lake garden, food, where to stay and a 2-day plan.",
   keywords:
     "Daman travel guide, Daman Gujarat, Moti Daman, Nani Daman, Moti Daman Fort, Devka Beach, Jampore Beach, Vanganga Lake Garden, Daman weekend trip, Daman duty free, Vapi to Daman distance, Daman and Diu tourism, Daman beaches",
   openGraph: {

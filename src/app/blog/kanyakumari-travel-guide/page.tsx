@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Kanyakumari Travel Guide: Sunrise, Sunset & Tips",
   description:
-    "Complete Kanyakumari guide — the Vivekananda Rock Memorial, the Thiruvalluvar Statue, sunrise and sunset viewing, how to reach, and a full visit plan for India's southernmost tip.",
+    "Kanyakumari: the Vivekananda Rock Memorial, Thiruvalluvar Statue, sunrise and sunset at India's southern tip, how to reach and a 2-day plan.",
   keywords:
     "Kanyakumari travel guide, Vivekananda Rock Memorial, Cape Comorin, Thiruvalluvar Statue, Kanyakumari sunrise sunset, Kanyakumari Amman Temple, how to reach Kanyakumari, southernmost tip of India",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kanyakumari Travel Guide: Sunrise, Sunset & Tips",
           description:
-            "Complete Kanyakumari guide — the Vivekananda Rock Memorial, the Thiruvalluvar Statue, sunrise and sunset viewing, how to reach, and a full visit plan for India's southernmost tip.",
+            "Kanyakumari: the Vivekananda Rock Memorial, Thiruvalluvar Statue, sunrise and sunset at India's southern tip, how to reach and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/tamil-nadu/kanyakumari/kanyakumari.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

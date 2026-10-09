@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Dholavira Travel Guide: Harappan City & UNESCO Site" },
   description:
-    "The complete Dholavira travel guide. The Indus Valley Civilization's water conservation system, the citadel layout, the inscribed signboard, where to stay, best time to visit, and a full itinerary.",
+    "Dholavira guide: the Harappan city's reservoirs, citadel and inscribed signboard, a UNESCO site on Khadir island, how to reach and a 2-day plan.",
   keywords:
     "Dholavira travel guide, Harappan civilization site, Indus Valley Civilization Gujarat, Dholavira UNESCO, best time to visit Dholavira, how to reach Dholavira, Rann of Kutch archaeology",
   openGraph: {

@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Massanjore Dam Travel Guide: Reservoir & Day Trip Tips" },
   description:
-    "The complete Massanjore Dam travel guide. A colonial-era dam on the Mayurakshi River straddling the Jharkhand-West Bengal border — boating, forest surroundings, how to reach, and a simple day-trip plan.",
+    "Massanjore Dam on the Mayurakshi, at the Jharkhand-West Bengal border: boating, the forest setting, how to reach and a simple day-trip plan.",
   keywords:
     "Massanjore Dam travel guide, Mayurakshi River, Massanjore Jharkhand, Massanjore West Bengal, how to reach Massanjore, Deoghar day trip, Jharkhand dam",
   openGraph: {

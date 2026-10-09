@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Ukhrul Travel Guide: Tangkhul Naga Hills & Shirui Lily Gateway" },
   description:
-    "Complete Ukhrul travel guide — the Tangkhul Naga hill town near the Shirui Lily's only wild habitat, Khangkhui Lime Cave, how to reach via NH150, best time to visit, and full trip planning.",
+    "Ukhrul, Manipur: Tangkhul Naga country near the Shirui lily's only habitat, Khangkhui Lime Cave, how to reach via NH150 and a 2-3 day plan.",
   keywords:
     "Ukhrul travel guide, Ukhrul Manipur, Tangkhul Naga, Shirui Lily Festival, Khangkhui Lime Cave, Ukhrul best time to visit, NH150 Manipur, Manipur hill towns, Inner Line Permit Manipur",
   openGraph: {

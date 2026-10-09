@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Yumthang Valley Guide: Flowers & Best Time",
   description:
-    "Complete Yumthang Valley guide — the Shingba Rhododendron Sanctuary bloom, Zero Point, hot springs, how to reach from Lachung, and the best time to see Sikkim's Valley of Flowers.",
+    "Yumthang Valley: the Shingba rhododendron bloom, Zero Point, hot springs, permits, how to reach from Lachung and the best time to go.",
   keywords:
     "Yumthang Valley travel guide, Valley of Flowers Sikkim, Shingba Rhododendron Sanctuary, Zero Point Sikkim, Yumthang best time, Lachung to Yumthang, North Sikkim permit",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Yumthang Valley Guide: Flowers & Best Time",
           description:
-            "Complete Yumthang Valley guide — the Shingba Rhododendron Sanctuary bloom, Zero Point, hot springs, how to reach from Lachung, and the best time to see Sikkim's Valley of Flowers.",
+            "Yumthang Valley: the Shingba rhododendron bloom, Zero Point, hot springs, permits, how to reach from Lachung and the best time to go.",
           image: "https://club.kudozz.in/images/blogs/sikkim/yumthang-valley/yumthang-valley.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

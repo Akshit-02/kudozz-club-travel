@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Shillong Travel Guide: Sightseeing & Tips",
   description:
-    "Complete Shillong guide — Ward's Lake, Shillong Peak, Elephant Falls, the Don Bosco Museum, Police Bazar, the Rock Capital of India music scene, how to reach from Guwahati, and a full visit plan.",
+    "Shillong guide: Ward's Lake, Shillong Peak, Elephant Falls, the Don Bosco Museum, Police Bazar and live music, how to reach from Guwahati and a plan.",
   keywords:
     "Shillong travel guide, Scotland of the East, Ward's Lake, Shillong Peak, Elephant Falls, Don Bosco Museum, Police Bazar, Rock Capital of India, how to reach Shillong, Meghalaya capital",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Shillong Travel Guide: Sightseeing & Tips",
           description:
-            "Complete Shillong guide — Ward's Lake, Shillong Peak, Elephant Falls, the Don Bosco Museum, Police Bazar, the Rock Capital of India music scene, how to reach from Guwahati, and a full visit plan.",
+            "Shillong guide: Ward's Lake, Shillong Peak, Elephant Falls, the Don Bosco Museum, Police Bazar and live music, how to reach from Guwahati and a plan.",
           image: "https://club.kudozz.in/images/blogs/meghalaya/shillong/shillong.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",

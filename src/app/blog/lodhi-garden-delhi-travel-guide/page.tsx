@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Lodhi Garden Travel Guide: Tombs, Timings & Tips",
   description:
-    "Complete Lodhi Garden guide — Delhi's 90-acre park of 15th-century Lodi and Sayyid tombs. Entry timings, the Bara Gumbad, Sheesh Gumbad, Athpula bridge, and visit tips.",
+    "Lodhi Garden, Delhi: 90 acres of Sayyid and Lodi tombs, the Bara Gumbad, Sheesh Gumbad and Athpula bridge, timings, how to reach and visit tips.",
   keywords:
     "Lodhi Garden Delhi, Lodhi Garden timings, Lodhi Garden entry fee, Bara Gumbad, Sheesh Gumbad, Sikandar Lodi Tomb, Mohammed Shah Tomb, National Bonsai Park Delhi, Athpula bridge, Lodhi Garden Khan Market, Lodhi Colony Delhi, Delhi Sultanate tombs, South Delhi parks",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Lodhi Garden Travel Guide: Tombs, Timings & Tips",
           description:
-            "Complete Lodhi Garden guide — Delhi's 90-acre park of 15th-century Lodi and Sayyid tombs. Entry timings, the Bara Gumbad, Sheesh Gumbad, Athpula bridge, and visit tips.",
+            "Lodhi Garden, Delhi: 90 acres of Sayyid and Lodi tombs, the Bara Gumbad, Sheesh Gumbad and Athpula bridge, timings, how to reach and visit tips.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/lodhi-garden/lodhi-garden-tomb-of-sikandar-lodi.webp",
           datePublished: "2026-08-30",

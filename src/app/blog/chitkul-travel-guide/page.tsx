@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Chitkul Travel Guide: The Last Indian Village Before Tibet" },
   description:
-    "The complete Chitkul travel guide. The Baspa River, traditional Kinnauri houses, the Sangla Valley approach, permit requirements, best time to visit, and a full itinerary.",
+    "Chitkul, the last village on the old Hindustan–Tibet road: the Baspa river, Kinnauri houses, the Sangla approach, permits, best time and tips.",
   keywords:
     "Chitkul travel guide, last village before Tibet, Sangla Valley Chitkul, Baspa Valley, Kinnaur border village, best time to visit Chitkul, how to reach Chitkul, Hindustan Tibet road",
   openGraph: {

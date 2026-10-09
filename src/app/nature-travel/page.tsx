@@ -17,7 +17,7 @@ import { SITE_URL } from "@/lib/site";
 const URL = `${SITE_URL}/nature-travel`;
 const TITLE = "Nature Travel in India: Forests, Waterfalls, Lakes | Kudozz Club";
 const DESCRIPTION =
-  "Nature travel in India: the best forests, waterfalls, lakes, valleys and natural wonders, the Western Ghats, Northeast and Himalaya, eco tourism, retreats and trips.";
+  "Nature travel in India: forests, waterfalls, lakes, valleys and natural wonders across the Western Ghats, the Northeast and the Himalaya, with seasons and trips.";
 const HERO = { src: "/images/blogs/uttarakhand/valley-of-flowers/alpine-meadow-snow-peaks-valley-of-flowers.webp", alt: "Alpine meadow below glaciers and snow peaks in the Valley of Flowers, Uttarakhand" };
 
 export const metadata: Metadata = {

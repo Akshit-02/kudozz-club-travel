@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Kanger Valley National Park Travel Guide: Caves, Falls & Wildlife" },
   description:
-    "The complete Kanger Valley National Park travel guide. Kutumsar Cave, Kailash Caves, Tirathgarh Falls, wild Asiatic buffalo habitat, where to stay, best time to visit, and a full itinerary.",
+    "Kanger Valley National Park, Bastar: Kutumsar and Kailash caves, Tirathgarh Falls, its wildlife, best time, where to stay and a one-day plan.",
   keywords:
     "Kanger Valley National Park travel guide, Kutumsar Cave, Kailash Caves, wild Asiatic buffalo, Tirathgarh Falls, best time to visit Kanger Valley, how to reach Kanger Valley National Park, Bastar wildlife",
   openGraph: {

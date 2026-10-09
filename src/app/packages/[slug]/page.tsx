@@ -186,7 +186,9 @@ function displayName(state: StatePackage) {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const url = `${SITE_URL}/packages/${params.slug}`;
   const build = (title: string, description: string, image: string, keywords: string[]): Metadata => ({
-    title,
+    // Drop the " | Kudozz Club" suffix when it would push the title past ~65
+    // characters; Google shows the site name separately anyway.
+    title: `${title} | Kudozz Club`.length > 65 ? { absolute: title } : title,
     description,
     keywords,
     alternates: { canonical: url },
@@ -200,7 +202,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     const name = displayName(state);
     const description = profile
       ? `Customized ${name} tour packages planned around your dates and budget. Popular route: ${profile.routes[0].stops.map((s) => s.label).join(", ")}.`
-      : `Customized ${state.name} tour packages planned in-house by Kudozz Club: family, honeymoon, luxury and budget trips. Pricing quoted per enquiry.`;
+      : state.name.length <= 20
+        ? `Customized ${state.name} tour packages planned in-house by Kudozz Club: family, honeymoon, luxury and budget trips. Pricing quoted per enquiry.`
+        : `Customized ${state.name} tour packages, planned in-house: family, honeymoon and budget trips. Pricing quoted per enquiry.`;
     return build(
       name.length <= 16 ? `${name} Tour Packages: Customized Itineraries` : `${name} Tour Packages`,
       description,
@@ -226,10 +230,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const style = getTravelStyle(params.slug);
   if (style) {
     return build(
-      `${style.name} Packages in India`,
-      `${style.name} across India, planned in-house by Kudozz Club: ${style.desc.toLowerCase()}. Tell us your dates and budget and we'll plan the trip.`,
+      style.title,
+      style.metaDescription,
       style.image,
-      [`${style.name.toLowerCase()} packages India`, `${style.name.toLowerCase()} tour packages India`],
+      [style.title.toLowerCase(), `${style.name.toLowerCase()} India`, `customized ${style.name.toLowerCase()} India`],
     );
   }
   return {};
@@ -756,7 +760,12 @@ function FinalCta({ title, text, href, label }: { title: string; text: string; h
           <a href="mailto:connect@kudozz.in" className="btn-outline-light px-8">Email connect@kudozz.in</a>
         </div>
         <p className="mt-6 font-sans text-xs text-stone-500">
-          Pricing is quoted for your specific trip. We don&rsquo;t publish fixed package prices.
+          Pricing is quoted for your specific trip. We don&rsquo;t publish fixed package prices.{" "}
+          Comparing agencies first? Here is{" "}
+          <Link href="/best-travel-agency-in-india" className="text-stone-300 underline underline-offset-4 hover:text-white">
+            what to check before you pay any travel agency
+          </Link>
+          .
         </p>
       </div>
     </section>
@@ -1264,7 +1273,25 @@ function StylePackageView({ style }: { style: TravelStylePackage }) {
     .filter((s): s is StatePackage => Boolean(s));
   const lower = style.name.toLowerCase();
 
+  // Timing and length for each related state, from the destination profiles
+  // that power the state package pages (states without a profile link to
+  // their guide for timing rather than showing an invented answer).
+  const firstSentence = (t: string) => t.split(/(?<=\.)\s/)[0];
+  const timing = related.map((s) => ({ state: s, profile: getDestinationProfile(s.slug) }));
+  const withTiming = timing.filter((t) => t.profile);
+  const fitKey = style.slug === "family-holidays" ? "familyFit" : style.slug === "honeymoon" ? "honeymoonFit" : null;
+
   const faqs = [
+    ...(withTiming.length
+      ? [
+          {
+            q: `When is the best time for ${lower} in India?`,
+            a: `It depends on the destination: ${withTiming
+              .map((t) => `${displayName(t.state)} ${t.profile!.bestMonths}`)
+              .join("; ")}. Tell us your month and we will suggest the places that suit it.`,
+          },
+        ]
+      : []),
     {
       q: `Can Kudozz Club plan ${lower} in India?`,
       a: `Yes. ${style.name} is one of the trip types we plan regularly. Tell us your preferred destination, or ask us to suggest one, through the enquiry form.`,
@@ -1284,7 +1311,7 @@ function StylePackageView({ style }: { style: TravelStylePackage }) {
             {
               "@type": "WebPage",
               url,
-              name: `${style.name} Packages in India`,
+              name: style.title,
               isPartOf: { "@id": `${SITE_URL}/#website` },
               breadcrumb: breadcrumbLd(style.name, style.slug),
             },
@@ -1308,10 +1335,55 @@ function StylePackageView({ style }: { style: TravelStylePackage }) {
           image={style.image}
           alt={`${style.name} in India`}
           crumb={style.name}
-          h1={`${style.name} Packages in India`}
+          h1={style.title}
           statement={style.intro}
           primary={{ href: planHref("", from, { tripType: style.name }), label: "Plan This Trip →" }}
         />
+        <section id="quick-answer" className="bg-stone-50 py-12 md:py-14">
+          <div className="container-site">
+            <h2 className="font-display text-2xl font-bold text-stone-950 md:text-3xl">
+              {style.title}: where, when and how long
+            </h2>
+            <p className="mt-3 max-w-3xl font-sans text-[15px] leading-relaxed text-stone-700">
+              Kudozz Club plans {lower} across India, built around your dates, group and budget. The destinations
+              below suit this kind of trip especially well. Pricing is quoted per enquiry once we know your dates,
+              group size and hotel level. Comparing planners? See{" "}
+              <Link href="/best-travel-agency-in-india" className="text-link">how to choose a travel agency in India</Link>.
+            </p>
+            <div className="mt-6 overflow-x-auto rounded-2xl ring-1 ring-stone-200">
+              <table className="w-full min-w-[560px] border-collapse bg-white font-sans text-sm">
+                <thead className="bg-stone-100 text-left text-stone-700">
+                  <tr>
+                    <th scope="col" className="px-4 py-2.5 font-semibold">Destination</th>
+                    <th scope="col" className="px-4 py-2.5 font-semibold">Best months</th>
+                    <th scope="col" className="px-4 py-2.5 font-semibold">How long</th>
+                    {fitKey && <th scope="col" className="px-4 py-2.5 font-semibold">{fitKey === "familyFit" ? "For families" : "For couples"}</th>}
+                  </tr>
+                </thead>
+                <tbody>
+                  {timing.map(({ state: st, profile: pr }) => (
+                    <tr key={st.slug} className="border-t border-stone-200 align-top">
+                      <th scope="row" className="px-4 py-2.5 text-left font-semibold text-stone-900">
+                        <Link href={`/packages/${st.slug}`} className="text-link">{displayName(st)}</Link>
+                      </th>
+                      {pr ? (
+                        <>
+                          <td className="px-4 py-2.5 text-stone-700">{pr.bestMonths}</td>
+                          <td className="px-4 py-2.5 text-stone-700">{firstSentence(pr.idealDays)}</td>
+                          {fitKey && <td className="px-4 py-2.5 text-stone-700">{firstSentence(pr[fitKey].replace(/^Yes\.\s*/, "").replace(/^Yes, it is\s+/, "It is "))}</td>}
+                        </>
+                      ) : (
+                        <td colSpan={fitKey ? 3 : 2} className="px-4 py-2.5 text-stone-700">
+                          See the <Link href={`/blog/${st.blogSlug}`} className="text-link">{st.name} travel guide</Link> for seasons and trip length.
+                        </td>
+                      )}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
         <section className="bg-white py-16 md:py-20">
           <div className="container-site">
             <SectionTitle

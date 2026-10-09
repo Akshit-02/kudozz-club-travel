@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Vasant Kunj Guide: Malls, Shopping & Nature Nearby",
   description:
-    "Vasant Kunj travel guide — Delhi's airport-adjacent mall district with Ambience Mall, DLF Promenade, and DLF Emporio, plus the offbeat Asola Bhatti Wildlife Sanctuary next door.",
+    "Vasant Kunj, Delhi: Ambience Mall, DLF Promenade and Emporio by the airport, plus Asola Bhatti Wildlife Sanctuary next door, with a half-day plan.",
   keywords:
     "Vasant Kunj travel guide, Vasant Kunj Delhi, Ambience Mall Vasant Kunj, DLF Promenade, DLF Emporio, Asola Bhatti Wildlife Sanctuary, Vasant Kunj near IGI airport, Vasant Kunj shopping, Vasant Kunj hotels, South West Delhi",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Vasant Kunj Guide: Malls, Shopping & Nature Nearby",
           description:
-            "Vasant Kunj travel guide — Delhi's airport-adjacent mall district with Ambience Mall, DLF Promenade, and DLF Emporio, plus the offbeat Asola Bhatti Wildlife Sanctuary next door.",
+            "Vasant Kunj, Delhi: Ambience Mall, DLF Promenade and Emporio by the airport, plus Asola Bhatti Wildlife Sanctuary next door, with a half-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/vasant-kunj/vasant-kunj-aerial-ongc-ambience-complex.webp",
           datePublished: "2026-08-30",

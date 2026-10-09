@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Puducherry District Travel Guide: All 7 Towns & Attractions" },
   description:
-    "The complete Puducherry District travel guide, town by town — Puducherry town's French Quarter and temples, Auroville's Matrimandir, Villianur's ancient Shiva temple, Ariyankuppam's Chunnambar boat rides and Arikamedu ruins, Bahour's lake, Nettapakkam's rural landscapes, and Oulgaret's urban stretch.",
+    "Puducherry District town by town: the French Quarter, Auroville and the Matrimandir, Villianur, Ariyankuppam's backwaters, Bahour and a 4-day plan.",
   keywords:
     "Puducherry district travel guide, Puducherry towns, Villianur temple, Ariyankuppam, Arikamedu, Chunnambar boat house, Bahour lake, Nettapakkam, Oulgaret, Auroville, Pondicherry travel guide, best time to visit Puducherry district, how to reach Puducherry from Chennai, Puducherry district itinerary days, Puducherry district budget trip, top things to do in Puducherry district, Matrimandir Auroville visit, Paradise Beach Chunnambar",
   openGraph: {

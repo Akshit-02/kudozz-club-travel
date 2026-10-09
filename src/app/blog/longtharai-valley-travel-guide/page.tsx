@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Longtharai Valley Travel Guide: Tips & How to Reach",
   description:
-    "Complete Longtharai Valley guide — Dhalai district's offbeat hill terrain, tribal villages, jhum cultivation, Longtharai Wildlife Sanctuary, how to reach from Agartala, and honest tips.",
+    "Longtharai Valley, Tripura: Dhalai district's quiet hill country, tribal villages, jhum farming and the sanctuary, how to reach from Agartala.",
   keywords:
     "Longtharai Valley, Dhalai district Tripura, Ambassa, Longtharai Wildlife Sanctuary, Tripuri villages, Reang villages, jhum cultivation, offbeat Tripura destinations, how to reach Longtharai Valley",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Longtharai Valley Travel Guide: Tips & How to Reach",
           description:
-            "Complete Longtharai Valley guide — Dhalai district's offbeat hill terrain, tribal villages, jhum cultivation, Longtharai Wildlife Sanctuary, how to reach from Agartala, and honest tips.",
+            "Longtharai Valley, Tripura: Dhalai district's quiet hill country, tribal villages, jhum farming and the sanctuary, how to reach from Agartala.",
           image: "https://club.kudozz.in/images/blogs/tripura/longtharai-valley/forest-road-gandacherra-dhalai-district-tripura.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

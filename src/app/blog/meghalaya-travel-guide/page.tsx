@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Meghalaya Travel Guide: Living Root Bridges, Cherrapunji & More" },
   description:
-    "The complete Meghalaya travel guide. Double-decker living root bridges, Cherrapunji's waterfalls, Dawki's crystal-clear river, Shillong's cafes, and a full itinerary for India's wettest and most spectacular state.",
+    "Meghalaya travel guide: living root bridges, Sohra's waterfalls, Dawki's clear river, Shillong, best time, how to reach and a 6-day itinerary.",
   keywords:
     "Meghalaya travel guide, Cherrapunji, Mawlynnong, living root bridges, Dawki river, Shillong travel, Northeast India travel, Umngot river, Nohkalikai Falls, Meghalaya itinerary, best time to visit Meghalaya, how to reach Meghalaya from Guwahati, Meghalaya itinerary days, is permit required for Meghalaya, Meghalaya budget trip, living root bridge trek Nongriat, Shillong travel guide",
   openGraph: {
@@ -1155,7 +1155,7 @@ export default function MeghalayaPage() {
                         href="/blog/mawlynnong-travel-guide"
                         className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
                       >
-                        Mawlynnong Guide: India&apos;s Cleanest Village
+                        Mawlynnong Guide: &apos;Asia&apos;s Cleanest Village&apos; & Root Bridge
                       </Link>
                       <Link
                         href="/blog/mawphanlur-travel-guide"

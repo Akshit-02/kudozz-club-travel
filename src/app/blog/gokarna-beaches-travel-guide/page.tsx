@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Gokarna Travel Guide: Best Beaches, Temples & Complete Itinerary" },
   description:
-    "The complete Gokarna travel guide. Om Beach, Kudle, Half Moon & Paradise Beach, the Mahabaleshwar Temple, the beach-hopping trek, where to stay, what to eat, and a full 3-day itinerary through Karnataka's quieter answer to Goa.",
+    "Gokarna guide: Om, Kudle, Half Moon and Paradise beaches, the beach-hopping trek, Mahabaleshwar temple, where to stay and a 3-day plan.",
   keywords:
     "Gokarna travel guide, Om Beach, Kudle Beach, Half Moon Beach, Paradise Beach, Gokarna temple, Gokarna trek, Gokarna itinerary, Gokarna vs Goa, Karnataka beaches, best time to visit Gokarna, how to reach Gokarna from Goa, Gokarna itinerary days, is Gokarna safe for solo travellers, Gokarna budget trip, top things to do in Gokarna, Gokarna beach hopping trek, Mahabaleshwar Temple Gokarna, Gokarna Road railway station, Gokarna 3 day itinerary",
   openGraph: {

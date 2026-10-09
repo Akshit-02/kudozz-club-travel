@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Chettinad Travel Guide: Mansions & Cuisine",
   description:
-    "Complete Chettinad guide — the grand Nattukottai Chettiar mansions, Chettinad cuisine, Athangudi tile villages, how to reach Karaikudi, heritage-hotel stays, and a full visit plan.",
+    "Chettinad guide: the Chettiar mansions around Karaikudi, Chettinad cuisine, Athangudi tiles, heritage-hotel stays and a 2-day plan.",
   keywords:
     "Chettinad travel guide, Chettinad mansions, Karaikudi, Chettinad cuisine, Athangudi tiles, Nattukottai Chettiar, how to reach Chettinad, heritage hotels Tamil Nadu, Chettinad food",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chettinad Travel Guide: Mansions & Cuisine",
           description:
-            "Complete Chettinad guide — the grand Nattukottai Chettiar mansions, Chettinad cuisine, Athangudi tile villages, how to reach Karaikudi, heritage-hotel stays, and a full visit plan.",
+            "Chettinad guide: the Chettiar mansions around Karaikudi, Chettinad cuisine, Athangudi tiles, heritage-hotel stays and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/tamil-nadu/chettinad/chettinad.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Rajasthan Travel Guide: Jaipur, Jodhpur & Pushkar Circuit" },
   description:
-    "The complete Rajasthan travel guide — Jaipur's Amber Fort and City Palace, Jodhpur's Blue City and Mehrangarh Fort, Pushkar's sacred lake, plus Udaipur and Jaisalmer, where to stay and eat, and a full circuit itinerary through India's most royal state.",
+    "Rajasthan travel guide: Jaipur, Jodhpur, Udaipur, Jaisalmer and Pushkar, Ranthambore and Chittorgarh, best time, where to stay and an 8-day circuit.",
   keywords:
     "Rajasthan travel guide, Jaipur travel guide, Jodhpur Blue City, Mehrangarh Fort, Pushkar travel guide, Amber Fort, Hawa Mahal, Rajasthan itinerary, Rajasthan forts and palaces, Golden Triangle Rajasthan, best time to visit Rajasthan, how to reach Jaipur from Delhi, Rajasthan 8 day itinerary, is Rajasthan safe for solo travellers, Rajasthan trip budget, top things to do in Rajasthan, Rajasthan circuit itinerary, Pushkar Camel Fair dates, Jaipur to Jodhpur distance, is Rajasthan worth visiting",
   openGraph: {

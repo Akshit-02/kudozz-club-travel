@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Shravasti Travel Guide: Jetavana Monastery Ruins",
   description:
-    "Complete Shravasti guide — the Jetavana Monastery ruins, Anandabodhi Tree, Angulimala Stupa, how to reach this quiet Buddhist site, where to stay, and a full visit plan.",
+    "Shravasti: the Jetavana monastery ruins, the Anandabodhi tree and Angulimala Stupa on the Buddhist circuit, how to reach and a one-day plan.",
   keywords:
     "Shravasti, Jetavana Monastery, Anandabodhi Tree, Angulimala Stupa, Sahet-Mahet, Shravasti travel guide, Buddhist Circuit, Anathapindika, Uttar Pradesh Buddhist sites, Balrampur, Gonda",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Shravasti Travel Guide: Jetavana Monastery Ruins",
           description:
-            "Complete Shravasti guide — the Jetavana Monastery ruins, Anandabodhi Tree, Angulimala Stupa, how to reach this quiet Buddhist site, where to stay, and a full visit plan.",
+            "Shravasti: the Jetavana monastery ruins, the Anandabodhi tree and Angulimala Stupa on the Buddhist circuit, how to reach and a one-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttar-pradesh/shravasti/anathapindikas-stupa-jetavana-shravasti.webp",
           datePublished: "2026-09-02",

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Kisama Guide: Hornbill Festival Heritage Village",
   description:
-    "Complete Kisama guide — the Naga Heritage Village, the annual Hornbill Festival (Dec 1-10), tribal morungs, visiting off-season, how to reach from Kohima, and a full visit plan.",
+    "Kisama, near Kohima: the Naga Heritage Village, its morungs, the Hornbill Festival (1-10 December), visiting off-season and how to reach.",
   keywords:
     "Kisama travel guide, Hornbill Festival, Naga Heritage Village, Nagaland festival, Kisama morung, when is Hornbill Festival, how to reach Kisama, Naga tribal culture",
   openGraph: {

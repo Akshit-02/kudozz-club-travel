@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Shimla Travel Guide: Mall Road, Toy Train & Best Time to Visit" },
   description:
-    "The complete Shimla travel guide. Mall Road, The Ridge, the UNESCO Kalka-Shimla toy train, Jakhoo Temple, Kufri, where to stay, what to eat, best time to visit, and a full 2-day itinerary through Himachal Pradesh's colonial capital.",
+    "Shimla travel guide: Mall Road, the Ridge, the UNESCO Kalka-Shimla toy train, Jakhoo Temple and Kufri, where to stay, food and a 2-day itinerary.",
   keywords:
     "Shimla travel guide, Kalka Shimla toy train, Mall Road Shimla, Jakhoo Temple, Kufri, best time to visit Shimla, how to reach Shimla, Shimla itinerary, Shimla weekend trip, Christ Church Shimla, Shimla from Chandigarh, Shimla from Delhi",
   openGraph: {

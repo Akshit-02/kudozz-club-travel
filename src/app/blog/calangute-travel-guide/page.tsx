@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Calangute Beach Travel Guide: Goa's Busiest Beach & Nightlife" },
   description:
-    "The complete Calangute travel guide. Water sports, beach shacks, the Saturday Night Market, where to stay, best time to visit, and a full itinerary through North Goa's busiest beach.",
+    "Calangute, North Goa's busiest beach: water sports, beach shacks, the Saturday night market, best time, where to stay and a 2-day plan.",
   keywords:
     "Calangute travel guide, Calangute Beach, Calangute water sports, Saturday Night Market Goa, best time to visit Calangute, how to reach Calangute, North Goa beaches",
   openGraph: {

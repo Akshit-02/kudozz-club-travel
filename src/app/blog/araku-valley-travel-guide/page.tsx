@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Araku Valley Travel Guide: Coffee Hills & Scenic Train Ride" },
   description:
-    "The complete Araku Valley travel guide. The scenic Visakhapatnam-Araku train, Araku coffee, tribal markets, Borra Caves, where to stay, best time to visit, and a full itinerary.",
+    "Araku Valley guide: the scenic train from Visakhapatnam, Araku coffee, tribal markets and Borra Caves, best time, where to stay and a 2-day plan.",
   keywords:
     "Araku Valley travel guide, Araku train Visakhapatnam, Araku coffee, Eastern Ghats Andhra Pradesh, best time to visit Araku Valley, how to reach Araku Valley, Borra Caves Araku",
   openGraph: {

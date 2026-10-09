@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Indore Travel Guide: Sarafa Bazaar, Rajwada & Street Food Capital" },
   description:
-    "The complete Indore travel guide. Rajwada Palace, Sarafa Bazaar's night food market, Chappan Dukan, Lal Bagh Palace, Kanch Mandir, where to stay, what to eat, and a 2-day itinerary for India's street food capital.",
+    "Indore travel guide: Sarafa Bazaar's night food market, Chappan Dukan, Rajwada and Lal Bagh Palace, where to stay and a 2-day plan.",
   keywords:
     "Indore travel guide, Sarafa Bazaar, Rajwada Palace, Chappan Dukan, Indore street food, Lal Bagh Palace, Kanch Mandir Indore, Indore itinerary, best time to visit Indore, how to reach Indore, Indore Madhya Pradesh",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Satkosia Gorge Guide: Tiger Reserve & Safari",
   description:
-    "Complete Satkosia guide — the Mahanadi river gorge through the Eastern Ghats, river-gorge boat safaris, mugger crocodiles, and a full visit plan for one of Odisha's quietest reserves.",
+    "Satkosia, Odisha: the Mahanadi gorge through the Eastern Ghats, boat safaris, mugger crocodiles, where to stay and a 2-day visit plan.",
   keywords:
     "Satkosia travel guide, Satkosia Gorge, Satkosia Tiger Reserve, Mahanadi river, boat safari Odisha, Angul, Nayagarh, how to reach Satkosia, Odisha wildlife",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Satkosia Gorge Guide: Tiger Reserve & Safari",
           description:
-            "Complete Satkosia guide — the Mahanadi river gorge through the Eastern Ghats, river-gorge boat safaris, mugger crocodiles, and a full visit plan for one of Odisha's quietest reserves.",
+            "Satkosia, Odisha: the Mahanadi gorge through the Eastern Ghats, boat safaris, mugger crocodiles, where to stay and a 2-day visit plan.",
           image:
             "https://club.kudozz.in/images/blogs/odisha/satkosia/satkosia-mahanadi-gorge-tikarpara.webp",
           datePublished: "2026-09-04",

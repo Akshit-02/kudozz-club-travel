@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Namdapha National Park Travel Guide: India's Most Biodiverse Park" },
   description:
-    "The complete Namdapha travel guide. Four big cat species, exceptional biodiversity, permits, best time to visit, where to stay, and honest expectations for one of India's most remote national parks.",
+    "Namdapha National Park, Arunachal: rainforest home to four big cat species, permits, best time, where to stay and honest expectations for a 3-day trip.",
   keywords:
     "Namdapha National Park travel guide, Namdapha tiger reserve, Miao Arunachal Pradesh, four big cats India, best time to visit Namdapha, how to reach Namdapha, Namdapha permits, Arunachal Pradesh wildlife",
   openGraph: {

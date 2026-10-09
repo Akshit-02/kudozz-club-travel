@@ -128,3 +128,50 @@ The earlier image audit had left **"representative" images from other places**: 
 | **Correct photo, hedged or wrong alt text rewritten** | Ajodhya Hills, Bishnupur (terracotta, not "stone"), Cooch Behar, Murshidabad, Santiniketan, Shnongpdeng (Umngot river) |
 
 Each changed guide's hero, OG image, Twitter image, schema image and `blog-posts.ts` card image were updated together, and `dateModified` was set to 2026-09-30.
+
+---
+
+# Pass 2 — 2026-10-08
+
+## 18. Per-article audit completed (all 1,029 article URLs)
+- Decisions for every `/blog/*` URL in `scripts/seo-audit/decisions/b00–b22.tsv` (433 KEEP, 593 OPTIMIZE, 3 REWRITE; no merges/redirects/noindex warranted on available evidence).
+- 592 meta descriptions rewritten (110–158 chars), each validated by `scripts/seo-audit/check-decisions.py` (every proper noun and "N-day" claim must appear in the article) and applied by `scripts/seo-audit/apply-decisions.py`. Site-wide descriptions >165 chars: 595 → 0.
+- MANUAL: Delhi/Chandigarh neighbourhood pages (Janakpuri, Laxmi Nagar, Rohini, Najafgarh, Vasant Kunj) — noindex if Search Console shows no impressions after 90 days.
+
+## 19. Factual / freshness corrections (dateModified → 2026-10-08)
+| Page(s) | Fix | Source |
+|---|---|---|
+| Mizoram hub + 12 Mizoram guides | Added Inner Line Permit note (ilp.mizoram.gov.in); PAP for foreigners reinstated Dec 2024 | Mizoram govt portal; MHA (Assam Tribune, Dec 2024) |
+| Manipur hub | Added ILP note (manipurilponline.mn.gov.in, airport/Mao/Jiribam kiosks) | Manipur ILP portal |
+| Mizoram hub, Aizawl | "No railway" → Bairabi–Sairang line open since 13 Sep 2025 (Rajdhani to Delhi) | newsonair.gov.in, ThePrint |
+| hornbill-festival | Foreigners need PAP for Nagaland (eased only for 2025 festival) | Nagaland Post / MHA |
+| Sela Pass, Tawang | "Only road to Tawang" → Sela Tunnel open since 9 Mar 2024 | PTI / Wikipedia |
+| Pahalgam, hill-stations-in-J&K | Baisaran closed to tourists since Apr 2025; itinerary no longer sends readers there | Brighter Kashmir, Kashmir Vision (Apr 2026) |
+| Mount Manipur | "Second-highest in A&N" → third-highest; highest in South Andaman | Incredible India, southandaman.nic.in |
+| Sarnath | Added UNESCO inscription (July 2026, India's 45th) | UN India |
+| Sanchi | "The oldest stone structure" → "one of the oldest" (matches own FAQ) | — |
+| Spelling | Vishwa-Bharati → Visva-Bharati; INS Kurusura → Kursura | — |
+
+## 20. Titles
+- Accuracy: Mawlynnong ("Asia's", not "India's", cleanest village), New Delhi (Rajpath → Kartavya Path), Nalanda, Vaishali, Chittorgarh (unsupported superlatives removed). Satmaliya title rendered a literal `&amp;` — fixed.
+- 13 travel-style package pages: "Adventure Trips Packages in India" etc. → natural query-matching titles/H1s ("Adventure Tour Packages in India", "Family Tour Packages in India"…) with hand-written descriptions (`title`/`metaDescription` in `src/lib/travel-styles-data.ts`).
+- Package template, /packages, /blog, 3 hubs: absolute title when the brand suffix would exceed 65 chars. Titles >65: 8 → 0. Plan Your Trip → "India Trip Planner: Get a Customized Itinerary".
+
+## 21. Templates, schema, linking
+- Things-to-do (143 pages): breadcrumb was Home › Blog › … and disagreed with its own schema; now Home › Destinations › State › Place › Things to Do from shared `guideCrumbs()`, visible and schema identical. Author → `#organization` (also cluster articles).
+- New `src/lib/itinerary-links.ts`: 50 destination guides now link to the itinerary covering them (Golden Triangle, Meghalaya and South-India hill-station itineraries previously had no guide links).
+- GuideTripCTA links circuit packages (Golden Triangle, Char Dham, Northeast, Buddhist Circuit) from guides in each combo's `guideSlugs`.
+- Root meta keywords trimmed to brand + core service terms.
+
+## 22. llms.txt
+- 269 KB catalogue moved to `/llms-full.txt`; `/llms.txt` is now a 33 KB summary (key pages, organisation, circuits incl. the previously missing Buddhist Circuit, styles, state packages, 36 state hubs) linking to the full file. **Add new guides to llms-full.txt.**
+
+## QA
+`tsc` 0 errors, `next lint` clean, `next build` OK; crawl of 1,102 pages: 0 canonical mismatches, 0 duplicate titles/descriptions/H1s, 0 broken internal links, 0 orphans, 0 schema parse errors, 0 heading skips.
+
+## 23. Commercial pages, linking, reports (2026-10-09)
+- 13 travel-style package pages: new answer-first "where, when and how long" section (best months and trip length from `destination-profiles.ts`; family/couples fit on the family and honeymoon pages; states without a profile link to their guide rather than showing invented timing) and a "When is the best time for …" FAQ. Words ~500 → ~800, answer-readiness 1/4 → 3/4.
+- `/best-travel-agency-in-india` in-content links 3 → 69: style quick answers ("how to choose a travel agency in India") and every package FinalCta ("what to check before you pay any travel agency").
+- New tooling: `scripts/seo-audit/build-inventory.py` (inventory + priority matrix).
+- New docs: seo-master-codebase-audit, complete-url-inventory (.csv/.md), current-search-research, competitor-seo-analysis, content-quality-audit, content-priority-matrix.csv, master-keyword-map, canonical-keyword-ownership-map, internal-linking-master-plan, image-seo-audit, search-console-opportunity-report, geo-entity-master-map, aeo-question-master-map, seo-before-after-report, final-seo-audit-report.
+- QA: tsc 0 errors, lint clean, build OK; crawl clean (0 canonical mismatches, duplicates, broken links, orphans, schema errors, titles >65, descriptions >165).

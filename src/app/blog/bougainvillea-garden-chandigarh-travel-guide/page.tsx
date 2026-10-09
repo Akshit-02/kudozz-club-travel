@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Bougainvillea Garden Chandigarh: Timings, Tips & Visit Guide" },
   description:
-    "Complete Bougainvillea Garden Chandigarh guide — a quiet themed garden of trellised bougainvillea creepers in Sector 3. Best time to visit, how to reach, and what to expect beyond the Rose Garden crowds.",
+    "Bougainvillea Garden, Chandigarh: a quiet themed garden in Sector 3, the best months for blooms, how to reach, timings and nearby green spaces.",
   keywords:
     "Bougainvillea Garden Chandigarh, Bougainvillea Garden Sector 3, Chandigarh gardens, Leisure Valley Chandigarh, Chandigarh Rose Garden alternative, quiet gardens Chandigarh, Chandigarh Sector 3 garden, Chandigarh flower garden timings",
   openGraph: {
@@ -63,7 +63,7 @@ function ArticleSchema() {
           headline:
             "Bougainvillea Garden Chandigarh: Timings, Tips & Visit Guide",
           description:
-            "Complete Bougainvillea Garden Chandigarh guide — a quiet themed garden of trellised bougainvillea creepers in Sector 3. Best time to visit, how to reach, and what to expect beyond the Rose Garden crowds.",
+            "Bougainvillea Garden, Chandigarh: a quiet themed garden in Sector 3, the best months for blooms, how to reach, timings and nearby green spaces.",
           image:
             "https://club.kudozz.in/images/blogs/chandigarh/bougainvillea-garden/bougainvillea-blooms-magenta-pink-trellis.webp",
           datePublished: "2026-08-31",

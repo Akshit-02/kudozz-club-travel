@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kullu Travel Guide: Valley of Gods & International Dussehra" },
   description:
-    "The complete Kullu travel guide. Raghunath Temple, Bijli Mahadev, the International Kullu Dussehra, Kullu shawls, where to stay, best time to visit, and a full itinerary.",
+    "Kullu guide: Raghunath Temple, Bijli Mahadev, the International Kullu Dussehra and Kullu shawls, best time, where to stay and a 2-day itinerary.",
   keywords:
     "Kullu travel guide, Kullu Dussehra, Raghunath Temple, Bijli Mahadev Temple, Kullu shawls, best time to visit Kullu, how to reach Kullu, Valley of Gods Himachal",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Mohali Travel Guide: Cricket, Stay & Tips",
   description:
-    "Complete Mohali guide — the PCA IS Bindra Stadium, Mohali's role as Chandigarh's modern satellite city, where to stay, and using it as a base for Punjab's heritage circuit.",
+    "Mohali, beside Chandigarh: the PCA cricket stadium, where to stay and using the city as a base for Punjab's heritage circuit.",
   keywords:
     "Mohali travel guide, PCA IS Bindra Stadium, Sahibzada Ajit Singh Nagar, Mohali Chandigarh, Mohali cricket stadium, where to stay Mohali, tricity Punjab",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mohali Travel Guide: Cricket, Stay & Tips",
           description:
-            "Complete Mohali guide — the PCA IS Bindra Stadium, Mohali's role as Chandigarh's modern satellite city, where to stay, and using it as a base for Punjab's heritage circuit.",
+            "Mohali, beside Chandigarh: the PCA cricket stadium, where to stay and using the city as a base for Punjab's heritage circuit.",
           image: "https://club.kudozz.in/images/blogs/punjab/mohali/mohali-guide-cover.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-30",

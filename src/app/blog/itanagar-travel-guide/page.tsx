@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Itanagar Travel Guide: Arunachal Pradesh's Capital City" },
   description:
-    "The complete Itanagar travel guide. Ita Fort, the State Museum, Ganga Lake, Inner Line Permit logistics, where to stay, best time to visit, and a full itinerary for Arunachal Pradesh's capital.",
+    "Itanagar, Arunachal's capital: Ita Fort, the state museum, Ganga Lake, Inner Line Permits, where to stay and a 2-day itinerary.",
   keywords:
     "Itanagar travel guide, Ita Fort, Arunachal Pradesh capital, Jawaharlal Nehru State Museum, Ganga Lake Itanagar, Inner Line Permit, best time to visit Itanagar, how to reach Itanagar",
   openGraph: {

@@ -11,13 +11,13 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "New Delhi Travel Guide: India Gate, Rajpath & More",
+  title: { absolute: "New Delhi Travel Guide: India Gate, Kartavya Path & More" },
   description:
     "New Delhi travel guide: India Gate, Kartavya Path, Rashtrapati Bhavan, Parliament House, Jantar Mantar, itinerary, budget tips, and FAQs for Lutyens' Delhi.",
   keywords:
     "New Delhi travel guide, India Gate, Rajpath Kartavya Path, Rashtrapati Bhavan, things to do in New Delhi, Lutyens Delhi, Parliament House Delhi, Jantar Mantar Delhi, Sansad Bhavan, Mughal Gardens Amrit Udyan, National War Memorial Delhi",
   openGraph: {
-    title: "New Delhi Travel Guide: India Gate, Rajpath & More",
+    title: "New Delhi Travel Guide: India Gate, Kartavya Path & More",
     description:
       "India Gate, Kartavya Path, Rashtrapati Bhavan, Parliament House and Jantar Mantar — the complete guide to Lutyens' planned imperial capital.",
     url: "https://club.kudozz.in/blog/new-delhi-travel-guide",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "New Delhi Travel Guide: India Gate, Rajpath & More",
+    title: "New Delhi Travel Guide: India Gate, Kartavya Path & More",
     description:
       "India Gate, Kartavya Path, Rashtrapati Bhavan, Parliament House and Jantar Mantar — the complete guide to Lutyens' planned imperial capital.",
     images: ["/images/blogs/delhi/new-delhi/india-gate-lawns-new-delhi.webp"],
@@ -59,7 +59,7 @@ function ArticleSchema() {
           "@graph": [
           {
           "@type": "BlogPosting",
-          headline: "New Delhi Travel Guide: India Gate, Rajpath & More",
+          headline: "New Delhi Travel Guide: India Gate, Kartavya Path & More",
           description:
             "New Delhi travel guide: India Gate, Kartavya Path, Rashtrapati Bhavan, Parliament House, Jantar Mantar, itinerary, budget tips, and FAQs for Lutyens' Delhi.",
           image:
@@ -234,7 +234,7 @@ export default function NewDelhiGuidePage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              New Delhi Travel Guide: India Gate, Rajpath & More
+              New Delhi Travel Guide: India Gate, Kartavya Path & More
             </h1>
 
             <p

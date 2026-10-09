@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Chopta Travel Guide: Tungnath Trek & Best Time",
   description:
-    "Complete Chopta guide — the Tungnath-Chandrashila trek to the world's highest Shiva temple, Deoria Tal, how to reach via Ukhimath, where to stay, and a full visit plan.",
+    "Chopta guide: the Tungnath and Chandrashila trek, Deoria Tal, how to reach via Ukhimath, where to stay, the best season and a 2–3 day plan.",
   keywords:
     "Chopta, Chopta Uttarakhand, Tungnath temple, Chandrashila trek, Deoria Tal, Chopta trekking, Mini Switzerland of India, Panch Kedar, Chopta best time to visit, how to reach Chopta, Ukhimath",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chopta Travel Guide: Tungnath Trek & Best Time",
           description:
-            "Complete Chopta guide — the Tungnath-Chandrashila trek to the world's highest Shiva temple, Deoria Tal, how to reach via Ukhimath, where to stay, and a full visit plan.",
+            "Chopta guide: the Tungnath and Chandrashila trek, Deoria Tal, how to reach via Ukhimath, where to stay, the best season and a 2–3 day plan.",
           image: "https://club.kudozz.in/images/blogs/uttarakhand/chopta/chopta-meadow-camping-himalayan-view.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

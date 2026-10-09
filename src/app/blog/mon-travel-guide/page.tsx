@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Mon Travel Guide: Konyak Naga Heritage",
   description:
-    "Complete Mon guide — Konyak Naga culture, the last tattooed elders, traditional longhouse villages, how to reach this remote eastern Nagaland district, and a full visit plan.",
+    "Mon, Nagaland: Konyak Naga culture, tattooed elders, longhouse villages including Longwa, how to reach this remote district and a visit plan.",
   keywords:
     "Mon Nagaland travel guide, Konyak Naga, Mon district Nagaland, tattooed Konyak elders, Nagaland tribal tourism, how to reach Mon Nagaland, Longwa gateway",
   openGraph: {
@@ -56,7 +56,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mon Travel Guide: Konyak Naga Heritage",
           description:
-            "Complete Mon guide — Konyak Naga culture, the last tattooed elders, traditional longhouse villages, how to reach this remote eastern Nagaland district, and a full visit plan.",
+            "Mon, Nagaland: Konyak Naga culture, tattooed elders, longhouse villages including Longwa, how to reach this remote district and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/nagaland/mon/mon-guide-cover.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-30",

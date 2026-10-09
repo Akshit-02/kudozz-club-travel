@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Dooars Travel Guide: Wildlife, Tea Gardens & Rivers",
   description:
-    "Complete Dooars guide — the foothill forests of Gorumara, Jaldapara, Chapramari and Buxa, tea gardens, jeep safaris for rhinos and elephants, base towns, and a full visit plan.",
+    "Dooars guide: Gorumara, Jaldapara, Chapramari and Buxa forests, rhino and elephant safaris, tea gardens, base towns and a 4-day plan.",
   keywords:
     "Dooars travel guide, Dooars West Bengal, Gorumara National Park, Jaldapara National Park, Chapramari, Lataguri, Dooars tea gardens, Dooars jeep safari, Teesta river, Bindu Jhalong, Samsing Suntaleykhola, Dooars best time to visit",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dooars Travel Guide: Wildlife, Tea Gardens & Rivers",
           description:
-            "Complete Dooars guide — the foothill forests of Gorumara, Jaldapara, Chapramari and Buxa, tea gardens, jeep safaris for rhinos and elephants, base towns, and a full visit plan.",
+            "Dooars guide: Gorumara, Jaldapara, Chapramari and Buxa forests, rhino and elephant safaris, tea gardens, base towns and a 4-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/west-bengal/dooars/one-horned-rhino-jaldapara-national-park-dooars.webp",
           datePublished: "2026-09-02",

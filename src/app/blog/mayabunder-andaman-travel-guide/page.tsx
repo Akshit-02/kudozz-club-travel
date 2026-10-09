@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Mayabunder Travel Guide: Interview Island & Karmatang Beach" },
   description:
-    "Mayabunder travel guide — North Andaman's quiet gateway to Interview Island's wild elephants and Karmatang Beach's turtle nesting. How to reach it, when to go, and what to expect.",
+    "Mayabunder, North Andaman: the gateway to Interview Island's wild elephants and Karmatang Beach's turtle nesting, how to reach and when to go.",
   keywords:
     "Mayabunder Andaman, Interview Island Wildlife Sanctuary, Karmatang Beach, North Andaman, feral elephants Andaman, Andaman Trunk Road, how to reach Mayabunder, Mayabunder to Diglipur, Mayabunder to Rangat",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           headline:
             "Mayabunder Travel Guide: Interview Island & Karmatang Beach",
           description:
-            "Mayabunder travel guide — North Andaman's quiet gateway to Interview Island's wild elephants and Karmatang Beach's turtle nesting. How to reach it, when to go, and what to expect.",
+            "Mayabunder, North Andaman: the gateway to Interview Island's wild elephants and Karmatang Beach's turtle nesting, how to reach and when to go.",
           image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/mayabunder-andaman/mayabunder-andaman-guide-cover.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-30",

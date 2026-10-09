@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Bhoramdeo Temple Travel Guide: Chhattisgarh's Khajuraho" },
   description:
-    "The complete Bhoramdeo travel guide. The 11th-century Shiva temple complex, its intricately carved sculpture, Madwa Mahal, where to stay, best time to visit, and a full itinerary.",
+    "Bhoramdeo, 'Chhattisgarh's Khajuraho': the 11th-century carved Shiva temple and Madwa Mahal, best time, how to reach and a half-day plan.",
   keywords:
     "Bhoramdeo travel guide, Bhoramdeo temple, Khajuraho of Chhattisgarh, Kawardha temple, Madwa Mahal, best time to visit Bhoramdeo, how to reach Bhoramdeo, Chhattisgarh temple architecture",
   openGraph: {

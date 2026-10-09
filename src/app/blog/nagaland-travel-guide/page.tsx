@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Nagaland Travel Guide: Hornbill Festival, Kohima & Dzukou Valley" },
   description:
-    "The complete Nagaland travel guide — the Hornbill Festival, Kohima's war cemetery, Dzukou Valley trekking, Khonoma green village, tribal culture, where to stay and eat, and a full itinerary through India's most culturally distinct Northeastern state.",
+    "Nagaland travel guide: the Hornbill Festival, Kohima's war cemetery, the Dzukou Valley trek, Khonoma and Mon, permits, where to stay and a 5-day plan.",
   keywords:
     "Nagaland travel guide, Hornbill Festival, Kohima War Cemetery, Dzukou Valley trek, Khonoma green village, Nagaland itinerary, Naga tribes, Northeast India travel, Kisama Heritage Village, best time to visit Nagaland, how to reach Nagaland from Dimapur, Nagaland itinerary days, is Nagaland safe for solo travellers, Nagaland budget trip, top things to do in Nagaland, Longwa village Konyak tribe, Nagaland Inner Line Permit",
   openGraph: {

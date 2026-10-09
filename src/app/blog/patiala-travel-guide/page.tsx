@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Patiala Travel Guide: Qila Mubarak & Tips",
   description:
-    "Complete Patiala guide — the massive Qila Mubarak fort complex, the mirrored Sheesh Mahal, the royal legacy behind the Patiala peg and Patiala salwar, how to reach from Chandigarh, and a full visit plan.",
+    "Patiala guide: Qila Mubarak, the Sheesh Mahal and the royal story behind the Patiala peg and salwar, how to reach from Chandigarh and a 1-2 day plan.",
   keywords:
     "Patiala travel guide, Qila Mubarak, Sheesh Mahal Patiala, Patiala peg, Patiala salwar, Moti Bagh Palace, Baradari Gardens, how to reach Patiala, Patiala royal heritage, Punjab heritage towns",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Patiala Travel Guide: Qila Mubarak & Tips",
           description:
-            "Complete Patiala guide — the massive Qila Mubarak fort complex, the mirrored Sheesh Mahal, the royal legacy behind the Patiala peg and Patiala salwar, how to reach from Chandigarh, and a full visit plan.",
+            "Patiala guide: Qila Mubarak, the Sheesh Mahal and the royal story behind the Patiala peg and salwar, how to reach from Chandigarh and a 1-2 day plan.",
           image: "https://club.kudozz.in/images/blogs/punjab/patiala/patiala.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Leh Travel Guide: Leh Palace, Market, Shanti Stupa & Tips" },
   description:
-    "A complete travel guide to Leh town — Leh Palace, Leh Market, Shanti Stupa, Namgyal Tsemo Fort, acclimatisation advice, cafés, old town walks, day trips, and a full budget breakdown.",
+    "Leh town guide: Leh Palace, the market, Shanti Stupa and Namgyal Tsemo, acclimatising safely, cafes, old-town walks, day trips and a budget.",
   keywords:
     "Leh travel guide, Leh town, Leh Palace, Leh Market, Shanti Stupa, Namgyal Tsemo, Leh acclimatisation, Leh Ladakh, things to do in Leh, Leh cafes, best time to visit Leh, how to reach Leh, Leh permit requirements, Leh budget trip, how many days in Leh, Leh day trips from town",
   openGraph: {

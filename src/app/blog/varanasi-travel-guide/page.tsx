@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Varanasi Travel Guide: Ganga Ghats & Ganga Aarti",
   description:
-    "Complete Varanasi guide — Kashi Vishwanath Temple, the Dashashwamedh Ghat Ganga Aarti, Manikarnika Ghat, sunrise boat rides, Banarasi silk, and a full visit plan for one of the world's oldest cities.",
+    "Varanasi guide: Kashi Vishwanath, the Dashashwamedh Ganga aarti, Manikarnika Ghat, sunrise boats, Banarasi silk, Sarnath and a 3-4 day plan.",
   keywords:
     "Varanasi travel guide, Kashi, Ganga Aarti Varanasi, Kashi Vishwanath Temple, Dashashwamedh Ghat, Manikarnika Ghat, Varanasi ghats, Assi Ghat, Varanasi boat ride, Banarasi silk saree, Varanasi best time to visit, how to reach Varanasi, Uttar Pradesh pilgrimage",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Varanasi Travel Guide: Ganga Ghats & Ganga Aarti",
           description:
-            "Complete Varanasi guide — Kashi Vishwanath Temple, the Dashashwamedh Ghat Ganga Aarti, Manikarnika Ghat, sunrise boat rides, Banarasi silk, and a full visit plan for one of the world's oldest cities.",
+            "Varanasi guide: Kashi Vishwanath, the Dashashwamedh Ganga aarti, Manikarnika Ghat, sunrise boats, Banarasi silk, Sarnath and a 3-4 day plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttar-pradesh/varanasi/ganga-aarti-fire-ritual-varanasi-ghat.webp",
           datePublished: "2026-09-02",

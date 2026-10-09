@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title:
     { absolute: "Andhra Pradesh Travel Guide: Tirupati, Vizag & Araku" },
   description:
-    "The complete Andhra Pradesh travel guide — Tirupati's Sri Venkateswara Temple, Visakhapatnam's beaches, the coffee-scented hills of Araku Valley, Amaravati, Lepakshi, Srisailam, where to stay and eat, and a full itinerary along the Eastern coast.",
+    "Andhra Pradesh travel guide: Tirupati's temple, Visakhapatnam's beaches, Araku Valley, Amaravati, Lepakshi and Srisailam, with a 7-day itinerary.",
   keywords:
     "Andhra Pradesh travel guide, Tirupati Tirumala temple, Visakhapatnam Vizag, Araku Valley, Borra Caves, Lepakshi temple, Srisailam Jyotirlinga, Amaravati, Andhra Pradesh itinerary, Andhra cuisine, best time to visit Andhra Pradesh, how to reach Tirupati, Andhra Pradesh itinerary 7 days, is Tirupati safe for solo travellers, Andhra Pradesh budget trip, things to do in Visakhapatnam, Tirumala darshan booking, Araku Valley coffee train, Vizag beaches guide, Andhra Pradesh travel FAQ",
   openGraph: {

@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Uttar Pradesh Travel Guide: Taj Mahal, Varanasi & Lucknow" },
   description:
-    "The complete Uttar Pradesh travel guide — the Taj Mahal and Agra Fort, Varanasi's ancient ghats and Ganga Aarti, Lucknow's Nawabi food and architecture, Ayodhya, where to stay and eat, and a full itinerary through India's most historically dense state.",
+    "Uttar Pradesh travel guide: the Taj Mahal, Varanasi's ghats, Lucknow, Ayodhya, Mathura and Vrindavan, best time, where to stay and a 6-day plan.",
   keywords:
     "Uttar Pradesh travel guide, Taj Mahal, Agra travel guide, Varanasi travel guide, Lucknow travel guide, Ganga Aarti, Fatehpur Sikri, Ayodhya Ram Mandir, Mathura Vrindavan, UP itinerary, best time to visit Uttar Pradesh, how to reach Agra from Delhi, Uttar Pradesh 6 day itinerary, Uttar Pradesh budget trip, top things to do in Varanasi, Taj Mahal sunrise visit, Kashi Vishwanath Temple",
   openGraph: {

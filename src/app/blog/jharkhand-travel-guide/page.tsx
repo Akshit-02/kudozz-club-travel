@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Jharkhand Travel Guide: Netarhat, Betla & Waterfalls" },
   description:
-    "The complete Jharkhand travel guide — Ranchi's waterfalls, the hill station of Netarhat, tiger territory at Betla National Park, tribal culture, where to stay and eat, and a full itinerary through one of India's most underrated forested states.",
+    "Jharkhand travel guide: Ranchi's waterfalls, Netarhat, Betla National Park, Deoghar and tribal culture, best time, where to stay and a 5-day itinerary.",
   keywords:
     "Jharkhand travel guide, Netarhat, Betla National Park, Ranchi waterfalls, Hundru Falls, Dassam Falls, Patratu Valley, Deoghar, Jamshedpur, Jharkhand itinerary, Chotanagpur plateau, best time to visit Jharkhand, how to reach Ranchi, Jharkhand 5 day itinerary, is Jharkhand safe to visit, Jharkhand budget trip, things to do in Jharkhand, Netarhat hill station guide",
   openGraph: {

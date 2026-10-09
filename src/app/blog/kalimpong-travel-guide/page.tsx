@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kalimpong Travel Guide: Monasteries, Flowers & Views" },
   description:
-    "Complete Kalimpong guide — Durpin Monastery, Deolo Hill, the town's famous flower nurseries, Dr Graham's Homes, how to reach it from Bagdogra and Darjeeling, and a full visit plan.",
+    "Kalimpong guide: Durpin Monastery, Deolo Hill, flower nurseries, Dr Graham's Homes, how to reach from Bagdogra or Darjeeling and a 2-day plan.",
   keywords:
     "Kalimpong travel guide, Durpin Monastery, Deolo Hill, Kalimpong flower nurseries, Dr Graham's Homes, Rishi Bankim Chandra Park, Kalimpong best time to visit, how to reach Kalimpong, Teesta River, Darjeeling hills, West Bengal hill station",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kalimpong Travel Guide: Monasteries, Flowers & Views",
           description:
-            "Complete Kalimpong guide — Durpin Monastery, Deolo Hill, the town's famous flower nurseries, Dr Graham's Homes, how to reach it from Bagdogra and Darjeeling, and a full visit plan.",
+            "Kalimpong guide: Durpin Monastery, Deolo Hill, flower nurseries, Dr Graham's Homes, how to reach from Bagdogra or Darjeeling and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/west-bengal/kalimpong/zang-dhok-palri-phodang-monastery-kalimpong.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-09",

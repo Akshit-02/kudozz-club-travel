@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Jim Corbett National Park: Safari, Zones & Tips",
   description:
-    "Complete Jim Corbett National Park guide — Dhikala, Bijrani, Jhirna & other safari zones, tiger sighting tips, how to reach Ramnagar, where to stay, and a full budget breakdown.",
+    "Jim Corbett National Park: Dhikala, Bijrani, Jhirna and other safari zones, tiger sighting tips, how to reach Ramnagar, where to stay and costs.",
   keywords:
     "Jim Corbett National Park, Corbett tiger safari, Dhikala zone, Bijrani zone, Jhirna zone, Ramnagar Uttarakhand, Corbett safari booking, Project Tiger India, Corbett best time to visit, Ramganga river, Corbett jeep safari, Corbett National Park zones",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Jim Corbett National Park: Safari, Zones & Tips",
           description:
-            "Complete Jim Corbett National Park guide — Dhikala, Bijrani, Jhirna & other safari zones, tiger sighting tips, how to reach Ramnagar, where to stay, and a full budget breakdown.",
+            "Jim Corbett National Park: Dhikala, Bijrani, Jhirna and other safari zones, tiger sighting tips, how to reach Ramnagar, where to stay and costs.",
           image: "https://club.kudozz.in/images/blogs/uttarakhand/jim-corbett/bengal-tiger-roaring-jim-corbett-reserve.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

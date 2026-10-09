@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Zanskar Valley Travel Guide: Chadar Trek, Phugtal & Padum" },
   description:
-    "The complete guide to Zanskar Valley, Ladakh's most remote region — the frozen-river Chadar Trek, the cliffside Phugtal Monastery, Padum, Rangdum, the road from Kargil, and everything you need to plan a trip to one of the Himalaya's last true frontiers.",
+    "Zanskar Valley, Ladakh: the Chadar trek on the frozen river, Phugtal Monastery, Padum and Rangdum, the road from Kargil and how to plan a trip.",
   keywords:
     "Zanskar Valley, Chadar Trek, Phugtal Monastery, Padum Ladakh, Pensi La, Rangdum, Karsha Monastery, Sani Monastery, Zanskar travel guide, frozen river trek Ladakh, Kargil to Padum road, best time to visit Zanskar Valley, how to reach Zanskar from Leh, Zanskar Valley budget trip, is Chadar Trek safe, Zanskar Valley itinerary days, Ladakh Zanskar trek",
   openGraph: {

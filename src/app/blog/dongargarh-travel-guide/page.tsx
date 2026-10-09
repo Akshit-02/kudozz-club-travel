@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Dongargarh Travel Guide: Bamleshwari Temple & Ropeway" },
   description:
-    "The complete Dongargarh travel guide. Bade and Chhote Bamleshwari Temple, the hilltop ropeway, Navratri crowds, where to stay, best time to visit, and a full itinerary through one of Chhattisgarh's most-visited pilgrimage sites.",
+    "Dongargarh guide: the Bade and Chhote Bamleshwari temples, the hilltop ropeway, Navratri crowds, how to reach and a one-day plan.",
   keywords:
     "Dongargarh travel guide, Bamleshwari Temple, Bade Bamleshwari, Dongargarh ropeway, best time to visit Dongargarh, how to reach Dongargarh, Chhattisgarh pilgrimage, Navratri Dongargarh",
   openGraph: {

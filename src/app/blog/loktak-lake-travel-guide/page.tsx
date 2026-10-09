@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Loktak Lake Travel Guide: Phumdis, Sendra & Boating",
   description:
-    "The complete Loktak Lake travel guide — floating phumdi islands, fishing villages built on the water, Sendra's viewpoint, Keibul Lamjao's floating national park, boating, best time to visit, and full trip planning.",
+    "Loktak Lake, Manipur: floating phumdi islands, fishing villages, the Sendra viewpoint, Keibul Lamjao's floating park, boating and best time.",
   keywords:
     "Loktak Lake travel guide, phumdi, floating islands Manipur, Sendra Island, Keibul Lamjao National Park, Sangai deer, Loktak Lake boating, Moirang, best time Loktak Lake, largest freshwater lake Northeast India",
   openGraph: {

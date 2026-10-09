@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Chhatrapati Sambhajinagar Travel Guide: Bibi Ka Maqbara & Forts" },
   description:
-    "The complete Chhatrapati Sambhajinagar (Aurangabad) travel guide. Bibi Ka Maqbara, Daulatabad Fort, Panchakki, where to stay, and how to use the city as your base for Ajanta and Ellora.",
+    "Chhatrapati Sambhajinagar (Aurangabad): Bibi Ka Maqbara, Daulatabad Fort and Panchakki, where to stay, and using the city as a base for Ajanta and Ellora.",
   keywords:
     "Chhatrapati Sambhajinagar travel guide, Aurangabad travel guide, Bibi Ka Maqbara, Daulatabad Fort, Panchakki, Ajanta Ellora gateway, best time to visit Aurangabad, how to reach Chhatrapati Sambhajinagar, mini Taj Mahal",
   openGraph: {

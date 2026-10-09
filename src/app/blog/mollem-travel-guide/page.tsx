@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Mollem National Park Guide: Wildlife & Dudhsagar Falls" },
   description:
-    "The complete Mollem travel guide. Bhagwan Mahavir Wildlife Sanctuary, Tambdi Surla Temple, Devil's Canyon, where to stay, what to eat, best time to visit, and how to plan a day trip near Dudhsagar Falls.",
+    "Mollem and Bhagwan Mahavir Sanctuary, Goa: forest wildlife, Tambdi Surla Temple, Devil's Canyon and Dudhsagar, best time, where to stay and a day plan.",
   keywords:
     "Mollem travel guide, Mollem National Park, Bhagwan Mahavir Wildlife Sanctuary, Tambdi Surla Temple, Devil's Canyon Goa, Kulem railway station, best time to visit Mollem, Dudhsagar jeep safari base",
   openGraph: {

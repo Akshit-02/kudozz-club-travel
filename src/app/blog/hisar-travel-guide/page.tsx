@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Hisar Travel Guide: Firoz Shah Palace & Blackbuck Country" },
   description:
-    "The complete Hisar travel guide. Firoz Shah Palace Complex, Hisar Fort, blackbuck sightings on Haryana's plains, how to reach, where to stay, and a practical one-day itinerary.",
+    "Hisar, Haryana: Firoz Shah Palace Complex, Hisar Fort, blackbuck on the plains, how to reach from Delhi, where to stay and a one-day plan.",
   keywords:
     "Hisar travel guide, Firoz Shah Palace Hisar, Hisar Fort, blackbuck Haryana, Hisar Junction, how to reach Hisar, Hisar tourist places",
   openGraph: {

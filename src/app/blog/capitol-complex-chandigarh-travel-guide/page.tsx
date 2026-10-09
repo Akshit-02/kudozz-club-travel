@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Capitol Complex Chandigarh: UNESCO Site Visit Guide",
   description:
-    "Complete guide to Le Corbusier's Capitol Complex in Chandigarh — the UNESCO World Heritage High Court, Secretariat and Vidhan Sabha, the Open Hand Monument, permission process, timings and visit tips.",
+    "Le Corbusier's Capitol Complex, Chandigarh: the UNESCO-listed High Court, Secretariat and Assembly, the Open Hand, how to get permission and timings.",
   keywords:
     "Capitol Complex Chandigarh, Le Corbusier Capitol Complex, Punjab and Haryana High Court, Vidhan Sabha Chandigarh, Secretariat Chandigarh, Open Hand Monument, Tower of Shadows Chandigarh, Capitol Complex UNESCO World Heritage Site, Capitol Complex permission, Chandigarh Tourism permission, Geometric Hill Chandigarh, Martyrs Memorial Chandigarh, Sector 1 Chandigarh",
   openGraph: {
@@ -64,7 +64,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Capitol Complex Chandigarh: UNESCO Site Visit Guide",
           description:
-            "Complete guide to Le Corbusier's Capitol Complex in Chandigarh — the UNESCO World Heritage High Court, Secretariat and Vidhan Sabha, the Open Hand Monument, permission process, timings and visit tips.",
+            "Le Corbusier's Capitol Complex, Chandigarh: the UNESCO-listed High Court, Secretariat and Assembly, the Open Hand, how to get permission and timings.",
           image:
             "https://club.kudozz.in/images/blogs/chandigarh/capitol-complex/capitol-complex-skyline-secretariat-high-court.webp",
           datePublished: "2026-08-31",

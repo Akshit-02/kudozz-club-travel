@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Chandauli Travel Guide: Waterfalls Near Varanasi",
   description:
-    "Complete Chandauli travel guide — Rajdari and Devdari waterfalls, Chandraprabha Wildlife Sanctuary, Naugarh Fort, how to reach from Varanasi, and a full day-trip plan.",
+    "Chandauli near Varanasi: Rajdari and Devdari waterfalls in Chandraprabha Wildlife Sanctuary, Naugarh Fort, how to reach and a day-trip plan.",
   keywords:
     "Chandauli travel guide, Rajdari waterfall, Devdari waterfall, Chandraprabha Wildlife Sanctuary, Naugarh Fort, Varanasi day trip, Chandauli Uttar Pradesh, offbeat Uttar Pradesh",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chandauli Travel Guide: Waterfalls Near Varanasi",
           description:
-            "Complete Chandauli travel guide — Rajdari and Devdari waterfalls, Chandraprabha Wildlife Sanctuary, Naugarh Fort, how to reach from Varanasi, and a full day-trip plan.",
+            "Chandauli near Varanasi: Rajdari and Devdari waterfalls in Chandraprabha Wildlife Sanctuary, Naugarh Fort, how to reach and a day-trip plan.",
           image: "https://club.kudozz.in/images/blogs/uttar-pradesh/chandauli/rajdari-waterfall-chandauli.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

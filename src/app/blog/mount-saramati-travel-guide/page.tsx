@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Mount Saramati Trek: Nagaland's Highest Peak",
   description:
-    "Complete Mount Saramati trek guide — Nagaland's highest peak at 3,826m near the Myanmar border, expedition-level difficulty, best time, guides, and what the multi-day trek actually involves.",
+    "Mount Saramati, Nagaland's highest peak on the Myanmar border: what the multi-day trek involves, best time, guides, permits and a 5-6 day plan.",
   keywords:
     "Mount Saramati trek, Nagaland's highest peak, Kiphire district trek, Saramati Nagaland, Naga Hills highest point, India Myanmar border trek, Nagaland trekking, expedition trek Northeast India",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mount Saramati Trek: Nagaland's Highest Peak",
           description:
-            "Complete Mount Saramati trek guide — Nagaland's highest peak at 3,826m near the Myanmar border, expedition-level difficulty, best time, guides, and what the multi-day trek actually involves.",
+            "Mount Saramati, Nagaland's highest peak on the Myanmar border: what the multi-day trek involves, best time, guides, permits and a 5-6 day plan.",
           image:
             "https://club.kudozz.in/images/blogs/nagaland/mount-saramati/mount-saramati-guide-cover.webp",
           datePublished: "2026-09-04",

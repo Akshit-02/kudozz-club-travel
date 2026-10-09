@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Kawal Tiger Reserve: Safari Guide & Tips",
   description:
-    "Complete Kawal Tiger Reserve guide — dry deciduous forest safaris, the rare four-horned antelope, leopards and wild dogs, permits, how to reach from Hyderabad, and a full visit plan.",
+    "Kawal Tiger Reserve, Telangana: dry forest safaris, the four-horned antelope, leopards and wild dogs, permits, how to reach and a 2-day plan.",
   keywords:
     "Kawal Tiger Reserve, Adilabad wildlife, Telangana tiger reserve, four-horned antelope chousingha, Kawal safari, how to reach Kawal Tiger Reserve, Nirmal Mancherial wildlife, Kuntala Waterfall combined trip",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kawal Tiger Reserve: Safari Guide & Tips",
           description:
-            "Complete Kawal Tiger Reserve guide — dry deciduous forest safaris, the rare four-horned antelope, leopards and wild dogs, permits, how to reach from Hyderabad, and a full visit plan.",
+            "Kawal Tiger Reserve, Telangana: dry forest safaris, the four-horned antelope, leopards and wild dogs, permits, how to reach and a 2-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/telangana/kawal-tiger-reserve/dry-deciduous-forest-grassland-kawal-tiger-reserve.webp",
           datePublished: "2026-09-03",

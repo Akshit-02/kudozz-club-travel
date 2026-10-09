@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Ghatshila Travel Guide: Subarnarekha River & Dalma Hills" },
   description:
-    "The complete Ghatshila travel guide. Subarnarekha riverfront, Phuldungri Hill, Burudih Lake, Dalma Wildlife Sanctuary, where to stay, best time to visit, and a full itinerary through this quiet Jharkhand river town.",
+    "Ghatshila, Jharkhand: the Subarnarekha riverfront, Phuldungri Hill, Burudih Lake and Dalma sanctuary, where to stay and a one-day plan.",
   keywords:
     "Ghatshila travel guide, Subarnarekha River, Phuldungri Hill, Burudih Lake, Dalma Wildlife Sanctuary, best time to visit Ghatshila, how to reach Ghatshila, Jharkhand offbeat destinations, Ghatshila near Jamshedpur",
   openGraph: {

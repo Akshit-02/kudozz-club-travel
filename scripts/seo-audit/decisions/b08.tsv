@@ -1,0 +1,45 @@
+hill-stations-in-northeast-india	hill stations in northeast india	I	KEEP	Regional hub of the hills cluster; permits and seasons covered; state pages own Sikkim/WB detail	
+hill-stations-in-sikkim	hill stations in sikkim	I	KEEP	Distinct state-level list; compares bases and permits	
+hill-stations-in-south-india	hill stations in south india	I	KEEP	Regional comparison; state pages own TN/Kerala/Karnataka detail	
+hill-stations-in-tamil-nadu	hill stations in tamil nadu	I	KEEP	Covers Nilgiris e-pass rules; distinct state intent	
+hill-stations-in-uttarakhand	hill stations in uttarakhand	I	KEEP	Garhwal vs Kumaon split answers the comparison intent	
+hill-stations-in-west-bengal	hill stations in west bengal	I	KEEP	Darjeeling hills list incl. Sandakphu; distinct state intent	
+hill-stations-in-western-and-central-india	hill stations in central india	I	KEEP	Only owner of Mount Abu/Saputara/Pachmarhi comparison	
+hill-stations-near-bengaluru	hill stations near bangalore	I	KEEP	Origin-city weekend intent; distances given	
+hill-stations-near-chennai	hill stations near chennai	I	KEEP	Origin-city weekend intent	
+hill-stations-near-delhi	hill stations near delhi	I	KEEP	High-demand origin-city query; trains and sample weekend present	
+hill-stations-near-kolkata	hill stations near kolkata	I	KEEP	Origin-city weekend intent	
+hill-stations-near-mumbai	hill stations near mumbai	I	KEEP	Covers Mumbai and Pune in one page (same SERP cluster)	
+himachal-pradesh-travel-guide	himachal pradesh travel guide	I	OPTIMIZE	State hub; meta 286 chars cut mid-list	Himachal Pradesh travel guide: Shimla, Manali and the Kullu Valley, Dharamshala, Spiti and Dalhousie, best time, how to reach and a 9-day itinerary.
+himalayan-hill-stations	himalayan hill stations	I	KEEP	North-India Himalayan comparison; differs from state lists	
+himalayan-nature-travel	himalayan nature	I	KEEP	Landscape intent (meadows, lakes, UNESCO) not covered by hill-station pages	
+hisar-travel-guide	hisar tourist places	I	OPTIMIZE	Meta truncated	Hisar, Haryana: Firoz Shah Palace Complex, Hisar Fort, blackbuck on the plains, how to reach from Delhi, where to stay and a one-day plan.
+historical-places-in-india	historical places in india	I	KEEP	Heritage pillar list by region; distinct from UNESCO page	
+hmuifang-travel-guide	hmuifang mizoram	I	OPTIMIZE	Meta truncated; niche destination	Hmuifang, south of Aizawl: paragliding over the Mizoram hills, viewpoints, Mizo village heritage, how to reach and a simple visit plan.
+hogenakkal-travel-guide	hogenakkal falls	I	OPTIMIZE	Meta truncated; title says boating, H1 coracle (fine)	Hogenakkal Falls on the Kaveri: coracle rides through the gorge, best time by water level, how to reach from Bangalore or Dharmapuri, and a day plan.
+hornbill-festival	hornbill festival nagaland	I	KEEP	Dates, ILP and Kisama logistics answer the event intent	
+horsley-hills-travel-guide	horsley hills	I	OPTIMIZE	Meta truncated	Horsley Hills, Andhra Pradesh: Gali Banda viewpoint, Kalyani Dam, Mallamma Temple, best time, where to stay and a 2-day plan for this quiet hill station.
+hot-air-balloon-rides-in-india	hot air balloon ride india	I	KEEP	Activity intent with season and safety checks	
+how-to-plan-a-heritage-trip-in-india	how to plan heritage trip india	I	KEEP	Planning intent (ASI tickets, closures); distinct from destination lists	
+how-to-plan-a-hill-station-trip	how to plan hill station trip	I	KEEP	Planning intent; supports hill packages	
+how-to-plan-a-nature-trip-in-india	plan nature trip india	I	KEEP	Planning intent	
+how-to-plan-a-pilgrimage-in-india	how to plan pilgrimage india	I	KEEP	Planning intent; seniors/families covered	
+how-to-plan-a-road-trip-in-india	how to plan road trip india	I	KEEP	Planning intent; cluster pillar for route pages	
+how-to-plan-a-tiger-safari-in-india	how to book tiger safari	I	KEEP	Booking/zone intent; kept separate from wildlife-safari planner (see wildlife-tourism-cannibalization.md)	
+how-to-plan-a-wildlife-safari-in-india	how to plan wildlife safari india	I	KEEP	General safari planning; distinct per cluster cannibalization review	
+how-to-plan-an-adventure-trip-in-india	plan adventure trip india	I	KEEP	Operator vetting, insurance, fitness: useful planning page	
+humayuns-tomb	humayun's tomb	I	KEEP	Monument page; Delhi guide links to it (heritage cannibalization review)	
+hunder-travel-guide	hunder nubra valley	I	OPTIMIZE	Meta truncated	Hunder in Ladakh's Nubra Valley: the cold-desert dunes, Bactrian camel rides, Diskit Monastery, permits, where to stay and a budget.
+hyderabad-travel-guide	hyderabad tourist places	I	OPTIMIZE	Meta truncated	Hyderabad travel guide: Charminar, Golconda Fort, Qutb Shahi tombs, the Nizams' palaces and biryani, where to stay and a 3-day plan.
+imphal-travel-guide	imphal tourist places	I	OPTIMIZE	Meta truncated	Imphal, Manipur: Kangla Fort, the all-women Ima Keithel market, the war cemeteries, a day trip to Loktak Lake, where to stay and a 2-day plan.
+indore-travel-guide	indore travel guide	I	OPTIMIZE	Meta truncated; food angle is the distinctive intent	Indore travel guide: Sarafa Bazaar's night food market, Chappan Dukan, Rajwada and Lal Bagh Palace, where to stay and a 2-day plan.
+international-dolls-museum-chandigarh-travel-guide	international dolls museum chandigarh	L	OPTIMIZE	Meta truncated; place-lookup intent (timings)	International Dolls Museum, Chandigarh: dolls from around the world in the Bal Bhavan complex, timings, entry fee, visiting with kids and nearby sights.
+itanagar-travel-guide	itanagar tourist places	I	OPTIMIZE	Meta truncated	Itanagar, Arunachal's capital: Ita Fort, the state museum, Ganga Lake, Inner Line Permits, where to stay and a 2-day itinerary.
+jabalpur-travel-guide	jabalpur bhedaghat	I	OPTIMIZE	Meta truncated	Jabalpur travel guide: Bhedaghat's marble rocks, Dhuandhar Falls, boating on the Narmada, Chausath Yogini Temple, where to stay and a 2-day plan.
+jagdalpur-travel-guide	jagdalpur tourist places	I	OPTIMIZE	Meta truncated	Jagdalpur, base for Bastar: Chitrakote and Tirathgarh falls, tribal haats, Bastar Dussehra, the palace and museum, where to stay and a 3-day plan.
+jageshwar-travel-guide	jageshwar temple	I	OPTIMIZE	Meta truncated	Jageshwar, Almora: about 124 stone temples in a deodar forest, Dandeshwar and Vriddha Jageshwar, how to reach, where to stay and a half-day plan.
+jain-pilgrimage-in-india	jain pilgrimage india	I	KEEP	Tirtha list with etiquette; distinct spiritual intent	
+jaipur-travel-guide	jaipur travel guide	I	KEEP	Meta within limit; strong 3-day plan; package link present	
+jammu-kashmir-travel-guide	kashmir travel guide	I	OPTIMIZE	State hub; meta truncated	Jammu & Kashmir travel guide: Srinagar's Dal Lake and houseboats, Gulmarg, Pahalgam, Sonamarg, Vaishno Devi, best time and a 6-day itinerary.
+jammu-travel-guide	jammu travel guide	I	KEEP	City of Temples intent; differs from J&K hub	
+jampore-beach-travel-guide	jampore beach daman	L	OPTIMIZE	Meta truncated	Jampore Beach, Daman: a long casuarina-lined beach south of Moti Daman, camel rides, sunset walks, timings, how to reach and honest swimming advice.

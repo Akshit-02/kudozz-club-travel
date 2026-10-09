@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Canacona Travel Guide: South Goa's Quiet Taluka & Beach Cluster" },
   description:
-    "The complete Canacona travel guide. Palolem, Agonda, Galgibaga and Patnem beaches, Cotigao Wildlife Sanctuary, where to stay, what to eat, best time to visit, and how to plan a South Goa beach-hopping trip.",
+    "Canacona, South Goa: Palolem, Agonda, Patnem and Galgibaga beaches and Cotigao sanctuary, where to stay, best time and how to plan beach-hopping.",
   keywords:
     "Canacona travel guide, Canacona Goa, South Goa beaches, Galgibaga beach, Patnem beach, Cotigao Wildlife Sanctuary, Canacona railway station, best time to visit South Goa",
   openGraph: {

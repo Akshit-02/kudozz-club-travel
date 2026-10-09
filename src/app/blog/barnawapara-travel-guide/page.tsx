@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Barnawapara Wildlife Sanctuary Travel Guide: Safari Near Raipur" },
   description:
-    "The complete Barnawapara Wildlife Sanctuary travel guide. Leopard and sloth bear safaris, jeep permits, where to stay, best time to visit, and a full itinerary for this quiet Chhattisgarh sanctuary near Raipur.",
+    "Barnawapara Wildlife Sanctuary near Raipur: leopard and sloth bear safaris, jeep permits, best time, where to stay and a 2-day plan.",
   keywords:
     "Barnawapara Wildlife Sanctuary travel guide, Barnawapara safari, leopard safari Chhattisgarh, wildlife sanctuary near Raipur, best time to visit Barnawapara, how to reach Barnawapara",
   openGraph: {

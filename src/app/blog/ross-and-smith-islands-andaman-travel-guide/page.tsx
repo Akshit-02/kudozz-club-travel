@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Ross & Smith Islands Travel Guide: Sandbar, Permits & Tips" },
   description:
-    "Complete guide to Ross & Smith Islands near Diglipur — the twin islands joined by a natural walkable sandbar. How to reach them, entry permission, best time, and what to expect from one of the Andamans' most pristine day trips.",
+    "Ross and Smith Islands off Diglipur: twin islands joined by a walkable sandbar, entry permission, best time, how to reach and what to expect.",
   keywords:
     "Ross and Smith Islands, Ross Smith Islands Diglipur, Ross Smith sandbar, Diglipur day trip, North Andaman islands, Aerial Bay jetty, Ross Smith permission, Andaman off-beat islands",
   openGraph: {

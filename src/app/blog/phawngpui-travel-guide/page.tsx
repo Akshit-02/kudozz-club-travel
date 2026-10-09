@@ -59,7 +59,7 @@ function ArticleSchema() {
             "Complete Phawngpui guide — Mizoram's highest peak, the Blue Mountain's rare orchids and rhododendrons, trek difficulty, permits, and how to reach Lawngtlai district.",
           image: "https://club.kudozz.in/images/blogs/mizoram/phawngpui/phawngpui-view.webp",
           datePublished: "2026-09-04",
-          dateModified: "2026-09-04",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -282,6 +282,12 @@ export default function PhawngpuiGuidePage() {
                   <ul>
                     <li><strong>By road from Aizawl:</strong> A long journey to reach Lawngtlai district itself, before the trek approach even begins — budget a full day or more of travel each way.</li>
                   </ul>
+                  <div
+                    className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    <strong>📋 Inner Line Permit:</strong> Indian visitors from outside Mizoram need an Inner Line Permit (ILP) to enter the state. Apply on the Mizoram government's official portal (ilp.mizoram.gov.in) before you travel and carry a copy. Foreign nationals need a Protected Area Permit, which was reinstated for Mizoram in December 2024.
+                  </div>
                   <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                     <strong>💡 Pro Tip:</strong> Build the travel time honestly into your itinerary — this is not a quick weekend trip from Aizawl once approach and return are factored in.
                   </div>

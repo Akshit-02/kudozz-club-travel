@@ -12,13 +12,13 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Mawlynnong Guide: India's Cleanest Village",
+  title: { absolute: "Mawlynnong Guide: 'Asia's Cleanest Village' & Root Bridge" },
   description:
-    "Complete Mawlynnong guide — Asia's Cleanest Village, its community-driven cleanliness culture, a living root bridge, the Sky View bamboo tower, how to reach from Shillong, and a full visit plan.",
+    "Mawlynnong, Meghalaya: the village called Asia's cleanest, its living root bridge and Sky View bamboo tower, how to reach from Shillong and a plan.",
   keywords:
     "Mawlynnong travel guide, Asia's Cleanest Village, Mawlynnong Meghalaya, living root bridge, Sky View tower, East Khasi Hills, how to reach Mawlynnong, Mawlynnong homestay",
   openGraph: {
-    title: "Mawlynnong Guide: India's Cleanest Village",
+    title: "Mawlynnong Guide: 'Asia's Cleanest Village' & Root Bridge",
     description:
       "A community that has kept its village spotless for two decades, with a living root bridge and a bamboo tower looking toward Bangladesh — the complete Mawlynnong guide.",
     url: "https://club.kudozz.in/blog/mawlynnong-travel-guide",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mawlynnong Guide: India's Cleanest Village",
+    title: "Mawlynnong Guide: 'Asia's Cleanest Village' & Root Bridge",
     description:
       "Community-driven cleanliness, a living root bridge, and a bamboo tower with views toward Bangladesh — the complete Mawlynnong guide.",
     images: ["/images/blogs/meghalaya/mawlynnong/mawlynnong.webp"],
@@ -60,9 +60,9 @@ function ArticleSchema() {
           "@graph": [
           {
           "@type": "BlogPosting",
-          headline: "Mawlynnong Guide: India's Cleanest Village",
+          headline: "Mawlynnong Guide: 'Asia's Cleanest Village' & Root Bridge",
           description:
-            "Complete Mawlynnong guide — Asia's Cleanest Village, its community-driven cleanliness culture, a living root bridge, the Sky View bamboo tower, how to reach from Shillong, and a full visit plan.",
+            "Mawlynnong, Meghalaya: the village called Asia's cleanest, its living root bridge and Sky View bamboo tower, how to reach from Shillong and a plan.",
           image: "https://club.kudozz.in/images/blogs/meghalaya/mawlynnong/mawlynnong.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",
@@ -223,7 +223,7 @@ export default function MawlynnongGuidePage() {
               className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Mawlynnong Guide: India&apos;s Cleanest Village
+              Mawlynnong Guide: &apos;Asia&apos;s Cleanest Village&apos; & Root Bridge
             </h1>
 
             <p

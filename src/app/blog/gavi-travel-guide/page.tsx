@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Gavi Travel Guide: Eco-Tourism, Forest Trails & Permits" },
   description:
-    "The complete Gavi travel guide. Kerala Forest Department eco-tourism programs, permit-only entry, forest walks, boating, birdwatching, where to stay, best time to visit, and how to book.",
+    "Gavi, Kerala: the forest department's permit-only eco-tourism programme near Periyar, forest walks, boating, birding, stays and how to book.",
   keywords:
     "Gavi travel guide, Gavi eco-tourism, Gavi permits, Periyar Tiger Reserve buffer zone, Kerala Forest Department eco-tourism, best time to visit Gavi, how to reach Gavi",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Similipal Tiger Reserve: Safari Guide & Tips",
   description:
-    "Complete Similipal guide — one of India's largest tiger reserves, the rare melanistic black tiger, Barehipani and Joranda waterfalls, safari zones, and a full visit plan.",
+    "Similipal Tiger Reserve, Odisha: melanistic tigers, Barehipani and Joranda falls, the safari zones, where to stay and a 3-day visit plan.",
   keywords:
     "Similipal travel guide, Similipal Tiger Reserve, black tiger Similipal, Barehipani Falls, Joranda Falls, Mayurbhanj, Similipal safari, how to reach Similipal, Odisha wildlife",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Similipal Tiger Reserve: Safari Guide & Tips",
           description:
-            "Complete Similipal guide — one of India's largest tiger reserves, the rare melanistic black tiger, Barehipani and Joranda waterfalls, safari zones, and a full visit plan.",
+            "Similipal Tiger Reserve, Odisha: melanistic tigers, Barehipani and Joranda falls, the safari zones, where to stay and a 3-day visit plan.",
           image: "https://club.kudozz.in/images/blogs/odisha/similipal/similipal-guide-cover.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-30",

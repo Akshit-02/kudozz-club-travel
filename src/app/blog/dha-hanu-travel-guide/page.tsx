@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Dha-Hanu Travel Guide: Ladakh's Aryan Valley & the Brokpa People" },
   description:
-    "A responsible traveller's guide to Dha-Hanu, the so-called 'Aryan Valley' of Ladakh — how to reach Dha, Hanu, Garkone and Darchik, permits, Brokpa culture, and how to visit this living community with respect.",
+    "Dha-Hanu, Ladakh: visiting the Brokpa villages of Dha, Hanu, Garkone and Darchik respectfully, permits, how to reach, where to stay and costs.",
   keywords:
     "Dha Hanu, Aryan Valley Ladakh, Brokpa people, Drokpa Ladakh, Dha village, Hanu village, Garkone, Darchik, Batalik sector, Ladakh permits, offbeat Ladakh, Ladakh culture, best time to visit Dha Hanu, how to reach Dha Hanu from Leh, is Dha Hanu safe for solo travellers, Dha Hanu budget trip, Dha Hanu homestays, Inner Line Permit Ladakh, apricot blossom Ladakh, Aryan Valley legend truth",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Sector 22 Chandigarh Travel Guide: Market, Stays & Tips" },
   description:
-    "Guide to Sector 22, Chandigarh — one of the city's earlier, well-established sectors with a busy everyday market, budget-friendly stays, and easy access to Sector 17 and the main sights.",
+    "Sector 22, Chandigarh: a busy everyday market, budget-friendly stays and easy access to Sector 17 and the main sights, with practical tips.",
   keywords:
     "Sector 22 Chandigarh, Sector 22 market, Chandigarh budget hotels, Sector 22 Chandigarh accommodation, things to do Sector 22, Chandigarh residential sectors, Sector 22 to Sector 17, Chandigarh local market, Sector 22 shopping, Chandigarh everyday life",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sector 22 Chandigarh Travel Guide: Market, Stays & Tips",
           description:
-            "Guide to Sector 22, Chandigarh — one of the city's earlier, well-established sectors with a busy everyday market, budget-friendly stays, and easy access to Sector 17 and the main sights.",
+            "Sector 22, Chandigarh: a busy everyday market, budget-friendly stays and easy access to Sector 17 and the main sights, with practical tips.",
           image: "https://club.kudozz.in/images/blogs/chandigarh/sector-22-chandigarh/sector-22-chandigarh-guide-cover.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-09-30",

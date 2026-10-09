@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Bastar Travel Guide: Tribal Culture & Bastar Dussehra" },
   description:
-    "The complete Bastar travel guide. Bastar Dussehra, Dhokra/Dandami metal art, tribal haats, Jagdalpur as a base, where to stay, best time to visit, and a respectful, honest itinerary for exploring the region's indigenous cultures.",
+    "Bastar guide: Bastar Dussehra, dhokra metal craft, tribal haats and waterfalls, with Jagdalpur as a base, best time and a respectful 4-day plan.",
   keywords:
     "Bastar travel guide, Bastar Dussehra, Dhokra art Bastar, Dandami metal casting, tribal haats Chhattisgarh, best time to visit Bastar, how to reach Bastar, Jagdalpur Bastar region",
   openGraph: {

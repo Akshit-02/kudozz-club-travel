@@ -7,7 +7,7 @@ import BlogPageClient from "@/components/blog/BlogPageClient";
 import { featuredPost, posts } from "@/lib/blog-posts";
 
 export const metadata: Metadata = {
-  title: "India Travel Guides: Itineraries, Best Time & Budgets",
+  title: { absolute: "India Travel Guides: Itineraries, Best Time & Budgets" },
   description:
     "1,000+ India travel guides from Kudozz Club: destination guides, things to do, itineraries, best time to visit and budgets for every state and UT.",
   keywords: [

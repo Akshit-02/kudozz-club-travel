@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Mumbai Travel Guide: Gateway of India, Marine Drive & Bollywood" },
   description:
-    "The complete Mumbai travel guide. Gateway of India, Marine Drive, Elephanta Caves, Bandra, Mumbai street food, where to stay, best time to visit, and a full 3-day itinerary through India's biggest city.",
+    "Mumbai travel guide: Gateway of India, Marine Drive, Elephanta Caves, Bandra and street food, best time, where to stay and a 3-day itinerary.",
   keywords:
     "Mumbai travel guide, Gateway of India, Marine Drive, Elephanta Caves, Mumbai itinerary, best time to visit Mumbai, how to reach Mumbai, Mumbai street food, Mumbai local trains, Bandra Bandstand, Mumbai 3 day itinerary, CSMT",
   openGraph: {

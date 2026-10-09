@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Chandipur Beach Guide: The Vanishing Sea",
   description:
-    "Complete Chandipur guide — the vanishing-sea tide that pulls the water back up to 5 km, tide timings, how to reach from Balasore, where to stay, and a full visit plan.",
+    "Chandipur, Odisha's 'vanishing sea' beach: why the tide retreats kilometres, when to see it, how to reach from Balasore and where to stay.",
   keywords:
     "Chandipur travel guide, Chandipur beach, vanishing sea beach Odisha, hide and seek beach, Balasore beach, Chandipur tide timings, how to reach Chandipur, Odisha beaches",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chandipur Beach Guide: The Vanishing Sea",
           description:
-            "Complete Chandipur guide — the vanishing-sea tide that pulls the water back up to 5 km, tide timings, how to reach from Balasore, where to stay, and a full visit plan.",
+            "Chandipur, Odisha's 'vanishing sea' beach: why the tide retreats kilometres, when to see it, how to reach from Balasore and where to stay.",
           image: "https://club.kudozz.in/images/blogs/odisha/chandipur/chandipur-beach.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

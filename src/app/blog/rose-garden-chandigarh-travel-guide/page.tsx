@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Zakir Hussain Rose Garden Chandigarh: Complete Travel Guide" },
   description:
-    "Complete guide to the Zakir Hussain Rose Garden, Sector 16 — Asia's largest rose garden with roughly 1,600+ rose varieties. Best time, the Rose Festival, entry timings, and visit tips.",
+    "Zakir Hussain Rose Garden, Sector 16, Chandigarh: some 1,600 rose varieties, the Rose Festival, timings, how to reach and a short visit plan.",
   keywords:
     "Zakir Hussain Rose Garden, Rose Garden Chandigarh, Sector 16 Chandigarh, Chandigarh Rose Festival, Asia's largest rose garden, best time to visit Rose Garden Chandigarh, Rose Garden Chandigarh timings, Rose Garden entry fee, Chandigarh gardens, Chandigarh Sector 16, rose varieties Chandigarh, medicinal plants garden Chandigarh",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Zakir Hussain Rose Garden Chandigarh: Complete Travel Guide",
           description:
-            "Complete guide to the Zakir Hussain Rose Garden, Sector 16 — Asia's largest rose garden with roughly 1,600+ rose varieties. Best time, the Rose Festival, entry timings, and visit tips.",
+            "Zakir Hussain Rose Garden, Sector 16, Chandigarh: some 1,600 rose varieties, the Rose Festival, timings, how to reach and a short visit plan.",
           image:
             "https://club.kudozz.in/images/blogs/chandigarh/chandigarh/zakir-hussain-rose-garden-chandigarh.webp",
           datePublished: "2026-08-31",

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Moreh Travel Guide: India's Border Town to Myanmar",
   description:
-    "Complete Moreh travel guide — India's frontier trading town on the Manipur-Myanmar border, the Friendship Bridge over the Yu River to Tamu, border-market culture, permits, how to reach, and full trip planning.",
+    "Moreh, Manipur: the border trading town opposite Tamu in Myanmar, the Friendship Bridge, border markets, permits, how to reach and a day plan.",
   keywords:
     "Moreh travel guide, Moreh Manipur, India Myanmar border town, Tengnoupal district, Friendship Bridge Yu River, Tamu Myanmar, Act East policy, NH102 Manipur, Inner Line Permit Manipur, border trade Manipur",
   openGraph: {

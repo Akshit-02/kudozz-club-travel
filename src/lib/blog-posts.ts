@@ -1151,7 +1151,7 @@ const guidePosts = [
     slug: "mount-manipur-andaman-travel-guide",
     title: "Mount Manipur (Mount Harriet) Travel Guide: Trek & Views",
     excerpt:
-      "The second-highest point in the Andamans, across the harbour from Port Blair — colonial-era ruins, forest trails, and panoramic views over Ross Island and North Bay.",
+      "South Andaman's highest point, across the harbour from Port Blair — colonial-era ruins, forest trails, and panoramic views over Ross Island and North Bay.",
     image: "/images/blogs/andaman-and-nicobar/mount-manipur-andaman/mount-manipur-national-park-entrance.webp",
     category: "Trekking",
     categoryColor: "bg-green-100 text-green-700",
@@ -1593,7 +1593,7 @@ const guidePosts = [
   },
   {
     slug: "new-delhi-travel-guide",
-    title: "New Delhi Travel Guide: India Gate, Rajpath & More",
+    title: "New Delhi Travel Guide: India Gate, Kartavya Path & More",
     excerpt:
       "Wide colonial avenues, a president's palace, and a parliament at the centre of the world's largest democracy — the complete guide to New Delhi's Lutyens-era core.",
     image: "/images/blogs/delhi/new-delhi/india-gate-lawns-new-delhi.webp",
@@ -2195,11 +2195,11 @@ const guidePosts = [
     slug: "santiniketan-travel-guide",
     title: "Santiniketan Travel Guide: Tagore's University Town",
     excerpt:
-      "Complete Santiniketan guide — Vishwa-Bharati University (UNESCO World Heritage), Uttarayan, Kala Bhavana, Sonajhuri haat, Poush Mela, how to reach from Kolkata, and a full visit plan.",
+      "Complete Santiniketan guide — Visva-Bharati University (UNESCO World Heritage), Uttarayan, Kala Bhavana, Sonajhuri haat, Poush Mela, how to reach from Kolkata, and a full visit plan.",
     image: "/images/blogs/west-bengal/santiniketan/udayan-tagore-house-santiniketan.webp",
     category: "Heritage",
     categoryColor: "bg-purple-100 text-purple-700",
-    tags: ["Santiniketan", "Rabindranath Tagore", "Vishwa-Bharati", "West Bengal", "UNESCO Heritage", "Bolpur", "Basanta Utsav"],
+    tags: ["Santiniketan", "Rabindranath Tagore", "Visva-Bharati", "West Bengal", "UNESCO Heritage", "Bolpur", "Basanta Utsav"],
     readTime: "11 min",
     featured: false,
   },
@@ -4522,7 +4522,7 @@ const guidePosts = [
   },
   {
     slug: "mawlynnong-travel-guide",
-    title: "Mawlynnong Guide: India's Cleanest Village",
+    title: "Mawlynnong Guide: 'Asia's Cleanest Village' & Root Bridge",
     excerpt:
       "A village that has kept itself spotless for two decades through community habit alone, with a living root bridge and a bamboo tower looking toward Bangladesh.",
     image: "/images/blogs/meghalaya/mawlynnong/mawlynnong.webp",
@@ -6394,7 +6394,7 @@ const guidePosts = [
   },
   {
     slug: "nalanda-travel-guide",
-    title: "Nalanda Travel Guide: Ruins of the World's Oldest University",
+    title: "Nalanda Travel Guide: Ruins of an Ancient Buddhist University",
     excerpt:
       "The excavated remains of a residential university that once housed thousands of monks and scholars from across Asia, over a thousand years before Oxford existed — the complete guide to Nalanda.",
     image: "/images/blogs/bihar/nalanda/nalanda.webp",
@@ -6430,7 +6430,7 @@ const guidePosts = [
   },
   {
     slug: "vaishali-travel-guide",
-    title: "Vaishali Travel Guide: The World's First Republic & Buddha's Last Sermon",
+    title: "Vaishali Travel Guide: An Ancient Republic & Buddha's Last Sermon",
     excerpt:
       "A city often cited as the site of the world's earliest republic, where Buddha delivered his final sermon before his death — the complete guide to Vaishali.",
     image: "/images/blogs/bihar/vaishali/vaishali.webp",

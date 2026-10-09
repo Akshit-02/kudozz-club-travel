@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Maharashtra Travel Guide: Mumbai, Ajanta-Ellora & Konkan Coast" },
   description:
-    "The complete Maharashtra travel guide — Mumbai's Gateway of India and Marine Drive, the rock-cut caves of Ajanta and Ellora, the hill stations of Lonavala and Mahabaleshwar, the Konkan coast, where to stay and eat, and a full itinerary through India's most economically dynamic state.",
+    "Maharashtra travel guide: Mumbai, the Ajanta and Ellora caves, Lonavala and Mahabaleshwar, the Konkan coast, best time, where to stay and a 7-day plan.",
   keywords:
     "Maharashtra travel guide, Mumbai travel guide, Ajanta Ellora caves, Konkan coast, Lonavala, Mahabaleshwar, Pune travel guide, Maharashtra itinerary, Elephanta Caves, Alibaug, best time to visit Maharashtra, how to reach Mumbai, Maharashtra itinerary days, Maharashtra budget trip, top things to do in Maharashtra, Sindhudurg Fort, Matheran hill station, is Mumbai safe for solo travellers",
   openGraph: {

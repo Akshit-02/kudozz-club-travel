@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Laknavaram Lake Guide: Bridge, Boating & Tips",
   description:
-    "Complete Laknavaram Lake guide — the horseshoe-shaped lake and its cantilever hanging bridge, boating, how to combine it with Ramappa Temple and Bogatha Waterfall, and a full visit plan.",
+    "Laknavaram Lake, Mulugu: the hanging bridge, boating and islands, pairing it with Ramappa Temple and Bogatha Waterfall, and a 2-day plan from Warangal.",
   keywords:
     "Laknavaram Lake, Laknavaram cantilever bridge, Mulugu district tourism, Laknavaram boating, Warangal day trip, Bogatha Waterfall, Ramappa Temple, Telangana lakes, how to reach Laknavaram",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Laknavaram Lake Guide: Bridge, Boating & Tips",
           description:
-            "Complete Laknavaram Lake guide — the horseshoe-shaped lake and its cantilever hanging bridge, boating, how to combine it with Ramappa Temple and Bogatha Waterfall, and a full visit plan.",
+            "Laknavaram Lake, Mulugu: the hanging bridge, boating and islands, pairing it with Ramappa Temple and Bogatha Waterfall, and a 2-day plan from Warangal.",
           image: "https://club.kudozz.in/images/blogs/telangana/laknavaram/laknavaram-lake-forested-islands-mulugu.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

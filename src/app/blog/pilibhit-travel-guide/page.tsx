@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Pilibhit Tiger Reserve: Safari & Visit Guide",
   description:
-    "Complete Pilibhit Tiger Reserve guide — dense terai forest, one of India's highest tiger densities, swamp deer and birdlife, safari zones, how to reach, and Pilibhit's flute-making heritage.",
+    "Pilibhit Tiger Reserve: terai forest on the Sharda, tigers and swamp deer, the safari zones, how to reach and the town's flute-making tradition.",
   keywords:
     "Pilibhit Tiger Reserve, Pilibhit safari, terai forest Uttar Pradesh, Pilibhit flute making, Sharda river, Pilibhit best time to visit, how to reach Pilibhit, swamp deer Pilibhit, Bareilly to Pilibhit",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Pilibhit Tiger Reserve: Safari & Visit Guide",
           description:
-            "Complete Pilibhit Tiger Reserve guide — dense terai forest, one of India's highest tiger densities, swamp deer and birdlife, safari zones, how to reach, and Pilibhit's flute-making heritage.",
+            "Pilibhit Tiger Reserve: terai forest on the Sharda, tigers and swamp deer, the safari zones, how to reach and the town's flute-making tradition.",
           image: "https://club.kudozz.in/images/blogs/uttar-pradesh/pilibhit/chuka-spot-forest-pilibhit-tiger-reserve.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

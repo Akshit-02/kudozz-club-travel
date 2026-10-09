@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Jolly Buoy Island Andaman: Marine Park Visit Guide",
   description:
-    "Complete Jolly Buoy Island guide — the Andamans' best-preserved coral reef inside Mahatma Gandhi Marine National Park. Timings, monsoon closure dates, rules, and how to book.",
+    "Jolly Buoy Island in Mahatma Gandhi Marine National Park: the reef, snorkelling, monsoon closure, park rules, how to book from Port Blair and costs.",
   keywords:
     "Jolly Buoy Island, Mahatma Gandhi Marine National Park, Wandoor Andaman, Jolly Buoy snorkelling, Jolly Buoy timings, Jolly Buoy closed monsoon, best coral reef Andaman, Jolly Buoy permit, Wandoor jetty",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Jolly Buoy Island Andaman: Marine Park Visit Guide",
           description:
-            "Complete Jolly Buoy Island guide — the Andamans' best-preserved coral reef inside Mahatma Gandhi Marine National Park. Timings, monsoon closure dates, rules, and how to book.",
+            "Jolly Buoy Island in Mahatma Gandhi Marine National Park: the reef, snorkelling, monsoon closure, park rules, how to book from Port Blair and costs.",
           image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/jolly-buoy-island-andaman/jolly-buoy-island-andaman-2.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",

@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Dwarka Travel Guide: Krishna's Ancient Kingdom & Char Dham Site" },
   description:
-    "The complete Dwarka travel guide. Dwarkadhish Temple, Bet Dwarka, Nageshwar Jyotirlinga, where to stay, best time to visit, and a full itinerary through one of Hinduism's four Char Dham sites.",
+    "Dwarka guide: the Dwarkadhish temple, Bet Dwarka, Nageshwar Jyotirlinga and Shivrajpur beach nearby, best time, where to stay and a 2-day plan.",
   keywords:
     "Dwarka travel guide, Dwarkadhish Temple, Bet Dwarka, Nageshwar Jyotirlinga, Char Dham Dwarka, best time to visit Dwarka, how to reach Dwarka, Krishna temple Gujarat",
   openGraph: {

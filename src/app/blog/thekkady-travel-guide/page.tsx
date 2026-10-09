@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Thekkady Travel Guide: Periyar Tiger Reserve & Spice Farms" },
   description:
-    "The complete Thekkady travel guide. Periyar Lake boat safaris, bamboo rafting, spice plantation tours, where to stay, best time to visit, and a full itinerary through Kerala's wildlife and spice country.",
+    "Thekkady and Periyar Tiger Reserve: lake boat safaris, bamboo rafting and spice plantation tours, best time, where to stay and a 2-day plan.",
   keywords:
     "Thekkady travel guide, Periyar Wildlife Sanctuary, Periyar Tiger Reserve, Kumily, boat safari Thekkady, spice plantations Kerala, best time to visit Thekkady, how to reach Thekkady",
   openGraph: {

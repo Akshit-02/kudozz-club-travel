@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Rishikesh Travel Guide: Adventure, Yoga, Rafting & More" },
   description:
-    "The complete Rishikesh travel guide. White-water rafting, bungee jumping, yoga retreats, Ganga aarti, best cafes, where to stay, and everything you need to plan the perfect trip.",
+    "Rishikesh travel guide: rafting, bungee and other adventure, yoga and ashrams, the Ganga aarti, cafes, where to stay and a 5-day itinerary.",
   keywords:
     "Rishikesh travel guide, Rishikesh rafting, Rishikesh yoga, Rishikesh bungee jumping, Laxman Jhula, Ganga aarti Rishikesh, things to do in Rishikesh, Uttarakhand travel, best time to visit Rishikesh, how to reach Rishikesh from Delhi, Rishikesh 5 day itinerary, is Rishikesh safe for solo travellers, Rishikesh trip budget, Rishikesh rafting cost, Rishikesh yoga teacher training, Neelkanth Mahadev trek, is Rishikesh worth visiting, Rishikesh vs Haridwar",
   openGraph: {

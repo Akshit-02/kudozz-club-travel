@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Coorg Travel Guide: Coffee, Waterfalls, Trekking & More" },
   description:
-    "The complete Coorg (Kodagu) travel guide. India's coffee capital — misty hills, Abbey Falls, Nagarhole safaris, Madikeri fort, homestays, and the best of Kodava culture. Everything you need to plan the perfect Coorg trip.",
+    "Coorg (Kodagu) travel guide: coffee estates, Abbey Falls, Nagarhole safaris, Madikeri, treks, Kodava food and homestays, with a 4-day itinerary.",
   keywords:
     "Coorg travel guide, Coorg Karnataka, Kodagu tourism, Abbey Falls Coorg, Madikeri, Coorg coffee plantations, Nagarhole National Park, Coorg homestays, things to do in Coorg, Coorg itinerary, best time to visit Coorg, how to reach Coorg from Bangalore, Coorg itinerary 4 days, is Coorg safe for solo travellers, Coorg budget trip, Tadiandamol Peak trek, Iruppu Falls Coorg, Coorg plantation homestay, Dubare Elephant Camp, Mandalpatti viewpoint",
   openGraph: {

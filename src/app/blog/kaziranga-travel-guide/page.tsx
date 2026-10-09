@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kaziranga National Park Travel Guide: One-Horned Rhino Safari" },
   description:
-    "The complete Kaziranga travel guide. Jeep and elephant safaris, rhino and tiger sighting odds, safari zones, where to stay, best time to visit, and a full itinerary through this UNESCO World Heritage wildlife park.",
+    "Kaziranga National Park: jeep and elephant safaris, one-horned rhinos and tigers, the safari zones, best time, where to stay and a 2-day itinerary.",
   keywords:
     "Kaziranga National Park travel guide, one-horned rhino safari, Kaziranga jeep safari, Kaziranga elephant safari, best time to visit Kaziranga, how to reach Kaziranga, Kaziranga safari zones, Assam wildlife",
   openGraph: {

@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Jog Falls Travel Guide: India's Tallest Plunge Waterfall" },
   description:
-    "The complete Jog Falls travel guide. Raja, Rani, Rocket and Roarer streams on the Sharavathi River, viewpoints, when the flow is strongest, where to stay, and a full itinerary.",
+    "Jog Falls on the Sharavathi: the Raja, Rani, Rocket and Roarer streams, the best viewpoints, when the flow is strongest, where to stay and a day plan.",
   keywords:
     "Jog Falls travel guide, Sharavathi River, tallest waterfall India, Jog Falls best time to visit, how to reach Jog Falls, Karnataka waterfalls, Talguppa",
   openGraph: {

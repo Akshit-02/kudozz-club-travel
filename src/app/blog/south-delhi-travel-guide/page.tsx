@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "South Delhi Travel Guide: Best Areas & Things to Do",
   description:
-    "South Delhi travel guide covering Hauz Khas Village, Greater Kailash, Saket, Vasant Kunj, Mehrauli & Qutub Minar, Lodhi Garden, Chhatarpur Temple, dining, and a 2-day itinerary.",
+    "South Delhi guide: Hauz Khas, Mehrauli and the Qutub Minar, Lodhi Garden, Saket and Greater Kailash, Chhatarpur Temple, dining and a 2-day plan.",
   keywords:
     "South Delhi travel guide, South Delhi areas, Hauz Khas Village, Greater Kailash M Block Market, Saket Select Citywalk, Vasant Kunj, Mehrauli Qutub Minar, Lodhi Garden, Khan Market, Chhatarpur Temple, South Delhi restaurants, South Delhi nightlife, best area to stay South Delhi",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "South Delhi Travel Guide: Best Areas & Things to Do",
           description:
-            "South Delhi travel guide covering Hauz Khas Village, Greater Kailash, Saket, Vasant Kunj, Mehrauli & Qutub Minar, Lodhi Garden, Chhatarpur Temple, dining, and a 2-day itinerary.",
+            "South Delhi guide: Hauz Khas, Mehrauli and the Qutub Minar, Lodhi Garden, Saket and Greater Kailash, Chhatarpur Temple, dining and a 2-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/south-delhi/lotus-temple-kalkaji-south-delhi.webp",
           datePublished: "2026-08-30",

@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Mysuru Travel Guide: Mysore Palace, Dasara & City Guide" },
   description:
-    "The complete Mysuru travel guide. Mysore Palace, Dasara festival, Chamundi Hill, Brindavan Gardens, Devaraja Market, where to stay, best time to visit, and a full 2-day itinerary through Karnataka's royal city.",
+    "Mysuru travel guide: Mysore Palace, the Dasara festival, Chamundi Hill, Brindavan Gardens and Devaraja Market, where to stay and a 2-day itinerary.",
   keywords:
     "Mysuru travel guide, Mysore travel guide, Mysore Palace, Mysuru Dasara, Chamundi Hill, Brindavan Gardens, best time to visit Mysuru, how to reach Mysuru, Mysuru itinerary, Mysore silk",
   openGraph: {

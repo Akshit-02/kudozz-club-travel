@@ -13,13 +13,13 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Mount Manipur (Mount Harriet) Travel Guide: Trek & Views" },
   description:
-    "Complete Mount Manipur guide — formerly Mount Harriet, the second-highest point in the Andaman & Nicobar Islands. Trekking trails, colonial-era ruins, the summit viewpoint over Ross Island and Port Blair harbour, and how to visit.",
+    "Mount Manipur (formerly Mount Harriet), South Andaman's highest point: forest trails, colonial-era ruins, the view over Ross Island and how to visit.",
   keywords:
-    "Mount Manipur, Mount Harriet, Mount Harriet National Park, Andaman highest peak, Mount Manipur trek, Port Blair viewpoint, Bamboo Flat ferry, second highest point Andaman, Mount Harriet renamed, Andaman trekking trails",
+    "Mount Manipur, Mount Harriet, Mount Harriet National Park, Andaman highest peak, Mount Manipur trek, Port Blair viewpoint, Bamboo Flat ferry, highest point South Andaman, Mount Harriet renamed, Andaman trekking trails",
   openGraph: {
     title: "Mount Manipur (Mount Harriet) Travel Guide: Trek & Views",
     description:
-      "The second-highest point in the Andamans, across the harbour from Port Blair — colonial-era ruins, forest trails, and panoramic views over Ross Island and North Bay.",
+      "South Andaman's highest point, across the harbour from Port Blair — colonial-era ruins, forest trails, and panoramic views over Ross Island and North Bay.",
     url: "https://club.kudozz.in/blog/mount-manipur-andaman-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mount Manipur (Mount Harriet) Travel Guide: Trek & Views",
     description:
-      "Formerly Mount Harriet — the Andamans' second-highest point, with forest trails and views over Port Blair harbour.",
+      "Formerly Mount Harriet — South Andaman's highest point, with forest trails and views over Port Blair harbour.",
     images: ["/images/blogs/andaman-and-nicobar/mount-manipur-andaman/mount-manipur-national-park-entrance.webp"],
   },
   alternates: {
@@ -61,10 +61,10 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mount Manipur (Mount Harriet) Travel Guide: Trek & Views",
           description:
-            "Complete Mount Manipur guide — formerly Mount Harriet, the second-highest point in the Andaman & Nicobar Islands. Trekking trails, colonial-era ruins, the summit viewpoint over Ross Island and Port Blair harbour, and how to visit.",
+            "Mount Manipur (formerly Mount Harriet), South Andaman's highest point: forest trails, colonial-era ruins, the view over Ross Island and how to visit.",
           image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/mount-manipur-andaman/mount-manipur-national-park-entrance.webp",
           datePublished: "2026-09-01",
-          dateModified: "2026-09-30",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -121,7 +121,7 @@ const faqs = [
   },
   {
     q: "How high is Mount Manipur?",
-    a: "Roughly 365 metres, making it the second-highest point in the Andaman & Nicobar Islands after Saddle Peak in North Andaman, near Diglipur.",
+    a: "Roughly 365 to 383 metres, depending on the source. That makes it the highest point in South Andaman and the third-highest in the Andaman & Nicobar Islands, after Saddle Peak in North Andaman (near Diglipur) and Mount Thuillier on Great Nicobar.",
   },
   {
     q: "What can I see from the summit?",
@@ -161,7 +161,7 @@ function FAQSchema() {
 
 // ── TOC ───────────────────────────────────────────────────────────────────────
 const tableOfContents = [
-  { id: "introduction", title: "The Andamans' Second-Highest Point", level: 2 },
+  { id: "introduction", title: "South Andaman's Highest Point", level: 2 },
   { id: "best-time", title: "Best Time to Visit", level: 2 },
   { id: "how-to-reach", title: "How to Reach", level: 2 },
   { id: "trek-summit", title: "The Trek & the Summit Viewpoint", level: 2 },
@@ -231,8 +231,8 @@ export default function MountManipurGuidePage() {
               className="text-lg text-white/80 max-w-2xl mb-8 leading-relaxed"
               style={{ fontFamily: "var(--font-source-serif)" }}
             >
-              Formerly Mount Harriet — the second-highest point in the
-              Andaman & Nicobar Islands, across the harbour from Port Blair,
+              Formerly Mount Harriet — the highest point in South
+              Andaman, across the harbour from Port Blair,
               with forest trails, colonial-era ruins, and a summit view over
               Ross Island and North Bay.
             </p>
@@ -290,7 +290,7 @@ export default function MountManipurGuidePage() {
               <div className="prose-travel">
                 {/* ── Introduction ──────────────────────────────────────── */}
                 <section id="introduction">
-                  <h2>The Andamans' Second-Highest Point</h2>
+                  <h2>South Andaman's Highest Point</h2>
                   <p>
                     <strong>Mount Manipur</strong> — officially renamed from{" "}
                     <strong>Mount Harriet</strong> in 2018 to honour
@@ -305,9 +305,10 @@ export default function MountManipurGuidePage() {
                     interchangeably.
                   </p>
                   <p>
-                    At roughly 365 metres, it's the second-highest point in
-                    the Andaman & Nicobar Islands, behind only Saddle Peak
-                    near{" "}
+                    At roughly 365 to 383 metres (sources differ), it's the
+                    highest point in South Andaman and the third-highest in the
+                    Andaman & Nicobar Islands, after Mount Thuillier on Great
+                    Nicobar and Saddle Peak near{" "}
                     <Link href="/blog/diglipur-andaman-travel-guide">
                       Diglipur
                     </Link>{" "}
@@ -349,7 +350,7 @@ export default function MountManipurGuidePage() {
                         {
                           icon: "📐",
                           label: "Elevation",
-                          value: "~365 m (2nd highest in Andamans)",
+                          value: "~365–383 m (highest in South Andaman)",
                         },
                         {
                           icon: "🏷️",

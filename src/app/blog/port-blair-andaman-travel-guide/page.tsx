@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Sri Vijaya Puram (Port Blair) Travel Guide: Sights & Tips" },
   description:
-    "Complete Sri Vijaya Puram (Port Blair) guide — the Andaman & Nicobar capital and gateway to the islands. Cellular Jail, Corbyn's Cove, the Chatham Saw Mill, ferries to Havelock and Neil, and how to plan your stay.",
+    "Sri Vijaya Puram (Port Blair): Cellular Jail, Corbyn's Cove, Chatham Saw Mill and the ferries to Havelock and Neil, with a 1.5-day plan.",
   keywords:
     "Sri Vijaya Puram, Port Blair travel guide, Port Blair Andaman, Cellular Jail Port Blair, Corbyn's Cove Beach, Chatham Saw Mill, Veer Savarkar International Airport, Port Blair to Havelock ferry, Port Blair to Neil Island ferry, Andaman capital, Port Blair sightseeing, Andaman Islands gateway, Port Blair itinerary",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sri Vijaya Puram (Port Blair) Travel Guide: Sights & Tips",
           description:
-            "Complete Sri Vijaya Puram (Port Blair) guide — the Andaman & Nicobar capital and gateway to the islands. Cellular Jail, Corbyn's Cove, the Chatham Saw Mill, ferries to Havelock and Neil, and how to plan your stay.",
+            "Sri Vijaya Puram (Port Blair): Cellular Jail, Corbyn's Cove, Chatham Saw Mill and the ferries to Havelock and Neil, with a 1.5-day plan.",
           image: "https://club.kudozz.in/images/blogs/andaman-and-nicobar/port-blair-andaman/cellular-jail-sri-vijaya-puram-port-blair-3.webp",
           datePublished: "2026-09-01",
           dateModified: "2026-09-01",

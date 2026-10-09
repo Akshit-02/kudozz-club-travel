@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Peren Travel Guide: Intanki National Park & Tips",
   description:
-    "Complete Peren guide — Intanki National Park's hoolock gibbons and forest wildlife, the Barail Range, Zeliang and Kuki Naga culture, Benreu village, how to reach, and a full visit plan.",
+    "Peren, Nagaland: Intanki National Park, the Barail Range, Zeliang and Kuki culture and Benreu village, how to reach and a 2-3 day plan.",
   keywords:
     "Peren Nagaland, Intanki National Park, hoolock gibbon Nagaland, Barail Range, Zeliang Naga, Kuki Naga, Nagaland wildlife, Peren district travel guide",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Peren Travel Guide: Intanki National Park & Tips",
           description:
-            "Complete Peren guide — Intanki National Park's hoolock gibbons and forest wildlife, the Barail Range, Zeliang and Kuki Naga culture, Benreu village, how to reach, and a full visit plan.",
+            "Peren, Nagaland: Intanki National Park, the Barail Range, Zeliang and Kuki culture and Benreu village, how to reach and a 2-3 day plan.",
           image: "https://club.kudozz.in/images/blogs/nagaland/peren/peren-guide-cover.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-30",

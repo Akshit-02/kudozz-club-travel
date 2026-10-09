@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Munroe Island Travel Guide: Backwater Canoeing & Village Life" },
   description:
-    "The complete Munroe Island travel guide. Canal canoe tours, coir-village life, Ashtamudi Lake and the Kallada River, where to stay, best time to visit, and how to reach this quiet Kerala backwater cluster.",
+    "Munroe Island, Kollam: canal canoe tours, coir villages where Ashtamudi Lake meets the Kallada river, best time, where to stay and a day plan.",
   keywords:
     "Munroe Island travel guide, Munroethuruthu, Ashtamudi Lake, Kollam backwaters, canoe tour Munroe Island, best time to visit Munroe Island, how to reach Munroe Island, Kerala backwaters off-beat",
   openGraph: {

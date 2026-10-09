@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Ranthambore Safari Guide: Tigers & Fort",
   description:
-    "Complete Ranthambore guide — tiger safaris against the backdrop of a 10th-century fort, the zone system, best time and zone for sightings, how to reach from Jaipur, and a full visit plan.",
+    "Ranthambore guide: tiger safaris below a 10th-century fort, the zones, best time for sightings, booking, how to reach from Jaipur and a 2-day plan.",
   keywords:
     "Ranthambore travel guide, Ranthambore National Park, Ranthambore tiger safari, Ranthambore Fort, Sawai Madhopur, Ranthambore safari zones, best time Ranthambore, how to reach Ranthambore, Ranthambore booking",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Ranthambore Safari Guide: Tigers & Fort",
           description:
-            "Complete Ranthambore guide — tiger safaris against the backdrop of a 10th-century fort, the zone system, best time and zone for sightings, how to reach from Jaipur, and a full visit plan.",
+            "Ranthambore guide: tiger safaris below a 10th-century fort, the zones, best time for sightings, booking, how to reach from Jaipur and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/rajasthan/ranthambore/ranthambore-fort-ranthambore-safari.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-04",

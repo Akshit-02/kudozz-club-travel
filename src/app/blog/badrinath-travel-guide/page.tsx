@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Badrinath Travel Guide: Temple, Timings & How to Reach" },
   description:
-    "Complete Badrinath guide — temple opening dates, Tapt Kund, Mana village, Vasudhara Falls, how to reach via Joshimath, where to stay, and a full Char Dham visit plan.",
+    "Badrinath guide: temple opening and closing season, Tapt Kund, Mana village and Vasudhara Falls, how to reach via Joshimath and where to stay.",
   keywords:
     "Badrinath, Badrinath temple, Char Dham, Badrinath opening date, Mana village, Tapt Kund, Vasudhara Falls, how to reach Badrinath, Joshimath, Badrinath yatra, Alaknanda river, Uttarakhand pilgrimage",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Badrinath Travel Guide: Temple, Timings & How to Reach",
           description:
-            "Complete Badrinath guide — temple opening dates, Tapt Kund, Mana village, Vasudhara Falls, how to reach via Joshimath, where to stay, and a full Char Dham visit plan.",
+            "Badrinath guide: temple opening and closing season, Tapt Kund, Mana village and Vasudhara Falls, how to reach via Joshimath and where to stay.",
           image:
             "https://club.kudozz.in/images/blogs/uttarakhand/badrinath/badrinath-temple-colorful-facade-mountains.webp",
           datePublished: "2026-09-02",

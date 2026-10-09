@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Imphal Travel Guide: Kangla Fort & Ima Keithel Market" },
   description:
-    "The complete Imphal travel guide — Kangla Fort's royal ruins, Ima Keithel's all-women market, Shree Govindajee Temple, the Imphal War Cemetery, day trips to Loktak Lake, and full trip planning for Manipur's capital.",
+    "Imphal, Manipur: Kangla Fort, the all-women Ima Keithel market, the war cemeteries, a day trip to Loktak Lake, where to stay and a 2-day plan.",
   keywords:
     "Imphal travel guide, Kangla Fort, Ima Keithel, Imphal War Cemetery, Manipur capital, Shree Govindajee Temple, Sangai Festival, Imphal airport, best time to visit Imphal, Manipur Inner Line Permit",
   openGraph: {

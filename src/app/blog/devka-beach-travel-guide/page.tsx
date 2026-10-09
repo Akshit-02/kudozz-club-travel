@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Devka Beach Daman: Promenade, Rides & Activities",
   description:
-    "Devka Beach travel guide — Daman's busiest, most developed beach, with its seafront promenade, garden, rock-climbing wall, camel rides, food stalls, and honest swimming advice.",
+    "Devka Beach, Daman: the seafront promenade and garden, evening activities and food stalls, honest swimming advice and where to stay nearby.",
   keywords:
     "Devka Beach, Devka Beach Daman, Devka Beach timings, Devka Beach activities, Devka Beach promenade, Devka Beach garden, Devka Beach rock climbing, Devka Beach camel ride, Daman beaches, Nani Daman, Daman tourist places, Devka Beach entry fee",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Devka Beach Daman: Promenade, Rides & Activities",
           description:
-            "Devka Beach travel guide — Daman's busiest, most developed beach, with its seafront promenade, garden, rock-climbing wall, camel rides, food stalls, and honest swimming advice.",
+            "Devka Beach, Daman: the seafront promenade and garden, evening activities and food stalls, honest swimming advice and where to stay nearby.",
           image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/devka-beach/devka-beach-black-sand-shoreline-daman.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-09-09",

@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Agonda Beach Travel Guide: Turtles & Quiet South Goa" },
   description:
-    "The complete Agonda travel guide. Turtle nesting season, the beach's no-loud-music local code, yoga stays, where to stay, best time to visit, and a full itinerary through South Goa's calmest beach.",
+    "Agonda Beach, South Goa's quiet side: turtle nesting season, the no-loud-music code, yoga stays, best time, where to stay and a 2-day plan.",
   keywords:
     "Agonda travel guide, Agonda beach Goa, Agonda turtle nesting, South Goa quiet beaches, best time to visit Agonda, how to reach Agonda, Agonda vs Palolem, Goa yoga retreats",
   openGraph: {

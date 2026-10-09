@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Senapati Travel Guide: Mao Gate, King Chilli & Naga Hills" },
   description:
-    "Complete Senapati travel guide — the northern Naga hill country of Manipur, Mao Gate on NH2, terraced farms growing the fiery King Chilli and passion fruit, how to reach, and full trip planning.",
+    "Senapati, northern Manipur: Naga hill country, Mao Gate on NH2, terraced farms of king chilli and passion fruit, how to reach and a 1-2 day plan.",
   keywords:
     "Senapati travel guide, Senapati Manipur, Mao Gate, King Chilli Naga Mircha, Bhut Jolokia Manipur, Mao Poumai Maram Zeme, Naga Hills Manipur, how to reach Senapati, Inner Line Permit Manipur",
   openGraph: {

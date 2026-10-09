@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Sandakphu Trek Guide: Route, Permits & Best Time",
   description:
-    "Complete Sandakphu trek guide — the Maney Bhanjang route, permits for Singalila National Park, trek duration, tea-house stays, and views of four of the world's five highest peaks.",
+    "Sandakphu trek: the route from Maney Bhanjang, Singalila National Park permits, tea-house stays, best time and views of Everest and Kanchenjunga.",
   keywords:
     "Sandakphu trek, Sandakphu Phalut trek, Singalila National Park permit, Maney Bhanjang, Sandakphu best time to visit, Sandakphu trek difficulty, Sandakphu Kanchenjunga view, Sandakphu trek route, West Bengal trekking, Darjeeling trek",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sandakphu Trek Guide: Route, Permits & Best Time",
           description:
-            "Complete Sandakphu trek guide — the Maney Bhanjang route, permits for Singalila National Park, trek duration, tea-house stays, and views of four of the world's five highest peaks.",
+            "Sandakphu trek: the route from Maney Bhanjang, Singalila National Park permits, tea-house stays, best time and views of Everest and Kanchenjunga.",
           image:
             "https://club.kudozz.in/images/blogs/west-bengal/sandakphu/kanchenjunga-range-view-sandakphu-singalila.webp",
           datePublished: "2026-09-02",

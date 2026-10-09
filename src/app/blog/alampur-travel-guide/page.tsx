@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Alampur Travel Guide: Navabrahma Temples & Tips",
   description:
-    "Complete Alampur guide — the nine Chalukyan Navabrahma Temples, the Jogulamba Shakti Peetha, the Krishna-Tungabhadra confluence, how to reach from Hyderabad, and a full visit plan.",
+    "Alampur guide: the nine Chalukyan Navabrahma temples, Jogulamba Shakti Peetha and the Krishna-Tungabhadra confluence, how to reach from Hyderabad.",
   keywords:
     "Alampur travel guide, Navabrahma Temples, Jogulamba temple, Alampur Telangana, Krishna Tungabhadra confluence, Chalukya temples Telangana, gateway to Srisailam, how to reach Alampur, Alampur Shakti Peetha",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Alampur Travel Guide: Navabrahma Temples & Tips",
           description:
-            "Complete Alampur guide — the nine Chalukyan Navabrahma Temples, the Jogulamba Shakti Peetha, the Krishna-Tungabhadra confluence, how to reach from Hyderabad, and a full visit plan.",
+            "Alampur guide: the nine Chalukyan Navabrahma temples, Jogulamba Shakti Peetha and the Krishna-Tungabhadra confluence, how to reach from Hyderabad.",
           image: "https://club.kudozz.in/images/blogs/telangana/alampur/navabrahma-temples-cluster-alampur.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

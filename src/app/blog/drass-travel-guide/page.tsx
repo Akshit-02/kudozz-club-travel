@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Drass Travel Guide: Kargil War Memorial, Gateway to Ladakh" },
   description:
-    "A complete travel guide to Drass, Ladakh — the second-coldest inhabited place on Earth and site of the Kargil War Memorial. Best time to visit, how to reach via Zoji La, Tiger Hill, Mushkoh Valley, where to stay, and essential tips.",
+    "Drass, Ladakh: the Kargil War Memorial, Tiger Hill views, Mushkoh Valley, reaching it over Zoji La, its bitter winters, where to stay and tips.",
   keywords:
     "Drass, Dras Ladakh, Kargil War Memorial, Vijaypath, second coldest inhabited place, Zoji La, Tiger Hill, Tololing, Mushkoh Valley, Srinagar Leh highway, Kargil, best time to visit Drass, how to reach Drass from Srinagar, is Drass safe to visit, Drass budget trip, Kargil Vijay Diwas, Drass to Kargil distance, Mushkoh Valley wildflowers, Zoji La pass road status",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Drass Travel Guide: Kargil War Memorial, Gateway to Ladakh",
           description:
-            "A complete travel guide to Drass, Ladakh — the second-coldest inhabited place on Earth and site of the Kargil War Memorial. Best time to visit, how to reach via Zoji La, Tiger Hill, Mushkoh Valley, where to stay, and essential tips.",
+            "Drass, Ladakh: the Kargil War Memorial, Tiger Hill views, Mushkoh Valley, reaching it over Zoji La, its bitter winters, where to stay and tips.",
           image:
             "https://club.kudozz.in/images/blogs/ladakh/drass/kargil-war-memorial-flag-drass.webp",
           datePublished: "2026-08-20",

@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Amaravati Travel Guide: Ancient Buddhist Stupa & New Capital" },
   description:
-    "The complete Amaravati travel guide. The Amaravati Stupa, the Amaravati school of sculpture, the Archaeological Museum, the state's new capital development, where to stay, best time to visit, and a full itinerary.",
+    "Amaravati guide: the ancient Amaravati Stupa, its famed school of sculpture and the museum, plus the new capital area, how to reach and a half-day plan.",
   keywords:
     "Amaravati travel guide, Amaravati Stupa, Amaravati school of sculpture, Amaravati Archaeological Museum, Andhra Pradesh new capital, best time to visit Amaravati, how to reach Amaravati",
   openGraph: {

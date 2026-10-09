@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Pune Travel Guide: Shaniwar Wada, Sinhagad & City Guide" },
   description:
-    "The complete Pune travel guide. Shaniwar Wada, Aga Khan Palace, Sinhagad Fort, Dagdusheth Ganpati Temple, where to stay, what to eat, and a 2-day itinerary through Maharashtra's cultural and IT capital.",
+    "Pune travel guide: Shaniwar Wada, Aga Khan Palace, Sinhagad Fort and Dagdusheth Ganpati, where to stay, what to eat and a 2-day itinerary.",
   keywords:
     "Pune travel guide, Shaniwar Wada, Sinhagad Fort, Aga Khan Palace, Dagdusheth Halwai Ganpati Temple, Pune itinerary, best time to visit Pune, how to reach Pune, Pune food guide, misal pav Pune, Koregaon Park, Pune weekend trip, Pune Maharashtra",
   openGraph: {

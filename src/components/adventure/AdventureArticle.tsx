@@ -77,7 +77,7 @@ export function AdventureSchema({ a, c = ADVENTURE_CLUSTER }: { a: AdventureArti
       image: `${SITE_URL}${a.hero.src}`,
       datePublished: a.updated,
       dateModified: a.updated,
-      author: { "@type": "Organization", name: "Kudozz Club", url: SITE_URL },
+      author: { "@id": `${SITE_URL}/#organization` },
       publisher: { "@id": `${SITE_URL}/#organization` },
       mainEntityOfPage: { "@type": "WebPage", "@id": url },
       about,

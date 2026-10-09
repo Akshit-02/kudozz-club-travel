@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Terraced Garden Chandigarh: Timings, Layout & Visit Guide" },
   description:
-    "Complete guide to the Terraced Garden, Chandigarh — a multi-level garden in Sector 33 with seasonal flowers and quiet lawns, part of the Leisure Valley corridor. Timings, entry, and photography tips.",
+    "Terraced Garden, Sector 33, Chandigarh: a multi-level garden of seasonal flowers on the Leisure Valley corridor, timings, entry and photo tips.",
   keywords:
     "Terraced Garden Chandigarh, Terraced Garden Sector 33, Leisure Valley Chandigarh, Chandigarh gardens, Terraced Garden timings, Chandigarh picnic spots, quiet gardens Chandigarh",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Terraced Garden Chandigarh: Timings, Layout & Visit Guide",
           description:
-            "Complete guide to the Terraced Garden, Chandigarh — a multi-level garden in Sector 33 with seasonal flowers and quiet lawns, part of the Leisure Valley corridor. Timings, entry, and photography tips.",
+            "Terraced Garden, Sector 33, Chandigarh: a multi-level garden of seasonal flowers on the Leisure Valley corridor, timings, entry and photo tips.",
           image:
             "https://club.kudozz.in/images/blogs/chandigarh/terraced-garden/leisure-valley-open-lawn-chandigarh.webp",
           datePublished: "2026-08-31",

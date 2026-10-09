@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Lonavala Travel Guide: Waterfalls, Caves & Monsoon Getaway" },
   description:
-    "The complete Lonavala travel guide. Bhushi Dam, Karla & Bhaja Caves, Tiger's Leap, Rajmachi Fort, where to stay, what to eat, and a 2-day itinerary for Mumbai and Pune's favourite monsoon escape.",
+    "Lonavala guide: Bhushi Dam, Karla and Bhaja caves, Tiger's Leap and Rajmachi Fort, the monsoon season, where to stay, food and a 2-day itinerary.",
   keywords:
     "Lonavala travel guide, Bhushi Dam, Karla Caves, Bhaja Caves, Tiger's Leap, Lonavala chikki, Khandala, Rajmachi Fort trek, Lonavala itinerary, best time to visit Lonavala, how to reach Lonavala from Mumbai, how to reach Lonavala from Pune, Lonavala weekend trip, Lonavala waterfalls monsoon",
   openGraph: {

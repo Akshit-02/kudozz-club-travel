@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Mandvi Travel Guide: Beach, Shipyards & Vijay Vilas Palace" },
   description:
-    "The complete Mandvi travel guide. Wooden shipbuilding yards, Mandvi Beach, Vijay Vilas Palace, where to stay, best time to visit, and a full itinerary through Kutch's historic port town.",
+    "Mandvi, Kutch: wooden dhow shipyards, Mandvi Beach and Vijay Vilas Palace, best time, where to stay and a 2-day itinerary in the old port town.",
   keywords:
     "Mandvi travel guide, Mandvi shipbuilding yard, Mandvi Beach, Vijay Vilas Palace, best time to visit Mandvi, how to reach Mandvi, Kutch Gujarat travel, Mandvi Kutch itinerary",
   openGraph: {

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Chitrakoot Travel Guide: Ram's Forest Exile Site",
   description:
-    "Complete Chitrakoot guide — Kamadgiri parikrama, Ramghat on the Mandakini river, Hanuman Dhara, Gupt Godavari, Sati Anasuya Ashram, how to reach, and a full visit plan for this Ramayana circuit town.",
+    "Chitrakoot guide: Kamadgiri parikrama, Ramghat on the Mandakini, Hanuman Dhara, Gupt Godavari and Sati Anasuya ashram, how to reach and a 2-day plan.",
   keywords:
     "Chitrakoot travel guide, Kamadgiri, Ramghat Mandakini, Hanuman Dhara, Gupt Godavari, Sati Anasuya Ashram, Chitrakoot Ramayana, how to reach Chitrakoot, Bundelkhand, Chitrakoot Dham Karwi",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chitrakoot Travel Guide: Ram's Forest Exile Site",
           description:
-            "Complete Chitrakoot guide — Kamadgiri parikrama, Ramghat on the Mandakini river, Hanuman Dhara, Gupt Godavari, Sati Anasuya Ashram, how to reach, and a full visit plan for this Ramayana circuit town.",
+            "Chitrakoot guide: Kamadgiri parikrama, Ramghat on the Mandakini, Hanuman Dhara, Gupt Godavari and Sati Anasuya ashram, how to reach and a 2-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttar-pradesh/chitrakoot/ramghat-mandakini-river.webp",
           datePublished: "2026-09-03",

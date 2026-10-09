@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Kerala Backwaters Guide: Houseboats, Routes, Villages & Tips" },
   description:
-    "The complete Kerala Backwaters travel guide. Everything you need — Alleppey vs Kumarakom vs Kollam, houseboat booking, the Kuttanad route, village life, food, where to stay, and a complete 4-day itinerary through the 900-km backwater network.",
+    "Kerala backwaters guide: Alleppey vs Kumarakom vs Kollam, booking a houseboat, the Kuttanad route, village canoe tours, where to stay and a 4-day plan.",
   keywords:
     "Kerala backwaters, Alleppey houseboat, Kumarakom backwaters, Kuttanad, Kerala houseboat booking, Vembanad Lake, Kollam Alleppey ferry, backwater village tour, Kerala itinerary, Munroe Island, best time to visit Kerala backwaters, how to reach Alleppey from Kochi, Kerala backwaters budget trip, Kerala backwaters itinerary days, is one night on a houseboat enough, things to do in Kerala backwaters, Alleppey vs Kumarakom vs Kollam",
   openGraph: {

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Dzukou Valley Trek Guide: Route & Best Time",
   description:
-    "Complete Dzukou Valley trek guide — the route from Viswema, the rare Dzukou lily bloom season, trekker-hut camping, permits, best time to visit, and full trip planning.",
+    "Dzukou Valley trek: the route from Viswema, the Dzukou lily season, the trekkers' hut, permits, the best months and a 2–3 day plan.",
   keywords:
     "Dzukou Valley trek, Dzuko Valley, Nagaland trekking, Dzukou lily, Viswema trek, Nagaland Manipur border trek, best time Dzukou Valley, Dzukou Valley camping",
   openGraph: {

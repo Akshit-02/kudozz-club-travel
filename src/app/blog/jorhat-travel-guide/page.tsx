@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Jorhat Travel Guide: Tea Estates & Gateway to Majuli" },
   description:
-    "The complete Jorhat travel guide. Tea estates, the Tocklai Tea Research Institute, Nimati Ghat ferries to Majuli, where to stay, best time to visit, and a full itinerary.",
+    "Jorhat, Assam: tea estates, the Tocklai Tea Research Institute and Nimati Ghat ferries to Majuli, best time, where to stay and a one-day plan.",
   keywords:
     "Jorhat travel guide, Jorhat tea estates, Nimati Ghat, Majuli ferry from Jorhat, Tocklai Tea Research Institute, best time to visit Jorhat, how to reach Jorhat, Kaziranga from Jorhat",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Japanese Garden Chandigarh: Travel Guide, Timings & Tips" },
   description:
-    "Complete guide to the Japanese Garden in Chandigarh — a quiet, pond-and-pagoda landscaped garden. Best time to visit, how to reach, what to expect, and nearby gardens to combine it with.",
+    "The Japanese Garden in Chandigarh: a quiet pond-and-pagoda garden, best time to go, how to reach, photography tips and nearby gardens to combine.",
   keywords:
     "Japanese Garden Chandigarh, Chandigarh Japanese Garden timings, Chandigarh gardens, Japanese Garden Sector 31, Chandigarh quiet gardens, Chandigarh Leisure Valley, Chandigarh Rose Garden, things to do in Chandigarh, Chandigarh photography spots, Chandigarh weekend trip",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Japanese Garden Chandigarh: Travel Guide, Timings & Tips",
           description:
-            "Complete guide to the Japanese Garden in Chandigarh — a quiet, pond-and-pagoda landscaped garden. Best time to visit, how to reach, what to expect, and nearby gardens to combine it with.",
+            "The Japanese Garden in Chandigarh: a quiet pond-and-pagoda garden, best time to go, how to reach, photography tips and nearby gardens to combine.",
           image: "https://club.kudozz.in/images/blogs/chandigarh/japanese-garden-chandigarh/japanese-garden-chandigarh.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-09-01",

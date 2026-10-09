@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Lachung Travel Guide: Gateway to Yumthang",
   description:
-    "Complete Lachung guide — the North Sikkim river-confluence village, apple orchards, Lachung Monastery, permits, how to reach from Gangtok, and using it as your base for Yumthang Valley.",
+    "Lachung, North Sikkim: the base for Yumthang Valley, the monastery and apple orchards, permits, how to reach from Gangtok and a visit plan.",
   keywords:
     "Lachung travel guide, Lachung Sikkim, North Sikkim permit, Lachung Monastery, Yumthang Valley base, how to reach Lachung, North Sikkim circuit, Lachung homestay",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Lachung Travel Guide: Gateway to Yumthang",
           description:
-            "Complete Lachung guide — the North Sikkim river-confluence village, apple orchards, Lachung Monastery, permits, how to reach from Gangtok, and using it as your base for Yumthang Valley.",
+            "Lachung, North Sikkim: the base for Yumthang Valley, the monastery and apple orchards, permits, how to reach from Gangtok and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/sikkim/lachung/lachung.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Khajuraho Temples Guide: History, Timings & Best Time" },
   description:
-    "The complete Khajuraho travel guide — the Western, Eastern, and Southern temple groups, the Chandela dynasty's carved sandstone architecture, the Khajuraho Dance Festival, how to reach, a 2-day itinerary, and budget breakdown for this UNESCO World Heritage Site.",
+    "Khajuraho temples guide: the Western, Eastern and Southern groups, Chandela architecture, the dance festival, timings, how to reach and a 2-day plan.",
   keywords:
     "Khajuraho travel guide, Khajuraho temples, Kandariya Mahadeva Temple, Khajuraho UNESCO, Chandela dynasty temples, Khajuraho Dance Festival, Khajuraho Light and Sound show, Khajuraho itinerary, best time to visit Khajuraho, how to reach Khajuraho, Khajuraho airport, Western Group Khajuraho, Khajuraho erotic sculptures history",
   openGraph: {

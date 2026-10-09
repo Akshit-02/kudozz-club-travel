@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Panipat Travel Guide: The Battlefield That Shaped Indian History" },
   description:
-    "The complete Panipat travel guide. The three Battles of Panipat, Kabuli Bagh Mosque, the Panipat War Memorial, the city's handloom weaving tradition, where to stay, best time to visit, and a full itinerary.",
+    "Panipat: the three battles that changed Indian history, Kabuli Bagh Mosque, the war memorial and handloom weaving, how to reach and a one-day plan.",
   keywords:
     "Panipat travel guide, Battle of Panipat, Kabuli Bagh Mosque, Panipat War Memorial, Panipat handloom, best time to visit Panipat, how to reach Panipat, Panipat history",
   openGraph: {

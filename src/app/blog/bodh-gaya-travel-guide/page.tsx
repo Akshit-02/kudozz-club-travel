@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Bodh Gaya Travel Guide: Mahabodhi Temple & Visiting Tips" },
   description:
-    "The complete Bodh Gaya travel guide. Mahabodhi Temple, the Bodhi Tree, the Vajrasana, international monasteries, where to stay, best time to visit, and a full itinerary through Buddhism's most sacred pilgrimage site.",
+    "Bodh Gaya guide: the Mahabodhi Temple and Bodhi Tree, international monasteries, best time, where to stay and a 2-day plan for the Buddhist pilgrimage.",
   keywords:
     "Bodh Gaya travel guide, Mahabodhi Temple, Bodhi Tree, Vajrasana, Great Buddha Statue, Bodh Gaya monasteries, best time to visit Bodh Gaya, how to reach Bodh Gaya, Bodh Gaya meditation retreat, Buddhist pilgrimage Bihar",
   openGraph: {

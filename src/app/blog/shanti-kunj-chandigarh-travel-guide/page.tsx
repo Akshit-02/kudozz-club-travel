@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Shanti Kunj Chandigarh: Sector 16's Quiet Garden Guide" },
   description:
-    "Guide to Shanti Kunj, the quiet park next to Chandigarh's Zakir Hussain Rose Garden in Sector 16 — its walking paths, water features, timings, and how to combine both in one visit.",
+    "Shanti Kunj, Sector 16, Chandigarh: a quiet park beside the Rose Garden, its walking paths and water features, timings and pairing the two.",
   keywords:
     "Shanti Kunj Chandigarh, Shanti Kunj Sector 16, Chandigarh quiet parks, Shanti Kunj timings, Rose Garden Chandigarh nearby park, Sector 16 Chandigarh garden, Chandigarh peaceful parks",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Shanti Kunj Chandigarh: Sector 16's Quiet Garden Guide",
           description:
-            "Guide to Shanti Kunj, the quiet park next to Chandigarh's Zakir Hussain Rose Garden in Sector 16 — its walking paths, water features, timings, and how to combine both in one visit.",
+            "Shanti Kunj, Sector 16, Chandigarh: a quiet park beside the Rose Garden, its walking paths and water features, timings and pairing the two.",
           image: "https://club.kudozz.in/images/blogs/chandigarh/shanti-kunj-chandigarh/shanti-kunj-chandigarh-guide-cover.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-09-30",

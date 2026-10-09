@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Osian Travel Guide: Desert Temples & Tips",
   description:
-    "Complete Osian guide — the 8th-12th century temple cluster known as the 'Khajuraho of Rajasthan', Sachiya Mata Temple, Jain temples, desert dunes and camel safaris, how to reach from Jodhpur, and a full visit plan.",
+    "Osian, near Jodhpur: 8th-12th century Hindu and Jain temples, Sachiya Mata Temple, desert dunes and camel rides, how to reach and a visit plan.",
   keywords:
     "Osian travel guide, Khajuraho of Rajasthan, Sachiya Mata Temple, Osian Jain temples, Osian sand dunes camel safari, how to reach Osian from Jodhpur, Rajasthan desert temples",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Osian Travel Guide: Desert Temples & Tips",
           description:
-            "Complete Osian guide — the 8th-12th century temple cluster known as the 'Khajuraho of Rajasthan', Sachiya Mata Temple, Jain temples, desert dunes and camel safaris, how to reach from Jodhpur, and a full visit plan.",
+            "Osian, near Jodhpur: 8th-12th century Hindu and Jain temples, Sachiya Mata Temple, desert dunes and camel rides, how to reach and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/rajasthan/osian/osian-view.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-04",

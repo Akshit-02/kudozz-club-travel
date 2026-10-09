@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Jagdalpur Travel Guide: Bastar Waterfalls & Tribal Culture" },
   description:
-    "The complete Jagdalpur travel guide. Bastar Palace, the Anthropological Museum, Dalpat Sagar, tribal haats, Bastar Dussehra, where to stay, best time to visit, and a full itinerary through Chhattisgarh's Bastar heartland.",
+    "Jagdalpur, base for Bastar: Chitrakote and Tirathgarh falls, tribal haats, Bastar Dussehra, the palace and museum, where to stay and a 3-day plan.",
   keywords:
     "Jagdalpur travel guide, Bastar Palace, Anthropological Museum Jagdalpur, Bastar Dussehra, Dalpat Sagar, best time to visit Jagdalpur, how to reach Jagdalpur, Chhattisgarh tribal culture",
   openGraph: {

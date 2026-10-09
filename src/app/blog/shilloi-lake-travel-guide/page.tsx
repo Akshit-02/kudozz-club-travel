@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Shilloi Lake Guide: Nagaland's Largest Lake",
   description:
-    "Complete Shilloi Lake guide — Nagaland's largest natural lake near the Myanmar border, local Chakhesang legends, how to reach via Phek district, and a full visit plan.",
+    "Shilloi Lake, Phek: Nagaland's largest natural lake near the Myanmar border, Chakhesang legends, how to reach and a simple visit plan.",
   keywords:
     "Shilloi Lake travel guide, Nagaland's largest lake, Phek district, Shilloi Lake trek, Myanmar border Nagaland, how to reach Shilloi Lake, offbeat Nagaland lakes",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Shilloi Lake Guide: Nagaland's Largest Lake",
           description:
-            "Complete Shilloi Lake guide — Nagaland's largest natural lake near the Myanmar border, local Chakhesang legends, how to reach via Phek district, and a full visit plan.",
+            "Shilloi Lake, Phek: Nagaland's largest natural lake near the Myanmar border, Chakhesang legends, how to reach and a simple visit plan.",
           image: "https://club.kudozz.in/images/blogs/nagaland/shilloi-lake/shilloi-lake.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

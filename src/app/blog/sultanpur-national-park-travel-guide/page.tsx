@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Sultanpur National Park Travel Guide: Birdwatching Near Delhi" },
   description:
-    "The complete Sultanpur National Park travel guide. Migratory bird season, watchtowers, best time to visit, how to reach, and tips for a half-day birdwatching trip from Delhi-NCR.",
+    "Sultanpur National Park near Gurugram: the migratory bird season, watchtowers, timings, how to reach and a half-day birding trip from Delhi.",
   keywords:
     "Sultanpur National Park travel guide, Sultanpur bird sanctuary, birdwatching near Delhi, migratory birds Haryana, best time to visit Sultanpur National Park, how to reach Sultanpur National Park",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Sultanpur Lodhi Guide: Guru Nanak's Sacred Town",
   description:
-    "Complete Sultanpur Lodhi guide — Gurdwara Ber Sahib, the Kali Bein rivulet where Guru Nanak is believed to have attained enlightenment, how to reach from Amritsar and Kapurthala, and a full visit plan.",
+    "Sultanpur Lodhi: Gurdwara Ber Sahib and the Kali Bein, where Guru Nanak is believed to have attained enlightenment, how to reach and a one-day plan.",
   keywords:
     "Sultanpur Lodhi travel guide, Gurdwara Ber Sahib, Guru Nanak enlightenment, Kali Bein, Kapurthala district, Sikh history Punjab, how to reach Sultanpur Lodhi",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sultanpur Lodhi Guide: Guru Nanak's Sacred Town",
           description:
-            "Complete Sultanpur Lodhi guide — Gurdwara Ber Sahib, the Kali Bein rivulet where Guru Nanak is believed to have attained enlightenment, how to reach from Amritsar and Kapurthala, and a full visit plan.",
+            "Sultanpur Lodhi: Gurdwara Ber Sahib and the Kali Bein, where Guru Nanak is believed to have attained enlightenment, how to reach and a one-day plan.",
           image: "https://club.kudozz.in/images/blogs/punjab/sultanpur-lodhi/sultanpur-lodhi-guide-cover.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-30",

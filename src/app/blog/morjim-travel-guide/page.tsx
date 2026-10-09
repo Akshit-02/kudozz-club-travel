@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Morjim Beach Travel Guide: Turtle Nesting & Quiet North Goa" },
   description:
-    "The complete Morjim travel guide. Olive ridley turtle nesting zones, Chapora River views, quiet beach shacks, where to stay, best time to visit, and a full itinerary.",
+    "Morjim, North Goa: olive ridley turtle nesting, the Chapora river mouth, quiet shacks, best time, where to stay and a 2-day itinerary.",
   keywords:
     "Morjim travel guide, Morjim beach Goa, Morjim turtle nesting, quiet North Goa beaches, best time to visit Morjim, how to reach Morjim, Chapora River Goa",
   openGraph: {

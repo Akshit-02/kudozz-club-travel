@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Dalhousie Travel Guide: Colonial Charm & Khajjiar Gateway" },
   description:
-    "The complete Dalhousie travel guide. Colonial-era churches, Subhash Baoli, Dainkund Peak, the Khajjiar gateway, where to stay, best time to visit, and a full itinerary.",
+    "Dalhousie guide: colonial churches, Dainkund Peak, Subhash Baoli and the gateway to Khajjiar, best time, where to stay and a 2-day plan.",
   keywords:
     "Dalhousie travel guide, Dalhousie Khajjiar, Subhash Baoli, Dainkund Peak, best time to visit Dalhousie, how to reach Dalhousie, Himachal Pradesh colonial hill station",
   openGraph: {

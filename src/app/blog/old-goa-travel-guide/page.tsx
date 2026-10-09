@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Old Goa Travel Guide: Basilica of Bom Jesus & UNESCO Churches" },
   description:
-    "The complete Old Goa travel guide. Basilica of Bom Jesus, Sé Cathedral, the UNESCO World Heritage church cluster, where to stay, best time to visit, and a full itinerary.",
+    "Old Goa: the Basilica of Bom Jesus, Se Cathedral and the UNESCO-listed churches of the old Portuguese capital, how to reach and a half-day plan.",
   keywords:
     "Old Goa travel guide, Basilica of Bom Jesus, Se Cathedral Goa, Old Goa churches UNESCO, St Francis Xavier tomb, best time to visit Old Goa, how to reach Old Goa",
   openGraph: {

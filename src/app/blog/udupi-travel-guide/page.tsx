@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Udupi Travel Guide: Krishna Temple, Beaches & Udupi Cuisine" },
   description:
-    "The complete Udupi travel guide. Sri Krishna Matha, Malpe Beach, St. Mary's Island, Udupi's famous vegetarian cuisine, where to stay, best time to visit, and a full itinerary.",
+    "Udupi: Sri Krishna Matha, Malpe Beach, St. Mary's Island and Udupi's vegetarian food, best time, where to stay and a 1-2 day itinerary.",
   keywords:
     "Udupi travel guide, Sri Krishna Matha, Malpe Beach, St Mary's Island, Udupi cuisine, best time to visit Udupi, how to reach Udupi, Karnataka temple town",
   openGraph: {

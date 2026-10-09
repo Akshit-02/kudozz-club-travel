@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Rajahmundry Travel Guide: Godavari Bridges & Papi Hills Gateway" },
   description:
-    "The complete Rajahmundry travel guide. Godavari Arch Bridge, Papi Hills boat cruise departures, Telugu literary heritage, where to stay, best time to visit, and a full itinerary along the Godavari.",
+    "Rajahmundry on the Godavari: the river bridges, Papi Hills cruise departures and Telugu literary heritage, best time, where to stay and a 2-day plan.",
   keywords:
     "Rajahmundry travel guide, Godavari Arch Bridge, Papi Hills boat cruise, Godavari Pushkaralu, best time to visit Rajahmundry, how to reach Rajahmundry, Andhra Pradesh Godavari",
   openGraph: {

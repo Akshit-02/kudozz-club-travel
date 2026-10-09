@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Lamayuru Travel Guide: Moonland, Monastery & How to Visit" },
   description:
-    "A complete guide to Lamayuru — Ladakh's oldest monastery set amid the surreal moonland badlands. Best time to visit, how to reach, the Yuru Kabgyat festival, short treks, and where to stay.",
+    "Lamayuru, Ladakh: one of the region's oldest monasteries among the moonland badlands, the Yuru Kabgyat festival, short treks, how to reach and stays.",
   keywords:
     "Lamayuru, Lamayuru Monastery, Moonland Ladakh, Ladakh oldest monastery, Yuru Kabgyat festival, Lamayuru Alchi trek, Wanla monastery, Srinagar Leh highway, best time to visit Lamayuru, how to reach Lamayuru from Leh, Lamayuru day trip or overnight, Lamayuru Chilling trek, Lamayuru budget, things to do in Lamayuru",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Lamayuru Travel Guide: Moonland, Monastery & How to Visit",
           description:
-            "A complete guide to Lamayuru — Ladakh's oldest monastery set amid the surreal moonland badlands. Best time to visit, how to reach, the Yuru Kabgyat festival, short treks, and where to stay.",
+            "Lamayuru, Ladakh: one of the region's oldest monasteries among the moonland badlands, the Yuru Kabgyat festival, short treks, how to reach and stays.",
           image:
             "https://club.kudozz.in/images/blogs/ladakh/lamayuru/lamayuru-monastery-moonland.webp",
           datePublished: "2026-07-02",

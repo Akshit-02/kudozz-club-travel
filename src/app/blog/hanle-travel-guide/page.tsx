@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Hanle Travel Guide: Dark Sky Reserve, Observatory & Stargazing" },
   description:
-    "The complete Hanle travel guide — India's first Dark Sky Reserve on the Changthang plateau. Stargazing tips, the Indian Astronomical Observatory, how to reach, permits, homestays, and a full itinerary for this remote Ladakh village.",
+    "Hanle, Ladakh: India's first dark sky reserve, stargazing and the astronomical observatory, permits, homestays, how to reach and costs.",
   keywords:
     "Hanle, Hanle Dark Sky Reserve, Hanle Ladakh, Indian Astronomical Observatory, Changthang plateau, stargazing India, Hanle Monastery, Ladakh astro tourism, Hanle permit, Nyoma Ladakh, best time to visit Hanle, how to reach Hanle from Leh, Hanle itinerary days, is Hanle safe for solo travellers, Hanle trip budget, top things to do in Hanle, Hanle homestays, Hanle Pangong Tso Moriri loop, Ladakh dark sky tourism, Hanle stargazing tips",
   openGraph: {

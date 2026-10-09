@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Kawardha Travel Guide: Palace Town & Bhoramdeo Gateway" },
   description:
-    "The complete Kawardha travel guide. Kawardha Palace, the practical base for Bhoramdeo Temple, Kabirdham's forests, where to stay, best time to visit, and a full itinerary.",
+    "Kawardha, Chhattisgarh: the palace town and practical base for Bhoramdeo Temple and Kabirdham's forests, best time, where to stay and a one-day plan.",
   keywords:
     "Kawardha travel guide, Kawardha Palace, Kabirdham district, Bhoramdeo gateway, best time to visit Kawardha, how to reach Kawardha, Chhattisgarh palace town",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Jampui Hills Travel Guide: Orange Orchards & Tips",
   description:
-    "Complete Jampui Hills guide — Tripura's highest hill range, orange orchards, cloud-sea viewpoints, Mizo tribal villages, the Orange & Tourism Festival, how to reach, and a full visit plan.",
+    "Jampui Hills, Tripura's highest range: orange orchards, cloud-sea views, Mizo villages, the Orange and Tourism Festival, how to reach and a 2-day plan.",
   keywords:
     "Jampui Hills travel guide, Jampui Hills Tripura, North Tripura hill station, Jampui orange, Vanghmun, Orange Tourism Festival Tripura, Mizo villages Tripura, how to reach Jampui Hills",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Jampui Hills Travel Guide: Orange Orchards & Tips",
           description:
-            "Complete Jampui Hills guide — Tripura's highest hill range, orange orchards, cloud-sea viewpoints, Mizo tribal villages, the Orange & Tourism Festival, how to reach, and a full visit plan.",
+            "Jampui Hills, Tripura's highest range: orange orchards, cloud-sea views, Mizo villages, the Orange and Tourism Festival, how to reach and a 2-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/tripura/jampui-hills/misty-hill-valley-view.webp",
           datePublished: "2026-09-03",

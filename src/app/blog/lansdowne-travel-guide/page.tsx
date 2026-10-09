@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Lansdowne Travel Guide: Quiet Hills & Bhulla Lake",
   description:
-    "Complete Lansdowne travel guide — the Garhwal Rifles cantonment town, Bhulla Lake, Tip N Top, St. Mary's Church, how to reach via Kotdwar, where to stay, and a full visit plan.",
+    "Lansdowne, Uttarakhand: a quiet Garhwal Rifles cantonment with Bhulla Lake, Tip N Top and St. Mary's Church, how to reach via Kotdwar and a 2-day plan.",
   keywords:
     "Lansdowne Uttarakhand, Lansdowne travel guide, Bhulla Lake, Tip N Top Lansdowne, Garhwal Rifles, St Mary's Church Lansdowne, how to reach Lansdowne, Kotdwar to Lansdowne, Lansdowne best time to visit, Lansdowne hotels, quiet hill station Uttarakhand",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Lansdowne Travel Guide: Quiet Hills & Bhulla Lake",
           description:
-            "Complete Lansdowne travel guide — the Garhwal Rifles cantonment town, Bhulla Lake, Tip N Top, St. Mary's Church, how to reach via Kotdwar, where to stay, and a full visit plan.",
+            "Lansdowne, Uttarakhand: a quiet Garhwal Rifles cantonment with Bhulla Lake, Tip N Top and St. Mary's Church, how to reach via Kotdwar and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/uttarakhand/lansdowne/bhulla-tal-lake-bridge-lansdowne.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

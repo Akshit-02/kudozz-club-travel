@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Haryana Travel Guide: Kurukshetra, Surajkund & Panchkula" },
   description:
-    "The honest Haryana travel guide — Kurukshetra's Mahabharata sites and Brahma Sarovar, the International Surajkund Crafts Mela, Pinjore Gardens, Sultanpur bird sanctuary, Morni Hills, where to stay and eat, and a realistic short-trip itinerary through India's NCR-adjacent state.",
+    "Haryana travel guide: Kurukshetra's Mahabharata sites, the Surajkund crafts mela, Pinjore Gardens, Sultanpur and Morni Hills, with a 4-day plan.",
   keywords:
     "Haryana travel guide, Kurukshetra, Jyotisar Bhagavad Gita, Surajkund Crafts Mela, Pinjore Gardens, Sultanpur National Park, Panchkula, Morni Hills, Haryana itinerary, weekend trip from Delhi, best time to visit Haryana, how to reach Kurukshetra from Delhi, Haryana 4 day itinerary, is Haryana safe for solo travellers, Haryana trip budget, top things to do in Haryana, Brahma Sarovar Kurukshetra, International Surajkund Crafts Mela dates, Sultanpur bird sanctuary Gurugram, Haryana road trip NH-44",
   openGraph: {

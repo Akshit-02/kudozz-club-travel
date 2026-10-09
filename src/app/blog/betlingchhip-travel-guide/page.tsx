@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Betlingchhip Trek Guide: Tripura's Highest Peak",
   description:
-    "Complete Betlingchhip guide — Tripura's highest peak at roughly 939 m, an off-beat forest trek in South Tripura, difficulty, how to reach, permits, and a full visit plan.",
+    "Betlingchhip, Tripura's highest peak (about 939 m): the forest trek, difficulty, how to reach in North Tripura, permissions and a visit plan.",
   keywords:
     "Betlingchhip travel guide, Betling Sib, Tripura's highest peak, South Tripura trekking, Betlingchhip trek difficulty, off-beat Northeast India trek, how to reach Betlingchhip",
   openGraph: {
@@ -63,7 +63,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Betlingchhip Trek Guide: Tripura's Highest Peak",
           description:
-            "Complete Betlingchhip guide — Tripura's highest peak at roughly 939 m, an off-beat forest trek in South Tripura, difficulty, how to reach, permits, and a full visit plan.",
+            "Betlingchhip, Tripura's highest peak (about 939 m): the forest trek, difficulty, how to reach in North Tripura, permissions and a visit plan.",
           image:
             "https://club.kudozz.in/images/blogs/tripura/betlingchhip/thaidawr-tlang-betlingchhip-peak.webp",
           datePublished: "2026-09-03",

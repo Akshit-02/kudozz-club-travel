@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Sambalpur Guide: Hirakud Dam & Sarees",
   description:
-    "Complete Sambalpur guide — the Hirakud Dam reservoir, Sambalpuri ikat sarees and where to buy them, Samaleswari Temple, Debrigarh Wildlife Sanctuary, how to reach from Bhubaneswar, and a full visit plan.",
+    "Sambalpur, Odisha: Hirakud Dam, Sambalpuri ikat sarees and where to buy them, Samaleswari Temple, Debrigarh sanctuary and a 2-day plan.",
   keywords:
     "Sambalpur travel guide, Hirakud Dam, Sambalpuri saree, Sambalpuri ikat, Samaleswari Temple, Debrigarh Wildlife Sanctuary, how to reach Sambalpur, western Odisha tourism, Mahanadi river",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sambalpur Guide: Hirakud Dam & Sarees",
           description:
-            "Complete Sambalpur guide — the Hirakud Dam reservoir, Sambalpuri ikat sarees and where to buy them, Samaleswari Temple, Debrigarh Wildlife Sanctuary, how to reach from Bhubaneswar, and a full visit plan.",
+            "Sambalpur, Odisha: Hirakud Dam, Sambalpuri ikat sarees and where to buy them, Samaleswari Temple, Debrigarh sanctuary and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/odisha/sambalpur/samaleswari-temple-sambalpur.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

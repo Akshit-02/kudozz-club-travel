@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Sarnath Travel Guide: Buddha's First Sermon Site",
   description:
-    "Complete Sarnath guide — Dhamek Stupa, the Ashoka Pillar's lion capital, Sarnath Archaeological Museum, Mulagandha Kuti Vihar, and how to plan a half-day trip from Varanasi.",
+    "Sarnath, where the Buddha first taught: Dhamek Stupa, the Ashoka lion capital in the museum, Mulagandha Kuti Vihar and a half-day plan from Varanasi.",
   keywords:
     "Sarnath travel guide, Sarnath Varanasi, Dhamek Stupa, Ashoka Pillar Sarnath, Sarnath Archaeological Museum, Mulagandha Kuti Vihar, Buddha first sermon, Deer Park Sarnath, Buddhist circuit Uttar Pradesh, how to reach Sarnath",
   openGraph: {
@@ -62,11 +62,11 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sarnath Travel Guide: Buddha's First Sermon Site",
           description:
-            "Complete Sarnath guide — Dhamek Stupa, the Ashoka Pillar's lion capital, Sarnath Archaeological Museum, Mulagandha Kuti Vihar, and how to plan a half-day trip from Varanasi.",
+            "Sarnath, where the Buddha first taught: Dhamek Stupa, the Ashoka lion capital in the museum, Mulagandha Kuti Vihar and a half-day plan from Varanasi.",
           image:
             "https://club.kudozz.in/images/blogs/uttar-pradesh/sarnath/dhamek-stupa-sarnath.webp",
           datePublished: "2026-09-02",
-          dateModified: "2026-09-10",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -115,7 +115,7 @@ function ArticleSchema() {
 const faqs = [
   {
     q: "What is Sarnath famous for?",
-    a: "Sarnath is the site where Gautama Buddha is traditionally held to have delivered his first sermon (the 'Dhammacakkappavattana Sutta,' or 'setting the wheel of dharma in motion') after attaining enlightenment at Bodh Gaya. This makes it one of the four most important pilgrimage sites in Buddhism, alongside Bodh Gaya, Kushinagar, and Lumbini.",
+    a: "Sarnath is the site where Gautama Buddha is traditionally held to have delivered his first sermon (the 'Dhammacakkappavattana Sutta,' or 'setting the wheel of dharma in motion') after attaining enlightenment at Bodh Gaya. This makes it one of the four most important pilgrimage sites in Buddhism, alongside Bodh Gaya, Kushinagar, and Lumbini. Since July 2026 it has also been a UNESCO World Heritage Site.",
   },
   {
     q: "How far is Sarnath from Varanasi and how do I get there?",
@@ -315,6 +315,16 @@ export default function SarnathGuidePage() {
                       Uttar Pradesh
                     </Link>{" "}
                     itinerary.
+                  </p>
+                  <p>
+                    In July 2026 the World Heritage Committee inscribed the
+                    Ancient Buddhist Site of Sarnath on the{" "}
+                    <Link href="/blog/unesco-world-heritage-sites-in-india">
+                      UNESCO World Heritage List
+                    </Link>
+                    , India&apos;s 45th World Heritage Site. The listing covers
+                    the excavated remains around the Dhamek Stupa and the
+                    Chaukhandi Stupa.
                   </p>
 
                   {/* At a Glance */}

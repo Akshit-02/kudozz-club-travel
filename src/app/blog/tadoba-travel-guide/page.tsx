@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Tadoba Andhari Tiger Reserve: Safari Guide, Zones & Best Time" },
   description:
-    "The complete Tadoba travel guide. Safari zones and gates (Moharli, Kolara, Zari, Kolsa, Navegaon, Pangdi), best time to visit, how to book core and buffer zone permits, where to stay, and a 2-day itinerary for Maharashtra's oldest tiger reserve.",
+    "Tadoba Andhari Tiger Reserve: Moharli, Kolara, Navegaon and other gates, core vs buffer zones, booking safaris, best time and a 2-day plan.",
   keywords:
     "Tadoba travel guide, Tadoba Andhari Tiger Reserve, Tadoba safari booking, Tadoba zones, Moharli gate, Kolara gate, Tadoba best time to visit, Tadoba tiger sighting, Tadoba Nagpur, Tadoba Chandrapur, core zone vs buffer zone Tadoba, Tadoba safari price, Tadoba national park Maharashtra, Tadoba jungle safari",
   openGraph: {

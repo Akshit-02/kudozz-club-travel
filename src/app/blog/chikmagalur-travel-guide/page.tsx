@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Chikmagalur Travel Guide: Coffee Estates, Peaks & Waterfalls" },
   description:
-    "The complete Chikmagalur travel guide. Mullayanagiri, Kemmangundi, Hebbe Falls, coffee estate stays, where to stay, best time to visit, and a full 2-day itinerary through Karnataka's coffee country.",
+    "Chikmagalur guide: Mullayanagiri, Kemmangundi and Hebbe Falls, coffee estate stays, best time and a 2-day plan in Karnataka's coffee country.",
   keywords:
     "Chikmagalur travel guide, Mullayanagiri, Kemmangundi, Hebbe Falls, Baba Budangiri, coffee estate stay Chikmagalur, best time to visit Chikmagalur, how to reach Chikmagalur, Chikmagalur vs Coorg",
   openGraph: {

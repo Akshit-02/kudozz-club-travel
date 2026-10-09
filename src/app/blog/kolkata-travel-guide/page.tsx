@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Kolkata Travel Guide: Heritage, Food & Culture",
   description:
-    "Complete Kolkata travel guide — Victoria Memorial, Howrah Bridge, Durga Puja, College Street, Park Street food, where to stay, day trips, and a full visit plan for the City of Joy.",
+    "Kolkata travel guide: Victoria Memorial, Howrah Bridge, Durga Puja, College Street, Park Street food, day trips, where to stay and a 3-4 day plan.",
   keywords:
     "Kolkata travel guide, Kolkata tourism, Victoria Memorial, Howrah Bridge, Durga Puja Kolkata, Dakshineswar Kali Temple, Belur Math, College Street Kolkata, Park Street, Indian Museum, Kumartuli, Kolkata trams, best time to visit Kolkata, Kolkata food guide, Kolkata day trips, West Bengal capital",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kolkata Travel Guide: Heritage, Food & Culture",
           description:
-            "Complete Kolkata travel guide — Victoria Memorial, Howrah Bridge, Durga Puja, College Street, Park Street food, where to stay, day trips, and a full visit plan for the City of Joy.",
+            "Kolkata travel guide: Victoria Memorial, Howrah Bridge, Durga Puja, College Street, Park Street food, day trips, where to stay and a 3-4 day plan.",
           image: "https://club.kudozz.in/images/blogs/west-bengal/kolkata/howrah-bridge-cantilever-hooghly-river-kolkata.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-09",
@@ -771,7 +771,7 @@ export default function KolkataGuidePage() {
                         </Link>
                       </strong>
                       : Rabindranath Tagore's university town, roughly 180km
-                      away, home to the UNESCO-listed Vishwa-Bharati campus.
+                      away, home to the UNESCO-listed Visva-Bharati campus.
                     </li>
                     <li>
                       <strong>

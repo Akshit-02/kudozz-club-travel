@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Padum Travel Guide: Zanskar Valley's Historic Capital Town" },
   description:
-    "The complete guide to Padum, the administrative headquarters of Zanskar Valley — how to reach it via Kargil or the new Leh route, what's in town, day trips to Karsha, Sani, Stongdey and Zangla, and trekking from Padum to Lamayuru, Darcha and Phugtal.",
+    "Padum, Zanskar's main town: reaching it via Kargil or the newer road from Leh, day trips to Karsha and Stongdey, and the treks that start here.",
   keywords:
     "Padum Zanskar, Padum Ladakh, Zanskar Valley capital, Padum travel guide, how to reach Padum, Karsha Monastery, Sani Monastery, Stongdey Monastery, Zangla palace, Padum Darcha trek, Phugtal Monastery trek, Chadar Trek Padum, best time to visit Padum, Padum from Kargil distance, is Padum safe for solo travellers, Padum Zanskar budget trip, top things to do in Padum, Zanskar district Ladakh",
   openGraph: {

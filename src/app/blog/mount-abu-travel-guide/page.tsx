@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Mount Abu Travel Guide: Dilwara Temples & Tips",
   description:
-    "Complete Mount Abu guide — Rajasthan's only hill station, the intricately carved Dilwara Jain Temples, Nakki Lake, Guru Shikhar, how to reach from Udaipur, and a full visit plan.",
+    "Mount Abu, Rajasthan's only hill station: the Dilwara Jain temples, Nakki Lake, Guru Shikhar, how to reach from Udaipur and a 2-day plan.",
   keywords:
     "Mount Abu travel guide, Dilwara Jain Temples, Nakki Lake, Guru Shikhar, Mount Abu hill station, Rajasthan hill station, how to reach Mount Abu, best time Mount Abu, Mount Abu Wildlife Sanctuary",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mount Abu Travel Guide: Dilwara Temples & Tips",
           description:
-            "Complete Mount Abu guide — Rajasthan's only hill station, the intricately carved Dilwara Jain Temples, Nakki Lake, Guru Shikhar, how to reach from Udaipur, and a full visit plan.",
+            "Mount Abu, Rajasthan's only hill station: the Dilwara Jain temples, Nakki Lake, Guru Shikhar, how to reach from Udaipur and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/rajasthan/mount-abu/nakki-lake-mount-abu.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-04",

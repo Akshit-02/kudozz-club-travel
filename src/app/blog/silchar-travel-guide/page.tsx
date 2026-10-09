@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Silchar Travel Guide: Gateway to the Barak Valley",
   description:
-    "The complete Silchar travel guide. Barak Valley culture, Kachari ruins, Bhuban Hill, connections onward to Mizoram, Tripura, and Manipur, where to stay, best time to visit, and a full itinerary.",
+    "Silchar, Barak Valley: Kachari ruins, Bhuban Hill and onward links to Mizoram, Tripura and Manipur, best time, where to stay and a one-day plan.",
   keywords:
     "Silchar travel guide, Barak Valley, Kachari ruins, Bhuban Hill, best time to visit Silchar, how to reach Silchar, Silchar to Mizoram, Silchar to Tripura, Assam Northeast gateway",
   openGraph: {

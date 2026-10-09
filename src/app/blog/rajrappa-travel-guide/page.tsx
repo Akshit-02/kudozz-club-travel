@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Rajrappa Travel Guide: Chhinnamasta Temple & River Confluence" },
   description:
-    "The complete Rajrappa travel guide. The Chhinnamasta Temple, the Damodar-Bhairavi river confluence, best time to visit, how to reach, and everything you need to plan a trip.",
+    "Rajrappa, Jharkhand: the Chhinnamasta Temple at the Damodar-Bhairavi confluence, best time, how to reach from Ranchi and a day-trip plan.",
   keywords:
     "Rajrappa travel guide, Chhinnamasta Temple, Rajrappa temple Jharkhand, Damodar Bhairavi confluence, best time to visit Rajrappa, how to reach Rajrappa, Shakti Peetha Jharkhand",
   openGraph: {

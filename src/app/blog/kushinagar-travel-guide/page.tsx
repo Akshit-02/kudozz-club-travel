@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kushinagar Travel Guide: Buddha's Final Resting Place" },
   description:
-    "Complete Kushinagar guide — Mahaparinirvana Temple, Ramabhar Stupa, international Buddhist monasteries, how to reach, where to stay, and a full pilgrimage visit plan.",
+    "Kushinagar, where the Buddha died: Mahaparinirvana Temple, Ramabhar Stupa, the monasteries, how to reach, where to stay and a pilgrimage plan.",
   keywords:
     "Kushinagar, Buddha Mahaparinirvana, Mahaparinirvana Temple, Ramabhar Stupa, Kushinagar International Airport, Buddhist Circuit, Wat Thai Kushinagar, Kushinagar travel guide, Gorakhpur, Uttar Pradesh Buddhist sites",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kushinagar Travel Guide: Buddha's Final Resting Place",
           description:
-            "Complete Kushinagar guide — Mahaparinirvana Temple, Ramabhar Stupa, international Buddhist monasteries, how to reach, where to stay, and a full pilgrimage visit plan.",
+            "Kushinagar, where the Buddha died: Mahaparinirvana Temple, Ramabhar Stupa, the monasteries, how to reach, where to stay and a pilgrimage plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttar-pradesh/kushinagar/ramabhar-stupa-kushinagar.webp",
           datePublished: "2026-09-02",

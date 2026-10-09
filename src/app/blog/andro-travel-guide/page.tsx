@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Andro Village Travel Guide: Pottery, Heritage & Temples" },
   description:
-    "Complete Andro travel guide — Manipur's centuries-old heritage village near Imphal, its hand-built black pottery tradition, Panam Ningthou Temple, the Andro Cultural Complex, and full trip planning.",
+    "Andro, one of Manipur's oldest heritage villages near Imphal: black pottery, the Panam Ningthou temple, the cultural complex and a visit plan.",
   keywords:
     "Andro village Manipur, Andro pottery, Panam Ningthou Temple, Andro Cultural Complex, Manipur heritage village, atingba rice beer, Manipur day trip, Imphal heritage sites",
   openGraph: {

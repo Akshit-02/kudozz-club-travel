@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Bengaluru Travel Guide: Gardens, Palaces & India's Tech Capital" },
   description:
-    "The complete Bengaluru travel guide. Cubbon Park, Lalbagh Botanical Garden, Bangalore Palace, Tipu Sultan's Summer Palace, the craft beer scene, where to stay, best time to visit, and a full 2-day itinerary through India's tech capital.",
+    "Bengaluru travel guide: Cubbon Park, Lalbagh, Bangalore Palace and Tipu's Summer Palace, the food and craft-beer scene, best time and a 2-day plan.",
   keywords:
     "Bengaluru travel guide, Bangalore travel guide, Cubbon Park, Lalbagh Botanical Garden, Bangalore Palace, Tipu Sultan Summer Palace, best time to visit Bengaluru, how to reach Bengaluru, Bengaluru itinerary, Bengaluru craft beer",
   openGraph: {

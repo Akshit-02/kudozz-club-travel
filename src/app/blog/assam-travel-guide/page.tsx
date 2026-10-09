@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Assam Travel Guide: Kaziranga, Guwahati & Majuli Island" },
   description:
-    "The complete Assam travel guide — rhino safaris in Kaziranga National Park, Kamakhya Temple and the Brahmaputra in Guwahati, the world's largest river island Majuli, Assam's tea gardens, where to stay and eat, and a full itinerary through Northeast India's gateway state.",
+    "Assam travel guide: Kaziranga rhino safaris, Guwahati and Kamakhya, Majuli river island, tea gardens, Manas and Sivasagar, with a 7-day itinerary.",
   keywords:
     "Assam travel guide, Kaziranga National Park, one-horned rhinoceros, Guwahati, Kamakhya Temple, Majuli Island, Brahmaputra river, Assam tea gardens, Assam itinerary, Northeast India travel, best time to visit Assam, how to reach Kaziranga from Guwahati, Assam itinerary 7 days, is Assam safe for solo travellers, Assam budget trip, things to do in Guwahati, Kaziranga safari booking, Majuli river island ferry, Assam tea garden tour, Assam travel FAQ",
   openGraph: {

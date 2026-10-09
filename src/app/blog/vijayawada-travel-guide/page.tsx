@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Vijayawada Travel Guide: Kanaka Durga Temple & Krishna River" },
   description:
-    "The complete Vijayawada travel guide. Kanaka Durga Temple, Prakasam Barrage, Undavalli Caves, Bhavani Island, where to stay, best time to visit, and a full itinerary along the Krishna River.",
+    "Vijayawada on the Krishna: Kanaka Durga Temple, Prakasam Barrage, the Undavalli Caves and Bhavani Island, where to stay and a 2-day itinerary.",
   keywords:
     "Vijayawada travel guide, Kanaka Durga Temple, Prakasam Barrage, Undavalli Caves, Bhavani Island Vijayawada, best time to visit Vijayawada, how to reach Vijayawada, Andhra Pradesh Krishna River",
   openGraph: {

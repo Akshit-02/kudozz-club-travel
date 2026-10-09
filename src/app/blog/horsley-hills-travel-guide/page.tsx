@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Horsley Hills Travel Guide: A Quiet Hill Station in Rayalaseema" },
   description:
-    "The complete Horsley Hills travel guide. Kalyani Dam, Gali Banda viewpoint, Mallamma Temple, where to stay, best time to visit, and a full itinerary through this low-key Rayalaseema hill station.",
+    "Horsley Hills, Andhra Pradesh: Gali Banda viewpoint, Kalyani Dam, Mallamma Temple, best time, where to stay and a 2-day plan for this quiet hill station.",
   keywords:
     "Horsley Hills travel guide, Kalyani Dam, Gali Banda viewpoint, Mallamma Temple, best time to visit Horsley Hills, how to reach Horsley Hills, Rayalaseema hill station, Andhra Pradesh hill station",
   openGraph: {

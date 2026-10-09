@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Charminar Guide: History, Timings & Tips",
   description:
-    "Complete Charminar guide — history, architecture, the Laad Bazaar and Mecca Masjid nearby, best time to visit, how to reach, and a full visit plan for Hyderabad's iconic monument.",
+    "Charminar, Hyderabad: its 1591 history and architecture, Laad Bazaar and Mecca Masjid nearby, timings, how to reach and a half-day plan.",
   keywords:
     "Charminar travel guide, Charminar history, Charminar timings, Laad Bazaar, Mecca Masjid, Hyderabad Old City, Charminar entry fee, how to reach Charminar, Qutb Shahi monument",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Charminar Guide: History, Timings & Tips",
           description:
-            "Complete Charminar guide — history, architecture, the Laad Bazaar and Mecca Masjid nearby, best time to visit, how to reach, and a full visit plan for Hyderabad's iconic monument.",
+            "Charminar, Hyderabad: its 1591 history and architecture, Laad Bazaar and Mecca Masjid nearby, timings, how to reach and a half-day plan.",
           image: "https://club.kudozz.in/images/blogs/telangana/charminar/charminar-angled-view-street-life-hyderabad.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Puducherry Travel Guide: French Quarter, Auroville & Beaches" },
   description:
-    "The complete Puducherry travel guide. French Quarter walking routes, Auroville and the Matrimandir, Promenade Beach, Ousteri Lake, where to stay, what to eat, and a full 3-day itinerary through India's most European town.",
+    "Puducherry (Pondicherry) travel guide: French Quarter walks, Auroville and the Matrimandir, Promenade Beach, Ousteri Lake, where to stay and a 3-day plan.",
   keywords:
     "Puducherry travel guide, Pondicherry French Quarter, Auroville Matrimandir, Promenade Beach Pondicherry, Ousteri Lake, Pondicherry itinerary, Puducherry cafes, Tamil Nadu weekend trip, best time to visit Puducherry, how to reach Puducherry from Chennai, Puducherry itinerary days, is Puducherry safe for solo travellers, Puducherry budget trip, top things to do in Puducherry, Paradise Beach Chunnambar, White Town Pondicherry",
   openGraph: {

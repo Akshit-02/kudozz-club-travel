@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Kurukshetra Travel Guide: Brahma Sarovar & Gita Sites" },
   description:
-    "The complete Kurukshetra travel guide. Jyotisar, Brahma Sarovar, the Kurukshetra Panorama Science Centre, where to stay, best time to visit, and a full itinerary through the legendary Mahabharata battlefield.",
+    "Kurukshetra guide: Jyotisar, Brahma Sarovar and the Panorama Science Centre on the Mahabharata battlefield, best time, where to stay and a 2-day plan.",
   keywords:
     "Kurukshetra travel guide, Jyotisar, Brahma Sarovar, Bhagavad Gita site, Gita Jayanti, Kurukshetra Panorama Science Centre, best time to visit Kurukshetra, how to reach Kurukshetra",
   openGraph: {

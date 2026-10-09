@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Tamenglong Travel Guide: Orange Hills of Zeliangrong Country" },
   description:
-    "Complete Tamenglong travel guide — the misty Zeliangrong hill country of western Manipur, the famous Tamenglong orange and its November Orange Festival, waterfalls, Zeilad Lake, Tharon Cave, how to reach, and full trip planning.",
+    "Tamenglong, western Manipur: Zeliangrong hill country, the orange festival in November, waterfalls, Zeilad Lake and Tharon Cave, and a 2-3 day plan.",
   keywords:
     "Tamenglong travel guide, Tamenglong Manipur, Tamenglong Orange Festival, Zeliangrong hills, Zeme Liangmai Rongmei, Tamenglong orange, Manipur off-beat destinations, Zeilad Lake, Tharon Cave, how to reach Tamenglong, Inner Line Permit Manipur",
   openGraph: {

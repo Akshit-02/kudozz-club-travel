@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kaas Plateau Travel Guide: The Valley of Flowers of Maharashtra" },
   description:
-    "The complete Kaas Plateau travel guide. Bloom season timing, online ticket booking, walkway rules, Kaas Lake, Thoseghar Waterfalls, Bamnoli boating, where to stay in Satara, and a day-trip itinerary to Maharashtra's UNESCO wildflower plateau.",
+    "Kaas Plateau, Satara: when the flowers bloom, online tickets, walkway rules, Kaas Lake, Thoseghar falls, where to stay and a day-trip plan.",
   keywords:
     "Kaas Plateau travel guide, Kaas Pathar, Kaas flower season, Valley of Flowers Maharashtra, Kaas Plateau ticket booking, Kaas Plateau Satara, Kaas Plateau best time, Kaas Lake, Thoseghar Waterfalls, Bamnoli boating, Kaas UNESCO Western Ghats",
   openGraph: {

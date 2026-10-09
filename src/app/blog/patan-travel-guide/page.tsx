@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Patan Travel Guide: Rani ki Vav Stepwell & Patola Sarees" },
   description:
-    "The complete Patan travel guide. Rani ki Vav UNESCO stepwell, Patola saree weaving workshops, Sahastralinga Talav, where to stay, best time to visit, and a full itinerary.",
+    "Patan, Gujarat: Rani ki Vav, the UNESCO-listed stepwell, patola weaving workshops and Sahastralinga Talav, how to reach and a one-day plan.",
   keywords:
     "Patan travel guide, Rani ki Vav, Patola saree, Sahastralinga Talav, best time to visit Patan, how to reach Patan, Gujarat stepwell, Modhera Sun Temple day trip",
   openGraph: {

@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Dibrugarh Travel Guide: The Tea Capital of Assam",
   description:
-    "The complete Dibrugarh travel guide. Tea garden tours, the Brahmaputra riverfront, gateway to Dibru-Saikhowa and Arunachal Pradesh, where to stay, best time to visit, and a full itinerary.",
+    "Dibrugarh, the 'tea capital of Assam': tea estate tours, the Brahmaputra riverfront, Dibru-Saikhowa, the best season and a 2-day plan.",
   keywords:
     "Dibrugarh travel guide, Dibrugarh tea gardens, tea capital of Assam, Dibru-Saikhowa National Park, best time to visit Dibrugarh, how to reach Dibrugarh, Assam tea garden tour",
   openGraph: {

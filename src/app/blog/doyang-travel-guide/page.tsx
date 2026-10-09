@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Doyang Guide: Amur Falcon Capital of the World",
   description:
-    "Complete Doyang guide — the annual Amur falcon migration, the Wokha community conservation story, when millions of raptors gather at the reservoir, how to reach, and a full visit plan.",
+    "Doyang, Nagaland: the Amur falcon migration each October–November, Wokha's community conservation story, how to reach and a visit plan.",
   keywords:
     "Doyang travel guide, Amur Falcon Nagaland, Doyang Reservoir, Wokha district, Amur falcon migration, bird watching Nagaland, Doyang best time to visit, falcon conservation Nagaland",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Doyang Guide: Amur Falcon Capital of the World",
           description:
-            "Complete Doyang guide — the annual Amur falcon migration, the Wokha community conservation story, when millions of raptors gather at the reservoir, how to reach, and a full visit plan.",
+            "Doyang, Nagaland: the Amur falcon migration each October–November, Wokha's community conservation story, how to reach and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/nagaland/doyang/doyang.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

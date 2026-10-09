@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Mirzapur Travel Guide: Temples, Fort & Waterfalls",
   description:
-    "Complete Mirzapur guide — Vindhyachal Temple's Shakti Peeth circuit, Chunar Fort's layered history, Sirsi and Wyndham Falls, the famous carpet-weaving belt, and how to reach from Varanasi.",
+    "Mirzapur, between Varanasi and Prayagraj: Vindhyachal's temples, Chunar Fort, Sirsi and Wyndham falls, the carpet belt and how to reach.",
   keywords:
     "Mirzapur travel guide, Vindhyachal Temple, Chunar Fort, Mirzapur waterfalls, Sirsi Falls, Wyndham Falls, Mirzapur carpet weaving, Bhadohi Mirzapur carpets, Ashtabhuja Temple, Kali Khoh, how to reach Mirzapur, Varanasi to Mirzapur",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mirzapur Travel Guide: Temples, Fort & Waterfalls",
           description:
-            "Complete Mirzapur guide — Vindhyachal Temple's Shakti Peeth circuit, Chunar Fort's layered history, Sirsi and Wyndham Falls, the famous carpet-weaving belt, and how to reach from Varanasi.",
+            "Mirzapur, between Varanasi and Prayagraj: Vindhyachal's temples, Chunar Fort, Sirsi and Wyndham falls, the carpet belt and how to reach.",
           image:
             "https://club.kudozz.in/images/blogs/uttar-pradesh/mirzapur/chunar-fort-mirzapur.webp",
           datePublished: "2026-09-03",

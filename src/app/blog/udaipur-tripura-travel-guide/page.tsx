@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Udaipur Tripura Travel Guide: Lakes & Old Capital",
   description:
-    "Complete guide to Udaipur, Tripura — the old Manikya capital of Rangamati, its sacred lakes, the Tripura Sundari Temple, Bhuvaneswari Temple, Pilak ruins, how to reach from Agartala, and tips.",
+    "Udaipur, Tripura, the old Manikya capital: its lakes, Tripura Sundari and Bhuvaneswari temples, the Pilak ruins and how to reach from Agartala.",
   keywords:
     "Udaipur Tripura, Udaipur Tripura travel guide, Rangamati old capital, Kalyan Sagar lake, Bhuvaneswari Temple, Pilak archaeological site, Udaipur South Tripura, day trip from Agartala",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Udaipur Tripura Travel Guide: Lakes & Old Capital",
           description:
-            "Complete guide to Udaipur, Tripura — the old Manikya capital of Rangamati, its sacred lakes, the Tripura Sundari Temple, Bhuvaneswari Temple, Pilak ruins, how to reach from Agartala, and tips.",
+            "Udaipur, Tripura, the old Manikya capital: its lakes, Tripura Sundari and Bhuvaneswari temples, the Pilak ruins and how to reach from Agartala.",
           image: "https://club.kudozz.in/images/blogs/tripura/udaipur-tripura/tripura-sundari-temple-udaipur-tripura-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

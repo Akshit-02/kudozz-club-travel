@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Deoghar Travel Guide: Baidyanath Temple & Jyotirlinga Pilgrimage" },
   description:
-    "The complete Deoghar travel guide. Baidyanath Temple, the Shravani Mela, Nandan Pahar, Tapovan, where to stay, best time to visit, and practical planning for one of India's most important Shiva pilgrimage sites.",
+    "Deoghar guide: Baba Baidyanath Jyotirlinga, the Shravani Mela, Nandan Pahar and Tapovan, the best time, where to stay and a 2-day plan.",
   keywords:
     "Deoghar travel guide, Baidyanath Temple, Baba Baidyanath Dham, Jyotirlinga, Shravani Mela, Nandan Pahar, best time to visit Deoghar, how to reach Deoghar, Deoghar pilgrimage, Jharkhand temple town",
   openGraph: {

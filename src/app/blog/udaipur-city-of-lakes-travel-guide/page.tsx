@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Udaipur Travel Guide: City Palace, Lake Pichola & Itinerary" },
   description:
-    "The complete Udaipur travel guide. City Palace, a Lake Pichola boat ride, Jag Mandir, Saheliyon ki Bari, Bagore ki Haveli, the Monsoon Palace, where to stay, what to eat, and a full 3-day itinerary through Rajasthan's City of Lakes.",
+    "Udaipur travel guide: the City Palace, Lake Pichola and Jag Mandir, Saheliyon ki Bari, Bagore ki Haveli, the Monsoon Palace and a 3-day plan.",
   keywords:
     "Udaipur travel guide, City Palace Udaipur, Lake Pichola boat ride, Jag Mandir, Fateh Sagar Lake, Bagore ki Haveli, Monsoon Palace Udaipur, Saheliyon ki Bari, Udaipur itinerary, Rajasthan lake city, best time to visit Udaipur, how to reach Udaipur, Udaipur 3 day itinerary, is Udaipur worth visiting, Udaipur budget trip, top things to do in Udaipur, Taj Lake Palace Udaipur",
   openGraph: {

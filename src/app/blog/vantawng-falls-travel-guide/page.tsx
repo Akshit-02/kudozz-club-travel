@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Vantawng Falls Guide: Mizoram's Tallest Falls",
   description:
-    "Complete Vantawng Falls guide — Mizoram's highest waterfall, the viewing platform, best time to see it at full flow, how to reach from Thenzawl, and a full visit plan.",
+    "Vantawng Falls, Mizoram's highest waterfall: the viewing platform, when the flow is strongest, permits and how to reach from Thenzawl.",
   keywords:
     "Vantawng Falls, Mizoram's tallest waterfall, Vantawng Falls Serchhip, how to reach Vantawng Falls, Thenzawl waterfall, Mizoram waterfalls, best time Vantawng Falls",
   openGraph: {
@@ -62,10 +62,10 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Vantawng Falls Guide: Mizoram's Tallest Falls",
           description:
-            "Complete Vantawng Falls guide — Mizoram's highest waterfall, the viewing platform, best time to see it at full flow, how to reach from Thenzawl, and a full visit plan.",
+            "Vantawng Falls, Mizoram's highest waterfall: the viewing platform, when the flow is strongest, permits and how to reach from Thenzawl.",
           image: "https://club.kudozz.in/images/blogs/mizoram/vantawng-falls/vantawng-falls.webp",
           datePublished: "2026-09-04",
-          dateModified: "2026-09-04",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -366,6 +366,12 @@ export default function VantawngFallsGuidePage() {
                       journey of around 4-5 hours.
                     </li>
                   </ul>
+                  <div
+                    className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    <strong>📋 Inner Line Permit:</strong> Indian visitors from outside Mizoram need an Inner Line Permit (ILP) to enter the state. Apply on the Mizoram government's official portal (ilp.mizoram.gov.in) before you travel and carry a copy. Foreign nationals need a Protected Area Permit, which was reinstated for Mizoram in December 2024.
+                  </div>
                   <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                     <strong>💡 Pro Tip:</strong> Base yourself in{" "}
                     <Link href="/blog/thenzawl-travel-guide">Thenzawl</Link>{" "}

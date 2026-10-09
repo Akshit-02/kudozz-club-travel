@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Dumboor Lake Travel Guide: Islands, Boating & Tips",
   description:
-    "Complete Dumboor Lake guide — the Gumti Hydel reservoir's scattered islands, boating, the Tirthamukh pilgrimage point, how to reach from Agartala, and a full visit plan.",
+    "Dumboor Lake, Tripura: the Gumti reservoir's islands, boating, Tirthamukh, how to reach from Agartala, where to stay and a 2-day plan.",
   keywords:
     "Dumboor Lake travel guide, Dumboor Lake Tripura, Gumti Hydel Project, Tirthamukh, Gandacherra, Dhalai district, Dumboor Lake islands, Dumboor Lake boating, how to reach Dumboor Lake, Tripura off-beat destinations",
   openGraph: {
@@ -64,7 +64,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dumboor Lake Travel Guide: Islands, Boating & Tips",
           description:
-            "Complete Dumboor Lake guide — the Gumti Hydel reservoir's scattered islands, boating, the Tirthamukh pilgrimage point, how to reach from Agartala, and a full visit plan.",
+            "Dumboor Lake, Tripura: the Gumti reservoir's islands, boating, Tirthamukh, how to reach from Agartala, where to stay and a 2-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/tripura/dumboor-lake/small-island-dumboor-lake-tripura.webp",
           datePublished: "2026-09-03",

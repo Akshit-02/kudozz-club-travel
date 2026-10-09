@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Vagamon Travel Guide: Meadows, Pine Forests & Paragliding" },
   description:
-    "The complete Vagamon travel guide. Rolling meadows, the Pine Forest, paragliding, Murugan Hill and Kurisumala, tea and cardamom plantations, where to stay, best time to visit, and a full itinerary.",
+    "Vagamon, Kerala: rolling meadows, the pine forest, paragliding, Murugan Hill and Kurisumala, tea estates, where to stay and a 2-day itinerary.",
   keywords:
     "Vagamon travel guide, Vagamon meadows, Vagamon Pine Forest, Vagamon paragliding, Murugan Hill Vagamon, best time to visit Vagamon, how to reach Vagamon, Kerala hill station",
   openGraph: {

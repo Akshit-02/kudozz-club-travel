@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Moirang Travel Guide: INA Memorial & Loktak Lake Gateway" },
   description:
-    "The complete Moirang travel guide — the INA Memorial Complex where the Indian tricolor was first hoisted on Indian soil, the historic Moirang principality, Lai Haraoba tradition, and how to combine it with a Loktak Lake visit.",
+    "Moirang, Manipur: the INA Memorial where the tricolour was raised in 1944, the Lai Haraoba tradition and the gateway to Loktak Lake.",
   keywords:
     "Moirang travel guide, INA Memorial Complex, Moirang War Museum, Netaji Subhas Chandra Bose, Indian National Army, Lai Haraoba, Thangjing deity, Loktak Lake gateway, Manipur history",
   openGraph: {

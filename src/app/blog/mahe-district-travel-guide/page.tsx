@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Mahe District Travel Guide: Riverfront, Church & Malabar Coast" },
   description:
-    "The complete Mahe District travel guide — Mahe town's riverfront walkway, St. Teresa's Shrine, Tagore Park, beach and lighthouse on the Mahe River mouth, plus the quiet river-and-village surroundings of Palloor, Pandakkal, Chalakkara, and Parakkal.",
+    "Mahe, Puducherry's enclave on the Malabar coast: the riverfront walkway, St. Teresa's Shrine, Tagore Park, the river villages and a 2-day plan.",
   keywords:
     "Mahe district travel guide, Mahe Kerala, Mahe beach, St. Teresa's shrine Mahe, Mahe walkway, Mahe river, Tagore park Mahe, Mahe lighthouse, Palloor, Pandakkal, Chalakkara, Parakkal, Malabar coast, Puducherry union territory, best time to visit Mahe, how to reach Mahe from Kozhikode, Mahe day trip itinerary, is Mahe worth visiting, things to do in Mahe, Mahe vs Thalassery, Kozhikode Kannur road trip",
   openGraph: {

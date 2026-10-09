@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Chitrakote Falls Travel Guide: India's Widest Waterfall" },
   description:
-    "The complete Chitrakote Falls travel guide. Horseshoe-shaped falls on the Indravati River, viewpoints, boat rides, where to stay, best time to visit, and a full itinerary through Bastar's signature waterfall.",
+    "Chitrakote Falls, Bastar: the horseshoe waterfall on the Indravati, viewpoints and boat rides, the best season, where to stay and a half-day plan.",
   keywords:
     "Chitrakote Falls travel guide, Chitrakote waterfall, Indravati River falls, Niagara of India, best time to visit Chitrakote, how to reach Chitrakote Falls, Bastar waterfalls",
   openGraph: {

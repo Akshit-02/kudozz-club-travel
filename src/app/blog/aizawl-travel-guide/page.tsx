@@ -65,7 +65,7 @@ function ArticleSchema() {
             "Complete Aizawl guide — Solomon's Temple, Durtlang Hills, Bara Bazar, Chapchar Kut festival, how to reach Mizoram's ridge-top capital, and a full visit plan.",
           image: "https://club.kudozz.in/images/blogs/mizoram/aizawl/aizawl-2.webp",
           datePublished: "2026-09-04",
-          dateModified: "2026-09-04",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -321,8 +321,15 @@ export default function AizawlGuidePage() {
                   <h2>How to Reach Aizawl</h2>
                   <ul>
                     <li><strong>By air:</strong> Aizawl's own airport (Lengpui) has flights from Kolkata, Guwahati, and Delhi — the fastest and most comfortable way in.</li>
+                    <li><strong>By rail:</strong> Since September 2025, trains run to Sairang station, roughly 20 km from the city, with direct services from Delhi (Rajdhani Express), Guwahati and Kolkata.</li>
                     <li><strong>By road:</strong> The main overland route runs via Silchar in Assam, a long but scenic drive through hill terrain.</li>
                   </ul>
+                  <div
+                    className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    <strong>📋 Inner Line Permit:</strong> Indian visitors from outside Mizoram need an Inner Line Permit (ILP) to enter the state. Apply on the Mizoram government's official portal (ilp.mizoram.gov.in) before you travel and carry a copy. Foreign nationals need a Protected Area Permit, which was reinstated for Mizoram in December 2024.
+                  </div>
                   <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                     <strong>💡 Pro Tip:</strong> Flying in is by far the most practical option — the overland route from Assam, while scenic, takes a full day given the hill roads.
                   </div>

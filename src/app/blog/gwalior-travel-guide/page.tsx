@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Gwalior Fort Travel Guide: History, Timings & City Guide" },
   description:
-    "The complete Gwalior travel guide. Gwalior Fort, Man Singh Palace, Sas-Bahu Temples, Jai Vilas Palace, Tansen's tomb, where to stay, what to eat, and a 2-day itinerary through one of India's greatest hill forts.",
+    "Gwalior guide: the fort and Man Singh Palace, Sas-Bahu temples, Jai Vilas Palace and Tansen's tomb, where to stay, what to eat and a 2-day plan.",
   keywords:
     "Gwalior travel guide, Gwalior Fort, Man Singh Palace, Jai Vilas Palace, Sas Bahu Temples, Teli ka Mandir, Gwalior itinerary, best time to visit Gwalior, how to reach Gwalior, Gwalior light and sound show, Tansen tomb, Gwalior Madhya Pradesh, Gwalior 2 day itinerary",
   openGraph: {

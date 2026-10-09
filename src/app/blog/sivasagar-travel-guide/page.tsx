@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Sivasagar Travel Guide: Ahom Dynasty Capital & Ancient Tanks" },
   description:
-    "The complete Sivasagar travel guide. Sivasagar Tank, Shiva Dol, Rang Ghar amphitheatre, Talatal Ghar, where to stay, best time to visit, and a full itinerary through Assam's Ahom dynasty capital.",
+    "Sivasagar, the Ahom capital: the great tank, Shiva Dol, the Rang Ghar and Talatal Ghar, best time, where to stay and a one-day itinerary.",
   keywords:
     "Sivasagar travel guide, Sibsagar Tank, Shiva Dol, Rang Ghar, Talatal Ghar, Ahom dynasty Assam, best time to visit Sivasagar, how to reach Sivasagar",
   openGraph: {

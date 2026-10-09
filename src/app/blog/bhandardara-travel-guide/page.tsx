@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Bhandardara Travel Guide: Arthur Lake, Waterfalls & Camping" },
   description:
-    "The complete Bhandardara travel guide — Arthur Lake and Wilson Dam, Randha Falls, the Kalsubai Peak trek, camping and stargazing, how to reach, where to stay, and a 2-day itinerary.",
+    "Bhandardara weekend guide: Arthur Lake and Wilson Dam, Randha Falls, the Kalsubai trek, camping and stargazing, how to reach and a 2-day plan.",
   keywords:
     "Bhandardara travel guide, Arthur Lake, Wilson Dam, Randha Falls, Kalsubai Peak trek, Ratangad Fort trek, Bhandardara camping, Bhandardara stargazing, best time to visit Bhandardara, how to reach Bhandardara, Bhandardara from Mumbai, Bhandardara from Pune, Bhandardara itinerary",
   openGraph: {

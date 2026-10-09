@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Danteshwari Temple Travel Guide: Bastar's Shakti Peetha" },
   description:
-    "The complete Danteshwari Temple travel guide. History, the Bastar royal connection, the Shankhini-Dankini river confluence, how to reach Dantewada, and practical, up-to-date travel advice.",
+    "Danteshwari Temple, Dantewada: the Shakti Peetha, its Bastar royal link, the Shankhini–Dankini confluence, how to reach and practical advice.",
   keywords:
     "Danteshwari Temple travel guide, Dantewada temple, Shakti Peetha Bastar, Bastar Dussehra Danteshwari, how to reach Dantewada, Chhattisgarh pilgrimage temples",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Tughlaqabad Fort Travel Guide: Delhi's Cursed City",
   description:
-    "Complete guide to Tughlaqabad Fort — Delhi's massive, mostly-empty 14th-century ruins built by Ghiyasuddin Tughlaq, the legend of Nizamuddin Auliya's curse, how to reach it, and what to see inside.",
+    "Tughlaqabad Fort, Delhi: the vast 14th-century ruins of Ghiyasuddin Tughlaq, the legend of Nizamuddin's curse, the tomb and how to visit.",
   keywords:
     "Tughlaqabad Fort, Tughlaqabad Delhi, Ghiyasuddin Tughlaq, Tughlaqabad curse, Nizamuddin Auliya curse, Tughlaqabad metro, Delhi ruins, Tughlaqabad tomb, Delhi third city, Delhi Sultanate monuments, South Delhi heritage sites",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Tughlaqabad Fort Travel Guide: Delhi's Cursed City",
           description:
-            "Complete guide to Tughlaqabad Fort — Delhi's massive, mostly-empty 14th-century ruins built by Ghiyasuddin Tughlaq, the legend of Nizamuddin Auliya's curse, how to reach it, and what to see inside.",
+            "Tughlaqabad Fort, Delhi: the vast 14th-century ruins of Ghiyasuddin Tughlaq, the legend of Nizamuddin's curse, the tomb and how to visit.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/tughlaqabad/tughlaqabad-fort-sloping-ramparts.webp",
           datePublished: "2026-08-30",

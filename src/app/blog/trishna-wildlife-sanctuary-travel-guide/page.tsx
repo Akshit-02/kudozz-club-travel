@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Trishna Wildlife Sanctuary: Safari Guide & Tips",
   description:
-    "Complete Trishna Wildlife Sanctuary guide — barking deer, leopards, hoolock gibbons, a python conservation centre, watchtowers, reservoir boating, how to reach from Agartala, and a full visit plan.",
+    "Trishna Wildlife Sanctuary, South Tripura: barking deer, gibbons and leopards, watchtowers, reservoir boating, how to reach and a one-day plan.",
   keywords:
     "Trishna Wildlife Sanctuary, South Tripura, Belonia, Trishna river, Sonai river, Rowa Wildlife Sanctuary, golden langur, hoolock gibbon, python conservation Tripura, how to reach Trishna Wildlife Sanctuary, Tripura wildlife safari",
   openGraph: {
@@ -64,7 +64,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Trishna Wildlife Sanctuary: Safari Guide & Tips",
           description:
-            "Complete Trishna Wildlife Sanctuary guide — barking deer, leopards, hoolock gibbons, a python conservation centre, watchtowers, reservoir boating, how to reach from Agartala, and a full visit plan.",
+            "Trishna Wildlife Sanctuary, South Tripura: barking deer, gibbons and leopards, watchtowers, reservoir boating, how to reach and a one-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/tripura/trishna-wildlife-sanctuary/indian-gaur-bison-trishna-wildlife-sanctuary.webp",
           datePublished: "2026-09-03",

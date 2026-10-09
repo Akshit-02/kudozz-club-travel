@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Roing Travel Guide: Mehao Lake & Bhismaknagar Ruins",
   description:
-    "The complete Roing travel guide. Mehao Lake, the Bhismaknagar fort ruins, Mayudia Pass, the gateway to Anini and Dibang Valley, where to stay, what to eat, and a full itinerary.",
+    "Roing, Lower Dibang Valley: Mehao Lake, the Bhismaknagar ruins and Mayudia Pass, the gateway to Anini, where to stay and a 2-day itinerary.",
   keywords:
     "Roing travel guide, Mehao Lake, Bhismaknagar ruins, Mayudia Pass, Lower Dibang Valley, how to reach Roing, best time to visit Roing, Roing to Anini, Idu Mishmi Roing",
   openGraph: {

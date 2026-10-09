@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kedarnath Travel Guide: Trek, Yatra & Helicopter Tips" },
   description:
-    "Complete Kedarnath guide — the Gaurikund/Sonprayag trek route, helicopter shuttle booking, temple opening dates, Bhairav Temple, Vasuki Tal, where to stay, and a full yatra plan.",
+    "Kedarnath guide: the trek from Gaurikund, helicopter booking, temple opening dates, Bhairav Temple and Vasuki Tal, where to stay and a yatra plan.",
   keywords:
     "Kedarnath, Kedarnath temple, Char Dham, Jyotirlinga, Kedarnath trek, Gaurikund, Sonprayag, Kedarnath helicopter booking, Kedarnath yatra, Vasuki Tal, how to reach Kedarnath, Uttarakhand pilgrimage",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kedarnath Travel Guide: Trek, Yatra & Helicopter Tips",
           description:
-            "Complete Kedarnath guide — the Gaurikund/Sonprayag trek route, helicopter shuttle booking, temple opening dates, Bhairav Temple, Vasuki Tal, where to stay, and a full yatra plan.",
+            "Kedarnath guide: the trek from Gaurikund, helicopter booking, temple opening dates, Bhairav Temple and Vasuki Tal, where to stay and a yatra plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttarakhand/kedarnath/kedarnath-temple-hillside-mountain-view.webp",
           datePublished: "2026-09-02",

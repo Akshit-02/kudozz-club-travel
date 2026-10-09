@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Bekal Travel Guide: Fort, Beach & North Kerala's Quiet Coast" },
   description:
-    "The complete Bekal travel guide. Bekal Fort, Bekal Beach, Kappil Beach, where to stay, best time to visit, and a full itinerary through North Kerala's quietest stretch of coastline.",
+    "Bekal guide: Kerala's largest fort on its headland, Bekal and Kappil beaches, best time, where to stay and a 2-day plan for the quiet north Kerala coast.",
   keywords:
     "Bekal travel guide, Bekal Fort, Bekal Beach, Kasaragod, North Kerala beaches, best time to visit Bekal, how to reach Bekal, Kerala fort beach",
   openGraph: {

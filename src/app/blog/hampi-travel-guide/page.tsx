@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Hampi Travel Guide: Ruins, Boulders, Temples & Tips",
   description:
-    "The complete Hampi travel guide. Explore the ruins of the Vijayanagara Empire — Virupaksha Temple, Vittala Temple, Hampi Bazaar, coracle rides, boulder-hopping, Anegundi, where to stay, what to eat, and a complete 3-day itinerary.",
+    "Hampi travel guide: Virupaksha and Vittala temples, the royal centre, coracle rides, bouldering and Anegundi, where to stay and a 3-day plan.",
   keywords:
     "Hampi travel guide, Hampi Karnataka, Vijayanagara Empire ruins, Virupaksha Temple, Vittala Temple stone chariot, Hampi boulders, Hampi Bazaar, Anegundi, Hampi itinerary, Hospet Hampi, UNESCO World Heritage Hampi, best time to visit Hampi, how to reach Hampi from Bangalore, Hampi 3 day itinerary, is Hampi safe for solo travellers, Hampi budget trip, top things to do in Hampi, Hampi bouldering, Matanga Hill sunrise, Hippie Island Hampi, Hampi vs other heritage sites",
   openGraph: {

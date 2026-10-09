@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Rajgir Travel Guide: Hot Springs, Ropeway & Buddhist Heritage" },
   description:
-    "The complete Rajgir travel guide. Griddhakuta Hill, the Rajgir Ropeway, Vishwa Shanti Stupa, natural hot springs, where to stay, best time to visit, and a full itinerary through this hill-ringed Buddhist and Jain heritage town.",
+    "Rajgir, Bihar: Griddhakuta Hill, the ropeway to Vishwa Shanti Stupa and the hot springs, best time, where to stay and a 2-day plan with Nalanda.",
   keywords:
     "Rajgir travel guide, Griddhakuta Hill, Rajgir ropeway, Vishwa Shanti Stupa, Rajgir hot springs, Bimbisara jail, best time to visit Rajgir, how to reach Rajgir, Rajgir Nalanda day trip",
   openGraph: {

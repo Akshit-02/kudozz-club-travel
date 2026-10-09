@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Fatehpur Sikri Travel Guide: Akbar's Ghost City",
   description:
-    "Complete Fatehpur Sikri guide — Buland Darwaza, the dargah of Salim Chishti, Panch Mahal, Jodha Bai's Palace, why Akbar's capital was abandoned, and how to visit as a day trip from Agra.",
+    "Fatehpur Sikri guide: Buland Darwaza, Salim Chishti's dargah, Panch Mahal and Jodha Bai's palace, why Akbar left, and a day trip from Agra.",
   keywords:
     "Fatehpur Sikri, Buland Darwaza, Salim Chishti dargah, Akbar capital, Panch Mahal, Jodha Bai Palace, Diwan-i-Khas, Fatehpur Sikri from Agra, Fatehpur Sikri history, UNESCO World Heritage Uttar Pradesh",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Fatehpur Sikri Travel Guide: Akbar's Ghost City",
           description:
-            "Complete Fatehpur Sikri guide — Buland Darwaza, the dargah of Salim Chishti, Panch Mahal, Jodha Bai's Palace, why Akbar's capital was abandoned, and how to visit as a day trip from Agra.",
+            "Fatehpur Sikri guide: Buland Darwaza, Salim Chishti's dargah, Panch Mahal and Jodha Bai's palace, why Akbar left, and a day trip from Agra.",
           image: "https://club.kudozz.in/images/blogs/uttar-pradesh/fatehpur-sikri/buland-darwaza-gateway-fatehpur-sikri.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

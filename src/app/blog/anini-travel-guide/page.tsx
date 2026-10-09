@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Anini Travel Guide: India's Least Explored Valley",
   description:
-    "The complete Anini travel guide. Dibang Valley, the Idu Mishmi community, road access via Roing, permits (ILP), where to stay, what to eat, and honest, up-to-date planning advice for one of India's most remote districts.",
+    "Anini travel guide: remote Dibang Valley, the Idu Mishmi people, road access via Roing, Inner Line Permits, where to stay and a 3-day plan.",
   keywords:
     "Anini travel guide, Dibang Valley Arunachal Pradesh, Idu Mishmi tribe, Anini road condition, Inner Line Permit Arunachal, how to reach Anini, best time to visit Anini, Roing to Anini, Dibang Wildlife Sanctuary",
   openGraph: {

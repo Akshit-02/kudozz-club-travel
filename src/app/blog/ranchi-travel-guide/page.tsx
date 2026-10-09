@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Ranchi Travel Guide: Waterfalls, Lakes & Jharkhand's Capital" },
   description:
-    "The complete Ranchi travel guide. Hundru Falls, Jonha Falls, Dassam Falls, Tagore Hill, Ranchi Lake, where to stay, best time to visit, and a full 2-day itinerary through Jharkhand's capital.",
+    "Ranchi guide: Hundru, Jonha and Dassam falls, Tagore Hill and Ranchi Lake, best time, where to stay and a 2-day itinerary around Jharkhand's capital.",
   keywords:
     "Ranchi travel guide, Hundru Falls, Jonha Falls, Dassam Falls, Ranchi Lake, Tagore Hill, best time to visit Ranchi, how to reach Ranchi, Jharkhand capital, Ranchi itinerary, City of Waterfalls",
   openGraph: {

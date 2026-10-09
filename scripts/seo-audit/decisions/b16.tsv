@@ -1,0 +1,45 @@
+road-trips-from-mumbai	road trips from mumbai	I	KEEP	Origin-city intent (Mumbai+Pune)	
+road-trips-in-himachal-pradesh	himachal road trip	I	KEEP	State route hub	
+road-trips-in-uttarakhand	uttarakhand road trip	I	KEEP	State route hub	
+rock-climbing-in-india	rock climbing india	I	KEEP	Activity intent	
+rock-cut-caves-in-india	rock cut caves india	I	KEEP	Heritage list; distinct from natural caves	
+rock-garden-chandigarh-travel-guide	rock garden chandigarh	L	OPTIMIZE	Meta truncated	Nek Chand's Rock Garden, Chandigarh: the sculpture garden built in secret from waste, its courtyards, timings, entry fee and a 1.5-2 hour visit plan.
+rohini-delhi-travel-guide	rohini delhi	L	OPTIMIZE	Meta truncated; MANUAL: low travel intent, noindex candidate per GSC	Rohini, Delhi: Japanese Park, Adventure Island and metro access in a large planned sub-city, with an honest note on what it offers visitors.
+roing-travel-guide	roing	I	OPTIMIZE	Meta truncated	Roing, Lower Dibang Valley: Mehao Lake, the Bhismaknagar ruins and Mayudia Pass, the gateway to Anini, where to stay and a 2-day itinerary.
+rose-garden-chandigarh-travel-guide	rose garden chandigarh	L	OPTIMIZE	Meta truncated	Zakir Hussain Rose Garden, Sector 16, Chandigarh: some 1,600 rose varieties, the Rose Festival, timings, how to reach and a short visit plan.
+ross-and-smith-islands-andaman-travel-guide	ross and smith island	L	OPTIMIZE	Meta truncated	Ross and Smith Islands off Diglipur: twin islands joined by a walkable sandbar, entry permission, best time, how to reach and what to expect.
+ross-island-andaman-travel-guide	ross island	L	OPTIMIZE	Meta truncated	Ross Island (Netaji Subhas Chandra Bose Dweep): British-era ruins under strangler figs, the Smritika museum, deer, timings and pairing it with North Bay.
+rourkela-travel-guide	rourkela	I	KEEP	Meta within limit	
+sabroom-travel-guide	sabroom tripura	I	OPTIMIZE	Meta truncated	Sabroom, South Tripura: the Maitri Setu bridge to Bangladesh over the Feni, the Baikhora site and Rabindra Kanan, how to reach from Agartala.
+sakleshpur-travel-guide	sakleshpur	I	OPTIMIZE	Meta truncated	Sakleshpur, Karnataka: the Green Route railway trek, Manjarabad Fort, Bisle Ghat and coffee estate homestays, best time and a 2-day itinerary.
+sambalpur-travel-guide	sambalpur	I	OPTIMIZE	Meta truncated	Sambalpur, Odisha: Hirakud Dam, Sambalpuri ikat sarees and where to buy them, Samaleswari Temple, Debrigarh sanctuary and a 2-day plan.
+sanchi-travel-guide	sanchi stupa	I	OPTIMIZE	Meta truncated and overstated ('India's oldest surviving stone monument'); hero/OG text fixed	Sanchi's Great Stupa, begun under Ashoka: the carved gateways, Stupas 2 and 3, the Ashoka Pillar, how to reach from Bhopal and a day-trip plan.
+sandakphu-travel-guide	sandakphu trek	I	OPTIMIZE	Meta truncated	Sandakphu trek: the route from Maney Bhanjang, Singalila National Park permits, tea-house stays, best time and views of Everest and Kanchenjunga.
+santiniketan-travel-guide	santiniketan	I	OPTIMIZE	Meta truncated	Santiniketan: Tagore's Visva-Bharati, a UNESCO World Heritage Site, Uttarayan, Kala Bhavana, Sonajhuri haat and Poush Mela, with a 1-2 day plan.
+saputara-travel-guide	saputara	I	KEEP	Meta within limit	
+saranda-forest-travel-guide	saranda forest	I	OPTIMIZE	Meta truncated	Saranda Forest, West Singhbhum: a vast sal forest, its wildlife and viewpoints, how to reach and honest advice on access in a remote part of Jharkhand.
+sariska-tiger-reserve	sariska safari	I	KEEP	Booking intent; near-Delhi weekend angle	
+sarnath-travel-guide	sarnath	I	OPTIMIZE	Meta truncated	Sarnath, where the Buddha first taught: Dhamek Stupa, the Ashoka lion capital in the museum, Mulagandha Kuti Vihar and a half-day plan from Varanasi.
+sarojini-nagar-delhi-travel-guide	sarojini nagar market	L	KEEP	Meta within limit	
+sasaram-travel-guide	sasaram	I	KEEP	Meta within limit	
+satkosia-travel-guide	satkosia	I	OPTIMIZE	Meta truncated	Satkosia, Odisha: the Mahanadi gorge through the Eastern Ghats, boat safaris, mugger crocodiles, where to stay and a 2-day visit plan.
+satmaliya-deer-sanctuary-travel-guide	satmaliya deer park	L	OPTIMIZE	BUG: title rendered literal '&amp;' (fixed); meta truncated	Satmaliya Deer Sanctuary near Khanvel, Dadra and Nagar Haveli: how to reach from Silvassa, what to expect, best time and pairing it with Madhuban Dam.
+satpura-tiger-reserve	satpura safari	I	KEEP	Walking/boat safari intent	
+scuba-diving-in-andaman	scuba diving andaman	I	KEEP	Destination-activity owner	
+scuba-diving-in-india	scuba diving in india	I	KEEP	Activity pillar	
+sector-17-chandigarh-travel-guide	sector 17 chandigarh	L	OPTIMIZE	Meta truncated	Sector 17, Chandigarh's city-centre plaza by Le Corbusier's team: the pedestrian shopping precinct, Neelam Cinema, fountains, cafes and a visit plan.
+sector-22-chandigarh-travel-guide	sector 22 chandigarh	L	OPTIMIZE	Meta truncated	Sector 22, Chandigarh: a busy everyday market, budget-friendly stays and easy access to Sector 17 and the main sights, with practical tips.
+sector-26-chandigarh-travel-guide	sector 26 grain market chandigarh	L	OPTIMIZE	Meta truncated	Sector 26, Chandigarh: the Grain Market food street, the wholesale mandi, what to eat, when the stalls are busiest and how to reach.
+sector-35-chandigarh-travel-guide	sector 35 chandigarh	L	OPTIMIZE	Meta truncated	Sector 35, Chandigarh: the SCO market strip, cafes and casual dining popular with students and young professionals, and a short visit plan.
+sela-pass-travel-guide	sela pass	I	REWRITE	FRESHNESS: 'only road to Tawang' outdated since Sela Tunnel (Mar 2024); FAQs, intro, season box fixed; meta truncated	Sela Pass, Arunachal: Sela Lake, the Jaswantgarh memorial, the old road over the top vs the Sela Tunnel, seasonal closures and tips for the drive.
+self-drive-trips-in-india	self drive trips india	I	KEEP	Rental/practical intent	
+senapati-travel-guide	senapati manipur	I	OPTIMIZE	Meta truncated	Senapati, northern Manipur: Naga hill country, Mao Gate on NH2, terraced farms of king chilli and passion fruit, how to reach and a 1-2 day plan.
+sepahijala-travel-guide	sepahijala	I	KEEP	Meta within limit	
+serchhip-travel-guide	serchhip	I	KEEP	Meta within limit; ILP note added	
+shakti-peethas-in-india	shakti peethas	I	KEEP	Explains 18 vs 51 lists honestly	
+shanti-kunj-chandigarh-travel-guide	shanti kunj chandigarh	L	OPTIMIZE	Meta truncated	Shanti Kunj, Sector 16, Chandigarh: a quiet park beside the Rose Garden, its walking paths and water features, timings and pairing the two.
+shilloi-lake-travel-guide	shilloi lake	I	OPTIMIZE	Meta truncated	Shilloi Lake, Phek: Nagaland's largest natural lake near the Myanmar border, Chakhesang legends, how to reach and a simple visit plan.
+shillong-travel-guide	shillong	I	OPTIMIZE	Meta truncated	Shillong guide: Ward's Lake, Shillong Peak, Elephant Falls, the Don Bosco Museum, Police Bazar and live music, how to reach from Guwahati and a plan.
+shimla-manali-itinerary	shimla manali itinerary	I	KEEP	Itinerary owner; high commercial adjacency	
+shimla-travel-guide	shimla	I	OPTIMIZE	Meta truncated	Shimla travel guide: Mall Road, the Ridge, the UNESCO Kalka-Shimla toy train, Jakhoo Temple and Kufri, where to stay, food and a 2-day itinerary.
+shirdi-travel-guide	shirdi	I	OPTIMIZE	Meta truncated	Shirdi guide: Sai Baba Samadhi Mandir, Dwarkamai and Chavadi, darshan and aarti tips, how to reach by air, rail and road, where to stay and costs.

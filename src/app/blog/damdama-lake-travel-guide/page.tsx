@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Damdama Lake Travel Guide: Haryana's Largest Natural Lake" },
   description:
-    "The complete Damdama Lake travel guide. Aravalli hill scenery, walking trails, paragliding history, where to stay, best time to visit, and honest practical advice for a Gurugram weekend escape.",
+    "Damdama Lake near Sohna: Haryana's largest natural lake in the Aravallis, walks and boating, the best season, how to reach from Gurugram and tips.",
   keywords:
     "Damdama Lake travel guide, Damdama Lake Sohna, Damdama Lake Gurugram, Aravalli hills Haryana, best time to visit Damdama Lake, how to reach Damdama Lake",
   openGraph: {

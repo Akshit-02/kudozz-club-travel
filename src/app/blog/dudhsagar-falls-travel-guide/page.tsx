@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Dudhsagar Falls Travel Guide: Jeep Safari & Best Time to Visit" },
   description:
-    "The complete Dudhsagar Falls travel guide. Jeep safari access from Kulem, the Braganza Ghat train view, swimming safety, best time to visit, and a full itinerary through Goa's tallest waterfall.",
+    "Dudhsagar Falls, Goa: jeep safari access from Kulem, when the falls are at their best, monsoon closures, swimming safety and a day-trip plan.",
   keywords:
     "Dudhsagar Falls travel guide, Dudhsagar jeep safari, Kulem Dudhsagar, Dudhsagar Falls Goa, best time to visit Dudhsagar Falls, how to reach Dudhsagar Falls, Goa waterfall trek",
   openGraph: {

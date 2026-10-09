@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Kuno National Park Travel Guide: Cheetahs, Safaris & Best Time" },
   description:
-    "The complete Kuno National Park travel guide. India's cheetah reintroduction project, safari zones, wildlife beyond cheetahs, where to stay, best time to visit, and honest, up-to-date planning advice.",
+    "Kuno National Park: Project Cheetah, the safari zones, wildlife beyond the cheetahs, best time, where to stay and a 2-day plan.",
   keywords:
     "Kuno National Park travel guide, Project Cheetah India, Kuno cheetah safari, best time to visit Kuno, how to reach Kuno National Park, Madhya Pradesh wildlife, cheetah reintroduction India",
   openGraph: {

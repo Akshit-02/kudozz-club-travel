@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Belum Caves Travel Guide: India's Second-Longest Cave System" },
   description:
-    "The complete Belum Caves travel guide. Underground galleries, ancient meditation chambers, combining with Gandikota, where to stay, best time to visit, and everything you need to plan a visit.",
+    "Belum Caves guide: India's second-longest natural cave system, the underground galleries, pairing with Gandikota, timings, how to reach and tips.",
   keywords:
     "Belum Caves travel guide, India second longest cave, Kurnool caves, best time to visit Belum Caves, how to reach Belum Caves, Gandikota Belum Caves combo",
   openGraph: {

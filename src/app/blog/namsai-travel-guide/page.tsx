@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Namsai Travel Guide: The Golden Pagoda of Arunachal",
   description:
-    "The complete Namsai travel guide. The Golden Pagoda (Kongmu Kham), Tai Khamti culture, orange orchards, where to stay, best time to visit, and how to combine Namsai with an Assam trip.",
+    "Namsai, Arunachal: the Golden Pagoda (Kongmu Kham), Tai Khamti culture and orange orchards, best time, where to stay and pairing it with Assam.",
   keywords:
     "Namsai travel guide, Golden Pagoda Namsai, Kongmu Kham, Tai Khamti culture, best time to visit Namsai, how to reach Namsai, Arunachal Pradesh Buddhist sites",
   openGraph: {

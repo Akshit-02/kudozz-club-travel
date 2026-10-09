@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Diglipur Travel Guide: Saddle Peak, Kalipur & North Andaman" },
   description:
-    "Complete Diglipur guide — gateway to Saddle Peak, the highest point in the Andamans, plus Kalipur turtle beach, Ross & Smith Islands, and the Alfred Caves. How to reach, best time, budget and tips for North Andaman.",
+    "Diglipur, North Andaman: Saddle Peak, Kalipur turtle beach, Ross and Smith islands and Alfred Caves, how to reach from Port Blair and costs.",
   keywords:
     "Diglipur travel guide, Diglipur North Andaman, Saddle Peak trek, Saddle Peak National Park, Kalipur Beach, Ross and Smith Islands, Alfred Caves Andaman, how to reach Diglipur, Diglipur to Port Blair distance",
   openGraph: {

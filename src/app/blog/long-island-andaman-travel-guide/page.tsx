@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Long Island Andaman: Lalaji Bay Beach Travel Guide",
   description:
-    "Complete Long Island guide — Lalaji Bay Beach, Merk Bay, and one of the Andamans' least-crowded, most untouched island stops. How to reach it from Rangat, where to stay, and what to expect.",
+    "Long Island, Middle Andaman: Lalaji Bay and Merk Bay beaches, how to reach from Rangat, where to stay and what to expect on this quiet island.",
   keywords:
     "Long Island Andaman, Lalaji Bay Beach, Merk Bay Beach, Long Island ferry, Rangat to Long Island, offbeat Andaman islands, Middle Andaman beaches, Long Island Andaman guesthouses, undiscovered Andaman beach",
   openGraph: {

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Leisure Valley Chandigarh: The Complete Greenbelt Guide" },
   description:
-    "Complete guide to Chandigarh's Leisure Valley — the continuous green corridor linking the Rose Garden, Bougainvillea Garden, Garden of Fragrance and Terraced Garden. How to walk or cycle it, best time, and a route plan.",
+    "Leisure Valley, Chandigarh: the green corridor linking the Rose, Bougainvillea, Fragrance and Terraced gardens, walking or cycling it and a route plan.",
   keywords:
     "Leisure Valley Chandigarh, Chandigarh green belt, Chandigarh Rose Garden, Bougainvillea Garden Chandigarh, Garden of Fragrance Chandigarh, Terraced Garden Chandigarh, Chandigarh walking route, Chandigarh cycling, Le Corbusier Chandigarh green spine, things to do in Chandigarh",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Leisure Valley Chandigarh: The Complete Greenbelt Guide",
           description:
-            "Complete guide to Chandigarh's Leisure Valley — the continuous green corridor linking the Rose Garden, Bougainvillea Garden, Garden of Fragrance and Terraced Garden. How to walk or cycle it, best time, and a route plan.",
+            "Leisure Valley, Chandigarh: the green corridor linking the Rose, Bougainvillea, Fragrance and Terraced gardens, walking or cycling it and a route plan.",
           image: "https://club.kudozz.in/images/blogs/chandigarh/leisure-valley/leisure-valley-open-lawn-parkland-chandigarh.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-09-01",

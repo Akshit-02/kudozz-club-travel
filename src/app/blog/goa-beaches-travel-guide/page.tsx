@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Goa Travel Guide: Best Beaches, North vs South & Itinerary" },
   description:
-    "The complete Goa travel guide. North Goa vs South Goa, the best beaches (Palolem, Anjuna, Vagator, Agonda), Portuguese heritage in Old Goa, beach shacks, nightlife, where to stay, what to eat, and a full 5-day itinerary.",
+    "Goa travel guide: North vs South Goa, the best beaches, Old Goa's churches, nightlife, Dudhsagar, where to stay, what to eat and a 5-day plan.",
   keywords:
     "Goa travel guide, Goa beaches, Palolem Beach, Anjuna flea market, North Goa vs South Goa, Old Goa churches, Goa nightlife, Goa itinerary, Goa beach shacks, Dudhsagar Falls, best time to visit Goa, how to reach Goa, Goa itinerary 5 days, is Goa safe for solo travellers, Goa budget trip, top things to do in Goa, Goa watersports, Agonda beach, Goa casinos",
   openGraph: {

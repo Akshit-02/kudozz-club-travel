@@ -4,9 +4,9 @@ import SiteFooter from "@/components/layout/SiteFooter";
 import PlanTripPageClient from "@/components/plan-trip/PlanTripPageClient";
 
 export const metadata: Metadata = {
-  title: "Plan Your Trip | Custom India Itinerary",
+  title: "India Trip Planner: Get a Customized Itinerary",
   description:
-    "Tell Kudozz Club where you want to go, when, and your budget. Our team plans a customized India itinerary around you: family holidays, honeymoons, pilgrimages and more.",
+    "Tell Kudozz Club where you want to go, when and your budget, and our team plans a customized India itinerary around you: family trips, honeymoons and more.",
   keywords: [
     "India trip planner",
     "India travel planner",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://club.kudozz.in/plan-your-trip" },
   openGraph: {
-    title: "Plan Your Trip | Custom India Itinerary | Kudozz Club",
+    title: "India Trip Planner: Get a Customized Itinerary | Kudozz Club",
     description:
       "Tell us where you want to go in India and our in-house team will plan the trip around your dates, budget and travel style.",
     url: "https://club.kudozz.in/plan-your-trip",

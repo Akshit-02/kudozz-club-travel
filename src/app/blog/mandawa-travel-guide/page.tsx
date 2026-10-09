@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Mandawa Travel Guide: Shekhawati Havelis & Tips",
   description:
-    "Complete Mandawa guide — the frescoed havelis of Shekhawati, Mandawa Fort, the Marwari merchant history behind the murals, how to reach from Jaipur, and a full visit plan.",
+    "Mandawa, Shekhawati: frescoed merchant havelis, Mandawa Fort and the Marwari history behind the murals, how to reach from Jaipur and a 1-2 day plan.",
   keywords:
     "Mandawa travel guide, Shekhawati havelis, Mandawa Fort, Marwari merchant havelis, Rajasthan fresco paintings, how to reach Mandawa, Shekhawati region Rajasthan, Nawalgarh Fatehpur havelis",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mandawa Travel Guide: Shekhawati Havelis & Tips",
           description:
-            "Complete Mandawa guide — the frescoed havelis of Shekhawati, Mandawa Fort, the Marwari merchant history behind the murals, how to reach from Jaipur, and a full visit plan.",
+            "Mandawa, Shekhawati: frescoed merchant havelis, Mandawa Fort and the Marwari history behind the murals, how to reach from Jaipur and a 1-2 day plan.",
           image: "https://club.kudozz.in/images/blogs/rajasthan/mandawa/mandawa-fort-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-04",

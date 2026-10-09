@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Tsomgo Lake Guide: Permits & Best Time",
   description:
-    "Complete Tsomgo Lake (Changu Lake) guide — permits, yak rides, seasonal changes, best time to visit, and how to combine it with Nathula Pass on a day trip from Gangtok.",
+    "Tsomgo (Changu) Lake: permits, yak rides, the seasons, best time and combining it with Nathula on a day trip from Gangtok.",
   keywords:
     "Tsomgo Lake travel guide, Changu Lake, Sikkim glacial lake, Tsomgo Lake permit, yak ride Sikkim, how to reach Tsomgo Lake, Tsomgo Lake best time",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Tsomgo Lake Guide: Permits & Best Time",
           description:
-            "Complete Tsomgo Lake (Changu Lake) guide — permits, yak rides, seasonal changes, best time to visit, and how to combine it with Nathula Pass on a day trip from Gangtok.",
+            "Tsomgo (Changu) Lake: permits, yak rides, the seasons, best time and combining it with Nathula on a day trip from Gangtok.",
           image: "https://club.kudozz.in/images/blogs/sikkim/tsomgo-lake/tsomgo-lake.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

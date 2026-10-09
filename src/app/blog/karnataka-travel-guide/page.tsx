@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Karnataka Travel Guide: Bangalore, Mysore & Hampi",
   description:
-    "The complete Karnataka travel guide — Bangalore's tech-city energy, Mysore's royal palaces, the Vijayanagara ruins of Hampi, Coorg's coffee hills, Gokarna's beaches, coastal Mangalore, Hoysala temples at Belur & Halebidu, where to stay and eat, and a full 8-9 day itinerary across the state.",
+    "Karnataka travel guide: Bangalore, Mysore's palaces, Hampi, Coorg, Gokarna and the Hoysala temples, best time, where to stay and a 9-day itinerary.",
   keywords:
     "Karnataka travel guide, Bangalore travel, Mysore Palace, Hampi Karnataka, Coorg Karnataka, Gokarna beaches, Mangalore coastal Karnataka, Chikmagalur coffee, Belur Halebidu Hoysala temples, Karnataka itinerary, South India travel, best time to visit Karnataka, how to reach Bangalore, Karnataka 9 day itinerary, Karnataka budget trip, distance Bangalore to Hampi, things to do in Karnataka",
   openGraph: {

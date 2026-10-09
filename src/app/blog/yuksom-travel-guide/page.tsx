@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Yuksom Travel Guide: Sikkim's First Capital",
   description:
-    "Complete Yuksom guide — the Norbugang coronation site, Dubdi Monastery, the Dzongri-Goecha La trek gateway into Kanchenjunga National Park, how to reach from Gangtok, and a full visit plan.",
+    "Yuksom, West Sikkim: Norbugang coronation site, Dubdi Monastery and the gateway to the Dzongri and Goecha La treks, how to reach and a plan.",
   keywords:
     "Yuksom travel guide, Yuksom Sikkim, Norbugang, Dubdi Monastery, Goecha La trek, Dzongri trek, Kanchenjunga National Park, first capital of Sikkim, how to reach Yuksom, West Sikkim",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Yuksom Travel Guide: Sikkim's First Capital",
           description:
-            "Complete Yuksom guide — the Norbugang coronation site, Dubdi Monastery, the Dzongri-Goecha La trek gateway into Kanchenjunga National Park, how to reach from Gangtok, and a full visit plan.",
+            "Yuksom, West Sikkim: Norbugang coronation site, Dubdi Monastery and the gateway to the Dzongri and Goecha La treks, how to reach and a plan.",
           image: "https://club.kudozz.in/images/blogs/sikkim/yuksom/yuksom.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

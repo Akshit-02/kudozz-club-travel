@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Lucknow Travel Guide: Nawabi Heritage & Food",
   description:
-    "Complete Lucknow travel guide — Bara Imambara and the Bhul Bhulaiya, Chota Imambara, Rumi Darwaza, the Residency, Chikankari shopping, and the city's legendary Awadhi street food.",
+    "Lucknow guide: Bara Imambara and the Bhul Bhulaiya, Chota Imambara, Rumi Darwaza, the Residency, chikankari shopping and Awadhi food, with a plan.",
   keywords:
     "Lucknow travel guide, City of Nawabs, Bara Imambara, Bhul Bhulaiya, Chota Imambara, Rumi Darwaza, Lucknow Residency, Chikankari embroidery, Hazratganj, Chowk Lucknow, Awadhi biryani, galouti kebab, Lucknow street food, Lucknow tehzeeb, Charbagh railway station, Uttar Pradesh travel guide",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Lucknow Travel Guide: Nawabi Heritage & Food",
           description:
-            "Complete Lucknow travel guide — Bara Imambara and the Bhul Bhulaiya, Chota Imambara, Rumi Darwaza, the Residency, Chikankari shopping, and the city's legendary Awadhi street food.",
+            "Lucknow guide: Bara Imambara and the Bhul Bhulaiya, Chota Imambara, Rumi Darwaza, the Residency, chikankari shopping and Awadhi food, with a plan.",
           image: "https://club.kudozz.in/images/blogs/uttar-pradesh/lucknow/bara-imambara-lucknow.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

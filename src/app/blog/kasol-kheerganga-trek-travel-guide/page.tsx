@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Kasol & Kheerganga Trek Guide: The Complete Parvati Valley Trail" },
   description:
-    "The complete guide to Kasol and the Kheerganga trek. Everything you need — how to get there, the trek route, camping at Kheerganga hot springs, Chalal, Tosh, Malana, where to stay, best cafes, and honest tips for the Parvati Valley trail.",
+    "Kasol and the Kheerganga trek: the route, hot springs and camping, Chalal, Tosh and Malana, where to stay, cafes and a 5-day Parvati Valley plan.",
   keywords:
     "Kasol travel guide, Kheerganga trek, Parvati Valley, Kasol cafes, Tosh village, Malana village, Kheerganga hot springs, Himachal Pradesh trek, Kasol itinerary, Barshaini trek, best time to visit Kasol, how to reach Kasol from Delhi, Kheerganga trek distance, is Kheerganga trek difficult, Kasol Kheerganga budget trip, Kheerganga trek difficulty level",
   openGraph: {

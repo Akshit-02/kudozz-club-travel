@@ -60,7 +60,7 @@ function ArticleSchema() {
             "Complete Reiek guide — the Reiek Tlang viewpoint, the traditional Mizo heritage village, light trekking, how to reach from Aizawl, and a full visit plan.",
           image: "https://club.kudozz.in/images/blogs/mizoram/reiek/reiek.webp",
           datePublished: "2026-09-04",
-          dateModified: "2026-09-04",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -295,6 +295,12 @@ export default function ReiekGuidePage() {
                   <ul>
                     <li><strong>By road from Aizawl:</strong> Roughly an hour's drive on winding hill roads — the standard, straightforward route.</li>
                   </ul>
+                  <div
+                    className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    <strong>📋 Inner Line Permit:</strong> Indian visitors from outside Mizoram need an Inner Line Permit (ILP) to enter the state. Apply on the Mizoram government's official portal (ilp.mizoram.gov.in) before you travel and carry a copy. Foreign nationals need a Protected Area Permit, which was reinstated for Mizoram in December 2024.
+                  </div>
                   <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                     <strong>💡 Pro Tip:</strong> Leave Aizawl early if you want to catch the clearest morning visibility from the peak before haze builds later in the day.
                   </div>

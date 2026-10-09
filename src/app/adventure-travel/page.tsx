@@ -13,7 +13,7 @@ import { getDestinationProfile } from "@/lib/destination-profiles";
 import { SITE_URL } from "@/lib/site";
 
 const URL = `${SITE_URL}/adventure-travel`;
-const TITLE = "Adventure Travel in India: Activities, Destinations & Seasons | Kudozz Club";
+const TITLE = "Adventure Travel in India: Activities, Destinations & Seasons";
 const DESCRIPTION =
   "Adventure travel in India: trekking, rafting, paragliding, diving, skiing and more, with the best destinations, seasons, beginner options and trip planning.";
 const HERO = {

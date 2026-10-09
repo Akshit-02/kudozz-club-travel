@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Amarkantak Travel Guide: Source of the Narmada & Son Rivers" },
   description:
-    "The complete Amarkantak travel guide. Narmada Kund, Sonmuda, Kapil Dhara Falls, Mai ki Bagiya, where to stay, best time to visit, and a full itinerary through this plateau pilgrimage town in the Maikal Hills.",
+    "Amarkantak guide: the source of the Narmada and Son rivers, Narmada Kund, Kapil Dhara falls and Sonmuda, best time, where to stay and a 2-day plan.",
   keywords:
     "Amarkantak travel guide, Narmada Kund, Sonmuda, Kapil Dhara Falls, source of Narmada river, source of Son river, best time to visit Amarkantak, how to reach Amarkantak, Maikal Hills, Madhya Pradesh pilgrimage",
   openGraph: {

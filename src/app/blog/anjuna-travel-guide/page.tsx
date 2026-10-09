@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Anjuna Travel Guide: Flea Market, Cliffs & Trance Party Legacy" },
   description:
-    "The complete Anjuna travel guide. The Wednesday flea market, rocky cliff coastline, trance-music history, Curlies and beach shacks, where to stay, best time to visit, and a full itinerary.",
+    "Anjuna, North Goa: the Wednesday flea market, cliffside coves, beach shacks and its trance-era story, best time, where to stay and a 2-day plan.",
   keywords:
     "Anjuna travel guide, Anjuna flea market, Anjuna beach Goa, Goa trance music history, Curlies Anjuna, best time to visit Anjuna, how to reach Anjuna, North Goa beaches",
   openGraph: {

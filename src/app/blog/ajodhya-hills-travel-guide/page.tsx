@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Ajodhya Hills Travel Guide: Trekking & Tribal Culture" },
   description:
-    "Complete Ajodhya Hills guide — Bamni Falls, Turga Falls, Murguma Dam, Marble Lake, trekking trails, Chhau dance heritage, how to reach from Purulia, and a full visit plan.",
+    "Ajodhya Hills guide: Bamni and Turga falls, Marble Lake, treks and Chhau dance heritage in Purulia, how to reach and a 2–3 day plan.",
   keywords:
     "Ajodhya Hills travel guide, Purulia hill station, Bamni Falls, Turga Falls, Murguma Dam, Baghmundi, Marble Lake Khairabera, Chhau dance Purulia, Gorgaburu peak, trekking West Bengal, Santhal tribal culture, how to reach Ajodhya Hills",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Ajodhya Hills Travel Guide: Trekking & Tribal Culture",
           description:
-            "Complete Ajodhya Hills guide — Bamni Falls, Turga Falls, Murguma Dam, Marble Lake, trekking trails, Chhau dance heritage, how to reach from Purulia, and a full visit plan.",
+            "Ajodhya Hills guide: Bamni and Turga falls, Marble Lake, treks and Chhau dance heritage in Purulia, how to reach and a 2–3 day plan.",
           image: "https://club.kudozz.in/images/blogs/west-bengal/ajodhya-hills/ajodhya-hills-forested-plateau-baghmundi.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

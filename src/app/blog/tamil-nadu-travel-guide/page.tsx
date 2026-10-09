@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Tamil Nadu Travel Guide: Madurai, Mahabalipuram & Ooty" },
   description:
-    "The complete Tamil Nadu travel guide — Madurai's Meenakshi Temple, Mahabalipuram's UNESCO shore temples, Thanjavur's Brihadeeswarar Temple, Ooty's tea gardens, Chennai, where to stay and eat, and a full itinerary through the heart of Dravidian India.",
+    "Tamil Nadu travel guide: Madurai, Mahabalipuram, Thanjavur, Rameswaram, Kanyakumari and Ooty, best time, where to stay and a 7-day itinerary.",
   keywords:
     "Tamil Nadu travel guide, Meenakshi Temple Madurai, Mahabalipuram shore temple, Thanjavur Brihadeeswarar Temple, Ooty travel guide, Chennai travel guide, Kanyakumari, Rameswaram, Tamil Nadu itinerary, Chettinad food, best time to visit Tamil Nadu, how to reach Madurai from Chennai, Tamil Nadu 7 day itinerary, is Tamil Nadu safe for solo travellers, Tamil Nadu trip budget, top things to do in Tamil Nadu, Nilgiri Mountain Railway tickets, Ooty vs Kodaikanal, is Tamil Nadu worth visiting",
   openGraph: {

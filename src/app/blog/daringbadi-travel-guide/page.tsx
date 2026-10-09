@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Daringbadi Guide: The Kashmir of Odisha",
   description:
-    "Complete Daringbadi guide — pine forests, coffee plantations, winter frost, Dosingh Waterfall, Kondh tribal culture, how to reach from Bhubaneswar, and a full visit plan.",
+    "Daringbadi, the 'Kashmir of Odisha': pine forests, coffee plantations, winter frost, waterfalls and Kondh culture, how to reach and a 2-day plan.",
   keywords:
     "Daringbadi travel guide, Kashmir of Odisha, Kandhamal district, Daringbadi coffee plantation, Dosingh Waterfall, Belghar, Kondh tribe, how to reach Daringbadi, Odisha hill station",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Daringbadi Guide: The Kashmir of Odisha",
           description:
-            "Complete Daringbadi guide — pine forests, coffee plantations, winter frost, Dosingh Waterfall, Kondh tribal culture, how to reach from Bhubaneswar, and a full visit plan.",
+            "Daringbadi, the 'Kashmir of Odisha': pine forests, coffee plantations, winter frost, waterfalls and Kondh culture, how to reach and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/odisha/daringbadi/daringbadi-hill-road.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

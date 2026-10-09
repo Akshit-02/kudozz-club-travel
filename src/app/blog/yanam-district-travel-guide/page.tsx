@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Yanam District Travel Guide: Godavari Delta & French Heritage" },
   description:
-    "The complete Yanam District travel guide — St. Ann's Church, Yanam Ferry Road, the Godavari River, Yanam Tower, Rajiv Gandhi Beach and Yanam's French colonial heritage, plus the quiet Godavari delta villages of Mettakur, Kolanka, and Kanakalapeta.",
+    "Yanam, Puducherry's enclave on the Godavari: St. Ann's Church, the riverfront and Yanam Tower, French heritage, delta villages and a 2-day plan.",
   keywords:
     "Yanam district travel guide, Yanam Andhra Pradesh, St. Ann's Church Yanam, Yanam ferry road, Godavari river Yanam, Yanam tower, Rajiv Gandhi beach Yanam, Mettakur, Kolanka, Kanakalapeta, French colonial India, Puducherry union territory, how to reach Yanam from Kakinada, best time to visit Yanam, Yanam 2 day itinerary, Yanam budget trip, is Yanam worth visiting, Godavari delta villages Andhra Pradesh",
   openGraph: {

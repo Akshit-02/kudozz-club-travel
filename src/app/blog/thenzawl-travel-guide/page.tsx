@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Thenzawl Travel Guide: Handloom & Tips",
   description:
-    "Complete Thenzawl guide — Mizo puan handloom weaving, one of Mizoram's only golf courses, and the practical base for Tamdil Lake and Vantawng Falls, how to reach from Aizawl, and a full visit plan.",
+    "Thenzawl, central Mizoram: puan handloom weaving, the golf course and the base for Tamdil Lake and Vantawng Falls, how to reach and a plan.",
   keywords:
     "Thenzawl travel guide, Thenzawl Mizoram, Mizo puan weaving, Thenzawl golf course, Tamdil Lake base, Vantawng Falls base, how to reach Thenzawl, central Mizoram circuit",
   openGraph: {
@@ -61,10 +61,10 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Thenzawl Travel Guide: Handloom & Tips",
           description:
-            "Complete Thenzawl guide — Mizo puan handloom weaving, one of Mizoram's only golf courses, and the practical base for Tamdil Lake and Vantawng Falls, how to reach from Aizawl, and a full visit plan.",
+            "Thenzawl, central Mizoram: puan handloom weaving, the golf course and the base for Tamdil Lake and Vantawng Falls, how to reach and a plan.",
           image: "https://club.kudozz.in/images/blogs/mizoram/thenzawl/thenzawl-hillside-log-cottages.webp",
           datePublished: "2026-09-04",
-          dateModified: "2026-09-30",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -406,6 +406,12 @@ export default function ThenzawlGuidePage() {
                       road transfer onward to Thenzawl.
                     </li>
                   </ul>
+                  <div
+                    className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    <strong>📋 Inner Line Permit:</strong> Indian visitors from outside Mizoram need an Inner Line Permit (ILP) to enter the state. Apply on the Mizoram government's official portal (ilp.mizoram.gov.in) before you travel and carry a copy. Foreign nationals need a Protected Area Permit, which was reinstated for Mizoram in December 2024.
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}

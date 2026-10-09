@@ -16,7 +16,7 @@ const HERO_IMAGE =
 export const metadata: Metadata = {
   title: "Things to Do in Ranthambore for First-Time Visitors",
   description:
-    "A first-time visitor's honest account of Ranthambore — the safari that finally delivered a tigress near Padam Talao, the climb up Ranthambore Fort almost skipped, a chai stop in Sawai Madhopur, and a half-day at Chambal Gharial Sanctuary.",
+    "A first-timer's account of Ranthambore: a safari that found a tigress near Padam Talao, the fort, a chai stop in Sawai Madhopur and Chambal's gharials.",
   keywords:
     "things to do in Ranthambore, Ranthambore first time visitor, Ranthambore safari experience, Ranthambore Fort, Padam Talao, Sawai Madhopur, Chambal Gharial Sanctuary, Ranthambore Tiger Machan",
   openGraph: {
@@ -65,7 +65,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Things to Do in Ranthambore for First-Time Visitors",
           description:
-            "A first-time visitor's honest account of Ranthambore — the safari that finally delivered a tigress near Padam Talao, the climb up Ranthambore Fort almost skipped, a chai stop in Sawai Madhopur, and a half-day at Chambal Gharial Sanctuary.",
+            "A first-timer's account of Ranthambore: a safari that found a tigress near Padam Talao, the fort, a chai stop in Sawai Madhopur and Chambal's gharials.",
           image: `https://club.kudozz.in${HERO_IMAGE}`,
           datePublished: "2026-09-14",
           dateModified: "2026-09-14",

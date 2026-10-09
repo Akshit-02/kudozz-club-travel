@@ -14,13 +14,13 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Sanchi Stupa Travel Guide: Buddhist Monuments & History" },
   description:
-    "The complete Sanchi travel guide — the Great Stupa built by Emperor Ashoka, the carved toranas, Stupa No. 2 and No. 3, the Ashoka Pillar, how to reach from Bhopal, a day-trip itinerary, and budget breakdown for India's oldest surviving stone monument.",
+    "Sanchi's Great Stupa, begun under Ashoka: the carved gateways, Stupas 2 and 3, the Ashoka Pillar, how to reach from Bhopal and a day-trip plan.",
   keywords:
     "Sanchi travel guide, Sanchi Stupa, Great Stupa Sanchi, Ashoka Sanchi, Sanchi toranas, Buddhist monuments Madhya Pradesh, Sanchi UNESCO, how to reach Sanchi from Bhopal, Sanchi day trip, Sanchi Bhimbetka itinerary, Sanchi Archaeological Museum, best time to visit Sanchi",
   openGraph: {
     title: "Sanchi Stupa Travel Guide: Buddhist Monuments & History",
     description:
-      "The oldest stone structure in India still standing, and one of Buddhism's most important surviving monument complexes — the complete guide to Sanchi.",
+      "One of the oldest stone structures still standing in India, and one of Buddhism's most important surviving monument complexes — the complete guide to Sanchi.",
     url: "https://club.kudozz.in/blog/sanchi-travel-guide",
     type: "article",
     siteName: "Kudozz Club",
@@ -59,7 +59,7 @@ function ArticleSchema() {
             "The complete guide to the Sanchi Stupa complex, a UNESCO World Heritage Site of Ashokan-era Buddhist monuments in Madhya Pradesh.",
           image: "https://club.kudozz.in/images/blogs/madhya-pradesh/sanchi/sanchi-stupa.webp",
           datePublished: "2026-09-07",
-          dateModified: "2026-09-07",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -200,7 +200,7 @@ export default function SanchiGuidePage() {
             </h1>
 
             <p className="text-lg text-white/80 max-w-2xl mb-8 leading-relaxed" style={{ fontFamily: "var(--font-source-serif)" }}>
-              The oldest stone structure in India still standing, and one of
+              One of the oldest stone structures still standing in India, and one of
               Buddhism's most important surviving monument complexes —
               everything you need to plan a visit.
             </p>

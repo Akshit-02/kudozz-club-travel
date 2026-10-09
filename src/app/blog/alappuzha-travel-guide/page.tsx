@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Alappuzha (Alleppey) Travel Guide: Houseboats & Backwaters" },
   description:
-    "The complete Alappuzha travel guide. Houseboat stays on the Kerala backwaters, Kuttanad's below-sea-level paddy fields, the Nehru Trophy Snake Boat Race, where to stay, best time to visit, and a full itinerary.",
+    "Alappuzha (Alleppey) guide: choosing a backwater houseboat, Kuttanad's paddy fields, the Nehru Trophy boat race, best time, stays and a 2-day plan.",
   keywords:
     "Alappuzha travel guide, Alleppey backwaters, Alleppey houseboat, Kuttanad, Nehru Trophy Snake Boat Race, best time to visit Alleppey, how to reach Alappuzha, Kerala backwaters itinerary",
   openGraph: {

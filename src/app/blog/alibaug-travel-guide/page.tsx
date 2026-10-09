@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Alibaug Travel Guide: Beaches, Forts & Weekend Getaway" },
   description:
-    "The complete Alibaug travel guide. Kolaba Fort, Alibaug Beach, Murud-Janjira, the Mandwa ferry from Mumbai, where to stay, what to eat, and a 2-day weekend itinerary.",
+    "Alibaug weekend guide: the Mandwa ferry from Mumbai, Kolaba Fort, Murud-Janjira and the beaches, where to stay, what to eat and a 2-day plan.",
   keywords:
     "Alibaug travel guide, Kolaba Fort, Alibaug Beach, Murud Janjira Fort, Mandwa ferry Mumbai, Alibaug itinerary, best time to visit Alibaug, how to reach Alibaug from Mumbai, Alibaug weekend trip, Kashid Beach, Nagaon Beach, Gateway of India ferry",
   openGraph: {

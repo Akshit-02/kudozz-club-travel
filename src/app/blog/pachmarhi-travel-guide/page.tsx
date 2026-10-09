@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Pachmarhi Travel Guide: Waterfalls, Caves & Satpura Hills" },
   description:
-    "The complete Pachmarhi travel guide. Dhoopgarh, Bee Falls, Pandav Caves, Jata Shankar, Chauragarh trek, Satpura National Park, where to stay, best time to visit, and a full 2-day itinerary through Madhya Pradesh's only hill station.",
+    "Pachmarhi, Madhya Pradesh's hill station: Dhoopgarh, Bee Falls, Pandav Caves, Jata Shankar and Satpura, best time, where to stay and a 2-day plan.",
   keywords:
     "Pachmarhi travel guide, Dhoopgarh, Bee Falls Pachmarhi, Pandav Caves, Jata Shankar, Chauragarh trek, Satpura National Park, best time to visit Pachmarhi, how to reach Pachmarhi, Pachmarhi itinerary, Madhya Pradesh hill station",
   openGraph: {

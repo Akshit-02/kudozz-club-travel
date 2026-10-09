@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Vikramshila Travel Guide: Ancient Buddhist University Ruins" },
   description:
-    "The complete Vikramshila travel guide. The Pala-era Buddhist university ruins, the cruciform stupa, Atisha Dipankara's legacy, best time to visit, and a full itinerary.",
+    "Vikramshila, Bihar: the Pala-era Buddhist university ruins, the cruciform stupa, Atisha's legacy, best time and a one-day plan from Bhagalpur.",
   keywords:
     "Vikramshila travel guide, Vikramshila Mahavihara, ancient Buddhist university Bihar, Atisha Dipankara, Pala dynasty Buddhism, best time to visit Vikramshila, how to reach Vikramshila, Bhagalpur",
   openGraph: {

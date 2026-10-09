@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Digha Travel Guide: Beaches, Marine Aquarium & Tips",
   description:
-    "Complete Digha guide — New Digha and Old Digha, the beach promenade, Marine Aquarium & Research Centre, how to reach from Kolkata by train or road, and where to stay.",
+    "Digha guide: New and Old Digha beaches, the promenade and marine aquarium, how to reach from Kolkata by train or road, and where to stay.",
   keywords:
     "Digha, Digha beach, New Digha, Old Digha, Digha Marine Aquarium, Digha Science Centre, Chandaneswar Temple, Shankarpur, Digha how to reach, Digha from Kolkata, West Bengal beach",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Digha Travel Guide: Beaches, Marine Aquarium & Tips",
           description:
-            "Complete Digha guide — New Digha and Old Digha, the beach promenade, Marine Aquarium & Research Centre, how to reach from Kolkata by train or road, and where to stay.",
+            "Digha guide: New and Old Digha beaches, the promenade and marine aquarium, how to reach from Kolkata by train or road, and where to stay.",
           image: "https://club.kudozz.in/images/blogs/west-bengal/digha/new-digha-beach-promenade-boulder-embankment.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

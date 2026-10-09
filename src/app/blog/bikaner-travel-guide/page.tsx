@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Bikaner Travel Guide: Junagarh Fort & Desert",
   description:
-    "Complete Bikaner guide — Junagarh Fort, the Karni Mata rat temple at Deshnoke, camel safaris, old-city havelis, bhujia and local food, how to reach, and a full visit plan.",
+    "Bikaner guide: Junagarh Fort, the Karni Mata temple at Deshnoke, camel country, old-city havelis and bhujia, how to reach and a 2-day plan.",
   keywords:
     "Bikaner travel guide, Junagarh Fort, Karni Mata Temple rat temple, Deshnoke, Bikaner camel safari, Bikaner bhujia, Bikaner havelis, how to reach Bikaner, Rajasthan desert cities",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bikaner Travel Guide: Junagarh Fort & Desert",
           description:
-            "Complete Bikaner guide — Junagarh Fort, the Karni Mata rat temple at Deshnoke, camel safaris, old-city havelis, bhujia and local food, how to reach, and a full visit plan.",
+            "Bikaner guide: Junagarh Fort, the Karni Mata temple at Deshnoke, camel country, old-city havelis and bhujia, how to reach and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/rajasthan/bikaner/junagarh-fort-bikaner-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-04",

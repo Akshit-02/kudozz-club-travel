@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Dharamshala Travel Guide: McLeod Ganj, Triund & More" },
   description:
-    "The complete Dharamshala travel guide. McLeod Ganj, the Dalai Lama's temple complex, the Triund trek, Bhagsu Falls, where to stay, best time to visit, and a full itinerary.",
+    "Dharamshala and McLeod Ganj guide: the Dalai Lama temple complex, the Triund trek, Bhagsu Falls, best time, where to stay and a 3-day plan.",
   keywords:
     "Dharamshala travel guide, McLeod Ganj, Triund trek, Dalai Lama temple, Bhagsu Falls, best time to visit Dharamshala, how to reach Dharamshala, Dhauladhar range trekking",
   openGraph: {

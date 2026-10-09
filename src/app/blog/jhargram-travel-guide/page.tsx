@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Jhargram Travel Guide: Forests, Palace & Deer Park",
   description:
-    "Complete Jhargram guide — the Raj Palace, Deer Park, Kanak Durga Temple, Belpahari's forests, how to reach from Kolkata by train, where to stay, and a full visit plan.",
+    "Jhargram, West Bengal: the Raj Palace, Deer Park, Kanak Durga Temple and Belpahari's forests, the train from Kolkata, where to stay and a plan.",
   keywords:
     "Jhargram travel guide, Jhargram Raj Palace, Jhargram Deer Park, Chidiya More, Kanak Durga Temple, Chilkigarh, Belpahari, Gadrasini hills, Jangalmahal, sal forest West Bengal, how to reach Jhargram, Santhal tribal villages",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Jhargram Travel Guide: Forests, Palace & Deer Park",
           description:
-            "Complete Jhargram guide — the Raj Palace, Deer Park, Kanak Durga Temple, Belpahari's forests, how to reach from Kolkata by train, where to stay, and a full visit plan.",
+            "Jhargram, West Bengal: the Raj Palace, Deer Park, Kanak Durga Temple and Belpahari's forests, the train from Kolkata, where to stay and a plan.",
           image: "https://club.kudozz.in/images/blogs/west-bengal/jhargram/chilkigarh-raj-palace-facade-jhargram.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-10",

@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Athirappilly Falls Travel Guide: Best Time & How to Visit" },
   description:
-    "The complete Athirappilly Falls travel guide. Kerala's biggest waterfall, Vazhachal Falls, the surrounding rainforest, where to stay, best time to visit, and a full day-trip itinerary from Kochi or Thrissur.",
+    "Athirappilly Falls, Kerala's largest waterfall: Vazhachal Falls, the rainforest around them, the best season, where to stay and a day trip from Kochi.",
   keywords:
     "Athirappilly Falls travel guide, Kerala Niagara, Vazhachal Falls, Chalakudy River waterfall, best time to visit Athirappilly, how to reach Athirappilly, Athirappilly day trip from Kochi",
   openGraph: {

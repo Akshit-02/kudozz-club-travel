@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Haridwar Travel Guide: Ganga Aarti, Ghats & Temples",
   description:
-    "Complete Haridwar guide — Har Ki Pauri's Ganga Aarti, Mansa Devi & Chandi Devi temples, the Kumbh Mela, how to reach, where to stay, and its role as gateway to Char Dham and Rishikesh.",
+    "Haridwar guide: the Ganga Aarti at Har Ki Pauri, Mansa Devi and Chandi Devi, the Kumbh Mela, where to stay and Haridwar as the Char Dham gateway.",
   keywords:
     "Haridwar travel guide, Har Ki Pauri, Ganga Aarti Haridwar, Mansa Devi Temple, Chandi Devi Temple, Haridwar Kumbh Mela, Char Dham gateway, Haridwar to Rishikesh, Haridwar Junction, Maya Devi Temple, Haridwar best time to visit, Sapta Puri, Uttarakhand pilgrimage",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Haridwar Travel Guide: Ganga Aarti, Ghats & Temples",
           description:
-            "Complete Haridwar guide — Har Ki Pauri's Ganga Aarti, Mansa Devi & Chandi Devi temples, the Kumbh Mela, how to reach, where to stay, and its role as gateway to Char Dham and Rishikesh.",
+            "Haridwar guide: the Ganga Aarti at Har Ki Pauri, Mansa Devi and Chandi Devi, the Kumbh Mela, where to stay and Haridwar as the Char Dham gateway.",
           image:
             "https://club.kudozz.in/images/blogs/uttarakhand/haridwar/evening-ganga-aarti-har-ki-pauri.webp",
           datePublished: "2026-09-02",

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Punjab Travel Guide: Golden Temple, Amritsar & Wagah Border" },
   description:
-    "The complete Punjab travel guide — the Golden Temple and langar, Jallianwala Bagh, the Wagah Border ceremony, Anandpur Sahib, Punjabi food, where to stay, and a full itinerary through the land of five rivers.",
+    "Punjab travel guide: Amritsar's Golden Temple and langar, Jallianwala Bagh, the Wagah Border ceremony, Patiala, Anandpur Sahib and a 3-day itinerary.",
   keywords:
     "Punjab travel guide, Golden Temple Amritsar, Wagah Border ceremony, Jallianwala Bagh, Amritsar travel guide, Anandpur Sahib, Punjabi food, Amritsari kulcha, Punjab itinerary, best time to visit Punjab, how to reach Amritsar from Delhi, Punjab trip budget, is Amritsar safe for solo travellers, things to do in Amritsar, Golden Temple langar timings, Wagah Border ceremony timing, Punjab 3 day itinerary, Patiala travel guide, Partition Museum Amritsar, is Punjab worth visiting",
   openGraph: {

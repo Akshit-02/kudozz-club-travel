@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Bundi Travel Guide: Stepwells, Palace & Murals",
   description:
-    "Complete Bundi guide — Bundi Palace's miniature murals, Taragarh Fort, Raniji ki Baori and the town's famous stepwells, the 84-Pillared Cenotaph, how to reach, and a full visit plan.",
+    "Bundi guide: the palace murals, Taragarh Fort, Raniji ki Baori and other stepwells, the 84-pillared cenotaph, how to reach and a 2-day plan.",
   keywords:
     "Bundi travel guide, Bundi Palace murals, Taragarh Fort, Raniji ki Baori, Bundi stepwells, 84 Pillared Cenotaph, Blue City Rajasthan, how to reach Bundi, Bundi vs Jodhpur",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bundi Travel Guide: Stepwells, Palace & Murals",
           description:
-            "Complete Bundi guide — Bundi Palace's miniature murals, Taragarh Fort, Raniji ki Baori and the town's famous stepwells, the 84-Pillared Cenotaph, how to reach, and a full visit plan.",
+            "Bundi guide: the palace murals, Taragarh Fort, Raniji ki Baori and other stepwells, the 84-pillared cenotaph, how to reach and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/rajasthan/bundi/bundi.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-04",

@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Khajjiar Travel Guide: Mini Switzerland of India",
   description:
-    "The complete Khajjiar travel guide. The saucer-shaped meadow, Khajji Nag Temple, Kalatop Wildlife Sanctuary, where to stay, best time to visit, and a full day-trip itinerary from Dalhousie.",
+    "Khajjiar, near Dalhousie: the saucer-shaped meadow, Khajji Nag Temple and Kalatop sanctuary, best time, where to stay and a half-day plan.",
   keywords:
     "Khajjiar travel guide, Mini Switzerland India, Khajji Nag Temple, Kalatop Wildlife Sanctuary, best time to visit Khajjiar, how to reach Khajjiar, Khajjiar Dalhousie",
   openGraph: {

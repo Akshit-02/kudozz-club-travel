@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Prayagraj Travel Guide: Triveni Sangam & Kumbh Mela",
   description:
-    "Complete Prayagraj (Allahabad) travel guide — the Triveni Sangam, Kumbh Mela's 12-year cycle, Allahabad Fort, Anand Bhavan, Khusro Bagh, how to reach, and a full visit plan.",
+    "Prayagraj (Allahabad): Triveni Sangam, the Kumbh cycle, Allahabad Fort, Anand Bhavan and Khusro Bagh, how to reach and a 1-2 day plan.",
   keywords:
     "Prayagraj travel guide, Allahabad, Triveni Sangam, Kumbh Mela, Magh Mela, Allahabad Fort, Anand Bhavan, Khusro Bagh, how to reach Prayagraj, Prayagraj Junction",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Prayagraj Travel Guide: Triveni Sangam & Kumbh Mela",
           description:
-            "Complete Prayagraj (Allahabad) travel guide — the Triveni Sangam, Kumbh Mela's 12-year cycle, Allahabad Fort, Anand Bhavan, Khusro Bagh, how to reach, and a full visit plan.",
+            "Prayagraj (Allahabad): Triveni Sangam, the Kumbh cycle, Allahabad Fort, Anand Bhavan and Khusro Bagh, how to reach and a 1-2 day plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttar-pradesh/prayagraj/triveni-sangam-boats-prayagraj.webp",
           datePublished: "2026-09-03",

@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Sikkim Travel Guide: Gangtok, Yumthang Valley & Nathula Pass" },
   description:
-    "The complete Sikkim travel guide — Gangtok, Tsomgo Lake and Nathula Pass, Yumthang Valley's flower fields, Pelling's Kanchenjunga views, permits explained, where to stay and eat, and a full itinerary through India's cleanest, most organised Himalayan state.",
+    "Sikkim travel guide: Gangtok, Tsomgo Lake and Nathula, Yumthang and Lachung, Pelling's Kanchenjunga views, permits explained and a 6-day itinerary.",
   keywords:
     "Sikkim travel guide, Gangtok travel guide, Tsomgo Lake, Nathula Pass, Yumthang Valley, Pelling, Kanchenjunga view, Rumtek Monastery, Gurudongmar Lake, Sikkim permit, Sikkim itinerary, best time to visit Sikkim, how to reach Gangtok from Bagdogra, Sikkim 6 day itinerary, is Sikkim safe for solo travellers, Sikkim trip budget, top things to do in Sikkim, Sikkim permit requirements, Sikkim vs Darjeeling, is Sikkim worth visiting",
   openGraph: {

@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Agroha Travel Guide: Ancient Mound & Agroha Dham",
   description:
-    "The complete Agroha travel guide. The Agroha archaeological mound, Agroha Dham (Maharaja Agrasen Mandir), the Agarwal community's ancestral heritage, how to reach, and a practical half-day itinerary.",
+    "Agroha travel guide: the ancient archaeological mound, Agroha Dham and the Agarwal community's heritage, how to reach and a half-day plan.",
   keywords:
     "Agroha travel guide, Agroha Dham, Agroha Tila, Maharaja Agrasen Mandir, Agarwal community heritage, Agroha archaeological museum, how to reach Agroha, Hisar Agroha",
   openGraph: {

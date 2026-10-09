@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Nameri National Park Travel Guide: Rafting & Birdwatching" },
   description:
-    "The complete Nameri National Park travel guide. Jia Bhoroli river rafting, white-winged wood duck birdwatching, guided nature walks, where to stay, best time to visit, and a full itinerary.",
+    "Nameri National Park, Assam: rafting on the Jia Bhoroli, birding for the white-winged wood duck, guided walks, where to stay and a 2-day plan.",
   keywords:
     "Nameri National Park travel guide, Jia Bhoroli rafting, Nameri birdwatching, white-winged wood duck, best time to visit Nameri, how to reach Nameri, Assam river rafting, Tezpur national park",
   openGraph: {

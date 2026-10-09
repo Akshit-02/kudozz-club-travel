@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Lachen Travel Guide: Gateway to Gurudongmar",
   description:
-    "Complete Lachen guide — the North Sikkim base village, Lachen Monastery, Thangu Valley, permits, how to reach from Gangtok, and acclimatizing before Gurudongmar Lake.",
+    "Lachen, North Sikkim: the base village for Gurudongmar Lake, the monastery, Thangu Valley, permits, how to reach from Gangtok and acclimatising.",
   keywords:
     "Lachen travel guide, Lachen Sikkim, North Sikkim permit, Lachen Monastery, Thangu Valley, Gurudongmar Lake base, how to reach Lachen, North Sikkim circuit",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Lachen Travel Guide: Gateway to Gurudongmar",
           description:
-            "Complete Lachen guide — the North Sikkim base village, Lachen Monastery, Thangu Valley, permits, how to reach from Gangtok, and acclimatizing before Gurudongmar Lake.",
+            "Lachen, North Sikkim: the base village for Gurudongmar Lake, the monastery, Thangu Valley, permits, how to reach from Gangtok and acclimatising.",
           image: "https://club.kudozz.in/images/blogs/sikkim/lachen/lachen.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

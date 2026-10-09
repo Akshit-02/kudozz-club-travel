@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Govardhan Travel Guide: Hill, Parikrama & Temples",
   description:
-    "Complete Govardhan travel guide — the sacred Govardhan Hill, the 23km Govardhan Parikrama, Radha Kund, Mansi Ganga, Daan Ghati Temple, how to reach, and a full visit plan.",
+    "Govardhan guide: the sacred hill and its 23 km parikrama, Radha Kund, Mansi Ganga and Daan Ghati temple, how to reach and a day-trip plan.",
   keywords:
     "Govardhan travel guide, Govardhan Hill, Govardhan Parikrama, Radha Kund, Shyam Kund, Mansi Ganga, Daan Ghati Temple, Govardhan Puja, Braj region, how to reach Govardhan",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Govardhan Travel Guide: Hill, Parikrama & Temples",
           description:
-            "Complete Govardhan travel guide — the sacred Govardhan Hill, the 23km Govardhan Parikrama, Radha Kund, Mansi Ganga, Daan Ghati Temple, how to reach, and a full visit plan.",
+            "Govardhan guide: the sacred hill and its 23 km parikrama, Radha Kund, Mansi Ganga and Daan Ghati temple, how to reach and a day-trip plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttar-pradesh/govardhan/govardhan-hill-sandstone-outcrop-braj.webp",
           datePublished: "2026-09-03",

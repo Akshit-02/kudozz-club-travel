@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kasauli Travel Guide: Quiet Cantonment Hill Town Near Chandigarh" },
   description:
-    "The complete Kasauli travel guide. Monkey Point, Christ Church, Sunset Point, Sanawar, where to stay, best time to visit, and a full itinerary for this quiet colonial-era cantonment town.",
+    "Kasauli guide: Monkey Point, Christ Church, Sunset Point and Sanawar in a quiet cantonment town, best time, where to stay and a 2-day plan.",
   keywords:
     "Kasauli travel guide, Monkey Point Kasauli, Christ Church Kasauli, Sunset Point, Kasauli Brewery, best time to visit Kasauli, how to reach Kasauli, Kasauli from Chandigarh",
   openGraph: {

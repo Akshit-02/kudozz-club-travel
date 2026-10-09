@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Pobitora Wildlife Sanctuary Guide: Rhinos Near Guwahati" },
   description:
-    "The complete Pobitora Wildlife Sanctuary travel guide. Jeep and elephant safaris, one-horned rhinos, day-trip logistics from Guwahati, best time to visit, and a full itinerary.",
+    "Pobitora Wildlife Sanctuary near Guwahati: dense one-horned rhino populations, jeep and elephant safaris, best time and an easy half-day trip.",
   keywords:
     "Pobitora Wildlife Sanctuary travel guide, Pobitora rhino safari, one horned rhino Assam, best time to visit Pobitora, how to reach Pobitora, Guwahati day trip safari",
   openGraph: {

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Jageshwar Temple Travel Guide: History & Visit Tips",
   description:
-    "Complete Jageshwar guide — the cluster of roughly 124 ancient stone temples in a deodar forest, Dandeshwar & Kuber temples, Vriddha Jageshwar, how to reach, where to stay, and a full visit plan.",
+    "Jageshwar, Almora: about 124 stone temples in a deodar forest, Dandeshwar and Vriddha Jageshwar, how to reach, where to stay and a half-day plan.",
   keywords:
     "Jageshwar, Jageshwar temple, Jageshwar Uttarakhand, Jageshwar travel guide, Jageshwar Jyotirlinga, Dandeshwar temple, Vriddha Jageshwar, Jageshwar Monsoon Festival, how to reach Jageshwar, Almora temples, Katyuri era temples",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Jageshwar Temple Travel Guide: History & Visit Tips",
           description:
-            "Complete Jageshwar guide — the cluster of roughly 124 ancient stone temples in a deodar forest, Dandeshwar & Kuber temples, Vriddha Jageshwar, how to reach, where to stay, and a full visit plan.",
+            "Jageshwar, Almora: about 124 stone temples in a deodar forest, Dandeshwar and Vriddha Jageshwar, how to reach, where to stay and a half-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttarakhand/jageshwar/ancient-stone-temple-cluster-jageshwar.webp",
           datePublished: "2026-09-02",

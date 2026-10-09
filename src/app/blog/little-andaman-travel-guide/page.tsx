@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Little Andaman Travel Guide: Butler Bay, Surfing & Tips" },
   description:
-    "Complete Little Andaman guide — Butler Bay's surf breaks, White Surf and Whisper Wave waterfalls, and the long ferry crossing from Port Blair. Best time, how to reach, and what to expect on India's most remote surf island.",
+    "Little Andaman: surfing at Butler Bay, the White Surf and Whisper Wave waterfalls, the long ferry from Port Blair, best time and a 2-3 day plan.",
   keywords:
     "Little Andaman travel guide, Butler Bay Beach, Little Andaman surfing, White Surf Waterfall, Whisper Wave Waterfall, Little Andaman ferry, Little Andaman how to reach, Onge tribe Andaman, Netaji Nagar Beach, offbeat Andaman islands, Little Andaman itinerary",
   openGraph: {

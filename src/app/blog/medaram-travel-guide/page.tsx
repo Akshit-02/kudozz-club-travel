@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Medaram Jatara Guide: Sammakka Saralamma Festival",
   description:
-    "Complete Medaram guide — the biennial Sammakka Saralamma Jatara, one of the world's largest tribal gatherings, the legend behind it, how to reach Mulugu district, and what to expect on and off festival years.",
+    "Medaram's Sammakka Saralamma Jatara, Telangana's biennial tribal festival: the legend, how to reach Mulugu and what to expect in and out of festival years.",
   keywords:
     "Medaram Jatara, Sammakka Saralamma Jatara, Medaram Telangana, tribal festival India, Mulugu district, Koya community festival, biennial jatara, how to reach Medaram, Dandakaranya forest",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Medaram Jatara Guide: Sammakka Saralamma Festival",
           description:
-            "Complete Medaram guide — the biennial Sammakka Saralamma Jatara, one of the world's largest tribal gatherings, the legend behind it, how to reach Mulugu district, and what to expect on and off festival years.",
+            "Medaram's Sammakka Saralamma Jatara, Telangana's biennial tribal festival: the legend, how to reach Mulugu and what to expect in and out of festival years.",
           image: "https://club.kudozz.in/images/blogs/telangana/medaram/sammakka-gadde-shrine-jatara-crowd-medaram.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

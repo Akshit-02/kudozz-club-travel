@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Tso Moriri Travel Guide: Ladakh's High-Altitude Lake" },
   description:
-    "The complete guide to Tso Moriri — Ladakh's remote Rupshu plateau lake at 4,522m. How to reach it, permits, Korzok village, Tso Kar, wildlife, homestays, a 2-day itinerary, and essential tips.",
+    "Tso Moriri, Ladakh: the Rupshu plateau lake at 4,522 m, permits, Korzok village, Tso Kar, wildlife, homestays and a 2-day itinerary.",
   keywords:
     "Tso Moriri, Tso Moriri Ladakh, Rupshu plateau, Korzok village, Tso Kar, Ladakh lakes, Changthang wildlife sanctuary, Ladakh inner line permit, Ladakh travel guide, high altitude lake India, best time to visit Tso Moriri, how to reach Tso Moriri from Leh, Tso Moriri 2 day itinerary, Tso Moriri vs Pangong, Tso Moriri budget trip, Korzok homestay, black necked crane Ladakh",
   openGraph: {

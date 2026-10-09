@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Haflong Travel Guide: Assam's Only Hill Station",
   description:
-    "The complete Haflong travel guide. Haflong Lake, Dima Hasao's tribal communities, Jatinga's bird phenomenon, where to stay, best time to visit, and a full itinerary through Assam's only hill station.",
+    "Haflong, Assam's only hill station: Haflong Lake, Dima Hasao's communities, the Jatinga bird phenomenon, best time and a 2-day plan.",
   keywords:
     "Haflong travel guide, Dima Hasao, North Cachar Hills, Haflong Lake, Jatinga bird phenomenon, best time to visit Haflong, how to reach Haflong, Assam hill station",
   openGraph: {

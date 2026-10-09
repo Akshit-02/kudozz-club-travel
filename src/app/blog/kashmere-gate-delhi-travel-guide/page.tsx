@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Kashmere Gate Travel Guide: History & ISBT Hub",
   description:
-    "Kashmere Gate travel guide — Shahjahanabad's northern gate, an 1857 Revolt battleground, St. James' Church, Nicholson Cemetery, and Delhi's biggest ISBT transit hub, with a heritage-walk plan.",
+    "Kashmere Gate, Delhi: the old city gate, 1857 Revolt sites, St. James' Church, Nicholson Cemetery and the ISBT, with a heritage-walk plan.",
   keywords:
     "Kashmere Gate Delhi, Kashmere Gate ISBT, Kashmere Gate history, Kashmere Gate metro, St. James Church Delhi, Nicholson Cemetery Delhi, 1857 Revolt Delhi, Siege of Delhi, Shahjahanabad gates, Old Delhi heritage walk",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kashmere Gate Travel Guide: History & ISBT Hub",
           description:
-            "Kashmere Gate travel guide — Shahjahanabad's northern gate, an 1857 Revolt battleground, St. James' Church, Nicholson Cemetery, and Delhi's biggest ISBT transit hub, with a heritage-walk plan.",
+            "Kashmere Gate, Delhi: the old city gate, 1857 Revolt sites, St. James' Church, Nicholson Cemetery and the ISBT, with a heritage-walk plan.",
           image:
             "https://club.kudozz.in/images/blogs/delhi/kashmere-gate/kashmere-gate-brick-arches-ruins.webp",
           datePublished: "2026-08-30",

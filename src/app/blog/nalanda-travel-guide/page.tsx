@@ -10,13 +10,13 @@ import { RelatedSidebar, RelatedPostsGrid } from "@/components/ui/RelatedPosts";
 import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 export const metadata: Metadata = {
-  title: { absolute: "Nalanda Travel Guide: Ruins of the World's Oldest University" },
+  title: { absolute: "Nalanda Travel Guide: Ruins of an Ancient Buddhist University" },
   description:
-    "The complete Nalanda travel guide. The Nalanda Mahavihara ruins, the Archaeological Museum, Xuanzang Memorial Hall, where to stay, best time to visit, and a full itinerary through one of the world's earliest universities.",
+    "Nalanda Mahavihara: the ruins of the ancient Buddhist university, the museum and Xuanzang Memorial Hall, best time, where to stay and a one-day plan.",
   keywords:
     "Nalanda travel guide, Nalanda ruins, Nalanda Mahavihara, Nalanda University history, Xuanzang Memorial Hall, Nalanda Archaeological Museum, best time to visit Nalanda, how to reach Nalanda, Nalanda Rajgir day trip",
   openGraph: {
-    title: "Nalanda Travel Guide: Ruins of the World's Oldest University",
+    title: "Nalanda Travel Guide: Ruins of an Ancient Buddhist University",
     description: "The excavated remains of a residential university that once housed thousands of monks and scholars from across Asia, over a thousand years before Oxford existed — the complete guide to Nalanda.",
     url: "https://club.kudozz.in/blog/nalanda-travel-guide",
     type: "article",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nalanda Travel Guide: Ruins of the World's Oldest University",
+    title: "Nalanda Travel Guide: Ruins of an Ancient Buddhist University",
     description: "The ruins of one of the world's earliest universities — the complete guide to Nalanda.",
     images: ["/images/blogs/bihar/nalanda/nalanda.webp"],
   },
@@ -39,7 +39,7 @@ function ArticleSchema() {
           "@graph": [
           {
       "@type": "BlogPosting",
-      headline: "Nalanda Travel Guide: Ruins of the World's Oldest University",
+      headline: "Nalanda Travel Guide: Ruins of an Ancient Buddhist University",
       description: "The complete Nalanda travel guide.",
       image: "https://club.kudozz.in/images/blogs/bihar/nalanda/nalanda.webp",
       datePublished: "2026-09-08", dateModified: "2026-09-08",
@@ -123,7 +123,7 @@ export default function NalandaGuidePage() {
               ))}
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-white mb-5 leading-[1.08] max-w-4xl" style={{ fontFamily: "var(--font-playfair)" }}>
-              Nalanda Travel Guide: Ruins of the World's Oldest University
+              Nalanda Travel Guide: Ruins of an Ancient Buddhist University
             </h1>
             <p className="text-lg text-white/80 max-w-2xl mb-8 leading-relaxed" style={{ fontFamily: "var(--font-source-serif)" }}>
               The excavated remains of a residential university that once housed thousands of monks and scholars from across Asia, over a thousand years before Oxford existed.

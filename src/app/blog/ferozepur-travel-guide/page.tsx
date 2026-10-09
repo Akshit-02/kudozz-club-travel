@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Ferozepur Travel Guide: Hussainiwala & Tips",
   description:
-    "Complete Ferozepur guide — the National Martyrs Memorial at Hussainiwala, a quieter alternative to the Wagah Border ceremony, how to reach from Amritsar, and a full visit plan.",
+    "Ferozepur: the National Martyrs Memorial at Hussainiwala and its quieter border ceremony, how to reach from Amritsar and a one-day plan.",
   keywords:
     "Ferozepur travel guide, Hussainiwala, National Martyrs Memorial, Bhagat Singh Rajguru Sukhdev, Hussainiwala Beating Retreat, Ferozepur border, how to reach Ferozepur, Punjab border towns",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Ferozepur Travel Guide: Hussainiwala & Tips",
           description:
-            "Complete Ferozepur guide — the National Martyrs Memorial at Hussainiwala, a quieter alternative to the Wagah Border ceremony, how to reach from Amritsar, and a full visit plan.",
+            "Ferozepur: the National Martyrs Memorial at Hussainiwala and its quieter border ceremony, how to reach from Amritsar and a one-day plan.",
           image: "https://club.kudozz.in/images/blogs/punjab/ferozepur/ferozepur.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

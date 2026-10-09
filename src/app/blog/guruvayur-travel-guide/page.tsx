@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Guruvayur Temple Travel Guide: Darshan, Timings & How to Reach" },
   description:
-    "The complete Guruvayur travel guide. Sree Krishna Temple darshan, Punnathur Kotta elephant sanctuary, dress code, where to stay, best time to visit, and how to reach Kerala's most revered Krishna temple town.",
+    "Guruvayur guide: darshan at the Sree Krishna temple, dress code, the Punnathur Kotta elephant yard, how to reach, where to stay and timings.",
   keywords:
     "Guruvayur travel guide, Guruvayur temple darshan, Guruvayur timings, Punnathur Kotta elephant sanctuary, Guruvayur Ekadasi, how to reach Guruvayur, Kerala temple towns",
   openGraph: {

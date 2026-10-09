@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Saranda Forest Travel Guide: Asia's Largest Sal Forest" },
   description:
-    "The complete Saranda Forest travel guide. Asia's largest sal forest in Jharkhand's West Singhbhum district — wildlife, viewpoints, how to reach, honest access advice, and what to expect from one of India's most remote forest destinations.",
+    "Saranda Forest, West Singhbhum: a vast sal forest, its wildlife and viewpoints, how to reach and honest advice on access in a remote part of Jharkhand.",
   keywords:
     "Saranda Forest travel guide, Asia's largest sal forest, West Singhbhum, Jharkhand forest, Saranda Jharkhand, how to reach Saranda Forest, Saranda wildlife, Chaibasa forest",
   openGraph: {

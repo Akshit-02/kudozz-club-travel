@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Borra Caves Travel Guide: Million-Year-Old Limestone Caverns" },
   description:
-    "The complete Borra Caves travel guide. Stalactite formations, Ananthagiri Hills, combining with Araku Valley, where to stay, best time to visit, and everything you need to plan a visit.",
+    "Borra Caves guide: limestone caverns in the Ananthagiri Hills, timings, how to reach and how to combine them with Araku Valley.",
   keywords:
     "Borra Caves travel guide, Ananthagiri Hills caves, best time to visit Borra Caves, how to reach Borra Caves, Araku Valley caves, Visakhapatnam limestone caves",
   openGraph: {

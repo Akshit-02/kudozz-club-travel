@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Gangotri Travel Guide: Temple, Gaumukh Trek & Tips",
   description:
-    "Complete Gangotri guide — the temple marking Ganga's descent, the Gaumukh glacier trek, Tapovan meadow, permits, how to reach via Uttarkashi, where to stay, and a full visit plan.",
+    "Gangotri guide: the temple, the Gaumukh glacier trek and Tapovan, the permits, how to reach via Uttarkashi, where to stay and a 3–4 day plan.",
   keywords:
     "Gangotri, Gangotri temple, Char Dham, Gaumukh trek, Ganga source, Bhagirathi river, Uttarkashi, Tapovan, how to reach Gangotri, Gangotri glacier, Uttarakhand pilgrimage",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Gangotri Travel Guide: Temple, Gaumukh Trek & Tips",
           description:
-            "Complete Gangotri guide — the temple marking Ganga's descent, the Gaumukh glacier trek, Tapovan meadow, permits, how to reach via Uttarkashi, where to stay, and a full visit plan.",
+            "Gangotri guide: the temple, the Gaumukh glacier trek and Tapovan, the permits, how to reach via Uttarkashi, where to stay and a 3–4 day plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttarakhand/gangotri/gangotri-temple-bhagirathi-valley.webp",
           datePublished: "2026-09-02",

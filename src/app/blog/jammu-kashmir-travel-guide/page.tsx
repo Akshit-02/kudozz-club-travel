@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Jammu & Kashmir Travel Guide: Srinagar, Gulmarg & Pahalgam" },
   description:
-    "The complete Jammu & Kashmir travel guide. Srinagar's Dal Lake and houseboats, Gulmarg's gondola and skiing, Pahalgam and Sonamarg valleys, Vaishno Devi, where to stay, what to eat, and a full 6-day itinerary.",
+    "Jammu & Kashmir travel guide: Srinagar's Dal Lake and houseboats, Gulmarg, Pahalgam, Sonamarg, Vaishno Devi, best time and a 6-day itinerary.",
   keywords:
     "Jammu Kashmir travel guide, Srinagar Dal Lake, Gulmarg gondola, Pahalgam valley, Sonamarg, Vaishno Devi yatra, Kashmir houseboat, Kashmir itinerary, Kashmir best time to visit, how to reach Srinagar, Jammu Kashmir 6 day itinerary, is Kashmir safe to visit, Kashmir budget trip, best time to visit Gulmarg, Dal Lake houseboat cost, things to do in Kashmir",
   openGraph: {

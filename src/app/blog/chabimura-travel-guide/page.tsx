@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Chabimura Travel Guide: Rock Carvings & Boat Ride",
   description:
-    "Complete Chabimura guide — the 16th-century rock-cut carvings on the Gomati river cliffs, the boat ride from Amarpur, how to combine it with Udaipur, and a full visit plan.",
+    "Chabimura, Tripura: rock-cut carvings on the Gomati river cliffs, the boat ride from Amarpur, the best season and how to combine it with Udaipur.",
   keywords:
     "Chabimura travel guide, Chabimura rock carvings, Gomati river Tripura, Amarpur boat ride, Chabimura Tripura, how to reach Chabimura, Tripura rock carvings, Amar Manikya carvings",
   openGraph: {
@@ -63,7 +63,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Chabimura Travel Guide: Rock Carvings & Boat Ride",
           description:
-            "Complete Chabimura guide — the 16th-century rock-cut carvings on the Gomati river cliffs, the boat ride from Amarpur, how to combine it with Udaipur, and a full visit plan.",
+            "Chabimura, Tripura: rock-cut carvings on the Gomati river cliffs, the boat ride from Amarpur, the best season and how to combine it with Udaipur.",
           image:
             "https://club.kudozz.in/images/blogs/tripura/chabimura/rock-carvings-gomati-river-chabimura.webp",
           datePublished: "2026-09-03",

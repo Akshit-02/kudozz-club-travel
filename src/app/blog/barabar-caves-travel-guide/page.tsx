@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Barabar Caves Travel Guide: India's Oldest Rock-Cut Caves" },
   description:
-    "The complete Barabar Caves travel guide. Lomas Rishi Cave, Ashokan inscriptions, the Ajivika sect, the A Passage to India connection, best time to visit, and a full itinerary.",
+    "Barabar Caves, Bihar: among India's oldest rock-cut caves, the Lomas Rishi facade, Ashokan inscriptions and the Ajivikas, how to reach and a half-day plan.",
   keywords:
     "Barabar Caves travel guide, Lomas Rishi Cave, Ashoka caves Bihar, Ajivika sect caves, A Passage to India Marabar Caves, best time to visit Barabar Caves, how to reach Barabar Caves",
   openGraph: {

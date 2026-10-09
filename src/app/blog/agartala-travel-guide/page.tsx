@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Agartala Travel Guide: Palaces, Sightseeing & Tips",
   description:
-    "Complete Agartala travel guide — Ujjayanta Palace, Heritage Park, Laxmi Narayan Bari, how to reach Tripura's capital, a 2-day city itinerary, where to stay and eat, day trips, and essential tips.",
+    "Agartala travel guide: Ujjayanta Palace, Heritage Park and Laxmi Narayan Bari, how to reach Tripura's capital, where to stay and a 2-day plan.",
   keywords:
     "Agartala travel guide, Agartala Tripura, Ujjayanta Palace, Agartala sightseeing, how to reach Agartala, Agartala airport, Tripura capital, Agartala things to do, Agartala 2 day itinerary, Akhaura border",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Agartala Travel Guide: Palaces, Sightseeing & Tips",
           description:
-            "Complete Agartala travel guide — Ujjayanta Palace, Heritage Park, Laxmi Narayan Bari, how to reach Tripura's capital, a 2-day city itinerary, where to stay and eat, day trips, and essential tips.",
+            "Agartala travel guide: Ujjayanta Palace, Heritage Park and Laxmi Narayan Bari, how to reach Tripura's capital, where to stay and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/tripura/agartala/agartala-town-hall.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Kanchipuram Travel Guide: Temples & Silk Sarees",
   description:
-    "Complete Kanchipuram guide — the Ekambareswarar, Kailasanathar and Kamakshi Amman temples, buying genuine Kanchipuram silk, how to reach from Chennai, and a full visit plan.",
+    "Kanchipuram: the Ekambareswarar, Kailasanathar and Kamakshi Amman temples, buying genuine silk, how to reach from Chennai and a full-day plan.",
   keywords:
     "Kanchipuram travel guide, Kanchipuram silk sarees, Ekambareswarar Temple, Kailasanathar Temple, Kamakshi Amman Temple, City of a Thousand Temples, how to reach Kanchipuram, Kanchipuram day trip",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kanchipuram Travel Guide: Temples & Silk Sarees",
           description:
-            "Complete Kanchipuram guide — the Ekambareswarar, Kailasanathar and Kamakshi Amman temples, buying genuine Kanchipuram silk, how to reach from Chennai, and a full visit plan.",
+            "Kanchipuram: the Ekambareswarar, Kailasanathar and Kamakshi Amman temples, buying genuine silk, how to reach from Chennai and a full-day plan.",
           image: "https://club.kudozz.in/images/blogs/tamil-nadu/kanchipuram/kailasanathar-temple-vimana-tower-kanchipuram.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

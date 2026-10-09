@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Vrindavan Travel Guide: Temples & Krishna Lore",
   description:
-    "Complete Vrindavan travel guide — Banke Bihari Temple, ISKCON Krishna Balaram Mandir, Prem Mandir's light show, Nidhivan, how to reach from Mathura, where to stay, and a full visit plan.",
+    "Vrindavan: Banke Bihari, ISKCON's Krishna Balaram Mandir, Prem Mandir's lights and Nidhivan, how to reach from Mathura, where to stay and a plan.",
   keywords:
     "Vrindavan travel guide, Banke Bihari Temple, Prem Mandir, ISKCON Vrindavan, Krishna Balaram Mandir, Nidhivan, Radha Raman Temple, Braj region, how to reach Vrindavan, Vrindavan Holi",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Vrindavan Travel Guide: Temples & Krishna Lore",
           description:
-            "Complete Vrindavan travel guide — Banke Bihari Temple, ISKCON Krishna Balaram Mandir, Prem Mandir's light show, Nidhivan, how to reach from Mathura, where to stay, and a full visit plan.",
+            "Vrindavan: Banke Bihari, ISKCON's Krishna Balaram Mandir, Prem Mandir's lights and Nidhivan, how to reach from Mathura, where to stay and a plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttar-pradesh/vrindavan/prem-mandir-illuminated-night-vrindavan.webp",
           datePublished: "2026-09-03",

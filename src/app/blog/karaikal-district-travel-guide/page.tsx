@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Karaikal District Travel Guide: Temples, Beach & Cauvery Delta" },
   description:
-    "The complete Karaikal District travel guide — Karaikal town's beach, lighthouse, port and Karaikal Ammaiyar Temple, Tirunallar's famous Saneeswaran Temple and Nala Theertham, and the coastal, rural stretches of Neravy, Kottucherry, and Nedungadu.",
+    "Karaikal, Puducherry's enclave: the beach, Karaikal Ammaiyar Temple, Tirunallar's Saneeswaran Temple, the coastal villages and a 3-day itinerary.",
   keywords:
     "Karaikal district travel guide, Karaikal beach, Tirunallar Saneeswaran temple, Sri Dharbaranyeswarar temple, Nala Theertham, Karaikal Ammaiyar Temple, Karaikal lighthouse, Karaikal port, Neravy, Kottucherry, Nedungadu, Puducherry union territory, best time to visit Karaikal, how to reach Karaikal from Puducherry, Karaikal 3 day itinerary, Karaikal budget trip, things to do in Karaikal district",
   openGraph: {

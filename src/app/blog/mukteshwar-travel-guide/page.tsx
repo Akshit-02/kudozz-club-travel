@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Mukteshwar Travel Guide: Views, Orchards & Adventure" },
   description:
-    "Complete Mukteshwar guide — Mukteshwar Dham temple, Chauli Ki Jali cliffside viewpoint, apple orchards, rock climbing & paragliding, how to reach, where to stay, and a full visit plan.",
+    "Mukteshwar, Kumaon: the Mukteshwar Dham temple, Chauli Ki Jali, apple orchards, rock climbing and paragliding, where to stay and a 2-day plan.",
   keywords:
     "Mukteshwar, Mukteshwar Uttarakhand, Mukteshwar travel guide, Mukteshwar Dham, Chauli Ki Jali, Mukteshwar adventure sports, Mukteshwar paragliding, Mukteshwar best time to visit, how to reach Mukteshwar, Kumaon adventure hill town",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Mukteshwar Travel Guide: Views, Orchards & Adventure",
           description:
-            "Complete Mukteshwar guide — Mukteshwar Dham temple, Chauli Ki Jali cliffside viewpoint, apple orchards, rock climbing & paragliding, how to reach, where to stay, and a full visit plan.",
+            "Mukteshwar, Kumaon: the Mukteshwar Dham temple, Chauli Ki Jali, apple orchards, rock climbing and paragliding, where to stay and a 2-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/uttarakhand/mukteshwar/himalayan-sunset-ridge-view-mukteshwar.webp",
           datePublished: "2026-09-02",

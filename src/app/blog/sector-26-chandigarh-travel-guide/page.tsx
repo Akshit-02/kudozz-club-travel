@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Sector 26 Chandigarh Guide: Grain Market Food Street & Mandi" },
   description:
-    "Complete guide to Sector 26, Chandigarh — home to the city's most famous late-night food street, the Grain Market, plus the wholesale fruit and vegetable mandi. What to eat, when to go, and how to reach.",
+    "Sector 26, Chandigarh: the Grain Market food street, the wholesale mandi, what to eat, when the stalls are busiest and how to reach.",
   keywords:
     "Sector 26 Chandigarh, Grain Market Chandigarh, Sector 26 food street, Chandigarh butter chicken, Sector 26 mandi, Chandigarh night food, best food Chandigarh, Sector 26 dhaba, Chandigarh Punjabi food",
   openGraph: {

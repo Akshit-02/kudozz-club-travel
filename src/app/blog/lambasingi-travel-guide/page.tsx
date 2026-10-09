@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Lambasingi Travel Guide: The Kashmir of Andhra Pradesh" },
   description:
-    "The complete Lambasingi travel guide. Winter frost, coffee hills, Araku Valley combo, where to stay, best time to visit, and everything you need to plan a trip to Andhra Pradesh's frost village.",
+    "Lambasingi, Andhra Pradesh: winter frost and mist in the Chintapalli hills, coffee estates, pairing with Araku Valley, best time and where to stay.",
   keywords:
     "Lambasingi travel guide, Kashmir of Andhra Pradesh, Lambasingi frost, best time to visit Lambasingi, how to reach Lambasingi, Chintapalli, Eastern Ghats frost village",
   openGraph: {

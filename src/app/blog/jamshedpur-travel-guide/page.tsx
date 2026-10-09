@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Jamshedpur Travel Guide: Jubilee Park, Dimna Lake & Steel City" },
   description:
-    "The complete Jamshedpur travel guide. Jubilee Park, Dimna Lake, Tata Steel Zoological Park, Bistupur and Sakchi markets, where to stay, best time to visit, and a full 2-day itinerary through India's first planned industrial city.",
+    "Jamshedpur travel guide: Jubilee Park, Dimna Lake, the Tata Steel Zoological Park and Bistupur markets, best time, where to stay and a 2-day plan.",
   keywords:
     "Jamshedpur travel guide, Jubilee Park, Dimna Lake, Tata Steel city, Bistupur, Sakchi, best time to visit Jamshedpur, how to reach Jamshedpur, Tatanagar, Jharkhand steel city, Jamshedpur itinerary",
   openGraph: {

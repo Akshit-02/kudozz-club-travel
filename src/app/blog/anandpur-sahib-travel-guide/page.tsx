@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Anandpur Sahib Guide: Birthplace of the Khalsa",
   description:
-    "Complete Anandpur Sahib guide — Gurdwara Kesgarh Sahib, the founding of the Khalsa, the Virasat-e-Khalsa museum, Hola Mohalla festival, how to reach, and a full visit plan.",
+    "Anandpur Sahib guide: Takht Sri Kesgarh Sahib, the founding of the Khalsa, Virasat-e-Khalsa museum and Hola Mohalla, how to reach and a visit plan.",
   keywords:
     "Anandpur Sahib, Khalsa, Gurdwara Kesgarh Sahib, Virasat-e-Khalsa, Hola Mohalla, Punjab, Sikh heritage, five Takhts",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Anandpur Sahib Guide: Birthplace of the Khalsa",
           description:
-            "Complete Anandpur Sahib guide — Gurdwara Kesgarh Sahib, the founding of the Khalsa, the Virasat-e-Khalsa museum, Hola Mohalla festival, how to reach, and a full visit plan.",
+            "Anandpur Sahib guide: Takht Sri Kesgarh Sahib, the founding of the Khalsa, Virasat-e-Khalsa museum and Hola Mohalla, how to reach and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/punjab/anandpur-sahib/anandpur-sahib-2.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

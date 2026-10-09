@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Panjim Travel Guide: Fontainhas, Latin Quarter & Goa's Capital" },
   description:
-    "The complete Panjim travel guide. Fontainhas Latin Quarter, the Mandovi riverfront, Church of Our Lady of the Immaculate Conception, where to stay, best time to visit, and a full itinerary.",
+    "Panjim, Goa's capital: Fontainhas' Latin Quarter, the Mandovi riverfront and the Immaculate Conception church, where to stay and a 2-day itinerary.",
   keywords:
     "Panjim travel guide, Panaji, Fontainhas Latin Quarter, Mandovi river cruise, best time to visit Panjim, how to reach Panjim, Goa capital city guide",
   openGraph: {

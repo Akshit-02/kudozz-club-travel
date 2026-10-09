@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Surajkund Travel Guide: Crafts Mela & Ancient Sun Reservoir" },
   description:
-    "The complete Surajkund travel guide. The ancient stepped reservoir, the Surajkund International Crafts Mela, nearby Anangpur Dam, where to stay, best time to visit, and a full itinerary.",
+    "Surajkund: the 10th-century stepped reservoir, the International Crafts Mela each February, Anangpur Dam nearby and a day plan from Delhi.",
   keywords:
     "Surajkund travel guide, Surajkund Crafts Mela, Surajkund reservoir, Surajkund Mela dates, best time to visit Surajkund, how to reach Surajkund, Faridabad heritage",
   openGraph: {

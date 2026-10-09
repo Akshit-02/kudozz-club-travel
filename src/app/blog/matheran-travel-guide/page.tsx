@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Matheran Travel Guide: India's Only Vehicle-Free Hill Station" },
   description:
-    "The complete Matheran travel guide. The Matheran toy train, Charlotte Lake, Echo Point, Panorama Point, where to stay, what to eat, and a 2-day itinerary for India's only motor-vehicle-free hill station.",
+    "Matheran, the vehicle-free hill station: the toy train, Charlotte Lake, Echo and Panorama points, where to stay, what to eat and a 2-day itinerary.",
   keywords:
     "Matheran travel guide, Matheran toy train, Neral to Matheran, Charlotte Lake, Echo Point Matheran, Panorama Point, Matheran itinerary, best time to visit Matheran, how to reach Matheran, Matheran horse riding, vehicle free hill station India, Matheran vs Lonavala",
   openGraph: {

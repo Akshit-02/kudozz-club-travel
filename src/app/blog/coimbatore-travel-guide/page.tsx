@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Coimbatore Travel Guide: Gateway to the Nilgiris",
   description:
-    "Complete Coimbatore guide — the Adiyogi statue at Isha Yoga Center, Marudamalai Temple, best time to visit, how to reach, and using the city as a base for Ooty and Valparai.",
+    "Coimbatore guide: the Adiyogi statue at Isha, Marudamalai temple, the best time to visit, and using the city as a base for Ooty and Valparai.",
   keywords:
     "Coimbatore travel guide, Adiyogi statue, Isha Yoga Center, Marudamalai Temple, Coimbatore to Ooty, Coimbatore to Valparai, best time to visit Coimbatore, how to reach Coimbatore, Manchester of South India",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Coimbatore Travel Guide: Gateway to the Nilgiris",
           description:
-            "Complete Coimbatore guide — the Adiyogi statue at Isha Yoga Center, Marudamalai Temple, best time to visit, how to reach, and using the city as a base for Ooty and Valparai.",
+            "Coimbatore guide: the Adiyogi statue at Isha, Marudamalai temple, the best time to visit, and using the city as a base for Ooty and Valparai.",
           image: "https://club.kudozz.in/images/blogs/tamil-nadu/coimbatore/marudamalai-temple-coimbatore-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

@@ -14,7 +14,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Delhi Travel Guide: Red Fort, Qutub Minar & 3-Day Itinerary" },
   description:
-    "The complete Delhi travel guide — Red Fort, Humayun's Tomb, Qutub Minar, Chandni Chowk food trails, Hauz Khas Village, day trips to Agra, where to stay, and a full 3-day itinerary for India's layered, chaotic, endlessly rewarding capital.",
+    "Delhi travel guide: Red Fort, Humayun's Tomb, Qutub Minar, Chandni Chowk food, neighbourhoods, day trips to Agra, where to stay and 3 days.",
   keywords:
     "Delhi travel guide, Red Fort, Qutub Minar, Humayun's Tomb, Chandni Chowk food, Hauz Khas Village, Delhi itinerary, India Gate, Lotus Temple, Delhi metro guide, Delhi to Agra day trip, best time to visit Delhi, how to reach Delhi, Delhi itinerary 3 days, is Delhi safe for solo travellers, Delhi budget trip, top things to do in Delhi, Jama Masjid, Old Delhi food trail, Delhi day trips",
   openGraph: {
@@ -1165,7 +1165,7 @@ export default function DelhiGuidePage() {
                         href="/blog/new-delhi-travel-guide"
                         className="p-3 rounded-lg border border-stone-200 bg-white hover:border-forest-300 hover:shadow-sm transition-all text-sm font-medium text-stone-700 hover:text-forest-700"
                       >
-                        New Delhi Travel Guide: India Gate, Rajpath & More
+                        New Delhi Travel Guide: India Gate, Kartavya Path & More
                       </Link>
                       <Link
                         href="/blog/nizamuddin-delhi-travel-guide"

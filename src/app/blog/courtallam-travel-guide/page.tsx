@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Courtallam Falls Guide: Best Time & How to Reach",
   description:
-    "Complete Courtallam guide — the Main Falls, Five Falls, Old Falls and Tiger Falls, the Aavani bathing season, Kutralanathar Temple, how to reach Tenkasi district, and a full visit plan.",
+    "Courtallam guide: the Main, Five, Old and Tiger falls, the monsoon bathing season and its Aavani peak, the Kutralanathar temple and how to reach.",
   keywords:
     "Courtallam travel guide, Kutralam Falls, Spa of South India, Courtallam Aavani season, Main Falls Courtallam, Five Falls, Kutralanathar Temple, how to reach Courtallam, Tenkasi waterfalls",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Courtallam Falls Guide: Best Time & How to Reach",
           description:
-            "Complete Courtallam guide — the Main Falls, Five Falls, Old Falls and Tiger Falls, the Aavani bathing season, Kutralanathar Temple, how to reach Tenkasi district, and a full visit plan.",
+            "Courtallam guide: the Main, Five, Old and Tiger falls, the monsoon bathing season and its Aavani peak, the Kutralanathar temple and how to reach.",
           image:
             "https://club.kudozz.in/images/blogs/tamil-nadu/courtallam/courtallam-falls-2.webp",
           datePublished: "2026-09-03",

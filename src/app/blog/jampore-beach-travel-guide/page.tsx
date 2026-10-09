@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Jampore Beach Daman: Camel Rides, Timings & Tips",
   description:
-    "Jampore Beach travel guide — the long, quiet, casuarina-lined beach south of Moti Daman. Camel and pony rides, sunset walks, timings, how to reach, and honest swimming advice.",
+    "Jampore Beach, Daman: a long casuarina-lined beach south of Moti Daman, camel rides, sunset walks, timings, how to reach and honest swimming advice.",
   keywords:
     "Jampore Beach, Jampore Beach Daman, Jampore Beach camel ride, Jampore Beach timings, Moti Daman beaches, Daman beaches, Jampore vs Devka Beach, Daman weekend trip, casuarina beach Daman",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Jampore Beach Daman: Camel Rides, Timings & Tips",
           description:
-            "Jampore Beach travel guide — the long, quiet, casuarina-lined beach south of Moti Daman. Camel and pony rides, sunset walks, timings, how to reach, and honest swimming advice.",
+            "Jampore Beach, Daman: a long casuarina-lined beach south of Moti Daman, camel rides, sunset walks, timings, how to reach and honest swimming advice.",
           image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/jampore-beach/jampore-beach-shoreline-waves-daman.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-09-09",

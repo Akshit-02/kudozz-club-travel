@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Chhattisgarh Travel Guide: Chitrakote Falls, Bastar & Raipur" },
   description:
-    "The complete Chhattisgarh travel guide — the thundering Chitrakote Falls on the Indravati river, the tribal heartland of Bastar, Kanger Valley's caves, Sirpur's Buddhist ruins, where to stay and eat, and a full itinerary through one of India's most underrated, forest-covered states.",
+    "Chhattisgarh travel guide: Chitrakote Falls, tribal Bastar, Kanger Valley's caves, Sirpur's ruins and Raipur, with where to stay and a 5-day itinerary.",
   keywords:
     "Chhattisgarh travel guide, Chitrakote Falls, Bastar travel guide, Bastar Dussehra, Jagdalpur, Kanger Valley National Park, Sirpur, Raipur travel guide, Chhattisgarh itinerary, Central India travel, best time to visit Chhattisgarh, how to reach Chhattisgarh, Chhattisgarh itinerary 5 days, is Chhattisgarh safe for travellers, Chhattisgarh budget trip, top things to do in Chhattisgarh, Kotumsar Cave, Chitrakote Falls best time to visit",
   openGraph: {

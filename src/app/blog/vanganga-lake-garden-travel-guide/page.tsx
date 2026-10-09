@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Vanganga Lake Garden Daman: Visit Guide & Tips",
   description:
-    "Visit Vanganga Lake Garden in Daman — a landscaped lake garden with miniature replicas of world-famous landmarks, walking paths and boating. Timings, tips, budget and nearby food.",
+    "Vanganga Lake Garden, Daman: a lake garden with landmark replicas, walking paths and boating, timings, budget and food nearby.",
   keywords:
     "Vanganga Lake Garden, Vanganga Lake Garden Daman, Vanganga Garden Daman, seven wonders garden Daman, Daman tourist places, Daman sightseeing, Daman lake garden, things to do in Daman, Daman family attractions, Moti Daman sightseeing",
   openGraph: {

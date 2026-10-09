@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Pawapuri Travel Guide: Where Mahavira Attained Nirvana" },
   description:
-    "The complete Pawapuri travel guide. Jal Mandir's lotus-filled water tank, Mahavira's nirvana site, Samosharan Temple, where to stay, best time to visit, and a full itinerary.",
+    "Pawapuri, where Mahavira attained nirvana: the Jal Mandir in its lotus tank, Samosharan Temple, how to reach and a one-day plan with Rajgir.",
   keywords:
     "Pawapuri travel guide, Jal Mandir, Mahavira nirvana, Pawapuri Jain temple, Bihar Jain pilgrimage, best time to visit Pawapuri, how to reach Pawapuri, Pawapuri Rajgir Nalanda circuit",
   openGraph: {

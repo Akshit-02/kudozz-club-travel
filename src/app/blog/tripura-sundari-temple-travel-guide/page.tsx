@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Tripura Sundari Temple Guide: Matabari Shakti Peeth",
   description:
-    "Complete Tripura Sundari Temple guide — the Matabari Shakti Peeth's history, tortoise-shaped architecture, Kalyan Sagar lake, the Diwali mela, how to reach from Agartala, and visiting tips.",
+    "Tripura Sundari Temple, Matabari: the Shakti Peeth, its tortoise-shaped hill, Kalyan Sagar, the Diwali mela and how to reach from Agartala.",
   keywords:
     "Tripura Sundari Temple, Matabari temple, Shakti Peeth Tripura, Kalyan Sagar lake, Udaipur Tripura temple, Tripura Sundari Mela, Matabari Diwali, Dhanya Manikya temple",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Tripura Sundari Temple Guide: Matabari Shakti Peeth",
           description:
-            "Complete Tripura Sundari Temple guide — the Matabari Shakti Peeth's history, tortoise-shaped architecture, Kalyan Sagar lake, the Diwali mela, how to reach from Agartala, and visiting tips.",
+            "Tripura Sundari Temple, Matabari: the Shakti Peeth, its tortoise-shaped hill, Kalyan Sagar, the Diwali mela and how to reach from Agartala.",
           image:
             "https://club.kudozz.in/images/blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp",
           datePublished: "2026-09-03",

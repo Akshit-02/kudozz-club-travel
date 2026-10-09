@@ -59,7 +59,7 @@ function ArticleSchema() {
             "Complete Champhai guide — Mizoram's fertile paddy valleys, the Rih Dil lake legend, the India-Myanmar border trade town, Murlen National Park, and a full visit plan.",
           image: "https://club.kudozz.in/images/blogs/mizoram/champhai/champhai-view.webp",
           datePublished: "2026-09-04",
-          dateModified: "2026-09-04",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -283,6 +283,12 @@ export default function ChamphaiGuidePage() {
                   <ul>
                     <li><strong>By road from Aizawl:</strong> A fairly long drive given Champhai's eastern, border-adjacent location — budget a full day of travel.</li>
                   </ul>
+                  <div
+                    className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    <strong>📋 Inner Line Permit:</strong> Indian visitors from outside Mizoram need an Inner Line Permit (ILP) to enter the state. Apply on the Mizoram government's official portal (ilp.mizoram.gov.in) before you travel and carry a copy. Foreign nationals need a Protected Area Permit, which was reinstated for Mizoram in December 2024.
+                  </div>
                   <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm" style={{ fontFamily: "var(--font-dm-sans)" }}>
                     <strong>💡 Pro Tip:</strong> Combine Champhai with Murlen National Park given their proximity, rather than treating either as a standalone side trip.
                   </div>

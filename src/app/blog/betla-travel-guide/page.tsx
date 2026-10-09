@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Betla National Park Travel Guide: Tiger Safari & Palamu Forts" },
   description:
-    "The complete Betla National Park travel guide. Palamu Tiger Reserve, jeep safaris, the ruined Old and New Palamu Forts, where to stay, best time to visit, and honest planning advice for this Jharkhand reserve.",
+    "Betla National Park in Palamu Tiger Reserve: jeep safaris, the Old and New Palamu forts, best time, where to stay and a 2-day plan in Jharkhand.",
   keywords:
     "Betla National Park travel guide, Palamu Tiger Reserve, Palamu Forts, Betla safari, best time to visit Betla, how to reach Betla National Park, Jharkhand wildlife, Daltonganj",
   openGraph: {

@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Abohar Travel Guide: Blackbuck Sanctuary & Tips",
   description:
-    "Complete Abohar guide — one of India's highest blackbuck population densities outside a dedicated deer park, the region's kinnow orchards, how to reach, and a full visit plan.",
+    "Abohar's blackbuck sanctuary and kinnow orchards in Punjab's Fazilka district: best time, how to reach, where to stay and a one-day plan.",
   keywords:
     "Abohar travel guide, Abohar Wildlife Sanctuary, blackbuck sanctuary Punjab, Fazilka district, kinnow orchards Abohar, how to reach Abohar, Punjab wildlife tourism, off-beat Punjab",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Abohar Travel Guide: Blackbuck Sanctuary & Tips",
           description:
-            "Complete Abohar guide — one of India's highest blackbuck population densities outside a dedicated deer park, the region's kinnow orchards, how to reach, and a full visit plan.",
+            "Abohar's blackbuck sanctuary and kinnow orchards in Punjab's Fazilka district: best time, how to reach, where to stay and a one-day plan.",
           image: "https://club.kudozz.in/images/blogs/punjab/abohar/abohar-wildlife-sanctuary.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

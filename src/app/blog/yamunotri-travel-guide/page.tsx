@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Yamunotri Travel Guide: Trek, Hot Springs & Tips",
   description:
-    "Complete Yamunotri guide — the Char Dham temple at the Yamuna's source, the Janki Chatti trek, Surya Kund hot spring, how to reach via Barkot, where to stay, and a full visit plan.",
+    "Yamunotri, the Char Dham shrine at the Yamuna's source: the trek from Janki Chatti, Surya Kund, how to reach via Barkot, where to stay and a 2-day plan.",
   keywords:
     "Yamunotri, Yamunotri temple, Yamunotri trek, Char Dham Yatra, Janki Chatti, Surya Kund, Yamunotri hot spring, Yamunotri best time to visit, how to reach Yamunotri, Barkot, Divya Shila, Yamuna river source",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Yamunotri Travel Guide: Trek, Hot Springs & Tips",
           description:
-            "Complete Yamunotri guide — the Char Dham temple at the Yamuna's source, the Janki Chatti trek, Surya Kund hot spring, how to reach via Barkot, where to stay, and a full visit plan.",
+            "Yamunotri, the Char Dham shrine at the Yamuna's source: the trek from Janki Chatti, Surya Kund, how to reach via Barkot, where to stay and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/uttarakhand/yamunotri/yamunotri-temple-gorge-shrine.webp",
           datePublished: "2026-09-02",
           dateModified: "2026-09-14",

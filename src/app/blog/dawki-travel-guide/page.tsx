@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Dawki Travel Guide: Crystal Clear River & Tips",
   description:
-    "Complete Dawki guide — the crystal-clear Umngot River, the famous 'floating boat' photos, the colonial suspension bridge, border-trade context, how to reach from Shillong, and a full visit plan.",
+    "Dawki guide: the clear Umngot river and its 'floating' boats, the suspension bridge, the border, when the water is clearest and how to reach.",
   keywords:
     "Dawki travel guide, Umngot river, Dawki crystal clear water, Dawki boat ride, Bangladesh border Meghalaya, how to reach Dawki, Shnongpdeng, Dawki best time to visit",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Dawki Travel Guide: Crystal Clear River & Tips",
           description:
-            "Complete Dawki guide — the crystal-clear Umngot River, the famous 'floating boat' photos, the colonial suspension bridge, border-trade context, how to reach from Shillong, and a full visit plan.",
+            "Dawki guide: the clear Umngot river and its 'floating' boats, the suspension bridge, the border, when the water is clearest and how to reach.",
           image: "https://club.kudozz.in/images/blogs/meghalaya/dawki/dawki.webp",
           datePublished: "2026-09-05",
           dateModified: "2026-09-05",

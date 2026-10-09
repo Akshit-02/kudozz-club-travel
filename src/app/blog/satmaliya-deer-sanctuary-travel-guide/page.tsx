@@ -11,9 +11,9 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 
 // ── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Satmaliya Deer Sanctuary: Visit Guide &amp; Tips",
+  title: "Satmaliya Deer Sanctuary: Visit Guide & Tips",
   description:
-    "Planning a visit to Satmaliya Deer Sanctuary near Khanvel? Here's how to reach it from Silvassa, what to expect, best time to go, and how to pair it with Madhuban Dam.",
+    "Satmaliya Deer Sanctuary near Khanvel, Dadra and Nagar Haveli: how to reach from Silvassa, what to expect, best time and pairing it with Madhuban Dam.",
   keywords:
     "Satmaliya Deer Sanctuary, Satmaliya Deer Park Khanvel, deer sanctuary near Silvassa, Khanvel wildlife, Dadra and Nagar Haveli wildlife sanctuary, spotted deer sanctuary Silvassa, Madhuban Dam Khanvel trip, DNH forest sanctuary",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Satmaliya Deer Sanctuary: Visit Guide & Tips",
           description:
-            "Planning a visit to Satmaliya Deer Sanctuary near Khanvel? Here's how to reach it from Silvassa, what to expect, best time to go, and how to pair it with Madhuban Dam.",
+            "Satmaliya Deer Sanctuary near Khanvel, Dadra and Nagar Haveli: how to reach from Silvassa, what to expect, best time and pairing it with Madhuban Dam.",
           image: "https://club.kudozz.in/images/blogs/dadra-and-nagar-haveli-and-daman-and-diu/satmaliya-deer-sanctuary/spotted-deer-fawn-satmaliya-deer-park.webp",
           datePublished: "2026-08-30",
           dateModified: "2026-09-09",

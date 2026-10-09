@@ -13,7 +13,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Junagadh & Girnar Travel Guide: Girnar Climb & Shrines" },
   description:
-    "The complete Junagadh & Girnar travel guide. The Girnar Hill climb, Jain temples, Uparkot Fort, Mahabat Maqbara, where to stay, best time to visit, and a full itinerary.",
+    "Junagadh and Girnar: the climb of nearly 10,000 steps to Jain and Hindu shrines, Uparkot Fort, Mahabat Maqbara, where to stay and a 2-day plan.",
   keywords:
     "Junagadh travel guide, Girnar Hill, Girnar trek, Uparkot Fort, Mahabat Maqbara, best time to visit Girnar, how to reach Junagadh, Girnar ropeway, Jain pilgrimage Gujarat",
   openGraph: {

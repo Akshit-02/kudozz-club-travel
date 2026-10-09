@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Bogatha Waterfall Guide: Best Time & How to Reach",
   description:
-    "Complete Bogatha Waterfall guide — Telangana's 'Niagara', when the falls are actually worth seeing, how to reach from Warangal, and how to combine it with Laknavaram Lake and Ramappa Temple.",
+    "Bogatha Waterfall, 'Telangana's Niagara': when it is worth seeing, how to reach from Warangal, and pairing it with Laknavaram Lake and Ramappa.",
   keywords:
     "Bogatha Waterfall, Bogatha Falls Telangana, Mulugu district waterfall, Niagara of Telangana, Warangal day trip, best time Bogatha Waterfall, how to reach Bogatha Waterfall, Laknavaram Lake",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bogatha Waterfall Guide: Best Time & How to Reach",
           description:
-            "Complete Bogatha Waterfall guide — Telangana's 'Niagara', when the falls are actually worth seeing, how to reach from Warangal, and how to combine it with Laknavaram Lake and Ramappa Temple.",
+            "Bogatha Waterfall, 'Telangana's Niagara': when it is worth seeing, how to reach from Warangal, and pairing it with Laknavaram Lake and Ramappa.",
           image: "https://club.kudozz.in/images/blogs/telangana/bogatha-waterfall/bogatha-waterfall-broad-cascade-mulugu.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

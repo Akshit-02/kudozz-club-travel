@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Ananthagiri Hills Guide: Coffee & Weekend Trip",
   description:
-    "Complete Ananthagiri Hills guide — Telangana's surprise coffee plantations, the Musi river's origin point, the Ananthagiri temple, forest walks, how to reach from Hyderabad, and a full visit plan.",
+    "Ananthagiri Hills near Hyderabad: coffee plantations, the Musi river's source, the hill temple and forest walks, how to reach and a weekend plan.",
   keywords:
     "Ananthagiri Hills travel guide, Ananthagiri temple, Vikarabad, Musi river origin, coffee plantation Telangana, weekend getaway Hyderabad, how to reach Ananthagiri Hills, Kotepally reservoir",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Ananthagiri Hills Guide: Coffee & Weekend Trip",
           description:
-            "Complete Ananthagiri Hills guide — Telangana's surprise coffee plantations, the Musi river's origin point, the Ananthagiri temple, forest walks, how to reach from Hyderabad, and a full visit plan.",
+            "Ananthagiri Hills near Hyderabad: coffee plantations, the Musi river's source, the hill temple and forest walks, how to reach and a weekend plan.",
           image: "https://club.kudozz.in/images/blogs/telangana/ananthagiri-hills/ananthagiri-hills-forest-viewpoint-vikarabad.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

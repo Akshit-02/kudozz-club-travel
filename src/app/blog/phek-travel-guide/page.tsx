@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: "Phek Travel Guide: Terraced Fields & Tips",
   description:
-    "Complete Phek guide — the striking terraced rice fields of Khezhakeno and Chizami, Chakhesang Naga culture, Shilloi Lake, how to reach from Kohima, and a full visit plan.",
+    "Phek, Nagaland: the terraced fields of Khezhakeno and Chizami, Chakhesang Naga culture, Shilloi Lake, how to reach from Kohima and a plan.",
   keywords:
     "Phek travel guide, Phek district Nagaland, Chakhesang Naga, Khezhakeno terraced fields, Chizami village, Shilloi Lake, how to reach Phek, offbeat Nagaland",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Phek Travel Guide: Terraced Fields & Tips",
           description:
-            "Complete Phek guide — the striking terraced rice fields of Khezhakeno and Chizami, Chakhesang Naga culture, Shilloi Lake, how to reach from Kohima, and a full visit plan.",
+            "Phek, Nagaland: the terraced fields of Khezhakeno and Chizami, Chakhesang Naga culture, Shilloi Lake, how to reach from Kohima and a plan.",
           image: "https://club.kudozz.in/images/blogs/nagaland/phek/shilloi-lake-phek.webp",
           datePublished: "2026-09-04",
           dateModified: "2026-09-04",

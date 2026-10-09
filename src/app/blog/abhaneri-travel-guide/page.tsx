@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Abhaneri Guide: Chand Baori Stepwell & Tips",
   description:
-    "Complete Abhaneri guide — Chand Baori, one of the world's largest and deepest stepwells, Harshat Mata Temple, how to reach from Jaipur, and how to fit it into a wider Rajasthan route.",
+    "Abhaneri and Chand Baori, one of the world's deepest stepwells: Harshat Mata Temple, how to reach from Jaipur, timings and a day-trip plan.",
   keywords:
     "Abhaneri travel guide, Chand Baori stepwell, Harshat Mata Temple, Abhaneri Rajasthan, deepest stepwell in the world, how to reach Abhaneri, Jaipur to Ranthambore stop, Rajasthan stepwells",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Abhaneri Guide: Chand Baori Stepwell & Tips",
           description:
-            "Complete Abhaneri guide — Chand Baori, one of the world's largest and deepest stepwells, Harshat Mata Temple, how to reach from Jaipur, and how to fit it into a wider Rajasthan route.",
+            "Abhaneri and Chand Baori, one of the world's deepest stepwells: Harshat Mata Temple, how to reach from Jaipur, timings and a day-trip plan.",
           image: "https://club.kudozz.in/images/blogs/rajasthan/abhaneri/chand-baori-abhaneri.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-04",

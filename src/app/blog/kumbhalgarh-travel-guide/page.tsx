@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Kumbhalgarh Fort Guide: The Great Wall of India",
   description:
-    "Complete Kumbhalgarh Fort guide — the 36 km fortified wall, Maharana Pratap's birthplace, the evening light and sound show, Kumbhalgarh Wildlife Sanctuary, how to reach from Udaipur, and a full visit plan.",
+    "Kumbhalgarh Fort: the 36 km wall, Maharana Pratap's birthplace, the light and sound show, the wildlife sanctuary, how to reach from Udaipur.",
   keywords:
     "Kumbhalgarh Fort travel guide, Great Wall of India, Kumbhalgarh wall length, Maharana Pratap birthplace, Kumbhalgarh light and sound show, Kumbhalgarh Wildlife Sanctuary, how to reach Kumbhalgarh, Kumbhalgarh from Udaipur, UNESCO hill forts Rajasthan",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Kumbhalgarh Fort Guide: The Great Wall of India",
           description:
-            "Complete Kumbhalgarh Fort guide — the 36 km fortified wall, Maharana Pratap's birthplace, the evening light and sound show, Kumbhalgarh Wildlife Sanctuary, how to reach from Udaipur, and a full visit plan.",
+            "Kumbhalgarh Fort: the 36 km wall, Maharana Pratap's birthplace, the light and sound show, the wildlife sanctuary, how to reach from Udaipur.",
           image: "https://club.kudozz.in/images/blogs/rajasthan/kumbhalgarh/kumbhalgarh-fort-2.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-04",

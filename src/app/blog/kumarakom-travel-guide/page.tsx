@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Kumarakom Travel Guide: Vembanad Lake & Houseboats" },
   description:
-    "The complete Kumarakom travel guide. Vembanad Lake, the Kumarakom Bird Sanctuary, houseboat resorts, Pathiramanal Island, where to stay, best time to visit, and a full itinerary through Kerala's quieter backwater retreat.",
+    "Kumarakom on Vembanad Lake: the bird sanctuary, houseboats and lake resorts, Pathiramanal Island, best time, where to stay and a 2-day plan.",
   keywords:
     "Kumarakom travel guide, Vembanad Lake, Kumarakom Bird Sanctuary, Kumarakom houseboat, best time to visit Kumarakom, how to reach Kumarakom, Pathiramanal Island, Kerala backwaters",
   openGraph: {

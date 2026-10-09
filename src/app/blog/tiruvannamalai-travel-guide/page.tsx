@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Tiruvannamalai Guide: Arunachala & Girivalam",
   description:
-    "Complete Tiruvannamalai guide — the Arunachaleswarar Temple, the 14 km barefoot Girivalam walk around Arunachala hill, Sri Ramanasramam, Karthigai Deepam, how to reach from Chennai, and a full visit plan.",
+    "Tiruvannamalai: the Arunachaleswarar Temple, the 14 km Girivalam walk round Arunachala, Sri Ramanasramam, Karthigai Deepam and a 2-day plan.",
   keywords:
     "Tiruvannamalai travel guide, Arunachaleswarar Temple, Girivalam, Arunachala hill, Sri Ramanasramam, Ramana Maharshi ashram, Karthigai Deepam, Pancha Bhoota Stalam, how to reach Tiruvannamalai, Tamil Nadu spiritual towns",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Tiruvannamalai Guide: Arunachala & Girivalam",
           description:
-            "Complete Tiruvannamalai guide — the Arunachaleswarar Temple, the 14 km barefoot Girivalam walk around Arunachala hill, Sri Ramanasramam, Karthigai Deepam, how to reach from Chennai, and a full visit plan.",
+            "Tiruvannamalai: the Arunachaleswarar Temple, the 14 km Girivalam walk round Arunachala, Sri Ramanasramam, Karthigai Deepam and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/tamil-nadu/tiruvannamalai/tiruvannamalai.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-03",

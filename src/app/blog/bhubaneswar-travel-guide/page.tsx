@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Bhubaneswar Travel Guide: Temple City of India",
   description:
-    "Complete Bhubaneswar guide — Lingaraj Temple, Mukteshwar Temple, Udayagiri and Khandagiri Caves, Nandankanan Zoo, Dhauli, how to reach, and a full visit plan for Odisha's capital.",
+    "Bhubaneswar guide: Lingaraj and Mukteshwar temples, Udayagiri and Khandagiri caves, Dhauli and Nandankanan, how to reach and a 2-day plan.",
   keywords:
     "Bhubaneswar travel guide, Temple City of India, Lingaraj Temple, Mukteshwar Temple, Rajarani Temple, Udayagiri Khandagiri Caves, Nandankanan Zoo, Dhauli Shanti Stupa, Odisha capital, Golden Triangle Odisha",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Bhubaneswar Travel Guide: Temple City of India",
           description:
-            "Complete Bhubaneswar guide — Lingaraj Temple, Mukteshwar Temple, Udayagiri and Khandagiri Caves, Nandankanan Zoo, Dhauli, how to reach, and a full visit plan for Odisha's capital.",
+            "Bhubaneswar guide: Lingaraj and Mukteshwar temples, Udayagiri and Khandagiri caves, Dhauli and Nandankanan, how to reach and a 2-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/odisha/bhubaneswar/lingaraj-temple-bhubaneswar.webp",
           datePublished: "2026-09-04",

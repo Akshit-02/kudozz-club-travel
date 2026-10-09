@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Achanakmar Tiger Reserve Travel Guide: Safari & Best Time" },
   description:
-    "The complete Achanakmar Tiger Reserve travel guide. Safari zones, wildlife, the Achanakmar-Amarkantak Biosphere Reserve, where to stay, best time to visit, and honest safari expectations.",
+    "Achanakmar Tiger Reserve safari guide: zones, wildlife, the Amarkantak biosphere, best time, where to stay and honest sighting expectations.",
   keywords:
     "Achanakmar Tiger Reserve travel guide, Achanakmar Amarkantak Biosphere Reserve, Achanakmar safari, best time to visit Achanakmar, how to reach Achanakmar, Chhattisgarh tiger reserve, Bilaspur wildlife",
   openGraph: {

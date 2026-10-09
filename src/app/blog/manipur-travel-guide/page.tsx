@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Manipur Travel Guide: Loktak Lake, Imphal & Kangla Fort" },
   description:
-    "The complete Manipur travel guide — the floating islands of Loktak Lake, Imphal's Kangla Fort and war cemeteries, Keibul Lamjao's floating national park, Meitei culture, where to stay and eat, and a full itinerary through India's 'Jewel of the East.'",
+    "Manipur travel guide: Loktak Lake's floating islands, Keibul Lamjao, Imphal's Kangla Fort and war cemeteries, best time, permits and a 5-day plan.",
   keywords:
     "Manipur travel guide, Loktak Lake, Imphal travel guide, Kangla Fort, Keibul Lamjao National Park, Sangai deer, Manipur itinerary, Northeast India travel, Ima Keithel market, best time to visit Manipur, how to reach Imphal, Manipur itinerary days, is Manipur safe to visit, Manipur budget trip, Loktak Lake floating islands, Sangai Festival",
   openGraph: {
@@ -60,7 +60,7 @@ function ArticleSchema() {
           image:
             "https://club.kudozz.in/images/blogs/manipur/manipur/loktak-lake-floating-islands-manipur.webp",
           datePublished: "2026-07-22",
-          dateModified: "2026-09-09",
+          dateModified: "2026-10-08",
           publisher: {
             "@type": "Organization",
             "@id": "https://club.kudozz.in/#organization",
@@ -467,6 +467,12 @@ export default function ManipurGuidePage() {
                       substantial given the hilly terrain.
                     </li>
                   </ul>
+                  <div
+                    className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
+                    style={{ fontFamily: "var(--font-dm-sans)" }}
+                  >
+                    <strong>📋 Inner Line Permit:</strong> Indian visitors from outside Manipur need an Inner Line Permit (ILP), required since December 2019. Apply on the state's official portal (manipurilponline.mn.gov.in) or at the self-service kiosks at Imphal airport, Mao Gate and Jiribam. Foreign nationals need a Protected Area Permit, reinstated for Manipur in December 2024.
+                  </div>
                   <div
                     className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl my-4 text-sm"
                     style={{ fontFamily: "var(--font-dm-sans)" }}

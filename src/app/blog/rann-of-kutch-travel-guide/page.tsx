@@ -13,7 +13,7 @@ import { GuidePhotoRow } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: { absolute: "Rann of Kutch Travel Guide: White Desert & Rann Utsav" },
   description:
-    "The complete Rann of Kutch travel guide. The White Rann salt desert, Rann Utsav tent city, Kalo Dungar, Kutchi craft villages, where to stay, best time to visit, and a full itinerary.",
+    "Rann of Kutch guide: the White Rann salt desert, the Rann Utsav tent city, Kalo Dungar and Kutchi craft villages, where to stay and a 3-day plan.",
   keywords:
     "Rann of Kutch travel guide, White Rann, Rann Utsav, Tent City Dhordo, Kalo Dungar, Kutch handicrafts, best time to visit Rann of Kutch, how to reach Rann of Kutch, Bhuj",
   openGraph: {

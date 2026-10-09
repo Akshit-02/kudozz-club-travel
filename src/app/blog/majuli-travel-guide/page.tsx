@@ -12,7 +12,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Majuli Travel Guide: The World's Largest River Island" },
   description:
-    "The complete Majuli travel guide. Neo-Vaishnavite satras, Sattriya dance, mask-making villages, ferry schedules, where to stay, best time to visit, and a full itinerary.",
+    "Majuli, Assam: Vaishnavite satras, Sattriya dance, mask-making villages, the ferry from Nimati Ghat, best time, where to stay and a 2-day plan.",
   keywords:
     "Majuli travel guide, Majuli river island, satra Majuli, Sattriya dance, mask making Majuli, best time to visit Majuli, how to reach Majuli, Nimati Ghat ferry, Assam river island",
   openGraph: {

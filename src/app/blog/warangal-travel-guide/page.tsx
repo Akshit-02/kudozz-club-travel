@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Warangal Travel Guide: Kakatiya Heritage & Tips",
   description:
-    "Complete Warangal guide — the Thousand Pillar Temple, Warangal Fort and the Kakatiya Kala Thoranam, Bhadrakali Temple, the UNESCO-listed Ramappa Temple nearby, how to reach from Hyderabad, and a full visit plan.",
+    "Warangal: the Thousand Pillar Temple, the fort and Kakatiya Kala Thoranam, Bhadrakali Temple, the UNESCO-listed Ramappa Temple and a 2-day plan.",
   keywords:
     "Warangal travel guide, Kakatiya dynasty, Thousand Pillar Temple, Warangal Fort, Kakatiya Kala Thoranam, Bhadrakali Temple, Ramappa Temple, Telangana heritage, how to reach Warangal, Warangal from Hyderabad",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Warangal Travel Guide: Kakatiya Heritage & Tips",
           description:
-            "Complete Warangal guide — the Thousand Pillar Temple, Warangal Fort and the Kakatiya Kala Thoranam, Bhadrakali Temple, the UNESCO-listed Ramappa Temple nearby, how to reach from Hyderabad, and a full visit plan.",
+            "Warangal: the Thousand Pillar Temple, the fort and Kakatiya Kala Thoranam, Bhadrakali Temple, the UNESCO-listed Ramappa Temple and a 2-day plan.",
           image: "https://club.kudozz.in/images/blogs/telangana/warangal/warangal-fort-kakatiya-kala-thoranam-gateway.webp",
           datePublished: "2026-09-03",
           dateModified: "2026-09-10",

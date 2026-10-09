@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Bhimbetka Rock Shelters: Prehistoric Cave Art Travel Guide" },
   description:
-    "The complete Bhimbetka travel guide — 700+ rock shelters with paintings up to 30,000 years old, the developed walking trail, how to reach from Bhopal, a day-trip itinerary, and budget breakdown for this UNESCO World Heritage prehistoric art site.",
+    "Bhimbetka rock shelters near Bhopal: prehistoric paintings in a UNESCO World Heritage Site, the walking trail, timings and a day-trip plan.",
   keywords:
     "Bhimbetka travel guide, Bhimbetka rock shelters, Bhimbetka cave paintings, Bhimbetka UNESCO, prehistoric rock art India, Bhimbetka Bhopal day trip, how to reach Bhimbetka, Bhimbetka Sanchi itinerary, Bhimbetka history, oldest rock art India, Vindhya hills rock shelters",
   openGraph: {

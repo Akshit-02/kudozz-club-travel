@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Tripura Travel Guide: Neermahal, Unakoti & Ujjayanta Palace" },
   description:
-    "The complete Tripura travel guide — the lake palace of Neermahal, the ancient rock carvings of Unakoti, Ujjayanta Palace and Agartala, tribal culture, where to stay and eat, and a full itinerary through one of India's least-visited Northeastern states.",
+    "Tripura travel guide: Neermahal lake palace, Unakoti's rock carvings, Ujjayanta Palace in Agartala, Matabari, best time and a 4-day itinerary.",
   keywords:
     "Tripura travel guide, Neermahal, Unakoti rock carvings, Ujjayanta Palace, Agartala travel guide, Tripura Sundari Temple, Sepahijala Wildlife Sanctuary, Tripura itinerary, Northeast India travel, best time to visit Tripura, how to reach Tripura, Tripura 4 day itinerary, is Tripura safe for solo travellers, Tripura budget trip, top things to do in Tripura, Matabari Shakti Peeth",
   openGraph: {

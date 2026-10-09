@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Munnar Travel Guide: Tea Gardens, Viewpoints & Best Time to Visit" },
   description:
-    "The complete Munnar travel guide. Tea estates, Eravikulam National Park, Kolukkumalai sunrise, Mattupetty Dam, Top Station, where to stay, what to eat, and a full 2-day itinerary through Kerala's tea country.",
+    "Munnar travel guide: tea estates, Eravikulam National Park, Kolukkumalai sunrise, Mattupetty and Top Station, where to stay and a 2-day plan.",
   keywords:
     "Munnar travel guide, Munnar tea gardens, Eravikulam National Park, Kolukkumalai sunrise trek, Mattupetty Dam, Top Station Munnar, Neelakurinji flower, best time to visit Munnar, how to reach Munnar, Munnar itinerary, Munnar 2 day itinerary, Munnar honeymoon, Anamudi Peak",
   openGraph: {

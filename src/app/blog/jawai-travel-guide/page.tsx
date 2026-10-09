@@ -14,7 +14,7 @@ import { GuideFigure } from "@/components/ui/GuideImages";
 export const metadata: Metadata = {
   title: "Jawai Travel Guide: Leopard Hills & Rabari Villages",
   description:
-    "Complete Jawai guide — leopards living among granite hills alongside Rabari shepherd villages, the Jawai Dam, safari logistics, how to reach from Udaipur or Jodhpur, and a full visit plan.",
+    "Jawai, Rajasthan: leopards in granite hills beside Rabari shepherd villages, the Jawai Dam, safari logistics, how to reach and a 2-day plan.",
   keywords:
     "Jawai travel guide, Jawai leopard safari, Jawai Dam, Pali district Rajasthan, Rabari village, Jawai Bandh, how to reach Jawai, leopard hills Rajasthan, Jawai wilderness camp",
   openGraph: {
@@ -62,7 +62,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Jawai Travel Guide: Leopard Hills & Rabari Villages",
           description:
-            "Complete Jawai guide — leopards living among granite hills alongside Rabari shepherd villages, the Jawai Dam, safari logistics, how to reach from Udaipur or Jodhpur, and a full visit plan.",
+            "Jawai, Rajasthan: leopards in granite hills beside Rabari shepherd villages, the Jawai Dam, safari logistics, how to reach and a 2-day plan.",
           image:
             "https://club.kudozz.in/images/blogs/rajasthan/jawai/jawai-dam-3.webp",
           datePublished: "2026-09-03",

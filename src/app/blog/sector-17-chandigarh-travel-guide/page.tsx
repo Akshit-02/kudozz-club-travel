@@ -13,7 +13,7 @@ import GuideTripCTA from "@/components/ui/GuideTripCTA";
 export const metadata: Metadata = {
   title: { absolute: "Sector 17 Chandigarh Travel Guide: Plaza, Shops & Cafés" },
   description:
-    "Complete guide to Sector 17, Chandigarh's Le Corbusier-designed city-centre plaza — the pedestrian shopping precinct, Neelam Cinema, evening fountains, cafés, and how to plan your visit.",
+    "Sector 17, Chandigarh's city-centre plaza by Le Corbusier's team: the pedestrian shopping precinct, Neelam Cinema, fountains, cafes and a visit plan.",
   keywords:
     "Sector 17 Chandigarh, Sector 17 Plaza, Chandigarh Plaza, Neelam Cinema Chandigarh, Sector 17 market Chandigarh, Chandigarh city centre, things to do in Sector 17, Sector 17 shopping, Chandigarh evening plaza, Sector 17 bus stand, Le Corbusier Sector 17, Sector 17 cafes Chandigarh",
   openGraph: {
@@ -61,7 +61,7 @@ function ArticleSchema() {
           "@type": "BlogPosting",
           headline: "Sector 17 Chandigarh Travel Guide: Plaza, Shops & Cafés",
           description:
-            "Complete guide to Sector 17, Chandigarh's Le Corbusier-designed city-centre plaza — the pedestrian shopping precinct, Neelam Cinema, evening fountains, cafés, and how to plan your visit.",
+            "Sector 17, Chandigarh's city-centre plaza by Le Corbusier's team: the pedestrian shopping precinct, Neelam Cinema, fountains, cafes and a visit plan.",
           image: "https://club.kudozz.in/images/blogs/chandigarh/sector-17/sector-17-plaza-rooster-fountain-chandigarh.webp",
           datePublished: "2026-08-31",
           dateModified: "2026-09-01",
