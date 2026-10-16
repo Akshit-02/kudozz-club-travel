@@ -474,18 +474,6 @@
       "attribution": "Photo by Haoreima, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
-      "path": "blogs/manipur/zeilad-lake/forest-fringed-lake-northeast-india.webp",
-      "usedIn": [
-        "zeilad-lake-travel-guide (hero + inline — replaces a Kerala photo used in error; regional fallback, no direct Zeilad Lake coverage exists on Commons)"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Doyang_reservoir_and_its_suroundings_in_Nagaland_JEG6035.JPG",
-      "originalFile": "Doyang reservoir and its suroundings in Nagaland JEG6035.JPG",
-      "license": "CC BY-SA 3.0",
-      "author": "P Jeganathan",
-      "attribution": "Photo by P Jeganathan, CC BY-SA 3.0, via Wikimedia Commons"
-    },
-    {
       "path": "blogs/manipur/ukhrul/ukhrul-hill-town-panoramic-view.webp",
       "usedIn": [
         "ukhrul-travel-guide (hero — replaces a Ziro photo used in error)"
@@ -903,18 +891,6 @@
       "attribution": "Photo by Lalitgupta isgec, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
-      "path": "blogs/ladakh/kargil/kargil-war-memorial-drass.webp",
-      "usedIn": [
-        "kargil-travel-guide (War Memorial inline section)"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kargil_War_Memorial_1_Sculpture_at_Drass.jpg",
-      "originalFile": "Kargil War Memorial 1 Sculpture at Drass.jpg",
-      "license": "CC BY-SA 4.0",
-      "author": "PhotoholicAbhishek",
-      "attribution": "Photo by PhotoholicAbhishek, CC BY-SA 4.0, via Wikimedia Commons"
-    },
-    {
       "path": "blogs/ladakh/drass/kargil-war-memorial-flag-drass.webp",
       "usedIn": [
         "drass-travel-guide (hero — replaces a generic shared leh-ladakh.jpg photo)"
@@ -925,18 +901,6 @@
       "license": "CC BY-SA 3.0",
       "author": "Ashoosaini2002",
       "attribution": "Photo by Ashoosaini2002, CC BY-SA 3.0, via Wikimedia Commons"
-    },
-    {
-      "path": "blogs/ladakh/drass/kargil-war-memorial-howitzer-display.webp",
-      "usedIn": [
-        "drass-travel-guide (War Memorial inline section)"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kargil_War_Memorial-Drass_-1.jpg",
-      "originalFile": "Kargil War Memorial-Drass -1.jpg",
-      "license": "CC BY-SA 4.0",
-      "author": "Lalitgupta isgec",
-      "attribution": "Photo by Lalitgupta isgec, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
       "path": "blogs/ladakh/zanskar-valley/phugtal-monastery-cliff-zanskar.webp",
@@ -999,18 +963,6 @@
       "license": "CC BY-SA 4.0",
       "author": "Rajnish71",
       "attribution": "Photo by Rajnish71, CC BY-SA 4.0, via Wikimedia Commons"
-    },
-    {
-      "path": "blogs/ladakh/turtuk/balti-women-turtuk-harvest.webp",
-      "usedIn": [
-        "turtuk-travel-guide (Farol & Chutang inline section)"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Balti_Women_Buckwheat_Turtuk_Mar19_DSC01118.jpg",
-      "originalFile": "Balti Women Buckwheat Turtuk Mar19 DSC01118.jpg",
-      "license": "CC BY-SA 4.0",
-      "author": "KartikiGonsalves",
-      "attribution": "Photo by KartikiGonsalves, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
       "path": "blogs/ladakh/lamayuru/lamayuru-monastery-moonland.webp",
@@ -2002,18 +1954,6 @@
       "attribution": "Photo by Vishnukumar Jangid, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
-      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/khanvel/forest-owlet-dadra-nagar-haveli.webp",
-      "usedIn": [
-        "khanvel-travel-guide (Khanvel Garden section)"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Forest_Owlet_by_Saswat_Mishra.jpg",
-      "originalFile": "Forest Owlet by Saswat Mishra.jpg",
-      "license": "CC BY-SA 4.0",
-      "author": "Saswatmishra1407",
-      "attribution": "Photo by Saswatmishra1407, CC BY-SA 4.0, via Wikimedia Commons"
-    },
-    {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/moti-daman-fort/moti-daman-fort-east-gate-inscription.webp",
       "usedIn": [
         "moti-daman-fort-travel-guide (hero — replaces a Goa photo used in error)"
@@ -2494,18 +2434,6 @@
       "license": "CC BY 4.0",
       "author": "Kingshuk Mondal",
       "attribution": "Photo by Kingshuk Mondal, CC BY 4.0, via Wikimedia Commons"
-    },
-    {
-      "path": "blogs/tripura/udaipur/udaipur-railway-station.webp",
-      "usedIn": [
-        "udaipur-tripura-travel-guide (hero + inline — replaces a Hampi photo used in error)"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Udaipur_Railway_station_of_Tripura_state.jpg",
-      "originalFile": "Udaipur Railway station of Tripura state.jpg",
-      "license": "CC BY-SA 4.0",
-      "author": "Sanjibroy56",
-      "attribution": "Photo by Sanjibroy56, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
       "path": "blogs/tripura/tripura-sundari-temple/tripura-sundari-temple-facade.webp",
@@ -6182,18 +6110,6 @@
       "attribution": "Photo by AAVRUTI PORLIKAR1996, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
-      "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/vanganga-garden-silvassa-evening-path.webp",
-      "usedIn": [
-        "silvassa-travel-guide (Vasona Lion Safari Park section)"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vanganga_Garden,_Silvassa_(32345632184).jpg",
-      "originalFile": "Vanganga_Garden,_Silvassa_(32345632184).jpg",
-      "license": "CC BY 2.0",
-      "author": "Ashish Gupta",
-      "attribution": "Photo by Ashish Gupta, CC BY 2.0, via Wikimedia Commons"
-    },
-    {
       "path": "blogs/dadra-and-nagar-haveli-and-daman-and-diu/silvassa/warli-tribal-painting-mud-wall.webp",
       "usedIn": [
         "silvassa-travel-guide (Warli Tribal Art & Culture section)"
@@ -6276,18 +6192,6 @@
       "license": "CC BY-SA 4.0",
       "author": "Dr Ghulam Mehdi",
       "attribution": "Photo by Dr Ghulam Mehdi, CC BY-SA 4.0, via Wikimedia Commons"
-    },
-    {
-      "path": "blogs/ladakh/turtuk/apricot-kernels-turtuk-child.webp",
-      "usedIn": [
-        "turtuk-travel-guide"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Playing_with_apricot_seeds_in_Turtuk_-_Nubra_Valley_(10020014404).jpg",
-      "originalFile": "Playing_with_apricot_seeds_in_Turtuk_-_Nubra_Valley_(10020014404).jpg",
-      "license": "CC BY-SA 2.0",
-      "author": "Fulvio Spada",
-      "attribution": "Photo by Fulvio Spada, CC BY-SA 2.0, via Wikimedia Commons"
     },
     {
       "path": "blogs/karnataka/gokarna/half-moon-beach-gokarna.webp",
@@ -6733,18 +6637,6 @@
       "license": "CC BY 4.0",
       "author": "Kingshuk Mondal",
       "attribution": "Photo by Kingshuk Mondal, CC BY 4.0, via Wikimedia Commons"
-    },
-    {
-      "path": "blogs/delhi/hauz-khas/reservoir-lake-evening-hauz-khas.webp",
-      "usedIn": [
-        "hauz-khas-delhi-travel-guide"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Evening_Scene_Hauz_Khas_Village_lake.jpg",
-      "originalFile": "Evening_Scene_Hauz_Khas_Village_lake.jpg",
-      "license": "CC BY-SA 3.0",
-      "author": "SanjayPandey",
-      "attribution": "Photo by SanjayPandey, CC BY-SA 3.0, via Wikimedia Commons"
     },
     {
       "path": "blogs/delhi/hauz-khas/spotted-deer-hauz-khas-deer-park.webp",
@@ -7268,18 +7160,6 @@
       "attribution": "Photo by Superfast1111, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
-      "path": "blogs/delhi/laxmi-nagar/laxmi-nagar-street-shop-signboards.webp",
-      "usedIn": [
-        "laxmi-nagar-delhi-travel-guide"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Laxmi_Nagar_street.jpg",
-      "originalFile": "Laxmi_Nagar_street.jpg",
-      "license": "CC BY 4.0",
-      "author": "Immanuelle",
-      "attribution": "Photo by Immanuelle, CC BY 4.0, via Wikimedia Commons"
-    },
-    {
       "path": "blogs/delhi/laxmi-nagar/golgappa-chaat-street-food.webp",
       "usedIn": [
         "laxmi-nagar-delhi-travel-guide"
@@ -7292,18 +7172,6 @@
       "attribution": "Photo by Rajesh9992000, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
-      "path": "blogs/puducherry/yanam-district/yanam-bridge-godavari-river-night.webp",
-      "usedIn": [
-        "yanam-district-travel-guide"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yanam_bridge_at_night.jpg",
-      "originalFile": "Yanam_bridge_at_night.jpg",
-      "license": "CC BY-SA 4.0",
-      "author": "Klsateeshvarma",
-      "attribution": "Photo by Klsateeshvarma, CC BY-SA 4.0, via Wikimedia Commons"
-    },
-    {
       "path": "blogs/puducherry/yanam-district/yanam-tower-eiffel-replica.webp",
       "usedIn": [
         "yanam-district-travel-guide"
@@ -7314,30 +7182,6 @@
       "license": "CC BY-SA 3.0",
       "author": "Phanisaladi",
       "attribution": "Photo by Phanisaladi, CC BY-SA 3.0, via Wikimedia Commons"
-    },
-    {
-      "path": "blogs/puducherry/yanam-district/historic-french-colonial-street-yanaon.webp",
-      "usedIn": [
-        "yanam-district-travel-guide"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Historic_French_colonial_street,_Yanaon.jpg",
-      "originalFile": "Historic_French_colonial_street,_Yanaon.jpg",
-      "license": "Public Domain",
-      "author": "Unknown (early-1900s BnF/Gallica archival photo)",
-      "attribution": "Public Domain (early-1900s archival photo), via Wikimedia Commons"
-    },
-    {
-      "path": "blogs/puducherry/yanam-district/gowthami-river-godavari-delta-boat.webp",
-      "usedIn": [
-        "yanam-district-travel-guide"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gowthami_river_Godavari_delta.jpg",
-      "originalFile": "Gowthami_river_Godavari_delta.jpg",
-      "license": "CC BY 4.0",
-      "author": "Anand Deepak Racharla",
-      "attribution": "Photo by Anand Deepak Racharla, CC BY 4.0, via Wikimedia Commons"
     },
     {
       "path": "blogs/delhi/vasant-kunj/dlf-promenade-mall-exterior-vasant-kunj.webp",
@@ -7676,18 +7520,6 @@
       "attribution": "Photo by Dev Jadiya, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
-      "path": "blogs/delhi/dwarka/dwarka-sector-13-metro-station.webp",
-      "usedIn": [
-        "dwarka-delhi-travel-guide"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dwarka_Sector_13_Metro_Station.jpg",
-      "originalFile": "Dwarka_Sector_13_Metro_Station.jpg",
-      "license": "CC BY-SA 4.0",
-      "author": "ArmouredCyborg",
-      "attribution": "Photo by ArmouredCyborg, CC BY-SA 4.0, via Wikimedia Commons"
-    },
-    {
       "path": "blogs/delhi/dwarka/dwarka-sector-12-metro-station.webp",
       "usedIn": [
         "dwarka-delhi-travel-guide"
@@ -7698,18 +7530,6 @@
       "license": "CC BY-SA 4.0",
       "author": "ArmouredCyborg",
       "attribution": "Photo by ArmouredCyborg, CC BY-SA 4.0, via Wikimedia Commons"
-    },
-    {
-      "path": "blogs/chandigarh/rose-garden/rose-garden-chandigarh-tourism-entrance-signage.webp",
-      "usedIn": [
-        "rose-garden-chandigarh-travel-guide"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Signage_for_Chandigarh's_Zakir_Hussain_Rose_Garden_(30404689928).jpg",
-      "originalFile": "Signage_for_Chandigarh's_Zakir_Hussain_Rose_Garden_(30404689928).jpg",
-      "license": "CC BY 2.0",
-      "author": "shankar s.",
-      "attribution": "Photo by shankar s., CC BY 2.0, via Wikimedia Commons"
     },
     {
       "path": "blogs/chandigarh/rose-garden/chandigarh-rose-festival-entrance-decoration.webp",
@@ -7819,18 +7639,6 @@
       "license": "CC BY-SA 4.0",
       "author": "RIDHVAN SHARMA",
       "attribution": "Photo by RIDHVAN SHARMA, CC BY-SA 4.0, via Wikimedia Commons"
-    },
-    {
-      "path": "blogs/chandigarh/botanical-garden/chandigarh-forest-tree-canopy.webp",
-      "usedIn": [
-        "chandigarh-botanical-garden-travel-guide"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Eucalyptus_Forest_-_panoramio.jpg",
-      "originalFile": "Eucalyptus_Forest_-_panoramio.jpg",
-      "license": "CC BY-SA 3.0",
-      "author": "ソキ",
-      "attribution": "CC BY-SA 3.0, via Wikimedia Commons"
     },
     {
       "path": "blogs/chandigarh/botanical-garden/birdwatching-chandigarh-forest-trail.webp",
@@ -8097,18 +7905,6 @@
       "attribution": "Photo by Amartyabag, CC BY-SA 3.0, via Wikimedia Commons"
     },
     {
-      "path": "blogs/uttarakhand/munsiyari/betuli-dhar-viewpoint-sunrise-munsiyari.webp",
-      "usedIn": [
-        "munsiyari-travel-guide"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Munsiyari_-_I_(14547053363).jpg",
-      "originalFile": "Sunrise_at_Munsiyari_-_I_(14547053363).jpg",
-      "license": "CC BY 2.0",
-      "author": "Abhijit Kar Gupta",
-      "attribution": "Photo by Abhijit Kar Gupta, CC BY 2.0, via Wikimedia Commons"
-    },
-    {
       "path": "blogs/uttarakhand/munsiyari/panchachuli-range-clear-daytime-view-munsiyari.webp",
       "usedIn": [
         "munsiyari-travel-guide"
@@ -8349,18 +8145,6 @@
       "attribution": "Photo by skiddalgi, CC BY-SA 3.0, via Wikimedia Commons"
     },
     {
-      "path": "blogs/chandigarh/garden-of-fragrance/jasminum-sambac-fragrant-white-flower.webp",
-      "usedIn": [
-        "garden-of-fragrance-chandigarh-travel-guide"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jasminum_sambac_Flower.jpg",
-      "originalFile": "Jasminum_sambac_Flower.jpg",
-      "license": "CC BY-SA 4.0",
-      "author": "PapiPijuan",
-      "attribution": "Photo by PapiPijuan, CC BY-SA 4.0, via Wikimedia Commons"
-    },
-    {
       "path": "blogs/chandigarh/terraced-garden/leisure-valley-open-lawn-chandigarh.webp",
       "usedIn": [
         "terraced-garden-chandigarh-travel-guide (hero — no dedicated Sector 33 Terraced Garden photo exists on Commons; uses a GPS-confirmed Leisure Valley photo instead, honestly captioned)"
@@ -8371,18 +8155,6 @@
       "license": "CC0",
       "author": "RIDH-1",
       "attribution": "Photo by RIDH-1, CC0, via Wikimedia Commons"
-    },
-    {
-      "path": "blogs/chandigarh/terraced-garden/leisure-valley-tree-arched-pathway-chandigarh.webp",
-      "usedIn": [
-        "terraced-garden-chandigarh-travel-guide"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Leisure_valley,_Chandigarh.jpg",
-      "originalFile": "Leisure_valley,_Chandigarh.jpg",
-      "license": "CC BY-SA 4.0",
-      "author": "RIDHVAN SHARMA",
-      "attribution": "Photo by RIDHVAN SHARMA, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
       "path": "blogs/rajasthan/abhaneri/chand-baori-abhaneri.webp",
@@ -11910,21 +11682,6 @@
       "attribution": "Photo by Amitabha Gupta, CC BY 4.0, via Wikimedia Commons",
       "location": "Gurudongmar Lake",
       "accessed": "2026-09-24"
-    },
-    {
-      "path": "blogs/haryana/gurugram/kingdom-of-dreams-gurugram.webp",
-      "usedIn": [
-        "gurugram-travel-guide (hero)",
-        "gurugram-travel-guide (Top Things to Do in Gurugram section)"
-      ],
-      "source": "Wikimedia Commons",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kingdom_of_Dreams_auditorium_night_view,_Gurgaon.jpg",
-      "originalFile": "Kingdom of Dreams auditorium night view, Gurgaon.jpg",
-      "license": "CC BY-SA 3.0",
-      "author": "Ekabhishek",
-      "attribution": "Photo by Ekabhishek, CC BY-SA 3.0, via Wikimedia Commons",
-      "location": "Kingdom of Dreams",
-      "accessed": "2026-09-25"
     },
     {
       "path": "blogs/haryana/gurugram/cyber-hub-gurugram.webp",
