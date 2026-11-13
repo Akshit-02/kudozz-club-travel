@@ -81,7 +81,10 @@ function BlogSchema({
 export default function BlogPage() {
   return (
     <>
-      <BlogSchema entries={[featuredPost, ...posts]} />
+      {/* Only the newest posts: listing all 1,000+ here made this page ~1.1 MB
+          (App Router ships the JSON twice: in the HTML and in the RSC payload).
+          Search engines discover every post through the sitemap instead. */}
+      <BlogSchema entries={[featuredPost, ...posts].slice(0, 30)} />
       <SiteHeader />
       <BlogPageClient />
       <SiteFooter />

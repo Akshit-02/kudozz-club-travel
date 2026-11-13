@@ -4,7 +4,7 @@
 // trips, the Leh Ladakh guide, motorcycle trips), itineraries and packages. Route pages own the
 // journey; destination guides own what to do on arrival.
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";

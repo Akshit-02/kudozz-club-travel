@@ -4,7 +4,7 @@
 // destination guides that own each place, the itineraries and the nature packages. Species,
 // parks and birding stay with Wildlife; hill towns with Hills; activities with Adventure.
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/ui/Link";
 import Image from "next/image";
 import SiteHeader from "@/components/layout/SiteHeader";
 import SiteFooter from "@/components/layout/SiteFooter";

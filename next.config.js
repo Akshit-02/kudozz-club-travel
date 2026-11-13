@@ -37,12 +37,17 @@ const nextConfig = {
         ],
       },
       {
-        // Cache static assets aggressively
-        source: "/static/(.*)",
+        // Files in public/ default to "max-age=0, must-revalidate" on Vercel,
+        // so every page view re-requests every image (each one a billed CDN
+        // request). Browsers keep them for 30 days; the CDN keeps them until
+        // the next deploy (Vercel purges its cache on every deployment).
+        // Not "immutable": image files are sometimes replaced under the same name.
+        source:
+          "/:path(images/.*|logo\\.png|og-default\\.jpg|icon-192\\.png|apple-touch-icon\\.png|favicon\\.ico|site\\.webmanifest)",
         headers: [
           {
             key: "Cache-Control",
-            value: "public, max-age=31536000, immutable",
+            value: "public, max-age=2592000, s-maxage=31536000, stale-while-revalidate=86400",
           },
         ],
       },
